@@ -31,6 +31,9 @@ let hover = null;
 let geom = null;
 let drawing = false;
 
+function plain(value) {
+  return String(value ?? "").replace(/\p{Extended_Pictographic}/gu, "").replace(/\s+/g, " ").trim();
+}
 function esc(value) {
   return String(value ?? "").replace(/[&<>"']/g, (ch) => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
@@ -213,7 +216,7 @@ function quoteFacts(item) {
     </div>
     <div class="quote-facts">
       <div><span>板块</span><b>${esc(sector)}</b></div>
-      <div><span>快照信号</span><b>${esc(item.signal || "—")}</b></div>
+      <div><span>快照信号</span><b>${esc(plain(item.signal) || "快照没有")}</b></div>
       <div><span>会话标记</span><b>${esc(item.session_tag || "—")} · 非本页实时</b></div>
     </div>
     <button type="button" class="star ${state.starred.has(item.ticker) ? "on" : ""}" data-act="star">${state.starred.has(item.ticker) ? "已记在本页" : "记在本页"}</button>`;
@@ -261,7 +264,7 @@ function sectorHTML() {
     <button type="button" class="srow ${active === row.name ? "on" : ""}" data-act="sector" data-sector="${esc(row.name)}">
       <strong>${esc(row.name)}</strong>
       <span class="stats">
-        <span>历史高信念胜率 ${row.win == null ? "—" : Number(row.win).toFixed(1) + "%"}</span>
+        <span>命中比例 ${row.win == null ? "—" : Number(row.win).toFixed(1) + "%"}</span>
         <span>样本 ${row.samples == null ? "—" : Number(row.samples).toLocaleString("en-US")}</span>
         <span>高信念信号 ${row.high_conviction_signals == null ? "—" : row.high_conviction_signals}</span>
         <span>盈亏比 ${row.pf == null ? "—" : Number(row.pf).toFixed(2)}</span>
@@ -272,76 +275,79 @@ function sectorHTML() {
     <div class="stack">
       <button type="button" class="plain" data-act="clear-sector">全部板块</button>
       ${rows}
-      <p class="src">胜率来自 5 年样本统计，并带有快照里的样本量评级。不是当前这一刻的上涨概率。</p>
+      <p class="src">表里的百分比是历史样本的命中比例，括号里的星级来自快照。高信念信号笔数见每一行。这不是今天的上涨概率。</p>
     </div>`;
 }
 function aiHTML(item) {
   const ai = item.ai;
   if (!ai) return `<p class="empty">该标的不在 AI 5 年快照里。</p>`;
   const levels = [
-    ["多头目标", ai.target_profit_price, ai.target_profit_pct],
-    ["多头防守", ai.stop_loss_price, ai.stop_loss_pct == null ? null : -Math.abs(ai.stop_loss_pct)],
-    ["空头目标", ai.short_target_profit_price, ai.short_target_profit_pct == null ? null : -Math.abs(ai.short_target_profit_pct)],
-    ["空头防守", ai.short_stop_loss_price, ai.short_stop_loss_pct],
+    ["做多止盈价（美元/股）", ai.target_profit_price, ai.target_profit_pct],
+    ["做多止损价（美元/股）", ai.stop_loss_price, ai.stop_loss_pct == null ? null : -Math.abs(ai.stop_loss_pct)],
+    ["做空止盈价（美元/股）", ai.short_target_profit_price, ai.short_target_profit_pct == null ? null : -Math.abs(ai.short_target_profit_pct)],
+    ["做空止损价（美元/股）", ai.short_stop_loss_price, ai.short_stop_loss_pct],
   ];
   return `
     <div class="stack">
       <div class="card">
-        <h3>${esc(ai.action || "快照没有动作原文")}</h3>
+        <h3>快照原文：${esc(ai.action || "没有动作原文")}</h3>
         <div class="kv">
-          <span class="k">做多校准胜率</span><span class="num">${ai.calibrated_win_rate_pct == null ? "—" : Number(ai.calibrated_win_rate_pct).toFixed(1) + "%"} · 排名 ${ai.rank ?? "—"}</span>
-          <span class="k">做空校准胜率</span><span class="num">${ai.calibrated_short_win_rate_pct == null ? "—" : Number(ai.calibrated_short_win_rate_pct).toFixed(1) + "%"} · 排名 ${ai.short_rank ?? "—"}</span>
-          <span class="k">原始多 / 原始空</span><span class="num">${ai.predicted_win_rate_pct == null ? "—" : Number(ai.predicted_win_rate_pct).toFixed(1) + "%"} / ${ai.model_raw_short_prob_pct == null ? "—" : Number(ai.model_raw_short_prob_pct).toFixed(1) + "%"}</span>
-          <span class="k">空头动作</span><span>${esc(ai.short_action || "—")}</span>
-          <span class="k">板块评级</span><span>${esc(ai.sector_rating || "—")} · 盈亏比 ${ai.sector_pf == null ? "—" : Number(ai.sector_pf).toFixed(2)}</span>
-          <span class="k">4H 原文</span><span>${esc(ai.four_h_div || "—")}</span>
+          <span class="k" title="模型原始输出经过结构加减，再乘赛道盈亏比并加上 4 小时启发式调整。不是用历史 Call/Put 盈亏校准出来的胜率。">规则调整后的做多分</span><span class="num">${ai.calibrated_win_rate_pct == null ? "—" : Number(ai.calibrated_win_rate_pct).toFixed(1)} · 排序 ${ai.rank ?? "—"}</span>
+          <span class="k" title="空头原始输出再按赛道、期权比、宏观和形态规则加减，并截断在 10 到 95。">规则调整后的做空分</span><span class="num">${ai.calibrated_short_win_rate_pct == null ? "—" : Number(ai.calibrated_short_win_rate_pct).toFixed(1)} · 排序 ${ai.short_rank ?? "—"}</span>
+          <span class="k">模型原始输出 / 做空原始输出</span><span class="num">${ai.model_raw_prob_pct == null ? "—" : Number(ai.model_raw_prob_pct).toFixed(1)} / ${ai.model_raw_short_prob_pct == null ? "—" : Number(ai.model_raw_short_prob_pct).toFixed(1)}</span>
+          <span class="k">结构加减后的做多分</span><span class="num">${ai.predicted_win_rate_pct == null ? "—" : Number(ai.predicted_win_rate_pct).toFixed(1)}</span>
+          <span class="k">做空原文</span><span>${esc(ai.short_action || "—")}</span>
+          <span class="k">4 小时启发式标签</span><span>${esc(ai.four_h_div || "快照没有")}</span>
         </div>
+        <p class="src">分数预测的是最多 5 个交易日内，价格先碰到止盈轨还是止损轨。它不是期权盈利概率。4 小时标签由日线或缓存 K 线的规则打出，不是已核对的背离或成交分布。</p>
       </div>
       <div class="metrics">
         ${levels.map(([label, price, pct]) => `<div class="metric"><span class="lbl">${label}</span><span class="val num">${money(price)}</span><span class="src">${pct == null ? "" : fmtPct(pct)}</span></div>`).join("")}
       </div>
       <div class="card">
-        <h3>支撑与阻力</h3>
+        <h3>规则估算的价位（美元/股）</h3>
         <div class="kv">
-          <span class="k">S1 / S2</span><span class="num">${money(ai.s1)} / ${money(ai.s2)}</span>
-          <span class="k">R1 / R2</span><span class="num">${money(ai.r1)} / ${money(ai.r2)}</span>
-          <span class="k">关键防守</span><span class="num">${money(ai.sl)}</span>
-          <span class="k">AI 快照里的墙</span><span class="num">Call ${money(ai.call_wall)} · Put ${money(ai.put_wall)}</span>
-          <span class="k">AI 记录的 PCR</span><span>${ai.pcr == null ? "—" : Number(ai.pcr).toFixed(2)} · ${esc(ai.pcr_sentiment || "")}</span>
+          <span class="k" title="由回撤、均线和估算成交峰拼出来的价位，不是交易所的成交分布。">支撑 1 / 支撑 2</span><span class="num">${money(ai.s1)} / ${money(ai.s2)}</span>
+          <span class="k">阻力 1 / 阻力 2</span><span class="num">${money(ai.r1)} / ${money(ai.r2)}</span>
+          <span class="k">防守价</span><span class="num">${money(ai.sl)}</span>
+          <span class="k" title="这是模型字段。期权链缺失时，源码会用收盘价的约 105% 和 95% 填上。">模型字段里的行权价</span><span class="num">Call ${money(ai.call_wall)} · Put ${money(ai.put_wall)}</span>
+          <span class="k">模型字段里的张数比</span><span>${ai.pcr == null ? "—" : Number(ai.pcr).toFixed(2)} · ${esc(ai.pcr_sentiment || "")}</span>
         </div>
-        <p class="src">AI 卡里的 PCR 和墙，与下面期权链缓存不是同一字段。天气原文：${esc(ai.macro_temp || "—")}</p>
+        <p class="src">上面的行权价和张数比来自模型快照。下面期权链是另一份缓存。两边不同就分开看，本页不把它们合成一个结论。天气原文：${esc(ai.macro_temp || "—")}</p>
       </div>
-      <blockquote class="script">${esc(ai.scenario_script || "快照没有剧本原文")}</blockquote>
-      <p class="src">胜率是历史校准统计。剧本是快照原文，不是本页新算的概率。</p>
+      <details>
+        <summary>点位原文（规则估算，不是已验证的成交密集区）</summary>
+        <blockquote class="script">${esc(ai.scenario_script || "快照没有这段原文")}</blockquote>
+      </details>
     </div>`;
 }
 function optionsHTML(item) {
   const op = item.options;
-  if (!op) return `<p class="empty">这份快照里没有该标的的期权缓存。</p>`;
+  if (!op) return `<p class="empty">这份快照没有期权链。这里留空，不显示 0。</p>`;
   return `
     <div class="stack">
       <div class="card">
-        <h3>${esc(op.pcr_sentiment || "快照情绪原文")}</h3>
+        <h3>${esc(op.pcr_sentiment || "快照没有多空字样")}</h3>
+        <p class="src">这句是源码按张数比和权利金比写的标签，不是机构方向。</p>
         <div class="kv">
-          <span class="k">到期</span><span>${esc(op.options_exp || "—")}</span>
-          <span class="k">张数 PCR / 资金 PCR</span><span class="num">${op.pcr == null ? "—" : Number(op.pcr).toFixed(2)} / ${op.dollar_pcr == null ? "—" : Number(op.dollar_pcr).toFixed(2)}</span>
+          <span class="k">到期日</span><span>${esc(op.options_exp || "快照没有")}</span>
+          <span class="k" title="Put 张数除以 Call 张数。权利金比是成交金额之比。都不是胜率。">张数比 / 权利金比</span><span class="num">${op.pcr == null ? "—" : Number(op.pcr).toFixed(2)} / ${op.dollar_pcr == null ? "—" : Number(op.dollar_pcr).toFixed(2)}</span>
           <span class="k">Call / Put 张数</span><span class="num">${op.call_vol == null ? "—" : Number(op.call_vol).toLocaleString("en-US")} / ${op.put_vol == null ? "—" : Number(op.put_vol).toLocaleString("en-US")}</span>
-          <span class="k">平值 IV</span><span class="num">${op.iv_atm == null ? "—" : Number(op.iv_atm).toFixed(1) + "%"}</span>
-          <span class="k">定价波动带</span><span>${esc(op.exp_move_str || "—")}</span>
-          <span class="k">Call 墙 / Put 墙</span><span class="num">${money(op.call_wall)} / ${money(op.put_wall)}</span>
+          <span class="k" title="平值附近 Call 和 Put 的隐含波动率，单位是百分数。">平值隐含波动</span><span class="num">${op.iv_atm == null ? "—" : Number(op.iv_atm).toFixed(1) + "%"}</span>
+          <span class="k" title="用平值跨式权利金估算的正股价格区间，不是权利金本身。">正股波动区间</span><span>${esc(op.exp_move_str || "—")}</span>
+          <span class="k" title="该到期日里，成交权利金最集中的行权价。行权价的单位是正股价格。这不是 GEX，也不是机构方向。">权利金最集中的行权价</span><span class="num">Call ${money(op.call_wall)} · Put ${money(op.put_wall)}</span>
         </div>
       </div>
-      <div class="card"><h3>主力 Call</h3><p>${esc(op.top_call_info || "—")}</p></div>
-      <div class="card"><h3>主力 Put</h3><p>${esc(op.top_put_info || "—")}</p></div>
-      <p class="src">期权数字来自终端快照里的期权缓存，不是本页重新拉的链，也不能在这里下单。</p>
+      <div class="card"><h3>Call 权利金最高的一档</h3><p>${esc(op.top_call_info || "快照没有")}</p><p class="src">括号里的金额是权利金，不是正股价格。</p></div>
+      <div class="card"><h3>Put 权利金最高的一档</h3><p>${esc(op.top_put_info || "快照没有")}</p><p class="src">源码优先选大约 2 到 11 天的周五合约，并跳过已经收盘的当日到期合约。</p></div>
     </div>`;
 }
 function tacticsHTML(item) {
   const rows = [
-    ["坑位原文", item.pit_status || "—"],
-    ["距坑", item.dist_to_pit == null ? "—" : fmtPct(item.dist_to_pit)],
-    ["黄金坑带", item.fib_low == null ? "—" : `${money(item.fib_low)} – ${money(item.fib_high)}`],
-    ["参考价", item.optimal_limit == null ? "—" : money(item.optimal_limit)],
+    ["位置原文", item.pit_status || "快照没有"],
+    ["相对回撤带", item.dist_to_pit == null ? "快照没有" : fmtPct(item.dist_to_pit)],
+    ["0.5–0.618 回撤带（美元/股）", item.fib_low == null ? "快照没有" : `${money(item.fib_low)} – ${money(item.fib_high)}`],
+    ["正股参考价（美元/股）", item.optimal_limit == null ? "快照没有" : money(item.optimal_limit)],
     ["参考说明", item.limit_note || "—"],
     ["参考防守", item.entry_stop_loss == null ? "—" : money(item.entry_stop_loss)],
     ["结构防守", item.struct_stop == null ? "—" : money(item.struct_stop)],
@@ -354,12 +360,12 @@ function tacticsHTML(item) {
   return `
     <div class="stack">
       <div class="kv">${rows.map(([k, v]) => `<span class="k">${esc(k)}</span><span>${esc(v)}</span>`).join("")}</div>
-      <p class="src">这些是终端快照里已经算好的参考价位和原文。本页不能下单，也没有新做一条交易指令。</p>
+      <p class="src">这些是正股价格。生产页的 25% 是股票仓位上限，不是期权买多少张。本页不能下单。</p>
     </div>`;
 }
 
 function renderStepper() {
-  const steps = [["market", "市场"], ["sector", "板块"], ["stock", "个股"], ["options", "期权"]];
+  const steps = [["market", "1 市场环境"], ["sector", "2 选标的"], ["stock", "3 看走势"], ["options", "4 查期权"]];
   setHTML("stepper", steps.map(([id, label]) =>
     `<button type="button" class="step ${state.step === id ? "on" : ""}" data-act="step" data-step="${id}" ${state.step === id ? 'aria-current="step"' : ""}>${label}</button>`
   ).join(""));
@@ -419,9 +425,9 @@ function summaries(item) {
     essentials: `日盘 ${money(item.last)} · ${fmtPct(item.pct_change)} · RSI ${item.rsi == null ? "—" : Number(item.rsi).toFixed(1)}`,
     market: `${SNAPSHOT.market.weather_status} · QQQ 日盘 ${fmtPct(BY.QQQ ? BY.QQQ.pct_change : null)}`,
     sector: sectorName(item),
-    ai: ai.calibrated_win_rate_pct == null ? "快照没有这条 AI 记录" : `多 ${Number(ai.calibrated_win_rate_pct).toFixed(1)}% · 空 ${Number(ai.calibrated_short_win_rate_pct).toFixed(1)}%`,
-    options: op.pcr == null ? "无期权缓存" : `PCR ${Number(op.pcr).toFixed(2)} · IV ${op.iv_atm == null ? "—" : Number(op.iv_atm).toFixed(1) + "%"}`,
-    tactics: `${item.pit_status || "坑位未记录"} · 参考 ${item.optimal_limit == null ? "—" : money(item.optimal_limit)}`,
+    ai: ai.calibrated_win_rate_pct == null ? "快照没有这只股票的模型分" : `规则调整后的做多分 ${Number(ai.calibrated_win_rate_pct).toFixed(1)}，不是期权胜率`,
+    options: op.pcr == null ? "这份快照没有期权链，不显示 0" : `到期 ${op.options_exp || "—"} · 张数比 ${Number(op.pcr).toFixed(2)} · 权利金比 ${op.dollar_pcr == null ? "—" : Number(op.dollar_pcr).toFixed(2)}`,
+    tactics: `正股参考价 ${item.optimal_limit == null ? "快照没有" : money(item.optimal_limit)} · 不是期权张数`,
   };
 }
 function chartNote(item) {
@@ -429,7 +435,7 @@ function chartNote(item) {
   if (!raw.length) return "离线图表：5 年面板里没有这个代码的日 K。本页不编造 K 线，也不加载 TradingView。";
   const name = state.period === "D" ? "日K" : state.period === "W" ? "周K" : "月K";
   const file = item.panel_file ? `data_cache/${item.panel_file}` : SNAPSHOT.meta.panel_source;
-  return `离线${name} · ${file} · ${raw[0][0]} 至 ${raw[raw.length - 1][0]}，共 ${raw.length} 根日K。更早的面板历史没有放进这页。周K和月K由这些日K聚合。外部图表库没有加载。`;
+  return `图上是离线${name}，最后一根是面板交易日 ${raw[raw.length - 1][0]}。这不是看盘软件的时钟，也不是模型分数。来源 ${file}。周K和月K由这些日K聚合。`;
 }
 function syncPanels() {
   document.querySelectorAll(".drawer [data-panel]").forEach((el) => {
@@ -463,11 +469,11 @@ function render() {
   document.body.classList.toggle("drawer-open", !!state.drawerOpen);
   const collapse = document.getElementById("btnCollapse");
   if (collapse) collapse.textContent = state.collapsed ? "展开列表" : "收起列表";
-  setText("topMeta", `快照 · ${SNAPSHOT.market.weather_status} · QQQ 日盘 ${fmtPct(BY.QQQ ? BY.QQQ.pct_change : null)}`);
+  setText("topMeta", `市场快照：${plain(SNAPSHOT.market.weather_status)}。QQQ 日盘 ${fmtPct(BY.QQQ ? BY.QQQ.pct_change : null)}。截至 ${SNAPSHOT.meta.sync_time}`);
   const quoteInner = LAYOUT === "c" ? quoteFacts(item) + metricsHTML(item) : quoteFacts(item);
   setHTML("quoteHost", `<div class="quote">${quoteInner}</div>`);
   setHTML("essentialsHost", metricsHTML(item));
-  setHTML("keyline", `${esc(item.signal || "无信号原文")} · MA50 偏离 ${fmtPct(item.bias)} · RSI ${item.rsi == null ? "—" : Number(item.rsi).toFixed(1)} · ${esc(item.pit_status || "坑位未记录")}`);
+  setHTML("keyline", `${esc(plain(item.signal) || "无信号原文")} · MA50 偏离 ${fmtPct(item.bias)} · RSI ${item.rsi == null ? "—" : Number(item.rsi).toFixed(1)} · ${esc(plain(item.pit_status) || "位置未记录")}`);
   const market = marketParts();
   setHTML("marketHost", LAYOUT === "c" ? market.brief : market.all);
   setHTML("marketDetail", market.detail);
@@ -478,7 +484,7 @@ function render() {
   const sums = summaries(item);
   Object.entries(sums).forEach(([key, text]) => setText("sum-" + key, text));
   setText("chartNote", chartNote(item));
-  setText("footnote", `${SNAPSHOT.meta.sync_time} 的终端与预测快照。会话标记：${(SNAPSHOT.meta.session_tags || []).join("、") || "—"}。这是布局设计预览，不连接行情，不加载 TradingView，不能下单。主分支已包含 PR #5：生产页先放出表格和自选，再延迟加载图表库。这份预览直接用本地日K画布，避免外链图表挡住盘面。生产生成器和现网页面都没有改。`);
+  setText("footnote", `报价同步 ${SNAPSHOT.meta.sync_time}，会话标记：${(SNAPSHOT.meta.session_tags || []).join("、") || "—"}。报价、日K和模型分是三套数字。生产页「AI高胜率」会列出全部有模型记录的代码，并不是筛过的高分名单；「做空榜 Top 5」在当前代码里也没有截成 5 只。本页不沿用这两个名字。不能下单。`);
   renderStepper();
   renderFilters();
   renderWatch();
@@ -691,32 +697,14 @@ function selectTicker(ticker) {
 }
 function setStep(step) {
   state.step = step;
-  if (step === "market") {
-    state.listMode = "etf";
-    state.sector = "全部";
-    state.ticker = BY.QQQ ? "QQQ" : state.ticker;
-    state.tab = "market";
-    state.open.market = true;
-  } else if (step === "sector") {
-    state.listMode = "stocks";
-    state.tab = "sector";
-    state.open.sector = true;
-  } else if (step === "stock") {
-    state.listMode = "stocks";
-    if (BY[state.ticker] && BY[state.ticker].kind === "etf") state.ticker = state.lastStock || "LLY";
-    state.tab = "essentials";
-    state.open.essentials = true;
-  } else if (step === "options") {
-    state.tab = "options";
-    state.open.options = true;
-  }
-  if (LAYOUT === "a") state.drawerOpen = step !== "stock";
+  if (step === "market") state.open.market = true;
+  else if (step === "sector") state.open.sector = true;
+  else if (step === "stock") state.open.essentials = true;
+  else if (step === "options") state.open.options = true;
   render();
-  if (LAYOUT === "c") {
-    const id = { market: "sec-market", sector: "sec-sector", stock: "sec-stock", options: "sec-options" }[step];
-    const el = document.getElementById(id);
-    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
-  }
+  if (step === "sector") document.getElementById("search")?.focus();
+  if (step === "stock") document.getElementById("chart")?.scrollIntoView({ block: "nearest" });
+  if (step === "options") document.querySelector("[data-acc=options]")?.scrollIntoView({ block: "nearest" });
 }
 function onClick(event) {
   const target = event.target.closest("[data-act]");
@@ -756,7 +744,11 @@ function onClick(event) {
 
 function boot() {
   loadStars();
-  if (LAYOUT === "a") state.collapsed = true;
+  const asked = new URLSearchParams(location.search).get("ticker");
+  if (asked && BY[asked.toUpperCase()]) {
+    state.ticker = asked.toUpperCase();
+    if (BY[state.ticker].kind === "stock") state.lastStock = state.ticker;
+  }
   document.body.addEventListener("click", onClick);
   const search = document.getElementById("search");
   if (search) search.addEventListener("input", (event) => { state.q = event.target.value; renderWatch(); });

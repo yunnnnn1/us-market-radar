@@ -3,22 +3,28 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>设计预览 B · 均衡三栏</title>
+<title>看盘：价格、走势和期权链</title>
 <style>
 __SHARED_CSS__
 </style>
 </head>
 <body data-layout="b">
-  <div class="banner">设计预览 B · 均衡三栏 · 未连接行情 · 不能下单 · 数值来自仓库快照</div>
+  <div class="banner">设计预览 · 未接入生产 · 不能下单 · 数字来自仓库快照，本页不连接行情</div>
+  <nav class="sitenav" aria-label="预览页面">
+    <a href="terminal.html" aria-current="page">看盘：价格、走势、期权</a>
+    <a href="macro.html">宏观：大盘和板块</a>
+    <a href="stocks.html">个股：候选比较</a>
+    <a href="predict.html">模型：分数与适用范围</a>
+    <a href="backtest.html">回测：历史表现与风险</a>
+  </nav>
   <header class="topbar">
     <div class="brand">
-      <span class="pill">B</span>
       <div>
-        <strong>均衡三栏</strong>
-        <div class="brand-sub">列表、K 线、详情同时在，次要内容默认收起</div>
+        <strong>先看市场，再选标的，对一下走势和期权</strong>
+        <div class="brand-sub">三栏只是暂定底稿，还没有选定。这页回答：正股价格、日 K 和期权链各是什么。</div>
       </div>
     </div>
-    <nav id="stepper" aria-label="看盘路径"></nav>
+    <nav id="stepper" aria-label="阅读顺序"></nav>
     <div class="top-side">
       <div id="topMeta"></div>
       <button id="btnCollapse" type="button">收起列表</button>
@@ -48,42 +54,42 @@ __SHARED_CSS__
     <aside class="rail" id="rail">
       <section class="acc open" data-acc="essentials">
         <button class="acc-btn" type="button" data-act="acc" data-acc="essentials">
-          <span class="acc-title">要点</span>
+          <span class="acc-title">正股价格</span>
           <span class="acc-sum" id="sum-essentials"></span>
         </button>
         <div class="acc-body" id="essentialsHost"></div>
       </section>
       <section class="acc" data-acc="market">
         <button class="acc-btn" type="button" data-act="acc" data-acc="market">
-          <span class="acc-title">市场</span>
+          <span class="acc-title">市场环境</span>
           <span class="acc-sum" id="sum-market"></span>
         </button>
         <div class="acc-body" id="marketHost"></div>
       </section>
       <section class="acc" data-acc="sector">
         <button class="acc-btn" type="button" data-act="acc" data-acc="sector">
-          <span class="acc-title">板块</span>
+          <span class="acc-title">板块样本</span>
           <span class="acc-sum" id="sum-sector"></span>
         </button>
         <div class="acc-body" id="sectorHost"></div>
       </section>
       <section class="acc" data-acc="ai">
         <button class="acc-btn" type="button" data-act="acc" data-acc="ai">
-          <span class="acc-title">AI 波段</span>
+          <span class="acc-title">模型规则分</span>
           <span class="acc-sum" id="sum-ai"></span>
         </button>
         <div class="acc-body" id="aiHost"></div>
       </section>
       <section class="acc" data-acc="options">
         <button class="acc-btn" type="button" data-act="acc" data-acc="options">
-          <span class="acc-title">期权</span>
+          <span class="acc-title">期权链（权利金）</span>
           <span class="acc-sum" id="sum-options"></span>
         </button>
         <div class="acc-body" id="optionsHost"></div>
       </section>
       <section class="acc" data-acc="tactics">
         <button class="acc-btn" type="button" data-act="acc" data-acc="tactics">
-          <span class="acc-title">参考价位</span>
+          <span class="acc-title">正股参考价</span>
           <span class="acc-sum" id="sum-tactics"></span>
         </button>
         <div class="acc-body" id="tacticsHost"></div>

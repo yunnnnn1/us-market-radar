@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>个股：候选比较</title>
+<style>
+:root { color-scheme: dark; --bg:#0e1116; --card:#161b22; --line:#2c3442; --text:#e8eaed; --muted:#c5ced8; --accent:#9bb8e8; --up:#8fceaa; --down:#e09a9a; }
+* { box-sizing: border-box; }
+body { margin:0; font-family:"WenQuanYi Micro Hei","PingFang SC","Microsoft YaHei",sans-serif; font-size:16px; line-height:1.55; color:var(--text); background:var(--bg); }
+a { color: var(--accent); }
+.banner { background:#1a1814; color:#e6d7b8; padding:10px 20px; font-size:15px; }
+.sitenav { display:flex; flex-wrap:wrap; gap:8px; padding:10px 16px; background:#10141b; border-bottom:1px solid var(--line); }
+.sitenav a { color:var(--muted); text-decoration:none; border:1px solid var(--line); border-radius:999px; padding:6px 12px; }
+.sitenav a[aria-current="page"] { color:var(--text); background:#243044; border-color:#6e8ebc; }
+main { width:min(1100px, calc(100% - 32px)); margin:0 auto; padding:22px 0 48px; }
+h1 { font-size:28px; line-height:1.3; margin:0 0 8px; }
+.purpose { font-size:16px; color:var(--text); margin:0 0 14px; }
+.steps { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 18px; padding:0; list-style:none; }
+.steps li { background:#161b22; border:1px solid var(--line); border-radius:10px; padding:8px 12px; font-size:15px; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(240px,1fr)); gap:12px; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 16px; }
+.card h2 { font-size:18px; margin:0 0 8px; }
+.k { color:var(--muted); font-size:15px; }
+.num { font-variant-numeric: tabular-nums; }
+.up { color:var(--up); } .down { color:var(--down); }
+.wrap { overflow-x:auto; border:1px solid var(--line); border-radius:12px; }
+table { width:100%; border-collapse:collapse; font-size:15px; min-width:720px; }
+th, td { padding:10px 12px; text-align:left; border-bottom:1px solid var(--line); vertical-align:top; }
+th { position:sticky; top:0; background:#1c2430; font-weight:650; }
+tr:hover td { background:rgba(255,255,255,0.03); }
+.tools { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 12px; }
+input, button, select { font:inherit; color:inherit; background:#12161c; border:1px solid var(--line); border-radius:8px; padding:8px 10px; min-height:40px; }
+button.on { background:#243044; border-color:#6e8ebc; }
+.note { color:var(--muted); font-size:15px; }
+details { margin-top:14px; }
+summary { cursor:pointer; font-size:16px; }
+.page-links { display:grid; gap:12px; }
+.page-links a { display:block; text-decoration:none; color:inherit; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 16px; }
+.page-links strong { display:block; font-size:18px; margin-bottom:4px; }
+.hidden-col { display:none; }
+@media (max-width: 800px) { h1 { font-size:24px; } main { width:calc(100% - 20px); } }
+</style>
+</head>
+<body>
+<div class="banner">设计预览 · 未接入生产 · 不能下单 · 数字来自仓库快照，本页不连接行情</div>
+<nav class="sitenav" aria-label="预览页面"><a href="terminal.html">看盘：价格、走势、期权</a><a href="macro.html">宏观：大盘和板块</a><a href="stocks.html" aria-current="page">个股：候选比较</a><a href="predict.html">模型：分数与适用范围</a><a href="backtest.html">回测：历史表现与风险</a></nav>
+<main>
+
+<h1>候选标的比较</h1>
+<p class="purpose">这页回答：先按正股价格和相对回撤带比较，再决定要不要打开看盘页。回撤带是生产页用 60 日高低点的 0.5 到 0.618 算出来的价格位置，不是已验证的成交密集区。</p>
+<ol class="steps">
+  <li>1. 先看代码、日盘收盘和涨跌。单位是美元/股。</li>
+  <li>2. 再看相对回撤带。正数表示在带上方。</li>
+  <li>3. 需要模型分或期权到期日时，再打开附加列。没有记录就写「无」，不写 0。</li>
+</ol>
+<div class="tools">
+  <input id="q" type="search" placeholder="搜索代码或名称" aria-label="搜索">
+  <button type="button" id="byPit" class="on">按回撤带排序</button>
+  <button type="button" id="byPct">按日盘涨跌</button>
+  <button type="button" id="byScore">按规则分</button>
+  <button type="button" id="moreBtn">显示附加列</button>
+</div>
+<p class="note">截至 2026-11-20 12:57:33 北京时间。点代码进入看盘页。附加列默认隐藏。</p>
+<div class="wrap"><table id="board">
+  <thead><tr>
+    <th>代码</th><th>名称</th><th>日盘收盘（美元/股）</th><th>日盘涨跌</th><th>相对回撤带</th><th>快照信号原文</th>
+    <th class="more">夜盘参考（美元/股）</th><th class="more">相对 50 日均线</th><th class="more">RSI(14)</th><th class="more">规则调整后的做多分</th><th class="more">期权到期</th>
+  </tr></thead>
+  <tbody><tr data-name="aaoi aoi" data-pit="-92.8882" data-pct="-3.2606" data-score="34.7">
+            <td><a href="terminal.html?ticker=AAOI">AAOI</a></td>
+            <td>AOI</td>
+            <td class="num">39.46</td>
+            <td class="num down">-3.26%</td>
+            <td class="num">-92.89%</td>
+            <td>破位止损(极限风控) · 量能异动</td>
+            <td class="more">38.02</td>
+            <td class="more num down">-54.64%</td>
+            <td class="more num">29.3</td>
+            <td class="more num">34.7</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="nbis nebius" data-pit="-70.3013" data-pct="-9.3867" data-score="33.9">
+            <td><a href="terminal.html?ticker=NBIS">NBIS</a></td>
+            <td>Nebius</td>
+            <td class="num">96.92</td>
+            <td class="num down">-9.39%</td>
+            <td class="num">-70.30%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">93.80</td>
+            <td class="more num down">-49.73%</td>
+            <td class="more num">31.7</td>
+            <td class="more num">33.9</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="asts ast spacemobile" data-pit="-65.5393" data-pct="0.2354" data-score="33.5">
+            <td><a href="terminal.html?ticker=ASTS">ASTS</a></td>
+            <td>AST SpaceMobile</td>
+            <td class="num">25.55</td>
+            <td class="num up">+0.24%</td>
+            <td class="num">-65.54%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">24.90</td>
+            <td class="more num down">-47.60%</td>
+            <td class="more num">29.7</td>
+            <td class="more num">33.5</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="axti axti" data-pit="-64.0675" data-pct="-2.1623" data-score="34.3">
+            <td><a href="terminal.html?ticker=AXTI">AXTI</a></td>
+            <td>AXTI</td>
+            <td class="num">34.84</td>
+            <td class="num down">-2.16%</td>
+            <td class="num">-64.07%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">33.41</td>
+            <td class="more num down">-44.44%</td>
+            <td class="more num">35.5</td>
+            <td class="more num">34.3</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="crwv coreweave" data-pit="-49.8429" data-pct="-6.105" data-score="35.1">
+            <td><a href="terminal.html?ticker=CRWV">CRWV</a></td>
+            <td>CoreWeave</td>
+            <td class="num">44.91</td>
+            <td class="num down">-6.11%</td>
+            <td class="num">-49.84%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">43.40</td>
+            <td class="more num down">-37.83%</td>
+            <td class="more num">36.7</td>
+            <td class="more num">35.1</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="intc intel" data-pit="-48.4426" data-pct="1.9206" data-score="31.6">
+            <td><a href="terminal.html?ticker=INTC">INTC</a></td>
+            <td>Intel</td>
+            <td class="num">55.72</td>
+            <td class="num up">+1.92%</td>
+            <td class="num">-48.44%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">54.24</td>
+            <td class="more num down">-40.56%</td>
+            <td class="more num">31.0</td>
+            <td class="more num">31.6</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="mrvl marvell" data-pit="-46.348" data-pct="-4.8578" data-score="32.4">
+            <td><a href="terminal.html?ticker=MRVL">MRVL</a></td>
+            <td>Marvell</td>
+            <td class="num">138.47</td>
+            <td class="num down">-4.86%</td>
+            <td class="num">-46.35%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">134.59</td>
+            <td class="more num down">-39.52%</td>
+            <td class="more num">31.6</td>
+            <td class="more num">32.4</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="lite lumentum" data-pit="-44.7441" data-pct="-2.8889" data-score="32.6">
+            <td><a href="terminal.html?ticker=LITE">LITE</a></td>
+            <td>Lumentum</td>
+            <td class="num">535.15</td>
+            <td class="num down">-2.89%</td>
+            <td class="num">-44.74%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">517.99</td>
+            <td class="more num down">-38.56%</td>
+            <td class="more num">34.5</td>
+            <td class="more num">32.6</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="oklo oklo" data-pit="-43.3647" data-pct="-4.4037" data-score="33.2">
+            <td><a href="terminal.html?ticker=OKLO">OKLO</a></td>
+            <td>Oklo</td>
+            <td class="num">20.84</td>
+            <td class="num down">-4.40%</td>
+            <td class="num">-43.36%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">20.30</td>
+            <td class="more num down">-34.29%</td>
+            <td class="more num">34.4</td>
+            <td class="more num">33.2</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="crdo credo" data-pit="-42.1842" data-pct="-4.2134" data-score="33.0">
+            <td><a href="terminal.html?ticker=CRDO">CRDO</a></td>
+            <td>Credo</td>
+            <td class="num">117.76</td>
+            <td class="num down">-4.21%</td>
+            <td class="num">-42.18%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">113.85</td>
+            <td class="more num down">-32.79%</td>
+            <td class="more num">36.9</td>
+            <td class="more num">33.0</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="apld applied digital" data-pit="-41.4733" data-pct="-3.2526" data-score="32.6">
+            <td><a href="terminal.html?ticker=APLD">APLD</a></td>
+            <td>Applied Digital</td>
+            <td class="num">13.98</td>
+            <td class="num down">-3.25%</td>
+            <td class="num">-41.47%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">13.60</td>
+            <td class="more num down">-36.17%</td>
+            <td class="more num">35.2</td>
+            <td class="more num">32.6</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="mstr 微策略" data-pit="-40.0035" data-pct="-4.6391" data-score="31.5">
+            <td><a href="terminal.html?ticker=MSTR">MSTR</a></td>
+            <td>微策略</td>
+            <td class="num">86.13</td>
+            <td class="num down">-4.64%</td>
+            <td class="num">-40.00%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">84.68</td>
+            <td class="more num down">-39.50%</td>
+            <td class="more num">22.7</td>
+            <td class="more num">31.5</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="coin coinbase" data-pit="-38.8601" data-pct="-1.484" data-score="30.0">
+            <td><a href="terminal.html?ticker=COIN">COIN</a></td>
+            <td>Coinbase</td>
+            <td class="num">108.87</td>
+            <td class="num down">-1.48%</td>
+            <td class="num">-38.86%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">106.24</td>
+            <td class="more num down">-36.19%</td>
+            <td class="more num">25.3</td>
+            <td class="more num">30.0</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="dell 戴尔科技" data-pit="-37.9274" data-pct="-0.182" data-score="31.8">
+            <td><a href="terminal.html?ticker=DELL">DELL</a></td>
+            <td>戴尔科技</td>
+            <td class="num">312.54</td>
+            <td class="num down">-0.18%</td>
+            <td class="num">-37.93%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">301.72</td>
+            <td class="more num down">-37.18%</td>
+            <td class="more num">32.6</td>
+            <td class="more num">31.8</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="now servicenow" data-pit="-32.7036" data-pct="-1.8987" data-score="29.8">
+            <td><a href="terminal.html?ticker=NOW">NOW</a></td>
+            <td>ServiceNow</td>
+            <td class="num">88.87</td>
+            <td class="num down">-1.90%</td>
+            <td class="num">-32.70%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">87.44</td>
+            <td class="more num down">-32.53%</td>
+            <td class="more num">24.8</td>
+            <td class="more num">29.8</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="be bloom energy" data-pit="-31.3909" data-pct="-1.6786" data-score="34.1">
+            <td><a href="terminal.html?ticker=BE">BE</a></td>
+            <td>Bloom Energy</td>
+            <td class="num">168.11</td>
+            <td class="num down">-1.68%</td>
+            <td class="num">-31.39%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">161.28</td>
+            <td class="more num down">-32.36%</td>
+            <td class="more num">38.1</td>
+            <td class="more num">34.1</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="fps forgent power" data-pit="-30.4235" data-pct="2.3585" data-score="33.6">
+            <td><a href="terminal.html?ticker=FPS">FPS</a></td>
+            <td>Forgent Power</td>
+            <td class="num">21.70</td>
+            <td class="num up">+2.36%</td>
+            <td class="num">-30.42%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">20.56</td>
+            <td class="more num down">-33.83%</td>
+            <td class="more num">41.2</td>
+            <td class="more num">33.6</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="nvda nvidia" data-pit="-27.3244" data-pct="-3.2989" data-score="30.6">
+            <td><a href="terminal.html?ticker=NVDA">NVDA</a></td>
+            <td>NVIDIA</td>
+            <td class="num">145.98</td>
+            <td class="num down">-3.30%</td>
+            <td class="num">-27.32%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">143.74</td>
+            <td class="more num down">-31.18%</td>
+            <td class="more num">19.6</td>
+            <td class="more num">30.6</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="stx 希捷科技" data-pit="-26.9241" data-pct="1.0642" data-score="32.5">
+            <td><a href="terminal.html?ticker=STX">STX</a></td>
+            <td>希捷科技</td>
+            <td class="num">521.39</td>
+            <td class="num up">+1.06%</td>
+            <td class="num">-26.92%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">503.58</td>
+            <td class="more num down">-29.20%</td>
+            <td class="more num">38.3</td>
+            <td class="more num">32.5</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="skhy sk hynix" data-pit="-26.0612" data-pct="-2.67" data-score="33.0">
+            <td><a href="terminal.html?ticker=SKHY">SKHY</a></td>
+            <td>SK Hynix</td>
+            <td class="num">119.20</td>
+            <td class="num down">-2.67%</td>
+            <td class="num">-26.06%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">118.12</td>
+            <td class="more num down">-26.20%</td>
+            <td class="more num">36.5</td>
+            <td class="more num">33.0</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="cat 卡特彼勒" data-pit="-24.924" data-pct="-3.8298" data-score="32.4">
+            <td><a href="terminal.html?ticker=CAT">CAT</a></td>
+            <td>卡特彼勒</td>
+            <td class="num">537.37</td>
+            <td class="num down">-3.83%</td>
+            <td class="num">-24.92%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">532.45</td>
+            <td class="more num down">-25.97%</td>
+            <td class="more num">27.2</td>
+            <td class="more num">32.4</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="hpe 慧与科技" data-pit="-23.6684" data-pct="-0.6726" data-score="34.5">
+            <td><a href="terminal.html?ticker=HPE">HPE</a></td>
+            <td>慧与科技</td>
+            <td class="num">45.78</td>
+            <td class="num down">-0.67%</td>
+            <td class="num">-23.67%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">44.40</td>
+            <td class="more num down">-23.80%</td>
+            <td class="more num">35.8</td>
+            <td class="more num">34.5</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="mu 美光科技" data-pit="-23.26" data-pct="-2.1027" data-score="34.8">
+            <td><a href="terminal.html?ticker=MU">MU</a></td>
+            <td>美光科技</td>
+            <td class="num">690.44</td>
+            <td class="num down">-2.10%</td>
+            <td class="num">-23.26%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">669.45</td>
+            <td class="more num down">-27.22%</td>
+            <td class="more num">35.9</td>
+            <td class="more num">34.8</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="wdc 西部数据" data-pit="-22.4734" data-pct="2.9807" data-score="33.7">
+            <td><a href="terminal.html?ticker=WDC">WDC</a></td>
+            <td>西部数据</td>
+            <td class="num">296.78</td>
+            <td class="num up">+2.98%</td>
+            <td class="num">-22.47%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">285.04</td>
+            <td class="more num down">-24.38%</td>
+            <td class="more num">40.9</td>
+            <td class="more num">33.7</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="orcl 甲骨文" data-pit="-22.2848" data-pct="-2.9151" data-score="35.3">
+            <td><a href="terminal.html?ticker=ORCL">ORCL</a></td>
+            <td>甲骨文</td>
+            <td class="num">110.57</td>
+            <td class="num down">-2.92%</td>
+            <td class="num">-22.28%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">108.32</td>
+            <td class="more num down">-18.50%</td>
+            <td class="more num">37.2</td>
+            <td class="more num">35.3</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="amat 应用材料" data-pit="-21.4562" data-pct="-3.7951" data-score="35.5">
+            <td><a href="terminal.html?ticker=AMAT">AMAT</a></td>
+            <td>应用材料</td>
+            <td class="num">338.93</td>
+            <td class="num down">-3.80%</td>
+            <td class="num">-21.46%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">332.89</td>
+            <td class="more num down">-22.24%</td>
+            <td class="more num">37.0</td>
+            <td class="more num">35.5</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="vrt vertiv" data-pit="-21.4386" data-pct="-4.8797" data-score="34.7">
+            <td><a href="terminal.html?ticker=VRT">VRT</a></td>
+            <td>Vertiv</td>
+            <td class="num">184.99</td>
+            <td class="num down">-4.88%</td>
+            <td class="num">-21.44%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">179.80</td>
+            <td class="more num down">-20.41%</td>
+            <td class="more num">40.1</td>
+            <td class="more num">34.7</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="lunr intuitive machines" data-pit="-20.1093" data-pct="-3.3597" data-score="41.4">
+            <td><a href="terminal.html?ticker=LUNR">LUNR</a></td>
+            <td>Intuitive Machines</td>
+            <td class="num">9.78</td>
+            <td class="num down">-3.36%</td>
+            <td class="num">-20.11%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">9.56</td>
+            <td class="more num down">-24.45%</td>
+            <td class="more num">40.2</td>
+            <td class="more num">41.4</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="tsm 台积电" data-pit="-18.2146" data-pct="-2.9039" data-score="35.2">
+            <td><a href="terminal.html?ticker=TSM">TSM</a></td>
+            <td>台积电</td>
+            <td class="num">352.09</td>
+            <td class="num down">-2.90%</td>
+            <td class="num">-18.21%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">341.09</td>
+            <td class="more num down">-19.62%</td>
+            <td class="more num">34.4</td>
+            <td class="more num">35.2</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="pltr palantir" data-pit="-16.7885" data-pct="-1.9085" data-score="34.7">
+            <td><a href="terminal.html?ticker=PLTR">PLTR</a></td>
+            <td>Palantir</td>
+            <td class="num">153.68</td>
+            <td class="num down">-1.91%</td>
+            <td class="num">-16.79%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">150.40</td>
+            <td class="more num down">-18.22%</td>
+            <td class="more num">31.3</td>
+            <td class="more num">34.7</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="btc-usd 比特币现货" data-pit="-15.9391" data-pct="-2.4025" data-score="31.4">
+            <td><a href="terminal.html?ticker=BTC-USD">BTC-USD</a></td>
+            <td>比特币现货</td>
+            <td class="num">61,474.01</td>
+            <td class="num down">-2.40%</td>
+            <td class="num">-15.94%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">61,474.01</td>
+            <td class="more num down">-21.32%</td>
+            <td class="more num">20.1</td>
+            <td class="more num">31.4</td>
+            <td class="more">无期权缓存</td>
+            </tr><tr data-name="asml 阿斯麦" data-pit="-15.291" data-pct="-2.8002" data-score="34.9">
+            <td><a href="terminal.html?ticker=ASML">ASML</a></td>
+            <td>阿斯麦</td>
+            <td class="num">1,356.20</td>
+            <td class="num down">-2.80%</td>
+            <td class="num">-15.29%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">1,344.54</td>
+            <td class="more num down">-17.61%</td>
+            <td class="more num">33.8</td>
+            <td class="more num">34.9</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="rklb rocket lab" data-pit="-14.054" data-pct="-3.9194" data-score="37.6">
+            <td><a href="terminal.html?ticker=RKLB">RKLB</a></td>
+            <td>Rocket Lab</td>
+            <td class="num">50.99</td>
+            <td class="num down">-3.92%</td>
+            <td class="num">-14.05%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">50.00</td>
+            <td class="more num down">-19.19%</td>
+            <td class="more num">41.0</td>
+            <td class="more num">37.6</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="nasa nasa太空主题etf" data-pit="-13.0774" data-pct="-0.2546" data-score="35.0">
+            <td><a href="terminal.html?ticker=NASA">NASA</a></td>
+            <td>NASA太空主题ETF</td>
+            <td class="num">19.59</td>
+            <td class="num down">-0.25%</td>
+            <td class="num">-13.08%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">18.44</td>
+            <td class="more num down">-17.13%</td>
+            <td class="more num">41.9</td>
+            <td class="more num">35.0</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="googl alphabet" data-pit="-12.9432" data-pct="-3.4627" data-score="34.6">
+            <td><a href="terminal.html?ticker=GOOGL">GOOGL</a></td>
+            <td>Alphabet</td>
+            <td class="num">272.66</td>
+            <td class="num down">-3.46%</td>
+            <td class="num">-12.94%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">272.20</td>
+            <td class="more num down">-15.93%</td>
+            <td class="more num">30.6</td>
+            <td class="more num">34.6</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="cohr coherent" data-pit="-11.2387" data-pct="0.9867" data-score="38.8">
+            <td><a href="terminal.html?ticker=COHR">COHR</a></td>
+            <td>Coherent</td>
+            <td class="num">214.94</td>
+            <td class="num up">+0.99%</td>
+            <td class="num">-11.24%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">206.38</td>
+            <td class="more num down">-20.16%</td>
+            <td class="more num">45.8</td>
+            <td class="more num">38.8</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="meta meta" data-pit="-9.3325" data-pct="-3.2707" data-score="35.5">
+            <td><a href="terminal.html?ticker=META">META</a></td>
+            <td>Meta</td>
+            <td class="num">596.22</td>
+            <td class="num down">-3.27%</td>
+            <td class="num">-9.33%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">586.55</td>
+            <td class="more num down">-13.60%</td>
+            <td class="more num">37.0</td>
+            <td class="more num">35.5</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="vst vistra energy" data-pit="-9.0186" data-pct="-1.1387" data-score="37.1">
+            <td><a href="terminal.html?ticker=VST">VST</a></td>
+            <td>Vistra Energy</td>
+            <td class="num">124.15</td>
+            <td class="num down">-1.14%</td>
+            <td class="num">-9.02%</td>
+            <td>破位止损(极限风控)</td>
+            <td class="more">121.99</td>
+            <td class="more num down">-13.95%</td>
+            <td class="more num">40.1</td>
+            <td class="more num">37.1</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="qcom 高通" data-pit="-6.4083" data-pct="1.3766" data-score="45.8">
+            <td><a href="terminal.html?ticker=QCOM">QCOM</a></td>
+            <td>高通</td>
+            <td class="num">162.01</td>
+            <td class="num up">+1.38%</td>
+            <td class="num">-6.41%</td>
+            <td>深度回踩(观察企稳)</td>
+            <td class="more">160.00</td>
+            <td class="more num down">-10.09%</td>
+            <td class="more num">42.2</td>
+            <td class="more num">45.8</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="amd amd" data-pit="-5.9052" data-pct="-7.7244" data-score="42.1">
+            <td><a href="terminal.html?ticker=AMD">AMD</a></td>
+            <td>AMD</td>
+            <td class="num">489.19</td>
+            <td class="num down">-7.72%</td>
+            <td class="num">-5.91%</td>
+            <td>破位止损 · 量能异动</td>
+            <td class="more">472.17</td>
+            <td class="more num down">-14.91%</td>
+            <td class="more num">45.2</td>
+            <td class="more num">42.1</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="xom 埃克森美孚" data-pit="-4.9944" data-pct="-1.0275" data-score="36.7">
+            <td><a href="terminal.html?ticker=XOM">XOM</a></td>
+            <td>埃克森美孚</td>
+            <td class="num">158.93</td>
+            <td class="num down">-1.03%</td>
+            <td class="num">-4.99%</td>
+            <td>深度回踩(观察企稳)</td>
+            <td class="more">159.00</td>
+            <td class="more num down">-5.63%</td>
+            <td class="more num">35.0</td>
+            <td class="more num">36.7</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="spcx spacex" data-pit="-4.7219" data-pct="-3.5331" data-score="39.0">
+            <td><a href="terminal.html?ticker=SPCX">SPCX</a></td>
+            <td>SpaceX</td>
+            <td class="num">138.43</td>
+            <td class="num down">-3.53%</td>
+            <td class="num">-4.72%</td>
+            <td>深度回踩(观察企稳)</td>
+            <td class="more">135.40</td>
+            <td class="more num down">-8.68%</td>
+            <td class="more num">46.2</td>
+            <td class="more num">39.0</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="ceg 星座能源" data-pit="-4.5521" data-pct="-4.0763" data-score="43.8">
+            <td><a href="terminal.html?ticker=CEG">CEG</a></td>
+            <td>星座能源</td>
+            <td class="num">252.03</td>
+            <td class="num down">-4.08%</td>
+            <td class="num">-4.55%</td>
+            <td>深度回踩(观察企稳)</td>
+            <td class="more">249.53</td>
+            <td class="more num down">-6.63%</td>
+            <td class="more num">43.4</td>
+            <td class="more num">43.8</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="jpm 摩根大通" data-pit="-4.4932" data-pct="-1.2002" data-score="41.5">
+            <td><a href="terminal.html?ticker=JPM">JPM</a></td>
+            <td>摩根大通</td>
+            <td class="num">320.22</td>
+            <td class="num down">-1.20%</td>
+            <td class="num">-4.49%</td>
+            <td>深度回踩(观察企稳)</td>
+            <td class="more">319.73</td>
+            <td class="more num down">-5.32%</td>
+            <td class="more num">35.9</td>
+            <td class="more num">41.5</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="msft 微软" data-pit="-3.8512" data-pct="-1.9654" data-score="43.6">
+            <td><a href="terminal.html?ticker=MSFT">MSFT</a></td>
+            <td>微软</td>
+            <td class="num">498.30</td>
+            <td class="num down">-1.97%</td>
+            <td class="num">-3.85%</td>
+            <td>深度回踩(观察企稳)</td>
+            <td class="more">493.93</td>
+            <td class="more num down">-4.84%</td>
+            <td class="more num">39.5</td>
+            <td class="more num">43.6</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="nke 耐克" data-pit="-3.526" data-pct="-5.453" data-score="40.2">
+            <td><a href="terminal.html?ticker=NKE">NKE</a></td>
+            <td>耐克</td>
+            <td class="num">34.33</td>
+            <td class="num down">-5.45%</td>
+            <td class="num">-3.53%</td>
+            <td>破位止损</td>
+            <td class="more">34.25</td>
+            <td class="more num down">-6.86%</td>
+            <td class="more num">35.7</td>
+            <td class="more num">40.2</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="axp 美国运通" data-pit="-1.2425" data-pct="-1.3602" data-score="42.5">
+            <td><a href="terminal.html?ticker=AXP">AXP</a></td>
+            <td>美国运通</td>
+            <td class="num">311.11</td>
+            <td class="num down">-1.36%</td>
+            <td class="num">-1.24%</td>
+            <td>震荡蓄势</td>
+            <td class="more">310.61</td>
+            <td class="more num down">-1.22%</td>
+            <td class="more num">41.7</td>
+            <td class="more num">42.5</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="fly firefly aerospace" data-pit="-0.1614" data-pct="-4.5477" data-score="43.5">
+            <td><a href="terminal.html?ticker=FLY">FLY</a></td>
+            <td>Firefly Aerospace</td>
+            <td class="num">19.52</td>
+            <td class="num down">-4.55%</td>
+            <td class="num">-0.16%</td>
+            <td>震荡蓄势</td>
+            <td class="more">19.21</td>
+            <td class="more num down">-6.99%</td>
+            <td class="more num">46.4</td>
+            <td class="more num">43.5</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="tsla 特斯拉" data-pit="0.0" data-pct="-2.4262" data-score="40.9">
+            <td><a href="terminal.html?ticker=TSLA">TSLA</a></td>
+            <td>特斯拉</td>
+            <td class="num">374.41</td>
+            <td class="num down">-2.43%</td>
+            <td class="num">0.00%</td>
+            <td>震荡蓄势</td>
+            <td class="more">370.81</td>
+            <td class="more num down">-1.39%</td>
+            <td class="more num">47.2</td>
+            <td class="more num">40.9</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="mrna moderna" data-pit="0.0" data-pct="-4.8404" data-score="45.4">
+            <td><a href="terminal.html?ticker=MRNA">MRNA</a></td>
+            <td>Moderna</td>
+            <td class="num">196.79</td>
+            <td class="num down">-4.84%</td>
+            <td class="num">0.00%</td>
+            <td>震荡蓄势</td>
+            <td class="more">198.78</td>
+            <td class="more num down">-3.32%</td>
+            <td class="more num">41.5</td>
+            <td class="more num">45.4</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="v visa" data-pit="0.8844" data-pct="-3.1236" data-score="42.4">
+            <td><a href="terminal.html?ticker=V">V</a></td>
+            <td>Visa</td>
+            <td class="num">402.25</td>
+            <td class="num down">-3.12%</td>
+            <td class="num">+0.88%</td>
+            <td>黄金坑蓄势(等待右侧确认)</td>
+            <td class="more">402.31</td>
+            <td class="more num up">+2.26%</td>
+            <td class="more num">44.1</td>
+            <td class="more num">42.4</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="amzn 亚马逊" data-pit="1.1245" data-pct="-3.8732" data-score="40.4">
+            <td><a href="terminal.html?ticker=AMZN">AMZN</a></td>
+            <td>亚马逊</td>
+            <td class="num">257.37</td>
+            <td class="num down">-3.87%</td>
+            <td class="num">+1.12%</td>
+            <td>黄金坑蓄势(等待右侧确认)</td>
+            <td class="more">255.22</td>
+            <td class="more num ">-0.00%</td>
+            <td class="more num">49.0</td>
+            <td class="more num">40.4</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="crwd crowdstrike" data-pit="1.4087" data-pct="2.7127" data-score="46.7">
+            <td><a href="terminal.html?ticker=CRWD">CRWD</a></td>
+            <td>CrowdStrike</td>
+            <td class="num">243.46</td>
+            <td class="num up">+2.71%</td>
+            <td class="num">+1.41%</td>
+            <td>震荡蓄势</td>
+            <td class="more">237.46</td>
+            <td class="more num down">-3.48%</td>
+            <td class="more num">53.2</td>
+            <td class="more num">46.7</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="avgo 博通" data-pit="1.9605" data-pct="-2.0901" data-score="51.0">
+            <td><a href="terminal.html?ticker=AVGO">AVGO</a></td>
+            <td>博通</td>
+            <td class="num">346.65</td>
+            <td class="num down">-2.09%</td>
+            <td class="num">+1.96%</td>
+            <td>震荡蓄势</td>
+            <td class="more">342.01</td>
+            <td class="more num down">-0.52%</td>
+            <td class="more num">52.6</td>
+            <td class="more num">51.0</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="pep 百事可乐" data-pit="2.9433" data-pct="-2.023" data-score="40.2">
+            <td><a href="terminal.html?ticker=PEP">PEP</a></td>
+            <td>百事可乐</td>
+            <td class="num">139.00</td>
+            <td class="num down">-2.02%</td>
+            <td class="num">+2.94%</td>
+            <td>多头推进</td>
+            <td class="more">139.98</td>
+            <td class="more num up">+4.43%</td>
+            <td class="more num">50.3</td>
+            <td class="more num">40.2</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="ko 可口可乐" data-pit="3.7576" data-pct="-2.0389" data-score="40.5">
+            <td><a href="terminal.html?ticker=KO">KO</a></td>
+            <td>可口可乐</td>
+            <td class="num">96.09</td>
+            <td class="num down">-2.04%</td>
+            <td class="num">+3.76%</td>
+            <td>高位跌破EMA10(急速锁利)</td>
+            <td class="more">96.47</td>
+            <td class="more num up">+5.30%</td>
+            <td class="more num">54.8</td>
+            <td class="more num">40.5</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="lly 礼来" data-pit="4.1021" data-pct="-2.2875" data-score="41.2">
+            <td><a href="terminal.html?ticker=LLY">LLY</a></td>
+            <td>礼来</td>
+            <td class="num">1,351.12</td>
+            <td class="num down">-2.29%</td>
+            <td class="num">+4.10%</td>
+            <td>多头推进</td>
+            <td class="more">1,348.93</td>
+            <td class="more num up">+6.98%</td>
+            <td class="more num">50.4</td>
+            <td class="more num">41.2</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="aapl 苹果" data-pit="4.2509" data-pct="-0.9193" data-score="40.6">
+            <td><a href="terminal.html?ticker=AAPL">AAPL</a></td>
+            <td>苹果</td>
+            <td class="num">349.21</td>
+            <td class="num down">-0.92%</td>
+            <td class="num">+4.25%</td>
+            <td>多头推进</td>
+            <td class="more">349.87</td>
+            <td class="more num up">+2.49%</td>
+            <td class="more num">53.2</td>
+            <td class="more num">40.6</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="mcd 麦当劳" data-pit="5.9211" data-pct="-0.6131" data-score="41.0">
+            <td><a href="terminal.html?ticker=MCD">MCD</a></td>
+            <td>麦当劳</td>
+            <td class="num">272.35</td>
+            <td class="num down">-0.61%</td>
+            <td class="num">+5.92%</td>
+            <td>多头加速(设EMA20移动保护)</td>
+            <td class="more">272.50</td>
+            <td class="more num up">+8.21%</td>
+            <td class="more num">59.8</td>
+            <td class="more num">41.0</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="wmt 沃尔玛" data-pit="7.8168" data-pct="-1.0364" data-score="41.4">
+            <td><a href="terminal.html?ticker=WMT">WMT</a></td>
+            <td>沃尔玛</td>
+            <td class="num">126.04</td>
+            <td class="num down">-1.04%</td>
+            <td class="num">+7.82%</td>
+            <td>多头加速(设EMA20移动保护) · 量能异动</td>
+            <td class="more">126.97</td>
+            <td class="more num up">+9.24%</td>
+            <td class="more num">59.8</td>
+            <td class="more num">41.4</td>
+            <td class="more">2026-11-27</td>
+            </tr><tr data-name="sndk 闪迪" data-pit="77.9942" data-pct="-2.7131" data-score="46.6">
+            <td><a href="terminal.html?ticker=SNDK">SNDK</a></td>
+            <td>闪迪</td>
+            <td class="num">755.16</td>
+            <td class="num down">-2.71%</td>
+            <td class="num">+77.99%</td>
+            <td>极度冲顶清仓止盈 · 冲顶减仓</td>
+            <td class="more">755.16</td>
+            <td class="more num up">+310.63%</td>
+            <td class="more num">90.7</td>
+            <td class="more num">46.6</td>
+            <td class="more">2026-11-27</td>
+            </tr></tbody>
+</table></div>
+<script>
+const q = document.getElementById('q');
+const body = document.querySelector('#board tbody');
+function rows() { return [...body.querySelectorAll('tr')]; }
+function apply() {
+  const text = q.value.trim().toLowerCase();
+  rows().forEach(row => { row.hidden = text && !row.dataset.name.includes(text); });
+}
+function sortBy(key) {
+  const list = rows();
+  list.sort((a, b) => {
+    const av = a.dataset[key], bv = b.dataset[key];
+    if (av === '' && bv === '') return 0;
+    if (av === '') return 1;
+    if (bv === '') return -1;
+    return Number(av) - Number(bv);
+  });
+  if (key !== 'pit') list.reverse();
+  list.forEach(row => body.appendChild(row));
+}
+q.addEventListener('input', apply);
+document.getElementById('byPit').onclick = () => sortBy('pit');
+document.getElementById('byPct').onclick = () => sortBy('pct');
+document.getElementById('byScore').onclick = () => sortBy('score');
+document.getElementById('moreBtn').onclick = (event) => {
+  const on = document.body.classList.toggle('show-more');
+  event.currentTarget.classList.toggle('on', on);
+  document.querySelectorAll('.more').forEach(el => el.classList.toggle('hidden-col', !on));
+};
+document.querySelectorAll('.more').forEach(el => el.classList.add('hidden-col'));
+sortBy('pit');
+</script>
+<style>body.show-more .more.hidden-col { display: table-cell; }</style>
+
+</main>
+</body>
+</html>

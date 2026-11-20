@@ -3,98 +3,54 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>主终端布局预览 · 供选择，不改生产</title>
+<title>五页预览</title>
 <style>
-  :root { color-scheme: dark; }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    font-family: "WenQuanYi Micro Hei", "PingFang SC", "Microsoft YaHei", sans-serif;
-    font-size: 16px;
-    line-height: 1.55;
-    color: #e8eaed;
-    background: #0c0e12;
-  }
-  .wrap { width: min(1180px, calc(100% - 40px)); margin: 0 auto; padding: 28px 0 48px; }
-  .banner {
-    background: #1a1814; color: #e6d7b8; border-bottom: 1px solid #3a3428;
-    padding: 10px 20px; font-size: 14px;
-  }
-  h1 { font-size: 32px; line-height: 1.25; margin: 0 0 8px; }
-  .lead { color: #b7c0cc; font-size: 16px; max-width: 760px; margin: 0 0 22px; }
-  .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
-  a.card {
-    display: flex; flex-direction: column; gap: 12px;
-    text-decoration: none; color: inherit;
-    background: #14181f; border: 1px solid #2c3442; border-radius: 14px; padding: 16px;
-    min-height: 100%;
-  }
-  a.card:hover { border-color: #6e8ebc; }
-  a.card:focus-visible { outline: 2px solid #9bb8e8; outline-offset: 3px; }
-  .kicker { color: #9bb8e8; font-size: 14px; letter-spacing: 0.04em; }
-  h2 { font-size: 22px; margin: 0; }
-  .wire { height: 168px; border: 1px solid #2c3442; border-radius: 10px; background: #10141a; padding: 8px; display: grid; gap: 6px; }
-  .wire i { display: block; background: #1b2028; border-radius: 4px; font-style: normal; }
-  .a { grid-template-columns: 28px 1fr 54px; }
-  .a i:nth-child(2) { background: #243044; }
-  .b { grid-template-columns: 46px 1fr 58px; }
-  .c { grid-template-rows: 28px 1fr 36px; }
-  ul { margin: 0; padding-left: 18px; color: #d5dbe3; }
-  li { margin: 4px 0; }
-  .go { margin-top: auto; color: #9bb8e8; font-size: 15px; }
-  .note {
-    margin-top: 22px; padding: 16px 18px; border-radius: 12px;
-    background: #14181f; border: 1px solid #2c3442; color: #d5dbe3;
-  }
-  h3 { margin: 0 0 8px; font-size: 18px; }
-  @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+:root { color-scheme: dark; --bg:#0e1116; --card:#161b22; --line:#2c3442; --text:#e8eaed; --muted:#c5ced8; --accent:#9bb8e8; --up:#8fceaa; --down:#e09a9a; }
+* { box-sizing: border-box; }
+body { margin:0; font-family:"WenQuanYi Micro Hei","PingFang SC","Microsoft YaHei",sans-serif; font-size:16px; line-height:1.55; color:var(--text); background:var(--bg); }
+a { color: var(--accent); }
+.banner { background:#1a1814; color:#e6d7b8; padding:10px 20px; font-size:15px; }
+.sitenav { display:flex; flex-wrap:wrap; gap:8px; padding:10px 16px; background:#10141b; border-bottom:1px solid var(--line); }
+.sitenav a { color:var(--muted); text-decoration:none; border:1px solid var(--line); border-radius:999px; padding:6px 12px; }
+.sitenav a[aria-current="page"] { color:var(--text); background:#243044; border-color:#6e8ebc; }
+main { width:min(1100px, calc(100% - 32px)); margin:0 auto; padding:22px 0 48px; }
+h1 { font-size:28px; line-height:1.3; margin:0 0 8px; }
+.purpose { font-size:16px; color:var(--text); margin:0 0 14px; }
+.steps { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 18px; padding:0; list-style:none; }
+.steps li { background:#161b22; border:1px solid var(--line); border-radius:10px; padding:8px 12px; font-size:15px; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(240px,1fr)); gap:12px; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 16px; }
+.card h2 { font-size:18px; margin:0 0 8px; }
+.k { color:var(--muted); font-size:15px; }
+.num { font-variant-numeric: tabular-nums; }
+.up { color:var(--up); } .down { color:var(--down); }
+.wrap { overflow-x:auto; border:1px solid var(--line); border-radius:12px; }
+table { width:100%; border-collapse:collapse; font-size:15px; min-width:720px; }
+th, td { padding:10px 12px; text-align:left; border-bottom:1px solid var(--line); vertical-align:top; }
+th { position:sticky; top:0; background:#1c2430; font-weight:650; }
+tr:hover td { background:rgba(255,255,255,0.03); }
+.tools { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 12px; }
+input, button, select { font:inherit; color:inherit; background:#12161c; border:1px solid var(--line); border-radius:8px; padding:8px 10px; min-height:40px; }
+button.on { background:#243044; border-color:#6e8ebc; }
+.note { color:var(--muted); font-size:15px; }
+details { margin-top:14px; }
+summary { cursor:pointer; font-size:16px; }
+.page-links { display:grid; gap:12px; }
+.page-links a { display:block; text-decoration:none; color:inherit; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 16px; }
+.page-links strong { display:block; font-size:18px; margin-bottom:4px; }
+.hidden-col { display:none; }
+@media (max-width: 800px) { h1 { font-size:24px; } main { width:calc(100% - 20px); } }
 </style>
 </head>
 <body>
-  <div class="banner">设计预览 · 不改生产生成器 · 不合并 · 不能下单 · 同一份仓库快照</div>
-  <div class="wrap">
-    <h1>主终端三套布局</h1>
-    <p class="lead">当前看盘页把自选、K 线、指标和右侧卡片挤在一屏里。这里用同一份已提交快照做了三种更疏朗的排法，方便先看再选。数字不是本页实时行情。</p>
-    <div class="grid">
-      <a class="card" href="a-chart-first.html">
-        <div class="kicker">方案 A</div>
-        <h2>大图看盘</h2>
-        <div class="wire a" aria-hidden="true"><i></i><i></i><i></i></div>
-        <ul>
-          <li>K 线占主要宽度，列表可收成窄轨</li>
-          <li>盘面、市场、板块、AI、期权分标签</li>
-          <li>第一眼只留价格、偏离、RSI 和坑位</li>
-        </ul>
-        <div class="go">打开方案 A</div>
-      </a>
-      <a class="card" href="b-balanced.html">
-        <div class="kicker">方案 B</div>
-        <h2>均衡三栏</h2>
-        <div class="wire b" aria-hidden="true"><i></i><i></i><i></i></div>
-        <ul>
-          <li>自选约 220px，详情约 320px，中间留给 K 线</li>
-          <li>次要内容收成一行摘要，点开再读</li>
-          <li>变窄时右栏下移，字号保持 14px 以上</li>
-        </ul>
-        <div class="go">打开方案 B</div>
-      </a>
-      <a class="card" href="c-reading.html">
-        <div class="kicker">方案 C</div>
-        <h2>分区阅读</h2>
-        <div class="wire c" aria-hidden="true"><i></i><i></i><i></i></div>
-        <ul>
-          <li>上面是市场和板块，中间是报价与 K 线</li>
-          <li>AI、期权、参考价位在图下方分段展开</li>
-          <li>页面自然往下读，不把所有卡片塞进一屏</li>
-        </ul>
-        <div class="go">打开方案 C</div>
-      </a>
-    </div>
-    <div class="note">
-      <h3>怎么选</h3>
-      <p>日常按「市场 → 板块 → 个股 → 期权」看盘，建议先用方案 B：三块同时在，细节默认折起。如果大部分时间盯着 K 线，用方案 A。如果习惯把一只股票从头读到期权，用方案 C。</p>
-      <p>三套都还不是生产页。选定之前，不要改 <code>create_futu_terminal.py</code> 和现网 HTML。</p>
-    </div>
-  </div>
+<div class="banner">设计预览 · 未接入生产 · 不能下单 · 数字来自仓库快照，本页不连接行情</div>
+<nav class="sitenav" aria-label="预览页面"><a href="terminal.html">看盘：价格、走势、期权</a><a href="macro.html">宏观：大盘和板块</a><a href="stocks.html">个股：候选比较</a><a href="predict.html">模型：分数与适用范围</a><a href="backtest.html">回测：历史表现与风险</a></nav>
+<main>
+
+<h1>五页分别回答一个问题</h1>
+<p class="purpose">看盘页暂用三栏底稿，这个布局还没有选定。其余四页只负责把同一份快照读清楚。数据截至 2026-11-20 12:57:33 北京时间。</p>
+<div class="page-links"><a href="terminal.html"><strong>看盘</strong>这只股票的正股价格、日 K 和期权链各是什么？</a><a href="macro.html"><strong>宏观</strong>大盘和板块环境偏防守，还是还能往下看个股？</a><a href="stocks.html"><strong>个股</strong>哪些股票离生产页说的回撤带更近，价格和信号怎么比？</a><a href="predict.html"><strong>模型</strong>这个分数预测的是哪一段价格路径，不能当成什么？</a><a href="backtest.html"><strong>回测</strong>历史模拟的收益和回撤有多大，和买期权有什么关系？</a></div>
+
+</main>
 </body>
 </html>

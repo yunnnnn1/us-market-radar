@@ -1,20 +1,16 @@
-# 主终端布局预览
+# 五页设计预览
 
-这里只有设计预览，不接入生产生成器，也不改 `futu_pro_terminal.html` / `index.html`。
+只供阅读和选择，不接入生产生成器，也不改看盘页、模型或回测引擎。
 
-三套页面共用仓库里已经提交的终端快照、AI 预测快照，以及 `data_cache/ml_panel_5y.parquet` 和 `data_cache/ml_extended_panel.parquet` 里的日 K。页面不连接行情，不加载 TradingView，不能下单。K 线在本地画布上绘制；面板里没有的代码会明确写「没有日 K」，不会编一根假 K 线。
+看盘页暂用三栏底稿，这个布局还没有选定。
 
-| 文件 | 布局 |
+| 文件 | 回答的问题 |
 |---|---|
-| `index.html` | 对比入口 |
-| `a-chart-first.html` | A 大图看盘 |
-| `b-balanced.html` | B 均衡三栏 |
-| `c-reading.html` | C 分区阅读 |
+| `index.html` | 五页各自回答什么 |
+| `terminal.html` | 这只股票的正股价格、日 K 和期权链各是什么 |
+| `macro.html` | 大盘和板块环境偏防守，还是还能看个股 |
+| `stocks.html` | 候选股票的价格和回撤带怎么比 |
+| `predict.html` | 模型分数预测哪一段路径，不能当成什么 |
+| `backtest.html` | 历史模拟的收益、回撤，以及它不是期权成绩 |
 
-直接用浏览器打开即可。改 `shared.css` / `shared.js` / `templates/` 之后，在仓库根目录运行：
-
-```bash
-python3 demos/previews/build_previews.py
-```
-
-生成脚本只读生产快照，只写本目录下的三份 HTML。
+在本目录运行 `python3 build_previews.py` 会只读仓库快照并重写这些 HTML。

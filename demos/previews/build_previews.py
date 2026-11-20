@@ -48,7 +48,8 @@ OPTION_FIELDS = [
 AI_FIELDS = [
     "rank", "short_rank", "sector_cn", "sector_rating", "sector_pf",
     "calibrated_win_rate_pct", "calibrated_short_win_rate_pct",
-    "predicted_win_rate_pct", "model_raw_short_prob_pct",
+    "predicted_win_rate_pct", "model_raw_prob_pct", "base_raw_prob_pct",
+    "model_raw_short_prob_pct",
     "action", "short_action",
     "target_profit_price", "target_profit_pct", "stop_loss_price", "stop_loss_pct",
     "short_target_profit_price", "short_target_profit_pct",
@@ -231,6 +232,7 @@ def build_snapshot() -> dict:
                 "tickers_count": row.get("tickers_count"),
                 "samples": row.get("oos_total_signals"),
                 "high_conviction_signals": row.get("high_conviction_signals"),
+                "avg_return": row.get("avg_realized_return_pct"),
                 "win": row.get("high_conviction_win_rate_pct"),
                 "pf": row.get("profit_factor"),
                 "rating": row.get("alpha_rating"),
@@ -275,6 +277,16 @@ def build_snapshot() -> dict:
             "stock_count": sum(1 for it in items if it["kind"] == "stock"),
             "etf_count": sum(1 for it in items if it["kind"] == "etf"),
             "bar_count": sum(len(v) for v in bars.values()),
+            "table1": [
+                {
+                    "label": row.get("threshold_label"),
+                    "triggers": row.get("trigger_count"),
+                    "hit_pct": row.get("win_rate_pct"),
+                    "avg_return": row.get("avg_realized_return_pct"),
+                    "pf": row.get("profit_factor"),
+                }
+                for row in (ai.get("table1") or [])
+            ],
         },
         "market": {
             "weather_status": weather.get("status") or "",
@@ -313,15 +325,18 @@ def main() -> None:
     data_json = json.dumps(snapshot, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
     css = (OUT / "shared.css").read_text(encoding="utf-8")
     js = (OUT / "shared.js").read_text(encoding="utf-8")
-    outputs = {
-        "a.html": "a-chart-first.html",
-        "b.html": "b-balanced.html",
-        "c.html": "c-reading.html",
-    }
-    for src, dest in outputs.items():
-        text = assemble(src, css, js, data_json)
-        (OUT / dest).write_text(text, encoding="utf-8")
-        print(f"wrote {dest} {len(text)//1024} KB")
+    text = assemble("b.html", css, js, data_json)
+    (OUT / "terminal.html").write_text(text, encoding="utf-8")
+    print(f"wrote terminal.html {len(text)//1024} KB")
+    from render_pages import write_pages
+    slim = dict(snapshot)
+    slim.pop("bars", None)
+    write_pages(slim, OUT)
+    for stale in ("a-chart-first.html", "b-balanced.html", "c-reading.html"):
+        path = OUT / stale
+        if path.exists():
+            path.unlink()
+            print("removed", stale)
     lly = next(it for it in snapshot["items"] if it["ticker"] == "LLY")
     print(
         "LLY last", lly["last"],
