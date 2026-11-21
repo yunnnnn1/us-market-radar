@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>宏观：大盘和板块</title>
+<style>
+:root { color-scheme: dark; --bg:#0e1116; --card:#161b22; --line:#2c3442; --text:#e8eaed; --muted:#c5ced8; --accent:#9bb8e8; --up:#8fceaa; --down:#e09a9a; }
+* { box-sizing: border-box; }
+body { margin:0; font-family:"WenQuanYi Micro Hei","PingFang SC","Microsoft YaHei",sans-serif; font-size:16px; line-height:1.55; color:var(--text); background:var(--bg); }
+a { color: var(--accent); }
+.banner { background:#1a1814; color:#e6d7b8; padding:10px 20px; font-size:15px; }
+.sitenav { display:flex; flex-wrap:wrap; gap:8px; padding:10px 16px; background:#10141b; border-bottom:1px solid var(--line); }
+.sitenav a { color:var(--muted); text-decoration:none; border:1px solid var(--line); border-radius:999px; padding:6px 12px; }
+.sitenav a[aria-current="page"] { color:var(--text); background:#243044; border-color:#6e8ebc; }
+main { width:min(1100px, calc(100% - 32px)); margin:0 auto; padding:22px 0 48px; }
+h1 { font-size:28px; line-height:1.3; margin:0 0 8px; }
+.purpose { font-size:16px; color:var(--text); margin:0 0 14px; }
+.steps { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 18px; padding:0; list-style:none; }
+.steps li { background:#161b22; border:1px solid var(--line); border-radius:10px; padding:8px 12px; font-size:15px; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(240px,1fr)); gap:12px; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 16px; }
+.card h2 { font-size:18px; margin:0 0 8px; }
+.k { color:var(--muted); font-size:15px; }
+.num { font-variant-numeric: tabular-nums; }
+.up { color:var(--up); } .down { color:var(--down); }
+.wrap { overflow-x:auto; border:1px solid var(--line); border-radius:12px; }
+table { width:100%; border-collapse:collapse; font-size:15px; min-width:720px; }
+th, td { padding:10px 12px; text-align:left; border-bottom:1px solid var(--line); vertical-align:top; }
+th { position:sticky; top:0; background:#1c2430; font-weight:650; }
+tr:hover td { background:rgba(255,255,255,0.03); }
+.tools { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 12px; }
+input, button, select { font:inherit; color:inherit; background:#12161c; border:1px solid var(--line); border-radius:8px; padding:8px 10px; min-height:40px; }
+button.on { background:#243044; border-color:#6e8ebc; }
+.note { color:var(--muted); font-size:15px; }
+details { margin-top:14px; }
+summary { cursor:pointer; font-size:16px; }
+.page-links { display:grid; gap:12px; }
+.page-links a { display:block; text-decoration:none; color:inherit; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 16px; }
+.page-links strong { display:block; font-size:18px; margin-bottom:4px; }
+.hidden-col { display:none; }
+@media (max-width: 800px) { h1 { font-size:24px; } main { width:calc(100% - 20px); } }
+</style>
+</head>
+<body>
+<div class="banner">设计预览 · 未接入生产 · 不能下单 · 数字来自仓库快照，本页不连接行情</div>
+<nav class="sitenav" aria-label="预览页面"><a href="terminal.html">看盘：价格、走势、期权</a><a href="macro.html" aria-current="page">宏观：大盘和板块</a><a href="stocks.html">个股：候选比较</a><a href="predict.html">模型：分数与适用范围</a><a href="backtest.html">回测：历史表现与风险</a></nav>
+<main>
+
+<h1>大盘和板块环境</h1>
+<p class="purpose">这页回答：现在是先看防守，还是还能往下看个股。指数涨跌是今天的快照；板块表是历史样本，不是今天的板块涨跌。</p>
+<ol class="steps">
+  <li>1. 先分清两段原文。天气和宽度不是同一句话。</li>
+  <li>2. 再看指数的日盘涨跌，以及相对 50 日均线的偏离。</li>
+  <li>3. 最后看板块历史样本。笔数是 0 就写 0，不改成别的意思。</li>
+</ol>
+<div class="grid">
+  <section class="card"><h2>天气原文</h2><p>🌧️ 暴雨空仓 · 数据日 2026-11-19</p><p>科技基准与半导体共振破位下行 · 系统性流动性挤压 · 严禁盲目抄底 ｜ 🚨 全市场系统性普跌预警（传统与科技泥沙俱下·常规支撑S1/S2易失效·切勿盲目抄底）</p></section>
+  <section class="card"><h2>宽度原文</h2><p>🔄 科技结构性轮动（传统板块抗跌）</p><p>🔄 科技结构性轮动（传统板块抗跌） · 科技均值 -1.37% 承压，传统龙头均值 -0.03% (4/7 稳健/翻红)，资金呈现高低切换而非全面撤离</p></section>
+  <section class="card"><h2>防御因子原文</h2><p>🚨 防御因子起飞 · 警惕机构盘中去杠杆踩踏</p><p class="note">分数 4.65。这是快照里的背离分，不是实时警报。</p></section>
+</div>
+<h2>指数 · 日盘收盘是每股价格</h2>
+<p class="note">截至 2026-11-20 12:57:33 北京时间。偏离是相对 50 日均线，单位是百分数。</p>
+<div class="wrap"><table>
+  <thead><tr><th>代码</th><th>名称</th><th>日盘收盘（美元/股）</th><th>日盘涨跌</th><th>相对 50 日均线</th><th>快照信号原文</th></tr></thead>
+  <tbody><tr>
+          <td>QQQ</td><td>纳指100ETF</td>
+          <td class="num">645.04</td>
+          <td class="num down">-2.19%</td>
+          <td class="num down">-10.27%</td>
+          <td>破位止损(极限风控)</td>
+        </tr><tr>
+          <td>SPY</td><td>标普500</td>
+          <td class="num">715.87</td>
+          <td class="num down">-1.96%</td>
+          <td class="num down">-6.35%</td>
+          <td>破位止损(极限风控) · 量能异动</td>
+        </tr><tr>
+          <td>DIA</td><td>道琼斯蓝筹</td>
+          <td class="num">490.79</td>
+          <td class="num down">-2.18%</td>
+          <td class="num down">-5.29%</td>
+          <td>破位止损(极限风控)</td>
+        </tr><tr>
+          <td>SMH</td><td>半导体ETF</td>
+          <td class="num">447.48</td>
+          <td class="num down">-2.62%</td>
+          <td class="num down">-20.22%</td>
+          <td>破位止损(极限风控)</td>
+        </tr><tr>
+          <td>VIXY</td><td>短期恐慌指数</td>
+          <td class="num">22.88</td>
+          <td class="num up">+12.16%</td>
+          <td class="num up">+31.09%</td>
+          <td>对冲恐慌极值(逢高分批收割)</td>
+        </tr><tr>
+          <td>GLD</td><td>黄金现货ETF</td>
+          <td class="num">335.18</td>
+          <td class="num down">-1.76%</td>
+          <td class="num down">-14.02%</td>
+          <td>破位止损(极限风控)</td>
+        </tr></tbody>
+</table></div>
+<p class="note" style="margin-top:12px">成分涨跌（百分点，快照原样）：<span class="num down">JPM -0.15%</span> <span class="num up">XOM +0.04%</span> <span class="num up">WMT +0.74%</span> <span class="num down">CAT -0.92%</span> <span class="num up">KO +0.40%</span> <span class="num down">LLY -0.16%</span> <span class="num down">DIA -0.18%</span> <span class="num down">QQQ -0.81%</span> <span class="num down">SMH -1.78%</span> <span class="num down">NVDA -1.53%</span></p>
+<h2>板块历史样本</h2>
+<p class="note">命中比例是快照字段。高信念笔数为 0 时，百分比仍照原样列出，本页不解释它为什么还在。</p>
+<div class="wrap"><table>
+  <thead><tr><th>板块</th><th>高信念笔数</th><th>评估行数</th><th>命中比例</th><th>盈亏比</th><th>快照评级</th></tr></thead>
+  <tbody><tr>
+          <td>存储芯片</td>
+          <td class="num">快照写着 0 笔</td>
+          <td class="num">2160</td>
+          <td class="num">50.7%</td>
+          <td class="num">1.29</td>
+          <td>⭐⭐⭐☆☆ (小样本)</td>
+        </tr><tr>
+          <td>半导体与设备</td>
+          <td class="num">快照写着 0 笔</td>
+          <td class="num">4320</td>
+          <td class="num">48.3%</td>
+          <td class="num">1.16</td>
+          <td>⭐⭐☆☆☆ (小样本)</td>
+        </tr><tr>
+          <td>企业软件与 AI SaaS</td>
+          <td class="num">快照写着 0 笔</td>
+          <td class="num">2880</td>
+          <td class="num">47.8%</td>
+          <td class="num">1.11</td>
+          <td>⭐⭐☆☆☆ (小样本)</td>
+        </tr><tr>
+          <td>数据中心能源电力</td>
+          <td class="num">快照写着 0 笔</td>
+          <td class="num">2160</td>
+          <td class="num">46.2%</td>
+          <td class="num">1.08</td>
+          <td>⭐⭐☆☆☆ (小样本)</td>
+        </tr><tr>
+          <td>加密币股代理</td>
+          <td class="num">快照写着 0 笔</td>
+          <td class="num">2490</td>
+          <td class="num">42.7%</td>
+          <td class="num">0.94</td>
+          <td>⭐☆☆☆☆ (小样本)</td>
+        </tr><tr>
+          <td>光通信与互联</td>
+          <td class="num">5</td>
+          <td class="num">3600</td>
+          <td class="num">40.0%</td>
+          <td class="num">0.90</td>
+          <td>⭐☆☆☆☆ (小样本)</td>
+        </tr><tr>
+          <td>Neo-Cloud 算力租赁</td>
+          <td class="num">1</td>
+          <td class="num">1648</td>
+          <td class="num">0.0%</td>
+          <td class="num">0.00</td>
+          <td>⭐☆☆☆☆ (小样本)</td>
+        </tr><tr>
+          <td>太空商业</td>
+          <td class="num">3</td>
+          <td class="num">720</td>
+          <td class="num">0.0%</td>
+          <td class="num">0.00</td>
+          <td>⭐☆☆☆☆ (小样本)</td>
+        </tr></tbody>
+</table></div>
+
+</main>
+</body>
+</html>
