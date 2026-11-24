@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795543407.072,
-  "updated_at_et": "11-24 13:03 ET",
-  "updated_at_kst": "03:03 KST",
+  "updated_at_ts": 1795543515.839,
+  "updated_at_et": "11-24 13:05 ET",
+  "updated_at_kst": "03:05 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2911,6 +2911,13 @@
     ],
     "PEP": [
       {
+        "title": "Is PepsiCo Sacrificing Pricing Power to Regain Snack Volumes?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/pepsico-sacrificing-pricing-power-regain-163200430.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:32 ET",
+        "pub_ts": 1795537920.0
+      },
+      {
         "title": "3 defensive stocks to watch as tech, chip volatility persists",
         "url": "https://finance.yahoo.com/markets/stocks/articles/3-defensive-stocks-watch-tech-143806164.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2937,16 +2944,16 @@
         "source": "Yahoo Finance",
         "time": "11-23 14:11 ET",
         "pub_ts": 1795461081.0
-      },
-      {
-        "title": "Coca-Cola vs. PepsiCo: Which Consumer Goods Stock Is a Better Buy for 2027?",
-        "url": "https://www.fool.com/coverage/better-buy/2026/11/23/coca-cola-vs-pepsico-which-consumer-goods-stock-is-a-better-buy-for-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 12:50 ET",
-        "pub_ts": 1795456202.0
       }
     ],
     "XOM": [
+      {
+        "title": "Your Exxon Dividend Needs Only About $59 Oil",
+        "url": "https://www.trefis.com/stock/xom/articles/628301/your-exxon-dividend-needs-only-about-59-oil/2026-11-24?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:33 ET",
+        "pub_ts": 1795541596.0
+      },
       {
         "title": "'Exxon Got Walloped': $340 Million Legal Blow Paves The Way For More",
         "url": "https://finance.yahoo.com/m/c2e01d7e-7e84-34bf-85bc-5a563b1d847c/%27exxon-got-walloped%27%3A-%24340.html?.tsrc=rss",
@@ -2974,13 +2981,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 09:39 ET",
         "pub_ts": 1795444740.0
-      },
-      {
-        "title": "Exxon, Chevron and ConocoPhillips Are Down. Here’s What Their Dividends Tell Investors",
-        "url": "https://247wallst.com/investing/2026/11/23/exxon-chevron-and-conocophillips-are-down-heres-what-their-dividends-tell-investors/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 09:17 ET",
-        "pub_ts": 1795443425.0
       }
     ],
     "JPM": [
@@ -3359,16 +3359,16 @@
     "MRNA": 1795543407.072157,
     "NKE": 1795543407.072157,
     "MCD": 1795543407.072157,
-    "PEP": 1795541999.676793,
-    "XOM": 1795541999.676793,
-    "JPM": 1795541999.676793,
-    "WMT": 1795541999.676793,
+    "PEP": 1795543515.8391044,
+    "XOM": 1795543515.8391044,
+    "JPM": 1795543515.8391044,
+    "WMT": 1795543515.8391044,
     "V": 1795543407.072157,
-    "CAT": 1795541999.676793,
+    "CAT": 1795543515.8391044,
     "FN": 1795543297.7349663,
     "GLW": 1795543297.7349663,
-    "ANT": 1795541999.676793,
-    "XAUUSD": 1795541999.676793,
+    "ANT": 1795543515.8391044,
+    "XAUUSD": 1795543515.8391044,
     "KOSPI": 1795521635.6703591
   },
   "opex_shield": {
