@@ -248,6 +248,21 @@ def engage_no_alert_mode(argv=None):
     return False
 
 
+def notify_channel_mode():
+    """Empty or default keeps Discord and PushPlus. discord_only blocks non-Discord sends."""
+    raw = str(os.environ.get("RADAR_NOTIFY_CHANNELS", "")).strip().lower()
+    if raw in ("discord", "discord_only"):
+        return "discord_only"
+    return "default"
+
+
+def pushplus_http_allowed():
+    """PushPlus/WeChat HTTP stays off for --no-alerts and for a Discord-only run."""
+    if _external_alerts_disabled():
+        return False
+    return notify_channel_mode() != "discord_only"
+
+
 def should_start_star_server(argv=None):
     """A guarded single pass must not leave the port 8765 process running."""
     args = list(argv if argv is not None else sys.argv)
@@ -3514,9 +3529,17 @@ def send_pushplus_wechat_alert(title, markdown_content, channel=None):
     except Exception as e:
         print(f"  [!] 💬 Discord 预警镜像触发异常: {e}")
 
+    if not pushplus_http_allowed():
+        print("  [*] [Discord-only] 已跳过 PushPlus/微信 HTTP，Discord 镜像保持独立")
+        _dedupe_key = _shared_dedupe_key(title, markdown_content)
+        _already_sent_discord = bool(
+            _dedupe_key and _SHARED_ALERTS and shared_alert_state.is_sent(_dedupe_key, max_age=600)
+        )
+        return bool(discord_success or _already_sent_discord)
+
     if not PUSHPLUS_TOKEN or PUSHPLUS_TOKEN == "YOUR_TOKEN":
         return discord_success
-    
+
     url = "https://www.pushplus.plus/send"
     target_channel = channel or globals().get("PUSHPLUS_CHANNEL", "clawbot")
     
