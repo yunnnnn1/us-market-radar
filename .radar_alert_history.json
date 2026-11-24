@@ -78,8 +78,8 @@
       "last_notified_at": 0.0
     },
     "SPY": {
-      "state": "NORMAL",
-      "last_notified_at": 0.0
+      "state": "WATCHLIST_ENTRY_READY",
+      "last_notified_at": 1795556897.6052914
     },
     "DIA": {
       "state": "WATCHLIST_ENTRY_READY",
@@ -170,8 +170,8 @@
       "last_notified_at": 1795556791.7500613
     },
     "NKE": {
-      "state": "NORMAL",
-      "last_notified_at": 0.0
+      "state": "WATCHLIST_ENTRY_READY",
+      "last_notified_at": 1795556897.6052914
     },
     "HPE": {
       "state": "STOP_LOSS",
