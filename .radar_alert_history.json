@@ -151,7 +151,7 @@
     },
     "DELL": {
       "state": "STOP_LOSS",
-      "last_notified_at": 1795552516.6235516
+      "last_notified_at": 1795559804.350156
     },
     "BE": {
       "state": "STOP_LOSS",
