@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795534159.188,
-  "updated_at_et": "11-24 10:29 ET",
-  "updated_at_kst": "00:29 KST",
+  "updated_at_ts": 1795534268.381,
+  "updated_at_et": "11-24 10:31 ET",
+  "updated_at_kst": "00:31 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -3223,25 +3223,25 @@
         "pub_ts": 1795531509.0
       },
       {
+        "title": "From the Demo Crew to the Nasdaq Podium: KBF Design Gallery's Adam Vellequette Joins Anthropic to Ring the Closing Bell on IPO Day",
+        "url": "https://finance.yahoo.com/technology/ai/articles/demo-crew-nasdaq-podium-kbf-151500049.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:15 ET",
+        "pub_ts": 1795533300.0
+      },
+      {
+        "title": "Is Anthropic stock a set and forget stock after its IPO debut?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-stock-set-forget-stock-150511184.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:05 ET",
+        "pub_ts": 1795532711.0
+      },
+      {
         "title": "Anthropic Stock Falls Below IPO Price Despite Bullish Views From Analysts",
         "url": "https://finance.yahoo.com/m/4f94eed8-e2b9-313f-ba94-697a4cf1fe70/anthropic-stock-falls-below.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 09:57 ET",
         "pub_ts": 1795532274.0
-      },
-      {
-        "title": "Anthropic Tumbles 9%, Trades Below IPO Price Despite Canaccord’s $135 Target; CoreWeave and Nebius Drop 8%",
-        "url": "https://247wallst.com/investing/2026/11/24/anthropic-tumbles-9-breaks-below-ipo-price-despite-canaccords-135-target-coreweave-and-nebius-drop-8/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:54 ET",
-        "pub_ts": 1795532088.0
-      },
-      {
-        "title": "Anthropic Sinks 7% Below IPO Price as AI Stocks Slide: Cramer Blames “Endless Hammering of Small Bids”",
-        "url": "https://www.tikr.com/blog/anthropic-sinks-7-below-ipo-price-as-ai-stocks-slide-cramer-blames-endless-hammering-of-small-bids?ref=yahoofinance&tlnk=yf-261124-m94c8jgv&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:51 ET",
-        "pub_ts": 1795531882.0
       }
     ],
     "XAUUSD": [
@@ -3361,16 +3361,16 @@
     "MRNA": 1795534159.1878235,
     "NKE": 1795534159.1878235,
     "MCD": 1795534159.1878235,
-    "PEP": 1795532748.219519,
-    "XOM": 1795532748.219519,
-    "JPM": 1795532748.219519,
-    "WMT": 1795532748.219519,
+    "PEP": 1795534268.380824,
+    "XOM": 1795534268.380824,
+    "JPM": 1795534268.380824,
+    "WMT": 1795534268.380824,
     "V": 1795534159.1878235,
-    "CAT": 1795532748.219519,
+    "CAT": 1795534268.380824,
     "FN": 1795534050.877912,
     "GLW": 1795534050.877912,
-    "ANT": 1795532748.219519,
-    "XAUUSD": 1795532748.219519,
+    "ANT": 1795534268.380824,
+    "XAUUSD": 1795534268.380824,
     "KOSPI": 1795521635.6703591
   },
   "opex_shield": {
