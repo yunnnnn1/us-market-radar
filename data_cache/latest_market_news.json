@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795551967.651,
-  "updated_at_et": "11-24 15:26 ET",
-  "updated_at_kst": "05:26 KST",
+  "updated_at_ts": 1795552074.349,
+  "updated_at_et": "11-24 15:27 ET",
+  "updated_at_kst": "05:27 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1098,6 +1098,13 @@
     ],
     "AMAT": [
       {
+        "title": "Applied Materials vs. Intel: Which Technology Stock Is a Better Buy for 2027?",
+        "url": "https://www.fool.com/coverage/better-buy/2026/11/24/applied-materials-vs-intel-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 14:50 ET",
+        "pub_ts": 1795549802.0
+      },
+      {
         "title": "Applied Materials Is Up 33% in 2026 but 54% Below Its June High. Time to Buy?",
         "url": "https://www.tikr.com/blog/applied-materials-is-up-33-in-2026-but-54-below-its-june-high-time-to-buy?ref=yahoofinance&tlnk=yf-261124-5f47p74f&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1124,13 +1131,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 09:45 ET",
         "pub_ts": 1795445118.0
-      },
-      {
-        "title": "Applied Materials (AMAT) Stock Looks Fully Priced As Its 109% Run Continues",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-stock-looks-140913651.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 09:09 ET",
-        "pub_ts": 1795442953.0
       }
     ],
     "META": [
@@ -1216,6 +1216,20 @@
         "pub_ts": 1795549060.0
       },
       {
+        "title": "Is Microsoft the Best Big Tech Stock to Buy Now?",
+        "url": "https://www.fool.com/investing/2026/11/24/is-microsoft-the-best-big-tech-stock-to-buy-now/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 14:50 ET",
+        "pub_ts": 1795549802.0
+      },
+      {
+        "title": "Microsoft initiaties ‘Code Red’ after most disruptive outage in company’s history: report",
+        "url": "https://nypost.com/2026/11/24/business/microsoft-initiates-code-red-after-most-disruptive-outage-in-companys-history-report/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 14:32 ET",
+        "pub_ts": 1795548775.0
+      },
+      {
         "title": "Microsoft Corporation (MSFT) Is Facing AI Spending Fears: Could Its Cloud Growth Change the Narrative?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-corporation-msft-facing-ai-165850177.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1228,20 +1242,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:48 ET",
         "pub_ts": 1795538905.0
-      },
-      {
-        "title": "3 Unstoppable Stocks That Can Be Great Buys for Decades",
-        "url": "https://www.fool.com/investing/2026/11/24/3-unstoppable-stocks-that-can-be-great-buys-for-decades/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 14:42 ET",
-        "pub_ts": 1795549322.0
-      },
-      {
-        "title": "The Gates Foundation Trust Sold 2.2 Million Berkshire Shares and Opened a $155 Million Dollar Tree Stake",
-        "url": "https://247wallst.com/investing/2026/11/24/the-gates-foundation-trust-sold-2-2-million-berkshire-shares-and-opened-a-155-million-dollar-tree-stake/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:53 ET",
-        "pub_ts": 1795539236.0
       }
     ],
     "AAPL": [
@@ -1283,6 +1283,13 @@
     ],
     "PLTR": [
       {
+        "title": "Axon Enterprise vs. Palantir Technologies: Which Law Enforcement Stock Is a Better Buy for 2027?",
+        "url": "https://www.fool.com/coverage/better-buy/2026/11/24/axon-enterprise-vs-palantir-technologies-which-law-enforcement-stock-is-a-better-buy-for-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 15:20 ET",
+        "pub_ts": 1795551602.0
+      },
+      {
         "title": "Wall Street May Not Be Ready for What’s Coming Next for These 3 AI Stocks",
         "url": "https://247wallst.com/investing/2026/11/24/wall-street-may-not-be-ready-for-whats-coming-next-for-these-3-ai-stocks/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1309,13 +1316,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 06:57 ET",
         "pub_ts": 1795521457.0
-      },
-      {
-        "title": "Tesla Leads Goldman's Hedge Fund Short List With $26.4 Billion in Bearish Bets",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-leads-goldmans-hedge-fund-110429117.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 06:04 ET",
-        "pub_ts": 1795518269.0
       }
     ],
     "NOW": [
@@ -1401,6 +1401,13 @@
         "pub_ts": 1795535048.0
       },
       {
+        "title": "CoreWeave bonds hit record lows as AI trade concerns return",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-bonds-hit-record-lows-195321737.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 14:53 ET",
+        "pub_ts": 1795550001.0
+      },
+      {
         "title": "SpaceX Falls 4%, CoreWeave Down 13%, Nebius Down 11% as AI Stocks Give Back Nvidia Rally",
         "url": "https://www.tikr.com/blog/spacex-falls-4-coreweave-down-13-nebius-down-11-as-ai-stocks-give-back-nvidia-rally?ref=yahoofinance&tlnk=yf-261124-6rfwxx6w&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1420,13 +1427,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:49 ET",
         "pub_ts": 1795538978.0
-      },
-      {
-        "title": "What Sent CoreWeave Stock Higher On Monday?",
-        "url": "https://www.trefis.com/stock/crwv/articles/628618/what-sent-coreweave-stock-higher-on-monday/2026-11-24?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:38 ET",
-        "pub_ts": 1795534689.0
       }
     ],
     "NBIS": [
@@ -1468,6 +1468,13 @@
     ],
     "APLD": [
       {
+        "title": "Applied Digital Is Down 33% in a Month. What Will It Take to Get APLD Stock Back to $20?",
+        "url": "https://247wallst.com/investing/2026/11/24/applied-digital-is-down-33-in-a-month-what-will-it-take-to-get-apld-stock-back-to-20/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 15:02 ET",
+        "pub_ts": 1795550566.0
+      },
+      {
         "title": "Can Applied Digital Stock Double From Here?",
         "url": "https://www.trefis.com/stock/apld/articles/628276/can-applied-digital-stock-double-from-here/2026-11-24?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1494,13 +1501,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:12 ET",
         "pub_ts": 1795533158.0
-      },
-      {
-        "title": "Applied Digital Achieves Initial 25 MW Ready for Service in Harwood, North Dakota, for Hyperscaler, Completes Base-Build Commissioning of First 75 MW",
-        "url": "https://finance.yahoo.com/technology/ai/articles/applied-digital-achieves-initial-25-130000311.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:00 ET",
-        "pub_ts": 1795525200.0
       }
     ],
     "VST": [
@@ -1764,6 +1764,27 @@
     ],
     "SPCX": [
       {
+        "title": "3 Non-AI Stocks to Buy for Long-Term Dividends and Stability",
+        "url": "https://www.fool.com/investing/2026/11/24/3-non-ai-stocks-to-buy-for-long-term-dividends-and-stability/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 15:12 ET",
+        "pub_ts": 1795551122.0
+      },
+      {
+        "title": "Tesla and SpaceX Name Five Directors for a Potential $3.5 Trillion Merger. Tesla Holders Still Get a Vote",
+        "url": "https://www.tikr.com/blog/tesla-and-spacex-name-five-directors-for-a-potential-3-5-trillion-merger-tesla-holders-still-get-a-vote?ref=yahoofinance&tlnk=yf-261124-rc5pgxq2&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 15:05 ET",
+        "pub_ts": 1795550733.0
+      },
+      {
+        "title": "Anduril’s Palmer Luckey: Elon Shouldn’t “Sacrifice the Existence of the Entire Starlink Network.” Here’s What’s at Stake for SpaceX",
+        "url": "https://www.tikr.com/blog/andurils-palmer-luckey-elon-shouldnt-sacrifice-the-existence-of-the-entire-starlink-network-heres-whats-at-stake-for-spacex?ref=yahoofinance&tlnk=yf-261124-2hmq638p&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 15:05 ET",
+        "pub_ts": 1795550700.0
+      },
+      {
         "title": "If SpaceX and Tesla Merge, History Says One Group of Shareholders Usually Wins. Here’s Which Side to Be On.",
         "url": "https://www.fool.com/investing/2026/11/24/if-spacex-and-tesla-merge-history-says-one-group-of-shareholders-usually-wins-here-s-which-side-to-be-on/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1776,27 +1797,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 14:01 ET",
         "pub_ts": 1795546896.0
-      },
-      {
-        "title": "SpaceX Falls 4%, CoreWeave Down 13%, Nebius Down 11% as AI Stocks Give Back Nvidia Rally",
-        "url": "https://www.tikr.com/blog/spacex-falls-4-coreweave-down-13-nebius-down-11-as-ai-stocks-give-back-nvidia-rally?ref=yahoofinance&tlnk=yf-261124-6rfwxx6w&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 13:57 ET",
-        "pub_ts": 1795546678.0
-      },
-      {
-        "title": "xAI co-founders launch Epochal to build predictive AI models",
-        "url": "https://finance.yahoo.com/technology/ai/articles/xai-co-founders-launch-epochal-182207372.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 13:22 ET",
-        "pub_ts": 1795544527.0
-      },
-      {
-        "title": "Here's Why SpaceX Stock Slumped Today, And Why it Could Come Under More Pressure as Tesla Merger Talks Continue",
-        "url": "https://www.fool.com/investing/2026/11/24/here-s-why-spacex-stock-slumped-today-and-why-it-could-come-under-more-pressure-as-tesla-merger-talks-continue/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 13:09 ET",
-        "pub_ts": 1795543745.0
       }
     ],
     "ASTS": [
@@ -3307,30 +3307,30 @@
     "SOXS": 1795551543.6186645,
     "NVDA": 1795551543.6186645,
     "AMD": 1795551543.6186645,
-    "ASML": 1795550471.5341573,
-    "QCOM": 1795550471.5341573,
-    "AVGO": 1795550471.5341573,
-    "AMAT": 1795550471.5341573,
-    "META": 1795550471.5341573,
-    "GOOGL": 1795550471.5341573,
-    "MSFT": 1795550471.5341573,
-    "AAPL": 1795550471.5341573,
-    "PLTR": 1795550471.5341573,
-    "NOW": 1795550471.5341573,
-    "AMZN": 1795550471.5341573,
-    "CRWV": 1795550471.5341573,
-    "NBIS": 1795550471.5341573,
-    "APLD": 1795550471.5341573,
-    "VST": 1795550471.5341573,
-    "BE": 1795550471.5341573,
-    "CRDO": 1795550471.5341573,
-    "COHR": 1795550471.5341573,
-    "MRVL": 1795550471.5341573,
-    "LITE": 1795550471.5341573,
-    "AAOI": 1795550471.5341573,
-    "SPCX": 1795550471.5341573,
+    "ASML": 1795552074.349127,
+    "QCOM": 1795552074.349127,
+    "AVGO": 1795552074.349127,
+    "AMAT": 1795552074.349127,
+    "META": 1795552074.349127,
+    "GOOGL": 1795552074.349127,
+    "MSFT": 1795552074.349127,
+    "AAPL": 1795552074.349127,
+    "PLTR": 1795552074.349127,
+    "NOW": 1795552074.349127,
+    "AMZN": 1795552074.349127,
+    "CRWV": 1795552074.349127,
+    "NBIS": 1795552074.349127,
+    "APLD": 1795552074.349127,
+    "VST": 1795552074.349127,
+    "BE": 1795552074.349127,
+    "CRDO": 1795552074.349127,
+    "COHR": 1795552074.349127,
+    "MRVL": 1795552074.349127,
+    "LITE": 1795552074.349127,
+    "AAOI": 1795552074.349127,
+    "SPCX": 1795552074.349127,
     "ASTS": 1795550579.1363013,
-    "AXTI": 1795550471.5341573,
+    "AXTI": 1795552074.349127,
     "NASA": 1795550579.1363013,
     "LUNR": 1795550579.1363013,
     "TSLA": 1795550579.1363013,
@@ -3365,8 +3365,8 @@
     "WMT": 1795551543.6186645,
     "V": 1795550685.1656902,
     "CAT": 1795551543.6186645,
-    "FN": 1795550471.5341573,
-    "GLW": 1795550471.5341573,
+    "FN": 1795552074.349127,
+    "GLW": 1795552074.349127,
     "ANT": 1795551543.6186645,
     "XAUUSD": 1795551543.6186645,
     "KOSPI": 1795551543.6186645
