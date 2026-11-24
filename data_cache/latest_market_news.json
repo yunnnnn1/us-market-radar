@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795563962.944,
-  "updated_at_et": "11-24 18:46 ET",
-  "updated_at_kst": "08:46 KST",
+  "updated_at_ts": 1795564064.526,
+  "updated_at_et": "11-24 18:47 ET",
+  "updated_at_kst": "08:47 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -806,13 +806,6 @@
     ],
     "TSM": [
       {
-        "title": "Nvidia, AMD, Broadcom lead chip stocks lower as AI trade comes under pressure",
-        "url": "https://finance.yahoo.com/markets/article/nvidia-amd-broadcom-lead-chip-stocks-lower-as-ai-trade-comes-under-pressure-141635463.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:16 ET",
-        "pub_ts": 1795529795.0
-      },
-      {
         "title": "Novanta Shares Just Jumped And We’re Buying This Robotics Play",
         "url": "https://247wallst.com/videos/novanta-shares-just-jumped-and-were-buying-this-robotics-play/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -839,6 +832,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 14:59 ET",
         "pub_ts": 1795550362.0
+      },
+      {
+        "title": "If You Invest $5,000 Into These 3 Stocks, You Could Have $10,000 by 2030",
+        "url": "https://247wallst.com/investing/2026/11/24/if-you-invest-5000-into-these-3-stocks-you-could-have-10000-by-2030/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 13:03 ET",
+        "pub_ts": 1795543400.0
       }
     ],
     "VIXY": [
@@ -924,32 +924,32 @@
         "pub_ts": 1795560205.0
       },
       {
-        "title": "A scandal like the one haunting Nvidia just reached AMD, its biggest rival",
-        "url": "https://www.thestreet.com/investing/stocks/scandal-like-one-haunting-nvidia-just-reached-amd-its-biggest-rival?.tsrc=rss",
+        "title": "Dow Jones Futures Fall: Nvidia, Anthropic Lead AI Retreat But Many Sectors Strong; Fed Inflation Data Due",
+        "url": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures-fall%3A.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 18:17 ET",
-        "pub_ts": 1795562220.0
+        "time": "11-24 18:34 ET",
+        "pub_ts": 1795563290.0
       },
       {
-        "title": "California AG Sees 'Bright Red Flags' Regarding Nvidia",
-        "url": "https://finance.yahoo.com/video/california-ag-sees-bright-red-230340002.html?.tsrc=rss",
+        "title": "How Much Is Nvidia Stock Worth Now That Jensen Huang Is Back?",
+        "url": "https://www.fool.com/investing/2026/11/24/how-much-is-nvidia-stock-worth-now-that-jensen-huang-is-back/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 18:03 ET",
-        "pub_ts": 1795561420.0
+        "time": "11-24 18:30 ET",
+        "pub_ts": 1795563002.0
       },
       {
-        "title": "Dow Jones Futures: Nvidia, Anthropic Lead AI Retreat But Many Sectors Strong; Fed Inflation Data Due",
-        "url": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures%3A-nvidia%2C.html?.tsrc=rss",
+        "title": "Why AMD Stock Fell Today",
+        "url": "https://www.fool.com/investing/2026/11/24/why-amd-stock-fell-today/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 18:02 ET",
-        "pub_ts": 1795561378.0
+        "time": "11-24 18:25 ET",
+        "pub_ts": 1795562702.0
       },
       {
-        "title": "In Response to the Turmoil at Nvidia, Bitcoin Drops Below $70,000. Is This a Buy-the-Dip Opportunity?",
-        "url": "https://www.fool.com/investing/2026/11/24/in-response-to-the-turmoil-at-nvidia-bitcoin-drops-below-usd70-000-is-this-a-buy-the-dip-opportunity/?.tsrc=rss",
+        "title": "3 Canadian Value Stocks For November 2026",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-canadian-value-stocks-november-232403769.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 18:01 ET",
-        "pub_ts": 1795561262.0
+        "time": "11-24 18:24 ET",
+        "pub_ts": 1795562643.0
       }
     ],
     "AMD": [
@@ -959,6 +959,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 16:45 ET",
         "pub_ts": 1795556758.0
+      },
+      {
+        "title": "Why AMD Stock Fell Today",
+        "url": "https://www.fool.com/investing/2026/11/24/why-amd-stock-fell-today/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 18:25 ET",
+        "pub_ts": 1795562702.0
       },
       {
         "title": "A scandal like the one haunting Nvidia just reached AMD, its biggest rival",
@@ -980,13 +987,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 16:13 ET",
         "pub_ts": 1795554780.0
-      },
-      {
-        "title": "Is AMD Among the Morgan Stanley’s Best Semiconductor and Server Stocks to Buy for 2027?",
-        "url": "https://finance.yahoo.com/technology/articles/amd-among-morgan-stanley-best-205409840.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 15:54 ET",
-        "pub_ts": 1795553649.0
       }
     ],
     "ASML": [
@@ -3211,39 +3211,39 @@
     ],
     "ANT": [
       {
-        "title": "Anthropic falls below IPO price as Nvidia gives back gains",
-        "url": "https://finance.yahoo.com/video/anthropic-falls-below-ipo-price-as-nvidia-gives-back-gains-214558309.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:45 ET",
-        "pub_ts": 1795556758.0
+        "title": "Don't Be A Hero: The Wrong Way To Buy The Tech Dip",
+        "url": "https://finnhub.io/api/news?id=241df4d0abcc07478c124c3cf5cb5ce55810e50d75a5d55d588241685d7723ee",
+        "source": "SeekingAlpha",
+        "time": "11-24 11:37 ET",
+        "pub_ts": 1795538249.0
       },
       {
-        "title": "The blunt reality for post-IPO Anthropic investors should be aware of",
-        "url": "https://finance.yahoo.com/video/the-blunt-reality-for-post-ipo-anthropic-investors-should-be-aware-of-213033373.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:30 ET",
-        "pub_ts": 1795555833.0
+        "title": "No Exposure? Think Again: How Anthropic's Fall Threatens Every Investor",
+        "url": "https://finnhub.io/api/news?id=3242bf55276018cb50fdb45e07eb3d5099c6beb78ca76f12b79ba126c30e4a4d",
+        "source": "SeekingAlpha",
+        "time": "11-24 11:06 ET",
+        "pub_ts": 1795536367.0
       },
       {
-        "title": "Dow Jones Futures: Nvidia, Anthropic Lead AI Retreat But Many Sectors Strong; Fed Inflation Data Due",
-        "url": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures%3A-nvidia%2C.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 18:02 ET",
-        "pub_ts": 1795561378.0
+        "title": "Stock Market Today: Jensen Huang's Comeback Sends Nvidia Up 31% and Gives the Nasdaq Its Best Day Since April 2025",
+        "url": "https://finnhub.io/api/news?id=a28ff3b86a2b59b70e2d8adc10dc2b7e83f0f7efe1d01c754c0c6ac79b1da05f",
+        "source": "ChartMill",
+        "time": "11-24 08:58 ET",
+        "pub_ts": 1795528688.0
       },
       {
-        "title": "Anthropic: ANT that a shame",
-        "url": "https://www.axios.com/2026/11/24/anthropic-stock-ipo-banks#utm_source=yahoo_finance&utm_medium=partner&utm_campaign=subs-partner-yahoo-finance-AI?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 17:30 ET",
-        "pub_ts": 1795559446.0
+        "title": "Beware, The AI Trade May Not Have Bottomed Yet",
+        "url": "https://finnhub.io/api/news?id=9b54774e4ea64a6c20bb99348fa0a94b16042ecf0e038bfedbac60fcecf3211e",
+        "source": "SeekingAlpha",
+        "time": "11-24 05:20 ET",
+        "pub_ts": 1795515649.0
       },
       {
-        "title": "Why Anthropic Stock Fell Again",
-        "url": "https://www.fool.com/investing/2026/11/24/why-anthropic-stock-fell-again/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:55 ET",
-        "pub_ts": 1795557302.0
+        "title": "How AMD Is Set To Exploit The Nvidia Rout",
+        "url": "https://finnhub.io/api/news?id=d11c8f5c0a4efb8481ecf34f71b2d9b96272ce25ede3a0d3bffdd4b13bd15962",
+        "source": "SeekingAlpha",
+        "time": "11-24 04:52 ET",
+        "pub_ts": 1795513968.0
       }
     ],
     "XAUUSD": [
@@ -3294,23 +3294,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795562534.9640565,
-    "SOXL": 1795562534.9640565,
-    "SPY": 1795562534.9640565,
-    "DIA": 1795562534.9640565,
-    "SOXX": 1795562534.9640565,
-    "QQQ": 1795562534.9640565,
-    "SMH": 1795562534.9640565,
-    "IWM": 1795562534.9640565,
-    "IGV": 1795562534.9640565,
-    "TLT": 1795562534.9640565,
-    "GLD": 1795562534.9640565,
-    "SQQQ": 1795562534.9640565,
-    "TSM": 1795562534.9640565,
-    "VIXY": 1795562534.9640565,
-    "SOXS": 1795562534.9640565,
-    "NVDA": 1795562534.9640565,
-    "AMD": 1795562534.9640565,
+    "KORU": 1795564064.5261943,
+    "SOXL": 1795564064.5261943,
+    "SPY": 1795564064.5261943,
+    "DIA": 1795564064.5261943,
+    "SOXX": 1795564064.5261943,
+    "QQQ": 1795564064.5261943,
+    "SMH": 1795564064.5261943,
+    "IWM": 1795564064.5261943,
+    "IGV": 1795564064.5261943,
+    "TLT": 1795564064.5261943,
+    "GLD": 1795564064.5261943,
+    "SQQQ": 1795564064.5261943,
+    "TSM": 1795564064.5261943,
+    "VIXY": 1795564064.5261943,
+    "SOXS": 1795564064.5261943,
+    "NVDA": 1795564064.5261943,
+    "AMD": 1795564064.5261943,
     "ASML": 1795562934.7263243,
     "QCOM": 1795562934.7263243,
     "AVGO": 1795562934.7263243,
@@ -3363,17 +3363,17 @@
     "MRNA": 1795563145.7732947,
     "NKE": 1795563145.7732947,
     "MCD": 1795563145.7732947,
-    "PEP": 1795562534.9640565,
-    "XOM": 1795562534.9640565,
-    "JPM": 1795562534.9640565,
-    "WMT": 1795562534.9640565,
+    "PEP": 1795564064.5261943,
+    "XOM": 1795564064.5261943,
+    "JPM": 1795564064.5261943,
+    "WMT": 1795564064.5261943,
     "V": 1795563145.7732947,
-    "CAT": 1795562534.9640565,
+    "CAT": 1795564064.5261943,
     "FN": 1795562934.7263243,
     "GLW": 1795562934.7263243,
-    "ANT": 1795562534.9640565,
-    "XAUUSD": 1795562534.9640565,
-    "KOSPI": 1795562534.9640565
+    "ANT": 1795564064.5261943,
+    "XAUUSD": 1795564064.5261943,
+    "KOSPI": 1795564064.5261943
   },
   "opex_shield": {
     "date": "2026-11-24",
