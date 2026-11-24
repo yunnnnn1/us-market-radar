@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795532413.579,
-  "updated_at_et": "11-24 10:00 ET",
-  "updated_at_kst": "00:00 KST",
+  "updated_at_ts": 1795532527.868,
+  "updated_at_et": "11-24 10:02 ET",
+  "updated_at_kst": "00:02 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1250,6 +1250,20 @@
         "pub_ts": 1795524188.0
       },
       {
+        "title": "Global Neural Processor Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on 22.2% CAGR as NVIDIA, Apple, Alphabet, and Intel Accelerate Edge AI",
+        "url": "https://finance.yahoo.com/technology/ai/articles/global-neural-processor-market-report-144100416.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:41 ET",
+        "pub_ts": 1795531260.0
+      },
+      {
+        "title": "Embedded Microprocessor Unit (MPU) Global Market Report 2026 | Capitalize on Edge AI and IoT Growth to $59.18 Billion by 2030 with NVIDIA, Intel, Qualcomm, NXP, and Renesas",
+        "url": "https://finance.yahoo.com/technology/articles/embedded-microprocessor-unit-mpu-global-143600298.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:36 ET",
+        "pub_ts": 1795530960.0
+      },
+      {
         "title": "What Changed In Apple Stock's Story?",
         "url": "https://www.trefis.com/stock/aapl/articles/628423/what-changed-in-apple-stock-s-story/2026-11-24?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1262,23 +1276,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 07:29 ET",
         "pub_ts": 1795523340.0
-      },
-      {
-        "title": "Nvidia Regains Nearly $1 Trillion in Value -- Apple Still Holds the Top Spot",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-regains-nearly-1-trillion-120207012.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 07:02 ET",
-        "pub_ts": 1795521727.0
-      },
-      {
-        "title": "Invesco NASDAQ 100 ETF (QQQM) Adds Apple and Microsoft on Friday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-nasdaq-100-etf-qqqm-110444816.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 06:04 ET",
-        "pub_ts": 1795518284.0
       }
     ],
     "PLTR": [
+      {
+        "title": "AI-Enabled Battlefield Management and Decision Support Systems Global Market Report 2026 | Lockheed Martin, RTX, Palantir Capitalize on Edge AI as Market Hits $17.88B by 2030",
+        "url": "https://finance.yahoo.com/technology/ai/articles/ai-enabled-battlefield-management-decision-144200975.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:42 ET",
+        "pub_ts": 1795531320.0
+      },
       {
         "title": "Is Palantir Stock Priced Right Against Its Rivals?",
         "url": "https://www.trefis.com/stock/pltr/articles/628308/is-palantir-stock-priced-right-against-its-rivals/2026-11-24?.tsrc=rss",
@@ -1306,16 +1313,16 @@
         "source": "Yahoo Finance",
         "time": "11-23 15:08 ET",
         "pub_ts": 1795464489.0
-      },
-      {
-        "title": "If You Invest $7,500 Into These 3 Stocks, You Could Have $15,000 by 2030",
-        "url": "https://247wallst.com/investing/2026/11/23/if-you-invest-7500-into-these-3-stocks-you-could-have-15000-by-2030/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 13:33 ET",
-        "pub_ts": 1795458788.0
       }
     ],
     "NOW": [
+      {
+        "title": "Global Workflow Market Size, Trends, and Forecast Report 2026 | Capitalize on 22.5% CAGR as IBM, Oracle, SAP, ServiceNow, and Appian Accelerate AI and Cloud Automation Through 2030",
+        "url": "https://finance.yahoo.com/technology/articles/global-workflow-market-size-trends-143400424.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:34 ET",
+        "pub_ts": 1795530840.0
+      },
       {
         "title": "Leading CHROs and Business Executives to Convene at i4cp's 2027 Next Practices Now Conference",
         "url": "https://finance.yahoo.com/small-business/articles/leading-chros-business-executives-convene-212500658.html?.tsrc=rss",
@@ -1343,16 +1350,16 @@
         "source": "Yahoo Finance",
         "time": "11-23 13:28 ET",
         "pub_ts": 1795458480.0
-      },
-      {
-        "title": "ServiceNow Is Down 50% From Its 52-Week High. It’s Time to Load Up on NOW Stock.",
-        "url": "https://www.barchart.com/story/news/8966846/servicenow-is-down-50-from-its-52-week-high-its-time-to-load-up-on-now-stock?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 10:40 ET",
-        "pub_ts": 1795448444.0
       }
     ],
     "AMZN": [
+      {
+        "title": "Could Amazon Stock Double Over the Next Five Years? Here’s What Needs to Happen",
+        "url": "https://247wallst.com/investing/2026/11/24/could-amazon-stock-double-over-the-next-five-years-heres-what-needs-to-happen/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:37 ET",
+        "pub_ts": 1795531027.0
+      },
       {
         "title": "JSHealth, the $100M+ Global Revenue Brand, Eyes U.S. Retail Expansion Following Triple-Digit Growth",
         "url": "https://finance.yahoo.com/healthcare/articles/jshealth-100m-global-revenue-brand-140000578.html?.tsrc=rss",
@@ -1380,16 +1387,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 08:00 ET",
         "pub_ts": 1795525205.0
-      },
-      {
-        "title": "Amazon To Pull Unauthorized Victoria's Secret Listings On Thanksgiving",
-        "url": "https://www.mediapost.com/publications/article/419642/amazon-to-pull-unauthorized-victorias-secret-list.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:00 ET",
-        "pub_ts": 1795525200.0
       }
     ],
     "CRWV": [
+      {
+        "title": "Anthropic Tumbles 9%, Trades Below IPO Price Despite Canaccord’s $135 Target; CoreWeave and Nebius Drop 8%",
+        "url": "https://247wallst.com/investing/2026/11/24/anthropic-tumbles-9-breaks-below-ipo-price-despite-canaccords-135-target-coreweave-and-nebius-drop-8/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:54 ET",
+        "pub_ts": 1795532088.0
+      },
       {
         "title": "Nvidia Turmoil: How Big Is the Risk for CoreWeave?",
         "url": "https://www.fool.com/investing/2026/11/24/nvidia-turmoil-how-big-is-the-risk-for-coreweave/?.tsrc=rss",
@@ -1417,16 +1424,16 @@
         "source": "Yahoo Finance",
         "time": "11-23 22:15 ET",
         "pub_ts": 1795490101.0
-      },
-      {
-        "title": "Billionaire David Tepper Bought $172 Million of Oracle. Oracle Is Targeting “More Than $30 Billion” of Free Cash Flow",
-        "url": "https://www.tikr.com/blog/david-tepper-oracle-stake-free-cash-flow-target?ref=yahoofinance&tlnk=yf-261124-4gjjjpp9&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:50 ET",
-        "pub_ts": 1795528240.0
       }
     ],
     "NBIS": [
+      {
+        "title": "Anthropic Tumbles 9%, Trades Below IPO Price Despite Canaccord’s $135 Target; CoreWeave and Nebius Drop 8%",
+        "url": "https://247wallst.com/investing/2026/11/24/anthropic-tumbles-9-breaks-below-ipo-price-despite-canaccords-135-target-coreweave-and-nebius-drop-8/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:54 ET",
+        "pub_ts": 1795532088.0
+      },
       {
         "title": "Can AI Cloud Expansion Anchor NBIS' Ambitious 2027 Growth Expectation?",
         "url": "https://finance.yahoo.com/technology/ai/articles/ai-cloud-expansion-anchor-nbis-121100944.html?.tsrc=rss",
@@ -1454,13 +1461,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 18:27 ET",
         "pub_ts": 1795476445.0
-      },
-      {
-        "title": "Gavin Baker: “At Least Three Companies” Want to Replace Nvidia as AI’s Central Bank. Good News for CoreWeave",
-        "url": "https://www.tikr.com/blog/gavin-baker-at-least-three-companies-want-to-replace-nvidia-as-ais-central-bank-good-news-for-coreweave?ref=yahoofinance&tlnk=yf-261123-37w799jj&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 15:30 ET",
-        "pub_ts": 1795465844.0
       }
     ],
     "APLD": [
@@ -1724,6 +1724,13 @@
     ],
     "AAOI": [
       {
+        "title": "Applied Optoelectronics stock rises on datacenter deal",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-stock-rises-datacenter-144409714.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:44 ET",
+        "pub_ts": 1795531449.0
+      },
+      {
         "title": "AOI Announces Multi-Year Long-Term Agreement with Tier-1 Hyperscale Datacenter Customer",
         "url": "https://finance.yahoo.com/technology/ai/articles/aoi-announces-multi-long-term-120000386.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1750,16 +1757,30 @@
         "source": "Yahoo Finance",
         "time": "11-19 09:13 ET",
         "pub_ts": 1795097636.0
-      },
-      {
-        "title": "What Sent Applied Optoelectronics Stock Higher?",
-        "url": "https://www.trefis.com/stock/aaoi/articles/626749/what-sent-applied-optoelectronics-stock-higher/2026-11-19?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-19 06:04 ET",
-        "pub_ts": 1795086278.0
       }
     ],
     "SPCX": [
+      {
+        "title": "Tesla and SpaceX assemble deal teams for a merger that could give Musk majority control",
+        "url": "https://finance.yahoo.com/technology/article/tesla-and-spacex-assemble-deal-teams-for-a-merger-that-could-give-musk-majority-control-144555932.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:45 ET",
+        "pub_ts": 1795531555.0
+      },
+      {
+        "title": "Billionaire Bill Ackman Just Warned the Fed Could Trigger a Recession on December 9. Here’s How",
+        "url": "https://247wallst.com/investing/2026/11/24/billionaire-bill-ackman-just-warned-the-fed-could-trigger-a-recession-on-december-9-heres-how/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:47 ET",
+        "pub_ts": 1795531660.0
+      },
+      {
+        "title": "Global Military Satellite Communications Market Report 2026-2030 | Lockheed Martin, RTX, SpaceX and Viasat Accelerate AI, LEO and Jam-Resistant Networks Toward $29.58 Billion",
+        "url": "https://finance.yahoo.com/technology/articles/global-military-satellite-communications-market-144300653.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:43 ET",
+        "pub_ts": 1795531380.0
+      },
       {
         "title": "Why Tesla-SpaceX Merger Talks Face ‘More Friction Than People Assume’",
         "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63575567/tesla-spacex-merger-talks-friction?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
@@ -1773,27 +1794,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 08:44 ET",
         "pub_ts": 1795527854.0
-      },
-      {
-        "title": "Elon Musk Reportedly Told Staff SpaceX Is Falling Behind in AI",
-        "url": "https://247wallst.com/investing/2026/11/24/elon-musk-reportedly-told-staff-spacex-is-falling-behind-in-ai/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 07:22 ET",
-        "pub_ts": 1795522933.0
-      },
-      {
-        "title": "Tesla, SpaceX Name Five Directors for Potential $3.5 Trillion Merger",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-spacex-name-five-directors-120918069.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 07:09 ET",
-        "pub_ts": 1795522158.0
-      },
-      {
-        "title": "Anthropic Backer Dismisses Musk as “a Glorified Compute Reseller.” Here’s What Reselling Earns SpaceX",
-        "url": "https://www.tikr.com/blog/anthropic-backer-dismisses-musk-as-a-glorified-compute-reseller-heres-what-reselling-earns-spacex?ref=yahoofinance&tlnk=yf-261124-4wp2mjrm&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 07:06 ET",
-        "pub_ts": 1795521965.0
       }
     ],
     "ASTS": [
@@ -2057,6 +2057,20 @@
     ],
     "KO": [
       {
+        "title": "Coca-Cola at $95 or PepsiCo at $140: Which Dividend King Could Turn $1,000 Into More Money by 2036?",
+        "url": "https://www.fool.com/investing/2026/11/24/coca-cola-at-usd95-or-pepsico-at-usd140-which-dividend-king-could-turn-usd1-000-into-more-money-by-2036/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:29 ET",
+        "pub_ts": 1795530541.0
+      },
+      {
+        "title": "Coca-Cola Shakes up Leadership, Names Pharma Veteran as CFO",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-shakes-leadership-names-134351680.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 08:43 ET",
+        "pub_ts": 1795527831.0
+      },
+      {
         "title": "These 3 Stocks Have Raised Their Dividends Annually for at Least 49 Years. Should you Buy Them?",
         "url": "https://www.fool.com/investing/2026/11/24/these-3-stocks-have-raised-their-dividends-annually-for-at-least-49-years-should-you-buy-them/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2076,20 +2090,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 16:30 ET",
         "pub_ts": 1795469400.0
-      },
-      {
-        "title": "Jensen Huang's return to Nvidia: Long or short accountability?",
-        "url": "https://finance.yahoo.com/video/jensen-huangs-return-to-nvidia-long-or-short-accountability-185949254.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 13:59 ET",
-        "pub_ts": 1795460389.0
-      },
-      {
-        "title": "If a Recession Hits in 2027, This Is the Dividend Stock I Want to Own",
-        "url": "https://www.fool.com/investing/2026/11/23/if-recession-hits-2027-this-dividend-stock-i-want-to-own/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 13:20 ET",
-        "pub_ts": 1795458002.0
       }
     ],
     "FLY": [
@@ -3311,30 +3311,30 @@
     "META": 1795532195.8693504,
     "GOOGL": 1795532195.8693504,
     "MSFT": 1795532195.8693504,
-    "AAPL": 1795530998.536012,
-    "PLTR": 1795530998.536012,
-    "NOW": 1795530998.536012,
-    "AMZN": 1795530998.536012,
-    "CRWV": 1795530998.536012,
-    "NBIS": 1795530998.536012,
-    "APLD": 1795530998.536012,
-    "VST": 1795530998.536012,
-    "BE": 1795530998.536012,
-    "CRDO": 1795530998.536012,
-    "COHR": 1795530998.536012,
-    "MRVL": 1795530998.536012,
-    "LITE": 1795530998.536012,
-    "AAOI": 1795530998.536012,
-    "SPCX": 1795530998.536012,
-    "ASTS": 1795530998.536012,
-    "AXTI": 1795530998.536012,
-    "NASA": 1795530998.536012,
-    "LUNR": 1795530998.536012,
+    "AAPL": 1795532527.8675272,
+    "PLTR": 1795532527.8675272,
+    "NOW": 1795532527.8675272,
+    "AMZN": 1795532527.8675272,
+    "CRWV": 1795532527.8675272,
+    "NBIS": 1795532527.8675272,
+    "APLD": 1795532527.8675272,
+    "VST": 1795532527.8675272,
+    "BE": 1795532527.8675272,
+    "CRDO": 1795532527.8675272,
+    "COHR": 1795532527.8675272,
+    "MRVL": 1795532527.8675272,
+    "LITE": 1795532527.8675272,
+    "AAOI": 1795532527.8675272,
+    "SPCX": 1795532527.8675272,
+    "ASTS": 1795532527.8675272,
+    "AXTI": 1795532527.8675272,
+    "NASA": 1795532527.8675272,
+    "LUNR": 1795532527.8675272,
     "TSLA": 1795531107.6112986,
     "AXP": 1795531107.6112986,
-    "RKLB": 1795530998.536012,
-    "KO": 1795530998.536012,
-    "FLY": 1795530998.536012,
+    "RKLB": 1795532527.8675272,
+    "KO": 1795532527.8675272,
+    "FLY": 1795532527.8675272,
     "INTC": 1795531107.6112986,
     "VRT": 1795531107.6112986,
     "HPE": 1795531107.6112986,
@@ -3362,8 +3362,8 @@
     "WMT": 1795531216.8682861,
     "V": 1795531107.6112986,
     "CAT": 1795531216.8682861,
-    "FN": 1795530998.536012,
-    "GLW": 1795530998.536012,
+    "FN": 1795532527.8675272,
+    "GLW": 1795532527.8675272,
     "ANT": 1795531216.8682861,
     "XAUUSD": 1795531216.8682861,
     "KOSPI": 1795521635.6703591
