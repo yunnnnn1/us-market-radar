@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795540148.794,
-  "updated_at_et": "11-24 12:09 ET",
-  "updated_at_kst": "02:09 KST",
+  "updated_at_ts": 1795540258.142,
+  "updated_at_et": "11-24 12:10 ET",
+  "updated_at_kst": "02:10 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1260,25 +1260,25 @@
         "pub_ts": 1795524188.0
       },
       {
+        "title": "Apple Inc. (AAPL) Delivered Strong Results: Why Investors Are Watching Its Next Move Closely",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-inc-aapl-delivered-strong-165645219.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:56 ET",
+        "pub_ts": 1795539405.0
+      },
+      {
+        "title": "Apple Set to Revive Popular Product Line After Years",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-set-revive-popular-product-164314724.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:43 ET",
+        "pub_ts": 1795538594.0
+      },
+      {
         "title": "Anduril’s Palmer Luckey Thinks “Most AI Is Going to Run Locally.” That’s a Bet on Apple",
         "url": "https://www.tikr.com/blog/andurils-palmer-luckey-thinks-most-ai-is-going-to-run-locally-thats-a-bet-on-apple?ref=yahoofinance&tlnk=yf-261124-9x2g364x&.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 11:27 ET",
         "pub_ts": 1795537657.0
-      },
-      {
-        "title": "Global Neural Processor Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on 22.2% CAGR as NVIDIA, Apple, Alphabet, and Intel Accelerate Edge AI",
-        "url": "https://finance.yahoo.com/technology/ai/articles/global-neural-processor-market-report-144100416.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:41 ET",
-        "pub_ts": 1795531260.0
-      },
-      {
-        "title": "Embedded Microprocessor Unit (MPU) Global Market Report 2026 | Capitalize on Edge AI and IoT Growth to $59.18 Billion by 2030 with NVIDIA, Intel, Qualcomm, NXP, and Renesas",
-        "url": "https://finance.yahoo.com/technology/articles/embedded-microprocessor-unit-mpu-global-143600298.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:36 ET",
-        "pub_ts": 1795530960.0
       }
     ],
     "PLTR": [
@@ -1357,6 +1357,13 @@
     ],
     "AMZN": [
       {
+        "title": "Amazon Makes $7.5 Billion AI Move to Challenge Nvidia",
+        "url": "https://finance.yahoo.com/technology/ai/articles/amazon-makes-7-5-billion-164215378.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:42 ET",
+        "pub_ts": 1795538535.0
+      },
+      {
         "title": "Amazon’s Decart acquisition is a bet on using software to narrow the gap with Nvidia in the AI chip race",
         "url": "https://finance.yahoo.com/technology/ai/articles/amazon-decart-acquisition-bet-using-155107586.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1383,16 +1390,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:08 ET",
         "pub_ts": 1795532884.0
-      },
-      {
-        "title": "Could Amazon Stock Double Over the Next Five Years? Here’s What Needs to Happen",
-        "url": "https://247wallst.com/investing/2026/11/24/could-amazon-stock-double-over-the-next-five-years-heres-what-needs-to-happen/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:37 ET",
-        "pub_ts": 1795531027.0
       }
     ],
     "CRWV": [
+      {
+        "title": "“The Bank of Nvidia Is Back,” Says CNBC’s David Faber. Its Investments Rose From $7 Billion to $110 Billion",
+        "url": "https://www.tikr.com/blog/the-bank-of-nvidia-is-back-says-cnbcs-david-faber-its-investments-rose-from-7-billion-to-110-billion?ref=yahoofinance&tlnk=yf-261124-hfqgvgp4&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:49 ET",
+        "pub_ts": 1795538978.0
+      },
       {
         "title": "What Sent CoreWeave Stock Higher On Monday?",
         "url": "https://www.trefis.com/stock/crwv/articles/628618/what-sent-coreweave-stock-higher-on-monday/2026-11-24?.tsrc=rss",
@@ -1413,13 +1420,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:54 ET",
         "pub_ts": 1795532088.0
-      },
-      {
-        "title": "Nvidia Turmoil: How Big Is the Risk for CoreWeave?",
-        "url": "https://www.fool.com/investing/2026/11/24/nvidia-turmoil-how-big-is-the-risk-for-coreweave/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 05:30 ET",
-        "pub_ts": 1795516202.0
       },
       {
         "title": "“Tell Me Why I am Wrong”: Bill Ackman Lambasts Looming Fed Interest Rate Hike",
@@ -3314,30 +3314,30 @@
     "META": 1795539925.644299,
     "GOOGL": 1795539925.644299,
     "MSFT": 1795539925.644299,
-    "AAPL": 1795538707.7242947,
-    "PLTR": 1795538707.7242947,
-    "NOW": 1795538707.7242947,
-    "AMZN": 1795538707.7242947,
-    "CRWV": 1795538707.7242947,
-    "NBIS": 1795538707.7242947,
-    "APLD": 1795538707.7242947,
-    "VST": 1795538707.7242947,
-    "BE": 1795538707.7242947,
-    "CRDO": 1795538707.7242947,
-    "COHR": 1795538707.7242947,
-    "MRVL": 1795538707.7242947,
-    "LITE": 1795538707.7242947,
-    "AAOI": 1795538707.7242947,
-    "SPCX": 1795538707.7242947,
-    "ASTS": 1795538707.7242947,
-    "AXTI": 1795538707.7242947,
-    "NASA": 1795538707.7242947,
-    "LUNR": 1795538707.7242947,
+    "AAPL": 1795540258.141779,
+    "PLTR": 1795540258.141779,
+    "NOW": 1795540258.141779,
+    "AMZN": 1795540258.141779,
+    "CRWV": 1795540258.141779,
+    "NBIS": 1795540258.141779,
+    "APLD": 1795540258.141779,
+    "VST": 1795540258.141779,
+    "BE": 1795540258.141779,
+    "CRDO": 1795540258.141779,
+    "COHR": 1795540258.141779,
+    "MRVL": 1795540258.141779,
+    "LITE": 1795540258.141779,
+    "AAOI": 1795540258.141779,
+    "SPCX": 1795540258.141779,
+    "ASTS": 1795540258.141779,
+    "AXTI": 1795540258.141779,
+    "NASA": 1795540258.141779,
+    "LUNR": 1795540258.141779,
     "TSLA": 1795538819.9544666,
     "AXP": 1795538819.9544666,
-    "RKLB": 1795538707.7242947,
-    "KO": 1795538707.7242947,
-    "FLY": 1795538707.7242947,
+    "RKLB": 1795540258.141779,
+    "KO": 1795540258.141779,
+    "FLY": 1795540258.141779,
     "INTC": 1795538819.9544666,
     "VRT": 1795538819.9544666,
     "HPE": 1795538819.9544666,
@@ -3365,8 +3365,8 @@
     "WMT": 1795538928.9435825,
     "V": 1795538819.9544666,
     "CAT": 1795538928.9435825,
-    "FN": 1795538707.7242947,
-    "GLW": 1795538707.7242947,
+    "FN": 1795540258.141779,
+    "GLW": 1795540258.141779,
     "ANT": 1795538928.9435825,
     "XAUUSD": 1795538928.9435825,
     "KOSPI": 1795521635.6703591
