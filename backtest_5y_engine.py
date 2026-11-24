@@ -24,7 +24,6 @@ import time
 import pickle
 import argparse
 from datetime import datetime
-import display_time
 import numpy as np
 import pandas as pd
 import yfinance as yf
@@ -1752,6 +1751,7 @@ def generate_html_report(res_real, res_theory):
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>美股量化策略 5年全周期回测战报 (V2.4 机构双录对账封板版)</title>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
     <style>
         body {{
             background-color: #0d1117;
@@ -1787,7 +1787,7 @@ def generate_html_report(res_real, res_theory):
     <div class="header">
         <div class="title-box">
             <h1>🛡️ US-Market-Radar V2.4 策略重构与机构双录对账战报</h1>
-            <p>5年全周期实证 (2021-2026) ｜ 黄金坑右侧确认 · SMA200牛熊过滤 · ATR风险平价配仓 · NEXT_OPEN防跳空保护 · 动态保本铁盾 ｜ 报告生成于: {display_time.page_update_stamp()}</p>
+            <p>5年全周期实证 (2021-2026) ｜ 黄金坑右侧确认 · SMA200牛熊过滤 · ATR风险平价配仓 · NEXT_OPEN防跳空保护 · 动态保本铁盾</p>
         </div>
     </div>
 
@@ -2023,9 +2023,7 @@ def generate_html_report(res_real, res_theory):
     <!-- 净值曲线图 -->
     <div class="table-box">
         <h3 style="margin-top: 0; color: #58a6ff;">📈 资产净值曲线对比 (Portfolio vs QQQ Benchmark)</h3>
-        <div id="equityChart" style="height: 480px;">
-            <p id="equityChart-status" style="margin:12px 0; color:#9ca3af; font-size:13px;">净值曲线正在加载外部 Plotly（cdn.plot.ly）。上方表格可以先看。</p>
-        </div>
+        <div id="equityChart" style="height: 480px;"></div>
     </div>
 
     <!-- 期末持仓 -->
@@ -2114,10 +2112,7 @@ def generate_html_report(res_real, res_theory):
         legend: {{ orientation: 'h', y: 1.1, font: {{ color: '#c9d1d9' }} }}
     }};
 
-    function drawBacktestCharts() {{
-        Plotly.newPlot('equityChart', [traceReal, traceTheo, traceQQQ], layout, {{ responsive: true }});
-    }}
-    {__import__('page_load').plotly_boot_js('drawBacktestCharts', 'https://cdn.plot.ly/plotly-2.27.0.min.js', ['equityChart-status'])}
+    Plotly.newPlot('equityChart', [traceReal, traceTheo, traceQQQ], layout, {{ responsive: true }});
 </script>
 </body>
 </html>

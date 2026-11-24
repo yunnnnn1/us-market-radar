@@ -69,11 +69,11 @@
    ```
 2. **在 Termux 中配置仓库推送权限**（只需执行一次）：
    ```bash
-   git config --global user.name "2827173579"
+   git config --global user.name "us-market-radar"
    git config --global user.email "a18669358277@gmail.com"
    ```
 3. **设置远端免密推送**（使用带有 Token 的远程地址）：
    ```bash
-   git remote set-url origin https://2827173579:<YOUR_GITHUB_TOKEN>@github.com/2827173579/us-market-radar.git
+   git remote set-url origin https://x-access-token:<YOUR_GITHUB_TOKEN>@github.com/yunnnnn1/us-market-radar.git
    ```
-4. **启动后**：`TradeRadar_Android.py` 会在每轮轮询完成后，自动将最新实盘推送到 GitHub，GitHub Pages（`https://2827173579.github.io/us-market-radar/`）将秒级同步更新！
+4. **启动后**：`TradeRadar_Android.py` 会在每轮轮询完成后，自动将最新实盘推送到 GitHub，GitHub Pages（`https://yunnnnn1.github.io/us-market-radar/`）将秒级同步更新！

@@ -247,7 +247,7 @@ class TestActionsMutexAndWorkflowLogic(unittest.TestCase):
                 pass
         if not token:
             self.skipTest("No GitHub token available for API check")
-        repo = "2827173579/us-market-radar"
+        repo = "yunnnnn1/us-market-radar"
         headers = {
             "Authorization": f"Bearer {token}",
             "Accept": "application/vnd.github+json",

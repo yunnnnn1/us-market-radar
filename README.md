@@ -5,7 +5,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Online-brightgreen.svg)](https://2827173579.github.io/us-market-radar/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Online-brightgreen.svg)](https://yunnnnn1.github.io/us-market-radar/)
 
 > ⚠️ 本项目为个人量化研究与学习项目，**不构成任何投资建议**。详见文末 [Disclaimer](#-disclaimer免责声明)。
 
@@ -15,11 +15,11 @@
 
 | 看板名称 | 在线直达链接 | 本地文件 | 核心定位与功能亮点 |
 |---|---|---|---|
-| **🐮 富途专业看盘主终端** | **[点击打开主终端](https://2827173579.github.io/us-market-radar/)** | `futu_pro_terminal.html` / `index.html` | 70 标的 TradingView 暗色全周期 K 线、5m 量价买点、期权异动攻防墙、实盘预警抽屉、手机端快捷跨页导航 |
-| **⚡ AI 5 年多赛道预测雷达** | **[点击打开 AI 预测](https://2827173579.github.io/us-market-radar/predict_radar_5y.html)** | `predict_radar_5y.html` | LightGBM 多空双向校准胜率、V2.2 15 日时空周期推演（KNN-5 历史相似 + 零漂移 FFT 谐波）、`<0.1s` 实时价格锚定 |
-| **🎯 核心个股实战雷达** | **[点击打开个股雷达](https://2827173579.github.io/us-market-radar/stocks_radar.html)** | `stocks_radar.html` | 56 只核心标的黄金坑斐波那契防守带、**纯百分比动态风险平价仓位**、V3.2 暴跌熔断防接刀矩阵 |
-| **🏛️ 宏观大盘司令塔** | **[点击打开宏观司令塔](https://2827173579.github.io/us-market-radar/macro_radar.html)** | `macro_radar.html` | 14 只宏观/行业/避险/反向对冲 ETF 水温、市场气象晴雨表、防御因子背离实时监控 |
-| **📈 5 年历史回测对账战报** | **[点击打开 5Y 回测](https://2827173579.github.io/us-market-radar/backtest_report_5y.html)** | `backtest_report_5y.html` | 2021–2026（1,194 交易日）双轨制策略净值曲线、1.5 bps 滑点校准与机构复式记账平账审计 |
+| **🐮 富途专业看盘主终端** | **[点击打开主终端](https://yunnnnn1.github.io/us-market-radar/)** | `futu_pro_terminal.html` / `index.html` | 70 标的 TradingView 暗色全周期 K 线、5m 量价买点、期权异动攻防墙、实盘预警抽屉、手机端快捷跨页导航 |
+| **⚡ AI 5 年多赛道预测雷达** | **[点击打开 AI 预测](https://yunnnnn1.github.io/us-market-radar/predict_radar_5y.html)** | `predict_radar_5y.html` | LightGBM 多空双向校准胜率、V2.2 15 日时空周期推演（KNN-5 历史相似 + 零漂移 FFT 谐波）、`<0.1s` 实时价格锚定 |
+| **🎯 核心个股实战雷达** | **[点击打开个股雷达](https://yunnnnn1.github.io/us-market-radar/stocks_radar.html)** | `stocks_radar.html` | 56 只核心标的黄金坑斐波那契防守带、**纯百分比动态风险平价仓位**、V3.2 暴跌熔断防接刀矩阵 |
+| **🏛️ 宏观大盘司令塔** | **[点击打开宏观司令塔](https://yunnnnn1.github.io/us-market-radar/macro_radar.html)** | `macro_radar.html` | 14 只宏观/行业/避险/反向对冲 ETF 水温、市场气象晴雨表、防御因子背离实时监控 |
+| **📈 5 年历史回测对账战报** | **[点击打开 5Y 回测](https://yunnnnn1.github.io/us-market-radar/backtest_report_5y.html)** | `backtest_report_5y.html` | 2021–2026（1,194 交易日）双轨制策略净值曲线、1.5 bps 滑点校准与机构复式记账平账审计 |
 
 ---
 
@@ -52,7 +52,7 @@
 
 ### 1️⃣ 富途专业全周期看盘终端（`futu_pro_terminal.html` / `index.html`）
 
-- 在线访问：[https://2827173579.github.io/us-market-radar/](https://2827173579.github.io/us-market-radar/)
+- 在线访问：[https://yunnnnn1.github.io/us-market-radar/](https://yunnnnn1.github.io/us-market-radar/)
 - 核心能力：
   - 70 只标的 TradingView 暗色 K 线，分时 / 5 分钟 / 15 分钟 / 60 分钟 / 日 / 周 / 月 K 无缝切换；
   - 五维状态（标的选择 / 周期 / 副图指标 / 分组 / 视图）本地 `localStorage` 持久记忆；
@@ -63,7 +63,7 @@
 
 ### 2️⃣ AI 美股 5 年多赛道波段预测雷达（`predict_radar_5y.html`）
 
-- 在线访问：[https://2827173579.github.io/us-market-radar/predict_radar_5y.html](https://2827173579.github.io/us-market-radar/predict_radar_5y.html)
+- 在线访问：[https://yunnnnn1.github.io/us-market-radar/predict_radar_5y.html](https://yunnnnn1.github.io/us-market-radar/predict_radar_5y.html)
 - 核心能力：
   - LightGBM 双向三阈值打标（做多止盈/止损 + 做空下杀/反抽）+ 23 维量价与宏观截面特征；
   - 70 标的 15 日时空周期推演交互式 Canvas 图表（支持聚焦 15 日 / 全景 35 日切换、鼠标拖拽平移与滚轮缩放）；
@@ -84,7 +84,7 @@
 
 ```bash
 # 1) 克隆代码
-git clone https://github.com/2827173579/us-market-radar.git
+git clone https://github.com/yunnnnn1/us-market-radar.git
 cd us-market-radar
 
 # 2) 安装依赖 + 配置环境变量
@@ -136,7 +136,7 @@ python -u integrated_market_radar.py --loop-daemon --interval-seconds 60 --durat
 | `DISCORD_WEBHOOK_URL` | 可选 | Discord 哨兵主频道 |
 | `DISCORD_CLAW_WEBHOOK_URL` | 可选 | 微信告警镜像频道（兼容 `DISCORD_ALERT_WEBHOOK_URL`） |
 | `DISCORD_DEFENSIVE_FLIGHT_WEBHOOK_URL` | 可选 | 防御因子背离专属频道 |
-| `GH_TOKEN` | 本地自动 push 需要；Actions 上用于刷新 Pages | 有**当前仓库** `contents:write` 的 PAT。Actions 没配这个 secret 时，仍会用默认 `GITHUB_TOKEN` 把看板 push 到本仓库 `main`，但「Deploy from a branch」不会因此重新构建 Pages |
+| `GH_TOKEN` | 云端/本地自动同步必需 | 有本仓库 `contents:write` 权限的 GitHub PAT |
 
 ---
 
@@ -166,21 +166,20 @@ python -u integrated_market_radar.py --loop-daemon --interval-seconds 60 --durat
 |---|---|---|
 | `FINNHUB_API_KEY` | ✅ | Finnhub 免费 API Key |
 | `PUSHPLUS_TOKEN` | 可选 | 微信推送 Token |
-| `GH_TOKEN` | 不需要 | Actions 使用自带的 `GITHUB_TOKEN` 推送本仓库，并调用官方 Pages 接口发布。不要再配 PAT。本地电脑自己跑守护进程时才需要 |
+| `GH_TOKEN` | 可选（推荐） | 有本仓库 `contents:write` 权限的 PAT；用于让 push 触发 Pages 重新部署 |
 | `DISCORD_WEBHOOK_URL` 等 | 可选 | Discord 推送频道 |
 
 ### Step 4 · 启用并手动触发一次
 
 1. 进入 **Actions** 标签，若提示 workflow 被禁用，点击 **I understand my workflows, go ahead and enable them**；
 2. 左侧选择 **US Market Radar 24-7 Engine** → **Run workflow**；
-3. `duration_minutes` 默认 `0`：只跑一轮并发布 Pages。需要像定时任务那样长驻时再改成 `240`（`interval_seconds` 仅在持续运行时生效），确认第一轮成功 push；
+3. `duration_minutes` 建议填 `10`、`interval_seconds` 填 `120`，点击运行，确认第一轮成功 push；
 4. 之后按 workflow 内置的 cron 时段自动运行。
 
 ### Step 5 · 多端协同与避让机制
 
 - **PC（主）+ 安卓平板 Termux（备）自动避让**：通过 `shared_alert_state.py` 维护 360 秒 PC 心跳锁，PC 在线时安卓端（`--android`）自动进入 Standby 仅同步看板不发重复告警；PC 离线超 360 秒后安卓端自动接管告警推送；
-- **云端 Actions 互斥**：只有**本仓库**最近 15 分钟内出现非 Actions 提交时，定时任务才会避让。Fork 时继承的上游提交，以及之后从上游同步下来的同一批 commit，不会被当成「本地客户端正在跑」。云端只 `commit` / `pull` / `push` 当前仓库（`github.repository`），不会把 `origin` 改到上游，也不会在 Actions 里 rebase 上游。
-- **Pages**：维持「Deploy from a branch」时，每一轮成功 push 之后用 `GITHUB_TOKEN` 调用官方 `POST /repos/{当前仓库}/pages/builds`，不需要 PAT。若以后把 Source 改成 GitHub Actions，同一次 workflow 会改用 `actions/upload-pages-artifact` 和 `actions/deploy-pages`。定时任务走的是同一条发布路径，不是只发一次。
+- **云端 Actions 互斥检测**：workflow 内置「15 分钟本地优先避让」（若 15 分钟内有本地客户端提交则云端自动退出），避免云端与本地同时写入冲突。
 
 ---
 

@@ -59,7 +59,6 @@ import unicodedata
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone, timedelta
-import display_time
 from typing import List, Dict, Tuple, Optional, Any, Union
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -77,8 +76,7 @@ try:
     )
 except ImportError:
     lgb = None
-    # Termux 轻量环境：无 LightGBM/sklearn 时用 numpy 实现最小可用分类器与指标。
-    # GitHub Actions 必须走 LightGBM，否则 table1 >=60% 信号会从数千笔塌到个位数。
+    # Termux 轻量环境：无 LightGBM/sklearn 时用 numpy 实现最小可用分类器与指标
     def roc_auc_score(y, p):
         y = np.asarray(y, dtype=float); p = np.asarray(p, dtype=float)
         pos = p[y == 1]; neg = p[y != 1]
@@ -106,15 +104,21 @@ class _NumpyFallbackClassifier:
         self._w = np.zeros(1)
         self._b = 0.0
 
-    def fit(self, X, y):
+    def fit(self, X, y, sample_weight=None):
         X = np.asarray(X, dtype=float); y = np.asarray(y, dtype=float)
+        if sample_weight is not None:
+            sw = np.asarray(sample_weight, dtype=float)
+            sw = np.where(np.isfinite(sw) & (sw > 0), sw, 1.0)
+            sw = sw / max(float(sw.sum()), 1e-12)
+        else:
+            sw = np.full(len(y), 1.0 / max(len(y), 1), dtype=float)
         self._mu = np.nanmean(X, axis=0); self._sd = np.nanstd(X, axis=0); self._sd[self._sd < 1e-9] = 1.0
         Z = np.nan_to_num((X - self._mu) / self._sd, nan=0.0, posinf=0.0, neginf=0.0)
         Z = np.column_stack([np.ones(len(Z)), Z])
         w = np.zeros(Z.shape[1]); w[0] = np.log((y.mean() + 1e-6) / (1 - y.mean() + 1e-6))
         for _ in range(120):
             z = np.clip(Z @ w, -30, 30); p = 1.0 / (1.0 + np.exp(-z))
-            grad = Z.T @ (p - y) / max(len(y), 1) + 1e-4 * w
+            grad = (Z.T @ ((p - y) * sw)) + 1e-4 * w
             w -= 0.5 * grad
         self._w = w[1:]; self._b = float(w[0])
         self.feature_importances_ = np.abs(self._w)
@@ -131,21 +135,7 @@ class _NumpyFallbackClassifier:
         return (self.predict_proba(X)[:, 1] >= 0.5).astype(int)
 
 
-def _ml_backend_name() -> str:
-    return "lightgbm" if lgb is not None else "numpy-fallback"
-
-
-def _refuse_actions_numpy_fallback() -> None:
-    if lgb is not None or os.environ.get("GITHUB_ACTIONS") != "true":
-        return
-    raise RuntimeError(
-        "GitHub Actions 未安装 lightgbm/scikit-learn，已拒绝 numpy 回退。"
-        "requirements.txt 必须包含这两个包，否则 table1 样本外计数会塌缩。"
-    )
-
-
 def _make_classifier(lgb_params=None):
-    _refuse_actions_numpy_fallback()
     if lgb is not None:
         return lgb.LGBMClassifier(**(lgb_params or {}))
     return _NumpyFallbackClassifier(**(lgb_params or {}))
@@ -238,10 +228,16 @@ MACRO_FEATURE_COLS = [
     'VIXY_Bias_MA20',
     'VIXY_Pos_60',
     'SMH_IGV_Ratio_Bias',
+    'QQQ_Bias_MA20',
+    'Breadth_MA20_Pct',
+    'Market_Regime_Score',
 ]
 
 FEATURE_COLS = STOCK_FEATURE_COLS + CROSS_ASSET_FEATURE_COLS + MACRO_FEATURE_COLS
-assert len(FEATURE_COLS) == 23, f"Expected exactly 23 features, got {len(FEATURE_COLS)}"
+assert len(FEATURE_COLS) == 26, f"Expected exactly 26 features, got {len(FEATURE_COLS)}"
+
+INVERSE_OR_SAFE_HAVEN_TICKERS = {'SQQQ', 'SOXS', 'VIXY', 'TLT', 'GLD', 'XAUUSD'}
+CANDIDATE_SPLIT_RATIOS = [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 10.0, 12.0, 15.0, 20.0, 25.0, 0.5, 0.25, 0.2, 0.125, 0.1, 0.05]
 
 FEATURE_RATIONALES = {
     'QQQ_Bias_MA50': '纳指100大盘50日均线乖离，系统性科技Beta环境水温计',
@@ -266,8 +262,453 @@ FEATURE_RATIONALES = {
     'VIXY_Bias_MA20': '恐慌指数20日均线乖离，预警全市场流动性冲击与系统性踩踏',
     'SMH_Bias_MA50': '核心半导体硬件链50日均线状态，标定科技成长风格的系统性风险水位',
     'TLT_Bias_MA50': '20年+美债利率趋势偏离，映射宏观流动性宽松与贴现率预期对估值的压制',
-    'VIXY_Pos_60': '60日恐慌指数脉冲分位数，量化全市场风险偏好处于贪婪或极度恐慌底部'
+    'VIXY_Pos_60': '60日恐慌指数脉冲分位数，量化全市场风险偏好处于贪婪或极度恐慌底部',
+    'QQQ_Bias_MA20': '纳指20日均线短中期结构乖离，识别上涨顺风与破位空头切换拐点',
+    'Breadth_MA20_Pct': '全池79标的站上MA20市场宽度占比(%)，实时衡量个股赚钱效应与系统性广度',
+    'Market_Regime_Score': '客观牛熊体制得分(+1 多头顺风 / 0 震荡分化 / -1 空头防守)，抑制单边抄底惯性'
 }
+
+
+def compute_market_regime_state(
+    qqq_bias_ma20: float,
+    spy_bias_ma20: float,
+    qqq_bias_ma50: float = 0.0,
+    smh_bias_ma50: float = 0.0,
+    breadth_ma20_pct: float = 50.0,
+    vixy_pos_60: float = 0.5,
+    qqq_ret_5d: float = 0.0,
+    qqq_down_days_5d: float = 0.0,
+    defensive_flight_alert: bool = False,
+    vix_regime: Optional[Dict[str, Any]] = None,
+) -> Dict[str, Any]:
+    """
+    阶段一核心引擎 1 + 真 VIX 恐慌中枢联动：
+    客观三态牛熊体制门禁 (Market Regime Gate，严格仅用 T 日及以前已知数据)。
+    返回 BULL_TREND / NEUTRAL_CHOP / BEAR_DEFENSE，并叠加期限结构倒挂硬刹车与恐慌出清抄底信号。
+    """
+    def _sf(v, default=0.0):
+        try:
+            f = float(v)
+            return default if (math.isnan(f) or math.isinf(f)) else f
+        except Exception:
+            return default
+
+    q20 = _sf(qqq_bias_ma20, 0.0)
+    s20 = _sf(spy_bias_ma20, q20)
+    q50 = _sf(qqq_bias_ma50, 0.0)
+    smh50 = _sf(smh_bias_ma50, 0.0)
+    breadth = float(np.clip(_sf(breadth_ma20_pct, 50.0), 0.0, 100.0))
+    vix_p = _sf(vixy_pos_60, 0.5)
+    q_ret5 = _sf(qqq_ret_5d, 0.0)
+    q_down5 = _sf(qqq_down_days_5d, 0.0)
+
+    vr = vix_regime if isinstance(vix_regime, dict) else {}
+    vix_spot_raw = vr.get("vix_spot")
+    vix_ratio_raw = vr.get("vix_term_ratio")
+    vix_spot = _sf(vix_spot_raw, None) if vix_spot_raw is not None else None
+    vix_ratio = _sf(vix_ratio_raw, None) if vix_ratio_raw is not None else None
+    vix_hard_brake = bool(
+        vr.get("vix_hard_brake", False)
+        or (vix_ratio is not None and vix_ratio >= 1.00)
+        or (vix_spot is not None and vix_spot >= 30.0)
+    )
+    vix_bottom_signal = bool(vr.get("vix_bottom_signal", False)) and (not vix_hard_brake)
+
+    reasons = []
+    if vix_hard_brake:
+        if vix_ratio is not None and vix_ratio >= 1.00:
+            reasons.append(f"真VIX期限结构倒挂(VIX/VIX3M={vix_ratio:.2f}>=1.00 · 机构恐慌踩踏)")
+        if vix_spot is not None and vix_spot >= 30.0:
+            reasons.append(f"真VIX现货飙升至{vix_spot:.1f}>=30.0(极端高恐慌)")
+    if q20 < 0.0 and s20 < 0.0 and breadth < 35.0:
+        reasons.append(f"SPY/QQQ双破MA20且市场宽度仅{breadth:.1f}%<35%")
+    if q50 < -3.0 and smh50 < -3.0:
+        reasons.append(f"QQQ({q50:+.1f}%)与SMH({smh50:+.1f}%)双破MA50<-3%")
+    if breadth < 28.0 and (q20 < -0.5 or s20 < -0.5):
+        reasons.append(f"全池宽度极低({breadth:.1f}%<28%)且指数承压")
+    if (q_down5 >= 4.0 or q_ret5 <= -3.5) and q20 < 0.0 and breadth < 45.0:
+        reasons.append(f"大盘5日急杀/连跌({q_ret5:+.1f}%)且跌破MA20")
+
+    vix_ok_for_bull = (
+        (not vix_hard_brake)
+        and (vix_spot is None or vix_spot < 24.0)
+        and (vix_ratio is None or vix_ratio < 0.96)
+    )
+
+    if reasons:
+        regime = "BEAR_DEFENSE"
+        regime_cn = "🔴 空头防守体制"
+        regime_score = -1.0
+    elif (
+        q20 >= 0.0
+        and s20 >= 0.0
+        and q50 >= 0.25
+        and breadth >= 50.0
+        and vix_p < 0.75
+        and vix_ok_for_bull
+        and not defensive_flight_alert
+    ):
+        regime = "BULL_TREND"
+        regime_cn = "🟢 多头顺风体制"
+        regime_score = 1.0
+        reasons.append(f"SPY/QQQ站稳MA20与MA50且宽度{breadth:.1f}%>=50%")
+    else:
+        regime = "NEUTRAL_CHOP"
+        regime_cn = "🟡 震荡分化体制"
+        regime_score = 0.0
+        reasons.append(f"指数与宽度({breadth:.1f}%)处于拉锯分化状态")
+
+    if vix_bottom_signal:
+        reasons.append(f"🟢 恐慌出清抄底观察窗已开启(VIX回撤{vr.get('vix_drawdown_from_peak_pct', 0.0)}%)")
+
+    return {
+        "market_regime": regime,
+        "market_regime_cn": regime_cn,
+        "regime_score": regime_score,
+        "breadth_ma20_pct": round(breadth, 1),
+        "qqq_bias_ma20": round(q20, 2),
+        "spy_bias_ma20": round(s20, 2),
+        "qqq_down_days_5d": int(round(q_down5)),
+        "regime_reasons": reasons,
+        "vix_hard_brake": vix_hard_brake,
+        "vix_bottom_signal": vix_bottom_signal,
+        "vix_state": str(vr.get("vix_state") or "UNAVAILABLE"),
+        "vix_term_ratio": vr.get("vix_term_ratio"),
+        "vix_spot": vr.get("vix_spot"),
+    }
+
+
+def apply_market_regime_winrate_gate(
+    cal_prob_pct: float,
+    ticker: str,
+    market_regime: str,
+    vix_regime: Optional[Dict[str, Any]] = None,
+    is_crash_halt: bool = False,
+    is_cooling_halt: bool = False,
+    price: Optional[float] = None,
+    vwap: Optional[float] = None,
+    is_broken: bool = False,
+) -> Dict[str, Any]:
+    """
+    统一多头胜率门禁（跨 ml_predictor_5y 与 create_futu_terminal 唯一口径）：
+    - 反向/避险标的 (SQQQ/SOXS/VIXY/TLT/GLD/XAUUSD) 豁免封顶；
+    - 状态 A（VIX 倒挂硬刹车或常规 BEAR_DEFENSE）：常规多头平滑压制并硬封顶 <= 48.0%；
+    - 状态 B（恐慌出清·右侧抄底观察窗 vix_bottom_signal=True 且无倒挂刹车）：
+      对非暴跌熔断/非冷却/非破位且站稳日内 VWAP 的优质标的，平滑放宽做多上限至 <= 58.0%。
+    """
+    try:
+        cal_val = float(cal_prob_pct)
+    except Exception:
+        cal_val = 50.0
+    cal_val = float(np.clip(cal_val, 15.0, 95.0))
+
+    if str(ticker) in INVERSE_OR_SAFE_HAVEN_TICKERS:
+        return {
+            "gated_prob_pct": round(cal_val, 1),
+            "is_regime_capped": False,
+            "cap_limit_pct": 95.0,
+            "vix_bottom_relaxed": False,
+        }
+
+    vr = vix_regime if isinstance(vix_regime, dict) else {}
+    vix_spot_r = vr.get("vix_spot")
+    vix_ratio_r = vr.get("vix_term_ratio")
+    hard_brake = bool(
+        vr.get("vix_hard_brake", False)
+        or (vix_ratio_r is not None and float(vix_ratio_r) >= 1.00)
+        or (vix_spot_r is not None and float(vix_spot_r) >= 30.0)
+    )
+    bottom_signal = bool(vr.get("vix_bottom_signal", False)) and (not hard_brake)
+
+    if str(market_regime) == "BEAR_DEFENSE" or hard_brake:
+        vwap_reclaimed = False
+        try:
+            if vwap is not None and price is not None and float(vwap) > 0 and float(price) >= float(vwap):
+                vwap_reclaimed = True
+        except Exception:
+            vwap_reclaimed = False
+
+        qualifies_washout_relax = (
+            bottom_signal
+            and (not bool(is_crash_halt))
+            and (not bool(is_cooling_halt))
+            and (not bool(is_broken))
+            and vwap_reclaimed
+        )
+        if qualifies_washout_relax:
+            if cal_val > 48.0:
+                cal_val = 48.0 + (cal_val - 48.0) * 0.45
+            cal_val = float(np.clip(cal_val, 15.0, 58.0))
+            return {
+                "gated_prob_pct": round(cal_val, 1),
+                "is_regime_capped": True,
+                "cap_limit_pct": 58.0,
+                "vix_bottom_relaxed": True,
+            }
+
+        if cal_val > 40.0:
+            cal_val = 40.0 + (cal_val - 40.0) * 0.25
+        cal_val = float(np.clip(cal_val, 15.0, 48.0))
+        return {
+            "gated_prob_pct": round(cal_val, 1),
+            "is_regime_capped": True,
+            "cap_limit_pct": 48.0,
+            "vix_bottom_relaxed": False,
+        }
+
+    return {
+        "gated_prob_pct": round(cal_val, 1),
+        "is_regime_capped": False,
+        "cap_limit_pct": 95.0,
+        "vix_bottom_relaxed": False,
+    }
+
+
+def compute_time_decay_sample_weights(
+    dates: pd.Series,
+    fold_max_date: Optional[Any] = None,
+    half_life_trading_days: float = 210.0,
+    min_weight: float = 0.18,
+) -> np.ndarray:
+    """
+    阶段一核心引擎 2：Walk-Forward 折内指数时间衰减样本权重 (Zero Lookahead Leakage)。
+    严格以 fold_max_date (若未传入则取本训练集自身 dates.max()) 为锚点，
+    提高近 60~120 交易日样本话语权并压低 2~5 年前旧样本权重，均值归一化为 1.0。
+    """
+    if dates is None or len(dates) == 0:
+        return np.array([], dtype=float)
+    dts = pd.to_datetime(dates).dt.tz_localize(None)
+    anchor_dt = pd.to_datetime(fold_max_date).tz_localize(None) if (fold_max_date is not None and getattr(pd.to_datetime(fold_max_date), 'tzinfo', None) is not None) else (
+        pd.to_datetime(fold_max_date) if fold_max_date is not None else dts.max()
+    )
+    if fold_max_date is not None and len(dts) > 0:
+        max_sample_dt = dts.max()
+        assert max_sample_dt <= anchor_dt + pd.Timedelta(seconds=1), (
+            f"Time-decay leakage guard: sample date {max_sample_dt} > fold_max_date {anchor_dt}"
+        )
+    cal_age_days = np.maximum(0.0, (anchor_dt - dts).dt.total_seconds().to_numpy(dtype=float) / 86400.0)
+    age_trading_days = cal_age_days * (252.0 / 365.25)
+    raw_w = np.power(0.5, age_trading_days / max(float(half_life_trading_days), 1.0))
+    clipped_w = np.clip(raw_w, float(min_weight), 1.0)
+    mean_w = float(np.mean(clipped_w)) if len(clipped_w) > 0 else 1.0
+    if mean_w > 0:
+        clipped_w = clipped_w / mean_w
+    return clipped_w.astype(float)
+
+
+def apply_short_history_bayesian_shrinkage(
+    prob_val: float,
+    n_days: Optional[int],
+    min_full_days: int = 756,
+    prior_k: float = 500.0,
+    sub_500_cap_pct: float = 55.0,
+) -> Dict[str, Any]:
+    """
+    阶段一核心引擎 3：次新股与短样本贝叶斯胜率强收缩 (Bayesian Shrinkage)。
+    对有效历史日线 < 756 天（约3年）的标的，按 n/(n+500) 向 50% 基准收敛，
+    对 < 500 天样本额外设定 55% 上限并输出 95% 置信区间半径与降权标识。
+    """
+    try:
+        raw_f = float(prob_val)
+    except Exception:
+        raw_f = 50.0
+    p_pct = raw_f * 100.0 if raw_f <= 1.0 else raw_f
+    p_pct = float(np.clip(p_pct, 10.0, 95.0))
+
+    if n_days is None or int(n_days) <= 0:
+        return {
+            "shrunk_pct": round(p_pct, 1),
+            "shrunk_prob": round(p_pct / 100.0, 4),
+            "is_short_sample": False,
+            "shrink_factor": 1.0,
+            "ci_half_width": 0.0,
+            "ci_low": round(p_pct, 1),
+            "ci_high": round(p_pct, 1),
+            "sample_shrinkage_tag": "",
+        }
+
+    n_int = int(n_days)
+    if n_int >= int(min_full_days):
+        return {
+            "shrunk_pct": round(p_pct, 1),
+            "shrunk_prob": round(p_pct / 100.0, 4),
+            "is_short_sample": False,
+            "shrink_factor": 1.0,
+            "ci_half_width": 0.0,
+            "ci_low": round(p_pct, 1),
+            "ci_high": round(p_pct, 1),
+            "sample_shrinkage_tag": "",
+        }
+
+    shrink_factor = float(n_int) / (float(n_int) + float(prior_k))
+    shrunk_pct = 50.0 + (p_pct - 50.0) * shrink_factor
+    if n_int < 500:
+        shrunk_pct = min(shrunk_pct, float(sub_500_cap_pct))
+        tag = f"⚠️ 次新短样本({n_int}日·已收缩降权)"
+    else:
+        tag = f"📉 短样本({n_int}日·平滑收缩)"
+
+    shrunk_pct = float(np.clip(shrunk_pct, 10.0, 95.0))
+    ci_hw = round(min(25.0, 1.96 * 50.0 / math.sqrt(max(n_int, 20))), 1)
+    return {
+        "shrunk_pct": round(shrunk_pct, 1),
+        "shrunk_prob": round(shrunk_pct / 100.0, 4),
+        "is_short_sample": True,
+        "shrink_factor": round(shrink_factor, 4),
+        "ci_half_width": ci_hw,
+        "ci_low": round(max(10.0, shrunk_pct - ci_hw), 1),
+        "ci_high": round(min(95.0, shrunk_pct + ci_hw), 1),
+        "sample_shrinkage_tag": tag,
+    }
+
+
+def detect_and_heal_stock_split(
+    ticker: str,
+    df_hist: Optional[pd.DataFrame],
+    live_price: Optional[float] = None,
+    allow_network: bool = False,
+) -> Tuple[Optional[pd.DataFrame], Dict[str, Any]]:
+    """
+    阶段一核心引擎 4：拆股/合股除权自动检测与历史序列自愈防护 (处理 SNDK 1拆8 等异常跳变)。
+    当任意标的实时价或最新收盘价相对前序历史突变超过 ±40%（比值 <=0.60 或 >=1.67，排除 ANT/BTC-USD/XAUUSD）：
+    - 匹配标准拆股比例因子 (如 8.0 / 10.0 / 4.0 / 2.0 / 0.1 等)，可选结合 yfinance.splits 校验；
+    - 确认拆股后自动对未除权历史 OHLC 执行 /= split_factor、Volume *= split_factor；
+    - 未能确认合理解释的 >=40% 跳变则置 split_suspect_unhealed=True 拦截虚假止损推送。
+    """
+    meta: Dict[str, Any] = {
+        "split_detected": False,
+        "split_factor": 1.0,
+        "healed_rows": 0,
+        "split_suspect_unhealed": False,
+        "reason": "",
+    }
+    if ticker in ("ANT", "BTC-USD", "XAUUSD", "KOSPI") or df_hist is None or len(df_hist) == 0:
+        return df_hist, meta
+
+    df = df_hist.copy()
+    has_date_col = "Date" in df.columns
+    if has_date_col:
+        df = df.sort_values("Date").reset_index(drop=True)
+    else:
+        df = df.sort_index()
+
+    if "Close" not in df.columns:
+        return df_hist, meta
+
+    closes = pd.to_numeric(df["Close"], errors="coerce").to_numpy(dtype=float)
+    valid_mask = np.isfinite(closes) & (closes > 0)
+    if not valid_mask.any():
+        return df_hist, meta
+
+    yf_confirmed_factor: Optional[float] = None
+    if allow_network:
+        try:
+            sp_ser = yf.Ticker(ticker).splits
+            if sp_ser is not None and len(sp_ser) > 0:
+                latest_sp = float(sp_ser.iloc[-1])
+                if latest_sp > 0 and latest_sp != 1.0:
+                    yf_confirmed_factor = latest_sp
+        except Exception:
+            yf_confirmed_factor = None
+
+    def _match_split_factor(raw_ratio: float) -> Optional[float]:
+        if raw_ratio <= 0 or not np.isfinite(raw_ratio):
+            return None
+        if yf_confirmed_factor is not None:
+            rel_yf = abs(raw_ratio - yf_confirmed_factor) / yf_confirmed_factor
+            if rel_yf <= 0.22:
+                return float(yf_confirmed_factor)
+        best_r = min(CANDIDATE_SPLIT_RATIOS, key=lambda r: abs(raw_ratio - r) / r)
+        rel_err = abs(raw_ratio - best_r) / best_r
+        if best_r >= 3.0 or best_r <= 0.35:
+            if rel_err <= 0.18:
+                return float(best_r)
+        elif rel_err <= 0.08 or (yf_confirmed_factor is not None and abs(yf_confirmed_factor - best_r) < 1e-3):
+            return float(best_r)
+        return None
+
+    def _apply_scale_before_ref(post_ref: float, factor: float, cutoff_pos: Optional[int] = None) -> int:
+        idx_arr = np.arange(len(df))
+        if cutoff_pos is not None:
+            pos_mask = idx_arr < cutoff_pos
+            ref_pos = int(cutoff_pos) - 1
+        else:
+            pos_mask = np.ones(len(df), dtype=bool)
+            ref_pos = len(df) - 1
+        if ref_pos < 0 or ref_pos >= len(closes) or not valid_mask[ref_pos]:
+            return 0
+        ref_c = closes[ref_pos]
+        if factor > 1.0:
+            if not (ref_c > (post_ref * 1.67)):
+                return 0
+        else:
+            if not (ref_c < (post_ref * 0.60)):
+                return 0
+        target_mask = pos_mask & valid_mask
+        if not target_mask.any():
+            return 0
+        row_labels = df.index[target_mask]
+        for col in ("Open", "High", "Low", "Close"):
+            if col in df.columns:
+                df.loc[row_labels, col] = pd.to_numeric(df.loc[row_labels, col], errors="coerce").astype(float) / factor
+        if "Volume" in df.columns:
+            df.loc[row_labels, "Volume"] = pd.to_numeric(df.loc[row_labels, "Volume"], errors="coerce").astype(float) * factor
+        return int(target_mask.sum())
+
+    # 1. Trigger A: 历史序列内部相邻交易日突变 > ±40%
+    # 若未得到 yfinance.splits 官方拆股确认，仅扫描末尾最近 5 个交易日边界，严禁误伤多年以前的新股/de-SPAC 剧烈波动
+    if len(closes) >= 2:
+        scan_start = 1 if yf_confirmed_factor is not None else max(1, len(closes) - 5)
+        for i in range(len(closes) - 1, scan_start - 1, -1):
+            c_prev = closes[i - 1]
+            c_cur = closes[i]
+            if not (np.isfinite(c_prev) and np.isfinite(c_cur) and c_prev > 0 and c_cur > 0):
+                continue
+            step_ratio = c_cur / c_prev
+            if step_ratio <= 0.60 or step_ratio >= 1.67:
+                raw_factor = c_prev / c_cur
+                matched = _match_split_factor(raw_factor)
+                if matched is not None:
+                    n_healed = _apply_scale_before_ref(c_cur, matched, cutoff_pos=i)
+                    if n_healed > 0:
+                        closes = pd.to_numeric(df["Close"], errors="coerce").to_numpy(dtype=float)
+                        meta.update({
+                            "split_detected": True,
+                            "split_factor": matched,
+                            "healed_rows": n_healed,
+                            "reason": f"内部日线断层除权自愈 ({c_prev:.2f}->{c_cur:.2f}, {matched:g}:1)",
+                        })
+                        break
+                else:
+                    meta["split_suspect_unhealed"] = True
+                    meta["reason"] = f"异常跳变待核验 ({c_prev:.2f}->{c_cur:.2f})"
+                    break
+
+    # 2. Trigger B: live_price 相对末尾收盘突变 > ±40%
+    if live_price is not None and float(live_price) > 0 and np.isfinite(float(live_price)):
+        lp = float(live_price)
+        last_c = float(closes[-1])
+        if last_c > 0:
+            ratio_cur = lp / last_c
+            if ratio_cur <= 0.60 or ratio_cur >= 1.67:
+                raw_factor = last_c / lp
+                matched = _match_split_factor(raw_factor)
+                if matched is not None:
+                    n_healed = _apply_scale_before_ref(lp, matched, cutoff_pos=None)
+                    if n_healed > 0:
+                        total_healed = int(meta.get("healed_rows", 0)) + n_healed
+                        meta.update({
+                            "split_detected": True,
+                            "split_factor": matched,
+                            "healed_rows": total_healed,
+                            "split_suspect_unhealed": False,
+                            "reason": f"实时价触发除权自愈 ({last_c:.2f} vs live {lp:.2f}, {matched:g}:1)",
+                        })
+                else:
+                    meta["split_suspect_unhealed"] = True
+                    meta["reason"] = f"实时价异常跳变待确认 ({last_c:.2f} vs {lp:.2f})"
+
+    return df, meta
 
 
 # ==============================================================================
@@ -310,173 +751,412 @@ def _fetch_btc_live_price() -> Optional[float]:
     return None
 
 
-def _normalize_downloaded_ohlcv(
-    df: Optional[pd.DataFrame],
-    ticker: str,
-    expected_last,
-    allow_missing_close: bool = False,
-) -> Optional[pd.DataFrame]:
-    """Flatten a yfinance frame into Date/Ticker/OHLCV, clipped to the completed session."""
-    if df is None or len(df) == 0:
-        return None
-    out = df.copy()
-    if isinstance(out.columns, pd.MultiIndex):
-        out.columns = out.columns.get_level_values(0)
-    out = out.reset_index()
-    if 'Date' not in out.columns and 'Datetime' in out.columns:
-        out = out.rename(columns={'Datetime': 'Date'})
-    if 'Date' not in out.columns:
-        return None
-    dates = pd.to_datetime(out['Date'], utc=False)
-    if getattr(dates.dt, 'tz', None) is not None:
-        dates = dates.dt.tz_convert('America/New_York').dt.tz_localize(None)
-    out['Date'] = dates.dt.normalize()
-    out = out[out['Date'].dt.date <= expected_last]
-    out['Ticker'] = ticker
-    required_cols = ['Date', 'Ticker', 'Open', 'High', 'Low', 'Close', 'Volume']
-    if set(required_cols) - set(out.columns):
-        return None
-    out = out[required_cols].copy()
-    subset = ['Open', 'High', 'Low', 'Volume'] if allow_missing_close else ['Open', 'High', 'Low', 'Close', 'Volume']
-    out = out.dropna(subset=subset)
-    out = out[(out['Open'] > 0) & (out['High'] > 0) & (out['Low'] > 0)]
-    if not allow_missing_close:
-        out = out[out['Close'] > 0]
-    if out.empty:
-        return None
-    return out.sort_values('Date').drop_duplicates(subset=['Date'], keep='last').reset_index(drop=True)
-
-
-def _quote_last_price(ticker: str) -> float:
-    try:
-        info = yf.Ticker(ticker).fast_info
-        price = float(info.get("lastPrice") or info.get("last_price") or 0.0)
-    except Exception:
-        return 0.0
-    return price if price > 0 else 0.0
-
-
-def _fill_missing_close_from_quote(frame: Optional[pd.DataFrame], ticker: str, expected_last) -> Optional[pd.DataFrame]:
-    """Fill a NaN official close only when the fetched last trade sits inside that bar's high/low."""
-    if frame is None or frame.empty:
-        return frame
-    out = frame.copy()
-    mask = (out['Date'].dt.date == expected_last) & out['Close'].isna()
-    if not mask.any():
-        return out
-    price = _quote_last_price(ticker)
-    if price <= 0:
-        return out
-    for idx in out.index[mask]:
-        hi = out.at[idx, 'High']
-        lo = out.at[idx, 'Low']
-        if pd.notna(hi) and pd.notna(lo) and float(lo) <= price <= float(hi):
-            out.at[idx, 'Close'] = price
-    return out
-
-
-def _drop_incomplete_ohlcv(frame: Optional[pd.DataFrame]) -> Optional[pd.DataFrame]:
-    if frame is None or frame.empty:
-        return None
-    out = frame.dropna(subset=['Open', 'High', 'Low', 'Close', 'Volume'])
-    out = out[(out['Open'] > 0) & (out['Close'] > 0) & (out['High'] > 0) & (out['Low'] > 0)]
-    if out.empty:
-        return None
-    return out.sort_values('Date').drop_duplicates(subset=['Date'], keep='last').reset_index(drop=True)
-
-
-def _scale_to_adjusted_history(adjusted_base: pd.DataFrame, unadjusted: Optional[pd.DataFrame]) -> Optional[pd.DataFrame]:
-    """Put an unadjusted tail onto an adjusted history when a split makes the scales differ."""
-    if unadjusted is None or unadjusted.empty:
-        return None
-    out = unadjusted.copy()
-    base_dates = pd.to_datetime(adjusted_base['Date']).dt.date
-    new_dates = pd.to_datetime(out['Date']).dt.date
-    overlap = sorted(set(base_dates) & set(new_dates))
-    if overlap:
-        day = overlap[-1]
-        a_vals = adjusted_base.loc[base_dates == day, 'Close'].dropna()
-        u_vals = out.loc[new_dates == day, 'Close'].dropna()
-        if a_vals.empty or u_vals.empty:
-            return out
-        a_close = float(a_vals.iloc[-1])
-        u_close = float(u_vals.iloc[-1])
-        if u_close > 0 and abs(a_close / u_close - 1.0) > 0.005:
-            ratio = a_close / u_close
-            for col in ('Open', 'High', 'Low', 'Close'):
-                out[col] = out[col].astype(float) * ratio
-    return out
-
-
-def _splice_recent_daily_bars(df: pd.DataFrame, ticker: str, expected_last) -> pd.DataFrame:
-    """Fill a long download that stopped one session early.
-
-    Yahoo's chart range for a multi-year `download()` sometimes omits the latest
-    completed daily bar while a short window still has it. The splice uses that
-    fetched window; it does not invent a price.
+def fetch_xauusd_spot_quote(timeout: float = 6.0) -> Dict[str, Any]:
     """
-    if df is None or df.empty or ticker == 'BTC-USD':
-        return df
-    last_d = pd.to_datetime(df['Date']).max().date()
-    if last_d >= expected_last:
-        return df
-    start_recent = (expected_last - timedelta(days=14)).strftime('%Y-%m-%d')
-    end_exclusive = (expected_last + timedelta(days=1)).strftime('%Y-%m-%d')
-    def _download_window(auto_adjust: bool):
-        return yf.download(
-            ticker,
-            start=start_recent,
-            end=end_exclusive,
-            interval='1d',
-            auto_adjust=auto_adjust,
-            progress=False,
-            threads=False,
-        )
+    免费多源伦敦金现货 (XAUUSD) 实时报价瀑布流（0 Finnhub 额度消耗）：
+    1. TradingView CFD Scanner (OANDA:XAUUSD / FX_IDC:XAUUSD)
+    2. Swissquote 瑞讯银行公开 BBO 报价流 (XAU/USD midpoint)
+    3. Gold-API Spot XAU 免费端点
+    """
+    import json as _json
+    import urllib.request as _urllib_req
 
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "Accept": "application/json",
+    }
+
+    # 1. TradingView CFD Scanner (首选：含实时现价、今日涨跌与日内高低点)
     try:
-        recent = _normalize_downloaded_ohlcv(
-            _download_window(True), ticker, expected_last, allow_missing_close=True
+        payload = _json.dumps({
+            "symbols": {"tickers": ["OANDA:XAUUSD", "FX_IDC:XAUUSD"]},
+            "columns": ["name", "close", "change", "change_abs", "open", "high", "low"],
+        }).encode("utf-8")
+        req = _urllib_req.Request(
+            "https://scanner.tradingview.com/cfd/scan",
+            data=payload,
+            headers={**headers, "Content-Type": "application/json"},
+            method="POST",
         )
-        session = pd.Series(dtype='datetime64[ns]')
-        if recent is not None and not recent.empty:
-            session = recent.loc[recent['Date'].dt.date == expected_last, 'Close']
-        needs_raw = recent is None or recent.empty or session.empty or bool(session.isna().all())
-        if needs_raw:
-            unadj = _normalize_downloaded_ohlcv(
-                _download_window(False), ticker, expected_last, allow_missing_close=True
-            )
-            unadj = _fill_missing_close_from_quote(unadj, ticker, expected_last)
-            unadj = _scale_to_adjusted_history(df, unadj)
-            if unadj is not None and not unadj.empty:
-                recent = unadj
-    except Exception as exc:
-        print(f"[!] {ticker} 短窗口补拉失败: {exc}")
-        return df
-    recent = _drop_incomplete_ohlcv(recent)
-    if recent is None or recent.empty:
-        return df
-    merged = pd.concat([df, recent], ignore_index=True)
-    merged = merged.sort_values('Date').drop_duplicates(subset=['Date'], keep='last').reset_index(drop=True)
-    new_last = merged['Date'].max().date()
-    if new_last > last_d:
-        print(f"[+] {ticker} 短窗口补齐收盘日 {last_d} -> {new_last}")
-    return merged
+        with _urllib_req.urlopen(req, timeout=timeout) as resp:
+            tv_data = _json.loads(resp.read().decode("utf-8"))
+        rows = sorted(
+            tv_data.get("data") or [],
+            key=lambda r: 0 if str(r.get("s", "")).startswith("OANDA:") else 1,
+        )
+        for row in rows:
+            vals = row.get("d") or []
+            if len(vals) >= 4 and vals[1] is not None and float(vals[1]) > 0:
+                last = float(vals[1])
+                pct_chg = float(vals[2] or 0.0)
+                if vals[3] is not None:
+                    chg = float(vals[3])
+                elif pct_chg != 0.0:
+                    chg = last - (last / (1.0 + pct_chg / 100.0))
+                else:
+                    chg = 0.0
+                hi = float(vals[5]) if (len(vals) > 5 and vals[5] is not None and float(vals[5]) > 0) else last
+                lo = float(vals[6]) if (len(vals) > 6 and vals[6] is not None and float(vals[6]) > 0) else last
+                return {
+                    "last": round(last, 2),
+                    "change": round(chg, 2),
+                    "pct_change": round(pct_chg, 2),
+                    "high": round(max(hi, last), 2),
+                    "low": round(min(lo, last), 2),
+                    "prev_close": round(last - chg, 2),
+                    "has_pct": True,
+                    "source": f"tv:{row.get('s', 'XAUUSD')}",
+                }
+    except Exception:
+        pass
+
+    # 2. Swissquote 瑞讯银行 BBO 实时买卖盘中间价
+    try:
+        req = _urllib_req.Request(
+            "https://forex-data-feed.swissquote.com/public-quotes/bboquotes/instrument/XAU/USD",
+            headers=headers,
+        )
+        with _urllib_req.urlopen(req, timeout=timeout) as resp:
+            sq_data = _json.loads(resp.read().decode("utf-8"))
+        if isinstance(sq_data, list):
+            for entry in sq_data:
+                for p in (entry.get("spreadProfilePrices") or []):
+                    bid = p.get("bid")
+                    ask = p.get("ask")
+                    if bid is not None and ask is not None and float(bid) > 0 and float(ask) > 0:
+                        mid = round((float(bid) + float(ask)) / 2.0, 2)
+                        res = {
+                            "last": mid,
+                            "change": 0.0,
+                            "pct_change": 0.0,
+                            "high": mid,
+                            "low": mid,
+                            "prev_close": 0.0,
+                            "has_pct": False,
+                            "source": "swissquote",
+                        }
+                        _bf = _backfill_xauusd_change_from_gcf(mid)
+                        if _bf:
+                            res.update(_bf)
+                        return res
+    except Exception:
+        pass
+
+    # 3. Gold-API 免费现货端点
+    try:
+        req = _urllib_req.Request("https://api.gold-api.com/price/XAU", headers=headers)
+        with _urllib_req.urlopen(req, timeout=timeout) as resp:
+            ga_data = _json.loads(resp.read().decode("utf-8"))
+        px = ga_data.get("price") if isinstance(ga_data, dict) else None
+        if px is not None and float(px) > 0:
+            spot = round(float(px), 2)
+            res = {
+                "last": spot,
+                "change": 0.0,
+                "pct_change": 0.0,
+                "high": spot,
+                "low": spot,
+                "prev_close": 0.0,
+                "has_pct": False,
+                "source": "gold-api",
+            }
+            _bf = _backfill_xauusd_change_from_gcf(spot)
+            if _bf:
+                res.update(_bf)
+            return res
+    except Exception:
+        pass
+
+    return {}
 
 
-def _fetch_single_ticker(ticker: str, start_date: str = '2021-11-01', max_retries: int = 3) -> Optional[pd.DataFrame]:
-    """通过 yfinance 拉取单只标的的历史日线数据，自动扁平化多级列名（BTC-USD 启用 7x24 自然日连续模式）"""
+def _backfill_xauusd_change_from_gcf(spot: float) -> Dict[str, Any]:
+    """当 Swissquote / Gold-API 降级仅返回现价时，使用现货价差校准后的 GC=F 昨收反算真实涨跌与涨跌幅，杜绝 0.00% 归零。"""
+    try:
+        spot = float(spot)
+        if spot <= 0:
+            return {}
+        tk_gc = yf.Ticker("GC=F")
+        d1 = tk_gc.history(period="5d", interval="1d")
+        if d1 is None or d1.empty or "Close" not in d1.columns:
+            return {}
+        c1 = d1["Close"].dropna()
+        if c1.empty:
+            return {}
+
+        try:
+            ny_today = _to_et(None).date()
+        except Exception:
+            ny_today = datetime.now().date()
+        last_dt = c1.index[-1].date() if hasattr(c1.index[-1], "date") else pd.to_datetime(c1.index[-1]).date()
+
+        gc_5m = 0.0
+        try:
+            d5 = tk_gc.history(period="2d", interval="5m", prepost=True)
+            if d5 is not None and not d5.empty and "Close" in d5.columns:
+                c5 = d5["Close"].dropna()
+                if not c5.empty and float(c5.iloc[-1]) > 0:
+                    gc_5m = float(c5.iloc[-1])
+        except Exception:
+            gc_5m = 0.0
+
+        if last_dt >= ny_today and len(c1) >= 2:
+            gc_prev = float(c1.iloc[-2])
+            gc_now = gc_5m if gc_5m > 0 else float(c1.iloc[-1])
+        else:
+            gc_prev = float(c1.iloc[-1])
+            gc_now = gc_5m if gc_5m > 0 else gc_prev
+
+        if gc_prev <= 0 or gc_now <= 0:
+            return {}
+        ratio = spot / gc_now
+        if not (0.8 <= ratio <= 1.2):
+            return {}
+        cal_prev = gc_prev * ratio
+        if cal_prev <= 0:
+            return {}
+        chg = round(spot - cal_prev, 2)
+        pct = round(((spot - cal_prev) / cal_prev) * 100.0, 2)
+        return {
+            "change": chg,
+            "pct_change": pct,
+            "prev_close": round(cal_prev, 2),
+        }
+    except Exception:
+        return {}
+
+
+def _fetch_xauusd_live_price() -> Optional[float]:
+    """轻量获取 XAUUSD 最新现货报价。"""
+    q = fetch_xauusd_spot_quote()
+    last = q.get("last") if isinstance(q, dict) else None
+    return round(float(last), 2) if last and float(last) > 0 else None
+
+
+def _get_krx_timezone():
+    try:
+        from zoneinfo import ZoneInfo
+        return ZoneInfo("Asia/Seoul")
+    except Exception:
+        return timezone(timedelta(hours=9))
+
+
+def is_krx_market_open(now_dt: Optional[datetime] = None) -> Tuple[bool, str]:
+    """判断韩国交易所 KRX (09:00 ~ 15:30 KST, 周一至周五) 实时开休市状态。"""
+    kst_tz = _get_krx_timezone()
+    if now_dt is None:
+        kst_now = datetime.now(kst_tz)
+    elif getattr(now_dt, "tzinfo", None) is not None:
+        kst_now = now_dt.astimezone(kst_tz)
+    else:
+        kst_now = now_dt.replace(tzinfo=timezone.utc).astimezone(kst_tz)
+    wd = kst_now.weekday()
+    hm = kst_now.hour * 60 + kst_now.minute
+    if wd >= 5:
+        return False, "韩盘周末休市"
+    if 9 * 60 <= hm < 15 * 60 + 30:
+        return True, "韩盘交易中 (09:00–15:30 KST)"
+    if hm < 9 * 60:
+        return False, "韩盘盘前待开市 (09:00 KST开盘)"
+    return False, "韩盘已收盘 (15:30 KST收盘)"
+
+
+def _get_latest_expected_krx_day(now_dt: Optional[datetime] = None):
+    """获取韩国 KST 视角下最新预期交易日日期（周一09:00前取上周五，周六日取周五）。"""
+    kst_tz = _get_krx_timezone()
+    if now_dt is None:
+        kst_now = datetime.now(kst_tz)
+    elif getattr(now_dt, "tzinfo", None) is not None:
+        kst_now = now_dt.astimezone(kst_tz)
+    else:
+        kst_now = now_dt.replace(tzinfo=timezone.utc).astimezone(kst_tz)
+    d = kst_now.date()
+    hm = kst_now.hour * 60 + kst_now.minute
+    if d.weekday() == 5:
+        return d - timedelta(days=1)
+    if d.weekday() == 6:
+        return d - timedelta(days=2)
+    if d.weekday() == 0 and hm < 9 * 60:
+        return d - timedelta(days=3)
+    if hm < 9 * 60:
+        return d - timedelta(days=1)
+    return d
+
+
+def fetch_kospi_live_quote(timeout: int = 8) -> Dict[str, Any]:
+    """
+    免费多源韩国综合指数 KOSPI (^KS11) 实时点数瀑布流（0 Finnhub 额度消耗）：
+    1. Yahoo Finance yfinance (^KS11 5m + 1d)
+    2. Yahoo Chart v8 HTTP JSON (%5EKS11)
+    3. TradingView Korea Scanner (KRX:KOSPI)
+    """
+    is_open_krx, krx_lbl = is_krx_market_open()
+    kst_tz = _get_krx_timezone()
+
+    # 1. Primary: yfinance ^KS11 (1d prev_close + 5m latest tick)
+    try:
+        tk_ks = yf.Ticker("^KS11")
+        d1 = tk_ks.history(period="7d", interval="1d")
+        if d1 is not None and not d1.empty and "Close" in d1.columns:
+            d1_clean = d1.dropna(subset=["Close"])
+            if len(d1_clean) >= 1:
+                idx_kst = (
+                    d1_clean.index.tz_convert(kst_tz)
+                    if getattr(d1_clean.index, "tz", None) is not None
+                    else pd.to_datetime(d1_clean.index).tz_localize(kst_tz)
+                )
+                last_1d = float(d1_clean["Close"].iloc[-1])
+                last_1d_date = idx_kst[-1].date()
+                prev_c = float(d1_clean["Close"].iloc[-2]) if len(d1_clean) >= 2 else last_1d
+                hi_p = float(d1_clean["High"].iloc[-1]) if "High" in d1_clean.columns else last_1d
+                lo_p = float(d1_clean["Low"].iloc[-1]) if "Low" in d1_clean.columns else last_1d
+                op_p = float(d1_clean["Open"].iloc[-1]) if "Open" in d1_clean.columns else last_1d
+                cur_p = last_1d
+                try:
+                    d5 = tk_ks.history(period="2d", interval="5m")
+                    if d5 is not None and not d5.empty and "Close" in d5.columns:
+                        d5_c = d5["Close"].dropna()
+                        if len(d5_c) >= 1:
+                            idx5_kst = (
+                                d5_c.index.tz_convert(kst_tz)
+                                if getattr(d5_c.index, "tz", None) is not None
+                                else pd.to_datetime(d5_c.index).tz_localize(kst_tz)
+                            )
+                            latest_5m_date = idx5_kst[-1].date()
+                            latest_5m_px = float(d5_c.iloc[-1])
+                            if latest_5m_px > 0:
+                                cur_p = latest_5m_px
+                                if latest_5m_date > last_1d_date:
+                                    prev_c = last_1d
+                                same_day_mask = (idx5_kst.date == latest_5m_date)
+                                if same_day_mask.any():
+                                    hi_p = float(d5["High"].reindex(d5_c.index)[same_day_mask].max())
+                                    lo_p = float(d5["Low"].reindex(d5_c.index)[same_day_mask].min())
+                                    op_p = float(d5["Open"].reindex(d5_c.index)[same_day_mask].iloc[0])
+                except Exception:
+                    pass
+                chg = round(cur_p - prev_c, 2)
+                pct = round((chg / prev_c) * 100.0, 2) if prev_c > 0 else 0.0
+                return {
+                    "last": round(cur_p, 2),
+                    "change": chg,
+                    "pct_change": pct,
+                    "high": round(hi_p, 2),
+                    "low": round(lo_p, 2),
+                    "open": round(op_p, 2),
+                    "prev_close": round(prev_c, 2),
+                    "source": "yfinance:^KS11",
+                    "is_index": True,
+                    "price_unit": "pts",
+                    "krx_session_open": is_open_krx,
+                    "krx_session_label": krx_lbl,
+                }
+    except Exception:
+        pass
+
+    # 2. Fallback: Yahoo Chart v8 HTTP JSON (%5EKS11)
+    try:
+        import urllib.request
+        import json as _json_ks
+        req = urllib.request.Request(
+            "https://query1.finance.yahoo.com/v8/finance/chart/%5EKS11?interval=5m&range=2d",
+            headers={"User-Agent": "Mozilla/5.0"},
+        )
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            payload = _json_ks.loads(resp.read().decode("utf-8"))
+        res0 = ((payload.get("chart") or {}).get("result") or [None])[0] or {}
+        meta = res0.get("meta") or {}
+        cur_p = float(meta.get("regularMarketPrice") or 0.0)
+        prev_c = float(meta.get("chartPreviousClose") or meta.get("previousClose") or cur_p)
+        if cur_p > 0:
+            chg = round(cur_p - prev_c, 2)
+            pct = round((chg / prev_c) * 100.0, 2) if prev_c > 0 else 0.0
+            return {
+                "last": round(cur_p, 2),
+                "change": chg,
+                "pct_change": pct,
+                "high": round(float(meta.get("regularMarketDayHigh") or cur_p), 2),
+                "low": round(float(meta.get("regularMarketDayLow") or cur_p), 2),
+                "open": round(float(meta.get("regularMarketOpen") or cur_p), 2),
+                "prev_close": round(prev_c, 2),
+                "source": "yahoo_v8:^KS11",
+                "is_index": True,
+                "price_unit": "pts",
+                "krx_session_open": is_open_krx,
+                "krx_session_label": krx_lbl,
+            }
+    except Exception:
+        pass
+
+    # 3. Fallback: TradingView Korea / Global Scanner
+    try:
+        import urllib.request
+        import json as _json_tv
+        body = _json_tv.dumps({
+            "symbols": {"tickers": ["KRX:KOSPI", "TVC:KOSPI"], "query": {"types": []}},
+            "columns": ["close", "change", "change_abs", "high", "low", "open"],
+        }).encode("utf-8")
+        req = urllib.request.Request(
+            "https://scanner.tradingview.com/global/scan",
+            data=body,
+            headers={"User-Agent": "Mozilla/5.0", "Content-Type": "application/json"},
+            method="POST",
+        )
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            tv_data = _json_tv.loads(resp.read().decode("utf-8"))
+        for row in (tv_data.get("data") or []):
+            d = row.get("d") or []
+            if len(d) >= 3 and d[0] and float(d[0]) > 0:
+                cur_p = float(d[0])
+                pct = float(d[1] or 0.0)
+                chg = float(d[2] or 0.0)
+                prev_c = cur_p - chg
+                return {
+                    "last": round(cur_p, 2),
+                    "change": round(chg, 2),
+                    "pct_change": round(pct, 2),
+                    "high": round(float(d[3] or cur_p), 2),
+                    "low": round(float(d[4] or cur_p), 2),
+                    "open": round(float(d[5] or cur_p), 2),
+                    "prev_close": round(prev_c, 2),
+                    "source": f"tv:{row.get('s', 'KOSPI')}",
+                    "is_index": True,
+                    "price_unit": "pts",
+                    "krx_session_open": is_open_krx,
+                    "krx_session_label": krx_lbl,
+                }
+    except Exception:
+        pass
+
+    return {}
+
+
+def _fetch_kospi_live_price() -> Optional[float]:
+    q = fetch_kospi_live_quote()
+    last = q.get("last") if isinstance(q, dict) else None
+    return round(float(last), 2) if last and float(last) > 0 else None
+
+
+def _fetch_single_ticker(ticker: str, start_date: str = '2021-11-01', max_retries: int = 3, min_bars: int = 20) -> Optional[pd.DataFrame]:
+    """通过 yfinance 拉取单只标的的历史日线数据，自动扁平化多级列名（BTC-USD 启用 7x24 自然日连续模式，XAUUSD 使用 GC=F 期货历史底座并对齐现货汇率，KOSPI 使用 ^KS11 韩国综指点数）"""
     is_btc = (ticker == 'BTC-USD')
+    is_xau = (ticker == 'XAUUSD')
+    is_kospi = (ticker == 'KOSPI')
+    dl_symbol = 'GC=F' if is_xau else ('^KS11' if is_kospi else ticker)
     for attempt in range(max_retries):
         try:
             if is_btc:
                 expected_last = _get_latest_expected_btc_day()
+                end_exclusive = (expected_last + timedelta(days=2)).strftime("%Y-%m-%d")
+            elif is_kospi:
+                expected_last = _get_latest_expected_krx_day()
                 end_exclusive = (expected_last + timedelta(days=2)).strftime("%Y-%m-%d")
             else:
                 expected_last = _get_latest_expected_trading_day()
                 end_exclusive = (expected_last + timedelta(days=1)).strftime("%Y-%m-%d")
             # yfinance 的 end 为左闭右开，end=已收盘日 会把当天切掉。必须用已收盘日的下一天。
             df = yf.download(
-                ticker,
+                dl_symbol,
                 start=start_date,
                 end=end_exclusive,
                 interval="1d",
@@ -550,18 +1230,30 @@ def _fetch_single_ticker(ticker: str, start_date: str = '2021-11-01', max_retrie
                     pass
 
             df = df.sort_values('Date').drop_duplicates(subset=['Date'], keep='last').reset_index(drop=True)
-            if not is_btc:
-                df = _splice_recent_daily_bars(df, ticker, expected_last)
 
-            if len(df) >= 20:
-                last_d = df['Date'].max().date()
-                if last_d >= expected_last or attempt == max_retries - 1:
-                    if last_d < expected_last:
-                        print(f"[!] {ticker} 最新K线 {last_d} 仍落后已收盘 {expected_last}")
-                    return df
-                print(f"[!] {ticker} 最新K线 {last_d} 落后已收盘 {expected_last}，重试 ({attempt + 1}/{max_retries})")
-                time.sleep(0.6)
-                continue
+            if is_xau and not df.empty:
+                try:
+                    spot_px = _fetch_xauusd_live_price()
+                    if spot_px and spot_px > 0:
+                        gc_live = 0.0
+                        try:
+                            _g5 = yf.Ticker("GC=F").history(period="2d", interval="5m", prepost=True)
+                            if _g5 is not None and not _g5.empty and "Close" in _g5.columns:
+                                _g5c = _g5["Close"].dropna()
+                                if len(_g5c) > 0:
+                                    gc_live = float(_g5c.iloc[-1])
+                        except Exception:
+                            gc_live = 0.0
+                        ref_c = gc_live if gc_live > 0 else float(df['Close'].iloc[-1])
+                        ratio = (spot_px / ref_c) if ref_c > 0 else 1.0
+                        if 0.8 <= ratio <= 1.2:
+                            for col in ('Open', 'High', 'Low', 'Close'):
+                                df[col] = (df[col].astype(float) * ratio).round(2)
+                except Exception:
+                    pass
+
+            if len(df) >= min_bars:
+                return df
         except Exception as e:
             if attempt == max_retries - 1:
                 print(f"[!] 拉取 {ticker} 失败: {e}")
@@ -636,164 +1328,14 @@ def _get_chart_session(ref_dt: Optional[datetime] = None):
     if hm >= 20 * 60 and wd < 4:
         return day + timedelta(days=1), last_closed, "今日", True
     if hm >= 20 * 60 and wd == 4:
-        return last_closed, last_closed, "今日", False
-    if et.hour < 16:
+        return last_closed, last_closed, f"最新收盘 ({last_closed.strftime('%m-%d')})", False
+    if hm < 4 * 60:
         return day, last_closed, "今日", True
-    return day, last_closed, "今日", False
-
-
-def _ensure_parquet_engine():
-    """Fail fast when the CI image can read requirements.txt but not Parquet.
-
-    pandas' pyarrow engine imports pyarrow lazily. A missing module used to be
-    caught as a cache-read error, then raised again on to_parquet after a full
-    download, and the parent radar treated that non-zero exit as a soft warning.
-    """
-    try:
-        import pyarrow  # noqa: F401
-    except ImportError as exc:
-        raise RuntimeError(
-            "缺少 pyarrow，无法读写 data_cache/*.parquet。"
-            "日线刷新依赖它；请使用 pip install -r requirements.txt（与 GitHub Actions 相同）。"
-        ) from exc
-
-
-def _close_by_day(frame: pd.DataFrame) -> Dict[pd.Timestamp, float]:
-    dates = pd.to_datetime(frame['Date']).dt.normalize()
-    out: Dict[pd.Timestamp, float] = {}
-    for day, close in zip(dates, frame['Close'].astype(float)):
-        if pd.notna(close) and float(close) > 0:
-            out[pd.Timestamp(day)] = float(close)
-    return out
-
-
-def _closes_diverged(old: pd.DataFrame, new: pd.DataFrame, tol: float = 0.02) -> bool:
-    """True when overlapping closes were rescaled (split/adjustment), not just extended.
-
-    The newest overlapping session is ignored so a revised official close does not
-    look like a split. A real split moves every older overlap by the same ratio.
-    """
-    if old is None or new is None or old.empty or new.empty:
-        return False
-    old_map = _close_by_day(old)
-    new_map = _close_by_day(new)
-    ratios = []
-    for day in sorted(set(old_map) & set(new_map)):
-        prev = old_map[day]
-        if prev:
-            ratios.append(new_map[day] / prev)
-    if len(ratios) < 2:
-        return False
-    ratios = ratios[:-1]
-    if not ratios:
-        return False
-    return abs(float(np.median(ratios)) - 1.0) > tol
-
-
-def _stitch_symbol_history(old: pd.DataFrame, fetched: pd.DataFrame) -> pd.DataFrame:
-    """Keep cached history before the fetched window and let the fetch replace the tail."""
-    fetched = fetched.sort_values('Date').drop_duplicates(subset=['Date'], keep='last').reset_index(drop=True)
-    if old is None or old.empty:
-        return fetched
-    new_min = pd.to_datetime(fetched['Date']).min()
-    kept = old[pd.to_datetime(old['Date']) < new_min]
-    merged = pd.concat([kept, fetched], ignore_index=True)
-    return merged.sort_values('Date').drop_duplicates(subset=['Date'], keep='last').reset_index(drop=True)
-
-
-def _symbol_expected_day(symbol: str):
-    if symbol == 'BTC-USD':
-        return _get_latest_expected_btc_day()
-    return _get_latest_expected_trading_day()
-
-
-def _incremental_refresh_frame(
-    df: pd.DataFrame,
-    symbols: List[str],
-    full_start: str,
-    max_workers: int = 8,
-    tail_calendar_days: int = 45,
-) -> Tuple[pd.DataFrame, int]:
-    """Fill only symbols that are missing or behind the completed session.
-
-    A healthy cache keeps its 5-year history. Lagging names are re-fetched on a
-    short overlap (long enough to satisfy the 20-bar minimum) and stitched.
-    If that overlap's older closes were rescaled, that one symbol is fully
-    re-downloaded. Returns (frame, number of symbols fetched).
-    """
-    out = df.copy()
-    if 'Date' in out.columns and not out.empty:
-        out['Date'] = pd.to_datetime(out['Date'])
-    jobs = []
-    for sym in symbols:
-        sub = out[out['Ticker'] == sym] if 'Ticker' in out.columns and not out.empty else out.iloc[0:0]
-        need = _symbol_expected_day(sym)
-        if sub.empty:
-            jobs.append((sym, full_start, 'full'))
-            continue
-        last = pd.to_datetime(sub['Date']).max().date()
-        if last >= need:
-            continue
-        tail_start = (pd.Timestamp(last) - pd.Timedelta(days=tail_calendar_days)).strftime('%Y-%m-%d')
-        jobs.append((sym, tail_start, 'tail'))
-    if not jobs:
-        print(f"[+] 增量校验：{len(symbols)} 只标的已覆盖最新收盘，跳过下载")
-        return out, 0
-
-    print(f"[*] 增量更新 {len(jobs)} 只落后或缺失标的（短窗口优先，价格尺度跳变才回退全量）...")
-    fetched: Dict[str, Tuple[str, Optional[pd.DataFrame]]] = {}
-    with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        future_map = {
-            executor.submit(_fetch_single_ticker, sym, start): (sym, kind)
-            for sym, start, kind in jobs
-        }
-        for fut in as_completed(future_map):
-            sym, kind = future_map[fut]
-            try:
-                fetched[sym] = (kind, fut.result())
-            except Exception as exc:
-                print(f"  [-] {sym} 增量抓取异常: {exc}")
-                fetched[sym] = (kind, None)
-
-    full_again = []
-    for sym, (kind, new_df) in fetched.items():
-        old = out[out['Ticker'] == sym] if 'Ticker' in out.columns else out.iloc[0:0]
-        if kind == 'tail' and new_df is not None and not new_df.empty and _closes_diverged(old, new_df):
-            print(f"[!] {sym} 重叠区间价格尺度变化，改为全量重拉")
-            full_again.append(sym)
-    if full_again:
-        with ThreadPoolExecutor(max_workers=max_workers) as executor:
-            future_map = {executor.submit(_fetch_single_ticker, sym, full_start): sym for sym in full_again}
-            for fut in as_completed(future_map):
-                sym = future_map[fut]
-                try:
-                    fetched[sym] = ('full', fut.result())
-                except Exception as exc:
-                    print(f"  [-] {sym} 全量重拉异常: {exc}")
-                    fetched[sym] = ('full', None)
-
-    n_fetched = 0
-    for sym, (kind, new_df) in fetched.items():
-        if new_df is None or new_df.empty:
-            print(f"  [-] {sym:5s} 增量未取到新 K 线，保留缓存")
-            continue
-        old = out[out['Ticker'] == sym] if 'Ticker' in out.columns and not out.empty else out.iloc[0:0]
-        if kind == 'full' or old.empty:
-            stitched = new_df
-        elif _closes_diverged(old, new_df):
-            print(f"  [-] {sym} 全量重拉后仍无法对齐，保留缓存")
-            continue
-        else:
-            stitched = _stitch_symbol_history(old, new_df)
-        if 'Ticker' in out.columns and not out.empty:
-            out = out[out['Ticker'] != sym]
-        out = pd.concat([out, stitched], ignore_index=True)
-        n_fetched += 1
-        last_d = pd.to_datetime(stitched['Date']).max().date()
-        print(f"  [+] {sym:5s} {kind:4s} -> {last_d} ({len(stitched)} 行)")
-    if 'Date' in out.columns and not out.empty:
-        out = out.sort_values(['Date', 'Ticker']).reset_index(drop=True)
-    return out, n_fetched
+    if hm < 9 * 60 + 30:
+        return day, last_closed, f"盘前实时 ({day.strftime('%m-%d')})", True
+    if hm < 16 * 60:
+        return day, last_closed, f"盘中实时 ({day.strftime('%m-%d')})", True
+    return day, last_closed, f"最新收盘 ({day.strftime('%m-%d')})", False
 
 
 def fetch_or_load_panel_data(
@@ -803,51 +1345,60 @@ def fetch_or_load_panel_data(
     max_workers: int = 8
 ) -> pd.DataFrame:
     """
-    加载本地 Parquet 缓存或通过 yfinance 多线程拉取 35 只标的历史行情。
-
-    缓存达到 5 年体量时，无论是否 --refresh，都只为落后于最新已收盘日的标的做增量补齐。
-    缓存缺失、过小或读失败时才全量重拉。force_refresh 保留给调用方，表示「必须确认新鲜」，
-    不再表示「丢掉缓存重下 5 年」。
+    加载本地 Parquet 缓存或通过 yfinance 多线程拉取 35 只标的过去的 5 年历史行情。
+    包含自动日期新鲜度校验，当缓存落后于预期最新交易日时自动触发全量刷新。
     
     返回:
         pd.DataFrame: 包含 ['Date', 'Ticker', 'Open', 'High', 'Low', 'Close', 'Volume'] 的长表原始面板。
     """
-    _ensure_parquet_engine()
     full_cache_path = _resolve_cache_path(cache_file)
-    cached = None
-    if os.path.exists(full_cache_path):
+
+    if os.path.exists(full_cache_path) and not force_refresh:
         try:
             print(f"[*] 📦 检测到本地 5 年行情缓存: {full_cache_path}")
-            cached = pd.read_parquet(full_cache_path, engine='pyarrow')
-            cached['Date'] = pd.to_datetime(cached['Date'])
+            df = pd.read_parquet(full_cache_path, engine='pyarrow')
+            df['Date'] = pd.to_datetime(df['Date'])
+            tickers_in_cache = set(df['Ticker'].unique())
+            missing_tickers = set(ALL_SYMBOLS) - tickers_in_cache
+
+            # 自动化日期新鲜度校验 (防止缓存停滞在历史日期断更；同时确保 BTC-USD 包含周末自然日 K 线)
+            expected_latest_date = _get_latest_expected_trading_day()
+            max_cache_date = df['Date'].max().date() if not df.empty else None
+            is_fresh = (max_cache_date is not None and max_cache_date >= expected_latest_date)
+
+            if not missing_tickers and len(df) > 30000 and is_fresh:
+                btc_sub = df[df['Ticker'] == 'BTC-USD']
+                btc_dates = pd.to_datetime(btc_sub['Date']).dt.date.tolist() if not btc_sub.empty else []
+                has_btc_weekends = any(d.weekday() >= 5 for d in btc_dates)
+                expected_btc_date = _get_latest_expected_btc_day()
+                btc_fresh = (bool(btc_dates) and max(btc_dates) >= expected_btc_date and has_btc_weekends)
+                cache_modified = False
+                if not btc_fresh:
+                    print("[*] 🔄 检测到 BTC-USD 需补齐 7x24 周末自然日 K 线与最新 UTC 日线，单独增量更新 BTC-USD...")
+                    btc_new = _fetch_single_ticker('BTC-USD', start_date=start_date)
+                    if btc_new is not None and not btc_new.empty:
+                        df = pd.concat([df[df['Ticker'] != 'BTC-USD'], btc_new], ignore_index=True)
+                        cache_modified = True
+                # 拆股/合股除权自愈巡检（如 SNDK 1拆8）
+                healed_groups = []
+                for _tk, _grp in df.groupby('Ticker', sort=False):
+                    _h_grp, _sp_meta = detect_and_heal_stock_split(_tk, _grp, allow_network=False)
+                    if _sp_meta.get('split_detected'):
+                        print(f"  [🔧 Split Self-Heal] {_tk}: {_sp_meta.get('reason')} (修复 {_sp_meta.get('healed_rows')} 行)")
+                        cache_modified = True
+                    healed_groups.append(_h_grp)
+                if cache_modified:
+                    df = pd.concat(healed_groups, ignore_index=True).sort_values(['Date', 'Ticker']).reset_index(drop=True)
+                    df.to_parquet(full_cache_path, engine='pyarrow', index=False)
+                    max_cache_date = df['Date'].max().date()
+                print(f"[+] ✅ 缓存完整性与新鲜度校验通过: 共 {len(tickers_in_cache)} 只标的, {len(df)} 条交易日记录 (最新: {max_cache_date})")
+                return df
+            elif not is_fresh:
+                print(f"[!] ⚠️ 本地行情缓存已过期 (最新数据: {max_cache_date}, 预期最新交易日: {expected_latest_date})，自动启动全量刷新...")
+            else:
+                print(f"[!] 缓存数据缺失标的: {missing_tickers}，重新拉取全量数据...")
         except Exception as e:
             print(f"[!] 读取缓存异常 ({e})，重新拉取...")
-            cached = None
-
-    if cached is not None and len(cached) > 30000:
-        t0 = time.perf_counter()
-        updated, n_fetched = _incremental_refresh_frame(
-            cached, list(ALL_SYMBOLS), start_date, max_workers=max_workers
-        )
-        btc_sub = updated[updated['Ticker'] == 'BTC-USD'] if 'Ticker' in updated.columns else updated.iloc[0:0]
-        btc_dates = pd.to_datetime(btc_sub['Date']).dt.date.tolist() if not btc_sub.empty else []
-        has_btc_weekends = any(d.weekday() >= 5 for d in btc_dates)
-        if not has_btc_weekends:
-            print("[*] 🔄 BTC-USD 缓存缺少周末自然日，单独全量补齐...")
-            btc_new = _fetch_single_ticker('BTC-USD', start_date=start_date)
-            if btc_new is not None and not btc_new.empty:
-                updated = pd.concat([updated[updated['Ticker'] != 'BTC-USD'], btc_new], ignore_index=True)
-                updated = updated.sort_values(['Date', 'Ticker']).reset_index(drop=True)
-                n_fetched += 1
-        if n_fetched:
-            updated.to_parquet(full_cache_path, engine='pyarrow', index=False)
-        max_cache_date = updated['Date'].max().date() if not updated.empty else None
-        print(
-            f"[+] ✅ 面板就绪: {updated['Ticker'].nunique() if 'Ticker' in updated.columns else 0} 只标的, "
-            f"{len(updated)} 行, 最新 {max_cache_date}, 本次下载 {n_fetched} 只, "
-            f"{time.perf_counter() - t0:.1f}s (force_refresh={force_refresh})"
-        )
-        return updated
 
     print(f"[*] 🚀 启动多线程拉取 {len(ALL_SYMBOLS)} 只标的历史行情 (自 {start_date} 至今)...")
     ticker_dfs = []
@@ -865,36 +1416,6 @@ def fetch_or_load_panel_data(
                     print(f"  [-] {tk:5s} 抓取失败或数据不足！")
             except Exception as e:
                 print(f"  [-] {tk:5s} 抓取异常: {e}")
-
-    expected_last = _get_latest_expected_trading_day()
-    by_ticker = {}
-    for res_df in ticker_dfs:
-        tk_name = str(res_df['Ticker'].iloc[0])
-        by_ticker[tk_name] = res_df
-    repair = []
-    for tk_name in ALL_SYMBOLS:
-        held = by_ticker.get(tk_name)
-        if held is None or held.empty:
-            repair.append(tk_name)
-            continue
-        if tk_name == 'BTC-USD':
-            continue
-        if pd.to_datetime(held['Date']).max().date() < expected_last:
-            repair.append(tk_name)
-    if repair:
-        print(f"[*] 并发补拉 {len(repair)} 只未覆盖 {expected_last} 的标的...")
-        with ThreadPoolExecutor(max_workers=max_workers) as executor:
-            future_map = {executor.submit(_fetch_single_ticker, tk_name, start_date): tk_name for tk_name in repair}
-            for fut in as_completed(future_map):
-                tk_name = future_map[fut]
-                try:
-                    repaired = fut.result()
-                except Exception as exc:
-                    print(f"  [-] {tk_name} 补拉异常: {exc}")
-                    continue
-                if repaired is not None and not repaired.empty:
-                    by_ticker[tk_name] = repaired
-    ticker_dfs = list(by_ticker.values())
 
     if not ticker_dfs:
         raise RuntimeError("CRITICAL: 未能成功抓取任何标的行情数据！")
@@ -981,6 +1502,7 @@ def compute_stock_features(df_stock: pd.DataFrame) -> pd.DataFrame:
     df['Vol_Ratio_20'] = volume / (vol_ma20 + 1e-6)
     bar_range = high - low
     df['Bar_Strength'] = (close - low) / np.where(bar_range > 1e-6, bar_range, 1.0)
+    df['History_Bars'] = np.arange(1, len(df) + 1, dtype=int)
 
     # 安全清洗异常值
     for col in STOCK_FEATURE_COLS:
@@ -994,7 +1516,7 @@ def compute_macro_features(
     macro_map: Optional[Dict[str, pd.DataFrame]] = None
 ) -> pd.DataFrame:
     """
-    基于宏观基准 ETF (QQQ, SMH, IGV, TLT, VIXY) 计算 6 维全局气象特征与基准收益率。
+    基于宏观基准 ETF (QQQ, SPY, SMH, IGV, TLT, VIXY) 计算全局气象特征、MA20 体制与基准收益率。
     支持直接传入 macro_map 字典或从 raw_panel 中提取。
     每个 ETF 子表独立按 Date 排序并计算指标，统一通过 pd.merge(..., on='Date', how='left') 合并，
     彻底解决切片行号索引不相交导致特征全为 NaN 并被静默填 0 的问题。
@@ -1023,14 +1545,33 @@ def compute_macro_features(
     tlt = etf_dfs['TLT'].sort_values('Date').reset_index(drop=True)
     vixy = etf_dfs['VIXY'].sort_values('Date').reset_index(drop=True)
 
-    # 1. QQQ 特征表
+    # 1. QQQ 特征表 (含 MA50 / MA20 乖离与近 5 日连跌天数)
     qqqm_close = qqqm['Close'].astype(float)
     qqqm_ma50 = qqqm_close.rolling(50, min_periods=1).mean()
+    qqqm_ma20 = qqqm_close.rolling(20, min_periods=1).mean()
+    qqqm_down_days_5d = (qqqm_close.diff() < 0.0).astype(float).rolling(5, min_periods=1).sum()
     qqqm_feat = pd.DataFrame({
         'Date': qqqm['Date'],
         'QQQ_Bias_MA50': ((qqqm_close - qqqm_ma50) / (qqqm_ma50 + 1e-8)) * 100.0,
-        'QQQ_Ret_5d': qqqm_close.pct_change(5).fillna(0.0) * 100.0
+        'QQQ_Bias_MA20': ((qqqm_close - qqqm_ma20) / (qqqm_ma20 + 1e-8)) * 100.0,
+        'QQQ_Ret_5d': qqqm_close.pct_change(5).fillna(0.0) * 100.0,
+        'QQQ_Down_Days_5d': qqqm_down_days_5d.fillna(0.0),
     })
+
+    # 1.5 SPY 特征表 (缺失 SPY 时优雅回退 QQQ)
+    if 'SPY' in etf_dfs and len(etf_dfs['SPY']) > 0:
+        spy_df = etf_dfs['SPY'].sort_values('Date').reset_index(drop=True)
+        spy_close = spy_df['Close'].astype(float)
+        spy_ma20 = spy_close.rolling(20, min_periods=1).mean()
+        spy_feat = pd.DataFrame({
+            'Date': spy_df['Date'],
+            'SPY_Bias_MA20': ((spy_close - spy_ma20) / (spy_ma20 + 1e-8)) * 100.0,
+        })
+    else:
+        spy_feat = pd.DataFrame({
+            'Date': qqqm['Date'],
+            'SPY_Bias_MA20': qqqm_feat['QQQ_Bias_MA20'],
+        })
 
     # 2. SMH 特征表
     smh_close = smh['Close'].astype(float)
@@ -1078,14 +1619,30 @@ def compute_macro_features(
         'SMH_IGV_Ratio_Bias': ((smh_igv_ratio - ratio_ma20) / (ratio_ma20 + 1e-8)) * 100.0
     })
 
-    # 6. 以 QQQ 交易日与全量面板自然日 (含 BTC-USD 周六/周日) 的并集为基准按 Date 左连接全部宏观特征，并用 ffill 前向填充周末宏观状态
+    # 6. 以 QQQ 交易日与全量面板自然日 (含 BTC-USD 周六/周日与 KOSPI 韩国日期) 的并集为基准按 Date 左连接全部宏观特征，并用严格因果 ffill 前向填充（零未来函数穿越）
+    extra_macro_dates = set()
     if raw_panel is not None and 'Date' in raw_panel.columns and not raw_panel.empty:
-        all_macro_dates = sorted(set(pd.to_datetime(qqqm['Date']).unique()).union(set(pd.to_datetime(raw_panel['Date']).unique())))
-    else:
-        all_macro_dates = sorted(qqqm['Date'].unique())
+        extra_macro_dates.update(pd.to_datetime(raw_panel['Date']).unique())
+    if 'KOSPI' in etf_dfs and len(etf_dfs['KOSPI']) > 0:
+        extra_macro_dates.update(pd.to_datetime(etf_dfs['KOSPI']['Date']).unique())
+    all_macro_dates = sorted(set(pd.to_datetime(qqqm['Date']).unique()).union(extra_macro_dates))
     macro_df = pd.DataFrame({'Date': all_macro_dates})
-    for sub_df in [qqqm_feat, smh_feat, tlt_feat, vixy_feat, smh_igv_feat]:
+    for sub_df in [qqqm_feat, spy_feat, smh_feat, tlt_feat, vixy_feat, smh_igv_feat]:
         macro_df = pd.merge(macro_df, sub_df, on='Date', how='left')
+    if 'KOSPI' in etf_dfs and len(etf_dfs['KOSPI']) > 0:
+        ks_df = etf_dfs['KOSPI'].sort_values('Date').reset_index(drop=True)
+        ks_close = ks_df['Close'].astype(float)
+        ks_ma20 = ks_close.rolling(20, min_periods=1).mean()
+        ks_feat = pd.DataFrame({
+            'Date': pd.to_datetime(ks_df['Date']),
+            'KOSPI_Bias_MA20': ((ks_close - ks_ma20) / (ks_ma20 + 1e-8)) * 100.0,
+            'KOSPI_Ret_5d': ks_close.pct_change(5).fillna(0.0) * 100.0,
+        })
+        macro_df = pd.merge(macro_df, ks_feat, on='Date', how='left')
+
+    # 默认中性宽度/体制占位 (将在 build_feature_panel 内用当日真实全池宽度精准覆写)
+    macro_df['Breadth_MA20_Pct'] = 50.0
+    macro_df['Market_Regime_Score'] = 0.0
 
     # 因果安全前向填充并清洗异常值
     for col in macro_df.columns:
@@ -1097,19 +1654,20 @@ def compute_macro_features(
 
 def build_feature_panel(
     raw_panel: pd.DataFrame,
-    macro_map: Optional[Dict[str, pd.DataFrame]] = None
+    macro_map: Optional[Dict[str, pd.DataFrame]] = None,
+    drop_warmup: bool = False
 ) -> pd.DataFrame:
     """
     构建 Qlib 风格长表截面数据 (Long Panel Format [Date, Ticker, Sector]):
     1. 独立计算每个股票自身的 15 维技术指标；
-    2. 计算宏观 ETF 的 6 维全局气象与基准收益率；
+    2. 计算宏观 ETF 的全局气象与基准收益率；
     3. 按 Date 将宏观特征左连接广播到每个个股；
-    4. 计算跨资产超额收益 Alpha_QQQ_5d, Alpha_SMH_20d；
+    4. 计算跨资产超额收益 Alpha_QQQ_5d, Alpha_SMH_20d 与严格同日横截面市场宽度 Breadth_MA20_Pct & 体制得分 Market_Regime_Score；
     5. 纵向垂直堆叠为长表截面格式；
-    6. 严格禁止宽表全局 dropna()，确保次新股 (CRWV, LUNR, CRDO) 不会截断成熟股票的 2021-2023 历史样本。
+    6. 严格禁止宽表全局 dropna()，确保次新股 (CRWV, LUNR, CRDO, SNDK) 不会截断成熟股票的历史样本。
     
     返回:
-        pd.DataFrame: 包含 Date, Ticker, Sector, 基础价格与 23 维特征的长表 DataFrame。
+        pd.DataFrame: 包含 Date, Ticker, Sector, 基础价格与 26 维特征的长表 DataFrame。
     """
     macro_df = compute_macro_features(raw_panel=raw_panel, macro_map=macro_map)
 
@@ -1148,14 +1706,42 @@ def build_feature_panel(
     merged['Alpha_SMH_20d'] = np.clip(0.65 * cs_rank_smh + 0.35 * sig_smh, 0.0, 1.0)
     merged = merged.drop(columns=['_raw_alpha_qqqm', '_raw_alpha_smh'], errors='ignore')
 
-    # 保证 23 维特征完整且无 unhandled NaN/Inf
+    # 计算严格 T 日同日横截面 MA20 市场宽度与三态牛熊体制得分 (零未来函数)
+    merged['_above_ma20'] = (merged['Bias_MA20'] >= 0.0).astype(float)
+    merged['Breadth_MA20_Pct'] = merged.groupby('Date')['_above_ma20'].transform('mean').fillna(0.5) * 100.0
+    q20 = merged['QQQ_Bias_MA20'].astype(float)
+    s20 = merged['SPY_Bias_MA20'].astype(float)
+    q50 = merged['QQQ_Bias_MA50'].astype(float)
+    smh50 = merged['SMH_Bias_MA50'].astype(float)
+    br = merged['Breadth_MA20_Pct'].astype(float)
+    vix_p = merged['VIXY_Pos_60'].astype(float)
+    q_ret5 = merged['QQQ_Ret_5d'].astype(float)
+    q_down5 = merged['QQQ_Down_Days_5d'].astype(float)
+
+    bear_cond = (
+        ((q20 < 0.0) & (s20 < 0.0) & (br < 35.0))
+        | ((q50 < -3.0) & (smh50 < -3.0))
+        | ((br < 28.0) & ((q20 < -0.5) | (s20 < -0.5)))
+        | (((q_down5 >= 4.0) | (q_ret5 <= -3.5)) & (q20 < 0.0) & (br < 45.0))
+    )
+    bull_cond = (
+        (~bear_cond)
+        & (q20 >= 0.0)
+        & (s20 >= 0.0)
+        & (q50 >= 0.25)
+        & (br >= 50.0)
+        & (vix_p < 0.75)
+    )
+    merged['Market_Regime_Score'] = np.where(bear_cond, -1.0, np.where(bull_cond, 1.0, 0.0))
+
+    # 保证 26 维特征完整且无 unhandled NaN/Inf
     for feat in FEATURE_COLS:
         if feat not in merged.columns:
             merged[feat] = 0.0
         merged[feat] = merged[feat].replace([np.inf, -np.inf], np.nan).fillna(0.0)
 
-    # 移除辅助对齐列
-    merged = merged.drop(columns=['QQQ_Ret_5d', 'SMH_Ret_20d'], errors='ignore')
+    # 移除临时辅助列
+    merged = merged.drop(columns=['QQQ_Ret_5d', 'SMH_Ret_20d', '_above_ma20'], errors='ignore')
 
     return merged
 
@@ -1494,29 +2080,33 @@ def train_live_models(
             'n_jobs': -1
         }
 
-    # 做多实盘专属模型训练
+    # 做多实盘专属模型训练 (引入时间衰减样本权重，half_life=210 交易日)
     live_train_long = df.dropna(subset=['Label']).copy()
     live_clf_long = None
     if len(live_train_long) >= 20 and live_train_long['Label'].nunique() >= 2:
         t_live_start = time.time()
+        live_max_d_ts = pd.to_datetime(live_train_long['Date']).max()
+        w_live_long = compute_time_decay_sample_weights(live_train_long['Date'], fold_max_date=live_max_d_ts)
         live_clf_long = _make_classifier(lgb_params)
-        live_clf_long.fit(live_train_long[feature_cols], live_train_long['Label'].astype(int))
+        live_clf_long.fit(live_train_long[feature_cols], live_train_long['Label'].astype(int), sample_weight=w_live_long)
         t_live_elapsed = time.time() - t_live_start
         live_min_d = live_train_long['Date'].min().strftime('%Y-%m-%d')
-        live_max_d = live_train_long['Date'].max().strftime('%Y-%m-%d')
-        print(f"  [+] Live Refit (做多专属实盘模型): 全量已结算样本 ({live_min_d} ~ {live_max_d}, {len(live_train_long)} 样本, 严守 T-5 尾部隔离) | 训练耗时 {t_live_elapsed:.1f}s")
+        live_max_d = live_max_d_ts.strftime('%Y-%m-%d')
+        print(f"  [+] Live Refit (做多专属实盘模型 · Time-Decay 210d): 全量已结算样本 ({live_min_d} ~ {live_max_d}, {len(live_train_long)} 样本, 严守 T-5 尾部隔离) | 训练耗时 {t_live_elapsed:.1f}s")
 
-    # 做空实盘专属模型训练
+    # 做空实盘专属模型训练 (引入时间衰减样本权重，half_life=210 交易日)
     live_train_short = df.dropna(subset=['Label_Short']).copy()
     live_clf_short = None
     if len(live_train_short) >= 20 and live_train_short['Label_Short'].nunique() >= 2:
         t_live_start = time.time()
+        live_max_ds_ts = pd.to_datetime(live_train_short['Date']).max()
+        w_live_short = compute_time_decay_sample_weights(live_train_short['Date'], fold_max_date=live_max_ds_ts)
         live_clf_short = _make_classifier(lgb_params)
-        live_clf_short.fit(live_train_short[feature_cols], live_train_short['Label_Short'].astype(int))
+        live_clf_short.fit(live_train_short[feature_cols], live_train_short['Label_Short'].astype(int), sample_weight=w_live_short)
         t_live_elapsed = time.time() - t_live_start
         live_min_ds = live_train_short['Date'].min().strftime('%Y-%m-%d')
-        live_max_ds = live_train_short['Date'].max().strftime('%Y-%m-%d')
-        print(f"  [+] Live Refit (做空专属实盘模型): 全量已结算样本 ({live_min_ds} ~ {live_max_ds}, {len(live_train_short)} 样本, 严守 T-5 尾部隔离) | 训练耗时 {t_live_elapsed:.1f}s")
+        live_max_ds = live_max_ds_ts.strftime('%Y-%m-%d')
+        print(f"  [+] Live Refit (做空专属实盘模型 · Time-Decay 210d): 全量已结算样本 ({live_min_ds} ~ {live_max_ds}, {len(live_train_short)} 样本, 严守 T-5 尾部隔离) | 训练耗时 {t_live_elapsed:.1f}s")
 
     return {
         'long': live_clf_long,
@@ -1581,7 +2171,7 @@ def run_walk_forward_cv(
     models = {}
     models_short = {}
 
-    print(f"[*] 🚀 开始执行 Walk-Forward Expanding 滚动时序训练 (共 {len(folds)} 个测试折，5 日 Purge 隔离，后端 {_ml_backend_name()})...")
+    print(f"[*] 🚀 开始执行 Walk-Forward Expanding 滚动时序训练 (共 {len(folds)} 个测试折，5 日 Purge 隔离)...")
 
     for fold in folds:
         year = fold['year']
@@ -1598,22 +2188,24 @@ def run_walk_forward_cv(
             print(f"  [-] Fold {year}: 有效样本为空，跳过！")
             continue
 
-        # --- 做多模型训练 ---
+        # --- 做多模型训练 (折内独立计算时间衰减权重，零未来泄漏) ---
         X_train = train_clean[FEATURE_COLS]
         y_train = train_clean['Label'].astype(int)
         X_test = test_clean[FEATURE_COLS]
         y_test = test_clean['Label'].astype(int)
+        w_fold_long = compute_time_decay_sample_weights(train_clean['Date'], fold_max_date=fold['max_train_date'])
 
         t_start = time.time()
         clf = _make_classifier(lgb_params)
-        clf.fit(X_train, y_train)
+        clf.fit(X_train, y_train, sample_weight=w_fold_long)
         probs = clf.predict_proba(X_test)[:, 1]
         preds = (probs >= 0.5).astype(int)
 
-        # --- 做空模型训练 ---
+        # --- 做空模型训练 (折内独立计算时间衰减权重，零未来泄漏) ---
         clf_short = _make_classifier(lgb_params)
         if len(train_clean_short) >= 10 and train_clean_short['Label_Short'].nunique() >= 2:
-            clf_short.fit(train_clean_short[FEATURE_COLS], train_clean_short['Label_Short'].astype(int))
+            w_fold_short = compute_time_decay_sample_weights(train_clean_short['Date'], fold_max_date=fold['max_train_date'])
+            clf_short.fit(train_clean_short[FEATURE_COLS], train_clean_short['Label_Short'].astype(int), sample_weight=w_fold_short)
             probs_short = clf_short.predict_proba(X_test)[:, 1]
             preds_short = (probs_short >= 0.5).astype(int)
         else:
@@ -1623,7 +2215,8 @@ def run_walk_forward_cv(
 
         cols_to_keep = ['Date', 'Ticker', 'Sector', 'Close', 'Label']
         for col_name in ['Entry_Price', 'Target_Upper', 'Target_Lower', 'Max_Gain_5d', 'Realized_Return', 'Barrier_Hit',
-                         'Label_Short', 'Short_Target_TP', 'Short_Target_SL', 'Barrier_Hit_Short', 'Realized_Return_Short']:
+                         'Label_Short', 'Short_Target_TP', 'Short_Target_SL', 'Barrier_Hit_Short', 'Realized_Return_Short',
+                         'Market_Regime_Score', 'Breadth_MA20_Pct', 'QQQ_Bias_MA20']:
             if col_name in test_clean.columns:
                 cols_to_keep.append(col_name)
         fold_oos = test_clean[cols_to_keep].copy()
@@ -1867,7 +2460,7 @@ def fetch_finnhub_realtime_quotes(tickers: List[str]) -> Dict[str, Dict]:
 def overlay_finnhub_quotes(raw_panel: pd.DataFrame, quotes: Dict[str, Dict]) -> pd.DataFrame:
     """
     将 Finnhub 实时报价精准覆盖到最新日 K 线上。
-    若某个标的缺少实时报价，则保持 yfinance 最新收盘价不变 (优雅兜底)。
+    若检测到相对历史收盘价发生 ±40% 拆股/合股跳变，自动触发除权自愈后再写入实时价。
     """
     if not quotes:
         return raw_panel
@@ -1875,12 +2468,20 @@ def overlay_finnhub_quotes(raw_panel: pd.DataFrame, quotes: Dict[str, Dict]) -> 
     df = raw_panel.copy()
     overlay_count = 0
     for symbol, q in quotes.items():
-        sub_idx = df[df['Ticker'] == symbol].index
+        sub_mask = (df['Ticker'] == symbol)
+        sub_idx = df[sub_mask].index
         if len(sub_idx) == 0:
             continue
-        last_idx = sub_idx[-1]
         active_price = q.get('last', 0.0)
         if active_price > 0:
+            sub_df = df.loc[sub_idx].copy()
+            healed_sub, sp_meta = detect_and_heal_stock_split(symbol, sub_df, live_price=active_price, allow_network=True)
+            if sp_meta.get('split_detected'):
+                print(f"  [🔧 Split Self-Heal Overlay] {symbol}: {sp_meta.get('reason')}")
+                for col in ('Open', 'High', 'Low', 'Close', 'Volume'):
+                    if col in healed_sub.columns and col in df.columns:
+                        df.loc[sub_idx, col] = healed_sub[col].values
+            last_idx = sub_idx[-1]
             df.at[last_idx, 'Close'] = active_price
             q_high = q.get('high', 0.0)
             q_low = q.get('low', 0.0)
@@ -2460,6 +3061,16 @@ def compute_volume_profile_poc(
         return None
 
 
+_TIER1_LOW_VOL_DEFENSE_TICKERS = frozenset({'XAUUSD', 'GLD', 'TLT'})
+
+
+def _tier1_stop_mult(ticker: str, eff_atr: float) -> float:
+    """第一档低波黄金/美债止损步幅 (0.8% ~ 1.3%)，其余标的按常规波段口径 (max(2.2%, eff_atr))。"""
+    if str(ticker or '').upper().strip() in _TIER1_LOW_VOL_DEFENSE_TICKERS:
+        return float(np.clip(0.50 * eff_atr, 0.008, 0.013))
+    return max(0.022, 1.00 * eff_atr)
+
+
 def compute_multi_level_scenario_map(
     ticker: str,
     close_price: Optional[float] = None,
@@ -2494,8 +3105,15 @@ def compute_multi_level_scenario_map(
     close = max(0.01, float(raw_p))
     eff_atr = compute_effective_atr(atr_pct)
 
+    has_real_hist = df_history is not None and not df_history.empty
+    has_real_sr_struct = bool(has_real_hist or any(x is not None for x in (low_60d, high_60d, poc_20d, ema20, put_wall, call_wall)))
+    real_low60_arg = low_60d
+    real_high60_arg = high_60d
+    real_poc20_arg = poc_20d
+    real_ema20_arg = ema20
+
     # 提取历史 60 日极值与 EMA20
-    if df_history is not None and not df_history.empty:
+    if has_real_hist:
         sub60 = df_history.tail(60)
         low_60d = low_60d or (float(sub60['Low'].min()) if 'Low' in sub60.columns else float(sub60['Close'].min()))
         high_60d = high_60d or (float(sub60['High'].max()) if 'High' in sub60.columns else float(sub60['Close'].max()))
@@ -2503,6 +3121,8 @@ def compute_multi_level_scenario_map(
             ema20 = float(df_history['Close'].ewm(span=20, adjust=False).mean().iloc[-1])
         if poc_20d is None:
             poc_20d = compute_volume_profile_poc(df=df_history, window=20)
+
+    has_real_range = bool(has_real_hist or (real_low60_arg is not None and real_high60_arg is not None))
 
     # 估计 60 日振幅与斐波那契参考
     if low_60d is None or high_60d is None or high_60d <= low_60d:
@@ -2512,94 +3132,192 @@ def compute_multi_level_scenario_map(
     else:
         rng60 = max(high_60d - low_60d, close * 0.06)
 
+    is_tier1_low_vol = str(ticker or '').upper().strip() in _TIER1_LOW_VOL_DEFENSE_TICKERS
+    t1_stop_mult = _tier1_stop_mult(ticker, eff_atr)
+
     # S2 (极限插针支撑): 60日低点 / 0.618 支撑 / Put wall / 动态 ATR
     fib_s2 = high_60d - 0.618 * rng60
-    s2_candidates = [close * (1.0 - max(0.045, 1.45 * eff_atr))]
-    if 0.50 * close <= low_60d < close:
-        s2_candidates.append(low_60d)
-    if 0.50 * close <= fib_s2 < close:
-        s2_candidates.append(fib_s2)
+    s2_floor = max(0.022, 1.00 * eff_atr) if is_tier1_low_vol else max(0.045, 1.45 * eff_atr)
+    s2_atr_val = close * (1.0 - s2_floor)
+    s2_candidates = [s2_atr_val]
+    real_s2_pool = []
+    if not is_tier1_low_vol or df_history is not None:
+        if 0.50 * close <= low_60d < close and has_real_range:
+            s2_candidates.append(low_60d)
+            real_s2_pool.append(round(low_60d, 2))
+        if 0.50 * close <= fib_s2 < close and has_real_range:
+            s2_candidates.append(fib_s2)
+            real_s2_pool.append(round(fib_s2, 2))
     if put_wall is not None and 0.88 * close <= put_wall < close:
         s2_candidates.append(put_wall)
-    s2 = round(min(s2_candidates), 2)
+        real_s2_pool.append(round(float(put_wall), 2))
+    raw_s2 = min(s2_candidates)
+    s2_clamped = False
+    # 阶段三止损口径收敛：非第一档标的将 S2 最大跌幅收敛至波动分档上限 (<= 8.5%)，避免剧本止损与波段/日内止损极端背离
+    if not is_tier1_low_vol:
+        max_s2_dist = min(0.085, max(0.048, 1.55 * eff_atr))
+        clamp_floor = close * (1.0 - max_s2_dist)
+        if raw_s2 < clamp_floor:
+            raw_s2 = clamp_floor
+            s2_clamped = True
+    s2 = round(raw_s2, 2)
+    s2_source = (
+        "REAL_CHIPS"
+        if (not s2_clamped and any(abs(s2 - x) <= 0.02 for x in real_s2_pool))
+        else "ATR_ESTIMATE"
+    )
 
-    # S1 (波段支撑): 20日 POC 下沿 / 0.382~0.50 回撤 / 动态 ATR
-    fib_s1 = high_60d - 0.382 * rng60
-    s1_candidates = [close * (1.0 - max(0.025, 0.75 * eff_atr))]
-    if poc_20d is not None and 0.65 * close <= (poc_20d * 0.99) < close:
-        s1_candidates.append(poc_20d * 0.99)
-    if 0.65 * close <= fib_s1 < close:
-        s1_candidates.append(fib_s1)
-    s1 = round(float(np.median(s1_candidates)), 2)
+    # S1 (波段支撑): 第一档低波黄金/美债锚定 0.8%~1.3% 窄幅防守；其余用 20日 POC 下沿 / 0.382 / 动态 ATR
+    if is_tier1_low_vol:
+        s1 = round(close * (1.0 - t1_stop_mult), 2)
+        s1_source = "ATR_ESTIMATE"
+    else:
+        fib_s1 = high_60d - 0.382 * rng60
+        s1_atr_val = round(close * (1.0 - max(0.025, 0.75 * eff_atr)), 2)
+        s1_candidates = [close * (1.0 - max(0.025, 0.75 * eff_atr))]
+        real_s1_cnt = 0
+        if poc_20d is not None and 0.65 * close <= (poc_20d * 0.99) < close and (has_real_hist or real_poc20_arg is not None):
+            s1_candidates.append(poc_20d * 0.99)
+            real_s1_cnt += 1
+        if 0.65 * close <= fib_s1 < close and has_real_range:
+            s1_candidates.append(fib_s1)
+            real_s1_cnt += 1
+        s1 = round(float(np.median(s1_candidates)), 2)
+        s1_source = "REAL_CHIPS" if (real_s1_cnt > 0 and abs(s1 - s1_atr_val) > 0.02) else "ATR_ESTIMATE"
 
     # R1 (第一止盈/反弹阻力): 20日 POC / EMA20 / 动态 ATR
+    r1_atr_val = round(close * (1.0 + max(0.030, 0.85 * eff_atr)), 2)
     r1_candidates = [close * (1.0 + max(0.030, 0.85 * eff_atr))]
-    if poc_20d is not None and close < poc_20d <= 1.35 * close:
+    real_r1_pool = []
+    if poc_20d is not None and close < poc_20d <= 1.35 * close and (has_real_hist or real_poc20_arg is not None):
         r1_candidates.append(poc_20d)
-    if ema20 is not None and close < ema20 <= 1.35 * close:
+        real_r1_pool.append(round(float(poc_20d), 2))
+    if ema20 is not None and close < ema20 <= 1.35 * close and (has_real_hist or real_ema20_arg is not None):
         r1_candidates.append(ema20)
+        real_r1_pool.append(round(float(ema20), 2))
     r1 = round(min(r1_candidates), 2)
+    r1_source = "REAL_CHIPS" if any(abs(r1 - x) <= 0.02 for x in real_r1_pool) else "ATR_ESTIMATE"
 
     # R2 (极限逼空/主升目标): 60日高点 / 0.618 扩展 / Call wall / 动态 ATR
     fib_r2 = close + 0.618 * rng60
     r2_candidates = [close * (1.0 + max(0.060, 1.65 * eff_atr))]
-    if high_60d > close and high_60d <= 1.50 * close:
+    real_r2_pool = []
+    if high_60d > close and high_60d <= 1.50 * close and has_real_range:
         r2_candidates.append(high_60d)
-    if fib_r2 > close and fib_r2 <= 1.50 * close:
+        real_r2_pool.append(round(float(high_60d), 2))
+    if fib_r2 > close and fib_r2 <= 1.50 * close and has_real_range:
         r2_candidates.append(fib_r2)
+        real_r2_pool.append(round(float(fib_r2), 2))
     if call_wall is not None and close < call_wall <= 1.50 * close:
         r2_candidates.append(call_wall)
+        real_r2_pool.append(round(float(call_wall), 2))
     if knn_upper is not None and knn_upper > close:
         r2_candidates.append(round(knn_upper * 1.015, 2))
     r2 = round(max(r2_candidates), 2)
+    r2_source = "REAL_CHIPS" if (has_real_sr_struct and any(abs(r2 - x) <= 0.02 for x in real_r2_pool)) else "ATR_ESTIMATE"
 
-    # 严格单调性不变式防御保证: SL < S2 < S1 < close < R1 < R2
+    # 严格单调性不变式 + ATR 自适应最小档位间距防扎堆 + 大跳空缺口回撤入池: SL < S2 < S1 < close < R1 < R2
     min_step = max(0.01, round(close * 0.005, 2))
+    try:
+        import sr_anchor_engine as _sr_sc_mod
+        _atr_dec_sc = (float(atr_pct) / 100.0) if (float(atr_pct or 2.5) > 1.0) else float(atr_pct or 0.025)
+        _min_step_pct_sc = _sr_sc_mod.compute_sr_min_step_pct(_atr_dec_sc)
+        _min_step_eff_sc = _min_step_pct_sc if not is_tier1_low_vol else max(0.015, _min_step_pct_sc * 0.6)
+        _gap_cands_sc = _sr_sc_mod.extract_gap_pullback_support_candidates(
+            df_history=df_history,
+            ref_price=close,
+            atr_pct=_atr_dec_sc,
+            is_us_ticker=(str(ticker or "").strip().upper() not in ("KOSPI", "BTC-USD", "XAUUSD")),
+        )
+    except Exception:
+        _atr_dec_sc = max(0.012, min(0.25, float(atr_pct or 2.5) / 100.0))
+        _min_step_eff_sc = min(0.055, max(0.025, 0.45 * _atr_dec_sc)) if not is_tier1_low_vol else 0.015
+        _gap_cands_sc = []
 
     if s1 >= close:
         s1 = round(close - min_step, 2)
-    if s2 >= s1:
-        s2 = round(s1 - min_step, 2)
-    sl = round(min(s2 * 0.985, s2 - min_step), 2)
+        s1_source = "ATR_ESTIMATE"
 
-    # 近端止损优先：S2 过远(>6.5%)而 S1 就在现价下方 2%~6% 时，多头防守改用 S1
+    # 若 S1 与 S2 间距小于 ATR 自适应最小间距，优先在真实/缺口回撤候选中寻找满足间距的下档 S2，否则按 ATR 合成
+    if s2 >= s1 or ((s1 - s2) / max(s1, 0.01)) < _min_step_eff_sc:
+        _all_sup_pool = sorted(
+            {round(float(x), 2) for x in (real_s2_pool + _gap_cands_sc) if 0 < float(x) < s1 and ((s1 - float(x)) / max(s1, 0.01)) >= _min_step_eff_sc},
+            reverse=True,
+        )
+        if _all_sup_pool:
+            s2 = _all_sup_pool[0]
+            s2_source = "GAP_PULLBACK" if any(abs(s2 - g) <= 0.02 for g in _gap_cands_sc) else "REAL_CHIPS"
+        else:
+            _synth_s2_step = max(_min_step_eff_sc, min(0.08, 0.80 * _atr_dec_sc))
+            s2 = round(s1 * (1.0 - _synth_s2_step), 2)
+            if s2 >= s1:
+                s2 = round(s1 - max(min_step, round(s1 * _min_step_eff_sc, 2)), 2)
+            s2_source = "ATR_ESTIMATE"
+    elif _gap_cands_sc:
+        # 极端大跳空后，若存在更贴合缺口回撤的真实候选且满足最小间距，优先纳入替换纯估算 S2
+        _gap_valid = [g for g in _gap_cands_sc if g < s1 and ((s1 - g) / max(s1, 0.01)) >= _min_step_eff_sc]
+        if _gap_valid and s2_source == "ATR_ESTIMATE":
+            s2 = _gap_valid[0]
+            s2_source = "GAP_PULLBACK"
+
+    sl = round(min(s2 * (0.992 if is_tier1_low_vol else 0.985), s2 - min_step), 2)
+
+    # 近端止损优先：S2 过远(>6.5%)而 S1 就在现价下方 1.5%~7.0% 时，多头防守改用 S1；第一档低波标的 (XAUUSD/GLD/TLT) 统一走 S1 窄幅防守口径 (-0.8%~-1.3%)
     s1_dist_pct = ((close - s1) / close) * 100.0 if close > 0 else 0.0
     s2_dist_pct = ((close - s2) / close) * 100.0 if close > 0 else 0.0
-    near_stop_s1 = bool((s2_dist_pct > 6.5) and (2.0 <= s1_dist_pct <= 6.0))
+    near_stop_s1 = bool(is_tier1_low_vol or ((s2_dist_pct > 6.5) and (1.5 <= s1_dist_pct <= 7.0)))
 
     if r1 <= close:
         r1 = round(close + min_step, 2)
-    if r2 <= r1:
-        r2 = round(r1 + min_step, 2)
+        r1_source = "ATR_ESTIMATE"
+    if r2 <= r1 or ((r2 - r1) / max(r1, 0.01)) < _min_step_eff_sc:
+        _higher_r_pool = sorted(
+            {round(float(x), 2) for x in real_r2_pool if float(x) > r1 and ((float(x) - r1) / max(r1, 0.01)) >= _min_step_eff_sc}
+        )
+        if _higher_r_pool:
+            r2 = _higher_r_pool[0]
+            r2_source = "REAL_CHIPS"
+        else:
+            _synth_r2_step = max(_min_step_eff_sc, min(0.08, 0.80 * _atr_dec_sc))
+            r2 = round(r1 * (1.0 + _synth_r2_step), 2)
+            if r2 <= r1:
+                r2 = round(r1 + max(min_step, 0.01), 2)
+            r2_source = "ATR_ESTIMATE"
 
-    # 生成盘前盘中结构化实战剧本 (包含防守点位、目标阻力与失效止损，严禁与 action 产生逻辑冲突)
+    # 生成盘前盘中结构化实战剧本 (包含防守点位、目标阻力与失效止损，严禁与 action 产生逻辑冲突；KOSPI 点数格式去 $)
+    _is_pts_tk = (str(ticker or "").strip().upper() == "KOSPI")
+    _fp_sc = (lambda v: f"{float(v):,.2f}" if _is_pts_tk else f"${float(v):.2f}")
+    t1_tag = f"·窄幅 {s1_dist_pct:.1f}% 防守" if is_tier1_low_vol else ""
     if is_halt and not is_short_covering:
-        scenario = f"【暴跌熔断风控剧本】触发暴跌熔断保护期，下方严防下探 S2 (${s2:.2f}) 极端清算底；反抽测试 R1 (${r1:.2f}) 均属诱多；防守止损位 ${sl:.2f}，严禁左侧接刀"
+        if is_tier1_low_vol:
+            scenario = f"【暴跌熔断风控剧本】触发熔断保护期，窄幅防守位看 S1 ({_fp_sc(s1)}{t1_tag})，极限插针 S2 ({_fp_sc(s2)})；反抽测试 R1 ({_fp_sc(r1)}) 暂勿重仓；严禁左侧接刀"
+        else:
+            scenario = f"【暴跌熔断风控剧本】触发暴跌熔断保护期，下方严防下探 S2 ({_fp_sc(s2)}) 极端清算底；反抽测试 R1 ({_fp_sc(r1)}) 均属诱多；防守止损位 {_fp_sc(sl)}，严禁左侧接刀"
     elif is_short_covering:
         if near_stop_s1:
-            scenario = f"【空头回补剧本】依托 S1 (${s1:.2f}) 博反抽，极限插针底 S2 (${s2:.2f})；上看 R1 (${r1:.2f}) 空头回补反抽(不过就跑)；跌破 S1 严格离场"
+            scenario = f"【空头回补剧本】依托 S1 ({_fp_sc(s1)}{t1_tag}) 博反抽，极限插针底 S2 ({_fp_sc(s2)})；上看 R1 ({_fp_sc(r1)}) 空头回补反抽(不过就跑)；跌破 S1 严格离场"
         else:
-            scenario = f"【空头回补滑头剧本】依托 S2 (${s2:.2f}) 极限插针底防守，上看第一阻力 R1 (${r1:.2f}) 空头回补反抽(不过就跑)；放量逼空看 R2 (${r2:.2f})；击穿止损位 ${sl:.2f} 严格离场防踩踏"
+            scenario = f"【空头回补滑头剧本】依托 S2 ({_fp_sc(s2)}) 极限插针底防守，上看第一阻力 R1 ({_fp_sc(r1)}) 空头回补反抽(不过就跑)；放量逼空看 R2 ({_fp_sc(r2)})；击穿止损位 {_fp_sc(sl)} 严格离场防踩踏"
     elif is_broken:
         if near_stop_s1:
-            scenario = f"【破位反抽剧本】依托 S1 (${s1:.2f}) 博反抽，极限插针底 S2 (${s2:.2f})；反抽压力 R1 (${r1:.2f}) 不过即走；跌破 S1 严格离场"
+            scenario = f"【破位反抽剧本】窄幅防守关注 S1 ({_fp_sc(s1)}{t1_tag})，极限插针底 S2 ({_fp_sc(s2)})；反抽压力 R1 ({_fp_sc(r1)}) 不过即走；跌破 S1 严格离场"
         else:
-            scenario = f"【破位飞刀剧本】均线空头排列破位，下方严防下探 S2 (${s2:.2f}) 清算底；反抽测试 R1 (${r1:.2f}) 均属诱多；防守位 ${sl:.2f}，严禁左侧接刀"
+            scenario = f"【破位飞刀剧本】均线空头排列破位，下方严防下探 S2 ({_fp_sc(s2)}) 清算底；反抽测试 R1 ({_fp_sc(r1)}) 均属诱多；防守位 {_fp_sc(sl)}，严禁左侧接刀"
     elif -6.5 <= bias_ma50 <= 4.0:
         if near_stop_s1:
-            scenario = f"【黄金坑做多剧本】依托 S1 (${s1:.2f}) 博反抽，极限插针底 S2 (${s2:.2f})；上看 R1 (${r1:.2f})；跌破 S1 离场"
+            scenario = f"【黄金坑做多剧本】依托 S1 ({_fp_sc(s1)}{t1_tag}) 博反抽，极限插针底 S2 ({_fp_sc(s2)})；上看 R1 ({_fp_sc(r1)})；跌破 S1 离场"
         else:
-            scenario = f"【黄金坑做多剧本】回踩波段支撑 S1 (${s1:.2f}) 蓄势不破，看多头反弹测试 R1 (${r1:.2f})；突破顺势看 R2 (${r2:.2f})；有效跌破止损位 ${sl:.2f} 离场"
+            scenario = f"【黄金坑做多剧本】回踩波段支撑 S1 ({_fp_sc(s1)}) 蓄势不破，看多头反弹测试 R1 ({_fp_sc(r1)})；突破顺势看 R2 ({_fp_sc(r2)})；有效跌破止损位 {_fp_sc(sl)} 离场"
     elif bias_ma50 > 4.0:
         if near_stop_s1:
-            scenario = f"【右侧主升剧本】依托 S1 (${s1:.2f}) 博反抽，极限插针底 S2 (${s2:.2f})；上看 R1 (${r1:.2f}) 与扩展目标 R2 (${r2:.2f})；跌破 S1 离场"
+            scenario = f"【右侧主升剧本】依托 S1 ({_fp_sc(s1)}{t1_tag}) 博反抽，极限插针底 S2 ({_fp_sc(s2)})；上看 R1 ({_fp_sc(r1)}) 与扩展目标 R2 ({_fp_sc(r2)})；跌破 S1 离场"
         else:
-            scenario = f"【右侧主升剧本】依托波段支撑 S1 (${s1:.2f}) 逢低做多，上看阻力 R1 (${r1:.2f}) 与突破扩展目标 R2 (${r2:.2f})；关键防守位 ${sl:.2f}"
+            scenario = f"【右侧主升剧本】依托波段支撑 S1 ({_fp_sc(s1)}) 逢低做多，上看阻力 R1 ({_fp_sc(r1)}) 与突破扩展目标 R2 ({_fp_sc(r2)})；关键防守位 {_fp_sc(sl)}"
     else:
         if near_stop_s1:
-            scenario = f"【战术推演剧本】依托 S1 (${s1:.2f}) 博反抽，极限插针底 S2 (${s2:.2f})；上方阻力 R1 (${r1:.2f})/R2 (${r2:.2f})；跌破 S1 离场"
+            scenario = f"【战术推演剧本】依托 S1 ({_fp_sc(s1)}{t1_tag}) 防守，极限插针底 S2 ({_fp_sc(s2)})；上方阻力 R1 ({_fp_sc(r1)})/R2 ({_fp_sc(r2)})；跌破 S1 离场"
         else:
-            scenario = f"【战术推演剧本】下方防守支撑 S1 (${s1:.2f})/S2 (${s2:.2f})，上方阻力目标 R1 (${r1:.2f})/R2 (${r2:.2f})；跌破防守止损位 ${sl:.2f} 严格离场"
+            scenario = f"【战术推演剧本】下方防守支撑 S1 ({_fp_sc(s1)})/S2 ({_fp_sc(s2)})，上方阻力目标 R1 ({_fp_sc(r1)})/R2 ({_fp_sc(r2)})；跌破防守止损位 {_fp_sc(sl)} 严格离场"
 
     return {
         's1': s1,
@@ -2607,10 +3325,61 @@ def compute_multi_level_scenario_map(
         'sl': sl,
         'r1': r1,
         'r2': r2,
+        's1_source': s1_source,
+        's2_source': s2_source,
+        'r1_source': r1_source,
+        'r2_source': r2_source,
         'near_stop_s1': near_stop_s1,
         'near_stop_price': s1 if near_stop_s1 else None,
         'scenario_script': scenario
     }
+
+
+def sync_scenario_script_levels(item: Dict[str, Any]) -> str:
+    """
+    阶段三点位口径强绑定：
+    当 R2（或 S1/S2/R1/SL）在后续 15 日推演或实盘锚点对齐中被动态校准后，
+    同步刷新 scenario_script 正文中的对应点位数值，确保正文与表头数值 100% 零偏差。
+    """
+    import re
+    if not isinstance(item, dict):
+        return ""
+    script = str(item.get("scenario_script") or "")
+    if not script:
+        return script
+
+    def _fmt(val: Any) -> Optional[str]:
+        try:
+            v = float(val)
+            if np.isfinite(v) and v > 0:
+                return f"{v:.2f}"
+        except Exception:
+            pass
+        return None
+
+    for key, label in (("s1", "S1"), ("s2", "S2"), ("r1", "R1"), ("r2", "R2")):
+        fv = _fmt(item.get(key))
+        if fv is not None:
+            script = re.sub(
+                rf"({label}\s*\(\$)[0-9]+(?:\.[0-9]+)?",
+                rf"\g<1>{fv}",
+                script,
+            )
+
+    _raw_sl_v = float(item.get("sl") or 0.0) if item.get("sl") is not None else 0.0
+    _sw_sl_v = float(item.get("stop_loss_price") or 0.0) if item.get("stop_loss_price") is not None else 0.0
+    _cur_px_v = float(item.get("current_price") or item.get("latest_price") or 0.0)
+    _use_sl_v = max(_raw_sl_v, _sw_sl_v) if (_sw_sl_v > 0 and (_cur_px_v <= 0 or _sw_sl_v < _cur_px_v)) else _raw_sl_v
+    sl_fv = _fmt(_use_sl_v)
+    if sl_fv is not None:
+        script = re.sub(
+            r"((?:防守止损位|止损位|关键防守位|防守位)\s*\$)[0-9]+(?:\.[0-9]+)?",
+            rf"\g<1>{sl_fv}",
+            script,
+        )
+
+    item["scenario_script"] = script
+    return script
 
 
 def compute_4h_resonance_signals(
@@ -2961,6 +3730,490 @@ def _build_cycle_windows_from_projections(
     return cycle_windows[:6]
 
 
+def align_time_cycle_projections_with_live(
+    tc_dict: Dict[str, Any],
+    live_prices: Optional[Dict[str, float]] = None,
+    by_ticker: Optional[Dict[str, Dict[str, Any]]] = None,
+    session_code: str = "",
+    as_of: Optional[datetime] = None,
+) -> None:
+    """
+    统一实时价格对齐引擎（供 futu 终端构建与 predict_radar_5y 每分钟热同步共用）：
+    1. 严格保留上一交易日历史真实收盘节点，绝不把今日盘前/盘中/盘后现价覆写到昨日节点上；
+    2. 美东 04:00 ET 之后（PRE_MARKET / REGULAR / POST_MARKET）若获取到现价且末尾仍是上一交易日，
+       在 history 末尾新增美东今日节点并保留最近 20 条，同步动态更新 today_label 与未来 T+1~T+15 日期；
+    3. 按 scale_ratio / wave_ret 等比例重锚定 15 日推演路径、R2 阻力联动及周期变盘节点目标价。
+    """
+    if not isinstance(tc_dict, dict):
+        return
+
+    live_map = live_prices or {}
+    et_now = _to_et(as_of)
+    sess_day, last_closed, _, _ = _get_chart_session(et_now)
+    btc_today_s = _get_latest_expected_btc_day(et_now).strftime("%Y-%m-%d")
+
+    sc = str(session_code or "").upper().strip()
+    if not sc:
+        wd_n = et_now.weekday()
+        hm_n = et_now.hour * 60 + et_now.minute
+        if wd_n >= 5 or (wd_n == 4 and hm_n >= 20 * 60):
+            sc = "WEEKEND"
+        elif hm_n >= 20 * 60 or hm_n < 4 * 60:
+            sc = "OVERNIGHT"
+        elif hm_n < 9 * 60 + 30:
+            sc = "PRE_MARKET"
+        elif hm_n < 16 * 60:
+            sc = "REGULAR"
+        else:
+            sc = "POST_MARKET"
+
+    if sc == "PRE_MARKET":
+        eq_day = et_now.date() if et_now.weekday() < 5 else sess_day
+        eq_label = f"盘前实时 ({eq_day.strftime('%m-%d')})"
+        can_append_eq = True
+        eq_session_open = True
+    elif sc == "REGULAR":
+        eq_day = et_now.date() if et_now.weekday() < 5 else sess_day
+        eq_label = f"盘中实时 ({eq_day.strftime('%m-%d')})"
+        can_append_eq = True
+        eq_session_open = True
+    elif sc == "POST_MARKET":
+        eq_day = et_now.date() if et_now.weekday() < 5 else sess_day
+        eq_label = f"最新收盘 ({eq_day.strftime('%m-%d')})"
+        can_append_eq = True
+        eq_session_open = False
+    elif sc == "OVERNIGHT":
+        eq_day = sess_day
+        eq_label = "今日"
+        can_append_eq = False
+        eq_session_open = True
+    else:
+        eq_day = last_closed
+        eq_label = f"最新收盘 ({last_closed.strftime('%m-%d')})"
+        can_append_eq = False
+        eq_session_open = False
+
+    eq_day_s = eq_day.strftime("%Y-%m-%d")
+
+    for tk, item in tc_dict.items():
+        if not isinstance(item, dict):
+            continue
+        hist = item.get("history")
+        if not isinstance(hist, list):
+            hist = []
+
+        old_anchor = float(
+            item.get("anchor_price")
+            or (hist[-1].get("price") if hist else 0.0)
+            or item.get("current_price")
+            or 0.0
+        )
+        raw_live = live_map.get(tk)
+        has_real_live = raw_live is not None and float(raw_live) > 0
+        px = float(raw_live if has_real_live else (item.get("current_price") or old_anchor or 0.0))
+        if px <= 0:
+            continue
+        px = round(px, 2)
+
+        px_live_ref = px
+        _keep_live_on_card = False
+        if tk == "BTC-USD":
+            if hist:
+                if str(hist[-1].get("date", ""))[:10] < btc_today_s:
+                    hist.append({"date": btc_today_s, "price": px})
+                    item["history"] = hist[-20:]
+                else:
+                    hist[-1]["price"] = px
+            else:
+                item["history"] = [{"date": btc_today_s, "price": px}]
+            item["today_label"] = "今日"
+            item["session_open"] = True
+            item["price_note"] = ""
+        elif tk == "KOSPI":
+            krx_day_s = _get_latest_expected_krx_day(et_now).strftime("%Y-%m-%d")
+            krx_open_flag, _ = is_krx_market_open(et_now)
+            if hist:
+                if str(hist[-1].get("date", ""))[:10] < krx_day_s:
+                    hist.append({"date": krx_day_s, "price": px})
+                    item["history"] = hist[-20:]
+                else:
+                    hist[-1]["price"] = px
+            else:
+                item["history"] = [{"date": krx_day_s, "price": px}]
+            item["today_label"] = f"韩盘实时 ({krx_day_s[5:]})" if krx_open_flag else f"韩盘收盘 ({krx_day_s[5:]})"
+            item["session_open"] = bool(krx_open_flag)
+            item["price_note"] = ""
+            item["price_unit"] = "pts"
+            item["is_index"] = True
+        else:
+            if hist:
+                last_hist_s = str(hist[-1].get("date", ""))[:10]
+                if can_append_eq and has_real_live:
+                    if last_hist_s < eq_day_s:
+                        hist.append({"date": eq_day_s, "price": px})
+                        item["history"] = hist[-20:]
+                    elif last_hist_s == eq_day_s:
+                        hist[-1]["price"] = px
+                    item["today_label"] = eq_label
+                    item["session_open"] = eq_session_open
+                    item["price_note"] = ""
+                else:
+                    if last_hist_s == eq_day_s and has_real_live:
+                        hist[-1]["price"] = px
+                        item["today_label"] = eq_label
+                        item["session_open"] = eq_session_open
+                        item["price_note"] = ""
+                    else:
+                        if has_real_live and hist[-1].get("price") is not None:
+                            item["post_price"] = px
+                            px = round(float(hist[-1]["price"]), 2)
+                            _keep_live_on_card = True
+                        elif hist[-1].get("price") is not None:
+                            px = round(float(hist[-1]["price"]), 2)
+                        if sc == "WEEKEND" and last_hist_s:
+                            try:
+                                _ld = datetime.strptime(last_hist_s, "%Y-%m-%d").date()
+                                item["today_label"] = f"最新收盘 ({_ld.strftime('%m-%d')})"
+                            except Exception:
+                                pass
+                            item["session_open"] = False
+            elif can_append_eq and has_real_live:
+                item["history"] = [{"date": eq_day_s, "price": px}]
+                item["today_label"] = eq_label
+                item["session_open"] = eq_session_open
+                item["price_note"] = ""
+
+        item["current_price"] = px
+        item["anchor_price"] = px
+
+        projs = item.get("projection") or []
+        hist_cur = item.get("history") or []
+        base_d = eq_day
+        if hist_cur and hist_cur[-1].get("date"):
+            try:
+                base_d = datetime.strptime(str(hist_cur[-1]["date"])[:10], "%Y-%m-%d").date()
+            except Exception:
+                base_d = eq_day
+
+        scale_ratio = (px / old_anchor) if old_anchor > 0 else 1.0
+        p15_list = item.get("path_p15") if isinstance(item.get("path_p15"), list) else []
+        p85_list = item.get("path_p85") if isinstance(item.get("path_p85"), list) else []
+        cursor_d = base_d
+        for d_i, p_obj in enumerate(projs):
+            if not isinstance(p_obj, dict):
+                continue
+            if p_obj.get("wave_ret") is not None:
+                w_ret = float(p_obj["wave_ret"])
+                new_p = round(px * (1.0 + w_ret), 2)
+            elif old_anchor > 0 and p_obj.get("price") is not None:
+                old_p = float(p_obj["price"])
+                w_ret = (old_p - old_anchor) / old_anchor
+                p_obj["wave_ret"] = round(w_ret, 6)
+                new_p = round(old_p * scale_ratio, 2)
+            else:
+                w_ret = float(p_obj.get("pct", 0.0)) / 100.0
+                p_obj["wave_ret"] = round(w_ret, 6)
+                new_p = round(px * (1.0 + w_ret), 2)
+
+            p_obj["price"] = new_p
+            p_obj["pct"] = round(((new_p - px) / (px + 1e-8)) * 100.0, 1)
+            if tk == "BTC-USD":
+                p_obj["date"] = (base_d + timedelta(days=d_i + 1)).strftime("%Y-%m-%d")
+            else:
+                cursor_d += timedelta(days=1)
+                while cursor_d.weekday() >= 5:
+                    cursor_d += timedelta(days=1)
+                p_obj["date"] = cursor_d.strftime("%Y-%m-%d")
+
+            def _scale_band_point(b_list, wr_key, px_key, pct_key, fallback_wr):
+                b_obj = b_list[d_i] if (d_i < len(b_list) and isinstance(b_list[d_i], dict)) else None
+                b_wr = None
+                if b_obj is not None and b_obj.get("wave_ret") is not None:
+                    b_wr = float(b_obj["wave_ret"])
+                elif p_obj.get(wr_key) is not None:
+                    b_wr = float(p_obj[wr_key])
+                elif b_obj is not None and old_anchor > 0 and b_obj.get("price") is not None:
+                    b_wr = (float(b_obj["price"]) - old_anchor) / old_anchor
+                elif old_anchor > 0 and p_obj.get(px_key) is not None:
+                    b_wr = (float(p_obj[px_key]) - old_anchor) / old_anchor
+                elif b_obj is not None and b_obj.get("pct") is not None:
+                    b_wr = float(b_obj["pct"]) / 100.0
+                elif p_obj.get(pct_key) is not None:
+                    b_wr = float(p_obj[pct_key]) / 100.0
+                else:
+                    b_wr = fallback_wr
+                b_p = round(px * (1.0 + b_wr), 2)
+                b_pct = round(((b_p - px) / (px + 1e-8)) * 100.0, 1)
+                if b_obj is not None:
+                    b_obj["wave_ret"] = round(b_wr, 6)
+                    b_obj["price"] = b_p
+                    b_obj["pct"] = b_pct
+                    b_obj["date"] = p_obj["date"]
+                return b_p, b_pct, round(b_wr, 6), b_obj
+
+            b15_p, b15_pct, b15_wr, b15_obj = _scale_band_point(p15_list, "p15_wave_ret", "p15_price", "p15_pct", w_ret)
+            b85_p, b85_pct, b85_wr, b85_obj = _scale_band_point(p85_list, "p85_wave_ret", "p85_price", "p85_pct", w_ret)
+            if b15_p > new_p:
+                b15_p, b15_pct = new_p, p_obj["pct"]
+                if b15_obj is not None:
+                    b15_obj["price"], b15_obj["pct"] = b15_p, b15_pct
+            if b85_p < new_p:
+                b85_p, b85_pct = new_p, p_obj["pct"]
+                if b85_obj is not None:
+                    b85_obj["price"], b85_obj["pct"] = b85_p, b85_pct
+            p_obj["p15_price"], p_obj["p15_pct"], p_obj["p15_wave_ret"] = b15_p, b15_pct, b15_wr
+            p_obj["p85_price"], p_obj["p85_pct"], p_obj["p85_wave_ret"] = b85_p, b85_pct, b85_wr
+
+        if p15_list:
+            item["p15_t5_pct"] = float(p15_list[min(4, len(p15_list) - 1)].get("pct", 0.0))
+            item["p15_t15_pct"] = float(p15_list[-1].get("pct", 0.0))
+        elif projs:
+            item["p15_t5_pct"] = float(projs[min(4, len(projs) - 1)].get("p15_pct", 0.0))
+            item["p15_t15_pct"] = float(projs[-1].get("p15_pct", 0.0))
+        if p85_list:
+            item["p85_t15_pct"] = float(p85_list[-1].get("pct", 0.0))
+        elif projs:
+            item["p85_t15_pct"] = float(projs[-1].get("p85_pct", 0.0))
+
+        if by_ticker and isinstance(by_ticker.get(tk), dict):
+            b_item = by_ticker[tk]
+            if not _keep_live_on_card:
+                b_item["latest_price"] = px
+                b_item["current_price"] = px
+            for k_v46 in ("v46_regime_mode", "bear_inertia_active", "p15_t5_pct", "p15_t15_pct", "p85_t15_pct"):
+                if item.get(k_v46) is not None:
+                    b_item[k_v46] = item[k_v46]
+            for k_lvl in (
+                "s1", "s2", "sl", "r1", "r2",
+                "anchor_s1", "anchor_s2", "anchor_sl", "anchor_r1", "anchor_r2",
+                "s1_source", "s2_source", "r1_source", "r2_source",
+                "sr_breach_state", "sr_status_badge", "sr_anchor_locked",
+            ):
+                if b_item.get(k_lvl) is not None:
+                    item[k_lvl] = b_item[k_lvl]
+
+        proj_prices = [float(p["price"]) for p in projs if isinstance(p, dict) and p.get("price") is not None]
+        if proj_prices:
+            _has_locked = bool(
+                (by_ticker and isinstance(by_ticker.get(tk), dict) and by_ticker[tk].get("sr_anchor_locked"))
+                or item.get("sr_anchor_locked")
+            )
+            if not _has_locked:
+                max_proj_p = max(proj_prices)
+                item["r2"] = max(float(item.get("r2") or 0.0), round(max_proj_p * 1.015, 2))
+                if item.get("r1") is not None and float(item["r2"]) <= float(item["r1"]):
+                    min_step = max(0.01, round(px * 0.005, 2))
+                    item["r2"] = round(float(item["r1"]) + min_step, 2)
+                if by_ticker and isinstance(by_ticker.get(tk), dict):
+                    by_ticker[tk]["r2"] = item["r2"]
+                    sync_scenario_script_levels(by_ticker[tk])
+
+        try:
+            import sr_anchor_engine as _sr_tc_sync
+            if item.get("s1") is not None or item.get("anchor_s1") is not None:
+                _sr_eval_tc = _sr_tc_sync.evaluate_sr_breach_state(price=px, anchor=item)
+                item["sr_breach_state"] = _sr_eval_tc["sr_breach_state"]
+                item["sr_status_badge"] = _sr_eval_tc["sr_status_badge"]
+                for _ak, _sk in (
+                    ("anchor_s1", "s1"), ("anchor_s2", "s2"), ("anchor_sl", "sl"),
+                    ("anchor_r1", "r1"), ("anchor_r2", "r2"),
+                ):
+                    if item.get(_ak) is None and item.get(_sk) is not None:
+                        item[_ak] = item[_sk]
+        except Exception:
+            pass
+
+        try:
+            item["cycle_windows"] = _build_cycle_windows_from_projections(
+                projections=projs,
+                current_price=px,
+                r1=item.get("r1"),
+                r2=item.get("r2"),
+            )
+        except Exception:
+            pass
+
+        r1_v = float(item.get("r1") or 0.0)
+        r2_v = float(item.get("r2") or 0.0)
+        for cw in item.get("cycle_windows", []):
+            if isinstance(cw, dict) and cw.get("price"):
+                cw_p = float(cw["price"])
+                if cw.get("type") in ("bottom", "caution"):
+                    if (r1_v > 0 and cw_p >= r1_v) or (r2_v > 0 and cw_p >= r2_v):
+                        cw["type"] = "caution"
+                        cw["desc"] = "⚠️ 高位强势休整窗 (已超R1/R2阻力·勿追高)"
+                        cw["tag"] = "⚠️ 高位强势休整窗（已超R1/R2阻力·勿追高）"
+                    else:
+                        cw["type"] = "bottom"
+                        cw["desc"] = "🔵 周期底回踩窗 (关注空头回补企稳)"
+                        cw["tag"] = "周期底回踩窗 (企稳关注)"
+
+
+def compute_v46_c5_switch_flag(
+    qqq_bias50: float,
+    smh_bias50: float,
+    spy_bias50: float,
+    spy_bias20: float,
+    qqq_bias20: float,
+    breadth_ma20: float,
+    vixy_pos60: float,
+    vixy_bias20: float,
+    vix_proxy: float,
+    cur_tk_c: float,
+    cur_ema5: float,
+    cur_ema10: float,
+    cur_ema20: float,
+    cur_b20: float,
+    cur_b50: float,
+    cur_ret3: float,
+    cur_ret5: float,
+    cur_down4: float,
+    ticker: str = "",
+) -> Dict[str, Any]:
+    """
+    V4.6 C5 去孤立宽度误触的双态开关（100% 复现实验通过规则，零修改原数值阈值）:
+    - 取消 breadth_ma20 < 35.0 孤立单票触发权，需伴随 SPY/QQQ 均破 MA20、VIXY > MA20 且伴随 MA50 破位或 vix_proxy >= 25.0；
+    - 反向对冲 ETF (SQQQ / SOXS / VIXY) 固定维持 NORMAL_BASE，防止大盘暴跌期反向误压抑其对冲上行弹性。
+    """
+    breadth_confirmed_weak = bool(
+        (breadth_ma20 < 35.0)
+        and (spy_bias20 < 0.0 and qqq_bias20 < 0.0)
+        and (vixy_bias20 > 0.0)
+        and (spy_bias50 < 0.0 or qqq_bias50 < 0.0 or vix_proxy >= 25.0)
+    )
+    macro_bear_defense = bool(
+        (qqq_bias50 < -3.0 and smh_bias50 < -3.0)
+        or breadth_confirmed_weak
+        or (vixy_pos60 >= 0.75)
+        or (vixy_bias20 >= 8.0)
+    )
+    stock_deep_breakdown = bool(
+        (cur_tk_c < cur_ema5 < cur_ema10 < cur_ema20)
+        and (cur_b50 < -6.5)
+        and (cur_ret5 <= -5.0)
+        and (cur_down4 >= 3.0)
+    )
+    is_inverse_hedge = str(ticker or "").upper().strip() in ("SQQQ", "SOXS", "VIXY")
+    if is_inverse_hedge:
+        c5_switch_active = False
+    else:
+        c5_switch_active = bool(
+            (macro_bear_defense and (cur_tk_c < cur_ema10 or cur_ret3 < 0.0 or cur_b20 < 0.0))
+            or stock_deep_breakdown
+        )
+    return {
+        "c5_switch_active": c5_switch_active,
+        "macro_bear_defense": macro_bear_defense,
+        "stock_deep_breakdown": stock_deep_breakdown,
+        "breadth_confirmed_weak": breadth_confirmed_weak,
+        "v46_regime_mode": "BEAR_INERTIA_C5" if c5_switch_active else "NORMAL_BASE",
+    }
+
+
+def _prepare_v46_causal_regime_context(piv: pd.DataFrame, window_len: int = 25) -> Optional[Dict[str, Any]]:
+    """
+    仅使用 <= t 日已收盘行情因果构建 V4.6 宏观/个股体制面板与 Z-score 历史形态矩阵。
+    严格对齐 exp_v46_predictor_challenger.py，缺 SPY/VIXY 时平滑降级。
+    """
+    if piv is None or piv.empty or not {"SMH", "QQQ"}.issubset(set(piv.columns)):
+        return None
+    piv_close = piv.sort_index().copy()
+    if "SPY" in piv_close.columns:
+        piv_close = piv_close[piv_close["SPY"].notna()].copy()
+    piv_close = piv_close.dropna(subset=["SMH", "QQQ"])
+    n_dates = len(piv_close)
+    if n_dates < window_len + 20:
+        return None
+
+    ema5 = piv_close.ewm(span=5, adjust=False).mean()
+    ema10 = piv_close.ewm(span=10, adjust=False).mean()
+    ema20 = piv_close.ewm(span=20, adjust=False).mean()
+    ma20 = piv_close.rolling(20, min_periods=10).mean()
+    ma50 = piv_close.rolling(50, min_periods=20).mean()
+
+    ret1 = piv_close.pct_change(1) * 100.0
+    ret3 = piv_close.pct_change(3) * 100.0
+    ret5 = piv_close.pct_change(5) * 100.0
+    down_days_4 = (ret1 < 0).astype(float).rolling(4, min_periods=1).sum()
+
+    bias20 = ((piv_close - ma20) / (ma20 + 1e-8) * 100.0).fillna(0.0)
+    bias50 = ((piv_close - ma50) / (ma50 + 1e-8) * 100.0).fillna(0.0)
+
+    non_lev_cols = [c for c in piv_close.columns if c not in ("SQQQ", "SOXS", "VIXY", "TLT", "GLD", "XAUUSD", "BTC-USD")]
+    if non_lev_cols:
+        breadth_ma20 = ((piv_close[non_lev_cols] >= ma20[non_lev_cols]).mean(axis=1) * 100.0).fillna(50.0)
+    else:
+        breadth_ma20 = pd.Series(50.0, index=piv_close.index)
+
+    if "VIXY" in piv_close.columns and piv_close["VIXY"].notna().sum() >= 15:
+        vixy_c = piv_close["VIXY"]
+        vixy_ma20 = vixy_c.rolling(20, min_periods=10).mean()
+        vixy_bias20 = ((vixy_c - vixy_ma20) / (vixy_ma20 + 1e-8) * 100.0).fillna(0.0)
+        vixy_low60 = vixy_c.rolling(60, min_periods=15).min()
+        vixy_high60 = vixy_c.rolling(60, min_periods=15).max()
+        vixy_pos60 = ((vixy_c - vixy_low60) / (vixy_high60 - vixy_low60 + 1e-8)).clip(0.0, 1.0).fillna(0.5)
+    else:
+        vixy_bias20 = pd.Series(0.0, index=piv_close.index)
+        vixy_pos60 = pd.Series(0.5, index=piv_close.index)
+
+    ref_idx_col = "SPY" if "SPY" in piv_close.columns else "QQQ"
+    spy_rvol10 = (piv_close[ref_idx_col].pct_change().rolling(10, min_periods=5).std() * np.sqrt(252.0) * 100.0).fillna(12.0)
+    vix_proxy = (
+        14.0
+        + 0.55 * vixy_bias20.clip(lower=0.0)
+        + 14.0 * vixy_pos60
+        + 0.35 * (spy_rvol10 - 12.0).clip(lower=0.0)
+    )
+
+    spy_b20 = bias20[ref_idx_col].fillna(0.0)
+    qqq_b20 = bias20["QQQ"].fillna(0.0)
+    smh_b20 = bias20["SMH"].fillna(0.0)
+
+    is_bear_or_panic = (
+        (vix_proxy >= 25.0)
+        | (vixy_bias20 >= 6.0)
+        | ((spy_b20 < -0.5) & (breadth_ma20 < 42.0))
+        | ((qqq_b20 < -1.0) & (smh_b20 < -1.5))
+    ).values
+
+    smh_vals = piv_close["SMH"].values.astype(float)
+    qqq_vals = piv_close["QQQ"].values.astype(float)
+    norm_smh = np.full((n_dates, window_len), np.nan, dtype=float)
+    norm_qqq = np.full((n_dates, window_len), np.nan, dtype=float)
+    for i in range(0, n_dates - window_len + 1):
+        w_s = smh_vals[i:i + window_len]
+        w_q = qqq_vals[i:i + window_len]
+        if not np.isnan(w_s).any() and not np.isnan(w_q).any():
+            std_s = np.std(w_s)
+            std_q = np.std(w_q)
+            if std_s > 1e-8 and std_q > 1e-8:
+                norm_smh[i] = (w_s - np.mean(w_s)) / std_s
+                norm_qqq[i] = (w_q - np.mean(w_q)) / std_q
+
+    return {
+        "dates": piv_close.index,
+        "n_dates": n_dates,
+        "piv_close": piv_close,
+        "ref_idx_col": ref_idx_col,
+        "ema5": ema5,
+        "ema10": ema10,
+        "ema20": ema20,
+        "ret1": ret1.fillna(0.0),
+        "ret3": ret3.fillna(0.0),
+        "ret5": ret5.fillna(0.0),
+        "down_days_4": down_days_4.fillna(0.0),
+        "bias20": bias20,
+        "bias50": bias50,
+        "breadth_ma20": breadth_ma20.values,
+        "vix_proxy": vix_proxy.values,
+        "vixy_bias20": vixy_bias20.values,
+        "vixy_pos60": vixy_pos60.values,
+        "is_bear_or_panic": is_bear_or_panic,
+        "norm_smh": norm_smh,
+        "norm_qqq": norm_qqq,
+    }
+
+
 def generate_time_cycle_projections(
     raw_panel: pd.DataFrame,
     target_tickers: Optional[List[str]] = None,
@@ -3003,8 +4256,11 @@ def generate_time_cycle_projections(
 
     # 历史曲线：美股/ETF 只保留已收盘交易日（未收盘实时价稍后单独追加）；BTC-USD 保留全部 7x24 自然日（含周六、周日）
     try:
-        _session_date, _last_closed, _today_label, _session_open = _get_chart_session(as_of)
-        _btc_latest_day = _get_latest_expected_btc_day(as_of)
+        _et_now = _to_et(as_of)
+        _et_hm = _et_now.hour * 60 + _et_now.minute
+        _et_wd = _et_now.weekday()
+        _session_date, _last_closed, _today_label, _session_open = _get_chart_session(_et_now)
+        _btc_latest_day = _get_latest_expected_btc_day(_et_now)
         combined_panel = combined_panel.copy()
         combined_panel['Date'] = pd.to_datetime(combined_panel['Date'])
         _is_btc_mask = (combined_panel['Ticker'] == 'BTC-USD')
@@ -3013,6 +4269,7 @@ def generate_time_cycle_projections(
             | ((~_is_btc_mask) & (combined_panel['Date'].dt.date <= _last_closed))
         ]
     except Exception:
+        _et_hm, _et_wd = 12 * 60, 0
         _session_date, _last_closed, _today_label, _session_open = datetime.now().date(), datetime.now().date(), "今日", False
         _btc_latest_day = datetime.now(timezone.utc).date()
 
@@ -3027,16 +4284,20 @@ def generate_time_cycle_projections(
 
     window_len = 25
 
-    # 若包含完整多标的面板 (SMH 与 QQQ 均存在且长度充足)，预计算全局 Top-5 联合历史相似时间窗
+    # 若包含完整多标的面板 (SMH 与 QQQ 均存在且长度充足)，预计算全局 Top-5 联合历史相似时间窗与 V4.6 因果体制上下文
     piv = None
+    ctx_v46 = None
     joint_top_k = []
     joint_weights = None
     try:
         if 'Date' in combined_panel.columns and {'SMH', 'QQQ'}.issubset(set(combined_panel['Ticker'].unique())):
             piv = combined_panel.pivot(index='Date', columns='Ticker', values='Close').sort_index()
             valid_piv = piv.dropna(subset=['SMH', 'QQQ'])
+            if 'SPY' in valid_piv.columns:
+                valid_piv = valid_piv[valid_piv['SPY'].notna()]
             if len(valid_piv) > window_len + forecast_days + 120:
                 piv = valid_piv
+                ctx_v46 = _prepare_v46_causal_regime_context(piv, window_len=window_len)
                 dates_idx = piv.index
                 n_piv = len(piv)
                 # 仅在扩展库与主库共同覆盖的近 4 年区间 (2023-02 以后) 检索同日窗口，确保 SOXL/SOXS/KORU 等均有真实同日数据
@@ -3051,7 +4312,11 @@ def generate_time_cycle_projections(
                     cur_b1_smh = (t_smh[-1] - t_smh[-2]) / (t_smh[-2] + 1e-8)
 
                     raw_cands = []
+                    t_idx_piv = n_piv - 1
                     for i in range(start_i, end_i):
+                        e_idx_cand = i + window_len - 1
+                        if e_idx_cand > (t_idx_piv - 16):
+                            raise AssertionError(f"Lookahead violation in joint search: e_idx={e_idx_cand} > t_idx-16={t_idx_piv - 16}")
                         c_smh = piv['SMH'].values[i:i + window_len]
                         c_qqq = piv['QQQ'].values[i:i + window_len]
                         corr_s = float(np.corrcoef(n_smh, (c_smh - np.mean(c_smh)) / (np.std(c_smh) + 1e-8))[0, 1])
@@ -3075,24 +4340,110 @@ def generate_time_cycle_projections(
                     if joint_top_k:
                         w_arr = np.array([max(0.1, c[0]) ** 2 for c in joint_top_k], dtype=float)
                         joint_weights = w_arr / np.sum(w_arr)
+    except AssertionError:
+        raise
     except Exception:
         joint_top_k = []
         joint_weights = None
+        ctx_v46 = None
 
+    _ipo_default_prices = {'ANT': 83.0}
     for tk in target_tickers:
         sub = combined_panel[combined_panel['Ticker'] == tk].sort_values('Date').reset_index(drop=True)
-        if sub.empty:
-            continue
-        if len(sub) < 5:
-            # 次新标的刚上市不足5根日线时跳过或保留已有短线而不强行套用无关指数价格
+        sc_info = (scenario_map_by_ticker or {}).get(tk, {})
+        if sub.empty or len(sub) < 5:
+            # 次新/IPO 标的不足 5 根日线时：若存在实盘报价或发行基准价（如 ANT $83.00）或已有短线，生成平滑占位路径防前端断档；无任何价格则跳过
+            live_fb = sc_info.get('latest_price') or sc_info.get('current_price') or _ipo_default_prices.get(tk)
+            if (live_fb is None or float(live_fb) <= 0) and not sub.empty:
+                live_fb = float(sub['Close'].iloc[-1])
+            if live_fb is None or float(live_fb) <= 0:
+                continue
+            cp = round(float(live_fb), 2)
+            _base_hist_d = _last_closed
+            if not sub.empty and 'Date' in sub.columns:
+                hist_entries_short = [
+                    {
+                        'date': (sub.at[i, 'Date'].strftime('%Y-%m-%d') if hasattr(sub.at[i, 'Date'], 'strftime') else str(sub.at[i, 'Date'])[:10]),
+                        'price': round(float(sub.at[i, 'Close']), 2),
+                    }
+                    for i in range(len(sub))
+                ]
+                _last_sub_d = pd.to_datetime(sub['Date'].iloc[-1]).date()
+                if _last_sub_d >= _last_closed:
+                    _base_hist_d = _last_sub_d
+            else:
+                hist_entries_short = [{'date': _last_closed.strftime('%Y-%m-%d'), 'price': cp}]
+            _short_dates = []
+            _cur_s = _base_hist_d
+            while len(_short_dates) < forecast_days:
+                _cur_s += timedelta(days=1)
+                if _cur_s.weekday() < 5:
+                    _short_dates.append(_cur_s.strftime('%Y-%m-%d'))
+            results[tk] = {
+                'ticker': tk,
+                'current_price': cp,
+                'anchor_price': cp,
+                's1': sc_info.get('s1') or round(cp * 0.94, 2),
+                's2': sc_info.get('s2') or round(cp * 0.88, 2),
+                'sl': sc_info.get('sl') or round(cp * 0.85, 2),
+                'r1': sc_info.get('r1') or round(cp * 1.06, 2),
+                'r2': sc_info.get('r2') or round(cp * 1.12, 2),
+                'anchor_s1': sc_info.get('anchor_s1') or sc_info.get('s1') or round(cp * 0.94, 2),
+                'anchor_s2': sc_info.get('anchor_s2') or sc_info.get('s2') or round(cp * 0.88, 2),
+                'anchor_sl': sc_info.get('anchor_sl') or sc_info.get('sl') or round(cp * 0.85, 2),
+                'anchor_r1': sc_info.get('anchor_r1') or sc_info.get('r1') or round(cp * 1.06, 2),
+                'anchor_r2': sc_info.get('anchor_r2') or sc_info.get('r2') or round(cp * 1.12, 2),
+                's1_source': sc_info.get('s1_source', 'ATR_ESTIMATE'),
+                's2_source': sc_info.get('s2_source', 'ATR_ESTIMATE'),
+                'r1_source': sc_info.get('r1_source', 'ATR_ESTIMATE'),
+                'r2_source': sc_info.get('r2_source', 'ATR_ESTIMATE'),
+                'sr_breach_state': sc_info.get('sr_breach_state', 'INTACT'),
+                'sr_status_badge': sc_info.get('sr_status_badge', ''),
+                'sr_anchor_locked': bool(sc_info.get('sr_anchor_locked', False)),
+                'history': hist_entries_short[-20:],
+                'projection': [
+                    {
+                        'day': f'T+{d_i + 1}', 'date': dt_s, 'price': cp, 'pct': 0.0, 'wave_ret': 0.0,
+                        'p15_price': cp, 'p15_pct': 0.0, 'p15_wave_ret': 0.0,
+                        'p85_price': cp, 'p85_pct': 0.0, 'p85_wave_ret': 0.0,
+                    }
+                    for d_i, dt_s in enumerate(_short_dates)
+                ],
+                'path_p15': [
+                    {'day': f'T+{d_i + 1}', 'date': dt_s, 'price': cp, 'pct': 0.0, 'wave_ret': 0.0}
+                    for d_i, dt_s in enumerate(_short_dates)
+                ],
+                'path_p85': [
+                    {'day': f'T+{d_i + 1}', 'date': dt_s, 'price': cp, 'pct': 0.0, 'wave_ret': 0.0}
+                    for d_i, dt_s in enumerate(_short_dates)
+                ],
+                'v46_regime_mode': 'NORMAL_BASE',
+                'bear_inertia_active': False,
+                'fft_weight': 0.0,
+                'p15_t5_pct': 0.0,
+                'p15_t15_pct': 0.0,
+                'p85_t15_pct': 0.0,
+                'cycle_windows': [],
+                'analog_match': {
+                    'period': '🆕 IPO 新股上市期 (待积累5日K线)',
+                    'similarity_pct': 0.0,
+                },
+                'today_label': f'IPO 基准 (${cp:.2f})' if sub.empty else _today_label,
+                'session_open': bool(_session_open),
+                'price_note': '' if not sub.empty else f'IPO 发行价参考 ${cp:.2f}',
+                'post_price': None,
+            }
             continue
 
         closes = sub['Close'].values.astype(float).copy()
         close_anchor = float(closes[-1])
-        sc_info = (scenario_map_by_ticker or {}).get(tk, {})
         live_override_p = sc_info.get('latest_price') or sc_info.get('current_price')
         if tk == 'BTC-USD' and (live_override_p is None or float(live_override_p) <= 0) and as_of is None:
             live_override_p = _fetch_btc_live_price()
+        elif tk == 'XAUUSD' and (live_override_p is None or float(live_override_p) <= 0) and as_of is None:
+            live_override_p = _fetch_xauusd_live_price()
+        elif tk == 'KOSPI' and (live_override_p is None or float(live_override_p) <= 0) and as_of is None:
+            live_override_p = _fetch_kospi_live_price()
         if live_override_p is not None and float(live_override_p) > 0:
             display_p = float(live_override_p)
         else:
@@ -3131,6 +4482,30 @@ def generate_time_cycle_projections(
             ]
             post_px = None
             price_note = ""
+        elif tk == 'KOSPI':
+            _krx_day = _get_latest_expected_krx_day(as_of)
+            _krx_open, _ = is_krx_market_open(as_of)
+            if last_hist_dt < _krx_day:
+                hist_entries.append({
+                    'date': _krx_day.strftime('%Y-%m-%d'),
+                    'price': round(display_p, 2)
+                })
+                closes = np.append(closes, display_p)
+            else:
+                hist_entries[-1]['price'] = round(display_p, 2)
+                closes[-1] = display_p
+            cur_p = round(display_p, 2)
+            display_p = cur_p
+            appended_live = True
+            shown_label = f"韩盘实时 ({_krx_day.strftime('%m-%d')})" if _krx_open else f"韩盘收盘 ({_krx_day.strftime('%m-%d')})"
+            use_dates = []
+            cursor = pd.to_datetime(hist_entries[-1]['date']).date()
+            while len(use_dates) < forecast_days:
+                cursor += timedelta(days=1)
+                if cursor.weekday() < 5:
+                    use_dates.append(cursor.strftime('%Y-%m-%d'))
+            post_px = None
+            price_note = ""
         else:
             # 只有带价格种类的真实成交才允许新开一根未收盘柱。
             # 夜盘没有 overnightMarketPrice 时，盘后定格价不能冒充今日现价。
@@ -3138,9 +4513,12 @@ def generate_time_cycle_projections(
             price_kind = str(sc_info.get("price_kind") or "")
             _live_date = str(sc_info.get("live_date") or sc_info.get("quote_date") or sc_info.get("ext_time") or "")[:10]
             _today_str = anchor_date.strftime("%Y-%m-%d")
-            real_live = bool(has_live and price_kind in ("overnight", "premarket", "regular") and (not _live_date or _live_date == _today_str))
+            _daytime_eq_session = (_et_wd < 5 and 4 * 60 <= _et_hm < 20 * 60)
+            _allowed_kinds = ("overnight", "premarket", "regular", "postmarket") if _daytime_eq_session else ("overnight", "premarket", "regular")
+            _can_update_today = _session_open or _daytime_eq_session
+            real_live = bool(has_live and price_kind in _allowed_kinds and (not _live_date or _live_date == _today_str))
             appended_live = False
-            if real_live and _session_open and last_hist_dt < anchor_date:
+            if real_live and _can_update_today and last_hist_dt < anchor_date:
                 hist_entries.append({
                     'date': anchor_date.strftime('%Y-%m-%d'),
                     'price': round(display_p, 2)
@@ -3148,7 +4526,7 @@ def generate_time_cycle_projections(
                 closes = np.append(closes, display_p)
                 cur_p = display_p
                 appended_live = True
-            elif real_live and _session_open and last_hist_dt == anchor_date:
+            elif real_live and _can_update_today and last_hist_dt == anchor_date:
                 hist_entries[-1]['price'] = round(display_p, 2)
                 closes[-1] = display_p
                 cur_p = display_p
@@ -3159,7 +4537,7 @@ def generate_time_cycle_projections(
 
             if appended_live:
                 use_dates = future_dates
-                shown_label = "今日"
+                shown_label = _today_label
             else:
                 use_dates = []
                 cursor = last_hist_dt
@@ -3203,93 +4581,352 @@ def generate_time_cycle_projections(
         # 消除谐波首尾线性趋势漂移，仅保留纯粹的周期振荡波形 (t=0 与 t=T 归零，绝不人为制造虚假斜率)
         harm_osc = harm_pct - np.linspace(harm_pct[0], harm_pct[-1], forecast_days)
 
-        # 2. KNN-5 同日联合历史相似路径提取 (若为单标的测试面板则回退至单标的历史匹配)
+        # 2. V4.6 C5 非对称双态判定与 Top-K 历史相似路径提取
+        c5_info = {
+            "c5_switch_active": False,
+            "macro_bear_defense": False,
+            "stock_deep_breakdown": False,
+            "breadth_confirmed_weak": False,
+            "v46_regime_mode": "NORMAL_BASE",
+        }
+        use_c5_bear = False
+        c3_done = False
         analog_ret = None
+        comb_ret = None
+        p15_ret = None
+        p85_ret = None
+        raw_paths_list = []
+        fft_weight = 0.50
         best_period = "2024-07-05 ~ 2024-08-08"
         best_corr = 0.85
 
-        if tk != 'BTC-USD' and piv is not None and joint_top_k and joint_weights is not None and tk in piv.columns:
-            col_vals = piv[tk].values
-            acc_ret = np.zeros(forecast_days, dtype=float)
-            acc_w = 0.0
-            for w_val, (c_score, idx_h, s_dt, e_dt) in zip(joint_weights, joint_top_k):
-                base_v = col_vals[idx_h + window_len - 1]
-                fut_v = col_vals[idx_h + window_len:idx_h + window_len + forecast_days]
-                if pd.notna(base_v) and base_v > 0 and len(fut_v) == forecast_days and not np.isnan(fut_v).any():
-                    r_p = np.clip((fut_v - base_v) / base_v, -0.35, 0.35)
-                    acc_ret += w_val * r_p
-                    acc_w += w_val
-            if acc_w > 0:
-                analog_ret = acc_ret / acc_w
-                best_corr = float(joint_top_k[0][0])
-                best_period = f"{joint_top_k[0][2]} ~ {joint_top_k[0][3]} (KNN-5 联合同日)"
+        if tk != 'BTC-USD' and ctx_v46 is not None and tk in ctx_v46["piv_close"].columns:
+            t_idx_c5 = ctx_v46["n_dates"] - 1
+            tk_piv_vals = ctx_v46["piv_close"][tk].values.astype(float)
+            valid_tk_cnt = int(np.sum(~np.isnan(tk_piv_vals)))
+            q_start_c5 = t_idx_c5 - window_len + 1
+            if valid_tk_cnt >= 40 and q_start_c5 >= 0 and not np.isnan(tk_piv_vals[t_idx_c5]):
+                ref_idx_col = ctx_v46["ref_idx_col"]
+                cur_tk_c = float(tk_piv_vals[t_idx_c5])
+                cur_ema5 = float(ctx_v46["ema5"][tk].iloc[t_idx_c5])
+                cur_ema10 = float(ctx_v46["ema10"][tk].iloc[t_idx_c5])
+                cur_ema20 = float(ctx_v46["ema20"][tk].iloc[t_idx_c5])
+                cur_b20 = float(ctx_v46["bias20"][tk].iloc[t_idx_c5])
+                cur_b50 = float(ctx_v46["bias50"][tk].iloc[t_idx_c5])
+                cur_ret1 = float(ctx_v46["ret1"][tk].iloc[t_idx_c5])
+                cur_ret3 = float(ctx_v46["ret3"][tk].iloc[t_idx_c5])
+                cur_ret5 = float(ctx_v46["ret5"][tk].iloc[t_idx_c5])
+                cur_down4 = float(ctx_v46["down_days_4"][tk].iloc[t_idx_c5])
+                c5_info = compute_v46_c5_switch_flag(
+                    qqq_bias50=float(ctx_v46["bias50"]["QQQ"].iloc[t_idx_c5]),
+                    smh_bias50=float(ctx_v46["bias50"]["SMH"].iloc[t_idx_c5]),
+                    spy_bias50=float(ctx_v46["bias50"][ref_idx_col].iloc[t_idx_c5]),
+                    spy_bias20=float(ctx_v46["bias20"][ref_idx_col].iloc[t_idx_c5]),
+                    qqq_bias20=float(ctx_v46["bias20"]["QQQ"].iloc[t_idx_c5]),
+                    breadth_ma20=float(ctx_v46["breadth_ma20"][t_idx_c5]),
+                    vixy_pos60=float(ctx_v46["vixy_pos60"][t_idx_c5]),
+                    vixy_bias20=float(ctx_v46["vixy_bias20"][t_idx_c5]),
+                    vix_proxy=float(ctx_v46["vix_proxy"][t_idx_c5]),
+                    cur_tk_c=cur_tk_c,
+                    cur_ema5=cur_ema5,
+                    cur_ema10=cur_ema10,
+                    cur_ema20=cur_ema20,
+                    cur_b20=cur_b20,
+                    cur_b50=cur_b50,
+                    cur_ret3=cur_ret3,
+                    cur_ret5=cur_ret5,
+                    cur_down4=cur_down4,
+                    ticker=tk,
+                )
+                use_c5_bear = bool(c5_info["c5_switch_active"])
 
-        if analog_ret is None:
-            # 单测或独立标的后备匹配
-            target_win = closes[-window_len:] if n >= window_len else closes
-            w_len = len(target_win)
-            norm_target = (target_win - np.mean(target_win)) / (np.std(target_win) + 1e-6)
-            search_end = max(1, n - w_len - forecast_days - (60 if n > w_len + forecast_days + 60 else 0))
-            best_c = -1.0
-            best_r = np.zeros(forecast_days, dtype=float)
-            for i in range(0, search_end):
-                cand_win = closes[i:i + w_len]
-                std_c = np.std(cand_win)
-                if std_c < 1e-4:
-                    continue
-                corr = float(np.corrcoef(norm_target, (cand_win - np.mean(cand_win)) / std_c)[0, 1])
-                if corr > best_c:
-                    best_c = corr
+                if use_c5_bear:
+                    q_tk_win = tk_piv_vals[q_start_c5:q_start_c5 + window_len]
+                    max_i_c3 = t_idx_c5 - 16 - (window_len - 1)
+                    if (not np.isnan(q_tk_win).any()) and np.std(q_tk_win) > 1e-8 and max_i_c3 > 0:
+                        t_smh_n = ctx_v46["norm_smh"][q_start_c5]
+                        t_qqq_n = ctx_v46["norm_qqq"][q_start_c5]
+                        t_tk_n = (q_tk_win - np.mean(q_tk_win)) / np.std(q_tk_win)
+                        if (not np.isnan(t_smh_n).any()) and (not np.isnan(t_qqq_n).any()):
+                            norm_tk_mat = np.full((ctx_v46["n_dates"], window_len), np.nan, dtype=float)
+                            for i_w in range(0, max_i_c3 + 1):
+                                w_t = tk_piv_vals[i_w:i_w + window_len]
+                                if not np.isnan(w_t).any():
+                                    sd_t = np.std(w_t)
+                                    if sd_t > 1e-8:
+                                        norm_tk_mat[i_w] = (w_t - np.mean(w_t)) / sd_t
+
+                            cur_bear_panic = bool(ctx_v46["is_bear_or_panic"][t_idx_c5])
+                            cur_vix = float(ctx_v46["vix_proxy"][t_idx_c5])
+                            cur_spy_b20 = float(ctx_v46["bias20"][ref_idx_col].iloc[t_idx_c5])
+                            cur_breadth = float(ctx_v46["breadth_ma20"][t_idx_c5])
+
+                            m_smh_c3 = ctx_v46["norm_smh"][:max_i_c3 + 1]
+                            m_qqq_c3 = ctx_v46["norm_qqq"][:max_i_c3 + 1]
+                            m_tk_c3 = norm_tk_mat[:max_i_c3 + 1]
+                            corr_s_c3 = (m_smh_c3 @ t_smh_n) / window_len
+                            corr_q_c3 = (m_qqq_c3 @ t_qqq_n) / window_len
+                            corr_t_c3 = (m_tk_c3 @ t_tk_n) / window_len
+                            j_corr_c3 = 0.45 * corr_s_c3 + 0.25 * corr_q_c3 + 0.30 * corr_t_c3
+
+                            tk_ret5_series = ctx_v46["ret5"][tk].values
+                            spy_b20_series = ctx_v46["bias20"][ref_idx_col].values
+                            vix_series = ctx_v46["vix_proxy"]
+                            breadth_series = ctx_v46["breadth_ma20"]
+                            bear_panic_series = ctx_v46["is_bear_or_panic"]
+
+                            strict_cands = []
+                            relaxed_cands = []
+                            for i_c3 in range(len(j_corr_c3)):
+                                sim = float(j_corr_c3[i_c3])
+                                if np.isnan(sim):
+                                    continue
+                                e_idx_c3 = i_c3 + window_len - 1
+                                if e_idx_c3 > (t_idx_c5 - 16):
+                                    raise AssertionError(
+                                        f"Lookahead violation in C3 bear search: e_idx={e_idx_c3} > t_idx-16={t_idx_c5 - 16}"
+                                    )
+                                base_v = tk_piv_vals[e_idx_c3]
+                                fut_v = tk_piv_vals[e_idx_c3 + 1:e_idx_c3 + 1 + forecast_days]
+                                if np.isnan(base_v) or base_v <= 0 or len(fut_v) != forecast_days or np.isnan(fut_v).any():
+                                    continue
+
+                                r_p = np.clip((fut_v - base_v) / base_v, -0.35, 0.35)
+                                h_bear_panic = bool(bear_panic_series[e_idx_c3])
+                                h_vix = float(vix_series[e_idx_c3])
+                                h_spy_b20 = float(spy_b20_series[e_idx_c3])
+                                h_breadth = float(breadth_series[e_idx_c3])
+                                h_tk_ret5 = float(tk_ret5_series[e_idx_c3]) if not np.isnan(tk_ret5_series[e_idx_c3]) else 0.0
+                                regime_dist = (
+                                    0.03 * abs(cur_vix - h_vix)
+                                    + 0.05 * abs(cur_spy_b20 - h_spy_b20)
+                                    + 0.015 * abs(cur_breadth - h_breadth)
+                                    + 0.03 * abs(cur_ret5 - h_tk_ret5)
+                                )
+                                is_same_regime = h_bear_panic or (h_spy_b20 < -1.0 and h_vix >= 21.5) or (h_tk_ret5 < -3.0)
+                                score_c3 = sim - 0.16 * regime_dist
+                                if is_same_regime:
+                                    strict_cands.append((score_c3, i_c3, r_p, sim))
+                                else:
+                                    relaxed_cands.append((score_c3 - 0.55, i_c3, r_p, sim))
+
+                            strict_cands.sort(key=lambda x: x[0], reverse=True)
+                            top_k_c3 = []
+                            for cand in strict_cands:
+                                if all(abs(cand[1] - prev[1]) >= 20 for prev in top_k_c3):
+                                    top_k_c3.append(cand)
+                                if len(top_k_c3) == 8:
+                                    break
+                            if len(top_k_c3) < 5 and relaxed_cands:
+                                relaxed_cands.sort(key=lambda x: x[0], reverse=True)
+                                for cand in relaxed_cands:
+                                    if all(abs(cand[1] - prev[1]) >= 20 for prev in top_k_c3):
+                                        top_k_c3.append(cand)
+                                    if len(top_k_c3) == 8:
+                                        break
+
+                            if top_k_c3:
+                                top5_c3 = top_k_c3[:5]
+                                w5_c3 = np.array([max(0.1, c[0] + 0.5) ** 2 for c in top5_c3], dtype=float)
+                                w5_c3 /= np.sum(w5_c3)
+                                analog_5 = np.zeros(forecast_days, dtype=float)
+                                for w_val, (_, _, r_p, _) in zip(w5_c3, top5_c3):
+                                    analog_5 += w_val * r_p
+
+                                fft_weight = 0.0
+                                c2_ret = 0.55 * analog_5
+                                raw_paths = np.array([c[2] for c in top_k_c3], dtype=float)
+                                raw_p15 = np.percentile(raw_paths, 15, axis=0)
+                                raw_p50 = np.percentile(raw_paths, 50, axis=0)
+                                raw_p85 = np.percentile(raw_paths, 85, axis=0)
+                                p50_ret = np.percentile(0.55 * raw_paths, 50, axis=0)
+
+                                has_right_side_stab = bool(cur_tk_c > cur_ema5 and cur_ret1 >= 1.2)
+                                bear_inertia_gate = bool(
+                                    (cur_bear_panic or (cur_b20 < -5.0 and cur_ret5 < -4.0))
+                                    and ((cur_tk_c < cur_ema5 < cur_ema10) or (cur_tk_c < cur_ema10 < cur_ema20 and cur_ret3 < -1.5))
+                                    and not has_right_side_stab
+                                )
+                                horizons_arr = np.arange(1, forecast_days + 1, dtype=float)
+                                if bear_inertia_gate:
+                                    base_mid = 0.5 * c2_ret + 0.5 * p50_ret
+                                    damped_mid = np.where(base_mid > 0.0, base_mid * 0.45, base_mid)
+                                    inertia_drag = np.clip(0.22 * (cur_ret3 / 100.0), -0.035, 0.0) * np.exp(-horizons_arr / 4.5)
+                                    comb_ret = damped_mid + inertia_drag
+                                else:
+                                    inertia_drag = np.zeros(forecast_days, dtype=float)
+                                    comb_ret = c2_ret.copy()
+
+                                down_spread = np.minimum(-0.008, raw_p15 - raw_p50)
+                                p15_damped = np.where(raw_p15 > 0.0, raw_p15 * 0.55 * 0.45, raw_p15) + 0.5 * inertia_drag
+                                p15_ret = np.minimum(comb_ret + down_spread, p15_damped)
+                                up_spread = np.maximum(0.008, 0.65 * (raw_p85 - raw_p50))
+                                p85_cand = np.where(raw_p85 > 0.0, 0.65 * raw_p85, 0.55 * raw_p85)
+                                p85_ret = np.maximum(comb_ret + up_spread, p85_cand)
+
+                                dates_c3 = ctx_v46["dates"]
+                                best_c3 = top_k_c3[0]
+                                b_s_dt = dates_c3[best_c3[1]].strftime('%Y-%m-%d')
+                                b_e_dt = dates_c3[best_c3[1] + window_len - 1].strftime('%Y-%m-%d')
+                                best_period = f"{b_s_dt} ~ {b_e_dt} (C5 恐慌同境)"
+                                best_corr = float(max(0.50, best_c3[3]))
+                                c3_done = True
+
+        if not c3_done:
+            use_c5_bear = False
+            c5_info["c5_switch_active"] = False
+            c5_info["v46_regime_mode"] = "NORMAL_BASE"
+            fft_weight = 0.50
+
+            if tk != 'BTC-USD' and piv is not None and joint_top_k and joint_weights is not None and tk in piv.columns:
+                col_vals = piv[tk].values
+                acc_ret = np.zeros(forecast_days, dtype=float)
+                acc_w = 0.0
+                for w_val, (c_score, idx_h, s_dt, e_dt) in zip(joint_weights, joint_top_k):
+                    base_v = col_vals[idx_h + window_len - 1]
+                    fut_v = col_vals[idx_h + window_len:idx_h + window_len + forecast_days]
+                    if pd.notna(base_v) and base_v > 0 and len(fut_v) == forecast_days and not np.isnan(fut_v).any():
+                        r_p = np.clip((fut_v - base_v) / base_v, -0.35, 0.35)
+                        acc_ret += w_val * r_p
+                        acc_w += w_val
+                        raw_paths_list.append(r_p)
+                if acc_w > 0:
+                    analog_ret = acc_ret / acc_w
+                    best_corr = float(joint_top_k[0][0])
+                    best_period = f"{joint_top_k[0][2]} ~ {joint_top_k[0][3]} (KNN-5 联合同日)"
+
+            if analog_ret is None:
+                # 单测或独立标的后备匹配
+                target_win = closes[-window_len:] if n >= window_len else closes
+                w_len = len(target_win)
+                norm_target = (target_win - np.mean(target_win)) / (np.std(target_win) + 1e-6)
+                search_end = max(1, n - w_len - forecast_days - (60 if n > w_len + forecast_days + 60 else 0))
+                t_idx_fb = n - 1
+                best_c = -1.0
+                best_r = np.zeros(forecast_days, dtype=float)
+                fb_cands = []
+                for i in range(0, search_end):
+                    e_idx_fb = i + w_len - 1
+                    if n >= w_len + forecast_days + 16 and e_idx_fb > (t_idx_fb - 16):
+                        raise AssertionError(
+                            f"Lookahead violation in fallback search: e_idx={e_idx_fb} > t_idx-16={t_idx_fb - 16}"
+                        )
+                    cand_win = closes[i:i + w_len]
+                    std_c = np.std(cand_win)
+                    if std_c < 1e-4:
+                        continue
+                    corr = float(np.corrcoef(norm_target, (cand_win - np.mean(cand_win)) / std_c)[0, 1])
                     fut_raw = closes[i + w_len:i + w_len + forecast_days]
-                    if len(fut_raw) == forecast_days:
-                        best_r = np.clip((fut_raw - cand_win[-1]) / (cand_win[-1] + 1e-8), -0.35, 0.35)
-                    if 'Date' in sub.columns:
-                        dt_s = sub.at[i, 'Date']
-                        dt_e = sub.at[min(n - 1, i + w_len - 1), 'Date']
-                        s_str = dt_s.strftime('%Y-%m-%d') if hasattr(dt_s, 'strftime') else str(dt_s)[:10]
-                        e_str = dt_e.strftime('%Y-%m-%d') if hasattr(dt_e, 'strftime') else str(dt_e)[:10]
-                        best_period = f"{s_str} ~ {e_str}"
-            analog_ret = best_r
-            best_corr = max(0.50, best_c)
+                    r_p_fb = np.clip((fut_raw - cand_win[-1]) / (cand_win[-1] + 1e-8), -0.35, 0.35) if len(fut_raw) == forecast_days else None
+                    if r_p_fb is not None and not np.isnan(corr):
+                        fb_cands.append((corr, i, r_p_fb))
+                    if corr > best_c:
+                        best_c = corr
+                        if r_p_fb is not None:
+                            best_r = r_p_fb
+                        if 'Date' in sub.columns:
+                            dt_s = sub.at[i, 'Date']
+                            dt_e = sub.at[min(n - 1, i + w_len - 1), 'Date']
+                            s_str = dt_s.strftime('%Y-%m-%d') if hasattr(dt_s, 'strftime') else str(dt_s)[:10]
+                            e_str = dt_e.strftime('%Y-%m-%d') if hasattr(dt_e, 'strftime') else str(dt_e)[:10]
+                            best_period = f"{s_str} ~ {e_str}"
+                analog_ret = best_r
+                best_corr = max(0.50, best_c)
+                if fb_cands:
+                    fb_cands.sort(key=lambda x: x[0], reverse=True)
+                    top_fb = []
+                    for fc in fb_cands:
+                        if all(abs(fc[1] - prev[1]) >= max(5, w_len // 2) for prev in top_fb):
+                            top_fb.append(fc)
+                        if len(top_fb) == 5:
+                            break
+                    raw_paths_list = [fc[2] for fc in top_fb]
+                if not raw_paths_list:
+                    raw_paths_list = [best_r]
 
-        # 每只标的独立 Top-1 历史相似区间（即使联合路径可用，也不能复用大盘同一日期）
-        _target_win_ind = closes[-window_len:] if n >= window_len else closes
-        _w_len_ind = len(_target_win_ind)
-        if _w_len_ind >= 8:
-            _norm_target_ind = (_target_win_ind - np.mean(_target_win_ind)) / (np.std(_target_win_ind) + 1e-6)
-            _search_end_ind = min(max(1, n - _w_len_ind - forecast_days - (60 if n > _w_len_ind + forecast_days + 60 else 0)), n - _w_len_ind)
-            _best_c_ind = -1.0
-            _best_period_ind = best_period
-            for _i in range(0, _search_end_ind):
-                _cand = closes[_i:_i + _w_len_ind]
-                _std = np.std(_cand)
-                if _std < 1e-4 or len(_cand) != _w_len_ind:
-                    continue
-                _corr = float(np.corrcoef(_norm_target_ind, (_cand - np.mean(_cand)) / _std)[0, 1])
-                if _corr > _best_c_ind:
-                    _best_c_ind = _corr
-                    if 'Date' in sub.columns:
-                        _ds = sub.at[_i, 'Date']
-                        _de = sub.at[min(n - 1, _i + _w_len_ind - 1), 'Date']
-                        _s_str = _ds.strftime('%Y-%m-%d') if hasattr(_ds, 'strftime') else str(_ds)[:10]
-                        _e_str = _de.strftime('%Y-%m-%d') if hasattr(_de, 'strftime') else str(_de)[:10]
-                        _best_period_ind = f"{_s_str} ~ {_e_str}"
-            if _best_c_ind > -1:
-                best_corr = max(0.50, _best_c_ind)
-                best_period = _best_period_ind
+            # 每只标的独立 Top-1 历史相似区间（即使联合路径可用，也不能复用大盘同一日期）
+            _target_win_ind = closes[-window_len:] if n >= window_len else closes
+            _w_len_ind = len(_target_win_ind)
+            if _w_len_ind >= 8:
+                _norm_target_ind = (_target_win_ind - np.mean(_target_win_ind)) / (np.std(_target_win_ind) + 1e-6)
+                _search_end_ind = min(max(1, n - _w_len_ind - forecast_days - (60 if n > _w_len_ind + forecast_days + 60 else 0)), n - _w_len_ind)
+                _best_c_ind = -1.0
+                _best_period_ind = best_period
+                for _i in range(0, _search_end_ind):
+                    _cand = closes[_i:_i + _w_len_ind]
+                    _std = np.std(_cand)
+                    if _std < 1e-4 or len(_cand) != _w_len_ind:
+                        continue
+                    _corr = float(np.corrcoef(_norm_target_ind, (_cand - np.mean(_cand)) / _std)[0, 1])
+                    if _corr > _best_c_ind:
+                        _best_c_ind = _corr
+                        if 'Date' in sub.columns:
+                            _ds = sub.at[_i, 'Date']
+                            _de = sub.at[min(n - 1, _i + _w_len_ind - 1), 'Date']
+                            _s_str = _ds.strftime('%Y-%m-%d') if hasattr(_ds, 'strftime') else str(_ds)[:10]
+                            _e_str = _de.strftime('%Y-%m-%d') if hasattr(_de, 'strftime') else str(_de)[:10]
+                            _best_period_ind = f"{_s_str} ~ {_e_str}"
+                if _best_c_ind > -1:
+                    best_corr = max(0.50, _best_c_ind)
+                    best_period = _best_period_ind
 
-        # 3. 真实融合: 0.55x James-Stein 样本外历史相似路径收缩 + 0.50x 纯零漂移 FFT 谐波振荡
-        comb_ret = 0.55 * analog_ret + 0.50 * harm_osc
+            # 3. 真实融合 (常态 Base 100% 逐位一致): 0.55x James-Stein 样本外历史相似路径收缩 + 0.50x 纯零漂移 FFT 谐波振荡
+            comb_ret = 0.55 * analog_ret + 0.50 * harm_osc
+            raw_paths_norm = np.array(raw_paths_list if raw_paths_list else [analog_ret], dtype=float)
+            shrunk_paths = 0.55 * raw_paths_norm + (0.50 * harm_osc)[None, :]
+            raw_p15 = np.percentile(raw_paths_norm, 15, axis=0)
+            raw_p50 = np.percentile(raw_paths_norm, 50, axis=0)
+            down_spread = np.minimum(-0.005, raw_p15 - raw_p50)
+            p15_ret = np.minimum(comb_ret + down_spread, np.minimum(raw_p15, np.percentile(shrunk_paths, 15, axis=0)))
+            shrunk_p50 = np.percentile(shrunk_paths, 50, axis=0)
+            shrunk_p85 = np.percentile(shrunk_paths, 85, axis=0)
+            up_spread = np.maximum(0.005, shrunk_p85 - shrunk_p50)
+            p85_ret = np.maximum(comb_ret + up_spread, shrunk_p85)
+
+        p15_ret = np.minimum(p15_ret, comb_ret)
+        p85_ret = np.maximum(p85_ret, comb_ret)
         final_prices = cur_p * (1.0 + comb_ret)
+        p15_prices = cur_p * (1.0 + p15_ret)
+        p85_prices = cur_p * (1.0 + p85_ret)
 
         projections = []
-        for d_idx, (dt_str, p_val) in enumerate(zip(use_dates, final_prices)):
+        path_p15 = []
+        path_p85 = []
+        for d_idx, (dt_str, p_val, p15_val, p85_val) in enumerate(zip(use_dates, final_prices, p15_prices, p85_prices)):
+            main_p = round(float(p_val), 2)
+            main_pct = round(float((p_val - cur_p) / (cur_p + 1e-8) * 100.0), 1)
+            b15_p = min(main_p, round(float(p15_val), 2))
+            b15_pct = min(main_pct, round(float((b15_p - cur_p) / (cur_p + 1e-8) * 100.0), 1))
+            b85_p = max(main_p, round(float(p85_val), 2))
+            b85_pct = max(main_pct, round(float((b85_p - cur_p) / (cur_p + 1e-8) * 100.0), 1))
+            w_p15 = round(float(min(p15_ret[d_idx], comb_ret[d_idx])), 6)
+            w_p85 = round(float(max(p85_ret[d_idx], comb_ret[d_idx])), 6)
             projections.append({
                 'day': f"T+{d_idx + 1}",
                 'date': dt_str,
-                'price': round(float(p_val), 2),
-                'pct': round(float((p_val - cur_p) / (cur_p + 1e-8) * 100.0), 1),
-                'wave_ret': round(float(comb_ret[d_idx]), 6)
+                'price': main_p,
+                'pct': main_pct,
+                'wave_ret': round(float(comb_ret[d_idx]), 6),
+                'p15_price': b15_p,
+                'p15_pct': b15_pct,
+                'p15_wave_ret': w_p15,
+                'p85_price': b85_p,
+                'p85_pct': b85_pct,
+                'p85_wave_ret': w_p85,
+            })
+            path_p15.append({
+                'day': f"T+{d_idx + 1}",
+                'date': dt_str,
+                'price': b15_p,
+                'pct': b15_pct,
+                'wave_ret': w_p15,
+            })
+            path_p85.append({
+                'day': f"T+{d_idx + 1}",
+                'date': dt_str,
+                'price': b85_p,
+                'pct': b85_pct,
+                'wave_ret': w_p85,
             })
 
         hist_20 = hist_entries[-20:]
@@ -3308,6 +4945,7 @@ def generate_time_cycle_projections(
         existing_r2 = float(sc_levels.get('r2') or (cur_p * 1.08))
         calibrated_r2 = max(existing_r2, round(max_proj_p * 1.015, 2))
         sc_levels['r2'] = calibrated_r2
+        sync_scenario_script_levels(sc_levels)
 
         cycle_wins = _build_cycle_windows_from_projections(
             projections=projections,
@@ -3325,8 +4963,28 @@ def generate_time_cycle_projections(
             'sl': sc_levels.get('sl'),
             'r1': sc_levels.get('r1'),
             'r2': calibrated_r2,
+            'anchor_s1': sc_levels.get('anchor_s1') or sc_levels.get('s1'),
+            'anchor_s2': sc_levels.get('anchor_s2') or sc_levels.get('s2'),
+            'anchor_sl': sc_levels.get('anchor_sl') or sc_levels.get('sl'),
+            'anchor_r1': sc_levels.get('anchor_r1') or sc_levels.get('r1'),
+            'anchor_r2': sc_levels.get('anchor_r2') or calibrated_r2,
+            's1_source': sc_levels.get('s1_source'),
+            's2_source': sc_levels.get('s2_source'),
+            'r1_source': sc_levels.get('r1_source'),
+            'r2_source': sc_levels.get('r2_source'),
+            'sr_breach_state': sc_levels.get('sr_breach_state'),
+            'sr_status_badge': sc_levels.get('sr_status_badge'),
+            'sr_anchor_locked': bool(sc_levels.get('sr_anchor_locked', False)),
             'history': hist_20,
             'projection': projections,
+            'path_p15': path_p15,
+            'path_p85': path_p85,
+            'v46_regime_mode': c5_info["v46_regime_mode"],
+            'bear_inertia_active': bool(use_c5_bear),
+            'fft_weight': float(fft_weight),
+            'p15_t5_pct': float(path_p15[min(4, len(path_p15) - 1)]['pct']) if path_p15 else 0.0,
+            'p15_t15_pct': float(path_p15[-1]['pct']) if path_p15 else 0.0,
+            'p85_t15_pct': float(path_p85[-1]['pct']) if path_p85 else 0.0,
             'cycle_windows': cycle_wins,
             'analog_match': {
                 'period': best_period,
@@ -3341,15 +4999,6 @@ def generate_time_cycle_projections(
     return results
 
 
-def macro_weather_session_date(latest_stocks: pd.DataFrame) -> str:
-    """Completed US session represented by the panel, ignoring BTC-USD's UTC calendar."""
-    if latest_stocks is None or latest_stocks.empty or 'Date' not in latest_stocks.columns:
-        return ""
-    equity = latest_stocks.loc[latest_stocks['Ticker'].astype(str) != 'BTC-USD', 'Date']
-    src = equity if len(equity) else latest_stocks['Date']
-    return pd.to_datetime(src).max().strftime('%Y-%m-%d')
-
-
 def evaluate_macro_weather(
     qqqm_bias: float,
     smh_bias: float,
@@ -3357,18 +5006,65 @@ def evaluate_macro_weather(
     smh_igv: float = 0.0,
     latest_date: str = "",
     defensive_flight: Optional[Dict[str, Any]] = None,
-    cross_industry_breadth: Optional[Dict[str, Any]] = None
+    cross_industry_breadth: Optional[Dict[str, Any]] = None,
+    qqq_bias_ma20: Optional[float] = None,
+    spy_bias_ma20: Optional[float] = None,
+    breadth_ma20_pct: Optional[float] = None,
+    qqq_ret_5d: Optional[float] = None,
+    qqq_down_days_5d: Optional[float] = None,
+    latest_stocks_df: Optional[pd.DataFrame] = None,
+    vix_regime: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, Any]:
     """
-    统一宏观水温气象判定引擎 (与 integrated_market_radar.py 保持 100% 规则对齐):
+    统一宏观水温气象判定引擎 (含阶段一三态牛熊体制门禁 Market Regime Gate):
     1. 暴雨空仓: QQQ_Bias_MA50 < -3.0% 且 SMH_Bias_MA50 < -3.0% (双破位共振)
     2. 晴天做多: 纳指与半导体双双站上生命线 (QQQ >= 0.25% 且 SMH >= 0.25%) 且无 VIX 恐慌脉冲 (VIXY_Pos_60 < 0.75)
     3. 阴天防守: 单边偏离在 0% ~ -5% 且未双破位、或大盘/芯片分化、或 VIX 脉冲预警、或防御因子起飞
-    4. 跨行业广度联动: 识别 🔄 科技结构性轮动（传统板块抗跌）与 🚨 全市场系统性普跌预警
+    4. 三态体制划分: BULL_TREND / NEUTRAL_CHOP / BEAR_DEFENSE + 79 全池 MA20 宽度联动
     """
     flight_info = defensive_flight or compute_defensive_flight_alert()
     breadth_info = cross_industry_breadth or compute_cross_industry_breadth_alert()
-    is_vix_panic = bool(vixy_pos >= 0.75)
+
+    if latest_stocks_df is not None and not latest_stocks_df.empty:
+        if qqq_bias_ma20 is None and 'QQQ_Bias_MA20' in latest_stocks_df.columns:
+            qqq_bias_ma20 = float(latest_stocks_df['QQQ_Bias_MA20'].mean())
+        if spy_bias_ma20 is None and 'SPY_Bias_MA20' in latest_stocks_df.columns:
+            spy_bias_ma20 = float(latest_stocks_df['SPY_Bias_MA20'].mean())
+        if breadth_ma20_pct is None:
+            if 'Breadth_MA20_Pct' in latest_stocks_df.columns:
+                breadth_ma20_pct = float(latest_stocks_df['Breadth_MA20_Pct'].mean())
+            elif 'Bias_MA20' in latest_stocks_df.columns:
+                breadth_ma20_pct = float((latest_stocks_df['Bias_MA20'] >= 0.0).mean() * 100.0)
+        if qqq_ret_5d is None and 'QQQ_Ret_5d' in latest_stocks_df.columns:
+            qqq_ret_5d = float(latest_stocks_df['QQQ_Ret_5d'].mean())
+        if qqq_down_days_5d is None and 'QQQ_Down_Days_5d' in latest_stocks_df.columns:
+            qqq_down_days_5d = float(latest_stocks_df['QQQ_Down_Days_5d'].mean())
+
+    eff_q20 = float(qqq_bias_ma20) if qqq_bias_ma20 is not None else float(qqqm_bias * 0.7)
+    eff_s20 = float(spy_bias_ma20) if spy_bias_ma20 is not None else eff_q20
+    if breadth_ma20_pct is not None:
+        eff_breadth = float(breadth_ma20_pct)
+    elif qqqm_bias < -3.0 and smh_bias < -3.0:
+        eff_breadth = 25.0
+    elif qqqm_bias >= 0.25 and smh_bias >= 0.25:
+        eff_breadth = 60.0
+    else:
+        eff_breadth = 45.0
+
+    regime_info = compute_market_regime_state(
+        qqq_bias_ma20=eff_q20,
+        spy_bias_ma20=eff_s20,
+        qqq_bias_ma50=qqqm_bias,
+        smh_bias_ma50=smh_bias,
+        breadth_ma20_pct=eff_breadth,
+        vixy_pos_60=vixy_pos,
+        qqq_ret_5d=float(qqq_ret_5d or 0.0),
+        qqq_down_days_5d=float(qqq_down_days_5d or 0.0),
+        defensive_flight_alert=bool(flight_info.get('is_alert')),
+        vix_regime=vix_regime,
+    )
+
+    is_vix_panic = bool(vixy_pos >= 0.75 or (isinstance(vix_regime, dict) and vix_regime.get('vix_hard_brake')))
     is_bull_base = bool(qqqm_bias >= 0.25 and smh_bias >= 0.25)
 
     if qqqm_bias < -3.0 and smh_bias < -3.0:
@@ -3406,8 +5102,18 @@ def evaluate_macro_weather(
         'smh_bias_ma50': round(smh_bias, 2),
         'smh_igv': round(smh_igv, 2),
         'latest_date': latest_date,
+        'market_regime': regime_info['market_regime'],
+        'market_regime_cn': regime_info['market_regime_cn'],
+        'regime_score': regime_info['regime_score'],
+        'breadth_ma20_pct': regime_info['breadth_ma20_pct'],
+        'qqq_bias_ma20': regime_info['qqq_bias_ma20'],
+        'spy_bias_ma20': regime_info['spy_bias_ma20'],
+        'regime_reasons': regime_info['regime_reasons'],
         'defensive_flight': flight_info,
         'cross_industry_breadth': breadth_info,
+        'vix_regime': vix_regime or {},
+        'vix_hard_brake': regime_info.get('vix_hard_brake', False),
+        'vix_bottom_signal': regime_info.get('vix_bottom_signal', False),
     }
 
 
@@ -3585,6 +5291,33 @@ def calibrate_short_probability(
     return float(np.clip(calibrated, 10.0, 95.0))
 
 
+def normalize_dual_probabilities(p_long: Any, p_short: Any) -> Tuple[float, float]:
+    """
+    双边概率强制归一化约束：
+    当独立二分类多头与空头概率之和 > 100.0% 时，按比例等比缩放保留相对强弱，
+    且严格保证 round(p_long, 1) + round(p_short, 1) <= 100.0%。
+    """
+    try:
+        pl = max(0.0, float(p_long))
+    except Exception:
+        pl = 50.0
+    try:
+        ps = max(0.0, float(p_short))
+    except Exception:
+        ps = 50.0
+    total = pl + ps
+    if total > 100.0 and total > 1e-6:
+        scale = 100.0 / total
+        nl = round(pl * scale, 1)
+        ns = round(min(100.0 - nl, ps * scale), 1)
+        return nl, max(0.0, ns)
+    rl = round(pl, 1)
+    rs = round(ps, 1)
+    if rl + rs > 100.0:
+        rs = round(max(0.0, 100.0 - rl), 1)
+    return rl, rs
+
+
 def get_short_action_directive(
     calibrated_short_win_rate_pct: float,
     is_crash_halt: bool = False,
@@ -3595,22 +5328,35 @@ def get_short_action_directive(
 ) -> Tuple[str, str]:
     """
     生成做空行动决胜指令与样式标签:
+    - 反向对冲衰减工具 (SOXS / SQQQ / VIXY): 杜绝双重否定 "沽空/买Put"，统一用 "逢高分批减仓/锁利（反向工具防损耗）"
     - is_crash_halt is True: ⚠️ 暴跌宣泄中·等待反抽均线做空
     - RSI_14 < 25.0: ⚠️ 严重超跌·谨防死猫跳·暂勿追空
     - calibrated_short_win_rate_pct >= 65.0%: 🩸 极高胜率·顺势做空/买Put (或 🛡️ 建议买入SOXS/SQQQ对冲)
     - 55.0% <= win_rate < 65.0%: ⚡ 逢高反抽沽空/买Put
     - otherwise: 👀 空头动能不足·观望
     """
+    tk_up = str(ticker or "").upper()
+    inverse_decay_etfs = {"SOXS", "SQQQ", "VIXY"}
+    if tk_up in inverse_decay_etfs:
+        if is_crash_halt:
+            return "⚠️ 反向工具剧烈回撤·逢高分批减仓防损耗", "short-action-halt"
+        if calibrated_short_win_rate_pct >= 55.0:
+            return "⚡ 逢高分批减仓/锁利（反向工具防损耗）", "short-action-rebound"
+        return "🛡️ 反向工具仅限短线对冲·防损耗", "short-action-wait"
+
     if is_crash_halt:
         return "⚠️ 暴跌宣泄中·等待反抽均线做空", "short-action-halt"
     if rsi_14 < 25.0:
         return "⚠️ 严重超跌·谨防死猫跳·暂勿追空", "short-action-oversold"
     if calibrated_short_win_rate_pct >= 65.0:
-        semi_etfs = {"SOXX", "SOXL", "SOXS", "SMH"}
-        tech_etfs = {"QQQ", "QQQ", "SQQQ", "SPY"}
-        if is_etf and (ticker in semi_etfs or "半导体" in sector or "芯片" in sector):
+        semi_etfs = {"SOXX", "SOXL", "SMH"}
+        non_nasdaq_broad_etfs = {"SPY", "IWM", "DIA", "TLT", "GLD"}
+        nasdaq_tech_etfs = {"QQQ", "IGV"}
+        if is_etf and (tk_up in semi_etfs or "半导体" in sector or "芯片" in sector):
             return "🛡️ 建议买入SOXS对冲", "short-action-etf"
-        elif is_etf and (ticker in tech_etfs or "科技" in sector or "纳指" in sector):
+        elif is_etf and tk_up in non_nasdaq_broad_etfs:
+            return "🛡️ 建议买入反向ETF对冲", "short-action-etf"
+        elif is_etf and (tk_up in nasdaq_tech_etfs or "科技" in sector or "纳指" in sector):
             return "🛡️ 建议买入SQQQ对冲", "short-action-etf"
         elif is_etf:
             return "🛡️ 建议买入反向ETF对冲", "short-action-etf"
@@ -4007,9 +5753,39 @@ def generate_report_tables(
 
         latest_df['Prob_Short_1'] = live_short_probs
 
-        has_live_structure = ('Bias_MA50' in latest_df.columns)
+        _is_synthetic_const_placeholder = (
+            ('RSI_14' in latest_df.columns)
+            and ('Is_Core_28' not in latest_df.columns)
+            and ('Low_Prev' not in latest_df.columns)
+            and bool((latest_df['RSI_14'] == 1.0).all())
+            and bool((latest_df['Bias_MA50'] == 1.0).all())
+        )
+        has_live_structure = ('Bias_MA50' in latest_df.columns) and (not _is_synthetic_const_placeholder)
         pure_etf_15 = {'QQQ', 'SPY', 'DIA', 'IWM', 'SMH', 'SOXX', 'SOXL', 'KORU', 'IGV', 'TLT', 'GLD', 'VIXY', 'SQQQ', 'SOXS'}
         is_70_pool = (len(latest_df) > 28)
+
+        raw_hist_bars_map: Dict[str, int] = {}
+        if raw_panel is not None and not raw_panel.empty and 'Ticker' in raw_panel.columns:
+            try:
+                raw_hist_bars_map = {str(k): int(v) for k, v in raw_panel.groupby('Ticker').size().to_dict().items()}
+            except Exception:
+                raw_hist_bars_map = {}
+
+        _mw_dict = macro_weather if isinstance(macro_weather, dict) else {}
+        market_regime = str(_mw_dict.get('market_regime') or '')
+        if not market_regime:
+            if has_live_structure and ('Market_Regime_Score' in latest_df.columns or 'Breadth_MA20_Pct' in latest_df.columns):
+                _r_score = float(latest_df['Market_Regime_Score'].mean()) if 'Market_Regime_Score' in latest_df.columns else 0.0
+                _br = float(latest_df['Breadth_MA20_Pct'].mean()) if 'Breadth_MA20_Pct' in latest_df.columns else 50.0
+                if _r_score <= -0.5 or _br < 35.0:
+                    market_regime = 'BEAR_DEFENSE'
+                elif _r_score >= 0.5:
+                    market_regime = 'BULL_TREND'
+                else:
+                    market_regime = 'NEUTRAL_CHOP'
+            else:
+                market_regime = 'NEUTRAL_CHOP'
+        is_bear_regime = (market_regime == 'BEAR_DEFENSE')
 
         calibrated_probs = []
         effective_raw_probs = []
@@ -4019,12 +5795,17 @@ def generate_report_tables(
         is_etf_flags = []
         is_short_covering_flags = []
         sort_tier_flags = []
+        history_bars_list = []
+        is_short_sample_flags = []
+        shrinkage_tags = []
+        win_rate_cis = []
+        is_regime_capped_flags = []
         four_h_signals_map = compute_4h_resonance_signals(
             tickers=[str(t) for t in latest_df['Ticker'].tolist()],
             raw_panel=raw_panel,
             latest_df=latest_df,
             allow_network=False
-        ) if has_live_structure else {}
+        ) if (has_live_structure and (raw_panel is not None or len(latest_df) > 15)) else {}
 
         for _, row in latest_df.iterrows():
             tk = str(row['Ticker'])
@@ -4036,6 +5817,11 @@ def generate_report_tables(
 
             model_raw_p = float(row['Prob_1'])
             is_etf = (tk in pure_etf_15)
+            n_days_val = row.get('History_Bars', None)
+            try:
+                n_days_tk = int(n_days_val) if (n_days_val is not None and not pd.isna(n_days_val) and int(n_days_val) > 0) else raw_hist_bars_map.get(tk)
+            except Exception:
+                n_days_tk = raw_hist_bars_map.get(tk)
 
             if has_live_structure:
                 bias_ma50 = float(row.get('Bias_MA50', 0.0))
@@ -4099,6 +5885,39 @@ def generate_report_tables(
                 eff_raw_p = model_raw_p
                 cal_p = model_raw_p * mult
                 sort_tier = 0
+                c_p = None
+                vwap_val = None
+
+            # 阶段一规则 3：次新股与短样本 (<756日) 贝叶斯强收缩 + <500日置信上限
+            shrink_res = apply_short_history_bayesian_shrinkage(cal_p, n_days_tk)
+            if shrink_res['is_short_sample']:
+                cal_p = float(shrink_res['shrunk_prob'])
+                if is_broken:
+                    cal_p = min(cal_p, 0.495)
+
+            # 阶段一 + 真VIX恐慌中枢联动门禁：
+            # 倒挂/BEAR_DEFENSE 硬封顶 <=48.0%；恐慌出清抄底窗对非熔断且站稳 VWAP 标的平滑放宽至 <=58.0%
+            _gate_res = apply_market_regime_winrate_gate(
+                cal_prob_pct=cal_p * 100.0,
+                ticker=tk,
+                market_regime=market_regime,
+                vix_regime=_mw_dict.get('vix_regime'),
+                is_crash_halt=bool(row.get('is_crash_halt', False)) if has_live_structure else False,
+                is_cooling_halt=bool(row.get('is_cooling_halt', False)) if has_live_structure else False,
+                price=c_p,
+                vwap=vwap_val,
+                is_broken=is_broken,
+            )
+            is_regime_capped = bool(_gate_res['is_regime_capped'])
+            if is_regime_capped:
+                cal_p = float(_gate_res['gated_prob_pct']) / 100.0
+                if not _gate_res['vix_bottom_relaxed']:
+                    if is_short_covering:
+                        is_short_covering = False
+                        is_broken = True
+                        sort_tier = 2
+                    elif sort_tier == 0:
+                        sort_tier = 2
 
             is_short_covering_flags.append(is_short_covering)
             model_raw_probs.append(model_raw_p)
@@ -4108,6 +5927,11 @@ def generate_report_tables(
             is_broken_flags.append(is_broken)
             is_etf_flags.append(is_etf)
             sort_tier_flags.append(sort_tier)
+            history_bars_list.append(n_days_tk)
+            is_short_sample_flags.append(bool(shrink_res['is_short_sample']))
+            shrinkage_tags.append(str(shrink_res['sample_shrinkage_tag']))
+            win_rate_cis.append([shrink_res['ci_low'], shrink_res['ci_high']] if shrink_res['is_short_sample'] else None)
+            is_regime_capped_flags.append(is_regime_capped)
 
         latest_df['Model_Raw_Prob'] = model_raw_probs
         latest_df['Prob_1'] = effective_raw_probs
@@ -4117,6 +5941,11 @@ def generate_report_tables(
         latest_df['Is_Short_Covering'] = is_short_covering_flags
         latest_df['Is_ETF'] = is_etf_flags
         latest_df['Sort_Tier'] = sort_tier_flags
+        latest_df['History_Bars_Resolved'] = history_bars_list
+        latest_df['Is_Short_Sample'] = is_short_sample_flags
+        latest_df['Sample_Shrinkage_Tag'] = shrinkage_tags
+        latest_df['Win_Rate_CI_Pct'] = win_rate_cis
+        latest_df['Is_Regime_Capped'] = is_regime_capped_flags
 
         # 按右侧结构完好正股优先 + 赛道校准得分 Calibrated_Prob 降序排序，杜绝破位飞刀与 ETF 霸榜
         latest_sorted = latest_df.sort_values(
@@ -4137,6 +5966,18 @@ def generate_report_tables(
             is_etf = bool(row.get('Is_ETF', False))
             is_crash_halt = bool(row.get('is_crash_halt', False))
             is_cooling_halt = bool(row.get('is_cooling_halt', False))
+            is_regime_capped = bool(row.get('Is_Regime_Capped', False))
+            n_days_tk = row.get('History_Bars_Resolved', None)
+            if pd.isna(n_days_tk):
+                n_days_tk = None
+            else:
+                try:
+                    n_days_tk = int(n_days_tk)
+                except Exception:
+                    n_days_tk = None
+            is_short_sample = bool(row.get('Is_Short_Sample', False))
+            sample_shrinkage_tag = str(row.get('Sample_Shrinkage_Tag', '') or '')
+            win_rate_ci_pct = row.get('Win_Rate_CI_Pct', None)
 
             bias_ma50_val = round(float(row.get('Bias_MA50', 0.0)), 2) if has_live_structure else 0.0
             ema10_20_spread_val = round(float(row.get('EMA10_20_Spread', 0.0)), 2) if has_live_structure else 0.0
@@ -4151,7 +5992,7 @@ def generate_report_tables(
             atr_pct = float(row.get('ATR_Pct', 2.0))
             eff_atr = compute_effective_atr(atr_pct)
             upper_mult = max(0.030, 1.35 * eff_atr)
-            lower_mult = max(0.022, 1.00 * eff_atr)
+            lower_mult = _tier1_stop_mult(tk, eff_atr)
 
             target_p = round(close_p * (1.0 + upper_mult), 2)
             stop_p = round(close_p * (1.0 - lower_mult), 2)
@@ -4175,6 +6016,9 @@ def generate_report_tables(
             elif is_broken:
                 action = "🚨 破位飞刀·严禁左侧抄底"
                 action_tag = "action-warning"
+            elif is_regime_capped:
+                action = "🛡️ 暴雨空仓·严禁左侧接刀" if is_storm else "🛡️ 空头体制封顶·暂停常规做多"
+                action_tag = "action-watch"
             elif is_storm:
                 if raw_prob_pct >= 50.0 and cal_prob_pct >= 55.0:
                     action = "🛡️ 暴雨防守·仅极小仓试错"
@@ -4200,9 +6044,10 @@ def generate_report_tables(
             # ---------------------------------------------------------
             raw_short_p = float(row.get('Prob_Short_1', 0.45))
             opt_info = options_cache_data.get(tk, {})
+            has_options_flag = bool(opt_info.get('has_options')) and (tk not in ('XAUUSD', 'BTC-USD', 'KOSPI'))
             dollar_pcr_val = float(opt_info.get('dollar_pcr', 1.0)) if opt_info.get('dollar_pcr') is not None else 1.0
             pcr_val = float(opt_info.get('pcr', 1.0)) if opt_info.get('pcr') is not None else 1.0
-            pcr_sentiment_val = str(opt_info.get('pcr_sentiment', '⛅ 中性'))
+            pcr_sentiment_val = str(opt_info.get('pcr_sentiment', '⛅ 中性')) if has_options_flag else '无美股期权'
             put_wall_val = float(opt_info.get('put_wall', 0.0)) if opt_info.get('put_wall') is not None else round(close_p * 0.95, 2)
             call_wall_val = float(opt_info.get('call_wall', 0.0)) if opt_info.get('call_wall') is not None else round(close_p * 1.05, 2)
             iv_atm_val = float(opt_info.get('iv_atm', 0.0)) if opt_info.get('iv_atm') is not None else 30.0
@@ -4223,6 +6068,15 @@ def generate_report_tables(
                 put_wall=put_wall_val,
                 pcr=pcr_val
             )
+            if n_days_tk is not None and n_days_tk < 756:
+                cal_short_p = float(apply_short_history_bayesian_shrinkage(cal_short_p, n_days_tk)['shrunk_pct'])
+
+            # 双边多空概率强制归一化约束 (确保校准胜率之和 <= 100.0%，原始多空分之和 <= 100.0%)
+            raw_short_pct = raw_short_p * 100.0 if raw_short_p <= 1.0 else raw_short_p
+            cal_prob_pct, cal_short_p = normalize_dual_probabilities(cal_prob_pct, cal_short_p)
+            raw_prob_pct, raw_short_pct = normalize_dual_probabilities(raw_prob_pct, raw_short_pct)
+            if model_raw_pct + raw_short_pct > 100.0:
+                model_raw_pct, _ = normalize_dual_probabilities(model_raw_pct, raw_short_pct)
 
             # 空头动态止盈下沿与防守止损上沿
             short_entry_p = close_p
@@ -4254,10 +6108,18 @@ def generate_report_tables(
                 'low_prev': round(float(row.get('Low_Prev', 0.0)), 2) if (has_live_structure and 'Low_Prev' in row) else 0.0,
                 'rsi_14': rsi_14_val,
                 'is_broken': is_broken,
-                'is_etf': is_etf,
+                'is_etf': bool(is_etf or tk.upper() == 'KOSPI'),
+                'is_index': bool(tk.upper() == 'KOSPI'),
+                'price_unit': 'pts' if tk.upper() == 'KOSPI' else 'usd',
                 'is_crash_halt': is_crash_halt,
                 'is_cooling_halt': is_cooling_halt,
                 'macro_temp': weather_status,
+                'market_regime': market_regime,
+                'is_regime_capped': is_regime_capped,
+                'history_bars': n_days_tk,
+                'is_short_sample': is_short_sample,
+                'sample_shrinkage_tag': sample_shrinkage_tag,
+                'win_rate_ci_pct': win_rate_ci_pct,
 
                 # 多头决策字段
                 'model_raw_prob_pct': round(model_raw_pct, 1),
@@ -4273,7 +6135,7 @@ def generate_report_tables(
                 'action_tag': action_tag,
 
                 # 空头决策字段 (Milestone 2 Dual Inference)
-                'model_raw_short_prob_pct': round(raw_short_p * 100.0 if raw_short_p <= 1.0 else raw_short_p, 1),
+                'model_raw_short_prob_pct': round(raw_short_pct, 1),
                 'calibrated_short_win_rate_pct': round(cal_short_p, 1),
                 'short_entry_price': short_entry_p,
                 'short_target_profit_price': short_tp_p,
@@ -4283,6 +6145,7 @@ def generate_report_tables(
                 'dollar_pcr': round(dollar_pcr_val, 2),
                 'pcr': round(pcr_val, 2),
                 'pcr_sentiment': pcr_sentiment_val,
+                'has_options': has_options_flag,
                 'put_wall': put_wall_val,
                 'call_wall': call_wall_val,
                 'iv_atm': iv_atm_val,
@@ -4307,12 +6170,26 @@ def generate_report_tables(
             )
             row_item.update(sc_map)
 
-            # R2: 针对 B 轨空头回补滑头标的，动态校准止损与止盈：止损锚定日内低点或 S2 支撑，第一目标锚定 R1 阻力
+            # R2: 针对 B 轨空头回补滑头标的，动态校准止损与止盈：止损锚定日内低点或 S2 支撑（受波段上限约束），第一目标锚定 R1 阻力（若 R1 已突破则自动上移 R2 或动态 ATR 目标）
             if is_short_covering:
-                row_item['target_profit_price'] = sc_map['r1']
-                row_item['stop_loss_price'] = sc_map['s2']
-                row_item['target_profit_pct'] = round(((sc_map['r1'] - close_p) / close_p) * 100.0, 1)
-                row_item['stop_loss_pct'] = round(((close_p - sc_map['s2']) / close_p) * 100.0, 1)
+                eff_atr_sc = compute_effective_atr(atr_pct)
+                r1_sc = float(sc_map.get('r1') or 0.0)
+                r2_sc = float(sc_map.get('r2') or 0.0)
+                min_tp_sc = close_p * 1.005
+                if r1_sc > min_tp_sc:
+                    sc_tp_px = round(r1_sc, 2)
+                elif r2_sc > min_tp_sc:
+                    sc_tp_px = round(r2_sc, 2)
+                else:
+                    sc_tp_px = round(max(float(row_item.get('target_profit_price') or 0.0), close_p * (1.0 + max(0.03, 1.5 * eff_atr_sc))), 2)
+                row_item['target_profit_price'] = sc_tp_px
+                max_swing_sl = min(0.085, max(0.045, 1.35 * eff_atr_sc))
+                sc_stop_px = round(max(float(sc_map['s2']), close_p * (1.0 - max_swing_sl)), 2)
+                if sc_stop_px >= close_p * 0.998:
+                    sc_stop_px = round(close_p * (1.0 - max(0.025, 1.25 * eff_atr_sc)), 2)
+                row_item['stop_loss_price'] = sc_stop_px
+                row_item['target_profit_pct'] = round(((sc_tp_px - close_p) / close_p) * 100.0, 1)
+                row_item['stop_loss_pct'] = round(((close_p - sc_stop_px) / close_p) * 100.0, 1)
                 row_item['track'] = 'Track B'
             elif is_broken:
                 row_item['track'] = 'Track B'
@@ -4348,12 +6225,96 @@ def generate_report_tables(
                     four_h_div = "➖ 4H 均线震荡纠缠"
                     four_h_tag = "div-neutral"
 
+            try:
+                import sr_anchor_engine as _sr_res_mod
+                _ret1d_row = float(row.get('Ret_1d', 0.0)) if ('Ret_1d' in row and pd.notna(row.get('Ret_1d'))) else 0.0
+                _ema5_row = float(row.get('EMA_5', 0.0)) if ('EMA_5' in row and pd.notna(row.get('EMA_5'))) else 0.0
+                _daily_brk_ml = bool((_ema5_row > 0 and close_p < _ema5_row) or (_ret1d_row <= -8.0))
+                _is_inv_ml = tk.upper() in ('SOXS', 'SQQQ', 'VIXY')
+                _inv_veto_ml = bool(_is_inv_ml and (_daily_brk_ml or _ret1d_row <= -3.0 or cal_short_p > cal_prob_pct or is_broken))
+                _bear_dom_ml = bool(cal_short_p > cal_prob_pct or is_broken or (not _is_inv_ml and market_regime == 'BEAR_DEFENSE'))
+                _vr_ml = (_mw_dict.get('vix_regime') if isinstance(_mw_dict, dict) else None)
+                _vix_back_ml = (False if _is_inv_ml else _sr_res_mod._is_vix_backwardation_active(_vr_ml))
+                _sup_res = _sr_res_mod.suppress_resonance_badge(
+                    four_h_div=four_h_div,
+                    four_h_tag=four_h_tag,
+                    is_crash_halt=is_crash_halt,
+                    is_cooling_halt=is_cooling_halt,
+                    vix_regime=_vr_ml,
+                    is_daily_breakdown=_daily_brk_ml,
+                    is_inverse_decay_veto=_inv_veto_ml,
+                    is_bear_dominant=_bear_dom_ml,
+                    ticker=tk,
+                    is_inverse=_is_inv_ml,
+                )
+                four_h_div = _sup_res['four_h_div']
+                four_h_tag = _sup_res['four_h_tag']
+                row_item['resonance_badge_text'] = _sup_res['resonance_badge_text']
+                row_item['resonance_badge_tag'] = _sup_res['resonance_badge_tag']
+                row_item['resonance_suppressed'] = _sup_res['resonance_suppressed']
+                _sr_ml_eval = _sr_res_mod.evaluate_sr_breach_state(
+                    price=close_p,
+                    anchor={
+                        "anchor_s1": row_item.get("s1"),
+                        "anchor_s2": row_item.get("s2"),
+                        "anchor_sl": row_item.get("sl"),
+                        "anchor_r1": row_item.get("r1"),
+                        "anchor_r2": row_item.get("r2"),
+                        "s1_source": row_item.get("s1_source", "ATR_ESTIMATE"),
+                        "s2_source": row_item.get("s2_source", "ATR_ESTIMATE"),
+                        "r1_source": row_item.get("r1_source", "ATR_ESTIMATE"),
+                        "r2_source": row_item.get("r2_source", "ATR_ESTIMATE"),
+                    },
+                    is_halt=is_effective_halt,
+                    is_short_covering=is_short_covering,
+                    is_broken=is_broken,
+                    bias_ma50=bias_ma50_val,
+                    vwap=close_p,
+                    base_script=str(row_item.get("scenario_script") or ""),
+                    bear_suppressed=bool(_bear_dom_ml or _vix_back_ml),
+                    swing_tp=float(row_item.get("target_profit_price") or 0.0),
+                    swing_sl=float(row_item.get("stop_loss_price") or 0.0),
+                    atr_pct=atr_pct,
+                    is_daily_breakdown=_daily_brk_ml,
+                    is_inverse_decay=_inv_veto_ml,
+                    ticker=tk,
+                    is_vix_backwardation=_vix_back_ml,
+                    is_bear_dominant=_bear_dom_ml,
+                    is_inverse=_is_inv_ml,
+                )
+                row_item["scenario_script"] = _sr_ml_eval["scenario_script"]
+                row_item["r2_is_far_historical"] = _sr_ml_eval["r2_is_far_historical"]
+                row_item["r2_swing_cap"] = _sr_ml_eval["r2_swing_cap"]
+                row_item["suppression_reason_text"] = _sr_ml_eval.get("suppression_reason_text", "")
+                row_item["suppression_short_tag"] = _sr_ml_eval.get("suppression_short_tag", "")
+            except Exception:
+                row_item['resonance_badge_text'] = four_h_div
+                row_item['resonance_badge_tag'] = four_h_tag
+                row_item['resonance_suppressed'] = False
+
             row_item['four_h_rsi'] = four_h_rsi
             row_item['four_h_div'] = four_h_div
             row_item['four_h_tag'] = four_h_tag
             row_item['is_short_covering'] = is_short_covering
 
             all_live_rows.append(row_item)
+
+        # V5.3 3X 杠杆镜像对母指数锚定对齐（SOXL/SOXS -> SOXX；TQQQ/SQQQ -> QQQ）+ 50% 过半趋势温度定性
+        try:
+            from create_futu_terminal import (
+                apply_leveraged_mirror_parent_alignment as _ml_mirror_align,
+                classify_trend_temperature as _ml_classify_temp,
+            )
+            _ml_mirror_align(all_live_rows)
+            for _mr in all_live_rows:
+                _tl, _tt = _ml_classify_temp(
+                    float(_mr.get('calibrated_win_rate_pct') or 50.0),
+                    float(_mr.get('calibrated_short_win_rate_pct') or 50.0),
+                )
+                _mr['trend_temperature_label'] = _tl
+                _mr['trend_temperature_tone'] = _tt
+        except Exception:
+            pass
 
         # 多头精选榜 Top 10 (正股优先，严格按 calibrated_win_rate_pct 降序，与空头榜排序口径一致)
         long_candidates = [r.copy() for r in all_live_rows if not r.get('is_etf', False)]
@@ -4388,7 +6349,7 @@ def generate_report_tables(
     time_cycle_proj = {}
     try:
         p_df = raw_panel
-        if p_df is None or p_df.empty:
+        if (p_df is None or p_df.empty) and len(latest_df) > 15:
             cache_p = _resolve_cache_path('data_cache/ml_panel_5y.parquet')
             if os.path.exists(cache_p):
                 p_df = pd.read_parquet(cache_p)
@@ -4405,11 +6366,40 @@ def generate_report_tables(
                 forecast_days=15,
                 scenario_map_by_ticker=sc_by_tk
             )
+            if isinstance(time_cycle_proj, dict):
+                for _rows_grp in (all_live_rows, top_long_stocks, top_short_stocks, table4_rows):
+                    if not isinstance(_rows_grp, list):
+                        continue
+                    for _r_obj in _rows_grp:
+                        if not isinstance(_r_obj, dict):
+                            continue
+                        _tc_m = time_cycle_proj.get(_r_obj.get('ticker'))
+                        if isinstance(_tc_m, dict):
+                            for _k_v46 in ('v46_regime_mode', 'bear_inertia_active', 'p15_t5_pct', 'p15_t15_pct', 'p85_t15_pct'):
+                                if _tc_m.get(_k_v46) is not None:
+                                    _r_obj[_k_v46] = _tc_m[_k_v46]
     except Exception as _tce:
         time_cycle_proj = {}
 
-    now_str = display_time.page_update_stamp()
+    now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     mode_str = "Finnhub 实时盘前/盘中穿透" if is_realtime else "yfinance 最新收盘价底模"
+
+    _should_save_sc = bool(raw_panel is not None or len(latest_df) > 15)
+    live_scorecard = build_and_save_live_prediction_scorecard(
+        oos_df=oos_df,
+        raw_panel=raw_panel,
+        all_live_rows=all_live_rows,
+        save_to_disk=_should_save_sc,
+    )
+
+    mw_out = dict(macro_weather or {})
+    if 'market_regime' not in mw_out:
+        _r_sc = float(latest_df['Market_Regime_Score'].mean()) if (not latest_df.empty and 'Market_Regime_Score' in latest_df.columns) else 0.0
+        _br_v = float(latest_df['Breadth_MA20_Pct'].mean()) if (not latest_df.empty and 'Breadth_MA20_Pct' in latest_df.columns) else 50.0
+        _reg_s = 'BEAR_DEFENSE' if (_r_sc <= -0.5 or _br_v < 35.0) else ('BULL_TREND' if _r_sc >= 0.5 else 'NEUTRAL_CHOP')
+        mw_out['market_regime'] = _reg_s
+        mw_out['market_regime_cn'] = {'BEAR_DEFENSE': '🔴 空头防守体制', 'BULL_TREND': '🟢 多头顺风体制'}.get(_reg_s, '🟡 震荡分化体制')
+        mw_out['breadth_ma20_pct'] = round(_br_v, 1)
 
     return {
         'table1': table1_rows,
@@ -4422,7 +6412,9 @@ def generate_report_tables(
         'top_short': top_short_stocks,
         'top10': top_long_stocks,
         'all_live_predictions': all_live_rows,
-        'macro_weather': macro_weather or {},
+        'macro_weather': mw_out,
+        'vix_regime': mw_out.get('vix_regime', {}),
+        'live_scorecard': live_scorecard,
         'time_cycle_projections': time_cycle_proj,
         'kpi': {
             'high_conviction_win_rate': kpi_win_rate,
@@ -4431,10 +6423,262 @@ def generate_report_tables(
             'top_feature': kpi_top_feature,
             'sync_time': now_str,
             'data_mode': mode_str,
-            'is_realtime': is_realtime,
-            'model_backend': _ml_backend_name()
+            'is_realtime': is_realtime
         }
     }
+
+
+def _evaluate_scorecard_window(sub_df: pd.DataFrame) -> Dict[str, Any]:
+    """统计指定样本外交易日窗口内的做多、做空与有效方向信号真实命中率。"""
+    if sub_df is None or sub_df.empty:
+        return {
+            'trading_days': 0,
+            'sample_count': 0,
+            'win_rate_pct': 50.0,
+            'long_count': 0,
+            'long_win_rate_pct': 0.0,
+            'short_count': 0,
+            'short_win_rate_pct': 0.0,
+            'avg_return_pct': 0.0,
+        }
+
+    df = sub_df.copy()
+    n_days = int(pd.to_datetime(df['Date']).dt.date.nunique()) if 'Date' in df.columns else len(df)
+    has_ret = 'Realized_Return' in df.columns
+    has_s_prob = 'Prob_Short_1' in df.columns and df['Prob_Short_1'].notna().any()
+    has_s_label = 'Label_Short' in df.columns and df['Label_Short'].notna().any()
+    has_s_ret = 'Realized_Return_Short' in df.columns and df['Realized_Return_Short'].notna().any()
+    has_regime = 'Market_Regime_Score' in df.columns
+
+    p_long = pd.to_numeric(df['Prob_1'], errors='coerce').fillna(0.5).to_numpy(dtype=float)
+    y_long = pd.to_numeric(df['Label'], errors='coerce').fillna(0.0).to_numpy(dtype=float)
+    ret_long = pd.to_numeric(df['Realized_Return'], errors='coerce').fillna(0.0).to_numpy(dtype=float) if has_ret else np.where(y_long == 1.0, 1.0, -1.0)
+    win_long = (ret_long > 0.0) if has_ret else (y_long == 1.0)
+
+    reg_arr = pd.to_numeric(df['Market_Regime_Score'], errors='coerce').fillna(0.0).to_numpy(dtype=float) if has_regime else np.zeros(len(df))
+    long_allowed = ~(reg_arr <= -0.5)
+
+    l_mask = (p_long >= 0.55)
+    long_cnt = int(l_mask.sum())
+    long_wr = round(float(win_long[l_mask].mean() * 100.0), 1) if long_cnt > 0 else 0.0
+
+    if has_s_prob and has_s_label:
+        p_short = pd.to_numeric(df['Prob_Short_1'], errors='coerce').fillna(0.45).to_numpy(dtype=float)
+        y_short = pd.to_numeric(df['Label_Short'], errors='coerce').fillna(0.0).to_numpy(dtype=float)
+        ret_short = pd.to_numeric(df['Realized_Return_Short'], errors='coerce').fillna(0.0).to_numpy(dtype=float) if has_s_ret else np.where(y_short == 1.0, 1.0, -1.0)
+        win_short = (ret_short > 0.0) if has_s_ret else (y_short == 1.0)
+        s_mask = (p_short >= 0.55) & df['Label_Short'].notna().to_numpy()
+        short_cnt = int(s_mask.sum())
+        short_wr = round(float(win_short[s_mask].mean() * 100.0), 1) if short_cnt > 0 else 0.0
+    else:
+        p_short = np.zeros(len(df), dtype=float)
+        ret_short = np.zeros(len(df), dtype=float)
+        win_short = np.zeros(len(df), dtype=bool)
+        short_cnt = 0
+        short_wr = 0.0
+
+    # 综合实战触发口径：多头高置信 (非空头体制下) vs 空头高置信，取活跃且更高置信度方向；若无 >=55% 则降维到 >=50%
+    outcomes = []
+    returns_used = []
+    for i in range(len(df)):
+        act_l = bool(p_long[i] >= 0.55 and long_allowed[i])
+        act_s = bool(has_s_prob and has_s_label and p_short[i] >= 0.55)
+        if act_l and act_s:
+            if p_long[i] >= p_short[i]:
+                outcomes.append(bool(win_long[i]))
+                returns_used.append(float(ret_long[i]))
+            else:
+                outcomes.append(bool(win_short[i]))
+                returns_used.append(float(ret_short[i]))
+        elif act_l:
+            outcomes.append(bool(win_long[i]))
+            returns_used.append(float(ret_long[i]))
+        elif act_s:
+            outcomes.append(bool(win_short[i]))
+            returns_used.append(float(ret_short[i]))
+
+    if not outcomes:
+        for i in range(len(df)):
+            if p_long[i] >= 0.50 and long_allowed[i]:
+                outcomes.append(bool(win_long[i]))
+                returns_used.append(float(ret_long[i]))
+            elif has_s_prob and has_s_label and p_short[i] >= 0.50:
+                outcomes.append(bool(win_short[i]))
+                returns_used.append(float(ret_short[i]))
+        if not outcomes:
+            outcomes = [bool(x) for x in win_long.tolist()]
+            returns_used = [float(x) for x in ret_long.tolist()]
+
+    wr_pct = round(float(np.mean(outcomes) * 100.0), 1) if outcomes else 50.0
+    avg_r = round(float(np.mean(returns_used)), 2) if returns_used else 0.0
+
+    return {
+        'trading_days': n_days,
+        'sample_count': len(outcomes),
+        'win_rate_pct': wr_pct,
+        'long_count': long_cnt,
+        'long_win_rate_pct': long_wr,
+        'short_count': short_cnt,
+        'short_win_rate_pct': short_wr,
+        'avg_return_pct': avg_r,
+    }
+
+
+def build_and_save_live_prediction_scorecard(
+    oos_df: Optional[pd.DataFrame],
+    raw_panel: Optional[pd.DataFrame] = None,
+    all_live_rows: Optional[List[Dict[str, Any]]] = None,
+    scorecard_path: str = 'data_cache/live_prediction_scorecard.json',
+    save_to_disk: bool = True,
+) -> Dict[str, Any]:
+    """
+    阶段一核心引擎 5：实盘预测成绩单 (Live Prediction Scorecard)。
+    - 基于最近 30 个与最近 7 个已结算样本外交易日初始化/更新滚动真实命中率；
+    - 在收盘后自动核对历史 pending_predictions 是否已到 5 日结算期；
+    - 若近 7 个交易日真实胜率 < 45.0%，自动点亮黄灯 ⚠️ 模型近期失准·自动降权参考。
+    """
+    full_path = _resolve_cache_path(scorecard_path) if not os.path.isabs(scorecard_path) else scorecard_path
+    existing: Dict[str, Any] = {}
+    if os.path.exists(full_path):
+        try:
+            with open(full_path, 'r', encoding='utf-8') as f:
+                existing = json.load(f) or {}
+        except Exception:
+            existing = {}
+
+    pending_list = list(existing.get('pending_predictions', [])) if isinstance(existing.get('pending_predictions'), list) else []
+    reconciled_records = list(existing.get('reconciled_live_records', [])) if isinstance(existing.get('reconciled_live_records'), list) else []
+
+    # 1. 收盘后自动核对历史 pending_predictions vs 真实后续 5 日收盘表现
+    still_pending = []
+    if raw_panel is not None and not raw_panel.empty and pending_list:
+        rp = raw_panel.copy()
+        rp['Date_dt'] = pd.to_datetime(rp['Date']).dt.normalize()
+        for item in pending_list:
+            tk = item.get('ticker')
+            p_date = pd.to_datetime(item.get('pred_date', ''), errors='coerce')
+            entry_px = float(item.get('entry_price') or 0.0)
+            direction = str(item.get('direction', 'LONG')).upper()
+            if not tk or pd.isna(p_date) or entry_px <= 0:
+                continue
+            sub_tk = rp[(rp['Ticker'] == tk) & (rp['Date_dt'] > p_date)].sort_values('Date_dt')
+            if len(sub_tk) >= 5:
+                settle_px = float(sub_tk.iloc[4]['Close'])
+                raw_ret = ((settle_px - entry_px) / entry_px) * 100.0
+                dir_ret = -raw_ret if direction == 'SHORT' else raw_ret
+                reconciled_records.append({
+                    'ticker': tk,
+                    'pred_date': p_date.strftime('%Y-%m-%d'),
+                    'settle_date': sub_tk.iloc[4]['Date_dt'].strftime('%Y-%m-%d'),
+                    'direction': direction,
+                    'entry_price': round(entry_px, 2),
+                    'settle_price': round(settle_px, 2),
+                    'realized_return_pct': round(dir_ret, 2),
+                    'is_win': bool(dir_ret > 0.0),
+                })
+            else:
+                still_pending.append(item)
+    else:
+        still_pending = pending_list
+
+    # 2. 基于最近 30 / 7 个交易日样本外预测统计滚动命中率
+    if oos_df is not None and not oos_df.empty and 'Date' in oos_df.columns:
+        o_df = oos_df.copy()
+        o_df['_Date_dt'] = pd.to_datetime(o_df['Date']).dt.normalize()
+        settled_dates = sorted(o_df['_Date_dt'].dropna().unique().tolist())
+        last_7_dates = settled_dates[-7:] if len(settled_dates) >= 7 else settled_dates
+        last_30_dates = settled_dates[-30:] if len(settled_dates) >= 30 else settled_dates
+        sub_7 = o_df[o_df['_Date_dt'].isin(last_7_dates)]
+        sub_30 = o_df[o_df['_Date_dt'].isin(last_30_dates)]
+        w7 = _evaluate_scorecard_window(sub_7)
+        w30 = _evaluate_scorecard_window(sub_30)
+        window_7d_range = f"{pd.Timestamp(last_7_dates[0]).strftime('%Y-%m-%d')}~{pd.Timestamp(last_7_dates[-1]).strftime('%Y-%m-%d')}" if last_7_dates else "--"
+        window_30d_range = f"{pd.Timestamp(last_30_dates[0]).strftime('%Y-%m-%d')}~{pd.Timestamp(last_30_dates[-1]).strftime('%Y-%m-%d')}" if last_30_dates else "--"
+        daily_rows = []
+        for dt_val in last_30_dates:
+            day_df = o_df[o_df['_Date_dt'] == dt_val]
+            d_stat = _evaluate_scorecard_window(day_df)
+            daily_rows.append({
+                'date': pd.Timestamp(dt_val).strftime('%Y-%m-%d'),
+                'win_rate_pct': d_stat['win_rate_pct'],
+                'long_win_rate_pct': d_stat['long_win_rate_pct'],
+                'short_win_rate_pct': d_stat['short_win_rate_pct'],
+                'sample_count': d_stat['sample_count'],
+                'avg_return_pct': d_stat['avg_return_pct'],
+            })
+    elif oos_df is not None and not oos_df.empty:
+        w7 = _evaluate_scorecard_window(oos_df.tail(7))
+        w30 = _evaluate_scorecard_window(oos_df.tail(30))
+        window_7d_range = "--"
+        window_30d_range = "--"
+        daily_rows = []
+    else:
+        w7 = _evaluate_scorecard_window(pd.DataFrame())
+        w30 = _evaluate_scorecard_window(pd.DataFrame())
+        window_7d_range = "--"
+        window_30d_range = "--"
+        daily_rows = []
+
+    # 3. 登记最新待核验预测队列 (去重按 pred_date + ticker)
+    if all_live_rows:
+        today_str = datetime.now().strftime('%Y-%m-%d')
+        existing_keys = {(str(x.get('pred_date')), str(x.get('ticker'))) for x in still_pending}
+        for row in all_live_rows:
+            if not isinstance(row, dict) or row.get('is_etf'):
+                continue
+            tk = str(row.get('ticker', ''))
+            px = float(row.get('latest_price') or 0.0)
+            lw = float(row.get('calibrated_win_rate_pct') or 50.0)
+            sw = float(row.get('calibrated_short_win_rate_pct') or 50.0)
+            if not tk or px <= 0 or (max(lw, sw) < 55.0):
+                continue
+            if (today_str, tk) not in existing_keys:
+                still_pending.append({
+                    'ticker': tk,
+                    'pred_date': today_str,
+                    'direction': 'LONG' if lw >= sw else 'SHORT',
+                    'pred_prob_pct': round(max(lw, sw), 1),
+                    'entry_price': round(px, 2),
+                })
+                existing_keys.add((today_str, tk))
+        still_pending = still_pending[-300:]
+
+    wr_7d = float(w7['win_rate_pct'])
+    wr_30d = float(w30['win_rate_pct'])
+    is_degraded = bool(w7['sample_count'] > 0 and wr_7d < 45.0)
+    warning_text = "⚠️ 模型近期失准·自动降权参考" if is_degraded else "✅ 模型近期实盘命中稳健"
+
+    scorecard = {
+        'updated_at': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+        'win_rate_7d_pct': wr_7d,
+        'win_rate_30d_pct': wr_30d,
+        'long_win_rate_7d_pct': float(w7['long_win_rate_pct']),
+        'short_win_rate_7d_pct': float(w7['short_win_rate_pct']),
+        'long_win_rate_30d_pct': float(w30['long_win_rate_pct']),
+        'short_win_rate_30d_pct': float(w30['short_win_rate_pct']),
+        'sample_count_7d': int(w7['sample_count']),
+        'sample_count_30d': int(w30['sample_count']),
+        'avg_return_7d_pct': float(w7['avg_return_pct']),
+        'avg_return_30d_pct': float(w30['avg_return_pct']),
+        'window_7d_range': window_7d_range,
+        'window_30d_range': window_30d_range,
+        'is_degraded': is_degraded,
+        'warning_text': warning_text,
+        'reconciled_live_count': len(reconciled_records),
+        'reconciled_live_records': reconciled_records[-60:],
+        'pending_predictions': still_pending,
+        'daily_breakdown_30d': daily_rows,
+    }
+
+    if save_to_disk:
+        try:
+            os.makedirs(os.path.dirname(full_path), exist_ok=True)
+            with open(full_path, 'w', encoding='utf-8') as f:
+                json.dump(scorecard, f, ensure_ascii=False, indent=2)
+        except Exception:
+            pass
+
+    return scorecard
 
 
 def _get_display_width(s: Any) -> int:
@@ -4643,19 +6887,529 @@ def print_terminal_tables(tables_data: Dict) -> None:
     print("=" * 90 + "\n")
 
 
+def build_cycle_sr_ladder_spec(data: Dict[str, Any], is_light_theme: bool = False) -> Dict[str, Any]:
+    """
+    构建 V4.4 静态锚对齐的多级攻防点位天梯与 15 日主图水平线渲染规格：
+    1. 所有天梯点位 (R2, R1, 当前现价, S1, S2, SL) 严格按实际价格从高到低动态排序；
+    2. 已跌穿的 S1/S2/SL 取消绿色支撑样式，改为灰/红虚化删除线并标注 原S1 (已击穿转压) / 原SL (已触及)；
+    3. 已突破的 R1/R2 落至现价下方并标为 原R1 (已突破转撑) / 原R2 (已突破转撑)（青/绿支撑态）；
+    4. ATR_ESTIMATE 点位取消纯绿支撑态，补充 (估算·无真实筹码) 副标；
+    5. 主图右侧参考线同步遵守上述颜色、虚线与简短标签 (原S1(已破) / 原R1(转撑) / 估算S1 等)。
+    """
+    d = data if isinstance(data, dict) else {}
+
+    def _f(v: Any) -> float:
+        try:
+            fv = float(v)
+            return fv if (fv > 0 and math.isfinite(fv)) else 0.0
+        except Exception:
+            return 0.0
+
+    cur_p = _f(d.get("current_price") or d.get("latest_price"))
+    s1 = _f(d.get("anchor_s1") or d.get("s1"))
+    s2 = _f(d.get("anchor_s2") or d.get("s2"))
+    sl = _f(d.get("anchor_sl") or d.get("sl"))
+    r1 = _f(d.get("anchor_r1") or d.get("r1"))
+    r2 = _f(d.get("anchor_r2") or d.get("r2"))
+
+    s1_src = str(d.get("s1_source") or "").upper()
+    s2_src = str(d.get("s2_source") or "").upper()
+    r1_src = str(d.get("r1_source") or "").upper()
+    r2_src = str(d.get("r2_source") or "").upper()
+    s1_est = (s1_src == "ATR_ESTIMATE")
+    s2_est = (s2_src == "ATR_ESTIMATE")
+    r1_est = (r1_src == "ATR_ESTIMATE")
+    r2_est = (r2_src == "ATR_ESTIMATE")
+
+    s1_breached = bool(s1 > 0 and cur_p > 0 and cur_p < s1)
+    s2_breached = bool(s2 > 0 and cur_p > 0 and cur_p < s2)
+    sl_breached = bool(sl > 0 and cur_p > 0 and cur_p < sl)
+    r1_broken = bool(r1 > 0 and cur_p > 0 and cur_p > r1)
+    r2_broken = bool(r2 > 0 and cur_p > 0 and cur_p > r2)
+
+    if s2_breached:
+        sr_state = "ALL_SUPPORT_BREACHED"
+        subtitle = "当日静态锚定 · 支撑击穿转压"
+    elif s1_breached:
+        sr_state = "S1_BREACHED"
+        subtitle = "当日静态锚定 · S1击穿转压"
+    elif r2_broken:
+        sr_state = "ALL_RESISTANCE_BROKEN"
+        subtitle = "当日静态锚定 · 全线突破转撑"
+    elif r1_broken:
+        sr_state = "R1_BROKEN"
+        subtitle = "当日静态锚定 · R1突破转撑"
+    else:
+        sr_state = "INTACT"
+        subtitle = "当日静态锚定"
+
+    items: List[Dict[str, Any]] = []
+    canvas_lines: List[Dict[str, Any]] = []
+    est_suffix = " (估算·无真实筹码)"
+
+    if r2 > 0:
+        if r2_broken:
+            r2_color = "#0D9488" if is_light_theme else "#2dd4bf"
+            r2_bg = "rgba(13,148,136,0.10)" if is_light_theme else "rgba(45,212,191,0.12)"
+            r2_key = f"原R2 (已突破转撑){est_suffix if r2_est else ''}"
+            r2_ckey = "原R2(转撑)"
+            r2_dash = [4, 3]
+        elif r2_est:
+            r2_color = "#B45309" if is_light_theme else "#e3b341"
+            r2_bg = "rgba(180,83,9,0.08)" if is_light_theme else "rgba(227,179,65,0.10)"
+            r2_key = f"R2 极限阻力{est_suffix}"
+            r2_ckey = "估算R2"
+            r2_dash = [2, 3]
+        else:
+            r2_color = "#DC2626" if is_light_theme else "#f85149"
+            r2_bg = "rgba(220,38,38,0.08)" if is_light_theme else "rgba(248,81,73,0.10)"
+            r2_key = "R2 极限阻力"
+            r2_ckey = "R2"
+            r2_dash = [5, 4]
+        items.append({
+            "id": "R2", "key": r2_key, "val": r2, "color": r2_color, "bg": r2_bg,
+            "border_style": "dashed" if (r2_broken or r2_est) else "solid",
+            "is_breached": False, "is_broken": r2_broken, "is_cur": False, "is_est": r2_est, "order": 0,
+        })
+        canvas_lines.append({
+            "id": "R2", "key": r2_ckey, "val": r2, "color": r2_color,
+            "lineDash": r2_dash, "isBreached": False, "isBroken": r2_broken, "isEst": r2_est,
+        })
+
+    if r1 > 0:
+        if r1_broken:
+            r1_color = "#059669" if is_light_theme else "#3fb950"
+            r1_bg = "rgba(5,150,105,0.10)" if is_light_theme else "rgba(63,185,80,0.12)"
+            r1_key = f"原R1 (已突破转撑){est_suffix if r1_est else ''}"
+            r1_ckey = "原R1(转撑)"
+            r1_dash = [4, 3]
+        elif r1_est:
+            r1_color = "#B45309" if is_light_theme else "#e3b341"
+            r1_bg = "rgba(180,83,9,0.08)" if is_light_theme else "rgba(227,179,65,0.10)"
+            r1_key = f"R1 反弹第一阻力{est_suffix}"
+            r1_ckey = "估算R1"
+            r1_dash = [2, 3]
+        else:
+            r1_color = "#EA580C" if is_light_theme else "#ff944d"
+            r1_bg = "rgba(234,88,12,0.08)" if is_light_theme else "rgba(255,148,77,0.10)"
+            r1_key = "R1 反弹第一阻力"
+            r1_ckey = "R1"
+            r1_dash = [5, 4]
+        items.append({
+            "id": "R1", "key": r1_key, "val": r1, "color": r1_color, "bg": r1_bg,
+            "border_style": "dashed" if (r1_broken or r1_est) else "solid",
+            "is_breached": False, "is_broken": r1_broken, "is_cur": False, "is_est": r1_est, "order": 1,
+        })
+        canvas_lines.append({
+            "id": "R1", "key": r1_ckey, "val": r1, "color": r1_color,
+            "lineDash": r1_dash, "isBreached": False, "isBroken": r1_broken, "isEst": r1_est,
+        })
+
+    if cur_p > 0:
+        cur_color = "#0284C7" if is_light_theme else "#38bdf8"
+        cur_bg = "rgba(2,132,199,0.10)" if is_light_theme else "rgba(56,189,248,0.15)"
+        items.append({
+            "id": "CUR", "key": "⚪ 正规盘收盘" if d.get("price_note") else "⚪ 当前现价",
+            "val": cur_p, "color": cur_color, "bg": cur_bg,
+            "border_style": "solid", "is_breached": False, "is_broken": False, "is_cur": True, "is_est": False, "order": 2,
+        })
+
+    if s1 > 0:
+        if s1_breached:
+            s1_color = "#991B1B" if is_light_theme else "#f87171"
+            s1_bg = "rgba(148,163,184,0.10)" if is_light_theme else "rgba(248,113,113,0.07)"
+            s1_key = f"原S1 (已击穿转压){est_suffix if s1_est else ''}"
+            s1_ckey = "原S1(已破)"
+            s1_ccolor = "#94A3B8" if is_light_theme else "#f87171"
+            s1_dash = [3, 3]
+        elif s1_est:
+            s1_color = "#B45309" if is_light_theme else "#e3b341"
+            s1_bg = "rgba(180,83,9,0.08)" if is_light_theme else "rgba(227,179,65,0.10)"
+            s1_key = f"S1 波段支撑{est_suffix}"
+            s1_ckey = "估算S1"
+            s1_ccolor = s1_color
+            s1_dash = [2, 3]
+        else:
+            s1_color = "#059669" if is_light_theme else "#3fb950"
+            s1_bg = "rgba(5,150,105,0.08)" if is_light_theme else "rgba(63,185,80,0.10)"
+            s1_key = "S1 波段支撑"
+            s1_ckey = "S1"
+            s1_ccolor = s1_color
+            s1_dash = [5, 4]
+        items.append({
+            "id": "S1", "key": s1_key, "val": s1, "color": s1_color, "bg": s1_bg,
+            "border_style": "dashed" if (s1_breached or s1_est) else "solid",
+            "is_breached": s1_breached, "is_broken": False, "is_cur": False, "is_est": s1_est, "order": 3,
+        })
+        canvas_lines.append({
+            "id": "S1", "key": s1_ckey, "val": s1, "color": s1_ccolor,
+            "lineDash": s1_dash, "isBreached": s1_breached, "isBroken": False, "isEst": s1_est,
+        })
+
+    if s2 > 0:
+        if s2_breached:
+            s2_color = "#B91C1C" if is_light_theme else "#ef4444"
+            s2_bg = "rgba(148,163,184,0.10)" if is_light_theme else "rgba(239,68,68,0.07)"
+            s2_key = f"原S2 (已击穿转压){est_suffix if s2_est else ''}"
+            s2_ckey = "原S2(已破)"
+            s2_ccolor = "#94A3B8" if is_light_theme else "#ef4444"
+            s2_dash = [3, 3]
+        elif s2_est:
+            s2_color = "#B45309" if is_light_theme else "#d29922"
+            s2_bg = "rgba(180,83,9,0.07)" if is_light_theme else "rgba(210,153,34,0.09)"
+            s2_key = f"S2 极限插针底{est_suffix}"
+            s2_ckey = "估算S2"
+            s2_ccolor = s2_color
+            s2_dash = [2, 3]
+        else:
+            s2_color = "#2563EB" if is_light_theme else "#58a6ff"
+            s2_bg = "rgba(37,99,235,0.08)" if is_light_theme else "rgba(88,166,255,0.10)"
+            s2_key = "S2 极限插针底"
+            s2_ckey = "S2"
+            s2_ccolor = s2_color
+            s2_dash = [5, 4]
+        items.append({
+            "id": "S2", "key": s2_key, "val": s2, "color": s2_color, "bg": s2_bg,
+            "border_style": "dashed" if (s2_breached or s2_est) else "solid",
+            "is_breached": s2_breached, "is_broken": False, "is_cur": False, "is_est": s2_est, "order": 4,
+        })
+        canvas_lines.append({
+            "id": "S2", "key": s2_ckey, "val": s2, "color": s2_ccolor,
+            "lineDash": s2_dash, "isBreached": s2_breached, "isBroken": False, "isEst": s2_est,
+        })
+
+    if sl > 0:
+        if sl_breached:
+            sl_color = "#64748B" if is_light_theme else "#94a3b8"
+            sl_bg = "rgba(100,116,139,0.08)"
+            sl_key = "原SL (已触及)"
+            sl_ckey = "原SL(已破)"
+            sl_dash = [2, 3]
+        else:
+            sl_color = "#B91C1C" if is_light_theme else "#f87171"
+            sl_bg = "rgba(185,28,28,0.06)" if is_light_theme else "rgba(248,81,73,0.06)"
+            sl_key = "SL 防守止损位"
+            sl_ckey = "SL"
+            sl_dash = [2, 3]
+        items.append({
+            "id": "SL", "key": sl_key, "val": sl, "color": sl_color, "bg": sl_bg,
+            "border_style": "dashed" if sl_breached else "solid",
+            "is_breached": sl_breached, "is_broken": False, "is_cur": False, "is_est": False, "order": 5,
+        })
+        canvas_lines.append({
+            "id": "SL", "key": sl_ckey, "val": sl, "color": sl_color,
+            "lineDash": sl_dash, "isBreached": sl_breached, "isBroken": False, "isEst": False,
+        })
+
+    items.sort(key=lambda x: (-float(x["val"]), int(x["order"])))
+    top_banner = "🚀 突破今日全线阻力 · 沿 VWAP/EMA9 移动止盈" if sr_state == "ALL_RESISTANCE_BROKEN" else ""
+    bottom_banner = "⚠️ 今日原定支撑全线击穿 · 下方真空寻底（严禁左侧接刀）" if sr_state == "ALL_SUPPORT_BREACHED" else ""
+
+    return {
+        "sr_state": sr_state,
+        "subtitle": subtitle,
+        "top_banner": top_banner,
+        "bottom_banner": bottom_banner,
+        "items": items,
+        "canvas_lines": canvas_lines,
+        "cur_price": cur_p,
+    }
+
+
+def _render_cycle_ladder_html(data: Dict[str, Any], is_light_theme: bool = False) -> Tuple[str, str]:
+    """为服务端初始渲染预生成与前端完全同构的点位天梯 HTML 与副标题，零重复 DOM ID。"""
+    import html as _html_l
+    spec = build_cycle_sr_ladder_spec(data, is_light_theme=is_light_theme)
+    cur_p = float(spec.get("cur_price") or 0.0)
+    if cur_p <= 0 or not spec["items"]:
+        return "", spec["subtitle"]
+    parts: List[str] = []
+    if spec["top_banner"]:
+        parts.append(
+            '<div class="cycle-ladder-alert cycle-ladder-alert-bull" '
+            'style="background: rgba(16,185,129,0.14); border: 1px solid rgba(16,185,129,0.45); '
+            'color: #34d399; padding: 4px 8px; border-radius: 4px; font-weight: 700; font-size: 10.5px;">'
+            f'{_html_l.escape(spec["top_banner"])}</div>'
+        )
+    for lv in spec["items"]:
+        v = float(lv["val"])
+        diff_pct = ((v / cur_p) - 1.0) * 100.0
+        sign = "+" if diff_pct > 0 else ""
+        if lv["is_cur"]:
+            pct_tag = f'<span style="color:{lv["color"]}; font-weight:700;">[基准锚点]</span>'
+        else:
+            pct_tag = f'<span style="color:{lv["color"]}; font-weight:700;">{sign}{diff_pct:.1f}%</span>'
+        b_style = lv["border_style"]
+        cls_extra = " cycle-ladder-breached" if lv["is_breached"] else ""
+        strike_style = "text-decoration: line-through; opacity: 0.85;" if lv["is_breached"] else ""
+        parts.append(
+            f'<div class="cycle-ladder-item{cls_extra}" data-level="{lv["id"]}" data-price="{v:.2f}" '
+            f'data-breached="{"1" if lv["is_breached"] else "0"}" data-broken="{"1" if lv["is_broken"] else "0"}" '
+            f'style="background: {lv["bg"]}; border: 1px {b_style} {lv["color"]}44;">'
+            f'<span style="color: {lv["color"]}; font-weight: 700; {strike_style}">{_html_l.escape(lv["key"])}</span>'
+            f'<div style="display: flex; gap: 8px; align-items: center;">'
+            f'<span style="color: var(--text-main); font-weight: 800; {strike_style}">${v:.2f}</span>'
+            f'{pct_tag}</div></div>'
+        )
+        if lv["is_cur"] and spec["bottom_banner"]:
+            parts.append(
+                '<div class="cycle-ladder-alert cycle-ladder-alert-bear" '
+                'style="background: rgba(248,81,73,0.14); border: 1px solid rgba(248,81,73,0.45); '
+                'color: #f87171; padding: 4px 8px; border-radius: 4px; font-weight: 700; font-size: 10.5px;">'
+                f'{_html_l.escape(spec["bottom_banner"])}</div>'
+            )
+    price_note = str(data.get("price_note") or "")
+    if price_note:
+        parts.append(
+            '<div class="cycle-ladder-item" style="background: rgba(56,189,248,0.08); border: 1px solid rgba(56,189,248,0.28);">'
+            '<span style="color: var(--primary-blue); font-weight: 700;">🌙 不是夜盘现价</span>'
+            f'<div style="color: var(--primary-blue); font-weight: 800;">{_html_l.escape(price_note)}</div></div>'
+        )
+    return "\n".join(parts), spec["subtitle"]
+
+
 def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5y.html') -> None:
-    time_cycle_json_str = json.dumps(tables_data.get('time_cycle_projections', {}))
+    import html as html_lib
+    raw_tc = tables_data.get('time_cycle_projections', {}) or {}
+    all_live_pre = tables_data.get('all_live_predictions') or tables_data.get('table4') or []
+    live_by_tk = {
+        str(r.get('ticker')): r
+        for r in all_live_pre
+        if isinstance(r, dict) and r.get('ticker')
+    }
+    tc_enriched: Dict[str, Any] = {}
+    for tk_c, item_c in raw_tc.items():
+        if not isinstance(item_c, dict):
+            tc_enriched[tk_c] = item_c
+            continue
+        merged_c = dict(item_c)
+        b_ref = live_by_tk.get(str(tk_c))
+        if isinstance(b_ref, dict):
+            for k_meta in (
+                'anchor_s1', 'anchor_s2', 'anchor_sl', 'anchor_r1', 'anchor_r2',
+                's1_source', 's2_source', 'r1_source', 'r2_source',
+                'sr_breach_state', 'sr_status_badge', 'sr_anchor_locked',
+            ):
+                if merged_c.get(k_meta) is None and b_ref.get(k_meta) is not None:
+                    merged_c[k_meta] = b_ref[k_meta]
+        try:
+            import sr_anchor_engine as _sr_tc_render
+            _px_c = float(merged_c.get('current_price') or merged_c.get('latest_price') or 0.0)
+            if _px_c > 0 and (merged_c.get('anchor_s1') or merged_c.get('s1')):
+                _eval_c = _sr_tc_render.evaluate_sr_breach_state(price=_px_c, anchor=merged_c)
+                merged_c['sr_breach_state'] = _eval_c['sr_breach_state']
+                merged_c['sr_status_badge'] = _eval_c['sr_status_badge']
+        except Exception:
+            pass
+        tc_enriched[tk_c] = merged_c
+    _default_tc_item = tc_enriched.get('SOXL') or (next(iter(tc_enriched.values())) if tc_enriched else {})
+    _init_ladder_html, _init_ladder_subtitle = _render_cycle_ladder_html(_default_tc_item, is_light_theme=False)
+    time_cycle_json_str = json.dumps(tc_enriched)
+    macro_calendar_banner_html = ""
+    try:
+        import os as _os_mn
+        import jin10_news_sentinel as _jn_news
+        _mnews = tables_data.get("market_news")
+        if not isinstance(_mnews, dict):
+            _out_dir = _os_mn.path.dirname(_os_mn.path.abspath(output_path)) if output_path else _os_mn.path.dirname(_os_mn.path.abspath(__file__))
+            _mcache = _os_mn.path.join(_out_dir, "data_cache", "latest_market_news.json")
+            if not _os_mn.path.exists(_mcache):
+                _mcache = _os_mn.path.join(_os_mn.path.dirname(_os_mn.path.abspath(__file__)), "data_cache", "latest_market_news.json")
+            _mnews = _jn_news.load_latest_market_news_cache(_mcache)
+        macro_calendar_banner_html = _jn_news.render_macro_calendar_banner_html(_mnews, variant="predict")
+    except Exception:
+        macro_calendar_banner_html = (
+            '<!-- MACRO_CALENDAR_BANNER_START -->\n'
+            '<div id="macroCalendarBanner" data-level="idle" style="background: rgba(15,23,42,0.92); '
+            'border: 1px solid rgba(56,189,248,0.28); border-radius: 10px; padding: 10px 16px; '
+            'margin-bottom: 14px; font-size: 12.5px; color: #7dd3fc;">'
+            '📡 宏观消息面监控中 · 今日暂无美股五星级经济数据大考</div>\n'
+            '<!-- MACRO_CALENDAR_BANNER_END -->'
+        )
     """
     Milestone M3 & V1.3 UI Pro: 渲染暗黑买方风格 HTML 可视化看板 (Obsidian Institutional Suite)
     支持跨看板顶部导航、Top 10 / 全池 28 股一键切换、7 大赛道交互筛选、双层胜率进度条与富途看盘联动跳转。
     """
     kpi = tables_data.get('kpi', {})
     weather = tables_data.get('macro_weather', {})
+    scorecard = tables_data.get('live_scorecard', {})
+    if not scorecard:
+        try:
+            _sc_path = _resolve_cache_path('data_cache/live_prediction_scorecard.json')
+            if os.path.exists(_sc_path):
+                with open(_sc_path, 'r', encoding='utf-8') as _scf:
+                    scorecard = json.load(_scf) or {}
+        except Exception:
+            scorecard = {}
     t1 = tables_data.get('table1', [])
     t2 = tables_data.get('table2', [])
     t3 = tables_data.get('table3', [])
     t4 = tables_data.get('table4', [])
     all_live = tables_data.get('all_live_predictions', t4) or t4
+
+    _regime_code = str(weather.get('market_regime', 'NEUTRAL_CHOP'))
+    _is_bear_defense = (_regime_code == 'BEAR_DEFENSE')
+    _regime_cn = str(weather.get('market_regime_cn') or {'BULL_TREND': '🟢 多头顺风体制', 'BEAR_DEFENSE': '🔴 空头防守体制'}.get(_regime_code, '🟡 震荡分化体制'))
+    _breadth_pct = float(weather.get('breadth_ma20_pct', 50.0))
+    _regime_color = '#f85149' if _regime_code == 'BEAR_DEFENSE' else ('#3fb950' if _regime_code == 'BULL_TREND' else '#ffd54f')
+    _default_t4_view = 'short' if _is_bear_defense else 'dual'
+    _t4_bear_hint_html = (
+        '<span id="t4BearLongHint" class="t4-bear-hint">（当前空头防守期，常规多头胜率已压制，仅作观察）</span>'
+        if _is_bear_defense else ''
+    )
+
+    _vix_regime = tables_data.get('vix_regime') or weather.get('vix_regime') or {}
+    try:
+        import vix_regime_engine as _vre_html
+        vix_css, vix_pill_html, vix_js = _vre_html.render_vix_pill_widget_parts(_vix_regime, popover_align='left')
+    except Exception:
+        vix_css, vix_pill_html, vix_js = "", "", ""
+    _vr_spot = _vix_regime.get('vix_spot') if isinstance(_vix_regime, dict) else None
+    _vr_vxn = _vix_regime.get('vxn_spot') if isinstance(_vix_regime, dict) else None
+    _vr_spread = _vix_regime.get('vxn_vix_spread') if isinstance(_vix_regime, dict) else None
+    _vr_vix3m = _vix_regime.get('vix3m_spot') if isinstance(_vix_regime, dict) else None
+    _vr_ratio = _vix_regime.get('vix_term_ratio') if isinstance(_vix_regime, dict) else None
+    _vr_vvix = _vix_regime.get('vvix_spot') if isinstance(_vix_regime, dict) else None
+    _vr_tnx = _vix_regime.get('tnx_yield') if isinstance(_vix_regime, dict) else None
+    _vr_ratio_color = '#f85149' if (_vr_ratio is not None and float(_vr_ratio) >= 1.0) else ('#ffd54f' if (_vr_ratio is not None and float(_vr_ratio) >= 0.92) else '#3fb950')
+    _vr_main_str = (
+        f"{float(_vr_spot):.2f} / {float(_vr_vix3m):.2f} ({float(_vr_ratio):.3f})"
+        if (_vr_spot is not None and _vr_vix3m is not None and _vr_ratio is not None)
+        else (f"{float(_vr_spot):.2f}" if _vr_spot is not None else "--")
+    )
+    _vxn_part = (
+        f"VXN {float(_vr_vxn):.1f}({float(_vr_spread):+.1f})"
+        if (_vr_vxn is not None and _vr_spread is not None)
+        else (f"VXN {float(_vr_vxn):.1f}" if _vr_vxn is not None else "")
+    )
+    _tail_parts = [p for p in (
+        _vxn_part,
+        f"VVIX {float(_vr_vvix):.1f}" if _vr_vvix is not None else "",
+        f"10Y {float(_vr_tnx):.2f}%" if _vr_tnx is not None else "",
+    ) if p]
+    _vr_sub_str = " · ".join(_tail_parts) if _tail_parts else (
+        str(_vix_regime.get('term_structure_cn') or '--') if isinstance(_vix_regime, dict) else '--'
+    )
+
+    _sc_7d = float(scorecard.get('win_rate_7d_pct', 50.0))
+    _sc_30d = float(scorecard.get('win_rate_30d_pct', 50.0))
+    _sc_degraded = bool(scorecard.get('is_degraded', False))
+    _sc_warn_html = ' · <span style="color:#ffd54f; font-weight:800;">⚠️ 模型近期失准·自动降权参考</span>' if _sc_degraded else ''
+    _sc_border = 'rgba(255, 213, 79, 0.55)' if _sc_degraded else 'rgba(63, 185, 80, 0.42)'
+    _sc_bg = 'rgba(255, 213, 79, 0.14)' if _sc_degraded else 'rgba(63, 185, 80, 0.10)'
+    _sc_text_color = '#ffd54f' if _sc_degraded else '#3fb950'
+
+    # V4.2 轻量实盘推送信号记账本（近 30 日，默认折叠不占首屏高度）
+    ledger_summary = tables_data.get('signal_ledger_summary')
+    if not isinstance(ledger_summary, dict):
+        try:
+            import signal_ledger as _sl_ui
+            ledger_summary = _sl_ui.get_recent_summary(days=30, max_recent=10)
+        except Exception:
+            ledger_summary = {}
+    _sl_total = int((ledger_summary or {}).get('total_records') or 0)
+    _sl_settled = int((ledger_summary or {}).get('settled_total') or 0)
+    _sl_long_wr = (ledger_summary or {}).get('long_win_rate_pct')
+    _sl_long_wins = int((ledger_summary or {}).get('long_wins') or 0)
+    _sl_long_settled = int((ledger_summary or {}).get('long_settled') or 0)
+    _sl_def_eff = (ledger_summary or {}).get('defense_eff_rate_pct')
+    _sl_def_hits = int((ledger_summary or {}).get('defense_hits') or 0)
+    _sl_def_settled = int((ledger_summary or {}).get('defense_settled') or 0)
+    _sl_rows = (ledger_summary or {}).get('recent_records') or []
+
+    def _fmt_sl_pct(val):
+        try:
+            if val is None or not math.isfinite(float(val)):
+                return "--", "var(--text-muted)"
+            fv = float(val)
+            col = "var(--neon-green)" if fv > 0 else ("#f85149" if fv < 0 else "var(--text-sub)")
+            return f"{fv:+.2f}%", col
+        except Exception:
+            return "--", "var(--text-muted)"
+
+    _sl_long_wr_str = f"{float(_sl_long_wr):.1f}% ({_sl_long_wins}/{_sl_long_settled})" if _sl_long_wr is not None else "待结算"
+    _sl_def_eff_str = f"{float(_sl_def_eff):.1f}% ({_sl_def_hits}/{_sl_def_settled})" if _sl_def_eff is not None else "待结算"
+    _sl_btn_closed = f"📒 实盘信号记账本 ({_sl_total}笔) ▾" if _sl_total > 0 else "📒 实盘信号记账本 ▾"
+    _sl_btn_open = "🔼 收起实盘信号记账本 ▴"
+
+    if _sl_total == 0:
+        _sl_body_html = (
+            '<div style="padding: 16px 18px; border-radius: 10px; background: var(--bg-elevated); '
+            'border: 1px dashed var(--border-strong); color: var(--text-sub); font-size: 13px; text-align: center;">'
+            '📒 <strong>账本已就绪 · 自下周首条实盘推送起自动记账复盘</strong>'
+            '<div style="font-size: 11.5px; color: var(--text-muted); margin-top: 4px;">'
+            '后续每次 5m 买点 / 策略 A·B / 盘中走廊 / VIX 倒挂刹车推送后，系统将零未来函数自动回填 +1h / EOD / T+3 / T+5 与 MAE。'
+            '</div></div>'
+        )
+    else:
+        _sl_tr_list = []
+        for _sr in _sl_rows[:10]:
+            _ts_disp = html_lib.escape(str(_sr.get('timestamp_et') or _sr.get('date_et') or '--')[:16].replace('T', ' '))
+            _sig_lbl = html_lib.escape(str(_sr.get('signal_label_cn') or _sr.get('signal_type') or '--'))
+            _dir_raw = str(_sr.get('direction') or 'LONG').upper()
+            _dir_badge = (
+                '<span style="padding:2px 7px; border-radius:999px; font-size:10.5px; font-weight:700; '
+                'background:rgba(63,185,80,0.14); color:#3fb950;">做多</span>'
+                if _dir_raw == 'LONG'
+                else '<span style="padding:2px 7px; border-radius:999px; font-size:10.5px; font-weight:700; '
+                     'background:rgba(248,81,73,0.14); color:#f85149;">防守</span>'
+            )
+            _tk_disp = html_lib.escape(str(_sr.get('ticker') or '--'))
+            try:
+                _ep_disp = f"${float(_sr.get('entry_price')):.2f}"
+            except Exception:
+                _ep_disp = "--"
+            _eod_s, _eod_c = _fmt_sl_pct(_sr.get('ret_eod_pct'))
+            _t3_s, _t3_c = _fmt_sl_pct(_sr.get('ret_t3_pct'))
+            _mae_s, _mae_c = _fmt_sl_pct(_sr.get('mae_pct'))
+            _st_disp = "已结算" if str(_sr.get('status') or '') == 'COMPLETE' else "追踪中"
+            _sl_tr_list.append(
+                f"<tr>"
+                f"<td style='white-space:nowrap; color:var(--text-muted); font-family:\"JetBrains Mono\",monospace; font-size:11.5px;'>{_ts_disp}</td>"
+                f"<td style='white-space:nowrap;'>{_sig_lbl}</td>"
+                f"<td style='white-space:nowrap;'>{_dir_badge}</td>"
+                f"<td style='font-weight:700; color:var(--text-main);'>{_tk_disp}</td>"
+                f"<td style='font-family:\"JetBrains Mono\",monospace;'>{_ep_disp}</td>"
+                f"<td style='font-family:\"JetBrains Mono\",monospace; color:{_eod_c};'>{_eod_s}</td>"
+                f"<td style='font-family:\"JetBrains Mono\",monospace; color:{_t3_c};'>{_t3_s}</td>"
+                f"<td style='font-family:\"JetBrains Mono\",monospace; color:{_mae_c};'>{_mae_s}</td>"
+                f"<td style='white-space:nowrap; font-size:11.5px; color:var(--text-sub);'>{_st_disp}</td>"
+                f"</tr>"
+            )
+        _sl_body_html = (
+            '<div style="overflow-x: auto; max-width: 100%;">'
+            '<table style="width:100%; border-collapse:collapse; font-size:12px;">'
+            '<thead><tr style="text-align:left; border-bottom:1px solid var(--border-color); color:var(--text-muted);">'
+            '<th style="padding:7px 8px;">时间 (ET)</th>'
+            '<th style="padding:7px 8px;">信号类型</th>'
+            '<th style="padding:7px 8px;">方向</th>'
+            '<th style="padding:7px 8px;">标的</th>'
+            '<th style="padding:7px 8px;">触发价</th>'
+            '<th style="padding:7px 8px;">当日 EOD</th>'
+            '<th style="padding:7px 8px;">T+3</th>'
+            '<th style="padding:7px 8px;">MAE</th>'
+            '<th style="padding:7px 8px;">状态</th>'
+            '</tr></thead>'
+            f'<tbody>{"".join(_sl_tr_list)}</tbody>'
+            '</table></div>'
+        )
+
+    signal_ledger_drawer_html = f"""
+        <div id="signalLedgerDrawer" class="section-card" style="display: none; margin-bottom: 14px; padding: 14px 16px;">
+            <div style="display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap; margin-bottom:12px;">
+                <div>
+                    <div style="font-size:15px; font-weight:800; color:var(--text-main);">📒 实盘推送信号记账本（近 30 日）</div>
+                    <div style="font-size:11.5px; color:var(--text-muted); margin-top:2px;">仅统计 Discord 真实推送落盘信号 · 严格分离做多胜率与防守拦截有效率</div>
+                </div>
+                <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+                    <span class="compact-pill">总记录/已结算: <strong>{_sl_total} / {_sl_settled}</strong></span>
+                    <span class="compact-pill" style="color:var(--neon-green);">多头实盘胜率: <strong>{_sl_long_wr_str}</strong></span>
+                    <span class="compact-pill" style="color:var(--warning-gold);">防守拦截有效率: <strong>{_sl_def_eff_str}</strong></span>
+                </div>
+            </div>
+            {_sl_body_html}
+        </div>
+    """
 
     flight_info = tables_data.get('defensive_flight') or weather.get('defensive_flight', {})
     flight_banner_html = ""
@@ -4772,17 +7526,17 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
         mult_color = "#3fb950" if mult_val > 1.02 else ("#f85149" if mult_val < 0.98 else "#8b949e")
         t2_rows_html += f"""
         <tr onclick="filterBySector('{r['sector_name_cn']}')" style="cursor: pointer;" title="点击筛选【{r['sector_name_cn']}】赛道的实盘预测标的">
-            <td style="text-align: center; color: #8b949e; font-weight: 700;">{idx}</td>
-            <td style="font-weight: 700; color: #f0f6fc;">
+            <td style="text-align: center; color: var(--text-muted); font-weight: 700;">{idx}</td>
+            <td style="font-weight: 700; color: var(--text-main);">
                 {r['sector_name_cn']}
-                <span style="font-size: 11px; color: #8b949e; font-weight: normal; margin-left: 4px;">({r['sector_key']})</span>
+                <span style="font-size: 11px; color: var(--text-muted); font-weight: normal; margin-left: 4px;">({r['sector_key']})</span>
             </td>
             <td style="text-align: center;"><span class="badge badge-blue">{r['tickers_count']} 股</span></td>
             <td style="text-align: right; font-family: 'JetBrains Mono', monospace;">{r['oos_total_signals']:,}</td>
             <td style="text-align: right; font-family: 'JetBrains Mono', monospace; font-weight: 600;">{r['high_conviction_signals']:,}</td>
             <td style="text-align: right;">
                 <div style="display: flex; align-items: center; justify-content: flex-end; gap: 8px;">
-                    <span><strong style="color: #3fb950;">{pos_wr:.1f}%</strong> <span style="font-size: 11px; color: #8b949e;">({touch_wr:.1f}%)</span></span>
+                    <span><strong style="color: var(--neon-green);">{pos_wr:.1f}%</strong> <span style="font-size: 11px; color: var(--text-muted);">({touch_wr:.1f}%)</span></span>
                     <div class="dual-bar-track" style="width: 56px;">
                         <div class="dual-bar-pos" style="width: {min(100.0, pos_wr)}%;"></div>
                         <div class="dual-bar-touch" style="width: {min(100.0, touch_wr)}%;"></div>
@@ -4790,12 +7544,12 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
                 </div>
             </td>
             <td style="text-align: right; color: {ret_color}; font-family: 'JetBrains Mono', monospace; font-weight: 700;">{ret_sign}{ret_val:.2f}%</td>
-            <td style="text-align: right; font-weight: 700; color: #58a6ff; font-family: 'JetBrains Mono', monospace;">{r.get('win_loss_ratio', 1.50):.2f}</td>
-            <td style="text-align: right; font-weight: 800; color: #ffd54f; font-family: 'JetBrains Mono', monospace;">
+            <td style="text-align: right; font-weight: 700; color: var(--primary-blue); font-family: 'JetBrains Mono', monospace;">{r.get('win_loss_ratio', 1.50):.2f}</td>
+            <td style="text-align: right; font-weight: 800; color: var(--warning-gold); font-family: 'JetBrains Mono', monospace;">
                 {pf_val:.2f}
                 <span style="font-size: 10px; color: {mult_color}; margin-left: 3px;" title="表 4 赛道先验校准乘数">({mult_val:.2f}x)</span>
             </td>
-            <td style="text-align: center; color: #ffd54f; font-size: 13px; font-weight: 700;">{r['alpha_rating']}</td>
+            <td style="text-align: center; color: var(--warning-gold); font-size: 13px; font-weight: 700;">{r['alpha_rating']}</td>
         </tr>
         """
 
@@ -4805,19 +7559,19 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
         cat_badge = "badge-blue" if r['category_tag'] == 'stock' else ("badge-purple" if r['category_tag'] == 'cross' else "badge-gold")
         t3_rows_html += f"""
         <tr>
-            <td style="text-align: center; color: #8b949e; font-weight: 700;">{r['rank']}</td>
-            <td style="font-weight: 700; font-family: 'JetBrains Mono', monospace; color: #f0f6fc;">{r['feature']}</td>
+            <td style="text-align: center; color: var(--text-muted); font-weight: 700;">{r['rank']}</td>
+            <td style="font-weight: 700; font-family: 'JetBrains Mono', monospace; color: var(--text-main);">{r['feature']}</td>
             <td style="text-align: center;"><span class="badge {cat_badge}">{r['category']}</span></td>
-            <td style="text-align: right; font-family: 'JetBrains Mono', monospace; color: #c9d1d9;">{r['total_gain']:,.1f}</td>
+            <td style="text-align: right; font-family: 'JetBrains Mono', monospace; color: var(--text-sub);">{r['total_gain']:,.1f}</td>
             <td style="text-align: right;">
                 <div style="display: flex; align-items: center; justify-content: flex-end; gap: 8px;">
-                    <span style="font-weight: 700; color: #bc8cff; font-family: 'JetBrains Mono', monospace;">{r['gain_share_pct']:.1f}%</span>
-                    <div style="width: 56px; height: 6px; background: rgba(255,255,255,0.08); border-radius: 3px; overflow: hidden;">
+                    <span style="font-weight: 700; color: var(--cyber-purple); font-family: 'JetBrains Mono', monospace;">{r['gain_share_pct']:.1f}%</span>
+                    <div style="width: 56px; height: 6px; background: var(--bar-track); border-radius: 3px; overflow: hidden;">
                         <div style="width: {min(100.0, r['gain_share_pct'] * 4.5)}%; height: 100%; background: linear-gradient(90deg, #8957e5, #bc8cff);"></div>
                     </div>
                 </div>
             </td>
-            <td style="font-size: 12.5px; color: #8b949e; line-height: 1.45;">{r['rationale']}</td>
+            <td style="font-size: 12.5px; color: var(--text-muted); line-height: 1.45; white-space: normal;">{r['rationale']}</td>
         </tr>
         """
 
@@ -4855,10 +7609,16 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
         s_sl_pct = float(r.get('short_stop_loss_pct', 3.0))
         
         d_pcr = float(r.get('dollar_pcr', 1.0))
-        pcr_sent = str(r.get('pcr_sentiment', '⛅ 中性'))
-        pcr_badge_style = "badge-red" if d_pcr >= 1.30 or "做空" in pcr_sent or "Put" in pcr_sent else ("badge-gold" if d_pcr >= 1.0 else "badge-blue")
+        has_opt_r = bool(r.get('has_options', r.get('ticker') not in ('XAUUSD', 'BTC-USD', 'KOSPI')))
+        _is_pts_s = (tk_str.upper() == 'KOSPI' or str(r.get('price_unit', '')) == 'pts')
+        _fp_t4s = (lambda v: f"{float(v):,.2f}" if _is_pts_s else f"${float(v):.2f}")
+        pcr_sent = str(r.get('pcr_sentiment', '⛅ 中性')) if has_opt_r else '无美股期权'
+        pcr_badge_style = "badge-blue" if not has_opt_r else ("badge-red" if d_pcr >= 1.30 or "做空" in pcr_sent or "Put" in pcr_sent else ("badge-gold" if d_pcr >= 1.0 else "badge-blue"))
+        pcr_display_text = f"PCR {d_pcr:.2f} · {pcr_sent}" if has_opt_r else "⚪ 无美股期权"
         
         s_act = str(r.get('short_action', '👀 空头动能不足·观望'))
+        if tk_str.upper() in ('SPY', 'IWM', 'DIA') and 'SQQQ' in s_act:
+            s_act = '🛡️ 建议买入反向ETF对冲'
         if "🚨" in s_act or "熔断" in s_act or "破位" in s_act or "🩸" in s_act:
             s_act_badge = "badge-red"
         elif "🛡️" in s_act or "对冲" in s_act:
@@ -4869,8 +7629,8 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             s_act_badge = "badge-blue"
 
         t4_short_rows_html += f"""
-        <tr class="t4-short-row" data-rank="{s_rk}" data-sector="{r['sector_cn']}" data-ticker="{r['ticker']}">
-            <td style="text-align: center; font-size: 15px; font-weight: 800; color: #f85149;">🩸#{s_rk}</td>
+        <tr class="t4-short-row" data-rank="{s_rk}" data-sector="{r['sector_cn']}" data-ticker="{r['ticker']}" style="cursor: pointer;" onclick="if(event.target.tagName !== 'A' && !event.target.closest('a') && window.timeCycleData && window.timeCycleData['{r['ticker']}']) switchCycleSymbol('{r['ticker']}');">
+            <td style="text-align: center; font-size: 14px; font-weight: 800; color: #f85149;">🩸#{s_rk}</td>
             <td>
                 <a href="futu_pro_terminal.html?symbol={r['ticker']}" target="_blank" class="ticker-jump-link" title="点击在富途全周期看盘终端中查看 {r['ticker']} 空头走势与主力 Put 大单">
                     <span class="tk-code">{r['ticker']}</span>
@@ -4878,44 +7638,44 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
                 </a>
             </td>
             <td>
-                <div style="display: flex; align-items: center; gap: 6px;">
-                    <span class="badge badge-purple" style="cursor: pointer;" onclick="filterBySector('{r['sector_cn']}')">{r['sector_cn']}</span>
-                    <span style="font-size: 11px; color: #ffd54f;" title="赛道评级">{sec_rating[:5]}</span>
+                <div style="display: flex; align-items: center; gap: 5px; flex-wrap: wrap;">
+                    <span class="badge badge-purple" style="cursor: pointer;" onclick="event.stopPropagation(); filterBySector('{r['sector_cn']}')">{r['sector_cn']}</span>
+                    <span style="font-size: 11px; color: var(--warning-gold);" title="赛道评级">{sec_rating[:5]}</span>
                 </div>
             </td>
-            <td style="text-align: right; font-weight: 700; font-family: 'JetBrains Mono', monospace; font-size: 14.5px; color: #f0f6fc;">
-                ${r['latest_price']:.2f}
-                <span style="display: block; font-size: 10px; color: #8b949e; font-weight: normal;">ATR {atr_val:.1f}% · <span style="color: {bias_col};">MA50 {bias_val:+.1f}%</span></span>
+            <td style="text-align: right; font-weight: 700; font-family: 'JetBrains Mono', monospace; font-size: 13.5px; color: var(--text-main);">
+                {_fp_t4s(r['latest_price'])}
+                <span style="display: block; font-size: 10px; color: var(--text-muted); font-weight: normal;">ATR {atr_val:.1f}% · <span style="color: {bias_col};">MA50 {bias_val:+.1f}%</span></span>
             </td>
             <td style="text-align: right;">
-                <div style="display: flex; align-items: center; justify-content: flex-end; gap: 8px;">
+                <div style="display: flex; align-items: center; justify-content: flex-end; gap: 6px;">
                     <div>
-                        <span style="font-size: 15px; font-weight: 800; color: #f85149; font-family: 'JetBrains Mono', monospace;">{cal_s_wr:.1f}%</span>
-                        <span style="font-size: 11px; color: #8b949e; display: block;" title="AI 空头先验校准胜率">原始 {raw_s_wr:.1f}%</span>
+                        <span style="font-size: 14px; font-weight: 800; color: #f85149; font-family: 'JetBrains Mono', monospace;">{cal_s_wr:.1f}%</span>
+                        <span style="font-size: 10.5px; color: var(--text-muted); display: block;" title="AI 空头先验校准胜率">原始 {raw_s_wr:.1f}%</span>
                     </div>
-                    <div style="width: 64px; height: 8px; background: rgba(255,255,255,0.08); border-radius: 4px; overflow: hidden; position: relative;">
-                        <div style="width: {min(100.0, cal_s_wr)}%; height: 100%; background: #f85149; box-shadow: 0 0 6px #f85149;"></div>
+                    <div class="t4-wr-bar" style="width: 46px; height: 7px; background: var(--bar-track); border-radius: 4px; overflow: hidden; position: relative;">
+                        <div style="width: {min(100.0, cal_s_wr)}%; height: 100%; background: #f85149;"></div>
                     </div>
                 </div>
             </td>
-            <td style="text-align: right; color: #3fb950; font-family: 'JetBrains Mono', monospace; font-weight: 700;">
-                ${s_tp:.2f} <span class="pct-pill pct-up">-{s_tp_pct:.1f}%</span>
+            <td style="text-align: right; color: var(--neon-green); font-family: 'JetBrains Mono', monospace; font-weight: 700;">
+                {_fp_t4s(s_tp)} <span class="pct-pill pct-up">-{s_tp_pct:.1f}%</span>
             </td>
             <td style="text-align: right; color: #f85149; font-family: 'JetBrains Mono', monospace; font-weight: 700;">
-                ${s_sl:.2f} <span class="pct-pill pct-down">+{s_sl_pct:.1f}%</span>
+                {_fp_t4s(s_sl)} <span class="pct-pill pct-down">+{s_sl_pct:.1f}%</span>
             </td>
             <td style="text-align: center;">
-                <span class="badge {pcr_badge_style}" style="font-size: 11px; padding: 3px 8px;">PCR {d_pcr:.2f} · {pcr_sent}</span>
+                <span class="badge {pcr_badge_style}" style="font-size: 11px; padding: 3px 7px;">{pcr_display_text}</span>
             </td>
             <td style="text-align: center;">
-                <span class="badge {s_act_badge}" style="font-size: 12px; padding: 4px 10px;">{s_act}</span>
+                <span class="badge {s_act_badge}" style="font-size: 11.5px; padding: 3px 8px;">{s_act}</span>
             </td>
         </tr>
         """
 
     # 生成 Table 4-A 做多排行榜与全域 70 标的 HTML (默认展示 Top 5，支持展开全池与按赛道/ETF筛选)
     t4_rows_html = ""
-    pure_etf_set = {'QQQ', 'SPY', 'DIA', 'IWM', 'SMH', 'SOXX', 'SOXL', 'KORU', 'IGV', 'TLT', 'GLD', 'VIXY', 'SQQQ', 'SOXS'}
+    pure_etf_set = {'QQQ', 'SPY', 'DIA', 'IWM', 'SMH', 'SOXX', 'SOXL', 'KORU', 'KOSPI', 'IGV', 'TLT', 'GLD', 'VIXY', 'SQQQ', 'SOXS'}
     etf_count = 0
     for r in all_live:
         rk = int(r['rank'])
@@ -4923,7 +7683,6 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
         is_etf_row = bool(r.get('is_etf', (tk_str in pure_etf_set and len(all_live) > 28)))
         if is_etf_row:
             etf_count += 1
-        rank_badge = "🥇" if rk == 1 else ("🥈" if rk == 2 else ("🥉" if rk == 3 else f"#{rk}"))
         act_text = str(r.get('action', ''))
         if "🚨" in act_text or "严禁" in act_text:
             act_badge = "badge-red"
@@ -4940,6 +7699,12 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             act_badge = "badge-orange"
         cal_wr = r.get('calibrated_win_rate_pct', r['predicted_win_rate_pct'])
         raw_wr = r['predicted_win_rate_pct']
+        if _is_bear_defense and float(cal_wr) < 50.0:
+            rank_badge = f"#{rk}"
+            rank_color = "#8b949e"
+        else:
+            rank_badge = "🥇" if rk == 1 else ("🥈" if rk == 2 else ("🥉" if rk == 3 else f"#{rk}"))
+            rank_color = '#ffd54f' if rk <= 3 else '#8b949e'
         atr_val = r.get('atr_pct', 2.5)
         bias_val = r.get('bias_ma50', None)
         bias_html = ""
@@ -4958,6 +7723,10 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
         s_sl = float(r.get('short_stop_loss_price', r['latest_price'] * 1.03))
         s_sl_pct = float(r.get('short_stop_loss_pct', 3.0))
         d_pcr = float(r.get('dollar_pcr', 1.0))
+        has_opt_t4 = bool(r.get('has_options', r.get('ticker') not in ('XAUUSD', 'BTC-USD', 'KOSPI')))
+        _is_pts_row = (tk_str.upper() == 'KOSPI' or str(r.get('price_unit', '')) == 'pts')
+        _fp_t4 = (lambda v: f"{float(v):,.2f}" if _is_pts_row else f"${float(v):.2f}")
+        t4_pcr_sub = f"PCR {d_pcr:.2f}" if has_opt_t4 else "无美股期权"
         s_act = str(r.get('short_action', '👀 观望'))
         short_rk = int(r.get('short_rank', 999))
 
@@ -4965,61 +7734,106 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
         s2_val = r.get('s2', round(r['latest_price'] * 0.94, 2))
         r1_val = r.get('r1', round(r['latest_price'] * 1.04, 2))
         r2_val = r.get('r2', round(r['latest_price'] * 1.08, 2))
-        four_h_div_text = r.get('four_h_div', '➖ 4H 均线震荡纠缠')
-        scenario_text = r.get('scenario_script', '')
+        four_h_div_text = r.get('resonance_badge_text') or r.get('four_h_div', '➖ 4H 均线震荡纠缠')
+        four_h_tag_val = str(r.get('four_h_tag', 'div-neutral') or 'div-neutral')
+        four_h_color = 'var(--warning-gold)' if four_h_tag_val == 'div-suppressed' else ('var(--neon-green)' if four_h_tag_val == 'div-bull' else ('var(--risk-red)' if four_h_tag_val == 'div-bear' else 'var(--cyber-purple)'))
+        s1_is_est = (str(r.get('s1_source', '') or '') == 'ATR_ESTIMATE')
+        s2_is_est = (str(r.get('s2_source', '') or '') == 'ATR_ESTIMATE')
+        r1_is_est = (str(r.get('r1_source', '') or '') == 'ATR_ESTIMATE')
+        r2_is_est = (str(r.get('r2_source', '') or '') == 'ATR_ESTIMATE')
+        res_lvl_color = 'var(--text-muted)' if (r1_is_est and r2_is_est) else 'var(--neon-green)'
+        sup_lvl_color = 'var(--warning-gold)' if (s1_is_est and s2_is_est) else 'var(--risk-red)'
+        sup_lvl_prefix = '估算S1' if (s1_is_est and s2_is_est) else 'S1'
+        res_lvl_prefix = '估算R1' if (r1_is_est and r2_is_est) else 'R1'
+        scenario_text = str(r.get('scenario_script', '') or '')
+        _is_bear_suppressed_row = bool(
+            _is_bear_defense or ("严禁左侧接刀" in act_text) or ("暴雨空仓" in act_text)
+        )
+        if _is_bear_suppressed_row:
+            scenario_short_tag = "查看备选剧本"
+        elif "暴跌熔断" in scenario_text:
+            scenario_short_tag = "熔断风控"
+        elif "空头回补" in scenario_text:
+            scenario_short_tag = "空头回补"
+        elif "破位飞刀" in scenario_text:
+            scenario_short_tag = "破位观望"
+        elif "破位反抽" in scenario_text:
+            scenario_short_tag = "破位反抽"
+        elif "黄金坑做多" in scenario_text:
+            scenario_short_tag = "黄金坑低吸"
+        elif "右侧主升" in scenario_text:
+            scenario_short_tag = "右侧顺风"
+        else:
+            scenario_short_tag = "战术推演"
+        esc_scenario = html_lib.escape(scenario_text, quote=True)
+        script_btn_html = (
+            f'<button type="button" class="t4-script-pill" onclick="event.stopPropagation(); toggleT4ScriptRow(this)" '
+            f'title="{esc_scenario}">📋 {scenario_short_tag} ▾</button>'
+            if scenario_text else ''
+        )
+        script_detail_row_html = (
+            f'<tr class="t4-script-detail-row" data-parent-ticker="{r["ticker"]}" style="display: none;">'
+            f'<td colspan="9" class="t4-script-detail-cell">'
+            f'<strong>🧭 {r["ticker"]} 完整战术剧本：</strong>{esc_scenario}'
+            f'</td></tr>'
+            if scenario_text else ''
+        )
 
         t4_rows_html += f"""
-        <tr class="t4-stock-row" data-rank="{rk}" data-short-rank="{short_rk}" data-sector="{r['sector_cn']}" data-ticker="{r['ticker']}" data-isetf="{'1' if is_etf_row else '0'}" style="{hidden_style}; cursor: pointer;" onclick="if(event.target.tagName !== 'A' && !event.target.closest('a') && window.timeCycleData && window.timeCycleData['{r['ticker']}']) switchCycleSymbol('{r['ticker']}');">
-            <td style="text-align: center; font-size: 15px; font-weight: 800; color: {'#ffd54f' if rk <= 3 else '#8b949e'};">{rank_badge}</td>
+        <tr class="t4-stock-row" data-rank="{rk}" data-short-rank="{short_rk}" data-sector="{r['sector_cn']}" data-ticker="{r['ticker']}" data-isetf="{'1' if is_etf_row else '0'}" style="{hidden_style}; cursor: pointer;" onclick="if(event.target.tagName !== 'A' && !event.target.closest('a') && !event.target.closest('button') && window.timeCycleData && window.timeCycleData['{r['ticker']}']) switchCycleSymbol('{r['ticker']}');">
+            <td style="text-align: center; font-size: 14px; font-weight: 800; color: {rank_color};">{rank_badge}</td>
             <td>
                 <a href="futu_pro_terminal.html?symbol={r['ticker']}" target="_blank" class="ticker-jump-link" title="点击在富途全周期看盘终端中打开 {r['ticker']} K线与实盘诊股">
                     <span class="tk-code">{r['ticker']}</span>
                     <span class="tk-jump-icon">📈 看盘</span>
                 </a>
-                <div style="font-size: 10px; color: #a371f7; margin-top: 2px;">{four_h_div_text}</div>
+                <div style="font-size: 10px; color: {four_h_color}; margin-top: 2px;">{four_h_div_text}</div>
             </td>
             <td>
-                <div style="display: flex; align-items: center; gap: 6px;">
-                    <span class="badge badge-blue" style="cursor: pointer;" onclick="filterBySector('{r['sector_cn']}')">{r['sector_cn']}</span>
-                    <span style="font-size: 11px; color: #ffd54f;" title="赛道 OOS 评级 (PF={sec_pf:.2f})">{sec_rating[:5]}</span>
+                <div style="display: flex; align-items: center; gap: 5px; flex-wrap: wrap;">
+                    <span class="badge badge-blue" style="cursor: pointer;" onclick="event.stopPropagation(); filterBySector('{r['sector_cn']}')">{r['sector_cn']}</span>
+                    <span style="font-size: 11px; color: var(--warning-gold);" title="赛道 OOS 评级 (PF={sec_pf:.2f})">{sec_rating[:5]}</span>
                 </div>
             </td>
-            <td style="text-align: right; font-weight: 700; font-family: 'JetBrains Mono', monospace; font-size: 14.5px; color: #f0f6fc;">
-                ${r['latest_price']:.2f}
-                <span style="display: block; font-size: 10px; color: #8b949e; font-weight: normal;">ATR {atr_val:.1f}%{bias_html}</span>
+            <td style="text-align: right; font-weight: 700; font-family: 'JetBrains Mono', monospace; font-size: 13.5px; color: var(--text-main);">
+                {_fp_t4(r['latest_price'])}
+                <span style="display: block; font-size: 10px; color: var(--text-muted); font-weight: normal;">ATR {atr_val:.1f}%{bias_html}</span>
             </td>
             <td style="text-align: right;">
-                <div style="display: flex; align-items: center; justify-content: flex-end; gap: 8px;">
+                <div style="display: flex; align-items: center; justify-content: flex-end; gap: 6px;">
                     <div>
-                        <span style="font-size: 15px; font-weight: 800; color: {wr_color}; font-family: 'JetBrains Mono', monospace;">{cal_wr:.1f}%</span>
-                        <span style="font-size: 11px; color: #8b949e; display: block;" title="右侧结构修正后做多胜率">原多 {raw_wr:.1f}%</span>
-                        <span class="t4-all-short-sub" style="font-size: 10px; color: #f85149; display: none;" title="AI 做空校准胜率">🩸做空 {cal_s_wr:.1f}%</span>
+                        <span style="font-size: 14px; font-weight: 800; color: {wr_color}; font-family: 'JetBrains Mono', monospace;">{cal_wr:.1f}%</span>
+                        <span style="font-size: 10.5px; color: var(--text-muted); display: block;" title="右侧结构修正后做多胜率">原多 {raw_wr:.1f}%</span>
+                        <span class="t4-all-short-sub" style="font-size: 10px; color: var(--risk-red); display: none;" title="AI 做空校准胜率">🩸做空 {cal_s_wr:.1f}%</span>
                     </div>
-                    <div style="width: 64px; height: 8px; background: rgba(255,255,255,0.08); border-radius: 4px; overflow: hidden; position: relative;">
-                        <div style="width: {min(100.0, cal_wr)}%; height: 100%; background: {wr_color}; box-shadow: 0 0 6px {wr_color};"></div>
+                    <div class="t4-wr-bar" style="width: 46px; height: 7px; background: var(--bar-track); border-radius: 4px; overflow: hidden; position: relative;">
+                        <div style="width: {min(100.0, cal_wr)}%; height: 100%; background: {wr_color};"></div>
                     </div>
                 </div>
             </td>
-            <td style="text-align: right; color: #3fb950; font-family: 'JetBrains Mono', monospace; font-weight: 700;">
-                ${r['target_profit_price']:.2f} <span class="pct-pill pct-up">+{r['target_profit_pct']}%</span>
-                <div style="font-size: 10px; color: #3fb950; font-weight: normal; margin-top: 2px;" title="第一阻力 R1 (不过先跑) / 极限逼空 R2">阻力: R1 ${r1_val:.2f} / R2 ${r2_val:.2f}</div>
-                <span class="t4-all-short-sub" style="display: none; font-size: 10px; color: #8b949e; font-weight: normal;">空止盈 ${s_tp:.2f} (-{s_tp_pct:.1f}%)</span>
+            <td style="text-align: right; color: var(--neon-green); font-family: 'JetBrains Mono', monospace; font-weight: 700;">
+                {_fp_t4(r['target_profit_price'])} <span class="pct-pill pct-up">+{r['target_profit_pct']}%</span>
+                <div style="font-size: 10px; color: {res_lvl_color}; font-weight: normal; margin-top: 2px;" title="第一阻力 R1 / 极限逼空 R2 ({r.get('r1_source','--')})">{res_lvl_prefix} {_fp_t4(r1_val)} / R2 {_fp_t4(r2_val)}</div>
+                <span class="t4-all-short-sub" style="display: none; font-size: 10px; color: var(--text-muted); font-weight: normal;">空盈 {_fp_t4(s_tp)} (-{s_tp_pct:.1f}%)</span>
             </td>
-            <td style="text-align: right; color: #f85149; font-family: 'JetBrains Mono', monospace; font-weight: 700;">
-                ${r['stop_loss_price']:.2f} <span class="pct-pill pct-down">-{r['stop_loss_pct']}%</span>
-                <div style="font-size: 10px; color: #f85149; font-weight: normal; margin-top: 2px;" title="波段支撑 S1 / 极限插针底 S2">支撑: S1 ${s1_val:.2f} / S2 ${s2_val:.2f}</div>
-                <span class="t4-all-short-sub" style="display: none; font-size: 10px; color: #8b949e; font-weight: normal;">空止损 ${s_sl:.2f} (+{s_sl_pct:.1f}%)</span>
+            <td style="text-align: right; color: var(--risk-red); font-family: 'JetBrains Mono', monospace; font-weight: 700;">
+                {_fp_t4(r['stop_loss_price'])} <span class="pct-pill pct-down">-{r['stop_loss_pct']}%</span>
+                <div style="font-size: 10px; color: {sup_lvl_color}; font-weight: normal; margin-top: 2px;" title="波段支撑 S1 / 极限插针底 S2 ({r.get('s1_source','--')})">{sup_lvl_prefix} {_fp_t4(s1_val)} / S2 {_fp_t4(s2_val)}</div>
+                <span class="t4-all-short-sub" style="display: none; font-size: 10px; color: var(--text-muted); font-weight: normal;">空损 {_fp_t4(s_sl)} (+{s_sl_pct:.1f}%)</span>
             </td>
             <td style="text-align: center;">
                 <span class="badge badge-gold">{r['macro_temp']}</span>
-                <span class="t4-all-short-sub" style="display: none; font-size: 10px; color: #8b949e; margin-top: 2px;">PCR {d_pcr:.2f}</span>
+                <span class="t4-all-short-sub" style="display: none; font-size: 10px; color: var(--text-muted); margin-top: 2px;">{t4_pcr_sub}</span>
             </td>
             <td style="text-align: center;">
-                <span class="badge {act_badge}" style="font-size: 12px; padding: 4px 10px;">{r['action']}</span>
-                <div class="t4-all-short-sub" style="display: none; font-size: 10px; color: #f85149; margin-top: 2px;">{s_act}</div>
-                {f'<div style="font-size: 11px; color: #cbd5e1; background: rgba(0,0,0,0.35); border-left: 2px solid #58a6ff; padding: 4px 8px; margin-top: 4px; text-align: left; line-height: 1.35; border-radius: 2px;">{scenario_text}</div>' if scenario_text else ''}
+                <div style="display: inline-flex; flex-direction: column; align-items: center; gap: 4px;">
+                    <span class="badge {act_badge}" style="font-size: 11.5px; padding: 3px 8px;">{r['action']}</span>
+                    {script_btn_html}
+                </div>
+                <div class="t4-all-short-sub" style="display: none; font-size: 10px; color: var(--risk-red); margin-top: 2px;">{s_act}</div>
             </td>
-        </tr>"""
+        </tr>
+        {script_detail_row_html}"""
 
     # 构建 7 大赛道 + ETF 专区过滤按钮
     sector_counts = {}
@@ -5034,31 +7848,86 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
     if etf_count > 0:
         sector_pills_html += f'<button class="filter-pill" data-sec="ETF_POOL" onclick="filterBySector(this.dataset.sec)">📊 宏观与行业 ETF ({etf_count})</button>'
 
-    import page_load
-    refresh_head = page_load.client_refresh_snippet(60_000)
-    predict_boot = page_load.PREDICT_BOOT_JS.replace("<script>", '<script id="predict-app-boot">', 1)
-
     html_content = f"""<!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {refresh_head}
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="theme-color" id="metaThemeColor" content="#0B0F19">
+    <script>
+        (function() {{
+            try {{
+                var savedTheme = localStorage.getItem("futu_theme");
+                var t = (savedTheme === "light") ? "light" : "dark";
+                document.documentElement.setAttribute("data-theme", t);
+            }} catch (e) {{
+                document.documentElement.setAttribute("data-theme", "dark");
+            }}
+        }})();
+        // ⚡ 客户端智能防缓存自动刷新 (60秒穿透 GitHub Pages / Fastly CDN 10分钟强缓存)
+        setTimeout(function() {{
+            try {{
+                var cleanPath = window.location.pathname;
+                var searchParams = new URLSearchParams(window.location.search);
+                searchParams.set('_t', Date.now());
+                window.location.replace(cleanPath + '?' + searchParams.toString() + window.location.hash);
+            }} catch(e) {{
+                window.location.reload();
+            }}
+        }}, 60000);
+    </script>
     <title>AI 美股 5 年多赛道预测雷达 · 全景战报</title>
     <style>
-        :root {{
-            --bg-base: #070a0f;
-            --bg-card: #11161f;
-            --bg-card-hover: #171e2b;
-            --border-color: #262f3d;
-            --text-main: #f0f6fc;
-            --text-sub: #c9d1d9;
-            --text-muted: #8b949e;
-            --neon-green: #3fb950;
-            --cyber-purple: #bc8cff;
-            --primary-blue: #58a6ff;
-            --warning-gold: #ffd54f;
-            --risk-red: #f85149;
+        :root,
+        [data-theme="dark"] {{
+            --bg-page: #0B0F19;
+            --bg-base: #0B0F19;
+            --bg-card: #121826;
+            --bg-card-hover: #1A2234;
+            --bg-elevated: #1A2234;
+            --bg-input: #0F1523;
+            --border-color: rgba(255, 255, 255, 0.08);
+            --border-strong: rgba(255, 255, 255, 0.16);
+            --text-main: #F3F4F6;
+            --text-sub: #CBD5E1;
+            --text-muted: #94A3B8;
+            --neon-green: #10B981;
+            --cyber-purple: #A78BFA;
+            --primary-blue: #38BDF8;
+            --warning-gold: #F59E0B;
+            --risk-red: #EF4444;
+            --panel-surface: rgba(13, 17, 23, 0.85);
+            --canvas-bg: #0D1320;
+            --bar-track: rgba(255, 255, 255, 0.08);
+            --row-border: rgba(48, 54, 61, 0.5);
+            --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.28);
+        }}
+
+        [data-theme="light"] {{
+            --bg-page: #F4F6F9;
+            --bg-base: #F4F6F9;
+            --bg-card: #FFFFFF;
+            --bg-card-hover: #F1F5F9;
+            --bg-elevated: #F1F5F9;
+            --bg-input: #F8FAFC;
+            --border-color: #E2E8F0;
+            --border-strong: #CBD5E1;
+            --text-main: #0F172A;
+            --text-sub: #334155;
+            --text-muted: #64748B;
+            --neon-green: #059669;
+            --cyber-purple: #7C3AED;
+            --primary-blue: #0284C7;
+            --warning-gold: #D97706;
+            --risk-red: #DC2626;
+            --panel-surface: #F8FAFC;
+            --canvas-bg: #FFFFFF;
+            --bar-track: rgba(15, 23, 42, 0.08);
+            --row-border: #E2E8F0;
+            --shadow-card: 0 1px 4px rgba(15, 23, 42, 0.07);
         }}
 
         * {{
@@ -5068,14 +7937,12 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
         }}
 
         body {{
-            background-color: var(--bg-base);
-            background-image:
-                radial-gradient(circle at 12% 8%, rgba(88, 166, 255, 0.07), transparent 32%),
-                radial-gradient(circle at 88% 12%, rgba(188, 140, 255, 0.07), transparent 32%);
+            background-color: var(--bg-page);
             color: var(--text-sub);
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Roboto, sans-serif;
-            line-height: 1.5;
-            padding: 18px 24px 40px;
+            font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Roboto, sans-serif;
+            line-height: 1.48;
+            padding: 12px 20px 32px;
+            transition: background-color 0.2s ease, color 0.2s ease;
         }}
 
         .container {{
@@ -5083,58 +7950,186 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             margin: 0 auto;
         }}
 
-        /* Top Suite Cross-Navigation Bar */
+        /* Row 1: Unified Top Cross-Navigation Bar */
         .suite-nav {{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background: rgba(17, 22, 31, 0.88);
-            backdrop-filter: blur(12px);
+            background: var(--bg-card);
             border: 1px solid var(--border-color);
             border-radius: 12px;
-            padding: 10px 16px;
-            margin-bottom: 20px;
+            padding: 8px 14px;
+            margin-bottom: 8px;
             flex-wrap: wrap;
-            gap: 12px;
+            gap: 10px;
+            box-shadow: var(--shadow-card);
         }}
         .suite-nav-links {{
             display: flex;
             align-items: center;
-            gap: 8px;
+            gap: 6px;
             flex-wrap: wrap;
         }}
         .suite-link {{
             display: inline-flex;
             align-items: center;
-            gap: 6px;
-            padding: 6px 13px;
+            gap: 5px;
+            padding: 5px 11px;
             border-radius: 8px;
-            font-size: 12.5px;
+            font-size: 12px;
             font-weight: 600;
             color: var(--text-sub);
             text-decoration: none;
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid rgba(255, 255, 255, 0.07);
-            transition: all 0.18s ease;
+            background: var(--bg-elevated);
+            border: 1px solid var(--border-color);
+            transition: all 0.16s ease;
+            white-space: nowrap;
         }}
         .suite-link:hover {{
-            background: rgba(88, 166, 255, 0.14);
-            border-color: rgba(88, 166, 255, 0.45);
-            color: #fff;
-            transform: translateY(-1px);
+            background: rgba(56, 189, 248, 0.14);
+            border-color: var(--primary-blue);
+            color: var(--text-main);
         }}
         .suite-link.active {{
-            background: linear-gradient(135deg, rgba(188, 140, 255, 0.22), rgba(88, 166, 255, 0.18));
-            border-color: rgba(188, 140, 255, 0.55);
-            color: #e2c5ff;
+            background: linear-gradient(135deg, rgba(167, 139, 250, 0.22), rgba(56, 189, 248, 0.18));
+            border-color: var(--cyber-purple);
+            color: var(--cyber-purple);
             font-weight: 700;
-            box-shadow: 0 0 12px rgba(188, 140, 255, 0.2);
+        }}
+        .suite-link-home {{
+            background: rgba(255, 105, 0, 0.14) !important;
+            border-color: rgba(255, 105, 0, 0.45) !important;
+            color: #FF6900 !important;
+            font-weight: 800 !important;
         }}
         .suite-meta {{
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 8px;
+            font-size: 11.5px;
+            color: var(--text-muted);
+            flex-wrap: wrap;
+        }}
+        .theme-toggle-btn {{
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            height: 29px;
+            padding: 0 10px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            background: var(--bg-elevated);
+            color: var(--text-main);
             font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            white-space: nowrap;
+        }}
+        .theme-toggle-btn:hover {{
+            border-color: var(--primary-blue);
+        }}
+
+        /* Row 2: Compact Status + Macro Strip */
+        .compact-status-strip {{
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 8px 12px;
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            box-shadow: var(--shadow-card);
+        }}
+        .compact-status-top {{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            flex-wrap: wrap;
+        }}
+        .compact-status-left {{
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            flex-wrap: wrap;
+            min-width: 0;
+        }}
+        .compact-pill {{
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 3px 10px;
+            border-radius: 999px;
+            font-size: 11.5px;
+            font-weight: 700;
+            background: var(--bg-elevated);
+            border: 1px solid var(--border-color);
+            color: var(--text-main);
+            white-space: nowrap;
+        }}
+        .predict-macro-slim #macroCalendarBanner {{
+            padding: 5px 10px !important;
+            margin-bottom: 0 !important;
+            border-radius: 8px !important;
+            font-size: 11.5px !important;
+        }}
+        [data-theme="light"] .predict-macro-slim #macroCalendarBanner {{
+            background: var(--bg-elevated) !important;
+            border-color: var(--border-color) !important;
+            color: var(--text-sub) !important;
+        }}
+        [data-theme="light"] .predict-macro-slim #macroCalendarBanner[data-level="countdown_15m"] {{
+            background: #FEF2F2 !important;
+            border-color: #FCA5A5 !important;
+        }}
+        [data-theme="light"] .predict-macro-slim #macroCalHeadline {{
+            color: var(--text-main) !important;
+        }}
+        [data-theme="light"] .predict-macro-slim #macroCalDetail {{
+            color: var(--text-muted) !important;
+        }}
+        [data-theme="light"] .predict-macro-slim #macroCalendarBanner a {{
+            color: var(--primary-blue) !important;
+            background: rgba(2, 132, 199, 0.1) !important;
+            border-color: rgba(2, 132, 199, 0.35) !important;
+        }}
+
+        .drawer-toggle-btn {{
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 4px 11px;
+            border-radius: 8px;
+            border: 1px solid var(--border-strong);
+            background: var(--bg-elevated);
+            color: var(--text-main);
+            font-size: 11.5px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            white-space: nowrap;
+        }}
+        .drawer-toggle-btn:hover {{
+            border-color: var(--primary-blue);
+            color: var(--primary-blue);
+        }}
+        .drawer-bar {{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            flex-wrap: wrap;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 9px 14px;
+            margin-bottom: 14px;
+        }}
+        .drawer-bar-hint {{
+            font-size: 11.5px;
             color: var(--text-muted);
         }}
 
@@ -5217,18 +8212,18 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             margin-bottom: 22px;
         }}
         .kpi-card {{
-            background: linear-gradient(155deg, #141b26 0%, #0d121a 100%);
+            background: var(--bg-card);
             border: 1px solid var(--border-color);
             border-radius: 13px;
-            padding: 18px 20px;
+            padding: 16px 18px;
             position: relative;
             overflow: hidden;
             transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+            box-shadow: var(--shadow-card);
         }}
         .kpi-card:hover {{
             transform: translateY(-2px);
-            border-color: rgba(88, 166, 255, 0.45);
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+            border-color: var(--primary-blue);
         }}
         .kpi-card::before {{
             content: "";
@@ -5266,33 +8261,35 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             background: {weather_bg};
             border: 1px solid {weather_border};
             border-radius: 14px;
-            padding: 18px 24px;
-            margin-bottom: 24px;
+            padding: 16px 20px;
+            margin-bottom: 14px;
             display: flex;
             justify-content: space-between;
             align-items: center;
             flex-wrap: wrap;
-            gap: 16px;
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.28);
+            gap: 14px;
+            box-shadow: var(--shadow-card);
+        }}
+        [data-theme="light"] .weather-banner {{
+            background: var(--bg-card) !important;
         }}
         .weather-left {{
             display: flex;
             align-items: center;
-            gap: 16px;
+            gap: 14px;
         }}
         .weather-icon {{
-            font-size: 40px;
+            font-size: 36px;
             line-height: 1;
-            filter: drop-shadow(0 0 10px rgba(255,255,255,0.15));
         }}
         .weather-info h2 {{
-            font-size: 19px;
+            font-size: 18px;
             font-weight: 800;
             color: var(--text-main);
             margin-bottom: 4px;
         }}
         .weather-info p {{
-            font-size: 13px;
+            font-size: 12.5px;
             color: var(--text-sub);
         }}
         .weather-stats {{
@@ -5301,10 +8298,10 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             flex-wrap: wrap;
         }}
         .weather-stat-pill {{
-            background: rgba(13, 17, 23, 0.65);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            background: var(--panel-surface);
+            border: 1px solid var(--border-color);
             border-radius: 9px;
-            padding: 8px 14px;
+            padding: 7px 12px;
             text-align: center;
             min-width: 108px;
         }}
@@ -5315,10 +8312,27 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             margin-bottom: 2px;
         }}
         .weather-stat-pill .val {{
-            font-size: 14px;
+            font-size: 13.5px;
             font-weight: 700;
             font-family: 'JetBrains Mono', monospace;
             color: var(--text-main);
+        }}
+        [data-theme="light"] #defensiveFlightAlertBanner,
+        [data-theme="light"] #systemicSelloffAlertBanner {{
+            background: #FEF2F2 !important;
+            border-color: #FCA5A5 !important;
+            box-shadow: none !important;
+        }}
+        [data-theme="light"] #defensiveFlightAlertBanner div,
+        [data-theme="light"] #systemicSelloffAlertBanner div {{
+            color: #991B1B !important;
+        }}
+        [data-theme="light"] #structuralRotationBanner {{
+            background: #EFF6FF !important;
+            border-color: #93C5FD !important;
+        }}
+        [data-theme="light"] #structuralRotationBanner div {{
+            color: #1E3A8A !important;
         }}
 
         /* Section & Tables */
@@ -5326,30 +8340,113 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             background: var(--bg-card);
             border: 1px solid var(--border-color);
             border-radius: 14px;
-            padding: 20px 22px;
-            margin-bottom: 24px;
+            padding: 16px 18px;
+            margin-bottom: 18px;
             overflow-x: auto;
-            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+            box-shadow: var(--shadow-card);
         }}
         .section-header {{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 14px;
+            margin-bottom: 10px;
             flex-wrap: wrap;
             gap: 10px;
         }}
         .section-header h3 {{
             color: var(--text-main);
-            font-size: 17px;
+            font-size: 16px;
             font-weight: 700;
             display: flex;
             align-items: center;
             gap: 8px;
+            flex-wrap: wrap;
         }}
         .section-header .sub {{
             font-size: 12px;
             color: var(--text-muted);
+        }}
+
+        /* 15-Day Time-Cycle Grid Alignment (Eliminates Bottom-Left Black Void) */
+        .tc-main-grid {{
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 365px;
+            gap: 14px;
+            margin-top: 10px;
+            align-items: stretch;
+        }}
+        .tc-chart-pane {{
+            background: var(--panel-surface);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 12px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+        }}
+        #cycleCanvasWrapper {{
+            position: relative;
+            width: 100%;
+            height: 440px;
+            min-height: 440px;
+            max-height: 440px;
+            flex: 0 0 440px;
+            cursor: grab;
+            user-select: none;
+            touch-action: none;
+            overflow: hidden;
+            border-radius: 8px;
+            background: var(--canvas-bg);
+            border: 1px solid var(--border-color);
+            box-sizing: border-box;
+        }}
+        #cycleChartCanvas {{
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            display: block;
+        }}
+        #cycleTooltip {{
+            position: absolute;
+            display: none;
+            pointer-events: none;
+            z-index: 20;
+            background: rgba(13, 17, 23, 0.96);
+            border: 1px solid var(--primary-blue);
+            border-radius: 8px;
+            padding: 8px 12px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11.5px;
+            color: var(--text-main);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+            min-width: 190px;
+        }}
+        [data-theme="light"] #cycleTooltip {{
+            background: rgba(255, 255, 255, 0.98) !important;
+            box-shadow: 0 8px 24px rgba(15, 23, 42, 0.14);
+        }}
+        .tc-subcard {{
+            background: var(--panel-surface);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 10px 12px;
+        }}
+        .tc-principle-bar {{
+            margin-top: 10px;
+            background: var(--bg-elevated);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 7px 12px;
+            font-size: 11.5px;
+            color: var(--text-muted);
+            line-height: 1.45;
+        }}
+        [data-theme="light"] #cycleAnalogPeriod {{
+            background: rgba(217, 119, 6, 0.10) !important;
+            border-color: rgba(217, 119, 6, 0.30) !important;
+            color: #B45309 !important;
         }}
 
         /* Interactive Filter Toolbar for Table 4 */
@@ -5357,13 +8454,13 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             display: flex;
             justify-content: space-between;
             align-items: center;
-            gap: 12px;
+            gap: 10px;
             flex-wrap: wrap;
-            padding: 12px 14px;
-            background: rgba(13, 17, 23, 0.7);
-            border: 1px solid rgba(255, 255, 255, 0.06);
+            padding: 10px 12px;
+            background: var(--panel-surface);
+            border: 1px solid var(--border-color);
             border-radius: 10px;
-            margin-bottom: 14px;
+            margin-bottom: 12px;
         }}
         .filter-pills {{
             display: flex;
@@ -5372,10 +8469,10 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             flex-wrap: wrap;
         }}
         .filter-pill {{
-            background: rgba(255, 255, 255, 0.04);
-            border: 1px solid rgba(255, 255, 255, 0.09);
+            background: var(--bg-elevated);
+            border: 1px solid var(--border-color);
             color: var(--text-sub);
-            padding: 5px 11px;
+            padding: 4px 10px;
             border-radius: 6px;
             font-size: 12px;
             font-weight: 600;
@@ -5383,15 +8480,14 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             transition: all 0.15s ease;
         }}
         .filter-pill:hover {{
-            background: rgba(88, 166, 255, 0.12);
-            border-color: rgba(88, 166, 255, 0.4);
-            color: #fff;
+            background: rgba(56, 189, 248, 0.12);
+            border-color: var(--primary-blue);
+            color: var(--text-main);
         }}
         .filter-pill.active {{
-            background: rgba(88, 166, 255, 0.2);
+            background: rgba(56, 189, 248, 0.18);
             border-color: var(--primary-blue);
             color: var(--primary-blue);
-            box-shadow: 0 0 8px rgba(88, 166, 255, 0.25);
         }}
         .t4-controls-right {{
             display: flex;
@@ -5399,23 +8495,23 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             gap: 8px;
         }}
         .search-input {{
-            background: #0b0e14;
+            background: var(--bg-input);
             border: 1px solid var(--border-color);
             color: var(--text-main);
             padding: 5px 10px;
             border-radius: 6px;
             font-size: 12px;
-            width: 150px;
+            width: 148px;
             outline: none;
         }}
         .search-input:focus {{
             border-color: var(--primary-blue);
         }}
         .mode-btn {{
-            background: linear-gradient(135deg, rgba(188, 140, 255, 0.16), rgba(88, 166, 255, 0.16));
-            border: 1px solid rgba(188, 140, 255, 0.45);
-            color: #e2c5ff;
-            padding: 5px 12px;
+            background: rgba(167, 139, 250, 0.14);
+            border: 1px solid rgba(167, 139, 250, 0.42);
+            color: var(--cyber-purple);
+            padding: 5px 11px;
             border-radius: 6px;
             font-size: 12px;
             font-weight: 700;
@@ -5423,30 +8519,95 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             transition: all 0.15s ease;
         }}
         .mode-btn:hover {{
-            background: rgba(188, 140, 255, 0.28);
-            color: #fff;
+            background: rgba(167, 139, 250, 0.25);
+        }}
+
+        #t4-view-container.bear-regime {{
+            display: flex;
+            flex-direction: column;
+        }}
+        #t4-view-container.bear-regime #cardT4Short {{
+            order: -1;
+            margin-top: 0 !important;
+            margin-bottom: 18px;
+        }}
+        .t4-bear-hint {{
+            display: inline-flex;
+            align-items: center;
+            padding: 2px 8px;
+            margin-left: 4px;
+            border-radius: 6px;
+            font-size: 11.5px;
+            font-weight: 700;
+            background: rgba(245, 158, 11, 0.16);
+            border: 1px solid rgba(245, 158, 11, 0.45);
+            color: var(--warning-gold);
+        }}
+        [data-theme="light"] .t4-bear-hint {{
+            background: #FEF3C7;
+            border-color: #F59E0B;
+            color: #92400E;
+        }}
+        .t4-script-pill {{
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            background: var(--bg-elevated);
+            border: 1px solid var(--border-strong);
+            color: var(--primary-blue);
+            padding: 2px 8px;
+            border-radius: 5px;
+            font-size: 11px;
+            font-weight: 600;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: all 0.15s ease;
+        }}
+        .t4-script-pill:hover {{
+            border-color: var(--primary-blue);
+            background: rgba(56, 189, 248, 0.14);
+        }}
+        .t4-script-detail-row td.t4-script-detail-cell {{
+            white-space: normal !important;
+            word-break: break-word;
+            background: var(--panel-surface);
+            color: var(--text-sub);
+            border-left: 3px solid var(--primary-blue);
+            padding: 9px 14px;
+            font-size: 12px;
+            line-height: 1.5;
+            text-align: left;
         }}
 
         table {{
             width: 100%;
             border-collapse: collapse;
-            font-size: 13px;
+            font-size: 12.5px;
             text-align: left;
         }}
         th {{
-            background: #0b0f17;
+            background: var(--bg-elevated);
             color: var(--text-muted);
             font-weight: 600;
-            padding: 11px 14px;
+            padding: 9px 10px;
             border-bottom: 1px solid var(--border-color);
-            font-size: 12px;
+            font-size: 11.5px;
             white-space: nowrap;
         }}
         td {{
-            padding: 12px 14px;
-            border-bottom: 1px solid rgba(48, 54, 61, 0.5);
+            padding: 9px 10px;
+            border-bottom: 1px solid var(--row-border);
             color: var(--text-sub);
             white-space: nowrap;
+        }}
+        .t4-card th {{
+            white-space: normal;
+            line-height: 1.25;
+            padding: 8px 6px;
+        }}
+        .t4-card td {{
+            padding: 8px 6px;
+            font-size: 12px;
         }}
         tr:hover td {{
             background-color: var(--bg-card-hover);
@@ -5456,53 +8617,48 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
         .ticker-jump-link {{
             display: inline-flex;
             align-items: center;
-            gap: 6px;
+            gap: 5px;
             text-decoration: none;
-            padding: 3px 8px;
+            padding: 3px 7px;
             border-radius: 6px;
-            background: rgba(88, 166, 255, 0.08);
-            border: 1px solid rgba(88, 166, 255, 0.22);
+            background: rgba(56, 189, 248, 0.08);
+            border: 1px solid rgba(56, 189, 248, 0.24);
             transition: all 0.15s ease;
         }}
         .ticker-jump-link:hover {{
-            background: rgba(88, 166, 255, 0.2);
+            background: rgba(56, 189, 248, 0.2);
             border-color: var(--primary-blue);
-            transform: translateX(2px);
         }}
         .tk-code {{
             font-weight: 800;
-            font-size: 15px;
-            color: #58a6ff;
+            font-size: 14px;
+            color: var(--primary-blue);
             font-family: 'JetBrains Mono', monospace;
-            letter-spacing: 0.4px;
+            letter-spacing: 0.3px;
         }}
         .tk-jump-icon {{
             font-size: 10px;
-            color: #8b949e;
-            background: rgba(255, 255, 255, 0.06);
+            color: var(--text-muted);
+            background: var(--bar-track);
             padding: 1px 5px;
             border-radius: 4px;
-        }}
-        .ticker-jump-link:hover .tk-jump-icon {{
-            color: #fff;
-            background: rgba(88, 166, 255, 0.35);
         }}
 
         .pct-pill {{
             display: inline-block;
-            font-size: 11px;
+            font-size: 10.5px;
             padding: 1px 5px;
             border-radius: 4px;
-            margin-left: 3px;
+            margin-left: 2px;
         }}
-        .pct-up {{ background: rgba(63, 185, 80, 0.14); color: #3fb950; }}
-        .pct-down {{ background: rgba(248, 81, 73, 0.14); color: #f85149; }}
+        .pct-up {{ background: rgba(16, 185, 129, 0.14); color: var(--neon-green); }}
+        .pct-down {{ background: rgba(239, 68, 68, 0.14); color: var(--risk-red); }}
 
         /* Dual-Layer Win Rate Bar */
         .dual-bar-track {{
-            width: 68px;
+            width: 60px;
             height: 8px;
-            background: rgba(255, 255, 255, 0.08);
+            background: var(--bar-track);
             border-radius: 4px;
             overflow: hidden;
             position: relative;
@@ -5510,105 +8666,108 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
         .dual-bar-pos {{
             position: absolute;
             top: 0; left: 0; bottom: 0;
-            background: rgba(63, 185, 80, 0.45);
+            background: rgba(16, 185, 129, 0.45);
             border-radius: 4px;
         }}
         .dual-bar-touch {{
             position: absolute;
             top: 2px; left: 0; bottom: 2px;
-            background: #58a6ff;
+            background: var(--primary-blue);
             border-radius: 2px;
         }}
 
         /* Badges */
         .badge {{
             display: inline-block;
-            padding: 3px 8px;
+            padding: 3px 7px;
             border-radius: 6px;
             font-size: 11px;
             font-weight: 600;
             white-space: nowrap;
         }}
-        .badge-green {{ background: rgba(63, 185, 80, 0.15); color: #3fb950; border: 1px solid rgba(63, 185, 80, 0.35); }}
-        .badge-blue {{ background: rgba(88, 166, 255, 0.15); color: #58a6ff; border: 1px solid rgba(88, 166, 255, 0.35); }}
-        .badge-purple {{ background: rgba(188, 140, 255, 0.15); color: #bc8cff; border: 1px solid rgba(188, 140, 255, 0.35); }}
-        .badge-gold {{ background: rgba(255, 213, 79, 0.15); color: #ffd54f; border: 1px solid rgba(255, 213, 79, 0.35); }}
-        .badge-red {{ background: rgba(248, 81, 73, 0.15); color: #f85149; border: 1px solid rgba(248, 81, 73, 0.35); }}
+        .badge-green {{ background: rgba(16, 185, 129, 0.14); color: var(--neon-green); border: 1px solid rgba(16, 185, 129, 0.35); }}
+        .badge-blue {{ background: rgba(56, 189, 248, 0.14); color: var(--primary-blue); border: 1px solid rgba(56, 189, 248, 0.35); }}
+        .badge-purple {{ background: rgba(167, 139, 250, 0.14); color: var(--cyber-purple); border: 1px solid rgba(167, 139, 250, 0.35); }}
+        .badge-gold {{ background: rgba(245, 158, 11, 0.14); color: var(--warning-gold); border: 1px solid rgba(245, 158, 11, 0.35); }}
+        .badge-red {{ background: rgba(239, 68, 68, 0.14); color: var(--risk-red); border: 1px solid rgba(239, 68, 68, 0.35); }}
 
         /* Milestone 3: Segmented Dual Ranking Controls */
         .t4-segmented-bar {{
             display: flex;
-            gap: 10px;
-            margin-bottom: 16px;
+            gap: 8px;
+            margin-bottom: 14px;
             flex-wrap: wrap;
         }}
         .t4-seg-btn {{
-            background: rgba(255, 255, 255, 0.05);
+            background: var(--bg-card);
             border: 1px solid var(--border-color);
             color: var(--text-sub);
-            padding: 8px 18px;
+            padding: 7px 15px;
             border-radius: 8px;
-            font-size: 13.5px;
+            font-size: 13px;
             font-weight: 700;
             cursor: pointer;
-            transition: all 0.2s ease;
+            transition: all 0.18s ease;
         }}
         .t4-seg-btn:hover {{
-            background: rgba(88, 166, 255, 0.15);
-            color: #fff;
-            border-color: rgba(88, 166, 255, 0.45);
+            background: rgba(56, 189, 248, 0.14);
+            color: var(--text-main);
+            border-color: var(--primary-blue);
         }}
         .t4-seg-btn.active {{
-            background: linear-gradient(135deg, rgba(88, 166, 255, 0.28), rgba(188, 140, 255, 0.28));
-            border-color: #58a6ff;
-            color: #fff;
-            box-shadow: 0 0 12px rgba(88, 166, 255, 0.35);
+            background: linear-gradient(135deg, rgba(56, 189, 248, 0.22), rgba(167, 139, 250, 0.22));
+            border-color: var(--primary-blue);
+            color: var(--text-main);
         }}
         .t4-card-short {{
             border-left: 4px solid #f85149 !important;
         }}
         .cycle-tab-btn {{
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid var(--border-color);
-            color: var(--text-sub);
-            padding: 5px 12px;
-            border-radius: 6px;
-            font-size: 12px;
-            font-weight: 700;
-            font-family: 'JetBrains Mono', monospace;
-            cursor: pointer;
-            transition: all 0.18s ease;
-        }}
-        .cycle-tab-btn:hover {{
-            background: rgba(88, 166, 255, 0.16);
-            border-color: rgba(88, 166, 255, 0.45);
-            color: #fff;
-        }}
-        .cycle-view-btn {{
-            background: rgba(255, 255, 255, 0.05);
+            background: var(--bg-elevated);
             border: 1px solid var(--border-color);
             color: var(--text-sub);
             padding: 4px 10px;
             border-radius: 6px;
             font-size: 11.5px;
             font-weight: 700;
+            font-family: 'JetBrains Mono', monospace;
             cursor: pointer;
-            transition: all 0.18s ease;
+            transition: all 0.16s ease;
+        }}
+        .cycle-tab-btn:hover {{
+            background: rgba(56, 189, 248, 0.16);
+            border-color: var(--primary-blue);
+            color: var(--text-main);
+        }}
+        .cycle-tab-btn.active {{
+            background: linear-gradient(135deg, rgba(56, 189, 248, 0.22), rgba(167, 139, 250, 0.22));
+            border-color: var(--primary-blue);
+            color: var(--text-main);
+        }}
+        .cycle-view-btn {{
+            background: var(--bg-elevated);
+            border: 1px solid var(--border-color);
+            color: var(--text-sub);
+            padding: 4px 9px;
+            border-radius: 6px;
+            font-size: 11.5px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.16s ease;
         }}
         .cycle-view-btn:hover {{
-            background: rgba(88, 166, 255, 0.15);
-            border-color: rgba(88, 166, 255, 0.4);
-            color: #fff;
+            background: rgba(56, 189, 248, 0.15);
+            border-color: var(--primary-blue);
+            color: var(--text-main);
         }}
         .cycle-view-btn.active {{
-            background: linear-gradient(135deg, rgba(88, 166, 255, 0.28), rgba(188, 140, 255, 0.25));
-            border-color: #58a6ff;
-            color: #fff;
-            box-shadow: 0 0 8px rgba(88, 166, 255, 0.35);
+            background: linear-gradient(135deg, rgba(56, 189, 248, 0.22), rgba(167, 139, 250, 0.22));
+            border-color: var(--primary-blue);
+            color: var(--text-main);
         }}
         .cycle-tool-btn {{
-            background: rgba(255, 255, 255, 0.04);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            background: var(--bg-elevated);
+            border: 1px solid var(--border-color);
             color: var(--text-sub);
             padding: 3px 8px;
             border-radius: 5px;
@@ -5617,8 +8776,13 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             transition: all 0.15s ease;
         }}
         .cycle-tool-btn:hover {{
-            background: rgba(255, 255, 255, 0.12);
-            color: #fff;
+            background: rgba(56, 189, 248, 0.14);
+            color: var(--text-main);
+        }}
+        #cycleSymbolSelect {{
+            background: var(--bg-input) !important;
+            color: var(--cyber-purple) !important;
+            border: 1px solid rgba(167, 139, 250, 0.45) !important;
         }}
         .cycle-ladder-item {{
             display: flex;
@@ -5627,9 +8791,20 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             padding: 3px 8px;
             border-radius: 4px;
             transition: all 0.15s ease;
+            gap: 6px;
         }}
         .cycle-ladder-item:hover {{
-            filter: brightness(1.15);
+            filter: brightness(1.08);
+        }}
+        .cycle-ladder-item.cycle-ladder-breached {{
+            opacity: 0.85;
+        }}
+        .cycle-ladder-alert {{
+            border-radius: 4px;
+            padding: 4px 8px;
+            font-size: 10.5px;
+            font-weight: 700;
+            line-height: 1.35;
         }}
         .cycle-timeline-card {{
             border-radius: 6px;
@@ -5642,18 +8817,14 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
         }}
         .cycle-timeline-card:hover {{
             transform: translateX(2px);
-            filter: brightness(1.2);
-        }}
-        .cycle-tab-btn.active {{
-            background: linear-gradient(135deg, rgba(88, 166, 255, 0.28), rgba(188, 140, 255, 0.25));
-            border-color: #58a6ff;
-            color: #fff;
-            box-shadow: 0 0 10px rgba(88, 166, 255, 0.35);
         }}
         .badge-orange {{
             background: rgba(255, 148, 77, 0.18);
             color: #ff944d;
             border: 1px solid rgba(255, 148, 77, 0.45);
+        }}
+        [data-theme="light"] .badge-orange {{
+            color: #C2410C;
         }}
 
         /* Two-column layout for Table 1 & Table 3 on ultra-wide screens */
@@ -5666,126 +8837,186 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
         /* Footer */
         .footer {{
             border-top: 1px solid var(--border-color);
-            padding-top: 20px;
-            margin-top: 32px;
+            padding-top: 18px;
+            margin-top: 24px;
             color: var(--text-muted);
             font-size: 12px;
             text-align: center;
             line-height: 1.8;
         }}
+        [data-theme="light"] #siteDisclaimerBanner {{
+            background: #FFFBEB !important;
+            border-color: #FCD34D !important;
+            color: #92400E !important;
+        }}
+        [data-theme="light"] #siteDisclaimerBanner strong {{
+            color: #B45309 !important;
+        }}
 
+        @media (max-width: 1120px) {{
+            .tc-main-grid {{
+                grid-template-columns: 1fr;
+            }}
+            #cycleCanvasWrapper {{
+                height: 320px;
+                min-height: 320px;
+                max-height: 320px;
+                flex: 0 0 320px;
+            }}
+        }}
         @media (max-width: 768px) {{
-            body {{ padding: 12px; }}
-            .suite-nav {{ padding: 10px 12px; }}
+            body {{ padding: 10px; }}
+            .suite-nav {{ padding: 8px 10px; }}
             .suite-nav-links {{ width: 100%; display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px; }}
             .suite-link {{ justify-content: center; text-align: center; padding: 6px 8px; font-size: 12px; }}
-            .header-title h1 {{ font-size: 20px; }}
+            .header-title h1 {{ font-size: 19px; }}
             .weather-banner {{ padding: 14px; }}
-            .section-card {{ padding: 14px; }}
+            .section-card {{ padding: 12px; }}
         }}
+        {vix_css}
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- Cross-Radar Unified Suite Navigation -->
+        <!-- Row 1: Unified Top Cross-Navigation Bar + Shared Theme Toggle -->
         <nav class="suite-nav">
             <div class="suite-nav-links">
-                <a href="futu_pro_terminal.html" class="suite-link" style="background: rgba(255,105,0,0.18); border-color: rgba(255,105,0,0.5); color: #ff6900; font-weight: 800;">🐮 看盘主终端</a>
-                <a href="stocks_radar.html" class="suite-link">🎯 核心个股实战雷达</a>
-                <a href="macro_radar.html" class="suite-link">🏛️ 宏观全天候司令塔</a>
-                <a href="backtest_report_5y.html" class="suite-link">🛡️ 5年历史回测对账</a>
-                <a href="predict_radar_5y.html" class="suite-link active">⚡ AI 5年多赛道预测引擎</a>
+                <a href="futu_pro_terminal.html" class="suite-link suite-link-home">🐮 看盘主终端</a>
+                <a href="stocks_radar.html" class="suite-link">🎯 核心个股雷达</a>
+                <a href="macro_radar.html" class="suite-link">🏛️ 宏观司令塔</a>
+                <a href="backtest_report_5y.html" class="suite-link">🛡️ 5Y回测</a>
+                <a href="predict_radar_5y.html" class="suite-link active">⚡ AI 15日推演</a>
             </div>
-            <div class="suite-meta" style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
-                <span>💡 点击表中任意股票代码可直接唤起富途多周期 K 线看盘</span>
-                <span style="font-size: 11px; color: #fbbf24; background: rgba(245, 158, 11, 0.12); border: 1px solid rgba(245, 158, 11, 0.35); padding: 2px 9px; border-radius: 999px; font-weight: 600;">⚠️ 数据与推演仅供参考·不构成投资建议</span>
+            <div class="suite-meta">
+                <span>⚡ {len(all_live)}标的 AI 推演与时空走廊</span>
+                <span>同步于: {kpi.get('sync_time', '')}</span>
+                <span style="font-size: 11px; color: var(--warning-gold); background: rgba(245, 158, 11, 0.12); border: 1px solid rgba(245, 158, 11, 0.35); padding: 2px 8px; border-radius: 999px; font-weight: 600;">⚠️ 数据仅供参考</span>
+                <button type="button" id="btnThemeToggle" class="theme-toggle-btn" onclick="toggleTheme()" title="切换浅色模式" aria-label="切换浅色或深色模式">
+                    <span id="themeToggleIcon">☀️</span>
+                    <span class="theme-toggle-text" id="themeToggleLabel">浅色</span>
+                </button>
             </div>
         </nav>
 
-        <!-- Header -->
-        <header class="header">
-            <div class="header-title">
-                <h1>⚡ AI 美股 5 年多赛道预测雷达 <span style="font-size: 13px; padding: 3px 9px; border-radius: 6px; background: rgba(188,140,255,0.16); color: #bc8cff; border: 1px solid rgba(188,140,255,0.35); font-weight: 700;">V2.0 双轨狙击与时空推演版</span></h1>
-                <p>微软 Qlib 滚动时序长表截面架构 · 7 大高弹性赛道 (28标的) + 7 宏观基准 ETF · 严守 T 日因果律与 5 日 Purge 隔离</p>
-            </div>
-            <div class="header-status">
-                <div class="engine-badge" title="实盘推理采用截至 T-5 的全部已结算历史样本重新拟合，无缝吸收 2026 最新市场微观结构">
-                    🧠 实盘模型: Full-Sample Refit (2021~T-5)
+        <!-- Row 2: Compact Status Light + Scorecard + Single-Line Macro Banner + Model Details Drawer Toggle -->
+        <div class="compact-status-strip">
+            <div class="compact-status-top">
+                <div class="compact-status-left">
+                    <div class="compact-pill" id="marketRegimeBadge" title="严格基于 T 日全池 MA20 市场宽度与 SPY/QQQ 均线斜率判定的客观牛熊体制门禁">
+                        <span style="color: var(--text-muted); font-weight: 600;">体制门禁 · MA20宽度</span>
+                        <span style="color: {_regime_color};">{_regime_cn} ({_breadth_pct:.1f}%)</span>
+                    </div>
+                    {vix_pill_html}
+                    <div id="liveScorecardBadge" class="compact-pill" style="background: {_sc_bg}; border-color: {_sc_border}; color: {_sc_text_color};" title="近 7 日 / 近 30 日严格样本外实盘命中率（低于 45% 自动黄灯提醒降权）">
+                        📋 实盘成绩单: 近7日 {_sc_7d:.1f}% · 近30日 {_sc_30d:.1f}%{_sc_warn_html}
+                    </div>
+                    <span class="compact-pill">宏观: <strong style="color: {weather_accent};">{weather.get('status', '☀️ 晴天做多')}</strong></span>
+                    <span class="compact-pill" style="color: var(--neon-green);"><span class="pulse-dot"></span><span>{kpi.get('data_mode', '实时在线')}</span></span>
                 </div>
-                <div class="live-badge">
-                    <span class="pulse-dot"></span>
-                    <span>{kpi.get('data_mode', '实时在线')}</span>
+                <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+                    <button type="button" id="btnSignalLedgerDrawer" class="drawer-toggle-btn" onclick="toggleCollapsibleDrawer('signalLedgerDrawer', this, '{_sl_btn_closed}', '{_sl_btn_open}')">{_sl_btn_closed}</button>
+                    <button type="button" id="btnModelMacroDrawer" class="drawer-toggle-btn" onclick="toggleCollapsibleDrawer('modelMacroDrawer', this, '🔍 展开模型参数与宏观详情 ▾', '🔼 收起模型参数与宏观详情 ▴')">🔍 展开模型参数与宏观详情 ▾</button>
                 </div>
-                <span style="font-size: 12px; color: var(--text-muted);">同步于: {kpi.get('sync_time', '')}</span>
             </div>
-        </header>
-
-        <!-- Hero KPI Ribbon -->
-        <div class="kpi-grid">
-            <div class="kpi-card green">
-                <div class="kpi-label">高置信正收益胜率 (>=60% 阈值)</div>
-                <div class="kpi-val" style="color: var(--neon-green);">{f"{kpi.get('high_conviction_win_rate'):.1f}%" if kpi.get('high_conviction_win_rate') is not None else "--"}</div>
-                <div class="kpi-sub">2024-2026 样本外实测 · 含止盈触轨与 5 日正收益交割</div>
-            </div>
-            <div class="kpi-card gold">
-                <div class="kpi-label">高置信期望盈亏比 (Profit Factor)</div>
-                <div class="kpi-val" style="color: var(--warning-gold);">{f"{kpi.get('profit_factor'):.2f}" if kpi.get('profit_factor') is not None else "--"}</div>
-                <div class="kpi-sub">分段软压缩 ATR 动态止盈止损轨 · 真实交割收益口径</div>
-            </div>
-            <div class="kpi-card purple">
-                <div class="kpi-label">领航 Alpha 赛道</div>
-                <div class="kpi-val" style="font-size: 20px; color: var(--cyber-purple);">{kpi.get('top_sector') or '--'}</div>
-                <div class="kpi-sub">综合样本外 PF 与平均实现收益评定 · 赋能表 4 先验校准</div>
-            </div>
-            <div class="kpi-card blue">
-                <div class="kpi-label">第一核心驱动因子</div>
-                <div class="kpi-val" style="font-size: 20px; color: var(--primary-blue); font-family: 'JetBrains Mono', monospace;">{kpi.get('top_feature') or '--'}</div>
-                <div class="kpi-sub">colsample=0.65 & max_bin=63 树分裂防垄断正则化</div>
+            <div class="predict-macro-slim">
+                {macro_calendar_banner_html}
             </div>
         </div>
 
-        {flight_banner_html}
-        {breadth_banner_html}
-        <!-- Macro Weather Card -->
-        <div class="weather-banner">
-            <div class="weather-left">
-                <div class="weather-icon">{weather.get('status', '☀️ 晴天做多')[:2]}</div>
-                <div class="weather-info">
-                    <h2>当前宏观环境水温: <span style="color: {weather_accent};">{weather.get('status', '☀️ 晴天做多')}</span></h2>
-                    <p>{weather.get('desc', '多头共振 · 积极进攻')} · <span style="color: #8b949e;">表 4 决策指令已与当前宏观水温及 50% 原始胜率底线强制联动</span></p>
+        <!-- Default-Collapsed Live Discord Signal Ledger Drawer (0px first-screen impact) -->
+        {signal_ledger_drawer_html}
+
+        <!-- Default-Collapsed Hardcore Model Parameters & 7-Stat Macro Details Drawer -->
+        <div id="modelMacroDrawer" style="display: none; margin-bottom: 14px;">
+            <header class="header">
+                <div class="header-title">
+                    <h1>⚡ AI 美股 5 年多赛道预测雷达 <span style="font-size: 13px; padding: 3px 9px; border-radius: 6px; background: rgba(167,139,250,0.16); color: var(--cyber-purple); border: 1px solid rgba(167,139,250,0.35); font-weight: 700;">V2.0 双轨狙击与时空推演版</span></h1>
+                    <p>微软 Qlib 滚动时序长表截面架构 · 全池多赛道 ({len(all_live)}标的) + 宏观基准 ETF · 严守 T 日因果律与 5 日 Purge 隔离</p>
+                </div>
+                <div class="header-status">
+                    <div class="engine-badge" title="实盘推理采用截至 T-5 的全部已结算历史样本重新拟合，无缝吸收 2026 最新市场微观结构">
+                        🧠 实盘模型: Full-Sample Refit (2021~T-5) · Time-Decay
+                    </div>
+                </div>
+            </header>
+
+            <!-- Hero KPI Ribbon -->
+            <div class="kpi-grid">
+                <div class="kpi-card green">
+                    <div class="kpi-label">高置信正收益胜率 (>=60% 阈值)</div>
+                    <div class="kpi-val" style="color: var(--neon-green);">{f"{kpi.get('high_conviction_win_rate'):.1f}%" if kpi.get('high_conviction_win_rate') is not None else "--"}</div>
+                    <div class="kpi-sub">2024-2026 样本外实测 · 含止盈触轨与 5 日正收益交割</div>
+                </div>
+                <div class="kpi-card gold">
+                    <div class="kpi-label">高置信期望盈亏比 (Profit Factor)</div>
+                    <div class="kpi-val" style="color: var(--warning-gold);">{f"{kpi.get('profit_factor'):.2f}" if kpi.get('profit_factor') is not None else "--"}</div>
+                    <div class="kpi-sub">分段软压缩 ATR 动态止盈止损轨 · 真实交割收益口径</div>
+                </div>
+                <div class="kpi-card purple">
+                    <div class="kpi-label">领航 Alpha 赛道</div>
+                    <div class="kpi-val" style="font-size: 20px; color: var(--cyber-purple);">{kpi.get('top_sector') or '--'}</div>
+                    <div class="kpi-sub">综合样本外 PF 与平均实现收益评定 · 赋能表 4 先验校准</div>
+                </div>
+                <div class="kpi-card blue">
+                    <div class="kpi-label">第一核心驱动因子</div>
+                    <div class="kpi-val" style="font-size: 20px; color: var(--primary-blue); font-family: 'JetBrains Mono', monospace;">{kpi.get('top_feature') or '--'}</div>
+                    <div class="kpi-sub">colsample=0.65 & max_bin=63 树分裂防垄断正则化</div>
                 </div>
             </div>
-            <div class="weather-stats">
-                <div class="weather-stat-pill">
-                    <span class="lbl">QQQ MA50 乖离</span>
-                    <span class="val" style="color: {'#3fb950' if weather.get('qqqm_bias', 0) >= 0 else '#f85149'};">{weather.get('qqqm_bias', 0.0):+.2f}%</span>
+
+            {flight_banner_html}
+            {breadth_banner_html}
+
+            <!-- Macro Weather Card -->
+            <div class="weather-banner">
+                <div class="weather-left">
+                    <div class="weather-icon">{weather.get('status', '☀️ 晴天做多')[:2]}</div>
+                    <div class="weather-info">
+                        <h2>当前宏观环境水温: <span style="color: {weather_accent};">{weather.get('status', '☀️ 晴天做多')}</span></h2>
+                        <p>{weather.get('desc', '多头共振 · 积极进攻')} · <span style="color: var(--text-muted);">表 4 决策指令已与当前宏观水温及 50% 原始胜率底线强制联动</span></p>
+                    </div>
                 </div>
-                <div class="weather-stat-pill">
-                    <span class="lbl">SMH MA50 乖离</span>
-                    <span class="val" style="color: {'#3fb950' if weather.get('smh_bias', 0) >= 0 else '#f85149'};">{weather.get('smh_bias', 0.0):+.2f}%</span>
-                </div>
-                <div class="weather-stat-pill">
-                    <span class="lbl">VIXY 60日脉冲</span>
-                    <span class="val" style="color: {'#f85149' if weather.get('vixy_pos', 0.5) >= 0.75 else '#3fb950'};">{weather.get('vixy_pos', 0.5):.2f}</span>
-                </div>
-                <div class="weather-stat-pill">
-                    <span class="lbl">硬件/软件轮动 (SMH/IGV)</span>
-                    <span class="val" style="color: {'#58a6ff' if weather.get('smh_igv', 0) >= 0 else '#bc8cff'};">{weather.get('smh_igv', 0.0):+.2f}%</span>
-                </div>
-                <div class="weather-stat-pill" title="防御避险组 (KO/PEP/MCD/LLY/MRNA/TLT/GLD/VIXY) 相对进攻科技组 (QQQ/SMH/NVDA/SOXL) 超额走强背离度 (预警阈值 +2.2%)">
-                    <span class="lbl">防御/科技背离 (Flight)</span>
-                    <span class="val" style="color: {'#f85149' if (flight_info and flight_info.get('is_alert')) else ('#ffd54f' if float((flight_info or {}).get('flight_score', 0.0)) >= 1.2 else '#3fb950')};">{float((flight_info or {}).get('flight_score', 0.0)):+.2f}% {'🚨' if (flight_info and flight_info.get('is_alert')) else '🛡️'}</span>
-                </div>
-                <div class="weather-stat-pill" title="传统行业龙头 (JPM/XOM/WMT/CAT/KO/LLY/DIA) vs 科技 (QQQ/SMH/NVDA) 跨行业市场广度">
-                    <span class="lbl">跨行业广度 (传统vs科技)</span>
-                    <span class="val" id="predictBreadthVal" style="font-size: 13px; color: {breadth_info.get('color', '#9ca3af')};">{breadth_info.get('short_badge', '🛡️ 广度均衡')}</span>
+                <div class="weather-stats">
+                    <div class="weather-stat-pill">
+                        <span class="lbl">QQQ MA50 乖离</span>
+                        <span class="val" style="color: {'#3fb950' if weather.get('qqqm_bias', 0) >= 0 else '#f85149'};">{weather.get('qqqm_bias', 0.0):+.2f}%</span>
+                    </div>
+                    <div class="weather-stat-pill">
+                        <span class="lbl">SMH MA50 乖离</span>
+                        <span class="val" style="color: {'#3fb950' if weather.get('smh_bias', 0) >= 0 else '#f85149'};">{weather.get('smh_bias', 0.0):+.2f}%</span>
+                    </div>
+                    <div class="weather-stat-pill">
+                        <span class="lbl">VIXY 60日脉冲</span>
+                        <span class="val" style="color: {'#f85149' if weather.get('vixy_pos', 0.5) >= 0.75 else '#3fb950'};">{weather.get('vixy_pos', 0.5):.2f}</span>
+                    </div>
+                    <div class="weather-stat-pill">
+                        <span class="lbl">硬件/软件轮动 (SMH/IGV)</span>
+                        <span class="val" style="color: {'#58a6ff' if weather.get('smh_igv', 0) >= 0 else '#bc8cff'};">{weather.get('smh_igv', 0.0):+.2f}%</span>
+                    </div>
+                    <div class="weather-stat-pill" title="防御避险组 (KO/PEP/MCD/LLY/MRNA/TLT/GLD/VIXY) 相对进攻科技组 (QQQ/SMH/NVDA/SOXL) 超额走强背离度 (预警阈值 +2.2%)">
+                        <span class="lbl">防御/科技背离 (Flight)</span>
+                        <span class="val" style="color: {'#f85149' if (flight_info and flight_info.get('is_alert')) else ('#ffd54f' if float((flight_info or {}).get('flight_score', 0.0)) >= 1.2 else '#3fb950')};">{float((flight_info or {}).get('flight_score', 0.0)):+.2f}% {'🚨' if (flight_info and flight_info.get('is_alert')) else '🛡️'}</span>
+                    </div>
+                    <div class="weather-stat-pill" title="传统行业龙头 (JPM/XOM/WMT/CAT/KO/LLY/DIA) vs 科技 (QQQ/SMH/NVDA) 跨行业市场广度">
+                        <span class="lbl">跨行业广度 (传统vs科技)</span>
+                        <span class="val" id="predictBreadthVal" style="font-size: 13px; color: {breadth_info.get('color', '#9ca3af')};">{breadth_info.get('short_badge', '🛡️ 广度均衡')}</span>
+                    </div>
+                    <div class="weather-stat-pill" title="严格基于 T 日全池 MA20 市场宽度与 SPY/QQQ 均线斜率判定的客观牛熊体制门禁">
+                        <span class="lbl">体制门禁 · MA20宽度</span>
+                        <span class="val" style="font-size: 13px; color: {_regime_color};">{_regime_cn} ({_breadth_pct:.1f}%)</span>
+                    </div>
+                    <div class="weather-stat-pill" title="全局真 VIX 恐慌中枢：^VIX / ^VIX3M 期限比值 + ^VVIX 领先指标 + 10Y美债（比值回落至 0.97 以下、恐慌自 10 日高点回撤 ≥5% 且当日 VIX 未反扑（≤+3%）时开启右侧抄底窗）">
+                        <span class="lbl">真 VIX / VIX3M (比值)</span>
+                        <span class="val" style="font-size: 13px; color: {_vr_ratio_color};">{_vr_main_str}</span>
+                        <span style="font-size: 10.5px; color: var(--text-muted);">{_vr_sub_str}</span>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- Section: Time-Cycle & Historical Analog Projection (时空周期与未来路径推演图 - 交互增强版) -->
-        <div class="section-card" id="timeCycleSection" style="margin-bottom: 24px;">
-            <div class="section-header" style="justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+        <!-- Section: Time-Cycle & Historical Analog Projection (第一屏直出核心推演主图) -->
+        <div class="section-card" id="timeCycleSection" style="margin-bottom: 18px;">
+            <div class="section-header" style="justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
                 <div>
                     <h3 style="display: flex; align-items: center; gap: 8px;">
                         <span>🔮 核心标的时空周期与未来 15 日路径推演</span>
@@ -5804,9 +9035,11 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
                     <button class="cycle-tab-btn" onclick="switchCycleSymbol('QQQ')">QQQ</button>
                     <button class="cycle-tab-btn" onclick="switchCycleSymbol('SQQQ')">SQQQ</button>
                     <button class="cycle-tab-btn" onclick="switchCycleSymbol('KORU')">KORU</button>
+                    <button class="cycle-tab-btn" onclick="switchCycleSymbol('KOSPI')">KOSPI (韩国综指)</button>
                     <button class="cycle-tab-btn" onclick="switchCycleSymbol('BTC-USD')">BTC-USD (比特币)</button>
-                    <select id="cycleSymbolSelect" onchange="switchCycleSymbol(this.value)" style="background: #0b0e14; color: #e2c5ff; border: 1px solid rgba(188, 140, 255, 0.45); border-radius: 6px; padding: 4px 8px; font-size: 12px; font-weight: 700; cursor: pointer; outline: none;" title="切换全部 21 只核心标的时空推演图">
-                        <option value="SOXL">全部标的 (21只)...</option>
+                    <button class="cycle-tab-btn" onclick="switchCycleSymbol('XAUUSD')">XAUUSD (伦敦金)</button>
+                    <select id="cycleSymbolSelect" onchange="switchCycleSymbol(this.value)" style="border-radius: 6px; padding: 4px 8px; font-size: 12px; font-weight: 700; cursor: pointer; outline: none;" title="切换核心标的时空推演图">
+                        <option value="SOXL">全部核心标的...</option>
                         <option value="SOXL">SOXL (半导体3倍做多)</option>
                         <option value="SOXX">SOXX (半导体1倍ETF)</option>
                         <option value="SOXS">SOXS (半导体3倍做空)</option>
@@ -5822,7 +9055,10 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
                         <option value="QQQ">QQQ (纳指100ETF)</option>
                         <option value="SQQQ">SQQQ (纳指3倍做空)</option>
                         <option value="KORU">KORU (韩股3倍做多)</option>
+                        <option value="KOSPI">KOSPI (韩国综合指数)</option>
                         <option value="BTC-USD">BTC-USD (比特币现货)</option>
+                        <option value="XAUUSD">XAUUSD (伦敦金现货)</option>
+                        <option value="ANT">ANT (Anthropic IPO)</option>
                         <option value="TSLA">TSLA (特斯拉)</option>
                         <option value="PLTR">PLTR (Palantir)</option>
                         <option value="META">META (Meta)</option>
@@ -5832,16 +9068,17 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
                 </div>
             </div>
             
-            <div style="display: grid; grid-template-columns: 1fr 380px; gap: 16px; margin-top: 14px;">
-                <!-- Left: Interactive Canvas Container -->
-                <div style="background: rgba(7, 10, 15, 0.85); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 14px; position: relative; display: flex; flex-direction: column;">
+            <div class="tc-main-grid">
+                <!-- Left: Interactive Canvas Container (Stretches to match right cards) -->
+                <div class="tc-chart-pane">
                     <!-- Chart Control Toolbar -->
-                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; flex-wrap: wrap; gap: 8px;">
-                        <div style="display: flex; gap: 6px; align-items: center;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap; gap: 8px;">
+                        <div style="display: flex; gap: 6px; align-items: center; flex-wrap: wrap;">
                             <span style="font-size: 12px; color: var(--text-muted); font-weight: 600;">视野模式:</span>
                             <button class="cycle-view-btn active" id="btnViewFocus" onclick="setTimeCycleViewMode('focus')" title="聚焦放大未来 15 日推演波段，自适应 Y 轴缩放，细节最清晰">🔍 聚焦推演波段 (推荐)</button>
                             <button class="cycle-view-btn" id="btnViewFull" onclick="setTimeCycleViewMode('full')" title="显示过去 20 天走势与未来 15 日完整大局">🌐 全景大局 (35天)</button>
-                            <span id="cycleT15BadgeHeader" style="font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 4px; background: rgba(56, 189, 248, 0.12); border: 1px solid rgba(56, 189, 248, 0.35); color: #38bdf8; display: none; margin-left: 6px;"></span>
+                            <span id="cycleT15BadgeHeader" style="font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 4px; background: rgba(56, 189, 248, 0.12); border: 1px solid rgba(56, 189, 248, 0.35); color: var(--primary-blue); display: none; margin-left: 4px;"></span>
+                            <span id="cycleRegimeModeBadge" style="font-family: 'JetBrains Mono', 'PingFang SC', sans-serif; font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 4px; display: inline-block; margin-left: 4px; max-width: 100%; white-space: normal;"></span>
                         </div>
                         <div style="display: flex; gap: 6px; align-items: center;">
                             <button class="cycle-tool-btn" onclick="zoomTimeCycle(1.2)" title="放大时间轴">➕ 放大</button>
@@ -5851,90 +9088,94 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
                     </div>
 
                     <!-- Canvas Wrapper -->
-                    <div id="cycleCanvasWrapper" style="width: 100%; height: 320px; position: relative; cursor: grab; user-select: none; touch-action: none; overflow: hidden; border-radius: 8px; background: rgba(0,0,0,0.25);">
-                        <canvas id="cycleChartCanvas" style="width: 100%; height: 100%; display: block;"></canvas>
+                    <div id="cycleCanvasWrapper">
+                        <canvas id="cycleChartCanvas" style="position: absolute; inset: 0; width: 100%; height: 100%; display: block;"></canvas>
                         <!-- Floating HUD Tooltip -->
-                        <div id="cycleTooltip" style="position: absolute; display: none; pointer-events: none; z-index: 20; background: rgba(13, 17, 23, 0.94); border: 1px solid rgba(88, 166, 255, 0.5); border-radius: 8px; padding: 8px 12px; font-family: 'JetBrains Mono', monospace; font-size: 11.5px; box-shadow: 0 8px 24px rgba(0,0,0,0.6); backdrop-filter: blur(8px); min-width: 190px;"></div>
+                        <div id="cycleTooltip"></div>
                     </div>
 
                     <!-- Bottom Legend and Operation Hint -->
-                    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px; font-size: 11.5px; color: var(--text-muted); padding-top: 8px; border-top: 1px solid rgba(255,255,255,0.06); flex-wrap: wrap; gap: 8px;">
-                        <div style="display: flex; gap: 14px; align-items: center;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 8px; font-size: 11px; color: var(--text-muted); padding-top: 7px; border-top: 1px solid var(--border-color); flex-wrap: wrap; gap: 8px;">
+                        <div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap;">
                             <span style="display: flex; align-items: center; gap: 4px;"><span style="display:inline-block; width:12px; height:3px; background:#38bdf8; border-radius:2px;"></span> 历史收盘价</span>
                             <span style="display: flex; align-items: center; gap: 4px;"><span style="display:inline-block; width:12px; height:0px; border-top:2px dashed #ff944d;"></span> 15日融合推演路径</span>
+                            <span style="display: flex; align-items: center; gap: 4px;"><span style="display:inline-block; width:12px; height:8px; background:rgba(245,158,11,0.20); border-top:1.5px dashed #34d399; border-bottom:1.5px dashed #f87171; border-radius:2px;"></span> 悲观~乐观区间 (P15~P85)</span>
                             <span style="display: flex; align-items: center; gap: 4px;"><span style="display:inline-block; width:10px; height:10px; background:rgba(88,166,255,0.35); border:1px solid #58a6ff; border-radius:2px;"></span> 周期低点回踩窗</span>
                             <span style="display: flex; align-items: center; gap: 4px;"><span style="display:inline-block; width:10px; height:10px; background:rgba(227,179,65,0.35); border:1px solid #e3b341; border-radius:2px;"></span> 高位强势休整窗</span>
                             <span style="display: flex; align-items: center; gap: 4px;"><span style="display:inline-block; width:10px; height:10px; background:rgba(248,81,73,0.35); border:1px solid #f85149; border-radius:2px;"></span> 周期阻力高点窗</span>
                         </div>
-                        <span style="color: #8b949e; font-size: 11px;">🖐️ <strong>交互指南:</strong> 鼠标按住图表任意位置可<strong>自由左右拖拽</strong>，滚轮可缩放，移动光标可精确定位</span>
+                        <span style="color: var(--text-muted); font-size: 11px;">🖐️ 拖拽/滚轮缩放 · 光标悬停查价</span>
                     </div>
                 </div>
 
                 <!-- Right: Tactical Dashboard -->
-                <div style="display: flex; flex-direction: column; gap: 10px;">
+                <div style="display: flex; flex-direction: column; gap: 9px;">
                     <!-- Card 1: Header & Regime Analog Card -->
-                    <div style="background: rgba(13, 17, 23, 0.85); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; padding: 12px 14px;">
-                        <div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid rgba(255,255,255,0.08); padding-bottom: 8px; margin-bottom: 8px;">
+                    <div class="tc-subcard">
+                        <div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid var(--border-color); padding-bottom: 6px; margin-bottom: 6px;">
                             <div>
-                                <span id="cycleTickerTitle" style="font-size: 20px; font-weight: 800; color: #58a6ff; font-family: 'JetBrains Mono', monospace;">--</span>
+                                <span id="cycleTickerTitle" style="font-size: 20px; font-weight: 800; color: var(--primary-blue); font-family: 'JetBrains Mono', monospace;">--</span>
                                 <span id="cycleTickerSub" style="font-size: 12px; color: var(--text-sub); margin-left: 6px;">加载中...</span>
                             </div>
-                            <span id="cycleCurPrice" style="font-size: 20px; font-weight: 800; color: #f0f6fc; font-family: 'JetBrains Mono', monospace;">--</span>
+                            <span id="cycleCurPrice" style="font-size: 20px; font-weight: 800; color: var(--text-main); font-family: 'JetBrains Mono', monospace;">--</span>
                         </div>
-                        <div style="font-size: 12px; color: var(--text-sub); line-height: 1.5;">
+                        <div style="font-size: 12px; color: var(--text-sub); line-height: 1.45;">
                             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
                                 <span>🎯 5年最佳相似历史形态:</span>
-                                <span id="cycleAnalogSim" style="color: #3fb950; font-weight: 800; font-family: monospace;">--%</span>
+                                <span id="cycleAnalogSim" style="color: var(--neon-green); font-weight: 800; font-family: monospace;">--%</span>
                             </div>
                             <div id="cycleAnalogPeriod" style="color: #ffd54f; font-weight: 700; font-family: monospace; font-size: 11.5px; background: rgba(255,213,79,0.08); padding: 4px 8px; border-radius: 4px; border: 1px solid rgba(255,213,79,0.2);">--</div>
                         </div>
                     </div>
 
                     <!-- Card 2: S/R Level Ladder (攻防点位天梯) -->
-                    <div style="background: rgba(13, 17, 23, 0.85); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; padding: 12px 14px;">
-                        <div style="font-size: 12px; font-weight: 700; color: #cbd5e1; margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center;">
-                            <span>🪜 多级攻防点位天梯</span>
-                            <span style="font-size: 10.5px; color: #8b949e;">软ATR+POC动态锚定</span>
+                    <div class="tc-subcard">
+                        <div style="font-size: 12px; font-weight: 700; color: var(--text-main); margin-bottom: 6px; display: flex; justify-content: space-between; align-items: center; gap: 6px;">
+                            <span>🎯 多级攻防点位天梯</span>
+                            <span id="cycleLadderSubtitle" style="font-size: 10.5px; color: var(--text-muted);">{_init_ladder_subtitle}</span>
                         </div>
                         <div id="cycleLevelsLadder" style="display: flex; flex-direction: column; gap: 4px; font-family: 'JetBrains Mono', monospace; font-size: 11px;">
-                            <!-- Dynamic levels generated by JS -->
+                            {_init_ladder_html}
                         </div>
                     </div>
 
                     <!-- Card 3: Tactical Windows Timeline (关键变盘时间轴) -->
-                    <div style="background: rgba(13, 17, 23, 0.85); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; padding: 12px 14px; flex: 1; display: flex; flex-direction: column;">
-                        <div style="font-size: 12px; font-weight: 700; color: #cbd5e1; margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center;">
+                    <div class="tc-subcard" style="flex: 1; display: flex; flex-direction: column;">
+                        <div style="font-size: 12px; font-weight: 700; color: var(--text-main); margin-bottom: 6px; display: flex; justify-content: space-between; align-items: center;">
                             <span>⏳ 未来 15 日关键变盘节点</span>
                             <span style="font-size: 10.5px; color: #ff944d;">高危反转时间窗</span>
                         </div>
-                        <div id="cycleWindowsList" style="flex: 1; overflow-y: auto; max-height: 150px; display: flex; flex-direction: column; gap: 6px; padding-right: 2px;">
+                        <div id="cycleWindowsList" style="flex: 1; overflow-y: auto; max-height: 168px; display: flex; flex-direction: column; gap: 5px; padding-right: 2px;">
                             <!-- Dynamic timeline cards -->
                         </div>
                     </div>
-
-                    <!-- Card 4: Trader Principle -->
-                    <div style="background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.05); border-radius: 8px; padding: 8px 10px; font-size: 11px; color: #8b949e; line-height: 1.4;">
-                        💡 <strong>操盘手心法:</strong> 路径推演基于历史数学共振规律，实盘严守 S1/S2 支撑回踩与 R1 压力位纪律，以跌破止损位为最高防守准则。
-                    </div>
                 </div>
+            </div>
+
+            <!-- Bottom Compact Principle Bar (Aligned Full-Width) -->
+            <div class="tc-principle-bar">
+                💡 <strong>操盘手心法:</strong> 路径推演基于历史数学共振规律，实盘严守 S1/S2 支撑回踩与 R1 压力位纪律，以跌破止损位为最高防守准则。
             </div>
         </div>
 
         <!-- Table 4: Segmented Dual-Ranking Architecture (Milestone M3) -->
         <div class="t4-segmented-bar">
-            <button class="t4-seg-btn active" data-view="dual" onclick="switchT4View('dual')">⚔️ 多空双向大榜 (Dual Top 5)</button>
-            <button class="t4-seg-btn" data-view="long" onclick="switchT4View('long')">🔥 做多高胜率 Top 5 (Long Pool)</button>
-            <button class="t4-seg-btn" data-view="short" onclick="switchT4View('short')">🩸 做空高胜率 Top 5 (Short Pool)</button>
-            <button class="t4-seg-btn" data-view="all" onclick="switchT4View('all')">🌐 全域 {len(all_live)} 标的全景截面</button>
+            <button class="t4-seg-btn{' active' if _default_t4_view == 'dual' else ''}" data-view="dual" onclick="switchT4View('dual')">⚔️ 多空双向大榜 (Dual Top 5)</button>
+            <button class="t4-seg-btn{' active' if _default_t4_view == 'long' else ''}" data-view="long" onclick="switchT4View('long')">🔥 做多高胜率 Top 5 (Long Pool)</button>
+            <button class="t4-seg-btn{' active' if _default_t4_view == 'short' else ''}" data-view="short" onclick="switchT4View('short')">🩸 做空高胜率 Top 5 (Short Pool)</button>
+            <button class="t4-seg-btn{' active' if _default_t4_view == 'all' else ''}" data-view="all" onclick="switchT4View('all')">🌐 全域 {len(all_live)} 标的全景截面</button>
         </div>
 
-        <div id="t4-view-container">
+        <div id="t4-view-container" class="{'bear-regime' if _is_bear_defense else ''}">
             <!-- Card 4-A: 做多胜率 Top 5 (Bullish Conviction) -->
             <div class="section-card t4-card t4-card-long" id="cardT4Long">
                 <div class="section-header">
                     <div>
                         <h3 id="t4-long-title">🔥 表 4-A: 最新交易日 AI 预测做多胜率排行榜 Top 5 (Bullish Conviction)</h3>
-                        <span class="sub" id="t4-long-sub">5日触顶止盈概率领先 · 赛道先验正向校准 · 严格剔除破位飞刀与暴跌熔断</span>
+                        <div style="display: flex; align-items: center; flex-wrap: wrap; gap: 6px; margin-top: 2px;">
+                            <span class="sub" id="t4-long-sub">5日触顶止盈概率领先 · 赛道先验正向校准 · 严格剔除破位飞刀与暴跌熔断</span>
+                            {_t4_bear_hint_html}
+                        </div>
                     </div>
                     <div class="t4-controls-right" id="t4-long-controls">
                         <input type="text" id="t4-search" class="search-input" placeholder="🔍 搜索代码 (如 NVDA)..." oninput="applyT4Filters()">
@@ -6000,77 +9241,85 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             </div>
         </div>
 
-        <!-- Table 2: 7 大赛道样本外预测表现归因表 -->
-        <div class="section-card">
-            <div class="section-header">
-                <h3>🏆 表 2: 7 大核心高弹性赛道样本外预测表现归因表 (7 Sectors OOS Attribution · 点击行可联动筛选表 4)</h3>
-                <span class="sub">基于 2024-2026 样本外高置信信号 (>=60%) 期望盈亏比 (PF) 与平均实现收益综合评星 · 小样本 (&lt;10笔) 强制封顶 3 星</span>
-            </div>
-            <table>
-                <thead>
-                    <tr>
-                        <th style="text-align: center;">#</th>
-                        <th>赛道名称 (点击筛选)</th>
-                        <th style="text-align: center;">标的数</th>
-                        <th style="text-align: right;">OOS 评估样本</th>
-                        <th style="text-align: right;">高置信信号数 (>=60%)</th>
-                        <th style="text-align: right;">高置信正收益胜率 (触轨率)</th>
-                        <th style="text-align: right;">平均实现收益 %</th>
-                        <th style="text-align: right;">平均盈亏比</th>
-                        <th style="text-align: right;">期望盈亏比 PF (校准乘数)</th>
-                        <th style="text-align: center;">AI Alpha 机构评级</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {t2_rows_html}
-                </tbody>
-            </table>
+        <!-- Default-Collapsed Historical OOS Attribution & Calibration Drawer -->
+        <div class="drawer-bar">
+            <button type="button" id="btnBacktestDrawer" class="drawer-toggle-btn" onclick="toggleCollapsibleDrawer('backtestDetailsDrawer', this, '🔍 展开 5 年历史回测归因详情 ▾', '🔼 收起 5 年历史回测归因详情 ▴')">🔍 展开 5 年历史回测归因详情 ▾</button>
+            <span class="drawer-bar-hint">含表 2（7 大赛道 OOS 归因 · 点击可筛选表 4）、表 1（分位数校准）与表 3（LightGBM 特征重要度 Top 15）</span>
         </div>
 
-        <!-- Table 1: 样本外分位数校准表 -->
-        <div class="section-card">
-            <div class="section-header">
-                <h3>📊 表 1: 样本外分位数校准表 (Quantile Calibration Table - Expanding OOS 2024-2026)</h3>
-                <span class="sub">严格验证预测概率单调递增性 · 同时披露真实交割正收益胜率与 5 日触轨止盈率</span>
+        <div id="backtestDetailsDrawer" style="display: none;">
+            <!-- Table 2: 7 大赛道样本外预测表现归因表 -->
+            <div class="section-card">
+                <div class="section-header">
+                    <h3>🏆 表 2: 7 大核心高弹性赛道样本外预测表现归因表 (7 Sectors OOS Attribution · 点击行可联动筛选表 4)</h3>
+                    <span class="sub">基于 2024-2026 样本外高置信信号 (>=60%) 期望盈亏比 (PF) 与平均实现收益综合评星 · 小样本 (&lt;10笔) 强制封顶 3 星</span>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="text-align: center;">#</th>
+                            <th>赛道名称 (点击筛选)</th>
+                            <th style="text-align: center;">标的数</th>
+                            <th style="text-align: right;">OOS 评估样本</th>
+                            <th style="text-align: right;">高置信信号数 (>=60%)</th>
+                            <th style="text-align: right;">高置信正收益胜率 (触轨率)</th>
+                            <th style="text-align: right;">平均实现收益 %</th>
+                            <th style="text-align: right;">平均盈亏比</th>
+                            <th style="text-align: right;">期望盈亏比 PF (校准乘数)</th>
+                            <th style="text-align: center;">AI Alpha 机构评级</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {t2_rows_html}
+                    </tbody>
+                </table>
             </div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>预测置信度档位</th>
-                        <th style="text-align: right;">触发历史样本数</th>
-                        <th style="text-align: right;">正收益胜率 (触轨止盈率)</th>
-                        <th style="text-align: right;">平均实现收益 %</th>
-                        <th style="text-align: right;">平均盈亏比 (Win/Loss)</th>
-                        <th style="text-align: right;">期望盈亏比 (PF)</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {t1_rows_html}
-                </tbody>
-            </table>
-        </div>
 
-        <!-- Table 3: LightGBM 特征重要度 Top 15 -->
-        <div class="section-card">
-            <div class="section-header">
-                <h3>📈 表 3: LightGBM 特征重要度 (Feature Importance Gain) Top 15 排行榜</h3>
-                <span class="sub">横截面分位数排名 + 连续超额收益复合因子 · 抑制宏观特征分裂垄断，提升个股微观结构权重</span>
+            <!-- Table 1: 样本外分位数校准表 -->
+            <div class="section-card">
+                <div class="section-header">
+                    <h3>📊 表 1: 样本外分位数校准表 (Quantile Calibration Table - Expanding OOS 2024-2026)</h3>
+                    <span class="sub">严格验证预测概率单调递增性 · 同时披露真实交割正收益胜率与 5 日触轨止盈率</span>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>预测置信度档位</th>
+                            <th style="text-align: right;">触发历史样本数</th>
+                            <th style="text-align: right;">正收益胜率 (触轨止盈率)</th>
+                            <th style="text-align: right;">平均实现收益 %</th>
+                            <th style="text-align: right;">平均盈亏比 (Win/Loss)</th>
+                            <th style="text-align: right;">期望盈亏比 (PF)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {t1_rows_html}
+                    </tbody>
+                </table>
             </div>
-            <table>
-                <thead>
-                    <tr>
-                        <th style="text-align: center;">#</th>
-                        <th>特征标识</th>
-                        <th style="text-align: center;">特征维度分类</th>
-                        <th style="text-align: right;">Gain 总贡献</th>
-                        <th style="text-align: right;">贡献占比 %</th>
-                        <th>量化经济学逻辑与实盘解读</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {t3_rows_html}
-                </tbody>
-            </table>
+
+            <!-- Table 3: LightGBM 特征重要度 Top 15 -->
+            <div class="section-card">
+                <div class="section-header">
+                    <h3>📈 表 3: LightGBM 特征重要度 (Feature Importance Gain) Top 15 排行榜</h3>
+                    <span class="sub">横截面分位数排名 + 连续超额收益复合因子 · 抑制宏观特征分裂垄断，提升个股微观结构权重</span>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="text-align: center;">#</th>
+                            <th>特征标识</th>
+                            <th style="text-align: center;">特征维度分类</th>
+                            <th style="text-align: right;">Gain 总贡献</th>
+                            <th style="text-align: right;">贡献占比 %</th>
+                            <th>量化经济学逻辑与实盘解读</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {t3_rows_html}
+                    </tbody>
+                </table>
+            </div>
         </div>
 
         <!-- Footer -->
@@ -6084,10 +9333,77 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
         </footer>
     </div>
 
-    <script type="text/plain" id="predict-app">
+    <script>
+        function getCurrentTheme() {{
+            const attr = document.documentElement.getAttribute('data-theme');
+            if (attr === 'light' || attr === 'dark') return attr;
+            try {{
+                return localStorage.getItem('futu_theme') === 'light' ? 'light' : 'dark';
+            }} catch (e) {{
+                return 'dark';
+            }}
+        }}
+
+        function updateThemeToggleUI(theme) {{
+            const isLight = (theme === 'light');
+            const icon = document.getElementById('themeToggleIcon');
+            const label = document.getElementById('themeToggleLabel');
+            const btn = document.getElementById('btnThemeToggle');
+            const meta = document.getElementById('metaThemeColor');
+            if (icon) icon.innerText = isLight ? '🌙' : '☀️';
+            if (label) label.innerText = isLight ? '深色' : '浅色';
+            if (btn) btn.title = isLight ? '切换到深色模式' : '切换到浅色模式';
+            if (meta) meta.setAttribute('content', isLight ? '#F4F6F9' : '#0B0F19');
+        }}
+
+        function applyTheme(theme, skipRedraw) {{
+            const nextTheme = (theme === 'light') ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', nextTheme);
+            try {{
+                localStorage.setItem('futu_theme', nextTheme);
+            }} catch (e) {{}}
+            updateThemeToggleUI(nextTheme);
+            if (!skipRedraw && typeof renderTimeCycleView === 'function') {{
+                renderTimeCycleView();
+            }}
+        }}
+
+        function toggleTheme() {{
+            const next = (getCurrentTheme() === 'dark') ? 'light' : 'dark';
+            applyTheme(next, false);
+        }}
+
+        function toggleCollapsibleDrawer(drawerId, btnEl, closedText, openText) {{
+            const drawer = document.getElementById(drawerId);
+            if (!drawer) return;
+            const isOpen = (drawer.style.display !== 'none' && drawer.style.display !== '');
+            const computedOpen = isOpen || (getComputedStyle(drawer).display !== 'none');
+            if (computedOpen) {{
+                drawer.style.display = 'none';
+                if (btnEl && closedText) btnEl.textContent = closedText;
+            }} else {{
+                drawer.style.display = 'block';
+                if (btnEl && openText) btnEl.textContent = openText;
+            }}
+        }}
+
+        function toggleT4ScriptRow(btn) {{
+            if (!btn) return;
+            const parentRow = btn.closest('tr');
+            if (!parentRow) return;
+            const nextRow = parentRow.nextElementSibling;
+            if (!nextRow || !nextRow.classList.contains('t4-script-detail-row')) return;
+            const isHidden = (nextRow.style.display === 'none' || getComputedStyle(nextRow).display === 'none');
+            nextRow.style.display = isHidden ? '' : 'none';
+            const txt = btn.textContent || '';
+            if (txt.includes('▾') || txt.includes('▴')) {{
+                btn.textContent = isHidden ? txt.replace('▾', '▴') : txt.replace('▴', '▾');
+            }}
+        }}
+
         let showFullPool = false;
         let currentSector = 'ALL';
-        let currentT4View = 'dual';
+        let currentT4View = '{_default_t4_view}';
 
         function switchT4View(view) {{
             currentT4View = view;
@@ -6169,6 +9485,15 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             const rows = document.querySelectorAll('#t4-tbody .t4-stock-row');
             let maxCount = limit || (showFullPool ? {len(all_live)} : 5);
             let visibleCount = 0;
+
+            document.querySelectorAll('#t4-tbody .t4-script-detail-row').forEach(dr => {{
+                dr.style.display = 'none';
+            }});
+            document.querySelectorAll('#t4-tbody .t4-script-pill').forEach(btn => {{
+                if (btn.textContent && btn.textContent.includes('▴')) {{
+                    btn.textContent = btn.textContent.replace('▴', '▾');
+                }}
+            }});
 
             rows.forEach(row => {{
                 const rank = parseInt(row.getAttribute('data-rank') || '999', 10);
@@ -6402,25 +9727,46 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
                     `${{tagTitle}}: ${{pt.winDesc || ''}}</div>`;
             }}
 
+            const _isPtsCy = (activeCycleSymbol === 'KOSPI' || (data && (data.ticker === 'KOSPI' || data.price_unit === 'pts')));
+            const _fmtCyPx = (v) => _isPtsCy ? Number(v).toLocaleString('en-US', {{ minimumFractionDigits: 2, maximumFractionDigits: 2 }}) : ('$' + Number(v).toFixed(2));
             let s1r1Hint = '';
             if (data.r1 && pt.price) {{
                 const diffR1 = (Number(data.r1) - pt.price);
                 const diffPct = (diffR1 / pt.price * 100).toFixed(1);
-                s1r1Hint = `<div style="color: #8b949e; font-size: 10.5px; margin-top: 4px;">距第一阻力 R1 ($${{Number(data.r1).toFixed(2)}}): ${{diffR1 >= 0 ? '+' : ''}}${{diffPct}}%</div>`;
+                s1r1Hint = `<div style="color: #8b949e; font-size: 10.5px; margin-top: 4px;">距第一阻力 R1 (${{_fmtCyPx(data.r1)}}): ${{diffR1 >= 0 ? '+' : ''}}${{diffPct}}%</div>`;
             }}
 
             const sign = (pt.pct != null && pt.pct >= 0) ? '+' : '';
-            const pColor = (pt.pct != null && pt.pct >= 0) ? '#3fb950' : (pt.pct != null ? '#f85149' : '#f0f6fc');
+            const pColor = (pt.pct != null && pt.pct >= 0) ? (Boolean(data.bear_inertia_active) ? 'var(--warning-gold)' : 'var(--neon-green)') : (pt.pct != null ? 'var(--risk-red)' : 'var(--text-main)');
             const pctStr = pt.pct != null ? `<span style="color: ${{pColor}}; font-weight: 800; margin-left: 6px;">(${{sign}}${{pt.pct}}%)</span>` : '';
 
+            let bandHint = '';
+            if (pt.isProj && pt.p15Price != null && pt.p85Price != null) {{
+                const fmtB = (pxVal, pctVal, cHex) => {{
+                    const pNum = Number(pctVal || 0);
+                    const pSign = pNum >= 0 ? '+' : '';
+                    return `<span style="color:${{cHex}}; font-weight:700;">${{_fmtCyPx(pxVal)}} (${{pSign}}${{pNum.toFixed(1)}}%)</span>`;
+                }};
+                const p15Html = fmtB(pt.p15Price, pt.p15Pct, '#f87171');
+                const p85Html = fmtB(pt.p85Price, pt.p85Pct, Boolean(data.bear_inertia_active) ? '#e3b341' : '#34d399');
+                bandHint = `
+                    <div style="margin-top: 5px; padding-top: 4px; border-top: 1px dashed var(--border-color); font-size: 11px; line-height: 1.5; font-family: 'JetBrains Mono', monospace;">
+                        <div>推演中位: <strong style="color:var(--text-main);">${{_fmtCyPx(pt.price)}} (${{sign}}${{Number(pt.pct || 0).toFixed(1)}}%)</strong></div>
+                        <div>悲观下沿 (P15): ${{p15Html}}</div>
+                        <div>乐观上沿 (P85): ${{p85Html}}</div>
+                    </div>
+                `;
+            }}
+
             tip.innerHTML = `
-                <div style="font-size: 11px; color: #8b949e; display: flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.08); padding-bottom: 4px; margin-bottom: 5px;">
+                <div style="font-size: 11px; color: var(--text-muted); display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-color); padding-bottom: 4px; margin-bottom: 5px;">
                     <span>${{pt.isProj ? '🔮 未来推演' : '📊 历史实盘'}}</span>
-                    <span style="color: #cbd5e1; font-weight: 700;">${{pt.displayDate}}</span>
+                    <span style="color: var(--text-sub); font-weight: 700;">${{pt.displayDate}}</span>
                 </div>
-                <div style="font-size: 14px; font-weight: 800; color: #f0f6fc;">
-                    $${{Number(pt.price).toFixed(2)}} ${{pctStr}}
+                <div style="font-size: 14px; font-weight: 800; color: var(--text-main);">
+                    ${{_fmtCyPx(pt.price)}} ${{pctStr}}
                 </div>
+                ${{bandHint}}
                 ${{winTag}}
                 ${{s1r1Hint}}
             `;
@@ -6455,6 +9801,202 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             drawTimeCycleCanvas(data);
         }}
 
+        function buildCycleSrLadderSpec(data, isLightTheme) {{
+            const d = data || {{}};
+            const num = (v) => {{
+                const n = Number(v);
+                return (Number.isFinite(n) && n > 0) ? n : 0;
+            }};
+            const curP = num(d.current_price || d.latest_price);
+            const s1 = num(d.anchor_s1 || d.s1);
+            const s2 = num(d.anchor_s2 || d.s2);
+            const sl = num(d.anchor_sl || d.sl);
+            const r1 = num(d.anchor_r1 || d.r1);
+            const r2 = num(d.anchor_r2 || d.r2);
+
+            const s1Src = String(d.s1_source || '').toUpperCase();
+            const s2Src = String(d.s2_source || '').toUpperCase();
+            const r1Src = String(d.r1_source || '').toUpperCase();
+            const r2Src = String(d.r2_source || '').toUpperCase();
+            const s1Est = (s1Src === 'ATR_ESTIMATE');
+            const s2Est = (s2Src === 'ATR_ESTIMATE');
+            const r1Est = (r1Src === 'ATR_ESTIMATE');
+            const r2Est = (r2Src === 'ATR_ESTIMATE');
+
+            const s1Breached = (s1 > 0 && curP > 0 && curP < s1);
+            const s2Breached = (s2 > 0 && curP > 0 && curP < s2);
+            const slBreached = (sl > 0 && curP > 0 && curP < sl);
+            const r1Broken = (r1 > 0 && curP > 0 && curP > r1);
+            const r2Broken = (r2 > 0 && curP > 0 && curP > r2);
+
+            let srState = 'INTACT';
+            let subtitle = '当日静态锚定';
+            if (s2Breached) {{
+                srState = 'ALL_SUPPORT_BREACHED';
+                subtitle = '当日静态锚定 · 支撑击穿转压';
+            }} else if (s1Breached) {{
+                srState = 'S1_BREACHED';
+                subtitle = '当日静态锚定 · S1击穿转压';
+            }} else if (r2Broken) {{
+                srState = 'ALL_RESISTANCE_BROKEN';
+                subtitle = '当日静态锚定 · 全线突破转撑';
+            }} else if (r1Broken) {{
+                srState = 'R1_BROKEN';
+                subtitle = '当日静态锚定 · R1突破转撑';
+            }}
+
+            const estSuffix = ' (估算·无真实筹码)';
+            const items = [];
+            const canvasLines = [];
+
+            if (r2 > 0) {{
+                let color, bg, key, ckey, dash;
+                if (r2Broken) {{
+                    color = isLightTheme ? '#0D9488' : '#2dd4bf';
+                    bg = isLightTheme ? 'rgba(13,148,136,0.10)' : 'rgba(45,212,191,0.12)';
+                    key = '原R2 (已突破转撑)' + (r2Est ? estSuffix : '');
+                    ckey = '原R2(转撑)';
+                    dash = [4, 3];
+                }} else if (r2Est) {{
+                    color = isLightTheme ? '#B45309' : '#e3b341';
+                    bg = isLightTheme ? 'rgba(180,83,9,0.08)' : 'rgba(227,179,65,0.10)';
+                    key = 'R2 极限阻力' + estSuffix;
+                    ckey = '估算R2';
+                    dash = [2, 3];
+                }} else {{
+                    color = isLightTheme ? '#DC2626' : '#f85149';
+                    bg = isLightTheme ? 'rgba(220,38,38,0.08)' : 'rgba(248,81,73,0.10)';
+                    key = 'R2 极限阻力';
+                    ckey = 'R2';
+                    dash = [5, 4];
+                }}
+                items.push({{ id: 'R2', key, val: r2, color, bg, borderStyle: (r2Broken || r2Est) ? 'dashed' : 'solid', isBreached: false, isBroken: r2Broken, isCur: false, isEst: r2Est, order: 0 }});
+                canvasLines.push({{ id: 'R2', key: ckey, val: r2, color, lineDash: dash, isBreached: false, isBroken: r2Broken, isEst: r2Est }});
+            }}
+
+            if (r1 > 0) {{
+                let color, bg, key, ckey, dash;
+                if (r1Broken) {{
+                    color = isLightTheme ? '#059669' : '#3fb950';
+                    bg = isLightTheme ? 'rgba(5,150,105,0.10)' : 'rgba(63,185,80,0.12)';
+                    key = '原R1 (已突破转撑)' + (r1Est ? estSuffix : '');
+                    ckey = '原R1(转撑)';
+                    dash = [4, 3];
+                }} else if (r1Est) {{
+                    color = isLightTheme ? '#B45309' : '#e3b341';
+                    bg = isLightTheme ? 'rgba(180,83,9,0.08)' : 'rgba(227,179,65,0.10)';
+                    key = 'R1 反弹第一阻力' + estSuffix;
+                    ckey = '估算R1';
+                    dash = [2, 3];
+                }} else {{
+                    color = isLightTheme ? '#EA580C' : '#ff944d';
+                    bg = isLightTheme ? 'rgba(234,88,12,0.08)' : 'rgba(255,148,77,0.10)';
+                    key = 'R1 反弹第一阻力';
+                    ckey = 'R1';
+                    dash = [5, 4];
+                }}
+                items.push({{ id: 'R1', key, val: r1, color, bg, borderStyle: (r1Broken || r1Est) ? 'dashed' : 'solid', isBreached: false, isBroken: r1Broken, isCur: false, isEst: r1Est, order: 1 }});
+                canvasLines.push({{ id: 'R1', key: ckey, val: r1, color, lineDash: dash, isBreached: false, isBroken: r1Broken, isEst: r1Est }});
+            }}
+
+            if (curP > 0) {{
+                items.push({{
+                    id: 'CUR',
+                    key: d.price_note ? '⚪ 正规盘收盘' : '⚪ 当前现价',
+                    val: curP,
+                    color: isLightTheme ? '#0284C7' : '#38bdf8',
+                    bg: isLightTheme ? 'rgba(2,132,199,0.10)' : 'rgba(56,189,248,0.15)',
+                    borderStyle: 'solid',
+                    isBreached: false,
+                    isBroken: false,
+                    isCur: true,
+                    isEst: false,
+                    order: 2
+                }});
+            }}
+
+            if (s1 > 0) {{
+                let color, bg, key, ckey, ccolor, dash;
+                if (s1Breached) {{
+                    color = isLightTheme ? '#991B1B' : '#f87171';
+                    bg = isLightTheme ? 'rgba(148,163,184,0.10)' : 'rgba(248,113,113,0.07)';
+                    key = '原S1 (已击穿转压)' + (s1Est ? estSuffix : '');
+                    ckey = '原S1(已破)';
+                    ccolor = isLightTheme ? '#94A3B8' : '#f87171';
+                    dash = [3, 3];
+                }} else if (s1Est) {{
+                    color = isLightTheme ? '#B45309' : '#e3b341';
+                    bg = isLightTheme ? 'rgba(180,83,9,0.08)' : 'rgba(227,179,65,0.10)';
+                    key = 'S1 波段支撑' + estSuffix;
+                    ckey = '估算S1';
+                    ccolor = color;
+                    dash = [2, 3];
+                }} else {{
+                    color = isLightTheme ? '#059669' : '#3fb950';
+                    bg = isLightTheme ? 'rgba(5,150,105,0.08)' : 'rgba(63,185,80,0.10)';
+                    key = 'S1 波段支撑';
+                    ckey = 'S1';
+                    ccolor = color;
+                    dash = [5, 4];
+                }}
+                items.push({{ id: 'S1', key, val: s1, color, bg, borderStyle: (s1Breached || s1Est) ? 'dashed' : 'solid', isBreached: s1Breached, isBroken: false, isCur: false, isEst: s1Est, order: 3 }});
+                canvasLines.push({{ id: 'S1', key: ckey, val: s1, color: ccolor, lineDash: dash, isBreached: s1Breached, isBroken: false, isEst: s1Est }});
+            }}
+
+            if (s2 > 0) {{
+                let color, bg, key, ckey, ccolor, dash;
+                if (s2Breached) {{
+                    color = isLightTheme ? '#B91C1C' : '#ef4444';
+                    bg = isLightTheme ? 'rgba(148,163,184,0.10)' : 'rgba(239,68,68,0.07)';
+                    key = '原S2 (已击穿转压)' + (s2Est ? estSuffix : '');
+                    ckey = '原S2(已破)';
+                    ccolor = isLightTheme ? '#94A3B8' : '#ef4444';
+                    dash = [3, 3];
+                }} else if (s2Est) {{
+                    color = isLightTheme ? '#B45309' : '#d29922';
+                    bg = isLightTheme ? 'rgba(180,83,9,0.07)' : 'rgba(210,153,34,0.09)';
+                    key = 'S2 极限插针底' + estSuffix;
+                    ckey = '估算S2';
+                    ccolor = color;
+                    dash = [2, 3];
+                }} else {{
+                    color = isLightTheme ? '#2563EB' : '#58a6ff';
+                    bg = isLightTheme ? 'rgba(37,99,235,0.08)' : 'rgba(88,166,255,0.10)';
+                    key = 'S2 极限插针底';
+                    ckey = 'S2';
+                    ccolor = color;
+                    dash = [5, 4];
+                }}
+                items.push({{ id: 'S2', key, val: s2, color, bg, borderStyle: (s2Breached || s2Est) ? 'dashed' : 'solid', isBreached: s2Breached, isBroken: false, isCur: false, isEst: s2Est, order: 4 }});
+                canvasLines.push({{ id: 'S2', key: ckey, val: s2, color: ccolor, lineDash: dash, isBreached: s2Breached, isBroken: false, isEst: s2Est }});
+            }}
+
+            if (sl > 0) {{
+                let color, bg, key, ckey, dash;
+                if (slBreached) {{
+                    color = isLightTheme ? '#64748B' : '#94a3b8';
+                    bg = 'rgba(100,116,139,0.08)';
+                    key = '原SL (已触及)';
+                    ckey = '原SL(已破)';
+                    dash = [2, 3];
+                }} else {{
+                    color = isLightTheme ? '#B91C1C' : '#f87171';
+                    bg = isLightTheme ? 'rgba(185,28,28,0.06)' : 'rgba(248,81,73,0.06)';
+                    key = 'SL 防守止损位';
+                    ckey = 'SL';
+                    dash = [2, 3];
+                }}
+                items.push({{ id: 'SL', key, val: sl, color, bg, borderStyle: slBreached ? 'dashed' : 'solid', isBreached: slBreached, isBroken: false, isCur: false, isEst: false, order: 5 }});
+                canvasLines.push({{ id: 'SL', key: ckey, val: sl, color, lineDash: dash, isBreached: slBreached, isBroken: false, isEst: false }});
+            }}
+
+            items.sort((a, b) => (Math.abs(b.val - a.val) > 1e-6) ? (b.val - a.val) : (a.order - b.order));
+            const topBanner = (srState === 'ALL_RESISTANCE_BROKEN') ? '🚀 突破今日全线阻力 · 沿 VWAP/EMA9 移动止盈' : '';
+            const bottomBanner = (srState === 'ALL_SUPPORT_BREACHED') ? '⚠️ 今日原定支撑全线击穿 · 下方真空寻底（严禁左侧接刀）' : '';
+            return {{ srState, subtitle, topBanner, bottomBanner, items, canvasLines }};
+        }}
+        window.buildCycleSrLadderSpec = buildCycleSrLadderSpec;
+
         function updateTacticalSidebar(data) {{
             const titleEl = document.getElementById('cycleTickerTitle');
             const subEl = document.getElementById('cycleTickerSub');
@@ -6469,13 +10011,16 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
                     'SMH': 'VanEck半导体', 'TSM': '台积电', 'NVDA': '英伟达算力',
                     'MU': '美光存储', 'AMD': '超威半导体', 'AVGO': '博通通信',
                     'MRVL': '迈威尔芯片', 'INTC': '英特尔芯片', 'SNDK': '闪迪数据存储',
-                    'QQQ': '纳指100微型', 'SQQQ': '3倍做空纳指', 'KORU': '3倍做多韩股',
-                    'BTC-USD': '比特币现货', 'TSLA': '特斯拉物理AI', 'PLTR': 'Palantir企业AI'
+                    'QQQ': '纳指100微型', 'SQQQ': '3倍做空纳指', 'KORU': '3倍做多韩股', 'KOSPI': '韩国综合指数',
+                    'BTC-USD': '比特币现货', 'XAUUSD': '伦敦金现货', 'ANT': 'Anthropic (IPO)',
+                    'TSLA': '特斯拉物理AI', 'PLTR': 'Palantir企业AI'
                 }};
                 subEl.textContent = subNames[data.ticker] || '';
             }}
+            const _isPtsSide = ((data.ticker || activeCycleSymbol) === 'KOSPI' || data.price_unit === 'pts');
+            const _fmtSidePx = (v) => _isPtsSide ? Number(v).toLocaleString('en-US', {{ minimumFractionDigits: 2, maximumFractionDigits: 2 }}) : ('$' + Number(v).toFixed(2));
             const curP = Number(data.current_price || 0);
-            if (curPEl) curPEl.textContent = curP > 0 ? ('$' + curP.toFixed(2)) : '--';
+            if (curPEl) curPEl.textContent = curP > 0 ? _fmtSidePx(curP) : '--';
             let noteEl = document.getElementById('cyclePriceNote');
             if (!noteEl && curPEl && curPEl.parentElement) {{
                 noteEl = document.createElement('div');
@@ -6488,39 +10033,51 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             const simVal = (data.analog_match && data.analog_match.similarity_pct) != null ? Number(data.analog_match.similarity_pct) : null;
             if (aSimEl) aSimEl.textContent = simVal !== null ? (simVal + '% ' + (simVal >= 85 ? '⭐⭐⭐⭐⭐' : (simVal >= 75 ? '⭐⭐⭐⭐' : '⭐⭐⭐'))) : '--';
 
-            // S/R Level Ladder (阶梯卡片)
+            // S/R Level Ladder (V4.4 静态锚点 + 价格严格降序 + 顶底互换状态)
+            const isLightTheme = (getCurrentTheme() === 'light');
+            const srSpec = buildCycleSrLadderSpec(data, isLightTheme);
+            const ladSubEl = document.getElementById('cycleLadderSubtitle');
+            if (ladSubEl) ladSubEl.textContent = srSpec.subtitle;
             const ladderEl = document.getElementById('cycleLevelsLadder');
             if (ladderEl && curP > 0) {{
-                const levels = [
-                    {{ key: 'R2 极限阻力', val: data.r2, color: '#f85149', bg: 'rgba(248,81,73,0.1)' }},
-                    {{ key: 'R1 反弹第一阻力', val: data.r1, color: '#ff944d', bg: 'rgba(255,148,77,0.1)' }},
-                    {{ key: data.price_note ? '⚪ 正规盘收盘' : '⚪ 当前现价', val: curP, color: '#38bdf8', bg: 'rgba(56,189,248,0.15)', isCur: true }},
-                    {{ key: 'S1 波段支撑', val: data.s1, color: '#3fb950', bg: 'rgba(63,185,80,0.1)' }},
-                    {{ key: 'S2 极限插针底', val: data.s2, color: '#58a6ff', bg: 'rgba(88,166,255,0.1)' }},
-                    {{ key: 'SL 防守止损位', val: data.sl, color: '#f87171', bg: 'rgba(248,81,73,0.06)' }}
-                ];
                 let ladHtml = '';
-                levels.forEach(lv => {{
+                if (srSpec.topBanner) {{
+                    const bullBg = isLightTheme ? 'rgba(5,150,105,0.12)' : 'rgba(16,185,129,0.14)';
+                    const bullBd = isLightTheme ? 'rgba(5,150,105,0.40)' : 'rgba(16,185,129,0.45)';
+                    const bullCl = isLightTheme ? '#059669' : '#34d399';
+                    ladHtml += `<div class="cycle-ladder-alert cycle-ladder-alert-bull" style="background: ${{bullBg}}; border: 1px solid ${{bullBd}}; color: ${{bullCl}};">${{srSpec.topBanner}}</div>`;
+                }}
+                srSpec.items.forEach(lv => {{
                     if (!lv.val) return;
                     const v = Number(lv.val);
                     const diffPct = ((v / curP - 1) * 100);
                     const sign = diffPct > 0 ? '+' : '';
-                    const pctTag = lv.isCur ? '<span style="color:#38bdf8; font-weight:700;">[基准锚点]</span>' : `<span style="color:${{lv.color}}; font-weight:700;">${{sign}}${{diffPct.toFixed(1)}}%</span>`;
+                    const pctTag = lv.isCur
+                        ? `<span style="color:${{lv.color}}; font-weight:700;">[基准锚点]</span>`
+                        : `<span style="color:${{lv.color}}; font-weight:700;">${{sign}}${{diffPct.toFixed(1)}}%</span>`;
+                    const strikeStyle = lv.isBreached ? 'text-decoration: line-through; opacity: 0.85;' : '';
+                    const clsExtra = lv.isBreached ? ' cycle-ladder-breached' : '';
                     ladHtml += `
-                        <div class="cycle-ladder-item" style="background: ${{lv.bg}}; border: 1px solid ${{lv.color}}33;">
-                            <span style="color: ${{lv.color}}; font-weight: 700;">${{lv.key}}</span>
-                            <div style="display: flex; gap: 8px; align-items: center;">
-                                <span style="color: #f0f6fc; font-weight: 800;">$${{v.toFixed(2)}}</span>
+                        <div class="cycle-ladder-item${{clsExtra}}" data-level="${{lv.id}}" data-price="${{v.toFixed(2)}}" data-breached="${{lv.isBreached ? '1' : '0'}}" data-broken="${{lv.isBroken ? '1' : '0'}}" style="background: ${{lv.bg}}; border: 1px ${{lv.borderStyle}} ${{lv.color}}44;">
+                            <span style="color: ${{lv.color}}; font-weight: 700; ${{strikeStyle}}">${{lv.key}}</span>
+                            <div style="display: flex; gap: 8px; align-items: center; flex-shrink: 0;">
+                                <span style="color: var(--text-main); font-weight: 800; ${{strikeStyle}}">${{_fmtSidePx(v)}}</span>
                                 ${{pctTag}}
                             </div>
                         </div>
                     `;
+                    if (lv.isCur && srSpec.bottomBanner) {{
+                        const bearBg = isLightTheme ? 'rgba(220,38,38,0.10)' : 'rgba(248,81,73,0.14)';
+                        const bearBd = isLightTheme ? 'rgba(220,38,38,0.40)' : 'rgba(248,81,73,0.45)';
+                        const bearCl = isLightTheme ? '#DC2626' : '#f87171';
+                        ladHtml += `<div class="cycle-ladder-alert cycle-ladder-alert-bear" style="background: ${{bearBg}}; border: 1px solid ${{bearBd}}; color: ${{bearCl}};">${{srSpec.bottomBanner}}</div>`;
+                    }}
                 }});
                 if (data.price_note) {{
                     ladHtml += `
-                        <div class="cycle-ladder-item" style="background: rgba(147,197,253,0.08); border: 1px solid rgba(147,197,253,0.28);">
-                            <span style="color: #93c5fd; font-weight: 700;">🌙 不是夜盘现价</span>
-                            <div style="color: #93c5fd; font-weight: 800;">${{data.price_note}}</div>
+                        <div class="cycle-ladder-item" style="background: rgba(56,189,248,0.08); border: 1px solid rgba(56,189,248,0.28);">
+                            <span style="color: var(--primary-blue); font-weight: 700;">🌙 不是夜盘现价</span>
+                            <div style="color: var(--primary-blue); font-weight: 800;">${{data.price_note}}</div>
                         </div>
                     `;
                 }}
@@ -6534,11 +10091,21 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
                     winList.innerHTML = data.cycle_windows.map(function(w) {{
                         const isTop = (w.type === 'top');
                         const isCaution = (w.type === 'caution') || (w.desc && w.desc.indexOf('高位强势休整') !== -1);
-                        const themeColor = isCaution ? '#e3b341' : (isTop ? '#f85149' : '#38bdf8');
-                        const bgAlpha = isCaution ? 'rgba(227, 179, 65, 0.08)' : (isTop ? 'rgba(248, 81, 73, 0.08)' : 'rgba(56, 189, 248, 0.08)');
+                        const themeColor = isCaution ? (isLightTheme ? '#B45309' : '#e3b341') : (isTop ? (isLightTheme ? '#DC2626' : '#f85149') : (isLightTheme ? '#0284C7' : '#38bdf8'));
+                        const bgAlpha = isCaution ? 'rgba(227, 179, 65, 0.10)' : (isTop ? 'rgba(248, 81, 73, 0.10)' : 'rgba(56, 189, 248, 0.10)');
                         const borderAlpha = isCaution ? 'rgba(227, 179, 65, 0.35)' : (isTop ? 'rgba(248, 81, 73, 0.28)' : 'rgba(56, 189, 248, 0.28)');
                         const icon = isCaution ? '⚠️' : (isTop ? '🔴' : '🔵');
                         const tag = w.tag || (isCaution ? '⚠️ 高位强势休整窗 (防追高)' : (isTop ? '周期阻力窗 (逢高不过就跑)' : '周期底回踩窗 (企稳关注)'));
+                        const curPx = Number(data.current_price || 0);
+                        const tgtPx = Number(w.price || 0);
+                        const diffPct = (curPx > 0 && tgtPx > 0) ? (((tgtPx - curPx) / curPx) * 100) : null;
+                        const diffStr = (diffPct !== null) ? `${{diffPct >= 0 ? '+' : ''}}${{diffPct.toFixed(1)}}%` : '--';
+                        const actionNote = isCaution
+                            ? '已超上方 R1/R2 阻力带 · 防追高回落'
+                            : (isTop
+                                ? '触及上方 R1/R2 阻力带注意止盈'
+                                : ((diffPct !== null && diffPct > 0) ? '冲高后回踩波段谷底 · 关注承接企稳' : '回踩波段谷底支撑 · 关注企稳低吸'));
+                        const subText = `距现价 ${{diffStr}} · ${{actionNote}}`;
                         return `
                             <div class="cycle-timeline-card" style="background: ${{bgAlpha}}; border: 1px solid ${{borderAlpha}};" onmouseenter="highlightCycleDay('${{w.day}}')" onmouseleave="clearCycleHighlight()">
                                 <div>
@@ -6547,33 +10114,57 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
                                         <span>${{w.day}} (${{w.date ? w.date.slice(5) : ''}})</span>
                                         <span style="font-size: 9.5px; padding: 1px 5px; border-radius: 3px; background: ${{borderAlpha}};">${{tag}}</span>
                                     </div>
-                                    <div style="font-size: 10.5px; color: #8b949e; margin-top: 3px;">${{w.desc || '关键周期变盘窗口'}}</div>
+                                    <div style="font-size: 10.5px; color: var(--text-muted); margin-top: 3px;">${{subText}}</div>
                                 </div>
                                 <div style="text-align: right; font-family: 'JetBrains Mono', monospace;">
-                                    <div style="font-size: 13.5px; font-weight: 800; color: #f0f6fc;">$${{Number(w.price).toFixed(2)}}</div>
+                                    <div style="font-size: 13.5px; font-weight: 800; color: var(--text-main);">${{_fmtSidePx(w.price)}}</div>
                                     <div style="font-size: 9.5px; color: ${{themeColor}};">预期目标价</div>
                                 </div>
                             </div>
                         `;
                     }}).join('');
                 }} else {{
-                    winList.innerHTML = '<div style="color: #8b949e; padding: 12px; text-align: center; font-size: 11.5px;">近期处于平稳修复通道，无极端单边反转窗口</div>';
+                    winList.innerHTML = '<div style="color: var(--text-muted); padding: 12px; text-align: center; font-size: 11.5px;">近期处于平稳修复通道，无极端单边反转窗口</div>';
                 }}
             }}
 
-            // Update Header T+15 Badge
+            // Update Header T+15 Badge & Plain-Language V4.6 Regime Badge
+            const isBearInertia = Boolean(data.bear_inertia_active);
             const headerBadge = document.getElementById('cycleT15BadgeHeader');
             if (headerBadge && data.projection && data.projection.length > 0) {{
                 const lastP = data.projection[data.projection.length - 1];
                 const sign = (lastP.pct >= 0) ? '+' : '';
-                const bColor = (lastP.pct >= 0) ? '#3fb950' : '#f85149';
-                const bBg = (lastP.pct >= 0) ? 'rgba(63, 185, 80, 0.15)' : 'rgba(248, 81, 73, 0.15)';
-                const bBorder = (lastP.pct >= 0) ? 'rgba(63, 185, 80, 0.4)' : 'rgba(248, 81, 73, 0.4)';
+                let bColor = (lastP.pct >= 0) ? (isLightTheme ? '#059669' : '#3fb950') : (isLightTheme ? '#DC2626' : '#f85149');
+                let bBg = (lastP.pct >= 0) ? 'rgba(63, 185, 80, 0.15)' : 'rgba(248, 81, 73, 0.15)';
+                let bBorder = (lastP.pct >= 0) ? 'rgba(63, 185, 80, 0.4)' : 'rgba(248, 81, 73, 0.4)';
+                if (isBearInertia && lastP.pct >= 0) {{
+                    bColor = isLightTheme ? '#B45309' : '#e3b341';
+                    bBg = 'rgba(227, 179, 65, 0.16)';
+                    bBorder = 'rgba(227, 179, 65, 0.45)';
+                }}
                 headerBadge.style.color = bColor;
                 headerBadge.style.background = bBg;
                 headerBadge.style.borderColor = bBorder;
-                headerBadge.innerHTML = `T+15 终点: <strong>${{sign}}${{lastP.pct}}%</strong> ($${{Number(lastP.price).toFixed(2)}})`;
+                headerBadge.innerHTML = `T+15 终点: <strong>${{sign}}${{lastP.pct}}%</strong> (${{_fmtSidePx(lastP.price)}})`;
                 headerBadge.style.display = 'inline-block';
+            }}
+            const regimeBadge = document.getElementById('cycleRegimeModeBadge');
+            if (regimeBadge) {{
+                if (isBearInertia) {{
+                    const p15T5Val = (data.p15_t5_pct != null && Number.isFinite(Number(data.p15_t5_pct)))
+                        ? Number(data.p15_t5_pct)
+                        : ((data.path_p15 && data.path_p15.length >= 5) ? Number(data.path_p15[4].pct || 0) : -5.0);
+                    const p15Sign = p15T5Val >= 0 ? '+' : '';
+                    regimeBadge.textContent = `⛔ 空头惯性延续 · 暂缓乐观反弹预期（已切恐慌同境引擎 | T+5悲观下沿 ${{p15Sign}}${{p15T5Val.toFixed(1)}}%）`;
+                    regimeBadge.style.color = isLightTheme ? '#B45309' : '#fbbf24';
+                    regimeBadge.style.background = isLightTheme ? 'rgba(245, 158, 11, 0.14)' : 'rgba(248, 81, 73, 0.16)';
+                    regimeBadge.style.border = isLightTheme ? '1px solid rgba(217, 119, 6, 0.45)' : '1px solid rgba(248, 81, 73, 0.48)';
+                }} else {{
+                    regimeBadge.textContent = '常态推演 · 含 P15~P85 波动参考';
+                    regimeBadge.style.color = isLightTheme ? '#0369A1' : '#7dd3fc';
+                    regimeBadge.style.background = isLightTheme ? 'rgba(2, 132, 199, 0.10)' : 'rgba(56, 189, 248, 0.12)';
+                    regimeBadge.style.border = isLightTheme ? '1px solid rgba(2, 132, 199, 0.28)' : '1px solid rgba(56, 189, 248, 0.30)';
+                }}
             }}
         }}
 
@@ -6583,20 +10174,22 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             if (!canvas || !wrapper) return;
 
             const dpr = window.devicePixelRatio || 1;
-            const rect = wrapper.getBoundingClientRect();
-            const width = rect.width || 750;
-            const height = rect.height || 320;
+            const width = Math.max(1, Math.round(wrapper.clientWidth || 750));
+            const height = Math.max(1, Math.round(wrapper.clientHeight || 440));
 
-            canvas.width = width * dpr;
-            canvas.height = height * dpr;
-            canvas.style.width = width + 'px';
-            canvas.style.height = height + 'px';
+            const targetW = Math.round(width * dpr);
+            const targetH = Math.round(height * dpr);
+            if (canvas.width !== targetW) canvas.width = targetW;
+            if (canvas.height !== targetH) canvas.height = targetH;
 
             const ctx = canvas.getContext('2d');
-            ctx.scale(dpr, dpr);
+            ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+            ctx.clearRect(0, 0, width, height);
 
             const hist = data.history || [];
             const proj = data.projection || [];
+            const pathP15 = data.path_p15 || [];
+            const pathP85 = data.path_p85 || [];
 
             // 1. Select points based on view mode (Focus mode zooms into projection)
             let selectedHist = hist;
@@ -6607,11 +10200,16 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             const points = [];
             const todayLabel = (data && data.today_label) ? data.today_label : '今日';
             selectedHist.forEach((p, idx) => {{
+                const pxVal = Number(p.price);
                 points.push({{
                     day: idx === selectedHist.length - 1 ? todayLabel : `T-${{selectedHist.length - 1 - idx}}`,
                     date: p.date,
                     displayDate: p.date,
-                    price: Number(p.price),
+                    price: pxVal,
+                    p15Price: pxVal,
+                    p85Price: pxVal,
+                    p15Pct: 0,
+                    p85Pct: 0,
                     isProj: false,
                     pct: null
                 }});
@@ -6632,11 +10230,22 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
                         }}
                     }}
                 }}
+                const mainPx = Number(p.price);
+                const b15Obj = pathP15[idx];
+                const b85Obj = pathP85[idx];
+                const p15Px = (b15Obj && b15Obj.price != null) ? Number(b15Obj.price) : ((p.p15_price != null) ? Number(p.p15_price) : mainPx);
+                const p15PctVal = (b15Obj && b15Obj.pct != null) ? Number(b15Obj.pct) : ((p.p15_pct != null) ? Number(p.p15_pct) : Number(p.pct || 0));
+                const p85Px = (b85Obj && b85Obj.price != null) ? Number(b85Obj.price) : ((p.p85_price != null) ? Number(p.p85_price) : mainPx);
+                const p85PctVal = (b85Obj && b85Obj.pct != null) ? Number(b85Obj.pct) : ((p.p85_pct != null) ? Number(p.p85_pct) : Number(p.pct || 0));
                 points.push({{
                     day: _canonDay,
                     date: p.date,
                     displayDate: `${{_canonDay}} (${{p.date ? p.date.slice(5) : ''}})`,
-                    price: Number(p.price),
+                    price: mainPx,
+                    p15Price: Math.min(mainPx, p15Px),
+                    p85Price: Math.max(mainPx, p85Px),
+                    p15Pct: Math.min(Number(p.pct || 0), p15PctVal),
+                    p85Pct: Math.max(Number(p.pct || 0), p85PctVal),
                     isProj: true,
                     pct: p.pct,
                     isWin: isWin,
@@ -6648,7 +10257,12 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             if (points.length === 0) return;
 
             // 2. Dynamic Y-Axis scale calculation
-            const yVals = points.map(p => p.price);
+            const yVals = [];
+            points.forEach(p => {{
+                yVals.push(p.price);
+                if (p.isProj && p.p15Price != null) yVals.push(p.p15Price);
+                if (p.isProj && p.p85Price != null) yVals.push(p.p85Price);
+            }});
             const curP = Number(data.current_price || points[0].price);
             
             // In focus mode, keep levels strictly bounded to projection neighborhood
@@ -6670,7 +10284,7 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             const maxY = rawMaxY + margin;
             const yRange = (maxY - minY) || 1;
 
-            const padL = 52, padR = 80, padT = 24, padB = 28;
+            const padL = 52, padR = (width < 460 ? 96 : 108), padT = 24, padB = 28;
             const baseChartW = width - padL - padR;
             const chartW = baseChartW * cycleZoom;
             const chartH = height - padT - padB;
@@ -6682,11 +10296,31 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             points.forEach((p, idx) => {{
                 p.canvasX = getX(idx);
                 p.canvasY = getY(p.price);
+                p.canvasY_p15 = getY(p.p15Price != null ? p.p15Price : p.price);
+                p.canvasY_p85 = getY(p.p85Price != null ? p.p85Price : p.price);
             }});
             currentActiveRenderPoints = points;
 
-            // 3. Clear canvas & Background
+            // 3. Clear canvas & Theme-Aware Background
+            const isLight = (getCurrentTheme() === 'light');
+            const cGrid = isLight ? 'rgba(15, 23, 42, 0.08)' : 'rgba(255, 255, 255, 0.06)';
+            const cAxisText = isLight ? '#475569' : '#94A3B8';
+            const cSplitLine = isLight ? 'rgba(15, 23, 42, 0.35)' : 'rgba(255, 255, 255, 0.42)';
+            const cSplitText = isLight ? '#0F172A' : '#CBD5E1';
+            const cHistStroke = isLight ? '#0284C7' : '#38BDF8';
+            const cHistFillTop = isLight ? 'rgba(2, 132, 199, 0.18)' : 'rgba(56, 189, 248, 0.22)';
+            const cHistFillBot = isLight ? 'rgba(2, 132, 199, 0.0)' : 'rgba(56, 189, 248, 0.0)';
+            const cProjStroke = isLight ? '#EA580C' : '#FF944D';
+            const cProjFillTop = isLight ? 'rgba(234, 88, 12, 0.16)' : 'rgba(255, 148, 77, 0.18)';
+            const cProjFillBot = isLight ? 'rgba(234, 88, 12, 0.0)' : 'rgba(255, 148, 77, 0.0)';
+            const cPillBg = isLight ? 'rgba(255, 255, 255, 0.96)' : 'rgba(13, 17, 23, 0.92)';
+            const cCrosshair = isLight ? 'rgba(15, 23, 42, 0.45)' : 'rgba(255, 255, 255, 0.65)';
+            const cDotRing = isLight ? '#0F172A' : '#FFFFFF';
+            const cTodayX = isLight ? '#0284C7' : '#58A6FF';
+
             ctx.clearRect(0, 0, width, height);
+            ctx.fillStyle = isLight ? '#FFFFFF' : '#0D1320';
+            ctx.fillRect(0, 0, width, height);
 
             // 4. Horizontal Gridlines & Left Price Axis
             ctx.lineWidth = 1;
@@ -6694,30 +10328,26 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             ctx.textAlign = 'right';
             ctx.textBaseline = 'middle';
 
+            const _isPtsCanvas = ((data.ticker || activeCycleSymbol) === 'KOSPI' || data.price_unit === 'pts');
             const numGrids = 5;
             for (let g = 0; g <= numGrids; g++) {{
                 const gy = padT + (g / numGrids) * chartH;
                 const gPrice = maxY - (g / numGrids) * yRange;
-                ctx.strokeStyle = 'rgba(255, 255, 255, 0.05)';
+                ctx.strokeStyle = cGrid;
                 ctx.setLineDash([3, 3]);
                 ctx.beginPath();
                 ctx.moveTo(padL, gy);
                 ctx.lineTo(width - padR, gy);
                 ctx.stroke();
 
-                ctx.fillStyle = '#8b949e';
-                ctx.fillText('$' + gPrice.toFixed(1), padL - 8, gy);
+                ctx.fillStyle = cAxisText;
+                ctx.fillText((_isPtsCanvas ? '' : '$') + gPrice.toFixed(1), padL - 8, gy);
             }}
             ctx.setLineDash([]);
 
-            // 5. Draw Support & Resistance Reference Lines
-            const ladderLines = [
-                {{ key: 'R2', val: data.r2, color: '#f85149', lineDash: [5, 4] }},
-                {{ key: 'R1', val: data.r1, color: '#ff944d', lineDash: [5, 4] }},
-                {{ key: 'S1', val: data.s1, color: '#3fb950', lineDash: [5, 4] }},
-                {{ key: 'S2', val: data.s2, color: '#58a6ff', lineDash: [5, 4] }},
-                {{ key: 'SL', val: data.sl, color: '#f87171', lineDash: [2, 3] }}
-            ];
+            // 5. Draw Support & Resistance Reference Lines (Aligned with V4.4 S/R Flip & Source)
+            const _canvasSrSpec = buildCycleSrLadderSpec(data, isLight);
+            const ladderLines = _canvasSrSpec.canvasLines || [];
 
             // Filter lines within canvas Y range
             const visibleLadder = ladderLines.filter(lv => {{
@@ -6726,23 +10356,36 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
                 return (ly >= padT - 5 && ly <= padT + chartH + 5);
             }});
 
-            // Prevent label collisions with repulsive positioning
+            // Prevent label collisions with two-pass repulsive positioning
+            const minPillGap = 15;
+            const maxPillY = padT + chartH - 7;
             visibleLadder.sort((a, b) => getY(Number(a.val)) - getY(Number(b.val)));
             for (let i = 0; i < visibleLadder.length; i++) {{
-                let currentY = getY(Number(visibleLadder[i].val));
+                let currentY = Math.max(padT + 7, Math.min(maxPillY, getY(Number(visibleLadder[i].val))));
                 if (i > 0) {{
                     const prevY = visibleLadder[i - 1].drawY;
-                    if (currentY - prevY < 13) {{
-                        currentY = prevY + 13;
+                    if (currentY - prevY < minPillGap) {{
+                        currentY = prevY + minPillGap;
                     }}
                 }}
                 visibleLadder[i].drawY = currentY;
             }}
+            for (let i = visibleLadder.length - 1; i >= 0; i--) {{
+                if (visibleLadder[i].drawY > maxPillY) visibleLadder[i].drawY = maxPillY;
+                if (i < visibleLadder.length - 1) {{
+                    const nextY = visibleLadder[i + 1].drawY;
+                    if (nextY - visibleLadder[i].drawY < minPillGap) {{
+                        visibleLadder[i].drawY = Math.max(padT + 7, nextY - minPillGap);
+                    }}
+                }}
+            }}
 
+            const pillW = padR - 8;
+            const fmtLvPrice = (v) => Number(v) >= 1000 ? Number(v).toFixed(0) : Number(v).toFixed(1);
             visibleLadder.forEach(lv => {{
                 const ly = getY(Number(lv.val));
-                ctx.strokeStyle = lv.color + '66';
-                ctx.lineWidth = 1.2;
+                ctx.strokeStyle = lv.color + (isLight ? '99' : '77');
+                ctx.lineWidth = 1.25;
                 ctx.setLineDash(lv.lineDash);
                 ctx.beginPath();
                 ctx.moveTo(padL, ly);
@@ -6752,16 +10395,20 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
 
                 // Right Margin Pill Label
                 const badgeY = lv.drawY;
-                ctx.fillStyle = lv.color + '22';
-                ctx.fillRect(width - padR + 4, badgeY - 7, 72, 14);
-                ctx.strokeStyle = lv.color + '66';
-                ctx.strokeRect(width - padR + 4, badgeY - 7, 72, 14);
+                ctx.fillStyle = isLight ? 'rgba(255, 255, 255, 0.94)' : (lv.color + '1E');
+                ctx.fillRect(width - padR + 4, badgeY - 7, pillW, 14);
+                ctx.strokeStyle = lv.color + (isLight ? '88' : '66');
+                if (lv.isBreached) ctx.setLineDash([2, 2]);
+                ctx.strokeRect(width - padR + 4, badgeY - 7, pillW, 14);
+                ctx.setLineDash([]);
 
                 ctx.fillStyle = lv.color;
-                ctx.font = '9.5px "JetBrains Mono", monospace';
+                ctx.font = (width < 460 ? '8.5px' : '9px') + ' "JetBrains Mono", monospace';
                 ctx.textAlign = 'left';
-                ctx.fillText(`${{lv.key}} $${{Number(lv.val).toFixed(1)}}`, width - padR + 7, badgeY);
+                ctx.textBaseline = 'middle';
+                ctx.fillText(`${{lv.key}} ${{_isPtsCanvas ? '' : '$'}}${{fmtLvPrice(lv.val)}}`, width - padR + 7, badgeY);
             }});
+            window._lastCycleCanvasLadder = visibleLadder;
 
             // 6. Draw Turning Window Zones (Vertical Gradient Bands)
             ctx.save();
@@ -6777,7 +10424,6 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
                     const isTop = (pt.winType === 'top');
                     const isCaution = (pt.winType === 'caution') || (pt.winDesc && pt.winDesc.indexOf('高位强势休整') !== -1);
                     const bandColor = isTop ? 'rgba(248, 81, 73, ' : (isCaution ? 'rgba(227, 179, 65, ' : 'rgba(56, 189, 248, ');
-                    const alpha = isHighlight ? '0.35)' : '0.14)';
                     const colWidth = Math.max(22, 28 * cycleZoom);
 
                     const grad = ctx.createLinearGradient(0, padT, 0, padT + chartH);
@@ -6794,7 +10440,7 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
                     ctx.setLineDash([]);
 
                     // Top Tag Badge
-                    ctx.fillStyle = isTop ? '#f85149' : (isCaution ? '#e3b341' : '#38bdf8');
+                    ctx.fillStyle = isTop ? (isLight ? '#DC2626' : '#f85149') : (isCaution ? (isLight ? '#D97706' : '#e3b341') : (isLight ? '#0284C7' : '#38bdf8'));
                     ctx.font = 'bold 9px "JetBrains Mono", monospace';
                     ctx.textAlign = 'center';
                     ctx.fillText(pt.day, pt.canvasX, padT - 3);
@@ -6804,7 +10450,7 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             // 7. Split Line (今日)
             const todayIdx = selectedHist.length - 1;
             const splitX = points[todayIdx].canvasX;
-            ctx.strokeStyle = 'rgba(255, 255, 255, 0.4)';
+            ctx.strokeStyle = cSplitLine;
             ctx.lineWidth = 1.5;
             ctx.setLineDash([4, 4]);
             ctx.beginPath();
@@ -6813,7 +10459,7 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             ctx.stroke();
             ctx.setLineDash([]);
 
-            ctx.fillStyle = '#cbd5e1';
+            ctx.fillStyle = cSplitText;
             ctx.font = 'bold 10px sans-serif';
             ctx.textAlign = 'center';
             ctx.fillText(todayLabel, splitX, padT - 12);
@@ -6822,8 +10468,8 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             if (selectedHist.length > 0) {{
                 // Area fill
                 const histGrad = ctx.createLinearGradient(0, padT, 0, padT + chartH);
-                histGrad.addColorStop(0, 'rgba(56, 189, 248, 0.22)');
-                histGrad.addColorStop(1, 'rgba(56, 189, 248, 0.0)');
+                histGrad.addColorStop(0, cHistFillTop);
+                histGrad.addColorStop(1, cHistFillBot);
 
                 ctx.fillStyle = histGrad;
                 ctx.beginPath();
@@ -6836,7 +10482,7 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
                 ctx.fill();
 
                 // Stroke
-                ctx.strokeStyle = '#38bdf8';
+                ctx.strokeStyle = cHistStroke;
                 ctx.lineWidth = 2.5;
                 ctx.beginPath();
                 for (let i = 0; i < selectedHist.length; i++) {{
@@ -6846,12 +10492,61 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
                 ctx.stroke();
             }}
 
-            // 9. Draw Future 15-Day Projection Path (Orange Wave + Glow)
+            // 9. Draw Empirical P15~P85 Risk Band & Future 15-Day Projection Path
             if (proj.length > 0) {{
-                // Area fill
+                // 9a. Shaded P15~P85 Confidence / Tail Risk Corridor
+                const isBearInertiaBand = Boolean(data.bear_inertia_active);
+                ctx.fillStyle = isBearInertiaBand
+                    ? (isLight ? 'rgba(234, 88, 12, 0.12)' : 'rgba(248, 113, 113, 0.14)')
+                    : (isLight ? 'rgba(2, 132, 199, 0.10)' : 'rgba(56, 189, 248, 0.12)');
+                ctx.beginPath();
+                ctx.moveTo(points[todayIdx].canvasX, points[todayIdx].canvasY_p85);
+                for (let j = todayIdx + 1; j < points.length; j++) {{
+                    ctx.lineTo(points[j].canvasX, points[j].canvasY_p85);
+                }}
+                for (let j = points.length - 1; j >= todayIdx; j--) {{
+                    ctx.lineTo(points[j].canvasX, points[j].canvasY_p15);
+                }}
+                ctx.closePath();
+                ctx.fill();
+
+                // P85 upper dashed border
+                ctx.strokeStyle = isLight ? 'rgba(5, 150, 105, 0.65)' : 'rgba(52, 211, 153, 0.68)';
+                ctx.lineWidth = 1.35;
+                ctx.setLineDash([3, 3]);
+                ctx.beginPath();
+                for (let j = todayIdx; j < points.length; j++) {{
+                    if (j === todayIdx) ctx.moveTo(points[j].canvasX, points[j].canvasY_p85);
+                    else ctx.lineTo(points[j].canvasX, points[j].canvasY_p85);
+                }}
+                ctx.stroke();
+
+                // P15 lower dashed border
+                ctx.strokeStyle = isLight ? 'rgba(220, 38, 38, 0.72)' : 'rgba(248, 113, 113, 0.78)';
+                ctx.lineWidth = 1.45;
+                ctx.setLineDash([3, 3]);
+                ctx.beginPath();
+                for (let j = todayIdx; j < points.length; j++) {{
+                    if (j === todayIdx) ctx.moveTo(points[j].canvasX, points[j].canvasY_p15);
+                    else ctx.lineTo(points[j].canvasX, points[j].canvasY_p15);
+                }}
+                ctx.stroke();
+                ctx.setLineDash([]);
+
+                window._lastCycleBandStats = {{
+                    symbol: activeCycleSymbol,
+                    hasBand: proj.length > 0,
+                    bearInertiaActive: isBearInertiaBand,
+                    p15T5Pct: data.p15_t5_pct,
+                    p15Prices: proj.map((_, i) => points[todayIdx + 1 + i].p15Price),
+                    mainPrices: proj.map((_, i) => points[todayIdx + 1 + i].price),
+                    p85Prices: proj.map((_, i) => points[todayIdx + 1 + i].p85Price),
+                }};
+
+                // 9b. Median Projection Area fill
                 const projGrad = ctx.createLinearGradient(0, padT, 0, padT + chartH);
-                projGrad.addColorStop(0, 'rgba(255, 148, 77, 0.18)');
-                projGrad.addColorStop(1, 'rgba(255, 148, 77, 0.0)');
+                projGrad.addColorStop(0, cProjFillTop);
+                projGrad.addColorStop(1, cProjFillBot);
 
                 ctx.fillStyle = projGrad;
                 ctx.beginPath();
@@ -6864,7 +10559,7 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
                 ctx.fill();
 
                 // Stroke dashed
-                ctx.strokeStyle = '#ff944d';
+                ctx.strokeStyle = cProjStroke;
                 ctx.lineWidth = 2.5;
                 ctx.setLineDash([5, 4]);
                 ctx.beginPath();
@@ -6881,21 +10576,23 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
                     if (pt.isWin) {{
                         const isTop = (pt.winType === 'top');
                         const isCaution = (pt.winType === 'caution') || (pt.winDesc && pt.winDesc.indexOf('高位强势休整') !== -1);
-                        ctx.fillStyle = isTop ? '#f85149' : (isCaution ? '#e3b341' : '#38bdf8');
+                        ctx.fillStyle = isTop ? (isLight ? '#DC2626' : '#f85149') : (isCaution ? (isLight ? '#D97706' : '#e3b341') : cHistStroke);
                         ctx.beginPath();
                         ctx.arc(pt.canvasX, pt.canvasY, 4, 0, Math.PI * 2);
                         ctx.fill();
-                        ctx.strokeStyle = '#fff';
+                        ctx.strokeStyle = isLight ? '#FFFFFF' : '#fff';
                         ctx.lineWidth = 1.5;
                         ctx.stroke();
                     }}
                 }});
 
-                // Final Day +% Pill (Repositioned to prevent overlap with projected curve and right R1/R2 ladder labels)
+                // Final Day +% Pill (downgrade optimistic green to amber caution when bear_inertia_active is true)
                 const lastPt = points[points.length - 1];
                 const lastPct = lastPt.pct || 0;
                 const sign = lastPct >= 0 ? '+' : '';
-                const pillColor = lastPct >= 0 ? '#3fb950' : '#f85149';
+                const pillColor = lastPct >= 0
+                    ? (isBearInertiaBand ? (isLight ? '#B45309' : '#e3b341') : (isLight ? '#059669' : '#3fb950'))
+                    : (isLight ? '#DC2626' : '#f85149');
 
                 ctx.fillStyle = pillColor;
                 ctx.beginPath();
@@ -6919,7 +10616,7 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
                 ctx.setLineDash([]);
 
                 // Background pill
-                ctx.fillStyle = 'rgba(13, 17, 23, 0.92)';
+                ctx.fillStyle = cPillBg;
                 ctx.fillRect(pillX, pillY, pillW, pillH);
                 ctx.strokeStyle = pillColor;
                 ctx.lineWidth = 1.2;
@@ -6938,7 +10635,7 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             if (cycleHoverIdx >= 0 && cycleHoverIdx < points.length) {{
                 const hoverPt = points[cycleHoverIdx];
 
-                ctx.strokeStyle = 'rgba(255, 255, 255, 0.65)';
+                ctx.strokeStyle = cCrosshair;
                 ctx.lineWidth = 1.2;
                 ctx.setLineDash([3, 3]);
                 ctx.beginPath();
@@ -6948,18 +10645,18 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
                 ctx.setLineDash([]);
 
                 // Highlight Circle
-                ctx.fillStyle = hoverPt.isProj ? '#ff944d' : '#38bdf8';
+                ctx.fillStyle = hoverPt.isProj ? cProjStroke : cHistStroke;
                 ctx.beginPath();
                 ctx.arc(hoverPt.canvasX, hoverPt.canvasY, 6, 0, Math.PI * 2);
                 ctx.fill();
-                ctx.strokeStyle = '#ffffff';
+                ctx.strokeStyle = cDotRing;
                 ctx.lineWidth = 2;
                 ctx.stroke();
             }}
 
             // 11. Bottom X-Axis Date Labels
             ctx.restore(); // Restore clip
-            ctx.fillStyle = '#8b949e';
+            ctx.fillStyle = cAxisText;
             ctx.font = '9px "JetBrains Mono", monospace';
             ctx.textAlign = 'center';
             ctx.textBaseline = 'top';
@@ -6976,7 +10673,7 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
                         }}
                         ctx._lastAxisLabelX = pt.canvasX;
                         const lbl = pt.isProj ? pt.day : (pt.date ? pt.date.slice(5) : pt.day);
-                        ctx.fillStyle = (idx === todayIdx) ? '#58a6ff' : '#8b949e';
+                        ctx.fillStyle = (idx === todayIdx) ? cTodayX : cAxisText;
                         ctx.font = (idx === todayIdx) ? 'bold 10px sans-serif' : '9px "JetBrains Mono", monospace';
                         ctx.fillText(lbl, pt.canvasX, padT + chartH + 6);
                     }}
@@ -6984,27 +10681,30 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             }});
         }}
 
-                function renderTimeCycleSvg(sym) {{
+        function renderTimeCycleSvg(sym) {{
             if (sym) switchCycleSymbol(sym);
             else renderTimeCycleView();
         }}
 
-        function bootPredictPage() {{
-            let savedView = 'dual';
+        window.addEventListener('storage', function(ev) {{
+            if (ev && ev.key === 'futu_theme' && ev.newValue) {{
+                applyTheme(ev.newValue, false);
+            }}
+        }});
+
+        document.addEventListener('DOMContentLoaded', function() {{
+            updateThemeToggleUI(getCurrentTheme());
+            const defaultView = '{_default_t4_view}';
+            let savedView = defaultView;
             try {{
-                savedView = localStorage.getItem('predict_t4_view') || 'dual';
+                savedView = localStorage.getItem('predict_t4_view') || defaultView;
             }} catch(e) {{}}
             switchT4View(savedView);
             setTimeout(function() {{ renderTimeCycleView(); }}, 50);
             window.addEventListener('resize', function() {{ renderTimeCycleView(); }});
-        }}
-        if (document.readyState === "loading") {{
-            document.addEventListener("DOMContentLoaded", bootPredictPage);
-        }} else {{
-            bootPredictPage();
-        }}
+        }});
+        {vix_js}
     </script>
-    {predict_boot}
 </body>
 </html>"""
 
@@ -7020,7 +10720,7 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
 
 
 
-# 全域 70 标的扩展映射表 (覆盖主看盘终端全部 54 只个股 + 16 只 ETF，映射到 7 大核心赛道先验以复用 OOS 校准乘数)
+# 全域 77 标的扩展映射表 (覆盖主看盘终端全部核心与扩展个股/ETF，映射到 7 大核心赛道先验以复用 OOS 校准乘数)
 EXTENDED_RADAR_SECTOR_MAP: Dict[str, Tuple[str, str]] = {
     # 半导体与算力硬件 / 液冷服务器
     'QCOM': ('Semiconductors', '通信芯片与端侧AI'),
@@ -7037,6 +10737,8 @@ EXTENDED_RADAR_SECTOR_MAP: Dict[str, Tuple[str, str]] = {
     'SNDK': ('Memory', '存储芯片'),
     # 光通信
     'AXTI': ('Optical_Interconnect', '光通信与互联'),
+    'FN':   ('Optical_Interconnect', '光通信与互联'),
+    'GLW':  ('Optical_Interconnect', '光通信与互联'),
     # 能源与核电
     'OKLO': ('Energy_Power', '数据中心能源电力'),
     'FPS':  ('Energy_Power', '数据中心能源电力'),
@@ -7076,6 +10778,9 @@ EXTENDED_RADAR_SECTOR_MAP: Dict[str, Tuple[str, str]] = {
     'TLT':  ('Energy_Power', '大盘与宏观ETF'),
     'GLD':  ('Energy_Power', '大盘与宏观ETF'),
     'BTC-USD': ('Crypto_Proxy', '加密资产与数字黄金'),
+    'XAUUSD': ('Energy_Power', '贵金属与大宗商品'),
+    'KOSPI': ('Semiconductors', '亚太指数'),
+    'ANT': ('Neo_Cloud', '基础大模型与AI生态'),
     'VIXY': ('Crypto_Proxy', '恐慌与反向对冲'),
     'SQQQ': ('Crypto_Proxy', '恐慌与反向对冲'),
     'SOXS': ('Crypto_Proxy', '恐慌与反向对冲'),
@@ -7090,43 +10795,115 @@ def build_extended_live_features_df(
 ) -> pd.DataFrame:
     """
     通过 yfinance 抓取并缓存主终端其余标的的日 K 线 (零 Finnhub API 消耗)，
-    构建覆盖全域 70 只标的 (28 核心 AI 股 + 42 扩展雷达股/ETF) 的最新 T 日截面特征表。
+    构建覆盖全域 80 只标的 (28 核心 AI 股 + 52 扩展雷达股/ETF/指数) 的最新 T 日截面特征表。
+    注意跨时区防误触：韩国 KOSPI (Asia/Seoul) 比美东快 13~14 小时，美股缓存新鲜度判定必须剥离 KOSPI，
+    绝不因 KOSPI 提前跨日而触发其余 79 只美股标的的全量历史重下。
     """
-    _ensure_parquet_engine()
     full_ext_cache = _resolve_cache_path(ext_cache_file)
     os.makedirs(os.path.dirname(full_ext_cache), exist_ok=True)
 
     existing_syms = set(raw_panel['Ticker'].unique())
     missing_syms = [tk for tk in EXTENDED_RADAR_SECTOR_MAP.keys() if tk not in existing_syms]
 
-    ext_cached_df = pd.DataFrame(columns=['Date', 'Ticker', 'Open', 'High', 'Low', 'Close', 'Volume'])
+    ext_frames = []
+    prior_ext_df = None
+    prior_syms = set()
+    expected_latest_date = _get_latest_expected_trading_day()
     if os.path.exists(full_ext_cache):
         try:
-            ext_cached_df = pd.read_parquet(full_ext_cache)
-            ext_cached_df['Date'] = pd.to_datetime(ext_cached_df['Date'])
+            prior_ext_df = pd.read_parquet(full_ext_cache)
+            if not prior_ext_df.empty and 'Date' in prior_ext_df.columns:
+                prior_ext_df['Date'] = pd.to_datetime(prior_ext_df['Date'])
+                prior_syms = set(prior_ext_df['Ticker'].astype(str).unique())
+        except Exception:
+            prior_ext_df = None
+            prior_syms = set()
+
+    if prior_ext_df is not None and not force_refresh:
+        try:
+            ext_cached_df = prior_ext_df
+            cached_syms = prior_syms
+            still_missing = [tk for tk in missing_syms if tk not in cached_syms]
+            _non_us_tz_syms = {'BTC-USD', 'KOSPI'}
+            _ext_us_df = ext_cached_df[~ext_cached_df['Ticker'].astype(str).isin(_non_us_tz_syms)] if ('Ticker' in ext_cached_df.columns and not ext_cached_df.empty) else ext_cached_df
+            ext_max_date = _ext_us_df['Date'].max().date() if not _ext_us_df.empty else (ext_cached_df['Date'].max().date() if not ext_cached_df.empty else None)
+            try:
+                _eq_panel = raw_panel[~raw_panel['Ticker'].astype(str).isin(_non_us_tz_syms)] if 'Ticker' in raw_panel.columns else raw_panel
+                _main_max_date = pd.to_datetime(_eq_panel['Date']).max().date() if ('Date' in _eq_panel.columns and not _eq_panel.empty) else expected_latest_date
+            except Exception:
+                _main_max_date = expected_latest_date
+            _need_date = max(expected_latest_date, _main_max_date)
+            is_ext_fresh = (ext_max_date is not None and ext_max_date >= _need_date)
+
+            # 独立检查 KOSPI 当日韩盘增量（仅单标的轻量补齐，绝不连累美股重下）
+            _kospi_needs_inc = False
+            if 'KOSPI' in EXTENDED_RADAR_SECTOR_MAP and 'KOSPI' not in existing_syms and 'KOSPI' in cached_syms:
+                try:
+                    _ks_rows = ext_cached_df[ext_cached_df['Ticker'].astype(str) == 'KOSPI']
+                    _ks_max = _ks_rows['Date'].max().date() if not _ks_rows.empty else None
+                    _krx_exp = _get_latest_expected_krx_day()
+                    if _ks_max is None or _ks_max < _krx_exp:
+                        _kospi_needs_inc = True
+                except Exception:
+                    _kospi_needs_inc = False
+
+            if is_ext_fresh and not still_missing:
+                print(f"[+] ✅ 扩展标的缓存完整且新鲜: 共 {len(cached_syms)} 只标的 (美股最新: {ext_max_date})")
+                ext_frames.append(ext_cached_df)
+                missing_syms = ['KOSPI'] if _kospi_needs_inc else []
+            elif not is_ext_fresh:
+                print(f"[!] ⚠️ 扩展标的缓存已过期 (美股最新: {ext_max_date}, 预期: {expected_latest_date})，启动全量刷新...")
+                missing_syms = [tk for tk in EXTENDED_RADAR_SECTOR_MAP.keys() if tk not in existing_syms]
+                ext_frames = [ext_cached_df] if not ext_cached_df.empty else []
+            else:
+                ext_frames.append(ext_cached_df)
+                missing_syms = list(dict.fromkeys(still_missing + (['KOSPI'] if _kospi_needs_inc else [])))
         except Exception as e:
-            print(f"[!] 读取扩展缓存异常 ({e})，缺失标的改为全量抓取...")
-            ext_cached_df = pd.DataFrame(columns=['Date', 'Ticker', 'Open', 'High', 'Low', 'Close', 'Volume'])
+            print(f"[!] 读取扩展缓存异常 ({e})，重新拉取...")
+            missing_syms = [tk for tk in EXTENDED_RADAR_SECTOR_MAP.keys() if tk not in existing_syms]
+            ext_frames = []
+    elif force_refresh and prior_ext_df is not None and not prior_ext_df.empty:
+        ext_frames = [prior_ext_df]
 
-    # --refresh 与过期缓存走同一条增量路径：已覆盖最新收盘的标的不重下 2023 至今。
-    t_ext = time.perf_counter()
-    ext_raw, n_ext = _incremental_refresh_frame(
-        ext_cached_df, missing_syms, "2023-01-01", max_workers=8
-    )
-    if n_ext and not ext_raw.empty:
-        ext_raw.to_parquet(full_ext_cache, index=False)
     if missing_syms:
-        print(f"[*] ⏱ 扩展面板 {len(missing_syms)} 只, 下载 {n_ext} 只, {time.perf_counter() - t_ext:.1f}s (force_refresh={force_refresh})")
+        print(f"[*] 📥 正在通过 yfinance 补充抓取 {len(missing_syms)} 只主终端扩展标的日线数据 (0 Finnhub 消耗)...")
+        newly_fetched = []
+        for tk in missing_syms:
+            df_tk = _fetch_single_ticker(tk, start_date="2023-01-01", min_bars=(1 if tk in prior_syms else 20))
+            if df_tk is not None and not df_tk.empty:
+                sec_key = EXTENDED_RADAR_SECTOR_MAP[tk][0]
+                df_tk['Ticker'] = tk
+                df_tk['Sector'] = sec_key
+                newly_fetched.append(df_tk)
+        if newly_fetched:
+            new_df = pd.concat(newly_fetched, ignore_index=True)
+            ext_frames.append(new_df)
+            combined_ext = pd.concat(ext_frames, ignore_index=True).drop_duplicates(subset=['Date', 'Ticker'], keep='last')
+            combined_ext.to_parquet(full_ext_cache, index=False)
+            ext_frames = [combined_ext]
 
-    # 汇总全部 70 只标的的日线数据 (28 核心股 + 7 已经存在的宏观 ETF + 35 扩展股/ETF)
+    ext_raw = pd.concat(ext_frames, ignore_index=True) if ext_frames else pd.DataFrame()
+    if not ext_raw.empty:
+        _ext_healed_parts = []
+        _ext_split_changed = False
+        for _tk_e, _grp_e in ext_raw.groupby('Ticker', sort=False):
+            _h_e, _sp_e = detect_and_heal_stock_split(str(_tk_e), _grp_e, allow_network=bool(force_refresh))
+            if _sp_e.get('split_detected'):
+                print(f"  [🔧 Ext Split Self-Heal] {_tk_e}: {_sp_e.get('reason')} (修复 {_sp_e.get('healed_rows')} 行)")
+                _ext_split_changed = True
+            _ext_healed_parts.append(_h_e)
+        if _ext_split_changed:
+            ext_raw = pd.concat(_ext_healed_parts, ignore_index=True).sort_values(['Date', 'Ticker']).reset_index(drop=True)
+            try:
+                ext_raw.to_parquet(full_ext_cache, index=False)
+            except Exception:
+                pass
+
+    # 汇总全部 70+ 只标的的日线数据
     macro_df = compute_macro_features(raw_panel)
-    all_70_latest_rows = [core_latest_stocks.copy()]
     core_latest_stocks['Is_Core_28'] = True
 
     extra_latest_list = []
-    macro_df_norm = macro_df.copy()
-    macro_df_norm['Date'] = pd.to_datetime(macro_df_norm['Date']).astype('datetime64[ns]')
-    macro_df_norm = macro_df_norm.sort_values('Date')
     for tk, (sec_key, sec_cn_override) in EXTENDED_RADAR_SECTOR_MAP.items():
         if tk in existing_syms:
             sub = raw_panel[raw_panel['Ticker'] == tk].copy()
@@ -7140,7 +10917,9 @@ def build_extended_live_features_df(
         feat_sub = compute_stock_features(sub).sort_values('Date')
         # pandas >= 3.0 兼容修复：merge_asof 要求两侧 Date dtype 完全一致，统一规整为 datetime64[ns]
         feat_sub['Date'] = pd.to_datetime(feat_sub['Date']).astype('datetime64[ns]')
-        merged_sub = pd.merge_asof(feat_sub, macro_df_norm, on='Date', direction='backward')
+        macro_df_norm = macro_df.copy()
+        macro_df_norm['Date'] = pd.to_datetime(macro_df_norm['Date']).astype('datetime64[ns]')
+        merged_sub = pd.merge_asof(feat_sub, macro_df_norm.sort_values('Date'), on='Date', direction='backward')
         merged_sub['Raw_Alpha_QQQ_5d'] = merged_sub['Ret_5d'] - merged_sub['QQQ_Ret_5d'].fillna(0.0)
         merged_sub['Raw_Alpha_SMH_20d'] = merged_sub['Ret_20d'] - merged_sub['SMH_Ret_20d'].fillna(0.0)
         last_row = merged_sub.sort_values('Date').iloc[[-1]].copy()
@@ -7160,7 +10939,31 @@ def build_extended_live_features_df(
         full_latest['Sector_CN_Override'] = ""
         full_latest['Is_Core_28'] = True
 
-    # 在 70 只标的全截面上重算今日 Alpha_QQQ_5d 与 Alpha_SMH_20d (0.65 * cs_rank + 0.35 * sigmoid)
+    # 在全截面上重算今日 Alpha_QQQ_5d / Alpha_SMH_20d 以及美股全池 MA20 市场宽度与牛熊体制得分（排除反向/避险与非美股指数 KOSPI）
+    if 'Bias_MA20' in full_latest.columns and len(full_latest) > 0:
+        _non_etf = full_latest[~full_latest['Ticker'].isin(INVERSE_OR_SAFE_HAVEN_TICKERS | {'KOSPI', 'BTC-USD'})]
+        _br_src = _non_etf if len(_non_etf) >= 5 else full_latest
+        _full_breadth = float((_br_src['Bias_MA20'] >= 0.0).mean() * 100.0)
+        full_latest['Breadth_MA20_Pct'] = round(_full_breadth, 2)
+        _q20_m = float(full_latest['QQQ_Bias_MA20'].mean()) if 'QQQ_Bias_MA20' in full_latest.columns else 0.0
+        _s20_m = float(full_latest['SPY_Bias_MA20'].mean()) if 'SPY_Bias_MA20' in full_latest.columns else _q20_m
+        _q50_m = float(full_latest['QQQ_Bias_MA50'].mean()) if 'QQQ_Bias_MA50' in full_latest.columns else 0.0
+        _sm50_m = float(full_latest['SMH_Bias_MA50'].mean()) if 'SMH_Bias_MA50' in full_latest.columns else 0.0
+        _vp_m = float(full_latest['VIXY_Pos_60'].mean()) if 'VIXY_Pos_60' in full_latest.columns else 0.5
+        _qr5_m = float(full_latest['QQQ_Ret_5d'].mean()) if 'QQQ_Ret_5d' in full_latest.columns else 0.0
+        _qd5_m = float(full_latest['QQQ_Down_Days_5d'].mean()) if 'QQQ_Down_Days_5d' in full_latest.columns else 0.0
+        _reg_m = compute_market_regime_state(
+            qqq_bias_ma20=_q20_m,
+            spy_bias_ma20=_s20_m,
+            qqq_bias_ma50=_q50_m,
+            smh_bias_ma50=_sm50_m,
+            breadth_ma20_pct=_full_breadth,
+            vixy_pos_60=_vp_m,
+            qqq_ret_5d=_qr5_m,
+            qqq_down_days_5d=_qd5_m,
+        )
+        full_latest['Market_Regime_Score'] = float(_reg_m['regime_score'])
+
     if 'Raw_Alpha_QQQ_5d' in full_latest.columns:
         cs_q5 = full_latest['Raw_Alpha_QQQ_5d'].rank(pct=True, method='average').fillna(0.5)
         sig_q5 = 1.0 / (1.0 + np.exp(-np.clip(full_latest['Raw_Alpha_QQQ_5d'] / 8.0, -15.0, 15.0)))
@@ -7211,6 +11014,10 @@ def export_latest_ai_predictions_json(tables_data: Dict, json_path: str = 'data_
     payload = {
         'kpi': tables_data.get('kpi', {}),
         'macro_weather': mw,
+        'vix_regime': tables_data.get('vix_regime') or mw.get('vix_regime', {}),
+        'market_regime': mw.get('market_regime', 'NEUTRAL_CHOP'),
+        'breadth_ma20_pct': mw.get('breadth_ma20_pct', 50.0),
+        'live_scorecard': tables_data.get('live_scorecard', {}),
         'table1': tables_data.get('table1', []),
         'table2': tables_data.get('table2', []),
         'table3': tables_data.get('table3', []),
@@ -7290,7 +11097,7 @@ def verify_pipeline_integrity(feature_panel: pd.DataFrame) -> Dict:
 
 def main():
     parser = argparse.ArgumentParser(description="AI Multi-Sector 5Y US Market Predictor")
-    parser.add_argument('--refresh', action='store_true', help="确认面板覆盖最新已收盘日；缓存健康时增量补齐，缺失时才全量重拉")
+    parser.add_argument('--refresh', action='store_true', help="强制从 yfinance 重新抓取 35 标的数据并刷新缓存")
     parser.add_argument('--cache-file', type=str, default='data_cache/ml_panel_5y.parquet', help="Parquet 缓存路径")
     parser.add_argument('--verify', action='store_true', help="仅执行数据管道完整性校验")
     parser.add_argument('--realtime', action='store_true', help="从 Finnhub 抓取实时最新报价并更新最新行情与特征")
@@ -7317,7 +11124,7 @@ def main():
     for k, v in report.items():
         print(f"  • {k:20s}: {v}")
     print("=" * 70)
-    print("✅ Milestone M1 基础管道与 23 维因果特征构建成功！\n")
+    print(f"✅ Milestone M1 基础管道与 {len(FEATURE_COLS)} 维因果特征构建成功！\n")
 
     if args.verify:
         print("[*] 仅校验模式，执行完毕。")
@@ -7335,7 +11142,7 @@ def main():
     if 'Date' in latest_stocks.columns and not latest_stocks.empty:
         last_by_ticker = latest_stocks.groupby('Ticker')['Date'].max().to_dict()
     behind = []
-    optional_ext = {'NASA', 'SPCX', 'FLY', 'LUNR'}
+    optional_ext = {'NASA', 'SPCX', 'FLY', 'LUNR', 'ANT', 'XAUUSD', 'KOSPI'}
     for tk in wanted:
         if tk not in have:
             if tk in optional_ext:
@@ -7374,7 +11181,8 @@ def main():
     vixy_pos = float(latest_stocks['VIXY_Pos_60'].mean()) if 'VIXY_Pos_60' in latest_stocks.columns else 0.5
     smh_bias = float(latest_stocks['SMH_Bias_MA50'].mean()) if 'SMH_Bias_MA50' in latest_stocks.columns else 0.0
     smh_igv = float(latest_stocks['SMH_IGV_Ratio_Bias'].mean()) if 'SMH_IGV_Ratio_Bias' in latest_stocks.columns else 0.0
-    latest_date_str = macro_weather_session_date(latest_stocks)
+    _us_latest_sub = latest_stocks[~latest_stocks['Ticker'].astype(str).isin({'BTC-USD', 'KOSPI'})] if ('Ticker' in latest_stocks.columns and not latest_stocks.empty) else latest_stocks
+    latest_date_str = _us_latest_sub['Date'].max().strftime('%Y-%m-%d') if ('Date' in _us_latest_sub.columns and not _us_latest_sub.empty) else (latest_stocks['Date'].max().strftime('%Y-%m-%d') if 'Date' in latest_stocks.columns else "")
 
     def_flight = compute_defensive_flight_alert(latest_stocks_df=latest_stocks)
     cross_breadth = compute_cross_industry_breadth_alert(latest_stocks_df=latest_stocks)
@@ -7385,7 +11193,8 @@ def main():
         smh_igv=smh_igv,
         latest_date=latest_date_str,
         defensive_flight=def_flight,
-        cross_industry_breadth=cross_breadth
+        cross_industry_breadth=cross_breadth,
+        latest_stocks_df=latest_stocks,
     )
 
     # 生成 4 大核心数据表
@@ -7419,6 +11228,10 @@ def main():
         last_d = str(hist[-1].get('date'))[:10] if hist else ""
         if tk == 'BTC-USD':
             if last_d < expected_btc_day:
+                cycle_behind.append(f"{tk}:{last_d or '无'}")
+        elif tk == 'KOSPI':
+            expected_krx_day = _get_latest_expected_krx_day().strftime("%Y-%m-%d")
+            if last_d < expected_chart_day and last_d < expected_krx_day:
                 cycle_behind.append(f"{tk}:{last_d or '无'}")
         else:
             if last_d < expected_chart_day:

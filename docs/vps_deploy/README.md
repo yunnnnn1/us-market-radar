@@ -14,7 +14,7 @@
 
 ```bash
 # 1) 在 VPS 上（有 sudo 权限的普通用户）
-git clone https://github.com/2827173579/us-market-radar.git
+git clone https://github.com/yunnnnn1/us-market-radar.git
 cd us-market-radar
 sudo bash docs/vps_deploy/setup_server.sh
 

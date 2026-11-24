@@ -28,3 +28,13 @@ video_frames/
 user_portfolio.json
 .defensive_flight_push_state.json
 .android_alert_state.json
+.jin10_pushed_ids.json
+data_cache/intraday_5m_60d.parquet
+data_cache/.intraday_5m_60d_meta.json
+data_cache/vix_regime_cache.json
+data_cache/macro_liquidity_cache.json
+data_cache/signal_ledger.json
+data_cache/latest_radar_snapshot.json
+data_cache/daily_sr_anchors.json
+data_cache/futures_temp_cache.json
+data_cache/ai_commentary_cache.json
