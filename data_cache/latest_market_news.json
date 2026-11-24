@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795538273.395,
-  "updated_at_et": "11-24 11:37 ET",
-  "updated_at_kst": "01:37 KST",
+  "updated_at_ts": 1795538382.336,
+  "updated_at_et": "11-24 11:39 ET",
+  "updated_at_kst": "01:39 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -691,6 +691,20 @@
     ],
     "TLT": [
       {
+        "title": "Bessent Warns the Fed Could Be Making a “Policy Mistake” if It Over-Tightens",
+        "url": "https://247wallst.com/investing/2026/11/24/bessent-warns-the-fed-could-be-making-a-policy-mistake-if-it-over-tightens/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:07 ET",
+        "pub_ts": 1795536432.0
+      },
+      {
+        "title": "Hedge the Dollar and Treasuries Barely Beat Bunds",
+        "url": "https://www.trefis.com/stock/spx/articles/628625/hedge-the-dollar-and-treasuries-barely-beat-bunds/2026-11-24?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:52 ET",
+        "pub_ts": 1795535536.0
+      },
+      {
         "title": "Bill Ackman Says the Fed Is “About to Make Another Mistake” on Dec. 9",
         "url": "https://247wallst.com/investing/2026/11/24/bill-ackman-says-the-fed-is-about-to-make-another-mistake-on-dec-9/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -710,20 +724,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 14:55 ET",
         "pub_ts": 1795463729.0
-      },
-      {
-        "title": "SPY And Gold Fell Together. Did Bonds Save 60/40?",
-        "url": "https://www.trefis.com/stock/spy/articles/627558/spy-and-gold-fell-together-did-bonds-save-60-40/2026-11-22?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 07:05 ET",
-        "pub_ts": 1795435547.0
-      },
-      {
-        "title": "The Fed’s Biggest Dove Sees No Clear Path Back to 2% Inflation",
-        "url": "https://247wallst.com/investing/2026/11/20/the-feds-biggest-dove-sees-no-clear-path-back-to-2-inflation/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-20 10:08 ET",
-        "pub_ts": 1795187319.0
       }
     ],
     "GLD": [
@@ -913,42 +913,49 @@
     ],
     "NVDA": [
       {
-        "title": "MACOM (MTSI) Stock Is Down 12.2% Today: Chip Stocks Sell Off",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/macom-mtsi-stock-down-12-160110027.html?.tsrc=rss",
+        "title": "Wall Street May Not Be Ready for What’s Coming Next for These 3 AI Stocks",
+        "url": "https://247wallst.com/investing/2026/11/24/wall-street-may-not-be-ready-for-whats-coming-next-for-these-3-ai-stocks/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 11:01 ET",
-        "pub_ts": 1795536070.0
+        "time": "11-24 11:33 ET",
+        "pub_ts": 1795537993.0
       },
       {
-        "title": "Nvidia Stock Falls After Massive Rally. The Boardroom Drama Isn't Over",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-falls-massive-rally-160044709.html?.tsrc=rss",
+        "title": "Even With Jensen Huang Back as CEO, Nvidia Is Down 31% From Its High, While Broadcom Is Down 35%. Here’s the Better Buy Now.",
+        "url": "https://www.fool.com/investing/2026/11/24/even-with-jensen-huang-back-as-ceo-nvidia-is-down-31-from-its-high-while-broadcom-is-down-35-here-s-the-better-buy-now/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 11:00 ET",
-        "pub_ts": 1795536044.0
+        "time": "11-24 11:22 ET",
+        "pub_ts": 1795537322.0
       },
       {
-        "title": "Is Disney World's Top Rival Making an \"Epic\" Mistake?",
-        "url": "https://www.fool.com/investing/2026/11/24/is-disney-world-s-top-rival-making-an-epic-mistake/?.tsrc=rss",
+        "title": "If I Could Buy Just 1 Dividend King With $1,000 This Month, It Would Be This One",
+        "url": "https://www.fool.com/investing/2026/11/24/if-i-could-buy-just-1-dividend-king-with-1000-this-month-it-would-be-this-one/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 10:54 ET",
-        "pub_ts": 1795535667.0
+        "time": "11-24 11:20 ET",
+        "pub_ts": 1795537259.0
       },
       {
-        "title": "Sandisk Sinks 14% as Memory Stocks Give Back Nvidia’s Huang Rally",
-        "url": "https://www.tikr.com/blog/sandisk-sinks-14-as-memory-stocks-give-back-nvidias-huang-rally?ref=yahoofinance&tlnk=yf-261124-287p6vrp&.tsrc=rss",
+        "title": "Nvidia keeps saying it’s not Enron, but it just brought back a disgraced CEO — as Enron did months before its bankruptcy",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-keeps-saying-not-enron-162000769.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 10:48 ET",
-        "pub_ts": 1795535308.0
+        "time": "11-24 11:20 ET",
+        "pub_ts": 1795537200.0
       },
       {
-        "title": "Follow the Smart Money: This Billionaire Tech Investor Has Been Loading Up On Shares of These 3 AI Chip Stocks",
-        "url": "https://www.fool.com/investing/2026/11/24/follow-the-smart-money-this-billionaire-tech-investor-has-been-loading-up-on-shares-of-these-3-ai-chip-stocks/?.tsrc=rss",
+        "title": "NVIDIA Stocks Fall 5.11% as Washington Keeps Pressure After Huang's Return",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stocks-fall-5-11-161858034.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 10:48 ET",
-        "pub_ts": 1795535282.0
+        "time": "11-24 11:18 ET",
+        "pub_ts": 1795537138.0
       }
     ],
     "AMD": [
+      {
+        "title": "Up 100% in 2026, AMD Will Trade at This Price in 2027",
+        "url": "https://247wallst.com/investing/2026/11/24/up-100-in-2026-amd-will-trade-at-this-price-in-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:03 ET",
+        "pub_ts": 1795536213.0
+      },
       {
         "title": "OpenAI and Meta Could Get 320 Million AMD Shares for a Penny Each",
         "url": "https://247wallst.com/investing/2026/11/24/openai-and-meta-could-get-320-million-amd-shares-for-a-penny-each/?.tsrc=rss",
@@ -976,13 +983,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:40 ET",
         "pub_ts": 1795531200.0
-      },
-      {
-        "title": "Global Hybrid Graphics Processing Unit (GPU)-Central Processing Unit (CPU) Market Report 2026 | NVIDIA, Intel, AMD, Samsung, and Arm Drive AI Data Centers to $38.13B by 2030",
-        "url": "https://finance.yahoo.com/technology/ai/articles/global-hybrid-graphics-processing-unit-143900936.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:39 ET",
-        "pub_ts": 1795531140.0
       }
     ],
     "ASML": [
@@ -1068,6 +1068,20 @@
         "pub_ts": 1795529795.0
       },
       {
+        "title": "Wall Street May Not Be Ready for What’s Coming Next for These 3 AI Stocks",
+        "url": "https://247wallst.com/investing/2026/11/24/wall-street-may-not-be-ready-for-whats-coming-next-for-these-3-ai-stocks/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:33 ET",
+        "pub_ts": 1795537993.0
+      },
+      {
+        "title": "Even With Jensen Huang Back as CEO, Nvidia Is Down 31% From Its High, While Broadcom Is Down 35%. Here’s the Better Buy Now.",
+        "url": "https://www.fool.com/investing/2026/11/24/even-with-jensen-huang-back-as-ceo-nvidia-is-down-31-from-its-high-while-broadcom-is-down-35-here-s-the-better-buy-now/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:22 ET",
+        "pub_ts": 1795537322.0
+      },
+      {
         "title": "Prediction: This Is What Will Happen to Broadcom’s Stock Price in December",
         "url": "https://www.fool.com/investing/2026/11/24/prediction-this-is-what-will-happen-to-broadcom-s-stock-price-in-december/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1080,20 +1094,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 06:04 ET",
         "pub_ts": 1795518276.0
-      },
-      {
-        "title": "iShares PHLX SOX Semiconductor (SOXX) Adds AMD and AVGO on Nov. 20",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-phlx-sox-semiconductor-soxx-110302788.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 06:03 ET",
-        "pub_ts": 1795518182.0
-      },
-      {
-        "title": "What SPDR S&P 500 ETF Trust (SPY) Bought: Apple Leads on Friday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-trust-110254690.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 06:02 ET",
-        "pub_ts": 1795518174.0
       }
     ],
     "AMAT": [
@@ -1135,6 +1135,20 @@
     ],
     "META": [
       {
+        "title": "What Moved Meta Stock?",
+        "url": "https://www.trefis.com/stock/meta/articles/628634/what-moved-meta-stock/2026-11-24?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:20 ET",
+        "pub_ts": 1795537206.0
+      },
+      {
+        "title": "What Do Meta Platforms (META) Content Deals Mean For Its VR Glasses Launch?",
+        "url": "https://finance.yahoo.com/technology/articles/meta-platforms-meta-content-deals-161437243.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:14 ET",
+        "pub_ts": 1795536877.0
+      },
+      {
         "title": "OpenAI and Meta Could Get 320 Million AMD Shares for a Penny Each",
         "url": "https://247wallst.com/investing/2026/11/24/openai-and-meta-could-get-320-million-amd-shares-for-a-penny-each/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1154,20 +1168,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:11 ET",
         "pub_ts": 1795533108.0
-      },
-      {
-        "title": "Meta launches Muse AI agent in UK with several retail partners",
-        "url": "https://www.retail-insight-network.com/news/meta-muse-ai-agent-uk-retail-partners/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:12 ET",
-        "pub_ts": 1795529563.0
-      },
-      {
-        "title": "Now Muse Can Do the Grocery Run, With Gopuff Delivering in Minutes",
-        "url": "https://finance.yahoo.com/technology/articles/now-muse-grocery-run-gopuff-140000118.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:00 ET",
-        "pub_ts": 1795528800.0
       }
     ],
     "GOOGL": [
@@ -1179,35 +1179,42 @@
         "pub_ts": 1795532400.0
       },
       {
-        "title": "Tesla Robotaxi Rival Starts Road Tests Without A Safety Monitor",
-        "url": "https://finance.yahoo.com/m/2fafeed7-c259-3087-9fa8-cf86f4a1ebd4/tesla-robotaxi-rival-starts.html?.tsrc=rss",
+        "title": "The Fed Just Said AI May Be a Major Threat to the U.S. Economy",
+        "url": "https://247wallst.com/investing/2026/11/24/the-fed-just-said-ai-may-be-a-major-threat-to-the-u-s-economy/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 11:01 ET",
-        "pub_ts": 1795536100.0
+        "time": "11-24 11:22 ET",
+        "pub_ts": 1795537344.0
       },
       {
-        "title": "Meta Fell 8% Over the Last 30 Days: Mutiple Wall Street Desks Expect 67% Returns From Here",
-        "url": "https://247wallst.com/investing/2026/11/24/meta-fell-8-over-the-last-30-days-mutiple-wall-street-desks-expect-67-returns-from-here/?.tsrc=rss",
+        "title": "What Moved Meta Stock?",
+        "url": "https://www.trefis.com/stock/meta/articles/628634/what-moved-meta-stock/2026-11-24?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 10:45 ET",
-        "pub_ts": 1795535135.0
+        "time": "11-24 11:20 ET",
+        "pub_ts": 1795537206.0
       },
       {
-        "title": "Stocks give back gains as Anthropic dips below IPO price",
-        "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
+        "title": "Alphabet (GOOGL) Expands AI Search With Wallet Data",
+        "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-googl-expands-ai-search-161031910.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 10:44 ET",
-        "pub_ts": 1795535048.0
+        "time": "11-24 11:10 ET",
+        "pub_ts": 1795536631.0
       },
+      {
+        "title": "What Is Driving Palantir Stock?",
+        "url": "https://www.trefis.com/stock/pltr/articles/628622/what-is-driving-palantir-stock-2/2026-11-24?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:09 ET",
+        "pub_ts": 1795536563.0
+      }
+    ],
+    "MSFT": [
       {
         "title": "Who is holding Jensen Huang accountable? It sure looks like nobody",
         "url": "https://finance.yahoo.com/video/who-is-holding-jensen-huang-accountable-it-sure-looks-like-nobody-154255467.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 10:42 ET",
         "pub_ts": 1795534975.0
-      }
-    ],
-    "MSFT": [
+      },
       {
         "title": "Oracle Is a Higher-Leverage, Cash-Hungry Twin to Microsoft",
         "url": "https://247wallst.com/investing/2026/11/24/oracle-is-a-higher-leverage-cash-hungry-twin-to-microsoft/?.tsrc=rss",
@@ -1235,13 +1242,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:57 ET",
         "pub_ts": 1795532220.0
-      },
-      {
-        "title": "Global Subject Access Request Software Market Report 2026 | Capitalize on 13.5% CAGR to $2.96 Billion by 2030 as Microsoft, IBM, OneTrust and BigID Accelerate AI-Cloud Compliance",
-        "url": "https://finance.yahoo.com/technology/ai/articles/global-subject-access-request-software-143100171.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:31 ET",
-        "pub_ts": 1795530660.0
       }
     ],
     "AAPL": [
@@ -3290,30 +3290,30 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795536855.9070807,
-    "SOXL": 1795536855.9070807,
-    "SPY": 1795536855.9070807,
-    "DIA": 1795536855.9070807,
-    "SOXX": 1795536855.9070807,
-    "QQQ": 1795536855.9070807,
-    "SMH": 1795536855.9070807,
-    "IWM": 1795536855.9070807,
-    "IGV": 1795536855.9070807,
-    "TLT": 1795536855.9070807,
-    "GLD": 1795536855.9070807,
-    "SQQQ": 1795536855.9070807,
-    "TSM": 1795536855.9070807,
-    "VIXY": 1795536855.9070807,
-    "SOXS": 1795536855.9070807,
-    "NVDA": 1795536855.9070807,
-    "AMD": 1795536855.9070807,
-    "ASML": 1795536855.9070807,
-    "QCOM": 1795536855.9070807,
-    "AVGO": 1795536855.9070807,
-    "AMAT": 1795536855.9070807,
-    "META": 1795536855.9070807,
-    "GOOGL": 1795536855.9070807,
-    "MSFT": 1795536855.9070807,
+    "KORU": 1795538382.3355198,
+    "SOXL": 1795538382.3355198,
+    "SPY": 1795538382.3355198,
+    "DIA": 1795538382.3355198,
+    "SOXX": 1795538382.3355198,
+    "QQQ": 1795538382.3355198,
+    "SMH": 1795538382.3355198,
+    "IWM": 1795538382.3355198,
+    "IGV": 1795538382.3355198,
+    "TLT": 1795538382.3355198,
+    "GLD": 1795538382.3355198,
+    "SQQQ": 1795538382.3355198,
+    "TSM": 1795538382.3355198,
+    "VIXY": 1795538382.3355198,
+    "SOXS": 1795538382.3355198,
+    "NVDA": 1795538382.3355198,
+    "AMD": 1795538382.3355198,
+    "ASML": 1795538382.3355198,
+    "QCOM": 1795538382.3355198,
+    "AVGO": 1795538382.3355198,
+    "AMAT": 1795538382.3355198,
+    "META": 1795538382.3355198,
+    "GOOGL": 1795538382.3355198,
+    "MSFT": 1795538382.3355198,
     "AAPL": 1795537183.175203,
     "PLTR": 1795537183.175203,
     "NOW": 1795537183.175203,
