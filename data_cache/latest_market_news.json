@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795542863.243,
-  "updated_at_et": "11-24 12:54 ET",
-  "updated_at_kst": "02:54 KST",
+  "updated_at_ts": 1795542972.095,
+  "updated_at_et": "11-24 12:56 ET",
+  "updated_at_kst": "02:56 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -809,6 +809,13 @@
         "pub_ts": 1795529795.0
       },
       {
+        "title": "SK hynix vs. TSMC: One Chipmaker's Revenue Is Exploding, but Is It the Better Buy for 2027?",
+        "url": "https://www.fool.com/coverage/charts/2026/11/24/sk-hynix-vs-tsmc-one-chipmaker-s-revenue-is-exploding-but-is-it-the-better-buy-for-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:35 ET",
+        "pub_ts": 1795541702.0
+      },
+      {
         "title": "Taiwan Semiconductor Stocks Fall 2.78% After Taipei Shares Hit the 10% Limit",
         "url": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-stocks-fall-2-165022272.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -828,13 +835,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:45 ET",
         "pub_ts": 1795538701.0
-      },
-      {
-        "title": "Global Microprocessor Chip Manufacturing Market Report 2026: Size, Trends, and Forecast to 2030 | Capture $210.23B AI Chip Demand with TSMC, NVIDIA, Samsung, Intel, and AMD",
-        "url": "https://finance.yahoo.com/technology/ai/articles/global-microprocessor-chip-manufacturing-market-144000160.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:40 ET",
-        "pub_ts": 1795531200.0
       }
     ],
     "VIXY": [
@@ -913,42 +913,63 @@
     ],
     "NVDA": [
       {
-        "title": "Nvidia Stock Soars as Jensen Huang Returns — Should You Buy or Wait?",
-        "url": "https://moneylion.com/trending/money/nvidia-stock-soars-jensen-huang-returns-buy-wait?.tsrc=rss",
+        "title": "Wall Street's 2027 earnings hopes may be dead on arrival unless the Fed blinks in December",
+        "url": "https://finance.yahoo.com/markets/article/wall-streets-2027-earnings-hopes-may-be-dead-on-arrival-unless-the-fed-blinks-in-december-174154719.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 12:00 ET",
-        "pub_ts": 1795539640.0
+        "time": "11-24 12:41 ET",
+        "pub_ts": 1795542114.0
       },
       {
-        "title": "Nvidia Faces Fresh China Chip Restrictions Despite Huang's Return",
-        "url": "https://finance.yahoo.com/technology/articles/nvidia-faces-fresh-china-chip-165836607.html?.tsrc=rss",
+        "title": "Medtronic plc Q2 2027 Earnings Call Summary",
+        "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-medtronic-plc-q2-2027-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 11:58 ET",
-        "pub_ts": 1795539516.0
+        "time": "11-24 12:45 ET",
+        "pub_ts": 1795542304.0
       },
       {
-        "title": "Sam Altman's OpenAI Took a $30 Billion Investment From Nvidia Earlier in 2026. Here's Why That Deal Matters for Both Companies' Investors.",
-        "url": "https://www.fool.com/investing/2026/11/24/sam-altmans-openai-took-a-30-billion-investment/?.tsrc=rss",
+        "title": "Update: US Equity Indexes Mixed as Defensives Help Tackle Slide in Mega-Cap Technology",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-defensives-174225946.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 11:53 ET",
-        "pub_ts": 1795539180.0
+        "time": "11-24 12:42 ET",
+        "pub_ts": 1795542145.0
       },
       {
-        "title": "Here’s How Many Shares of Realty Income You’d Need for $100 in Monthly Dividends",
-        "url": "https://www.fool.com/investing/2026/11/24/heres-how-shares-realty-income-youd-need-100-monthly-dividends/?.tsrc=rss",
+        "title": "Nvidia, Chip Stocks Fall As Data Center Spending Fears Return",
+        "url": "https://finance.yahoo.com/m/f1d585fa-8dde-3feb-9be2-ba2cfa946702/nvidia%2C-chip-stocks-fall-as.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 12:13 ET",
-        "pub_ts": 1795540382.0
+        "time": "11-24 12:41 ET",
+        "pub_ts": 1795542083.0
       },
       {
-        "title": "AMD Stocks Fall 9.08% After Filing Registers 337 Million Shares for Resale",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/amd-stocks-fall-9-08-170251435.html?.tsrc=rss",
+        "title": "Nike Sells Shoes. Can It Stop Paying For AI?",
+        "url": "https://www.trefis.com/stock/nke/articles/627485/nike-sells-shoes-can-it-stop-paying-for-ai/2026-11-24?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 12:02 ET",
-        "pub_ts": 1795539771.0
+        "time": "11-24 12:39 ET",
+        "pub_ts": 1795541974.0
       }
     ],
     "AMD": [
+      {
+        "title": "Stocks give back gains as Anthropic dips below IPO price",
+        "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:44 ET",
+        "pub_ts": 1795535048.0
+      },
+      {
+        "title": "The Same $10,000 in AMD and Micron Could Produce Very Different Results by 2030",
+        "url": "https://247wallst.com/investing/2026/11/24/the-same-10000-in-amd-and-micron-could-produce-very-different-results-by-2030/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:34 ET",
+        "pub_ts": 1795541642.0
+      },
+      {
+        "title": "Why Is AMD (AMD) Stock Down Today? Hunterbrook Short Report Hits Shares",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-amd-amd-stock-down-173112516.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:31 ET",
+        "pub_ts": 1795541472.0
+      },
       {
         "title": "AMD Stocks Fall 9.08% After Filing Registers 337 Million Shares for Resale",
         "url": "https://finance.yahoo.com/markets/stocks/articles/amd-stocks-fall-9-08-170251435.html?.tsrc=rss",
@@ -962,27 +983,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:03 ET",
         "pub_ts": 1795536213.0
-      },
-      {
-        "title": "OpenAI and Meta Could Get 320 Million AMD Shares for a Penny Each",
-        "url": "https://247wallst.com/investing/2026/11/24/openai-and-meta-could-get-320-million-amd-shares-for-a-penny-each/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:52 ET",
-        "pub_ts": 1795535556.0
-      },
-      {
-        "title": "AMD Sinks 10%, Nvidia Down 7% as Chip Stocks Give Back Huang Rally, Resale Filing Weighs",
-        "url": "https://www.tikr.com/blog/amd-sinks-10-nvidia-down-7-as-chip-stocks-give-back-huang-rally-resale-filing-weighs?ref=yahoofinance&tlnk=yf-261124-gwx42qj3&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:19 ET",
-        "pub_ts": 1795533597.0
-      },
-      {
-        "title": "Stock Market Today: Dow Dips, Nasdaq Skids As Nvidia Dives; Anthropic Plunges Below IPO Price (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/4aa4ff31-269f-346e-80c4-e681510af7ae/stock-market-today%3A-dow-dips%2C.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:42 ET",
-        "pub_ts": 1795538545.0
       }
     ],
     "ASML": [
@@ -1024,6 +1024,13 @@
     ],
     "QCOM": [
       {
+        "title": "Should Softer Guidance Require Action From Qualcomm Stock Investors",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/softer-guidance-require-action-qualcomm-171618113.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:16 ET",
+        "pub_ts": 1795540578.0
+      },
+      {
         "title": "Global Fixed Point Digital Signal Processor Market Report 2026 to 2030 | Capitalize on 8.7% CAGR as Qualcomm, MediaTek, Texas Instruments, Samsung, and Intel Accelerate Edge IoT",
         "url": "https://finance.yahoo.com/technology/articles/global-fixed-point-digital-signal-143800586.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1045,13 +1052,6 @@
         "pub_ts": 1795453447.0
       },
       {
-        "title": "Qualcomm Is Down 42% and SK hynix Has Plunged 48% Amid the AI Sell-Off. Which Is the Better Stock to Buy for 2027?",
-        "url": "https://www.fool.com/coverage/better-buy/2026/11/23/qualcomm-is-down-42-and-sk-hynix-has-plunged-48-amid-the-ai-sell-off-which-is-the-better-stock-to-buy-for-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 05:20 ET",
-        "pub_ts": 1795429202.0
-      },
-      {
         "title": "Micron Just Dropped 19% in a Month. Is It Time to Sell, or Load Up?",
         "url": "https://www.tikr.com/blog/micron-just-dropped-19-in-a-month-is-it-time-to-sell-or-load-up?ref=yahoofinance&tlnk=yf-261124-8fvqwgxg&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1066,6 +1066,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:16 ET",
         "pub_ts": 1795529795.0
+      },
+      {
+        "title": "Stocks give back gains as Anthropic dips below IPO price",
+        "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:44 ET",
+        "pub_ts": 1795535048.0
       },
       {
         "title": "Broadcom Stocks Fall 3.98% as Google TPU Order Report Clouds AI Outlook",
@@ -1087,13 +1094,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:22 ET",
         "pub_ts": 1795537322.0
-      },
-      {
-        "title": "Prediction: This Is What Will Happen to Broadcom’s Stock Price in December",
-        "url": "https://www.fool.com/investing/2026/11/24/prediction-this-is-what-will-happen-to-broadcom-s-stock-price-in-december/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 06:20 ET",
-        "pub_ts": 1795519202.0
       }
     ],
     "AMAT": [
@@ -1135,11 +1135,25 @@
     ],
     "META": [
       {
+        "title": "Stocks give back gains as Anthropic dips below IPO price",
+        "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:44 ET",
+        "pub_ts": 1795535048.0
+      },
+      {
         "title": "Mark Zuckerberg's Meta Faces New Battle Over Control",
         "url": "https://finance.yahoo.com/markets/stocks/articles/mark-zuckerbergs-meta-faces-battle-164556554.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 11:45 ET",
         "pub_ts": 1795538756.0
+      },
+      {
+        "title": "META Rides on Strong Demand in Ad Business: Can It Beat RDDT and SNAP?",
+        "url": "https://finance.yahoo.com/media-advertising/articles/meta-rides-strong-demand-ad-163500234.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:35 ET",
+        "pub_ts": 1795538100.0
       },
       {
         "title": "What Moved Meta Stock?",
@@ -1154,23 +1168,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:14 ET",
         "pub_ts": 1795536877.0
-      },
-      {
-        "title": "OpenAI and Meta Could Get 320 Million AMD Shares for a Penny Each",
-        "url": "https://247wallst.com/investing/2026/11/24/openai-and-meta-could-get-320-million-amd-shares-for-a-penny-each/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:52 ET",
-        "pub_ts": 1795535556.0
-      },
-      {
-        "title": "Meta Fell 8% Over the Last 30 Days: Mutiple Wall Street Desks Expect 67% Returns From Here",
-        "url": "https://247wallst.com/investing/2026/11/24/meta-fell-8-over-the-last-30-days-mutiple-wall-street-desks-expect-67-returns-from-here/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:45 ET",
-        "pub_ts": 1795535135.0
       }
     ],
     "GOOGL": [
+      {
+        "title": "Stocks give back gains as Anthropic dips below IPO price",
+        "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:44 ET",
+        "pub_ts": 1795535048.0
+      },
       {
         "title": "Have robotaxis hit a tipping point? Wall Street and experts are split.",
         "url": "https://finance.yahoo.com/markets/stocks/article/have-robotaxis-hit-a-tipping-point-wall-street-and-experts-are-split-150000412.html?.tsrc=rss",
@@ -1179,32 +1186,25 @@
         "pub_ts": 1795532400.0
       },
       {
+        "title": "Nike Sells Shoes. Can It Stop Paying For AI?",
+        "url": "https://www.trefis.com/stock/nke/articles/627485/nike-sells-shoes-can-it-stop-paying-for-ai/2026-11-24?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:39 ET",
+        "pub_ts": 1795541974.0
+      },
+      {
+        "title": "Why Did Alphabet Stock Move?",
+        "url": "https://www.trefis.com/stock/googl/articles/628636/why-did-alphabet-stock-move/2026-11-24?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:24 ET",
+        "pub_ts": 1795541080.0
+      },
+      {
         "title": "Broadcom Stocks Fall 3.98% as Google TPU Order Report Clouds AI Outlook",
         "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stocks-fall-3-98-165405396.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 11:54 ET",
         "pub_ts": 1795539245.0
-      },
-      {
-        "title": "Amazon Makes $7.5 Billion AI Move to Challenge Nvidia",
-        "url": "https://finance.yahoo.com/technology/ai/articles/amazon-makes-7-5-billion-164215378.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:42 ET",
-        "pub_ts": 1795538535.0
-      },
-      {
-        "title": "Anthropic Broke Its $83 IPO Price Overnight. Jim Cramer Blames “the Achilles Heel of Overnight Trading”",
-        "url": "https://www.tikr.com/blog/anthropic-broke-its-83-ipo-price-overnight-jim-cramer-blames-the-achilles-heel-of-overnight-trading?ref=yahoofinance&tlnk=yf-261124-77mr4w5c&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:28 ET",
-        "pub_ts": 1795537688.0
-      },
-      {
-        "title": "The Fed Just Said AI May Be a Major Threat to the U.S. Economy",
-        "url": "https://247wallst.com/investing/2026/11/24/the-fed-just-said-ai-may-be-a-major-threat-to-the-u-s-economy/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:22 ET",
-        "pub_ts": 1795537344.0
       }
     ],
     "MSFT": [
@@ -3290,30 +3290,30 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795541453.359536,
-    "SOXL": 1795541453.359536,
-    "SPY": 1795541453.359536,
-    "DIA": 1795541453.359536,
-    "SOXX": 1795541453.359536,
-    "QQQ": 1795541453.359536,
-    "SMH": 1795541453.359536,
-    "IWM": 1795541453.359536,
-    "IGV": 1795541453.359536,
-    "TLT": 1795541453.359536,
-    "GLD": 1795541453.359536,
-    "SQQQ": 1795541453.359536,
-    "TSM": 1795541453.359536,
-    "VIXY": 1795541453.359536,
-    "SOXS": 1795541453.359536,
-    "NVDA": 1795541453.359536,
-    "AMD": 1795541453.359536,
-    "ASML": 1795541453.359536,
-    "QCOM": 1795541453.359536,
-    "AVGO": 1795541453.359536,
-    "AMAT": 1795541453.359536,
-    "META": 1795541453.359536,
-    "GOOGL": 1795541453.359536,
-    "MSFT": 1795541453.359536,
+    "KORU": 1795542972.0946355,
+    "SOXL": 1795542972.0946355,
+    "SPY": 1795542972.0946355,
+    "DIA": 1795542972.0946355,
+    "SOXX": 1795542972.0946355,
+    "QQQ": 1795542972.0946355,
+    "SMH": 1795542972.0946355,
+    "IWM": 1795542972.0946355,
+    "IGV": 1795542972.0946355,
+    "TLT": 1795542972.0946355,
+    "GLD": 1795542972.0946355,
+    "SQQQ": 1795542972.0946355,
+    "TSM": 1795542972.0946355,
+    "VIXY": 1795542972.0946355,
+    "SOXS": 1795542972.0946355,
+    "NVDA": 1795542972.0946355,
+    "AMD": 1795542972.0946355,
+    "ASML": 1795542972.0946355,
+    "QCOM": 1795542972.0946355,
+    "AVGO": 1795542972.0946355,
+    "AMAT": 1795542972.0946355,
+    "META": 1795542972.0946355,
+    "GOOGL": 1795542972.0946355,
+    "MSFT": 1795542972.0946355,
     "AAPL": 1795541777.6863682,
     "PLTR": 1795541777.6863682,
     "NOW": 1795541777.6863682,
