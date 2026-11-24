@@ -1,9 +1,37 @@
 {
-  "updated_at_ts": 1795521635.67,
-  "updated_at_et": "11-24 07:00 ET",
-  "updated_at_kst": "21:00 KST",
+  "updated_at_ts": 1795530641.375,
+  "updated_at_et": "11-24 09:30 ET",
+  "updated_at_kst": "23:30 KST",
   "macro_calendar": [],
   "macro_flashes": [
+    {
+      "id": "20261124221929204800",
+      "title": "摩根大通：预计从2027年第一季度起，原油价格走低以及美联储按兵不动，最终将推动金价在2…",
+      "summary": "摩根大通：预计从2027年第一季度起，原油价格走低以及美联储按兵不动，最终将推动金价在2027年第四季度回升至每盎司4500美元，白银则回升至50美元区间中段。",
+      "keywords": [
+        "美联储",
+        "原油"
+      ],
+      "pub_ts": 1795529969.0,
+      "time_et": "11-24 09:19 ET",
+      "time_bj": "22:19 BJ",
+      "time_kst": "23:19 KST",
+      "time_display": "09:19 ET / 22:19 BJ"
+    },
+    {
+      "id": "20261124221214463800",
+      "title": "【特朗普政府拟重启关税攻势，最快周二宣布相关决定】 11月24日讯，据一位知情人士透露，…",
+      "summary": "【特朗普政府拟重启关税攻势，最快周二宣布相关决定】 11月24日讯，据一位知情人士透露，美国正准备最早于周二宣布提高对欧盟以及十多个其他经济体商品的关税。特朗普政府正寻求以新的关税措施取代此前被美国最高法院裁定无效的关税。目前，关税税率、涉及的商品范围以及生效日期均尚不明确。《华尔街日报》此前报道称，相关公告最快可能于本周发布。美国总统特朗普经常改变贸易政策方向，因此具体宣布时间仍可能调整。",
+      "keywords": [
+        "关税",
+        "特朗普"
+      ],
+      "pub_ts": 1795529534.0,
+      "time_et": "11-24 09:12 ET",
+      "time_bj": "22:12 BJ",
+      "time_kst": "23:12 KST",
+      "time_display": "09:12 ET / 22:12 BJ"
+    },
     {
       "id": "20261124195506779800",
       "title": "特朗普靠不住？泽连斯基拟借美国新一届国会向普京施压",
@@ -320,33 +348,6 @@
       "time_bj": "13:31 BJ",
       "time_kst": "14:31 KST",
       "time_display": "00:31 ET / 13:31 BJ"
-    },
-    {
-      "id": "20261124133051107800",
-      "title": "高盛：美元短期还有上涨空间，但2027年可能温和走弱",
-      "summary": "高盛认为美联储未来几个月维持紧缩政策，将继续支撑美元，但随着能源价格回落、通胀压力缓解，美元2027年可能温和走弱。未来三个月欧元兑美元或跌至1.08。点击查看",
-      "keywords": [
-        "美联储"
-      ],
-      "pub_ts": 1795498251.0,
-      "time_et": "11-24 00:30 ET",
-      "time_bj": "13:30 BJ",
-      "time_kst": "14:30 KST",
-      "time_display": "00:30 ET / 13:30 BJ"
-    },
-    {
-      "id": "20261124121958545800",
-      "title": "黄仁勋复职内幕曝光：白宫为稳住股市展开72小时行动！",
-      "summary": "据知情人士，特朗普担忧美股持续下跌，亲自推动黄仁勋重掌英伟达。万斯牵头，在72小时内协调多名政府高官游说董事会，贝森特和卢特尼克也参与其中。点击查看...",
-      "keywords": [
-        "英伟达",
-        "特朗普"
-      ],
-      "pub_ts": 1795493998.0,
-      "time_et": "11-23 23:19 ET",
-      "time_bj": "12:19 BJ",
-      "time_kst": "13:19 KST",
-      "time_display": "23:19 ET / 12:19 BJ"
     }
   ],
   "ticker_news": {
@@ -426,6 +427,13 @@
     ],
     "SPY": [
       {
+        "title": "Own Humana Stock? Its Profit Cushion Is The Thinnest",
+        "url": "https://www.trefis.com/stock/unh/articles/628256/own-humana-stock-its-profit-cushion-is-the-thinnest/2026-11-24?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 08:03 ET",
+        "pub_ts": 1795525388.0
+      },
+      {
         "title": "What SPDR S&P 500 ETF Trust (SPY) Bought: Apple Leads on Friday",
         "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-trust-110254690.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -440,25 +448,18 @@
         "pub_ts": 1795518012.0
       },
       {
+        "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Investors Pull Back From AI-Related Stocks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141922343.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:19 ET",
+        "pub_ts": 1795529962.0
+      },
+      {
         "title": "ETFs Bought $120 Million of Mastercard (MA) on Friday",
         "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-120-million-mastercard-110212516.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 06:02 ET",
         "pub_ts": 1795518132.0
-      },
-      {
-        "title": "Costco (COST) Sees $123.3 Million in Net ETF Buying on Friday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/costco-cost-sees-123-3-110206631.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 06:02 ET",
-        "pub_ts": 1795518126.0
-      },
-      {
-        "title": "ETFs Are Buying Walmart (WMT) on Nov. 20",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-walmart-wmt-nov-110151407.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 06:01 ET",
-        "pub_ts": 1795518111.0
       }
     ],
     "DIA": [
@@ -507,6 +508,13 @@
         "pub_ts": 1795518182.0
       },
       {
+        "title": "Chip Stocks Give Back Gains After Epic Rally",
+        "url": "https://finance.yahoo.com/m/3db28e68-b8b2-3a35-9149-a19ec7b74efe/chip-stocks-give-back-gains.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 05:38 ET",
+        "pub_ts": 1795516690.0
+      },
+      {
         "title": "Why iShares Semiconductor ETF (SOXX) Is Up Today",
         "url": "https://www.fool.com/investing/2026/11/23/why-ishares-semiconductor-etf-soxx-is-up-today/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -521,21 +529,28 @@
         "pub_ts": 1795451214.0
       },
       {
-        "title": "Chip Stocks Lead Premarket Bounce as SOXX Soars",
-        "url": "https://finance.yahoo.com/m/da42314d-e4d9-32a7-b543-328e1f71d8ea/chip-stocks-lead-premarket.html?.tsrc=rss",
+        "title": "As AI Stocks Plummet, Insiders Are Buying Into These 3 Names",
+        "url": "https://www.marketbeat.com/articles/as-ai-stocks-plummet-insiders-are-buying-into-these-3-names/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-23 05:12 ET",
-        "pub_ts": 1795428778.0
-      },
-      {
-        "title": "SOXX and DRAM Are Down Between 35.6% and 51.9% From Their Highs. Here’s an Even Better Growth Stock ETF to Buy During the Nasdaq Correction.",
-        "url": "https://www.fool.com/investing/2026/11/22/soxx-and-dram-are-down-between-35-6-and-51-9-from-their-highs-here-s-an-even-better-growth-stock-etf-to-buy-during-the-nasdaq-correction/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-22 08:35 ET",
-        "pub_ts": 1795354502.0
+        "time": "11-23 08:10 ET",
+        "pub_ts": 1795439400.0
       }
     ],
     "QQQ": [
+      {
+        "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Investors Pull Back From AI-Related Stocks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141922343.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:19 ET",
+        "pub_ts": 1795529962.0
+      },
+      {
+        "title": "QQQ Just Had Its Biggest Opening Jump Since It Launched in 1999",
+        "url": "https://247wallst.com/investing/2026/11/24/qqq-just-had-its-biggest-opening-jump-since-it-launched-in-1999/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 08:37 ET",
+        "pub_ts": 1795527451.0
+      },
       {
         "title": "What INVESCO QQQ Trust (QQQ) Bought: Apple Leads on Friday",
         "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-qqq-trust-qqq-bought-110317120.html?.tsrc=rss",
@@ -556,20 +571,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 21:01 ET",
         "pub_ts": 1795485664.0
-      },
-      {
-        "title": "Should You Swap Tech For Johnson & Johnson Stock?",
-        "url": "https://www.trefis.com/stock/jnj/articles/627623/should-you-swap-tech-for-johnson-johnson-stock/2026-11-23?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 17:02 ET",
-        "pub_ts": 1795471324.0
-      },
-      {
-        "title": "ETFs Are Buying Micron Technology (MU) on Friday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-micron-technology-mu-110141845.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 06:01 ET",
-        "pub_ts": 1795518101.0
       }
     ],
     "SMH": [
@@ -796,39 +797,39 @@
     ],
     "TSM": [
       {
-        "title": "TSMC gains $158 billion in value in one day as Jensen Huang returns as Nvidia CEO",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-gains-158-billion-value-070556999.html?.tsrc=rss",
+        "title": "Nvidia, AMD, Broadcom lead chip stocks lower as AI trade comes under pressure",
+        "url": "https://finance.yahoo.com/markets/article/nvidia-amd-broadcom-lead-chip-stocks-lower-as-ai-trade-comes-under-pressure-141635463.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 02:05 ET",
-        "pub_ts": 1795503956.0
+        "time": "11-24 09:16 ET",
+        "pub_ts": 1795529795.0
       },
       {
-        "title": "Why TSMC Stock Soared Today",
-        "url": "https://www.fool.com/investing/2026/11/23/why-tsmc-stock-soared-today/?.tsrc=rss",
+        "title": "TSM's AI-Driven Growth Accelerates: Is There More Upside Ahead?",
+        "url": "https://finance.yahoo.com/technology/ai/articles/tsms-ai-driven-growth-accelerates-125400331.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-23 16:20 ET",
-        "pub_ts": 1795468849.0
+        "time": "11-24 07:54 ET",
+        "pub_ts": 1795524840.0
       },
       {
-        "title": "Billionaire Andreas Halvorsen Exited Microsoft and Made TSMC His Top Holding at $1.8 Billion",
-        "url": "https://247wallst.com/investing/2026/11/23/billionaire-andreas-halvorsen-exited-microsoft-and-made-tsmc-his-top-holding-at-1-8-billion/?.tsrc=rss",
+        "title": "TSMC Stock Just Had Its Best Day Since 2008",
+        "url": "https://247wallst.com/investing/2026/11/24/tsmc-stock-just-had-its-best-day-since-2008/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-23 15:57 ET",
-        "pub_ts": 1795467446.0
+        "time": "11-24 07:38 ET",
+        "pub_ts": 1795523899.0
       },
       {
-        "title": "Jensen Huang’s Return Just Added About $500 Billion to Micron, Dell, TSMC and the AI Stocks That Depend on Nvidia",
-        "url": "https://247wallst.com/investing/2026/11/23/jensen-huangs-return-just-added-about-500-billion-to-micron-dell-tsmc-and-the-ai-stocks-that-depend-on-nvidia/?.tsrc=rss",
+        "title": "TSMC and SK Hynix Stocks Jump After Nvidia Reinstates Jensen Huang as CEO",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-sk-hynix-stocks-jump-120300756.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-23 15:13 ET",
-        "pub_ts": 1795464780.0
+        "time": "11-24 07:03 ET",
+        "pub_ts": 1795521780.0
       },
       {
-        "title": "Fujitsu sees stronger Monaka demand as buyers seek alternatives, Bloomberg reports",
-        "url": "https://finance.yahoo.com/technology/articles/fujitsu-sees-stronger-monaka-demand-083637056.html?.tsrc=rss",
+        "title": "TSMC Weighs $22.6 Billion Texas Chip Plant, Seeks Tax Breaks",
+        "url": "https://finance.yahoo.com/technology/articles/tsmc-weighs-22-6-billion-114656874.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 03:36 ET",
-        "pub_ts": 1795509397.0
+        "time": "11-24 06:46 ET",
+        "pub_ts": 1795520816.0
       }
     ],
     "VIXY": [
@@ -907,79 +908,93 @@
     ],
     "NVDA": [
       {
-        "title": "Nvidia staff chant, holler and hug at Huang's triumphant return",
-        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-staff-chant-holler-hug-114950207.html?.tsrc=rss",
+        "title": "Nvidia, AMD, Broadcom lead chip stocks lower as AI trade comes under pressure",
+        "url": "https://finance.yahoo.com/markets/article/nvidia-amd-broadcom-lead-chip-stocks-lower-as-ai-trade-comes-under-pressure-141635463.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 06:49 ET",
-        "pub_ts": 1795520990.0
+        "time": "11-24 09:16 ET",
+        "pub_ts": 1795529795.0
       },
       {
-        "title": "Nvidia Added $954 Billion In A Day. Is Jensen Huang Too Big To Fire?",
-        "url": "https://www.trefis.com/stock/nvda/articles/628204/nvidia-added-954-billion-in-a-day-is-jensen-huang-too-big-to-fire/2026-11-24?.tsrc=rss",
+        "title": "Stocks move lower as Nvidia euphoria wears off",
+        "url": "https://finance.yahoo.com/video/stocks-move-lower-as-nvidia-euphoria-wears-off-135748794.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 06:39 ET",
-        "pub_ts": 1795520369.0
+        "time": "11-24 08:57 ET",
+        "pub_ts": 1795528668.0
       },
       {
-        "title": "How Jensen Huang's return to Nvidia made the world trillions richer",
-        "url": "https://www.euronews.com/2026/11/24/how-jensen-huangs-return-to-nvidia-made-the-world-trillions-richer?.tsrc=rss",
+        "title": "Cathie Wood Sold $17 Million of Nvidia Stock the Day Before It Soared 31%",
+        "url": "https://247wallst.com/investing/2026/11/24/cathie-wood-sold-17-million-of-nvidia-stock-the-day-before-it-soared-31/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 06:37 ET",
-        "pub_ts": 1795520235.0
+        "time": "11-24 09:12 ET",
+        "pub_ts": 1795529546.0
       },
       {
-        "title": "Tech firms fuel global rally on Huang's shock Nvidia return",
-        "url": "https://finance.yahoo.com/technology/ai/articles/tech-firms-soar-huangs-return-023753159.html?.tsrc=rss",
+        "title": "NVIDIA and Intel Slide 6% as Jensen Huang Comeback Rally Cools; AMD Drops 5%",
+        "url": "https://247wallst.com/investing/2026/11/24/nvidia-and-intel-slide-6-as-jensen-huang-comeback-rally-cools-amd-drops-5/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 06:34 ET",
-        "pub_ts": 1795520064.0
+        "time": "11-24 09:11 ET",
+        "pub_ts": 1795529475.0
       },
       {
-        "title": "Nvidia Shares Fall 5% in Premarket Trading as Goldman Sachs Highlights Lingering Uncertainty Following Huang’s Return",
-        "url": "https://investorshub.advfn.com/market-news/article/40601/nvidia-shares-fall-5-in-premarket-trading-as-goldman-sachs-highlights-lingering-uncertainty-following-huangs-return?.tsrc=rss",
+        "title": "Micron Falls 7% as NVIDIA Pullback Partially Reverses Monday’s AI Chip Rally; SanDisk and SK Hynix Drop 6%",
+        "url": "https://247wallst.com/investing/2026/11/24/micron-falls-7-as-nvidia-pullback-partially-reverses-mondays-ai-chip-rally-sandisk-and-sk-hynix-drop-6/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 06:23 ET",
-        "pub_ts": 1795519383.0
+        "time": "11-24 09:07 ET",
+        "pub_ts": 1795529253.0
       }
     ],
     "AMD": [
       {
-        "title": "iShares PHLX SOX Semiconductor (SOXX) Adds AMD and AVGO on Nov. 20",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-phlx-sox-semiconductor-soxx-110302788.html?.tsrc=rss",
+        "title": "Nvidia, AMD, Broadcom lead chip stocks lower as AI trade comes under pressure",
+        "url": "https://finance.yahoo.com/markets/article/nvidia-amd-broadcom-lead-chip-stocks-lower-as-ai-trade-comes-under-pressure-141635463.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 06:03 ET",
-        "pub_ts": 1795518182.0
+        "time": "11-24 09:16 ET",
+        "pub_ts": 1795529795.0
       },
       {
-        "title": "ETFs Are Buying Advanced Micro Devices (AMD) on Friday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-advanced-micro-devices-110118985.html?.tsrc=rss",
+        "title": "Jensen Huang is back at Nvidia. Should AMD be worried?",
+        "url": "https://finance.yahoo.com/markets/stocks/article/jensen-huang-is-back-at-nvidia-should-amd-be-worried-130012666.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 06:01 ET",
-        "pub_ts": 1795518078.0
+        "time": "11-24 08:00 ET",
+        "pub_ts": 1795525212.0
       },
       {
-        "title": "FalcoTrader Announces Expanded Stock Trading Capabilities Across Its Simulated Trading Challenge Platform",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/falcotrader-announces-expanded-stock-trading-094700625.html?.tsrc=rss",
+        "title": "NVIDIA and Intel Slide 6% as Jensen Huang Comeback Rally Cools; AMD Drops 5%",
+        "url": "https://247wallst.com/investing/2026/11/24/nvidia-and-intel-slide-6-as-jensen-huang-comeback-rally-cools-amd-drops-5/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 04:47 ET",
-        "pub_ts": 1795513620.0
+        "time": "11-24 09:11 ET",
+        "pub_ts": 1795529475.0
       },
       {
-        "title": "US Futures Mixed After Monday’s Nvidia-Led Chip Rally — ZM, HPE, AMD, BABA In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/us-futures-mixed-after-monday-s-nvidia-led-chip-rally-zm-hpe-amd-baba-in-focus/cNbs23VR9kf?.tsrc=rss",
+        "title": "AMD near-term technical setup: bearish bias with oversold bounce potential",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amd-near-term-technical-setup-135646943.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 04:30 ET",
-        "pub_ts": 1795512616.0
+        "time": "11-24 08:56 ET",
+        "pub_ts": 1795528606.0
       },
       {
-        "title": "AMD Stock Dips Overnight After Nvidia-Triggered Rally: AMD Registers 337M Shares For Resale Tied To OpenAI, Meta Warrants",
-        "url": "https://stocktwits.com/news-articles/markets/equity/amd-stock-dips-overnight-after-nvidia-triggered-rally-amd-registers-337-m-shares-for-resale-tied-to-open-ai-meta-warrants/cNbru6MR9jU?.tsrc=rss",
+        "title": "Stock Market Today: Tech Futures Sell Off After Big Market Surge; AMD, Anthropic, Nvidia Dive (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/4aa4ff31-269f-346e-80c4-e681510af7ae/stock-market-today%3A-tech.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-23 22:47 ET",
-        "pub_ts": 1795492068.0
+        "time": "11-24 08:51 ET",
+        "pub_ts": 1795528300.0
       }
     ],
     "ASML": [
+      {
+        "title": "Nvidia, AMD, Broadcom lead chip stocks lower as AI trade comes under pressure",
+        "url": "https://finance.yahoo.com/markets/article/nvidia-amd-broadcom-lead-chip-stocks-lower-as-ai-trade-comes-under-pressure-141635463.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:16 ET",
+        "pub_ts": 1795529795.0
+      },
+      {
+        "title": "ASML Stock What Changed After Nvidia CEO Return",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/asml-stock-changed-nvidia-ceo-121558672.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 07:15 ET",
+        "pub_ts": 1795522558.0
+      },
       {
         "title": "ASML (ENXTAM:ASML) Stock May Trade At A Premium Following Its 107% Run",
         "url": "https://finance.yahoo.com/markets/stocks/articles/asml-enxtam-asml-stock-may-111607325.html?.tsrc=rss",
@@ -1000,20 +1015,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 17:36 ET",
         "pub_ts": 1795473384.0
-      },
-      {
-        "title": "ASML Stock’s Sell-Off Looks Excessive Against Its Growth Outlook",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/asml-stock-sell-off-looks-212500722.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 16:25 ET",
-        "pub_ts": 1795469100.0
-      },
-      {
-        "title": "3 Unstoppable AI Stocks to Buy Hand Over Fist Before the End of 2026",
-        "url": "https://www.fool.com/investing/2026/11/23/3-unstoppable-ai-stocks-buy-hand-over-fist-before-end-2026/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 10:20 ET",
-        "pub_ts": 1795447202.0
       }
     ],
     "QCOM": [
@@ -1046,14 +1047,21 @@
         "pub_ts": 1795202564.0
       },
       {
-        "title": "Here is What to Know Beyond Why QUALCOMM Incorporated (QCOM) is a Trending Stock",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/know-beyond-why-qualcomm-incorporated-130004895.html?.tsrc=rss",
+        "title": "Micron Just Dropped 19% in a Month. Is It Time to Sell, or Load Up?",
+        "url": "https://www.tikr.com/blog/micron-just-dropped-19-in-a-month-is-it-time-to-sell-or-load-up?ref=yahoofinance&tlnk=yf-261124-8fvqwgxg&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-20 08:00 ET",
-        "pub_ts": 1795179604.0
+        "time": "11-24 04:46 ET",
+        "pub_ts": 1795513576.0
       }
     ],
     "AVGO": [
+      {
+        "title": "Nvidia, AMD, Broadcom lead chip stocks lower as AI trade comes under pressure",
+        "url": "https://finance.yahoo.com/markets/article/nvidia-amd-broadcom-lead-chip-stocks-lower-as-ai-trade-comes-under-pressure-141635463.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:16 ET",
+        "pub_ts": 1795529795.0
+      },
       {
         "title": "Prediction: This Is What Will Happen to Broadcom’s Stock Price in December",
         "url": "https://www.fool.com/investing/2026/11/24/prediction-this-is-what-will-happen-to-broadcom-s-stock-price-in-december/?.tsrc=rss",
@@ -1081,16 +1089,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 06:02 ET",
         "pub_ts": 1795518174.0
-      },
-      {
-        "title": "ETFs Bought $393.8 Million of Broadcom (AVGO) on Nov. 20",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-393-8-million-110109208.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 06:01 ET",
-        "pub_ts": 1795518069.0
       }
     ],
     "AMAT": [
+      {
+        "title": "Applied Materials Is Up 33% in 2026 but 54% Below Its June High. Time to Buy?",
+        "url": "https://www.tikr.com/blog/applied-materials-is-up-33-in-2026-but-54-below-its-june-high-time-to-buy?ref=yahoofinance&tlnk=yf-261124-5f47p74f&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 06:52 ET",
+        "pub_ts": 1795521135.0
+      },
       {
         "title": "Applied Materials Stocks Jump 15.37% as Record Guidance Meets the Chip Rebound",
         "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-stocks-jump-15-175448269.html?.tsrc=rss",
@@ -1118,124 +1126,117 @@
         "source": "Yahoo Finance",
         "time": "11-23 09:09 ET",
         "pub_ts": 1795442953.0
-      },
-      {
-        "title": "AMAT vs. FORM: Which Stock Has the Edge as HBM Demand Grows?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/amat-vs-form-stock-edge-134500354.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 08:45 ET",
-        "pub_ts": 1795441500.0
       }
     ],
     "META": [
       {
-        "title": "Meta Platforms (META) Sees $240.4 Million in Net ETF Buying on Friday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-meta-sees-240-110128528.html?.tsrc=rss",
+        "title": "Meta launches Muse AI agent in UK with several retail partners",
+        "url": "https://www.retail-insight-network.com/news/meta-muse-ai-agent-uk-retail-partners/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 06:01 ET",
-        "pub_ts": 1795518088.0
+        "time": "11-24 09:12 ET",
+        "pub_ts": 1795529563.0
       },
       {
-        "title": "Why 1 Billionaire Investor Just Poured $3 Billion Into Amazon, Meta, and Alphabet",
-        "url": "https://www.fool.com/investing/2026/11/24/why-one-billionaire-investor-just-poured-usd3-billion-into-amazon-meta-and-alphabet/?.tsrc=rss",
+        "title": "Now Muse Can Do the Grocery Run, With Gopuff Delivering in Minutes",
+        "url": "https://finance.yahoo.com/technology/articles/now-muse-grocery-run-gopuff-140000118.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 05:35 ET",
-        "pub_ts": 1795516502.0
+        "time": "11-24 09:00 ET",
+        "pub_ts": 1795528800.0
       },
       {
-        "title": "David Tepper, George Soros and 5 Other Famous Investors Own Meta. Here’s Who Bought and Sold Recently",
-        "url": "https://www.tikr.com/blog/david-tepper-george-soros-and-5-other-famous-investors-own-meta-heres-who-bought-and-sold-recently?ref=yahoofinance&tlnk=yf-261124-5q744xgw&.tsrc=rss",
+        "title": "Efekta Convenes Global Leaders in Athens to Explore How AI Can Transform Education, Empower Teachers and Expand Economic Opportunity",
+        "url": "https://finance.yahoo.com/technology/ai/articles/efekta-convenes-global-leaders-athens-140000216.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 05:20 ET",
-        "pub_ts": 1795515628.0
+        "time": "11-24 09:00 ET",
+        "pub_ts": 1795528800.0
       },
       {
-        "title": "Google and Meta face massive fines for addictive features",
-        "url": "https://www.independent.co.uk/tech/google-meta-fine-internet-safety-australia-b3090456.html?.tsrc=rss",
+        "title": "Morgan Stanley Cut Its Meta Target to $720 From $820. It Still Sees 20% Upside",
+        "url": "https://www.tikr.com/blog/morgan-stanley-cut-its-meta-target-to-720-from-820-it-still-sees-20-upside?ref=yahoofinance&tlnk=yf-261124-3xxjp98c&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 05:10 ET",
-        "pub_ts": 1795515030.0
+        "time": "11-24 08:50 ET",
+        "pub_ts": 1795528242.0
       },
       {
-        "title": "AMD Stock Dips Overnight After Nvidia-Triggered Rally: AMD Registers 337M Shares For Resale Tied To OpenAI, Meta Warrants",
-        "url": "https://stocktwits.com/news-articles/markets/equity/amd-stock-dips-overnight-after-nvidia-triggered-rally-amd-registers-337-m-shares-for-resale-tied-to-open-ai-meta-warrants/cNbru6MR9jU?.tsrc=rss",
+        "title": "Alphabet Vs Meta: Which Stock Is The Better Buy?",
+        "url": "https://www.trefis.com/stock/googl/articles/628287/alphabet-vs-meta-which-stock-is-the-better-buy/2026-11-24?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-23 22:47 ET",
-        "pub_ts": 1795492068.0
+        "time": "11-24 08:46 ET",
+        "pub_ts": 1795527972.0
       }
     ],
     "GOOGL": [
       {
-        "title": "Google and Meta face massive fines for addictive features",
-        "url": "https://www.independent.co.uk/tech/google-meta-fine-internet-safety-australia-b3090456.html?.tsrc=rss",
+        "title": "The Trade Desk's 100-Plus JBP Pipeline: A Key Revenue Catalyst?",
+        "url": "https://finance.yahoo.com/media-advertising/articles/trade-desks-100-plus-jbp-125800436.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 05:10 ET",
-        "pub_ts": 1795515030.0
+        "time": "11-24 07:58 ET",
+        "pub_ts": 1795525080.0
       },
       {
-        "title": "Who Pays P&G? The American Shopper In Four Lines",
-        "url": "https://www.trefis.com/stock/pg/articles/627486/who-pays-p-g-the-american-shopper-in-four-lines/2026-11-24?.tsrc=rss",
+        "title": "Black Friday Gets a Magenta Makeover with More Deals from T-Mobile on the Latest Phones, Accessories and More",
+        "url": "https://finance.yahoo.com/technology/articles/black-friday-gets-magenta-makeover-141100701.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 06:37 ET",
-        "pub_ts": 1795520243.0
+        "time": "11-24 09:11 ET",
+        "pub_ts": 1795529460.0
       },
       {
-        "title": "Jim Cramer Calls CrowdStrike’s Zscaler Deal the Biggest in Cybersecurity History. What It Means for Both Stocks",
-        "url": "https://247wallst.com/investing/2026/11/24/jim-cramer-calls-crowdstrikes-zscaler-deal-the-biggest-in-cybersecurity-history-what-it-means-for-both-stocks/?.tsrc=rss",
+        "title": "Is The Market Ignoring Amazon And Peers' Cash Collapse?",
+        "url": "https://www.trefis.com/stock/spy/articles/628300/is-the-market-ignoring-amazon-and-peers-cash-collapse/2026-11-24?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 06:17 ET",
-        "pub_ts": 1795519024.0
+        "time": "11-24 08:58 ET",
+        "pub_ts": 1795528713.0
       },
       {
-        "title": "Can Adobe Stock Rise 30% From Here?",
-        "url": "https://www.trefis.com/stock/adbe/articles/628292/can-adobe-stock-rise-30-from-here/2026-11-24?.tsrc=rss",
+        "title": "What Changed In Apple Stock's Story?",
+        "url": "https://www.trefis.com/stock/aapl/articles/628423/what-changed-in-apple-stock-s-story/2026-11-24?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 06:07 ET",
-        "pub_ts": 1795518467.0
+        "time": "11-24 08:54 ET",
+        "pub_ts": 1795528442.0
       },
       {
-        "title": "iShares Russell 1000 Growth (IWF) Buys $22.7 Million More Apple on Nov. 20",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-1000-growth-iwf-110440903.html?.tsrc=rss",
+        "title": "Is Palantir Stock Priced Right Against Its Rivals?",
+        "url": "https://www.trefis.com/stock/pltr/articles/628308/is-palantir-stock-priced-right-against-its-rivals/2026-11-24?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 06:04 ET",
-        "pub_ts": 1795518280.0
+        "time": "11-24 08:48 ET",
+        "pub_ts": 1795528107.0
       }
     ],
     "MSFT": [
       {
-        "title": "Invesco NASDAQ 100 ETF (QQQM) Adds Apple and Microsoft on Friday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-nasdaq-100-etf-qqqm-110444816.html?.tsrc=rss",
+        "title": "Microsoft Stock Jumps In Nvidia-Fueled Tech Surge; Is Microsoft A Buy Now?",
+        "url": "https://finance.yahoo.com/m/47e21d96-b242-3f68-9ea6-fbc095bafba1/microsoft-stock-jumps-in.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 06:04 ET",
-        "pub_ts": 1795518284.0
+        "time": "11-24 08:01 ET",
+        "pub_ts": 1795525295.0
       },
       {
-        "title": "iShares Russell 1000 Growth (IWF) Buys $22.7 Million More Apple on Nov. 20",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-1000-growth-iwf-110440903.html?.tsrc=rss",
+        "title": "Is Trending Stock Microsoft Corporation (MSFT) a Buy Now?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/trending-stock-microsoft-corporation-msft-130005672.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 06:04 ET",
-        "pub_ts": 1795518280.0
+        "time": "11-24 08:00 ET",
+        "pub_ts": 1795525205.0
       },
       {
-        "title": "What ProShares Trust (TQQQ) Bought: Apple Leads on Friday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/proshares-trust-tqqq-bought-apple-110432486.html?.tsrc=rss",
+        "title": "RAAPID Recognized in the 2026 Microsoft Partner of the Year Awards for Microsoft for Startups",
+        "url": "https://finance.yahoo.com/technology/ai/articles/raapid-recognized-2026-microsoft-partner-130000464.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 06:04 ET",
-        "pub_ts": 1795518272.0
+        "time": "11-24 08:00 ET",
+        "pub_ts": 1795525200.0
       },
       {
-        "title": "What iShares Expanded Tech-Software (IGV) Sold: Palo Alto Leads on Friday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-expanded-tech-software-igv-110408106.html?.tsrc=rss",
+        "title": "Microsoft vs. Meta: Which AI Infrastructure Stock Has An Edge Now?",
+        "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-vs-meta-ai-infrastructure-124000228.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 06:04 ET",
-        "pub_ts": 1795518248.0
+        "time": "11-24 07:40 ET",
+        "pub_ts": 1795524000.0
       },
       {
-        "title": "What INVESCO QQQ Trust (QQQ) Bought: Apple Leads on Friday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-qqq-trust-qqq-bought-110317120.html?.tsrc=rss",
+        "title": "Cloud AI Update - Audi Integrates Cutting-Edge AI for In-Car Microsoft Access",
+        "url": "https://finance.yahoo.com/technology/ai/articles/cloud-ai-audi-integrates-cutting-123730181.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 06:03 ET",
-        "pub_ts": 1795518197.0
+        "time": "11-24 07:37 ET",
+        "pub_ts": 1795523850.0
       }
     ],
     "AAPL": [
@@ -3284,30 +3285,30 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795521635.6703591,
-    "SOXL": 1795521635.6703591,
-    "SPY": 1795521635.6703591,
-    "DIA": 1795521635.6703591,
-    "SOXX": 1795521635.6703591,
-    "QQQ": 1795521635.6703591,
-    "SMH": 1795521635.6703591,
-    "IWM": 1795521635.6703591,
-    "IGV": 1795521635.6703591,
-    "TLT": 1795521635.6703591,
-    "GLD": 1795521635.6703591,
-    "SQQQ": 1795521635.6703591,
-    "TSM": 1795521635.6703591,
-    "VIXY": 1795521635.6703591,
-    "SOXS": 1795521635.6703591,
-    "NVDA": 1795521635.6703591,
-    "AMD": 1795521635.6703591,
-    "ASML": 1795521635.6703591,
-    "QCOM": 1795521635.6703591,
-    "AVGO": 1795521635.6703591,
-    "AMAT": 1795521635.6703591,
-    "META": 1795521635.6703591,
-    "GOOGL": 1795521635.6703591,
-    "MSFT": 1795521635.6703591,
+    "KORU": 1795530641.3746185,
+    "SOXL": 1795530641.3746185,
+    "SPY": 1795530641.3746185,
+    "DIA": 1795530641.3746185,
+    "SOXX": 1795530641.3746185,
+    "QQQ": 1795530641.3746185,
+    "SMH": 1795530641.3746185,
+    "IWM": 1795530641.3746185,
+    "IGV": 1795530641.3746185,
+    "TLT": 1795530641.3746185,
+    "GLD": 1795530641.3746185,
+    "SQQQ": 1795530641.3746185,
+    "TSM": 1795530641.3746185,
+    "VIXY": 1795530641.3746185,
+    "SOXS": 1795530641.3746185,
+    "NVDA": 1795530641.3746185,
+    "AMD": 1795530641.3746185,
+    "ASML": 1795530641.3746185,
+    "QCOM": 1795530641.3746185,
+    "AVGO": 1795530641.3746185,
+    "AMAT": 1795530641.3746185,
+    "META": 1795530641.3746185,
+    "GOOGL": 1795530641.3746185,
+    "MSFT": 1795530641.3746185,
     "AAPL": 1795521635.6703591,
     "PLTR": 1795521635.6703591,
     "NOW": 1795521635.6703591,
@@ -3382,7 +3383,7 @@
   "calendar_banner": {
     "level": "idle_with_flash",
     "headline": "📡 宏观消息面监控中 · 今日暂无美股五星级经济数据大考",
-    "detail": "⚡ 最新核心快讯 (06:55 ET / 19:55 BJ) [特朗普]：泽连斯基表示，如果特朗普无法在年底前推动俄乌达成和平协议，乌克兰将转向明年1月上任的民主党控制的美国国会，争取更多军事援助及对俄制裁。点击查看…",
+    "detail": "⚡ 最新核心快讯 (09:19 ET / 22:19 BJ) [美联储] [原油]：摩根大通：预计从2027年第一季度起，原油价格走低以及美联储按兵不动，最终将推动金价在2027年第四季度回升至每盎司4500美元，白银则回升至50美元区间中段。",
     "event_name": "",
     "minutes_left": 0,
     "opex_shield": {
