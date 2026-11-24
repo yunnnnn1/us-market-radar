@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795535578.438,
-  "updated_at_et": "11-24 10:52 ET",
-  "updated_at_kst": "00:52 KST",
+  "updated_at_ts": 1795535686.563,
+  "updated_at_et": "11-24 10:54 ET",
+  "updated_at_kst": "00:54 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1965,6 +1965,13 @@
         "pub_ts": 1795531555.0
       },
       {
+        "title": "Tesla, SpaceX Reportedly Pick Board Members To Negotiate Elon Musk's Mega Merger",
+        "url": "https://finance.yahoo.com/m/d4400d8c-dfaf-3382-a360-877e01e80aec/tesla%2C-spacex-reportedly-pick.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:26 ET",
+        "pub_ts": 1795534007.0
+      },
+      {
         "title": "Lucid, Uber Edge Closer To Taking On Tesla’s Robotaxis – Public Launch Targeted For Q1 2027",
         "url": "https://stocktwits.com/news-articles/markets/equity/lucid-uber-edge-closer-to-taking-on-tesla-s-robotaxis-public-launch-targeted-for-q1-2027/cNbsfJiR9kp?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1977,13 +1984,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:56 ET",
         "pub_ts": 1795532212.0
-      },
-      {
-        "title": "Is Monness Crespi & Hardt Wrong to Give Up on Tesla? Wall Street Still Sees $412",
-        "url": "https://www.tikr.com/blog/monness-crespi-hardt-tesla-downgrade-neutral?ref=yahoofinance&tlnk=yf-261124-q6vc2444&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:05 ET",
-        "pub_ts": 1795529132.0
       }
     ],
     "AXP": [
@@ -2136,11 +2136,25 @@
     ],
     "INTC": [
       {
+        "title": "Do You Really Understand Intel Stock's Risk?",
+        "url": "https://www.trefis.com/stock/intc/articles/628282/do-you-really-understand-intel-stock-s-risk/2026-11-24?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:19 ET",
+        "pub_ts": 1795533547.0
+      },
+      {
         "title": "Marvell Sinks 8%, Intel Down 6% as Chip Stocks Give Back Nvidia’s Record Huang Rally",
         "url": "https://www.tikr.com/blog/marvell-sinks-8-intel-down-6-as-chip-stocks-give-back-nvidias-record-huang-rally?ref=yahoofinance&tlnk=yf-261124-rjmh24f9&.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 10:14 ET",
         "pub_ts": 1795533299.0
+      },
+      {
+        "title": "What Intel Holders Bought Into",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/intel-holders-bought-151149057.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:11 ET",
+        "pub_ts": 1795533109.0
       },
       {
         "title": "Global Neural Processor Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on 22.2% CAGR as NVIDIA, Apple, Alphabet, and Intel Accelerate Edge AI",
@@ -2155,20 +2169,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:40 ET",
         "pub_ts": 1795531200.0
-      },
-      {
-        "title": "Global Hybrid Graphics Processing Unit (GPU)-Central Processing Unit (CPU) Market Report 2026 | NVIDIA, Intel, AMD, Samsung, and Arm Drive AI Data Centers to $38.13B by 2030",
-        "url": "https://finance.yahoo.com/technology/ai/articles/global-hybrid-graphics-processing-unit-143900936.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:39 ET",
-        "pub_ts": 1795531140.0
-      },
-      {
-        "title": "Global Fixed Point Digital Signal Processor Market Report 2026 to 2030 | Capitalize on 8.7% CAGR as Qualcomm, MediaTek, Texas Instruments, Samsung, and Intel Accelerate Edge IoT",
-        "url": "https://finance.yahoo.com/technology/articles/global-fixed-point-digital-signal-143800586.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:38 ET",
-        "pub_ts": 1795531080.0
       }
     ],
     "VRT": [
@@ -2231,18 +2231,18 @@
         "pub_ts": 1795531509.0
       },
       {
-        "title": "Why Hewlett Packard Enterprise (HPE) Stock Is Plunging Today: CFO Margin Concerns",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-hewlett-packard-enterprise-hpe-150103144.html?.tsrc=rss",
+        "title": "HP Enterprise (HPE) Q4 2026 Earnings Call Transcript",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/11/24/hp-enterprise-hpe-q4-2026-earnings-call-transcript/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 10:01 ET",
-        "pub_ts": 1795532463.0
+        "time": "11-24 10:31 ET",
+        "pub_ts": 1795534270.0
       },
       {
-        "title": "HPE Sinks 14% Despite Raised Outlook as CFO Expects “Gross Margin to Moderate”",
-        "url": "https://www.tikr.com/blog/hpe-sinks-14-despite-raised-outlook-as-cfo-expects-gross-margin-to-moderate?ref=yahoofinance&tlnk=yf-261124-3v7mg9vj&.tsrc=rss",
+        "title": "Asia-Pacific Digital Transformation Market: Size, Trends, and Forecast (2026-2034) Featuring Intelligence on Accenture, Google (Alphabet), IBM, Microsoft, Oracle, HPE, SAP, EMC (Dell EMC), Cognex, Adobe and Siemens",
+        "url": "https://finance.yahoo.com/technology/articles/asia-pacific-digital-transformation-market-152900939.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 09:50 ET",
-        "pub_ts": 1795531844.0
+        "time": "11-24 10:29 ET",
+        "pub_ts": 1795534140.0
       }
     ],
     "DELL": [
@@ -2395,6 +2395,20 @@
     ],
     "MU": [
       {
+        "title": "Micron Stock Is Counting on a Buyback Bounce. Why It’s No Slam Dunk.",
+        "url": "https://finance.yahoo.com/m/789905db-8cde-3db6-af4c-d5345b1680cd/micron-stock-is-counting-on-a.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:34 ET",
+        "pub_ts": 1795534440.0
+      },
+      {
+        "title": "Nvidia, Anthropic, Micron, HPE, Analog Devices, Insmed, and More Stocks That Explain Today’s Market",
+        "url": "https://finance.yahoo.com/m/f7fa0ed2-2c68-3b80-9261-c35639090d03/nvidia%2C-anthropic%2C-micron%2C.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:04 ET",
+        "pub_ts": 1795532640.0
+      },
+      {
         "title": "BNP Paribas cuts Micron rating on risks to 2028 hyperscaler capacity plans",
         "url": "https://finance.yahoo.com/markets/stocks/articles/bnp-paribas-cuts-micron-rating-145304912.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2414,20 +2428,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:49 ET",
         "pub_ts": 1795531754.0
-      },
-      {
-        "title": "Micron downgraded, GameStop initiated: Wall Street's top analyst calls",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/snap-upgraded-pinterest-downgrade-wall-135144855.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:48 ET",
-        "pub_ts": 1795531695.0
-      },
-      {
-        "title": "Is Now The Right Time To Buy Micron Stock?",
-        "url": "https://www.trefis.com/stock/mu/articles/628442/is-now-the-right-time-to-buy-micron-stock/2026-11-24?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:42 ET",
-        "pub_ts": 1795531374.0
       }
     ],
     "SKHY": [
@@ -2453,18 +2453,18 @@
         "pub_ts": 1795521780.0
       },
       {
-        "title": "TSMC, Samsung, SK Hynix Rally As Jensen Huang Returns As Nvidia CEO — Top Analyst Flags Risks To AI Recovery",
-        "url": "https://stocktwits.com/news-articles/markets/equity/tsmc-samsung-sk-hynix-rally-as-jensen-huang-returns-as-nvidia-ceo-top-analyst-flags-risks-to-ai-recovery/cNbr6E1R9kE?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 02:00 ET",
-        "pub_ts": 1795503606.0
-      },
-      {
         "title": "Asia chipmaking stocks soar tracking Nvidia rally; S.Korea, Taiwan lead",
         "url": "https://finance.yahoo.com/technology/ai/articles/asia-chipmaking-stocks-soar-tracking-021520376.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-23 21:15 ET",
         "pub_ts": 1795486520.0
+      },
+      {
+        "title": "Nvidia’s Asian Suppliers Rally as Jensen Huang Returns as CEO: SK Hynix Jumps 8%, SoftBank Shares Rise in Tokyo",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-asian-suppliers-rally-jensen-012213841.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-23 20:22 ET",
+        "pub_ts": 1795483333.0
       }
     ],
     "WDC": [
@@ -2617,6 +2617,27 @@
     ],
     "BTC-USD": [
       {
+        "title": "Stocks give back gains as Anthropic dips below IPO price",
+        "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:44 ET",
+        "pub_ts": 1795535048.0
+      },
+      {
+        "title": "Gemini AI Predicts a Wild BTC Recovery if This Catalyst Lands",
+        "url": "https://99bitcoins.com/news/bitcoin-btc/gemini-ai-predicts-a-wild-btc-recovery-if-this-catalyst-lands/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:43 ET",
+        "pub_ts": 1795535031.0
+      },
+      {
+        "title": "Stock Market Today: Dow Up But Nasdaq Skids As Nvidia Dives; Bears Bite Chips (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/4aa4ff31-269f-346e-80c4-e681510af7ae/stock-market-today%3A-dow-up.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:39 ET",
+        "pub_ts": 1795534748.0
+      },
+      {
         "title": "Is Michael Saylor's bitcoin strategy losing its appeal?",
         "url": "https://finance.yahoo.com/video/is-michael-saylors-bitcoin-strategy-losing-its-appeal-151603542.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2629,30 +2650,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:02 ET",
         "pub_ts": 1795532536.0
-      },
-      {
-        "title": "Bitcoin Price Nears $60K Despite Saylor’s BTC Buy: Is the Bottom In?",
-        "url": "https://99bitcoins.com/news/bitcoin-btc/bitcoin-price-nears-60k-despite-saylors-btc-buy-is-the-bottom-in/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:57 ET",
-        "pub_ts": 1795532234.0
-      },
-      {
-        "title": "Stock Market Today: Nasdaq Sells Off After Big Market Surge; AMD, Anthropic, Nvidia All Dive (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/4aa4ff31-269f-346e-80c4-e681510af7ae/stock-market-today%3A-nasdaq.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:42 ET",
-        "pub_ts": 1795531368.0
-      },
-      {
-        "title": "Bitcoin News: CFTC Decision to Push BTC Toward $80K?",
-        "url": "https://cryptonews.com/news/bitcoin-news-cftc-decision-btc-80000/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:41 ET",
-        "pub_ts": 1795531291.0
       }
     ],
     "CRWD": [
+      {
+        "title": "Guggenheim lifts CrowdStrike to Buy, sees 34% upside",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/guggenheim-lifts-crowdstrike-buy-sees-152606437.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:26 ET",
+        "pub_ts": 1795533966.0
+      },
       {
         "title": "Bernstein Sees Hidden Risk in CrowdStrike's Zscaler Deal",
         "url": "https://finance.yahoo.com/markets/stocks/articles/bernstein-sees-hidden-risk-crowdstrikes-150055767.html?.tsrc=rss",
@@ -2680,16 +2687,23 @@
         "source": "Yahoo Finance",
         "time": "11-24 08:46 ET",
         "pub_ts": 1795527972.0
-      },
-      {
-        "title": "Wall Street’s New M&A Mood: Why Both Marvell-Lumentum and CrowdStrike-Zscaler Hit Pushback",
-        "url": "https://247wallst.com/investing/2026/11/24/wall-streets-new-ma-mood-why-both-marvell-lumentum-and-crowdstrike-zscaler-hit-pushback/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:45 ET",
-        "pub_ts": 1795527912.0
       }
     ],
     "ORCL": [
+      {
+        "title": "Oracle Is a Higher-Leverage, Cash-Hungry Twin to Microsoft",
+        "url": "https://247wallst.com/investing/2026/11/24/oracle-is-a-higher-leverage-cash-hungry-twin-to-microsoft/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:45 ET",
+        "pub_ts": 1795535101.0
+      },
+      {
+        "title": "Asia-Pacific Digital Transformation Market: Size, Trends, and Forecast (2026-2034) Featuring Intelligence on Accenture, Google (Alphabet), IBM, Microsoft, Oracle, HPE, SAP, EMC (Dell EMC), Cognex, Adobe and Siemens",
+        "url": "https://finance.yahoo.com/technology/articles/asia-pacific-digital-transformation-market-152900939.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:29 ET",
+        "pub_ts": 1795534140.0
+      },
       {
         "title": "How Investors Are Reacting To Oracle Stock Securing AI Funding",
         "url": "https://finance.yahoo.com/technology/ai/articles/investors-reacting-oracle-stock-securing-151310449.html?.tsrc=rss",
@@ -2710,20 +2724,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:35 ET",
         "pub_ts": 1795530900.0
-      },
-      {
-        "title": "Global Workflow Market Size, Trends, and Forecast Report 2026 | Capitalize on 22.5% CAGR as IBM, Oracle, SAP, ServiceNow, and Appian Accelerate AI and Cloud Automation Through 2030",
-        "url": "https://finance.yahoo.com/technology/articles/global-workflow-market-size-trends-143400424.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:34 ET",
-        "pub_ts": 1795530840.0
-      },
-      {
-        "title": "Global Career Development Software Market 2026: Size, Trends, and Forecast to 2030 | Capitalize on AI, Cloud, and Internal Mobility with Oracle, SAP, Workday, and Eightfold AI",
-        "url": "https://finance.yahoo.com/technology/articles/global-career-development-software-market-143200937.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:32 ET",
-        "pub_ts": 1795530720.0
       }
     ],
     "COIN": [
@@ -2765,6 +2765,13 @@
     ],
     "LLY": [
       {
+        "title": "Forget Zepbound: Lilly's Retatrutide Just Cut Sleep Apnea Severity by Up to 60%",
+        "url": "https://www.fool.com/investing/2026/11/24/forget-zepbound-lillys-retatrutide-just-cut-sleep-apnea-severity-by-up-to-60/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:35 ET",
+        "pub_ts": 1795534502.0
+      },
+      {
         "title": "State Street Health Care SPDR (XLV) Sells Eli Lilly and J&J on Friday",
         "url": "https://finance.yahoo.com/healthcare/articles/state-street-health-care-spdr-110402940.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2791,13 +2798,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 15:39 ET",
         "pub_ts": 1795466368.0
-      },
-      {
-        "title": "Ahmed family office pays $18M for Summit’s Fulton Market HQ",
-        "url": "https://finance.yahoo.com/real-estate/articles/ahmed-family-office-pays-18m-193000138.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 14:30 ET",
-        "pub_ts": 1795462200.0
       }
     ],
     "MRNA": [
@@ -3335,37 +3335,37 @@
     "AXTI": 1795535578.4376297,
     "NASA": 1795535578.4376297,
     "LUNR": 1795535578.4376297,
-    "TSLA": 1795534159.1878235,
-    "AXP": 1795534159.1878235,
+    "TSLA": 1795535686.5633228,
+    "AXP": 1795535686.5633228,
     "RKLB": 1795535578.4376297,
     "KO": 1795535578.4376297,
     "FLY": 1795535578.4376297,
-    "INTC": 1795534159.1878235,
-    "VRT": 1795534159.1878235,
-    "HPE": 1795534159.1878235,
-    "DELL": 1795534159.1878235,
-    "OKLO": 1795534159.1878235,
-    "CEG": 1795534159.1878235,
-    "FPS": 1795534159.1878235,
-    "MU": 1795534159.1878235,
-    "SKHY": 1795534159.1878235,
-    "WDC": 1795534159.1878235,
-    "STX": 1795534159.1878235,
-    "MSTR": 1795534159.1878235,
-    "SNDK": 1795534159.1878235,
-    "BTC-USD": 1795534159.1878235,
-    "CRWD": 1795534159.1878235,
-    "ORCL": 1795534159.1878235,
-    "COIN": 1795534159.1878235,
-    "LLY": 1795534159.1878235,
-    "MRNA": 1795534159.1878235,
-    "NKE": 1795534159.1878235,
-    "MCD": 1795534159.1878235,
+    "INTC": 1795535686.5633228,
+    "VRT": 1795535686.5633228,
+    "HPE": 1795535686.5633228,
+    "DELL": 1795535686.5633228,
+    "OKLO": 1795535686.5633228,
+    "CEG": 1795535686.5633228,
+    "FPS": 1795535686.5633228,
+    "MU": 1795535686.5633228,
+    "SKHY": 1795535686.5633228,
+    "WDC": 1795535686.5633228,
+    "STX": 1795535686.5633228,
+    "MSTR": 1795535686.5633228,
+    "SNDK": 1795535686.5633228,
+    "BTC-USD": 1795535686.5633228,
+    "CRWD": 1795535686.5633228,
+    "ORCL": 1795535686.5633228,
+    "COIN": 1795535686.5633228,
+    "LLY": 1795535686.5633228,
+    "MRNA": 1795535686.5633228,
+    "NKE": 1795535686.5633228,
+    "MCD": 1795535686.5633228,
     "PEP": 1795534268.380824,
     "XOM": 1795534268.380824,
     "JPM": 1795534268.380824,
     "WMT": 1795534268.380824,
-    "V": 1795534159.1878235,
+    "V": 1795535686.5633228,
     "CAT": 1795534268.380824,
     "FN": 1795535578.4376297,
     "GLW": 1795535578.4376297,
