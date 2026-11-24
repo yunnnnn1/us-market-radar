@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795538600.314,
-  "updated_at_et": "11-24 11:43 ET",
-  "updated_at_kst": "01:43 KST",
+  "updated_at_ts": 1795538707.724,
+  "updated_at_et": "11-24 11:45 ET",
+  "updated_at_kst": "01:45 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1246,11 +1246,25 @@
     ],
     "AAPL": [
       {
+        "title": "Who is holding Jensen Huang accountable? It sure looks like nobody",
+        "url": "https://finance.yahoo.com/video/who-is-holding-jensen-huang-accountable-it-sure-looks-like-nobody-154255467.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:42 ET",
+        "pub_ts": 1795534975.0
+      },
+      {
         "title": "Jensen Huang's return revives an old Wall Street trade: Bet on the comeback CEO",
         "url": "https://finance.yahoo.com/markets/article/jensen-huangs-return-revives-an-old-wall-street-trade-bet-on-the-comeback-ceo-124308005.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 07:43 ET",
         "pub_ts": 1795524188.0
+      },
+      {
+        "title": "Anduril’s Palmer Luckey Thinks “Most AI Is Going to Run Locally.” That’s a Bet on Apple",
+        "url": "https://www.tikr.com/blog/andurils-palmer-luckey-thinks-most-ai-is-going-to-run-locally-thats-a-bet-on-apple?ref=yahoofinance&tlnk=yf-261124-9x2g364x&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:27 ET",
+        "pub_ts": 1795537657.0
       },
       {
         "title": "Global Neural Processor Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on 22.2% CAGR as NVIDIA, Apple, Alphabet, and Intel Accelerate Edge AI",
@@ -1265,23 +1279,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:36 ET",
         "pub_ts": 1795530960.0
-      },
-      {
-        "title": "What Changed In Apple Stock's Story?",
-        "url": "https://www.trefis.com/stock/aapl/articles/628423/what-changed-in-apple-stock-s-story/2026-11-24?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:54 ET",
-        "pub_ts": 1795528442.0
-      },
-      {
-        "title": "Can Wearables & Mac Revenues Add Fresh Momentum to Apple Stock Ahead?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/wearables-mac-revenues-add-fresh-122900624.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 07:29 ET",
-        "pub_ts": 1795523340.0
       }
     ],
     "PLTR": [
+      {
+        "title": "Wall Street May Not Be Ready for What’s Coming Next for These 3 AI Stocks",
+        "url": "https://247wallst.com/investing/2026/11/24/wall-street-may-not-be-ready-for-whats-coming-next-for-these-3-ai-stocks/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:33 ET",
+        "pub_ts": 1795537993.0
+      },
       {
         "title": "AI-Enabled Battlefield Management and Decision Support Systems Global Market Report 2026 | Lockheed Martin, RTX, Palantir Capitalize on Edge AI as Market Hits $17.88B by 2030",
         "url": "https://finance.yahoo.com/technology/ai/articles/ai-enabled-battlefield-management-decision-144200975.html?.tsrc=rss",
@@ -1309,13 +1316,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 06:04 ET",
         "pub_ts": 1795518269.0
-      },
-      {
-        "title": "Palantir Rips 10% to Lead Software Stocks. Cloudflare and ServiceNow Also Join ‘Jensen Rally’",
-        "url": "https://247wallst.com/videos/palantir-rips-10-to-lead-software-stocks-cloudflare-and-servicenow-also-join-jensen-rally/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 15:08 ET",
-        "pub_ts": 1795464489.0
       }
     ],
     "NOW": [
@@ -1357,6 +1357,13 @@
     ],
     "AMZN": [
       {
+        "title": "Amazon’s Decart acquisition is a bet on using software to narrow the gap with Nvidia in the AI chip race",
+        "url": "https://finance.yahoo.com/technology/ai/articles/amazon-decart-acquisition-bet-using-155107586.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:51 ET",
+        "pub_ts": 1795535467.0
+      },
+      {
         "title": "Amazon.com (AMZN) Agreed To Acquire Decart AI Optimization Technology For $7.5 Billion",
         "url": "https://finance.yahoo.com/technology/ai/articles/amazon-com-amzn-agreed-acquire-151147626.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1383,13 +1390,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:37 ET",
         "pub_ts": 1795531027.0
-      },
-      {
-        "title": "JSHealth, the $100M+ Global Revenue Brand, Eyes U.S. Retail Expansion Following Triple-Digit Growth",
-        "url": "https://finance.yahoo.com/healthcare/articles/jshealth-100m-global-revenue-brand-140000578.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:00 ET",
-        "pub_ts": 1795528800.0
       }
     ],
     "CRWV": [
@@ -1690,6 +1690,13 @@
     ],
     "LITE": [
       {
+        "title": "Lumentum (LITE) Stock Looks Richly Priced As Its Three Year Run Continues",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/lumentum-lite-stock-looks-richly-160910430.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:09 ET",
+        "pub_ts": 1795536550.0
+      },
+      {
         "title": "Applied Optoelectronics Climbs 5% on $2.2 Billion Hyperscaler Supply Deal; Lumentum and Coherent Drop 6%",
         "url": "https://247wallst.com/investing/2026/11/24/applied-optoelectronics-climbs-5-on-2-2-billion-hyperscaler-supply-deal-lumentum-and-coherent-drop-6/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1716,13 +1723,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 16:42 ET",
         "pub_ts": 1795470165.0
-      },
-      {
-        "title": "Should You Buy Marvell Technology Stock Before Dec. 1?",
-        "url": "https://www.fool.com/investing/2026/11/23/should-you-buy-marvell-technology-stock-before-dec-1/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 12:54 ET",
-        "pub_ts": 1795456442.0
       }
     ],
     "AAOI": [
@@ -1771,6 +1771,13 @@
         "pub_ts": 1795531555.0
       },
       {
+        "title": "At Today’s Prices, a Tesla Share Is Worth 3 SpaceX Shares. One Tesla Bull Wants 4.2",
+        "url": "https://www.tikr.com/blog/at-todays-prices-a-tesla-share-is-worth-3-spacex-shares-one-tesla-bull-wants-4-2?ref=yahoofinance&tlnk=yf-261124-fpm9fr23&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:34 ET",
+        "pub_ts": 1795538052.0
+      },
+      {
         "title": "Lucid Rises 4% as Driverless Robotaxi Testing With Nuro and Uber Begins; Tesla Falls 2% Amid SpaceX Merger Talks, Rivian Edges Higher",
         "url": "https://247wallst.com/investing/2026/11/24/lucid-rises-4-as-driverless-robotaxi-testing-with-nuro-and-uber-begins-tesla-falls-2-amid-spacex-merger-talks-rivian-edges-higher/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1790,13 +1797,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:28 ET",
         "pub_ts": 1795534085.0
-      },
-      {
-        "title": "Boeing vs. Space Exploration Technologies: Which Industrials Stock Is a Better Buy for 2027?",
-        "url": "https://www.fool.com/coverage/better-buy/2026/11/24/boeing-vs-space-exploration-technologies-which-industrials-stock-is-a-better-buy-for-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:28 ET",
-        "pub_ts": 1795534083.0
       }
     ],
     "ASTS": [
@@ -3198,11 +3198,11 @@
         "pub_ts": 1795104552.0
       },
       {
-        "title": "How Data Center Permitting and Supply Limits Impacted Corning (GLW)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/data-center-permitting-supply-limits-151747265.html?.tsrc=rss",
+        "title": "Why Is Knowles (KN) Stock Down Today? Tech Selloff Hits Component Makers",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-knowles-kn-stock-down-163101980.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-19 10:17 ET",
-        "pub_ts": 1795101467.0
+        "time": "11-24 11:31 ET",
+        "pub_ts": 1795537861.0
       }
     ],
     "ANT": [
@@ -3314,30 +3314,30 @@
     "META": 1795538382.3355198,
     "GOOGL": 1795538382.3355198,
     "MSFT": 1795538382.3355198,
-    "AAPL": 1795537183.175203,
-    "PLTR": 1795537183.175203,
-    "NOW": 1795537183.175203,
-    "AMZN": 1795537183.175203,
-    "CRWV": 1795537183.175203,
-    "NBIS": 1795537183.175203,
-    "APLD": 1795537183.175203,
-    "VST": 1795537183.175203,
-    "BE": 1795537183.175203,
-    "CRDO": 1795537183.175203,
-    "COHR": 1795537183.175203,
-    "MRVL": 1795537183.175203,
-    "LITE": 1795537183.175203,
-    "AAOI": 1795537183.175203,
-    "SPCX": 1795537183.175203,
-    "ASTS": 1795537183.175203,
-    "AXTI": 1795537183.175203,
-    "NASA": 1795537183.175203,
-    "LUNR": 1795537183.175203,
+    "AAPL": 1795538707.7242947,
+    "PLTR": 1795538707.7242947,
+    "NOW": 1795538707.7242947,
+    "AMZN": 1795538707.7242947,
+    "CRWV": 1795538707.7242947,
+    "NBIS": 1795538707.7242947,
+    "APLD": 1795538707.7242947,
+    "VST": 1795538707.7242947,
+    "BE": 1795538707.7242947,
+    "CRDO": 1795538707.7242947,
+    "COHR": 1795538707.7242947,
+    "MRVL": 1795538707.7242947,
+    "LITE": 1795538707.7242947,
+    "AAOI": 1795538707.7242947,
+    "SPCX": 1795538707.7242947,
+    "ASTS": 1795538707.7242947,
+    "AXTI": 1795538707.7242947,
+    "NASA": 1795538707.7242947,
+    "LUNR": 1795538707.7242947,
     "TSLA": 1795537292.5808814,
     "AXP": 1795537292.5808814,
-    "RKLB": 1795537183.175203,
-    "KO": 1795537183.175203,
-    "FLY": 1795537183.175203,
+    "RKLB": 1795538707.7242947,
+    "KO": 1795538707.7242947,
+    "FLY": 1795538707.7242947,
     "INTC": 1795537292.5808814,
     "VRT": 1795537292.5808814,
     "HPE": 1795537292.5808814,
@@ -3365,8 +3365,8 @@
     "WMT": 1795537404.1767466,
     "V": 1795537292.5808814,
     "CAT": 1795537404.1767466,
-    "FN": 1795537183.175203,
-    "GLW": 1795537183.175203,
+    "FN": 1795538707.7242947,
+    "GLW": 1795538707.7242947,
     "ANT": 1795537404.1767466,
     "XAUUSD": 1795537404.1767466,
     "KOSPI": 1795521635.6703591
