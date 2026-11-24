@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795541670.034,
-  "updated_at_et": "11-24 12:34 ET",
-  "updated_at_kst": "02:34 KST",
+  "updated_at_ts": 1795541777.686,
+  "updated_at_et": "11-24 12:36 ET",
+  "updated_at_kst": "02:36 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1260,6 +1260,13 @@
         "pub_ts": 1795524188.0
       },
       {
+        "title": "Apple Stock Has 3 Things Going for It in 2027. Here’s My Price Target",
+        "url": "https://247wallst.com/investing/2026/11/24/apple-stock-has-3-things-going-for-it-in-2027-heres-my-price-target/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:03 ET",
+        "pub_ts": 1795539837.0
+      },
+      {
         "title": "Apple Inc. (AAPL) Delivered Strong Results: Why Investors Are Watching Its Next Move Closely",
         "url": "https://finance.yahoo.com/markets/stocks/articles/apple-inc-aapl-delivered-strong-165645219.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1272,13 +1279,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:43 ET",
         "pub_ts": 1795538594.0
-      },
-      {
-        "title": "Anduril’s Palmer Luckey Thinks “Most AI Is Going to Run Locally.” That’s a Bet on Apple",
-        "url": "https://www.tikr.com/blog/andurils-palmer-luckey-thinks-most-ai-is-going-to-run-locally-thats-a-bet-on-apple?ref=yahoofinance&tlnk=yf-261124-9x2g364x&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:27 ET",
-        "pub_ts": 1795537657.0
       }
     ],
     "PLTR": [
@@ -1364,6 +1364,13 @@
         "pub_ts": 1795538535.0
       },
       {
+        "title": "Anthropic Stock Sinks Below IPO Price. What History Says Happens Next.",
+        "url": "https://finance.yahoo.com/m/a286105e-a938-3486-a9d4-92ce3954de08/anthropic-stock-sinks-below.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:14 ET",
+        "pub_ts": 1795536840.0
+      },
+      {
         "title": "Amazon’s Decart acquisition is a bet on using software to narrow the gap with Nvidia in the AI chip race",
         "url": "https://finance.yahoo.com/technology/ai/articles/amazon-decart-acquisition-bet-using-155107586.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1383,13 +1390,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:08 ET",
         "pub_ts": 1795532925.0
-      },
-      {
-        "title": "Amazon Is Reportedly Paying $7.5 Billion for Decart’s AI Chip Software",
-        "url": "https://247wallst.com/investing/2026/11/24/amazon-is-reportedly-paying-7-5-billion-for-decarts-ai-chip-software/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:08 ET",
-        "pub_ts": 1795532884.0
       }
     ],
     "CRWV": [
@@ -1505,6 +1505,13 @@
     ],
     "VST": [
       {
+        "title": "Midterms provide clarity on data center development: Vistra CEO",
+        "url": "https://www.utilitydive.com/news/vistra-midterms-data-center-ercot-pjm/875626/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:54 ET",
+        "pub_ts": 1795535695.0
+      },
+      {
         "title": "Exelon Or Vistra: Which Fits Your Power Demand Bet?",
         "url": "https://www.trefis.com/stock/exc/articles/627544/exelon-or-vistra-which-fits-your-power-demand-bet/2026-11-23?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1531,13 +1538,6 @@
         "source": "Yahoo Finance",
         "time": "11-19 02:13 ET",
         "pub_ts": 1795072419.0
-      },
-      {
-        "title": "Vistra (VST) Could Be 23% Undervalued After Fresh Guidance And Earnings",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/vistra-vst-could-23-undervalued-021130252.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-18 21:11 ET",
-        "pub_ts": 1795054290.0
       }
     ],
     "BE": [
@@ -3314,30 +3314,30 @@
     "META": 1795541453.359536,
     "GOOGL": 1795541453.359536,
     "MSFT": 1795541453.359536,
-    "AAPL": 1795540258.141779,
-    "PLTR": 1795540258.141779,
-    "NOW": 1795540258.141779,
-    "AMZN": 1795540258.141779,
-    "CRWV": 1795540258.141779,
-    "NBIS": 1795540258.141779,
-    "APLD": 1795540258.141779,
-    "VST": 1795540258.141779,
-    "BE": 1795540258.141779,
-    "CRDO": 1795540258.141779,
-    "COHR": 1795540258.141779,
-    "MRVL": 1795540258.141779,
-    "LITE": 1795540258.141779,
-    "AAOI": 1795540258.141779,
-    "SPCX": 1795540258.141779,
-    "ASTS": 1795540258.141779,
-    "AXTI": 1795540258.141779,
-    "NASA": 1795540258.141779,
-    "LUNR": 1795540258.141779,
+    "AAPL": 1795541777.6863682,
+    "PLTR": 1795541777.6863682,
+    "NOW": 1795541777.6863682,
+    "AMZN": 1795541777.6863682,
+    "CRWV": 1795541777.6863682,
+    "NBIS": 1795541777.6863682,
+    "APLD": 1795541777.6863682,
+    "VST": 1795541777.6863682,
+    "BE": 1795541777.6863682,
+    "CRDO": 1795541777.6863682,
+    "COHR": 1795541777.6863682,
+    "MRVL": 1795541777.6863682,
+    "LITE": 1795541777.6863682,
+    "AAOI": 1795541777.6863682,
+    "SPCX": 1795541777.6863682,
+    "ASTS": 1795541777.6863682,
+    "AXTI": 1795541777.6863682,
+    "NASA": 1795541777.6863682,
+    "LUNR": 1795541777.6863682,
     "TSLA": 1795540366.9589198,
     "AXP": 1795540366.9589198,
-    "RKLB": 1795540258.141779,
-    "KO": 1795540258.141779,
-    "FLY": 1795540258.141779,
+    "RKLB": 1795541777.6863682,
+    "KO": 1795541777.6863682,
+    "FLY": 1795541777.6863682,
     "INTC": 1795540366.9589198,
     "VRT": 1795540366.9589198,
     "HPE": 1795540366.9589198,
@@ -3365,8 +3365,8 @@
     "WMT": 1795540476.1144483,
     "V": 1795540366.9589198,
     "CAT": 1795540476.1144483,
-    "FN": 1795540258.141779,
-    "GLW": 1795540258.141779,
+    "FN": 1795541777.6863682,
+    "GLW": 1795541777.6863682,
     "ANT": 1795540476.1144483,
     "XAUUSD": 1795540476.1144483,
     "KOSPI": 1795521635.6703591
