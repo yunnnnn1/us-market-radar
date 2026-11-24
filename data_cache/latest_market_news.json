@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795556231.051,
-  "updated_at_et": "11-24 16:37 ET",
-  "updated_at_kst": "06:37 KST",
+  "updated_at_ts": 1795556339.072,
+  "updated_at_et": "11-24 16:38 ET",
+  "updated_at_kst": "06:38 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -444,6 +444,13 @@
         "pub_ts": 1795518174.0
       },
       {
+        "title": "Is Apple (AAPL) Above Fair Value As ETF Buying Returns?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-above-fair-value-211324050.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:13 ET",
+        "pub_ts": 1795554804.0
+      },
+      {
         "title": "If Anthropic Does This It Could Reach $130 By Year End",
         "url": "https://247wallst.com/investing/2026/11/24/if-anthropic-does-this-it-could-reach-130-by-year-end/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -456,13 +463,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:19 ET",
         "pub_ts": 1795529962.0
-      },
-      {
-        "title": "Here's Why Investors Should Go Defensive Now: ETFs in Focus",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-investors-defensive-now-134200178.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:42 ET",
-        "pub_ts": 1795527720.0
       }
     ],
     "DIA": [
@@ -911,39 +911,39 @@
     ],
     "NVDA": [
       {
+        "title": "US Equity Markets Mixed Amid Decline in AI Stocks, US Proposed Tariff Increase",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-mixed-amid-212239002.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:22 ET",
+        "pub_ts": 1795555359.0
+      },
+      {
+        "title": "Prediction: A $10,000 Investment in Nvidia Stock Will Be Worth This Much by Year-End 2027",
+        "url": "https://www.fool.com/investing/2026/11/24/prediction-a-usd10-000-investment-in-nvidia-stock-will-be-worth-this-much-by-year-end-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:22 ET",
+        "pub_ts": 1795555322.0
+      },
+      {
+        "title": "Huang's return fails to dispel doubts as Nvidia shares drop",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/huangs-return-fails-dispel-doubts-164158462.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:19 ET",
+        "pub_ts": 1795555153.0
+      },
+      {
+        "title": "Nvidia's Historic 31% Rally Unravels In Just One Day. AI Stocks Plunge As Nasdaq Sinks 2%.",
+        "url": "https://www.ibtimes.com/us-stocks-mixed-ai-selloff-consumer-confidence-3810150?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:14 ET",
+        "pub_ts": 1795554890.0
+      },
+      {
         "title": "Did Nvidia Make a Big Mistake by Reinstating Jensen Huang as CEO so Quickly?",
         "url": "https://www.fool.com/investing/2026/11/24/did-nvidia-make-a-big-mistake-by-reinstating-jensen-huang-as-ceo/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 16:05 ET",
         "pub_ts": 1795554302.0
-      },
-      {
-        "title": "Update: US Equity Indexes Mixed as Investors Rotate into Defensives Amid Weakening AI Trade",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-investors-205450035.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 15:54 ET",
-        "pub_ts": 1795553690.0
-      },
-      {
-        "title": "The Next Tariff Fight Is Taking Shape. What It Means for the U.S.-China Truce.",
-        "url": "https://finance.yahoo.com/m/04c8f860-abb5-3fa8-adab-fa5eda38e594/the-next-tariff-fight-is.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 15:51 ET",
-        "pub_ts": 1795553460.0
-      },
-      {
-        "title": "nVent Electric (NVT) Stock Is Down 8.4% Today: AI Chip Selloff Drags Power Peers",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nvent-electric-nvt-stock-down-210145373.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:01 ET",
-        "pub_ts": 1795554105.0
-      },
-      {
-        "title": "Advanced Energy (AEIS) Stock Is Down 9.6% Today Without Company News",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/advanced-energy-aeis-stock-down-210130944.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:01 ET",
-        "pub_ts": 1795554090.0
       }
     ],
     "AMD": [
@@ -2990,6 +2990,13 @@
         "pub_ts": 1795541822.0
       },
       {
+        "title": "Could Meta Actually Climb 30%? Or Is J.P. Morgan Totally Wrong?",
+        "url": "https://www.tikr.com/blog/could-meta-actually-climb-30-or-is-j-p-morgan-totally-wrong?ref=yahoofinance&tlnk=yf-261124-24hpvhqr&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:15 ET",
+        "pub_ts": 1795554957.0
+      },
+      {
         "title": "18% Upside for Wells Fargo? TD Cowen Thinks So, and Here’s How",
         "url": "https://www.tikr.com/blog/18-upside-for-wells-fargo-td-cowen-thinks-so-and-heres-how?ref=yahoofinance&tlnk=yf-261124-jx98hp65&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3009,13 +3016,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 08:22 ET",
         "pub_ts": 1795526579.0
-      },
-      {
-        "title": "JPMorgan and Bank of America Just Sold Off. One Looks Better for Retirees",
-        "url": "https://247wallst.com/investing/2026/11/24/jpmorgan-and-bank-of-america-just-sold-off-one-looks-better-for-retirees/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:17 ET",
-        "pub_ts": 1795526270.0
       }
     ],
     "WMT": [
@@ -3205,6 +3205,20 @@
     ],
     "ANT": [
       {
+        "title": "US Equity Markets Mixed Amid Decline in AI Stocks, US Proposed Tariff Increase",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-mixed-amid-212239002.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:22 ET",
+        "pub_ts": 1795555359.0
+      },
+      {
+        "title": "ProShares ANTU ETF Targeting 2x Daily Returns of Anthropic Leads All 2x Long Anthropic ETFs With $10 Million in First-Day Dollar Trading Volume",
+        "url": "https://finance.yahoo.com/markets/options/articles/proshares-antu-etf-targeting-2x-210900933.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:09 ET",
+        "pub_ts": 1795554540.0
+      },
+      {
         "title": "Update: US Equity Indexes Mixed as Investors Rotate into Defensives Amid Weakening AI Trade",
         "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-investors-205450035.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3224,20 +3238,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 15:37 ET",
         "pub_ts": 1795552634.0
-      },
-      {
-        "title": "Anthropic Stock Just Broke Below Its $83 IPO Price. Is It a Bargain Buy?",
-        "url": "https://www.fool.com/investing/2026/11/24/anthropic-stock-just-broke-below-its-usd83-ipo-price-is-it-a-bargain-buy/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 15:15 ET",
-        "pub_ts": 1795551301.0
-      },
-      {
-        "title": "Stock Market Today: Nasdaq Skids As Nvidia Dives; New Trump Tariffs Loom; Pharma Play Clears Entry (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/4aa4ff31-269f-346e-80c4-e681510af7ae/stock-market-today%3A-nasdaq.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 14:55 ET",
-        "pub_ts": 1795550129.0
       }
     ],
     "XAUUSD": [
@@ -3288,23 +3288,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795554740.810935,
-    "SOXL": 1795554740.810935,
-    "SPY": 1795554740.810935,
-    "DIA": 1795554740.810935,
-    "SOXX": 1795554740.810935,
-    "QQQ": 1795554740.810935,
-    "SMH": 1795554740.810935,
-    "IWM": 1795554740.810935,
-    "IGV": 1795554740.810935,
-    "TLT": 1795554740.810935,
-    "GLD": 1795554740.810935,
-    "SQQQ": 1795554740.810935,
-    "TSM": 1795554740.810935,
-    "VIXY": 1795554740.810935,
-    "SOXS": 1795554740.810935,
-    "NVDA": 1795554740.810935,
-    "AMD": 1795554740.810935,
+    "KORU": 1795556339.07211,
+    "SOXL": 1795556339.07211,
+    "SPY": 1795556339.07211,
+    "DIA": 1795556339.07211,
+    "SOXX": 1795556339.07211,
+    "QQQ": 1795556339.07211,
+    "SMH": 1795556339.07211,
+    "IWM": 1795556339.07211,
+    "IGV": 1795556339.07211,
+    "TLT": 1795556339.07211,
+    "GLD": 1795556339.07211,
+    "SQQQ": 1795556339.07211,
+    "TSM": 1795556339.07211,
+    "VIXY": 1795556339.07211,
+    "SOXS": 1795556339.07211,
+    "NVDA": 1795556339.07211,
+    "AMD": 1795556339.07211,
     "ASML": 1795555270.3988807,
     "QCOM": 1795555270.3988807,
     "AVGO": 1795555270.3988807,
@@ -3357,17 +3357,17 @@
     "MRNA": 1795555485.1308203,
     "NKE": 1795555485.1308203,
     "MCD": 1795555485.1308203,
-    "PEP": 1795554740.810935,
-    "XOM": 1795554740.810935,
-    "JPM": 1795554740.810935,
-    "WMT": 1795554740.810935,
+    "PEP": 1795556339.07211,
+    "XOM": 1795556339.07211,
+    "JPM": 1795556339.07211,
+    "WMT": 1795556339.07211,
     "V": 1795555485.1308203,
-    "CAT": 1795554740.810935,
+    "CAT": 1795556339.07211,
     "FN": 1795555270.3988807,
     "GLW": 1795555270.3988807,
-    "ANT": 1795554740.810935,
-    "XAUUSD": 1795554740.810935,
-    "KOSPI": 1795554740.810935
+    "ANT": 1795556339.07211,
+    "XAUUSD": 1795556339.07211,
+    "KOSPI": 1795556339.07211
   },
   "opex_shield": {
     "date": "2026-11-24",
