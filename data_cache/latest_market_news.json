@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795555270.399,
-  "updated_at_et": "11-24 16:21 ET",
-  "updated_at_kst": "06:21 KST",
+  "updated_at_ts": 1795555379.212,
+  "updated_at_et": "11-24 16:22 ET",
+  "updated_at_kst": "06:22 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1951,6 +1951,20 @@
     ],
     "TSLA": [
       {
+        "title": "Tesla, SpaceX Reportedly Pick Board Members To Negotiate Elon Musk's Mega Merger",
+        "url": "https://finance.yahoo.com/m/d4400d8c-dfaf-3382-a360-877e01e80aec/tesla%2C-spacex-reportedly-pick.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:05 ET",
+        "pub_ts": 1795554326.0
+      },
+      {
+        "title": "Tesla Robotaxi Rival Starts Road Tests Without A Safety Monitor",
+        "url": "https://finance.yahoo.com/m/2fafeed7-c259-3087-9fa8-cf86f4a1ebd4/tesla-robotaxi-rival-starts.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:02 ET",
+        "pub_ts": 1795554167.0
+      },
+      {
         "title": "Tesla's Vertical Integration Makes it Uniquely Positioned in US Robotaxi Market, UBS Says",
         "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-apos-vertical-integration-makes-200751408.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1970,20 +1984,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 14:19 ET",
         "pub_ts": 1795547994.0
-      },
-      {
-        "title": "Tesla robotaxi business valued at $80B in updated UBS model",
-        "url": "https://www.proactiveinvestors.com/companies/news/1102375/tesla-robotaxi-business-valued-at-80b-in-updated-ubs-model-1102375.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 14:10 ET",
-        "pub_ts": 1795547400.0
-      },
-      {
-        "title": "Tesla’s Robotaxi Business Could Generate $3-4B In Annual Recurring Revenue By 2027-End, Says Seaport Global",
-        "url": "https://stocktwits.com/news-articles/markets/equity/tesla-s-robotaxi-business-could-generate-3-4-b-in-annual-recurring-revenue-by-2027-end-says-seaport-global/cNbs0INR9kD?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 13:16 ET",
-        "pub_ts": 1795544173.0
       }
     ],
     "AXP": [
@@ -2025,6 +2025,13 @@
     ],
     "RKLB": [
       {
+        "title": "Mizuho Sees 14% Downside in Rocket Lab Even After Its 69% Fall From May’s High",
+        "url": "https://www.tikr.com/blog/mizuho-sees-14-downside-in-rocket-lab-even-after-its-69-fall-from-mays-high?ref=yahoofinance&tlnk=yf-261124-63fgqw27&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:11 ET",
+        "pub_ts": 1795554666.0
+      },
+      {
         "title": "Rocket Lab (RKLB) Has 117 Launches Booked. Barclays Has a View",
         "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-rklb-117-launches-191333487.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2051,13 +2058,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 00:58 ET",
         "pub_ts": 1795499933.0
-      },
-      {
-        "title": "Why Rocket Lab (RKLB) Is Up 9.2% And What's Next After $515 Million Launch Orders",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-rocket-lab-rklb-9-021346011.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 21:13 ET",
-        "pub_ts": 1795486426.0
       }
     ],
     "KO": [
@@ -2224,6 +2224,13 @@
         "pub_ts": 1795535048.0
       },
       {
+        "title": "Is HPE One of the Morgan Stanley’s 8 Best Semiconductor and Server Stocks to Buy for 2027?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/hpe-one-morgan-stanley-8-205519024.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 15:55 ET",
+        "pub_ts": 1795553719.0
+      },
+      {
         "title": "Why Hewlett Packard Enterprise Stock Fell 16% Today",
         "url": "https://www.fool.com/investing/2026/11/24/why-hewlett-packard-enterprise-stock-fell-16-today/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2231,21 +2238,35 @@
         "pub_ts": 1795551172.0
       },
       {
-        "title": "SpaceX Falls 4%, CoreWeave Down 13%, Nebius Down 11% as AI Stocks Give Back Nvidia Rally",
-        "url": "https://www.tikr.com/blog/spacex-falls-4-coreweave-down-13-nebius-down-11-as-ai-stocks-give-back-nvidia-rally?ref=yahoofinance&tlnk=yf-261124-6rfwxx6w&.tsrc=rss",
+        "title": "HPE Q4 Earnings Call Highlights Raised Outlook for AI Shipments",
+        "url": "https://finance.yahoo.com/technology/ai/articles/hpe-q4-earnings-call-highlights-200000109.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 13:57 ET",
-        "pub_ts": 1795546678.0
-      },
-      {
-        "title": "HPE earnings analysis: questions answered and next catalysts",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/hpe-earnings-analysis-questions-answered-182813402.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 13:28 ET",
-        "pub_ts": 1795544893.0
+        "time": "11-24 15:00 ET",
+        "pub_ts": 1795550400.0
       }
     ],
     "DELL": [
+      {
+        "title": "Dell handily tops estimates, lifts sales and profit guidance",
+        "url": "https://finance.yahoo.com/technology/ai/article/dell-handily-tops-estimates-lifts-sales-and-profit-guidance-212145887.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:21 ET",
+        "pub_ts": 1795555305.0
+      },
+      {
+        "title": "Dell Technologies Smashes Q3 Estimates, Guides Above Views",
+        "url": "https://finance.yahoo.com/m/4f82e7c0-64cb-3be4-911b-f1c9f673e3be/dell-technologies-smashes-q3.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:19 ET",
+        "pub_ts": 1795555140.0
+      },
+      {
+        "title": "Dell Technologies Delivers Third Quarter Fiscal 2027 Financial Results",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/dell-technologies-delivers-third-quarter-210500797.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:05 ET",
+        "pub_ts": 1795554300.0
+      },
       {
         "title": "Is Gross Profit Dell Stock's Real Test Tonight?",
         "url": "https://www.trefis.com/stock/dell/articles/628255/is-gross-profit-dell-stock-s-real-test-tonight/2026-11-24?.tsrc=rss",
@@ -2254,32 +2275,11 @@
         "pub_ts": 1795545584.0
       },
       {
-        "title": "The Biggest Earnings Winners Grind Dell And Sandisk Into The Dust",
-        "url": "https://finance.yahoo.com/m/e45ffa23-8286-379b-b6e0-081e46a83f75/the-biggest-earnings-winners.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 13:38 ET",
-        "pub_ts": 1795545520.0
-      },
-      {
         "title": "Dell (DELL) Stock May Be 45% Below Fair Value Following AI Infrastructure News",
         "url": "https://finance.yahoo.com/markets/stocks/articles/dell-dell-stock-may-45-181300186.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 13:13 ET",
         "pub_ts": 1795543980.0
-      },
-      {
-        "title": "Dell’s Earnings Are Expected to Surge. The Stock Is a Tougher Call.",
-        "url": "https://finance.yahoo.com/m/7bfc9015-4ca1-3f6d-81d5-7ffb1b1990e6/dell%E2%80%99s-earnings-are-expected.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 13:12 ET",
-        "pub_ts": 1795543920.0
-      },
-      {
-        "title": "Dell Technologies Stocks Fall 7.47% Hours Before Results Test a $95 Billion AI Backlog",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/dell-technologies-stocks-fall-7-174249169.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 12:42 ET",
-        "pub_ts": 1795542169.0
       }
     ],
     "OKLO": [
@@ -2395,6 +2395,13 @@
     ],
     "MU": [
       {
+        "title": "Why MaxLinear (MXL) Stock Is Plunging Today: Chip Stocks Sell Off",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-maxlinear-mxl-stock-plunging-210142402.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:01 ET",
+        "pub_ts": 1795554102.0
+      },
+      {
         "title": "Micron vs. Sandisk: Which AI Memory Stock Is the Better Buy?",
         "url": "https://www.fool.com/investing/2026/11/24/micron-vs-sandisk-which-ai-memory-stock-is-the-better-buy/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2402,32 +2409,25 @@
         "pub_ts": 1795551902.0
       },
       {
-        "title": "Warning for Micron Investors: Bank of America Says “Semis Cuts Have Started”",
-        "url": "https://www.tikr.com/blog/warning-for-micron-investors-bank-of-america-says-semis-cuts-have-started?ref=yahoofinance&tlnk=yf-261124-3rcj3g36&.tsrc=rss",
+        "title": "Rambus (RMBS) Stock Is Down 11.4% Today: Chip Sector AI Selloff",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/rambus-rmbs-stock-down-11-210135197.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 15:10 ET",
-        "pub_ts": 1795551039.0
+        "time": "11-24 16:01 ET",
+        "pub_ts": 1795554095.0
       },
       {
-        "title": "Micron Just Hit a $700 Ceiling, Caught a Downgrade, and Is Down 10% Today. Is MU a Toxic Stock or a Prime Bargain?",
-        "url": "https://247wallst.com/investing/2026/11/24/micron-just-hit-a-700-ceiling-caught-a-downgrade-and-is-down-10-today-is-mu-a-toxic-stock-or-a-prime-bargain/?.tsrc=rss",
+        "title": "Why Is CEVA (CEVA) Stock Down Today? AI Chip Selloff Drags Shares",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-ceva-ceva-stock-down-204653822.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 13:55 ET",
-        "pub_ts": 1795546509.0
+        "time": "11-24 15:46 ET",
+        "pub_ts": 1795553213.0
       },
       {
-        "title": "Micron Stock Is Counting on a Buyback Bounce. Why It’s No Slam Dunk.",
-        "url": "https://finance.yahoo.com/m/789905db-8cde-3db6-af4c-d5345b1680cd/micron-stock-is-counting-on-a.html?.tsrc=rss",
+        "title": "Why Is NXP (NXPI) Stock Down Today? Chip Sector Selloff Drags Shares",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-nxp-nxpi-stock-down-203113766.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 13:12 ET",
-        "pub_ts": 1795543920.0
-      },
-      {
-        "title": "Nvidia, AMD and Micron Lead AI Selloff as Chip Stocks Slide",
-        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-amd-micron-lead-ai-174008056.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 12:40 ET",
-        "pub_ts": 1795542008.0
+        "time": "11-24 15:31 ET",
+        "pub_ts": 1795552273.0
       }
     ],
     "SKHY": [
@@ -2557,25 +2557,25 @@
         "pub_ts": 1795533363.0
       },
       {
-        "title": "908 Devices Inc. (MASS) Is Betting on Portable Chemical Detection: Could Its Next-Generation Device Drive Growth?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/908-devices-inc-mass-betting-200024943.html?.tsrc=rss",
+        "title": "Miller Industries, Inc. (MLR) Is Recovering From an Inventory Downturn: Could Earnings Rebound Drive Its Stock Higher?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/miller-industries-inc-mlr-recovering-211015377.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 15:00 ET",
-        "pub_ts": 1795550424.0
+        "time": "11-24 16:10 ET",
+        "pub_ts": 1795554615.0
       },
       {
-        "title": "Mama’s Creations, Inc. (MAMA) Fell 28% After a Major Rally: Can Margin Improvements Turn Things Around?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/mama-creations-inc-mama-fell-200006372.html?.tsrc=rss",
+        "title": "IRadimed Corporation (IRMD) Is Entering a Multi-Year Replacement Cycle: Could Its Next-Generation Pump Fuel Growth?",
+        "url": "https://finance.yahoo.com/healthcare/articles/iradimed-corporation-irmd-entering-multi-210038946.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 15:00 ET",
-        "pub_ts": 1795550406.0
+        "time": "11-24 16:00 ET",
+        "pub_ts": 1795554038.0
       },
       {
-        "title": "NPK International Inc. (NPKI) Fell 28% Despite Strong Growth: Is the Market Missing Its Grid Infrastructure Opportunity?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/npk-international-inc-npki-fell-195944029.html?.tsrc=rss",
+        "title": "Douglas Dynamics, Inc. (PLOW) Fell More Than 20%: Could Its Snowplow Business Recover From the Selloff?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/douglas-dynamics-inc-plow-fell-205404386.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 14:59 ET",
-        "pub_ts": 1795550384.0
+        "time": "11-24 15:54 ET",
+        "pub_ts": 1795553644.0
       }
     ],
     "SNDK": [
@@ -2617,6 +2617,20 @@
     ],
     "BTC-USD": [
       {
+        "title": "Sector Update: Financial Stocks Higher Late Afternoon",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-afternoon-210207365.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:02 ET",
+        "pub_ts": 1795554127.0
+      },
+      {
+        "title": "Chaince Digital (CD) Stock Is Up 33.8% Today Without Company News",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/chaince-digital-cd-stock-33-210044243.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:00 ET",
+        "pub_ts": 1795554044.0
+      },
+      {
         "title": "Is Circle One of the Best Bitcoin and Blockchain Stocks to Buy As Per Wall Street Analysts?",
         "url": "https://finance.yahoo.com/markets/crypto/articles/circle-one-best-bitcoin-blockchain-204521190.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2636,29 +2650,29 @@
         "source": "Yahoo Finance",
         "time": "11-24 15:42 ET",
         "pub_ts": 1795552965.0
-      },
-      {
-        "title": "Gemini’s Card Revenue Rose 82%. Can It Offset the Trading Slump?",
-        "url": "https://finance.yahoo.com/markets/crypto/articles/gemini-card-revenue-rose-82-204103047.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 15:41 ET",
-        "pub_ts": 1795552863.0
-      },
-      {
-        "title": "Is Figure Technology Solutions Among the Best Bitcoin and Blockchain Stocks to Buy According to Wall Street Analysts?",
-        "url": "https://finance.yahoo.com/markets/crypto/articles/figure-technology-solutions-among-best-203932786.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 15:39 ET",
-        "pub_ts": 1795552772.0
       }
     ],
     "CRWD": [
+      {
+        "title": "7 Firms Downgraded Zscaler After CrowdStrike’s $43.9 Billion Deal. Is There Still Money to Make?",
+        "url": "https://www.tikr.com/blog/7-firms-downgraded-zscaler-after-crowdstrikes-43-9-billion-deal-is-there-still-money-to-make?ref=yahoofinance&tlnk=yf-261124-pchw9jcv&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:04 ET",
+        "pub_ts": 1795554282.0
+      },
       {
         "title": "CrowdStrike’s all-stock bid for Zscaler: deal structure shifts risk to target holders",
         "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-stock-bid-zscaler-deal-202415003.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 15:24 ET",
         "pub_ts": 1795551855.0
+      },
+      {
+        "title": "Megadeals Are Back. Why More Takeovers Could Be Coming.",
+        "url": "https://finance.yahoo.com/m/a03ed83a-524d-3633-9250-4fa4f8e50b0b/megadeals-are-back.-why-more.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 14:33 ET",
+        "pub_ts": 1795548780.0
       },
       {
         "title": "CrowdStrike and Zscaler deal makes sense to Jefferies at $43.9 billion",
@@ -2673,20 +2687,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 12:46 ET",
         "pub_ts": 1795542388.0
-      },
-      {
-        "title": "CrowdStrike (CRWD) Q3 2027 Earnings Call Transcript",
-        "url": "https://www.fool.com/earnings/call-transcripts/2026/11/24/crowdstrike-crwd-q3-2027-earnings-call-transcript/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 12:02 ET",
-        "pub_ts": 1795539751.0
-      },
-      {
-        "title": "Zscaler's Combination With CrowdStrike Makes Strategic Sense, RBC Says",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/zscaler-apos-combination-crowdstrike-makes-165151346.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:51 ET",
-        "pub_ts": 1795539111.0
       }
     ],
     "ORCL": [
@@ -3331,32 +3331,32 @@
     "LITE": 1795555270.3988807,
     "AAOI": 1795555270.3988807,
     "SPCX": 1795555270.3988807,
-    "ASTS": 1795553774.5728626,
+    "ASTS": 1795555379.211981,
     "AXTI": 1795555270.3988807,
-    "NASA": 1795553774.5728626,
-    "LUNR": 1795553774.5728626,
-    "TSLA": 1795553774.5728626,
-    "AXP": 1795553774.5728626,
-    "RKLB": 1795553774.5728626,
-    "KO": 1795553774.5728626,
-    "FLY": 1795553774.5728626,
-    "INTC": 1795553774.5728626,
-    "VRT": 1795553774.5728626,
-    "HPE": 1795553774.5728626,
-    "DELL": 1795553774.5728626,
-    "OKLO": 1795553774.5728626,
-    "CEG": 1795553774.5728626,
-    "FPS": 1795553774.5728626,
-    "MU": 1795553774.5728626,
-    "SKHY": 1795553774.5728626,
-    "WDC": 1795553774.5728626,
-    "STX": 1795553774.5728626,
-    "MSTR": 1795553774.5728626,
-    "SNDK": 1795553774.5728626,
-    "BTC-USD": 1795553774.5728626,
-    "CRWD": 1795553774.5728626,
-    "ORCL": 1795553774.5728626,
-    "COIN": 1795553774.5728626,
+    "NASA": 1795555379.211981,
+    "LUNR": 1795555379.211981,
+    "TSLA": 1795555379.211981,
+    "AXP": 1795555379.211981,
+    "RKLB": 1795555379.211981,
+    "KO": 1795555379.211981,
+    "FLY": 1795555379.211981,
+    "INTC": 1795555379.211981,
+    "VRT": 1795555379.211981,
+    "HPE": 1795555379.211981,
+    "DELL": 1795555379.211981,
+    "OKLO": 1795555379.211981,
+    "CEG": 1795555379.211981,
+    "FPS": 1795555379.211981,
+    "MU": 1795555379.211981,
+    "SKHY": 1795555379.211981,
+    "WDC": 1795555379.211981,
+    "STX": 1795555379.211981,
+    "MSTR": 1795555379.211981,
+    "SNDK": 1795555379.211981,
+    "BTC-USD": 1795555379.211981,
+    "CRWD": 1795555379.211981,
+    "ORCL": 1795555379.211981,
+    "COIN": 1795555379.211981,
     "LLY": 1795553880.2126782,
     "MRNA": 1795553880.2126782,
     "NKE": 1795553880.2126782,
