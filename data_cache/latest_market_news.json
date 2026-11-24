@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795543188.533,
-  "updated_at_et": "11-24 12:59 ET",
-  "updated_at_kst": "02:59 KST",
+  "updated_at_ts": 1795543297.735,
+  "updated_at_et": "11-24 13:01 ET",
+  "updated_at_kst": "03:01 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1246,6 +1246,13 @@
     ],
     "AAPL": [
       {
+        "title": "Stocks give back gains as Anthropic dips below IPO price",
+        "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:44 ET",
+        "pub_ts": 1795535048.0
+      },
+      {
         "title": "Who is holding Jensen Huang accountable? It sure looks like nobody",
         "url": "https://finance.yahoo.com/video/who-is-holding-jensen-huang-accountable-it-sure-looks-like-nobody-154255467.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1272,13 +1279,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:56 ET",
         "pub_ts": 1795539405.0
-      },
-      {
-        "title": "Apple Set to Revive Popular Product Line After Years",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-set-revive-popular-product-164314724.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:43 ET",
-        "pub_ts": 1795538594.0
       }
     ],
     "PLTR": [
@@ -1357,6 +1357,20 @@
     ],
     "AMZN": [
       {
+        "title": "Stocks give back gains as Anthropic dips below IPO price",
+        "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:44 ET",
+        "pub_ts": 1795535048.0
+      },
+      {
+        "title": "Nike Sells Shoes. Can It Stop Paying For AI?",
+        "url": "https://www.trefis.com/stock/nke/articles/627485/nike-sells-shoes-can-it-stop-paying-for-ai/2026-11-24?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:39 ET",
+        "pub_ts": 1795541974.0
+      },
+      {
         "title": "Amazon Makes $7.5 Billion AI Move to Challenge Nvidia",
         "url": "https://finance.yahoo.com/technology/ai/articles/amazon-makes-7-5-billion-164215378.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1364,35 +1378,28 @@
         "pub_ts": 1795538535.0
       },
       {
+        "title": "Amazon’s $7.5 billion Decart tech deal makes Wedbush’s case for chip choice",
+        "url": "https://www.proactiveinvestors.com/companies/news/1102367/amazon-s-7-5-billion-decart-tech-deal-makes-wedbush-s-case-for-chip-choice-1102367.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:37 ET",
+        "pub_ts": 1795538220.0
+      },
+      {
         "title": "Anthropic Stock Sinks Below IPO Price. What History Says Happens Next.",
         "url": "https://finance.yahoo.com/m/a286105e-a938-3486-a9d4-92ce3954de08/anthropic-stock-sinks-below.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 11:14 ET",
         "pub_ts": 1795536840.0
-      },
-      {
-        "title": "Amazon’s Decart acquisition is a bet on using software to narrow the gap with Nvidia in the AI chip race",
-        "url": "https://finance.yahoo.com/technology/ai/articles/amazon-decart-acquisition-bet-using-155107586.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:51 ET",
-        "pub_ts": 1795535467.0
-      },
-      {
-        "title": "Amazon.com (AMZN) Agreed To Acquire Decart AI Optimization Technology For $7.5 Billion",
-        "url": "https://finance.yahoo.com/technology/ai/articles/amazon-com-amzn-agreed-acquire-151147626.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:11 ET",
-        "pub_ts": 1795533107.0
-      },
-      {
-        "title": "Should One Number Scare You About Amazon Stock?",
-        "url": "https://www.trefis.com/stock/amzn/articles/628397/should-one-number-scare-you-about-amazon-stock/2026-11-24?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:08 ET",
-        "pub_ts": 1795532925.0
       }
     ],
     "CRWV": [
+      {
+        "title": "Stocks give back gains as Anthropic dips below IPO price",
+        "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:44 ET",
+        "pub_ts": 1795535048.0
+      },
       {
         "title": "“The Bank of Nvidia Is Back,” Says CNBC’s David Faber. Its Investments Rose From $7 Billion to $110 Billion",
         "url": "https://www.tikr.com/blog/the-bank-of-nvidia-is-back-says-cnbcs-david-faber-its-investments-rose-from-7-billion-to-110-billion?ref=yahoofinance&tlnk=yf-261124-hfqgvgp4&.tsrc=rss",
@@ -1420,16 +1427,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:54 ET",
         "pub_ts": 1795532088.0
-      },
-      {
-        "title": "“Tell Me Why I am Wrong”: Bill Ackman Lambasts Looming Fed Interest Rate Hike",
-        "url": "https://www.tikr.com/blog/tell-me-why-i-am-wrong-bill-ackman-lambasts-looming-fed-interest-rate-hike?ref=yahoofinance&tlnk=yf-261124-r3mj4vmj&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:03 ET",
-        "pub_ts": 1795532590.0
       }
     ],
     "NBIS": [
+      {
+        "title": "What Does Nebius Group (NBIS) Need To Watch After Renewed AI Cloud Support?",
+        "url": "https://finance.yahoo.com/technology/ai/articles/does-nebius-group-nbis-watch-171813100.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:18 ET",
+        "pub_ts": 1795540693.0
+      },
       {
         "title": "Databricks Co-Founder Says Just One Neocloud Has “Robust Enough Isolation.” My Guess: It’s Probably Not CoreWeave",
         "url": "https://www.tikr.com/blog/databricks-co-founder-says-just-one-neocloud-has-robust-enough-isolation-my-guess-its-probably-not-coreweave?ref=yahoofinance&tlnk=yf-261124-wcppqc25&.tsrc=rss",
@@ -1457,13 +1464,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 03:23 ET",
         "pub_ts": 1795508637.0
-      },
-      {
-        "title": "Fortune Announces Speakers and Partners for Brainstorm AI 2026 in San Francisco Dec. 7 and 8",
-        "url": "https://finance.yahoo.com/technology/ai/articles/fortune-announces-speakers-partners-brainstorm-130000069.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:00 ET",
-        "pub_ts": 1795525200.0
       }
     ],
     "APLD": [
@@ -1533,14 +1533,21 @@
         "pub_ts": 1795242767.0
       },
       {
-        "title": "Vistra Just Dropped 16% in a Month, but Its Plans Always Had “a More Conservative View of the AI Build-Out”",
-        "url": "https://www.tikr.com/blog/vistra-stock-drop-texas-data-center-moratorium-buy-or-sell?ref=yahoofinance&tlnk=yf-261119-3rqgw84c&.tsrc=rss",
+        "title": "Musk Calls His $440 Million Midterm Bet “Pretty Foolish.” Texas’s New Governor Ran on a Data Center Moratorium",
+        "url": "https://www.tikr.com/blog/musk-midterm-bet-texas-data-center-moratorium-spacex?ref=yahoofinance&tlnk=yf-261124-c22mf4jm&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-19 02:13 ET",
-        "pub_ts": 1795072419.0
+        "time": "11-23 02:24 ET",
+        "pub_ts": 1795418652.0
       }
     ],
     "BE": [
+      {
+        "title": "Bloom Energy is Down 22% Just This Month: Two Wall Street Pros Predict 109% Gains With 2 More $1 Dollar Lower",
+        "url": "https://247wallst.com/investing/2026/11/24/bloom-energy-is-down-22-just-this-month-two-wall-street-pros-predict-109-gains-with-2-more-1-dollar-lower/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:45 ET",
+        "pub_ts": 1795542338.0
+      },
       {
         "title": "FuelCell Energy Tumbles 10%, Bloom Energy Sinks 8% as Monday’s AI Power Rally Fades; Plug Power Drops 5%",
         "url": "https://247wallst.com/investing/2026/11/24/fuelcell-energy-tumbles-10-bloom-energy-sinks-8-as-mondays-ai-power-rally-fades-plug-power-drops-5/?.tsrc=rss",
@@ -1568,13 +1575,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 01:38 ET",
         "pub_ts": 1795502317.0
-      },
-      {
-        "title": "BE Stock Clocks Best Gains In Nearly 5 Months: Bloom Energy Bears Dominate Sentiment But Bulls Smell A Comeback: ‘AI Buildout Is Only 15%’",
-        "url": "https://stocktwits.com/news-articles/markets/equity/bloom-energy-best-gains-five-months-bulls-see-comback-ai-trade-nvidia/cNbrMHBR9jv?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 22:03 ET",
-        "pub_ts": 1795489392.0
       }
     ],
     "CRDO": [
@@ -1653,6 +1653,13 @@
     ],
     "MRVL": [
       {
+        "title": "Generate A Return From Marvell Stock, Set For A Large Post-Earnings Swing",
+        "url": "https://finance.yahoo.com/m/330eaa7f-a35f-39e4-a840-89d34cd4eb9e/generate-a-return-from.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:29 ET",
+        "pub_ts": 1795541384.0
+      },
+      {
         "title": "Marvell Sinks 8%, Intel Down 6% as Chip Stocks Give Back Nvidia’s Record Huang Rally",
         "url": "https://www.tikr.com/blog/marvell-sinks-8-intel-down-6-as-chip-stocks-give-back-nvidias-record-huang-rally?ref=yahoofinance&tlnk=yf-261124-rjmh24f9&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1679,16 +1686,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 07:06 ET",
         "pub_ts": 1795521979.0
-      },
-      {
-        "title": "Marvell Stock Fell Almost 12% in a Single Day. I'd Consider Buying Shares Now.",
-        "url": "https://www.fool.com/investing/2026/11/24/marvell-stock-fell-almost-12-in-a-single-day-i-d-consider-buying-shares-now/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 05:57 ET",
-        "pub_ts": 1795517822.0
       }
     ],
     "LITE": [
+      {
+        "title": "AAOI vs. Lumentum: Which Optical Networking Stock Has an Edge Now?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/aaoi-vs-lumentum-optical-networking-163600829.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:36 ET",
+        "pub_ts": 1795538160.0
+      },
       {
         "title": "Lumentum (LITE) Stock Looks Richly Priced As Its Three Year Run Continues",
         "url": "https://finance.yahoo.com/markets/stocks/articles/lumentum-lite-stock-looks-richly-160910430.html?.tsrc=rss",
@@ -1716,16 +1723,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 06:04 ET",
         "pub_ts": 1795518276.0
-      },
-      {
-        "title": "Why Lumentum Holdings Stock Trounced the Market Today",
-        "url": "https://www.fool.com/investing/2026/11/23/why-lumentum-holdings-stock-trounced-the-market-today/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 16:42 ET",
-        "pub_ts": 1795470165.0
       }
     ],
     "AAOI": [
+      {
+        "title": "AAOI vs. Lumentum: Which Optical Networking Stock Has an Edge Now?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/aaoi-vs-lumentum-optical-networking-163600829.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:36 ET",
+        "pub_ts": 1795538160.0
+      },
       {
         "title": "Applied Optoelectronics Climbs 5% on $2.2 Billion Hyperscaler Supply Deal; Lumentum and Coherent Drop 6%",
         "url": "https://247wallst.com/investing/2026/11/24/applied-optoelectronics-climbs-5-on-2-2-billion-hyperscaler-supply-deal-lumentum-and-coherent-drop-6/?.tsrc=rss",
@@ -1753,22 +1760,15 @@
         "source": "Yahoo Finance",
         "time": "11-23 10:57 ET",
         "pub_ts": 1795449427.0
-      },
-      {
-        "title": "Applied Optoelectronics Sinks 7% as Optics Stocks Reverse Thursday’s Rally; Coherent Declines 4%, Lumentum Slides 5%",
-        "url": "https://247wallst.com/investing/2026/11/20/applied-optoelectronics-sinks-10-as-optics-stocks-reverse-thursdays-rally-coherent-tumbles-8-lumentum-slides-7/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-20 09:54 ET",
-        "pub_ts": 1795186486.0
       }
     ],
     "SPCX": [
       {
-        "title": "Tesla and SpaceX assemble deal teams for a merger that could give Musk majority control",
-        "url": "https://finance.yahoo.com/technology/article/tesla-and-spacex-assemble-deal-teams-for-a-merger-that-could-give-musk-majority-control-144555932.html?.tsrc=rss",
+        "title": "States sue SpaceX, calling Grok's weak safeguards 'a feature'",
+        "url": "https://www.thestreet.com/latest-news/spacex-grok-lawsuit-weak-safeguards-feature?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 09:45 ET",
-        "pub_ts": 1795531555.0
+        "time": "11-24 12:33 ET",
+        "pub_ts": 1795541580.0
       },
       {
         "title": "At Today’s Prices, a Tesla Share Is Worth 3 SpaceX Shares. One Tesla Bull Wants 4.2",
@@ -2060,6 +2060,13 @@
     ],
     "KO": [
       {
+        "title": "Can Coca-Cola Navigate Rising Costs While Protecting Margins?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-navigate-rising-costs-163500208.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:35 ET",
+        "pub_ts": 1795538100.0
+      },
+      {
         "title": "Coca-Cola (KO) Appoints David Elkins As CFO Effective April 2027",
         "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-appoints-david-151354439.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2086,13 +2093,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 06:18 ET",
         "pub_ts": 1795519082.0
-      },
-      {
-        "title": "BofA spots opportunities in these nine consumer staples stocks for 2027",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-spots-opportunities-nine-consumer-030406689.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 22:04 ET",
-        "pub_ts": 1795489446.0
       }
     ],
     "FLY": [
@@ -3314,30 +3314,30 @@
     "META": 1795542972.0946355,
     "GOOGL": 1795542972.0946355,
     "MSFT": 1795542972.0946355,
-    "AAPL": 1795541777.6863682,
-    "PLTR": 1795541777.6863682,
-    "NOW": 1795541777.6863682,
-    "AMZN": 1795541777.6863682,
-    "CRWV": 1795541777.6863682,
-    "NBIS": 1795541777.6863682,
-    "APLD": 1795541777.6863682,
-    "VST": 1795541777.6863682,
-    "BE": 1795541777.6863682,
-    "CRDO": 1795541777.6863682,
-    "COHR": 1795541777.6863682,
-    "MRVL": 1795541777.6863682,
-    "LITE": 1795541777.6863682,
-    "AAOI": 1795541777.6863682,
-    "SPCX": 1795541777.6863682,
-    "ASTS": 1795541777.6863682,
-    "AXTI": 1795541777.6863682,
-    "NASA": 1795541777.6863682,
-    "LUNR": 1795541777.6863682,
+    "AAPL": 1795543297.7349663,
+    "PLTR": 1795543297.7349663,
+    "NOW": 1795543297.7349663,
+    "AMZN": 1795543297.7349663,
+    "CRWV": 1795543297.7349663,
+    "NBIS": 1795543297.7349663,
+    "APLD": 1795543297.7349663,
+    "VST": 1795543297.7349663,
+    "BE": 1795543297.7349663,
+    "CRDO": 1795543297.7349663,
+    "COHR": 1795543297.7349663,
+    "MRVL": 1795543297.7349663,
+    "LITE": 1795543297.7349663,
+    "AAOI": 1795543297.7349663,
+    "SPCX": 1795543297.7349663,
+    "ASTS": 1795543297.7349663,
+    "AXTI": 1795543297.7349663,
+    "NASA": 1795543297.7349663,
+    "LUNR": 1795543297.7349663,
     "TSLA": 1795541891.5096219,
     "AXP": 1795541891.5096219,
-    "RKLB": 1795541777.6863682,
-    "KO": 1795541777.6863682,
-    "FLY": 1795541777.6863682,
+    "RKLB": 1795543297.7349663,
+    "KO": 1795543297.7349663,
+    "FLY": 1795543297.7349663,
     "INTC": 1795541891.5096219,
     "VRT": 1795541891.5096219,
     "HPE": 1795541891.5096219,
@@ -3365,8 +3365,8 @@
     "WMT": 1795541999.676793,
     "V": 1795541891.5096219,
     "CAT": 1795541999.676793,
-    "FN": 1795541777.6863682,
-    "GLW": 1795541777.6863682,
+    "FN": 1795543297.7349663,
+    "GLW": 1795543297.7349663,
     "ANT": 1795541999.676793,
     "XAUUSD": 1795541999.676793,
     "KOSPI": 1795521635.6703591
