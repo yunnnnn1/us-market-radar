@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795541777.686,
-  "updated_at_et": "11-24 12:36 ET",
-  "updated_at_kst": "02:36 KST",
+  "updated_at_ts": 1795541891.51,
+  "updated_at_et": "11-24 12:38 ET",
+  "updated_at_kst": "02:38 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1977,11 +1977,11 @@
         "pub_ts": 1795538052.0
       },
       {
-        "title": "Tesla Robotaxi Rival Starts Road Tests Without A Safety Monitor",
-        "url": "https://finance.yahoo.com/m/2fafeed7-c259-3087-9fa8-cf86f4a1ebd4/tesla-robotaxi-rival-starts.html?.tsrc=rss",
+        "title": "Anthropic Stock Sinks Below IPO Price. What History Says Happens Next.",
+        "url": "https://finance.yahoo.com/m/a286105e-a938-3486-a9d4-92ce3954de08/anthropic-stock-sinks-below.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 11:01 ET",
-        "pub_ts": 1795536100.0
+        "time": "11-24 11:14 ET",
+        "pub_ts": 1795536840.0
       }
     ],
     "AXP": [
@@ -2208,6 +2208,13 @@
     ],
     "HPE": [
       {
+        "title": "Stocks give back gains as Anthropic dips below IPO price",
+        "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:44 ET",
+        "pub_ts": 1795535048.0
+      },
+      {
         "title": "HPE stock declines as disappointing margin forecast outweighs upbeat guidance",
         "url": "https://finance.yahoo.com/markets/article/hpe-stock-declines-as-margin-outlook-disappoints-134420648.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2234,13 +2241,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:27 ET",
         "pub_ts": 1795537654.0
-      },
-      {
-        "title": "HPE Stock Plunges 10% Despite Earnings Beat and Raised Outlook",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/hpe-stock-plunges-10-despite-161021834.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:10 ET",
-        "pub_ts": 1795536621.0
       }
     ],
     "DELL": [
@@ -2393,6 +2393,13 @@
     ],
     "MU": [
       {
+        "title": "Stocks give back gains as Anthropic dips below IPO price",
+        "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:44 ET",
+        "pub_ts": 1795535048.0
+      },
+      {
         "title": "Micron Stock Drops 11% as AI Chip Selloff Resumes",
         "url": "https://finance.yahoo.com/technology/ai/articles/micron-stock-drops-11-ai-165731356.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2419,13 +2426,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:33 ET",
         "pub_ts": 1795538029.0
-      },
-      {
-        "title": "Micron Stock Is Counting on a Buyback Bounce. Why It’s No Slam Dunk.",
-        "url": "https://finance.yahoo.com/m/789905db-8cde-3db6-af4c-d5345b1680cd/micron-stock-is-counting-on-a.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:34 ET",
-        "pub_ts": 1795534440.0
       }
     ],
     "SKHY": [
@@ -2541,6 +2541,13 @@
     ],
     "MSTR": [
       {
+        "title": "Stocks give back gains as Anthropic dips below IPO price",
+        "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:44 ET",
+        "pub_ts": 1795535048.0
+      },
+      {
         "title": "Is Michael Saylor's bitcoin strategy losing its appeal?",
         "url": "https://finance.yahoo.com/video/is-michael-saylors-bitcoin-strategy-losing-its-appeal-151603542.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2567,16 +2574,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 01:54 ET",
         "pub_ts": 1795503259.0
-      },
-      {
-        "title": "Strategy Is Still Down 45% in a Month: Can MSTR Stock Revisit $150 as Bitcoin Holds $60,000?",
-        "url": "https://247wallst.com/investing/2026/11/23/strategy-is-still-down-45-in-a-month-can-mstr-stock-revisit-150-as-bitcoin-holds-60000/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 14:54 ET",
-        "pub_ts": 1795463644.0
       }
     ],
     "SNDK": [
+      {
+        "title": "Sandisk Stock Split Puts AI Memory Volatility Back In Focus",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-stock-split-puts-ai-171623726.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:16 ET",
+        "pub_ts": 1795540583.0
+      },
       {
         "title": "Sandisk (SNDK) Stock Gets An AI Lift From Renewed Leadership Confidence",
         "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-sndk-stock-gets-ai-160942401.html?.tsrc=rss",
@@ -2604,13 +2611,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 08:46 ET",
         "pub_ts": 1795527960.0
-      },
-      {
-        "title": "Why Is Sandisk Stock Pulling Back Today?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-sandisk-stock-pulling-back-130945522.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:09 ET",
-        "pub_ts": 1795525785.0
       }
     ],
     "BTC-USD": [
@@ -2652,6 +2652,13 @@
     ],
     "CRWD": [
       {
+        "title": "CrowdStrike (CRWD) Q3 2027 Earnings Call Transcript",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/11/24/crowdstrike-crwd-q3-2027-earnings-call-transcript/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:02 ET",
+        "pub_ts": 1795539751.0
+      },
+      {
         "title": "Zscaler's Combination With CrowdStrike Makes Strategic Sense, RBC Says",
         "url": "https://finance.yahoo.com/markets/stocks/articles/zscaler-apos-combination-crowdstrike-makes-165151346.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2678,13 +2685,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:26 ET",
         "pub_ts": 1795533966.0
-      },
-      {
-        "title": "Bernstein Sees Hidden Risk in CrowdStrike's Zscaler Deal",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/bernstein-sees-hidden-risk-crowdstrikes-150055767.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:00 ET",
-        "pub_ts": 1795532455.0
       }
     ],
     "ORCL": [
@@ -2837,6 +2837,13 @@
     ],
     "NKE": [
       {
+        "title": "NIKE (NKE) On Reaffirmed Guidance And The Case For Undervaluation",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nike-nke-reaffirmed-guidance-case-171440986.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:14 ET",
+        "pub_ts": 1795540480.0
+      },
+      {
         "title": "Nike Just Promised $12 Billion in Dividends. Should That Reassure Income Investors?",
         "url": "https://www.fool.com/investing/2026/11/24/nike-just-promised-usd12-billion-in-dividends-should-that-reassure-income-investors/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2863,16 +2870,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 06:25 ET",
         "pub_ts": 1795519501.0
-      },
-      {
-        "title": "What Will Decide Nike Stock Over The Next Six Months?",
-        "url": "https://www.trefis.com/stock/nke/articles/628293/what-will-decide-nike-stock-over-the-next-six-months/2026-11-24?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 06:09 ET",
-        "pub_ts": 1795518595.0
       }
     ],
     "MCD": [
+      {
+        "title": "McDonald's Moves on Makeover; Dick's Sporting Goods Up on Earnings | Stock Movers",
+        "url": "https://finance.yahoo.com/video/mcdonalds-moves-makeover-dicks-sporting-161755169.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:17 ET",
+        "pub_ts": 1795537075.0
+      },
       {
         "title": "Monroe Capital Supports Waveborn’s Acquisition of Jake Rosen Entertainment",
         "url": "https://finance.yahoo.com/media-advertising/articles/monroe-capital-supports-waveborn-acquisition-110000467.html?.tsrc=rss",
@@ -2900,13 +2907,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 12:29 ET",
         "pub_ts": 1795454979.0
-      },
-      {
-        "title": "Is The Market Underpricing McDonald's Stock?",
-        "url": "https://www.trefis.com/stock/mcd/articles/627636/is-the-market-underpricing-mcdonalds-stock-2/2026-11-23?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 08:38 ET",
-        "pub_ts": 1795441105.0
       }
     ],
     "PEP": [
@@ -3333,37 +3333,37 @@
     "AXTI": 1795541777.6863682,
     "NASA": 1795541777.6863682,
     "LUNR": 1795541777.6863682,
-    "TSLA": 1795540366.9589198,
-    "AXP": 1795540366.9589198,
+    "TSLA": 1795541891.5096219,
+    "AXP": 1795541891.5096219,
     "RKLB": 1795541777.6863682,
     "KO": 1795541777.6863682,
     "FLY": 1795541777.6863682,
-    "INTC": 1795540366.9589198,
-    "VRT": 1795540366.9589198,
-    "HPE": 1795540366.9589198,
-    "DELL": 1795540366.9589198,
-    "OKLO": 1795540366.9589198,
-    "CEG": 1795540366.9589198,
-    "FPS": 1795540366.9589198,
-    "MU": 1795540366.9589198,
-    "SKHY": 1795540366.9589198,
-    "WDC": 1795540366.9589198,
-    "STX": 1795540366.9589198,
-    "MSTR": 1795540366.9589198,
-    "SNDK": 1795540366.9589198,
-    "BTC-USD": 1795540366.9589198,
-    "CRWD": 1795540366.9589198,
-    "ORCL": 1795540366.9589198,
-    "COIN": 1795540366.9589198,
-    "LLY": 1795540366.9589198,
-    "MRNA": 1795540366.9589198,
-    "NKE": 1795540366.9589198,
-    "MCD": 1795540366.9589198,
+    "INTC": 1795541891.5096219,
+    "VRT": 1795541891.5096219,
+    "HPE": 1795541891.5096219,
+    "DELL": 1795541891.5096219,
+    "OKLO": 1795541891.5096219,
+    "CEG": 1795541891.5096219,
+    "FPS": 1795541891.5096219,
+    "MU": 1795541891.5096219,
+    "SKHY": 1795541891.5096219,
+    "WDC": 1795541891.5096219,
+    "STX": 1795541891.5096219,
+    "MSTR": 1795541891.5096219,
+    "SNDK": 1795541891.5096219,
+    "BTC-USD": 1795541891.5096219,
+    "CRWD": 1795541891.5096219,
+    "ORCL": 1795541891.5096219,
+    "COIN": 1795541891.5096219,
+    "LLY": 1795541891.5096219,
+    "MRNA": 1795541891.5096219,
+    "NKE": 1795541891.5096219,
+    "MCD": 1795541891.5096219,
     "PEP": 1795540476.1144483,
     "XOM": 1795540476.1144483,
     "JPM": 1795540476.1144483,
     "WMT": 1795540476.1144483,
-    "V": 1795540366.9589198,
+    "V": 1795541891.5096219,
     "CAT": 1795540476.1144483,
     "FN": 1795541777.6863682,
     "GLW": 1795541777.6863682,
