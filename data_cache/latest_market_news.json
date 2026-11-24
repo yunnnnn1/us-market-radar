@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795552074.349,
-  "updated_at_et": "11-24 15:27 ET",
-  "updated_at_kst": "05:27 KST",
+  "updated_at_ts": 1795552182.955,
+  "updated_at_et": "11-24 15:29 ET",
+  "updated_at_kst": "05:29 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1956,6 +1956,20 @@
         "pub_ts": 1795532400.0
       },
       {
+        "title": "Tesla's Vertical Integration Makes it Uniquely Positioned in US Robotaxi Market, UBS Says",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-apos-vertical-integration-makes-200751408.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 15:07 ET",
+        "pub_ts": 1795550871.0
+      },
+      {
+        "title": "Tesla and SpaceX Name Five Directors for a Potential $3.5 Trillion Merger. Tesla Holders Still Get a Vote",
+        "url": "https://www.tikr.com/blog/tesla-and-spacex-name-five-directors-for-a-potential-3-5-trillion-merger-tesla-holders-still-get-a-vote?ref=yahoofinance&tlnk=yf-261124-rc5pgxq2&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 15:05 ET",
+        "pub_ts": 1795550733.0
+      },
+      {
         "title": "If SpaceX and Tesla Merge, History Says One Group of Shareholders Usually Wins. Here’s Which Side to Be On.",
         "url": "https://www.fool.com/investing/2026/11/24/if-spacex-and-tesla-merge-history-says-one-group-of-shareholders-usually-wins-here-s-which-side-to-be-on/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1968,20 +1982,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 14:10 ET",
         "pub_ts": 1795547400.0
-      },
-      {
-        "title": "Tesla’s Robotaxi Business Could Generate $3-4B In Annual Recurring Revenue By 2027-End, Says Seaport Global",
-        "url": "https://stocktwits.com/news-articles/markets/equity/tesla-s-robotaxi-business-could-generate-3-4-b-in-annual-recurring-revenue-by-2027-end-says-seaport-global/cNbs0INR9kD?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 13:16 ET",
-        "pub_ts": 1795544173.0
-      },
-      {
-        "title": "Here's Why SpaceX Stock Slumped Today, And Why it Could Come Under More Pressure as Tesla Merger Talks Continue",
-        "url": "https://www.fool.com/investing/2026/11/24/here-s-why-spacex-stock-slumped-today-and-why-it-could-come-under-more-pressure-as-tesla-merger-talks-continue/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 13:09 ET",
-        "pub_ts": 1795543745.0
       }
     ],
     "AXP": [
@@ -2134,6 +2134,13 @@
     ],
     "INTC": [
       {
+        "title": "Applied Materials vs. Intel: Which Technology Stock Is a Better Buy for 2027?",
+        "url": "https://www.fool.com/coverage/better-buy/2026/11/24/applied-materials-vs-intel-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 14:50 ET",
+        "pub_ts": 1795549802.0
+      },
+      {
         "title": "Do You Really Understand Intel Stock's Risk?",
         "url": "https://www.trefis.com/stock/intc/articles/628282/do-you-really-understand-intel-stock-s-risk/2026-11-24?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2160,13 +2167,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:58 ET",
         "pub_ts": 1795532280.0
-      },
-      {
-        "title": "Can Intel Turn Its Microsoft Cloud Deal Into a Bigger Packaging Win?",
-        "url": "https://finance.yahoo.com/technology/articles/intel-turn-microsoft-cloud-deal-145700825.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:57 ET",
-        "pub_ts": 1795532220.0
       }
     ],
     "VRT": [
@@ -2222,6 +2222,13 @@
         "pub_ts": 1795535048.0
       },
       {
+        "title": "Why Hewlett Packard Enterprise Stock Fell 16% Today",
+        "url": "https://www.fool.com/investing/2026/11/24/why-hewlett-packard-enterprise-stock-fell-16-today/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 15:12 ET",
+        "pub_ts": 1795551172.0
+      },
+      {
         "title": "SpaceX Falls 4%, CoreWeave Down 13%, Nebius Down 11% as AI Stocks Give Back Nvidia Rally",
         "url": "https://www.tikr.com/blog/spacex-falls-4-coreweave-down-13-nebius-down-11-as-ai-stocks-give-back-nvidia-rally?ref=yahoofinance&tlnk=yf-261124-6rfwxx6w&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2234,13 +2241,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 13:28 ET",
         "pub_ts": 1795544893.0
-      },
-      {
-        "title": "Hewlett Packard Enterprise Stocks Fall 12.77% Despite 50% Revenue Growth and Raised Outlook",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/hewlett-packard-enterprise-stocks-fall-174643606.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 12:46 ET",
-        "pub_ts": 1795542403.0
       }
     ],
     "DELL": [
@@ -2393,6 +2393,13 @@
     ],
     "MU": [
       {
+        "title": "Warning for Micron Investors: Bank of America Says “Semis Cuts Have Started”",
+        "url": "https://www.tikr.com/blog/warning-for-micron-investors-bank-of-america-says-semis-cuts-have-started?ref=yahoofinance&tlnk=yf-261124-3rcj3g36&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 15:10 ET",
+        "pub_ts": 1795551039.0
+      },
+      {
         "title": "Micron Just Hit a $700 Ceiling, Caught a Downgrade, and Is Down 10% Today. Is MU a Toxic Stock or a Prime Bargain?",
         "url": "https://247wallst.com/investing/2026/11/24/micron-just-hit-a-700-ceiling-caught-a-downgrade-and-is-down-10-today-is-mu-a-toxic-stock-or-a-prime-bargain/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2419,13 +2426,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 12:37 ET",
         "pub_ts": 1795541820.0
-      },
-      {
-        "title": "The Same $10,000 in AMD and Micron Could Produce Very Different Results by 2030",
-        "url": "https://247wallst.com/investing/2026/11/24/the-same-10000-in-amd-and-micron-could-produce-very-different-results-by-2030/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 12:34 ET",
-        "pub_ts": 1795541642.0
       }
     ],
     "SKHY": [
@@ -2555,28 +2555,35 @@
         "pub_ts": 1795533363.0
       },
       {
-        "title": "Strategy Inc (MSTR) Is a Trending Stock: Facts to Know Before Betting on It",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/strategy-inc-mstr-trending-stock-130004989.html?.tsrc=rss",
+        "title": "908 Devices Inc. (MASS) Is Betting on Portable Chemical Detection: Could Its Next-Generation Device Drive Growth?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/908-devices-inc-mass-betting-200024943.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 08:00 ET",
-        "pub_ts": 1795525204.0
+        "time": "11-24 15:00 ET",
+        "pub_ts": 1795550424.0
       },
       {
-        "title": "Strategy Sinks 18% in a Week as Bitcoin Breaks $60,000: Peter Schiff Warns It’s “About to Blow Up”",
-        "url": "https://www.tikr.com/blog/strategy-sinks-18-in-a-week-as-bitcoin-breaks-60000-peter-schiff-warns-its-about-to-blow-up?ref=yahoofinance&tlnk=yf-261124-mv9fmvx4&.tsrc=rss",
+        "title": "Mama’s Creations, Inc. (MAMA) Fell 28% After a Major Rally: Can Margin Improvements Turn Things Around?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mama-creations-inc-mama-fell-200006372.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 04:42 ET",
-        "pub_ts": 1795513359.0
+        "time": "11-24 15:00 ET",
+        "pub_ts": 1795550406.0
       },
       {
-        "title": "LIVE – Bitcoin Overnight Rally Roundtripped: Saylor and Strategy Didn’t Flinch",
-        "url": "https://cryptonews.com/news/bitcoin-rally-roundtrip-saylor-strategy-buying-crypto-news/?.tsrc=rss",
+        "title": "NPK International Inc. (NPKI) Fell 28% Despite Strong Growth: Is the Market Missing Its Grid Infrastructure Opportunity?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/npk-international-inc-npki-fell-195944029.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 01:54 ET",
-        "pub_ts": 1795503259.0
+        "time": "11-24 14:59 ET",
+        "pub_ts": 1795550384.0
       }
     ],
     "SNDK": [
+      {
+        "title": "Warning for Micron Investors: Bank of America Says “Semis Cuts Have Started”",
+        "url": "https://www.tikr.com/blog/warning-for-micron-investors-bank-of-america-says-semis-cuts-have-started?ref=yahoofinance&tlnk=yf-261124-3rcj3g36&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 15:10 ET",
+        "pub_ts": 1795551039.0
+      },
       {
         "title": "Why Sandisk Stock Plunged Today",
         "url": "https://www.fool.com/investing/2026/11/24/why-sandisk-stock-plunged-today/?.tsrc=rss",
@@ -2604,16 +2611,23 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:48 ET",
         "pub_ts": 1795535308.0
-      },
-      {
-        "title": "Micron Falls 7% as NVIDIA Pullback Partially Reverses Monday’s AI Chip Rally; SanDisk and SK Hynix Drop 6%",
-        "url": "https://247wallst.com/investing/2026/11/24/micron-falls-7-as-nvidia-pullback-partially-reverses-mondays-ai-chip-rally-sandisk-and-sk-hynix-drop-6/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:07 ET",
-        "pub_ts": 1795529253.0
       }
     ],
     "BTC-USD": [
+      {
+        "title": "China tariff threat knocks Bitcoin below $60,000",
+        "url": "https://www.thestreet.com/crypto/markets/china-tariff-threat-knocks-bitcoin-below-60000?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 15:02 ET",
+        "pub_ts": 1795550572.0
+      },
+      {
+        "title": "ECB expands role of tokenized assets in traditional finance",
+        "url": "https://finance.yahoo.com/video/ecb-expands-role-tokenized-assets-200000958.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 15:00 ET",
+        "pub_ts": 1795550400.0
+      },
       {
         "title": "Bitcoin Losses Are the Worst Since FTX. Is the Bottom Near?",
         "url": "https://decrypt.co/383909/bitcoin-losses-worst-since-ftx-is-bottom-near?.tsrc=rss",
@@ -2634,23 +2648,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 14:15 ET",
         "pub_ts": 1795547700.0
-      },
-      {
-        "title": "The Bitcoin Price That Would Signal the Sell-Off Is Over",
-        "url": "https://247wallst.com/investing/cryptocurrency/2026/11/24/the-bitcoin-price-that-would-signal-the-sell-off-is-over/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 14:11 ET",
-        "pub_ts": 1795547487.0
-      },
-      {
-        "title": "Syncracy’s Watkins Says 12.5% of Data Centers Mining Pearl Would Pass Bitcoin’s Energy Use",
-        "url": "https://unchainedcrypto.com/syncracys-watkins-says-12-5-of-data-centers-mining-pearl-would-pass-bitcoins-energy-use/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 14:10 ET",
-        "pub_ts": 1795547400.0
       }
     ],
     "CRWD": [
+      {
+        "title": "CrowdStrike’s all-stock bid for Zscaler: deal structure shifts risk to target holders",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-stock-bid-zscaler-deal-202415003.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 15:24 ET",
+        "pub_ts": 1795551855.0
+      },
       {
         "title": "CrowdStrike and Zscaler deal makes sense to Jefferies at $43.9 billion",
         "url": "https://www.proactiveinvestors.com/companies/news/1102374/crowdstrike-and-zscaler-deal-makes-sense-to-jefferies-at-43-9-billion-1102374.html?.tsrc=rss",
@@ -2678,16 +2685,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:51 ET",
         "pub_ts": 1795539111.0
-      },
-      {
-        "title": "Wedbush Just Named CrowdStrike a 'Top Stock to Buy'",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/wedbush-just-named-crowdstrike-top-160901927.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:09 ET",
-        "pub_ts": 1795536541.0
       }
     ],
     "ORCL": [
+      {
+        "title": "Not Good: Oracle’s Credit Swaps Blow Out Again a Day After Huang’s Return Lifted Nvidia",
+        "url": "https://www.tikr.com/blog/not-good-oracles-credit-swaps-blow-out-again-a-day-after-huangs-return-lifted-nvidia?ref=yahoofinance&tlnk=yf-261124-vcwxc3ff&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 15:00 ET",
+        "pub_ts": 1795550431.0
+      },
       {
         "title": "Oracle Stocks Fall 4.31%, Slipping Further Below Its $116 Share Sale Price",
         "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-stocks-fall-4-31-165513234.html?.tsrc=rss",
@@ -2715,13 +2722,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:13 ET",
         "pub_ts": 1795533190.0
-      },
-      {
-        "title": "Prediction: Oracle Stock Will Soar in 2027",
-        "url": "https://www.fool.com/investing/2026/11/24/prediction-oracle-stock-will-soar-in-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:35 ET",
-        "pub_ts": 1795530902.0
       }
     ],
     "COIN": [
@@ -3329,32 +3329,32 @@
     "LITE": 1795552074.349127,
     "AAOI": 1795552074.349127,
     "SPCX": 1795552074.349127,
-    "ASTS": 1795550579.1363013,
+    "ASTS": 1795552182.9547813,
     "AXTI": 1795552074.349127,
-    "NASA": 1795550579.1363013,
-    "LUNR": 1795550579.1363013,
-    "TSLA": 1795550579.1363013,
-    "AXP": 1795550579.1363013,
-    "RKLB": 1795550579.1363013,
-    "KO": 1795550579.1363013,
-    "FLY": 1795550579.1363013,
-    "INTC": 1795550579.1363013,
-    "VRT": 1795550579.1363013,
-    "HPE": 1795550579.1363013,
-    "DELL": 1795550579.1363013,
-    "OKLO": 1795550579.1363013,
-    "CEG": 1795550579.1363013,
-    "FPS": 1795550579.1363013,
-    "MU": 1795550579.1363013,
-    "SKHY": 1795550579.1363013,
-    "WDC": 1795550579.1363013,
-    "STX": 1795550579.1363013,
-    "MSTR": 1795550579.1363013,
-    "SNDK": 1795550579.1363013,
-    "BTC-USD": 1795550579.1363013,
-    "CRWD": 1795550579.1363013,
-    "ORCL": 1795550579.1363013,
-    "COIN": 1795550579.1363013,
+    "NASA": 1795552182.9547813,
+    "LUNR": 1795552182.9547813,
+    "TSLA": 1795552182.9547813,
+    "AXP": 1795552182.9547813,
+    "RKLB": 1795552182.9547813,
+    "KO": 1795552182.9547813,
+    "FLY": 1795552182.9547813,
+    "INTC": 1795552182.9547813,
+    "VRT": 1795552182.9547813,
+    "HPE": 1795552182.9547813,
+    "DELL": 1795552182.9547813,
+    "OKLO": 1795552182.9547813,
+    "CEG": 1795552182.9547813,
+    "FPS": 1795552182.9547813,
+    "MU": 1795552182.9547813,
+    "SKHY": 1795552182.9547813,
+    "WDC": 1795552182.9547813,
+    "STX": 1795552182.9547813,
+    "MSTR": 1795552182.9547813,
+    "SNDK": 1795552182.9547813,
+    "BTC-USD": 1795552182.9547813,
+    "CRWD": 1795552182.9547813,
+    "ORCL": 1795552182.9547813,
+    "COIN": 1795552182.9547813,
     "LLY": 1795550685.1656902,
     "MRNA": 1795550685.1656902,
     "NKE": 1795550685.1656902,
