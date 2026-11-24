@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795558260.829,
-  "updated_at_et": "11-24 17:11 ET",
-  "updated_at_kst": "07:11 KST",
+  "updated_at_ts": 1795558361.771,
+  "updated_at_et": "11-24 17:12 ET",
+  "updated_at_kst": "07:12 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1160,14 +1160,21 @@
         "pub_ts": 1795538756.0
       },
       {
-        "title": "META Rides on Strong Demand in Ad Business: Can It Beat RDDT and SNAP?",
-        "url": "https://finance.yahoo.com/media-advertising/articles/meta-rides-strong-demand-ad-163500234.html?.tsrc=rss",
+        "title": "AI Regulation Could Put BILL Stock In Focus",
+        "url": "https://finance.yahoo.com/technology/ai/articles/ai-regulation-could-put-bill-211152422.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 11:35 ET",
-        "pub_ts": 1795538100.0
+        "time": "11-24 16:11 ET",
+        "pub_ts": 1795554712.0
       }
     ],
     "GOOGL": [
+      {
+        "title": "Billionaire Charlie Munger’s Protege Li Lu: Himalaya Capital Has 45% of Its $3.78 Billion Portfolio in Alphabet",
+        "url": "https://247wallst.com/investing/2026/11/24/billionaire-charlie-mungers-protege-li-lu-himalaya-capital-has-45-of-its-3-78-billion-portfolio-in-alphabet/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:58 ET",
+        "pub_ts": 1795557538.0
+      },
       {
         "title": "Microsoft (MSFT) Is One of the Safest Ways to Own AI",
         "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-one-safest-ways-210600451.html?.tsrc=rss",
@@ -1195,13 +1202,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 14:07 ET",
         "pub_ts": 1795547223.0
-      },
-      {
-        "title": "Bloom Energy Revenue Jumped 138%. Its Next Growth Phase Could Be Even Bigger",
-        "url": "https://247wallst.com/investing/2026/11/24/bloom-energy-revenue-jumped-138-its-next-growth-phase-could-be-even-bigger/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 13:33 ET",
-        "pub_ts": 1795545180.0
       }
     ],
     "MSFT": [
@@ -1761,6 +1761,13 @@
     ],
     "SPCX": [
       {
+        "title": "RBC Expects SpaceX-Tesla Deal Announcement By Early 2027 — Notes TSLA Shareholders May Accept Combination Without Large Premium",
+        "url": "https://stocktwits.com/news-articles/markets/equity/rbc-expects-space-x-tesla-deal-announcement-by-early-2027-notes-tsla-shareholders-may-accept-combination-without-large-premium/cNbsNbYR9k6?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:55 ET",
+        "pub_ts": 1795557333.0
+      },
+      {
         "title": "A SpaceX-Tesla Deal Could Come in December. Here's Why 1 Group of Investors Should Be Worried.",
         "url": "https://www.fool.com/investing/2026/11/24/a-spacex-tesla-deal-could-come-in-december-here-s-why-1-group-of-investors-should-be-worried/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1787,13 +1794,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 15:12 ET",
         "pub_ts": 1795551122.0
-      },
-      {
-        "title": "Tesla and SpaceX Name Five Directors for a Potential $3.5 Trillion Merger. Tesla Holders Still Get a Vote",
-        "url": "https://www.tikr.com/blog/tesla-and-spacex-name-five-directors-for-a-potential-3-5-trillion-merger-tesla-holders-still-get-a-vote?ref=yahoofinance&tlnk=yf-261124-rc5pgxq2&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 15:05 ET",
-        "pub_ts": 1795550733.0
       }
     ],
     "ASTS": [
@@ -3304,30 +3304,30 @@
     "SOXS": 1795557961.1007452,
     "NVDA": 1795557961.1007452,
     "AMD": 1795557961.1007452,
-    "ASML": 1795556776.1251295,
-    "QCOM": 1795556776.1251295,
-    "AVGO": 1795556776.1251295,
-    "AMAT": 1795556776.1251295,
-    "META": 1795556776.1251295,
-    "GOOGL": 1795556776.1251295,
-    "MSFT": 1795556776.1251295,
-    "AAPL": 1795556776.1251295,
-    "PLTR": 1795556776.1251295,
-    "NOW": 1795556776.1251295,
-    "AMZN": 1795556776.1251295,
-    "CRWV": 1795556776.1251295,
-    "NBIS": 1795556776.1251295,
-    "APLD": 1795556776.1251295,
-    "VST": 1795556776.1251295,
-    "BE": 1795556776.1251295,
-    "CRDO": 1795556776.1251295,
-    "COHR": 1795556776.1251295,
-    "MRVL": 1795556776.1251295,
-    "LITE": 1795556776.1251295,
-    "AAOI": 1795556776.1251295,
-    "SPCX": 1795556776.1251295,
+    "ASML": 1795558361.770828,
+    "QCOM": 1795558361.770828,
+    "AVGO": 1795558361.770828,
+    "AMAT": 1795558361.770828,
+    "META": 1795558361.770828,
+    "GOOGL": 1795558361.770828,
+    "MSFT": 1795558361.770828,
+    "AAPL": 1795558361.770828,
+    "PLTR": 1795558361.770828,
+    "NOW": 1795558361.770828,
+    "AMZN": 1795558361.770828,
+    "CRWV": 1795558361.770828,
+    "NBIS": 1795558361.770828,
+    "APLD": 1795558361.770828,
+    "VST": 1795558361.770828,
+    "BE": 1795558361.770828,
+    "CRDO": 1795558361.770828,
+    "COHR": 1795558361.770828,
+    "MRVL": 1795558361.770828,
+    "LITE": 1795558361.770828,
+    "AAOI": 1795558361.770828,
+    "SPCX": 1795558361.770828,
     "ASTS": 1795556882.0857882,
-    "AXTI": 1795556776.1251295,
+    "AXTI": 1795558361.770828,
     "NASA": 1795556882.0857882,
     "LUNR": 1795556882.0857882,
     "TSLA": 1795556882.0857882,
@@ -3362,8 +3362,8 @@
     "WMT": 1795557961.1007452,
     "V": 1795556991.1086907,
     "CAT": 1795557961.1007452,
-    "FN": 1795556776.1251295,
-    "GLW": 1795556776.1251295,
+    "FN": 1795558361.770828,
+    "GLW": 1795558361.770828,
     "ANT": 1795557961.1007452,
     "XAUUSD": 1795557961.1007452,
     "KOSPI": 1795557961.1007452
