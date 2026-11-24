@@ -74,20 +74,20 @@
       "last_notified_at": 0.0
     },
     "AXP": {
-      "state": "NORMAL",
-      "last_notified_at": 0.0
+      "state": "WATCHLIST_ENTRY_READY",
+      "last_notified_at": 1795553895.1204293
     },
     "SPY": {
       "state": "WATCHLIST_ENTRY_READY",
       "last_notified_at": 1795553789.8244283
     },
     "DIA": {
-      "state": "WATCHLIST_ENTRY_READY",
-      "last_notified_at": 1795553789.8244283
+      "state": "NORMAL",
+      "last_notified_at": 0.0
     },
     "IWM": {
-      "state": "WATCHLIST_ENTRY_READY",
-      "last_notified_at": 1795553257.6930525
+      "state": "NORMAL",
+      "last_notified_at": 0.0
     },
     "IGV": {
       "state": "NORMAL",

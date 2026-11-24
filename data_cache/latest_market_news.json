@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795553774.573,
-  "updated_at_et": "11-24 15:56 ET",
-  "updated_at_kst": "05:56 KST",
+  "updated_at_ts": 1795553880.213,
+  "updated_at_et": "11-24 15:58 ET",
+  "updated_at_kst": "05:58 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2763,6 +2763,13 @@
     ],
     "LLY": [
       {
+        "title": "Eli Lilly earns Moody’s upgrade to Aa2 as obesity drug demand fuels earnings",
+        "url": "https://finance.yahoo.com/healthcare/articles/eli-lilly-earns-moody-upgrade-204431978.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 15:44 ET",
+        "pub_ts": 1795553071.0
+      },
+      {
         "title": "Forget Zepbound: Lilly's Retatrutide Just Cut Sleep Apnea Severity by Up to 60%",
         "url": "https://www.fool.com/investing/2026/11/24/forget-zepbound-lillys-retatrutide-just-cut-sleep-apnea-severity-by-up-to-60/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2789,13 +2796,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 16:30 ET",
         "pub_ts": 1795469400.0
-      },
-      {
-        "title": "Lilly executive calls oncology the key growth area after obesity",
-        "url": "https://finance.yahoo.com/healthcare/articles/lilly-executive-calls-oncology-key-203928531.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 15:39 ET",
-        "pub_ts": 1795466368.0
       }
     ],
     "MRNA": [
@@ -2814,25 +2814,25 @@
         "pub_ts": 1795513652.0
       },
       {
-        "title": "Viking Therapeutics (VKTX) Stock Is Up 11.5% Today Without Company News",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/viking-therapeutics-vktx-stock-11-173104517.html?.tsrc=rss",
+        "title": "Trevi Therapeutics (TRVI) Stock Is Up 11.3% Today Without Company News",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/trevi-therapeutics-trvi-stock-11-203103297.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-23 12:31 ET",
-        "pub_ts": 1795455064.0
+        "time": "11-24 15:31 ET",
+        "pub_ts": 1795552263.0
       },
       {
-        "title": "Moderna to Present at Upcoming Conferences in December 2026",
-        "url": "https://finance.yahoo.com/healthcare/articles/moderna-present-upcoming-conferences-december-120000420.html?.tsrc=rss",
+        "title": "Revolution Medicines (RVMD) Stock Is Up 7.0% Today Without Company News",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/revolution-medicines-rvmd-stock-7-173029335.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-23 07:00 ET",
-        "pub_ts": 1795435200.0
+        "time": "11-24 12:30 ET",
+        "pub_ts": 1795541429.0
       },
       {
-        "title": "Invesco S&P 500 Eq Wt Health Care (RSPH) Adds Moderna, Mettler-Toledo on Nov. 19",
-        "url": "https://finance.yahoo.com/healthcare/articles/invesco-p-500-eq-wt-110552224.html?.tsrc=rss",
+        "title": "Celcuity (CELC) Stock Is Up 11.0% Today Without Company News",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/celcuity-celc-stock-11-0-170031597.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-23 06:05 ET",
-        "pub_ts": 1795431952.0
+        "time": "11-24 12:00 ET",
+        "pub_ts": 1795539631.0
       }
     ],
     "NKE": [
@@ -3355,15 +3355,15 @@
     "CRWD": 1795553774.5728626,
     "ORCL": 1795553774.5728626,
     "COIN": 1795553774.5728626,
-    "LLY": 1795552288.578023,
-    "MRNA": 1795552288.578023,
-    "NKE": 1795552288.578023,
-    "MCD": 1795552288.578023,
+    "LLY": 1795553880.2126782,
+    "MRNA": 1795553880.2126782,
+    "NKE": 1795553880.2126782,
+    "MCD": 1795553880.2126782,
     "PEP": 1795553136.6947436,
     "XOM": 1795553136.6947436,
     "JPM": 1795553136.6947436,
     "WMT": 1795553136.6947436,
-    "V": 1795552288.578023,
+    "V": 1795553880.2126782,
     "CAT": 1795553136.6947436,
     "FN": 1795553668.1725988,
     "GLW": 1795553668.1725988,
