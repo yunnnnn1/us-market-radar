@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795532637.501,
-  "updated_at_et": "11-24 10:03 ET",
-  "updated_at_kst": "00:03 KST",
+  "updated_at_ts": 1795532748.22,
+  "updated_at_et": "11-24 10:05 ET",
+  "updated_at_kst": "00:05 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2908,6 +2908,20 @@
     ],
     "PEP": [
       {
+        "title": "3 defensive stocks to watch as tech, chip volatility persists",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-defensive-stocks-watch-tech-143806164.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:38 ET",
+        "pub_ts": 1795531086.0
+      },
+      {
+        "title": "Coca-Cola at $95 or PepsiCo at $140: Which Dividend King Could Turn $1,000 Into More Money by 2036?",
+        "url": "https://www.fool.com/investing/2026/11/24/coca-cola-at-usd95-or-pepsico-at-usd140-which-dividend-king-could-turn-usd1-000-into-more-money-by-2036/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:29 ET",
+        "pub_ts": 1795530541.0
+      },
+      {
         "title": "5 Blue-Chip Dividend Stocks Built to Keep Paying Through Tough Markets",
         "url": "https://247wallst.com/investing/2026/11/23/5-blue-chip-dividend-stocks-built-to-keep-paying-through-tough-markets/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2927,20 +2941,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 12:50 ET",
         "pub_ts": 1795456202.0
-      },
-      {
-        "title": "41 ETFs Add to PepsiCo (PEP) Holdings on Nov. 19",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/41-etfs-add-pepsico-pep-110155523.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 06:01 ET",
-        "pub_ts": 1795431715.0
-      },
-      {
-        "title": "What These 6 Snack and Beverage Stocks Have in Common",
-        "url": "https://www.fool.com/investing/2026/11/22/what-these-6-snack-and-beverage-stocks-have-in-common/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-22 14:37 ET",
-        "pub_ts": 1795376222.0
       }
     ],
     "XOM": [
@@ -3211,32 +3211,32 @@
         "pub_ts": 1795530878.0
       },
       {
-        "title": "Archive Intel Launches Model Context Protocol (MCP) and Claude Compliance API Integration",
-        "url": "https://finance.yahoo.com/technology/ai/articles/archive-intel-launches-model-context-140400674.html?.tsrc=rss",
+        "title": "Nvidia jumped 31% on Jensen Huang's return. A day later, the AI trade sold off: AlphaCheck",
+        "url": "https://finance.yahoo.com/markets/article/nvidia-leads-semiconductors-lower-alphacheck-144509267.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 09:04 ET",
-        "pub_ts": 1795529040.0
+        "time": "11-24 09:45 ET",
+        "pub_ts": 1795531509.0
       },
       {
-        "title": "Anthropic’s stock offers an \"attractive entry\" point, analyst says",
-        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-stock-offers-attractive-entry-140147631.html?.tsrc=rss",
+        "title": "Anthropic Stock Falls Below IPO Price Despite Bullish Views From Analysts",
+        "url": "https://finance.yahoo.com/m/4f94eed8-e2b9-313f-ba94-697a4cf1fe70/anthropic-stock-falls-below.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 09:01 ET",
-        "pub_ts": 1795528907.0
+        "time": "11-24 09:57 ET",
+        "pub_ts": 1795532274.0
       },
       {
-        "title": "Anthropic wins Wedbush backing as broker sees 35% upside",
-        "url": "https://www.proactiveinvestors.com/companies/news/1102345/anthropic-wins-wedbush-backing-as-broker-sees-35-upside-1102345.html?.tsrc=rss",
+        "title": "Anthropic Tumbles 9%, Trades Below IPO Price Despite Canaccord’s $135 Target; CoreWeave and Nebius Drop 8%",
+        "url": "https://247wallst.com/investing/2026/11/24/anthropic-tumbles-9-breaks-below-ipo-price-despite-canaccords-135-target-coreweave-and-nebius-drop-8/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 09:00 ET",
-        "pub_ts": 1795528800.0
+        "time": "11-24 09:54 ET",
+        "pub_ts": 1795532088.0
       },
       {
-        "title": "Stock Market Today: Tech Futures Sell Off After Big Market Surge; AMD, Anthropic, Nvidia Dive (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/4aa4ff31-269f-346e-80c4-e681510af7ae/stock-market-today%3A-tech.html?.tsrc=rss",
+        "title": "Anthropic Sinks 7% Below IPO Price as AI Stocks Slide: Cramer Blames “Endless Hammering of Small Bids”",
+        "url": "https://www.tikr.com/blog/anthropic-sinks-7-below-ipo-price-as-ai-stocks-slide-cramer-blames-endless-hammering-of-small-bids?ref=yahoofinance&tlnk=yf-261124-m94c8jgv&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 08:51 ET",
-        "pub_ts": 1795528300.0
+        "time": "11-24 09:51 ET",
+        "pub_ts": 1795531882.0
       }
     ],
     "XAUUSD": [
@@ -3356,16 +3356,16 @@
     "MRNA": 1795532637.500842,
     "NKE": 1795532637.500842,
     "MCD": 1795532637.500842,
-    "PEP": 1795531216.8682861,
-    "XOM": 1795531216.8682861,
-    "JPM": 1795531216.8682861,
-    "WMT": 1795531216.8682861,
+    "PEP": 1795532748.219519,
+    "XOM": 1795532748.219519,
+    "JPM": 1795532748.219519,
+    "WMT": 1795532748.219519,
     "V": 1795532637.500842,
-    "CAT": 1795531216.8682861,
+    "CAT": 1795532748.219519,
     "FN": 1795532527.8675272,
     "GLW": 1795532527.8675272,
-    "ANT": 1795531216.8682861,
-    "XAUUSD": 1795531216.8682861,
+    "ANT": 1795532748.219519,
+    "XAUUSD": 1795532748.219519,
     "KOSPI": 1795521635.6703591
   },
   "opex_shield": {
