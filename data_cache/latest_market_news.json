@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795555379.212,
-  "updated_at_et": "11-24 16:22 ET",
-  "updated_at_kst": "06:22 KST",
+  "updated_at_ts": 1795555485.131,
+  "updated_at_et": "11-24 16:24 ET",
+  "updated_at_kst": "06:24 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2765,6 +2765,13 @@
     ],
     "LLY": [
       {
+        "title": "Eli Lilly vs. Novo Nordisk: Not Every GLP-1 Maker Is Enjoying Booming Sales Trends",
+        "url": "https://www.fool.com/coverage/charts/2026/11/24/eli-lilly-vs-novo-nordisk-not-every-glp-1-maker-is-enjoying-booming-sales-trends/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 15:50 ET",
+        "pub_ts": 1795553402.0
+      },
+      {
         "title": "Eli Lilly earns Moody’s upgrade to Aa2 as obesity drug demand fuels earnings",
         "url": "https://finance.yahoo.com/healthcare/articles/eli-lilly-earns-moody-upgrade-204431978.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2791,50 +2798,43 @@
         "source": "Yahoo Finance",
         "time": "11-24 01:41 ET",
         "pub_ts": 1795502515.0
-      },
-      {
-        "title": "Lilly highlights strength of breast cancer portfolio with new data across validated drivers of hormone receptor-positive disease at the 2026 San Antonio Breast Cancer Symposium",
-        "url": "https://finance.yahoo.com/healthcare/articles/lilly-highlights-strength-breast-cancer-213000694.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 16:30 ET",
-        "pub_ts": 1795469400.0
       }
     ],
     "MRNA": [
       {
-        "title": "Invesco S&P 500 Equal Weight (RSP) Sells PTC and Moderna on Friday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-p-500-equal-weight-110326725.html?.tsrc=rss",
+        "title": "Will 'Anti-Pharma' Democrats Chop Away At Biotech Stocks' Big Wins?",
+        "url": "https://finance.yahoo.com/m/d110ac3d-b2ba-3c8d-8f15-274f2cd95b50/will-%27anti-pharma%27-democrats.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 06:03 ET",
-        "pub_ts": 1795518206.0
+        "time": "11-24 16:16 ET",
+        "pub_ts": 1795555004.0
       },
       {
-        "title": "Moderna Has Ripped 619% in 2026. Bancel Says It Can Go Into “Many Tumors Very Quickly.” Too Late to Buy?",
-        "url": "https://www.tikr.com/blog/moderna-has-ripped-619-in-2026-bancel-says-it-can-go-into-many-tumors-very-quickly-too-late-to-buy?ref=yahoofinance&tlnk=yf-261124-299hvjgq&.tsrc=rss",
+        "title": "Immunome (IMNM) Stock Is Up 13.8% Today Without Company News",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/immunome-imnm-stock-13-8-210119724.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 04:47 ET",
-        "pub_ts": 1795513652.0
+        "time": "11-24 16:01 ET",
+        "pub_ts": 1795554079.0
       },
       {
-        "title": "Trevi Therapeutics (TRVI) Stock Is Up 11.3% Today Without Company News",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/trevi-therapeutics-trvi-stock-11-203103297.html?.tsrc=rss",
+        "title": "Alto Neuroscience (ANRO) Stock Is Up 10.3% Today Without Company News",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/alto-neuroscience-anro-stock-10-210058486.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 15:31 ET",
-        "pub_ts": 1795552263.0
+        "time": "11-24 16:00 ET",
+        "pub_ts": 1795554058.0
       },
       {
-        "title": "Revolution Medicines (RVMD) Stock Is Up 7.0% Today Without Company News",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/revolution-medicines-rvmd-stock-7-173029335.html?.tsrc=rss",
+        "title": "Aura Biosciences (AURA) Stock Is Up 8.9% Today Without Company News",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/aura-biosciences-aura-stock-8-210055724.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 12:30 ET",
-        "pub_ts": 1795541429.0
+        "time": "11-24 16:00 ET",
+        "pub_ts": 1795554055.0
       },
       {
-        "title": "Celcuity (CELC) Stock Is Up 11.0% Today Without Company News",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/celcuity-celc-stock-11-0-170031597.html?.tsrc=rss",
+        "title": "Why Is Arcus Biosciences (RCUS) Stock Up Today? Biotech Rally on Insmed Deal",
+        "url": "https://finance.yahoo.com/healthcare/articles/why-arcus-biosciences-rcus-stock-210052610.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 12:00 ET",
-        "pub_ts": 1795539631.0
+        "time": "11-24 16:00 ET",
+        "pub_ts": 1795554052.0
       }
     ],
     "NKE": [
@@ -3357,15 +3357,15 @@
     "CRWD": 1795555379.211981,
     "ORCL": 1795555379.211981,
     "COIN": 1795555379.211981,
-    "LLY": 1795553880.2126782,
-    "MRNA": 1795553880.2126782,
-    "NKE": 1795553880.2126782,
-    "MCD": 1795553880.2126782,
+    "LLY": 1795555485.1308203,
+    "MRNA": 1795555485.1308203,
+    "NKE": 1795555485.1308203,
+    "MCD": 1795555485.1308203,
     "PEP": 1795554740.810935,
     "XOM": 1795554740.810935,
     "JPM": 1795554740.810935,
     "WMT": 1795554740.810935,
-    "V": 1795553880.2126782,
+    "V": 1795555485.1308203,
     "CAT": 1795554740.810935,
     "FN": 1795555270.3988807,
     "GLW": 1795555270.3988807,
