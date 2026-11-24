@@ -238,6 +238,42 @@ def _external_alerts_disabled():
     val = str(os.environ.get("RADAR_DISABLE_EXTERNAL_ALERTS", "")).strip().lower()
     return val in ("1", "true", "yes", "on") or ("--no-alerts" in sys.argv)
 
+
+def engage_no_alert_mode(argv=None):
+    """Make --no-alerts visible to env-only gates such as the AI brief."""
+    args = argv if argv is not None else sys.argv
+    if "--no-alerts" in args:
+        os.environ["RADAR_DISABLE_EXTERNAL_ALERTS"] = "1"
+        return True
+    return False
+
+
+def should_start_star_server(argv=None):
+    """A guarded single pass must not leave the port 8765 process running."""
+    args = list(argv if argv is not None else sys.argv)
+    val = str(os.environ.get("RADAR_DISABLE_EXTERNAL_ALERTS", "")).strip().lower()
+    alerts_off = val in ("1", "true", "yes", "on") or ("--no-alerts" in args)
+    if "--once" in args and alerts_off:
+        return False
+    return True
+
+
+def quotes_include_finnhub(realtime_quotes):
+    """True only when a quote was returned by the Finnhub API."""
+    if not isinstance(realtime_quotes, dict):
+        return False
+    for quote in realtime_quotes.values():
+        if not isinstance(quote, dict):
+            continue
+        if str(quote.get("source") or "") != "finnhub":
+            continue
+        try:
+            if float(quote.get("last") or 0) > 0:
+                return True
+        except (TypeError, ValueError):
+            continue
+    return False
+
 # ------------------------------------------------------------------------------
 # 🎯 账户资金与风控配置 (V3.1 旗舰纯比例制 · 单股上限 25% · 1.5%风险预算一次性建仓)
 # ------------------------------------------------------------------------------
@@ -633,7 +669,8 @@ def fetch_single_finnhub_quote(symbol, api_key):
                         "low": float(data.get("l", 0) or 0),
                         "open": float(data.get("o", 0) or 0),
                         "prev_close": float(data.get("pc", 0) or 0),
-                        "timestamp": data.get("t", 0)
+                        "timestamp": data.get("t", 0),
+                        "source": "finnhub",
                     }
         except urllib.error.HTTPError as e:
             if e.code == 429:
@@ -7654,7 +7691,8 @@ def display_terminal_tables(macro_data, stocks_data, weather_info, has_realtime=
 # ==============================================================================
 def run_radar_cycle(is_first_run=False, round_idx=1):
     """单轮执行全量标的数据抓取、实时穿透、技术指标重算与三份看板覆盖写入"""
-    start_star_api_server()
+    if should_start_star_server():
+        start_star_api_server()
     try:
         import zoneinfo
         local_tz = zoneinfo.ZoneInfo("Asia/Seoul")
@@ -7766,7 +7804,7 @@ def run_radar_cycle(is_first_run=False, round_idx=1):
         print(f"  [!] 跨市场流动性监控降级跳过: {_liq_err}")
     print("")
 
-    has_realtime = len(realtime_quotes) > 0 or len(intraday_map) > 0
+    has_realtime = quotes_include_finnhub(realtime_quotes)
 
     # 预计算 QQQ 20日基准收益率用于计算全市场个股 RS 相对强弱度 (Alpha)
     qqqm_ret_20d = 0.0
@@ -8897,6 +8935,7 @@ def publish_repo_slug(env=None):
 
 
 def main():
+    engage_no_alert_mode()
     # 检查是否为本地常驻自选盯盘 API 守护子进程 (--star-server-daemon)
     if "--star-server-daemon" in sys.argv:
         try:
