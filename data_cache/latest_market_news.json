@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795536747.376,
-  "updated_at_et": "11-24 11:12 ET",
-  "updated_at_kst": "01:12 KST",
+  "updated_at_ts": 1795536855.907,
+  "updated_at_et": "11-24 11:14 ET",
+  "updated_at_kst": "01:14 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -450,6 +450,13 @@
         "pub_ts": 1795518174.0
       },
       {
+        "title": "If Anthropic Does This It Could Reach $130 By Year End",
+        "url": "https://247wallst.com/investing/2026/11/24/if-anthropic-does-this-it-could-reach-130-by-year-end/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:45 ET",
+        "pub_ts": 1795535148.0
+      },
+      {
         "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Investors Pull Back From AI-Related Stocks",
         "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141922343.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -462,13 +469,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 08:42 ET",
         "pub_ts": 1795527720.0
-      },
-      {
-        "title": "ETFs Bought $120 Million of Mastercard (MA) on Friday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-120-million-mastercard-110212516.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 06:02 ET",
-        "pub_ts": 1795518132.0
       }
     ],
     "DIA": [
@@ -568,11 +568,11 @@
         "pub_ts": 1795518197.0
       },
       {
-        "title": "Stock Market Today: Dow Up But Nasdaq Skids As Nvidia Dives; Bears Bite Chips (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/4aa4ff31-269f-346e-80c4-e681510af7ae/stock-market-today%3A-dow-up.html?.tsrc=rss",
+        "title": "QQQ Paid a $300,000 Holder $1,524 in Dividends Over the Past Year While VYM Paid $7,164",
+        "url": "https://247wallst.com/investing/etf/2026/11/23/qqq-paid-a-300000-holder-1524-in-dividends-over-the-past-year-while-vym-paid-7164/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 10:39 ET",
-        "pub_ts": 1795534748.0
+        "time": "11-23 21:03 ET",
+        "pub_ts": 1795485819.0
       },
       {
         "title": "Here's Why Investors Should Go Defensive Now: ETFs in Focus",
@@ -591,11 +591,11 @@
         "pub_ts": 1795518582.0
       },
       {
-        "title": "The Semiconductor ETF Is on Track to Beat the S&P 500 for a 4th Straight Year. It Has Never Done That Before.",
-        "url": "https://www.fool.com/investing/2026/11/19/the-semiconductor-etf-is-on-track-to-beat-the-s-and-p-500-for-a-4th-straight-year-it-has-never-done-that-before/?.tsrc=rss",
+        "title": "Michael Burry Sells Most of His Nvidia Puts Before Stock Jumps 31%",
+        "url": "https://finance.yahoo.com/markets/options/articles/michael-burry-sells-most-nvidia-153035278.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-19 18:43 ET",
-        "pub_ts": 1795131782.0
+        "time": "11-24 10:30 ET",
+        "pub_ts": 1795534235.0
       },
       {
         "title": "Michael Burry Bought Nvidia Calls, Cut His Semiconductor Shorts Before The Rally – But He’s Not Done Questioning Jensen Huang",
@@ -917,55 +917,48 @@
     ],
     "NVDA": [
       {
-        "title": "Despite Jensen's return, Nvidia still needs to address several management issues",
-        "url": "https://finance.yahoo.com/video/despite-jensens-return-nvidia-still-153000278.html?.tsrc=rss",
+        "title": "MACOM (MTSI) Stock Is Down 12.2% Today: Chip Stocks Sell Off",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/macom-mtsi-stock-down-12-160110027.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 10:30 ET",
-        "pub_ts": 1795534200.0
+        "time": "11-24 11:01 ET",
+        "pub_ts": 1795536070.0
       },
       {
-        "title": "Who is holding Jensen Huang accountable at Nvidia now?",
-        "url": "https://finance.yahoo.com/video/who-is-holding-jensen-huang-accountable-at-nvidia-now-152401001.html?.tsrc=rss",
+        "title": "Nvidia Stock Falls After Massive Rally. The Boardroom Drama Isn't Over",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-falls-massive-rally-160044709.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 10:24 ET",
-        "pub_ts": 1795533841.0
+        "time": "11-24 11:00 ET",
+        "pub_ts": 1795536044.0
       },
       {
-        "title": "'Big Short' Investor Steve Eisman Says AI Industry 'Dodged A Big Bullet' With Jensen Huang's Return, But Only 'For Now'",
-        "url": "https://stocktwits.com/news-articles/markets/equity/steve-eisman-says-ai-industry-dodged-a-big-bullet-with-jensen-huang-s-return-but-only-for-now/cNbsQGGR9ks?.tsrc=rss",
+        "title": "Is Disney World's Top Rival Making an \"Epic\" Mistake?",
+        "url": "https://www.fool.com/investing/2026/11/24/is-disney-world-s-top-rival-making-an-epic-mistake/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 10:39 ET",
-        "pub_ts": 1795534764.0
+        "time": "11-24 10:54 ET",
+        "pub_ts": 1795535667.0
       },
       {
-        "title": "Stock Market Today: Dow Up But Nasdaq Skids As Nvidia Dives; Bears Bite Chips (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/4aa4ff31-269f-346e-80c4-e681510af7ae/stock-market-today%3A-dow-up.html?.tsrc=rss",
+        "title": "Sandisk Sinks 14% as Memory Stocks Give Back Nvidia’s Huang Rally",
+        "url": "https://www.tikr.com/blog/sandisk-sinks-14-as-memory-stocks-give-back-nvidias-huang-rally?ref=yahoofinance&tlnk=yf-261124-287p6vrp&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 10:39 ET",
-        "pub_ts": 1795534748.0
+        "time": "11-24 10:48 ET",
+        "pub_ts": 1795535308.0
       },
       {
-        "title": "Nvidia Stock Is Falling Again. Why the Jensen Jubilation Is Already Fading.",
-        "url": "https://finance.yahoo.com/m/de285bb8-c376-3c07-b231-b570b59506cc/nvidia-stock-is-falling.html?.tsrc=rss",
+        "title": "Follow the Smart Money: This Billionaire Tech Investor Has Been Loading Up On Shares of These 3 AI Chip Stocks",
+        "url": "https://www.fool.com/investing/2026/11/24/follow-the-smart-money-this-billionaire-tech-investor-has-been-loading-up-on-shares-of-these-3-ai-chip-stocks/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 10:35 ET",
-        "pub_ts": 1795534500.0
+        "time": "11-24 10:48 ET",
+        "pub_ts": 1795535282.0
       }
     ],
     "AMD": [
       {
-        "title": "Nvidia, AMD, Broadcom lead chip stocks lower as AI trade comes under pressure",
-        "url": "https://finance.yahoo.com/markets/article/nvidia-amd-broadcom-lead-chip-stocks-lower-as-ai-trade-comes-under-pressure-141635463.html?.tsrc=rss",
+        "title": "OpenAI and Meta Could Get 320 Million AMD Shares for a Penny Each",
+        "url": "https://247wallst.com/investing/2026/11/24/openai-and-meta-could-get-320-million-amd-shares-for-a-penny-each/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 09:16 ET",
-        "pub_ts": 1795529795.0
-      },
-      {
-        "title": "Stock Market Today: Dow Up But Nasdaq Skids As Nvidia Dives; Bears Bite Chips (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/4aa4ff31-269f-346e-80c4-e681510af7ae/stock-market-today%3A-dow-up.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:39 ET",
-        "pub_ts": 1795534748.0
+        "time": "11-24 10:52 ET",
+        "pub_ts": 1795535556.0
       },
       {
         "title": "AMD Sinks 10%, Nvidia Down 7% as Chip Stocks Give Back Huang Rally, Resale Filing Weighs",
@@ -987,6 +980,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:40 ET",
         "pub_ts": 1795531200.0
+      },
+      {
+        "title": "Global Hybrid Graphics Processing Unit (GPU)-Central Processing Unit (CPU) Market Report 2026 | NVIDIA, Intel, AMD, Samsung, and Arm Drive AI Data Centers to $38.13B by 2030",
+        "url": "https://finance.yahoo.com/technology/ai/articles/global-hybrid-graphics-processing-unit-143900936.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:39 ET",
+        "pub_ts": 1795531140.0
       }
     ],
     "ASML": [
@@ -1139,6 +1139,20 @@
     ],
     "META": [
       {
+        "title": "OpenAI and Meta Could Get 320 Million AMD Shares for a Penny Each",
+        "url": "https://247wallst.com/investing/2026/11/24/openai-and-meta-could-get-320-million-amd-shares-for-a-penny-each/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:52 ET",
+        "pub_ts": 1795535556.0
+      },
+      {
+        "title": "Meta Fell 8% Over the Last 30 Days: Mutiple Wall Street Desks Expect 67% Returns From Here",
+        "url": "https://247wallst.com/investing/2026/11/24/meta-fell-8-over-the-last-30-days-mutiple-wall-street-desks-expect-67-returns-from-here/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:45 ET",
+        "pub_ts": 1795535135.0
+      },
+      {
         "title": "Meta launches its Muse personal agent in the UK – but it comes with a big warning",
         "url": "https://www.independent.co.uk/tech/meta-muse-uk-launch-release-warning-b3090758.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1158,20 +1172,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:00 ET",
         "pub_ts": 1795528800.0
-      },
-      {
-        "title": "Efekta Convenes Global Leaders in Athens to Explore How AI Can Transform Education, Empower Teachers and Expand Economic Opportunity",
-        "url": "https://finance.yahoo.com/technology/ai/articles/efekta-convenes-global-leaders-athens-140000216.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:00 ET",
-        "pub_ts": 1795528800.0
-      },
-      {
-        "title": "Morgan Stanley Cut Its Meta Target to $720 From $820. It Still Sees 20% Upside",
-        "url": "https://www.tikr.com/blog/morgan-stanley-cut-its-meta-target-to-720-from-820-it-still-sees-20-upside?ref=yahoofinance&tlnk=yf-261124-3xxjp98c&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:50 ET",
-        "pub_ts": 1795528242.0
       }
     ],
     "GOOGL": [
@@ -1181,6 +1181,20 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:00 ET",
         "pub_ts": 1795532400.0
+      },
+      {
+        "title": "Tesla Robotaxi Rival Starts Road Tests Without A Safety Monitor",
+        "url": "https://finance.yahoo.com/m/2fafeed7-c259-3087-9fa8-cf86f4a1ebd4/tesla-robotaxi-rival-starts.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:01 ET",
+        "pub_ts": 1795536100.0
+      },
+      {
+        "title": "Meta Fell 8% Over the Last 30 Days: Mutiple Wall Street Desks Expect 67% Returns From Here",
+        "url": "https://247wallst.com/investing/2026/11/24/meta-fell-8-over-the-last-30-days-mutiple-wall-street-desks-expect-67-returns-from-here/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:45 ET",
+        "pub_ts": 1795535135.0
       },
       {
         "title": "Stocks give back gains as Anthropic dips below IPO price",
@@ -1195,24 +1209,17 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:42 ET",
         "pub_ts": 1795534975.0
-      },
-      {
-        "title": "Microsoft Is Down 7% in a Month, but Not One Analyst Says Sell. Wall Street Sees $630+",
-        "url": "https://247wallst.com/investing/2026/11/24/microsoft-is-down-7-in-a-month-but-not-one-analyst-says-sell-wall-street-sees-630/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:33 ET",
-        "pub_ts": 1795534416.0
-      },
-      {
-        "title": "Asia-Pacific Digital Transformation Market: Size, Trends, and Forecast (2026-2034) Featuring Intelligence on Accenture, Google (Alphabet), IBM, Microsoft, Oracle, HPE, SAP, EMC (Dell EMC), Cognex, Adobe and Siemens",
-        "url": "https://finance.yahoo.com/technology/articles/asia-pacific-digital-transformation-market-152900939.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:29 ET",
-        "pub_ts": 1795534140.0
       }
     ],
     "MSFT": [
       {
+        "title": "Oracle Is a Higher-Leverage, Cash-Hungry Twin to Microsoft",
+        "url": "https://247wallst.com/investing/2026/11/24/oracle-is-a-higher-leverage-cash-hungry-twin-to-microsoft/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:45 ET",
+        "pub_ts": 1795535101.0
+      },
+      {
         "title": "Microsoft Is Down 7% in a Month, but Not One Analyst Says Sell. Wall Street Sees $630+",
         "url": "https://247wallst.com/investing/2026/11/24/microsoft-is-down-7-in-a-month-but-not-one-analyst-says-sell-wall-street-sees-630/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1225,6 +1232,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:29 ET",
         "pub_ts": 1795534140.0
+      },
+      {
+        "title": "Can Intel Turn Its Microsoft Cloud Deal Into a Bigger Packaging Win?",
+        "url": "https://finance.yahoo.com/technology/articles/intel-turn-microsoft-cloud-deal-145700825.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:57 ET",
+        "pub_ts": 1795532220.0
       },
       {
         "title": "Global Subject Access Request Software Market Report 2026 | Capitalize on 13.5% CAGR to $2.96 Billion by 2030 as Microsoft, IBM, OneTrust and BigID Accelerate AI-Cloud Compliance",
@@ -1232,20 +1246,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:31 ET",
         "pub_ts": 1795530660.0
-      },
-      {
-        "title": "Global Document Collaboration Market Report 2026: Size, Share, Trends and Forecast to 2030 | Capitalize on AI, Cloud and Secure Workflows with Microsoft, Google, Adobe and Box",
-        "url": "https://finance.yahoo.com/technology/articles/global-document-collaboration-market-report-142900939.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:29 ET",
-        "pub_ts": 1795530540.0
-      },
-      {
-        "title": "Global Integration App Market Report 2026: $6.04 Billion Forecast to 2030 | Capitalize on 11.2% CAGR as Microsoft, IBM, Oracle, and Workato Accelerate AI and Multi-Cloud Adoption",
-        "url": "https://finance.yahoo.com/technology/articles/global-integration-app-market-report-142800894.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:28 ET",
-        "pub_ts": 1795530480.0
       }
     ],
     "AAPL": [
@@ -3294,30 +3294,30 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795535253.700444,
-    "SOXL": 1795535253.700444,
-    "SPY": 1795535253.700444,
-    "DIA": 1795535253.700444,
-    "SOXX": 1795535253.700444,
-    "QQQ": 1795535253.700444,
-    "SMH": 1795535253.700444,
-    "IWM": 1795535253.700444,
-    "IGV": 1795535253.700444,
-    "TLT": 1795535253.700444,
-    "GLD": 1795535253.700444,
-    "SQQQ": 1795535253.700444,
-    "TSM": 1795535253.700444,
-    "VIXY": 1795535253.700444,
-    "SOXS": 1795535253.700444,
-    "NVDA": 1795535253.700444,
-    "AMD": 1795535253.700444,
-    "ASML": 1795535253.700444,
-    "QCOM": 1795535253.700444,
-    "AVGO": 1795535253.700444,
-    "AMAT": 1795535253.700444,
-    "META": 1795535253.700444,
-    "GOOGL": 1795535253.700444,
-    "MSFT": 1795535253.700444,
+    "KORU": 1795536855.9070807,
+    "SOXL": 1795536855.9070807,
+    "SPY": 1795536855.9070807,
+    "DIA": 1795536855.9070807,
+    "SOXX": 1795536855.9070807,
+    "QQQ": 1795536855.9070807,
+    "SMH": 1795536855.9070807,
+    "IWM": 1795536855.9070807,
+    "IGV": 1795536855.9070807,
+    "TLT": 1795536855.9070807,
+    "GLD": 1795536855.9070807,
+    "SQQQ": 1795536855.9070807,
+    "TSM": 1795536855.9070807,
+    "VIXY": 1795536855.9070807,
+    "SOXS": 1795536855.9070807,
+    "NVDA": 1795536855.9070807,
+    "AMD": 1795536855.9070807,
+    "ASML": 1795536855.9070807,
+    "QCOM": 1795536855.9070807,
+    "AVGO": 1795536855.9070807,
+    "AMAT": 1795536855.9070807,
+    "META": 1795536855.9070807,
+    "GOOGL": 1795536855.9070807,
+    "MSFT": 1795536855.9070807,
     "AAPL": 1795535578.4376297,
     "PLTR": 1795535578.4376297,
     "NOW": 1795535578.4376297,
