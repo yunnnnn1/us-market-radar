@@ -82,8 +82,8 @@
       "last_notified_at": 1795554647.5412853
     },
     "DIA": {
-      "state": "WATCHLIST_ENTRY_READY",
-      "last_notified_at": 1795554647.5412853
+      "state": "NORMAL",
+      "last_notified_at": 0.0
     },
     "IWM": {
       "state": "WATCHLIST_ENTRY_READY",
@@ -166,8 +166,8 @@
       "last_notified_at": 0.0
     },
     "MSFT": {
-      "state": "WATCHLIST_ENTRY_READY",
-      "last_notified_at": 1795554647.5412853
+      "state": "NORMAL",
+      "last_notified_at": 0.0
     },
     "NKE": {
       "state": "WATCHLIST_ENTRY_READY",
