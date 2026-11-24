@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795553668.173,
-  "updated_at_et": "11-24 15:54 ET",
-  "updated_at_kst": "05:54 KST",
+  "updated_at_ts": 1795553774.573,
+  "updated_at_et": "11-24 15:56 ET",
+  "updated_at_kst": "05:56 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1949,13 +1949,6 @@
     ],
     "TSLA": [
       {
-        "title": "Have robotaxis hit a tipping point? Wall Street and experts are split.",
-        "url": "https://finance.yahoo.com/markets/stocks/article/have-robotaxis-hit-a-tipping-point-wall-street-and-experts-are-split-150000412.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:00 ET",
-        "pub_ts": 1795532400.0
-      },
-      {
         "title": "Tesla's Vertical Integration Makes it Uniquely Positioned in US Robotaxi Market, UBS Says",
         "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-apos-vertical-integration-makes-200751408.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1982,6 +1975,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 14:10 ET",
         "pub_ts": 1795547400.0
+      },
+      {
+        "title": "Tesla’s Robotaxi Business Could Generate $3-4B In Annual Recurring Revenue By 2027-End, Says Seaport Global",
+        "url": "https://stocktwits.com/news-articles/markets/equity/tesla-s-robotaxi-business-could-generate-3-4-b-in-annual-recurring-revenue-by-2027-end-says-seaport-global/cNbs0INR9kD?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 13:16 ET",
+        "pub_ts": 1795544173.0
       }
     ],
     "AXP": [
@@ -2393,6 +2393,13 @@
     ],
     "MU": [
       {
+        "title": "Micron vs. Sandisk: Which AI Memory Stock Is the Better Buy?",
+        "url": "https://www.fool.com/investing/2026/11/24/micron-vs-sandisk-which-ai-memory-stock-is-the-better-buy/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 15:25 ET",
+        "pub_ts": 1795551902.0
+      },
+      {
         "title": "Warning for Micron Investors: Bank of America Says “Semis Cuts Have Started”",
         "url": "https://www.tikr.com/blog/warning-for-micron-investors-bank-of-america-says-semis-cuts-have-started?ref=yahoofinance&tlnk=yf-261124-3rcj3g36&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2419,13 +2426,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 12:40 ET",
         "pub_ts": 1795542008.0
-      },
-      {
-        "title": "Nvidia, Anthropic, Micron, HPE, Analog Devices, Insmed, Dollar Tree, and More Stocks That Explain Today’s Market",
-        "url": "https://finance.yahoo.com/m/f7fa0ed2-2c68-3b80-9261-c35639090d03/nvidia%2C-anthropic%2C-micron%2C.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 12:37 ET",
-        "pub_ts": 1795541820.0
       }
     ],
     "SKHY": [
@@ -2578,6 +2578,13 @@
     ],
     "SNDK": [
       {
+        "title": "Micron vs. Sandisk: Which AI Memory Stock Is the Better Buy?",
+        "url": "https://www.fool.com/investing/2026/11/24/micron-vs-sandisk-which-ai-memory-stock-is-the-better-buy/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 15:25 ET",
+        "pub_ts": 1795551902.0
+      },
+      {
         "title": "Warning for Micron Investors: Bank of America Says “Semis Cuts Have Started”",
         "url": "https://www.tikr.com/blog/warning-for-micron-investors-bank-of-america-says-semis-cuts-have-started?ref=yahoofinance&tlnk=yf-261124-3rcj3g36&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2604,50 +2611,43 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:09 ET",
         "pub_ts": 1795536582.0
-      },
-      {
-        "title": "Sandisk Sinks 14% as Memory Stocks Give Back Nvidia’s Huang Rally",
-        "url": "https://www.tikr.com/blog/sandisk-sinks-14-as-memory-stocks-give-back-nvidias-huang-rally?ref=yahoofinance&tlnk=yf-261124-287p6vrp&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:48 ET",
-        "pub_ts": 1795535308.0
       }
     ],
     "BTC-USD": [
       {
-        "title": "China tariff threat knocks Bitcoin below $60,000",
-        "url": "https://www.thestreet.com/crypto/markets/china-tariff-threat-knocks-bitcoin-below-60000?.tsrc=rss",
+        "title": "Is Circle One of the Best Bitcoin and Blockchain Stocks to Buy As Per Wall Street Analysts?",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/circle-one-best-bitcoin-blockchain-204521190.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 15:02 ET",
-        "pub_ts": 1795550572.0
+        "time": "11-24 15:45 ET",
+        "pub_ts": 1795553121.0
       },
       {
-        "title": "ECB expands role of tokenized assets in traditional finance",
-        "url": "https://finance.yahoo.com/video/ecb-expands-role-tokenized-assets-200000958.html?.tsrc=rss",
+        "title": "Securitize’s Average Tokenized Assets Grew 39%. Can It Close the Profit Gap?",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/securitize-average-tokenized-assets-grew-204405054.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 15:00 ET",
-        "pub_ts": 1795550400.0
+        "time": "11-24 15:44 ET",
+        "pub_ts": 1795553045.0
       },
       {
-        "title": "Bitcoin Losses Are the Worst Since FTX. Is the Bottom Near?",
-        "url": "https://decrypt.co/383909/bitcoin-losses-worst-since-ftx-is-bottom-near?.tsrc=rss",
+        "title": "Bullish Looks to Equiniti for Its Next Move Into Tokenized Securities",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/bullish-looks-equiniti-next-move-204245446.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 14:35 ET",
-        "pub_ts": 1795548932.0
+        "time": "11-24 15:42 ET",
+        "pub_ts": 1795552965.0
       },
       {
-        "title": "Jensen Huang’s Nvidia return is a ‘bullish black swan’ and bitcoin is in gold’s ‘doghouse’ era: Eric Balchunas",
-        "url": "http://videos.coindesk.com/previews/4vD9Xjkt?.tsrc=rss",
+        "title": "Gemini’s Card Revenue Rose 82%. Can It Offset the Trading Slump?",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/gemini-card-revenue-rose-82-204103047.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 14:25 ET",
-        "pub_ts": 1795548356.0
+        "time": "11-24 15:41 ET",
+        "pub_ts": 1795552863.0
       },
       {
-        "title": "Nvidia's stock surge is crypto's worst nightmare, Arthur Hayes warns",
-        "url": "https://www.thestreet.com/crypto/markets/nvidias-stock-surge-is-cryptos-worst-nightmare-arthur-hayes-warns?.tsrc=rss",
+        "title": "Is Figure Technology Solutions Among the Best Bitcoin and Blockchain Stocks to Buy According to Wall Street Analysts?",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/figure-technology-solutions-among-best-203932786.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 14:15 ET",
-        "pub_ts": 1795547700.0
+        "time": "11-24 15:39 ET",
+        "pub_ts": 1795552772.0
       }
     ],
     "CRWD": [
@@ -3329,32 +3329,32 @@
     "LITE": 1795553668.1725988,
     "AAOI": 1795553668.1725988,
     "SPCX": 1795553668.1725988,
-    "ASTS": 1795552182.9547813,
+    "ASTS": 1795553774.5728626,
     "AXTI": 1795553668.1725988,
-    "NASA": 1795552182.9547813,
-    "LUNR": 1795552182.9547813,
-    "TSLA": 1795552182.9547813,
-    "AXP": 1795552182.9547813,
-    "RKLB": 1795552182.9547813,
-    "KO": 1795552182.9547813,
-    "FLY": 1795552182.9547813,
-    "INTC": 1795552182.9547813,
-    "VRT": 1795552182.9547813,
-    "HPE": 1795552182.9547813,
-    "DELL": 1795552182.9547813,
-    "OKLO": 1795552182.9547813,
-    "CEG": 1795552182.9547813,
-    "FPS": 1795552182.9547813,
-    "MU": 1795552182.9547813,
-    "SKHY": 1795552182.9547813,
-    "WDC": 1795552182.9547813,
-    "STX": 1795552182.9547813,
-    "MSTR": 1795552182.9547813,
-    "SNDK": 1795552182.9547813,
-    "BTC-USD": 1795552182.9547813,
-    "CRWD": 1795552182.9547813,
-    "ORCL": 1795552182.9547813,
-    "COIN": 1795552182.9547813,
+    "NASA": 1795553774.5728626,
+    "LUNR": 1795553774.5728626,
+    "TSLA": 1795553774.5728626,
+    "AXP": 1795553774.5728626,
+    "RKLB": 1795553774.5728626,
+    "KO": 1795553774.5728626,
+    "FLY": 1795553774.5728626,
+    "INTC": 1795553774.5728626,
+    "VRT": 1795553774.5728626,
+    "HPE": 1795553774.5728626,
+    "DELL": 1795553774.5728626,
+    "OKLO": 1795553774.5728626,
+    "CEG": 1795553774.5728626,
+    "FPS": 1795553774.5728626,
+    "MU": 1795553774.5728626,
+    "SKHY": 1795553774.5728626,
+    "WDC": 1795553774.5728626,
+    "STX": 1795553774.5728626,
+    "MSTR": 1795553774.5728626,
+    "SNDK": 1795553774.5728626,
+    "BTC-USD": 1795553774.5728626,
+    "CRWD": 1795553774.5728626,
+    "ORCL": 1795553774.5728626,
+    "COIN": 1795553774.5728626,
     "LLY": 1795552288.578023,
     "MRNA": 1795552288.578023,
     "NKE": 1795552288.578023,
