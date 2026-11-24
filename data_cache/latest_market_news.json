@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795535686.563,
-  "updated_at_et": "11-24 10:54 ET",
-  "updated_at_kst": "00:54 KST",
+  "updated_at_ts": 1795535794.55,
+  "updated_at_et": "11-24 10:56 ET",
+  "updated_at_kst": "00:56 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -3209,39 +3209,39 @@
     ],
     "ANT": [
       {
-        "title": "Anthropic stock drops below $83 IPO price as day-one pop vanishes",
-        "url": "https://finance.yahoo.com/markets/article/anthropic-stock-drops-below-83-ipo-price-as-day-one-pop-vanishes-143438983.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:34 ET",
-        "pub_ts": 1795530878.0
+        "title": "Beware, The AI Trade May Not Have Bottomed Yet",
+        "url": "https://finnhub.io/api/news?id=9b54774e4ea64a6c20bb99348fa0a94b16042ecf0e038bfedbac60fcecf3211e",
+        "source": "SeekingAlpha",
+        "time": "11-24 05:20 ET",
+        "pub_ts": 1795515649.0
       },
       {
-        "title": "Nvidia jumped 31% on Jensen Huang's return. A day later, the AI trade sold off: AlphaCheck",
-        "url": "https://finance.yahoo.com/markets/article/nvidia-leads-semiconductors-lower-alphacheck-144509267.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:45 ET",
-        "pub_ts": 1795531509.0
+        "title": "How AMD Is Set To Exploit The Nvidia Rout",
+        "url": "https://finnhub.io/api/news?id=d11c8f5c0a4efb8481ecf34f71b2d9b96272ce25ede3a0d3bffdd4b13bd15962",
+        "source": "SeekingAlpha",
+        "time": "11-24 04:52 ET",
+        "pub_ts": 1795513968.0
       },
       {
-        "title": "From the Demo Crew to the Nasdaq Podium: KBF Design Gallery's Adam Vellequette Joins Anthropic to Ring the Closing Bell on IPO Day",
-        "url": "https://finance.yahoo.com/technology/ai/articles/demo-crew-nasdaq-podium-kbf-151500049.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:15 ET",
-        "pub_ts": 1795533300.0
+        "title": "AMD: Forget Jensen, China Is The Problem",
+        "url": "https://finnhub.io/api/news?id=f24b354195cb37212fae9595f1618ca63f9894723c40ce0924d48f4da6b4a515",
+        "source": "SeekingAlpha",
+        "time": "11-24 04:40 ET",
+        "pub_ts": 1795513214.0
       },
       {
-        "title": "Is Anthropic stock a set and forget stock after its IPO debut?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-stock-set-forget-stock-150511184.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:05 ET",
-        "pub_ts": 1795532711.0
+        "title": "Jim Cramer Says Anthropic Must Rally ‘Or Else There Will Be No OpenAI’ — and Calls It Key to Stabilizing ‘the World That Jensen Built’",
+        "url": "https://finnhub.io/api/news?id=962dedeb56595aa2d2cba866d6a8eb5b34061f9f2de96381c931b55c5c2e469a",
+        "source": "Benzinga",
+        "time": "11-24 04:25 ET",
+        "pub_ts": 1795512357.0
       },
       {
-        "title": "Anthropic Stock Falls Below IPO Price Despite Bullish Views From Analysts",
-        "url": "https://finance.yahoo.com/m/4f94eed8-e2b9-313f-ba94-697a4cf1fe70/anthropic-stock-falls-below.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:57 ET",
-        "pub_ts": 1795532274.0
+        "title": "Amgen, Anthropic, Kimberly-Clark and More on CNBC’s ‘Final Trades’",
+        "url": "https://finnhub.io/api/news?id=013adbc2fae3b9544a7c9db40f51af19261163b1c0eb774989cbf74a18d88e14",
+        "source": "Benzinga",
+        "time": "11-24 04:20 ET",
+        "pub_ts": 1795512035.0
       }
     ],
     "XAUUSD": [
@@ -3361,16 +3361,16 @@
     "MRNA": 1795535686.5633228,
     "NKE": 1795535686.5633228,
     "MCD": 1795535686.5633228,
-    "PEP": 1795534268.380824,
-    "XOM": 1795534268.380824,
-    "JPM": 1795534268.380824,
-    "WMT": 1795534268.380824,
+    "PEP": 1795535794.5497663,
+    "XOM": 1795535794.5497663,
+    "JPM": 1795535794.5497663,
+    "WMT": 1795535794.5497663,
     "V": 1795535686.5633228,
-    "CAT": 1795534268.380824,
+    "CAT": 1795535794.5497663,
     "FN": 1795535578.4376297,
     "GLW": 1795535578.4376297,
-    "ANT": 1795534268.380824,
-    "XAUUSD": 1795534268.380824,
+    "ANT": 1795535794.5497663,
+    "XAUUSD": 1795535794.5497663,
     "KOSPI": 1795521635.6703591
   },
   "opex_shield": {
