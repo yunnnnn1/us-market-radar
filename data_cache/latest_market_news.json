@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795541891.51,
-  "updated_at_et": "11-24 12:38 ET",
-  "updated_at_kst": "02:38 KST",
+  "updated_at_ts": 1795541999.677,
+  "updated_at_et": "11-24 12:39 ET",
+  "updated_at_kst": "02:39 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2948,6 +2948,13 @@
     ],
     "XOM": [
       {
+        "title": "'Exxon Got Walloped': $340 Million Legal Blow Paves The Way For More",
+        "url": "https://finance.yahoo.com/m/c2e01d7e-7e84-34bf-85bc-5a563b1d847c/%27exxon-got-walloped%27%3A-%24340.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:28 ET",
+        "pub_ts": 1795541310.0
+      },
+      {
         "title": "ExxonMobil Sinks 14% and Chevron 12% in a Month as Trump Says Iran Wants “to Make a Deal”",
         "url": "https://www.tikr.com/blog/exxonmobil-sinks-14-and-chevron-12-in-a-month-as-trump-says-iran-wants-to-make-a-deal?ref=yahoofinance&tlnk=yf-261124-fw5h76ch&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2974,13 +2981,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 09:17 ET",
         "pub_ts": 1795443425.0
-      },
-      {
-        "title": "ExxonMobil: Announces Pricing Terms, Expiration and Results of Cash Tender Offers for Outstanding 2030 1.900% Senior Notes, 2031 2.150% Senior Notes, 2030 3.482% Notes and 2040 4.227% Notes",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exxonmobil-announces-pricing-terms-expiration-140000286.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 09:00 ET",
-        "pub_ts": 1795442400.0
       }
     ],
     "JPM": [
@@ -3022,6 +3022,27 @@
     ],
     "WMT": [
       {
+        "title": "Stocks give back gains as Anthropic dips below IPO price",
+        "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:44 ET",
+        "pub_ts": 1795535048.0
+      },
+      {
+        "title": "Walmart’s Robot Warehouse Partner Symbotic Just Had Its First Profitable Year",
+        "url": "https://247wallst.com/investing/2026/11/24/walmarts-robot-warehouse-partner-symbotic-just-had-its-first-profitable-year/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:22 ET",
+        "pub_ts": 1795540937.0
+      },
+      {
+        "title": "Symbotic Q4 Earnings Call Details Walmart Deal and Revenue Timing",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/symbotic-q4-earnings-call-details-161300983.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:13 ET",
+        "pub_ts": 1795536780.0
+      },
+      {
         "title": "Consumer Mood Improves Into Holidays, But Risks Loom",
         "url": "https://finance.yahoo.com/video/consumer-mood-improves-holidays-risks-160317427.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3034,27 +3055,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:29 ET",
         "pub_ts": 1795530547.0
-      },
-      {
-        "title": "Three retail stocks to watch this holiday season: Walmart, Target and TJX",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/three-retail-stocks-watch-holiday-135156984.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:51 ET",
-        "pub_ts": 1795528316.0
-      },
-      {
-        "title": "Walmart Raised Its Outlook and the Stock Fell Anyway. Here’s the New Price Target",
-        "url": "https://247wallst.com/investing/2026/11/24/walmart-raised-its-outlook-and-the-stock-fell-anyway-heres-the-new-price-target/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:17 ET",
-        "pub_ts": 1795526262.0
-      },
-      {
-        "title": "Walmart Inc. (WMT) Is a Trending Stock: Facts to Know Before Betting on It",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-inc-wmt-trending-stock-130005748.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:00 ET",
-        "pub_ts": 1795525205.0
       }
     ],
     "V": [
@@ -3096,6 +3096,13 @@
     ],
     "CAT": [
       {
+        "title": "Can Caterpillar Stock Jump 50%?",
+        "url": "https://www.trefis.com/stock/cat/articles/628403/can-caterpillar-stock-jump-50/2026-11-24?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:12 ET",
+        "pub_ts": 1795540359.0
+      },
+      {
         "title": "Caterpillar (CAT) Falls In Broad Pullback As Undervalued Narrative Stays In Focus",
         "url": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-cat-falls-broad-pullback-191143887.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3122,13 +3129,6 @@
         "source": "Yahoo Finance",
         "time": "11-21 22:30 ET",
         "pub_ts": 1795318202.0
-      },
-      {
-        "title": "3 Machinery Dividend Stocks to Buy in December After a Brutal Selloff",
-        "url": "https://247wallst.com/investing/2026/11/21/3-machinery-dividend-stocks-to-buy-in-december-after-a-brutal-selloff/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-21 09:07 ET",
-        "pub_ts": 1795270046.0
       }
     ],
     "FN": [
@@ -3359,16 +3359,16 @@
     "MRNA": 1795541891.5096219,
     "NKE": 1795541891.5096219,
     "MCD": 1795541891.5096219,
-    "PEP": 1795540476.1144483,
-    "XOM": 1795540476.1144483,
-    "JPM": 1795540476.1144483,
-    "WMT": 1795540476.1144483,
+    "PEP": 1795541999.676793,
+    "XOM": 1795541999.676793,
+    "JPM": 1795541999.676793,
+    "WMT": 1795541999.676793,
     "V": 1795541891.5096219,
-    "CAT": 1795540476.1144483,
+    "CAT": 1795541999.676793,
     "FN": 1795541777.6863682,
     "GLW": 1795541777.6863682,
-    "ANT": 1795540476.1144483,
-    "XAUUSD": 1795540476.1144483,
+    "ANT": 1795541999.676793,
+    "XAUUSD": 1795541999.676793,
     "KOSPI": 1795521635.6703591
   },
   "opex_shield": {
