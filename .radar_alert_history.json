@@ -86,8 +86,8 @@
       "last_notified_at": 1795554967.2581744
     },
     "IWM": {
-      "state": "WATCHLIST_ENTRY_READY",
-      "last_notified_at": 1795555075.5762181
+      "state": "NORMAL",
+      "last_notified_at": 0.0
     },
     "IGV": {
       "state": "NORMAL",
@@ -175,7 +175,7 @@
     },
     "HPE": {
       "state": "STOP_LOSS",
-      "last_notified_at": 1795550270.7433984
+      "last_notified_at": 1795557631.9862802
     },
     "PLTR": {
       "state": "NORMAL",
