@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795537075.187,
-  "updated_at_et": "11-24 11:17 ET",
-  "updated_at_kst": "01:17 KST",
+  "updated_at_ts": 1795537183.175,
+  "updated_at_et": "11-24 11:19 ET",
+  "updated_at_kst": "01:19 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1472,6 +1472,13 @@
     ],
     "APLD": [
       {
+        "title": "Why Is Applied Digital Stock Going Up?",
+        "url": "https://www.trefis.com/stock/apld/articles/628619/why-is-applied-digital-stock-going-up/2026-11-24?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:45 ET",
+        "pub_ts": 1795535148.0
+      },
+      {
         "title": "Needham keeps Applied Digital at Buy with $70 target after 150 MW lease at $2.0 million per MW",
         "url": "https://blockspace.media/insight/applied-digital-needham-buy-rating-2/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1498,13 +1505,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 07:15 ET",
         "pub_ts": 1795522546.0
-      },
-      {
-        "title": "Applied Digital Jumps on an 18-Year, $5.4 Billion Hyperscaler Lease With Higher Pricing",
-        "url": "https://www.tikr.com/blog/applied-digital-jumps-on-an-18-year-5-4-billion-hyperscaler-lease-with-higher-pricing?ref=yahoofinance&tlnk=yf-261124-46wrg5h3&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 01:34 ET",
-        "pub_ts": 1795502091.0
       }
     ],
     "VST": [
@@ -1546,6 +1546,13 @@
     ],
     "BE": [
       {
+        "title": "FuelCell Energy Tumbles 10%, Bloom Energy Sinks 8% as Monday’s AI Power Rally Fades; Plug Power Drops 5%",
+        "url": "https://247wallst.com/investing/2026/11/24/fuelcell-energy-tumbles-10-bloom-energy-sinks-8-as-mondays-ai-power-rally-fades-plug-power-drops-5/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:54 ET",
+        "pub_ts": 1795535640.0
+      },
+      {
         "title": "Why Did Bloom Energy Stock Jump Monday?",
         "url": "https://www.trefis.com/stock/be/articles/628613/why-did-bloom-energy-stock-jump-monday/2026-11-24?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1572,16 +1579,16 @@
         "source": "Yahoo Finance",
         "time": "11-23 22:03 ET",
         "pub_ts": 1795489392.0
-      },
-      {
-        "title": "Bloom Energy Stock What Changed in AI Data Center Demand",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-stock-changed-ai-011325575.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 20:13 ET",
-        "pub_ts": 1795482805.0
       }
     ],
     "CRDO": [
+      {
+        "title": "Sandisk Sinks 14% as Memory Stocks Give Back Nvidia’s Huang Rally",
+        "url": "https://www.tikr.com/blog/sandisk-sinks-14-as-memory-stocks-give-back-nvidias-huang-rally?ref=yahoofinance&tlnk=yf-261124-287p6vrp&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:48 ET",
+        "pub_ts": 1795535308.0
+      },
       {
         "title": "Credo's Optical Expansion: Can It Gain Ground Against Rivals?",
         "url": "https://finance.yahoo.com/technology/articles/credos-optical-expansion-gain-ground-120300006.html?.tsrc=rss",
@@ -1609,13 +1616,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 06:12 ET",
         "pub_ts": 1795432371.0
-      },
-      {
-        "title": "150% Upside for Credo Technology? Stifel Thinks So, and Here’s How",
-        "url": "https://www.tikr.com/blog/150-upside-for-credo-technology-stifel-thinks-so-and-heres-how?ref=yahoofinance&tlnk=yf-261122-7jhw3mjq&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-22 05:09 ET",
-        "pub_ts": 1795342163.0
       }
     ],
     "COHR": [
@@ -1775,6 +1775,20 @@
         "pub_ts": 1795531555.0
       },
       {
+        "title": "Lucid Rises 4% as Driverless Robotaxi Testing With Nuro and Uber Begins; Tesla Falls 2% Amid SpaceX Merger Talks, Rivian Edges Higher",
+        "url": "https://247wallst.com/investing/2026/11/24/lucid-rises-4-as-driverless-robotaxi-testing-with-nuro-and-uber-begins-tesla-falls-2-amid-spacex-merger-talks-rivian-edges-higher/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:56 ET",
+        "pub_ts": 1795535796.0
+      },
+      {
+        "title": "Musk: Starlink “Is Illegal” in China. A Merger Would Put It Under One Roof With Tesla’s Shanghai Plant",
+        "url": "https://www.tikr.com/blog/musk-starlink-is-illegal-in-china-a-merger-would-put-it-under-one-roof-with-teslas-shanghai-plant?ref=yahoofinance&tlnk=yf-261124-vfhjmjq2&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:51 ET",
+        "pub_ts": 1795535479.0
+      },
+      {
         "title": "Bill Ackman Says the Fed Is “About to Make Another Mistake” on Dec. 9",
         "url": "https://247wallst.com/investing/2026/11/24/bill-ackman-says-the-fed-is-about-to-make-another-mistake-on-dec-9/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1787,20 +1801,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:28 ET",
         "pub_ts": 1795534083.0
-      },
-      {
-        "title": "Tesla, SpaceX Reportedly Pick Board Members To Negotiate Elon Musk's Mega Merger",
-        "url": "https://finance.yahoo.com/m/d4400d8c-dfaf-3382-a360-877e01e80aec/tesla%2C-spacex-reportedly-pick.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:26 ET",
-        "pub_ts": 1795534007.0
-      },
-      {
-        "title": "How SpaceX GPU Financing At Goldman Sachs Has Changed Its Investment Story",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-gpu-financing-goldman-sachs-151654490.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:16 ET",
-        "pub_ts": 1795533414.0
       }
     ],
     "ASTS": [
@@ -3318,30 +3318,30 @@
     "META": 1795536855.9070807,
     "GOOGL": 1795536855.9070807,
     "MSFT": 1795536855.9070807,
-    "AAPL": 1795535578.4376297,
-    "PLTR": 1795535578.4376297,
-    "NOW": 1795535578.4376297,
-    "AMZN": 1795535578.4376297,
-    "CRWV": 1795535578.4376297,
-    "NBIS": 1795535578.4376297,
-    "APLD": 1795535578.4376297,
-    "VST": 1795535578.4376297,
-    "BE": 1795535578.4376297,
-    "CRDO": 1795535578.4376297,
-    "COHR": 1795535578.4376297,
-    "MRVL": 1795535578.4376297,
-    "LITE": 1795535578.4376297,
-    "AAOI": 1795535578.4376297,
-    "SPCX": 1795535578.4376297,
-    "ASTS": 1795535578.4376297,
-    "AXTI": 1795535578.4376297,
-    "NASA": 1795535578.4376297,
-    "LUNR": 1795535578.4376297,
+    "AAPL": 1795537183.175203,
+    "PLTR": 1795537183.175203,
+    "NOW": 1795537183.175203,
+    "AMZN": 1795537183.175203,
+    "CRWV": 1795537183.175203,
+    "NBIS": 1795537183.175203,
+    "APLD": 1795537183.175203,
+    "VST": 1795537183.175203,
+    "BE": 1795537183.175203,
+    "CRDO": 1795537183.175203,
+    "COHR": 1795537183.175203,
+    "MRVL": 1795537183.175203,
+    "LITE": 1795537183.175203,
+    "AAOI": 1795537183.175203,
+    "SPCX": 1795537183.175203,
+    "ASTS": 1795537183.175203,
+    "AXTI": 1795537183.175203,
+    "NASA": 1795537183.175203,
+    "LUNR": 1795537183.175203,
     "TSLA": 1795535686.5633228,
     "AXP": 1795535686.5633228,
-    "RKLB": 1795535578.4376297,
-    "KO": 1795535578.4376297,
-    "FLY": 1795535578.4376297,
+    "RKLB": 1795537183.175203,
+    "KO": 1795537183.175203,
+    "FLY": 1795537183.175203,
     "INTC": 1795535686.5633228,
     "VRT": 1795535686.5633228,
     "HPE": 1795535686.5633228,
@@ -3369,8 +3369,8 @@
     "WMT": 1795535794.5497663,
     "V": 1795535686.5633228,
     "CAT": 1795535794.5497663,
-    "FN": 1795535578.4376297,
-    "GLW": 1795535578.4376297,
+    "FN": 1795537183.175203,
+    "GLW": 1795537183.175203,
     "ANT": 1795535794.5497663,
     "XAUUSD": 1795535794.5497663,
     "KOSPI": 1795521635.6703591
