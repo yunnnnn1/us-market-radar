@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795533615.413,
-  "updated_at_et": "11-24 10:20 ET",
-  "updated_at_kst": "00:20 KST",
+  "updated_at_ts": 1795533723.803,
+  "updated_at_et": "11-24 10:22 ET",
+  "updated_at_kst": "00:22 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -689,6 +689,13 @@
     ],
     "TLT": [
       {
+        "title": "The New York Fed’s John Williams Won’t Rule Out Back-to-Back Rate Hikes",
+        "url": "https://247wallst.com/investing/2026/11/24/the-new-york-feds-john-williams-wont-rule-out-back-to-back-rate-hikes/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:52 ET",
+        "pub_ts": 1795531942.0
+      },
+      {
         "title": "How Much Do You Really Need Invested to Replace a $195,000 Salary With Dividends?",
         "url": "https://247wallst.com/personal-finance/2026/11/23/how-much-do-you-really-need-invested-to-replace-a-195000-salary-with-dividends/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -715,13 +722,6 @@
         "source": "Yahoo Finance",
         "time": "11-19 13:41 ET",
         "pub_ts": 1795113709.0
-      },
-      {
-        "title": "A Monthly Check at 3 Levels of Risk: VTEB, TLT and EMB, Ranked",
-        "url": "https://247wallst.com/investing/etf/2026/11/19/a-monthly-check-at-3-levels-of-risk-vteb-tlt-and-emb-ranked/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-19 12:33 ET",
-        "pub_ts": 1795109600.0
       }
     ],
     "GLD": [
@@ -911,39 +911,39 @@
     ],
     "NVDA": [
       {
-        "title": "Why bringing Jensen Huang back was Nvidia's 'least bad' option",
-        "url": "https://finance.yahoo.com/video/why-bringing-jensen-huang-back-was-nvidias-least-bad-option-145052627.html?.tsrc=rss",
+        "title": "Nvidia stock in focus: Why CEO comebacks are usually good for shares",
+        "url": "https://finance.yahoo.com/video/nvidia-stock-in-focus-why-ceo-comebacks-are-usually-good-for-shares-151307354.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 09:50 ET",
-        "pub_ts": 1795531852.0
+        "time": "11-24 10:13 ET",
+        "pub_ts": 1795533187.0
       },
       {
-        "title": "Nvidia jumped 31% on Jensen Huang's return. A day later, the AI trade sold off: AlphaCheck",
-        "url": "https://finance.yahoo.com/markets/article/nvidia-leads-semiconductors-lower-alphacheck-144509267.html?.tsrc=rss",
+        "title": "More shoes to drop: Nvidia's turmoil isn't over with Huang back",
+        "url": "https://finance.yahoo.com/video/more-shoes-to-drop-nvidias-turmoil-isnt-over-with-huang-back-145606522.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 09:45 ET",
-        "pub_ts": 1795531509.0
+        "time": "11-24 09:56 ET",
+        "pub_ts": 1795532166.0
       },
       {
-        "title": "This week shows Jensen Huang is now the market's biggest force",
-        "url": "https://finance.yahoo.com/video/this-week-shows-jensen-huang-is-now-the-markets-biggest-force-144049732.html?.tsrc=rss",
+        "title": "Nvidia shares fall by 6% following Huang return rally",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-shares-fall-6-following-150938903.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 09:40 ET",
-        "pub_ts": 1795531249.0
+        "time": "11-24 10:09 ET",
+        "pub_ts": 1795532978.0
       },
       {
-        "title": "The Washington headwinds Nvidia may still face after Huang's return",
-        "url": "https://finance.yahoo.com/video/the-washington-headwinds-nvidia-may-still-face-after-huangs-return-143927684.html?.tsrc=rss",
+        "title": "Amazon Is Reportedly Paying $7.5 Billion for Decart’s AI Chip Software",
+        "url": "https://247wallst.com/investing/2026/11/24/amazon-is-reportedly-paying-7-5-billion-for-decarts-ai-chip-software/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 09:39 ET",
-        "pub_ts": 1795531167.0
+        "time": "11-24 10:08 ET",
+        "pub_ts": 1795532884.0
       },
       {
-        "title": "How Did Cathie Wood Play The Market Crash And Snapback?",
-        "url": "https://finance.yahoo.com/m/47423e5b-bbb4-3535-9f26-0554a5a1c0eb/how-did-cathie-wood-play-the.html?.tsrc=rss",
+        "title": "Is the Stock Market in the Early Stages of a Crash?",
+        "url": "https://www.fool.com/investing/2026/11/24/is-the-stock-market-in-the-early-stages-of-a-crash/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 09:49 ET",
-        "pub_ts": 1795531766.0
+        "time": "11-24 10:06 ET",
+        "pub_ts": 1795532762.0
       }
     ],
     "AMD": [
@@ -1133,6 +1133,13 @@
     ],
     "META": [
       {
+        "title": "Meta launches its Muse personal agent in the UK – but it comes with a big warning",
+        "url": "https://www.independent.co.uk/tech/meta-muse-uk-launch-release-warning-b3090758.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:11 ET",
+        "pub_ts": 1795533108.0
+      },
+      {
         "title": "Meta launches Muse AI agent in UK with several retail partners",
         "url": "https://www.retail-insight-network.com/news/meta-muse-ai-agent-uk-retail-partners/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1159,16 +1166,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 08:50 ET",
         "pub_ts": 1795528242.0
-      },
-      {
-        "title": "Alphabet Vs Meta: Which Stock Is The Better Buy?",
-        "url": "https://www.trefis.com/stock/googl/articles/628287/alphabet-vs-meta-which-stock-is-the-better-buy/2026-11-24?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:46 ET",
-        "pub_ts": 1795527972.0
       }
     ],
     "GOOGL": [
+      {
+        "title": "Have robotaxis hit a tipping point? Wall Street and experts are split.",
+        "url": "https://finance.yahoo.com/markets/stocks/article/have-robotaxis-hit-a-tipping-point-wall-street-and-experts-are-split-150000412.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:00 ET",
+        "pub_ts": 1795532400.0
+      },
       {
         "title": "The Trade Desk's 100-Plus JBP Pipeline: A Key Revenue Catalyst?",
         "url": "https://finance.yahoo.com/media-advertising/articles/trade-desks-100-plus-jbp-125800436.html?.tsrc=rss",
@@ -1177,32 +1184,25 @@
         "pub_ts": 1795525080.0
       },
       {
+        "title": "Amazon Is Reportedly Paying $7.5 Billion for Decart’s AI Chip Software",
+        "url": "https://247wallst.com/investing/2026/11/24/amazon-is-reportedly-paying-7-5-billion-for-decarts-ai-chip-software/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:08 ET",
+        "pub_ts": 1795532884.0
+      },
+      {
+        "title": "Brad Gerstner Says Anthropic Will Be Worth $3 Trillion by the End of Next Year. Is That Realistic?",
+        "url": "https://247wallst.com/investing/2026/11/24/brad-gerstner-says-anthropic-will-be-worth-3-trillion-by-the-end-of-next-year-is-that-realistic/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:47 ET",
+        "pub_ts": 1795531638.0
+      },
+      {
         "title": "Ethereum Foundation Doubles Security Team And Calls A.I. ‘Urgent Risk’",
         "url": "https://www.cryptoprowl.com/releases/ethereum-foundation-doubles-security-team-and-calls-ai-urgent-risk-8042?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 09:42 ET",
         "pub_ts": 1795531320.0
-      },
-      {
-        "title": "Global Neural Processor Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on 22.2% CAGR as NVIDIA, Apple, Alphabet, and Intel Accelerate Edge AI",
-        "url": "https://finance.yahoo.com/technology/ai/articles/global-neural-processor-market-report-144100416.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:41 ET",
-        "pub_ts": 1795531260.0
-      },
-      {
-        "title": "Global Document Collaboration Market Report 2026: Size, Share, Trends and Forecast to 2030 | Capitalize on AI, Cloud and Secure Workflows with Microsoft, Google, Adobe and Box",
-        "url": "https://finance.yahoo.com/technology/articles/global-document-collaboration-market-report-142900939.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:29 ET",
-        "pub_ts": 1795530540.0
-      },
-      {
-        "title": "Tiger Global Cut Its Alphabet Stake 42% as the Stock Hit Its “Lowest P/E Ratio Ever.” Who’s Right?",
-        "url": "https://www.tikr.com/blog/tiger-global-alphabet-stake-cut-lowest-pe-ratio?ref=yahoofinance&tlnk=yf-261124-5w8hm5cf&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:21 ET",
-        "pub_ts": 1795530068.0
       }
     ],
     "MSFT": [
@@ -3288,30 +3288,30 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795532195.8693504,
-    "SOXL": 1795532195.8693504,
-    "SPY": 1795532195.8693504,
-    "DIA": 1795532195.8693504,
-    "SOXX": 1795532195.8693504,
-    "QQQ": 1795532195.8693504,
-    "SMH": 1795532195.8693504,
-    "IWM": 1795532195.8693504,
-    "IGV": 1795532195.8693504,
-    "TLT": 1795532195.8693504,
-    "GLD": 1795532195.8693504,
-    "SQQQ": 1795532195.8693504,
-    "TSM": 1795532195.8693504,
-    "VIXY": 1795532195.8693504,
-    "SOXS": 1795532195.8693504,
-    "NVDA": 1795532195.8693504,
-    "AMD": 1795532195.8693504,
-    "ASML": 1795532195.8693504,
-    "QCOM": 1795532195.8693504,
-    "AVGO": 1795532195.8693504,
-    "AMAT": 1795532195.8693504,
-    "META": 1795532195.8693504,
-    "GOOGL": 1795532195.8693504,
-    "MSFT": 1795532195.8693504,
+    "KORU": 1795533723.8031373,
+    "SOXL": 1795533723.8031373,
+    "SPY": 1795533723.8031373,
+    "DIA": 1795533723.8031373,
+    "SOXX": 1795533723.8031373,
+    "QQQ": 1795533723.8031373,
+    "SMH": 1795533723.8031373,
+    "IWM": 1795533723.8031373,
+    "IGV": 1795533723.8031373,
+    "TLT": 1795533723.8031373,
+    "GLD": 1795533723.8031373,
+    "SQQQ": 1795533723.8031373,
+    "TSM": 1795533723.8031373,
+    "VIXY": 1795533723.8031373,
+    "SOXS": 1795533723.8031373,
+    "NVDA": 1795533723.8031373,
+    "AMD": 1795533723.8031373,
+    "ASML": 1795533723.8031373,
+    "QCOM": 1795533723.8031373,
+    "AVGO": 1795533723.8031373,
+    "AMAT": 1795533723.8031373,
+    "META": 1795533723.8031373,
+    "GOOGL": 1795533723.8031373,
+    "MSFT": 1795533723.8031373,
     "AAPL": 1795532527.8675272,
     "PLTR": 1795532527.8675272,
     "NOW": 1795532527.8675272,
