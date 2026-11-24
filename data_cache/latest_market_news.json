@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795550471.534,
-  "updated_at_et": "11-24 15:01 ET",
-  "updated_at_kst": "05:01 KST",
+  "updated_at_ts": 1795550579.136,
+  "updated_at_et": "11-24 15:02 ET",
+  "updated_at_kst": "05:02 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1956,18 +1956,18 @@
         "pub_ts": 1795532400.0
       },
       {
-        "title": "Tesla and SpaceX assemble deal teams for a merger that could give Musk majority control",
-        "url": "https://finance.yahoo.com/technology/article/tesla-and-spacex-assemble-deal-teams-for-a-merger-that-could-give-musk-majority-control-144555932.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:45 ET",
-        "pub_ts": 1795531555.0
-      },
-      {
         "title": "If SpaceX and Tesla Merge, History Says One Group of Shareholders Usually Wins. Here’s Which Side to Be On.",
         "url": "https://www.fool.com/investing/2026/11/24/if-spacex-and-tesla-merge-history-says-one-group-of-shareholders-usually-wins-here-s-which-side-to-be-on/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 14:19 ET",
         "pub_ts": 1795547994.0
+      },
+      {
+        "title": "Tesla robotaxi business valued at $80B in updated UBS model",
+        "url": "https://www.proactiveinvestors.com/companies/news/1102375/tesla-robotaxi-business-valued-at-80b-in-updated-ubs-model-1102375.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 14:10 ET",
+        "pub_ts": 1795547400.0
       },
       {
         "title": "Tesla’s Robotaxi Business Could Generate $3-4B In Annual Recurring Revenue By 2027-End, Says Seaport Global",
@@ -2615,6 +2615,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "Bitcoin Losses Are the Worst Since FTX. Is the Bottom Near?",
+        "url": "https://decrypt.co/383909/bitcoin-losses-worst-since-ftx-is-bottom-near?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 14:35 ET",
+        "pub_ts": 1795548932.0
+      },
+      {
         "title": "Jensen Huang’s Nvidia return is a ‘bullish black swan’ and bitcoin is in gold’s ‘doghouse’ era: Eric Balchunas",
         "url": "http://videos.coindesk.com/previews/4vD9Xjkt?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2641,16 +2648,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 14:10 ET",
         "pub_ts": 1795547400.0
-      },
-      {
-        "title": "SpaceX Falls 4%, CoreWeave Down 13%, Nebius Down 11% as AI Stocks Give Back Nvidia Rally",
-        "url": "https://www.tikr.com/blog/spacex-falls-4-coreweave-down-13-nebius-down-11-as-ai-stocks-give-back-nvidia-rally?ref=yahoofinance&tlnk=yf-261124-6rfwxx6w&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 13:57 ET",
-        "pub_ts": 1795546678.0
       }
     ],
     "CRWD": [
+      {
+        "title": "CrowdStrike and Zscaler deal makes sense to Jefferies at $43.9 billion",
+        "url": "https://www.proactiveinvestors.com/companies/news/1102374/crowdstrike-and-zscaler-deal-makes-sense-to-jefferies-at-43-9-billion-1102374.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 13:50 ET",
+        "pub_ts": 1795546200.0
+      },
       {
         "title": "CrowdStrike Stocks Move Lower as $43.9 Billion Zscaler Deal Value Shrinks",
         "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-stocks-move-lower-43-174628727.html?.tsrc=rss",
@@ -2678,13 +2685,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:09 ET",
         "pub_ts": 1795536541.0
-      },
-      {
-        "title": "Analyst says CrowdStrike’s $44B Zscaler deal makes it top zero trust player",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/analyst-says-crowdstrike-44b-zscaler-155719764.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:57 ET",
-        "pub_ts": 1795535839.0
       }
     ],
     "ORCL": [
@@ -3329,32 +3329,32 @@
     "LITE": 1795550471.5341573,
     "AAOI": 1795550471.5341573,
     "SPCX": 1795550471.5341573,
-    "ASTS": 1795548983.7161877,
+    "ASTS": 1795550579.1363013,
     "AXTI": 1795550471.5341573,
-    "NASA": 1795548983.7161877,
-    "LUNR": 1795548983.7161877,
-    "TSLA": 1795548983.7161877,
-    "AXP": 1795548983.7161877,
-    "RKLB": 1795548983.7161877,
-    "KO": 1795548983.7161877,
-    "FLY": 1795548983.7161877,
-    "INTC": 1795548983.7161877,
-    "VRT": 1795548983.7161877,
-    "HPE": 1795548983.7161877,
-    "DELL": 1795548983.7161877,
-    "OKLO": 1795548983.7161877,
-    "CEG": 1795548983.7161877,
-    "FPS": 1795548983.7161877,
-    "MU": 1795548983.7161877,
-    "SKHY": 1795548983.7161877,
-    "WDC": 1795548983.7161877,
-    "STX": 1795548983.7161877,
-    "MSTR": 1795548983.7161877,
-    "SNDK": 1795548983.7161877,
-    "BTC-USD": 1795548983.7161877,
-    "CRWD": 1795548983.7161877,
-    "ORCL": 1795548983.7161877,
-    "COIN": 1795548983.7161877,
+    "NASA": 1795550579.1363013,
+    "LUNR": 1795550579.1363013,
+    "TSLA": 1795550579.1363013,
+    "AXP": 1795550579.1363013,
+    "RKLB": 1795550579.1363013,
+    "KO": 1795550579.1363013,
+    "FLY": 1795550579.1363013,
+    "INTC": 1795550579.1363013,
+    "VRT": 1795550579.1363013,
+    "HPE": 1795550579.1363013,
+    "DELL": 1795550579.1363013,
+    "OKLO": 1795550579.1363013,
+    "CEG": 1795550579.1363013,
+    "FPS": 1795550579.1363013,
+    "MU": 1795550579.1363013,
+    "SKHY": 1795550579.1363013,
+    "WDC": 1795550579.1363013,
+    "STX": 1795550579.1363013,
+    "MSTR": 1795550579.1363013,
+    "SNDK": 1795550579.1363013,
+    "BTC-USD": 1795550579.1363013,
+    "CRWD": 1795550579.1363013,
+    "ORCL": 1795550579.1363013,
+    "COIN": 1795550579.1363013,
     "LLY": 1795549088.9952607,
     "MRNA": 1795549088.9952607,
     "NKE": 1795549088.9952607,
