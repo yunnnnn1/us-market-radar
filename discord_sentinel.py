@@ -1657,11 +1657,18 @@ def _slot_already_pushed(state: dict, date_str: str, slot_id: str) -> bool:
     return slot_id in pushed
 
 
+def _sentinel_catchup_disabled() -> bool:
+    """Actions sets this so a fresh runner does not replay missed slots."""
+    val = str(os.environ.get("RADAR_SENTINEL_NO_CATCHUP", "")).strip().lower()
+    return val in ("1", "true", "yes", "on")
+
+
 def check_sentinel_schedule_window(now_dt: Optional[datetime] = None, force: bool = False):
     """
     返回 (should_push, slot_id, slot_name, slot_date)。
     当前落在窗口内且当日未成功推送过，则推送。
     窗口已结束但 12 小时内仍未成功推送，按从早到晚补发最近漏掉的一档。
+    RADAR_SENTINEL_NO_CATCHUP=1 时只保留当前窗口，不补发历史档。
     只有 Discord 确认成功才允许记锁。
     """
     if force:
@@ -1690,6 +1697,9 @@ def check_sentinel_schedule_window(now_dt: Optional[datetime] = None, force: boo
         if _slot_already_pushed(state, today, slot["id"]):
             return False, slot["id"], slot["name"], today
         return True, slot["id"], slot["name"], today
+
+    if _sentinel_catchup_disabled():
+        return False, None, None, None
 
     pending = []
     for day_offset in (0, 1):

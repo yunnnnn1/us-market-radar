@@ -87,6 +87,15 @@ jobs:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
           PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # One repository secret for every Discord destination. Do not echo these values.
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_SENTINEL_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_CLAW_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_DEFENSIVE_FLIGHT_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_DEFENSIVE_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_JIN10_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          # Fresh runners have no slot lock. Skip the 12-hour backlog; open windows still send.
+          RADAR_SENTINEL_NO_CATCHUP: "1"
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
