@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795535469.565,
-  "updated_at_et": "11-24 10:51 ET",
-  "updated_at_kst": "00:51 KST",
+  "updated_at_ts": 1795535578.438,
+  "updated_at_et": "11-24 10:52 ET",
+  "updated_at_kst": "00:52 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1359,6 +1359,20 @@
     ],
     "AMZN": [
       {
+        "title": "Amazon.com (AMZN) Agreed To Acquire Decart AI Optimization Technology For $7.5 Billion",
+        "url": "https://finance.yahoo.com/technology/ai/articles/amazon-com-amzn-agreed-acquire-151147626.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:11 ET",
+        "pub_ts": 1795533107.0
+      },
+      {
+        "title": "Should One Number Scare You About Amazon Stock?",
+        "url": "https://www.trefis.com/stock/amzn/articles/628397/should-one-number-scare-you-about-amazon-stock/2026-11-24?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:08 ET",
+        "pub_ts": 1795532925.0
+      },
+      {
         "title": "Amazon Is Reportedly Paying $7.5 Billion for Decart’s AI Chip Software",
         "url": "https://247wallst.com/investing/2026/11/24/amazon-is-reportedly-paying-7-5-billion-for-decarts-ai-chip-software/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1378,23 +1392,23 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:00 ET",
         "pub_ts": 1795528800.0
-      },
-      {
-        "title": "Amazon Publication Reveals Explosive Downside to Stock Market Euphoria",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-publication-reveals-explosive-downside-135900582.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:59 ET",
-        "pub_ts": 1795528740.0
-      },
-      {
-        "title": "Is The Market Ignoring Amazon And Peers' Cash Collapse?",
-        "url": "https://www.trefis.com/stock/spy/articles/628300/is-the-market-ignoring-amazon-and-peers-cash-collapse/2026-11-24?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:58 ET",
-        "pub_ts": 1795528713.0
       }
     ],
     "CRWV": [
+      {
+        "title": "What Sent CoreWeave Stock Higher On Monday?",
+        "url": "https://www.trefis.com/stock/crwv/articles/628618/what-sent-coreweave-stock-higher-on-monday/2026-11-24?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:38 ET",
+        "pub_ts": 1795534689.0
+      },
+      {
+        "title": "Databricks Co-Founder Says Just One Neocloud Has “Robust Enough Isolation.” My Guess: It’s Probably Not CoreWeave",
+        "url": "https://www.tikr.com/blog/databricks-co-founder-says-just-one-neocloud-has-robust-enough-isolation-my-guess-its-probably-not-coreweave?ref=yahoofinance&tlnk=yf-261124-wcppqc25&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:22 ET",
+        "pub_ts": 1795533759.0
+      },
       {
         "title": "Anthropic Tumbles 9%, Trades Below IPO Price Despite Canaccord’s $135 Target; CoreWeave and Nebius Drop 8%",
         "url": "https://247wallst.com/investing/2026/11/24/anthropic-tumbles-9-breaks-below-ipo-price-despite-canaccords-135-target-coreweave-and-nebius-drop-8/?.tsrc=rss",
@@ -1410,28 +1424,21 @@
         "pub_ts": 1795516202.0
       },
       {
-        "title": "CRWV, NBIS And IREN Rally In A ‘Good Day’ For Neoclouds — Databricks Co-Founder Flags Security Gaps At ‘Top’ Neoclouds",
-        "url": "https://stocktwits.com/news-articles/markets/equity/crwv-nbis-iren-rally-good-day-neoclouds-databricks-co-founder-security-gaps-top-neoclouds/cNbsRgYR9kB?.tsrc=rss",
+        "title": "“Tell Me Why I am Wrong”: Bill Ackman Lambasts Looming Fed Interest Rate Hike",
+        "url": "https://www.tikr.com/blog/tell-me-why-i-am-wrong-bill-ackman-lambasts-looming-fed-interest-rate-hike?ref=yahoofinance&tlnk=yf-261124-r3mj4vmj&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 03:23 ET",
-        "pub_ts": 1795508637.0
-      },
-      {
-        "title": "Leopold Aschenbrenner Sold His $745 Million CoreWeave Stake Last Quarter. It’s Down 45% Since Sept. 30",
-        "url": "https://www.tikr.com/blog/leopold-aschenbrenner-sold-his-745-million-coreweave-stake-last-quarter-its-down-45-since-sept-30?ref=yahoofinance&tlnk=yf-261124-88h66jmm&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 03:07 ET",
-        "pub_ts": 1795507648.0
-      },
-      {
-        "title": "CoreWeave Inc. (CRWV) Just Turned the Tables. What Changed?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-inc-crwv-just-turned-031501579.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 22:15 ET",
-        "pub_ts": 1795490101.0
+        "time": "11-24 10:03 ET",
+        "pub_ts": 1795532590.0
       }
     ],
     "NBIS": [
+      {
+        "title": "Databricks Co-Founder Says Just One Neocloud Has “Robust Enough Isolation.” My Guess: It’s Probably Not CoreWeave",
+        "url": "https://www.tikr.com/blog/databricks-co-founder-says-just-one-neocloud-has-robust-enough-isolation-my-guess-its-probably-not-coreweave?ref=yahoofinance&tlnk=yf-261124-wcppqc25&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:22 ET",
+        "pub_ts": 1795533759.0
+      },
       {
         "title": "Anthropic Tumbles 9%, Trades Below IPO Price Despite Canaccord’s $135 Target; CoreWeave and Nebius Drop 8%",
         "url": "https://247wallst.com/investing/2026/11/24/anthropic-tumbles-9-breaks-below-ipo-price-despite-canaccords-135-target-coreweave-and-nebius-drop-8/?.tsrc=rss",
@@ -1459,16 +1466,23 @@
         "source": "Yahoo Finance",
         "time": "11-24 08:00 ET",
         "pub_ts": 1795525200.0
-      },
-      {
-        "title": "SpaceX Is “Following the Exact Same Pattern That Meta Followed” After Its IPO, per Steve Jurvetson. Time to Buy?",
-        "url": "https://www.tikr.com/blog/spacex-is-following-the-exact-same-pattern-that-meta-followed-after-its-ipo-per-steve-jurvetson-time-to-buy?ref=yahoofinance&tlnk=yf-261123-gjp9pmgx&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 18:27 ET",
-        "pub_ts": 1795476445.0
       }
     ],
     "APLD": [
+      {
+        "title": "Needham keeps Applied Digital at Buy with $70 target after 150 MW lease at $2.0 million per MW",
+        "url": "https://blockspace.media/insight/applied-digital-needham-buy-rating-2/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:29 ET",
+        "pub_ts": 1795534175.0
+      },
+      {
+        "title": "JonesTrading reiterates Applied Digital Buy, $70 target after 18-year, $5.4 billion hyperscaler lease",
+        "url": "https://blockspace.media/insight/applied-digital-signs-hyperscaler-lease-2/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:12 ET",
+        "pub_ts": 1795533158.0
+      },
       {
         "title": "Applied Digital Achieves Initial 25 MW Ready for Service in Harwood, North Dakota, for Hyperscaler, Completes Base-Build Commissioning of First 75 MW",
         "url": "https://finance.yahoo.com/technology/ai/articles/applied-digital-achieves-initial-25-130000311.html?.tsrc=rss",
@@ -1489,20 +1503,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 01:34 ET",
         "pub_ts": 1795502091.0
-      },
-      {
-        "title": "Dead Cat Bounce? AI Stocks Climb 20%+, but IREN, Applied Digital Stay Down 50%+",
-        "url": "https://beincrypto.com/ai-stocks-dead-cat-bounce-iren/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 22:05 ET",
-        "pub_ts": 1795489500.0
-      },
-      {
-        "title": "Applied Digital Stock Surged 20% on a Hyperscaler Deal. What to Know About Its $41 Billion in Leases",
-        "url": "https://www.fool.com/investing/2026/11/23/applied-digital-stock-surged-20-on-a-hyperscaler-deal-what-to-know-about-its-usd41-billion-in-leases/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 18:57 ET",
-        "pub_ts": 1795478222.0
       }
     ],
     "VST": [
@@ -1544,11 +1544,25 @@
     ],
     "BE": [
       {
+        "title": "Why Did Bloom Energy Stock Jump Monday?",
+        "url": "https://www.trefis.com/stock/be/articles/628613/why-did-bloom-energy-stock-jump-monday/2026-11-24?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:38 ET",
+        "pub_ts": 1795534689.0
+      },
+      {
         "title": "Bloom Energy vs. NextEra Energy: Which Power Stock Is a Better Buy?",
         "url": "https://www.fool.com/coverage/better-buy/2026/11/24/bloom-energy-vs-nextera-energy-which-power-stock-is-a-better-buy/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 06:51 ET",
         "pub_ts": 1795521062.0
+      },
+      {
+        "title": "Bloom Energy Signs Its Largest Deal Abroad: 900 MW for NTT Data Starting in 2027",
+        "url": "https://www.tikr.com/blog/bloom-energy-signs-its-largest-deal-abroad-900-mw-for-ntt-data-starting-in-2027?ref=yahoofinance&tlnk=yf-261124-7qqhvjvp&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 01:38 ET",
+        "pub_ts": 1795502317.0
       },
       {
         "title": "BE Stock Clocks Best Gains In Nearly 5 Months: Bloom Energy Bears Dominate Sentiment But Bulls Smell A Comeback: ‘AI Buildout Is Only 15%’",
@@ -1563,20 +1577,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 20:13 ET",
         "pub_ts": 1795482805.0
-      },
-      {
-        "title": "AI Energy Stocks, From Fuel Cells To Uranium, Rebound As Nvidia Soars",
-        "url": "https://finance.yahoo.com/m/e2fe0876-9cdd-3a2d-96b4-7860f584a20d/ai-energy-stocks%2C-from-fuel.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 16:19 ET",
-        "pub_ts": 1795468796.0
-      },
-      {
-        "title": "Why Bloom Energy Is Up Today",
-        "url": "https://www.fool.com/investing/2026/11/23/why-bloom-energy-is-up-today/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 13:40 ET",
-        "pub_ts": 1795459201.0
       }
     ],
     "CRDO": [
@@ -1773,32 +1773,32 @@
         "pub_ts": 1795531555.0
       },
       {
-        "title": "“Tell Me Why I am Wrong”: Bill Ackman Lambasts Looming Fed Interest Rate Hike",
-        "url": "https://www.tikr.com/blog/tell-me-why-i-am-wrong-bill-ackman-lambasts-looming-fed-interest-rate-hike?ref=yahoofinance&tlnk=yf-261124-r3mj4vmj&.tsrc=rss",
+        "title": "Bill Ackman Says the Fed Is “About to Make Another Mistake” on Dec. 9",
+        "url": "https://247wallst.com/investing/2026/11/24/bill-ackman-says-the-fed-is-about-to-make-another-mistake-on-dec-9/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 10:03 ET",
-        "pub_ts": 1795532590.0
+        "time": "11-24 10:28 ET",
+        "pub_ts": 1795534085.0
       },
       {
-        "title": "Billionaire Bill Ackman Just Warned the Fed Could Trigger a Recession on December 9. Here’s How",
-        "url": "https://247wallst.com/investing/2026/11/24/billionaire-bill-ackman-just-warned-the-fed-could-trigger-a-recession-on-december-9-heres-how/?.tsrc=rss",
+        "title": "Boeing vs. Space Exploration Technologies: Which Industrials Stock Is a Better Buy for 2027?",
+        "url": "https://www.fool.com/coverage/better-buy/2026/11/24/boeing-vs-space-exploration-technologies-which-industrials-stock-is-a-better-buy-for-2027/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 09:47 ET",
-        "pub_ts": 1795531660.0
+        "time": "11-24 10:28 ET",
+        "pub_ts": 1795534083.0
       },
       {
-        "title": "Global Military Satellite Communications Market Report 2026-2030 | Lockheed Martin, RTX, SpaceX and Viasat Accelerate AI, LEO and Jam-Resistant Networks Toward $29.58 Billion",
-        "url": "https://finance.yahoo.com/technology/articles/global-military-satellite-communications-market-144300653.html?.tsrc=rss",
+        "title": "Tesla, SpaceX Reportedly Pick Board Members To Negotiate Elon Musk's Mega Merger",
+        "url": "https://finance.yahoo.com/m/d4400d8c-dfaf-3382-a360-877e01e80aec/tesla%2C-spacex-reportedly-pick.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 09:43 ET",
-        "pub_ts": 1795531380.0
+        "time": "11-24 10:26 ET",
+        "pub_ts": 1795534007.0
       },
       {
-        "title": "Why Tesla-SpaceX Merger Talks Face ‘More Friction Than People Assume’",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63575567/tesla-spacex-merger-talks-friction?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "title": "How SpaceX GPU Financing At Goldman Sachs Has Changed Its Investment Story",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-gpu-financing-goldman-sachs-151654490.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 08:45 ET",
-        "pub_ts": 1795527909.0
+        "time": "11-24 10:16 ET",
+        "pub_ts": 1795533414.0
       }
     ],
     "ASTS": [
@@ -2025,6 +2025,13 @@
     ],
     "RKLB": [
       {
+        "title": "Why Rocket Lab Demand News Could Make ETFs Worth A Look",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-rocket-lab-demand-news-151414622.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:14 ET",
+        "pub_ts": 1795533254.0
+      },
+      {
         "title": "Jim Cramer Says Rocket Lab Has Gotten “Too Cheap” After a 60% Crash",
         "url": "https://www.tikr.com/blog/rocket-lab-stock-too-cheap-jim-cramer?ref=yahoofinance&tlnk=yf-261124-mc28x37q&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2051,16 +2058,16 @@
         "source": "Yahoo Finance",
         "time": "11-23 10:58 ET",
         "pub_ts": 1795449503.0
-      },
-      {
-        "title": "Rocket Lab Soars 10% After Its Worst Week Ever as Space Stocks Rebound",
-        "url": "https://www.tikr.com/blog/rocket-lab-soars-10-after-its-worst-week-ever-as-space-stocks-rebound?ref=yahoofinance&tlnk=yf-261123-mr875rpx&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 10:02 ET",
-        "pub_ts": 1795446132.0
       }
     ],
     "KO": [
+      {
+        "title": "Coca-Cola (KO) Appoints David Elkins As CFO Effective April 2027",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-appoints-david-151354439.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:13 ET",
+        "pub_ts": 1795533234.0
+      },
       {
         "title": "Coca-Cola at $95 or PepsiCo at $140: Which Dividend King Could Turn $1,000 Into More Money by 2036?",
         "url": "https://www.fool.com/investing/2026/11/24/coca-cola-at-usd95-or-pepsico-at-usd140-which-dividend-king-could-turn-usd1-000-into-more-money-by-2036/?.tsrc=rss",
@@ -2088,13 +2095,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 22:04 ET",
         "pub_ts": 1795489446.0
-      },
-      {
-        "title": "The Coca-Cola Company Names David Elkins as Incoming Chief Financial Officer",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-company-names-david-213000723.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 16:30 ET",
-        "pub_ts": 1795469400.0
       }
     ],
     "FLY": [
@@ -3316,30 +3316,30 @@
     "META": 1795535253.700444,
     "GOOGL": 1795535253.700444,
     "MSFT": 1795535253.700444,
-    "AAPL": 1795534050.877912,
-    "PLTR": 1795534050.877912,
-    "NOW": 1795534050.877912,
-    "AMZN": 1795534050.877912,
-    "CRWV": 1795534050.877912,
-    "NBIS": 1795534050.877912,
-    "APLD": 1795534050.877912,
-    "VST": 1795534050.877912,
-    "BE": 1795534050.877912,
-    "CRDO": 1795534050.877912,
-    "COHR": 1795534050.877912,
-    "MRVL": 1795534050.877912,
-    "LITE": 1795534050.877912,
-    "AAOI": 1795534050.877912,
-    "SPCX": 1795534050.877912,
-    "ASTS": 1795534050.877912,
-    "AXTI": 1795534050.877912,
-    "NASA": 1795534050.877912,
-    "LUNR": 1795534050.877912,
+    "AAPL": 1795535578.4376297,
+    "PLTR": 1795535578.4376297,
+    "NOW": 1795535578.4376297,
+    "AMZN": 1795535578.4376297,
+    "CRWV": 1795535578.4376297,
+    "NBIS": 1795535578.4376297,
+    "APLD": 1795535578.4376297,
+    "VST": 1795535578.4376297,
+    "BE": 1795535578.4376297,
+    "CRDO": 1795535578.4376297,
+    "COHR": 1795535578.4376297,
+    "MRVL": 1795535578.4376297,
+    "LITE": 1795535578.4376297,
+    "AAOI": 1795535578.4376297,
+    "SPCX": 1795535578.4376297,
+    "ASTS": 1795535578.4376297,
+    "AXTI": 1795535578.4376297,
+    "NASA": 1795535578.4376297,
+    "LUNR": 1795535578.4376297,
     "TSLA": 1795534159.1878235,
     "AXP": 1795534159.1878235,
-    "RKLB": 1795534050.877912,
-    "KO": 1795534050.877912,
-    "FLY": 1795534050.877912,
+    "RKLB": 1795535578.4376297,
+    "KO": 1795535578.4376297,
+    "FLY": 1795535578.4376297,
     "INTC": 1795534159.1878235,
     "VRT": 1795534159.1878235,
     "HPE": 1795534159.1878235,
@@ -3367,8 +3367,8 @@
     "WMT": 1795534268.380824,
     "V": 1795534159.1878235,
     "CAT": 1795534268.380824,
-    "FN": 1795534050.877912,
-    "GLW": 1795534050.877912,
+    "FN": 1795535578.4376297,
+    "GLW": 1795535578.4376297,
     "ANT": 1795534268.380824,
     "XAUUSD": 1795534268.380824,
     "KOSPI": 1795521635.6703591
