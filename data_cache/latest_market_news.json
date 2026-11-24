@@ -1,9 +1,23 @@
 {
-  "updated_at_ts": 1795557618.965,
-  "updated_at_et": "11-24 17:00 ET",
-  "updated_at_kst": "07:00 KST",
+  "updated_at_ts": 1795557961.101,
+  "updated_at_et": "11-24 17:06 ET",
+  "updated_at_kst": "07:06 KST",
   "macro_calendar": [],
   "macro_flashes": [
+    {
+      "id": "20261125060203333800",
+      "title": "美伊冲突： 1. 以媒：以防长称伊朗“正在研发化学武器”。 2. 据伊朗迈赫尔通讯社：伊…",
+      "summary": "美伊冲突： 1. 以媒：以防长称伊朗“正在研发化学武器”。 2. 据伊朗迈赫尔通讯社：伊拉克埃尔比勒发生强烈爆炸。 3. 伊朗警告美国：中东军事基地无论迁往何处均在打击范围内。 4. 伊朗声称在霍尔木兹海峡上空摧毁两架卢卡斯和MQ-9无人机。 5. 伊朗革命卫队：一艘集装箱船在霍尔木兹海峡附近沿“未经授权”航线航行时遭到袭击。 6. 据NBC新闻：消息人士称，特朗普政府官员正讨论将伊朗领导人列为打击目标；特朗普尚未作出决定。 也门冲突： 1. 英国政府宣布针对胡塞武装的制裁方案。 2. 沙特联军：胡塞武装蓄意袭击平民和民用设施的行为必将遭到坚决回击。 3. 也门政府军：胡塞武装已推进至距临时首都亚丁约60公里处，但不会攻占该市。 4. 据沙特阿拉伯阿拉比亚电视台：利雅得金融中心的一座塔楼遭到恐怖袭击。沙特方面表示，袭击造成的金融影响“非常有限”。 和平谈判： 1. 伊朗议会议长卡利巴夫：在美国满足伊朗提出的七项谈判条件之前，不会进行新的谈判。 2. 伊朗总统佩泽希齐扬：我们正在与美国及其他国家进行谈判。我们寻求通过对话解决问题，但这并不意味着我们会屈服。 海峡情况： 1. 伊朗高官：伊朗仍坚定决心打破封锁。 2. 波斯湾水道管理局：将26艘拖船列入不合规名单。 3. 据伊朗官方媒体：伊朗海军称两艘油轮在霍尔木兹海峡触雷起火。 4. 卡塔尔与美国联合声明：我们重申对维护霍尔木兹海峡航行自由的承诺。 5. 伊朗陆军司令哈塔米：在伊朗的条件得到满足之前，伊朗必须加强霍尔木兹海峡管理。 其他情况： 1. 以媒：以防长称伊朗“正在研发化学武器”。 2. 石油出口回升缓解战争冲击，沙特上调经济预期。 3. 美国驻以色列大使：不确定对以军事援助是否会如特朗普所承诺的那样在今年结束。",
+      "keywords": [
+        "特朗普",
+        "中东"
+      ],
+      "pub_ts": 1795557723.0,
+      "time_et": "11-24 17:02 ET",
+      "time_bj": "06:02 BJ",
+      "time_kst": "07:02 KST",
+      "time_display": "17:02 ET / 06:02 BJ"
+    },
     {
       "id": "20261125053340344800",
       "title": "美国至11月20日当周API原油库存 12.6万桶，预期90万桶，前值527.8万桶。",
@@ -336,21 +350,6 @@
       "time_bj": "16:37 BJ",
       "time_kst": "17:37 KST",
       "time_display": "03:37 ET / 16:37 BJ"
-    },
-    {
-      "id": "20261124163005603800",
-      "title": "整理：每日债券市场要闻速递（2026-11-24）",
-      "summary": "1. 美联储威廉姆斯称不排除连续加息可能，通胀压力影响美债利率预期。 2. 全国地方债发行规模接近10万亿元，新增专项债发行进入收尾阶段。 3. 信用债收益率多数上行，信用利差走阔且低等级债券调整压力加大。 4. 央行发行2026年第十期和第十一期央行票据，发行量分别为200亿元、300亿元。 5. 华夏幸福子公司被申请重整，路劲同步推进离岸债务重组。 6. 金道科技发行可转债申请获中国证监会同意注册批复。 7. 德国商业银行考虑部分撤出美债市场：清算新规推高成本，或退出回购。 8. AI企业融资需求推高公司债供给，摩根资产管理称或限制全球债市上涨空间。 9. 韩国考虑明年1月发行约30亿美元债，以补充外汇储备。 10. 瑞士百达：债券重回战略配置价值，发达市场主权债需在收益率曲线与国家间高度精选。 11. 人工智能公司Firmus考虑发行约15亿美元债券。",
-      "keywords": [
-        "美联储",
-        "加息",
-        "美债"
-      ],
-      "pub_ts": 1795509005.0,
-      "time_et": "11-24 03:30 ET",
-      "time_bj": "16:30 BJ",
-      "time_kst": "17:30 KST",
-      "time_display": "03:30 ET / 16:30 BJ"
     }
   ],
   "ticker_news": {
@@ -911,39 +910,39 @@
     ],
     "NVDA": [
       {
-        "title": "US Equity Markets Mixed Amid Decline in AI Stocks, US Proposed Tariff Increase",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-mixed-amid-212239002.html?.tsrc=rss",
+        "title": "Why Nvidia is 'bar none' the 'cheapest growth stock in the market'",
+        "url": "https://finance.yahoo.com/video/why-nvidia-is-bar-none-the-cheapest-growth-stock-in-the-market-213425021.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 16:22 ET",
-        "pub_ts": 1795555359.0
+        "time": "11-24 16:34 ET",
+        "pub_ts": 1795556065.0
       },
       {
-        "title": "Prediction: A $10,000 Investment in Nvidia Stock Will Be Worth This Much by Year-End 2027",
-        "url": "https://www.fool.com/investing/2026/11/24/prediction-a-usd10-000-investment-in-nvidia-stock-will-be-worth-this-much-by-year-end-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:22 ET",
-        "pub_ts": 1795555322.0
-      },
-      {
-        "title": "Huang's return fails to dispel doubts as Nvidia shares drop",
+        "title": "Nvidia's Huang says he is in therapy as comeback rally fades",
         "url": "https://finance.yahoo.com/markets/stocks/articles/huangs-return-fails-dispel-doubts-164158462.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 16:19 ET",
-        "pub_ts": 1795555153.0
+        "time": "11-24 17:01 ET",
+        "pub_ts": 1795557661.0
       },
       {
-        "title": "Nvidia's Historic 31% Rally Unravels In Just One Day. AI Stocks Plunge As Nasdaq Sinks 2%.",
-        "url": "https://www.ibtimes.com/us-stocks-mixed-ai-selloff-consumer-confidence-3810150?.tsrc=rss",
+        "title": "Don’t chase this Nvidia rally — buy these 3 stocks instead",
+        "url": "https://www.thestreet.com/video/dont-chase-the-nvidia-rally-buy-these-3-stocks-instead?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 16:14 ET",
-        "pub_ts": 1795554890.0
+        "time": "11-24 16:54 ET",
+        "pub_ts": 1795557262.0
       },
       {
-        "title": "Did Nvidia Make a Big Mistake by Reinstating Jensen Huang as CEO so Quickly?",
-        "url": "https://www.fool.com/investing/2026/11/24/did-nvidia-make-a-big-mistake-by-reinstating-jensen-huang-as-ceo/?.tsrc=rss",
+        "title": "Is Jensen Huang the AI 'spirit animal' who will save the stock market?",
+        "url": "https://www.usatoday.com/story/money/personal-finance/2026/11/24/what-jensen-huangs-return-to-nvidia-means-for-your-401k/92947391007/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 16:05 ET",
-        "pub_ts": 1795554302.0
+        "time": "11-24 16:53 ET",
+        "pub_ts": 1795557208.0
+      },
+      {
+        "title": "Best Buy Co., Inc. Q3 2027 Earnings Call Summary",
+        "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-best-buy-co-inc-q3-2027-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:50 ET",
+        "pub_ts": 1795557033.0
       }
     ],
     "AMD": [
@@ -2974,11 +2973,11 @@
         "pub_ts": 1795451040.0
       },
       {
-        "title": "ExxonMobil vs. Equinor: Which is the Stronger Integrated Player?",
-        "url": "https://finance.yahoo.com/energy/articles/exxonmobil-vs-equinor-stronger-integrated-143900281.html?.tsrc=rss",
+        "title": "3 Non-AI Stocks to Buy for Long-Term Dividends and Stability",
+        "url": "https://www.fool.com/investing/2026/11/24/3-non-ai-stocks-to-buy-for-long-term-dividends-and-stability/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-23 09:39 ET",
-        "pub_ts": 1795444740.0
+        "time": "11-24 15:12 ET",
+        "pub_ts": 1795551122.0
       }
     ],
     "JPM": [
@@ -3205,39 +3204,39 @@
     ],
     "ANT": [
       {
-        "title": "US Equity Markets Mixed Amid Decline in AI Stocks, US Proposed Tariff Increase",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-mixed-amid-212239002.html?.tsrc=rss",
+        "title": "The blunt reality for post-IPO Anthropic investors should be aware of",
+        "url": "https://finance.yahoo.com/video/the-blunt-reality-for-post-ipo-anthropic-investors-should-be-aware-of-213033373.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 16:22 ET",
-        "pub_ts": 1795555359.0
+        "time": "11-24 16:30 ET",
+        "pub_ts": 1795555833.0
       },
       {
-        "title": "ProShares ANTU ETF Targeting 2x Daily Returns of Anthropic Leads All 2x Long Anthropic ETFs With $10 Million in First-Day Dollar Trading Volume",
-        "url": "https://finance.yahoo.com/markets/options/articles/proshares-antu-etf-targeting-2x-210900933.html?.tsrc=rss",
+        "title": "Why the Jensen Huang rally faded so quickly",
+        "url": "https://finance.yahoo.com/video/why-the-jensen-huang-rally-faded-so-quickly-194511286.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 16:09 ET",
-        "pub_ts": 1795554540.0
+        "time": "11-24 14:45 ET",
+        "pub_ts": 1795549511.0
       },
       {
-        "title": "Update: US Equity Indexes Mixed as Investors Rotate into Defensives Amid Weakening AI Trade",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-investors-205450035.html?.tsrc=rss",
+        "title": "Anthropic IPO: Here's What a $5,000 Investment Could Look Like in 5 Years",
+        "url": "https://www.fool.com/investing/2026/11/24/anthropic-ipo-here-s-what-a-usd5-000-investment-could-look-like-in-5-years/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 15:54 ET",
-        "pub_ts": 1795553690.0
+        "time": "11-24 16:37 ET",
+        "pub_ts": 1795556222.0
       },
       {
-        "title": "Anthropic Stock Slips Below $83 IPO Price — Analysts See 50%+ Upside",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-stock-slips-below-83-205313083.html?.tsrc=rss",
+        "title": "Anthropic IPO Shares: Flip Now Or Hold A Year?",
+        "url": "https://www.trefis.com/stock/ant/articles/628272/anthropic-ipo-shares-flip-now-or-hold-a-year/2026-11-24?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 15:53 ET",
-        "pub_ts": 1795553593.0
+        "time": "11-24 16:36 ET",
+        "pub_ts": 1795556197.0
       },
       {
-        "title": "Anthropic stock falls below IPO price; CEO sells $280 million in shares",
-        "url": "https://www.thestreet.com/investing/stocks/anthropic-stock-falls-below-ipo-price-ceo-sells-280-million-in-shares?.tsrc=rss",
+        "title": "Nvidia, Anthropic end sharply lower as AI selloff resumes",
+        "url": "https://finance.yahoo.com/technology/ai/articles/tech-firms-soar-huangs-return-023753159.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 15:37 ET",
-        "pub_ts": 1795552634.0
+        "time": "11-24 16:29 ET",
+        "pub_ts": 1795555765.0
       }
     ],
     "XAUUSD": [
@@ -3288,23 +3287,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795556339.07211,
-    "SOXL": 1795556339.07211,
-    "SPY": 1795556339.07211,
-    "DIA": 1795556339.07211,
-    "SOXX": 1795556339.07211,
-    "QQQ": 1795556339.07211,
-    "SMH": 1795556339.07211,
-    "IWM": 1795556339.07211,
-    "IGV": 1795556339.07211,
-    "TLT": 1795556339.07211,
-    "GLD": 1795556339.07211,
-    "SQQQ": 1795556339.07211,
-    "TSM": 1795556339.07211,
-    "VIXY": 1795556339.07211,
-    "SOXS": 1795556339.07211,
-    "NVDA": 1795556339.07211,
-    "AMD": 1795556339.07211,
+    "KORU": 1795557961.1007452,
+    "SOXL": 1795557961.1007452,
+    "SPY": 1795557961.1007452,
+    "DIA": 1795557961.1007452,
+    "SOXX": 1795557961.1007452,
+    "QQQ": 1795557961.1007452,
+    "SMH": 1795557961.1007452,
+    "IWM": 1795557961.1007452,
+    "IGV": 1795557961.1007452,
+    "TLT": 1795557961.1007452,
+    "GLD": 1795557961.1007452,
+    "SQQQ": 1795557961.1007452,
+    "TSM": 1795557961.1007452,
+    "VIXY": 1795557961.1007452,
+    "SOXS": 1795557961.1007452,
+    "NVDA": 1795557961.1007452,
+    "AMD": 1795557961.1007452,
     "ASML": 1795556776.1251295,
     "QCOM": 1795556776.1251295,
     "AVGO": 1795556776.1251295,
@@ -3357,17 +3356,17 @@
     "MRNA": 1795556991.1086907,
     "NKE": 1795556991.1086907,
     "MCD": 1795556991.1086907,
-    "PEP": 1795556339.07211,
-    "XOM": 1795556339.07211,
-    "JPM": 1795556339.07211,
-    "WMT": 1795556339.07211,
+    "PEP": 1795557961.1007452,
+    "XOM": 1795557961.1007452,
+    "JPM": 1795557961.1007452,
+    "WMT": 1795557961.1007452,
     "V": 1795556991.1086907,
-    "CAT": 1795556339.07211,
+    "CAT": 1795557961.1007452,
     "FN": 1795556776.1251295,
     "GLW": 1795556776.1251295,
-    "ANT": 1795556339.07211,
-    "XAUUSD": 1795556339.07211,
-    "KOSPI": 1795556339.07211
+    "ANT": 1795557961.1007452,
+    "XAUUSD": 1795557961.1007452,
+    "KOSPI": 1795557961.1007452
   },
   "opex_shield": {
     "date": "2026-11-24",
@@ -3386,7 +3385,7 @@
   "calendar_banner": {
     "level": "idle_with_flash",
     "headline": "📡 宏观消息面监控中 · 今日暂无美股五星级经济数据大考",
-    "detail": "⚡ 最新核心快讯 (16:33 ET / 05:33 BJ) [原油]：美国至11月20日当周API原油库存 12.6万桶，预期90万桶，前值527.8万桶。",
+    "detail": "⚡ 最新核心快讯 (17:02 ET / 06:02 BJ) [特朗普] [中东]：美伊冲突： 1. 以媒：以防长称伊朗“正在研发化学武器”。 2. 据伊朗迈赫尔通讯社：伊拉克埃尔比勒发生强烈爆炸。 3. 伊朗警告美国：中东军事基地无论迁往何处均在打击范围内。 4. 伊朗声",
     "event_name": "",
     "minutes_left": 0,
     "opex_shield": {
