@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795539817.147,
-  "updated_at_et": "11-24 12:03 ET",
-  "updated_at_kst": "02:03 KST",
+  "updated_at_ts": 1795539925.644,
+  "updated_at_et": "11-24 12:05 ET",
+  "updated_at_kst": "02:05 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -564,11 +564,11 @@
         "pub_ts": 1795518197.0
       },
       {
-        "title": "QQQ Paid a $300,000 Holder $1,524 in Dividends Over the Past Year While VYM Paid $7,164",
-        "url": "https://247wallst.com/investing/etf/2026/11/23/qqq-paid-a-300000-holder-1524-in-dividends-over-the-past-year-while-vym-paid-7164/?.tsrc=rss",
+        "title": "Before the bell: Bitcoin can’t catch a break",
+        "url": "https://www.thestreet.com/crypto/markets/before-the-bell-bitcoin-cant-catch-a-break-?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-23 21:03 ET",
-        "pub_ts": 1795485819.0
+        "time": "11-24 11:47 ET",
+        "pub_ts": 1795538844.0
       },
       {
         "title": "Here's Why Investors Should Go Defensive Now: ETFs in Focus",
@@ -585,6 +585,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 06:09 ET",
         "pub_ts": 1795518582.0
+      },
+      {
+        "title": "Micron Jumped 19% Monday, Then Sank Double Digits. Here’s What That Swing Means for SMH Holders",
+        "url": "https://247wallst.com/investing/etf/2026/11/24/micron-jumped-19-monday-then-sank-double-digits-heres-what-that-swing-means-for-smh-holders/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:52 ET",
+        "pub_ts": 1795539162.0
       },
       {
         "title": "Michael Burry Sells Most of His Nvidia Puts Before Stock Jumps 31%",
@@ -606,13 +613,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 18:33 ET",
         "pub_ts": 1795476805.0
-      },
-      {
-        "title": "Semiconductor Stocks like Micron, Marvell, and Bloom Energy See Massive Gains as Jensen Huang Returns to NVIDIA",
-        "url": "https://247wallst.com/videos/semiconductor-stocks-like-micron-marvell-and-bloom-energy-see-massive-gains-as-jensen-huang-returns-to-nvidia/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 10:52 ET",
-        "pub_ts": 1795449140.0
       }
     ],
     "IWM": [
@@ -622,6 +622,13 @@
         "source": "Yahoo Finance",
         "time": "11-10 09:15 ET",
         "pub_ts": 1794320100.0
+      },
+      {
+        "title": "Stock Market Today: Jensen’s Return to Nvidia Is Causing Index Indigestion",
+        "url": "https://247wallst.com/investing/2026/11/24/stock-market-today-jensens-return-to-nvidia-is-causing-index-indigestion/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:50 ET",
+        "pub_ts": 1795539001.0
       },
       {
         "title": "iShares Russell 2000 (IWM) Adds Glaukos and Jackson Financial on Nov. 20",
@@ -643,13 +650,6 @@
         "source": "Yahoo Finance",
         "time": "11-20 06:04 ET",
         "pub_ts": 1795172676.0
-      },
-      {
-        "title": "Stock Market Today: Anthropic IPO Revives the AI Trade, but Fear Is Growing",
-        "url": "https://247wallst.com/investing/2026/11/19/stock-market-today-anthropic-ipo-revives-the-ai-trade-but-fear-is-growing/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-19 09:06 ET",
-        "pub_ts": 1795097193.0
       }
     ],
     "IGV": [
@@ -809,6 +809,20 @@
         "pub_ts": 1795529795.0
       },
       {
+        "title": "Taiwan Semiconductor Stocks Fall 2.78% After Taipei Shares Hit the 10% Limit",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-stocks-fall-2-165022272.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:50 ET",
+        "pub_ts": 1795539022.0
+      },
+      {
+        "title": "Wall Street Sees Up to 130% Upside in 3 AI Stocks",
+        "url": "https://finance.yahoo.com/technology/ai/articles/wall-street-sees-130-upside-164501454.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:45 ET",
+        "pub_ts": 1795538701.0
+      },
+      {
         "title": "Global Microprocessor Chip Manufacturing Market Report 2026: Size, Trends, and Forecast to 2030 | Capture $210.23B AI Chip Demand with TSMC, NVIDIA, Samsung, Intel, and AMD",
         "url": "https://finance.yahoo.com/technology/ai/articles/global-microprocessor-chip-manufacturing-market-144000160.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -821,20 +835,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 07:54 ET",
         "pub_ts": 1795524840.0
-      },
-      {
-        "title": "TSMC Stock Just Had Its Best Day Since 2008",
-        "url": "https://247wallst.com/investing/2026/11/24/tsmc-stock-just-had-its-best-day-since-2008/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 07:38 ET",
-        "pub_ts": 1795523899.0
-      },
-      {
-        "title": "TSMC and SK Hynix Stocks Jump After Nvidia Reinstates Jensen Huang as CEO",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-sk-hynix-stocks-jump-120300756.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 07:03 ET",
-        "pub_ts": 1795521780.0
       }
     ],
     "VIXY": [
@@ -913,39 +913,39 @@
     ],
     "NVDA": [
       {
-        "title": "Wall Street May Not Be Ready for What’s Coming Next for These 3 AI Stocks",
-        "url": "https://247wallst.com/investing/2026/11/24/wall-street-may-not-be-ready-for-whats-coming-next-for-these-3-ai-stocks/?.tsrc=rss",
+        "title": "Huang faces 3 camps of GOP skeptics ahead of congressional grilling",
+        "url": "https://finance.yahoo.com/markets/article/huang-faces-3-camps-of-gop-skeptics-ahead-of-congressional-grilling-164400869.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 11:33 ET",
-        "pub_ts": 1795537993.0
+        "time": "11-24 11:44 ET",
+        "pub_ts": 1795538640.0
       },
       {
-        "title": "Even With Jensen Huang Back as CEO, Nvidia Is Down 31% From Its High, While Broadcom Is Down 35%. Here’s the Better Buy Now.",
-        "url": "https://www.fool.com/investing/2026/11/24/even-with-jensen-huang-back-as-ceo-nvidia-is-down-31-from-its-high-while-broadcom-is-down-35-here-s-the-better-buy-now/?.tsrc=rss",
+        "title": "Nvidia Faces Fresh China Chip Restrictions Despite Huang's Return",
+        "url": "https://finance.yahoo.com/technology/articles/nvidia-faces-fresh-china-chip-165836607.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 11:22 ET",
-        "pub_ts": 1795537322.0
+        "time": "11-24 11:58 ET",
+        "pub_ts": 1795539516.0
       },
       {
-        "title": "If I Could Buy Just 1 Dividend King With $1,000 This Month, It Would Be This One",
-        "url": "https://www.fool.com/investing/2026/11/24/if-i-could-buy-just-1-dividend-king-with-1000-this-month-it-would-be-this-one/?.tsrc=rss",
+        "title": "Sam Altman's OpenAI Took a $30 Billion Investment From Nvidia Earlier in 2026. Here's Why That Deal Matters for Both Companies' Investors.",
+        "url": "https://www.fool.com/investing/2026/11/24/sam-altmans-openai-took-a-30-billion-investment/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 11:20 ET",
-        "pub_ts": 1795537259.0
+        "time": "11-24 11:53 ET",
+        "pub_ts": 1795539180.0
       },
       {
-        "title": "Nvidia keeps saying it’s not Enron, but it just brought back a disgraced CEO — as Enron did months before its bankruptcy",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-keeps-saying-not-enron-162000769.html?.tsrc=rss",
+        "title": "Stock Market Today: Jensen’s Return to Nvidia Is Causing Index Indigestion",
+        "url": "https://247wallst.com/investing/2026/11/24/stock-market-today-jensens-return-to-nvidia-is-causing-index-indigestion/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 11:20 ET",
-        "pub_ts": 1795537200.0
+        "time": "11-24 11:50 ET",
+        "pub_ts": 1795539001.0
       },
       {
-        "title": "NVIDIA Stocks Fall 5.11% as Washington Keeps Pressure After Huang's Return",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stocks-fall-5-11-161858034.html?.tsrc=rss",
+        "title": "“The Bank of Nvidia Is Back,” Says CNBC’s David Faber. Its Investments Rose From $7 Billion to $110 Billion",
+        "url": "https://www.tikr.com/blog/the-bank-of-nvidia-is-back-says-cnbcs-david-faber-its-investments-rose-from-7-billion-to-110-billion?ref=yahoofinance&tlnk=yf-261124-hfqgvgp4&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 11:18 ET",
-        "pub_ts": 1795537138.0
+        "time": "11-24 11:49 ET",
+        "pub_ts": 1795538978.0
       }
     ],
     "AMD": [
@@ -1052,11 +1052,11 @@
         "pub_ts": 1795429202.0
       },
       {
-        "title": "George Soros and 20 Other Big Funds Bought Qualcomm Last Quarter. David Tepper and 14 Others Sold. Who’s Right?",
-        "url": "https://www.tikr.com/blog/george-soros-and-20-other-big-funds-bought-qualcomm-last-quarter-david-tepper-and-14-others-sold-whos-right?ref=yahoofinance&tlnk=yf-261120-7fxgch3m&.tsrc=rss",
+        "title": "Micron Just Dropped 19% in a Month. Is It Time to Sell, or Load Up?",
+        "url": "https://www.tikr.com/blog/micron-just-dropped-19-in-a-month-is-it-time-to-sell-or-load-up?ref=yahoofinance&tlnk=yf-261124-8fvqwgxg&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-20 19:35 ET",
-        "pub_ts": 1795221315.0
+        "time": "11-24 04:46 ET",
+        "pub_ts": 1795513576.0
       }
     ],
     "AVGO": [
@@ -1066,6 +1066,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:16 ET",
         "pub_ts": 1795529795.0
+      },
+      {
+        "title": "Broadcom Stocks Fall 3.98% as Google TPU Order Report Clouds AI Outlook",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stocks-fall-3-98-165405396.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:54 ET",
+        "pub_ts": 1795539245.0
       },
       {
         "title": "Wall Street May Not Be Ready for What’s Coming Next for These 3 AI Stocks",
@@ -1087,13 +1094,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 06:20 ET",
         "pub_ts": 1795519202.0
-      },
-      {
-        "title": "JPMorgan U.S. Tech Leaders (JTEK) Sells $27.7 Million of Broadcom on Nov. 20",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-u-tech-leaders-jtek-110436195.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 06:04 ET",
-        "pub_ts": 1795518276.0
       }
     ],
     "AMAT": [
@@ -1135,6 +1135,13 @@
     ],
     "META": [
       {
+        "title": "Mark Zuckerberg's Meta Faces New Battle Over Control",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mark-zuckerbergs-meta-faces-battle-164556554.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:45 ET",
+        "pub_ts": 1795538756.0
+      },
+      {
         "title": "What Moved Meta Stock?",
         "url": "https://www.trefis.com/stock/meta/articles/628634/what-moved-meta-stock/2026-11-24?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1161,13 +1168,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:45 ET",
         "pub_ts": 1795535135.0
-      },
-      {
-        "title": "Meta launches its Muse personal agent in the UK – but it comes with a big warning",
-        "url": "https://www.independent.co.uk/tech/meta-muse-uk-launch-release-warning-b3090758.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:11 ET",
-        "pub_ts": 1795533108.0
       }
     ],
     "GOOGL": [
@@ -1179,32 +1179,32 @@
         "pub_ts": 1795532400.0
       },
       {
+        "title": "Broadcom Stocks Fall 3.98% as Google TPU Order Report Clouds AI Outlook",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stocks-fall-3-98-165405396.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:54 ET",
+        "pub_ts": 1795539245.0
+      },
+      {
+        "title": "Amazon Makes $7.5 Billion AI Move to Challenge Nvidia",
+        "url": "https://finance.yahoo.com/technology/ai/articles/amazon-makes-7-5-billion-164215378.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:42 ET",
+        "pub_ts": 1795538535.0
+      },
+      {
+        "title": "Anthropic Broke Its $83 IPO Price Overnight. Jim Cramer Blames “the Achilles Heel of Overnight Trading”",
+        "url": "https://www.tikr.com/blog/anthropic-broke-its-83-ipo-price-overnight-jim-cramer-blames-the-achilles-heel-of-overnight-trading?ref=yahoofinance&tlnk=yf-261124-77mr4w5c&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:28 ET",
+        "pub_ts": 1795537688.0
+      },
+      {
         "title": "The Fed Just Said AI May Be a Major Threat to the U.S. Economy",
         "url": "https://247wallst.com/investing/2026/11/24/the-fed-just-said-ai-may-be-a-major-threat-to-the-u-s-economy/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 11:22 ET",
         "pub_ts": 1795537344.0
-      },
-      {
-        "title": "What Moved Meta Stock?",
-        "url": "https://www.trefis.com/stock/meta/articles/628634/what-moved-meta-stock/2026-11-24?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:20 ET",
-        "pub_ts": 1795537206.0
-      },
-      {
-        "title": "Alphabet (GOOGL) Expands AI Search With Wallet Data",
-        "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-googl-expands-ai-search-161031910.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:10 ET",
-        "pub_ts": 1795536631.0
-      },
-      {
-        "title": "What Is Driving Palantir Stock?",
-        "url": "https://www.trefis.com/stock/pltr/articles/628622/what-is-driving-palantir-stock-2/2026-11-24?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:09 ET",
-        "pub_ts": 1795536563.0
       }
     ],
     "MSFT": [
@@ -1214,6 +1214,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:42 ET",
         "pub_ts": 1795534975.0
+      },
+      {
+        "title": "Nvidia Shatters Microsoft's Historic Stock Market Record",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-shatters-microsofts-historic-stock-164825111.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:48 ET",
+        "pub_ts": 1795538905.0
       },
       {
         "title": "Oracle Is a Higher-Leverage, Cash-Hungry Twin to Microsoft",
@@ -1235,13 +1242,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:29 ET",
         "pub_ts": 1795534140.0
-      },
-      {
-        "title": "Can Intel Turn Its Microsoft Cloud Deal Into a Bigger Packaging Win?",
-        "url": "https://finance.yahoo.com/technology/articles/intel-turn-microsoft-cloud-deal-145700825.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:57 ET",
-        "pub_ts": 1795532220.0
       }
     ],
     "AAPL": [
@@ -3290,30 +3290,30 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795538382.3355198,
-    "SOXL": 1795538382.3355198,
-    "SPY": 1795538382.3355198,
-    "DIA": 1795538382.3355198,
-    "SOXX": 1795538382.3355198,
-    "QQQ": 1795538382.3355198,
-    "SMH": 1795538382.3355198,
-    "IWM": 1795538382.3355198,
-    "IGV": 1795538382.3355198,
-    "TLT": 1795538382.3355198,
-    "GLD": 1795538382.3355198,
-    "SQQQ": 1795538382.3355198,
-    "TSM": 1795538382.3355198,
-    "VIXY": 1795538382.3355198,
-    "SOXS": 1795538382.3355198,
-    "NVDA": 1795538382.3355198,
-    "AMD": 1795538382.3355198,
-    "ASML": 1795538382.3355198,
-    "QCOM": 1795538382.3355198,
-    "AVGO": 1795538382.3355198,
-    "AMAT": 1795538382.3355198,
-    "META": 1795538382.3355198,
-    "GOOGL": 1795538382.3355198,
-    "MSFT": 1795538382.3355198,
+    "KORU": 1795539925.644299,
+    "SOXL": 1795539925.644299,
+    "SPY": 1795539925.644299,
+    "DIA": 1795539925.644299,
+    "SOXX": 1795539925.644299,
+    "QQQ": 1795539925.644299,
+    "SMH": 1795539925.644299,
+    "IWM": 1795539925.644299,
+    "IGV": 1795539925.644299,
+    "TLT": 1795539925.644299,
+    "GLD": 1795539925.644299,
+    "SQQQ": 1795539925.644299,
+    "TSM": 1795539925.644299,
+    "VIXY": 1795539925.644299,
+    "SOXS": 1795539925.644299,
+    "NVDA": 1795539925.644299,
+    "AMD": 1795539925.644299,
+    "ASML": 1795539925.644299,
+    "QCOM": 1795539925.644299,
+    "AVGO": 1795539925.644299,
+    "AMAT": 1795539925.644299,
+    "META": 1795539925.644299,
+    "GOOGL": 1795539925.644299,
+    "MSFT": 1795539925.644299,
     "AAPL": 1795538707.7242947,
     "PLTR": 1795538707.7242947,
     "NOW": 1795538707.7242947,
