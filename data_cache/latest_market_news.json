@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795559997.032,
-  "updated_at_et": "11-24 17:39 ET",
-  "updated_at_kst": "07:39 KST",
+  "updated_at_ts": 1795560101.052,
+  "updated_at_et": "11-24 17:41 ET",
+  "updated_at_kst": "07:41 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2838,6 +2838,27 @@
     ],
     "NKE": [
       {
+        "title": "Dick’s Chairman Says Nike ‘Made the Right Decision’ on Jordan Even Though It Will Be ‘Painful’ in the Near-term",
+        "url": "https://wwd.com/footwear-news/shoe-industry-news/dicks-foot-locker-jordan-brand-nike-earnings-takeaways-q3-1239464926/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:00 ET",
+        "pub_ts": 1795554057.0
+      },
+      {
+        "title": "Why Is Nike (NKE) Stock Up Today? Dick's Strong Earnings Lift Retailers",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-nike-nke-stock-today-204540602.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 15:45 ET",
+        "pub_ts": 1795553140.0
+      },
+      {
+        "title": "Nike Soars 6% as Competitor Calls US Foot Locker “A Particular Bright Spot”",
+        "url": "https://www.tikr.com/blog/nike-soars-6-as-competitor-calls-us-foot-locker-a-particular-bright-spot?ref=yahoofinance&tlnk=yf-261124-5cjqgw7j&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 13:57 ET",
+        "pub_ts": 1795546636.0
+      },
+      {
         "title": "Nike Sells Shoes. Can It Stop Paying For AI?",
         "url": "https://www.trefis.com/stock/nke/articles/627485/nike-sells-shoes-can-it-stop-paying-for-ai/2026-11-24?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2850,30 +2871,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 12:14 ET",
         "pub_ts": 1795540480.0
-      },
-      {
-        "title": "NIKE vs. Steven Madden: Which Footwear Stock Has an Edge Now?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nike-vs-steven-madden-footwear-164100873.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:41 ET",
-        "pub_ts": 1795538460.0
-      },
-      {
-        "title": "Nike Just Promised $12 Billion in Dividends. Should That Reassure Income Investors?",
-        "url": "https://www.fool.com/investing/2026/11/24/nike-just-promised-usd12-billion-in-dividends-should-that-reassure-income-investors/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:05 ET",
-        "pub_ts": 1795532702.0
-      },
-      {
-        "title": "Global Football Equipment Market 2026-2035: Trends, Forecast, and Competitive Analysis Featuring Nike, Adidas, Puma, Under Armour, ASICS Corp., and New Balance Athletics Among Others",
-        "url": "https://finance.yahoo.com/markets/articles/global-football-equipment-market-2026-145200695.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:52 ET",
-        "pub_ts": 1795531920.0
       }
     ],
     "MCD": [
+      {
+        "title": "Wendy’s has inflated prices for up to 10 years, lawsuit claims — weeks after McDonald's was accused of a similar scheme",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/wendy-inflated-prices-10-years-223000770.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 17:30 ET",
+        "pub_ts": 1795559400.0
+      },
       {
         "title": "Crispier Chicken and Remodels Pit McDonald's Against Franchisees",
         "url": "https://finance.yahoo.com/video/crispier-chicken-remodels-pit-mcdonalds-172814756.html?.tsrc=rss",
@@ -2901,13 +2908,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 04:26 ET",
         "pub_ts": 1795512362.0
-      },
-      {
-        "title": "Colgate-Palmolive vs. McDonald's: Which Consumer Goods Stock Is a Better Buy for 2027?",
-        "url": "https://www.fool.com/coverage/better-buy/2026/11/23/colgate-palmolive-vs-mcdonalds-which-consumer-goods-stock-is-a-better-buy-for-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 17:31 ET",
-        "pub_ts": 1795473062.0
       }
     ],
     "PEP": [
@@ -3356,15 +3356,15 @@
     "CRWD": 1795559997.0317757,
     "ORCL": 1795559997.0317757,
     "COIN": 1795559997.0317757,
-    "LLY": 1795558561.5676615,
-    "MRNA": 1795558561.5676615,
-    "NKE": 1795558561.5676615,
-    "MCD": 1795558561.5676615,
+    "LLY": 1795560101.0524993,
+    "MRNA": 1795560101.0524993,
+    "NKE": 1795560101.0524993,
+    "MCD": 1795560101.0524993,
     "PEP": 1795559480.890514,
     "XOM": 1795559480.890514,
     "JPM": 1795559480.890514,
     "WMT": 1795559480.890514,
-    "V": 1795558561.5676615,
+    "V": 1795560101.0524993,
     "CAT": 1795559480.890514,
     "FN": 1795559893.5752475,
     "GLW": 1795559893.5752475,
