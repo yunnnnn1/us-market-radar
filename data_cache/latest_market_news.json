@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795540258.142,
-  "updated_at_et": "11-24 12:10 ET",
-  "updated_at_kst": "02:10 KST",
+  "updated_at_ts": 1795540366.959,
+  "updated_at_et": "11-24 12:12 ET",
+  "updated_at_kst": "02:12 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1963,6 +1963,13 @@
         "pub_ts": 1795531555.0
       },
       {
+        "title": "Tesla Stocks Slip 1.74% Even as EU Registrations Jump 83.5% in October",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-stocks-slip-1-74-165500772.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:55 ET",
+        "pub_ts": 1795539300.0
+      },
+      {
         "title": "At Today’s Prices, a Tesla Share Is Worth 3 SpaceX Shares. One Tesla Bull Wants 4.2",
         "url": "https://www.tikr.com/blog/at-todays-prices-a-tesla-share-is-worth-3-spacex-shares-one-tesla-bull-wants-4-2?ref=yahoofinance&tlnk=yf-261124-fpm9fr23&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1975,13 +1982,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:01 ET",
         "pub_ts": 1795536100.0
-      },
-      {
-        "title": "Lucid Rises 4% as Driverless Robotaxi Testing With Nuro and Uber Begins; Tesla Falls 2% Amid SpaceX Merger Talks, Rivian Edges Higher",
-        "url": "https://247wallst.com/investing/2026/11/24/lucid-rises-4-as-driverless-robotaxi-testing-with-nuro-and-uber-begins-tesla-falls-2-amid-spacex-merger-talks-rivian-edges-higher/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:56 ET",
-        "pub_ts": 1795535796.0
       }
     ],
     "AXP": [
@@ -2282,6 +2282,13 @@
     ],
     "OKLO": [
       {
+        "title": "Oklo Slides 7% as Monday’s Nuclear Rebound Fades; NuScale Power and Energy Fuels Drop 6%",
+        "url": "https://247wallst.com/investing/2026/11/24/oklo-slides-7-as-mondays-nuclear-rebound-fades-nuscale-power-and-energy-fuels-drop-6/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:52 ET",
+        "pub_ts": 1795539143.0
+      },
+      {
         "title": "Wall Street Is Watching AI Stocks. But This Stock Could Be a Bigger Nuclear Energy Opportunity",
         "url": "https://247wallst.com/investing/2026/11/23/wall-street-is-watching-ai-stocks-but-this-stock-could-be-a-bigger-nuclear-energy-opportunity/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2308,16 +2315,16 @@
         "source": "Yahoo Finance",
         "time": "11-21 17:39 ET",
         "pub_ts": 1795300741.0
-      },
-      {
-        "title": "Wall Street Has Cut Its Oklo Target Nearly in Half. Guggenheim Still Sees 91% Upside",
-        "url": "https://www.tikr.com/blog/wall-street-has-cut-its-oklo-target-nearly-in-half-guggenheim-still-sees-91-upside?ref=yahoofinance&tlnk=yf-261121-m6hj4mwq&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-21 02:04 ET",
-        "pub_ts": 1795244654.0
       }
     ],
     "CEG": [
+      {
+        "title": "Constellation Energy Corporation (CEG) Upgraded to Buy: Here's What You Should Know",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/constellation-energy-corporation-ceg-upgraded-160004395.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:00 ET",
+        "pub_ts": 1795536004.0
+      },
       {
         "title": "Can CEG's Improving Cash Flow Support Its Expanding Investment Plans?",
         "url": "https://finance.yahoo.com/energy/articles/cegs-improving-cash-flow-support-150500837.html?.tsrc=rss",
@@ -2345,13 +2352,6 @@
         "source": "Yahoo Finance",
         "time": "11-20 14:20 ET",
         "pub_ts": 1795202440.0
-      },
-      {
-        "title": "Constellation Energy Sinks 10% in a Week as AI Stocks Slide, Giving Back Its Earnings Jump. Time to Buy?",
-        "url": "https://www.tikr.com/blog/constellation-energy-sinks-10-in-a-week-as-ai-stocks-slide-giving-back-its-earnings-jump-time-to-buy?ref=yahoofinance&tlnk=yf-261120-526gc6qr&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-20 10:30 ET",
-        "pub_ts": 1795188631.0
       }
     ],
     "FPS": [
@@ -2393,6 +2393,27 @@
     ],
     "MU": [
       {
+        "title": "Micron Stock Drops 11% as AI Chip Selloff Resumes",
+        "url": "https://finance.yahoo.com/technology/ai/articles/micron-stock-drops-11-ai-165731356.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:57 ET",
+        "pub_ts": 1795539451.0
+      },
+      {
+        "title": "Micron Jumped 19% Monday, Then Sank Double Digits. Here’s What That Swing Means for SMH Holders",
+        "url": "https://247wallst.com/investing/etf/2026/11/24/micron-jumped-19-monday-then-sank-double-digits-heres-what-that-swing-means-for-smh-holders/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:52 ET",
+        "pub_ts": 1795539162.0
+      },
+      {
+        "title": "Why Micron Stock Dove Today",
+        "url": "https://www.fool.com/investing/2026/11/24/why-micron-stock-dove-today/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:47 ET",
+        "pub_ts": 1795538872.0
+      },
+      {
         "title": "Micron Stocks Fall 6.63% as Chip Rally Cools Before December 17 Results",
         "url": "https://finance.yahoo.com/markets/stocks/articles/micron-stocks-fall-6-63-163349159.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2405,27 +2426,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:34 ET",
         "pub_ts": 1795534440.0
-      },
-      {
-        "title": "Nvidia, Anthropic, Micron, HPE, Analog Devices, Insmed, and More Stocks That Explain Today’s Market",
-        "url": "https://finance.yahoo.com/m/f7fa0ed2-2c68-3b80-9261-c35639090d03/nvidia%2C-anthropic%2C-micron%2C.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:04 ET",
-        "pub_ts": 1795532640.0
-      },
-      {
-        "title": "BNP Paribas cuts Micron rating on risks to 2028 hyperscaler capacity plans",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/bnp-paribas-cuts-micron-rating-145304912.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:53 ET",
-        "pub_ts": 1795531984.0
-      },
-      {
-        "title": "Micron Sinks 7% as Chip Stocks Give Back Huang Rally",
-        "url": "https://www.tikr.com/blog/micron-sinks-7-as-chip-stocks-give-back-huang-rally?ref=yahoofinance&tlnk=yf-261124-3pwpgx5g&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:51 ET",
-        "pub_ts": 1795531919.0
       }
     ],
     "SKHY": [
@@ -2615,6 +2615,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "Before the bell: Bitcoin can’t catch a break",
+        "url": "https://www.thestreet.com/crypto/markets/before-the-bell-bitcoin-cant-catch-a-break-?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:47 ET",
+        "pub_ts": 1795538844.0
+      },
+      {
         "title": "Bitcoin, ethereum gain ground under new CFTC rules",
         "url": "https://finance.yahoo.com/video/bitcoin-ethereum-gain-ground-under-new-cftc-rules-164157249.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2641,16 +2648,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:16 ET",
         "pub_ts": 1795536962.0
-      },
-      {
-        "title": "Fidelity Adds Aave, Chainlink and Uniswap to Its Crypto Trading Platform",
-        "url": "https://www.cryptoprowl.com/releases/fidelity-adds-aave-chainlink-and-uniswap-to-its-crypto-trading-platform-8054?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:11 ET",
-        "pub_ts": 1795536660.0
       }
     ],
     "CRWD": [
+      {
+        "title": "Zscaler's Combination With CrowdStrike Makes Strategic Sense, RBC Says",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/zscaler-apos-combination-crowdstrike-makes-165151346.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:51 ET",
+        "pub_ts": 1795539111.0
+      },
       {
         "title": "Wedbush Just Named CrowdStrike a 'Top Stock to Buy'",
         "url": "https://finance.yahoo.com/markets/stocks/articles/wedbush-just-named-crowdstrike-top-160901927.html?.tsrc=rss",
@@ -2678,16 +2685,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:00 ET",
         "pub_ts": 1795532455.0
-      },
-      {
-        "title": "Micron downgraded, GameStop initiated: Wall Street's top analyst calls",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/snap-upgraded-pinterest-downgrade-wall-135144855.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:48 ET",
-        "pub_ts": 1795531695.0
       }
     ],
     "ORCL": [
+      {
+        "title": "Oracle Stocks Fall 4.31%, Slipping Further Below Its $116 Share Sale Price",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-stocks-fall-4-31-165513234.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:55 ET",
+        "pub_ts": 1795539313.0
+      },
       {
         "title": "Oracle Is a Higher-Leverage, Cash-Hungry Twin to Microsoft",
         "url": "https://247wallst.com/investing/2026/11/24/oracle-is-a-higher-leverage-cash-hungry-twin-to-microsoft/?.tsrc=rss",
@@ -2715,16 +2722,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:35 ET",
         "pub_ts": 1795530902.0
-      },
-      {
-        "title": "Global Succession Planning and Management Software Market Report 2026 | Capitalize on AI and Cloud Growth to $8.64B by 2030 with Oracle, SAP, Workday, Paycom, and Eightfold AI",
-        "url": "https://finance.yahoo.com/technology/articles/global-succession-planning-management-software-143500275.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:35 ET",
-        "pub_ts": 1795530900.0
       }
     ],
     "COIN": [
+      {
+        "title": "What Just Happened To Coinbase Stock?",
+        "url": "https://www.trefis.com/stock/coin/articles/628640/what-just-happened-to-coinbase-stock/2026-11-24?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:30 ET",
+        "pub_ts": 1795537849.0
+      },
       {
         "title": "Could Coinbase Actually Climb 70%? Or Is Goldman Sachs Totally Wrong?",
         "url": "https://www.tikr.com/blog/could-coinbase-actually-climb-70-or-is-goldman-sachs-totally-wrong?ref=yahoofinance&tlnk=yf-261124-3g59p4hf&.tsrc=rss",
@@ -2752,13 +2759,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 06:51 ET",
         "pub_ts": 1795521075.0
-      },
-      {
-        "title": "Bitcoin bottoms on 4-year anniversary of FTX low: Nvidia rips 30%",
-        "url": "https://finance.yahoo.com/video/bitcoin-bottoms-4-anniversary-ftx-170000657.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 12:00 ET",
-        "pub_ts": 1795453200.0
       }
     ],
     "LLY": [
@@ -3333,37 +3333,37 @@
     "AXTI": 1795540258.141779,
     "NASA": 1795540258.141779,
     "LUNR": 1795540258.141779,
-    "TSLA": 1795538819.9544666,
-    "AXP": 1795538819.9544666,
+    "TSLA": 1795540366.9589198,
+    "AXP": 1795540366.9589198,
     "RKLB": 1795540258.141779,
     "KO": 1795540258.141779,
     "FLY": 1795540258.141779,
-    "INTC": 1795538819.9544666,
-    "VRT": 1795538819.9544666,
-    "HPE": 1795538819.9544666,
-    "DELL": 1795538819.9544666,
-    "OKLO": 1795538819.9544666,
-    "CEG": 1795538819.9544666,
-    "FPS": 1795538819.9544666,
-    "MU": 1795538819.9544666,
-    "SKHY": 1795538819.9544666,
-    "WDC": 1795538819.9544666,
-    "STX": 1795538819.9544666,
-    "MSTR": 1795538819.9544666,
-    "SNDK": 1795538819.9544666,
-    "BTC-USD": 1795538819.9544666,
-    "CRWD": 1795538819.9544666,
-    "ORCL": 1795538819.9544666,
-    "COIN": 1795538819.9544666,
-    "LLY": 1795538819.9544666,
-    "MRNA": 1795538819.9544666,
-    "NKE": 1795538819.9544666,
-    "MCD": 1795538819.9544666,
+    "INTC": 1795540366.9589198,
+    "VRT": 1795540366.9589198,
+    "HPE": 1795540366.9589198,
+    "DELL": 1795540366.9589198,
+    "OKLO": 1795540366.9589198,
+    "CEG": 1795540366.9589198,
+    "FPS": 1795540366.9589198,
+    "MU": 1795540366.9589198,
+    "SKHY": 1795540366.9589198,
+    "WDC": 1795540366.9589198,
+    "STX": 1795540366.9589198,
+    "MSTR": 1795540366.9589198,
+    "SNDK": 1795540366.9589198,
+    "BTC-USD": 1795540366.9589198,
+    "CRWD": 1795540366.9589198,
+    "ORCL": 1795540366.9589198,
+    "COIN": 1795540366.9589198,
+    "LLY": 1795540366.9589198,
+    "MRNA": 1795540366.9589198,
+    "NKE": 1795540366.9589198,
+    "MCD": 1795540366.9589198,
     "PEP": 1795538928.9435825,
     "XOM": 1795538928.9435825,
     "JPM": 1795538928.9435825,
     "WMT": 1795538928.9435825,
-    "V": 1795538819.9544666,
+    "V": 1795540366.9589198,
     "CAT": 1795538928.9435825,
     "FN": 1795540258.141779,
     "GLW": 1795540258.141779,
