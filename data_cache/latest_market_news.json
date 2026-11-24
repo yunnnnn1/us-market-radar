@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795560903.411,
-  "updated_at_et": "11-24 17:55 ET",
-  "updated_at_kst": "07:55 KST",
+  "updated_at_ts": 1795561004.635,
+  "updated_at_et": "11-24 17:56 ET",
+  "updated_at_kst": "07:56 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -916,39 +916,39 @@
     ],
     "NVDA": [
       {
+        "title": "Why Trump wanted Jensen Huang back at the helm of Nvidia",
+        "url": "https://finance.yahoo.com/markets/article/why-trump-wanted-jensen-huang-back-at-the-helm-of-nvidia-224325153.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 17:43 ET",
+        "pub_ts": 1795560205.0
+      },
+      {
         "title": "Dow Jones Futures: Nvidia, Anthropic Lead AI Retreat But Many Sectors Strong; Fed Inflation Data Due",
         "url": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures%3A-nvidia%2C.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 17:25 ET",
-        "pub_ts": 1795559101.0
+        "time": "11-24 17:48 ET",
+        "pub_ts": 1795560493.0
       },
       {
-        "title": "Stock Market Today, Nov. 24: Tech Sell-Off Drags Nasdaq as Dow Gains on Value Rotation",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-today-nov-24-tech-sell-off-drags-nasdaq-as-dow-gains-on-value-rotation/?.tsrc=rss",
+        "title": "Update: US Equity Indexes Mixed as Investors Rotate into Defensives Amid Weakening AI Trade",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-investors-224038739.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 17:11 ET",
-        "pub_ts": 1795558308.0
+        "time": "11-24 17:40 ET",
+        "pub_ts": 1795560038.0
       },
       {
-        "title": "Movado Group, Inc. Q3 2027 Earnings Call Summary",
-        "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-movado-group-inc-q3-2027-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+        "title": "Colette Kress Scored a Win Worth Millions From Huang’s Return to Nvidia",
+        "url": "https://finance.yahoo.com/m/97a2ae60-8b24-38d0-ac03-3173b543f91f/colette-kress-scored-a-win.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 17:05 ET",
-        "pub_ts": 1795557929.0
+        "time": "11-24 17:37 ET",
+        "pub_ts": 1795559820.0
       },
       {
-        "title": "Kohl's Corporation Q3 2026 Earnings Call Summary",
-        "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-kohls-corporation-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+        "title": "Nvidia’s $4 Trillion Board Is ‘The B Team,’ Says Former CIA Officer",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63612075/nvidia-board-b-team-governance?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 17:05 ET",
-        "pub_ts": 1795557919.0
-      },
-      {
-        "title": "The J. M. Smucker Company Q2 2027 Earnings Call Summary",
-        "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-the-j-m-smucker-company-q2-2027-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 17:03 ET",
-        "pub_ts": 1795557783.0
+        "time": "11-24 17:32 ET",
+        "pub_ts": 1795559526.0
       }
     ],
     "AMD": [
@@ -958,6 +958,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 16:45 ET",
         "pub_ts": 1795556758.0
+      },
+      {
+        "title": "Stock Market Today, Nov. 24: AMD Plunges 9% as 337 Million-Share Resale Filing Adds to AI Sell-Off",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-today-nov-24-amd-plunges-9-as-337-million-share-resale-filing-adds-to-ai-sell-off/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 17:39 ET",
+        "pub_ts": 1795559978.0
       },
       {
         "title": "Is AMD Among the Morgan Stanley’s Best Semiconductor and Server Stocks to Buy for 2027?",
@@ -979,13 +986,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 15:46 ET",
         "pub_ts": 1795553194.0
-      },
-      {
-        "title": "Why Bel Fuse (BELFB) Stock Is Down Today: AI Chip Selloff Hits Components",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-bel-fuse-belfb-stock-204629092.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 15:46 ET",
-        "pub_ts": 1795553189.0
       }
     ],
     "ASML": [
@@ -2921,6 +2921,13 @@
         "pub_ts": 1795556758.0
       },
       {
+        "title": "Does PepsiCo (PEP) Change Its Long Term Case With Its Efficiency Reset?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/does-pepsico-pep-change-long-221530250.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 17:15 ET",
+        "pub_ts": 1795558530.0
+      },
+      {
         "title": "What Did Coca-Cola Do That PepsiCo Did Not?",
         "url": "https://www.trefis.com/stock/pep/articles/628584/what-did-coca-cola-do-that-pepsico-did-not/2026-11-24?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2940,13 +2947,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:32 ET",
         "pub_ts": 1795537920.0
-      },
-      {
-        "title": "3 defensive stocks to watch as tech, chip volatility persists",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-defensive-stocks-watch-tech-143806164.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:38 ET",
-        "pub_ts": 1795531086.0
       }
     ],
     "XOM": [
@@ -3227,8 +3227,15 @@
         "title": "Dow Jones Futures: Nvidia, Anthropic Lead AI Retreat But Many Sectors Strong; Fed Inflation Data Due",
         "url": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures%3A-nvidia%2C.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 17:25 ET",
-        "pub_ts": 1795559101.0
+        "time": "11-24 17:48 ET",
+        "pub_ts": 1795560493.0
+      },
+      {
+        "title": "Anthropic: ANT that a shame",
+        "url": "https://www.axios.com/2026/11/24/anthropic-stock-ipo-banks#utm_source=yahoo_finance&utm_medium=partner&utm_campaign=subs-partner-yahoo-finance-AI?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 17:30 ET",
+        "pub_ts": 1795559446.0
       },
       {
         "title": "Why Anthropic Stock Fell Again",
@@ -3236,13 +3243,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 16:55 ET",
         "pub_ts": 1795557302.0
-      },
-      {
-        "title": "Stock Market Today: Nasdaq Dives As Jensen Huang Tells Nvidia Staff This; Walmart Tests Entry",
-        "url": "https://finance.yahoo.com/m/4aa4ff31-269f-346e-80c4-e681510af7ae/stock-market-today%3A-nasdaq.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:51 ET",
-        "pub_ts": 1795557087.0
       }
     ],
     "XAUUSD": [
@@ -3293,23 +3293,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795559480.890514,
-    "SOXL": 1795559480.890514,
-    "SPY": 1795559480.890514,
-    "DIA": 1795559480.890514,
-    "SOXX": 1795559480.890514,
-    "QQQ": 1795559480.890514,
-    "SMH": 1795559480.890514,
-    "IWM": 1795559480.890514,
-    "IGV": 1795559480.890514,
-    "TLT": 1795559480.890514,
-    "GLD": 1795559480.890514,
-    "SQQQ": 1795559480.890514,
-    "TSM": 1795559480.890514,
-    "VIXY": 1795559480.890514,
-    "SOXS": 1795559480.890514,
-    "NVDA": 1795559480.890514,
-    "AMD": 1795559480.890514,
+    "KORU": 1795561004.6349592,
+    "SOXL": 1795561004.6349592,
+    "SPY": 1795561004.6349592,
+    "DIA": 1795561004.6349592,
+    "SOXX": 1795561004.6349592,
+    "QQQ": 1795561004.6349592,
+    "SMH": 1795561004.6349592,
+    "IWM": 1795561004.6349592,
+    "IGV": 1795561004.6349592,
+    "TLT": 1795561004.6349592,
+    "GLD": 1795561004.6349592,
+    "SQQQ": 1795561004.6349592,
+    "TSM": 1795561004.6349592,
+    "VIXY": 1795561004.6349592,
+    "SOXS": 1795561004.6349592,
+    "NVDA": 1795561004.6349592,
+    "AMD": 1795561004.6349592,
     "ASML": 1795559893.5752475,
     "QCOM": 1795559893.5752475,
     "AVGO": 1795559893.5752475,
@@ -3362,17 +3362,17 @@
     "MRNA": 1795560101.0524993,
     "NKE": 1795560101.0524993,
     "MCD": 1795560101.0524993,
-    "PEP": 1795559480.890514,
-    "XOM": 1795559480.890514,
-    "JPM": 1795559480.890514,
-    "WMT": 1795559480.890514,
+    "PEP": 1795561004.6349592,
+    "XOM": 1795561004.6349592,
+    "JPM": 1795561004.6349592,
+    "WMT": 1795561004.6349592,
     "V": 1795560101.0524993,
-    "CAT": 1795559480.890514,
+    "CAT": 1795561004.6349592,
     "FN": 1795559893.5752475,
     "GLW": 1795559893.5752475,
-    "ANT": 1795559480.890514,
-    "XAUUSD": 1795559480.890514,
-    "KOSPI": 1795559480.890514
+    "ANT": 1795561004.6349592,
+    "XAUUSD": 1795561004.6349592,
+    "KOSPI": 1795561004.6349592
   },
   "opex_shield": {
     "date": "2026-11-24",
