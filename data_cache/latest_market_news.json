@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795553561.426,
-  "updated_at_et": "11-24 15:52 ET",
-  "updated_at_kst": "05:52 KST",
+  "updated_at_ts": 1795553668.173,
+  "updated_at_et": "11-24 15:54 ET",
+  "updated_at_kst": "05:54 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1216,6 +1216,13 @@
         "pub_ts": 1795549060.0
       },
       {
+        "title": "Sector Update: Tech Stocks Fall Late Afternoon",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-204211371.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 15:42 ET",
+        "pub_ts": 1795552931.0
+      },
+      {
         "title": "Is Microsoft the Best Big Tech Stock to Buy Now?",
         "url": "https://www.fool.com/investing/2026/11/24/is-microsoft-the-best-big-tech-stock-to-buy-now/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1235,13 +1242,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:58 ET",
         "pub_ts": 1795539530.0
-      },
-      {
-        "title": "Nvidia Shatters Microsoft's Historic Stock Market Record",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-shatters-microsofts-historic-stock-164825111.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:48 ET",
-        "pub_ts": 1795538905.0
       }
     ],
     "AAPL": [
@@ -1357,6 +1357,13 @@
     ],
     "AMZN": [
       {
+        "title": "Is Amazon.com (AMZN) Still Below Fair Value As AI Spending Rises?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-com-amzn-still-below-201044467.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 15:10 ET",
+        "pub_ts": 1795551044.0
+      },
+      {
         "title": "3 Unstoppable Stocks That Can Be Great Buys for Decades",
         "url": "https://www.fool.com/investing/2026/11/24/3-unstoppable-stocks-that-can-be-great-buys-for-decades/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1383,13 +1390,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:42 ET",
         "pub_ts": 1795538535.0
-      },
-      {
-        "title": "Amazon’s $7.5 billion Decart tech deal makes Wedbush’s case for chip choice",
-        "url": "https://www.proactiveinvestors.com/companies/news/1102367/amazon-s-7-5-billion-decart-tech-deal-makes-wedbush-s-case-for-chip-choice-1102367.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:37 ET",
-        "pub_ts": 1795538220.0
       }
     ],
     "CRWV": [
@@ -3307,30 +3307,30 @@
     "SOXS": 1795553136.6947436,
     "NVDA": 1795553136.6947436,
     "AMD": 1795553136.6947436,
-    "ASML": 1795552074.349127,
-    "QCOM": 1795552074.349127,
-    "AVGO": 1795552074.349127,
-    "AMAT": 1795552074.349127,
-    "META": 1795552074.349127,
-    "GOOGL": 1795552074.349127,
-    "MSFT": 1795552074.349127,
-    "AAPL": 1795552074.349127,
-    "PLTR": 1795552074.349127,
-    "NOW": 1795552074.349127,
-    "AMZN": 1795552074.349127,
-    "CRWV": 1795552074.349127,
-    "NBIS": 1795552074.349127,
-    "APLD": 1795552074.349127,
-    "VST": 1795552074.349127,
-    "BE": 1795552074.349127,
-    "CRDO": 1795552074.349127,
-    "COHR": 1795552074.349127,
-    "MRVL": 1795552074.349127,
-    "LITE": 1795552074.349127,
-    "AAOI": 1795552074.349127,
-    "SPCX": 1795552074.349127,
+    "ASML": 1795553668.1725988,
+    "QCOM": 1795553668.1725988,
+    "AVGO": 1795553668.1725988,
+    "AMAT": 1795553668.1725988,
+    "META": 1795553668.1725988,
+    "GOOGL": 1795553668.1725988,
+    "MSFT": 1795553668.1725988,
+    "AAPL": 1795553668.1725988,
+    "PLTR": 1795553668.1725988,
+    "NOW": 1795553668.1725988,
+    "AMZN": 1795553668.1725988,
+    "CRWV": 1795553668.1725988,
+    "NBIS": 1795553668.1725988,
+    "APLD": 1795553668.1725988,
+    "VST": 1795553668.1725988,
+    "BE": 1795553668.1725988,
+    "CRDO": 1795553668.1725988,
+    "COHR": 1795553668.1725988,
+    "MRVL": 1795553668.1725988,
+    "LITE": 1795553668.1725988,
+    "AAOI": 1795553668.1725988,
+    "SPCX": 1795553668.1725988,
     "ASTS": 1795552182.9547813,
-    "AXTI": 1795552074.349127,
+    "AXTI": 1795553668.1725988,
     "NASA": 1795552182.9547813,
     "LUNR": 1795552182.9547813,
     "TSLA": 1795552182.9547813,
@@ -3365,8 +3365,8 @@
     "WMT": 1795553136.6947436,
     "V": 1795552288.578023,
     "CAT": 1795553136.6947436,
-    "FN": 1795552074.349127,
-    "GLW": 1795552074.349127,
+    "FN": 1795553668.1725988,
+    "GLW": 1795553668.1725988,
     "ANT": 1795553136.6947436,
     "XAUUSD": 1795553136.6947436,
     "KOSPI": 1795553136.6947436
