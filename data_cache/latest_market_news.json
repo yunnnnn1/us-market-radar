@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795544710.583,
-  "updated_at_et": "11-24 13:25 ET",
-  "updated_at_kst": "03:25 KST",
+  "updated_at_ts": 1795544819.129,
+  "updated_at_et": "11-24 13:26 ET",
+  "updated_at_kst": "03:26 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1468,6 +1468,13 @@
     ],
     "APLD": [
       {
+        "title": "Can Applied Digital Stock Double From Here?",
+        "url": "https://www.trefis.com/stock/apld/articles/628276/can-applied-digital-stock-double-from-here/2026-11-24?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:56 ET",
+        "pub_ts": 1795543009.0
+      },
+      {
         "title": "Why Is Applied Digital Stock Going Up?",
         "url": "https://www.trefis.com/stock/apld/articles/628619/why-is-applied-digital-stock-going-up/2026-11-24?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1494,13 +1501,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 08:00 ET",
         "pub_ts": 1795525200.0
-      },
-      {
-        "title": "I’m Treating Applied Digital Like a Long-Term Call Option on $41B+ in Hyperscaler Leases",
-        "url": "https://247wallst.com/investing/2026/11/24/im-treating-applied-digital-like-a-long-term-call-option-on-41b-in-hyperscaler-leases/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 07:15 ET",
-        "pub_ts": 1795522546.0
       }
     ],
     "VST": [
@@ -1653,6 +1653,13 @@
     ],
     "MRVL": [
       {
+        "title": "Why Marvell Stock Is Moving With Nvidia Fueled AI Chip Optimism",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-marvell-stock-moving-nvidia-181152431.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 13:11 ET",
+        "pub_ts": 1795543912.0
+      },
+      {
         "title": "Generate A Return From Marvell Stock, Set For A Large Post-Earnings Swing",
         "url": "https://finance.yahoo.com/m/330eaa7f-a35f-39e4-a840-89d34cd4eb9e/generate-a-return-from.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1679,13 +1686,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 08:45 ET",
         "pub_ts": 1795527912.0
-      },
-      {
-        "title": "Susquehanna Cut Its Marvell Target to $225 From $300. It Still Sees [84%] Upside",
-        "url": "https://www.tikr.com/blog/susquehanna-marvell-price-target-cut-225-mrvl-upside?ref=yahoofinance&tlnk=yf-261124-682h8944&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 07:06 ET",
-        "pub_ts": 1795521979.0
       }
     ],
     "LITE": [
@@ -1764,6 +1764,20 @@
     ],
     "SPCX": [
       {
+        "title": "Here's Why SpaceX Stock Slumped Today, And Why it Could Come Under More Pressure as Tesla Merger Talks Continue",
+        "url": "https://www.fool.com/investing/2026/11/24/here-s-why-spacex-stock-slumped-today-and-why-it-could-come-under-more-pressure-as-tesla-merger-talks-continue/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 13:09 ET",
+        "pub_ts": 1795543745.0
+      },
+      {
+        "title": "Anthropic Just Fell Below Its IPO Price, but Here's What the Stock Could Be Worth in 2030",
+        "url": "https://www.fool.com/investing/2026/11/24/anthropic-just-fell-below-its-ipo-price-but-here-s-what-the-stock-could-be-worth-in-2030/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 13:04 ET",
+        "pub_ts": 1795543442.0
+      },
+      {
         "title": "States sue SpaceX, calling Grok's weak safeguards 'a feature'",
         "url": "https://www.thestreet.com/latest-news/spacex-grok-lawsuit-weak-safeguards-feature?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1783,20 +1797,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:56 ET",
         "pub_ts": 1795535796.0
-      },
-      {
-        "title": "Musk: Starlink “Is Illegal” in China. A Merger Would Put It Under One Roof With Tesla’s Shanghai Plant",
-        "url": "https://www.tikr.com/blog/musk-starlink-is-illegal-in-china-a-merger-would-put-it-under-one-roof-with-teslas-shanghai-plant?ref=yahoofinance&tlnk=yf-261124-vfhjmjq2&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:51 ET",
-        "pub_ts": 1795535479.0
-      },
-      {
-        "title": "Bill Ackman Says the Fed Is “About to Make Another Mistake” on Dec. 9",
-        "url": "https://247wallst.com/investing/2026/11/24/bill-ackman-says-the-fed-is-about-to-make-another-mistake-on-dec-9/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:28 ET",
-        "pub_ts": 1795534085.0
       }
     ],
     "ASTS": [
@@ -3170,6 +3170,13 @@
     ],
     "GLW": [
       {
+        "title": "Corning Jumped $10. Jim Cramer Had a Lower Price in Mind",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/corning-jumped-10-jim-cramer-180300762.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 13:03 ET",
+        "pub_ts": 1795543380.0
+      },
+      {
         "title": "Who's Buying And Who's Selling AI? The Full List, Next To 2000",
         "url": "https://www.trefis.com/stock/nvda/articles/627430/who-s-buying-and-who-s-selling-ai-the-full-list-next-to-2000/2026-11-23?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3189,13 +3196,6 @@
         "source": "Yahoo Finance",
         "time": "11-20 05:45 ET",
         "pub_ts": 1795171502.0
-      },
-      {
-        "title": "Corning (GLW) Stock Looks Like A Bargain On Cash Flow",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/corning-glw-stock-looks-bargain-160912303.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-19 11:09 ET",
-        "pub_ts": 1795104552.0
       },
       {
         "title": "Why Is Knowles (KN) Stock Down Today? Tech Selloff Hits Component Makers",
@@ -3314,30 +3314,30 @@
     "META": 1795544494.5154455,
     "GOOGL": 1795544494.5154455,
     "MSFT": 1795544494.5154455,
-    "AAPL": 1795543297.7349663,
-    "PLTR": 1795543297.7349663,
-    "NOW": 1795543297.7349663,
-    "AMZN": 1795543297.7349663,
-    "CRWV": 1795543297.7349663,
-    "NBIS": 1795543297.7349663,
-    "APLD": 1795543297.7349663,
-    "VST": 1795543297.7349663,
-    "BE": 1795543297.7349663,
-    "CRDO": 1795543297.7349663,
-    "COHR": 1795543297.7349663,
-    "MRVL": 1795543297.7349663,
-    "LITE": 1795543297.7349663,
-    "AAOI": 1795543297.7349663,
-    "SPCX": 1795543297.7349663,
-    "ASTS": 1795543297.7349663,
-    "AXTI": 1795543297.7349663,
-    "NASA": 1795543297.7349663,
-    "LUNR": 1795543297.7349663,
+    "AAPL": 1795544819.1290398,
+    "PLTR": 1795544819.1290398,
+    "NOW": 1795544819.1290398,
+    "AMZN": 1795544819.1290398,
+    "CRWV": 1795544819.1290398,
+    "NBIS": 1795544819.1290398,
+    "APLD": 1795544819.1290398,
+    "VST": 1795544819.1290398,
+    "BE": 1795544819.1290398,
+    "CRDO": 1795544819.1290398,
+    "COHR": 1795544819.1290398,
+    "MRVL": 1795544819.1290398,
+    "LITE": 1795544819.1290398,
+    "AAOI": 1795544819.1290398,
+    "SPCX": 1795544819.1290398,
+    "ASTS": 1795544819.1290398,
+    "AXTI": 1795544819.1290398,
+    "NASA": 1795544819.1290398,
+    "LUNR": 1795544819.1290398,
     "TSLA": 1795543407.072157,
     "AXP": 1795543407.072157,
-    "RKLB": 1795543297.7349663,
-    "KO": 1795543297.7349663,
-    "FLY": 1795543297.7349663,
+    "RKLB": 1795544819.1290398,
+    "KO": 1795544819.1290398,
+    "FLY": 1795544819.1290398,
     "INTC": 1795543407.072157,
     "VRT": 1795543407.072157,
     "HPE": 1795543407.072157,
@@ -3365,8 +3365,8 @@
     "WMT": 1795543515.8391044,
     "V": 1795543407.072157,
     "CAT": 1795543515.8391044,
-    "FN": 1795543297.7349663,
-    "GLW": 1795543297.7349663,
+    "FN": 1795544819.1290398,
+    "GLW": 1795544819.1290398,
     "ANT": 1795543515.8391044,
     "XAUUSD": 1795543515.8391044,
     "KOSPI": 1795521635.6703591
