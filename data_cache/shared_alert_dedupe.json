@@ -5891,9 +5891,13 @@
     "2026-11-24:post_close": {
       "device": "PC",
       "ts": 1795554341.2022076
+    },
+    "2026-11-24:MSFT/NKE/SPY/DIA/IWM:5M_ENTRY": {
+      "device": "PC",
+      "ts": 1795554647.9126735
     }
   },
   "device": "PC",
-  "last_heartbeat_ts": 1795554453.6043,
-  "updated_at": "2026-11-24T21:07:33.604335+00:00"
+  "last_heartbeat_ts": 1795554558.6867917,
+  "updated_at": "2026-11-24T21:10:47.912707+00:00"
 }
