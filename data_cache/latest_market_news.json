@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795548528.455,
-  "updated_at_et": "11-24 14:28 ET",
-  "updated_at_kst": "04:28 KST",
+  "updated_at_ts": 1795548877.258,
+  "updated_at_et": "11-24 14:34 ET",
+  "updated_at_kst": "04:34 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -994,6 +994,13 @@
         "pub_ts": 1795529795.0
       },
       {
+        "title": "ASML Is the Most Important Company You’ve Never Heard Of. Should You Buy the Stock?",
+        "url": "https://www.fool.com/investing/2026/11/24/asml-is-the-most-important-company-youve-never-heard-of-should-you-buy-the-stock/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 13:23 ET",
+        "pub_ts": 1795544582.0
+      },
+      {
         "title": "ASML Stock What Changed After Nvidia CEO Return",
         "url": "https://finance.yahoo.com/markets/stocks/articles/asml-stock-changed-nvidia-ceo-121558672.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1013,13 +1020,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 04:47 ET",
         "pub_ts": 1795513620.0
-      },
-      {
-        "title": "Why ASML Stock Popped Today",
-        "url": "https://www.fool.com/investing/2026/11/23/why-asml-stock-popped-today/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 17:36 ET",
-        "pub_ts": 1795473384.0
       }
     ],
     "QCOM": [
@@ -1135,11 +1135,18 @@
     ],
     "META": [
       {
-        "title": "Stocks give back gains as Anthropic dips below IPO price",
-        "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
+        "title": "David Abrams’ Meta Platforms, Inc. (META) Bet Is Backed by Strong Cash Flow and AI Growth",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/david-abrams-meta-platforms-inc-190633349.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 10:44 ET",
-        "pub_ts": 1795535048.0
+        "time": "11-24 14:06 ET",
+        "pub_ts": 1795547193.0
+      },
+      {
+        "title": "Meta launches its Muse personal agent in the UK – but it comes with a big warning",
+        "url": "https://www.independent.co.uk/tech/meta-muse-uk-launch-release-warning-b3090758.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 13:33 ET",
+        "pub_ts": 1795545223.0
       },
       {
         "title": "Mark Zuckerberg's Meta Faces New Battle Over Control",
@@ -1161,60 +1168,46 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:20 ET",
         "pub_ts": 1795537206.0
-      },
-      {
-        "title": "What Do Meta Platforms (META) Content Deals Mean For Its VR Glasses Launch?",
-        "url": "https://finance.yahoo.com/technology/articles/meta-platforms-meta-content-deals-161437243.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:14 ET",
-        "pub_ts": 1795536877.0
       }
     ],
     "GOOGL": [
       {
-        "title": "Stocks give back gains as Anthropic dips below IPO price",
-        "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
+        "title": "Intuit vs. Palo Alto Networks: Which Technology Stock Is a Better Buy for 2027?",
+        "url": "https://www.fool.com/coverage/better-buy/2026/11/24/intuit-vs-palo-alto-networks-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 10:44 ET",
-        "pub_ts": 1795535048.0
+        "time": "11-24 14:20 ET",
+        "pub_ts": 1795548002.0
       },
       {
-        "title": "What Will Decide Snowflake Stock Over The Next Six Months?",
-        "url": "https://www.trefis.com/stock/snow/articles/628289/what-will-decide-snowflake-stock-over-the-next-six-months/2026-11-24?.tsrc=rss",
+        "title": "Billionaire David Abrams’ Top 5 Stock Picks for 2027",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/billionaire-david-abrams-top-5-190703630.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 13:03 ET",
-        "pub_ts": 1795543386.0
+        "time": "11-24 14:07 ET",
+        "pub_ts": 1795547223.0
       },
       {
-        "title": "What Should Reddit Stock Owners Watch Now?",
-        "url": "https://www.trefis.com/stock/rddt/articles/628374/what-should-reddit-stock-owners-watch-now/2026-11-24?.tsrc=rss",
+        "title": "Bloom Energy Revenue Jumped 138%. Its Next Growth Phase Could Be Even Bigger",
+        "url": "https://247wallst.com/investing/2026/11/24/bloom-energy-revenue-jumped-138-its-next-growth-phase-could-be-even-bigger/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 13:02 ET",
-        "pub_ts": 1795543358.0
+        "time": "11-24 13:33 ET",
+        "pub_ts": 1795545180.0
       },
       {
-        "title": "Nike Sells Shoes. Can It Stop Paying For AI?",
-        "url": "https://www.trefis.com/stock/nke/articles/627485/nike-sells-shoes-can-it-stop-paying-for-ai/2026-11-24?.tsrc=rss",
+        "title": "ASML Is the Most Important Company You’ve Never Heard Of. Should You Buy the Stock?",
+        "url": "https://www.fool.com/investing/2026/11/24/asml-is-the-most-important-company-youve-never-heard-of-should-you-buy-the-stock/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 12:39 ET",
-        "pub_ts": 1795541974.0
+        "time": "11-24 13:23 ET",
+        "pub_ts": 1795544582.0
       },
       {
-        "title": "Why Did Alphabet Stock Move?",
-        "url": "https://www.trefis.com/stock/googl/articles/628636/why-did-alphabet-stock-move/2026-11-24?.tsrc=rss",
+        "title": "What Would A Short Seller Say About IBM Stock?",
+        "url": "https://www.trefis.com/stock/ibm/articles/628477/what-would-a-short-seller-say-about-ibm-stock/2026-11-24?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 12:24 ET",
-        "pub_ts": 1795541080.0
+        "time": "11-24 13:18 ET",
+        "pub_ts": 1795544302.0
       }
     ],
     "MSFT": [
-      {
-        "title": "Who is holding Jensen Huang accountable? It sure looks like nobody",
-        "url": "https://finance.yahoo.com/video/who-is-holding-jensen-huang-accountable-it-sure-looks-like-nobody-154255467.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:42 ET",
-        "pub_ts": 1795534975.0
-      },
       {
         "title": "Microsoft Corporation (MSFT) Is Facing AI Spending Fears: Could Its Cloud Growth Change the Narrative?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-corporation-msft-facing-ai-165850177.html?.tsrc=rss",
@@ -1237,11 +1230,18 @@
         "pub_ts": 1795535101.0
       },
       {
-        "title": "Microsoft Is Down 7% in a Month, but Not One Analyst Says Sell. Wall Street Sees $630+",
-        "url": "https://247wallst.com/investing/2026/11/24/microsoft-is-down-7-in-a-month-but-not-one-analyst-says-sell-wall-street-sees-630/?.tsrc=rss",
+        "title": "The Gates Foundation Trust Sold 2.2 Million Berkshire Shares and Opened a $155 Million Dollar Tree Stake",
+        "url": "https://247wallst.com/investing/2026/11/24/the-gates-foundation-trust-sold-2-2-million-berkshire-shares-and-opened-a-155-million-dollar-tree-stake/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 10:33 ET",
-        "pub_ts": 1795534416.0
+        "time": "11-24 11:53 ET",
+        "pub_ts": 1795539236.0
+      },
+      {
+        "title": "Spotify Restores Service After Outage Hits Thousands",
+        "url": "https://finance.yahoo.com/media-advertising/articles/spotify-restores-outage-hits-thousands-160922885.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:09 ET",
+        "pub_ts": 1795536562.0
       }
     ],
     "AAPL": [
@@ -1385,11 +1385,11 @@
         "pub_ts": 1795538220.0
       },
       {
-        "title": "Anthropic Stock Sinks Below IPO Price. What History Says Happens Next.",
-        "url": "https://finance.yahoo.com/m/a286105e-a938-3486-a9d4-92ce3954de08/anthropic-stock-sinks-below.html?.tsrc=rss",
+        "title": "Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
+        "url": "https://finance.yahoo.com/technology/ai/articles/amazon-decart-acquisition-bet-using-155107586.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 11:14 ET",
-        "pub_ts": 1795536840.0
+        "time": "11-24 10:51 ET",
+        "pub_ts": 1795535467.0
       }
     ],
     "CRWV": [
@@ -1399,6 +1399,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:44 ET",
         "pub_ts": 1795535048.0
+      },
+      {
+        "title": "SpaceX Falls 4%, CoreWeave Down 13%, Nebius Down 11% as AI Stocks Give Back Nvidia Rally",
+        "url": "https://www.tikr.com/blog/spacex-falls-4-coreweave-down-13-nebius-down-11-as-ai-stocks-give-back-nvidia-rally?ref=yahoofinance&tlnk=yf-261124-6rfwxx6w&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 13:57 ET",
+        "pub_ts": 1795546678.0
       },
       {
         "title": "“The Bank of Nvidia Is Back,” Says CNBC’s David Faber. Its Investments Rose From $7 Billion to $110 Billion",
@@ -1420,16 +1427,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:22 ET",
         "pub_ts": 1795533759.0
-      },
-      {
-        "title": "Anthropic Tumbles 9%, Trades Below IPO Price Despite Canaccord’s $135 Target; CoreWeave and Nebius Drop 8%",
-        "url": "https://247wallst.com/investing/2026/11/24/anthropic-tumbles-9-breaks-below-ipo-price-despite-canaccords-135-target-coreweave-and-nebius-drop-8/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:54 ET",
-        "pub_ts": 1795532088.0
       }
     ],
     "NBIS": [
+      {
+        "title": "SpaceX Falls 4%, CoreWeave Down 13%, Nebius Down 11% as AI Stocks Give Back Nvidia Rally",
+        "url": "https://www.tikr.com/blog/spacex-falls-4-coreweave-down-13-nebius-down-11-as-ai-stocks-give-back-nvidia-rally?ref=yahoofinance&tlnk=yf-261124-6rfwxx6w&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 13:57 ET",
+        "pub_ts": 1795546678.0
+      },
       {
         "title": "What Does Nebius Group (NBIS) Need To Watch After Renewed AI Cloud Support?",
         "url": "https://finance.yahoo.com/technology/ai/articles/does-nebius-group-nbis-watch-171813100.html?.tsrc=rss",
@@ -1457,13 +1464,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 07:11 ET",
         "pub_ts": 1795522260.0
-      },
-      {
-        "title": "CRWV, NBIS And IREN Rally In A ‘Good Day’ For Neoclouds — Databricks Co-Founder Flags Security Gaps At ‘Top’ Neoclouds",
-        "url": "https://stocktwits.com/news-articles/markets/equity/crwv-nbis-iren-rally-good-day-neoclouds-databricks-co-founder-security-gaps-top-neoclouds/cNbsRgYR9kB?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 03:23 ET",
-        "pub_ts": 1795508637.0
       }
     ],
     "APLD": [
@@ -1505,6 +1505,27 @@
     ],
     "VST": [
       {
+        "title": "What Just Happened To Vistra Stock?",
+        "url": "https://www.trefis.com/stock/vst/articles/628627/what-just-happened-to-vistra-stock-2/2026-11-24?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 13:29 ET",
+        "pub_ts": 1795544943.0
+      },
+      {
+        "title": "How Has Vistra Stock's Story Changed?",
+        "url": "https://www.trefis.com/stock/vst/articles/628443/how-has-vistra-stock-s-story-changed/2026-11-24?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 13:05 ET",
+        "pub_ts": 1795543525.0
+      },
+      {
+        "title": "George Soros and 10 Other Big Funds Sold Vistra Last Quarter, While 7 Bought. Who’s Right?",
+        "url": "https://www.tikr.com/blog/george-soros-and-10-other-big-funds-sold-vistra-last-quarter-while-7-bought-whos-right?ref=yahoofinance&tlnk=yf-261124-4r3chgrm&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:59 ET",
+        "pub_ts": 1795539570.0
+      },
+      {
         "title": "Midterms provide clarity on data center development: Vistra CEO",
         "url": "https://www.utilitydive.com/news/vistra-midterms-data-center-ercot-pjm/875626/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1517,30 +1538,16 @@
         "source": "Yahoo Finance",
         "time": "11-23 15:38 ET",
         "pub_ts": 1795466329.0
-      },
-      {
-        "title": "1 Compelling Reason to Buy Vistra Stock Before November Ends",
-        "url": "https://www.fool.com/investing/2026/11/21/1-compelling-reason-to-buy-vistra-stock-before-november-ends/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-21 15:05 ET",
-        "pub_ts": 1795291502.0
-      },
-      {
-        "title": "Has Buying The Dips In Vistra Stock Paid Off?",
-        "url": "https://www.trefis.com/stock/vst/articles/627175/has-buying-the-dips-in-vistra-stock-paid-off/2026-11-20?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-21 01:32 ET",
-        "pub_ts": 1795242767.0
-      },
-      {
-        "title": "Musk Calls His $440 Million Midterm Bet “Pretty Foolish.” Texas’s New Governor Ran on a Data Center Moratorium",
-        "url": "https://www.tikr.com/blog/musk-midterm-bet-texas-data-center-moratorium-spacex?ref=yahoofinance&tlnk=yf-261124-c22mf4jm&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 02:24 ET",
-        "pub_ts": 1795418652.0
       }
     ],
     "BE": [
+      {
+        "title": "Bloom Energy Revenue Jumped 138%. Its Next Growth Phase Could Be Even Bigger",
+        "url": "https://247wallst.com/investing/2026/11/24/bloom-energy-revenue-jumped-138-its-next-growth-phase-could-be-even-bigger/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 13:33 ET",
+        "pub_ts": 1795545180.0
+      },
       {
         "title": "Bloom Energy is Down 22% Just This Month: Two Wall Street Pros Predict 109% Gains With 2 More $1 Dollar Lower",
         "url": "https://247wallst.com/investing/2026/11/24/bloom-energy-is-down-22-just-this-month-two-wall-street-pros-predict-109-gains-with-2-more-1-dollar-lower/?.tsrc=rss",
@@ -1568,13 +1575,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 06:51 ET",
         "pub_ts": 1795521062.0
-      },
-      {
-        "title": "Bloom Energy Signs Its Largest Deal Abroad: 900 MW for NTT Data Starting in 2027",
-        "url": "https://www.tikr.com/blog/bloom-energy-signs-its-largest-deal-abroad-900-mw-for-ntt-data-starting-in-2027?ref=yahoofinance&tlnk=yf-261124-7qqhvjvp&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 01:38 ET",
-        "pub_ts": 1795502317.0
       }
     ],
     "CRDO": [
@@ -1764,39 +1764,39 @@
     ],
     "SPCX": [
       {
+        "title": "If SpaceX and Tesla Merge, History Says One Group of Shareholders Usually Wins. Here’s Which Side to Be On.",
+        "url": "https://www.fool.com/investing/2026/11/24/if-spacex-and-tesla-merge-history-says-one-group-of-shareholders-usually-wins-here-s-which-side-to-be-on/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 14:19 ET",
+        "pub_ts": 1795547994.0
+      },
+      {
+        "title": "Why SpaceX Dropped Again Today",
+        "url": "https://www.fool.com/investing/2026/11/24/why-spacex-dropped-again-today/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 14:01 ET",
+        "pub_ts": 1795546896.0
+      },
+      {
+        "title": "SpaceX Falls 4%, CoreWeave Down 13%, Nebius Down 11% as AI Stocks Give Back Nvidia Rally",
+        "url": "https://www.tikr.com/blog/spacex-falls-4-coreweave-down-13-nebius-down-11-as-ai-stocks-give-back-nvidia-rally?ref=yahoofinance&tlnk=yf-261124-6rfwxx6w&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 13:57 ET",
+        "pub_ts": 1795546678.0
+      },
+      {
+        "title": "xAI co-founders launch Epochal to build predictive AI models",
+        "url": "https://finance.yahoo.com/technology/ai/articles/xai-co-founders-launch-epochal-182207372.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 13:22 ET",
+        "pub_ts": 1795544527.0
+      },
+      {
         "title": "Here's Why SpaceX Stock Slumped Today, And Why it Could Come Under More Pressure as Tesla Merger Talks Continue",
         "url": "https://www.fool.com/investing/2026/11/24/here-s-why-spacex-stock-slumped-today-and-why-it-could-come-under-more-pressure-as-tesla-merger-talks-continue/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 13:09 ET",
         "pub_ts": 1795543745.0
-      },
-      {
-        "title": "Anthropic Just Fell Below Its IPO Price, but Here's What the Stock Could Be Worth in 2030",
-        "url": "https://www.fool.com/investing/2026/11/24/anthropic-just-fell-below-its-ipo-price-but-here-s-what-the-stock-could-be-worth-in-2030/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 13:04 ET",
-        "pub_ts": 1795543442.0
-      },
-      {
-        "title": "States sue SpaceX, calling Grok's weak safeguards 'a feature'",
-        "url": "https://www.thestreet.com/latest-news/spacex-grok-lawsuit-weak-safeguards-feature?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 12:33 ET",
-        "pub_ts": 1795541580.0
-      },
-      {
-        "title": "At Today’s Prices, a Tesla Share Is Worth 3 SpaceX Shares. One Tesla Bull Wants 4.2",
-        "url": "https://www.tikr.com/blog/at-todays-prices-a-tesla-share-is-worth-3-spacex-shares-one-tesla-bull-wants-4-2?ref=yahoofinance&tlnk=yf-261124-fpm9fr23&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:34 ET",
-        "pub_ts": 1795538052.0
-      },
-      {
-        "title": "Lucid Rises 4% as Driverless Robotaxi Testing With Nuro and Uber Begins; Tesla Falls 2% Amid SpaceX Merger Talks, Rivian Edges Higher",
-        "url": "https://247wallst.com/investing/2026/11/24/lucid-rises-4-as-driverless-robotaxi-testing-with-nuro-and-uber-begins-tesla-falls-2-amid-spacex-merger-talks-rivian-edges-higher/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:56 ET",
-        "pub_ts": 1795535796.0
       }
     ],
     "ASTS": [
@@ -3307,30 +3307,30 @@
     "SOXS": 1795548528.454617,
     "NVDA": 1795548528.454617,
     "AMD": 1795548528.454617,
-    "ASML": 1795544494.5154455,
-    "QCOM": 1795544494.5154455,
-    "AVGO": 1795544494.5154455,
-    "AMAT": 1795544494.5154455,
-    "META": 1795544494.5154455,
-    "GOOGL": 1795544494.5154455,
-    "MSFT": 1795544494.5154455,
-    "AAPL": 1795544819.1290398,
-    "PLTR": 1795544819.1290398,
-    "NOW": 1795544819.1290398,
-    "AMZN": 1795544819.1290398,
-    "CRWV": 1795544819.1290398,
-    "NBIS": 1795544819.1290398,
-    "APLD": 1795544819.1290398,
-    "VST": 1795544819.1290398,
-    "BE": 1795544819.1290398,
-    "CRDO": 1795544819.1290398,
-    "COHR": 1795544819.1290398,
-    "MRVL": 1795544819.1290398,
-    "LITE": 1795544819.1290398,
-    "AAOI": 1795544819.1290398,
-    "SPCX": 1795544819.1290398,
+    "ASML": 1795548877.2581956,
+    "QCOM": 1795548877.2581956,
+    "AVGO": 1795548877.2581956,
+    "AMAT": 1795548877.2581956,
+    "META": 1795548877.2581956,
+    "GOOGL": 1795548877.2581956,
+    "MSFT": 1795548877.2581956,
+    "AAPL": 1795548877.2581956,
+    "PLTR": 1795548877.2581956,
+    "NOW": 1795548877.2581956,
+    "AMZN": 1795548877.2581956,
+    "CRWV": 1795548877.2581956,
+    "NBIS": 1795548877.2581956,
+    "APLD": 1795548877.2581956,
+    "VST": 1795548877.2581956,
+    "BE": 1795548877.2581956,
+    "CRDO": 1795548877.2581956,
+    "COHR": 1795548877.2581956,
+    "MRVL": 1795548877.2581956,
+    "LITE": 1795548877.2581956,
+    "AAOI": 1795548877.2581956,
+    "SPCX": 1795548877.2581956,
     "ASTS": 1795544819.1290398,
-    "AXTI": 1795544819.1290398,
+    "AXTI": 1795548877.2581956,
     "NASA": 1795544819.1290398,
     "LUNR": 1795544819.1290398,
     "TSLA": 1795544927.8556547,
@@ -3365,8 +3365,8 @@
     "WMT": 1795548528.454617,
     "V": 1795544927.8556547,
     "CAT": 1795548528.454617,
-    "FN": 1795544819.1290398,
-    "GLW": 1795544819.1290398,
+    "FN": 1795548877.2581956,
+    "GLW": 1795548877.2581956,
     "ANT": 1795548528.454617,
     "XAUUSD": 1795548528.454617,
     "KOSPI": 1795548528.454617
