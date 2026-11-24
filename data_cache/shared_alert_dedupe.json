@@ -5895,9 +5895,13 @@
     "2026-11-24:MSFT/NKE/SPY/DIA/IWM:5M_ENTRY": {
       "device": "PC",
       "ts": 1795554647.9126735
+    },
+    "2026-11-24:DEFENSIVE_FLIGHT:+0.4": {
+      "device": "PC",
+      "ts": 1795554861.8278966
     }
   },
   "device": "PC",
-  "last_heartbeat_ts": 1795554665.816381,
-  "updated_at": "2026-11-24T21:11:05.816416+00:00"
+  "last_heartbeat_ts": 1795554773.848231,
+  "updated_at": "2026-11-24T21:14:21.827945+00:00"
 }
