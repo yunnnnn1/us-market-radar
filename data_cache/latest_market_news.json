@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795538819.954,
-  "updated_at_et": "11-24 11:46 ET",
-  "updated_at_kst": "01:46 KST",
+  "updated_at_ts": 1795538928.944,
+  "updated_at_et": "11-24 11:48 ET",
+  "updated_at_kst": "01:48 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2985,6 +2985,13 @@
     ],
     "JPM": [
       {
+        "title": "JPMorgan Dallas Hub Targets Private Equity and Hedge Funds",
+        "url": "https://www.credaily.com/briefs/jpmorgan-dallas-hub-targets-private-equity-and-hedge-funds/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:21 ET",
+        "pub_ts": 1795537285.0
+      },
+      {
         "title": "JPMorgan Treasury survey shows neutral positioning ahead of PCE data",
         "url": "https://finance.yahoo.com/markets/options/articles/jpmorgan-treasury-survey-shows-neutral-132259516.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3011,16 +3018,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 08:12 ET",
         "pub_ts": 1795525978.0
-      },
-      {
-        "title": "META Stock Is Down 24% From Peak: JPMorgan Sees ‘Attractive Buying Opportunity’ — But 2027 Spending, Capex Remain An Overhang",
-        "url": "https://stocktwits.com/news-articles/markets/equity/meta-stock-is-down-24-from-peak-jp-morgan-sees-attractive-buying-opportunity-but-2027-spending-capex-remain-an-overhang/cNbsIWZR9ki?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 07:08 ET",
-        "pub_ts": 1795522132.0
       }
     ],
     "WMT": [
+      {
+        "title": "Consumer Mood Improves Into Holidays, But Risks Loom",
+        "url": "https://finance.yahoo.com/video/consumer-mood-improves-holidays-risks-160317427.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:03 ET",
+        "pub_ts": 1795536197.0
+      },
       {
         "title": "Target vs. Walmart: Which Consumer Goods Stock Is a Better Buy for 2027?",
         "url": "https://www.fool.com/coverage/better-buy/2026/11/24/target-vs-walmart-which-consumer-goods-stock-is-a-better-buy-for-2027/?.tsrc=rss",
@@ -3048,13 +3055,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 08:00 ET",
         "pub_ts": 1795525205.0
-      },
-      {
-        "title": "Walmart Leadership to Participate in Upcoming Investor Events",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-leadership-participate-upcoming-investor-130000815.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:00 ET",
-        "pub_ts": 1795525200.0
       }
     ],
     "V": [
@@ -3359,16 +3359,16 @@
     "MRNA": 1795538819.9544666,
     "NKE": 1795538819.9544666,
     "MCD": 1795538819.9544666,
-    "PEP": 1795537404.1767466,
-    "XOM": 1795537404.1767466,
-    "JPM": 1795537404.1767466,
-    "WMT": 1795537404.1767466,
+    "PEP": 1795538928.9435825,
+    "XOM": 1795538928.9435825,
+    "JPM": 1795538928.9435825,
+    "WMT": 1795538928.9435825,
     "V": 1795538819.9544666,
-    "CAT": 1795537404.1767466,
+    "CAT": 1795538928.9435825,
     "FN": 1795538707.7242947,
     "GLW": 1795538707.7242947,
-    "ANT": 1795537404.1767466,
-    "XAUUSD": 1795537404.1767466,
+    "ANT": 1795538928.9435825,
+    "XAUUSD": 1795538928.9435825,
     "KOSPI": 1795521635.6703591
   },
   "opex_shield": {
