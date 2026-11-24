@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795562934.726,
-  "updated_at_et": "11-24 18:28 ET",
-  "updated_at_kst": "08:28 KST",
+  "updated_at_ts": 1795563036.423,
+  "updated_at_et": "11-24 18:30 ET",
+  "updated_at_kst": "08:30 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2138,6 +2138,13 @@
     ],
     "INTC": [
       {
+        "title": "Why Intel Stock Fell Today",
+        "url": "https://www.fool.com/investing/2026/11/24/why-intel-stock-fell-today/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 18:16 ET",
+        "pub_ts": 1795562161.0
+      },
+      {
         "title": "Intel And 2 More AI Stocks To Watch",
         "url": "https://finance.yahoo.com/technology/ai/articles/intel-2-more-ai-stocks-221918630.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2164,13 +2171,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:19 ET",
         "pub_ts": 1795533547.0
-      },
-      {
-        "title": "Marvell Sinks 8%, Intel Down 6% as Chip Stocks Give Back Nvidia’s Record Huang Rally",
-        "url": "https://www.tikr.com/blog/marvell-sinks-8-intel-down-6-as-chip-stocks-give-back-nvidias-record-huang-rally?ref=yahoofinance&tlnk=yf-261124-rjmh24f9&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:14 ET",
-        "pub_ts": 1795533299.0
       }
     ],
     "VRT": [
@@ -2226,13 +2226,6 @@
         "pub_ts": 1795556449.0
       },
       {
-        "title": "HPE is heading into 2027 with 'tremendous momentum': CEO Antonio Neri",
-        "url": "https://finance.yahoo.com/technology/article/hpe-is-heading-into-2027-with-tremendous-momentum-ceo-antonio-neri-180254259.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 13:02 ET",
-        "pub_ts": 1795543374.0
-      },
-      {
         "title": "Dell Just Reported Earnings and Raised Its Forecast by $10 Billion. Is the Stock a Buy After Tuesday's Selloff?",
         "url": "https://www.fool.com/investing/2026/11/24/dell-just-reported-earnings-and-raised-its-forecast-by-usd10-billion-is-the-stock-a-buy-after-tuesday-s-selloff/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2245,6 +2238,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 16:45 ET",
         "pub_ts": 1795556754.0
+      },
+      {
+        "title": "Nvidia, Anthropic, Micron, HPE, Analog Devices, Insmed, Dollar Tree, and More Stocks That Explain Today’s Market",
+        "url": "https://finance.yahoo.com/m/f7fa0ed2-2c68-3b80-9261-c35639090d03/nvidia%2C-anthropic%2C-micron%2C.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:33 ET",
+        "pub_ts": 1795555980.0
       }
     ],
     "DELL": [
@@ -2619,6 +2619,20 @@
     ],
     "BTC-USD": [
       {
+        "title": "In Response to the Turmoil at Nvidia, Bitcoin Drops Below $70,000. Is This a Buy-the-Dip Opportunity?",
+        "url": "https://www.fool.com/investing/2026/11/24/in-response-to-the-turmoil-at-nvidia-bitcoin-drops-below-usd70-000-is-this-a-buy-the-dip-opportunity/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 18:01 ET",
+        "pub_ts": 1795561262.0
+      },
+      {
+        "title": "Stock Market Today, Nov. 24: Bitmine Shares Sink 8.6% as Confidence Wanes",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-today-nov-24-bitmine-shares-sink-8-6-as-confidence-wanes/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 17:56 ET",
+        "pub_ts": 1795560972.0
+      },
+      {
         "title": "Crypto Market Today, Nov. 24: Bitcoin Falls Below $60,000 as ETF Outflows Hit a Record $4.7 Billion",
         "url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/crypto-market-today-nov-24-bitcoin-falls-below-usd60-000-as-etf-outflows-hit-a-record-usd4-7-billion/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2638,20 +2652,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 17:12 ET",
         "pub_ts": 1795558359.0
-      },
-      {
-        "title": "Michael Saylor gets the regulator's nod he wanted, just not at full price",
-        "url": "https://www.thestreet.com/crypto/policy/michael-saylor-gets-the-regulators-nod-he-wanted-just-not-at-full-price?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 17:10 ET",
-        "pub_ts": 1795558218.0
-      },
-      {
-        "title": "CleanSpark Returns to Q4 Profit on Bitcoin Gains, Revenue Falls 46% During AI Shift",
-        "url": "https://www.cryptoprowl.com/releases/cleanspark-returns-to-q4-profit-on-bitcoin-gains-revenue-falls-46-during-ai-shift-8056?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:53 ET",
-        "pub_ts": 1795557180.0
       }
     ],
     "CRWD": [
@@ -3333,32 +3333,32 @@
     "LITE": 1795562934.7263243,
     "AAOI": 1795562934.7263243,
     "SPCX": 1795562934.7263243,
-    "ASTS": 1795561512.4065733,
+    "ASTS": 1795563036.4232466,
     "AXTI": 1795562934.7263243,
-    "NASA": 1795561512.4065733,
-    "LUNR": 1795561512.4065733,
-    "TSLA": 1795561512.4065733,
-    "AXP": 1795561512.4065733,
-    "RKLB": 1795561512.4065733,
-    "KO": 1795561512.4065733,
-    "FLY": 1795561512.4065733,
-    "INTC": 1795561512.4065733,
-    "VRT": 1795561512.4065733,
-    "HPE": 1795561512.4065733,
-    "DELL": 1795561512.4065733,
-    "OKLO": 1795561512.4065733,
-    "CEG": 1795561512.4065733,
-    "FPS": 1795561512.4065733,
-    "MU": 1795561512.4065733,
-    "SKHY": 1795561512.4065733,
-    "WDC": 1795561512.4065733,
-    "STX": 1795561512.4065733,
-    "MSTR": 1795561512.4065733,
-    "SNDK": 1795561512.4065733,
-    "BTC-USD": 1795561512.4065733,
-    "CRWD": 1795561512.4065733,
-    "ORCL": 1795561512.4065733,
-    "COIN": 1795561512.4065733,
+    "NASA": 1795563036.4232466,
+    "LUNR": 1795563036.4232466,
+    "TSLA": 1795563036.4232466,
+    "AXP": 1795563036.4232466,
+    "RKLB": 1795563036.4232466,
+    "KO": 1795563036.4232466,
+    "FLY": 1795563036.4232466,
+    "INTC": 1795563036.4232466,
+    "VRT": 1795563036.4232466,
+    "HPE": 1795563036.4232466,
+    "DELL": 1795563036.4232466,
+    "OKLO": 1795563036.4232466,
+    "CEG": 1795563036.4232466,
+    "FPS": 1795563036.4232466,
+    "MU": 1795563036.4232466,
+    "SKHY": 1795563036.4232466,
+    "WDC": 1795563036.4232466,
+    "STX": 1795563036.4232466,
+    "MSTR": 1795563036.4232466,
+    "SNDK": 1795563036.4232466,
+    "BTC-USD": 1795563036.4232466,
+    "CRWD": 1795563036.4232466,
+    "ORCL": 1795563036.4232466,
+    "COIN": 1795563036.4232466,
     "LLY": 1795561615.2592516,
     "MRNA": 1795561615.2592516,
     "NKE": 1795561615.2592516,
