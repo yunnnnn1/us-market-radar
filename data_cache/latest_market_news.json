@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795549937.52,
-  "updated_at_et": "11-24 14:52 ET",
-  "updated_at_kst": "04:52 KST",
+  "updated_at_ts": 1795550043.535,
+  "updated_at_et": "11-24 14:54 ET",
+  "updated_at_kst": "04:54 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -913,39 +913,39 @@
     ],
     "NVDA": [
       {
-        "title": "Schumer accuses Huang of violating U.S. export law",
-        "url": "https://finance.yahoo.com/technology/articles/schumer-accuses-huang-violating-u-191611087.html?.tsrc=rss",
+        "title": "With Jensen Huang Back as CEO, Is It More Likely That Nvidia Will Rebound to $243.37 or Plummet to $100?",
+        "url": "https://www.fool.com/investing/2026/11/24/with-jensen-huang-back-as-ceo-is-it-more-likely-that-nvidia-will-rebound-to-usd243-37-or-plummet-to-usd100/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 14:16 ET",
-        "pub_ts": 1795547771.0
+        "time": "11-24 14:49 ET",
+        "pub_ts": 1795549742.0
       },
       {
-        "title": "Nvidia's stock surge is crypto's worst nightmare, Arthur Hayes warns",
-        "url": "https://www.thestreet.com/crypto/markets/nvidias-stock-surge-is-cryptos-worst-nightmare-arthur-hayes-warns?.tsrc=rss",
+        "title": "3 Unstoppable Stocks That Can Be Great Buys for Decades",
+        "url": "https://www.fool.com/investing/2026/11/24/3-unstoppable-stocks-that-can-be-great-buys-for-decades/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 14:15 ET",
-        "pub_ts": 1795547700.0
+        "time": "11-24 14:42 ET",
+        "pub_ts": 1795549322.0
       },
       {
-        "title": "Update: US Equity Indexes Mixed as Sliding Anthropic, Nvidia Hurt AI Trade While Defensives Advance",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-sliding-190413191.html?.tsrc=rss",
+        "title": "Nasdaq Resumes Selloff as Nvidia, Anthropic Shares Slump",
+        "url": "https://www.wsj.com/finance/stocks/nasdaq-futures-fall-as-questions-linger-over-ai-trade-68ba6d71?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 14:04 ET",
-        "pub_ts": 1795547053.0
+        "time": "11-24 14:32 ET",
+        "pub_ts": 1795548720.0
       },
       {
-        "title": "Michael Burry Says Nvidia's ‘Precarious Normal’ Returns With Jensen Huang Back At The Helm: Loads Up On JD, Tencent, BYD Stocks",
-        "url": "https://stocktwits.com/news-articles/markets/equity/michael-burry-says-nvidia-s-precarious-normal-returns-with-jensen-huang-back-at-the-helm-loads-up-on-jd-tencent-byd-stocks/cNbs1igR9kU?.tsrc=rss",
+        "title": "Nvidia board joins Jensen Huang under scrutiny after reinstating embattled CEO",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-board-joins-jensen-huang-193103891.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 14:02 ET",
-        "pub_ts": 1795546937.0
+        "time": "11-24 14:31 ET",
+        "pub_ts": 1795548663.0
       },
       {
-        "title": "Why SpaceX Dropped Again Today",
-        "url": "https://www.fool.com/investing/2026/11/24/why-spacex-dropped-again-today/?.tsrc=rss",
+        "title": "Jensen Huang’s Nvidia return is a ‘bullish black swan’ and bitcoin is in gold’s ‘doghouse’ era: Eric Balchunas",
+        "url": "http://videos.coindesk.com/previews/4vD9Xjkt?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 14:01 ET",
-        "pub_ts": 1795546896.0
+        "time": "11-24 14:25 ET",
+        "pub_ts": 1795548356.0
       }
     ],
     "AMD": [
@@ -3290,23 +3290,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795548528.454617,
-    "SOXL": 1795548528.454617,
-    "SPY": 1795548528.454617,
-    "DIA": 1795548528.454617,
-    "SOXX": 1795548528.454617,
-    "QQQ": 1795548528.454617,
-    "SMH": 1795548528.454617,
-    "IWM": 1795548528.454617,
-    "IGV": 1795548528.454617,
-    "TLT": 1795548528.454617,
-    "GLD": 1795548528.454617,
-    "SQQQ": 1795548528.454617,
-    "TSM": 1795548528.454617,
-    "VIXY": 1795548528.454617,
-    "SOXS": 1795548528.454617,
-    "NVDA": 1795548528.454617,
-    "AMD": 1795548528.454617,
+    "KORU": 1795550043.534583,
+    "SOXL": 1795550043.534583,
+    "SPY": 1795550043.534583,
+    "DIA": 1795550043.534583,
+    "SOXX": 1795550043.534583,
+    "QQQ": 1795550043.534583,
+    "SMH": 1795550043.534583,
+    "IWM": 1795550043.534583,
+    "IGV": 1795550043.534583,
+    "TLT": 1795550043.534583,
+    "GLD": 1795550043.534583,
+    "SQQQ": 1795550043.534583,
+    "TSM": 1795550043.534583,
+    "VIXY": 1795550043.534583,
+    "SOXS": 1795550043.534583,
+    "NVDA": 1795550043.534583,
+    "AMD": 1795550043.534583,
     "ASML": 1795548877.2581956,
     "QCOM": 1795548877.2581956,
     "AVGO": 1795548877.2581956,
@@ -3359,17 +3359,17 @@
     "MRNA": 1795549088.9952607,
     "NKE": 1795549088.9952607,
     "MCD": 1795549088.9952607,
-    "PEP": 1795548528.454617,
-    "XOM": 1795548528.454617,
-    "JPM": 1795548528.454617,
-    "WMT": 1795548528.454617,
+    "PEP": 1795550043.534583,
+    "XOM": 1795550043.534583,
+    "JPM": 1795550043.534583,
+    "WMT": 1795550043.534583,
     "V": 1795549088.9952607,
-    "CAT": 1795548528.454617,
+    "CAT": 1795550043.534583,
     "FN": 1795548877.2581956,
     "GLW": 1795548877.2581956,
-    "ANT": 1795548528.454617,
-    "XAUUSD": 1795548528.454617,
-    "KOSPI": 1795548528.454617
+    "ANT": 1795550043.534583,
+    "XAUUSD": 1795550043.534583,
+    "KOSPI": 1795550043.534583
   },
   "opex_shield": {
     "date": "2026-11-24",
