@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795544927.856,
-  "updated_at_et": "11-24 13:28 ET",
-  "updated_at_kst": "03:28 KST",
+  "updated_at_ts": 1795548528.455,
+  "updated_at_et": "11-24 14:28 ET",
+  "updated_at_kst": "04:28 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -506,6 +506,13 @@
     ],
     "SOXX": [
       {
+        "title": "AI Stocks Are Getting Clobbered",
+        "url": "https://finance.yahoo.com/m/4ed869bd-466e-3fa6-9f78-569d1e79ff03/ai-stocks-are-getting.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:38 ET",
+        "pub_ts": 1795541888.0
+      },
+      {
         "title": "iShares PHLX SOX Semiconductor (SOXX) Adds AMD and AVGO on Nov. 20",
         "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-phlx-sox-semiconductor-soxx-110302788.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -532,13 +539,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 11:26 ET",
         "pub_ts": 1795451214.0
-      },
-      {
-        "title": "As AI Stocks Plummet, Insiders Are Buying Into These 3 Names",
-        "url": "https://www.marketbeat.com/articles/as-ai-stocks-plummet-insiders-are-buying-into-these-3-names/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 08:10 ET",
-        "pub_ts": 1795439400.0
       }
     ],
     "QQQ": [
@@ -913,42 +913,56 @@
     ],
     "NVDA": [
       {
-        "title": "Huang's return fails to dispel doubts as Nvidia shares drop",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/huangs-return-fails-dispel-doubts-164158462.html?.tsrc=rss",
+        "title": "Schumer accuses Huang of violating U.S. export law",
+        "url": "https://finance.yahoo.com/technology/articles/schumer-accuses-huang-violating-u-191611087.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 13:15 ET",
-        "pub_ts": 1795544137.0
+        "time": "11-24 14:16 ET",
+        "pub_ts": 1795547771.0
       },
       {
-        "title": "If You Invest $5,000 Into These 3 Stocks, You Could Have $10,000 by 2030",
-        "url": "https://247wallst.com/investing/2026/11/24/if-you-invest-5000-into-these-3-stocks-you-could-have-10000-by-2030/?.tsrc=rss",
+        "title": "Nvidia's stock surge is crypto's worst nightmare, Arthur Hayes warns",
+        "url": "https://www.thestreet.com/crypto/markets/nvidias-stock-surge-is-cryptos-worst-nightmare-arthur-hayes-warns?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 13:03 ET",
-        "pub_ts": 1795543400.0
+        "time": "11-24 14:15 ET",
+        "pub_ts": 1795547700.0
       },
       {
-        "title": "Skyworks Solutions (SWKS) Stock Is Up 7.9% Today Without Company News",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/skyworks-solutions-swks-stock-7-180027915.html?.tsrc=rss",
+        "title": "Update: US Equity Indexes Mixed as Sliding Anthropic, Nvidia Hurt AI Trade While Defensives Advance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-sliding-190413191.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 13:00 ET",
-        "pub_ts": 1795543227.0
+        "time": "11-24 14:04 ET",
+        "pub_ts": 1795547053.0
       },
       {
-        "title": "Nvidia Stock Swings Are Getting Costly -- Credit Risk Jumps to Near-Record Levels",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-swings-getting-costly-174958487.html?.tsrc=rss",
+        "title": "Michael Burry Says Nvidia's ‘Precarious Normal’ Returns With Jensen Huang Back At The Helm: Loads Up On JD, Tencent, BYD Stocks",
+        "url": "https://stocktwits.com/news-articles/markets/equity/michael-burry-says-nvidia-s-precarious-normal-returns-with-jensen-huang-back-at-the-helm-loads-up-on-jd-tencent-byd-stocks/cNbs1igR9kU?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 12:49 ET",
-        "pub_ts": 1795542598.0
+        "time": "11-24 14:02 ET",
+        "pub_ts": 1795546937.0
       },
       {
-        "title": "Nvidia's Huang to Face Bipartisan Scrutiny on Capitol Hill",
-        "url": "https://finance.yahoo.com/video/nvidias-huang-face-bipartisan-scrutiny-174936580.html?.tsrc=rss",
+        "title": "Why SpaceX Dropped Again Today",
+        "url": "https://www.fool.com/investing/2026/11/24/why-spacex-dropped-again-today/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 12:49 ET",
-        "pub_ts": 1795542576.0
+        "time": "11-24 14:01 ET",
+        "pub_ts": 1795546896.0
       }
     ],
     "AMD": [
+      {
+        "title": "AMDL 2X AMD ETF Drops from $90 to $30: Will This Leveraged AMD Fund Be an ‘Easy Triple’ from Here?",
+        "url": "https://247wallst.com/investing/2026/11/24/amdl-2x-amd-etf-drops-from-90-to-30-will-this-leveraged-amd-fund-be-an-easy-triple-from-here/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 13:53 ET",
+        "pub_ts": 1795546382.0
+      },
+      {
+        "title": "AMD Stock Shows the Market Has Stopped Making Sense After Huang’s Dramatic Return",
+        "url": "https://finance.yahoo.com/m/fad1db36-fd86-34e4-866b-804987e46e84/amd-stock-shows-the-market.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 13:14 ET",
+        "pub_ts": 1795544040.0
+      },
       {
         "title": "Nvidia, AMD and Micron Lead AI Selloff as Chip Stocks Slide",
         "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-amd-micron-lead-ai-174008056.html?.tsrc=rss",
@@ -969,20 +983,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 12:31 ET",
         "pub_ts": 1795541472.0
-      },
-      {
-        "title": "AMD Stocks Fall 9.08% After Filing Registers 337 Million Shares for Resale",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/amd-stocks-fall-9-08-170251435.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 12:02 ET",
-        "pub_ts": 1795539771.0
-      },
-      {
-        "title": "Up 100% in 2026, AMD Will Trade at This Price in 2027",
-        "url": "https://247wallst.com/investing/2026/11/24/up-100-in-2026-amd-will-trade-at-this-price-in-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:03 ET",
-        "pub_ts": 1795536213.0
       }
     ],
     "ASML": [
@@ -2911,6 +2911,20 @@
     ],
     "PEP": [
       {
+        "title": "What Did Coca-Cola Do That PepsiCo Did Not?",
+        "url": "https://www.trefis.com/stock/pep/articles/628584/what-did-coca-cola-do-that-pepsico-did-not/2026-11-24?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 13:26 ET",
+        "pub_ts": 1795544817.0
+      },
+      {
+        "title": "PETA, PepsiCo shareholders call out animal abuse across its supply chain",
+        "url": "https://www.esgdive.com/news/pepsico-shareholders-peta-call-out-animal-abuse-across-beverage-makers-supply-chain/875649/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:38 ET",
+        "pub_ts": 1795541921.0
+      },
+      {
         "title": "Is PepsiCo Sacrificing Pricing Power to Regain Snack Volumes?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/pepsico-sacrificing-pricing-power-regain-163200430.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2930,20 +2944,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:29 ET",
         "pub_ts": 1795530541.0
-      },
-      {
-        "title": "5 Blue-Chip Dividend Stocks Built to Keep Paying Through Tough Markets",
-        "url": "https://247wallst.com/investing/2026/11/23/5-blue-chip-dividend-stocks-built-to-keep-paying-through-tough-markets/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 15:17 ET",
-        "pub_ts": 1795465036.0
-      },
-      {
-        "title": "PepsiCo (PEP) Stock May Be 49% Undervalued Following Margin Concerns",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/pepsico-pep-stock-may-49-191121756.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 14:11 ET",
-        "pub_ts": 1795461081.0
       }
     ],
     "XOM": [
@@ -2985,6 +2985,13 @@
     ],
     "JPM": [
       {
+        "title": "Bitcoin now counts as collateral: From the CFTC to the ECB",
+        "url": "https://finance.yahoo.com/video/bitcoin-now-counts-as-collateral-from-the-cftc-to-the-ecb-173702372.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:37 ET",
+        "pub_ts": 1795541822.0
+      },
+      {
         "title": "JPMorgan Dallas Hub Targets Private Equity and Hedge Funds",
         "url": "https://www.credaily.com/briefs/jpmorgan-dallas-hub-targets-private-equity-and-hedge-funds/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3011,13 +3018,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 08:16 ET",
         "pub_ts": 1795526178.0
-      },
-      {
-        "title": "European cement makers poised for price gains as costs climb, J.P. Morgan says",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/european-cement-makers-poised-price-131258529.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:12 ET",
-        "pub_ts": 1795525978.0
       }
     ],
     "WMT": [
@@ -3253,13 +3253,6 @@
     ],
     "KOSPI": [
       {
-        "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall as investors test Nvidia-fueled rally",
-        "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-rebound-090614276.html",
-        "source": "Yahoo Finance",
-        "time": "11-24 06:52 ET",
-        "pub_ts": 1795521147.0
-      },
-      {
         "title": "Nvidia Bulls Rule on Asian Stock Markets",
         "url": "https://finance.yahoo.com/markets/world-indices/articles/nvidia-bulls-rule-asian-stock-103642321.html",
         "source": "MT Newswires",
@@ -3286,27 +3279,34 @@
         "source": "Investing.com",
         "time": "11-22 22:33 ET",
         "pub_ts": 1795404801.0
+      },
+      {
+        "title": "South Korea vows to stabilise stock market after KOSPI drops 5%",
+        "url": "https://finance.yahoo.com/economy/articles/south-koreas-finance-minister-sees-024346169.html",
+        "source": "Reuters",
+        "time": "11-22 22:17 ET",
+        "pub_ts": 1795403836.0
       }
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795544494.5154455,
-    "SOXL": 1795544494.5154455,
-    "SPY": 1795544494.5154455,
-    "DIA": 1795544494.5154455,
-    "SOXX": 1795544494.5154455,
-    "QQQ": 1795544494.5154455,
-    "SMH": 1795544494.5154455,
-    "IWM": 1795544494.5154455,
-    "IGV": 1795544494.5154455,
-    "TLT": 1795544494.5154455,
-    "GLD": 1795544494.5154455,
-    "SQQQ": 1795544494.5154455,
-    "TSM": 1795544494.5154455,
-    "VIXY": 1795544494.5154455,
-    "SOXS": 1795544494.5154455,
-    "NVDA": 1795544494.5154455,
-    "AMD": 1795544494.5154455,
+    "KORU": 1795548528.454617,
+    "SOXL": 1795548528.454617,
+    "SPY": 1795548528.454617,
+    "DIA": 1795548528.454617,
+    "SOXX": 1795548528.454617,
+    "QQQ": 1795548528.454617,
+    "SMH": 1795548528.454617,
+    "IWM": 1795548528.454617,
+    "IGV": 1795548528.454617,
+    "TLT": 1795548528.454617,
+    "GLD": 1795548528.454617,
+    "SQQQ": 1795548528.454617,
+    "TSM": 1795548528.454617,
+    "VIXY": 1795548528.454617,
+    "SOXS": 1795548528.454617,
+    "NVDA": 1795548528.454617,
+    "AMD": 1795548528.454617,
     "ASML": 1795544494.5154455,
     "QCOM": 1795544494.5154455,
     "AVGO": 1795544494.5154455,
@@ -3359,17 +3359,17 @@
     "MRNA": 1795544927.8556547,
     "NKE": 1795544927.8556547,
     "MCD": 1795544927.8556547,
-    "PEP": 1795543515.8391044,
-    "XOM": 1795543515.8391044,
-    "JPM": 1795543515.8391044,
-    "WMT": 1795543515.8391044,
+    "PEP": 1795548528.454617,
+    "XOM": 1795548528.454617,
+    "JPM": 1795548528.454617,
+    "WMT": 1795548528.454617,
     "V": 1795544927.8556547,
-    "CAT": 1795543515.8391044,
+    "CAT": 1795548528.454617,
     "FN": 1795544819.1290398,
     "GLW": 1795544819.1290398,
-    "ANT": 1795543515.8391044,
-    "XAUUSD": 1795543515.8391044,
-    "KOSPI": 1795521635.6703591
+    "ANT": 1795548528.454617,
+    "XAUUSD": 1795548528.454617,
+    "KOSPI": 1795548528.454617
   },
   "opex_shield": {
     "date": "2026-11-24",
