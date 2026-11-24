@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795556661.22,
-  "updated_at_et": "11-24 16:44 ET",
-  "updated_at_kst": "06:44 KST",
+  "updated_at_ts": 1795556776.125,
+  "updated_at_et": "11-24 16:46 ET",
+  "updated_at_kst": "06:46 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1133,6 +1133,13 @@
     ],
     "META": [
       {
+        "title": "Could Meta Actually Climb 30%? Or Is J.P. Morgan Totally Wrong?",
+        "url": "https://www.tikr.com/blog/could-meta-actually-climb-30-or-is-j-p-morgan-totally-wrong?ref=yahoofinance&tlnk=yf-261124-24hpvhqr&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:15 ET",
+        "pub_ts": 1795554957.0
+      },
+      {
         "title": "David Abrams’ Meta Platforms, Inc. (META) Bet Is Backed by Strong Cash Flow and AI Growth",
         "url": "https://finance.yahoo.com/markets/stocks/articles/david-abrams-meta-platforms-inc-190633349.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1159,13 +1166,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:35 ET",
         "pub_ts": 1795538100.0
-      },
-      {
-        "title": "What Moved Meta Stock?",
-        "url": "https://www.trefis.com/stock/meta/articles/628634/what-moved-meta-stock/2026-11-24?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:20 ET",
-        "pub_ts": 1795537206.0
       }
     ],
     "GOOGL": [
@@ -1244,6 +1244,13 @@
     ],
     "AAPL": [
       {
+        "title": "Why the Jensen Huang rally faded so quickly",
+        "url": "https://finance.yahoo.com/video/why-the-jensen-huang-rally-faded-so-quickly-194511286.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 14:45 ET",
+        "pub_ts": 1795549511.0
+      },
+      {
         "title": "Stocks give back gains as Anthropic dips below IPO price",
         "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1258,25 +1265,18 @@
         "pub_ts": 1795534975.0
       },
       {
-        "title": "Apple Stock Has 3 Things Going for It in 2027. Here’s My Price Target",
-        "url": "https://247wallst.com/investing/2026/11/24/apple-stock-has-3-things-going-for-it-in-2027-heres-my-price-target/?.tsrc=rss",
+        "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
+        "url": "https://finance.yahoo.com/technology/ai/articles/maple-raises-5-3m-build-211952973.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 12:03 ET",
-        "pub_ts": 1795539837.0
+        "time": "11-24 16:19 ET",
+        "pub_ts": 1795555192.0
       },
       {
-        "title": "Apple Inc. (AAPL) Delivered Strong Results: Why Investors Are Watching Its Next Move Closely",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-inc-aapl-delivered-strong-165645219.html?.tsrc=rss",
+        "title": "Is Apple (AAPL) Above Fair Value As ETF Buying Returns?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-above-fair-value-211324050.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 11:56 ET",
-        "pub_ts": 1795539405.0
-      },
-      {
-        "title": "Apple Set to Revive Popular Product Line After Years",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-set-revive-popular-product-164314724.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:43 ET",
-        "pub_ts": 1795538594.0
+        "time": "11-24 16:13 ET",
+        "pub_ts": 1795554804.0
       }
     ],
     "PLTR": [
@@ -1503,6 +1503,13 @@
     ],
     "VST": [
       {
+        "title": "Is Vistra (VST) Still Below Fair Value After Data Center Clarity?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/vistra-vst-still-below-fair-211126773.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:11 ET",
+        "pub_ts": 1795554686.0
+      },
+      {
         "title": "What Just Happened To Vistra Stock?",
         "url": "https://www.trefis.com/stock/vst/articles/628627/what-just-happened-to-vistra-stock-2/2026-11-24?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1529,13 +1536,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:54 ET",
         "pub_ts": 1795535695.0
-      },
-      {
-        "title": "Exelon Or Vistra: Which Fits Your Power Demand Bet?",
-        "url": "https://www.trefis.com/stock/exc/articles/627544/exelon-or-vistra-which-fits-your-power-demand-bet/2026-11-23?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 15:38 ET",
-        "pub_ts": 1795466329.0
       }
     ],
     "BE": [
@@ -1762,6 +1762,13 @@
     ],
     "SPCX": [
       {
+        "title": "A SpaceX-Tesla Deal Could Come in December. Here's Why 1 Group of Investors Should Be Worried.",
+        "url": "https://www.fool.com/investing/2026/11/24/a-spacex-tesla-deal-could-come-in-december-here-s-why-1-group-of-investors-should-be-worried/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:27 ET",
+        "pub_ts": 1795555622.0
+      },
+      {
         "title": "Tesla, SpaceX Reportedly Pick Board Members To Negotiate Elon Musk's Mega Merger",
         "url": "https://finance.yahoo.com/m/d4400d8c-dfaf-3382-a360-877e01e80aec/tesla%2C-spacex-reportedly-pick.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1788,13 +1795,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 15:05 ET",
         "pub_ts": 1795550733.0
-      },
-      {
-        "title": "Anduril’s Palmer Luckey: Elon Shouldn’t “Sacrifice the Existence of the Entire Starlink Network.” Here’s What’s at Stake for SpaceX",
-        "url": "https://www.tikr.com/blog/andurils-palmer-luckey-elon-shouldnt-sacrifice-the-existence-of-the-entire-starlink-network-heres-whats-at-stake-for-spacex?ref=yahoofinance&tlnk=yf-261124-2hmq638p&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 15:05 ET",
-        "pub_ts": 1795550700.0
       }
     ],
     "ASTS": [
@@ -3305,30 +3305,30 @@
     "SOXS": 1795556339.07211,
     "NVDA": 1795556339.07211,
     "AMD": 1795556339.07211,
-    "ASML": 1795555270.3988807,
-    "QCOM": 1795555270.3988807,
-    "AVGO": 1795555270.3988807,
-    "AMAT": 1795555270.3988807,
-    "META": 1795555270.3988807,
-    "GOOGL": 1795555270.3988807,
-    "MSFT": 1795555270.3988807,
-    "AAPL": 1795555270.3988807,
-    "PLTR": 1795555270.3988807,
-    "NOW": 1795555270.3988807,
-    "AMZN": 1795555270.3988807,
-    "CRWV": 1795555270.3988807,
-    "NBIS": 1795555270.3988807,
-    "APLD": 1795555270.3988807,
-    "VST": 1795555270.3988807,
-    "BE": 1795555270.3988807,
-    "CRDO": 1795555270.3988807,
-    "COHR": 1795555270.3988807,
-    "MRVL": 1795555270.3988807,
-    "LITE": 1795555270.3988807,
-    "AAOI": 1795555270.3988807,
-    "SPCX": 1795555270.3988807,
+    "ASML": 1795556776.1251295,
+    "QCOM": 1795556776.1251295,
+    "AVGO": 1795556776.1251295,
+    "AMAT": 1795556776.1251295,
+    "META": 1795556776.1251295,
+    "GOOGL": 1795556776.1251295,
+    "MSFT": 1795556776.1251295,
+    "AAPL": 1795556776.1251295,
+    "PLTR": 1795556776.1251295,
+    "NOW": 1795556776.1251295,
+    "AMZN": 1795556776.1251295,
+    "CRWV": 1795556776.1251295,
+    "NBIS": 1795556776.1251295,
+    "APLD": 1795556776.1251295,
+    "VST": 1795556776.1251295,
+    "BE": 1795556776.1251295,
+    "CRDO": 1795556776.1251295,
+    "COHR": 1795556776.1251295,
+    "MRVL": 1795556776.1251295,
+    "LITE": 1795556776.1251295,
+    "AAOI": 1795556776.1251295,
+    "SPCX": 1795556776.1251295,
     "ASTS": 1795555379.211981,
-    "AXTI": 1795555270.3988807,
+    "AXTI": 1795556776.1251295,
     "NASA": 1795555379.211981,
     "LUNR": 1795555379.211981,
     "TSLA": 1795555379.211981,
@@ -3363,8 +3363,8 @@
     "WMT": 1795556339.07211,
     "V": 1795555485.1308203,
     "CAT": 1795556339.07211,
-    "FN": 1795555270.3988807,
-    "GLW": 1795555270.3988807,
+    "FN": 1795556776.1251295,
+    "GLW": 1795556776.1251295,
     "ANT": 1795556339.07211,
     "XAUUSD": 1795556339.07211,
     "KOSPI": 1795556339.07211
