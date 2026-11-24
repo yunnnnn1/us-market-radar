@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795561410.951,
-  "updated_at_et": "11-24 18:03 ET",
-  "updated_at_kst": "08:03 KST",
+  "updated_at_ts": 1795561512.407,
+  "updated_at_et": "11-24 18:05 ET",
+  "updated_at_kst": "08:05 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2071,6 +2071,13 @@
         "pub_ts": 1795556758.0
       },
       {
+        "title": "Prediction: Here's What $10,000 in Coca-Cola Could Pay You in Dividends by 2036",
+        "url": "https://www.fool.com/investing/2026/11/24/prediction-heres-what-10000-in-coca-cola-could-pay-you-in-dividends-by-2036/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 17:33 ET",
+        "pub_ts": 1795559582.0
+      },
+      {
         "title": "Coca-Cola hires pharma vet for CFO",
         "url": "https://www.cfodive.com/news/cocacola-grants-new-cfo-10m-stock-cash-awards-beverage-capex/875666/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2090,13 +2097,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:13 ET",
         "pub_ts": 1795533234.0
-      },
-      {
-        "title": "Coca-Cola at $95 or PepsiCo at $140: Which Dividend King Could Turn $1,000 Into More Money by 2036?",
-        "url": "https://www.fool.com/investing/2026/11/24/coca-cola-at-usd95-or-pepsico-at-usd140-which-dividend-king-could-turn-usd1-000-into-more-money-by-2036/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:29 ET",
-        "pub_ts": 1795530541.0
       }
     ],
     "FLY": [
@@ -2404,6 +2404,13 @@
         "pub_ts": 1795556758.0
       },
       {
+        "title": "Nvidia, Anthropic, Micron, HPE, Analog Devices, Insmed, Dollar Tree, and More Stocks That Explain Today’s Market",
+        "url": "https://finance.yahoo.com/m/f7fa0ed2-2c68-3b80-9261-c35639090d03/nvidia%2C-anthropic%2C-micron%2C.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:33 ET",
+        "pub_ts": 1795555980.0
+      },
+      {
         "title": "Why MaxLinear (MXL) Stock Is Plunging Today: Chip Stocks Sell Off",
         "url": "https://finance.yahoo.com/markets/stocks/articles/why-maxlinear-mxl-stock-plunging-210142402.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2423,13 +2430,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 16:01 ET",
         "pub_ts": 1795554095.0
-      },
-      {
-        "title": "Why Is CEVA (CEVA) Stock Down Today? AI Chip Selloff Drags Shares",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-ceva-ceva-stock-down-204653822.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 15:46 ET",
-        "pub_ts": 1795553213.0
       }
     ],
     "SKHY": [
@@ -2619,6 +2619,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "Crypto Market Today, Nov. 24: Bitcoin Falls Below $60,000 as ETF Outflows Hit a Record $4.7 Billion",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/crypto-market-today-nov-24-bitcoin-falls-below-usd60-000-as-etf-outflows-hit-a-record-usd4-7-billion/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 17:46 ET",
+        "pub_ts": 1795560400.0
+      },
+      {
         "title": "Tom Lee Says Ethereum Is as Scarce as Bitcoin: Do the Supply Numbers Agree?",
         "url": "https://247wallst.com/investing/cryptocurrency/2026/11/24/tom-lee-says-ethereum-is-as-scarce-as-bitcoin-do-the-supply-numbers-agree/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2645,13 +2652,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 16:53 ET",
         "pub_ts": 1795557180.0
-      },
-      {
-        "title": "Wells Fargo (WFC) Stock Still Looks Undervalued Following Its 99% Run",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-wfc-stock-still-211124730.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:11 ET",
-        "pub_ts": 1795554684.0
       }
     ],
     "CRWD": [
@@ -2693,6 +2693,13 @@
     ],
     "ORCL": [
       {
+        "title": "Oracle (ORCL) Falls More Steeply Than Broader Market: What Investors Need to Know",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-orcl-falls-more-steeply-214502238.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:45 ET",
+        "pub_ts": 1795556702.0
+      },
+      {
         "title": "Not Good: Oracle’s Credit Swaps Blow Out Again a Day After Huang’s Return Lifted Nvidia",
         "url": "https://www.tikr.com/blog/not-good-oracles-credit-swaps-blow-out-again-a-day-after-huangs-return-lifted-nvidia?ref=yahoofinance&tlnk=yf-261124-vcwxc3ff&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2719,13 +2726,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:29 ET",
         "pub_ts": 1795534140.0
-      },
-      {
-        "title": "How Investors Are Reacting To Oracle Stock Securing AI Funding",
-        "url": "https://finance.yahoo.com/technology/ai/articles/investors-reacting-oracle-stock-securing-151310449.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:13 ET",
-        "pub_ts": 1795533190.0
       }
     ],
     "COIN": [
@@ -3333,32 +3333,32 @@
     "LITE": 1795561410.95106,
     "AAOI": 1795561410.95106,
     "SPCX": 1795561410.95106,
-    "ASTS": 1795559997.0317757,
+    "ASTS": 1795561512.4065733,
     "AXTI": 1795561410.95106,
-    "NASA": 1795559997.0317757,
-    "LUNR": 1795559997.0317757,
-    "TSLA": 1795559997.0317757,
-    "AXP": 1795559997.0317757,
-    "RKLB": 1795559997.0317757,
-    "KO": 1795559997.0317757,
-    "FLY": 1795559997.0317757,
-    "INTC": 1795559997.0317757,
-    "VRT": 1795559997.0317757,
-    "HPE": 1795559997.0317757,
-    "DELL": 1795559997.0317757,
-    "OKLO": 1795559997.0317757,
-    "CEG": 1795559997.0317757,
-    "FPS": 1795559997.0317757,
-    "MU": 1795559997.0317757,
-    "SKHY": 1795559997.0317757,
-    "WDC": 1795559997.0317757,
-    "STX": 1795559997.0317757,
-    "MSTR": 1795559997.0317757,
-    "SNDK": 1795559997.0317757,
-    "BTC-USD": 1795559997.0317757,
-    "CRWD": 1795559997.0317757,
-    "ORCL": 1795559997.0317757,
-    "COIN": 1795559997.0317757,
+    "NASA": 1795561512.4065733,
+    "LUNR": 1795561512.4065733,
+    "TSLA": 1795561512.4065733,
+    "AXP": 1795561512.4065733,
+    "RKLB": 1795561512.4065733,
+    "KO": 1795561512.4065733,
+    "FLY": 1795561512.4065733,
+    "INTC": 1795561512.4065733,
+    "VRT": 1795561512.4065733,
+    "HPE": 1795561512.4065733,
+    "DELL": 1795561512.4065733,
+    "OKLO": 1795561512.4065733,
+    "CEG": 1795561512.4065733,
+    "FPS": 1795561512.4065733,
+    "MU": 1795561512.4065733,
+    "SKHY": 1795561512.4065733,
+    "WDC": 1795561512.4065733,
+    "STX": 1795561512.4065733,
+    "MSTR": 1795561512.4065733,
+    "SNDK": 1795561512.4065733,
+    "BTC-USD": 1795561512.4065733,
+    "CRWD": 1795561512.4065733,
+    "ORCL": 1795561512.4065733,
+    "COIN": 1795561512.4065733,
     "LLY": 1795560101.0524993,
     "MRNA": 1795560101.0524993,
     "NKE": 1795560101.0524993,
