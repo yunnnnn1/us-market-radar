@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795559374.131,
-  "updated_at_et": "11-24 17:29 ET",
-  "updated_at_kst": "07:29 KST",
+  "updated_at_ts": 1795559480.891,
+  "updated_at_et": "11-24 17:31 ET",
+  "updated_at_kst": "07:31 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -910,42 +910,49 @@
     ],
     "NVDA": [
       {
-        "title": "Why Nvidia is 'bar none' the 'cheapest growth stock in the market'",
-        "url": "https://finance.yahoo.com/video/why-nvidia-is-bar-none-the-cheapest-growth-stock-in-the-market-213425021.html?.tsrc=rss",
+        "title": "Dow Jones Futures: Nvidia, Anthropic Lead AI Retreat But Many Sectors Strong; Fed Inflation Data Due",
+        "url": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures%3A-nvidia%2C.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 16:34 ET",
-        "pub_ts": 1795556065.0
+        "time": "11-24 17:25 ET",
+        "pub_ts": 1795559101.0
       },
       {
-        "title": "Nvidia's Huang says he is in therapy as comeback rally fades",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/huangs-return-fails-dispel-doubts-164158462.html?.tsrc=rss",
+        "title": "Stock Market Today, Nov. 24: Tech Sell-Off Drags Nasdaq as Dow Gains on Value Rotation",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-today-nov-24-tech-sell-off-drags-nasdaq-as-dow-gains-on-value-rotation/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 17:01 ET",
-        "pub_ts": 1795557661.0
+        "time": "11-24 17:11 ET",
+        "pub_ts": 1795558308.0
       },
       {
-        "title": "Don’t chase this Nvidia rally — buy these 3 stocks instead",
-        "url": "https://www.thestreet.com/video/dont-chase-the-nvidia-rally-buy-these-3-stocks-instead?.tsrc=rss",
+        "title": "Movado Group, Inc. Q3 2027 Earnings Call Summary",
+        "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-movado-group-inc-q3-2027-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 16:54 ET",
-        "pub_ts": 1795557262.0
+        "time": "11-24 17:05 ET",
+        "pub_ts": 1795557929.0
       },
       {
-        "title": "Is Jensen Huang the AI 'spirit animal' who will save the stock market?",
-        "url": "https://www.usatoday.com/story/money/personal-finance/2026/11/24/what-jensen-huangs-return-to-nvidia-means-for-your-401k/92947391007/?.tsrc=rss",
+        "title": "Kohl's Corporation Q3 2026 Earnings Call Summary",
+        "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-kohls-corporation-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 16:53 ET",
-        "pub_ts": 1795557208.0
+        "time": "11-24 17:05 ET",
+        "pub_ts": 1795557919.0
       },
       {
-        "title": "Best Buy Co., Inc. Q3 2027 Earnings Call Summary",
-        "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-best-buy-co-inc-q3-2027-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+        "title": "The J. M. Smucker Company Q2 2027 Earnings Call Summary",
+        "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-the-j-m-smucker-company-q2-2027-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 16:50 ET",
-        "pub_ts": 1795557033.0
+        "time": "11-24 17:03 ET",
+        "pub_ts": 1795557783.0
       }
     ],
     "AMD": [
+      {
+        "title": "Anthropic falls below IPO price as Nvidia gives back gains",
+        "url": "https://finance.yahoo.com/video/anthropic-falls-below-ipo-price-as-nvidia-gives-back-gains-214558309.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:45 ET",
+        "pub_ts": 1795556758.0
+      },
       {
         "title": "Is AMD Among the Morgan Stanley’s Best Semiconductor and Server Stocks to Buy for 2027?",
         "url": "https://finance.yahoo.com/technology/articles/amd-among-morgan-stanley-best-205409840.html?.tsrc=rss",
@@ -973,13 +980,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 15:46 ET",
         "pub_ts": 1795553189.0
-      },
-      {
-        "title": "Why Is Everpure (P) Stock Down Today? AI Chip, Storage Selloff Weighs",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-everpure-p-stock-down-203130134.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 15:31 ET",
-        "pub_ts": 1795552290.0
       }
     ],
     "ASML": [
@@ -2908,6 +2908,13 @@
     ],
     "PEP": [
       {
+        "title": "Anthropic falls below IPO price as Nvidia gives back gains",
+        "url": "https://finance.yahoo.com/video/anthropic-falls-below-ipo-price-as-nvidia-gives-back-gains-214558309.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:45 ET",
+        "pub_ts": 1795556758.0
+      },
+      {
         "title": "What Did Coca-Cola Do That PepsiCo Did Not?",
         "url": "https://www.trefis.com/stock/pep/articles/628584/what-did-coca-cola-do-that-pepsico-did-not/2026-11-24?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2934,13 +2941,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:38 ET",
         "pub_ts": 1795531086.0
-      },
-      {
-        "title": "Coca-Cola at $95 or PepsiCo at $140: Which Dividend King Could Turn $1,000 Into More Money by 2036?",
-        "url": "https://www.fool.com/investing/2026/11/24/coca-cola-at-usd95-or-pepsico-at-usd140-which-dividend-king-could-turn-usd1-000-into-more-money-by-2036/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:29 ET",
-        "pub_ts": 1795530541.0
       }
     ],
     "XOM": [
@@ -2989,6 +2989,13 @@
         "pub_ts": 1795541822.0
       },
       {
+        "title": "A week on, Chase still hasn’t explained its outage",
+        "url": "https://www.americanbanker.com/news/a-week-on-chase-still-hasn-t-explained-its-outage?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 17:15 ET",
+        "pub_ts": 1795558502.0
+      },
+      {
         "title": "Could Meta Actually Climb 30%? Or Is J.P. Morgan Totally Wrong?",
         "url": "https://www.tikr.com/blog/could-meta-actually-climb-30-or-is-j-p-morgan-totally-wrong?ref=yahoofinance&tlnk=yf-261124-24hpvhqr&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3008,13 +3015,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:21 ET",
         "pub_ts": 1795537285.0
-      },
-      {
-        "title": "JPMorgan Treasury survey shows neutral positioning ahead of PCE data",
-        "url": "https://finance.yahoo.com/markets/options/articles/jpmorgan-treasury-survey-shows-neutral-132259516.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:22 ET",
-        "pub_ts": 1795526579.0
       }
     ],
     "WMT": [
@@ -3204,6 +3204,13 @@
     ],
     "ANT": [
       {
+        "title": "Anthropic falls below IPO price as Nvidia gives back gains",
+        "url": "https://finance.yahoo.com/video/anthropic-falls-below-ipo-price-as-nvidia-gives-back-gains-214558309.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:45 ET",
+        "pub_ts": 1795556758.0
+      },
+      {
         "title": "The blunt reality for post-IPO Anthropic investors should be aware of",
         "url": "https://finance.yahoo.com/video/the-blunt-reality-for-post-ipo-anthropic-investors-should-be-aware-of-213033373.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3211,32 +3218,25 @@
         "pub_ts": 1795555833.0
       },
       {
-        "title": "Why the Jensen Huang rally faded so quickly",
-        "url": "https://finance.yahoo.com/video/why-the-jensen-huang-rally-faded-so-quickly-194511286.html?.tsrc=rss",
+        "title": "Dow Jones Futures: Nvidia, Anthropic Lead AI Retreat But Many Sectors Strong; Fed Inflation Data Due",
+        "url": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures%3A-nvidia%2C.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 14:45 ET",
-        "pub_ts": 1795549511.0
+        "time": "11-24 17:25 ET",
+        "pub_ts": 1795559101.0
       },
       {
-        "title": "Anthropic IPO: Here's What a $5,000 Investment Could Look Like in 5 Years",
-        "url": "https://www.fool.com/investing/2026/11/24/anthropic-ipo-here-s-what-a-usd5-000-investment-could-look-like-in-5-years/?.tsrc=rss",
+        "title": "Why Anthropic Stock Fell Again",
+        "url": "https://www.fool.com/investing/2026/11/24/why-anthropic-stock-fell-again/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 16:37 ET",
-        "pub_ts": 1795556222.0
+        "time": "11-24 16:55 ET",
+        "pub_ts": 1795557302.0
       },
       {
-        "title": "Anthropic IPO Shares: Flip Now Or Hold A Year?",
-        "url": "https://www.trefis.com/stock/ant/articles/628272/anthropic-ipo-shares-flip-now-or-hold-a-year/2026-11-24?.tsrc=rss",
+        "title": "Stock Market Today: Nasdaq Dives As Jensen Huang Tells Nvidia Staff This; Walmart Tests Entry",
+        "url": "https://finance.yahoo.com/m/4aa4ff31-269f-346e-80c4-e681510af7ae/stock-market-today%3A-nasdaq.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 16:36 ET",
-        "pub_ts": 1795556197.0
-      },
-      {
-        "title": "Nvidia, Anthropic end sharply lower as AI selloff resumes",
-        "url": "https://finance.yahoo.com/technology/ai/articles/tech-firms-soar-huangs-return-023753159.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:29 ET",
-        "pub_ts": 1795555765.0
+        "time": "11-24 16:51 ET",
+        "pub_ts": 1795557087.0
       }
     ],
     "XAUUSD": [
@@ -3287,23 +3287,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795557961.1007452,
-    "SOXL": 1795557961.1007452,
-    "SPY": 1795557961.1007452,
-    "DIA": 1795557961.1007452,
-    "SOXX": 1795557961.1007452,
-    "QQQ": 1795557961.1007452,
-    "SMH": 1795557961.1007452,
-    "IWM": 1795557961.1007452,
-    "IGV": 1795557961.1007452,
-    "TLT": 1795557961.1007452,
-    "GLD": 1795557961.1007452,
-    "SQQQ": 1795557961.1007452,
-    "TSM": 1795557961.1007452,
-    "VIXY": 1795557961.1007452,
-    "SOXS": 1795557961.1007452,
-    "NVDA": 1795557961.1007452,
-    "AMD": 1795557961.1007452,
+    "KORU": 1795559480.890514,
+    "SOXL": 1795559480.890514,
+    "SPY": 1795559480.890514,
+    "DIA": 1795559480.890514,
+    "SOXX": 1795559480.890514,
+    "QQQ": 1795559480.890514,
+    "SMH": 1795559480.890514,
+    "IWM": 1795559480.890514,
+    "IGV": 1795559480.890514,
+    "TLT": 1795559480.890514,
+    "GLD": 1795559480.890514,
+    "SQQQ": 1795559480.890514,
+    "TSM": 1795559480.890514,
+    "VIXY": 1795559480.890514,
+    "SOXS": 1795559480.890514,
+    "NVDA": 1795559480.890514,
+    "AMD": 1795559480.890514,
     "ASML": 1795558361.770828,
     "QCOM": 1795558361.770828,
     "AVGO": 1795558361.770828,
@@ -3356,17 +3356,17 @@
     "MRNA": 1795558561.5676615,
     "NKE": 1795558561.5676615,
     "MCD": 1795558561.5676615,
-    "PEP": 1795557961.1007452,
-    "XOM": 1795557961.1007452,
-    "JPM": 1795557961.1007452,
-    "WMT": 1795557961.1007452,
+    "PEP": 1795559480.890514,
+    "XOM": 1795559480.890514,
+    "JPM": 1795559480.890514,
+    "WMT": 1795559480.890514,
     "V": 1795558561.5676615,
-    "CAT": 1795557961.1007452,
+    "CAT": 1795559480.890514,
     "FN": 1795558361.770828,
     "GLW": 1795558361.770828,
-    "ANT": 1795557961.1007452,
-    "XAUUSD": 1795557961.1007452,
-    "KOSPI": 1795557961.1007452
+    "ANT": 1795559480.890514,
+    "XAUUSD": 1795559480.890514,
+    "KOSPI": 1795559480.890514
   },
   "opex_shield": {
     "date": "2026-11-24",
