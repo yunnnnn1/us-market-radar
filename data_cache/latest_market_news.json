@@ -1,9 +1,22 @@
 {
-  "updated_at_ts": 1795555165.425,
-  "updated_at_et": "11-24 16:19 ET",
-  "updated_at_kst": "06:19 KST",
+  "updated_at_ts": 1795555270.399,
+  "updated_at_et": "11-24 16:21 ET",
+  "updated_at_kst": "06:21 KST",
   "macro_calendar": [],
   "macro_flashes": [
+    {
+      "id": "20261125052000001800",
+      "title": "美国至11月20日当周API原油库存将于十分钟后公布。",
+      "summary": "美国至11月20日当周API原油库存将于十分钟后公布。",
+      "keywords": [
+        "原油"
+      ],
+      "pub_ts": 1795555200.0,
+      "time_et": "11-24 16:20 ET",
+      "time_bj": "05:20 BJ",
+      "time_kst": "06:20 KST",
+      "time_display": "16:20 ET / 05:20 BJ"
+    },
     {
       "id": "20261125050125086800",
       "title": "【美股收盘：纳指跌近1.5% 英伟达跌近6% Anthropic破发】 11月25日讯，…",
@@ -342,19 +355,6 @@
       "time_bj": "16:18 BJ",
       "time_kst": "17:18 KST",
       "time_display": "03:18 ET / 16:18 BJ"
-    },
-    {
-      "id": "20261124161118269800",
-      "title": "英伟达重返“黄”金时代推升美股，信用市场却暗示抛售潮尚未结束| 每日市场观察11.24",
-      "summary": "英伟达创始人重新掌舵，带动美股急升，空头回补和对冲调整放大了涨势。人工智能基础设施融资仍要付出较高溢价，反弹能走多远，要看最初的回补结束后是否有新买盘接力。",
-      "keywords": [
-        "英伟达"
-      ],
-      "pub_ts": 1795507878.0,
-      "time_et": "11-24 03:11 ET",
-      "time_bj": "16:11 BJ",
-      "time_kst": "17:11 KST",
-      "time_display": "03:11 ET / 16:11 BJ"
     }
   ],
   "ticker_news": {
@@ -1100,6 +1100,13 @@
     ],
     "AMAT": [
       {
+        "title": "Why Is Applied Materials (AMAT) Stock Down Today? Chip Selloff Drags Suppliers",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-applied-materials-amat-stock-204649720.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 15:46 ET",
+        "pub_ts": 1795553209.0
+      },
+      {
         "title": "Applied Materials vs. Intel: Which Technology Stock Is a Better Buy for 2027?",
         "url": "https://www.fool.com/coverage/better-buy/2026/11/24/applied-materials-vs-intel-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1126,13 +1133,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 12:01 ET",
         "pub_ts": 1795453315.0
-      },
-      {
-        "title": "What Triggered The Fall In Applied Materials Stock?",
-        "url": "https://www.trefis.com/stock/amat/articles/627792/what-triggered-the-fall-in-applied-materials-stock/2026-11-23?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 09:45 ET",
-        "pub_ts": 1795445118.0
       }
     ],
     "META": [
@@ -1174,6 +1174,20 @@
     ],
     "GOOGL": [
       {
+        "title": "Microsoft (MSFT) Is One of the Safest Ways to Own AI",
+        "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-one-safest-ways-210600451.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:06 ET",
+        "pub_ts": 1795554360.0
+      },
+      {
+        "title": "Tesla Robotaxi Rival Starts Road Tests Without A Safety Monitor",
+        "url": "https://finance.yahoo.com/m/2fafeed7-c259-3087-9fa8-cf86f4a1ebd4/tesla-robotaxi-rival-starts.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:02 ET",
+        "pub_ts": 1795554167.0
+      },
+      {
         "title": "Intuit vs. Palo Alto Networks: Which Technology Stock Is a Better Buy for 2027?",
         "url": "https://www.fool.com/coverage/better-buy/2026/11/24/intuit-vs-palo-alto-networks-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1193,20 +1207,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 13:33 ET",
         "pub_ts": 1795545180.0
-      },
-      {
-        "title": "Why Dividend Growth ETFs Deserve a Place in Tech-Heavy Portfolios",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-dividend-growth-etfs-deserve-183300364.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 13:33 ET",
-        "pub_ts": 1795545180.0
-      },
-      {
-        "title": "ASML Is the Most Important Company You’ve Never Heard Of. Should You Buy the Stock?",
-        "url": "https://www.fool.com/investing/2026/11/24/asml-is-the-most-important-company-youve-never-heard-of-should-you-buy-the-stock/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 13:23 ET",
-        "pub_ts": 1795544582.0
       }
     ],
     "MSFT": [
@@ -1216,6 +1216,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 14:37 ET",
         "pub_ts": 1795549060.0
+      },
+      {
+        "title": "Microsoft (MSFT) Is One of the Safest Ways to Own AI",
+        "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-one-safest-ways-210600451.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:06 ET",
+        "pub_ts": 1795554360.0
       },
       {
         "title": "Sector Update: Tech Stocks Fall Late Afternoon",
@@ -1232,18 +1239,11 @@
         "pub_ts": 1795549802.0
       },
       {
-        "title": "Microsoft initiaties ‘Code Red’ after most disruptive outage in company’s history: report",
+        "title": "Microsoft initiates ‘Code Red’ after most disruptive outage in company’s history: report",
         "url": "https://nypost.com/2026/11/24/business/microsoft-initiates-code-red-after-most-disruptive-outage-in-companys-history-report/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 14:32 ET",
         "pub_ts": 1795548775.0
-      },
-      {
-        "title": "Microsoft Corporation (MSFT) Is Facing AI Spending Fears: Could Its Cloud Growth Change the Narrative?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-corporation-msft-facing-ai-165850177.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:58 ET",
-        "pub_ts": 1795539530.0
       }
     ],
     "AAPL": [
@@ -1669,6 +1669,13 @@
         "pub_ts": 1795541384.0
       },
       {
+        "title": "14 Big Funds Bought Marvell Last Quarter, While 13 Sold. Who’s Right?",
+        "url": "https://www.tikr.com/blog/14-big-funds-bought-marvell-last-quarter-while-13-sold-whos-right?ref=yahoofinance&tlnk=yf-261124-xj3x7jcx&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:59 ET",
+        "pub_ts": 1795539586.0
+      },
+      {
         "title": "Marvell Sinks 8%, Intel Down 6% as Chip Stocks Give Back Nvidia’s Record Huang Rally",
         "url": "https://www.tikr.com/blog/marvell-sinks-8-intel-down-6-as-chip-stocks-give-back-nvidias-record-huang-rally?ref=yahoofinance&tlnk=yf-261124-rjmh24f9&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1681,13 +1688,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 08:46 ET",
         "pub_ts": 1795528016.0
-      },
-      {
-        "title": "Wall Street’s New M&A Mood: Why Both Marvell-Lumentum and CrowdStrike-Zscaler Hit Pushback",
-        "url": "https://247wallst.com/investing/2026/11/24/wall-streets-new-ma-mood-why-both-marvell-lumentum-and-crowdstrike-zscaler-hit-pushback/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:45 ET",
-        "pub_ts": 1795527912.0
       }
     ],
     "LITE": [
@@ -1766,6 +1766,20 @@
     ],
     "SPCX": [
       {
+        "title": "Tesla, SpaceX Reportedly Pick Board Members To Negotiate Elon Musk's Mega Merger",
+        "url": "https://finance.yahoo.com/m/d4400d8c-dfaf-3382-a360-877e01e80aec/tesla%2C-spacex-reportedly-pick.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:05 ET",
+        "pub_ts": 1795554326.0
+      },
+      {
+        "title": "Tesla and SpaceX Just Assembled Deal Teams for a $3.2 Trillion Merger. Here's What Investors Need to Know.",
+        "url": "https://www.fool.com/investing/2026/11/24/tesla-and-spacex-just-assembled-deal-teams-for-a-usd3-2-trillion-merger-here-s-what-investors-need-to-know/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 15:59 ET",
+        "pub_ts": 1795553995.0
+      },
+      {
         "title": "3 Non-AI Stocks to Buy for Long-Term Dividends and Stability",
         "url": "https://www.fool.com/investing/2026/11/24/3-non-ai-stocks-to-buy-for-long-term-dividends-and-stability/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1785,20 +1799,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 15:05 ET",
         "pub_ts": 1795550700.0
-      },
-      {
-        "title": "If SpaceX and Tesla Merge, History Says One Group of Shareholders Usually Wins. Here’s Which Side to Be On.",
-        "url": "https://www.fool.com/investing/2026/11/24/if-spacex-and-tesla-merge-history-says-one-group-of-shareholders-usually-wins-here-s-which-side-to-be-on/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 14:19 ET",
-        "pub_ts": 1795547994.0
-      },
-      {
-        "title": "Why SpaceX Dropped Again Today",
-        "url": "https://www.fool.com/investing/2026/11/24/why-spacex-dropped-again-today/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 14:01 ET",
-        "pub_ts": 1795546896.0
       }
     ],
     "ASTS": [
@@ -3163,11 +3163,11 @@
         "pub_ts": 1795020420.0
       },
       {
-        "title": "The Zacks Analyst Blog Highlights Arista Networks, Fabrinet, Analog Devices, Advanced Micro Devices and NVIDIA",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-arista-062800269.html?.tsrc=rss",
+        "title": "Plexus (PLXS) Stock Is Down 8.9% Today Without Company News",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/plexus-plxs-stock-down-8-160042476.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-11 01:28 ET",
-        "pub_ts": 1794378480.0
+        "time": "11-24 11:00 ET",
+        "pub_ts": 1795536042.0
       }
     ],
     "GLW": [
@@ -3309,30 +3309,30 @@
     "SOXS": 1795554740.810935,
     "NVDA": 1795554740.810935,
     "AMD": 1795554740.810935,
-    "ASML": 1795553668.1725988,
-    "QCOM": 1795553668.1725988,
-    "AVGO": 1795553668.1725988,
-    "AMAT": 1795553668.1725988,
-    "META": 1795553668.1725988,
-    "GOOGL": 1795553668.1725988,
-    "MSFT": 1795553668.1725988,
-    "AAPL": 1795553668.1725988,
-    "PLTR": 1795553668.1725988,
-    "NOW": 1795553668.1725988,
-    "AMZN": 1795553668.1725988,
-    "CRWV": 1795553668.1725988,
-    "NBIS": 1795553668.1725988,
-    "APLD": 1795553668.1725988,
-    "VST": 1795553668.1725988,
-    "BE": 1795553668.1725988,
-    "CRDO": 1795553668.1725988,
-    "COHR": 1795553668.1725988,
-    "MRVL": 1795553668.1725988,
-    "LITE": 1795553668.1725988,
-    "AAOI": 1795553668.1725988,
-    "SPCX": 1795553668.1725988,
+    "ASML": 1795555270.3988807,
+    "QCOM": 1795555270.3988807,
+    "AVGO": 1795555270.3988807,
+    "AMAT": 1795555270.3988807,
+    "META": 1795555270.3988807,
+    "GOOGL": 1795555270.3988807,
+    "MSFT": 1795555270.3988807,
+    "AAPL": 1795555270.3988807,
+    "PLTR": 1795555270.3988807,
+    "NOW": 1795555270.3988807,
+    "AMZN": 1795555270.3988807,
+    "CRWV": 1795555270.3988807,
+    "NBIS": 1795555270.3988807,
+    "APLD": 1795555270.3988807,
+    "VST": 1795555270.3988807,
+    "BE": 1795555270.3988807,
+    "CRDO": 1795555270.3988807,
+    "COHR": 1795555270.3988807,
+    "MRVL": 1795555270.3988807,
+    "LITE": 1795555270.3988807,
+    "AAOI": 1795555270.3988807,
+    "SPCX": 1795555270.3988807,
     "ASTS": 1795553774.5728626,
-    "AXTI": 1795553668.1725988,
+    "AXTI": 1795555270.3988807,
     "NASA": 1795553774.5728626,
     "LUNR": 1795553774.5728626,
     "TSLA": 1795553774.5728626,
@@ -3367,8 +3367,8 @@
     "WMT": 1795554740.810935,
     "V": 1795553880.2126782,
     "CAT": 1795554740.810935,
-    "FN": 1795553668.1725988,
-    "GLW": 1795553668.1725988,
+    "FN": 1795555270.3988807,
+    "GLW": 1795555270.3988807,
     "ANT": 1795554740.810935,
     "XAUUSD": 1795554740.810935,
     "KOSPI": 1795554740.810935
@@ -3390,7 +3390,7 @@
   "calendar_banner": {
     "level": "idle_with_flash",
     "headline": "📡 宏观消息面监控中 · 今日暂无美股五星级经济数据大考",
-    "detail": "⚡ 最新核心快讯 (16:01 ET / 05:01 BJ) [英伟达] [纳斯达克] [标普]：【美股收盘：纳指跌近1.5% 英伟达跌近6% Anthropic破发】 11月25日讯，美股周二收盘，道指初步收涨0.86%，标普500指跌0.49%，纳指跌1.48%。Anthropic(",
+    "detail": "⚡ 最新核心快讯 (16:20 ET / 05:20 BJ) [原油]：美国至11月20日当周API原油库存将于十分钟后公布。",
     "event_name": "",
     "minutes_left": 0,
     "opex_shield": {
