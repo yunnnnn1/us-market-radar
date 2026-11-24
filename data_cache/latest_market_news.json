@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795558361.771,
-  "updated_at_et": "11-24 17:12 ET",
-  "updated_at_kst": "07:12 KST",
+  "updated_at_ts": 1795558461.473,
+  "updated_at_et": "11-24 17:14 ET",
+  "updated_at_kst": "07:14 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1946,6 +1946,13 @@
     ],
     "TSLA": [
       {
+        "title": "RBC Expects SpaceX-Tesla Deal Announcement By Early 2027 — Notes TSLA Shareholders May Accept Combination Without Large Premium",
+        "url": "https://stocktwits.com/news-articles/markets/equity/rbc-expects-space-x-tesla-deal-announcement-by-early-2027-notes-tsla-shareholders-may-accept-combination-without-large-premium/cNbsNbYR9k6?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:55 ET",
+        "pub_ts": 1795557333.0
+      },
+      {
         "title": "A SpaceX-Tesla Deal Could Come in December. Here's Why 1 Group of Investors Should Be Worried.",
         "url": "https://www.fool.com/investing/2026/11/24/a-spacex-tesla-deal-could-come-in-december-here-s-why-1-group-of-investors-should-be-worried/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1972,13 +1979,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 15:07 ET",
         "pub_ts": 1795550871.0
-      },
-      {
-        "title": "Tesla and SpaceX Name Five Directors for a Potential $3.5 Trillion Merger. Tesla Holders Still Get a Vote",
-        "url": "https://www.tikr.com/blog/tesla-and-spacex-name-five-directors-for-a-potential-3-5-trillion-merger-tesla-holders-still-get-a-vote?ref=yahoofinance&tlnk=yf-261124-rc5pgxq2&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 15:05 ET",
-        "pub_ts": 1795550733.0
       }
     ],
     "AXP": [
@@ -2131,6 +2131,13 @@
     ],
     "INTC": [
       {
+        "title": "Top Analyst Reports for Apple, Philip Morris & Intel",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/top-analyst-reports-apple-philip-205300421.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 15:53 ET",
+        "pub_ts": 1795553580.0
+      },
+      {
         "title": "Applied Materials vs. Intel: Which Technology Stock Is a Better Buy for 2027?",
         "url": "https://www.fool.com/coverage/better-buy/2026/11/24/applied-materials-vs-intel-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2157,13 +2164,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:11 ET",
         "pub_ts": 1795533109.0
-      },
-      {
-        "title": "Should You Buy Intel as Earnings Recover Despite a Premium Valuation?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/buy-intel-earnings-recover-despite-145800967.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:58 ET",
-        "pub_ts": 1795532280.0
       }
     ],
     "VRT": [
@@ -2256,25 +2256,25 @@
         "pub_ts": 1795555305.0
       },
       {
+        "title": "Dell Technologies Smashes Q3 Estimates, Guides Above Views",
+        "url": "https://finance.yahoo.com/m/4f82e7c0-64cb-3be4-911b-f1c9f673e3be/dell-technologies-smashes-q3.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 17:02 ET",
+        "pub_ts": 1795557749.0
+      },
+      {
+        "title": "Dell Ups Annual Sales Forecast Again on Rising AI Server Demand",
+        "url": "https://finance.yahoo.com/video/dell-ups-annual-sales-forecast-213535052.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:35 ET",
+        "pub_ts": 1795556135.0
+      },
+      {
         "title": "Dell shares rise after earnings beat as AI server backlog jumps 619%",
         "url": "https://www.proactiveinvestors.com/companies/news/1102383/dell-shares-rise-after-earnings-beat-as-ai-server-backlog-jumps-619-1102383.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 16:34 ET",
         "pub_ts": 1795556040.0
-      },
-      {
-        "title": "Dell, HP, Autodesk and Workday earnings: what to watch today",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/dell-hp-autodesk-workday-earnings-212155359.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:21 ET",
-        "pub_ts": 1795555315.0
-      },
-      {
-        "title": "Dell Technologies Smashes Q3 Estimates, Guides Above Views",
-        "url": "https://finance.yahoo.com/m/4f82e7c0-64cb-3be4-911b-f1c9f673e3be/dell-technologies-smashes-q3.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:19 ET",
-        "pub_ts": 1795555140.0
       }
     ],
     "OKLO": [
@@ -2418,11 +2418,11 @@
         "pub_ts": 1795552273.0
       },
       {
-        "title": "5 High-Conviction Stocks Billionaire Philippe Laffont Is Betting On for 2027",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/5-high-conviction-stocks-billionaire-212307906.html?.tsrc=rss",
+        "title": "Nvidia, Chip Stocks Fall As Data Center Spending Fears Return",
+        "url": "https://finance.yahoo.com/m/f1d585fa-8dde-3feb-9be2-ba2cfa946702/nvidia%2C-chip-stocks-fall-as.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 16:23 ET",
-        "pub_ts": 1795555387.0
+        "time": "11-24 16:58 ET",
+        "pub_ts": 1795557505.0
       }
     ],
     "SKHY": [
@@ -2612,6 +2612,20 @@
     ],
     "BTC-USD": [
       {
+        "title": "Michael Saylor gets the regulator's nod he wanted, just not at full price",
+        "url": "https://www.thestreet.com/crypto/policy/michael-saylor-gets-the-regulators-nod-he-wanted-just-not-at-full-price?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 17:10 ET",
+        "pub_ts": 1795558218.0
+      },
+      {
+        "title": "CleanSpark Returns to Q4 Profit on Bitcoin Gains, Revenue Falls 46% During AI Shift",
+        "url": "https://www.cryptoprowl.com/releases/cleanspark-returns-to-q4-profit-on-bitcoin-gains-revenue-falls-46-during-ai-shift-8056?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:53 ET",
+        "pub_ts": 1795557180.0
+      },
+      {
         "title": "Wells Fargo (WFC) Stock Still Looks Undervalued Following Its 99% Run",
         "url": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-wfc-stock-still-211124730.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2631,20 +2645,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 16:00 ET",
         "pub_ts": 1795554044.0
-      },
-      {
-        "title": "Is Circle One of the Best Bitcoin and Blockchain Stocks to Buy As Per Wall Street Analysts?",
-        "url": "https://finance.yahoo.com/markets/crypto/articles/circle-one-best-bitcoin-blockchain-204521190.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 15:45 ET",
-        "pub_ts": 1795553121.0
-      },
-      {
-        "title": "Securitize’s Average Tokenized Assets Grew 39%. Can It Close the Profit Gap?",
-        "url": "https://finance.yahoo.com/markets/crypto/articles/securitize-average-tokenized-assets-grew-204405054.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 15:44 ET",
-        "pub_ts": 1795553045.0
       }
     ],
     "CRWD": [
@@ -3326,32 +3326,32 @@
     "LITE": 1795558361.770828,
     "AAOI": 1795558361.770828,
     "SPCX": 1795558361.770828,
-    "ASTS": 1795556882.0857882,
+    "ASTS": 1795558461.4729712,
     "AXTI": 1795558361.770828,
-    "NASA": 1795556882.0857882,
-    "LUNR": 1795556882.0857882,
-    "TSLA": 1795556882.0857882,
-    "AXP": 1795556882.0857882,
-    "RKLB": 1795556882.0857882,
-    "KO": 1795556882.0857882,
-    "FLY": 1795556882.0857882,
-    "INTC": 1795556882.0857882,
-    "VRT": 1795556882.0857882,
-    "HPE": 1795556882.0857882,
-    "DELL": 1795556882.0857882,
-    "OKLO": 1795556882.0857882,
-    "CEG": 1795556882.0857882,
-    "FPS": 1795556882.0857882,
-    "MU": 1795556882.0857882,
-    "SKHY": 1795556882.0857882,
-    "WDC": 1795556882.0857882,
-    "STX": 1795556882.0857882,
-    "MSTR": 1795556882.0857882,
-    "SNDK": 1795556882.0857882,
-    "BTC-USD": 1795556882.0857882,
-    "CRWD": 1795556882.0857882,
-    "ORCL": 1795556882.0857882,
-    "COIN": 1795556882.0857882,
+    "NASA": 1795558461.4729712,
+    "LUNR": 1795558461.4729712,
+    "TSLA": 1795558461.4729712,
+    "AXP": 1795558461.4729712,
+    "RKLB": 1795558461.4729712,
+    "KO": 1795558461.4729712,
+    "FLY": 1795558461.4729712,
+    "INTC": 1795558461.4729712,
+    "VRT": 1795558461.4729712,
+    "HPE": 1795558461.4729712,
+    "DELL": 1795558461.4729712,
+    "OKLO": 1795558461.4729712,
+    "CEG": 1795558461.4729712,
+    "FPS": 1795558461.4729712,
+    "MU": 1795558461.4729712,
+    "SKHY": 1795558461.4729712,
+    "WDC": 1795558461.4729712,
+    "STX": 1795558461.4729712,
+    "MSTR": 1795558461.4729712,
+    "SNDK": 1795558461.4729712,
+    "BTC-USD": 1795558461.4729712,
+    "CRWD": 1795558461.4729712,
+    "ORCL": 1795558461.4729712,
+    "COIN": 1795558461.4729712,
     "LLY": 1795556991.1086907,
     "MRNA": 1795556991.1086907,
     "NKE": 1795556991.1086907,
