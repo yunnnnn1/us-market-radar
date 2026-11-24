@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795533942.8,
-  "updated_at_et": "11-24 10:25 ET",
-  "updated_at_kst": "00:25 KST",
+  "updated_at_ts": 1795534050.878,
+  "updated_at_et": "11-24 10:27 ET",
+  "updated_at_kst": "00:27 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1359,6 +1359,13 @@
     ],
     "AMZN": [
       {
+        "title": "Amazon Is Reportedly Paying $7.5 Billion for Decart’s AI Chip Software",
+        "url": "https://247wallst.com/investing/2026/11/24/amazon-is-reportedly-paying-7-5-billion-for-decarts-ai-chip-software/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:08 ET",
+        "pub_ts": 1795532884.0
+      },
+      {
         "title": "Could Amazon Stock Double Over the Next Five Years? Here’s What Needs to Happen",
         "url": "https://247wallst.com/investing/2026/11/24/could-amazon-stock-double-over-the-next-five-years-heres-what-needs-to-happen/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1385,13 +1392,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 08:58 ET",
         "pub_ts": 1795528713.0
-      },
-      {
-        "title": "Amazon.com, Inc. (AMZN) Is a Trending Stock: Facts to Know Before Betting on It",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-com-inc-amzn-trending-130005784.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:00 ET",
-        "pub_ts": 1795525205.0
       }
     ],
     "CRWV": [
@@ -1484,6 +1484,13 @@
         "pub_ts": 1795522546.0
       },
       {
+        "title": "Applied Digital Jumps on an 18-Year, $5.4 Billion Hyperscaler Lease With Higher Pricing",
+        "url": "https://www.tikr.com/blog/applied-digital-jumps-on-an-18-year-5-4-billion-hyperscaler-lease-with-higher-pricing?ref=yahoofinance&tlnk=yf-261124-46wrg5h3&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 01:34 ET",
+        "pub_ts": 1795502091.0
+      },
+      {
         "title": "Dead Cat Bounce? AI Stocks Climb 20%+, but IREN, Applied Digital Stay Down 50%+",
         "url": "https://beincrypto.com/ai-stocks-dead-cat-bounce-iren/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1496,13 +1503,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 18:57 ET",
         "pub_ts": 1795478222.0
-      },
-      {
-        "title": "A $5.4 Billion Reason Why Applied Digital Stock Is Up Today",
-        "url": "https://www.barchart.com/story/news/8970460/a-5-4-billion-reason-why-applied-digital-stock-is-up-today?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 14:28 ET",
-        "pub_ts": 1795462109.0
       }
     ],
     "VST": [
@@ -1655,6 +1655,13 @@
     ],
     "MRVL": [
       {
+        "title": "Marvell Sinks 8%, Intel Down 6% as Chip Stocks Give Back Nvidia’s Record Huang Rally",
+        "url": "https://www.tikr.com/blog/marvell-sinks-8-intel-down-6-as-chip-stocks-give-back-nvidias-record-huang-rally?ref=yahoofinance&tlnk=yf-261124-rjmh24f9&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:14 ET",
+        "pub_ts": 1795533299.0
+      },
+      {
         "title": "Why Is Marvell Technology Stock Falling 5% Today?",
         "url": "https://investorshub.advfn.com/market-news/article/40623/why-is-marvell-technology-stock-falling-5-today?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1681,16 +1688,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 05:57 ET",
         "pub_ts": 1795517822.0
-      },
-      {
-        "title": "Marvell (MRVL) Stock Looks Reasonable Following Its 161% Three Year Run",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-mrvl-stock-looks-reasonable-232050664.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 18:20 ET",
-        "pub_ts": 1795476050.0
       }
     ],
     "LITE": [
+      {
+        "title": "Applied Optoelectronics Climbs 5% on $2.2 Billion Hyperscaler Supply Deal; Lumentum and Coherent Drop 6%",
+        "url": "https://247wallst.com/investing/2026/11/24/applied-optoelectronics-climbs-5-on-2-2-billion-hyperscaler-supply-deal-lumentum-and-coherent-drop-6/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:58 ET",
+        "pub_ts": 1795532304.0
+      },
       {
         "title": "Wall Street’s New M&A Mood: Why Both Marvell-Lumentum and CrowdStrike-Zscaler Hit Pushback",
         "url": "https://247wallst.com/investing/2026/11/24/wall-streets-new-ma-mood-why-both-marvell-lumentum-and-crowdstrike-zscaler-hit-pushback/?.tsrc=rss",
@@ -1718,16 +1725,16 @@
         "source": "Yahoo Finance",
         "time": "11-23 12:54 ET",
         "pub_ts": 1795456442.0
-      },
-      {
-        "title": "Applied Optoelectronics and Lumentum Soar 22% as Jensen Huang’s Return to NVIDIA Sparks AI Optics Rebound; Coherent Jumps 19%",
-        "url": "https://247wallst.com/investing/2026/11/23/applied-optoelectronics-and-lumentum-soar-22-as-jensen-huangs-return-to-nvidia-sparks-ai-optics-rebound-coherent-jumps-19/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 10:57 ET",
-        "pub_ts": 1795449427.0
       }
     ],
     "AAOI": [
+      {
+        "title": "Applied Optoelectronics Climbs 5% on $2.2 Billion Hyperscaler Supply Deal; Lumentum and Coherent Drop 6%",
+        "url": "https://247wallst.com/investing/2026/11/24/applied-optoelectronics-climbs-5-on-2-2-billion-hyperscaler-supply-deal-lumentum-and-coherent-drop-6/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:58 ET",
+        "pub_ts": 1795532304.0
+      },
       {
         "title": "Applied Optoelectronics stock rises on datacenter deal",
         "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-stock-rises-datacenter-144409714.html?.tsrc=rss",
@@ -1755,13 +1762,6 @@
         "source": "Yahoo Finance",
         "time": "11-20 09:54 ET",
         "pub_ts": 1795186486.0
-      },
-      {
-        "title": "Applied Optoelectronics Rallies 5% Despite $550 Million Share Sale Plan; Coherent Jumps 8%, Lumentum Climbs 4%",
-        "url": "https://247wallst.com/investing/2026/11/19/applied-optoelectronics-rallies-5-despite-550-million-share-sale-plan-coherent-jumps-8-lumentum-climbs-4/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-19 09:13 ET",
-        "pub_ts": 1795097636.0
       }
     ],
     "SPCX": [
@@ -1771,6 +1771,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:45 ET",
         "pub_ts": 1795531555.0
+      },
+      {
+        "title": "“Tell Me Why I am Wrong”: Bill Ackman Lambasts Looming Fed Interest Rate Hike",
+        "url": "https://www.tikr.com/blog/tell-me-why-i-am-wrong-bill-ackman-lambasts-looming-fed-interest-rate-hike?ref=yahoofinance&tlnk=yf-261124-r3mj4vmj&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:03 ET",
+        "pub_ts": 1795532590.0
       },
       {
         "title": "Billionaire Bill Ackman Just Warned the Fed Could Trigger a Recession on December 9. Here’s How",
@@ -1792,13 +1799,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 08:45 ET",
         "pub_ts": 1795527909.0
-      },
-      {
-        "title": "Tesla, SpaceX Reportedly Pick Board Members To Negotiate Elon Musk's Mega Merger",
-        "url": "https://finance.yahoo.com/m/d4400d8c-dfaf-3382-a360-877e01e80aec/tesla%2C-spacex-reportedly-pick.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:44 ET",
-        "pub_ts": 1795527854.0
       }
     ],
     "ASTS": [
@@ -3135,6 +3135,13 @@
     ],
     "FN": [
       {
+        "title": "Wall Street Analysts Predict a 64.43% Upside in Fabrinet (FN): Here's What You Should Know",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-predict-64-135502728.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 08:55 ET",
+        "pub_ts": 1795528502.0
+      },
+      {
         "title": "Fabrinet Stock Gets An AI Infrastructure Boost",
         "url": "https://finance.yahoo.com/markets/stocks/articles/fabrinet-stock-gets-ai-infrastructure-081144543.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3161,13 +3168,6 @@
         "source": "Yahoo Finance",
         "time": "11-11 01:28 ET",
         "pub_ts": 1794378480.0
-      },
-      {
-        "title": "Fabrinet Dropped 33% in a Month Despite a Record Quarter. Time to Sell, or Load Up?",
-        "url": "https://www.tikr.com/blog/fabrinet-dropped-33-in-a-month-despite-a-record-quarter-time-to-sell-or-load-up?ref=yahoofinance&tlnk=yf-261109-w6f5mxvr&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-09 14:34 ET",
-        "pub_ts": 1794252886.0
       }
     ],
     "GLW": [
@@ -3316,30 +3316,30 @@
     "META": 1795533723.8031373,
     "GOOGL": 1795533723.8031373,
     "MSFT": 1795533723.8031373,
-    "AAPL": 1795532527.8675272,
-    "PLTR": 1795532527.8675272,
-    "NOW": 1795532527.8675272,
-    "AMZN": 1795532527.8675272,
-    "CRWV": 1795532527.8675272,
-    "NBIS": 1795532527.8675272,
-    "APLD": 1795532527.8675272,
-    "VST": 1795532527.8675272,
-    "BE": 1795532527.8675272,
-    "CRDO": 1795532527.8675272,
-    "COHR": 1795532527.8675272,
-    "MRVL": 1795532527.8675272,
-    "LITE": 1795532527.8675272,
-    "AAOI": 1795532527.8675272,
-    "SPCX": 1795532527.8675272,
-    "ASTS": 1795532527.8675272,
-    "AXTI": 1795532527.8675272,
-    "NASA": 1795532527.8675272,
-    "LUNR": 1795532527.8675272,
+    "AAPL": 1795534050.877912,
+    "PLTR": 1795534050.877912,
+    "NOW": 1795534050.877912,
+    "AMZN": 1795534050.877912,
+    "CRWV": 1795534050.877912,
+    "NBIS": 1795534050.877912,
+    "APLD": 1795534050.877912,
+    "VST": 1795534050.877912,
+    "BE": 1795534050.877912,
+    "CRDO": 1795534050.877912,
+    "COHR": 1795534050.877912,
+    "MRVL": 1795534050.877912,
+    "LITE": 1795534050.877912,
+    "AAOI": 1795534050.877912,
+    "SPCX": 1795534050.877912,
+    "ASTS": 1795534050.877912,
+    "AXTI": 1795534050.877912,
+    "NASA": 1795534050.877912,
+    "LUNR": 1795534050.877912,
     "TSLA": 1795532637.500842,
     "AXP": 1795532637.500842,
-    "RKLB": 1795532527.8675272,
-    "KO": 1795532527.8675272,
-    "FLY": 1795532527.8675272,
+    "RKLB": 1795534050.877912,
+    "KO": 1795534050.877912,
+    "FLY": 1795534050.877912,
     "INTC": 1795532637.500842,
     "VRT": 1795532637.500842,
     "HPE": 1795532637.500842,
@@ -3367,8 +3367,8 @@
     "WMT": 1795532748.219519,
     "V": 1795532637.500842,
     "CAT": 1795532748.219519,
-    "FN": 1795532527.8675272,
-    "GLW": 1795532527.8675272,
+    "FN": 1795534050.877912,
+    "GLW": 1795534050.877912,
     "ANT": 1795532748.219519,
     "XAUUSD": 1795532748.219519,
     "KOSPI": 1795521635.6703591
