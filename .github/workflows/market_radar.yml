@@ -17,9 +17,9 @@ on:
   workflow_dispatch:
     inputs:
       duration_minutes:
-        description: '持续运行分钟数。0 = 只跑一轮并发布 Pages（手动默认）。填正整数则按该时长守护。定时任务忽略此值，仍跑 240 分钟。'
+        description: '持续运行分钟数'
         required: false
-        default: '0'
+        default: '60'
         type: string
       interval_seconds:
         description: '每轮轮询间隔秒数 (默认 60s，夜盘推荐 120s)'
@@ -34,7 +34,7 @@ concurrency:
 permissions:
   contents: write
   actions: read
-  # Official Pages publish with the workflow's own GITHUB_TOKEN. No PAT.
+  # Publish this fork only. github.repository is yunnnnn1/us-market-radar.
   pages: write
   id-token: write
 
@@ -46,7 +46,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 10
-          persist-credentials: true
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 设置 Python 3.10 环境
@@ -59,29 +58,28 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          python -c "import lightgbm, sklearn; print('lightgbm', lightgbm.__version__); print('sklearn', sklearn.__version__)"
 
-      - name: 🛡️ 本地优先检测 (仅本仓库非 Actions 提交；忽略上游继承)
+      - name: 🛡️ 本地优先检测 (本地活跃时云端避让防限流与冲突)
         id: check_local
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          RADAR_FORK_PARENT: ${{ github.event.repository.parent.full_name }}
-          RADAR_REPO_IS_FORK: ${{ github.event.repository.fork }}
-        run: python radar_cloud_sync.py --check-local-client
-
-      - name: 读取当前仓库 Pages 发布方式
-        id: pages_mode
-        if: steps.check_local.outputs.skip_run != 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          bt=$(gh api "repos/${{ github.repository }}/pages" --jq '.build_type' || echo unknown)
-          case "$bt" in
-            legacy|workflow) ;;
-            *) bt=unknown ;;
-          esac
-          echo "build_type=$bt" >> "$GITHUB_OUTPUT"
-          echo "Pages build_type=$bt （legacy=从分支部署，workflow=GitHub Actions 产物部署）"
+          NOW_TS=$(date +%s)
+          SKIP=false
+          while IFS="|" read -r email ts; do
+            if [ -n "$email" ] && [ "$email" != "actions@github.com" ]; then
+              DIFF=$((NOW_TS - ts))
+              echo "检测到非 actions 提交: $email, 提交于 ${DIFF} 秒前"
+              if [ "$DIFF" -ge 0 ] && [ "$DIFF" -lt 900 ]; then
+                SKIP=true
+                echo "::notice ::🛡️ 检测到本地客户端活跃提交 ($email, ${DIFF}s 前)，云端 Actions 优雅避让！"
+                break
+              fi
+            fi
+          done < <(git log -n 10 --format="%ae|%ct")
+          if [ "$SKIP" = "true" ] && [ "${{ github.event_name }}" = "schedule" ]; then
+            echo "skip_run=true" >> $GITHUB_OUTPUT
+          else
+            echo "skip_run=false" >> $GITHUB_OUTPUT
+          fi
 
       - name: 🚀 执行全市场 65 只标的极速扫描与微信告警
         if: steps.check_local.outputs.skip_run != 'true'
@@ -89,61 +87,25 @@ jobs:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
           PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          RADAR_FORK_PARENT: ${{ github.event.repository.parent.full_name }}
-          RADAR_REPO_IS_FORK: ${{ github.event.repository.fork }}
-          RADAR_PAGES_BUILD_TYPE: ${{ steps.pages_mode.outputs.build_type }}
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          EVENT_NAME="${{ github.event_name }}"
           DURATION="${{ github.event.inputs.duration_minutes }}"
+          [ -z "$DURATION" ] && DURATION="240"
           INTERVAL="${{ github.event.inputs.interval_seconds }}"
-          # 定时任务不读手动输入，维持盘中 240 分钟守护。手动默认 0 = 一轮后发布 Pages。
-          if [ "$EVENT_NAME" != "workflow_dispatch" ]; then
-            DURATION="240"
-          fi
-          [ -z "$DURATION" ] && DURATION="0"
           [ -z "$INTERVAL" ] && INTERVAL="60"
-          if ! DURATION_NUM=$((10#$DURATION)) 2>/dev/null; then
-            echo "duration_minutes=$DURATION 不是非负整数，按 0（单轮）处理"
-            DURATION_NUM=0
-          fi
           # 如果是夜盘亚太时段 (UTC 00:00~08:00 / 韩国 09:00~17:00)，自适应切为 2 分钟 (120s) 巡检守护
           if [ "${{ github.event.schedule }}" = "0 0 * * 1-5" ] || [ "${{ github.event.schedule }}" = "0 4 * * 1-5" ]; then
             INTERVAL="120"
           fi
-          if [ "$EVENT_NAME" = "workflow_dispatch" ] && [ "$DURATION_NUM" -eq 0 ]; then
-            echo "手动触发：单轮快刷后退出，以便立刻发布 Pages。需要长驻请把 duration_minutes 设为正整数。"
-            python integrated_market_radar.py --loop-daemon --max-rounds 1 --interval-seconds "$INTERVAL"
-          else
-            python integrated_market_radar.py --loop-daemon --duration-minutes "$DURATION_NUM" --interval-seconds "$INTERVAL"
-          fi
+          python integrated_market_radar.py --loop-daemon --duration-minutes $DURATION --interval-seconds $INTERVAL
 
-      # GitHub Actions source: publish the HTML this run just wrote.
-      # Deploy from a branch keeps working via POST /pages/builds inside the
-      # daemon, so this step is skipped unless the source is already workflow.
-      - name: 组装 Pages 静态站点
-        id: pages_site
-        if: steps.check_local.outputs.skip_run != 'true' && steps.pages_mode.outputs.build_type == 'workflow'
+      - name: 请求本仓库 Pages 重新构建
+        if: steps.check_local.outputs.skip_run != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          mkdir -p _pages_site
-          copied=0
-          for f in index.html futu_pro_terminal.html macro_radar.html stocks_radar.html predict_radar_5y.html backtest_report_5y.html .nojekyll; do
-            if [ -f "$f" ]; then
-              cp "$f" _pages_site/
-              copied=$((copied + 1))
-            fi
-          done
-          echo "copied=$copied" >> "$GITHUB_OUTPUT"
-          test "$copied" -gt 0
-
-      - name: 上传 Pages artifact
-        if: steps.check_local.outputs.skip_run != 'true' && steps.pages_mode.outputs.build_type == 'workflow'
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: _pages_site
-
-      - name: 部署 Pages artifact
-        id: deployment
-        if: steps.check_local.outputs.skip_run != 'true' && steps.pages_mode.outputs.build_type == 'workflow'
-        uses: actions/deploy-pages@v4
+          # Deploy-from-branch does not rebuild after a GITHUB_TOKEN push.
+          # Ask only this repository. Do not call the upstream Pages API.
+          gh api --method POST "repos/${{ github.repository }}/pages/builds" > /tmp/pages-build.json
+          python -c "import json; d=json.load(open('/tmp/pages-build.json')); print('pages_build', d.get('status'), d.get('url','').split('/repos/')[-1][:80])"

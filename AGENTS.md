@@ -68,9 +68,8 @@ user_portfolio.example.json  持仓配置模板（复制为 user_portfolio.json 
 ## 2. 运行环境
 
 - **Python ≥ 3.10**（GitHub Actions 用 3.10；本地测试用 3.11~3.13 均可）
-- 必需依赖（`requirements.txt`）：`requests / pandas / numpy / yfinance / plotly / pyarrow / lightgbm / scikit-learn`
-- `pyarrow` 读写 `data_cache/*.parquet`。`lightgbm` + `scikit-learn` 负责 Walk-Forward；GitHub Actions 缺少它们会拒绝 numpy 回退。本地 Termux 装不上时仍可回退。
-- 可选依赖：`python-dotenv`（可选，未安装时有内置 .env 解析）
+- 必需依赖（`requirements.txt`）：`requests / pandas / numpy / yfinance / plotly`
+- 可选依赖：`pyarrow`（读写 `data_cache/*.parquet`）、`lightgbm` + `scikit-learn`（`ml_predictor_5y.py` 训练/回测；daemon 非必需，import 时有 try/except 兜底）、`python-dotenv`（可选，未安装时有内置 .env 解析）
 - 无需 Node.js / 数据库；HTML 为单文件静态看板
 - Windows 脚本依赖：cmd、PowerShell、Windows 10+ 自带 `tar`；VPS 更新脚本依赖 OpenSSH 客户端
 
@@ -89,7 +88,7 @@ user_portfolio.example.json  持仓配置模板（复制为 user_portfolio.json 
 | `DISCORD_CLAW_WEBHOOK_URL` | 可选 | 微信告警镜像频道（兼容 `DISCORD_ALERT_WEBHOOK_URL`） |
 | `DISCORD_DEFENSIVE_FLIGHT_WEBHOOK_URL` | 可选 | 防御因子背离专属频道 |
 | `GH_TOKEN` | 自动同步必需 | 有本仓库 `contents:write` 权限的 PAT；Actions 环境用内置 `GITHUB_TOKEN` |
-| `TZ` | 可选 | 不再决定看盘页或实盘同步时间。页面、通知和提交说明固定 `Asia/Shanghai`（带「北京时间」）；美股时段与 K 线对齐固定 `America/New_York`。 |
+| `TZ` | 可选 | 时区（默认 Asia/Seoul；VPS systemd 注入） |
 
 > 代码加载顺序：脚本目录下 `.env`（`load_env_file()`）→ 系统环境变量。**环境变量优先**。
 

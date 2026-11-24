@@ -65,5 +65,5 @@
 
 ## 📱 终端交互看板与报告访问
 
-- **5年战报线上地址**：[https://2827173579.github.io/us-market-radar/backtest_report_5y.html](https://2827173579.github.io/us-market-radar/backtest_report_5y.html)
-- **富途牛牛专业终端**：[https://2827173579.github.io/us-market-radar/futu_pro_terminal.html](https://2827173579.github.io/us-market-radar/futu_pro_terminal.html)
+- **5年战报线上地址**：[https://yunnnnn1.github.io/us-market-radar/backtest_report_5y.html](https://yunnnnn1.github.io/us-market-radar/backtest_report_5y.html)
+- **富途牛牛专业终端**：[https://yunnnnn1.github.io/us-market-radar/futu_pro_terminal.html](https://yunnnnn1.github.io/us-market-radar/futu_pro_terminal.html)

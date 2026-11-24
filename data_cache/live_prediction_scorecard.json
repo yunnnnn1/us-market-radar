@@ -1,0 +1,949 @@
+{
+  "updated_at": "2026-11-24 18:40:47",
+  "win_rate_7d_pct": 100.0,
+  "win_rate_30d_pct": 47.8,
+  "long_win_rate_7d_pct": 14.0,
+  "short_win_rate_7d_pct": 100.0,
+  "long_win_rate_30d_pct": 30.3,
+  "short_win_rate_30d_pct": 47.8,
+  "sample_count_7d": 1,
+  "sample_count_30d": 134,
+  "avg_return_7d_pct": 5.68,
+  "avg_return_30d_pct": 0.46,
+  "window_7d_range": "2026-11-13~2026-11-19",
+  "window_30d_range": "2026-10-21~2026-11-19",
+  "is_degraded": false,
+  "warning_text": "✅ 模型近期实盘命中稳健",
+  "reconciled_live_count": 0,
+  "reconciled_live_records": [],
+  "pending_predictions": [
+    {
+      "ticker": "NKE",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 58.5,
+      "entry_price": 34.33
+    },
+    {
+      "ticker": "CEG",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 57.6,
+      "entry_price": 252.03
+    },
+    {
+      "ticker": "ORCL",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 56.4,
+      "entry_price": 110.57
+    },
+    {
+      "ticker": "JPM",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 58.9,
+      "entry_price": 320.22
+    },
+    {
+      "ticker": "GOOGL",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 59.6,
+      "entry_price": 272.66
+    },
+    {
+      "ticker": "MCD",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 57.4,
+      "entry_price": 272.35
+    },
+    {
+      "ticker": "META",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 56.4,
+      "entry_price": 596.22
+    },
+    {
+      "ticker": "XOM",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 57.2,
+      "entry_price": 158.93
+    },
+    {
+      "ticker": "NOW",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 55.7,
+      "entry_price": 88.87
+    },
+    {
+      "ticker": "CAT",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 56.0,
+      "entry_price": 537.37
+    },
+    {
+      "ticker": "AAOI",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 66.2,
+      "entry_price": 39.46
+    },
+    {
+      "ticker": "INTC",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 56.8,
+      "entry_price": 55.72
+    },
+    {
+      "ticker": "V",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 55.2,
+      "entry_price": 402.25
+    },
+    {
+      "ticker": "TSLA",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 55.1,
+      "entry_price": 374.41
+    },
+    {
+      "ticker": "CRWV",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 55.0,
+      "entry_price": 44.91
+    },
+    {
+      "ticker": "FN",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 56.6,
+      "entry_price": 311.71
+    },
+    {
+      "ticker": "LUNR",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 58.4,
+      "entry_price": 9.78
+    },
+    {
+      "ticker": "VRT",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 59.7,
+      "entry_price": 184.99
+    },
+    {
+      "ticker": "RKLB",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 64.2,
+      "entry_price": 50.99
+    },
+    {
+      "ticker": "OKLO",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 60.4,
+      "entry_price": 20.84
+    },
+    {
+      "ticker": "COHR",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 58.1,
+      "entry_price": 214.94
+    },
+    {
+      "ticker": "COIN",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 63.1,
+      "entry_price": 108.87
+    },
+    {
+      "ticker": "MSFT",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 58.0,
+      "entry_price": 498.3
+    },
+    {
+      "ticker": "CRDO",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 57.2,
+      "entry_price": 117.76
+    },
+    {
+      "ticker": "VST",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 58.5,
+      "entry_price": 124.15
+    },
+    {
+      "ticker": "MU",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 59.2,
+      "entry_price": 690.44
+    },
+    {
+      "ticker": "MSTR",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 64.1,
+      "entry_price": 86.13
+    },
+    {
+      "ticker": "ASML",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 59.0,
+      "entry_price": 1356.2
+    },
+    {
+      "ticker": "AMAT",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 60.7,
+      "entry_price": 338.93
+    },
+    {
+      "ticker": "TSM",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 58.1,
+      "entry_price": 352.09
+    },
+    {
+      "ticker": "BTC-USD",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 58.3,
+      "entry_price": 61959.97
+    },
+    {
+      "ticker": "PLTR",
+      "pred_date": "2026-11-20",
+      "direction": "SHORT",
+      "pred_prob_pct": 60.8,
+      "entry_price": 153.68
+    },
+    {
+      "ticker": "MCD",
+      "pred_date": "2026-11-21",
+      "direction": "SHORT",
+      "pred_prob_pct": 58.2,
+      "entry_price": 273.29
+    },
+    {
+      "ticker": "JPM",
+      "pred_date": "2026-11-22",
+      "direction": "SHORT",
+      "pred_prob_pct": 56.4,
+      "entry_price": 310.53
+    },
+    {
+      "ticker": "LUNR",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 95.0,
+      "entry_price": 9.05
+    },
+    {
+      "ticker": "APLD",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 89.0,
+      "entry_price": 5.25
+    },
+    {
+      "ticker": "AAOI",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 84.9,
+      "entry_price": 14.44
+    },
+    {
+      "ticker": "CRDO",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 84.9,
+      "entry_price": 102.46
+    },
+    {
+      "ticker": "LITE",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 84.9,
+      "entry_price": 558.44
+    },
+    {
+      "ticker": "MRVL",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 84.9,
+      "entry_price": 61.78
+    },
+    {
+      "ticker": "BE",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 83.3,
+      "entry_price": 135.19
+    },
+    {
+      "ticker": "CEG",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 83.3,
+      "entry_price": 251.0
+    },
+    {
+      "ticker": "VST",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 83.3,
+      "entry_price": 151.13
+    },
+    {
+      "ticker": "COHR",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 81.9,
+      "entry_price": 235.72
+    },
+    {
+      "ticker": "MU",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 80.8,
+      "entry_price": 80.2
+    },
+    {
+      "ticker": "STX",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 80.8,
+      "entry_price": 351.65
+    },
+    {
+      "ticker": "WDC",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 77.8,
+      "entry_price": 245.11
+    },
+    {
+      "ticker": "BTC-USD",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 73.4,
+      "entry_price": 68859.83
+    },
+    {
+      "ticker": "COIN",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 73.4,
+      "entry_price": 174.79
+    },
+    {
+      "ticker": "MSTR",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 73.4,
+      "entry_price": 127.69
+    },
+    {
+      "ticker": "AMAT",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 71.4,
+      "entry_price": 351.28
+    },
+    {
+      "ticker": "ASML",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 71.4,
+      "entry_price": 1286.62
+    },
+    {
+      "ticker": "NVDA",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 71.4,
+      "entry_price": 177.23
+    },
+    {
+      "ticker": "TSM",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 71.4,
+      "entry_price": 336.25
+    },
+    {
+      "ticker": "ORCL",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 69.0,
+      "entry_price": 144.0
+    },
+    {
+      "ticker": "PLTR",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 69.0,
+      "entry_price": 128.06
+    },
+    {
+      "ticker": "AMD",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 68.4,
+      "entry_price": 500.94
+    },
+    {
+      "ticker": "AVGO",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 68.4,
+      "entry_price": 313.36
+    },
+    {
+      "ticker": "NOW",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 67.3,
+      "entry_price": 102.42
+    },
+    {
+      "ticker": "MSFT",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 66.0,
+      "entry_price": 370.66
+    },
+    {
+      "ticker": "CRWV",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 55.0,
+      "entry_price": 80.94
+    },
+    {
+      "ticker": "NBIS",
+      "pred_date": "2026-11-23",
+      "direction": "LONG",
+      "pred_prob_pct": 55.0,
+      "entry_price": 195.19
+    },
+    {
+      "ticker": "JPM",
+      "pred_date": "2026-11-23",
+      "direction": "SHORT",
+      "pred_prob_pct": 56.2,
+      "entry_price": 310.53
+    },
+    {
+      "ticker": "PEP",
+      "pred_date": "2026-11-23",
+      "direction": "SHORT",
+      "pred_prob_pct": 55.0,
+      "entry_price": 140.54
+    },
+    {
+      "ticker": "MCD",
+      "pred_date": "2026-11-24",
+      "direction": "SHORT",
+      "pred_prob_pct": 58.9,
+      "entry_price": 273.24
+    },
+    {
+      "ticker": "BTC-USD",
+      "pred_date": "2026-11-24",
+      "direction": "SHORT",
+      "pred_prob_pct": 56.6,
+      "entry_price": 61281.31
+    },
+    {
+      "ticker": "XOM",
+      "pred_date": "2026-11-24",
+      "direction": "SHORT",
+      "pred_prob_pct": 58.8,
+      "entry_price": 156.96
+    },
+    {
+      "ticker": "JPM",
+      "pred_date": "2026-11-24",
+      "direction": "SHORT",
+      "pred_prob_pct": 55.1,
+      "entry_price": 316.82
+    },
+    {
+      "ticker": "ASML",
+      "pred_date": "2026-11-24",
+      "direction": "SHORT",
+      "pred_prob_pct": 59.9,
+      "entry_price": 1383.78
+    },
+    {
+      "ticker": "AMD",
+      "pred_date": "2026-11-24",
+      "direction": "SHORT",
+      "pred_prob_pct": 56.2,
+      "entry_price": 453.46
+    },
+    {
+      "ticker": "PEP",
+      "pred_date": "2026-11-24",
+      "direction": "SHORT",
+      "pred_prob_pct": 55.3,
+      "entry_price": 140.21
+    },
+    {
+      "ticker": "AVGO",
+      "pred_date": "2026-11-24",
+      "direction": "SHORT",
+      "pred_prob_pct": 58.8,
+      "entry_price": 313.55
+    },
+    {
+      "ticker": "CRWD",
+      "pred_date": "2026-11-24",
+      "direction": "SHORT",
+      "pred_prob_pct": 66.6,
+      "entry_price": 208.97
+    },
+    {
+      "ticker": "AAPL",
+      "pred_date": "2026-11-24",
+      "direction": "SHORT",
+      "pred_prob_pct": 61.1,
+      "entry_price": 349.08
+    },
+    {
+      "ticker": "MSFT",
+      "pred_date": "2026-11-24",
+      "direction": "SHORT",
+      "pred_prob_pct": 65.4,
+      "entry_price": 492.5
+    },
+    {
+      "ticker": "LUNR",
+      "pred_date": "2026-11-24",
+      "direction": "LONG",
+      "pred_prob_pct": 85.3,
+      "entry_price": 9.05
+    },
+    {
+      "ticker": "WDC",
+      "pred_date": "2026-11-24",
+      "direction": "LONG",
+      "pred_prob_pct": 83.8,
+      "entry_price": 245.11
+    },
+    {
+      "ticker": "BE",
+      "pred_date": "2026-11-24",
+      "direction": "LONG",
+      "pred_prob_pct": 82.6,
+      "entry_price": 135.19
+    },
+    {
+      "ticker": "MU",
+      "pred_date": "2026-11-24",
+      "direction": "LONG",
+      "pred_prob_pct": 82.6,
+      "entry_price": 80.2
+    },
+    {
+      "ticker": "STX",
+      "pred_date": "2026-11-24",
+      "direction": "LONG",
+      "pred_prob_pct": 82.6,
+      "entry_price": 351.65
+    },
+    {
+      "ticker": "VST",
+      "pred_date": "2026-11-24",
+      "direction": "LONG",
+      "pred_prob_pct": 80.2,
+      "entry_price": 151.13
+    },
+    {
+      "ticker": "CEG",
+      "pred_date": "2026-11-24",
+      "direction": "LONG",
+      "pred_prob_pct": 80.8,
+      "entry_price": 251.0
+    },
+    {
+      "ticker": "COHR",
+      "pred_date": "2026-11-24",
+      "direction": "LONG",
+      "pred_prob_pct": 81.1,
+      "entry_price": 235.72
+    },
+    {
+      "ticker": "APLD",
+      "pred_date": "2026-11-24",
+      "direction": "LONG",
+      "pred_prob_pct": 76.6,
+      "entry_price": 5.25
+    },
+    {
+      "ticker": "AAOI",
+      "pred_date": "2026-11-24",
+      "direction": "LONG",
+      "pred_prob_pct": 79.9,
+      "entry_price": 13.98
+    },
+    {
+      "ticker": "CRDO",
+      "pred_date": "2026-11-24",
+      "direction": "LONG",
+      "pred_prob_pct": 77.8,
+      "entry_price": 102.46
+    },
+    {
+      "ticker": "LITE",
+      "pred_date": "2026-11-24",
+      "direction": "LONG",
+      "pred_prob_pct": 79.9,
+      "entry_price": 558.44
+    },
+    {
+      "ticker": "MRVL",
+      "pred_date": "2026-11-24",
+      "direction": "LONG",
+      "pred_prob_pct": 79.9,
+      "entry_price": 61.78
+    },
+    {
+      "ticker": "COIN",
+      "pred_date": "2026-11-24",
+      "direction": "LONG",
+      "pred_prob_pct": 73.4,
+      "entry_price": 174.79
+    },
+    {
+      "ticker": "MSTR",
+      "pred_date": "2026-11-24",
+      "direction": "LONG",
+      "pred_prob_pct": 73.4,
+      "entry_price": 127.69
+    },
+    {
+      "ticker": "NOW",
+      "pred_date": "2026-11-24",
+      "direction": "LONG",
+      "pred_prob_pct": 72.0,
+      "entry_price": 102.42
+    },
+    {
+      "ticker": "ORCL",
+      "pred_date": "2026-11-24",
+      "direction": "LONG",
+      "pred_prob_pct": 70.4,
+      "entry_price": 144.0
+    },
+    {
+      "ticker": "PLTR",
+      "pred_date": "2026-11-24",
+      "direction": "LONG",
+      "pred_prob_pct": 70.4,
+      "entry_price": 123.06
+    },
+    {
+      "ticker": "NVDA",
+      "pred_date": "2026-11-24",
+      "direction": "LONG",
+      "pred_prob_pct": 68.7,
+      "entry_price": 177.23
+    },
+    {
+      "ticker": "AMAT",
+      "pred_date": "2026-11-24",
+      "direction": "LONG",
+      "pred_prob_pct": 67.7,
+      "entry_price": 323.5
+    },
+    {
+      "ticker": "TSM",
+      "pred_date": "2026-11-24",
+      "direction": "LONG",
+      "pred_prob_pct": 67.7,
+      "entry_price": 340.05
+    },
+    {
+      "ticker": "CRWV",
+      "pred_date": "2026-11-24",
+      "direction": "LONG",
+      "pred_prob_pct": 55.0,
+      "entry_price": 80.94
+    },
+    {
+      "ticker": "NBIS",
+      "pred_date": "2026-11-24",
+      "direction": "LONG",
+      "pred_prob_pct": 55.0,
+      "entry_price": 195.19
+    }
+  ],
+  "daily_breakdown_30d": [
+    {
+      "date": "2026-10-21",
+      "win_rate_pct": 100.0,
+      "long_win_rate_pct": 20.0,
+      "short_win_rate_pct": 0.0,
+      "sample_count": 1,
+      "avg_return_pct": 8.66
+    },
+    {
+      "date": "2026-10-22",
+      "win_rate_pct": 13.6,
+      "long_win_rate_pct": 100.0,
+      "short_win_rate_pct": 13.6,
+      "sample_count": 22,
+      "avg_return_pct": -3.42
+    },
+    {
+      "date": "2026-10-23",
+      "win_rate_pct": 20.8,
+      "long_win_rate_pct": 100.0,
+      "short_win_rate_pct": 20.8,
+      "sample_count": 24,
+      "avg_return_pct": -2.63
+    },
+    {
+      "date": "2026-10-24",
+      "win_rate_pct": 100.0,
+      "long_win_rate_pct": 0.0,
+      "short_win_rate_pct": 100.0,
+      "sample_count": 1,
+      "avg_return_pct": 3.58
+    },
+    {
+      "date": "2026-10-25",
+      "win_rate_pct": 100.0,
+      "long_win_rate_pct": 0.0,
+      "short_win_rate_pct": 100.0,
+      "sample_count": 1,
+      "avg_return_pct": 3.59
+    },
+    {
+      "date": "2026-10-26",
+      "win_rate_pct": 43.5,
+      "long_win_rate_pct": 0.0,
+      "short_win_rate_pct": 43.5,
+      "sample_count": 23,
+      "avg_return_pct": -1.04
+    },
+    {
+      "date": "2026-10-27",
+      "win_rate_pct": 71.4,
+      "long_win_rate_pct": 0.0,
+      "short_win_rate_pct": 0.0,
+      "sample_count": 7,
+      "avg_return_pct": 4.7
+    },
+    {
+      "date": "2026-10-28",
+      "win_rate_pct": 100.0,
+      "long_win_rate_pct": 0.0,
+      "short_win_rate_pct": 100.0,
+      "sample_count": 1,
+      "avg_return_pct": 9.03
+    },
+    {
+      "date": "2026-10-29",
+      "win_rate_pct": 100.0,
+      "long_win_rate_pct": 0.0,
+      "short_win_rate_pct": 100.0,
+      "sample_count": 3,
+      "avg_return_pct": 8.13
+    },
+    {
+      "date": "2026-10-30",
+      "win_rate_pct": 80.8,
+      "long_win_rate_pct": 0.0,
+      "short_win_rate_pct": 80.8,
+      "sample_count": 26,
+      "avg_return_pct": 4.63
+    },
+    {
+      "date": "2026-10-31",
+      "win_rate_pct": 0.0,
+      "long_win_rate_pct": 0.0,
+      "short_win_rate_pct": 0.0,
+      "sample_count": 1,
+      "avg_return_pct": -2.53
+    },
+    {
+      "date": "2026-11-01",
+      "win_rate_pct": 0.0,
+      "long_win_rate_pct": 0.0,
+      "short_win_rate_pct": 0.0,
+      "sample_count": 1,
+      "avg_return_pct": -2.45
+    },
+    {
+      "date": "2026-11-02",
+      "win_rate_pct": 75.0,
+      "long_win_rate_pct": 15.8,
+      "short_win_rate_pct": 75.0,
+      "sample_count": 4,
+      "avg_return_pct": 3.37
+    },
+    {
+      "date": "2026-11-03",
+      "win_rate_pct": 61.1,
+      "long_win_rate_pct": 0.0,
+      "short_win_rate_pct": 61.1,
+      "sample_count": 18,
+      "avg_return_pct": 2.31
+    },
+    {
+      "date": "2026-11-04",
+      "win_rate_pct": 7.1,
+      "long_win_rate_pct": 4.8,
+      "short_win_rate_pct": 0.0,
+      "sample_count": 28,
+      "avg_return_pct": -4.66
+    },
+    {
+      "date": "2026-11-05",
+      "win_rate_pct": 0.0,
+      "long_win_rate_pct": 62.5,
+      "short_win_rate_pct": 0.0,
+      "sample_count": 1,
+      "avg_return_pct": -4.34
+    },
+    {
+      "date": "2026-11-06",
+      "win_rate_pct": 75.0,
+      "long_win_rate_pct": 76.9,
+      "short_win_rate_pct": 0.0,
+      "sample_count": 28,
+      "avg_return_pct": 4.65
+    },
+    {
+      "date": "2026-11-07",
+      "win_rate_pct": 0.0,
+      "long_win_rate_pct": 0.0,
+      "short_win_rate_pct": 0.0,
+      "sample_count": 1,
+      "avg_return_pct": -2.94
+    },
+    {
+      "date": "2026-11-08",
+      "win_rate_pct": 0.0,
+      "long_win_rate_pct": 0.0,
+      "short_win_rate_pct": 0.0,
+      "sample_count": 1,
+      "avg_return_pct": -3.1
+    },
+    {
+      "date": "2026-11-09",
+      "win_rate_pct": 67.9,
+      "long_win_rate_pct": 81.2,
+      "short_win_rate_pct": 0.0,
+      "sample_count": 28,
+      "avg_return_pct": 4.44
+    },
+    {
+      "date": "2026-11-10",
+      "win_rate_pct": 14.3,
+      "long_win_rate_pct": 18.2,
+      "short_win_rate_pct": 0.0,
+      "sample_count": 28,
+      "avg_return_pct": -3.5
+    },
+    {
+      "date": "2026-11-11",
+      "win_rate_pct": 50.0,
+      "long_win_rate_pct": 0.0,
+      "short_win_rate_pct": 50.0,
+      "sample_count": 6,
+      "avg_return_pct": 0.33
+    },
+    {
+      "date": "2026-11-12",
+      "win_rate_pct": 100.0,
+      "long_win_rate_pct": 0.0,
+      "short_win_rate_pct": 100.0,
+      "sample_count": 1,
+      "avg_return_pct": 9.45
+    },
+    {
+      "date": "2026-11-13",
+      "win_rate_pct": 14.3,
+      "long_win_rate_pct": 13.0,
+      "short_win_rate_pct": 0.0,
+      "sample_count": 28,
+      "avg_return_pct": -3.74
+    },
+    {
+      "date": "2026-11-14",
+      "win_rate_pct": 0.0,
+      "long_win_rate_pct": 0.0,
+      "short_win_rate_pct": 0.0,
+      "sample_count": 1,
+      "avg_return_pct": -4.14
+    },
+    {
+      "date": "2026-11-15",
+      "win_rate_pct": 0.0,
+      "long_win_rate_pct": 0.0,
+      "short_win_rate_pct": 0.0,
+      "sample_count": 1,
+      "avg_return_pct": -4.27
+    },
+    {
+      "date": "2026-11-16",
+      "win_rate_pct": 14.3,
+      "long_win_rate_pct": 16.0,
+      "short_win_rate_pct": 0.0,
+      "sample_count": 28,
+      "avg_return_pct": -3.88
+    },
+    {
+      "date": "2026-11-17",
+      "win_rate_pct": 0.0,
+      "long_win_rate_pct": 0.0,
+      "short_win_rate_pct": 0.0,
+      "sample_count": 1,
+      "avg_return_pct": -4.28
+    },
+    {
+      "date": "2026-11-18",
+      "win_rate_pct": 100.0,
+      "long_win_rate_pct": 0.0,
+      "short_win_rate_pct": 100.0,
+      "sample_count": 1,
+      "avg_return_pct": 5.68
+    },
+    {
+      "date": "2026-11-19",
+      "win_rate_pct": 0.0,
+      "long_win_rate_pct": 0.0,
+      "short_win_rate_pct": 0.0,
+      "sample_count": 1,
+      "avg_return_pct": -4.07
+    }
+  ]
+}

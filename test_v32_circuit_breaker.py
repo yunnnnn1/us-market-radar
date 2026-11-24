@@ -963,6 +963,312 @@ class TestV32CircuitBreaker(unittest.TestCase):
         self.assertLessEqual(res.get("stop_loss_pct"), -1.2)
         self.assertNotAlmostEqual(res.get("stop_loss_pct"), -6.8, places=1)
 
+    def test_scenario_16_options_dollar_pcr_excludes_deep_itm_and_no_conflict_resonance(self):
+        """验证收紧 Put<=1.025*spot & Call>=0.975*spot 剔除深实值污染，且期权偏空绝不触发多头共振"""
+        spot = 352.48
+        calls = pd.DataFrame([
+            {"strike": 330.0, "volume": 1000.0, "eff_price": 23.0, "dollar_val": 2300000.0},  # deep ITM Call (<0.975*spot=343.67)
+            {"strike": 355.0, "volume": 1500.0, "eff_price": 2.50, "dollar_val": 375000.0},
+            {"strike": 360.0, "volume": 7940.0, "eff_price": 1.25, "dollar_val": 992500.0},
+        ])
+        puts = pd.DataFrame([
+            {"strike": 380.0, "volume": 3257.0, "eff_price": 27.21, "dollar_val": 8862297.0},  # deep ITM Put (>1.025*spot=361.29)
+            {"strike": 355.0, "volume": 1291.0, "eff_price": 4.92, "dollar_val": 635172.0},
+            {"strike": 343.0, "volume": 3089.0, "eff_price": 0.85, "dollar_val": 262565.0},
+        ])
+        dpcr, c_dlr, p_dlr = imr.compute_directional_dollar_pcr(calls, puts, spot)
+        self.assertLess(c_dlr, 2000000.0, "Deep ITM Call <0.975*spot must be excluded")
+        self.assertLess(p_dlr, 1500000.0, "Deep ITM Put >1.025*spot must be excluded")
+        self.assertAlmostEqual(dpcr, round((635172.0 + 262565.0) / (375000.0 + 992500.0), 2), places=2)
+        self.assertLess(dpcr, 0.85)
+
+        info = self._broken_pit_intra_info()
+        info["vwap"] = 99.2
+        base_kw = dict(
+            active_price=100.0, fib_low=110.0, fib_high=120.0, ma50=105.0,
+            is_pit=False, is_stop=False, dist_to_pit=0.0,
+            intra_info=info, atr=8.0, ticker="GLD", session_code="REGULAR",
+        )
+        # Bearish sentiment + low vol PCR -> must emit ⚖️期权多空分歧 and NEVER ⚡期权多头共振
+        res_div = run_evaluate_intraday_entry(
+            options_info={
+                "has_options": True, "pcr": 0.68, "dollar_pcr": 4.08,
+                "pcr_sentiment": "🔴 资金偏空对冲", "top_call_info": "$360 Call", "top_put_info": "$355 Put",
+            },
+            **base_kw,
+        )
+        self.assertTrue(res_div["intraday_entry_ready"])
+        self.assertNotIn("期权多头共振", res_div["intraday_reason"])
+        self.assertIn("⚖️期权多空分歧", res_div["intraday_reason"])
+
+        # Balanced sentiment + high dollar_pcr conflict -> also ⚖️期权多空分歧
+        res_bal_conf = run_evaluate_intraday_entry(
+            options_info={
+                "has_options": True, "pcr": 0.70, "dollar_pcr": 1.40,
+                "pcr_sentiment": "⚪ 资金多空均衡", "top_call_info": "$360 Call", "top_put_info": "$355 Put",
+            },
+            **base_kw,
+        )
+        self.assertNotIn("期权多头共振", res_bal_conf["intraday_reason"])
+        self.assertIn("⚖️期权多空分歧", res_bal_conf["intraday_reason"])
+
+        # Aligned bullish sentiment -> ⚡期权多头共振
+        res_bull = run_evaluate_intraday_entry(
+            options_info={
+                "has_options": True, "pcr": 0.68, "dollar_pcr": 0.74,
+                "pcr_sentiment": "🟢 资金偏多看涨", "top_call_info": "$360 Call", "top_put_info": "$355 Put",
+            },
+            **base_kw,
+        )
+        self.assertIn("⚡期权多头共振", res_bull["intraday_reason"])
+
+    def test_xauusd_spot_waterfall_and_basis_scaling(self):
+        """Verify XAUUSD TradingView -> Swissquote waterfall and GC=F spot basis normalization."""
+        import io as _io
+        import json as _json
+        import unittest.mock as _mock
+        import pandas as _pd
+        import ml_predictor_5y
+        import integrated_market_radar as imr
+
+        class _FakeResp:
+            def __init__(self, payload):
+                self._b = _json.dumps(payload).encode("utf-8")
+            def read(self):
+                return self._b
+            def __enter__(self):
+                return self
+            def __exit__(self, *args):
+                return False
+
+        # 1. TradingView fails, Swissquote succeeds cleanly
+        def _fake_urlopen(req, timeout=6):
+            url = req.full_url if hasattr(req, "full_url") else str(req)
+            if "scanner.tradingview.com" in url:
+                raise TimeoutError("tv timeout")
+            if "swissquote.com" in url:
+                return _FakeResp([{"spreadProfilePrices": [{"bid": 3727.10, "ask": 3727.90}]}])
+            raise AssertionError(f"Unexpected fallback call to {url}")
+
+        with _mock.patch("urllib.request.urlopen", side_effect=_fake_urlopen):
+            q = ml_predictor_5y.fetch_xauusd_spot_quote()
+        self.assertEqual(q.get("source"), "swissquote")
+        self.assertAlmostEqual(q.get("last"), 3727.50, places=2)
+
+        # 2. _apply_xauusd_spot_basis aligns GC=F 1d/5m prices to spot dollars and computes pct vs prev close
+        hist_df = _pd.DataFrame({
+            "Open": [3720.0, 3728.0],
+            "High": [3735.0, 3762.0],
+            "Low": [3715.0, 3697.0],
+            "Close": [3728.0, 3732.0],
+            "Volume": [1000, 1200],
+        })
+        h_dict = {"XAUUSD": hist_df}
+        intra_m = {"XAUUSD": {"rth_close": 3732.0, "vwap": 3735.0, "ext_price": 3732.0}}
+        rt_q = {"XAUUSD": dict(q)}
+        imr._apply_xauusd_spot_basis(h_dict, intra_m, rt_q)
+        self.assertAlmostEqual(float(h_dict["XAUUSD"]["Close"].iloc[-1]), 3727.50, delta=0.05)
+        self.assertAlmostEqual(intra_m["XAUUSD"]["rth_close"], 3727.50, places=2)
+        self.assertEqual(intra_m["XAUUSD"]["ext_price"], 0.0)
+        self.assertAlmostEqual(rt_q["XAUUSD"]["pct_change"], round((3727.50 - 3723.50) / 3723.50 * 100.0, 2), delta=0.05)
+
+        # Keep GLD untouched in MONITORED_TARGETS
+        self.assertIn("GLD", imr.MONITORED_TARGETS["ETFS"])
+        self.assertIn("XAUUSD", imr.MONITORED_TARGETS["STOCKS"])
+        self.assertIn("ANT", imr.MONITORED_TARGETS["STOCKS"])
+
+    def test_ant_ipo_day0_time_cycle_placeholder(self):
+        """Verify ANT Day-0 IPO (<5 bars) emits valid timeCycleData placeholder anchored to $83 or live quote."""
+        import pandas as _pd
+        from datetime import datetime as _dt
+        import ml_predictor_5y
+        base_panel = _pd.DataFrame({
+            "Date": [_pd.Timestamp("2026-11-18")],
+            "Ticker": ["QQQ"],
+            "Close": [500.0],
+        })
+        out_default = ml_predictor_5y.generate_time_cycle_projections(
+            base_panel, target_tickers=["ANT"], forecast_days=15, as_of=_dt(2026, 11, 19, 8, 30)
+        )
+        self.assertIn("ANT", out_default)
+        self.assertEqual(out_default["ANT"]["current_price"], 83.0)
+        self.assertEqual(len(out_default["ANT"]["projection"]), 15)
+        out_live = ml_predictor_5y.generate_time_cycle_projections(
+            base_panel, target_tickers=["ANT"], forecast_days=15,
+            scenario_map_by_ticker={"ANT": {"latest_price": 112.50}},
+            as_of=_dt(2026, 11, 19, 10, 30),
+        )
+        self.assertEqual(out_live["ANT"]["current_price"], 112.50)
+
+    def test_xauusd_tier1_stop_band_and_scenario_alignment(self):
+        """XAUUSD uses Tier-1 (-0.8% ~ -1.3%) stop band matching GLD/TLT across intraday card & scenario map."""
+        import ml_predictor_5y
+        import integrated_market_radar as imr
+
+        self.assertEqual(imr._bounce_rebound_stop_band("XAUUSD"), (0.8, 1.3, 0.15))
+        self.assertEqual(imr._bounce_rebound_stop_band("XAUUSD"), imr._bounce_rebound_stop_band("GLD"))
+
+        res = imr.evaluate_intraday_entry(
+            active_price=3730.0,
+            fib_low=3850.0,
+            fib_high=3950.0,
+            ma50=3900.0,
+            is_pit=False,
+            is_stop=True,
+            dist_to_pit=-3.1,
+            intra_info={"vwap": 3710.0, "low_5m": 3705.0, "rsi_5m": 45.0, "prev_rsi_5m": 40.0, "min_rsi_5m_30m": 29.0, "rvol_5m": 1.2, "is_5m_green": True, "is_5m_higher_low": True},
+            atr=80.0,
+            ticker="XAUUSD",
+            session_code="REGULAR",
+            ai_s1=3680.0,
+            ai_r1=3830.0,
+            ai_cal_win_rate=52.0,
+        )
+        self.assertTrue(-1.3 <= res["stop_loss_pct"] <= -0.8, f"Expected Tier-1 stop band, got {res['stop_loss_pct']}%")
+
+        sc = ml_predictor_5y.compute_multi_level_scenario_map("XAUUSD", close_price=3721.17, atr_pct=2.4)
+        self.assertLess(sc["sl"], sc["s2"])
+        self.assertLess(sc["s2"], sc["s1"])
+        self.assertLess(sc["s1"], 3721.17)
+        s1_pct = (3721.17 - sc["s1"]) / 3721.17 * 100.0
+        self.assertTrue(0.8 <= s1_pct <= 1.35, f"Expected S1 in Tier-1 0.8~1.3%, got {s1_pct:.2f}%")
+        self.assertTrue(sc["near_stop_s1"])
+        self.assertIn(f"${sc['s1']:.2f}", sc["scenario_script"])
+
+    def test_xauusd_downgrade_change_backfill_from_gcf(self):
+        """When TradingView fails and Swissquote/Gold-API has no pct, compute real change from calibrated GC=F prev close."""
+        import json as _json
+        import unittest.mock as _mock
+        import pandas as _pd
+        import ml_predictor_5y
+
+        class _FakeResp:
+            def __init__(self, payload):
+                self._b = _json.dumps(payload).encode("utf-8")
+            def read(self):
+                return self._b
+            def __enter__(self):
+                return self
+            def __exit__(self, *args):
+                return False
+
+        def _fake_urlopen(req, timeout=6):
+            url = req.full_url if hasattr(req, "full_url") else str(req)
+            if "scanner.tradingview.com" in url:
+                raise TimeoutError("tv down")
+            if "swissquote.com" in url:
+                raise TimeoutError("sq down")
+            if "gold-api.com" in url:
+                return _FakeResp({"price": 3727.50})
+            raise AssertionError(url)
+
+        d1_df = _pd.DataFrame(
+            {"Close": [3742.00, 3732.00]},
+            index=_pd.DatetimeIndex([_pd.Timestamp("2026-11-18"), _pd.Timestamp("2026-11-19")]),
+        )
+        h5_df = _pd.DataFrame(
+            {"Close": [3732.00]},
+            index=_pd.DatetimeIndex([_pd.Timestamp("2026-11-19 06:50:00")]),
+        )
+
+        class _FakeTicker:
+            def history(self, period="5d", interval="1d", **kw):
+                return h5_df if interval == "5m" else d1_df
+
+        with _mock.patch("urllib.request.urlopen", side_effect=_fake_urlopen), \
+             _mock.patch("ml_predictor_5y.yf.Ticker", return_value=_FakeTicker()), \
+             _mock.patch("ml_predictor_5y._to_et", return_value=_pd.Timestamp("2026-11-19 06:55:00")):
+            q = ml_predictor_5y.fetch_xauusd_spot_quote()
+
+        self.assertEqual(q.get("source"), "gold-api")
+        self.assertNotEqual(q.get("pct_change"), 0.0)
+        cal_prev = 3742.00 * (3727.50 / 3732.00)
+        self.assertAlmostEqual(q.get("pct_change"), round((3727.50 - cal_prev) / cal_prev * 100.0, 2), places=2)
+
+    def test_ai_weak_winrate_under_vwap_blocks_left_side_rebound(self):
+        """AI calibrated win rate < 50% and price < VWAP must wait for VWAP reclaim rather than triggering 超跌右侧博反抽."""
+        common_kw = dict(
+            fib_low=4072.32,
+            fib_high=4200.0,
+            ma50=4050.0,
+            is_pit=False,
+            is_stop=True,
+            dist_to_pit=-8.6,
+            intra_info={"vwap": 3744.58, "low_5m": 3715.0, "rsi_5m": 38.0, "prev_rsi_5m": 32.0, "min_rsi_5m_30m": 28.0, "rvol_5m": 1.1, "is_5m_green": True, "is_5m_higher_low": True},
+            atr=80.0,
+            ticker="XAUUSD",
+            session_code="PRE_MARKET",
+            ai_s1=3676.0,
+            ai_r1=3832.0,
+            ai_cal_win_rate=46.7,
+        )
+        blocked = imr.evaluate_intraday_entry(active_price=3721.17, **common_kw)
+        self.assertFalse(blocked["broken_rebound_ready"])
+        self.assertFalse(blocked["intraday_entry_ready"])
+        self.assertIn("未站稳 VWAP", blocked["intraday_status_text"])
+        self.assertNotIn("超跌右侧博反抽", blocked["intraday_status_text"])
+
+        reclaimed = imr.evaluate_intraday_entry(active_price=3746.00, **common_kw)
+        self.assertTrue(reclaimed["broken_rebound_ready"])
+        self.assertIn("超跌右侧博反抽", reclaimed["intraday_status_text"])
+
+    def test_truncated_yfinance_daily_backfills_from_local_parquet(self):
+        """When Yahoo 1y daily returns <20 bars for an existing stock like SNDK, backfill from local parquet."""
+        import unittest.mock as _mock
+        import pandas as _pd
+        import integrated_market_radar as imr
+
+        short_yf = _pd.DataFrame(
+            {
+                "Open": [809.83, 805.87],
+                "High": [821.46, 813.18],
+                "Low": [749.39, 753.83],
+                "Close": [797.24, 776.22],
+                "Volume": [15739553, 12602833],
+            },
+            index=_pd.DatetimeIndex([_pd.Timestamp("2026-11-17"), _pd.Timestamp("2026-11-18")]),
+        )
+        with _mock.patch("integrated_market_radar.yf.download", return_value=short_yf):
+            out = imr.fetch_all_market_data(["SNDK"], period="1y", retries=1)
+        self.assertIn("SNDK", out)
+        self.assertGreaterEqual(len(out["SNDK"]), 200, f"Expected SNDK backfilled >=200 bars from parquet, got {len(out['SNDK'])}")
+        self.assertIn(_pd.Timestamp("2026-11-18"), out["SNDK"].index)
+        self.assertAlmostEqual(float(out["SNDK"].loc[_pd.Timestamp("2026-11-18"), "Close"]), 776.22, places=2)
+        self.assertGreater(float(out["SNDK"]["Close"].iloc[-1]), 0.0)
+
+    def test_all_stocks_emit_5m_entry_without_starred_watchlist(self):
+        """Even when target_watchlist is empty, any stock/ETF with intraday_entry_ready=True emits 5m_entry notification."""
+        import unittest.mock as _mock
+        import integrated_market_radar as imr
+
+        sample_stocks = [
+            {
+                "ticker": "XAUUSD",
+                "name": "伦敦金现货",
+                "cat": "大宗商品",
+                "last": 3730.0,
+                "active_price": 3730.0,
+                "pct_change": 0.25,
+                "intraday_entry_ready": True,
+                "is_stop": False,
+                "is_pit": True,
+                "is_take_profit": False,
+                "optimal_limit": 3728.0,
+                "entry_stop_loss": 3690.0,
+            }
+        ]
+        with _mock.patch("integrated_market_radar.load_target_watchlist", return_value=[]), \
+             _mock.patch("integrated_market_radar.load_terminal_notifications", return_value=[]), \
+             _mock.patch("integrated_market_radar.save_terminal_notifications"):
+            notifs = imr.generate_and_sync_notifications(
+                macro_data={"SPY": {"name": "标普500", "cat": "宽基", "last": 580.0, "pct_change": 0.1}},
+                stocks_data=sample_stocks,
+                weather_info={"weather": "阴天防守", "desc": "test", "tactics": "test"},
+                now_str="2026-11-19 09:35:00",
+            )
+        five_m = [n for n in notifs if n.get("category") == "5m_entry" and n.get("ticker") == "XAUUSD"]
+        self.assertEqual(len(five_m), 1, f"Expected XAUUSD 5m_entry notification without star, got {notifs}")
+
 
 
 

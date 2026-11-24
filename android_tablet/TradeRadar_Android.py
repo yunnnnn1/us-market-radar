@@ -31,11 +31,7 @@ if hasattr(sys.stderr, "reconfigure"):
     sys.stderr.reconfigure(encoding="utf-8")
 
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
-_REPO_ROOT = os.path.dirname(PROJECT_DIR)
-if _REPO_ROOT not in sys.path:
-    sys.path.insert(0, _REPO_ROOT)
 os.chdir(PROJECT_DIR)
-import display_time
 
 # ------------------------------------------------------------------------------
 # 1. 环境配置与 Token 加载
@@ -108,7 +104,9 @@ def reload_alert_webhook():
 
 reload_alert_webhook()
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN", "").strip()
-GITHUB_REPO = os.environ.get("GITHUB_REPO", "2827173579/us-market-radar").strip()
+GITHUB_REPO = (os.environ.get("GITHUB_REPO") or os.environ.get("GITHUB_REPOSITORY") or "yunnnnn1/us-market-radar").strip()
+if GITHUB_REPO.lower().startswith("2827173579/"):
+    GITHUB_REPO = "yunnnnn1/us-market-radar"
 PORT = 8765
 FULL_ENGINE_CHILD = None
 
@@ -121,7 +119,8 @@ LOG_LOCK = threading.Lock()
 ALERT_HISTORY_FILE = os.path.join(PROJECT_DIR, ".android_alert_history.json")
 
 def append_log(msg: str):
-    entry = f"[{display_time.log_clock()}] {msg}"
+    ts = _market_et_now().strftime("%H:%M:%S")
+    entry = f"[{ts}] {msg}"
     with LOG_LOCK:
         LOG_BUFFER.append(entry)
         if len(LOG_BUFFER) > MAX_LOG_LINES:
@@ -252,16 +251,16 @@ def send_discord(title: str, description: str, color: int = 0x00e676, fields: li
 # 5. 核心轻量实盘抓取与风控比对逻辑
 # ------------------------------------------------------------------------------
 # ------------------------------------------------------------------------------
-# 75 只全量标的池配置 (14 只宏观/行业/杠杆 ETF + 61 只 AI 与核心个股)
+# 77 只全量标的池配置 (14 只宏观/行业/杠杆 ETF + 63 只 AI 与核心个股)
 # ------------------------------------------------------------------------------
 ETF_TICKERS = [
-    "QQQ", "SPY", "DIA", "IWM", "SMH", "SOXX", "SOXL", "KORU",
+    "QQQ", "SPY", "DIA", "IWM", "SMH", "SOXX", "SOXL", "KORU", "KOSPI",
     "IGV", "TLT", "GLD", "VIXY", "SQQQ", "SOXS"
 ]
 
 CORE_STOCKS = [
     "AAOI", "INTC", "NBIS", "SNDK", "ASTS", "AXTI", "COIN", "NOW", "FPS", "OKLO",
-    "MRVL", "LITE", "MSTR", "STX", "CRWV", "CRDO", "APLD", "DELL", "WDC", "NVDA",
+    "MRVL", "LITE", "FN", "GLW", "MSTR", "STX", "CRWV", "CRDO", "APLD", "DELL", "WDC", "NVDA",
     "SKHY", "HPE", "AMAT", "ORCL", "GOOGL", "ASML", "BE", "PLTR", "MU", "VRT",
     "META", "TSM", "VST", "COHR", "SPCX", "AXP", "CRWD", "MSFT", "QCOM", "NKE",
     "CEG", "V", "RKLB", "KO", "TSLA", "AMZN", "MCD", "PEP", "AAPL", "AVGO",
@@ -634,7 +633,7 @@ def patch_predict_radar_flight(work_dir: str, flight: dict, now_str: str, sessio
         append_log("[!] AI预测页防御因子定位失败，本轮不改该页")
         return False
     html2, _ = re.subn(
-        r"同步于[:：]\s*\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2}(?:\s*北京时间)?",
+        r"同步于:\s*\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2}",
         f"同步于: {now_str}",
         html2,
         count=1,
@@ -930,6 +929,18 @@ def maybe_push_quant_strategy(quotes, weather, now_str):
         append_log(f"[!] 四次日策略哨兵不可用（需 pandas/yfinance/discord_sentinel.py）: {e}")
 
 
+def maybe_push_jin10_news():
+    """复用电脑版 jin10_news_sentinel；备机接管期间由 shared_alert_state 去重接力推送。"""
+    try:
+        parent = os.path.dirname(PROJECT_DIR)
+        if parent not in sys.path:
+            sys.path.insert(0, parent)
+        import jin10_news_sentinel
+        jin10_news_sentinel.run_jin10_sentinel_async()
+    except Exception:
+        pass
+
+
 ALERT_STATE_FILE = os.path.join(PROJECT_DIR, ".android_alert_state.json")
 try:
     _PARENT = os.path.dirname(PROJECT_DIR)
@@ -1136,8 +1147,7 @@ def scan_5m_buy_points(universe, by_ticker, session_name):
 
 
 def run_single_scan_cycle(round_idx=1):
-    # 页面、提交和推送用北京时间。时段判断仍走下面的 get_us_market_session()（美东）。
-    now_str = display_time.page_update_stamp()
+    now_str = _market_et_now().strftime("%Y-%m-%d %H:%M:%S")
     session_code, session_name = get_us_market_session()
     STATE.session_name = session_name
     STATE.last_sync_time = now_str
@@ -1177,12 +1187,12 @@ def run_single_scan_cycle(round_idx=1):
         watchlist = ["NVDA", "META", "TSM", "AMD", "MRVL", "AAOI", "AXTI", "BE", "SKHY", "LITE", "SPCX", "INTC", "MSTR", "SNDK", "QQQ", "SOXL", "SOXS", "KORU", "QCOM", "BTC-USD", "LUNR"]
     alerts_muted = session_code in MUTE_SESSIONS
 
-    # 2. 双线程令牌桶平稳并发拉取 75 只全量标的池 (14 只 ETF + 61 只个股)
-    # 结合 target_watchlist.json 优先，若无则抓取全量 75 只标的 (低波观察基准不占 Finnhub 名额)
+    # 2. 双线程令牌桶平稳并发拉取 77 只全量标的池 (14 只 ETF + 63 只个股)
+    # 结合 target_watchlist.json 优先，若无则抓取全量 77 只标的 (低波观察基准不占 Finnhub 名额)
     REMOVED_OBS_TICKERS = {"JPM", "XOM", "WMT", "CAT", "NASA"}
     scan_pool = list(dict.fromkeys(watchlist + FULL_70_POOL))
     append_log(f"[*] 🚀 启动双线程令牌桶频控引擎 (workers=2, bucket=50/min, min_int=1.05s)...")
-    append_log(f"[*] 📊 正在平稳抓取 {len(scan_pool)} 只全量标的 (含 14 只 ETF + 61 只核心股) 实时报价...")
+    append_log(f"[*] 📊 正在平稳抓取 {len(scan_pool)} 只全量标的 (含 14 只 ETF + 63 只核心股) 实时报价...")
     
     finnhub_pool = [x for x in scan_pool if x != "BTC-USD" and x not in REMOVED_OBS_TICKERS][:60]
     fetched_quotes = fetch_finnhub_quotes_batch(finnhub_pool, FINNHUB_API_KEY) if FINNHUB_API_KEY else {}
@@ -1278,6 +1288,7 @@ def run_single_scan_cycle(round_idx=1):
             pass
     sync_to_github_pages(round_idx, now_str, quotes=fetched_quotes, flight=flight, session_name=session_name)
     maybe_push_quant_strategy(fetched_quotes, weather, now_str)
+    maybe_push_jin10_news()
 
 # ------------------------------------------------------------------------------
 # 6. 后台守护线程调度器
@@ -1314,7 +1325,7 @@ def sync_to_github_pages(round_idx: int, now_str: str, quotes: dict = None, flig
 
                 # A. 替换数据时间戳
                 futu_content = re.sub(
-                    r"数据更新于[:：]\s*\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2}(?:\s*北京时间)?",
+                    r"数据更新于[:：]\s*\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2}",
                     f"数据更新于: {now_str}",
                     futu_content
                 )
@@ -1381,7 +1392,7 @@ def sync_to_github_pages(round_idx: int, now_str: str, quotes: dict = None, flig
 
                 # A. 替换数据时间戳
                 pred_content = re.sub(
-                    r"同步于[:：]\s*\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2}(?:\s*北京时间)?",
+                    r"同步于[:：]\s*\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2}",
                     f"同步于: {now_str}",
                     pred_content
                 )
@@ -1430,7 +1441,7 @@ def sync_to_github_pages(round_idx: int, now_str: str, quotes: dict = None, flig
                     with open(sub_path, "r", encoding="utf-8") as f_sub:
                         s_content = f_sub.read()
                     s_content = re.sub(
-                        r"最近更新[:：]\s*\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2}(?:\s*北京时间)?",
+                        r"最近更新[:：]\s*\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2}",
                         f"最近更新: {now_str}",
                         s_content
                     )
@@ -1482,13 +1493,13 @@ def sync_to_github_pages(round_idx: int, now_str: str, quotes: dict = None, flig
             if "ghp_" in rem_chk.stdout:
                 token = "ghp_" + rem_chk.stdout.split("ghp_")[1].split("@")[0]
         if token:
-            auth_url = f"https://2827173579:{token}@github.com/{GITHUB_REPO}.git"
+            auth_url = f"https://x-access-token:{token}@github.com/{GITHUB_REPO}.git"
             subprocess.run(["git", "remote", "set-url", "origin", auth_url], check=False, cwd=work_dir, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
         # 4. 执行 Git 暂存、配置身份与提交
         # 自动配置本地仓库提交者身份 (防止 Termux 新环境没有 global config 导致 commit 报 128 Author identity unknown)
-        subprocess.run(["git", "config", "user.name", "2827173579"], check=False, cwd=work_dir, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        subprocess.run(["git", "config", "user.email", "a18669358277@gmail.com"], check=False, cwd=work_dir, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        subprocess.run(["git", "config", "user.name", "us-market-radar"], check=False, cwd=work_dir, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        subprocess.run(["git", "config", "user.email", "actions@github.com"], check=False, cwd=work_dir, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
         files_to_add = [
             "futu_pro_terminal.html",
@@ -1757,7 +1768,7 @@ INDEX_HTML = """<!DOCTYPE html>
         <button class="btn btn-blue" onclick="doAction('/api/scan_once')">🔄 手动即时刷新一次</button>
         <button class="btn btn-purple" onclick="doAction('/api/test_alert')">📢 发送预警镜像测试</button>
         <button class="btn btn-orange" onclick="doAction('/api/send_sentinel')">🎯 立即发送量化哨兵</button>
-        <button class="btn btn-gray" onclick="window.open('https://2827173579.github.io/us-market-radar/', '_blank')">🌐 打开富途看盘网页</button>
+        <button class="btn btn-gray" onclick="window.open('https://yunnnnn1.github.io/us-market-radar/', '_blank')">🌐 打开富途看盘网页</button>
     </div>
 
     <div class="toolbar">
@@ -1909,7 +1920,7 @@ class AndroidRadarHandler(BaseHTTPRequestHandler):
 
         elif self.path == "/api/test_alert":
             append_log("🟣 用户在平板端触发: 发送预警镜像测试...")
-            now_s = display_time.page_update_stamp()
+            now_s = _market_et_now().strftime("%Y-%m-%d %H:%M:%S")
             title = "【美股量化雷达】📢 小米平板双通道预警测试成功"
             content = f"### 🚀 小米平板测试卡片成功投递！\\n- **测试时间**: {now_s}\\n- **通信链路**: 微信 ClawBot + 微信公众号 + Discord Webhook\\n- **设备节点**: 小米平板极速哨兵 (Android Termux)"
             send_pushplus(title, content)
@@ -1921,12 +1932,12 @@ class AndroidRadarHandler(BaseHTTPRequestHandler):
 
         elif self.path == "/api/send_sentinel":
             append_log("🟠 用户在平板端触发: 立即发送量化哨兵...")
-            now_s = display_time.page_update_stamp()
+            now_s = _market_et_now().strftime("%Y-%m-%d %H:%M:%S")
             session_code, session_name = get_us_market_session()
             ai_data = load_ai_predictions()
             weather = ai_data.get("macro_weather", {}).get("status", "⛅ 阴天防守")
             title = f"【量化哨兵】🎯 全市场核心水温战报 ({session_name})"
-            desc = f"**当前时段**: {session_name}\\n**数据时间**: {now_s}\\n**大盘气象**: {weather}\\n**监控标的**: 71 只全量标的 (含最新接入 QCOM)\\n**哨兵节点**: 小米平板控制中心"
+            desc = f"**当前时段**: {session_name}\\n**大盘气象**: {weather}\\n**监控标的**: 71 只全量标的 (含最新接入 QCOM)\\n**哨兵节点**: 小米平板控制中心"
             send_pushplus(title, desc)
             send_discord(title, desc, color=0xd29922)
             self.send_response(200)

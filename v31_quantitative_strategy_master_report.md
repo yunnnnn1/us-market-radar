@@ -178,7 +178,7 @@ sequenceDiagram
 系统采用高度冗余的工业级云端架构，确保全天候永不宕机：
 
 * 📱 **富途专业终端 (Web UI)**：
-  * 网址：[https://2827173579.github.io/us-market-radar/futu_pro_terminal.html](https://2827173579.github.io/us-market-radar/futu_pro_terminal.html)
+  * 网址：[https://yunnnnn1.github.io/us-market-radar/futu_pro_terminal.html](https://yunnnnn1.github.io/us-market-radar/futu_pro_terminal.html)
   * 支持手机端与 PC 端无缝自适应，内置 TradingView 深度 K 线、5m VWAP 均线共振仪与机构期权异动雷达。
 * 🔔 **微信推送专线 (ClawBot)**：
   * 直连 PushPlus 微信专用机器人私聊通道（`channel=clawbot`），0.2 秒超低延迟 HTTPS 秒发秒达，每日 1,000 次超大额度。
