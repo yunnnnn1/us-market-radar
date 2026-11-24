@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795532527.868,
-  "updated_at_et": "11-24 10:02 ET",
-  "updated_at_kst": "00:02 KST",
+  "updated_at_ts": 1795532637.501,
+  "updated_at_et": "11-24 10:03 ET",
+  "updated_at_kst": "00:03 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1946,6 +1946,27 @@
     ],
     "TSLA": [
       {
+        "title": "Have robotaxis hit a tipping point? Wall Street and experts are split.",
+        "url": "https://finance.yahoo.com/markets/stocks/article/have-robotaxis-hit-a-tipping-point-wall-street-and-experts-are-split-150000412.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:00 ET",
+        "pub_ts": 1795532400.0
+      },
+      {
+        "title": "Tesla and SpaceX assemble deal teams for a merger that could give Musk majority control",
+        "url": "https://finance.yahoo.com/technology/article/tesla-and-spacex-assemble-deal-teams-for-a-merger-that-could-give-musk-majority-control-144555932.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:45 ET",
+        "pub_ts": 1795531555.0
+      },
+      {
+        "title": "Is Monness Crespi & Hardt Wrong to Give Up on Tesla? Wall Street Still Sees $412",
+        "url": "https://www.tikr.com/blog/monness-crespi-hardt-tesla-downgrade-neutral?ref=yahoofinance&tlnk=yf-261124-q6vc2444&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:05 ET",
+        "pub_ts": 1795529132.0
+      },
+      {
         "title": "Should You Trim Or Add To Your Tesla Position?",
         "url": "https://www.trefis.com/stock/tsla/articles/628369/should-you-trim-or-add-to-your-tesla-position/2026-11-24?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1958,27 +1979,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 08:45 ET",
         "pub_ts": 1795527909.0
-      },
-      {
-        "title": "Tesla, SpaceX Reportedly Pick Board Members To Negotiate Elon Musk's Mega Merger",
-        "url": "https://finance.yahoo.com/m/d4400d8c-dfaf-3382-a360-877e01e80aec/tesla%2C-spacex-reportedly-pick.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:44 ET",
-        "pub_ts": 1795527854.0
-      },
-      {
-        "title": "Musk Says Tesla Is Getting Ready to “Return to Growth Mode.” Here’s What Analysts Expect",
-        "url": "https://www.tikr.com/blog/tesla-return-to-growth-mode-musk-analyst-expectations?ref=yahoofinance&tlnk=yf-261124-mq4r963h&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:20 ET",
-        "pub_ts": 1795526451.0
-      },
-      {
-        "title": "What Made Tesla Stock Jump On Monday?",
-        "url": "https://www.trefis.com/stock/tsla/articles/628598/what-made-tesla-stock-jump-on-monday/2026-11-24?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:12 ET",
-        "pub_ts": 1795525962.0
       }
     ],
     "AXP": [
@@ -2131,39 +2131,39 @@
     ],
     "INTC": [
       {
-        "title": "Archive Intel Launches Model Context Protocol (MCP) and Claude Compliance API Integration",
-        "url": "https://finance.yahoo.com/technology/ai/articles/archive-intel-launches-model-context-140400674.html?.tsrc=rss",
+        "title": "Global Neural Processor Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on 22.2% CAGR as NVIDIA, Apple, Alphabet, and Intel Accelerate Edge AI",
+        "url": "https://finance.yahoo.com/technology/ai/articles/global-neural-processor-market-report-144100416.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 09:04 ET",
-        "pub_ts": 1795529040.0
+        "time": "11-24 09:41 ET",
+        "pub_ts": 1795531260.0
       },
       {
-        "title": "Why Is Intel Stock Falling 5.8% Today?",
-        "url": "https://investorshub.advfn.com/market-news/article/40615/why-is-intel-stock-falling-5-8-today?.tsrc=rss",
+        "title": "Global Microprocessor Chip Manufacturing Market Report 2026: Size, Trends, and Forecast to 2030 | Capture $210.23B AI Chip Demand with TSMC, NVIDIA, Samsung, Intel, and AMD",
+        "url": "https://finance.yahoo.com/technology/ai/articles/global-microprocessor-chip-manufacturing-market-144000160.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 08:41 ET",
-        "pub_ts": 1795527706.0
+        "time": "11-24 09:40 ET",
+        "pub_ts": 1795531200.0
       },
       {
-        "title": "Intel Corporation (INTC) is Attracting Investor Attention: Here is What You Should Know",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/intel-corporation-intc-attracting-investor-130005083.html?.tsrc=rss",
+        "title": "Global Hybrid Graphics Processing Unit (GPU)-Central Processing Unit (CPU) Market Report 2026 | NVIDIA, Intel, AMD, Samsung, and Arm Drive AI Data Centers to $38.13B by 2030",
+        "url": "https://finance.yahoo.com/technology/ai/articles/global-hybrid-graphics-processing-unit-143900936.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 08:00 ET",
-        "pub_ts": 1795525205.0
+        "time": "11-24 09:39 ET",
+        "pub_ts": 1795531140.0
       },
       {
-        "title": "Intel Has Plummeted 30% Over 30 Days: This Pro Analyst Reiterated His Buy Status, Predicting 133% Gains",
-        "url": "https://247wallst.com/investing/2026/11/24/intel-has-plummeted-30-over-30-days-this-pro-analyst-reiterated-his-buy-status-predicting-133-gains/?.tsrc=rss",
+        "title": "Global Fixed Point Digital Signal Processor Market Report 2026 to 2030 | Capitalize on 8.7% CAGR as Qualcomm, MediaTek, Texas Instruments, Samsung, and Intel Accelerate Edge IoT",
+        "url": "https://finance.yahoo.com/technology/articles/global-fixed-point-digital-signal-143800586.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 07:15 ET",
-        "pub_ts": 1795522501.0
+        "time": "11-24 09:38 ET",
+        "pub_ts": 1795531080.0
       },
       {
-        "title": "Intel Gains From Strong Operating Margin Growth: Will it Last?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/intel-gains-strong-operating-margin-121100195.html?.tsrc=rss",
+        "title": "Embedded Microprocessor Unit (MPU) Global Market Report 2026 | Capitalize on Edge AI and IoT Growth to $59.18 Billion by 2030 with NVIDIA, Intel, Qualcomm, NXP, and Renesas",
+        "url": "https://finance.yahoo.com/technology/articles/embedded-microprocessor-unit-mpu-global-143600298.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 07:11 ET",
-        "pub_ts": 1795522260.0
+        "time": "11-24 09:36 ET",
+        "pub_ts": 1795530960.0
       }
     ],
     "VRT": [
@@ -2205,11 +2205,25 @@
     ],
     "HPE": [
       {
+        "title": "Nvidia jumped 31% on Jensen Huang's return. A day later, the AI trade sold off: AlphaCheck",
+        "url": "https://finance.yahoo.com/markets/article/nvidia-leads-semiconductors-lower-alphacheck-144509267.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:45 ET",
+        "pub_ts": 1795531509.0
+      },
+      {
         "title": "HPE stock declines as disappointing margin forecast outweighs upbeat guidance",
         "url": "https://finance.yahoo.com/markets/article/hpe-stock-declines-as-margin-outlook-disappoints-134420648.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 08:44 ET",
         "pub_ts": 1795527860.0
+      },
+      {
+        "title": "HPE Sinks 14% Despite Raised Outlook as CFO Expects “Gross Margin to Moderate”",
+        "url": "https://www.tikr.com/blog/hpe-sinks-14-despite-raised-outlook-as-cfo-expects-gross-margin-to-moderate?ref=yahoofinance&tlnk=yf-261124-3v7mg9vj&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:50 ET",
+        "pub_ts": 1795531844.0
       },
       {
         "title": "Premarket movers: Nvidia slips; HPE, Semtech fall",
@@ -2224,23 +2238,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 07:19 ET",
         "pub_ts": 1795522743.0
-      },
-      {
-        "title": "HPE Expects Thinner AI Margins. Is Dell Next?",
-        "url": "https://www.trefis.com/stock/hpe/articles/628212/hpe-expects-thinner-ai-margins-is-dell-next/2026-11-24?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 07:02 ET",
-        "pub_ts": 1795521749.0
-      },
-      {
-        "title": "Nvidia, Anthropic, Intel, HPE, Sanofi, and More Stocks That Explain Today’s Market",
-        "url": "https://finance.yahoo.com/m/f7fa0ed2-2c68-3b80-9261-c35639090d03/nvidia%2C-anthropic%2C-intel%2C.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 06:21 ET",
-        "pub_ts": 1795519260.0
       }
     ],
     "DELL": [
+      {
+        "title": "Over Half Of Dell's $95 Billion Backlog Waits",
+        "url": "https://www.trefis.com/stock/dell/articles/628252/over-half-of-dell-s-95-billion-backlog-waits/2026-11-24?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:28 ET",
+        "pub_ts": 1795530509.0
+      },
       {
         "title": "Own Dell Stock? Its Cash Gap Rarely Hurt It",
         "url": "https://www.trefis.com/stock/dell/articles/628265/own-dell-stock-its-cash-gap-rarely-hurt-it/2026-11-24?.tsrc=rss",
@@ -2268,13 +2275,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 07:02 ET",
         "pub_ts": 1795521749.0
-      },
-      {
-        "title": "First Trust BuyWrite Income (FTHI) Buys $13.1 Million More Fair Isaac on Nov. 20",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/first-trust-buywrite-income-fthi-110330979.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 06:03 ET",
-        "pub_ts": 1795518210.0
       }
     ],
     "OKLO": [
@@ -2316,6 +2316,13 @@
     ],
     "CEG": [
       {
+        "title": "Is It Worth Investing in Constellation Energy Corporation (CEG) Based on Wall Street's Bullish Views?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/worth-investing-constellation-energy-corporation-133004847.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 08:30 ET",
+        "pub_ts": 1795527004.0
+      },
+      {
         "title": "CEG Below the 50 and 200-Day SMAs: Is It a Buy or Hold Right Now?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/ceg-below-50-200-day-132400164.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2342,13 +2349,6 @@
         "source": "Yahoo Finance",
         "time": "11-19 15:10 ET",
         "pub_ts": 1795119045.0
-      },
-      {
-        "title": "Will Buyers Defend Constellation Energy Stock At $263?",
-        "url": "https://www.trefis.com/stock/ceg/articles/626738/will-buyers-defend-constellation-energy-stock-at-263/2026-11-19?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-19 07:08 ET",
-        "pub_ts": 1795090084.0
       }
     ],
     "FPS": [
@@ -2390,39 +2390,39 @@
     ],
     "MU": [
       {
-        "title": "Micron Falls 7% as NVIDIA Pullback Partially Reverses Monday’s AI Chip Rally; SanDisk and SK Hynix Drop 6%",
-        "url": "https://247wallst.com/investing/2026/11/24/micron-falls-7-as-nvidia-pullback-partially-reverses-mondays-ai-chip-rally-sandisk-and-sk-hynix-drop-6/?.tsrc=rss",
+        "title": "BNP Paribas cuts Micron rating on risks to 2028 hyperscaler capacity plans",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/bnp-paribas-cuts-micron-rating-145304912.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 09:07 ET",
-        "pub_ts": 1795529253.0
+        "time": "11-24 09:53 ET",
+        "pub_ts": 1795531984.0
       },
       {
-        "title": "Chip Stocks Just Had Their Fourth-Best Day Since 2000",
-        "url": "https://247wallst.com/investing/2026/11/24/chip-stocks-just-had-their-fourth-best-day-since-2000/?.tsrc=rss",
+        "title": "Micron Sinks 7% as Chip Stocks Give Back Huang Rally",
+        "url": "https://www.tikr.com/blog/micron-sinks-7-as-chip-stocks-give-back-huang-rally?ref=yahoofinance&tlnk=yf-261124-3pwpgx5g&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 08:53 ET",
-        "pub_ts": 1795528404.0
+        "time": "11-24 09:51 ET",
+        "pub_ts": 1795531919.0
       },
       {
-        "title": "Micron Stock Soared on Monday. I'd Still Buy It, a Little at a Time.",
-        "url": "https://www.fool.com/investing/2026/11/24/micron-stock-soared-on-monday-i-d-still-buy-it-a-little-at-a-time/?.tsrc=rss",
+        "title": "MU Stock Downgraded, Price Target Cut By Almost $1,000: BNP Paribas Flags 2028 Hyperscaler Capacity Risks",
+        "url": "https://stocktwits.com/news-articles/markets/equity/mu-stock-downgraded-price-target-cut-by-almost-1-000-bnp-paribas-flags-2028-hyperscaler-capacity-risks/cNbsaFoR9ko?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 08:43 ET",
-        "pub_ts": 1795527781.0
+        "time": "11-24 09:49 ET",
+        "pub_ts": 1795531754.0
       },
       {
-        "title": "Why Is Micron Technology Stock Falling 6.4% Today?",
-        "url": "https://investorshub.advfn.com/market-news/article/40609/why-is-micron-technology-stock-falling-6-4-today?.tsrc=rss",
+        "title": "Micron downgraded, GameStop initiated: Wall Street's top analyst calls",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/snap-upgraded-pinterest-downgrade-wall-135144855.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 08:37 ET",
-        "pub_ts": 1795527461.0
+        "time": "11-24 09:48 ET",
+        "pub_ts": 1795531695.0
       },
       {
-        "title": "Small Models Are “Very Bearish for RAM,” Says Emad Mostaque. Micron’s 2029 Estimates Are What’s at Stake",
-        "url": "https://www.tikr.com/blog/small-models-are-very-bearish-for-ram-says-emad-mostaque-microns-2029-estimates-are-whats-at-stake?ref=yahoofinance&tlnk=yf-261124-2wwpqprg&.tsrc=rss",
+        "title": "Is Now The Right Time To Buy Micron Stock?",
+        "url": "https://www.trefis.com/stock/mu/articles/628442/is-now-the-right-time-to-buy-micron-stock/2026-11-24?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 07:59 ET",
-        "pub_ts": 1795525184.0
+        "time": "11-24 09:42 ET",
+        "pub_ts": 1795531374.0
       }
     ],
     "SKHY": [
@@ -2485,18 +2485,18 @@
         "pub_ts": 1795455038.0
       },
       {
-        "title": "Western Digital Corporation (WDC) Is a Trending Stock: Facts to Know Before Betting on It",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/western-digital-corporation-wdc-trending-130005222.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 08:00 ET",
-        "pub_ts": 1795438805.0
-      },
-      {
         "title": "Micron Falls 7% as NVIDIA Pullback Partially Reverses Monday’s AI Chip Rally; SanDisk and SK Hynix Drop 6%",
         "url": "https://247wallst.com/investing/2026/11/24/micron-falls-7-as-nvidia-pullback-partially-reverses-mondays-ai-chip-rally-sandisk-and-sk-hynix-drop-6/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 09:07 ET",
         "pub_ts": 1795529253.0
+      },
+      {
+        "title": "Prediction: This Will Be Sandisk’s Stock Price by the End of 2027",
+        "url": "https://www.fool.com/investing/2026/11/23/prediction-this-will-be-sandisks-stock-price-by-the-end-of-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-23 17:16 ET",
+        "pub_ts": 1795472162.0
       }
     ],
     "STX": [
@@ -2582,6 +2582,13 @@
         "pub_ts": 1795529253.0
       },
       {
+        "title": "SNDK's Data Center Revenues Gain Momentum on AI Demand: What's Ahead?",
+        "url": "https://finance.yahoo.com/technology/ai/articles/sndks-data-center-revenues-gain-134600224.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 08:46 ET",
+        "pub_ts": 1795527960.0
+      },
+      {
         "title": "Why Is Sandisk Stock Pulling Back Today?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/why-sandisk-stock-pulling-back-130945522.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2601,29 +2608,22 @@
         "source": "Yahoo Finance",
         "time": "11-24 06:12 ET",
         "pub_ts": 1795518720.0
-      },
-      {
-        "title": "Micron Just Dropped 19% in a Month. Is It Time to Sell, or Load Up?",
-        "url": "https://www.tikr.com/blog/micron-just-dropped-19-in-a-month-is-it-time-to-sell-or-load-up?ref=yahoofinance&tlnk=yf-261124-8fvqwgxg&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 04:46 ET",
-        "pub_ts": 1795513576.0
       }
     ],
     "BTC-USD": [
+      {
+        "title": "Stock Market Today: Nasdaq Sells Off After Big Market Surge; AMD, Anthropic, Nvidia All Dive (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/4aa4ff31-269f-346e-80c4-e681510af7ae/stock-market-today%3A-nasdaq.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:42 ET",
+        "pub_ts": 1795531368.0
+      },
       {
         "title": "Bitcoin ETF Outflows Hit A Record $4.71 Billion",
         "url": "https://www.cryptoprowl.com/releases/bitcoin-etf-outflows-hit-a-record-471-billion-8040?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 09:24 ET",
         "pub_ts": 1795530240.0
-      },
-      {
-        "title": "Stock Market Today: Tech Futures Sell Off After Big Market Surge; AMD, Anthropic, Nvidia Dive (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/4aa4ff31-269f-346e-80c4-e681510af7ae/stock-market-today%3A-tech.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:51 ET",
-        "pub_ts": 1795528300.0
       },
       {
         "title": "IREN Fell 42% This Month Even After The Market Jump on NVIDIA News: This Wall Street Pro Maintains That 440% Returns Are Coming After Q3 Earnings Downgrades",
@@ -2648,6 +2648,13 @@
       }
     ],
     "CRWD": [
+      {
+        "title": "Micron downgraded, GameStop initiated: Wall Street's top analyst calls",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/snap-upgraded-pinterest-downgrade-wall-135144855.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:48 ET",
+        "pub_ts": 1795531695.0
+      },
       {
         "title": "What Does Zscaler Really Cost CrowdStrike Owners?",
         "url": "https://www.trefis.com/stock/crwd/articles/628273/what-does-zscaler-really-cost-crowdstrike-owners/2026-11-24?.tsrc=rss",
@@ -2675,16 +2682,23 @@
         "source": "Yahoo Finance",
         "time": "11-24 07:22 ET",
         "pub_ts": 1795522958.0
-      },
-      {
-        "title": "CRWD Q3 Earnings Beat Estimates on Strong ARR & Falcon Flex Adoption",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/crwd-q3-earnings-beat-estimates-120100191.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 07:01 ET",
-        "pub_ts": 1795521660.0
       }
     ],
     "ORCL": [
+      {
+        "title": "Prediction: Oracle Stock Will Soar in 2027",
+        "url": "https://www.fool.com/investing/2026/11/24/prediction-oracle-stock-will-soar-in-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:35 ET",
+        "pub_ts": 1795530902.0
+      },
+      {
+        "title": "Global Succession Planning and Management Software Market Report 2026 | Capitalize on AI and Cloud Growth to $8.64B by 2030 with Oracle, SAP, Workday, Paycom, and Eightfold AI",
+        "url": "https://finance.yahoo.com/technology/articles/global-succession-planning-management-software-143500275.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:35 ET",
+        "pub_ts": 1795530900.0
+      },
       {
         "title": "Global Workflow Market Size, Trends, and Forecast Report 2026 | Capitalize on 22.5% CAGR as IBM, Oracle, SAP, ServiceNow, and Appian Accelerate AI and Cloud Automation Through 2030",
         "url": "https://finance.yahoo.com/technology/articles/global-workflow-market-size-trends-143400424.html?.tsrc=rss",
@@ -2705,20 +2719,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:30 ET",
         "pub_ts": 1795530600.0
-      },
-      {
-        "title": "Global Integration App Market Report 2026: $6.04 Billion Forecast to 2030 | Capitalize on 11.2% CAGR as Microsoft, IBM, Oracle, and Workato Accelerate AI and Multi-Cloud Adoption",
-        "url": "https://finance.yahoo.com/technology/articles/global-integration-app-market-report-142800894.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:28 ET",
-        "pub_ts": 1795530480.0
-      },
-      {
-        "title": "Billionaire David Tepper Bought $172 Million of Oracle. Oracle Is Targeting “More Than $30 Billion” of Free Cash Flow",
-        "url": "https://www.tikr.com/blog/david-tepper-oracle-stake-free-cash-flow-target?ref=yahoofinance&tlnk=yf-261124-4gjjjpp9&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:50 ET",
-        "pub_ts": 1795528240.0
       }
     ],
     "COIN": [
@@ -2804,6 +2804,13 @@
         "pub_ts": 1795518206.0
       },
       {
+        "title": "Moderna Has Ripped 619% in 2026. Bancel Says It Can Go Into “Many Tumors Very Quickly.” Too Late to Buy?",
+        "url": "https://www.tikr.com/blog/moderna-has-ripped-619-in-2026-bancel-says-it-can-go-into-many-tumors-very-quickly-too-late-to-buy?ref=yahoofinance&tlnk=yf-261124-299hvjgq&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 04:47 ET",
+        "pub_ts": 1795513652.0
+      },
+      {
         "title": "Viking Therapeutics (VKTX) Stock Is Up 11.5% Today Without Company News",
         "url": "https://finance.yahoo.com/markets/stocks/articles/viking-therapeutics-vktx-stock-11-173104517.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2823,16 +2830,16 @@
         "source": "Yahoo Finance",
         "time": "11-23 06:05 ET",
         "pub_ts": 1795431952.0
-      },
-      {
-        "title": "Learn Why The Bull Case For Moderna (MRNA) Could Change Following Melanoma Vaccine Trial Results",
-        "url": "https://finance.yahoo.com/healthcare/articles/learn-why-bull-case-moderna-060925616.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-21 01:09 ET",
-        "pub_ts": 1795241365.0
       }
     ],
     "NKE": [
+      {
+        "title": "Global Football Equipment Market 2026-2035: Trends, Forecast, and Competitive Analysis Featuring Nike, Adidas, Puma, Under Armour, ASICS Corp., and New Balance Athletics Among Others",
+        "url": "https://finance.yahoo.com/markets/articles/global-football-equipment-market-2026-145200695.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:52 ET",
+        "pub_ts": 1795531920.0
+      },
       {
         "title": "Who Pays P&G? The American Shopper In Four Lines",
         "url": "https://www.trefis.com/stock/pg/articles/627486/who-pays-p-g-the-american-shopper-in-four-lines/2026-11-24?.tsrc=rss",
@@ -2860,13 +2867,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 00:49 ET",
         "pub_ts": 1795499377.0
-      },
-      {
-        "title": "Nike (NKE) Ascends But Remains Behind Market: Some Facts to Note",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nike-nke-ascends-remains-behind-214502416.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 16:45 ET",
-        "pub_ts": 1795470302.0
       }
     ],
     "MCD": [
@@ -3330,37 +3330,37 @@
     "AXTI": 1795532527.8675272,
     "NASA": 1795532527.8675272,
     "LUNR": 1795532527.8675272,
-    "TSLA": 1795531107.6112986,
-    "AXP": 1795531107.6112986,
+    "TSLA": 1795532637.500842,
+    "AXP": 1795532637.500842,
     "RKLB": 1795532527.8675272,
     "KO": 1795532527.8675272,
     "FLY": 1795532527.8675272,
-    "INTC": 1795531107.6112986,
-    "VRT": 1795531107.6112986,
-    "HPE": 1795531107.6112986,
-    "DELL": 1795531107.6112986,
-    "OKLO": 1795531107.6112986,
-    "CEG": 1795531107.6112986,
-    "FPS": 1795531107.6112986,
-    "MU": 1795531107.6112986,
-    "SKHY": 1795531107.6112986,
-    "WDC": 1795531107.6112986,
-    "STX": 1795531107.6112986,
-    "MSTR": 1795531107.6112986,
-    "SNDK": 1795531107.6112986,
-    "BTC-USD": 1795531107.6112986,
-    "CRWD": 1795531107.6112986,
-    "ORCL": 1795531107.6112986,
-    "COIN": 1795531107.6112986,
-    "LLY": 1795531107.6112986,
-    "MRNA": 1795531107.6112986,
-    "NKE": 1795531107.6112986,
-    "MCD": 1795531107.6112986,
+    "INTC": 1795532637.500842,
+    "VRT": 1795532637.500842,
+    "HPE": 1795532637.500842,
+    "DELL": 1795532637.500842,
+    "OKLO": 1795532637.500842,
+    "CEG": 1795532637.500842,
+    "FPS": 1795532637.500842,
+    "MU": 1795532637.500842,
+    "SKHY": 1795532637.500842,
+    "WDC": 1795532637.500842,
+    "STX": 1795532637.500842,
+    "MSTR": 1795532637.500842,
+    "SNDK": 1795532637.500842,
+    "BTC-USD": 1795532637.500842,
+    "CRWD": 1795532637.500842,
+    "ORCL": 1795532637.500842,
+    "COIN": 1795532637.500842,
+    "LLY": 1795532637.500842,
+    "MRNA": 1795532637.500842,
+    "NKE": 1795532637.500842,
+    "MCD": 1795532637.500842,
     "PEP": 1795531216.8682861,
     "XOM": 1795531216.8682861,
     "JPM": 1795531216.8682861,
     "WMT": 1795531216.8682861,
-    "V": 1795531107.6112986,
+    "V": 1795532637.500842,
     "CAT": 1795531216.8682861,
     "FN": 1795532527.8675272,
     "GLW": 1795532527.8675272,
