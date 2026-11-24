@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795534050.878,
-  "updated_at_et": "11-24 10:27 ET",
-  "updated_at_kst": "00:27 KST",
+  "updated_at_ts": 1795534159.188,
+  "updated_at_et": "11-24 10:29 ET",
+  "updated_at_kst": "00:29 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1965,25 +1965,25 @@
         "pub_ts": 1795531555.0
       },
       {
+        "title": "Lucid, Uber Edge Closer To Taking On Tesla’s Robotaxis – Public Launch Targeted For Q1 2027",
+        "url": "https://stocktwits.com/news-articles/markets/equity/lucid-uber-edge-closer-to-taking-on-tesla-s-robotaxis-public-launch-targeted-for-q1-2027/cNbsfJiR9kp?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:10 ET",
+        "pub_ts": 1795533037.0
+      },
+      {
+        "title": "Tesla’s Europe Sales Soar 84%",
+        "url": "https://247wallst.com/investing/2026/11/24/teslas-europe-sales-soar-84/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:56 ET",
+        "pub_ts": 1795532212.0
+      },
+      {
         "title": "Is Monness Crespi & Hardt Wrong to Give Up on Tesla? Wall Street Still Sees $412",
         "url": "https://www.tikr.com/blog/monness-crespi-hardt-tesla-downgrade-neutral?ref=yahoofinance&tlnk=yf-261124-q6vc2444&.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 09:05 ET",
         "pub_ts": 1795529132.0
-      },
-      {
-        "title": "Should You Trim Or Add To Your Tesla Position?",
-        "url": "https://www.trefis.com/stock/tsla/articles/628369/should-you-trim-or-add-to-your-tesla-position/2026-11-24?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:54 ET",
-        "pub_ts": 1795528442.0
-      },
-      {
-        "title": "Why Tesla-SpaceX Merger Talks Face ‘More Friction Than People Assume’",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63575567/tesla-spacex-merger-talks-friction?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:45 ET",
-        "pub_ts": 1795527909.0
       }
     ],
     "AXP": [
@@ -2136,6 +2136,13 @@
     ],
     "INTC": [
       {
+        "title": "Marvell Sinks 8%, Intel Down 6% as Chip Stocks Give Back Nvidia’s Record Huang Rally",
+        "url": "https://www.tikr.com/blog/marvell-sinks-8-intel-down-6-as-chip-stocks-give-back-nvidias-record-huang-rally?ref=yahoofinance&tlnk=yf-261124-rjmh24f9&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:14 ET",
+        "pub_ts": 1795533299.0
+      },
+      {
         "title": "Global Neural Processor Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on 22.2% CAGR as NVIDIA, Apple, Alphabet, and Intel Accelerate Edge AI",
         "url": "https://finance.yahoo.com/technology/ai/articles/global-neural-processor-market-report-144100416.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2162,13 +2169,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:38 ET",
         "pub_ts": 1795531080.0
-      },
-      {
-        "title": "Embedded Microprocessor Unit (MPU) Global Market Report 2026 | Capitalize on Edge AI and IoT Growth to $59.18 Billion by 2030 with NVIDIA, Intel, Qualcomm, NXP, and Renesas",
-        "url": "https://finance.yahoo.com/technology/articles/embedded-microprocessor-unit-mpu-global-143600298.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:36 ET",
-        "pub_ts": 1795530960.0
       }
     ],
     "VRT": [
@@ -2210,13 +2210,6 @@
     ],
     "HPE": [
       {
-        "title": "Nvidia jumped 31% on Jensen Huang's return. A day later, the AI trade sold off: AlphaCheck",
-        "url": "https://finance.yahoo.com/markets/article/nvidia-leads-semiconductors-lower-alphacheck-144509267.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:45 ET",
-        "pub_ts": 1795531509.0
-      },
-      {
         "title": "HPE stock declines as disappointing margin forecast outweighs upbeat guidance",
         "url": "https://finance.yahoo.com/markets/article/hpe-stock-declines-as-margin-outlook-disappoints-134420648.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2224,25 +2217,32 @@
         "pub_ts": 1795527860.0
       },
       {
+        "title": "Why weakening margins are a concern for HPE",
+        "url": "https://finance.yahoo.com/video/why-weakening-margins-are-a-concern-for-hpe-150538192.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:05 ET",
+        "pub_ts": 1795532738.0
+      },
+      {
+        "title": "Nvidia jumped 31% on Jensen Huang's return. A day later, the AI trade sold off: AlphaCheck",
+        "url": "https://finance.yahoo.com/markets/article/nvidia-leads-semiconductors-lower-alphacheck-144509267.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:45 ET",
+        "pub_ts": 1795531509.0
+      },
+      {
+        "title": "Why Hewlett Packard Enterprise (HPE) Stock Is Plunging Today: CFO Margin Concerns",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-hewlett-packard-enterprise-hpe-150103144.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:01 ET",
+        "pub_ts": 1795532463.0
+      },
+      {
         "title": "HPE Sinks 14% Despite Raised Outlook as CFO Expects “Gross Margin to Moderate”",
         "url": "https://www.tikr.com/blog/hpe-sinks-14-despite-raised-outlook-as-cfo-expects-gross-margin-to-moderate?ref=yahoofinance&tlnk=yf-261124-3v7mg9vj&.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 09:50 ET",
         "pub_ts": 1795531844.0
-      },
-      {
-        "title": "Premarket movers: Nvidia slips; HPE, Semtech fall",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-nvidia-slips-hpe-122424595.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 07:24 ET",
-        "pub_ts": 1795523064.0
-      },
-      {
-        "title": "Wells Fargo Trims HPE Target Despite Surging AI Orders",
-        "url": "https://finance.yahoo.com/technology/ai/articles/wells-fargo-trims-hpe-target-121903955.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 07:19 ET",
-        "pub_ts": 1795522743.0
       }
     ],
     "DELL": [
@@ -2543,6 +2543,13 @@
     ],
     "MSTR": [
       {
+        "title": "Is Michael Saylor's bitcoin strategy losing its appeal?",
+        "url": "https://finance.yahoo.com/video/is-michael-saylors-bitcoin-strategy-losing-its-appeal-151603542.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:16 ET",
+        "pub_ts": 1795533363.0
+      },
+      {
         "title": "Strategy Inc (MSTR) Is a Trending Stock: Facts to Know Before Betting on It",
         "url": "https://finance.yahoo.com/markets/stocks/articles/strategy-inc-mstr-trending-stock-130004989.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2569,13 +2576,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 14:54 ET",
         "pub_ts": 1795463644.0
-      },
-      {
-        "title": "Crypto premarket wrap: What investors need to know before the bell",
-        "url": "https://www.thestreet.com/crypto/markets/crypto-premarket-wrap-what-investors-need-to-know-before-the-bell?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 12:05 ET",
-        "pub_ts": 1795453524.0
       }
     ],
     "SNDK": [
@@ -2617,6 +2617,27 @@
     ],
     "BTC-USD": [
       {
+        "title": "Is Michael Saylor's bitcoin strategy losing its appeal?",
+        "url": "https://finance.yahoo.com/video/is-michael-saylors-bitcoin-strategy-losing-its-appeal-151603542.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:16 ET",
+        "pub_ts": 1795533363.0
+      },
+      {
+        "title": "USDT Market Cap Drops, Raising Doubts About a Lasting Bitcoin Recovery",
+        "url": "https://www.ccn.com/news/crypto/usdt-market-cap-drop-bitcoin-recovery/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:02 ET",
+        "pub_ts": 1795532536.0
+      },
+      {
+        "title": "Bitcoin Price Nears $60K Despite Saylor’s BTC Buy: Is the Bottom In?",
+        "url": "https://99bitcoins.com/news/bitcoin-btc/bitcoin-price-nears-60k-despite-saylors-btc-buy-is-the-bottom-in/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:57 ET",
+        "pub_ts": 1795532234.0
+      },
+      {
         "title": "Stock Market Today: Nasdaq Sells Off After Big Market Surge; AMD, Anthropic, Nvidia All Dive (Live Coverage)",
         "url": "https://finance.yahoo.com/m/4aa4ff31-269f-346e-80c4-e681510af7ae/stock-market-today%3A-nasdaq.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2624,35 +2645,21 @@
         "pub_ts": 1795531368.0
       },
       {
-        "title": "Bitcoin ETF Outflows Hit A Record $4.71 Billion",
-        "url": "https://www.cryptoprowl.com/releases/bitcoin-etf-outflows-hit-a-record-471-billion-8040?.tsrc=rss",
+        "title": "Bitcoin News: CFTC Decision to Push BTC Toward $80K?",
+        "url": "https://cryptonews.com/news/bitcoin-news-cftc-decision-btc-80000/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 09:24 ET",
-        "pub_ts": 1795530240.0
-      },
-      {
-        "title": "IREN Fell 42% This Month Even After The Market Jump on NVIDIA News: This Wall Street Pro Maintains That 440% Returns Are Coming After Q3 Earnings Downgrades",
-        "url": "https://247wallst.com/investing/2026/11/24/iren-fell-42-this-month-even-after-the-market-jump-on-nvidia-news-this-wall-street-pro-maintains-that-440-returns-are-coming-after-q3-earnings-downgrades/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:45 ET",
-        "pub_ts": 1795527924.0
-      },
-      {
-        "title": "America Readies New Tariffs on China. Will Bitcoin and Stocks Sink Again?",
-        "url": "https://beincrypto.com/us-new-tariffs-china-stocks-sink/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:19 ET",
-        "pub_ts": 1795526395.0
-      },
-      {
-        "title": "Can Bitcoin Regain the $90,000 Price Level by Year End? Galaxy Digital CEO Mike Novogratz Says It's Unlikely.",
-        "url": "https://www.fool.com/investing/2026/11/24/can-bitcoin-regain-the-90000-price-level-by-year-end-galaxy-digital-ceo-mike-novogratz-says-its-unlikely/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 07:50 ET",
-        "pub_ts": 1795524602.0
+        "time": "11-24 09:41 ET",
+        "pub_ts": 1795531291.0
       }
     ],
     "CRWD": [
+      {
+        "title": "Bernstein Sees Hidden Risk in CrowdStrike's Zscaler Deal",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/bernstein-sees-hidden-risk-crowdstrikes-150055767.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:00 ET",
+        "pub_ts": 1795532455.0
+      },
       {
         "title": "Micron downgraded, GameStop initiated: Wall Street's top analyst calls",
         "url": "https://finance.yahoo.com/markets/stocks/articles/snap-upgraded-pinterest-downgrade-wall-135144855.html?.tsrc=rss",
@@ -2680,16 +2687,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 08:45 ET",
         "pub_ts": 1795527912.0
-      },
-      {
-        "title": "Wall Street Stays Bullish on CrowdStrike Despite Zscaler Price Tag",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-stays-bullish-crowdstrike-122238753.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 07:22 ET",
-        "pub_ts": 1795522958.0
       }
     ],
     "ORCL": [
+      {
+        "title": "How Investors Are Reacting To Oracle Stock Securing AI Funding",
+        "url": "https://finance.yahoo.com/technology/ai/articles/investors-reacting-oracle-stock-securing-151310449.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:13 ET",
+        "pub_ts": 1795533190.0
+      },
       {
         "title": "Prediction: Oracle Stock Will Soar in 2027",
         "url": "https://www.fool.com/investing/2026/11/24/prediction-oracle-stock-will-soar-in-2027/?.tsrc=rss",
@@ -2717,16 +2724,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:32 ET",
         "pub_ts": 1795530720.0
-      },
-      {
-        "title": "Global Clustering Software Market Report 2026 | Capitalize on AI and cloud growth as Huawei, IBM, Oracle, and Spectro Cloud compete for $14.58B by 2030",
-        "url": "https://finance.yahoo.com/technology/ai/articles/global-clustering-software-market-report-143000752.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:30 ET",
-        "pub_ts": 1795530600.0
       }
     ],
     "COIN": [
+      {
+        "title": "Could Coinbase Actually Climb 70%? Or Is Goldman Sachs Totally Wrong?",
+        "url": "https://www.tikr.com/blog/could-coinbase-actually-climb-70-or-is-goldman-sachs-totally-wrong?ref=yahoofinance&tlnk=yf-261124-3g59p4hf&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 09:58 ET",
+        "pub_ts": 1795532312.0
+      },
       {
         "title": "Coinbase Global, Inc. (COIN) Is a Trending Stock: Facts to Know Before Betting on It",
         "url": "https://finance.yahoo.com/markets/stocks/articles/coinbase-global-inc-coin-trending-130003894.html?.tsrc=rss",
@@ -2754,13 +2761,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 12:00 ET",
         "pub_ts": 1795453200.0
-      },
-      {
-        "title": "Can Nationwide Crypto Lending Fuel Coinbase's Next Growth Phase?",
-        "url": "https://finance.yahoo.com/markets/crypto/articles/nationwide-crypto-lending-fuel-coinbases-162800834.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 11:28 ET",
-        "pub_ts": 1795451280.0
       }
     ],
     "LLY": [
@@ -2839,6 +2839,13 @@
     ],
     "NKE": [
       {
+        "title": "Nike Just Promised $12 Billion in Dividends. Should That Reassure Income Investors?",
+        "url": "https://www.fool.com/investing/2026/11/24/nike-just-promised-usd12-billion-in-dividends-should-that-reassure-income-investors/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:05 ET",
+        "pub_ts": 1795532702.0
+      },
+      {
         "title": "Global Football Equipment Market 2026-2035: Trends, Forecast, and Competitive Analysis Featuring Nike, Adidas, Puma, Under Armour, ASICS Corp., and New Balance Athletics Among Others",
         "url": "https://finance.yahoo.com/markets/articles/global-football-equipment-market-2026-145200695.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2865,13 +2872,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 06:09 ET",
         "pub_ts": 1795518595.0
-      },
-      {
-        "title": "Nike Stock Is Down 48% in a Year, Pushing Its Dividend Yield to 5%",
-        "url": "https://www.tikr.com/blog/nike-stock-is-down-48-in-a-year-pushing-its-dividend-yield-to-5?ref=yahoofinancedividend&tlnk=yf-261124-56c359w3&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 00:49 ET",
-        "pub_ts": 1795499377.0
       }
     ],
     "MCD": [
@@ -3335,37 +3335,37 @@
     "AXTI": 1795534050.877912,
     "NASA": 1795534050.877912,
     "LUNR": 1795534050.877912,
-    "TSLA": 1795532637.500842,
-    "AXP": 1795532637.500842,
+    "TSLA": 1795534159.1878235,
+    "AXP": 1795534159.1878235,
     "RKLB": 1795534050.877912,
     "KO": 1795534050.877912,
     "FLY": 1795534050.877912,
-    "INTC": 1795532637.500842,
-    "VRT": 1795532637.500842,
-    "HPE": 1795532637.500842,
-    "DELL": 1795532637.500842,
-    "OKLO": 1795532637.500842,
-    "CEG": 1795532637.500842,
-    "FPS": 1795532637.500842,
-    "MU": 1795532637.500842,
-    "SKHY": 1795532637.500842,
-    "WDC": 1795532637.500842,
-    "STX": 1795532637.500842,
-    "MSTR": 1795532637.500842,
-    "SNDK": 1795532637.500842,
-    "BTC-USD": 1795532637.500842,
-    "CRWD": 1795532637.500842,
-    "ORCL": 1795532637.500842,
-    "COIN": 1795532637.500842,
-    "LLY": 1795532637.500842,
-    "MRNA": 1795532637.500842,
-    "NKE": 1795532637.500842,
-    "MCD": 1795532637.500842,
+    "INTC": 1795534159.1878235,
+    "VRT": 1795534159.1878235,
+    "HPE": 1795534159.1878235,
+    "DELL": 1795534159.1878235,
+    "OKLO": 1795534159.1878235,
+    "CEG": 1795534159.1878235,
+    "FPS": 1795534159.1878235,
+    "MU": 1795534159.1878235,
+    "SKHY": 1795534159.1878235,
+    "WDC": 1795534159.1878235,
+    "STX": 1795534159.1878235,
+    "MSTR": 1795534159.1878235,
+    "SNDK": 1795534159.1878235,
+    "BTC-USD": 1795534159.1878235,
+    "CRWD": 1795534159.1878235,
+    "ORCL": 1795534159.1878235,
+    "COIN": 1795534159.1878235,
+    "LLY": 1795534159.1878235,
+    "MRNA": 1795534159.1878235,
+    "NKE": 1795534159.1878235,
+    "MCD": 1795534159.1878235,
     "PEP": 1795532748.219519,
     "XOM": 1795532748.219519,
     "JPM": 1795532748.219519,
     "WMT": 1795532748.219519,
-    "V": 1795532637.500842,
+    "V": 1795534159.1878235,
     "CAT": 1795532748.219519,
     "FN": 1795534050.877912,
     "GLW": 1795534050.877912,
