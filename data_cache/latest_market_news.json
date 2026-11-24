@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795543297.735,
-  "updated_at_et": "11-24 13:01 ET",
-  "updated_at_kst": "03:01 KST",
+  "updated_at_ts": 1795543407.072,
+  "updated_at_et": "11-24 13:03 ET",
+  "updated_at_kst": "03:03 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1963,6 +1963,13 @@
         "pub_ts": 1795531555.0
       },
       {
+        "title": "Goldman, Morgan Stanley and Evercore Are Advising on What Could Be the Biggest Deal Ever",
+        "url": "https://www.tikr.com/blog/goldman-morgan-stanley-and-evercore-are-advising-on-what-could-be-the-biggest-deal-ever?ref=yahoofinance&tlnk=yf-261124-vhr34rcm&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:35 ET",
+        "pub_ts": 1795541737.0
+      },
+      {
         "title": "Tesla Stocks Slip 1.74% Even as EU Registrations Jump 83.5% in October",
         "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-stocks-slip-1-74-165500772.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1975,13 +1982,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:34 ET",
         "pub_ts": 1795538052.0
-      },
-      {
-        "title": "Anthropic Stock Sinks Below IPO Price. What History Says Happens Next.",
-        "url": "https://finance.yahoo.com/m/a286105e-a938-3486-a9d4-92ce3954de08/anthropic-stock-sinks-below.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:14 ET",
-        "pub_ts": 1795536840.0
       }
     ],
     "AXP": [
@@ -2171,6 +2171,13 @@
     ],
     "VRT": [
       {
+        "title": "Comfort Systems vs. Vertiv: Which AI Cooling Stock Is a Better Buy?",
+        "url": "https://finance.yahoo.com/technology/ai/articles/comfort-systems-vs-vertiv-ai-163100993.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:31 ET",
+        "pub_ts": 1795537860.0
+      },
+      {
         "title": "Is Buying Vertiv Stock Now Too Early?",
         "url": "https://www.trefis.com/stock/vrt/articles/628475/is-buying-vertiv-stock-now-too-early/2026-11-24?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2197,16 +2204,16 @@
         "source": "Yahoo Finance",
         "time": "11-23 12:17 ET",
         "pub_ts": 1795454249.0
-      },
-      {
-        "title": "13 Big Funds Bought Vertiv Holdings Co Last Quarter, While 17 Sold. Who’s Right?",
-        "url": "https://www.tikr.com/blog/13-big-funds-bought-vertiv-holdings-co-last-quarter-while-17-sold-whos-right?ref=yahoofinance&tlnk=yf-261123-77qvm5pf&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 12:03 ET",
-        "pub_ts": 1795453411.0
       }
     ],
     "HPE": [
+      {
+        "title": "HPE is heading into 2027 with 'tremendous momentum': CEO Antonio Neri",
+        "url": "https://finance.yahoo.com/technology/article/hpe-is-heading-into-2027-with-tremendous-momentum-ceo-antonio-neri-180254259.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 13:02 ET",
+        "pub_ts": 1795543374.0
+      },
       {
         "title": "Stocks give back gains as Anthropic dips below IPO price",
         "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
@@ -2234,16 +2241,23 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:45 ET",
         "pub_ts": 1795531509.0
-      },
-      {
-        "title": "HPE Stock Falls 7% After Hours Despite 50% Revenue Growth and a Raised Outlook",
-        "url": "https://247wallst.com/investing/2026/11/24/hpe-stock-falls-7-after-hours-despite-50-revenue-growth-and-a-raised-outlook/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:27 ET",
-        "pub_ts": 1795537654.0
       }
     ],
     "DELL": [
+      {
+        "title": "Dell Technologies Stocks Fall 7.47% Hours Before Results Test a $95 Billion AI Backlog",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/dell-technologies-stocks-fall-7-174249169.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:42 ET",
+        "pub_ts": 1795542169.0
+      },
+      {
+        "title": "Dell Reports Today. Here’s How Much of Your Tech ETF Is Riding on Its AI Server Business",
+        "url": "https://247wallst.com/investing/etf/2026/11/24/dell-reports-today-heres-how-much-of-your-tech-etf-is-riding-on-its-ai-server-business/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:42 ET",
+        "pub_ts": 1795542164.0
+      },
       {
         "title": "Over Half Of Dell's $95 Billion Backlog Waits",
         "url": "https://www.trefis.com/stock/dell/articles/628252/over-half-of-dell-s-95-billion-backlog-waits/2026-11-24?.tsrc=rss",
@@ -2264,20 +2278,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 08:40 ET",
         "pub_ts": 1795527617.0
-      },
-      {
-        "title": "Dell Just Dropped 26% in a Month. Steve Eisman Warns It Will “Slow Along With Nvidia.” Is He Right?",
-        "url": "https://www.tikr.com/blog/dell-just-dropped-26-in-a-month-steve-eisman-warns-it-will-slow-along-with-nvidia-is-he-right?ref=yahoofinance&tlnk=yf-261124-jr476wwx&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 07:35 ET",
-        "pub_ts": 1795523736.0
-      },
-      {
-        "title": "HPE Expects Thinner AI Margins. Is Dell Next?",
-        "url": "https://www.trefis.com/stock/hpe/articles/628212/hpe-expects-thinner-ai-margins-is-dell-next/2026-11-24?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 07:02 ET",
-        "pub_ts": 1795521749.0
       }
     ],
     "OKLO": [
@@ -2319,6 +2319,13 @@
     ],
     "CEG": [
       {
+        "title": "Is Constellation Energy Stock's Fall A Bargain Or A Warning?",
+        "url": "https://www.trefis.com/stock/ceg/articles/628278/is-constellation-energy-stocks-fall-a-bargain-or-a-warning/2026-11-24?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:22 ET",
+        "pub_ts": 1795540954.0
+      },
+      {
         "title": "Constellation Energy Corporation (CEG) Upgraded to Buy: Here's What You Should Know",
         "url": "https://finance.yahoo.com/markets/stocks/articles/constellation-energy-corporation-ceg-upgraded-160004395.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2345,13 +2352,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 08:24 ET",
         "pub_ts": 1795526640.0
-      },
-      {
-        "title": "45% Upside for Constellation Energy? Barclays Thinks So, and Here’s How",
-        "url": "https://www.tikr.com/blog/45-upside-for-constellation-energy-barclays-thinks-so-and-heres-how?ref=yahoofinance&tlnk=yf-261120-x635426w&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-20 14:20 ET",
-        "pub_ts": 1795202440.0
       }
     ],
     "FPS": [
@@ -2400,6 +2400,20 @@
         "pub_ts": 1795535048.0
       },
       {
+        "title": "Nvidia, AMD and Micron Lead AI Selloff as Chip Stocks Slide",
+        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-amd-micron-lead-ai-174008056.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:40 ET",
+        "pub_ts": 1795542008.0
+      },
+      {
+        "title": "The Same $10,000 in AMD and Micron Could Produce Very Different Results by 2030",
+        "url": "https://247wallst.com/investing/2026/11/24/the-same-10000-in-amd-and-micron-could-produce-very-different-results-by-2030/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:34 ET",
+        "pub_ts": 1795541642.0
+      },
+      {
         "title": "Micron Stock Drops 11% as AI Chip Selloff Resumes",
         "url": "https://finance.yahoo.com/technology/ai/articles/micron-stock-drops-11-ai-165731356.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2412,23 +2426,23 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:52 ET",
         "pub_ts": 1795539162.0
-      },
-      {
-        "title": "Why Micron Stock Dove Today",
-        "url": "https://www.fool.com/investing/2026/11/24/why-micron-stock-dove-today/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:47 ET",
-        "pub_ts": 1795538872.0
-      },
-      {
-        "title": "Micron Stocks Fall 6.63% as Chip Rally Cools Before December 17 Results",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/micron-stocks-fall-6-63-163349159.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:33 ET",
-        "pub_ts": 1795538029.0
       }
     ],
     "SKHY": [
+      {
+        "title": "SK hynix Stocks Rise 6.73% as Huang's Return Lifts Seoul's HBM Leader",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-stocks-rise-6-174140838.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:41 ET",
+        "pub_ts": 1795542100.0
+      },
+      {
+        "title": "SK hynix vs. TSMC: One Chipmaker's Revenue Is Exploding, but Is It the Better Buy for 2027?",
+        "url": "https://www.fool.com/coverage/charts/2026/11/24/sk-hynix-vs-tsmc-one-chipmaker-s-revenue-is-exploding-but-is-it-the-better-buy-for-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:35 ET",
+        "pub_ts": 1795541702.0
+      },
       {
         "title": "Micron Falls 7% as NVIDIA Pullback Partially Reverses Monday’s AI Chip Rally; SanDisk and SK Hynix Drop 6%",
         "url": "https://247wallst.com/investing/2026/11/24/micron-falls-7-as-nvidia-pullback-partially-reverses-mondays-ai-chip-rally-sandisk-and-sk-hynix-drop-6/?.tsrc=rss",
@@ -2449,20 +2463,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 07:03 ET",
         "pub_ts": 1795521780.0
-      },
-      {
-        "title": "TSMC, Samsung, SK Hynix Rally As Jensen Huang Returns As Nvidia CEO — Top Analyst Flags Risks To AI Recovery",
-        "url": "https://stocktwits.com/news-articles/markets/equity/tsmc-samsung-sk-hynix-rally-as-jensen-huang-returns-as-nvidia-ceo-top-analyst-flags-risks-to-ai-recovery/cNbr6E1R9kE?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 02:00 ET",
-        "pub_ts": 1795503606.0
-      },
-      {
-        "title": "Asia chipmaking stocks soar tracking Nvidia rally; S.Korea, Taiwan lead",
-        "url": "https://finance.yahoo.com/technology/ai/articles/asia-chipmaking-stocks-soar-tracking-021520376.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 21:15 ET",
-        "pub_ts": 1795486520.0
       }
     ],
     "WDC": [
@@ -2652,6 +2652,13 @@
     ],
     "CRWD": [
       {
+        "title": "CrowdStrike Stocks Move Lower as $43.9 Billion Zscaler Deal Value Shrinks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-stocks-move-lower-43-174628727.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:46 ET",
+        "pub_ts": 1795542388.0
+      },
+      {
         "title": "CrowdStrike (CRWD) Q3 2027 Earnings Call Transcript",
         "url": "https://www.fool.com/earnings/call-transcripts/2026/11/24/crowdstrike-crwd-q3-2027-earnings-call-transcript/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2678,13 +2685,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:57 ET",
         "pub_ts": 1795535839.0
-      },
-      {
-        "title": "Guggenheim lifts CrowdStrike to Buy, sees 34% upside",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/guggenheim-lifts-crowdstrike-buy-sees-152606437.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:26 ET",
-        "pub_ts": 1795533966.0
       }
     ],
     "ORCL": [
@@ -2837,11 +2837,25 @@
     ],
     "NKE": [
       {
+        "title": "Nike Sells Shoes. Can It Stop Paying For AI?",
+        "url": "https://www.trefis.com/stock/nke/articles/627485/nike-sells-shoes-can-it-stop-paying-for-ai/2026-11-24?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:39 ET",
+        "pub_ts": 1795541974.0
+      },
+      {
         "title": "NIKE (NKE) On Reaffirmed Guidance And The Case For Undervaluation",
         "url": "https://finance.yahoo.com/markets/stocks/articles/nike-nke-reaffirmed-guidance-case-171440986.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 12:14 ET",
         "pub_ts": 1795540480.0
+      },
+      {
+        "title": "NIKE vs. Steven Madden: Which Footwear Stock Has an Edge Now?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nike-vs-steven-madden-footwear-164100873.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:41 ET",
+        "pub_ts": 1795538460.0
       },
       {
         "title": "Nike Just Promised $12 Billion in Dividends. Should That Reassure Income Investors?",
@@ -2856,20 +2870,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:52 ET",
         "pub_ts": 1795531920.0
-      },
-      {
-        "title": "Who Pays P&G? The American Shopper In Four Lines",
-        "url": "https://www.trefis.com/stock/pg/articles/627486/who-pays-p-g-the-american-shopper-in-four-lines/2026-11-24?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 06:37 ET",
-        "pub_ts": 1795520243.0
-      },
-      {
-        "title": "Nike’s 2031 Plan Calls for Earnings to More Than Double. Here’s What That Math Means for the Stock Today.",
-        "url": "https://www.fool.com/investing/2026/11/24/nike-2031-plan-earnings-more-than-double-heres-what-that-math-means-for-the-stock-today/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 06:25 ET",
-        "pub_ts": 1795519501.0
       }
     ],
     "MCD": [
@@ -3333,37 +3333,37 @@
     "AXTI": 1795543297.7349663,
     "NASA": 1795543297.7349663,
     "LUNR": 1795543297.7349663,
-    "TSLA": 1795541891.5096219,
-    "AXP": 1795541891.5096219,
+    "TSLA": 1795543407.072157,
+    "AXP": 1795543407.072157,
     "RKLB": 1795543297.7349663,
     "KO": 1795543297.7349663,
     "FLY": 1795543297.7349663,
-    "INTC": 1795541891.5096219,
-    "VRT": 1795541891.5096219,
-    "HPE": 1795541891.5096219,
-    "DELL": 1795541891.5096219,
-    "OKLO": 1795541891.5096219,
-    "CEG": 1795541891.5096219,
-    "FPS": 1795541891.5096219,
-    "MU": 1795541891.5096219,
-    "SKHY": 1795541891.5096219,
-    "WDC": 1795541891.5096219,
-    "STX": 1795541891.5096219,
-    "MSTR": 1795541891.5096219,
-    "SNDK": 1795541891.5096219,
-    "BTC-USD": 1795541891.5096219,
-    "CRWD": 1795541891.5096219,
-    "ORCL": 1795541891.5096219,
-    "COIN": 1795541891.5096219,
-    "LLY": 1795541891.5096219,
-    "MRNA": 1795541891.5096219,
-    "NKE": 1795541891.5096219,
-    "MCD": 1795541891.5096219,
+    "INTC": 1795543407.072157,
+    "VRT": 1795543407.072157,
+    "HPE": 1795543407.072157,
+    "DELL": 1795543407.072157,
+    "OKLO": 1795543407.072157,
+    "CEG": 1795543407.072157,
+    "FPS": 1795543407.072157,
+    "MU": 1795543407.072157,
+    "SKHY": 1795543407.072157,
+    "WDC": 1795543407.072157,
+    "STX": 1795543407.072157,
+    "MSTR": 1795543407.072157,
+    "SNDK": 1795543407.072157,
+    "BTC-USD": 1795543407.072157,
+    "CRWD": 1795543407.072157,
+    "ORCL": 1795543407.072157,
+    "COIN": 1795543407.072157,
+    "LLY": 1795543407.072157,
+    "MRNA": 1795543407.072157,
+    "NKE": 1795543407.072157,
+    "MCD": 1795543407.072157,
     "PEP": 1795541999.676793,
     "XOM": 1795541999.676793,
     "JPM": 1795541999.676793,
     "WMT": 1795541999.676793,
-    "V": 1795541891.5096219,
+    "V": 1795543407.072157,
     "CAT": 1795541999.676793,
     "FN": 1795543297.7349663,
     "GLW": 1795543297.7349663,
