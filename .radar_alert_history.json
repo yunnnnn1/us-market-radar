@@ -170,8 +170,8 @@
       "last_notified_at": 1795555075.5762181
     },
     "NKE": {
-      "state": "NORMAL",
-      "last_notified_at": 0.0
+      "state": "WATCHLIST_ENTRY_READY",
+      "last_notified_at": 1795555179.5764549
     },
     "HPE": {
       "state": "STOP_LOSS",
