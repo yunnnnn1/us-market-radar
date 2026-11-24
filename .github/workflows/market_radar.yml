@@ -26,6 +26,14 @@ on:
         required: false
         default: '60'
         type: string
+      notification_channels:
+        description: '通知通道。default 保持原行为；discord_only 只发 Discord，不发微信/PushPlus/邮件'
+        required: false
+        default: 'default'
+        type: choice
+        options:
+          - default
+          - discord_only
 
 concurrency:
   group: us-market-radar
@@ -106,6 +114,12 @@ jobs:
           # 如果是夜盘亚太时段 (UTC 00:00~08:00 / 韩国 09:00~17:00)，自适应切为 2 分钟 (120s) 巡检守护
           if [ "${{ github.event.schedule }}" = "0 0 * * 1-5" ] || [ "${{ github.event.schedule }}" = "0 4 * * 1-5" ]; then
             INTERVAL="120"
+          fi
+          # Schedule leaves this empty, so Discord and PushPlus stay as originally configured.
+          # discord_only does not use --no-alerts, because that flag also blocks Discord.
+          NOTIFY_MODE="${{ github.event.inputs.notification_channels }}"
+          if [ "$NOTIFY_MODE" = "discord_only" ]; then
+            export RADAR_NOTIFY_CHANNELS=discord_only
           fi
           python integrated_market_radar.py --loop-daemon --duration-minutes $DURATION --interval-seconds $INTERVAL
 

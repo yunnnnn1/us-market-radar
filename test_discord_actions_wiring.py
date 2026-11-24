@@ -49,6 +49,17 @@ class TestDiscordActionsWiring(unittest.TestCase):
         self.assertEqual(scan.count(SAME_SECRET), len(DESTINATIONS))
         self.assertIn('RADAR_SENTINEL_NO_CATCHUP: "1"', scan)
         self.assertNotIn("DISCORD_BOT_TOKEN", scan)
+        self.assertIn("notification_channels:", _read(SCHEDULED))
+        self.assertIn("- discord_only", _read(SCHEDULED))
+        self.assertIn('if [ "$NOTIFY_MODE" = "discord_only" ]; then', scan)
+        self.assertIn("export RADAR_NOTIFY_CHANNELS=discord_only", scan)
+        launch = [
+            line.strip() for line in scan.splitlines()
+            if line.strip().startswith("python integrated_market_radar.py")
+        ]
+        self.assertEqual(launch, [
+            "python integrated_market_radar.py --loop-daemon --duration-minutes $DURATION --interval-seconds $INTERVAL"
+        ])
 
     def test_schedule_timing_is_unchanged(self):
         text = _read(SCHEDULED)
@@ -79,6 +90,8 @@ class TestDiscordActionsWiring(unittest.TestCase):
             self.assertNotIn(name, text)
         self.assertNotIn("DISCORD_BOT_TOKEN", text)
         self.assertNotIn("RADAR_SENTINEL_NO_CATCHUP", text)
+        self.assertNotIn("notification_channels", text)
+        self.assertNotIn("RADAR_NOTIFY_CHANNELS", text)
 
     def test_code_webhook_destinations_are_exactly_the_mapped_names(self):
         found = set()

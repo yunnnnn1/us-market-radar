@@ -172,6 +172,8 @@ python -u integrated_market_radar.py --loop-daemon --interval-seconds 60 --durat
 
 仓库页面：[Settings → Secrets and variables → Actions](https://github.com/yunnnnn1/us-market-radar/settings/secrets/actions)。Secret 名称必须是 `DISCORD_WEBHOOK_URL`。保存后，现有 cron 才会在窗口内发普通通知。`RADAR_DISABLE_EXTERNAL_ALERTS=1` 或 `--no-alerts` 仍然关闭微信、Discord、金十和周报。`Safe quote refresh once` 固定带这两个开关，并且不注入 Discord Secret。定时雷达另设 `RADAR_SENTINEL_NO_CATCHUP=1`，不补发过去 12 小时的哨兵档。
 
+手动运行 **US Market Radar 24-7 Engine** 时，`notification_channels` 选 `default` 保持原来的 Discord + PushPlus。选 `discord_only` 只发 Discord，不调用 PushPlus/微信 HTTP。`--duration-minutes 0` 在代码里是无限循环，不是单次；短运行用 `duration_minutes=10`、`interval_seconds=120`。
+
 ### Step 4 · 启用并手动触发一次
 
 1. 进入 **Actions** 标签，若提示 workflow 被禁用，点击 **I understand my workflows, go ahead and enable them**；
