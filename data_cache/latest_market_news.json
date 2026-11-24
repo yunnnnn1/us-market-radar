@@ -1,9 +1,23 @@
 {
-  "updated_at_ts": 1795561311.998,
-  "updated_at_et": "11-24 18:01 ET",
-  "updated_at_kst": "08:01 KST",
+  "updated_at_ts": 1795561410.951,
+  "updated_at_et": "11-24 18:03 ET",
+  "updated_at_kst": "08:03 KST",
   "macro_calendar": [],
   "macro_flashes": [
+    {
+      "id": "20261125070236515800",
+      "title": "全球财经早餐 | 2026年11月25日",
+      "summary": "美国被曝拟再挥舞关税大棒，特朗普政府正讨论直接打击伊朗高层！普京誓言报复能源遇袭，伊拉克拒绝接受欧佩克+产能评估……昨日今晨，全球都发生了哪些大事？",
+      "keywords": [
+        "关税",
+        "特朗普"
+      ],
+      "pub_ts": 1795561356.0,
+      "time_et": "11-24 18:02 ET",
+      "time_bj": "07:02 BJ",
+      "time_kst": "08:02 KST",
+      "time_display": "18:02 ET / 07:02 BJ"
+    },
     {
       "id": "20261125065000000800",
       "title": "【今日重点关注的财经数据与事件：2026年11月25日 周三】 ① 08:30 澳大利亚…",
@@ -343,19 +357,6 @@
       "time_bj": "17:34 BJ",
       "time_kst": "18:34 KST",
       "time_display": "04:34 ET / 17:34 BJ"
-    },
-    {
-      "id": "20261124173013036800",
-      "title": "财料",
-      "summary": "黄仁勋复职回归英伟达！出走11天归来仍是总裁……",
-      "keywords": [
-        "英伟达"
-      ],
-      "pub_ts": 1795512613.0,
-      "time_et": "11-24 04:30 ET",
-      "time_bj": "17:30 BJ",
-      "time_kst": "18:30 KST",
-      "time_display": "04:30 ET / 17:30 BJ"
     }
   ],
   "ticker_news": {
@@ -1226,25 +1227,25 @@
         "pub_ts": 1795549060.0
       },
       {
+        "title": "Maverick Medical AI Surfaces CodeAgent within Microsoft Radiology Reporting Solutions to Reduce Physician Rework",
+        "url": "https://finance.yahoo.com/healthcare/articles/maverick-medical-ai-surfaces-codeagent-225400029.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 17:54 ET",
+        "pub_ts": 1795560840.0
+      },
+      {
+        "title": "Retailers Sanguine for Black Friday",
+        "url": "https://wwd.com/business-news/retail/retail-outlook-mood-black-friday-1239462186/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 17:24 ET",
+        "pub_ts": 1795559066.0
+      },
+      {
         "title": "Microsoft (MSFT) Is One of the Safest Ways to Own AI",
         "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-one-safest-ways-210600451.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 16:06 ET",
         "pub_ts": 1795554360.0
-      },
-      {
-        "title": "Sector Update: Tech Stocks Fall Late Afternoon",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-204211371.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 15:42 ET",
-        "pub_ts": 1795552931.0
-      },
-      {
-        "title": "Is Microsoft the Best Big Tech Stock to Buy Now?",
-        "url": "https://www.fool.com/investing/2026/11/24/is-microsoft-the-best-big-tech-stock-to-buy-now/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 14:50 ET",
-        "pub_ts": 1795549802.0
       }
     ],
     "AAPL": [
@@ -1367,6 +1368,13 @@
         "pub_ts": 1795556758.0
       },
       {
+        "title": "Amazon customers may qualify for $309.5M settlement. See how",
+        "url": "https://www.usatoday.com/story/money/2026/11/24/amazon-settlement-deadline-is-approaching-who-qualifies/92947347007/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 17:32 ET",
+        "pub_ts": 1795559564.0
+      },
+      {
         "title": "Is Amazon.com (AMZN) Still Below Fair Value As AI Spending Rises?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-com-amzn-still-below-201044467.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1386,13 +1394,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 13:30 ET",
         "pub_ts": 1795545006.0
-      },
-      {
-        "title": "Nike Sells Shoes. Can It Stop Paying For AI?",
-        "url": "https://www.trefis.com/stock/nke/articles/627485/nike-sells-shoes-can-it-stop-paying-for-ai/2026-11-24?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 12:39 ET",
-        "pub_ts": 1795541974.0
       }
     ],
     "CRWV": [
@@ -1663,6 +1664,13 @@
         "pub_ts": 1795558073.0
       },
       {
+        "title": "Marvell Technology (MRVL) Suffers a Larger Drop Than the General Market: Key Insights",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-mrvl-suffers-larger-214502476.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:45 ET",
+        "pub_ts": 1795556702.0
+      },
+      {
         "title": "Why Marvell Stock Is Moving With Nvidia Fueled AI Chip Optimism",
         "url": "https://finance.yahoo.com/markets/stocks/articles/why-marvell-stock-moving-nvidia-181152431.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1682,13 +1690,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:59 ET",
         "pub_ts": 1795539586.0
-      },
-      {
-        "title": "Marvell Sinks 8%, Intel Down 6% as Chip Stocks Give Back Nvidia’s Record Huang Rally",
-        "url": "https://www.tikr.com/blog/marvell-sinks-8-intel-down-6-as-chip-stocks-give-back-nvidias-record-huang-rally?ref=yahoofinance&tlnk=yf-261124-rjmh24f9&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:14 ET",
-        "pub_ts": 1795533299.0
       }
     ],
     "LITE": [
@@ -1788,18 +1789,18 @@
         "pub_ts": 1795555622.0
       },
       {
+        "title": "Elon Musk, Not Investors, Would Come Out Ahead in a SpaceX-Tesla Merger",
+        "url": "https://finance.yahoo.com/m/90b317c9-0fd9-3943-bd82-78b5240f21b7/elon-musk%2C-not-investors%2C.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:23 ET",
+        "pub_ts": 1795555380.0
+      },
+      {
         "title": "Tesla, SpaceX Reportedly Pick Board Members To Negotiate Elon Musk's Mega Merger",
         "url": "https://finance.yahoo.com/m/d4400d8c-dfaf-3382-a360-877e01e80aec/tesla%2C-spacex-reportedly-pick.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 16:05 ET",
         "pub_ts": 1795554326.0
-      },
-      {
-        "title": "Tesla and SpaceX Just Assembled Deal Teams for a $3.2 Trillion Merger. Here's What Investors Need to Know.",
-        "url": "https://www.fool.com/investing/2026/11/24/tesla-and-spacex-just-assembled-deal-teams-for-a-usd3-2-trillion-merger-here-s-what-investors-need-to-know/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 15:59 ET",
-        "pub_ts": 1795553995.0
       }
     ],
     "ASTS": [
@@ -3310,30 +3311,30 @@
     "SOXS": 1795561004.6349592,
     "NVDA": 1795561004.6349592,
     "AMD": 1795561004.6349592,
-    "ASML": 1795559893.5752475,
-    "QCOM": 1795559893.5752475,
-    "AVGO": 1795559893.5752475,
-    "AMAT": 1795559893.5752475,
-    "META": 1795559893.5752475,
-    "GOOGL": 1795559893.5752475,
-    "MSFT": 1795559893.5752475,
-    "AAPL": 1795559893.5752475,
-    "PLTR": 1795559893.5752475,
-    "NOW": 1795559893.5752475,
-    "AMZN": 1795559893.5752475,
-    "CRWV": 1795559893.5752475,
-    "NBIS": 1795559893.5752475,
-    "APLD": 1795559893.5752475,
-    "VST": 1795559893.5752475,
-    "BE": 1795559893.5752475,
-    "CRDO": 1795559893.5752475,
-    "COHR": 1795559893.5752475,
-    "MRVL": 1795559893.5752475,
-    "LITE": 1795559893.5752475,
-    "AAOI": 1795559893.5752475,
-    "SPCX": 1795559893.5752475,
+    "ASML": 1795561410.95106,
+    "QCOM": 1795561410.95106,
+    "AVGO": 1795561410.95106,
+    "AMAT": 1795561410.95106,
+    "META": 1795561410.95106,
+    "GOOGL": 1795561410.95106,
+    "MSFT": 1795561410.95106,
+    "AAPL": 1795561410.95106,
+    "PLTR": 1795561410.95106,
+    "NOW": 1795561410.95106,
+    "AMZN": 1795561410.95106,
+    "CRWV": 1795561410.95106,
+    "NBIS": 1795561410.95106,
+    "APLD": 1795561410.95106,
+    "VST": 1795561410.95106,
+    "BE": 1795561410.95106,
+    "CRDO": 1795561410.95106,
+    "COHR": 1795561410.95106,
+    "MRVL": 1795561410.95106,
+    "LITE": 1795561410.95106,
+    "AAOI": 1795561410.95106,
+    "SPCX": 1795561410.95106,
     "ASTS": 1795559997.0317757,
-    "AXTI": 1795559893.5752475,
+    "AXTI": 1795561410.95106,
     "NASA": 1795559997.0317757,
     "LUNR": 1795559997.0317757,
     "TSLA": 1795559997.0317757,
@@ -3368,8 +3369,8 @@
     "WMT": 1795561004.6349592,
     "V": 1795560101.0524993,
     "CAT": 1795561004.6349592,
-    "FN": 1795559893.5752475,
-    "GLW": 1795559893.5752475,
+    "FN": 1795561410.95106,
+    "GLW": 1795561410.95106,
     "ANT": 1795561004.6349592,
     "XAUUSD": 1795561004.6349592,
     "KOSPI": 1795561004.6349592
@@ -3391,7 +3392,7 @@
   "calendar_banner": {
     "level": "idle_with_flash",
     "headline": "📡 宏观消息面监控中 · 今日暂无美股五星级经济数据大考",
-    "detail": "⚡ 最新核心快讯 (17:50 ET / 06:50 BJ) [美联储] [CPI] [PCE]：【今日重点关注的财经数据与事件：2026年11月25日 周三】 ① 08:30 澳大利亚10月未季调CPI年率 ② 15:00 德国第三季度未季调GDP年率终值 ③ 17:00 瑞士11月Z",
+    "detail": "⚡ 最新核心快讯 (18:02 ET / 07:02 BJ) [关税] [特朗普]：美国被曝拟再挥舞关税大棒，特朗普政府正讨论直接打击伊朗高层！普京誓言报复能源遇袭，伊拉克拒绝接受欧佩克+产能评估……昨日今晨，全球都发生了哪些大事？",
     "event_name": "",
     "minutes_left": 0,
     "opex_shield": {
