@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795541342.826,
-  "updated_at_et": "11-24 12:29 ET",
-  "updated_at_kst": "02:29 KST",
+  "updated_at_ts": 1795541453.36,
+  "updated_at_et": "11-24 12:30 ET",
+  "updated_at_kst": "02:30 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -816,6 +816,13 @@
         "pub_ts": 1795539022.0
       },
       {
+        "title": "Down On TSMC Stock? Your Buy Price Decides It",
+        "url": "https://www.trefis.com/stock/tsm/articles/628260/down-on-tsmc-stock-your-buy-price-decides-it/2026-11-24?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:46 ET",
+        "pub_ts": 1795538796.0
+      },
+      {
         "title": "Wall Street Sees Up to 130% Upside in 3 AI Stocks",
         "url": "https://finance.yahoo.com/technology/ai/articles/wall-street-sees-130-upside-164501454.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -828,13 +835,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:40 ET",
         "pub_ts": 1795531200.0
-      },
-      {
-        "title": "TSM's AI-Driven Growth Accelerates: Is There More Upside Ahead?",
-        "url": "https://finance.yahoo.com/technology/ai/articles/tsms-ai-driven-growth-accelerates-125400331.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 07:54 ET",
-        "pub_ts": 1795524840.0
       }
     ],
     "VIXY": [
@@ -913,11 +913,11 @@
     ],
     "NVDA": [
       {
-        "title": "Huang faces 3 camps of GOP skeptics ahead of congressional grilling",
-        "url": "https://finance.yahoo.com/markets/article/huang-faces-3-camps-of-gop-skeptics-ahead-of-congressional-grilling-164400869.html?.tsrc=rss",
+        "title": "Nvidia Stock Soars as Jensen Huang Returns — Should You Buy or Wait?",
+        "url": "https://moneylion.com/trending/money/nvidia-stock-soars-jensen-huang-returns-buy-wait?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 11:44 ET",
-        "pub_ts": 1795538640.0
+        "time": "11-24 12:00 ET",
+        "pub_ts": 1795539640.0
       },
       {
         "title": "Nvidia Faces Fresh China Chip Restrictions Despite Huang's Return",
@@ -934,21 +934,28 @@
         "pub_ts": 1795539180.0
       },
       {
-        "title": "Stock Market Today: Jensen’s Return to Nvidia Is Causing Index Indigestion",
-        "url": "https://247wallst.com/investing/2026/11/24/stock-market-today-jensens-return-to-nvidia-is-causing-index-indigestion/?.tsrc=rss",
+        "title": "Here’s How Many Shares of Realty Income You’d Need for $100 in Monthly Dividends",
+        "url": "https://www.fool.com/investing/2026/11/24/heres-how-shares-realty-income-youd-need-100-monthly-dividends/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 11:50 ET",
-        "pub_ts": 1795539001.0
+        "time": "11-24 12:13 ET",
+        "pub_ts": 1795540382.0
       },
       {
-        "title": "“The Bank of Nvidia Is Back,” Says CNBC’s David Faber. Its Investments Rose From $7 Billion to $110 Billion",
-        "url": "https://www.tikr.com/blog/the-bank-of-nvidia-is-back-says-cnbcs-david-faber-its-investments-rose-from-7-billion-to-110-billion?ref=yahoofinance&tlnk=yf-261124-hfqgvgp4&.tsrc=rss",
+        "title": "AMD Stocks Fall 9.08% After Filing Registers 337 Million Shares for Resale",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amd-stocks-fall-9-08-170251435.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 11:49 ET",
-        "pub_ts": 1795538978.0
+        "time": "11-24 12:02 ET",
+        "pub_ts": 1795539771.0
       }
     ],
     "AMD": [
+      {
+        "title": "AMD Stocks Fall 9.08% After Filing Registers 337 Million Shares for Resale",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amd-stocks-fall-9-08-170251435.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 12:02 ET",
+        "pub_ts": 1795539771.0
+      },
       {
         "title": "Up 100% in 2026, AMD Will Trade at This Price in 2027",
         "url": "https://247wallst.com/investing/2026/11/24/up-100-in-2026-amd-will-trade-at-this-price-in-2027/?.tsrc=rss",
@@ -971,18 +978,11 @@
         "pub_ts": 1795533597.0
       },
       {
-        "title": "AMD Stock Shows the Market Has Stopped Making Sense After Huang’s Dramatic Return",
-        "url": "https://finance.yahoo.com/m/fad1db36-fd86-34e4-866b-804987e46e84/amd-stock-shows-the-market.html?.tsrc=rss",
+        "title": "Stock Market Today: Dow Dips, Nasdaq Skids As Nvidia Dives; Anthropic Plunges Below IPO Price (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/4aa4ff31-269f-346e-80c4-e681510af7ae/stock-market-today%3A-dow-dips%2C.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 09:42 ET",
-        "pub_ts": 1795531320.0
-      },
-      {
-        "title": "Global Microprocessor Chip Manufacturing Market Report 2026: Size, Trends, and Forecast to 2030 | Capture $210.23B AI Chip Demand with TSMC, NVIDIA, Samsung, Intel, and AMD",
-        "url": "https://finance.yahoo.com/technology/ai/articles/global-microprocessor-chip-manufacturing-market-144000160.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:40 ET",
-        "pub_ts": 1795531200.0
+        "time": "11-24 11:42 ET",
+        "pub_ts": 1795538545.0
       }
     ],
     "ASML": [
@@ -1216,6 +1216,13 @@
         "pub_ts": 1795534975.0
       },
       {
+        "title": "Microsoft Corporation (MSFT) Is Facing AI Spending Fears: Could Its Cloud Growth Change the Narrative?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-corporation-msft-facing-ai-165850177.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 11:58 ET",
+        "pub_ts": 1795539530.0
+      },
+      {
         "title": "Nvidia Shatters Microsoft's Historic Stock Market Record",
         "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-shatters-microsofts-historic-stock-164825111.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1235,13 +1242,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:33 ET",
         "pub_ts": 1795534416.0
-      },
-      {
-        "title": "Asia-Pacific Digital Transformation Market: Size, Trends, and Forecast (2026-2034) Featuring Intelligence on Accenture, Google (Alphabet), IBM, Microsoft, Oracle, HPE, SAP, EMC (Dell EMC), Cognex, Adobe and Siemens",
-        "url": "https://finance.yahoo.com/technology/articles/asia-pacific-digital-transformation-market-152900939.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:29 ET",
-        "pub_ts": 1795534140.0
       }
     ],
     "AAPL": [
@@ -3290,30 +3290,30 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795539925.644299,
-    "SOXL": 1795539925.644299,
-    "SPY": 1795539925.644299,
-    "DIA": 1795539925.644299,
-    "SOXX": 1795539925.644299,
-    "QQQ": 1795539925.644299,
-    "SMH": 1795539925.644299,
-    "IWM": 1795539925.644299,
-    "IGV": 1795539925.644299,
-    "TLT": 1795539925.644299,
-    "GLD": 1795539925.644299,
-    "SQQQ": 1795539925.644299,
-    "TSM": 1795539925.644299,
-    "VIXY": 1795539925.644299,
-    "SOXS": 1795539925.644299,
-    "NVDA": 1795539925.644299,
-    "AMD": 1795539925.644299,
-    "ASML": 1795539925.644299,
-    "QCOM": 1795539925.644299,
-    "AVGO": 1795539925.644299,
-    "AMAT": 1795539925.644299,
-    "META": 1795539925.644299,
-    "GOOGL": 1795539925.644299,
-    "MSFT": 1795539925.644299,
+    "KORU": 1795541453.359536,
+    "SOXL": 1795541453.359536,
+    "SPY": 1795541453.359536,
+    "DIA": 1795541453.359536,
+    "SOXX": 1795541453.359536,
+    "QQQ": 1795541453.359536,
+    "SMH": 1795541453.359536,
+    "IWM": 1795541453.359536,
+    "IGV": 1795541453.359536,
+    "TLT": 1795541453.359536,
+    "GLD": 1795541453.359536,
+    "SQQQ": 1795541453.359536,
+    "TSM": 1795541453.359536,
+    "VIXY": 1795541453.359536,
+    "SOXS": 1795541453.359536,
+    "NVDA": 1795541453.359536,
+    "AMD": 1795541453.359536,
+    "ASML": 1795541453.359536,
+    "QCOM": 1795541453.359536,
+    "AVGO": 1795541453.359536,
+    "AMAT": 1795541453.359536,
+    "META": 1795541453.359536,
+    "GOOGL": 1795541453.359536,
+    "MSFT": 1795541453.359536,
     "AAPL": 1795540258.141779,
     "PLTR": 1795540258.141779,
     "NOW": 1795540258.141779,
