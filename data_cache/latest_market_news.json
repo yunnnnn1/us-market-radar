@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795647619.181,
-  "updated_at_et": "11-25 18:00 ET",
-  "updated_at_kst": "08:00 KST",
+  "updated_at_ts": 1795647716.66,
+  "updated_at_et": "11-25 18:01 ET",
+  "updated_at_kst": "08:01 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -647,6 +647,13 @@
     ],
     "IWM": [
       {
+        "title": "The Average Stock Shrugged Off the Tech Slide. History Is Split",
+        "url": "https://www.trefis.com/stock/spx/articles/628711/the-average-stock-shrugged-off-the-tech-slide-history-is-split/2026-11-25?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 17:18 ET",
+        "pub_ts": 1795645095.0
+      },
+      {
         "title": "iShares Russell 2000 (IWM) Buys $151.4 Million More Brookfield Infra on Monday",
         "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-2000-iwm-buys-110425391.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -673,13 +680,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 06:02 ET",
         "pub_ts": 1795518178.0
-      },
-      {
-        "title": "iShares Russell 2000 (IWM) Adds Glaukos and JFrog on Thursday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-2000-iwm-adds-110451676.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 06:04 ET",
-        "pub_ts": 1795431891.0
       }
     ],
     "IGV": [
@@ -946,8 +946,22 @@
         "title": "Dow Jones Futures: Market Goes On Wild Ride. Nasdaq, Nvidia Slash Losses While Anthropic Reverses Higher.",
         "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures%3A-market.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 17:24 ET",
-        "pub_ts": 1795645475.0
+        "time": "11-25 17:35 ET",
+        "pub_ts": 1795646125.0
+      },
+      {
+        "title": "Nvidia settles 8-year-old investor suit for $290M",
+        "url": "https://www.thestreet.com/crypto/artificial-intelligence/nvidia-settles-8-year-old-investor-suit-for-290m?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 17:30 ET",
+        "pub_ts": 1795645800.0
+      },
+      {
+        "title": "Nvidia May Get A Credit Rating Cut Amid Governance Issues, While US Officials Reportedly Say No Chinese Interference in Huang’s Affair",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nvidia-may-get-a-credit-rating-cut-amid-governance-issues-while-us-officials-reportedly-say-no-chinese-interference-in-huang-s-affair/cNbHubZR9mx?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 17:26 ET",
+        "pub_ts": 1795645614.0
       },
       {
         "title": "Nvidia Sell-Off: You Won’t Believe How Cheap the Stock Is",
@@ -962,23 +976,16 @@
         "source": "Yahoo Finance",
         "time": "11-25 17:17 ET",
         "pub_ts": 1795645020.0
-      },
-      {
-        "title": "Stock Market Today, Nov. 25: Nvidia Slides 3.9% as the Market Considers Hot PCE Inflation Data and New Tariff Proposals",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-nvidia-slides-3-9-as-the-market-considers-hot-pce-inflation-data-and-new-tariff-proposals/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 17:06 ET",
-        "pub_ts": 1795644405.0
-      },
-      {
-        "title": "Nvidia engineer who quit in protest of Jensen Huang's ouster says he 'may have moved too quickly,' is open to returning",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-engineer-quit-protest-jensen-220000936.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 17:00 ET",
-        "pub_ts": 1795644000.0
       }
     ],
     "AMD": [
+      {
+        "title": "2 Billionaire Funds Dumped AMD Last Quarter. Is It a Sell?",
+        "url": "https://www.fool.com/investing/2026/11/25/2-billionaire-funds-dumped-amd-last-quarter-is-it-a-sell/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 17:43 ET",
+        "pub_ts": 1795646581.0
+      },
       {
         "title": "Prediction: AMD Stock Could Rally 58% as Analysts Maintain Strong Buy Rating",
         "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-amd-stock-could-rally-213100517.html?.tsrc=rss",
@@ -1006,13 +1013,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 12:45 ET",
         "pub_ts": 1795628702.0
-      },
-      {
-        "title": "AI Chip Stocks Extend Brutal Selloff as Nvidia, AMD and Broadcom Tumble Again",
-        "url": "https://finance.yahoo.com/technology/ai/articles/ai-chip-stocks-extend-brutal-170236621.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:02 ET",
-        "pub_ts": 1795626156.0
       }
     ],
     "ASML": [
@@ -2796,8 +2796,8 @@
         "title": "Dow Jones Futures: Market Goes On Wild Ride. Nasdaq, Nvidia Slash Losses While Anthropic Reverses Higher.",
         "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures%3A-market.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 17:24 ET",
-        "pub_ts": 1795645475.0
+        "time": "11-25 17:35 ET",
+        "pub_ts": 1795646125.0
       },
       {
         "title": "Sector Update: Healthcare Stocks Fall Late Afternoon",
@@ -2941,6 +2941,13 @@
     ],
     "PEP": [
       {
+        "title": "2 Bargain Stocks to Buy With $1,000 in November",
+        "url": "https://www.fool.com/investing/2026/11/25/2-bargain-stocks-to-buy-with-usd1-000-in-november/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 17:47 ET",
+        "pub_ts": 1795646821.0
+      },
+      {
         "title": "Leaving a Roth IRA to Your Kids? Why Dividend Stocks Make the 10-Year Rule Work for Them",
         "url": "https://247wallst.com/investing/2026/11/25/leaving-a-roth-ira-to-your-kids-why-dividend-stocks-make-the-10-year-rule-work-for-them/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2967,13 +2974,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 13:26 ET",
         "pub_ts": 1795544817.0
-      },
-      {
-        "title": "PETA, PepsiCo shareholders call out animal abuse across its supply chain",
-        "url": "https://www.esgdive.com/news/pepsico-shareholders-peta-call-out-animal-abuse-across-beverage-makers-supply-chain/875649/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 12:38 ET",
-        "pub_ts": 1795541921.0
       }
     ],
     "XOM": [
@@ -3320,23 +3320,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795646179.3607428,
-    "SOXL": 1795646179.3607428,
-    "SPY": 1795646179.3607428,
-    "DIA": 1795646179.3607428,
-    "SOXX": 1795646179.3607428,
-    "QQQ": 1795646179.3607428,
-    "SMH": 1795646179.3607428,
-    "IWM": 1795646179.3607428,
-    "IGV": 1795646179.3607428,
-    "TLT": 1795646179.3607428,
-    "GLD": 1795646179.3607428,
-    "SQQQ": 1795646179.3607428,
-    "TSM": 1795646179.3607428,
-    "VIXY": 1795646179.3607428,
-    "SOXS": 1795646179.3607428,
-    "NVDA": 1795646179.3607428,
-    "AMD": 1795646179.3607428,
+    "KORU": 1795647716.6601908,
+    "SOXL": 1795647716.6601908,
+    "SPY": 1795647716.6601908,
+    "DIA": 1795647716.6601908,
+    "SOXX": 1795647716.6601908,
+    "QQQ": 1795647716.6601908,
+    "SMH": 1795647716.6601908,
+    "IWM": 1795647716.6601908,
+    "IGV": 1795647716.6601908,
+    "TLT": 1795647716.6601908,
+    "GLD": 1795647716.6601908,
+    "SQQQ": 1795647716.6601908,
+    "TSM": 1795647716.6601908,
+    "VIXY": 1795647716.6601908,
+    "SOXS": 1795647716.6601908,
+    "NVDA": 1795647716.6601908,
+    "AMD": 1795647716.6601908,
     "ASML": 1795646371.4847808,
     "QCOM": 1795646371.4847808,
     "AVGO": 1795646371.4847808,
@@ -3385,21 +3385,21 @@
     "CRWD": 1795647619.1812096,
     "ORCL": 1795647619.1812096,
     "COIN": 1795647619.1812096,
-    "LLY": 1795646179.3607428,
-    "MRNA": 1795646179.3607428,
-    "NKE": 1795646179.3607428,
-    "MCD": 1795646179.3607428,
-    "PEP": 1795646179.3607428,
+    "LLY": 1795647716.6601908,
+    "MRNA": 1795647716.6601908,
+    "NKE": 1795647716.6601908,
+    "MCD": 1795647716.6601908,
+    "PEP": 1795647716.6601908,
     "XOM": 1795646371.4847808,
-    "JPM": 1795646179.3607428,
+    "JPM": 1795647716.6601908,
     "WMT": 1795646371.4847808,
-    "V": 1795646179.3607428,
+    "V": 1795647716.6601908,
     "CAT": 1795646371.4847808,
     "FN": 1795646469.5698726,
     "GLW": 1795646469.5698726,
     "ANT": 1795646371.4847808,
     "XAUUSD": 1795646371.4847808,
-    "KOSPI": 1795646179.3607428
+    "KOSPI": 1795647716.6601908
   },
   "opex_shield": {
     "date": "2026-11-25",
