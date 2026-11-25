@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795627581.746,
-  "updated_at_et": "11-25 12:26 ET",
-  "updated_at_kst": "02:26 KST",
+  "updated_at_ts": 1795627687.312,
+  "updated_at_et": "11-25 12:28 ET",
+  "updated_at_kst": "02:28 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -940,39 +940,39 @@
     ],
     "NVDA": [
       {
+        "title": "Is NVIDIA (NVDA) Cheap After Jensen Huang’s Return Calmed Leadership Fears?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-cheap-jensen-huang-171040296.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:10 ET",
+        "pub_ts": 1795626640.0
+      },
+      {
+        "title": "Tech stocks suffer sell-off on AI angst, US inflation",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/tech-firms-back-crosshairs-huang-024219799.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:05 ET",
+        "pub_ts": 1795626353.0
+      },
+      {
+        "title": "Mohamed El-Erian Is Buying The Tech Dip ‘Very Slowly,’ Says Nvidia Is ‘Too Big to Wobble’",
+        "url": "https://stocktwits.com/news-articles/markets/equity/mohamed-el-erian-is-buying-the-tech-dip-very-slowly-says-nvidia-is-too-big-to-wobble/cNbHNilR9mp?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:04 ET",
+        "pub_ts": 1795626288.0
+      },
+      {
+        "title": "AI Chip Stocks Extend Brutal Selloff as Nvidia, AMD and Broadcom Tumble Again",
+        "url": "https://finance.yahoo.com/technology/ai/articles/ai-chip-stocks-extend-brutal-170236621.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:02 ET",
+        "pub_ts": 1795626156.0
+      },
+      {
         "title": "Chip stocks tumble as Nvidia-led AI rally unravels, tariff fears weigh",
         "url": "https://www.proactiveinvestors.com/companies/news/1102454/chip-stocks-tumble-as-nvidia-led-ai-rally-unravels-tariff-fears-weigh-1102454.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 11:49 ET",
         "pub_ts": 1795625340.0
-      },
-      {
-        "title": "Top Midday Stories: Fed's Preferred Inflation Gauge Rises to 3.8% YoY in October; Nvidia CEO Huang's Affair Not Orchestrated by China, US Officials Say",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-fed-apos-164318180.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:43 ET",
-        "pub_ts": 1795624998.0
-      },
-      {
-        "title": "Nasdaq tumbles 4% as Nvidia leads AI sell-off, inflation and tariffs weigh on investors",
-        "url": "https://nypost.com/2026/11/25/business/nasdaq-tumbles-4-as-nvidia-leads-ai-sell-off-inflation-and-tariffs-weigh-on-investors/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:43 ET",
-        "pub_ts": 1795624993.0
-      },
-      {
-        "title": "Nvidia Agrees to Pay $290M to Settle Investor Lawsuit Over Crypto Mining Sales",
-        "url": "https://www.cryptoprowl.com/releases/nvidia-agrees-to-pay-290m-to-settle-investor-lawsuit-over-crypto-mining-sales-8072?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:39 ET",
-        "pub_ts": 1795624740.0
-      },
-      {
-        "title": "Billionaire Stanley Druckenmiller Sold 94% of His TSMC Stake and All of His Alphabet Shares in Q3. Here’s the Brilliant Stock He Added.",
-        "url": "https://www.fool.com/investing/2026/11/25/billionaire-stanley-druckenmiller-sold-94-of-his-tsmc-and-all-of-his-alphabet-here-s-the-brilliant-stock-he-added/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:37 ET",
-        "pub_ts": 1795624622.0
       }
     ],
     "AMD": [
@@ -982,6 +982,13 @@
         "source": "Yahoo Finance",
         "time": "11-25 08:45 ET",
         "pub_ts": 1795614318.0
+      },
+      {
+        "title": "AI Chip Stocks Extend Brutal Selloff as Nvidia, AMD and Broadcom Tumble Again",
+        "url": "https://finance.yahoo.com/technology/ai/articles/ai-chip-stocks-extend-brutal-170236621.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:02 ET",
+        "pub_ts": 1795626156.0
       },
       {
         "title": "Without an Anthropic Rally, “There Will Be No OpenAI.” AMD Is the Real Loser",
@@ -1003,13 +1010,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:49 ET",
         "pub_ts": 1795621742.0
-      },
-      {
-        "title": "Advanced Micro Devices (AMD) Expands Into Quantum AI Computing With Drug Discovery Focus",
-        "url": "https://finance.yahoo.com/technology/ai/articles/advanced-micro-devices-amd-expands-141319913.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:13 ET",
-        "pub_ts": 1795615999.0
       }
     ],
     "ASML": [
@@ -3114,11 +3114,11 @@
         "pub_ts": 1795623010.0
       },
       {
-        "title": "Are Stablecoins a Threat to Visa and Mastercard?",
-        "url": "https://www.fool.com/investing/2026/11/25/are-stablecoins-a-threat-to-visa-and-mastercard/?.tsrc=rss",
+        "title": "Illinois fights for interchange law",
+        "url": "https://www.paymentsdive.com/news/illinois-fights-for-interchange-law/875779/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 09:41 ET",
-        "pub_ts": 1795617662.0
+        "time": "11-25 11:03 ET",
+        "pub_ts": 1795622580.0
       }
     ],
     "CAT": [
@@ -3317,23 +3317,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795626094.073924,
-    "SOXL": 1795626094.073924,
-    "SPY": 1795626094.073924,
-    "DIA": 1795626094.073924,
-    "SOXX": 1795626094.073924,
-    "QQQ": 1795626094.073924,
-    "SMH": 1795626094.073924,
-    "IWM": 1795626094.073924,
-    "IGV": 1795626094.073924,
-    "TLT": 1795626094.073924,
-    "GLD": 1795626094.073924,
-    "SQQQ": 1795626094.073924,
-    "TSM": 1795626094.073924,
-    "VIXY": 1795626094.073924,
-    "SOXS": 1795626094.073924,
-    "NVDA": 1795626094.073924,
-    "AMD": 1795626094.073924,
+    "KORU": 1795627687.312145,
+    "SOXL": 1795627687.312145,
+    "SPY": 1795627687.312145,
+    "DIA": 1795627687.312145,
+    "SOXX": 1795627687.312145,
+    "QQQ": 1795627687.312145,
+    "SMH": 1795627687.312145,
+    "IWM": 1795627687.312145,
+    "IGV": 1795627687.312145,
+    "TLT": 1795627687.312145,
+    "GLD": 1795627687.312145,
+    "SQQQ": 1795627687.312145,
+    "TSM": 1795627687.312145,
+    "VIXY": 1795627687.312145,
+    "SOXS": 1795627687.312145,
+    "NVDA": 1795627687.312145,
+    "AMD": 1795627687.312145,
     "ASML": 1795627155.1754026,
     "QCOM": 1795627155.1754026,
     "AVGO": 1795627155.1754026,
@@ -3382,21 +3382,21 @@
     "CRWD": 1795627581.7458813,
     "ORCL": 1795627581.7458813,
     "COIN": 1795627581.7458813,
-    "LLY": 1795626094.073924,
-    "MRNA": 1795626094.073924,
-    "NKE": 1795626094.073924,
-    "MCD": 1795626094.073924,
-    "PEP": 1795626094.073924,
+    "LLY": 1795627687.312145,
+    "MRNA": 1795627687.312145,
+    "NKE": 1795627687.312145,
+    "MCD": 1795627687.312145,
+    "PEP": 1795627687.312145,
     "XOM": 1795626203.2783945,
-    "JPM": 1795626094.073924,
+    "JPM": 1795627687.312145,
     "WMT": 1795626203.2783945,
-    "V": 1795626094.073924,
+    "V": 1795627687.312145,
     "CAT": 1795626203.2783945,
     "FN": 1795627155.1754026,
     "GLW": 1795627155.1754026,
     "ANT": 1795626203.2783945,
     "XAUUSD": 1795626203.2783945,
-    "KOSPI": 1795626094.073924
+    "KOSPI": 1795627687.312145
   },
   "opex_shield": {
     "date": "2026-11-25",
