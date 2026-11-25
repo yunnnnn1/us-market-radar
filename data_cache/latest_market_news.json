@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795566428.666,
-  "updated_at_et": "11-24 19:27 ET",
-  "updated_at_kst": "09:27 KST",
+  "updated_at_ts": 1795566526.018,
+  "updated_at_et": "11-24 19:28 ET",
+  "updated_at_kst": "09:28 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -3063,6 +3063,13 @@
     ],
     "V": [
       {
+        "title": "iwoca and Visa launch credit card to widen SME funding choice",
+        "url": "https://finance.yahoo.com/small-business/articles/iwoca-visa-launch-credit-card-000100356.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 19:01 ET",
+        "pub_ts": 1795564860.0
+      },
+      {
         "title": "Visa, Mastercard Seen Gaining From Expansion of Tokenized Payments, UBS Says",
         "url": "https://finance.yahoo.com/technology/articles/visa-mastercard-seen-gaining-expansion-180943092.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3089,13 +3096,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 06:01 ET",
         "pub_ts": 1795518117.0
-      },
-      {
-        "title": "Klarna expands Visa partnership across North America and Europe",
-        "url": "https://www.electronicpaymentsinternational.com/news/klarna-expands-visa-partnership-across-north-america-and-europe/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 04:30 ET",
-        "pub_ts": 1795512607.0
       }
     ],
     "CAT": [
@@ -3359,15 +3359,15 @@
     "CRWD": 1795566428.6655328,
     "ORCL": 1795566428.6655328,
     "COIN": 1795566428.6655328,
-    "LLY": 1795564684.6016364,
-    "MRNA": 1795564684.6016364,
-    "NKE": 1795564684.6016364,
-    "MCD": 1795564684.6016364,
+    "LLY": 1795566526.018071,
+    "MRNA": 1795566526.018071,
+    "NKE": 1795566526.018071,
+    "MCD": 1795566526.018071,
     "PEP": 1795565624.541219,
     "XOM": 1795565624.541219,
     "JPM": 1795565624.541219,
     "WMT": 1795565624.541219,
-    "V": 1795564684.6016364,
+    "V": 1795566526.018071,
     "CAT": 1795565624.541219,
     "FN": 1795566089.565612,
     "GLW": 1795566089.565612,
