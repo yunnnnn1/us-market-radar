@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795581277.891,
-  "updated_at_et": "11-24 23:34 ET",
-  "updated_at_kst": "13:34 KST",
+  "updated_at_ts": 1795581380.109,
+  "updated_at_et": "11-24 23:36 ET",
+  "updated_at_kst": "13:36 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -911,6 +911,27 @@
     ],
     "NVDA": [
       {
+        "title": "Jim Cramer resets Nvidia stock target as Jensen Huang returns as CEO",
+        "url": "https://www.thestreet.com/investing/stocks/jim-cramer-nvidia-stock-target-jensen-huang?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 23:33 ET",
+        "pub_ts": 1795581180.0
+      },
+      {
+        "title": "Le Monde details suspected Nvidia chip diversion network through Southeast Asia",
+        "url": "https://finance.yahoo.com/technology/ai/articles/le-monde-details-suspected-nvidia-042239633.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 23:22 ET",
+        "pub_ts": 1795580559.0
+      },
+      {
+        "title": "Asian stocks mostly decline as AI shares fall following a retreat on Wall Street",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-mostly-decline-ai-040526833.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 23:05 ET",
+        "pub_ts": 1795579526.0
+      },
+      {
         "title": "Dow Jones Futures Fall; Trump Says 'Not Too Late' For U.S. To Take Nvidia Stake",
         "url": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures-fall%3B-trump.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -923,27 +944,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 22:53 ET",
         "pub_ts": 1795578780.0
-      },
-      {
-        "title": "South Korea's chipmakers rally on Huang's return",
-        "url": "http://www.intellinews.com/south-korea-s-chipmakers-rally-on-huang-s-return-488025/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 22:21 ET",
-        "pub_ts": 1795576883.0
-      },
-      {
-        "title": "Dow, S&P 500, Nasdaq Futures Edge Lower Amid Tech Selloff Ahead Of Key Inflation Data: DELL, AMBA, SOXL, MSTR In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-edge-lower-amid-tech-selloff-ahead-of-key-inflation-data-dell-amba-soxl-mstr-in-focus/cNbHbLoR9lJ?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 22:20 ET",
-        "pub_ts": 1795576810.0
-      },
-      {
-        "title": "Lattice Semiconductor (LSCC) Could Be 37% Below Fair Value On AI Chip Optimism",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/lattice-semiconductor-lscc-could-37-031232846.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 22:12 ET",
-        "pub_ts": 1795576352.0
       }
     ],
     "AMD": [
@@ -3288,23 +3288,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795579831.686719,
-    "SOXL": 1795579831.686719,
-    "SPY": 1795579831.686719,
-    "DIA": 1795579831.686719,
-    "SOXX": 1795579831.686719,
-    "QQQ": 1795579831.686719,
-    "SMH": 1795579831.686719,
-    "IWM": 1795579831.686719,
-    "IGV": 1795579831.686719,
-    "TLT": 1795579831.686719,
-    "GLD": 1795579831.686719,
-    "SQQQ": 1795579831.686719,
-    "TSM": 1795579831.686719,
-    "VIXY": 1795579831.686719,
-    "SOXS": 1795579831.686719,
-    "NVDA": 1795579831.686719,
-    "AMD": 1795579831.686719,
+    "KORU": 1795581380.1088,
+    "SOXL": 1795581380.1088,
+    "SPY": 1795581380.1088,
+    "DIA": 1795581380.1088,
+    "SOXX": 1795581380.1088,
+    "QQQ": 1795581380.1088,
+    "SMH": 1795581380.1088,
+    "IWM": 1795581380.1088,
+    "IGV": 1795581380.1088,
+    "TLT": 1795581380.1088,
+    "GLD": 1795581380.1088,
+    "SQQQ": 1795581380.1088,
+    "TSM": 1795581380.1088,
+    "VIXY": 1795581380.1088,
+    "SOXS": 1795581380.1088,
+    "NVDA": 1795581380.1088,
+    "AMD": 1795581380.1088,
     "ASML": 1795580141.9585474,
     "QCOM": 1795580141.9585474,
     "AVGO": 1795580141.9585474,
@@ -3357,17 +3357,17 @@
     "MRNA": 1795580559.087344,
     "NKE": 1795580559.087344,
     "MCD": 1795580559.087344,
-    "PEP": 1795579831.686719,
-    "XOM": 1795579831.686719,
-    "JPM": 1795579831.686719,
-    "WMT": 1795579831.686719,
+    "PEP": 1795581380.1088,
+    "XOM": 1795581380.1088,
+    "JPM": 1795581380.1088,
+    "WMT": 1795581380.1088,
     "V": 1795580559.087344,
-    "CAT": 1795579831.686719,
+    "CAT": 1795581380.1088,
     "FN": 1795580141.9585474,
     "GLW": 1795580141.9585474,
-    "ANT": 1795579831.686719,
-    "XAUUSD": 1795579831.686719,
-    "KOSPI": 1795579831.686719
+    "ANT": 1795581380.1088,
+    "XAUUSD": 1795581380.1088,
+    "KOSPI": 1795581380.1088
   },
   "opex_shield": {
     "date": "2026-11-24",
