@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795620761.759,
-  "updated_at_et": "11-25 10:32 ET",
-  "updated_at_kst": "00:32 KST",
+  "updated_at_ts": 1795620866.551,
+  "updated_at_et": "11-25 10:34 ET",
+  "updated_at_kst": "00:34 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -43,6 +43,19 @@
     }
   ],
   "macro_flashes": [
+    {
+      "id": "20261125233230883800",
+      "title": "1. 美国至11月20日当周EIA战略石油储备库存为1982年8月27日当周以来最低。 …",
+      "summary": "1. 美国至11月20日当周EIA战略石油储备库存为1982年8月27日当周以来最低。 2. 美国至11月20日当周原油出口量为2026年8月7日当周以来最低。 3. 美国至11月20日当周国内原油产量创纪录新高。",
+      "keywords": [
+        "原油"
+      ],
+      "pub_ts": 1795620750.0,
+      "time_et": "11-25 10:32 ET",
+      "time_bj": "23:32 BJ",
+      "time_kst": "00:32 KST",
+      "time_display": "10:32 ET / 23:32 BJ"
+    },
     {
       "id": "20261125233113583800",
       "title": "1. EIA报告：11月20日当周美国原油出口减少121.9万桶/日至326.9万桶/日…",
@@ -367,19 +380,6 @@
       "time_bj": "17:04 BJ",
       "time_kst": "18:04 KST",
       "time_display": "04:04 ET / 17:04 BJ"
-    },
-    {
-      "id": "20261125164622998800",
-      "title": "欧佩克+为2027年配额定基准，短期供给反而更难增加｜原油头条",
-      "summary": "布伦特1月合约跌破90美元，美国产量连创新高至1403.2万桶/日。过剩正从预期变成数据。但地缘风险未消，霍尔木兹与伊拉克出口仍是变量。",
-      "keywords": [
-        "原油"
-      ],
-      "pub_ts": 1795596383.0,
-      "time_et": "11-25 03:46 ET",
-      "time_bj": "16:46 BJ",
-      "time_kst": "17:46 KST",
-      "time_display": "03:46 ET / 16:46 BJ"
     }
   ],
   "ticker_news": {
@@ -1125,6 +1125,13 @@
     ],
     "AMAT": [
       {
+        "title": "Jim Cramer tells investors to buy beaten-down chip stock down 53%",
+        "url": "https://www.thestreet.com/investing/stocks/amat-applied-materials-jim-cramer-urges-investors-to-buy-stock-after-decline?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:17 ET",
+        "pub_ts": 1795619820.0
+      },
+      {
         "title": "Applied Materials (AMAT) Stock Sees Fair Value Cut As Analysts Trim Targets",
         "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-stock-sees-121330610.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1151,13 +1158,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 14:50 ET",
         "pub_ts": 1795549802.0
-      },
-      {
-        "title": "Applied Materials Is Up 33% in 2026 but 54% Below Its June High. Time to Buy?",
-        "url": "https://www.tikr.com/blog/applied-materials-is-up-33-in-2026-but-54-below-its-june-high-time-to-buy?ref=yahoofinance&tlnk=yf-261124-5f47p74f&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 06:52 ET",
-        "pub_ts": 1795521135.0
       }
     ],
     "META": [
@@ -1213,13 +1213,6 @@
         "pub_ts": 1795608000.0
       },
       {
-        "title": "Alphabet, NVIDIA, Microsoft and AWS Lead the AI for Scientific Discovery Market as It Grows to USD 34.78 Billion by 2035",
-        "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-nvidia-microsoft-aws-lead-150000464.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:00 ET",
-        "pub_ts": 1795618800.0
-      },
-      {
         "title": "The $2 trillion chip rally is getting wiped out — here's what history says comes next",
         "url": "https://finance.yahoo.com/markets/article/the-2-trillion-chip-rally-is-getting-wiped-out--heres-what-history-says-comes-next-145306996.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1227,14 +1220,28 @@
         "pub_ts": 1795618386.0
       },
       {
-        "title": "Stock Market Today: Dow Dives 700 Points As Nvidia Sells Off, Inflation Rises; Anthropic Sinks (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow-dives.html?.tsrc=rss",
+        "title": "Alphabet Is Most Beat Down AI Company",
+        "url": "https://247wallst.com/investing/2026/11/25/alphabet-is-most-beat-down-ai-company/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 09:50 ET",
-        "pub_ts": 1795618250.0
+        "time": "11-25 10:27 ET",
+        "pub_ts": 1795620435.0
+      },
+      {
+        "title": "Google Ends $75 Million News Deal Amid Regulatory Fight",
+        "url": "https://finance.yahoo.com/media-advertising/articles/google-ends-75-million-news-150706065.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:07 ET",
+        "pub_ts": 1795619226.0
       }
     ],
     "MSFT": [
+      {
+        "title": "Stirlingshire Investments Appoints Daniel Gicklhorn as Chief Technology Officer",
+        "url": "https://finance.yahoo.com/technology/articles/stirlingshire-investments-appoints-daniel-gicklhorn-151300914.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:13 ET",
+        "pub_ts": 1795619580.0
+      },
       {
         "title": "Digital Twins in Healthcare Market to worth USD 101.19 Billion by 2031, at a CAGR of 68.4% – MarketsandMarkets™",
         "url": "https://finance.yahoo.com/healthcare/articles/digital-twins-healthcare-market-worth-150000405.html?.tsrc=rss",
@@ -1262,16 +1269,23 @@
         "source": "Yahoo Finance",
         "time": "11-25 09:27 ET",
         "pub_ts": 1795616820.0
-      },
-      {
-        "title": "Artificial Intelligence (AI) in Hospital Operations Market Report 2026 | Capitalize on 28.9% CAGR as Microsoft, Oracle, Epic, LeanTaaS and Qventus Accelerate Workflow Automation",
-        "url": "https://finance.yahoo.com/healthcare/articles/artificial-intelligence-ai-hospital-operations-142000864.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:20 ET",
-        "pub_ts": 1795616400.0
       }
     ],
     "AAPL": [
+      {
+        "title": "Alphabet Is Most Beat Down AI Company",
+        "url": "https://247wallst.com/investing/2026/11/25/alphabet-is-most-beat-down-ai-company/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:27 ET",
+        "pub_ts": 1795620435.0
+      },
+      {
+        "title": "The Next Big Healthcare Revolution Is Already Here. This Stock Could Cash In.",
+        "url": "https://www.fool.com/investing/2026/11/25/the-next-big-healthcare-revolution-is-already-here-this-stock-could-cash-in/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:27 ET",
+        "pub_ts": 1795620422.0
+      },
       {
         "title": "Does Apple's New Silence Mean You Should Worry?",
         "url": "https://www.trefis.com/stock/aapl/articles/628917/does-apple-s-new-silence-mean-you-should-worry/2026-11-25?.tsrc=rss",
@@ -1292,20 +1306,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:05 ET",
         "pub_ts": 1795604747.0
-      },
-      {
-        "title": "State Street SPDR Portfolio S&P 500 (SPYM) Buys $14.2 Million More Apple on Monday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-spdr-portfolio-p-110543019.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:05 ET",
-        "pub_ts": 1795604743.0
-      },
-      {
-        "title": "State Street Technology SPDR (XLK) Adds Apple and Nvidia on Monday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-technology-spdr-xlk-110536754.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:05 ET",
-        "pub_ts": 1795604736.0
       }
     ],
     "PLTR": [
@@ -1569,6 +1569,13 @@
     ],
     "BE": [
       {
+        "title": "Bloom Energy Joins Nashville Firefighters to Support Local Students and Families Ahead of Tennessee-Vanderbilt Matchup",
+        "url": "https://finance.yahoo.com/energy/articles/bloom-energy-joins-nashville-firefighters-151200024.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:12 ET",
+        "pub_ts": 1795619520.0
+      },
+      {
         "title": "Oklo Sinks 14% in a Week, NuScale Down 19%, as the AI Selloff Hits Nuclear Stocks. Time to Buy?",
         "url": "https://www.tikr.com/blog/oklo-sinks-14-in-a-week-nuscale-down-19-as-the-ai-selloff-hits-nuclear-stocks-time-to-buy?ref=yahoofinance&tlnk=yf-261125-qw7frcvg&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1595,13 +1602,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 12:45 ET",
         "pub_ts": 1795542338.0
-      },
-      {
-        "title": "FuelCell Energy Tumbles 10%, Bloom Energy Sinks 8% as Monday’s AI Power Rally Fades; Plug Power Drops 5%",
-        "url": "https://247wallst.com/investing/2026/11/24/fuelcell-energy-tumbles-10-bloom-energy-sinks-8-as-mondays-ai-power-rally-fades-plug-power-drops-5/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:54 ET",
-        "pub_ts": 1795535640.0
       }
     ],
     "CRDO": [
@@ -1694,6 +1694,13 @@
         "pub_ts": 1795603771.0
       },
       {
+        "title": "Lumentum Has Lost 42% Since October 28 Despite Its Best Quarter Ever. Marvell’s Stock Is Why",
+        "url": "https://www.tikr.com/blog/lumentum-has-lost-42-since-october-28-despite-its-best-quarter-ever-marvells-stock-is-why?ref=yahoofinance&tlnk=yf-261125-mgqw8383&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 03:39 ET",
+        "pub_ts": 1795595940.0
+      },
+      {
         "title": "Stephanie Link Says Marvell Could Earn $30 a Share by 2031. Is She Right?",
         "url": "https://247wallst.com/investing/2026/11/24/stephanie-link-says-marvell-could-earn-30-a-share-by-2031-is-she-right/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1706,13 +1713,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 16:45 ET",
         "pub_ts": 1795556702.0
-      },
-      {
-        "title": "Why Marvell Stock Is Moving With Nvidia Fueled AI Chip Optimism",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-marvell-stock-moving-nvidia-181152431.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 13:11 ET",
-        "pub_ts": 1795543912.0
       }
     ],
     "LITE": [
@@ -3197,6 +3197,13 @@
     ],
     "GLW": [
       {
+        "title": "Corning (GLW) Rides AI Optimism On A Narrative That Still Sees It Undervalued",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/corning-glw-rides-ai-optimism-151209714.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:12 ET",
+        "pub_ts": 1795619529.0
+      },
+      {
         "title": "Is Most-Watched Stock Owens Corning Inc (OC) Worth Betting on Now?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/most-watched-stock-owens-corning-130004945.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3223,13 +3230,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 12:02 ET",
         "pub_ts": 1795453362.0
-      },
-      {
-        "title": "Why Is Knowles (KN) Stock Down Today? Tech Selloff Hits Component Makers",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-knowles-kn-stock-down-163101980.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:31 ET",
-        "pub_ts": 1795537861.0
       }
     ],
     "ANT": [
@@ -3334,30 +3334,30 @@
     "SOXS": 1795619804.3499985,
     "NVDA": 1795619804.3499985,
     "AMD": 1795619804.3499985,
-    "ASML": 1795619273.1052902,
-    "QCOM": 1795619273.1052902,
-    "AVGO": 1795619273.1052902,
-    "AMAT": 1795619273.1052902,
-    "META": 1795619273.1052902,
-    "GOOGL": 1795619273.1052902,
-    "MSFT": 1795619273.1052902,
-    "AAPL": 1795619273.1052902,
-    "PLTR": 1795619273.1052902,
-    "NOW": 1795619273.1052902,
-    "AMZN": 1795619273.1052902,
-    "CRWV": 1795619273.1052902,
-    "NBIS": 1795619273.1052902,
-    "APLD": 1795619273.1052902,
-    "VST": 1795619273.1052902,
-    "BE": 1795619273.1052902,
-    "CRDO": 1795619273.1052902,
-    "COHR": 1795619273.1052902,
-    "MRVL": 1795619273.1052902,
-    "LITE": 1795619273.1052902,
-    "AAOI": 1795619273.1052902,
-    "SPCX": 1795619273.1052902,
+    "ASML": 1795620866.5510201,
+    "QCOM": 1795620866.5510201,
+    "AVGO": 1795620866.5510201,
+    "AMAT": 1795620866.5510201,
+    "META": 1795620866.5510201,
+    "GOOGL": 1795620866.5510201,
+    "MSFT": 1795620866.5510201,
+    "AAPL": 1795620866.5510201,
+    "PLTR": 1795620866.5510201,
+    "NOW": 1795620866.5510201,
+    "AMZN": 1795620866.5510201,
+    "CRWV": 1795620866.5510201,
+    "NBIS": 1795620866.5510201,
+    "APLD": 1795620866.5510201,
+    "VST": 1795620866.5510201,
+    "BE": 1795620866.5510201,
+    "CRDO": 1795620866.5510201,
+    "COHR": 1795620866.5510201,
+    "MRVL": 1795620866.5510201,
+    "LITE": 1795620866.5510201,
+    "AAOI": 1795620866.5510201,
+    "SPCX": 1795620866.5510201,
     "ASTS": 1795619697.8769758,
-    "AXTI": 1795619273.1052902,
+    "AXTI": 1795620866.5510201,
     "NASA": 1795619697.8769758,
     "LUNR": 1795619697.8769758,
     "TSLA": 1795619697.8769758,
@@ -3392,8 +3392,8 @@
     "WMT": 1795619911.0375345,
     "V": 1795619804.3499985,
     "CAT": 1795619911.0375345,
-    "FN": 1795619273.1052902,
-    "GLW": 1795619273.1052902,
+    "FN": 1795620866.5510201,
+    "GLW": 1795620866.5510201,
     "ANT": 1795619911.0375345,
     "XAUUSD": 1795619911.0375345,
     "KOSPI": 1795619804.3499985
