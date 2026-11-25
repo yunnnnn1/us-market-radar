@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795650699.703,
-  "updated_at_et": "11-25 18:51 ET",
-  "updated_at_kst": "08:51 KST",
+  "updated_at_ts": 1795650795.832,
+  "updated_at_et": "11-25 18:53 ET",
+  "updated_at_kst": "08:53 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -943,6 +943,13 @@
     ],
     "NVDA": [
       {
+        "title": "Dow Jones Futures: Market Goes On Wild Ride. Nasdaq, Nvidia Slash Losses While Anthropic Reverses Higher.",
+        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures%3A-market.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 18:45 ET",
+        "pub_ts": 1795650339.0
+      },
+      {
         "title": "'Big Short' Investor Michael Burry Just Closed His Bet Against the Nasdaq. Here's What Investors Should Do Now",
         "url": "https://www.fool.com/investing/2026/11/25/big-short-investor-michael-burry-just-closed-his-bet-against-the-nasdaq-here-s-what-investors-should-do-now/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -955,13 +962,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 18:18 ET",
         "pub_ts": 1795648685.0
-      },
-      {
-        "title": "Dow Jones Futures: Market Goes On Wild Ride. Nasdaq, Nvidia Slash Losses While Anthropic Reverses Higher.",
-        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures%3A-market.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 18:12 ET",
-        "pub_ts": 1795648326.0
       },
       {
         "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
@@ -2793,13 +2793,6 @@
     ],
     "LLY": [
       {
-        "title": "Dow Jones Futures: Market Goes On Wild Ride. Nasdaq, Nvidia Slash Losses While Anthropic Reverses Higher.",
-        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures%3A-market.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 18:12 ET",
-        "pub_ts": 1795648326.0
-      },
-      {
         "title": "Sector Update: Healthcare Stocks Fall Late Afternoon",
         "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-fall-afternoon-205719060.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2826,6 +2819,13 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:07 ET",
         "pub_ts": 1795619228.0
+      },
+      {
+        "title": "Market Chatter: Novo Nordisk and Eli Lilly Prepare New Warning Labels for GLP-1 Drugs Over Eye Condition Risk",
+        "url": "https://finance.yahoo.com/healthcare/articles/market-chatter-novo-nordisk-eli-132230427.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 08:22 ET",
+        "pub_ts": 1795612950.0
       }
     ],
     "MRNA": [
@@ -3320,23 +3320,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795649260.4670765,
-    "SOXL": 1795649260.4670765,
-    "SPY": 1795649260.4670765,
-    "DIA": 1795649260.4670765,
-    "SOXX": 1795649260.4670765,
-    "QQQ": 1795649260.4670765,
-    "SMH": 1795649260.4670765,
-    "IWM": 1795649260.4670765,
-    "IGV": 1795649260.4670765,
-    "TLT": 1795649260.4670765,
-    "GLD": 1795649260.4670765,
-    "SQQQ": 1795649260.4670765,
-    "TSM": 1795649260.4670765,
-    "VIXY": 1795649260.4670765,
-    "SOXS": 1795649260.4670765,
-    "NVDA": 1795649260.4670765,
-    "AMD": 1795649260.4670765,
+    "KORU": 1795650795.8320944,
+    "SOXL": 1795650795.8320944,
+    "SPY": 1795650795.8320944,
+    "DIA": 1795650795.8320944,
+    "SOXX": 1795650795.8320944,
+    "QQQ": 1795650795.8320944,
+    "SMH": 1795650795.8320944,
+    "IWM": 1795650795.8320944,
+    "IGV": 1795650795.8320944,
+    "TLT": 1795650795.8320944,
+    "GLD": 1795650795.8320944,
+    "SQQQ": 1795650795.8320944,
+    "TSM": 1795650795.8320944,
+    "VIXY": 1795650795.8320944,
+    "SOXS": 1795650795.8320944,
+    "NVDA": 1795650795.8320944,
+    "AMD": 1795650795.8320944,
     "ASML": 1795649451.427661,
     "QCOM": 1795649451.427661,
     "AVGO": 1795649451.427661,
@@ -3385,21 +3385,21 @@
     "CRWD": 1795650699.7030592,
     "ORCL": 1795650699.7030592,
     "COIN": 1795650699.7030592,
-    "LLY": 1795649260.4670765,
-    "MRNA": 1795649260.4670765,
-    "NKE": 1795649260.4670765,
-    "MCD": 1795649260.4670765,
-    "PEP": 1795649260.4670765,
+    "LLY": 1795650795.8320944,
+    "MRNA": 1795650795.8320944,
+    "NKE": 1795650795.8320944,
+    "MCD": 1795650795.8320944,
+    "PEP": 1795650795.8320944,
     "XOM": 1795649451.427661,
-    "JPM": 1795649260.4670765,
+    "JPM": 1795650795.8320944,
     "WMT": 1795649451.427661,
-    "V": 1795649260.4670765,
+    "V": 1795650795.8320944,
     "CAT": 1795649451.427661,
     "FN": 1795649547.443754,
     "GLW": 1795649547.443754,
     "ANT": 1795649451.427661,
     "XAUUSD": 1795649451.427661,
-    "KOSPI": 1795649260.4670765
+    "KOSPI": 1795650795.8320944
   },
   "opex_shield": {
     "date": "2026-11-25",
