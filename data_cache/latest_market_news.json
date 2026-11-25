@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795621397.546,
-  "updated_at_et": "11-25 10:43 ET",
-  "updated_at_kst": "00:43 KST",
+  "updated_at_ts": 1795621512.995,
+  "updated_at_et": "11-25 10:45 ET",
+  "updated_at_kst": "00:45 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -3063,6 +3063,13 @@
         "pub_ts": 1795617735.0
       },
       {
+        "title": "Tariffs Strike Again: Trump Announces Tariffs Up to 20% on China and the EU. Walmart Already Navigated “Over $2 Billion”",
+        "url": "https://www.tikr.com/blog/tariffs-strike-again-trump-announces-tariffs-up-to-20-on-china-and-the-eu-walmart-already-navigated-over-2-billion?ref=yahoofinance&tlnk=yf-261125-xwhcj63q&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:30 ET",
+        "pub_ts": 1795620641.0
+      },
+      {
         "title": "Global Retail Pharmacy Market Report 2026: Size, Trends, and Forecast to 2030 | Capitalize on AI and Automation as Walmart, Amazon, CVS Health, and Costco Scale Digital Care",
         "url": "https://finance.yahoo.com/healthcare/articles/global-retail-pharmacy-market-report-143600337.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3075,13 +3082,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 09:07 ET",
         "pub_ts": 1795615639.0
-      },
-      {
-        "title": "Top 3 holiday consumer stocks: Walmart, Hasbro, and Ulta Beauty",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/top-3-holiday-consumer-stocks-132110158.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:21 ET",
-        "pub_ts": 1795612870.0
       }
     ],
     "V": [
@@ -3234,39 +3234,39 @@
     ],
     "ANT": [
       {
-        "title": "AI Angst Undercuts Asian Stock Markets",
-        "url": "https://finnhub.io/api/news?id=c05db7d7f6d87fb7b1ef664406bd11d8b702bc57175e3fd9bdb1f8ddbbe6d214",
-        "source": "Yahoo",
-        "time": "11-25 05:42 ET",
-        "pub_ts": 1795603346.0
+        "title": "Dan Ives: Anthropic's missteps could help OpenAI's IPO",
+        "url": "https://finance.yahoo.com/video/dan-ives-anthropics-missteps-could-help-openais-ipo-152054891.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:20 ET",
+        "pub_ts": 1795620054.0
       },
       {
-        "title": "Google Is Turning AI Performance Into a Price War Anthropic Can’t Ignore",
-        "url": "https://finnhub.io/api/news?id=f4220ed77d8015c133bda3a4392be2bc42dd341909d786bc05c5ed591118d829",
-        "source": "Benzinga",
-        "time": "11-25 05:38 ET",
-        "pub_ts": 1795603102.0
+        "title": "Anthropic stock sinks below IPO price: What's next?",
+        "url": "https://finance.yahoo.com/video/anthropic-stock-sinks-below-ipo-price-whats-next-144530292.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:45 ET",
+        "pub_ts": 1795617930.0
       },
       {
-        "title": "Anthropic launches Claude Ship beta to support developer workflows",
-        "url": "https://finnhub.io/api/news?id=30ba283ecfb044a2a8d9e13c6bc4b1593db2994e1e2004e957afac838df1c79a",
-        "source": "Yahoo",
-        "time": "11-25 05:28 ET",
-        "pub_ts": 1795602530.0
+        "title": "TeraWulf’s $19 Billion Anthropic Deal: “That Debt Is Guaranteed by Google.” That’s a Big Risk for Alphabet",
+        "url": "https://www.tikr.com/blog/terawulfs-19-billion-anthropic-deal-that-debt-is-guaranteed-by-google-thats-a-big-risk-for-alphabet?ref=yahoofinance&tlnk=yf-261125-gpcr4r7f&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:36 ET",
+        "pub_ts": 1795621002.0
       },
       {
-        "title": "Anthropic stock sinks further below IPO price as investors sour on the Amodei AI bet",
-        "url": "https://finnhub.io/api/news?id=ca2cffddd18a8ab4eff5c6208c93ad0aa41b78138cff9dea87350d2108f4b5b0",
-        "source": "Yahoo",
-        "time": "11-25 05:09 ET",
-        "pub_ts": 1795601358.0
+        "title": "Options Now Available on ANUU, ANDD & ANSS: Leverage Shares by Themes 2X Long, 2X Short and 1X Short Anthropic (ANT) ETFs",
+        "url": "https://finance.yahoo.com/markets/options/articles/options-now-available-anuu-andd-152800070.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:28 ET",
+        "pub_ts": 1795620480.0
       },
       {
-        "title": "'Chinese AI Firms Confront Dire Future as U.S. Tightens Access to Chips and Tokens' -The Information",
-        "url": "https://finnhub.io/api/news?id=a60c5499a26b31c141eb409ce966ae81d7f53dbe9efa0113991064de70520568",
-        "source": "Benzinga",
-        "time": "11-25 05:04 ET",
-        "pub_ts": 1795601045.0
+        "title": "Cathie Wood Makes a Stunning $61.6 Million Bet on a Beaten-Down AI Stock",
+        "url": "https://finance.yahoo.com/technology/ai/articles/cathie-wood-makes-stunning-61-151027940.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:10 ET",
+        "pub_ts": 1795619427.0
       }
     ],
     "XAUUSD": [
@@ -3387,15 +3387,15 @@
     "NKE": 1795621397.546281,
     "MCD": 1795621397.546281,
     "PEP": 1795621397.546281,
-    "XOM": 1795619911.0375345,
+    "XOM": 1795621512.9946344,
     "JPM": 1795621397.546281,
-    "WMT": 1795619911.0375345,
+    "WMT": 1795621512.9946344,
     "V": 1795621397.546281,
-    "CAT": 1795619911.0375345,
+    "CAT": 1795621512.9946344,
     "FN": 1795620866.5510201,
     "GLW": 1795620866.5510201,
-    "ANT": 1795619911.0375345,
-    "XAUUSD": 1795619911.0375345,
+    "ANT": 1795621512.9946344,
+    "XAUUSD": 1795621512.9946344,
     "KOSPI": 1795621397.546281
   },
   "opex_shield": {
