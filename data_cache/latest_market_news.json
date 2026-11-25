@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795588175.537,
-  "updated_at_et": "11-25 01:29 ET",
-  "updated_at_kst": "15:29 KST",
+  "updated_at_ts": 1795588278.074,
+  "updated_at_et": "11-25 01:31 ET",
+  "updated_at_kst": "15:31 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -17,7 +17,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 421,
+      "minutes_left": 419,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -36,7 +36,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 421,
+      "minutes_left": 419,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -2647,6 +2647,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "Bitcoin Miner Turned AI Landlord TeraWulf Says Selloff Hits Price, Not Demand",
+        "url": "https://beincrypto.com/terawulf-ceo-tech-selloff-price-demand/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 00:24 ET",
+        "pub_ts": 1795584271.0
+      },
+      {
         "title": "BlackRock Says Markets Overprice Fed Hikes: Will Bitcoin Catch a Break?",
         "url": "https://beincrypto.com/blackrock-fed-hikes-bitcoin-relief/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2673,13 +2680,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 21:00 ET",
         "pub_ts": 1795572000.0
-      },
-      {
-        "title": "Ray Dalio Explains Why Gold Beats Crypto While Holding Some Bitcoin",
-        "url": "https://beincrypto.com/ray-dalio-gold-crypto-bitcoin-stake/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 19:50 ET",
-        "pub_ts": 1795567830.0
       }
     ],
     "CRWD": [
@@ -2758,6 +2758,13 @@
     ],
     "COIN": [
       {
+        "title": "SpaceX, Anthropic IPOs Shut Out Retail Investors, Says Coinbase CEO — Brian Armstrong Resumes Buying Back COIN Shares",
+        "url": "https://stocktwits.com/news-articles/markets/equity/space-x-anthropic-ip-os-shut-out-retail-investors-says-coinbase-ceo-brian-armstrong-resumes-buying-back-coin-shares/cNbHdA0R9lS?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 01:01 ET",
+        "pub_ts": 1795586504.0
+      },
+      {
         "title": "HOOD, COIN Get Wedbush Outperform Ratings: Here’s What The Firm Sees In Fintech’s Next Growth Phase",
         "url": "https://stocktwits.com/news-articles/markets/equity/robinhood-coinbase-circle-block-wedbush-price-targets-fintech-growth/cNbHcXzR9lX?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2784,13 +2791,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:30 ET",
         "pub_ts": 1795537849.0
-      },
-      {
-        "title": "Could Coinbase Actually Climb 70%? Or Is Goldman Sachs Totally Wrong?",
-        "url": "https://www.tikr.com/blog/could-coinbase-actually-climb-70-or-is-goldman-sachs-totally-wrong?ref=yahoofinance&tlnk=yf-261124-3g59p4hf&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:58 ET",
-        "pub_ts": 1795532312.0
       }
     ],
     "LLY": [
@@ -3361,32 +3361,32 @@
     "LITE": 1795588070.5268176,
     "AAOI": 1795588070.5268176,
     "SPCX": 1795588070.5268176,
-    "ASTS": 1795586701.5591552,
+    "ASTS": 1795588278.073936,
     "AXTI": 1795588070.5268176,
-    "NASA": 1795586701.5591552,
-    "LUNR": 1795586701.5591552,
-    "TSLA": 1795586701.5591552,
-    "AXP": 1795586701.5591552,
-    "RKLB": 1795586701.5591552,
-    "KO": 1795586701.5591552,
-    "FLY": 1795586701.5591552,
-    "INTC": 1795586701.5591552,
-    "VRT": 1795586701.5591552,
-    "HPE": 1795586701.5591552,
-    "DELL": 1795586701.5591552,
-    "OKLO": 1795586701.5591552,
-    "CEG": 1795586701.5591552,
-    "FPS": 1795586701.5591552,
-    "MU": 1795586701.5591552,
-    "SKHY": 1795586701.5591552,
-    "WDC": 1795586701.5591552,
-    "STX": 1795586701.5591552,
-    "MSTR": 1795586701.5591552,
-    "SNDK": 1795586701.5591552,
-    "BTC-USD": 1795586701.5591552,
-    "CRWD": 1795586701.5591552,
-    "ORCL": 1795586701.5591552,
-    "COIN": 1795586701.5591552,
+    "NASA": 1795588278.073936,
+    "LUNR": 1795588278.073936,
+    "TSLA": 1795588278.073936,
+    "AXP": 1795588278.073936,
+    "RKLB": 1795588278.073936,
+    "KO": 1795588278.073936,
+    "FLY": 1795588278.073936,
+    "INTC": 1795588278.073936,
+    "VRT": 1795588278.073936,
+    "HPE": 1795588278.073936,
+    "DELL": 1795588278.073936,
+    "OKLO": 1795588278.073936,
+    "CEG": 1795588278.073936,
+    "FPS": 1795588278.073936,
+    "MU": 1795588278.073936,
+    "SKHY": 1795588278.073936,
+    "WDC": 1795588278.073936,
+    "STX": 1795588278.073936,
+    "MSTR": 1795588278.073936,
+    "SNDK": 1795588278.073936,
+    "BTC-USD": 1795588278.073936,
+    "CRWD": 1795588278.073936,
+    "ORCL": 1795588278.073936,
+    "COIN": 1795588278.073936,
     "LLY": 1795586811.519506,
     "MRNA": 1795586811.519506,
     "NKE": 1795586811.519506,
@@ -3419,10 +3419,10 @@
   },
   "calendar_banner": {
     "level": "upcoming",
-    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 421 分钟（11-25 08:30 ET / 22:30 KST）",
+    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 419 分钟（11-25 08:30 ET / 22:30 KST）",
     "detail": "前值 0.3% ｜ 预期 0.3% ｜ 临近公布前15分钟将自动触发防插针预警",
     "event_name": "美国10月核心PCE物价指数环比",
-    "minutes_left": 421,
+    "minutes_left": 419,
     "opex_shield": {
       "date": "2026-11-25",
       "active": false,
