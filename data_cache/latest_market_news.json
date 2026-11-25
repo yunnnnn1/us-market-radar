@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795594153.283,
-  "updated_at_et": "11-25 03:09 ET",
-  "updated_at_kst": "17:09 KST",
+  "updated_at_ts": 1795594258.753,
+  "updated_at_et": "11-25 03:10 ET",
+  "updated_at_kst": "17:10 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -17,7 +17,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 321,
+      "minutes_left": 320,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -36,13 +36,26 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 321,
+      "minutes_left": 320,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
     }
   ],
   "macro_flashes": [
+    {
+      "id": "20261125160855559800",
+      "title": "港股收盘，恒生指数收跌1.14%，恒生科技指数收跌2.56%；芯片、光通信、锂电池、PC…",
+      "summary": "港股收盘，恒生指数收跌1.14%，恒生科技指数收跌2.56%；芯片、光通信、锂电池、PCB等板块跌幅居前；宁德时代(03750.HK)跌超12%。",
+      "keywords": [
+        "芯片"
+      ],
+      "pub_ts": 1795594135.0,
+      "time_et": "11-25 03:08 ET",
+      "time_bj": "16:08 BJ",
+      "time_kst": "17:08 KST",
+      "time_display": "03:08 ET / 16:08 BJ"
+    },
     {
       "id": "20261125155814517800",
       "title": "【期货盯盘神器专属文章】欧美盘中关注：芯片股在纽约和首尔重挫，AI行情的脆弱性尽显；油金…",
@@ -372,19 +385,6 @@
       "time_bj": "10:22 BJ",
       "time_kst": "11:22 KST",
       "time_display": "21:22 ET / 10:22 BJ"
-    },
-    {
-      "id": "20261125102151573800",
-      "title": "纳指期货跌超1%，标普500指数期货跌0.62%，道琼斯指数期货跌0.39%。",
-      "summary": "纳指期货跌超1%，标普500指数期货跌0.62%，道琼斯指数期货跌0.39%。",
-      "keywords": [
-        "标普"
-      ],
-      "pub_ts": 1795573311.0,
-      "time_et": "11-24 21:21 ET",
-      "time_bj": "10:21 BJ",
-      "time_kst": "11:21 KST",
-      "time_display": "21:21 ET / 10:21 BJ"
     }
   ],
   "ticker_news": {
@@ -3419,10 +3419,10 @@
   },
   "calendar_banner": {
     "level": "upcoming",
-    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 321 分钟（11-25 08:30 ET / 22:30 KST）",
+    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 320 分钟（11-25 08:30 ET / 22:30 KST）",
     "detail": "前值 0.3% ｜ 预期 0.3% ｜ 临近公布前15分钟将自动触发防插针预警",
     "event_name": "美国10月核心PCE物价指数环比",
-    "minutes_left": 321,
+    "minutes_left": 320,
     "opex_shield": {
       "date": "2026-11-25",
       "active": false,
