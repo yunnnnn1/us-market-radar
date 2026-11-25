@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795619697.877,
-  "updated_at_et": "11-25 10:14 ET",
-  "updated_at_kst": "00:14 KST",
+  "updated_at_ts": 1795619804.35,
+  "updated_at_et": "11-25 10:16 ET",
+  "updated_at_kst": "00:16 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -481,6 +481,13 @@
         "pub_ts": 1795604617.0
       },
       {
+        "title": "Dow Craters Over 1000 Points, Nasdaq Slips 4% As AI Trade Unravels – Investors Digest PCE Inflation, Fresh Tariff Proposal",
+        "url": "https://stocktwits.com/news-articles/markets/equity/dow-craters-over-1000-points-nasdaq-slips-4-as-ai-trade-unravels-investors-digest-pce-inflation-fresh-tariff-proposal/cNbHjJvR9mj?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:05 ET",
+        "pub_ts": 1795619103.0
+      },
+      {
         "title": "Is A 4.7% S&P Jump A Good Sign?",
         "url": "https://www.trefis.com/stock/spy/articles/628687/is-a-4-7-s-p-jump-a-good-sign/2026-11-25?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -493,13 +500,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:02 ET",
         "pub_ts": 1795604530.0
-      },
-      {
-        "title": "ETFs Are Buying Extra Space Storage (EXR) on Nov. 23",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-extra-space-storage-110204240.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:02 ET",
-        "pub_ts": 1795604524.0
       }
     ],
     "DIA": [
@@ -599,18 +599,18 @@
         "pub_ts": 1795543833.0
       },
       {
+        "title": "Stock Market Today: Dow Dives 700 Points As Nvidia Sells Off, Inflation Rises; Anthropic Sinks (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow-dives.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:50 ET",
+        "pub_ts": 1795618250.0
+      },
+      {
         "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Wednesday Amid Inflation Data Release",
         "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140441647.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 09:04 ET",
         "pub_ts": 1795615481.0
-      },
-      {
-        "title": "Stock Market Today: Dow Dives On Surprise Inflation Data; Nvidia, Anthropic Plunge (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow-dives.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:54 ET",
-        "pub_ts": 1795614871.0
       }
     ],
     "SMH": [
@@ -726,6 +726,13 @@
     ],
     "TLT": [
       {
+        "title": "Ed Yardeni Wants Double the Fed Rate Hike the Market Expects",
+        "url": "https://247wallst.com/investing/2026/11/25/ed-yardeni-wants-double-the-fed-rate-hike-the-market-expects/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:52 ET",
+        "pub_ts": 1795618375.0
+      },
+      {
         "title": "Bessent Warns the Fed Could Be Making a “Policy Mistake” if It Over-Tightens",
         "url": "https://247wallst.com/investing/2026/11/24/bessent-warns-the-fed-could-be-making-a-policy-mistake-if-it-over-tightens/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -752,13 +759,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:52 ET",
         "pub_ts": 1795531942.0
-      },
-      {
-        "title": "How Much Do You Really Need Invested to Replace a $195,000 Salary With Dividends?",
-        "url": "https://247wallst.com/personal-finance/2026/11/23/how-much-do-you-really-need-invested-to-replace-a-195000-salary-with-dividends/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 14:55 ET",
-        "pub_ts": 1795463729.0
       }
     ],
     "GLD": [
@@ -948,39 +948,39 @@
     ],
     "NVDA": [
       {
-        "title": "Trump: Pardoning Jensen Huang is 'always an option'",
-        "url": "https://finance.yahoo.com/video/trump-pardoning-jensen-huang-is-always-an-option-144101609.html?.tsrc=rss",
+        "title": "Dan Ives: Nvidia sell-off a 'growth scare,' not a demand problem",
+        "url": "https://finance.yahoo.com/video/dan-ives-nvidia-sell-off-a-growth-scare-not-a-demand-problem-151140023.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 09:41 ET",
-        "pub_ts": 1795617661.0
+        "time": "11-25 10:11 ET",
+        "pub_ts": 1795619500.0
       },
       {
-        "title": "Are Stablecoins a Threat to Visa and Mastercard?",
-        "url": "https://www.fool.com/investing/2026/11/25/are-stablecoins-a-threat-to-visa-and-mastercard/?.tsrc=rss",
+        "title": "5 reasons Nvidia stock is stumbling",
+        "url": "https://finance.yahoo.com/video/5-reasons-nvidia-stock-is-stumbling-145638309.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 09:41 ET",
-        "pub_ts": 1795617662.0
+        "time": "11-25 09:56 ET",
+        "pub_ts": 1795618598.0
       },
       {
-        "title": "Trump Floats an Intel-Style Nvidia Stake. 10% Would Cost the Government $375 Billion",
-        "url": "https://247wallst.com/investing/2026/11/25/trump-floats-an-intel-style-nvidia-stake-10-would-cost-the-government-375-billion/?.tsrc=rss",
+        "title": "The $2 trillion chip rally is getting wiped out — here's what history says comes next",
+        "url": "https://finance.yahoo.com/markets/article/the-2-trillion-chip-rally-is-getting-wiped-out--heres-what-history-says-comes-next-145306996.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 09:28 ET",
-        "pub_ts": 1795616933.0
+        "time": "11-25 09:53 ET",
+        "pub_ts": 1795618386.0
       },
       {
-        "title": "TSMC Has a 'Substantially Wider Moat' Than Nvidia, Says Investor Joseph Carlson",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63621669/joseph-carlson-tsmc-nvidia-moat?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "title": "10 things fueling this nasty market pullback",
+        "url": "https://finance.yahoo.com/video/10-things-fueling-this-nasty-market-pullback-144906243.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 09:28 ET",
-        "pub_ts": 1795616919.0
+        "time": "11-25 09:49 ET",
+        "pub_ts": 1795618146.0
       },
       {
-        "title": "Wall Street Futures Point to Sharp Losses as Technology Stocks Face Renewed Selling Pressure: Dow Jones, S&P, Nasdaq",
-        "url": "https://investorshub.advfn.com/market-news/article/40723/wall-street-futures-point-to-sharp-losses-as-technology-stocks-face-renewed-selling-pressure-dow-jones-sp-nasdaq?.tsrc=rss",
+        "title": "Why Nvidia (NVDA) Stock Is Falling Today: Tech and Chip Selloff",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-nvidia-nvda-stock-falling-150041901.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 09:22 ET",
-        "pub_ts": 1795616530.0
+        "time": "11-25 10:00 ET",
+        "pub_ts": 1795618841.0
       }
     ],
     "AMD": [
@@ -2798,6 +2798,13 @@
     ],
     "LLY": [
       {
+        "title": "Update: Market Chatter: Novo Nordisk and Eli Lilly Prepare New Warning Labels for GLP-1 Drugs Over Eye Condition Risk",
+        "url": "https://finance.yahoo.com/healthcare/articles/market-chatter-novo-nordisk-eli-150708947.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:07 ET",
+        "pub_ts": 1795619228.0
+      },
+      {
         "title": "Market Chatter: Novo Nordisk and Eli Lilly Prepare New Warning Labels for GLP-1 Drugs Over Eye Condition Risk",
         "url": "https://finance.yahoo.com/healthcare/articles/market-chatter-novo-nordisk-eli-132230427.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2824,13 +2831,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:35 ET",
         "pub_ts": 1795534502.0
-      },
-      {
-        "title": "State Street Health Care SPDR (XLV) Sells Eli Lilly and J&J on Friday",
-        "url": "https://finance.yahoo.com/healthcare/articles/state-street-health-care-spdr-110402940.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 06:04 ET",
-        "pub_ts": 1795518242.0
       }
     ],
     "MRNA": [
@@ -3325,23 +3325,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795618209.6566267,
-    "SOXL": 1795618209.6566267,
-    "SPY": 1795618209.6566267,
-    "DIA": 1795618209.6566267,
-    "SOXX": 1795618209.6566267,
-    "QQQ": 1795618209.6566267,
-    "SMH": 1795618209.6566267,
-    "IWM": 1795618209.6566267,
-    "IGV": 1795618209.6566267,
-    "TLT": 1795618209.6566267,
-    "GLD": 1795618209.6566267,
-    "SQQQ": 1795618209.6566267,
-    "TSM": 1795618209.6566267,
-    "VIXY": 1795618209.6566267,
-    "SOXS": 1795618209.6566267,
-    "NVDA": 1795618209.6566267,
-    "AMD": 1795618209.6566267,
+    "KORU": 1795619804.3499985,
+    "SOXL": 1795619804.3499985,
+    "SPY": 1795619804.3499985,
+    "DIA": 1795619804.3499985,
+    "SOXX": 1795619804.3499985,
+    "QQQ": 1795619804.3499985,
+    "SMH": 1795619804.3499985,
+    "IWM": 1795619804.3499985,
+    "IGV": 1795619804.3499985,
+    "TLT": 1795619804.3499985,
+    "GLD": 1795619804.3499985,
+    "SQQQ": 1795619804.3499985,
+    "TSM": 1795619804.3499985,
+    "VIXY": 1795619804.3499985,
+    "SOXS": 1795619804.3499985,
+    "NVDA": 1795619804.3499985,
+    "AMD": 1795619804.3499985,
     "ASML": 1795619273.1052902,
     "QCOM": 1795619273.1052902,
     "AVGO": 1795619273.1052902,
@@ -3390,21 +3390,21 @@
     "CRWD": 1795619697.8769758,
     "ORCL": 1795619697.8769758,
     "COIN": 1795619697.8769758,
-    "LLY": 1795618209.6566267,
-    "MRNA": 1795618209.6566267,
-    "NKE": 1795618209.6566267,
-    "MCD": 1795618209.6566267,
-    "PEP": 1795618209.6566267,
+    "LLY": 1795619804.3499985,
+    "MRNA": 1795619804.3499985,
+    "NKE": 1795619804.3499985,
+    "MCD": 1795619804.3499985,
+    "PEP": 1795619804.3499985,
     "XOM": 1795618316.0786698,
-    "JPM": 1795618209.6566267,
+    "JPM": 1795619804.3499985,
     "WMT": 1795618316.0786698,
-    "V": 1795618209.6566267,
+    "V": 1795619804.3499985,
     "CAT": 1795618316.0786698,
     "FN": 1795619273.1052902,
     "GLW": 1795619273.1052902,
     "ANT": 1795618316.0786698,
     "XAUUSD": 1795618316.0786698,
-    "KOSPI": 1795618209.6566267
+    "KOSPI": 1795619804.3499985
   },
   "opex_shield": {
     "date": "2026-11-25",
