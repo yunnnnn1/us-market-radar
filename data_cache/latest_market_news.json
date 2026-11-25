@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795584384.861,
-  "updated_at_et": "11-25 00:26 ET",
-  "updated_at_kst": "14:26 KST",
+  "updated_at_ts": 1795584487.227,
+  "updated_at_et": "11-25 00:28 ET",
+  "updated_at_kst": "14:28 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -17,7 +17,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 484,
+      "minutes_left": 482,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -36,7 +36,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 484,
+      "minutes_left": 482,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -624,6 +624,13 @@
         "pub_ts": 1795518582.0
       },
       {
+        "title": "The Semiconductor ETF Kept Falling After Nvidia Raised Its Forecast. Time to Buy?",
+        "url": "https://www.fool.com/investing/2026/11/24/the-semiconductor-etf-kept-falling-after-nvidia-raised-its-forecast-time-to-buy/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 23:57 ET",
+        "pub_ts": 1795582622.0
+      },
+      {
         "title": "Micron Jumped 19% Monday, Then Sank Double Digits. Here’s What That Swing Means for SMH Holders",
         "url": "https://247wallst.com/investing/etf/2026/11/24/micron-jumped-19-monday-then-sank-double-digits-heres-what-that-swing-means-for-smh-holders/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -643,13 +650,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 22:23 ET",
         "pub_ts": 1795490635.0
-      },
-      {
-        "title": "S&P 500, Nasdaq End Best Session Since April Last Year On Optimism Led By Jensen Huang’s Reinstatement — NVDA, NASA, TTWO, AMZN In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-best-session-since-april-on-optimism-led-by-jensen-huang-s-reinstatement-nvda-nasa-ttwo-amzn-in-focus/cNbpKSnR9jY?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 18:33 ET",
-        "pub_ts": 1795476805.0
       }
     ],
     "IWM": [
@@ -950,6 +950,20 @@
     ],
     "NVDA": [
       {
+        "title": "Donald Trump Floats Jensen Huang Pardon, US Stake In Nvidia – But NVDA Loses Momentum",
+        "url": "https://stocktwits.com/news-articles/markets/equity/donald-trump-floats-jensen-huang-pardon-us-stake-in-nvidia-but-nvda-loses-momentum/cNbHPnyR9lL?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 00:20 ET",
+        "pub_ts": 1795584052.0
+      },
+      {
+        "title": "The Semiconductor ETF Kept Falling After Nvidia Raised Its Forecast. Time to Buy?",
+        "url": "https://www.fool.com/investing/2026/11/24/the-semiconductor-etf-kept-falling-after-nvidia-raised-its-forecast-time-to-buy/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 23:57 ET",
+        "pub_ts": 1795582622.0
+      },
+      {
         "title": "COHR Stock Swings After Nvidia-Led AI Rally: $15M Insider Buy Draws Attention",
         "url": "https://stocktwits.com/news-articles/markets/equity/cohr-stock-swings-after-nvidia-led-ai-rally-15-m-insider-buy-draws-attention/cNbHcl8R9lg?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -969,20 +983,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 23:22 ET",
         "pub_ts": 1795580559.0
-      },
-      {
-        "title": "Asian stocks mostly decline as AI shares fall following a retreat on Wall Street",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-mostly-decline-ai-040526833.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 23:05 ET",
-        "pub_ts": 1795579526.0
-      },
-      {
-        "title": "Dow Jones Futures Fall; Trump Says 'Not Too Late' For U.S. To Take Nvidia Stake",
-        "url": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures-fall%3B-trump.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 23:04 ET",
-        "pub_ts": 1795579473.0
       }
     ],
     "AMD": [
@@ -3066,6 +3066,13 @@
         "pub_ts": 1795535048.0
       },
       {
+        "title": "Symbotic: 3 Key Takeaways for Long-Term Investors",
+        "url": "https://www.fool.com/earnings/takeaways/2026/11/24/symbotic-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 00:12 ET",
+        "pub_ts": 1795583550.0
+      },
+      {
         "title": "Walmart’s Robot Warehouse Partner Symbotic Just Had Its First Profitable Year",
         "url": "https://247wallst.com/investing/2026/11/24/walmarts-robot-warehouse-partner-symbotic-just-had-its-first-profitable-year/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3085,13 +3092,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:03 ET",
         "pub_ts": 1795536197.0
-      },
-      {
-        "title": "Target vs. Walmart: Which Consumer Goods Stock Is a Better Buy for 2027?",
-        "url": "https://www.fool.com/coverage/better-buy/2026/11/24/target-vs-walmart-which-consumer-goods-stock-is-a-better-buy-for-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:29 ET",
-        "pub_ts": 1795530547.0
       }
     ],
     "V": [
@@ -3244,6 +3244,13 @@
     ],
     "ANT": [
       {
+        "title": "Investors shut out of Anthropic's IPO may be the lucky ones",
+        "url": "https://www.thestreet.com/investing/anthropic-stock-below-ipo-price-missed-allocation?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 00:03 ET",
+        "pub_ts": 1795582980.0
+      },
+      {
         "title": "Cathie Wood’s ARK Sees ‘Excellent Entry Points’ In AI — ‘Big Short’ Steve Eisman Warns Of Recession If Anthropic Or OpenAI Fails",
         "url": "https://stocktwits.com/news-articles/markets/equity/cathie-wood-ark-excellent-entry-points-ai-steve-eisman-recession-anthropic-openai-fails/cNbHcZ4R9lW?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3270,13 +3277,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 22:20 ET",
         "pub_ts": 1795576810.0
-      },
-      {
-        "title": "Clarivate (CLVT) Shares Just Moved, So What Is Driving Attention Now?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/clarivate-clvt-shares-just-moved-031151386.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 22:11 ET",
-        "pub_ts": 1795576311.0
       }
     ],
     "XAUUSD": [
@@ -3327,23 +3327,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795582935.8282654,
-    "SOXL": 1795582935.8282654,
-    "SPY": 1795582935.8282654,
-    "DIA": 1795582935.8282654,
-    "SOXX": 1795582935.8282654,
-    "QQQ": 1795582935.8282654,
-    "SMH": 1795582935.8282654,
-    "IWM": 1795582935.8282654,
-    "IGV": 1795582935.8282654,
-    "TLT": 1795582935.8282654,
-    "GLD": 1795582935.8282654,
-    "SQQQ": 1795582935.8282654,
-    "TSM": 1795582935.8282654,
-    "VIXY": 1795582935.8282654,
-    "SOXS": 1795582935.8282654,
-    "NVDA": 1795582935.8282654,
-    "AMD": 1795582935.8282654,
+    "KORU": 1795584487.2268078,
+    "SOXL": 1795584487.2268078,
+    "SPY": 1795584487.2268078,
+    "DIA": 1795584487.2268078,
+    "SOXX": 1795584487.2268078,
+    "QQQ": 1795584487.2268078,
+    "SMH": 1795584487.2268078,
+    "IWM": 1795584487.2268078,
+    "IGV": 1795584487.2268078,
+    "TLT": 1795584487.2268078,
+    "GLD": 1795584487.2268078,
+    "SQQQ": 1795584487.2268078,
+    "TSM": 1795584487.2268078,
+    "VIXY": 1795584487.2268078,
+    "SOXS": 1795584487.2268078,
+    "NVDA": 1795584487.2268078,
+    "AMD": 1795584487.2268078,
     "ASML": 1795583244.0038686,
     "QCOM": 1795583244.0038686,
     "AVGO": 1795583244.0038686,
@@ -3396,17 +3396,17 @@
     "MRNA": 1795583661.3927386,
     "NKE": 1795583661.3927386,
     "MCD": 1795583661.3927386,
-    "PEP": 1795582935.8282654,
-    "XOM": 1795582935.8282654,
-    "JPM": 1795582935.8282654,
-    "WMT": 1795582935.8282654,
+    "PEP": 1795584487.2268078,
+    "XOM": 1795584487.2268078,
+    "JPM": 1795584487.2268078,
+    "WMT": 1795584487.2268078,
     "V": 1795583661.3927386,
-    "CAT": 1795582935.8282654,
+    "CAT": 1795584487.2268078,
     "FN": 1795583244.0038686,
     "GLW": 1795583244.0038686,
-    "ANT": 1795582935.8282654,
-    "XAUUSD": 1795582935.8282654,
-    "KOSPI": 1795582935.8282654
+    "ANT": 1795584487.2268078,
+    "XAUUSD": 1795584487.2268078,
+    "KOSPI": 1795584487.2268078
   },
   "opex_shield": {
     "date": "2026-11-25",
@@ -3424,10 +3424,10 @@
   },
   "calendar_banner": {
     "level": "upcoming",
-    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 484 分钟（11-25 08:30 ET / 22:30 KST）",
+    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 482 分钟（11-25 08:30 ET / 22:30 KST）",
     "detail": "前值 0.3% ｜ 预期 0.3% ｜ 临近公布前15分钟将自动触发防插针预警",
     "event_name": "美国10月核心PCE物价指数环比",
-    "minutes_left": 484,
+    "minutes_left": 482,
     "opex_shield": {
       "date": "2026-11-25",
       "active": false,
