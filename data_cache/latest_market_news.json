@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795635381.398,
-  "updated_at_et": "11-25 14:36 ET",
-  "updated_at_kst": "04:36 KST",
+  "updated_at_ts": 1795635487.907,
+  "updated_at_et": "11-25 14:38 ET",
+  "updated_at_kst": "04:38 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1792,6 +1792,13 @@
         "pub_ts": 1795631877.0
       },
       {
+        "title": "Why SpaceX Stock Is Down Today",
+        "url": "https://www.fool.com/investing/2026/11/25/why-spacex-stock-is-down-today/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 14:05 ET",
+        "pub_ts": 1795633502.0
+      },
+      {
         "title": "Billionaire David Tepper Just Loaded Up on SpaceX Stock. Should You Follow His Lead?",
         "url": "https://www.fool.com/investing/2026/11/25/billionaire-david-tepper-just-loaded-up-on-spacex-stock-should-you-follow-his-lead/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1811,13 +1818,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 13:20 ET",
         "pub_ts": 1795630803.0
-      },
-      {
-        "title": "SpaceX gets approval to deploy 1 million satellites for data centers in space",
-        "url": "https://www.independent.co.uk/tech/spacex-data-center-satellites-fcc-starmind-approval-b3091649.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 13:18 ET",
-        "pub_ts": 1795630717.0
       }
     ],
     "ASTS": [
@@ -3347,11 +3347,11 @@
     "CRDO": 1795635381.3981485,
     "COHR": 1795635381.3981485,
     "MRVL": 1795635381.3981485,
-    "LITE": 1795633910.004571,
+    "LITE": 1795635487.9072354,
     "AAOI": 1795635381.3981485,
-    "SPCX": 1795633910.004571,
+    "SPCX": 1795635487.9072354,
     "ASTS": 1795634959.7326298,
-    "AXTI": 1795633910.004571,
+    "AXTI": 1795635487.9072354,
     "NASA": 1795634959.7326298,
     "LUNR": 1795634959.7326298,
     "TSLA": 1795634959.7326298,
@@ -3386,8 +3386,8 @@
     "WMT": 1795635381.3981485,
     "V": 1795635273.963288,
     "CAT": 1795635381.3981485,
-    "FN": 1795633910.004571,
-    "GLW": 1795633910.004571,
+    "FN": 1795635487.9072354,
+    "GLW": 1795635487.9072354,
     "ANT": 1795635381.3981485,
     "XAUUSD": 1795635381.3981485,
     "KOSPI": 1795635273.963288
