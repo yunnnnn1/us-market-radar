@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795615971.688,
-  "updated_at_et": "11-25 09:12 ET",
-  "updated_at_kst": "23:12 KST",
+  "updated_at_ts": 1795616076.361,
+  "updated_at_et": "11-25 09:14 ET",
+  "updated_at_kst": "23:14 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -43,6 +43,20 @@
     }
   ],
   "macro_flashes": [
+    {
+      "id": "20261125221159717800",
+      "title": "沃什想让市场替美联储指路，英伟达事件却给了他当头一棒",
+      "summary": "沃什希望美联储更多观察市场指标来判断经济走势，但英伟达事件显示，市场定价同样可能剧烈波动，如何从中识别长期趋势成为他的政策难题。点击查看...",
+      "keywords": [
+        "美联储",
+        "英伟达"
+      ],
+      "pub_ts": 1795615919.0,
+      "time_et": "11-25 09:11 ET",
+      "time_bj": "22:11 BJ",
+      "time_kst": "23:11 KST",
+      "time_display": "09:11 ET / 22:11 BJ"
+    },
     {
       "id": "20261125220203337800",
       "title": "美国PCE加速升温、GDP增长大超预期！美联储12月加息已成定局",
@@ -374,20 +388,6 @@
       "time_bj": "14:39 BJ",
       "time_kst": "15:39 KST",
       "time_display": "01:39 ET / 14:39 BJ"
-    },
-    {
-      "id": "20261125142153716800",
-      "title": "整理：每日全球大宗商品市场要闻速递（2026-11-25）",
-      "summary": "能源 1. 欧盟追加1710万欧元军事援助，助莫桑比克稳定天然气产区。 2. 挪威国家石油公司Equinor与德国天然气公司VNG签署18年天然气供应协议。 3. 伊拉克总理：已指示库尔德自治区政府，未经石油部批准，不得授权任何石油出口活动。 4. 沙特政府数据显示，9月沙特石油出口增长25.6%；非石油出口（含再出口）同比下降10.8%。 5. 巴克莱：油价仍承压，但市场叙事已从美伊冲突可能即将缓和转向更广泛的避险情绪。没有共同因素能够证明当前石油头寸极度低迷是合理的，并认为油价风险仍偏向上行。 农业/矿业/贵金属 1. 国内金饰克价一夜大跌35元。 2. 乌干达黄金出口额同比翻倍，引发走私质疑。 3. LME收紧大额持仓规则，以应对铝市场逼仓。 4. 法国计划建立稀土储备并鼓励联合采购。 5. 德国工业界联手提议成立关键原材料贸易公司。 6. 世界钢铁协会：10月份全球钢铁产量同比下降1.1%。 7. 南非仅存锰冶炼厂面临关停风险，电价审批成关键。 8. 阿达尼签下10亿美元铜供应协议，降低印度对进口原料依赖。 9. 知情人士：智利国家铜业公司已与部分亚洲买家达成口头协议，将升水定为每吨268美元。 10. LME正准备批准一家印尼大型新建冶炼厂生产的铝进入其仓储交割体系，有望为市场带来额外供应，缓解供应紧张局面。 11. 摩根大通：预计随着美国在2027年转为去库存，铜价将向每吨11000美元迈进。锌的供应限制可能仍将支撑2027年平均价格在每吨3400美元左右。 12. 摩根大通：预计从2027年第一季度起，原油价格走低以及美联储按兵不动，最终将推动金价在2027年第四季度回升至每盎司4500美元，白银则回升至50美元区间中段。",
-      "keywords": [
-        "美联储",
-        "原油"
-      ],
-      "pub_ts": 1795587713.0,
-      "time_et": "11-25 01:21 ET",
-      "time_bj": "14:21 BJ",
-      "time_kst": "15:21 KST",
-      "time_display": "01:21 ET / 14:21 BJ"
     }
   ],
   "ticker_news": {
@@ -1066,6 +1066,13 @@
         "pub_ts": 1795607911.0
       },
       {
+        "title": "A Fund With $3.2 Billion in US Equities Just Bought These 3 Stocks",
+        "url": "https://www.tikr.com/blog/a-fund-with-3-2-billion-in-us-equities-just-bought-these-3-stocks?ref=yahoofinance&tlnk=yf-261125-9vr3h8ww&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 06:28 ET",
+        "pub_ts": 1795606122.0
+      },
+      {
         "title": "ETFs Bought $75.2 Million of Qualcomm (QCOM) on Monday",
         "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-75-2-million-110142939.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1085,16 +1092,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 12:49 ET",
         "pub_ts": 1795542560.0
-      },
-      {
-        "title": "Should Softer Guidance Require Action From Qualcomm Stock Investors",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/softer-guidance-require-action-qualcomm-171618113.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 12:16 ET",
-        "pub_ts": 1795540578.0
       }
     ],
     "AVGO": [
+      {
+        "title": "Does Broadcom's Debt Load Pose a Risk to the Stock's Outlook for FY27?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/does-broadcoms-debt-load-pose-125600461.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 07:56 ET",
+        "pub_ts": 1795611360.0
+      },
       {
         "title": "Broadcom Bought $1 Billion Worth of Anthropic’s IPO, and It Has Tens of Billions More Riding on Its Success.",
         "url": "https://www.fool.com/investing/2026/11/25/broadcom-bought-1-billion-worth-of-anthropic-tens-of-billions-more-riding-on-its-success/?.tsrc=rss",
@@ -1122,13 +1129,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:00 ET",
         "pub_ts": 1795604414.0
-      },
-      {
-        "title": "Billionaire David Tepper Dumped Appaloosa's Stake in AMD and Broadcom and Piled Into an Artificial Intelligence (AI) Stock Trading at 44x Forward Adjusted EPS",
-        "url": "https://www.fool.com/investing/2026/11/25/billionaire-david-tepper-appaloosa-stake-amd-broadcom-artificial-intelligence-ai-stock-trading-44x-forward-eps/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 04:40 ET",
-        "pub_ts": 1795599602.0
       }
     ],
     "AMAT": [
@@ -1221,6 +1221,13 @@
         "pub_ts": 1795608000.0
       },
       {
+        "title": "Data Center Americas 2027 Announces Industry Leaders from AWS, Google, Microsoft, Oracle, CoreWeave and Applied Digital as Featured Speakers",
+        "url": "https://finance.yahoo.com/technology/ai/articles/data-center-americas-2027-announces-140000391.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:00 ET",
+        "pub_ts": 1795615200.0
+      },
+      {
         "title": "Not SpaceX, Not Anthropic: These Are the 2 AI Stocks I Bought During the Sell-Off",
         "url": "https://www.fool.com/investing/2026/11/25/not-spacex-not-anthropic-these-are-the-2-ai-stocks-i-bought-during-the-sell-off/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1233,16 +1240,16 @@
         "source": "Yahoo Finance",
         "time": "11-25 08:10 ET",
         "pub_ts": 1795612223.0
-      },
-      {
-        "title": "Alphabet vs Meta: which stock has the stronger AI position",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-vs-meta-stock-stronger-130448764.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:04 ET",
-        "pub_ts": 1795611888.0
       }
     ],
     "MSFT": [
+      {
+        "title": "Data Center Americas 2027 Announces Industry Leaders from AWS, Google, Microsoft, Oracle, CoreWeave and Applied Digital as Featured Speakers",
+        "url": "https://finance.yahoo.com/technology/ai/articles/data-center-americas-2027-announces-140000391.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:00 ET",
+        "pub_ts": 1795615200.0
+      },
       {
         "title": "Is Microsoft Stock Worth Owning as AI Capex Weighs on Free Cash Flow?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-worth-owning-ai-124000486.html?.tsrc=rss",
@@ -1270,13 +1277,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:43 ET",
         "pub_ts": 1795607017.0
-      },
-      {
-        "title": "iShares Expanded Tech-Software (IGV) Buys $15 Million More Palo Alto on Nov. 23",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-expanded-tech-software-igv-110551099.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:05 ET",
-        "pub_ts": 1795604751.0
       }
     ],
     "AAPL": [
@@ -1318,6 +1318,13 @@
     ],
     "PLTR": [
       {
+        "title": "Palantir’s CEO Alex Karp Sold $75 Million. Co-Founder Peter Thiel Bought $122 Million",
+        "url": "https://247wallst.com/investing/2026/11/25/palantirs-ceo-alex-karp-sold-75-million-co-founder-peter-thiel-bought-122-million/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 08:53 ET",
+        "pub_ts": 1795614827.0
+      },
+      {
         "title": "ETFs Are Net Sellers of Palantir (PLTR) on Monday",
         "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-palantir-pltr-110251086.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1344,13 +1351,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 16:45 ET",
         "pub_ts": 1795556758.0
-      },
-      {
-        "title": "Axon Enterprise vs. Palantir Technologies: Which Law Enforcement Stock Is a Better Buy for 2027?",
-        "url": "https://www.fool.com/coverage/better-buy/2026/11/24/axon-enterprise-vs-palantir-technologies-which-law-enforcement-stock-is-a-better-buy-for-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 15:20 ET",
-        "pub_ts": 1795551602.0
       }
     ],
     "NOW": [
@@ -1392,6 +1392,13 @@
     ],
     "AMZN": [
       {
+        "title": "In partnership with Amazon, Duracell Brings Holiday Magic to Chicago with Power Playland on the Pier",
+        "url": "https://finance.yahoo.com/media-advertising/articles/partnership-amazon-duracell-brings-holiday-140300229.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:03 ET",
+        "pub_ts": 1795615380.0
+      },
+      {
         "title": "Amazon to Launch Online Car Sales in UK in Early 2027",
         "url": "https://finance.yahoo.com/small-business/articles/amazon-launch-online-car-sales-130130091.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1418,16 +1425,16 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:57 ET",
         "pub_ts": 1795607824.0
-      },
-      {
-        "title": "Amazon, Meta Reportedly Discuss Restoring Muse Shopping Bot Access As Advertising Concerns Persist",
-        "url": "https://stocktwits.com/news-articles/markets/equity/amazon-meta-reportedly-discuss-restoring-muse-shopping-bot-access-as-advertising-concerns-persist/cNbHg4eR9m5?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:56 ET",
-        "pub_ts": 1795607779.0
       }
     ],
     "CRWV": [
+      {
+        "title": "Data Center Americas 2027 Announces Industry Leaders from AWS, Google, Microsoft, Oracle, CoreWeave and Applied Digital as Featured Speakers",
+        "url": "https://finance.yahoo.com/technology/ai/articles/data-center-americas-2027-announces-140000391.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:00 ET",
+        "pub_ts": 1795615200.0
+      },
       {
         "title": "The Bond Market Is Flashing a Warning on CoreWeave Stock",
         "url": "https://247wallst.com/investing/2026/11/25/the-bond-market-is-flashing-a-warning-on-coreweave-stock/?.tsrc=rss",
@@ -1455,13 +1462,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:26 ET",
         "pub_ts": 1795606005.0
-      },
-      {
-        "title": "“The Bank of NVIDIA” Is Back. Applied Digital Is the Real Winner",
-        "url": "https://www.tikr.com/blog/the-bank-of-nvidia-is-back-applied-digital-is-the-real-winner?ref=yahoofinance&tlnk=yf-261125-ppwv3gxj&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:20 ET",
-        "pub_ts": 1795605637.0
       }
     ],
     "NBIS": [
@@ -1503,6 +1503,13 @@
     ],
     "APLD": [
       {
+        "title": "Data Center Americas 2027 Announces Industry Leaders from AWS, Google, Microsoft, Oracle, CoreWeave and Applied Digital as Featured Speakers",
+        "url": "https://finance.yahoo.com/technology/ai/articles/data-center-americas-2027-announces-140000391.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:00 ET",
+        "pub_ts": 1795615200.0
+      },
+      {
         "title": "What Made Applied Digital Stock Fall?",
         "url": "https://www.trefis.com/stock/apld/articles/628984/what-made-applied-digital-stock-fall/2026-11-25?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1529,16 +1536,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 12:56 ET",
         "pub_ts": 1795543009.0
-      },
-      {
-        "title": "Why Is Applied Digital Stock Going Up?",
-        "url": "https://www.trefis.com/stock/apld/articles/628619/why-is-applied-digital-stock-going-up/2026-11-24?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:45 ET",
-        "pub_ts": 1795535148.0
       }
     ],
     "VST": [
+      {
+        "title": "Is Trending Stock Vistra Corp. (VST) a Buy Now?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/trending-stock-vistra-corp-vst-130002887.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 08:00 ET",
+        "pub_ts": 1795611602.0
+      },
       {
         "title": "Is Vistra (VST) Still Below Fair Value After Data Center Clarity?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/vistra-vst-still-below-fair-211126773.html?.tsrc=rss",
@@ -1566,13 +1573,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:59 ET",
         "pub_ts": 1795539570.0
-      },
-      {
-        "title": "Midterms provide clarity on data center development: Vistra CEO",
-        "url": "https://www.utilitydive.com/news/vistra-midterms-data-center-ercot-pjm/875626/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:54 ET",
-        "pub_ts": 1795535695.0
       }
     ],
     "BE": [
@@ -3205,6 +3205,13 @@
     ],
     "GLW": [
       {
+        "title": "Is Most-Watched Stock Owens Corning Inc (OC) Worth Betting on Now?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/most-watched-stock-owens-corning-130004945.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 08:00 ET",
+        "pub_ts": 1795611604.0
+      },
+      {
         "title": "Corning Jumped $10. Jim Cramer Had a Lower Price in Mind",
         "url": "https://finance.yahoo.com/markets/stocks/articles/corning-jumped-10-jim-cramer-180300762.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3224,13 +3231,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 12:02 ET",
         "pub_ts": 1795453362.0
-      },
-      {
-        "title": "1 Magnificent Artificial Intelligence (AI) Hardware Stock Down 57% You Might Regret Not Buying on the Dip",
-        "url": "https://www.fool.com/investing/2026/11/20/1-artificial-intelligence-ai-hardware-stock-down-57-regret-not-buying-dip/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-20 05:45 ET",
-        "pub_ts": 1795171502.0
       },
       {
         "title": "Why Is Knowles (KN) Stock Down Today? Tech Selloff Hits Component Makers",
@@ -3342,30 +3342,30 @@
     "SOXS": 1795615019.958787,
     "NVDA": 1795615019.958787,
     "AMD": 1795615019.958787,
-    "ASML": 1795614562.6345942,
-    "QCOM": 1795614562.6345942,
-    "AVGO": 1795614562.6345942,
-    "AMAT": 1795614562.6345942,
-    "META": 1795614562.6345942,
-    "GOOGL": 1795614562.6345942,
-    "MSFT": 1795614562.6345942,
-    "AAPL": 1795614562.6345942,
-    "PLTR": 1795614562.6345942,
-    "NOW": 1795614562.6345942,
-    "AMZN": 1795614562.6345942,
-    "CRWV": 1795614562.6345942,
-    "NBIS": 1795614562.6345942,
-    "APLD": 1795614562.6345942,
-    "VST": 1795614562.6345942,
-    "BE": 1795614562.6345942,
-    "CRDO": 1795614562.6345942,
-    "COHR": 1795614562.6345942,
-    "MRVL": 1795614562.6345942,
-    "LITE": 1795614562.6345942,
-    "AAOI": 1795614562.6345942,
-    "SPCX": 1795614562.6345942,
+    "ASML": 1795616076.3607793,
+    "QCOM": 1795616076.3607793,
+    "AVGO": 1795616076.3607793,
+    "AMAT": 1795616076.3607793,
+    "META": 1795616076.3607793,
+    "GOOGL": 1795616076.3607793,
+    "MSFT": 1795616076.3607793,
+    "AAPL": 1795616076.3607793,
+    "PLTR": 1795616076.3607793,
+    "NOW": 1795616076.3607793,
+    "AMZN": 1795616076.3607793,
+    "CRWV": 1795616076.3607793,
+    "NBIS": 1795616076.3607793,
+    "APLD": 1795616076.3607793,
+    "VST": 1795616076.3607793,
+    "BE": 1795616076.3607793,
+    "CRDO": 1795616076.3607793,
+    "COHR": 1795616076.3607793,
+    "MRVL": 1795616076.3607793,
+    "LITE": 1795616076.3607793,
+    "AAOI": 1795616076.3607793,
+    "SPCX": 1795616076.3607793,
     "ASTS": 1795614913.212797,
-    "AXTI": 1795614562.6345942,
+    "AXTI": 1795616076.3607793,
     "NASA": 1795614913.212797,
     "LUNR": 1795614913.212797,
     "TSLA": 1795614913.212797,
@@ -3400,8 +3400,8 @@
     "WMT": 1795615125.205336,
     "V": 1795615019.958787,
     "CAT": 1795615125.205336,
-    "FN": 1795614562.6345942,
-    "GLW": 1795614562.6345942,
+    "FN": 1795616076.3607793,
+    "GLW": 1795616076.3607793,
     "ANT": 1795615125.205336,
     "XAUUSD": 1795615125.205336,
     "KOSPI": 1795615019.958787
