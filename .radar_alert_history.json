@@ -86,8 +86,8 @@
       "last_notified_at": 1795643961.780044
     },
     "IWM": {
-      "state": "NORMAL",
-      "last_notified_at": 0.0
+      "state": "WATCHLIST_ENTRY_READY",
+      "last_notified_at": 1795644833.6660943
     },
     "IGV": {
       "state": "NORMAL",
