@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795585109.908,
-  "updated_at_et": "11-25 00:38 ET",
-  "updated_at_kst": "14:38 KST",
+  "updated_at_ts": 1795585212.595,
+  "updated_at_et": "11-25 00:40 ET",
+  "updated_at_kst": "14:40 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -17,7 +17,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 472,
+      "minutes_left": 470,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -36,7 +36,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 472,
+      "minutes_left": 470,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -2911,6 +2911,13 @@
     ],
     "MCD": [
       {
+        "title": "McDonald's (MCD), What Is Behind The Fresh Attention?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-mcd-behind-fresh-attention-051044318.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 00:10 ET",
+        "pub_ts": 1795583444.0
+      },
+      {
         "title": "Wendy’s has inflated prices for up to 10 years, lawsuit claims — weeks after McDonald's was accused of a similar scheme",
         "url": "https://finance.yahoo.com/markets/stocks/articles/wendy-inflated-prices-10-years-223000770.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2937,13 +2944,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 06:00 ET",
         "pub_ts": 1795518000.0
-      },
-      {
-        "title": "President Donald Trump's Investment Team Dumped McDonald's in September and Bought Up to $25 Million of a Time-Tested Dividend ETF",
-        "url": "https://www.fool.com/investing/2026/11/24/donald-trump-investment-team-dumped-mcdonalds-september-bought-25-million-time-tested-dividend-etf/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 04:26 ET",
-        "pub_ts": 1795512362.0
       }
     ],
     "PEP": [
@@ -3392,15 +3392,15 @@
     "CRWD": 1795585109.9078283,
     "ORCL": 1795585109.9078283,
     "COIN": 1795585109.9078283,
-    "LLY": 1795583661.3927386,
-    "MRNA": 1795583661.3927386,
-    "NKE": 1795583661.3927386,
-    "MCD": 1795583661.3927386,
+    "LLY": 1795585212.5951202,
+    "MRNA": 1795585212.5951202,
+    "NKE": 1795585212.5951202,
+    "MCD": 1795585212.5951202,
     "PEP": 1795584487.2268078,
     "XOM": 1795584487.2268078,
     "JPM": 1795584487.2268078,
     "WMT": 1795584487.2268078,
-    "V": 1795583661.3927386,
+    "V": 1795585212.5951202,
     "CAT": 1795584487.2268078,
     "FN": 1795584798.8112814,
     "GLW": 1795584798.8112814,
@@ -3424,10 +3424,10 @@
   },
   "calendar_banner": {
     "level": "upcoming",
-    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 472 分钟（11-25 08:30 ET / 22:30 KST）",
+    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 470 分钟（11-25 08:30 ET / 22:30 KST）",
     "detail": "前值 0.3% ｜ 预期 0.3% ｜ 临近公布前15分钟将自动触发防插针预警",
     "event_name": "美国10月核心PCE物价指数环比",
-    "minutes_left": 472,
+    "minutes_left": 470,
     "opex_shield": {
       "date": "2026-11-25",
       "active": false,
