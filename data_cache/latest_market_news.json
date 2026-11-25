@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795619168.405,
-  "updated_at_et": "11-25 10:06 ET",
-  "updated_at_kst": "00:06 KST",
+  "updated_at_ts": 1795619273.105,
+  "updated_at_et": "11-25 10:07 ET",
+  "updated_at_kst": "00:07 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -43,6 +43,19 @@
     }
   ],
   "macro_flashes": [
+    {
+      "id": "20261125230537600800",
+      "title": "【布伦特原油日内涨约3%】 11月25日讯，WTI原油日内走高2.00美元，现报84.7…",
+      "summary": "【布伦特原油日内涨约3%】 11月25日讯，WTI原油日内走高2.00美元，现报84.70美元/桶，涨幅2.42%。布伦特原油涨约3%。",
+      "keywords": [
+        "原油"
+      ],
+      "pub_ts": 1795619137.0,
+      "time_et": "11-25 10:05 ET",
+      "time_bj": "23:05 BJ",
+      "time_kst": "00:05 KST",
+      "time_display": "10:05 ET / 23:05 BJ"
+    },
     {
       "id": "20261125230205478800",
       "title": "高盛警告美股仍未触底，担心2018年末剧本重演",
@@ -374,20 +387,6 @@
       "time_bj": "15:40 BJ",
       "time_kst": "16:40 KST",
       "time_display": "02:40 ET / 15:40 BJ"
-    },
-    {
-      "id": "20261125153000302800",
-      "title": "明年原油过剩成共识，低油价就稳了吗？",
-      "summary": "2027年油市转向过剩的预期越来越强，投行们普遍对明年油价保持悲观，可补库存、炼厂修复和中东局势都还没走完。大家都在等的低油价，哪一步最可能让预期落空？",
-      "keywords": [
-        "中东",
-        "原油"
-      ],
-      "pub_ts": 1795591800.0,
-      "time_et": "11-25 02:30 ET",
-      "time_bj": "15:30 BJ",
-      "time_kst": "16:30 KST",
-      "time_display": "02:30 ET / 15:30 BJ"
     }
   ],
   "ticker_news": {
@@ -1059,6 +1058,13 @@
     ],
     "QCOM": [
       {
+        "title": "Qualcomm Sets Stunning $500 Stock Target for CEO",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-sets-stunning-500-stock-144851221.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:48 ET",
+        "pub_ts": 1795618131.0
+      },
+      {
         "title": "Prediction: Qualcomm Becomes the Top Auto Chipmaker in 2027, “a Story the Market Has Quietly Ignored,” per SemiAnalysis",
         "url": "https://www.tikr.com/blog/qualcomm-top-auto-chipmaker-2027-semianalysis-prediction?ref=yahoofinance&tlnk=yf-261125-96xwhg7w&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1085,13 +1091,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:01 ET",
         "pub_ts": 1795604502.0
-      },
-      {
-        "title": "Xiaomi’s Memory-Squeezed Phone Sales Are Bad News for Qualcomm. Here’s the Number That Matters",
-        "url": "https://www.tikr.com/blog/xiaomis-memory-squeezed-phone-sales-are-bad-news-for-qualcomm-heres-the-number-that-matters?ref=yahoofinance&tlnk=yf-261125-m6342pj2&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 00:23 ET",
-        "pub_ts": 1795584227.0
       }
     ],
     "AVGO": [
@@ -1170,11 +1169,25 @@
     ],
     "META": [
       {
+        "title": "Amazon and Meta are negotiating the future of AI shopping. Consumers aren't quite there yet.",
+        "url": "https://finance.yahoo.com/technology/article/amazon-and-meta-are-negotiating-the-future-of-ai-shopping-consumers-arent-quite-there-yet-144215428.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:42 ET",
+        "pub_ts": 1795617735.0
+      },
+      {
         "title": "Amazon, Meta reportedly in talks to remove block on Muse AI agent",
         "url": "https://finance.yahoo.com/video/amazon-meta-reportedly-in-talks-to-remove-block-on-muse-ai-agent-143616531.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 09:36 ET",
         "pub_ts": 1795617376.0
+      },
+      {
+        "title": "Prediction: Meta Could Be One of the Biggest AI Winners Over the Next 5 Years",
+        "url": "https://247wallst.com/investing/2026/11/25/prediction-meta-could-be-one-of-the-biggest-ai-winners-over-the-next-5-years/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:33 ET",
+        "pub_ts": 1795617231.0
       },
       {
         "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
@@ -1189,20 +1202,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 08:34 ET",
         "pub_ts": 1795613640.0
-      },
-      {
-        "title": "Meta Platforms (META) Expands Muse Shopping In The UK, Is The Stock Still A Bargain?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-meta-expands-muse-130832921.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:08 ET",
-        "pub_ts": 1795612112.0
-      },
-      {
-        "title": "Alphabet vs Meta: which stock has the stronger AI position",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-vs-meta-stock-stronger-130448764.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:04 ET",
-        "pub_ts": 1795611888.0
       }
     ],
     "GOOGL": [
@@ -1221,28 +1220,42 @@
         "pub_ts": 1795608000.0
       },
       {
-        "title": "Data Center Americas 2027 Announces Industry Leaders from AWS, Google, Microsoft, Oracle, CoreWeave and Applied Digital as Featured Speakers",
-        "url": "https://finance.yahoo.com/technology/ai/articles/data-center-americas-2027-announces-140000391.html?.tsrc=rss",
+        "title": "Alphabet, NVIDIA, Microsoft and AWS Lead the AI for Scientific Discovery Market as It Grows to USD 34.78 Billion by 2035",
+        "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-nvidia-microsoft-aws-lead-150000464.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 09:00 ET",
-        "pub_ts": 1795615200.0
+        "time": "11-25 10:00 ET",
+        "pub_ts": 1795618800.0
       },
       {
-        "title": "Funds With Anthropic Exposure Are Off to a Rough Start",
-        "url": "https://finance.yahoo.com/m/7bc6aba7-b1c4-3abf-b83a-be1cf9f2e52c/funds-with-anthropic-exposure.html?.tsrc=rss",
+        "title": "The $2 trillion chip rally is getting wiped out — here's what history says comes next",
+        "url": "https://finance.yahoo.com/markets/article/the-2-trillion-chip-rally-is-getting-wiped-out--heres-what-history-says-comes-next-145306996.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 08:46 ET",
-        "pub_ts": 1795614360.0
+        "time": "11-25 09:53 ET",
+        "pub_ts": 1795618386.0
       },
       {
-        "title": "Not SpaceX, Not Anthropic: These Are the 2 AI Stocks I Bought During the Sell-Off",
-        "url": "https://www.fool.com/investing/2026/11/25/not-spacex-not-anthropic-these-are-the-2-ai-stocks-i-bought-during-the-sell-off/?.tsrc=rss",
+        "title": "Stock Market Today: Dow Dives 700 Points As Nvidia Sells Off, Inflation Rises; Anthropic Sinks (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow-dives.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 08:35 ET",
-        "pub_ts": 1795613702.0
+        "time": "11-25 09:50 ET",
+        "pub_ts": 1795618250.0
       }
     ],
     "MSFT": [
+      {
+        "title": "Digital Twins in Healthcare Market to worth USD 101.19 Billion by 2031, at a CAGR of 68.4% – MarketsandMarkets™",
+        "url": "https://finance.yahoo.com/healthcare/articles/digital-twins-healthcare-market-worth-150000405.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:00 ET",
+        "pub_ts": 1795618800.0
+      },
+      {
+        "title": "Alphabet, NVIDIA, Microsoft and AWS Lead the AI for Scientific Discovery Market as It Grows to USD 34.78 Billion by 2035",
+        "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-nvidia-microsoft-aws-lead-150000464.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:00 ET",
+        "pub_ts": 1795618800.0
+      },
       {
         "title": "Software-Defined Networking and Network Function Virtualization Market Report 2026 | Secure $172.49B as Cisco, Microsoft, Huawei, HPE and Nokia Drive Cloud Automation by 2030",
         "url": "https://finance.yahoo.com/technology/articles/software-defined-networking-network-function-142900844.html?.tsrc=rss",
@@ -1263,20 +1276,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 09:20 ET",
         "pub_ts": 1795616400.0
-      },
-      {
-        "title": "Data Center Americas 2027 Announces Industry Leaders from AWS, Google, Microsoft, Oracle, CoreWeave and Applied Digital as Featured Speakers",
-        "url": "https://finance.yahoo.com/technology/ai/articles/data-center-americas-2027-announces-140000391.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:00 ET",
-        "pub_ts": 1795615200.0
-      },
-      {
-        "title": "Is Microsoft Stock Worth Owning as AI Capex Weighs on Free Cash Flow?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-worth-owning-ai-124000486.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 07:40 ET",
-        "pub_ts": 1795610400.0
       }
     ],
     "AAPL": [
@@ -1392,11 +1391,25 @@
     ],
     "AMZN": [
       {
+        "title": "Amazon and Meta are negotiating the future of AI shopping. Consumers aren't quite there yet.",
+        "url": "https://finance.yahoo.com/technology/article/amazon-and-meta-are-negotiating-the-future-of-ai-shopping-consumers-arent-quite-there-yet-144215428.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:42 ET",
+        "pub_ts": 1795617735.0
+      },
+      {
         "title": "Amazon, Meta reportedly in talks to remove block on Muse AI agent",
         "url": "https://finance.yahoo.com/video/amazon-meta-reportedly-in-talks-to-remove-block-on-muse-ai-agent-143616531.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 09:36 ET",
         "pub_ts": 1795617376.0
+      },
+      {
+        "title": "Global Retail Pharmacy Market Report 2026: Size, Trends, and Forecast to 2030 | Capitalize on AI and Automation as Walmart, Amazon, CVS Health, and Costco Scale Digital Care",
+        "url": "https://finance.yahoo.com/healthcare/articles/global-retail-pharmacy-market-report-143600337.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:36 ET",
+        "pub_ts": 1795617360.0
       },
       {
         "title": "Amazon’s CEO, CFO and AWS Chief All Just Sold Amazon Stock",
@@ -1411,20 +1424,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 09:10 ET",
         "pub_ts": 1795615818.0
-      },
-      {
-        "title": "In partnership with Amazon, Duracell Brings Holiday Magic to Chicago with Power Playland on the Pier",
-        "url": "https://finance.yahoo.com/media-advertising/articles/partnership-amazon-duracell-brings-holiday-140300229.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:03 ET",
-        "pub_ts": 1795615380.0
-      },
-      {
-        "title": "Amazon to Launch Online Car Sales in UK in Early 2027",
-        "url": "https://finance.yahoo.com/small-business/articles/amazon-launch-online-car-sales-130130091.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:01 ET",
-        "pub_ts": 1795611690.0
       }
     ],
     "CRWV": [
@@ -1540,6 +1539,13 @@
     ],
     "VST": [
       {
+        "title": "Vistra Underperforms Industry in the Past Year: Time to Buy or Wait?",
+        "url": "https://finance.yahoo.com/energy/articles/vistra-underperforms-industry-past-time-134200801.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 08:42 ET",
+        "pub_ts": 1795614120.0
+      },
+      {
         "title": "Is Trending Stock Vistra Corp. (VST) a Buy Now?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/trending-stock-vistra-corp-vst-130002887.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1566,13 +1572,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 13:05 ET",
         "pub_ts": 1795543525.0
-      },
-      {
-        "title": "George Soros and 10 Other Big Funds Sold Vistra Last Quarter, While 7 Bought. Who’s Right?",
-        "url": "https://www.tikr.com/blog/george-soros-and-10-other-big-funds-sold-vistra-last-quarter-while-7-bought-whos-right?ref=yahoofinance&tlnk=yf-261124-4r3chgrm&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:59 ET",
-        "pub_ts": 1795539570.0
       }
     ],
     "BE": [
@@ -1658,6 +1657,13 @@
         "pub_ts": 1795597389.0
       },
       {
+        "title": "Coherent Spent $776 Million on Capex Last Quarter. Now It Wants a $2 Billion Buyback",
+        "url": "https://www.tikr.com/blog/coherent-spent-776-million-on-capex-last-quarter-now-it-wants-a-2-billion-buyback?ref=yahoofinance&tlnk=yf-261125-fpw4g4vq&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 03:35 ET",
+        "pub_ts": 1795595727.0
+      },
+      {
         "title": "COHR Stock Swings After Nvidia-Led AI Rally: $15M Insider Buy Draws Attention",
         "url": "https://stocktwits.com/news-articles/markets/equity/cohr-stock-swings-after-nvidia-led-ai-rally-15-m-insider-buy-draws-attention/cNbHcl8R9lg?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1677,13 +1683,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 03:09 ET",
         "pub_ts": 1795507763.0
-      },
-      {
-        "title": "Coherent Is Up 55% in a Year, and Its CEO Says 2027 Is “Basically Booked Out.” Time to Buy?",
-        "url": "https://www.tikr.com/blog/coherent-is-up-55-in-a-year-and-its-ceo-says-2027-is-basically-booked-out-time-to-buy?ref=yahoofinance&tlnk=yf-261124-xxwc78c9&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 21:22 ET",
-        "pub_ts": 1795486965.0
       }
     ],
     "MRVL": [
@@ -1799,6 +1798,13 @@
     ],
     "SPCX": [
       {
+        "title": "No One Will Ever Compete With SpaceX’s Space",
+        "url": "https://247wallst.com/investing/2026/11/25/no-one-will-ever-compete-with-spacexs-space/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:47 ET",
+        "pub_ts": 1795618073.0
+      },
+      {
         "title": "SpaceX Slides 5% as Gary Black Warns a Tesla Bid Could Push It Below $100; Rocket Lab and AST SpaceMobile Drop 4%",
         "url": "https://247wallst.com/investing/2026/11/25/spacex-slides-5-as-gary-black-warns-a-tesla-bid-could-push-it-below-100-rocket-lab-and-ast-spacemobile-drop-4/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1825,13 +1831,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:26 ET",
         "pub_ts": 1795605960.0
-      },
-      {
-        "title": "Tesla and SpaceX $3.5 Trillion Merger Talks Take a Major Step Forward",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-spacex-3-5-trillion-111122235.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:11 ET",
-        "pub_ts": 1795605082.0
       }
     ],
     "ASTS": [
@@ -3342,30 +3341,30 @@
     "SOXS": 1795618209.6566267,
     "NVDA": 1795618209.6566267,
     "AMD": 1795618209.6566267,
-    "ASML": 1795617670.8932498,
-    "QCOM": 1795617670.8932498,
-    "AVGO": 1795617670.8932498,
-    "AMAT": 1795617670.8932498,
-    "META": 1795617670.8932498,
-    "GOOGL": 1795617670.8932498,
-    "MSFT": 1795617670.8932498,
-    "AAPL": 1795617670.8932498,
-    "PLTR": 1795617670.8932498,
-    "NOW": 1795617670.8932498,
-    "AMZN": 1795617670.8932498,
-    "CRWV": 1795617670.8932498,
-    "NBIS": 1795617670.8932498,
-    "APLD": 1795617670.8932498,
-    "VST": 1795617670.8932498,
-    "BE": 1795617670.8932498,
-    "CRDO": 1795617670.8932498,
-    "COHR": 1795617670.8932498,
-    "MRVL": 1795617670.8932498,
-    "LITE": 1795617670.8932498,
-    "AAOI": 1795617670.8932498,
-    "SPCX": 1795617670.8932498,
+    "ASML": 1795619273.1052902,
+    "QCOM": 1795619273.1052902,
+    "AVGO": 1795619273.1052902,
+    "AMAT": 1795619273.1052902,
+    "META": 1795619273.1052902,
+    "GOOGL": 1795619273.1052902,
+    "MSFT": 1795619273.1052902,
+    "AAPL": 1795619273.1052902,
+    "PLTR": 1795619273.1052902,
+    "NOW": 1795619273.1052902,
+    "AMZN": 1795619273.1052902,
+    "CRWV": 1795619273.1052902,
+    "NBIS": 1795619273.1052902,
+    "APLD": 1795619273.1052902,
+    "VST": 1795619273.1052902,
+    "BE": 1795619273.1052902,
+    "CRDO": 1795619273.1052902,
+    "COHR": 1795619273.1052902,
+    "MRVL": 1795619273.1052902,
+    "LITE": 1795619273.1052902,
+    "AAOI": 1795619273.1052902,
+    "SPCX": 1795619273.1052902,
     "ASTS": 1795618098.9848337,
-    "AXTI": 1795617670.8932498,
+    "AXTI": 1795619273.1052902,
     "NASA": 1795618098.9848337,
     "LUNR": 1795618098.9848337,
     "TSLA": 1795618098.9848337,
@@ -3400,8 +3399,8 @@
     "WMT": 1795618316.0786698,
     "V": 1795618209.6566267,
     "CAT": 1795618316.0786698,
-    "FN": 1795617670.8932498,
-    "GLW": 1795617670.8932498,
+    "FN": 1795619273.1052902,
+    "GLW": 1795619273.1052902,
     "ANT": 1795618316.0786698,
     "XAUUSD": 1795618316.0786698,
     "KOSPI": 1795618209.6566267
