@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795636861.791,
-  "updated_at_et": "11-25 15:01 ET",
-  "updated_at_kst": "05:01 KST",
+  "updated_at_ts": 1795636968.918,
+  "updated_at_et": "11-25 15:02 ET",
+  "updated_at_kst": "05:02 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1163,32 +1163,32 @@
         "pub_ts": 1795622724.0
       },
       {
+        "title": "Stocks Pare Losses as Anthropic Shares Swing Higher",
+        "url": "https://www.wsj.com/finance/stocks/nasdaq-futures-slide-as-ai-growth-fears-return-to-center-stage-ff9a6d6b?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 14:30 ET",
+        "pub_ts": 1795635000.0
+      },
+      {
+        "title": "Meta Says Muse “Raises Conversions for Advertisers.” It Already Places 51% of AI Agent Orders",
+        "url": "https://www.tikr.com/blog/meta-says-muse-raises-conversions-for-advertisers-it-already-places-51-of-ai-agent-orders?ref=yahoofinance&tlnk=yf-261125-5g9v4pwg&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 14:20 ET",
+        "pub_ts": 1795634433.0
+      },
+      {
+        "title": "Meta’s AI shopping push could lift Instagram ad revenue, Jefferies says",
+        "url": "https://www.proactiveinvestors.com/companies/news/1102462/meta-s-ai-shopping-push-could-lift-instagram-ad-revenue-jefferies-says-1102462.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 14:09 ET",
+        "pub_ts": 1795633740.0
+      },
+      {
         "title": "CoreWeave banks prepare $4.5 billion Meta-tied loan sale next week, Bloomberg says",
         "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-banks-prepare-4-5-183018691.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 13:30 ET",
         "pub_ts": 1795631418.0
-      },
-      {
-        "title": "Own Meta’s ~$200B+ Ad Moat or Bet on AppLovin’s ~53% Growth at a ~47% Pullback?",
-        "url": "https://247wallst.com/investing/2026/11/25/own-metas-200b-ad-moat-or-bet-on-applovins-53-growth-at-a-47-pullback/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:45 ET",
-        "pub_ts": 1795628745.0
-      },
-      {
-        "title": "CoreWeave’s Banks to Sell $4.5 Billion Meta-Tied Loan Next Week",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-banks-sell-4-5-172523161.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:25 ET",
-        "pub_ts": 1795627523.0
-      },
-      {
-        "title": "Amazon Wants a 'Fair Exchange' Before Letting Muse Back In",
-        "url": "https://finance.yahoo.com/technology/articles/amazon-wants-fair-exchange-letting-163449964.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:34 ET",
-        "pub_ts": 1795624489.0
       }
     ],
     "GOOGL": [
@@ -3071,11 +3071,11 @@
         "pub_ts": 1795617735.0
       },
       {
-        "title": "Last year Trump called Walmart’s $40 Thanksgiving deal proof prices were fine. Now it’s $35 — what’s really going on?",
-        "url": "https://finance.yahoo.com/economy/articles/last-trump-called-walmart-40-170000360.html?.tsrc=rss",
+        "title": "Walmart+ Members Spend 4 Times As Much As Non-Members. The Retailer’s New $120 Bundle Could Unlock More Growth.",
+        "url": "https://www.fool.com/investing/2026/11/25/walmart-members-spend-4-times-as-much-as-non-members-the-retailer-s-new-usd120-bundle-could-unlock-more-growth/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 12:00 ET",
-        "pub_ts": 1795626000.0
+        "time": "11-25 14:50 ET",
+        "pub_ts": 1795636202.0
       }
     ],
     "V": [
@@ -3328,27 +3328,27 @@
     "SOXS": 1795636861.7907069,
     "NVDA": 1795636861.7907069,
     "AMD": 1795636861.7907069,
-    "ASML": 1795635381.3981485,
-    "QCOM": 1795635381.3981485,
-    "AVGO": 1795635381.3981485,
-    "AMAT": 1795635381.3981485,
-    "META": 1795635381.3981485,
-    "GOOGL": 1795635381.3981485,
-    "MSFT": 1795635381.3981485,
-    "AAPL": 1795635381.3981485,
-    "PLTR": 1795635381.3981485,
-    "NOW": 1795635381.3981485,
-    "AMZN": 1795635381.3981485,
-    "CRWV": 1795635381.3981485,
-    "NBIS": 1795635381.3981485,
-    "APLD": 1795635381.3981485,
-    "VST": 1795635381.3981485,
-    "BE": 1795635381.3981485,
-    "CRDO": 1795635381.3981485,
-    "COHR": 1795635381.3981485,
-    "MRVL": 1795635381.3981485,
+    "ASML": 1795636968.9183912,
+    "QCOM": 1795636968.9183912,
+    "AVGO": 1795636968.9183912,
+    "AMAT": 1795636968.9183912,
+    "META": 1795636968.9183912,
+    "GOOGL": 1795636968.9183912,
+    "MSFT": 1795636968.9183912,
+    "AAPL": 1795636968.9183912,
+    "PLTR": 1795636968.9183912,
+    "NOW": 1795636968.9183912,
+    "AMZN": 1795636968.9183912,
+    "CRWV": 1795636968.9183912,
+    "NBIS": 1795636968.9183912,
+    "APLD": 1795636968.9183912,
+    "VST": 1795636968.9183912,
+    "BE": 1795636968.9183912,
+    "CRDO": 1795636968.9183912,
+    "COHR": 1795636968.9183912,
+    "MRVL": 1795636968.9183912,
     "LITE": 1795635487.9072354,
-    "AAOI": 1795635381.3981485,
+    "AAOI": 1795636968.9183912,
     "SPCX": 1795635487.9072354,
     "ASTS": 1795636543.3802476,
     "AXTI": 1795635487.9072354,
@@ -3381,15 +3381,15 @@
     "NKE": 1795636861.7907069,
     "MCD": 1795636861.7907069,
     "PEP": 1795636861.7907069,
-    "XOM": 1795635381.3981485,
+    "XOM": 1795636968.9183912,
     "JPM": 1795636861.7907069,
-    "WMT": 1795635381.3981485,
+    "WMT": 1795636968.9183912,
     "V": 1795636861.7907069,
-    "CAT": 1795635381.3981485,
+    "CAT": 1795636968.9183912,
     "FN": 1795635487.9072354,
     "GLW": 1795635487.9072354,
-    "ANT": 1795635381.3981485,
-    "XAUUSD": 1795635381.3981485,
+    "ANT": 1795636968.9183912,
+    "XAUUSD": 1795636968.9183912,
     "KOSPI": 1795636861.7907069
   },
   "opex_shield": {
