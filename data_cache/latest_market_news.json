@@ -1,9 +1,24 @@
 {
-  "updated_at_ts": 1795573372.535,
-  "updated_at_et": "11-24 21:22 ET",
-  "updated_at_kst": "11:22 KST",
+  "updated_at_ts": 1795573470.615,
+  "updated_at_et": "11-24 21:24 ET",
+  "updated_at_kst": "11:24 KST",
   "macro_calendar": [],
   "macro_flashes": [
+    {
+      "id": "20261125102258581800",
+      "title": "华尔街开始布局对冲：美联储有可能“加息加过头”！",
+      "summary": "美债市场意外出现大规模利率对冲交易，投资者担忧美联储持续加息叠加科技股抛售或拖累美国经济，部分交易押注2028年初利率将显著下降。点击查看…",
+      "keywords": [
+        "美联储",
+        "加息",
+        "美债"
+      ],
+      "pub_ts": 1795573378.0,
+      "time_et": "11-24 21:22 ET",
+      "time_bj": "10:22 BJ",
+      "time_kst": "11:22 KST",
+      "time_display": "21:22 ET / 10:22 BJ"
+    },
     {
       "id": "20261125102151573800",
       "title": "纳指期货跌超1%，标普500指数期货跌0.62%，道琼斯指数期货跌0.39%。",
@@ -339,21 +354,6 @@
       "time_bj": "00:00 BJ",
       "time_kst": "01:00 KST",
       "time_display": "11:00 ET / 00:00 BJ"
-    },
-    {
-      "id": "20261124232458535800",
-      "title": "【PCE通胀公布前美联储鹰派信号升温 金价下挫】 11月24日讯，周二，受美联储官员释放…",
-      "summary": "【PCE通胀公布前美联储鹰派信号升温 金价下挫】 11月24日讯，周二，受美联储官员释放鹰派信号以及市场普遍预期美联储将在12月加息的影响，黄金价格走低。投资者正等待美国通胀数据出炉，以判断这些数据可能如何影响美联储的政策路径。现货黄金现跌1.2%，报3590美元/盎司。现货白银日内跌幅一度扩大至4.00%，报41.43美元/盎司。Forex.com市场分析师法瓦德·拉扎克扎达表示：“由于以美联储为首的各国央行立场偏鹰派，黄金难以获得有意义的支撑，贵金属价格因此持续承压。”“如果周三的PCE数据强于预期，可能会推高市场对2027年及以后美联储进一步加息的预期，但对12月加息预期的影响可能不大，因为市场目前已完全消化了美联储届时可能加息的预期。”",
-      "keywords": [
-        "美联储",
-        "加息",
-        "PCE"
-      ],
-      "pub_ts": 1795533898.0,
-      "time_et": "11-24 10:24 ET",
-      "time_bj": "23:24 BJ",
-      "time_kst": "00:24 KST",
-      "time_display": "10:24 ET / 23:24 BJ"
     }
   ],
   "ticker_news": {
@@ -914,11 +914,18 @@
     ],
     "NVDA": [
       {
+        "title": "Nvidia’s Rebound, Falling Oil And A Strong Dollar: Three Signals Complicating The Fed’s December Decision",
+        "url": "https://stocktwits.com/news-articles/markets/equity/fed-december-rate-hike-oil-prices-nvidia-rally-inflation/cNbuClGR9l5?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 21:09 ET",
+        "pub_ts": 1795572572.0
+      },
+      {
         "title": "Dow Jones Futures Fall After AI Stocks Tumble; Trump Says 'Not Too Late' For Nvidia Stake",
         "url": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures-fall-after.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 20:49 ET",
-        "pub_ts": 1795571375.0
+        "time": "11-24 21:02 ET",
+        "pub_ts": 1795572140.0
       },
       {
         "title": "Wall St futures fall after S&P 500, Nasdaq end lower; inflation data eyed",
@@ -940,13 +947,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 20:20 ET",
         "pub_ts": 1795569602.0
-      },
-      {
-        "title": "Market Chatter: California AG Bonta to Press Nvidia Probe, Criticizes Federal Handling",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-california-ag-bonta-005828411.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 19:58 ET",
-        "pub_ts": 1795568308.0
       }
     ],
     "AMD": [
@@ -2993,6 +2993,13 @@
         "pub_ts": 1795541822.0
       },
       {
+        "title": "This Nasdaq ETF Pays a 19% Yield Without Writing a Single Covered Call. Here’s How",
+        "url": "https://247wallst.com/investing/etf/2026/11/24/this-nasdaq-etf-pays-a-19-yield-without-writing-a-single-covered-call-heres-how/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 21:02 ET",
+        "pub_ts": 1795572153.0
+      },
+      {
         "title": "A week on, Chase still hasn’t explained its outage",
         "url": "https://www.americanbanker.com/news/a-week-on-chase-still-hasn-t-explained-its-outage?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3012,13 +3019,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 14:59 ET",
         "pub_ts": 1795550397.0
-      },
-      {
-        "title": "JPMorgan Dallas Hub Targets Private Equity and Hedge Funds",
-        "url": "https://www.credaily.com/briefs/jpmorgan-dallas-hub-targets-private-equity-and-hedge-funds/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:21 ET",
-        "pub_ts": 1795537285.0
       }
     ],
     "WMT": [
@@ -3218,8 +3218,8 @@
         "title": "Dow Jones Futures Fall After AI Stocks Tumble; Trump Says 'Not Too Late' For Nvidia Stake",
         "url": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures-fall-after.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 20:49 ET",
-        "pub_ts": 1795571375.0
+        "time": "11-24 21:02 ET",
+        "pub_ts": 1795572140.0
       },
       {
         "title": "Anthropic Has Plunged 30% From Its Peak. Here’s the Price at Which I’d Buy.",
@@ -3291,23 +3291,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795571901.9363315,
-    "SOXL": 1795571901.9363315,
-    "SPY": 1795571901.9363315,
-    "DIA": 1795571901.9363315,
-    "SOXX": 1795571901.9363315,
-    "QQQ": 1795571901.9363315,
-    "SMH": 1795571901.9363315,
-    "IWM": 1795571901.9363315,
-    "IGV": 1795571901.9363315,
-    "TLT": 1795571901.9363315,
-    "GLD": 1795571901.9363315,
-    "SQQQ": 1795571901.9363315,
-    "TSM": 1795571901.9363315,
-    "VIXY": 1795571901.9363315,
-    "SOXS": 1795571901.9363315,
-    "NVDA": 1795571901.9363315,
-    "AMD": 1795571901.9363315,
+    "KORU": 1795573470.6154578,
+    "SOXL": 1795573470.6154578,
+    "SPY": 1795573470.6154578,
+    "DIA": 1795573470.6154578,
+    "SOXX": 1795573470.6154578,
+    "QQQ": 1795573470.6154578,
+    "SMH": 1795573470.6154578,
+    "IWM": 1795573470.6154578,
+    "IGV": 1795573470.6154578,
+    "TLT": 1795573470.6154578,
+    "GLD": 1795573470.6154578,
+    "SQQQ": 1795573470.6154578,
+    "TSM": 1795573470.6154578,
+    "VIXY": 1795573470.6154578,
+    "SOXS": 1795573470.6154578,
+    "NVDA": 1795573470.6154578,
+    "AMD": 1795573470.6154578,
     "ASML": 1795572292.4860249,
     "QCOM": 1795572292.4860249,
     "AVGO": 1795572292.4860249,
@@ -3360,17 +3360,17 @@
     "MRNA": 1795572786.4763992,
     "NKE": 1795572786.4763992,
     "MCD": 1795572786.4763992,
-    "PEP": 1795571901.9363315,
-    "XOM": 1795571901.9363315,
-    "JPM": 1795571901.9363315,
-    "WMT": 1795571901.9363315,
+    "PEP": 1795573470.6154578,
+    "XOM": 1795573470.6154578,
+    "JPM": 1795573470.6154578,
+    "WMT": 1795573470.6154578,
     "V": 1795572786.4763992,
-    "CAT": 1795571901.9363315,
+    "CAT": 1795573470.6154578,
     "FN": 1795572292.4860249,
     "GLW": 1795572292.4860249,
-    "ANT": 1795571901.9363315,
-    "XAUUSD": 1795571901.9363315,
-    "KOSPI": 1795571901.9363315
+    "ANT": 1795573470.6154578,
+    "XAUUSD": 1795573470.6154578,
+    "KOSPI": 1795573470.6154578
   },
   "opex_shield": {
     "date": "2026-11-24",
@@ -3389,7 +3389,7 @@
   "calendar_banner": {
     "level": "idle_with_flash",
     "headline": "📡 宏观消息面监控中 · 今日暂无美股五星级经济数据大考",
-    "detail": "⚡ 最新核心快讯 (21:21 ET / 10:21 BJ) [标普]：纳指期货跌超1%，标普500指数期货跌0.62%，道琼斯指数期货跌0.39%。",
+    "detail": "⚡ 最新核心快讯 (21:22 ET / 10:22 BJ) [美联储] [加息] [美债]：美债市场意外出现大规模利率对冲交易，投资者担忧美联储持续加息叠加科技股抛售或拖累美国经济，部分交易押注2028年初利率将显著下降。点击查看…",
     "event_name": "",
     "minutes_left": 0,
     "opex_shield": {
