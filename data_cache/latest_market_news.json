@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795568669.76,
-  "updated_at_et": "11-24 20:04 ET",
-  "updated_at_kst": "10:04 KST",
+  "updated_at_ts": 1795568769.529,
+  "updated_at_et": "11-24 20:06 ET",
+  "updated_at_kst": "10:06 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -440,13 +440,6 @@
         "pub_ts": 1795525388.0
       },
       {
-        "title": "What SPDR S&P 500 ETF Trust (SPY) Bought: Apple Leads on Friday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-trust-110254690.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 06:02 ET",
-        "pub_ts": 1795518174.0
-      },
-      {
         "title": "Is Apple (AAPL) Above Fair Value As ETF Buying Returns?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-above-fair-value-211324050.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -466,6 +459,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:19 ET",
         "pub_ts": 1795529962.0
+      },
+      {
+        "title": "Here's Why Investors Should Go Defensive Now: ETFs in Focus",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-investors-defensive-now-134200178.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 08:42 ET",
+        "pub_ts": 1795527720.0
       }
     ],
     "DIA": [
@@ -914,39 +914,39 @@
     ],
     "NVDA": [
       {
-        "title": "5 questions Nvidia still faces after bringing back Jensen Huang",
-        "url": "https://www.cbsnews.com/news/nvidia-jensen-huang-challenges/?.tsrc=rss",
+        "title": "Market Chatter: California AG Bonta to Press Nvidia Probe, Criticizes Federal Handling",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-california-ag-bonta-005828411.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 19:33 ET",
-        "pub_ts": 1795566787.0
+        "time": "11-24 19:58 ET",
+        "pub_ts": 1795568308.0
+      },
+      {
+        "title": "Nvidia Is Down 31% From Its Peak. History Says This Happens Next",
+        "url": "https://www.fool.com/investing/2026/11/24/nvidia-is-down-31-from-its-peak-history-says-this-happens-next/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 19:46 ET",
+        "pub_ts": 1795567562.0
       },
       {
         "title": "Dow Jones Futures Fall: Nvidia, Anthropic Lead AI Retreat But Many Sectors Strong; Fed Inflation Data Due",
         "url": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures-fall%3A.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 19:17 ET",
-        "pub_ts": 1795565826.0
+        "time": "11-24 19:43 ET",
+        "pub_ts": 1795567407.0
       },
       {
-        "title": "Nvidia-Backed Nscale Reportedly Eyes Private Route As AI Market Sell-Off Clouds $35B IPO Plans",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nvidia-backed-nscale-reportedly-eyes-private-route-as-ai-market-sell-off-clouds-35-b-ipo-plans/cNbuDjYR9lc?.tsrc=rss",
+        "title": "Most Stocks Are Losers. Here's How You Can Still Win",
+        "url": "https://www.fool.com/investing/2026/11/24/most-stocks-are-losers-here-is-how-you-can-still-win/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 19:16 ET",
-        "pub_ts": 1795565791.0
+        "time": "11-24 19:41 ET",
+        "pub_ts": 1795567300.0
       },
       {
-        "title": "S&P 500, Nasdaq End Lower As AI Jitters Resurface With Nvidia’s Governance Issues And Talks Of Fresh Import Tariffs — NVDA, DELL, TSLA, TGTX In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-lower-as-ai-jitters-resurface-with-nvidia-s-governance-issues-and-talks-of-fresh-import-tariffs-nvda-dell-tsla-tgtx-in-focus/cNbuDhyR9lT?.tsrc=rss",
+        "title": "5 questions Nvidia still faces after bringing back Jensen Huang",
+        "url": "https://www.cbsnews.com/news/nvidia-jensen-huang-challenges/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 19:12 ET",
-        "pub_ts": 1795565532.0
-      },
-      {
-        "title": "Dan Ives Says Jensen’s Return Is A 'Watershed Moment' For Nvidia — Just Not The All-Clear",
-        "url": "https://stocktwits.com/news-articles/markets/equity/dan-ives-says-jensen-s-return-is-a-watershed-moment-for-nvidia-just-not-the-all-clear/cNbuDfxR9lR?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 19:09 ET",
-        "pub_ts": 1795565340.0
+        "time": "11-24 19:33 ET",
+        "pub_ts": 1795566787.0
       }
     ],
     "AMD": [
@@ -3218,8 +3218,8 @@
         "title": "Dow Jones Futures Fall: Nvidia, Anthropic Lead AI Retreat But Many Sectors Strong; Fed Inflation Data Due",
         "url": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures-fall%3A.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 19:17 ET",
-        "pub_ts": 1795565826.0
+        "time": "11-24 19:43 ET",
+        "pub_ts": 1795567407.0
       },
       {
         "title": "AI Pullback Raises the Cost of Data Center Financing",
@@ -3291,23 +3291,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795567207.3561108,
-    "SOXL": 1795567207.3561108,
-    "SPY": 1795567207.3561108,
-    "DIA": 1795567207.3561108,
-    "SOXX": 1795567207.3561108,
-    "QQQ": 1795567207.3561108,
-    "SMH": 1795567207.3561108,
-    "IWM": 1795567207.3561108,
-    "IGV": 1795567207.3561108,
-    "TLT": 1795567207.3561108,
-    "GLD": 1795567207.3561108,
-    "SQQQ": 1795567207.3561108,
-    "TSM": 1795567207.3561108,
-    "VIXY": 1795567207.3561108,
-    "SOXS": 1795567207.3561108,
-    "NVDA": 1795567207.3561108,
-    "AMD": 1795567207.3561108,
+    "KORU": 1795568769.5293427,
+    "SOXL": 1795568769.5293427,
+    "SPY": 1795568769.5293427,
+    "DIA": 1795568769.5293427,
+    "SOXX": 1795568769.5293427,
+    "QQQ": 1795568769.5293427,
+    "SMH": 1795568769.5293427,
+    "IWM": 1795568769.5293427,
+    "IGV": 1795568769.5293427,
+    "TLT": 1795568769.5293427,
+    "GLD": 1795568769.5293427,
+    "SQQQ": 1795568769.5293427,
+    "TSM": 1795568769.5293427,
+    "VIXY": 1795568769.5293427,
+    "SOXS": 1795568769.5293427,
+    "NVDA": 1795568769.5293427,
+    "AMD": 1795568769.5293427,
     "ASML": 1795567597.792305,
     "QCOM": 1795567597.792305,
     "AVGO": 1795567597.792305,
@@ -3360,17 +3360,17 @@
     "MRNA": 1795568084.8976922,
     "NKE": 1795568084.8976922,
     "MCD": 1795568084.8976922,
-    "PEP": 1795567207.3561108,
-    "XOM": 1795567207.3561108,
-    "JPM": 1795567207.3561108,
-    "WMT": 1795567207.3561108,
+    "PEP": 1795568769.5293427,
+    "XOM": 1795568769.5293427,
+    "JPM": 1795568769.5293427,
+    "WMT": 1795568769.5293427,
     "V": 1795568084.8976922,
-    "CAT": 1795567207.3561108,
+    "CAT": 1795568769.5293427,
     "FN": 1795567597.792305,
     "GLW": 1795567597.792305,
-    "ANT": 1795567207.3561108,
-    "XAUUSD": 1795567207.3561108,
-    "KOSPI": 1795567207.3561108
+    "ANT": 1795568769.5293427,
+    "XAUUSD": 1795568769.5293427,
+    "KOSPI": 1795568769.5293427
   },
   "opex_shield": {
     "date": "2026-11-24",
