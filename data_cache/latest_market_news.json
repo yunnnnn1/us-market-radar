@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795583141.111,
-  "updated_at_et": "11-25 00:05 ET",
-  "updated_at_kst": "14:05 KST",
+  "updated_at_ts": 1795583244.004,
+  "updated_at_et": "11-25 00:07 ET",
+  "updated_at_kst": "14:07 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -17,7 +17,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 505,
+      "minutes_left": 503,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -36,7 +36,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 505,
+      "minutes_left": 503,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -1290,13 +1290,6 @@
         "pub_ts": 1795549511.0
       },
       {
-        "title": "Stocks give back gains as Anthropic dips below IPO price",
-        "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:44 ET",
-        "pub_ts": 1795535048.0
-      },
-      {
         "title": "Tech Keeps Eating Hollywood As Netflix Buys Historic Seinfeld Lot",
         "url": "https://finance.yahoo.com/m/34be458f-965e-30c4-8fb7-e730267a65a9/tech-keeps-eating-hollywood.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1316,6 +1309,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 16:13 ET",
         "pub_ts": 1795554804.0
+      },
+      {
+        "title": "Top Analyst Reports for Apple, Philip Morris & Intel",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/top-analyst-reports-apple-philip-205300421.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 15:53 ET",
+        "pub_ts": 1795553580.0
       }
     ],
     "PLTR": [
@@ -1653,6 +1653,13 @@
     ],
     "COHR": [
       {
+        "title": "COHR Stock Swings After Nvidia-Led AI Rally: $15M Insider Buy Draws Attention",
+        "url": "https://stocktwits.com/news-articles/markets/equity/cohr-stock-swings-after-nvidia-led-ai-rally-15-m-insider-buy-draws-attention/cNbHcl8R9lg?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 23:40 ET",
+        "pub_ts": 1795581637.0
+      },
+      {
         "title": "Coherent Stock Is Jensen Huang Reinstatement Changing The AI Partner Story",
         "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-stock-jensen-huang-reinstatement-080923486.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1679,13 +1686,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 10:57 ET",
         "pub_ts": 1795449427.0
-      },
-      {
-        "title": "Fabrinet Stock Gets An AI Infrastructure Boost",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/fabrinet-stock-gets-ai-infrastructure-081144543.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-21 03:11 ET",
-        "pub_ts": 1795248704.0
       }
     ],
     "MRVL": [
@@ -1801,6 +1801,13 @@
     ],
     "SPCX": [
       {
+        "title": "Anthropic vs. SpaceX: Here's the Better IPO Stock to Buy With $1,000 Right Now",
+        "url": "https://www.fool.com/investing/2026/11/24/anthropic-vs-spacex-here-s-the-better-ipo-stock-to-buy-with-usd1-000-right-now/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 23:35 ET",
+        "pub_ts": 1795581301.0
+      },
+      {
         "title": "Tesla's $3.5 trillion merger talks have a surprising catch",
         "url": "https://www.thestreet.com/investing/teslas-3-5-trillion-merger-talks-have-a-surprising-catch?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1827,13 +1834,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 20:31 ET",
         "pub_ts": 1795570295.0
-      },
-      {
-        "title": "5 Sleeper Blue-Chip Stock Picks for Steady Long-Term Gains",
-        "url": "https://www.kiplinger.com/investing/blue-chip-stocks/sleeper-blue-chip-stock-picks-for-steady-long-term-gains?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 19:52 ET",
-        "pub_ts": 1795567953.0
       }
     ],
     "ASTS": [
@@ -3344,30 +3344,30 @@
     "SOXS": 1795582935.8282654,
     "NVDA": 1795582935.8282654,
     "AMD": 1795582935.8282654,
-    "ASML": 1795581696.2411923,
-    "QCOM": 1795581696.2411923,
-    "AVGO": 1795581696.2411923,
-    "AMAT": 1795581696.2411923,
-    "META": 1795581696.2411923,
-    "GOOGL": 1795581696.2411923,
-    "MSFT": 1795581696.2411923,
-    "AAPL": 1795581696.2411923,
-    "PLTR": 1795581696.2411923,
-    "NOW": 1795581696.2411923,
-    "AMZN": 1795581696.2411923,
-    "CRWV": 1795581696.2411923,
-    "NBIS": 1795581696.2411923,
-    "APLD": 1795581696.2411923,
-    "VST": 1795581696.2411923,
-    "BE": 1795581696.2411923,
-    "CRDO": 1795581696.2411923,
-    "COHR": 1795581696.2411923,
-    "MRVL": 1795581696.2411923,
-    "LITE": 1795581696.2411923,
-    "AAOI": 1795581696.2411923,
-    "SPCX": 1795581696.2411923,
+    "ASML": 1795583244.0038686,
+    "QCOM": 1795583244.0038686,
+    "AVGO": 1795583244.0038686,
+    "AMAT": 1795583244.0038686,
+    "META": 1795583244.0038686,
+    "GOOGL": 1795583244.0038686,
+    "MSFT": 1795583244.0038686,
+    "AAPL": 1795583244.0038686,
+    "PLTR": 1795583244.0038686,
+    "NOW": 1795583244.0038686,
+    "AMZN": 1795583244.0038686,
+    "CRWV": 1795583244.0038686,
+    "NBIS": 1795583244.0038686,
+    "APLD": 1795583244.0038686,
+    "VST": 1795583244.0038686,
+    "BE": 1795583244.0038686,
+    "CRDO": 1795583244.0038686,
+    "COHR": 1795583244.0038686,
+    "MRVL": 1795583244.0038686,
+    "LITE": 1795583244.0038686,
+    "AAOI": 1795583244.0038686,
+    "SPCX": 1795583244.0038686,
     "ASTS": 1795582004.000062,
-    "AXTI": 1795581696.2411923,
+    "AXTI": 1795583244.0038686,
     "NASA": 1795582004.000062,
     "LUNR": 1795582004.000062,
     "TSLA": 1795582004.000062,
@@ -3402,8 +3402,8 @@
     "WMT": 1795582935.8282654,
     "V": 1795582107.3122275,
     "CAT": 1795582935.8282654,
-    "FN": 1795581696.2411923,
-    "GLW": 1795581696.2411923,
+    "FN": 1795583244.0038686,
+    "GLW": 1795583244.0038686,
     "ANT": 1795582935.8282654,
     "XAUUSD": 1795582935.8282654,
     "KOSPI": 1795582935.8282654
@@ -3424,10 +3424,10 @@
   },
   "calendar_banner": {
     "level": "upcoming",
-    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 505 分钟（11-25 08:30 ET / 22:30 KST）",
+    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 503 分钟（11-25 08:30 ET / 22:30 KST）",
     "detail": "前值 0.3% ｜ 预期 0.3% ｜ 临近公布前15分钟将自动触发防插针预警",
     "event_name": "美国10月核心PCE物价指数环比",
-    "minutes_left": 505,
+    "minutes_left": 503,
     "opex_shield": {
       "date": "2026-11-25",
       "active": false,
