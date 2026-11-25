@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795649163.961,
-  "updated_at_et": "11-25 18:26 ET",
-  "updated_at_kst": "08:26 KST",
+  "updated_at_ts": 1795649260.467,
+  "updated_at_et": "11-25 18:27 ET",
+  "updated_at_kst": "08:27 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -943,11 +943,32 @@
     ],
     "NVDA": [
       {
+        "title": "'Big Short' Investor Michael Burry Just Closed His Bet Against the Nasdaq. Here's What Investors Should Do Now",
+        "url": "https://www.fool.com/investing/2026/11/25/big-short-investor-michael-burry-just-closed-his-bet-against-the-nasdaq-here-s-what-investors-should-do-now/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 18:20 ET",
+        "pub_ts": 1795648828.0
+      },
+      {
+        "title": "The Nvidia Scandal Set Off a Chip Crackdown in Congress. Which Stocks Are Most at Risk?",
+        "url": "https://www.fool.com/investing/2026/11/25/the-nvidia-scandal-set-off-a-chip-crackdown-in-congress-which-stocks-are-most-at-risk/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 18:18 ET",
+        "pub_ts": 1795648685.0
+      },
+      {
         "title": "Dow Jones Futures: Market Goes On Wild Ride. Nasdaq, Nvidia Slash Losses While Anthropic Reverses Higher.",
         "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures%3A-market.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 17:35 ET",
-        "pub_ts": 1795646125.0
+        "time": "11-25 18:12 ET",
+        "pub_ts": 1795648326.0
+      },
+      {
+        "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/p-considers-nvidia-credit-downgrade-224432360.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 17:44 ET",
+        "pub_ts": 1795646672.0
       },
       {
         "title": "Nvidia settles 8-year-old investor suit for $290M",
@@ -955,27 +976,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 17:30 ET",
         "pub_ts": 1795645800.0
-      },
-      {
-        "title": "Nvidia May Get A Credit Rating Cut Amid Governance Issues, While US Officials Reportedly Say No Chinese Interference in Huang’s Affair",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nvidia-may-get-a-credit-rating-cut-amid-governance-issues-while-us-officials-reportedly-say-no-chinese-interference-in-huang-s-affair/cNbHubZR9mx?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 17:26 ET",
-        "pub_ts": 1795645614.0
-      },
-      {
-        "title": "Nvidia Sell-Off: You Won’t Believe How Cheap the Stock Is",
-        "url": "https://www.fool.com/investing/2026/11/25/nvidia-sell-off-you-won-t-believe-how-cheap-the-stock-is/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 17:20 ET",
-        "pub_ts": 1795645202.0
-      },
-      {
-        "title": "Michael Burry slashes Nvidia bets but issues stark warning",
-        "url": "https://www.thestreet.com/investing/michael-burry-slashes-nvidia-bets-but-issues-stark-warning?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 17:17 ET",
-        "pub_ts": 1795645020.0
       }
     ],
     "AMD": [
@@ -2796,8 +2796,8 @@
         "title": "Dow Jones Futures: Market Goes On Wild Ride. Nasdaq, Nvidia Slash Losses While Anthropic Reverses Higher.",
         "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures%3A-market.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 17:35 ET",
-        "pub_ts": 1795646125.0
+        "time": "11-25 18:12 ET",
+        "pub_ts": 1795648326.0
       },
       {
         "title": "Sector Update: Healthcare Stocks Fall Late Afternoon",
@@ -3320,23 +3320,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795647716.6601908,
-    "SOXL": 1795647716.6601908,
-    "SPY": 1795647716.6601908,
-    "DIA": 1795647716.6601908,
-    "SOXX": 1795647716.6601908,
-    "QQQ": 1795647716.6601908,
-    "SMH": 1795647716.6601908,
-    "IWM": 1795647716.6601908,
-    "IGV": 1795647716.6601908,
-    "TLT": 1795647716.6601908,
-    "GLD": 1795647716.6601908,
-    "SQQQ": 1795647716.6601908,
-    "TSM": 1795647716.6601908,
-    "VIXY": 1795647716.6601908,
-    "SOXS": 1795647716.6601908,
-    "NVDA": 1795647716.6601908,
-    "AMD": 1795647716.6601908,
+    "KORU": 1795649260.4670765,
+    "SOXL": 1795649260.4670765,
+    "SPY": 1795649260.4670765,
+    "DIA": 1795649260.4670765,
+    "SOXX": 1795649260.4670765,
+    "QQQ": 1795649260.4670765,
+    "SMH": 1795649260.4670765,
+    "IWM": 1795649260.4670765,
+    "IGV": 1795649260.4670765,
+    "TLT": 1795649260.4670765,
+    "GLD": 1795649260.4670765,
+    "SQQQ": 1795649260.4670765,
+    "TSM": 1795649260.4670765,
+    "VIXY": 1795649260.4670765,
+    "SOXS": 1795649260.4670765,
+    "NVDA": 1795649260.4670765,
+    "AMD": 1795649260.4670765,
     "ASML": 1795647910.6572583,
     "QCOM": 1795647910.6572583,
     "AVGO": 1795647910.6572583,
@@ -3385,21 +3385,21 @@
     "CRWD": 1795649163.9605234,
     "ORCL": 1795649163.9605234,
     "COIN": 1795649163.9605234,
-    "LLY": 1795647716.6601908,
-    "MRNA": 1795647716.6601908,
-    "NKE": 1795647716.6601908,
-    "MCD": 1795647716.6601908,
-    "PEP": 1795647716.6601908,
+    "LLY": 1795649260.4670765,
+    "MRNA": 1795649260.4670765,
+    "NKE": 1795649260.4670765,
+    "MCD": 1795649260.4670765,
+    "PEP": 1795649260.4670765,
     "XOM": 1795647910.6572583,
-    "JPM": 1795647716.6601908,
+    "JPM": 1795649260.4670765,
     "WMT": 1795647910.6572583,
-    "V": 1795647716.6601908,
+    "V": 1795649260.4670765,
     "CAT": 1795647910.6572583,
     "FN": 1795648006.5159512,
     "GLW": 1795648006.5159512,
     "ANT": 1795647910.6572583,
     "XAUUSD": 1795647910.6572583,
-    "KOSPI": 1795647716.6601908
+    "KOSPI": 1795649260.4670765
   },
   "opex_shield": {
     "date": "2026-11-25",
