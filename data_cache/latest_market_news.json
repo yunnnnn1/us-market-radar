@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795627687.312,
-  "updated_at_et": "11-25 12:28 ET",
-  "updated_at_kst": "02:28 KST",
+  "updated_at_ts": 1795627793.543,
+  "updated_at_et": "11-25 12:29 ET",
+  "updated_at_kst": "02:29 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -3070,18 +3070,18 @@
         "pub_ts": 1795617735.0
       },
       {
+        "title": "Last year Trump called Walmart’s $40 Thanksgiving deal proof prices were fine. Now it’s $35 — what’s really going on?",
+        "url": "https://finance.yahoo.com/economy/articles/last-trump-called-walmart-40-170000360.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:00 ET",
+        "pub_ts": 1795626000.0
+      },
+      {
         "title": "Tariffs Strike Again: Trump Announces Tariffs Up to 20% on China and the EU. Walmart Already Navigated “Over $2 Billion”",
         "url": "https://www.tikr.com/blog/tariffs-strike-again-trump-announces-tariffs-up-to-20-on-china-and-the-eu-walmart-already-navigated-over-2-billion?ref=yahoofinance&tlnk=yf-261125-xwhcj63q&.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 10:30 ET",
         "pub_ts": 1795620641.0
-      },
-      {
-        "title": "Global Retail Pharmacy Market Report 2026: Size, Trends, and Forecast to 2030 | Capitalize on AI and Automation as Walmart, Amazon, CVS Health, and Costco Scale Digital Care",
-        "url": "https://finance.yahoo.com/healthcare/articles/global-retail-pharmacy-market-report-143600337.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:36 ET",
-        "pub_ts": 1795617360.0
       }
     ],
     "V": [
@@ -3387,15 +3387,15 @@
     "NKE": 1795627687.312145,
     "MCD": 1795627687.312145,
     "PEP": 1795627687.312145,
-    "XOM": 1795626203.2783945,
+    "XOM": 1795627793.54345,
     "JPM": 1795627687.312145,
-    "WMT": 1795626203.2783945,
+    "WMT": 1795627793.54345,
     "V": 1795627687.312145,
-    "CAT": 1795626203.2783945,
+    "CAT": 1795627793.54345,
     "FN": 1795627155.1754026,
     "GLW": 1795627155.1754026,
-    "ANT": 1795626203.2783945,
-    "XAUUSD": 1795626203.2783945,
+    "ANT": 1795627793.54345,
+    "XAUUSD": 1795627793.54345,
     "KOSPI": 1795627687.312145
   },
   "opex_shield": {
