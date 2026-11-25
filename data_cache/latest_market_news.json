@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795640032.842,
-  "updated_at_et": "11-25 15:53 ET",
-  "updated_at_kst": "05:53 KST",
+  "updated_at_ts": 1795640138.03,
+  "updated_at_et": "11-25 15:55 ET",
+  "updated_at_kst": "05:55 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1008,6 +1008,13 @@
     ],
     "ASML": [
       {
+        "title": "ASML Holding (ENXTAM:ASML) Faces Dutch Pushback On New US China Chip Curbs",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/asml-holding-enxtam-asml-faces-201500190.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:15 ET",
+        "pub_ts": 1795637700.0
+      },
+      {
         "title": "ASML Stocks Drop 6.1% as Dutch Lawmakers Fight US Chip Curb Bill",
         "url": "https://finance.yahoo.com/markets/stocks/articles/asml-stocks-drop-6-1-171745637.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1034,16 +1041,23 @@
         "source": "Yahoo Finance",
         "time": "11-25 07:01 ET",
         "pub_ts": 1795608060.0
-      },
-      {
-        "title": "ETFs Are Buying ASML (ASML) on Nov. 23",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-asml-asml-nov-110130021.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:01 ET",
-        "pub_ts": 1795604490.0
       }
     ],
     "QCOM": [
+      {
+        "title": "What Sent Qualcomm Stock Higher?",
+        "url": "https://www.trefis.com/stock/qcom/articles/628621/what-sent-qualcomm-stock-higher/2026-11-25?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:23 ET",
+        "pub_ts": 1795638210.0
+      },
+      {
+        "title": "Billionaire Brad Gerstner’s Altimeter Opened a $680 Million Tesla Stake and Exited Qualcomm and Applied Materials",
+        "url": "https://247wallst.com/investing/2026/11/25/billionaire-brad-gerstners-altimeter-opened-a-680-million-tesla-stake-and-exited-qualcomm-and-applied-materials/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:22 ET",
+        "pub_ts": 1795638121.0
+      },
       {
         "title": "Broadcom vs. Qualcomm: Which Technology Stock Is a Better Buy for 2027?",
         "url": "https://www.fool.com/coverage/better-buy/2026/11/25/broadcom-vs-qualcomm-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss",
@@ -1064,20 +1078,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 09:48 ET",
         "pub_ts": 1795618131.0
-      },
-      {
-        "title": "Prediction: Qualcomm Becomes the Top Auto Chipmaker in 2027, “a Story the Market Has Quietly Ignored,” per SemiAnalysis",
-        "url": "https://www.tikr.com/blog/qualcomm-top-auto-chipmaker-2027-semianalysis-prediction?ref=yahoofinance&tlnk=yf-261125-96xwhg7w&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:05 ET",
-        "pub_ts": 1795615557.0
-      },
-      {
-        "title": "A $65 Million Reason Why Qualcomm Stock In Focus Today",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/65-million-reason-why-qualcomm-115831855.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:58 ET",
-        "pub_ts": 1795607911.0
       }
     ],
     "AVGO": [
@@ -1119,6 +1119,13 @@
     ],
     "AMAT": [
       {
+        "title": "Billionaire Brad Gerstner’s Altimeter Opened a $680 Million Tesla Stake and Exited Qualcomm and Applied Materials",
+        "url": "https://247wallst.com/investing/2026/11/25/billionaire-brad-gerstners-altimeter-opened-a-680-million-tesla-stake-and-exited-qualcomm-and-applied-materials/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:22 ET",
+        "pub_ts": 1795638121.0
+      },
+      {
         "title": "Applied Materials Falls 6% Despite UBS’s $575 Target as China Chip Curbs Hit Equipment Stocks; Lam Research Drops 7%, KLA Edges Lower",
         "url": "https://247wallst.com/investing/2026/11/25/applied-materials-falls-6-despite-ubss-575-target-as-china-chip-curbs-hit-equipment-stocks-lam-research-drops-7-kla-edges-lower/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1145,13 +1152,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 11:30 ET",
         "pub_ts": 1795624216.0
-      },
-      {
-        "title": "Jim Cramer tells investors to buy beaten-down chip stock down 53%",
-        "url": "https://www.thestreet.com/investing/stocks/amat-applied-materials-jim-cramer-urges-investors-to-buy-stock-after-decline?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:17 ET",
-        "pub_ts": 1795619820.0
       }
     ],
     "META": [
@@ -1311,6 +1311,13 @@
         "pub_ts": 1795637580.0
       },
       {
+        "title": "Michael Burry Bets on Stock Market Recovery After Thanksgiving",
+        "url": "https://beincrypto.com/michael-burry-stock-market-recovery-thanksgiving-crash/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:07 ET",
+        "pub_ts": 1795637255.0
+      },
+      {
         "title": "Peter Thiel Buys $122M of PLTR After Years Of Selling — And He Could Buy Millions More Shares",
         "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63645021/peter-thiel-palantir-stock-purchase?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1330,13 +1337,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 12:19 ET",
         "pub_ts": 1795627199.0
-      },
-      {
-        "title": "Prediction: This Company’s Future Could Look Very Different by the End of 2028",
-        "url": "https://247wallst.com/investing/2026/11/25/prediction-this-companys-future-could-look-very-different-by-the-end-of-2028/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:33 ET",
-        "pub_ts": 1795620789.0
       }
     ],
     "NOW": [
@@ -1407,13 +1407,20 @@
       },
       {
         "title": "Amazon to start selling cars in the UK",
-        "url": "https://www.telegraph.co.uk/business/2026/11/25/amazon-to-start-selling-cars-in-the-uk/?.tsrc=rss",
+        "url": "https://uk.finance.yahoo.com/news/amazon-start-selling-cars-uk-174741468.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 12:47 ET",
         "pub_ts": 1795628861.0
       }
     ],
     "CRWV": [
+      {
+        "title": "SpaceX Slashes GPU Pricing? Plus, IREN’s Selloff and CoreWeave’s Distressed Bonds",
+        "url": "https://blockspace.media/podcast/spacex-slashes-gpu-pricing-plus-irens-selloff-and-coreweaves-distressed-bonds/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 14:57 ET",
+        "pub_ts": 1795636676.0
+      },
       {
         "title": "CoreWeave banks prepare $4.5 billion Meta-tied loan sale next week, Bloomberg says",
         "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-banks-prepare-4-5-183018691.html?.tsrc=rss",
@@ -1441,13 +1448,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 11:44 ET",
         "pub_ts": 1795625042.0
-      },
-      {
-        "title": "Oracle, CoreWeave Face Stark Warning From Credit Markets",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-coreweave-face-stark-warning-162922864.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:29 ET",
-        "pub_ts": 1795624162.0
       }
     ],
     "NBIS": [
@@ -1637,6 +1637,13 @@
     ],
     "COHR": [
       {
+        "title": "Coherent (COHR) Authorizes A $2.0b Buyback, Is The 47% Undervaluation Case Intact?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-cohr-authorizes-2-0b-201459636.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:14 ET",
+        "pub_ts": 1795637699.0
+      },
+      {
         "title": "Coherent’s Director Bought $15 Million of Stock as It Plunged 13%",
         "url": "https://247wallst.com/investing/2026/11/25/coherents-director-bought-15-million-of-stock-as-it-plunged-13/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1663,13 +1670,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 23:40 ET",
         "pub_ts": 1795581637.0
-      },
-      {
-        "title": "Plot Twist: Coherent Announces a $2 Billion Buyback, the Same Sum Nvidia Paid for Its Stock in March",
-        "url": "https://www.tikr.com/blog/plot-twist-coherent-announces-a-2-billion-buyback-the-same-sum-nvidia-paid-for-its-stock-in-march?ref=yahoofinance&tlnk=yf-261125-6hc4qc8p&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 22:52 ET",
-        "pub_ts": 1795578749.0
       }
     ],
     "MRVL": [
@@ -2969,6 +2969,13 @@
     ],
     "XOM": [
       {
+        "title": "ExxonMobil (XOM) Stock Looks Cheap Against Future Cash Flow Estimates",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exxonmobil-xom-stock-looks-cheap-201551703.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:15 ET",
+        "pub_ts": 1795637751.0
+      },
+      {
         "title": "Bad News for Exxon and Chevron: Goldman Sees Brent Falling “Roughly $10” Next Year on a Supply Glut",
         "url": "https://www.tikr.com/blog/bad-news-for-exxon-and-chevron-goldman-sees-brent-falling-roughly-10-next-year-on-a-supply-glut?ref=yahoofinance&tlnk=yf-261125-x55qr967&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2995,13 +3002,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 08:17 ET",
         "pub_ts": 1795612675.0
-      },
-      {
-        "title": "Your Exxon Dividend Needs Only About $59 Oil",
-        "url": "https://www.trefis.com/stock/xom/articles/628301/your-exxon-dividend-needs-only-about-59-oil/2026-11-24?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 12:33 ET",
-        "pub_ts": 1795541596.0
       }
     ],
     "JPM": [
@@ -3235,6 +3235,20 @@
         "pub_ts": 1795636997.0
       },
       {
+        "title": "Anthropic Broke Its $83 IPO Price. Most Giants Recovered",
+        "url": "https://www.trefis.com/stock/ant/articles/628871/anthropic-broke-its-83-ipo-price-most-giants-recovered/2026-11-25?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:16 ET",
+        "pub_ts": 1795637795.0
+      },
+      {
+        "title": "Anthropic PBC (ANT) Expanded Its Select Partner Program",
+        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-pbc-ant-expanded-select-201208866.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:12 ET",
+        "pub_ts": 1795637528.0
+      },
+      {
         "title": "Stock Market Today: Dow Reverses For 275-Point Gain; This Ad Firm Breaks Out (Live Coverage)",
         "url": "https://finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3247,20 +3261,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 14:53 ET",
         "pub_ts": 1795636382.0
-      },
-      {
-        "title": "Anthropic's IPO Creates About 5,100 Paper Millionaires, With Hundreds Worth Over $100 Million",
-        "url": "https://www.ibtimes.com/anthropic-ipo-employee-millionaires-wealth-restrictions-3810189?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 14:50 ET",
-        "pub_ts": 1795636233.0
-      },
-      {
-        "title": "Anthropic CEO pushes back on Axios reporting on AI and free will",
-        "url": "https://www.axios.com/2026/11/25/anthropic-dario-amodei-ai-free-will-contro-axios#utm_source=yahoo_finance&utm_medium=partner&utm_campaign=subs-partner-yahoo-finance-AI?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 14:28 ET",
-        "pub_ts": 1795634880.0
       }
     ],
     "XAUUSD": [
@@ -3328,27 +3328,27 @@
     "SOXS": 1795640032.842481,
     "NVDA": 1795640032.842481,
     "AMD": 1795640032.842481,
-    "ASML": 1795638557.488477,
-    "QCOM": 1795638557.488477,
-    "AVGO": 1795638557.488477,
-    "AMAT": 1795638557.488477,
-    "META": 1795638557.488477,
-    "GOOGL": 1795638557.488477,
-    "MSFT": 1795638557.488477,
-    "AAPL": 1795638557.488477,
-    "PLTR": 1795638557.488477,
-    "NOW": 1795638557.488477,
-    "AMZN": 1795638557.488477,
-    "CRWV": 1795638557.488477,
-    "NBIS": 1795638557.488477,
-    "APLD": 1795638557.488477,
-    "VST": 1795638557.488477,
-    "BE": 1795638557.488477,
-    "CRDO": 1795638557.488477,
-    "COHR": 1795638557.488477,
-    "MRVL": 1795638557.488477,
+    "ASML": 1795640138.0302868,
+    "QCOM": 1795640138.0302868,
+    "AVGO": 1795640138.0302868,
+    "AMAT": 1795640138.0302868,
+    "META": 1795640138.0302868,
+    "GOOGL": 1795640138.0302868,
+    "MSFT": 1795640138.0302868,
+    "AAPL": 1795640138.0302868,
+    "PLTR": 1795640138.0302868,
+    "NOW": 1795640138.0302868,
+    "AMZN": 1795640138.0302868,
+    "CRWV": 1795640138.0302868,
+    "NBIS": 1795640138.0302868,
+    "APLD": 1795640138.0302868,
+    "VST": 1795640138.0302868,
+    "BE": 1795640138.0302868,
+    "CRDO": 1795640138.0302868,
+    "COHR": 1795640138.0302868,
+    "MRVL": 1795640138.0302868,
     "LITE": 1795638665.9094474,
-    "AAOI": 1795638557.488477,
+    "AAOI": 1795640138.0302868,
     "SPCX": 1795638665.9094474,
     "ASTS": 1795639713.3643832,
     "AXTI": 1795638665.9094474,
@@ -3381,15 +3381,15 @@
     "NKE": 1795640032.842481,
     "MCD": 1795640032.842481,
     "PEP": 1795640032.842481,
-    "XOM": 1795638557.488477,
+    "XOM": 1795640138.0302868,
     "JPM": 1795640032.842481,
-    "WMT": 1795638557.488477,
+    "WMT": 1795640138.0302868,
     "V": 1795640032.842481,
-    "CAT": 1795638557.488477,
+    "CAT": 1795640138.0302868,
     "FN": 1795638665.9094474,
     "GLW": 1795638665.9094474,
-    "ANT": 1795638557.488477,
-    "XAUUSD": 1795638557.488477,
+    "ANT": 1795640138.0302868,
+    "XAUUSD": 1795640138.0302868,
     "KOSPI": 1795640032.842481
   },
   "opex_shield": {
