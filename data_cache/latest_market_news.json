@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795638344.061,
-  "updated_at_et": "11-25 15:25 ET",
-  "updated_at_kst": "05:25 KST",
+  "updated_at_ts": 1795638452.795,
+  "updated_at_et": "11-25 15:27 ET",
+  "updated_at_kst": "05:27 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -934,6 +934,13 @@
     ],
     "NVDA": [
       {
+        "title": "Mysterious traders made $340,000 betting on Huang’s Nvidia return",
+        "url": "https://www.thestreet.com/crypto/markets/mysterious-traders-made-340000-betting-on-huangs-nvidia-return?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:00 ET",
+        "pub_ts": 1795636800.0
+      },
+      {
         "title": "Nvidia to Pay $290 Million to Settle Long-Running Crypto Mining Revenue Lawsuit",
         "url": "https://decrypt.co/383994/nvidia-290-million-settle-crypto-mining-disclosure-lawsuit?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -960,13 +967,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 14:20 ET",
         "pub_ts": 1795634400.0
-      },
-      {
-        "title": "Michael Burry Loads Up on 3 Chinese Stocks; Sticks to Nvidia Bearish Bet",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-loads-3-chinese-191345318.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 14:13 ET",
-        "pub_ts": 1795634025.0
       }
     ],
     "AMD": [
@@ -2895,6 +2895,20 @@
     ],
     "MCD": [
       {
+        "title": "Here's How Much a $10,000 Investment in McDonald's Pays You Every Single Year",
+        "url": "https://www.fool.com/investing/2026/11/25/heres-how-much-a-10000-investment-in-mcdonalds-pays-you-every-single-year/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:13 ET",
+        "pub_ts": 1795637582.0
+      },
+      {
+        "title": "Invest in Big Macs, Whoppers and Olive Garden Breadsticks for Passive Income: $90,000 Across These 3 Restaurant Stocks Pays More Than $2,600 a Year",
+        "url": "https://247wallst.com/investing/2026/11/25/invest-in-big-macs-whoppers-and-olive-garden-breadsticks-for-passive-income-90000-across-these-3-restaurant-stocks-pays-more-than-2600-a-year/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:03 ET",
+        "pub_ts": 1795636996.0
+      },
+      {
         "title": "McDonald's (MCD), What Is Behind The Fresh Attention?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-mcd-behind-fresh-attention-051044318.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2914,20 +2928,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 12:28 ET",
         "pub_ts": 1795541294.0
-      },
-      {
-        "title": "McDonald's Moves on Makeover; Dick's Sporting Goods Up on Earnings | Stock Movers",
-        "url": "https://finance.yahoo.com/video/mcdonalds-moves-makeover-dicks-sporting-161755169.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:17 ET",
-        "pub_ts": 1795537075.0
-      },
-      {
-        "title": "Monroe Capital Supports Waveborn’s Acquisition of Jake Rosen Entertainment",
-        "url": "https://finance.yahoo.com/media-advertising/articles/monroe-capital-supports-waveborn-acquisition-110000467.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 06:00 ET",
-        "pub_ts": 1795518000.0
       }
     ],
     "PEP": [
@@ -3013,6 +3013,13 @@
         "pub_ts": 1795622724.0
       },
       {
+        "title": "12 Big Funds Bought JPMorgan Chase Last Quarter, While 12 Sold. Who’s Right?",
+        "url": "https://www.tikr.com/blog/12-big-funds-bought-jpmorgan-chase-last-quarter-while-12-sold-whos-right?ref=yahoofinance&tlnk=yf-261125-wgx95c2j&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 13:21 ET",
+        "pub_ts": 1795630860.0
+      },
+      {
         "title": "JPMorgan Sees S&P 500 At 8,200 In 2027 As AI Supercycle Remains Intact",
         "url": "https://stocktwits.com/news-articles/markets/equity/jp-morgan-sees-s-and-p-500-at-8-200-in-2027-as-ai-supercycle-remains-intact/cNbHmzoR9mY?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3032,13 +3039,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 09:16 ET",
         "pub_ts": 1795616193.0
-      },
-      {
-        "title": "J.P. Morgan sees cost inflation limiting European staples upside in 2027",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/j-p-morgan-sees-cost-125859829.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 07:58 ET",
-        "pub_ts": 1795611539.0
       }
     ],
     "WMT": [
@@ -3311,23 +3311,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795636861.7907069,
-    "SOXL": 1795636861.7907069,
-    "SPY": 1795636861.7907069,
-    "DIA": 1795636861.7907069,
-    "SOXX": 1795636861.7907069,
-    "QQQ": 1795636861.7907069,
-    "SMH": 1795636861.7907069,
-    "IWM": 1795636861.7907069,
-    "IGV": 1795636861.7907069,
-    "TLT": 1795636861.7907069,
-    "GLD": 1795636861.7907069,
-    "SQQQ": 1795636861.7907069,
-    "TSM": 1795636861.7907069,
-    "VIXY": 1795636861.7907069,
-    "SOXS": 1795636861.7907069,
-    "NVDA": 1795636861.7907069,
-    "AMD": 1795636861.7907069,
+    "KORU": 1795638452.7947655,
+    "SOXL": 1795638452.7947655,
+    "SPY": 1795638452.7947655,
+    "DIA": 1795638452.7947655,
+    "SOXX": 1795638452.7947655,
+    "QQQ": 1795638452.7947655,
+    "SMH": 1795638452.7947655,
+    "IWM": 1795638452.7947655,
+    "IGV": 1795638452.7947655,
+    "TLT": 1795638452.7947655,
+    "GLD": 1795638452.7947655,
+    "SQQQ": 1795638452.7947655,
+    "TSM": 1795638452.7947655,
+    "VIXY": 1795638452.7947655,
+    "SOXS": 1795638452.7947655,
+    "NVDA": 1795638452.7947655,
+    "AMD": 1795638452.7947655,
     "ASML": 1795636968.9183912,
     "QCOM": 1795636968.9183912,
     "AVGO": 1795636968.9183912,
@@ -3376,21 +3376,21 @@
     "CRWD": 1795638136.5140955,
     "ORCL": 1795638136.5140955,
     "COIN": 1795638136.5140955,
-    "LLY": 1795636861.7907069,
-    "MRNA": 1795636861.7907069,
-    "NKE": 1795636861.7907069,
-    "MCD": 1795636861.7907069,
-    "PEP": 1795636861.7907069,
+    "LLY": 1795638452.7947655,
+    "MRNA": 1795638452.7947655,
+    "NKE": 1795638452.7947655,
+    "MCD": 1795638452.7947655,
+    "PEP": 1795638452.7947655,
     "XOM": 1795636968.9183912,
-    "JPM": 1795636861.7907069,
+    "JPM": 1795638452.7947655,
     "WMT": 1795636968.9183912,
-    "V": 1795636861.7907069,
+    "V": 1795638452.7947655,
     "CAT": 1795636968.9183912,
     "FN": 1795637074.5907528,
     "GLW": 1795637074.5907528,
     "ANT": 1795636968.9183912,
     "XAUUSD": 1795636968.9183912,
-    "KOSPI": 1795636861.7907069
+    "KOSPI": 1795638452.7947655
   },
   "opex_shield": {
     "date": "2026-11-25",
