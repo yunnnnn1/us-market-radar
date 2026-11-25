@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795628635.095,
-  "updated_at_et": "11-25 12:43 ET",
-  "updated_at_kst": "02:43 KST",
+  "updated_at_ts": 1795628743.052,
+  "updated_at_et": "11-25 12:45 ET",
+  "updated_at_kst": "02:45 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1014,6 +1014,20 @@
     ],
     "ASML": [
       {
+        "title": "ASML Stocks Drop 6.1% as Dutch Lawmakers Fight US Chip Curb Bill",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/asml-stocks-drop-6-1-171745637.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:17 ET",
+        "pub_ts": 1795627065.0
+      },
+      {
+        "title": "ASML Sinks 6% in Chip Rout as Dutch Lawmaker Warns MATCH Act Is “Disastrous for ASML”",
+        "url": "https://www.tikr.com/blog/asml-sinks-6-in-chip-rout-as-dutch-lawmaker-warns-match-act-is-disastrous-for-asml?ref=yahoofinance&tlnk=yf-261125-c48vq838&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:11 ET",
+        "pub_ts": 1795626676.0
+      },
+      {
         "title": "Congress Could Pass Tougher Chip Curbs “With Veto Proof Majorities.” ASML Has the Most to Lose",
         "url": "https://www.tikr.com/blog/congress-could-pass-tougher-chip-curbs-with-veto-proof-majorities-asml-has-the-most-to-lose?ref=yahoofinance&tlnk=yf-261125-q479h9j5&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1033,20 +1047,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 04:25 ET",
         "pub_ts": 1795598735.0
-      },
-      {
-        "title": "‘Disastrous' for ASML: Dutch Lawmakers Revolt Against US Push to Tighten China Chip Curbs",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/disastrous-asml-dutch-lawmakers-revolt-064230741.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 01:42 ET",
-        "pub_ts": 1795588950.0
-      },
-      {
-        "title": "Nvidia, AMD, Broadcom lead chip stocks lower as AI trade comes under pressure",
-        "url": "https://finance.yahoo.com/markets/article/nvidia-amd-broadcom-lead-chip-stocks-lower-as-ai-trade-comes-under-pressure-141635463.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:16 ET",
-        "pub_ts": 1795529795.0
       }
     ],
     "QCOM": [
@@ -1125,6 +1125,13 @@
     ],
     "AMAT": [
       {
+        "title": "Applied Materials Stocks Fall 7.98% as MATCH Act Fight Rattles Chip Toolmakers",
+        "url": "https://finance.yahoo.com/technology/articles/applied-materials-stocks-fall-7-174057061.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:40 ET",
+        "pub_ts": 1795628457.0
+      },
+      {
         "title": "Why Applied Materials (AMAT) Stock Is Falling Today: AI-Led Chip Selloff",
         "url": "https://finance.yahoo.com/markets/stocks/articles/why-applied-materials-amat-stock-163016087.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1151,13 +1158,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:01 ET",
         "pub_ts": 1795604496.0
-      },
-      {
-        "title": "Why Is Applied Materials (AMAT) Stock Down Today? Chip Selloff Drags Suppliers",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-applied-materials-amat-stock-204649720.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 15:46 ET",
-        "pub_ts": 1795553209.0
       }
     ],
     "META": [
@@ -1199,6 +1199,20 @@
     ],
     "GOOGL": [
       {
+        "title": "DoubleLine’s Cohen turns bullish on hyperscaler bonds after selloff - Bloomberg",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/doubleline-cohen-turns-bullish-hyperscaler-173352564.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:33 ET",
+        "pub_ts": 1795628032.0
+      },
+      {
+        "title": "Alphabet stock plunges as Google walks away from a big Australian news deal",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stock-plunges-google-walks-171450705.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:14 ET",
+        "pub_ts": 1795626890.0
+      },
+      {
         "title": "Billionaire Stephen Mandel’s Lone Pine Raised Its Alphabet Stake 901% to $743 Million",
         "url": "https://247wallst.com/investing/2026/11/25/billionaire-stephen-mandels-lone-pine-raised-its-alphabet-stake-901-to-743-million/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1218,23 +1232,30 @@
         "source": "Yahoo Finance",
         "time": "11-25 11:55 ET",
         "pub_ts": 1795625749.0
-      },
-      {
-        "title": "Cathie Wood Just Bought $17 Million of Alphabet Across 2 ARK Funds",
-        "url": "https://www.tikr.com/blog/cathie-wood-ark-invest-buys-alphabet-stock-17-million?ref=yahoofinance&tlnk=yf-261125-vg34rx7r&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:51 ET",
-        "pub_ts": 1795625504.0
-      },
-      {
-        "title": "Billionaire Stanley Druckenmiller Sold 94% of His TSMC Stake and All of His Alphabet Shares in Q3. Here’s the Brilliant Stock He Added.",
-        "url": "https://www.fool.com/investing/2026/11/25/billionaire-stanley-druckenmiller-sold-94-of-his-tsmc-and-all-of-his-alphabet-here-s-the-brilliant-stock-he-added/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:37 ET",
-        "pub_ts": 1795624622.0
       }
     ],
     "MSFT": [
+      {
+        "title": "Japan's biggest banks pick Solana as Fidelity adds DeFi tokens",
+        "url": "https://finance.yahoo.com/video/japans-biggest-banks-pick-solana-170000036.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:00 ET",
+        "pub_ts": 1795626000.0
+      },
+      {
+        "title": "DoubleLine’s Cohen turns bullish on hyperscaler bonds after selloff - Bloomberg",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/doubleline-cohen-turns-bullish-hyperscaler-173352564.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:33 ET",
+        "pub_ts": 1795628032.0
+      },
+      {
+        "title": "Microsoft (MSFT) Deepens Europe Sovereign AI Push With Expanded Public Sector Cloud Pact",
+        "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-deepens-europe-sovereign-171058616.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:10 ET",
+        "pub_ts": 1795626658.0
+      },
       {
         "title": "Prediction: IREN’s Microsoft Deal Could Be Just the Beginning of Its Next Growth Phase",
         "url": "https://247wallst.com/investing/2026/11/25/prediction-irens-microsoft-deal-could-be-just-the-beginning-of-its-next-growth-phase-massive-upside-ahead/?.tsrc=rss",
@@ -1248,27 +1269,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:59 ET",
         "pub_ts": 1795622340.0
-      },
-      {
-        "title": "Microsoft Stocks Fall 2.53% as Hyperscalers Join AI Selloff",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stocks-fall-2-53-154006144.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:40 ET",
-        "pub_ts": 1795621206.0
-      },
-      {
-        "title": "Stirlingshire Investments Appoints Daniel Gicklhorn as Chief Technology Officer",
-        "url": "https://finance.yahoo.com/technology/articles/stirlingshire-investments-appoints-daniel-gicklhorn-151300914.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:13 ET",
-        "pub_ts": 1795619580.0
-      },
-      {
-        "title": "Bright Horizon utility lands Microsoft data center deals amid Wyoming buildout",
-        "url": "https://www.utilitydive.com/news/cheyenne-light-microsoft-google-data-center-bright-horizon/875739/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:00 ET",
-        "pub_ts": 1795618839.0
       }
     ],
     "AAPL": [
@@ -1310,6 +1310,20 @@
     ],
     "PLTR": [
       {
+        "title": "Palantir Is Down 25% From Its High. Is It a Bargain or Still Overvalued?",
+        "url": "https://www.fool.com/investing/2026/11/25/palantir-is-down-25-from-its-high-is-it-a-bargain-or-still-overvalued/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:20 ET",
+        "pub_ts": 1795627203.0
+      },
+      {
+        "title": "Palantir Stocks Fall 4.62% as Nasdaq Rout Hits AI Software",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stocks-fall-4-62-171959856.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:19 ET",
+        "pub_ts": 1795627199.0
+      },
+      {
         "title": "Prediction: This Company’s Future Could Look Very Different by the End of 2028",
         "url": "https://247wallst.com/investing/2026/11/25/prediction-this-companys-future-could-look-very-different-by-the-end-of-2028/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1329,20 +1343,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:02 ET",
         "pub_ts": 1795604571.0
-      },
-      {
-        "title": "Can Palantir Technologies (PLTR) Justify Its Price Through Cash Flow?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-pltr-justify-price-070848763.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 02:08 ET",
-        "pub_ts": 1795590528.0
-      },
-      {
-        "title": "Where Will Palantir Stock Be at the End of 2030?",
-        "url": "https://www.fool.com/investing/2026/11/25/where-will-palantir-stock-be-at-the-end-of-2030/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 01:47 ET",
-        "pub_ts": 1795589222.0
       }
     ],
     "NOW": [
@@ -1569,6 +1569,13 @@
     ],
     "BE": [
       {
+        "title": "Bloom Energy Stocks Slide 7.93% as AI Power Names Lose Momentum",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-stocks-slide-7-172002014.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:20 ET",
+        "pub_ts": 1795627202.0
+      },
+      {
         "title": "This AI Power Stock More Than Doubled Its Revenue and Still Burned Cash. Which Number Matters More?",
         "url": "https://www.fool.com/investing/2026/11/25/this-ai-power-stock-more-than-doubled-its-revenue-and-still-burned-cash-which-number-matters-more/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1595,16 +1602,16 @@
         "source": "Yahoo Finance",
         "time": "11-25 03:11 ET",
         "pub_ts": 1795594260.0
-      },
-      {
-        "title": "BE Stock Slumps After AI-Driven Gains: This Analyst Sees ‘An Attractive Entry Point’",
-        "url": "https://stocktwits.com/news-articles/markets/equity/be-stock-slumps-after-ai-driven-gains-this-analyst-sees-an-attractive-entry-point/cNbHRamR9lQ?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 22:53 ET",
-        "pub_ts": 1795578831.0
       }
     ],
     "CRDO": [
+      {
+        "title": "Nvidia Sinks 9% as Huang Rally Fades: Stephanie Link Sees “A Cloud Over It”",
+        "url": "https://www.tikr.com/blog/nvidia-sinks-9-as-huang-rally-fades-stephanie-link-sees-a-cloud-over-it?ref=yahoofinance&tlnk=yf-261125-q8ch658v&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:24 ET",
+        "pub_ts": 1795627456.0
+      },
       {
         "title": "Credo CEO: Its Portfolio Now Spans “Millimeters to Kilometers.” December 1 Tests the Optics Push",
         "url": "https://www.tikr.com/blog/credo-ceo-its-portfolio-now-spans-millimeters-to-kilometers-december-1-tests-the-optics-push?ref=yahoofinance&tlnk=yf-261125-h78f5v23&.tsrc=rss",
@@ -1632,13 +1639,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 00:24 ET",
         "pub_ts": 1795584286.0
-      },
-      {
-        "title": "Down 28% in a Month, Credo Reports Dec. 1 as MaxLinear Predicts “Multiple AEC Vendors.” Time to Buy?",
-        "url": "https://www.tikr.com/blog/down-28-in-a-month-credo-reports-dec-1-as-maxlinear-predicts-multiple-aec-vendors-time-to-buy?ref=yahoofinance&tlnk=yf-261125-m4h6j4m7&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 23:05 ET",
-        "pub_ts": 1795579520.0
       }
     ],
     "COHR": [
@@ -1798,6 +1798,20 @@
         "pub_ts": 1795621319.0
       },
       {
+        "title": "SpaceX Wins First-Ever U.S. Approval for Orbital AI Data Centers",
+        "url": "https://www.cryptoprowl.com/releases/spacex-wins-first-ever-us-approval-for-orbital-ai-data-centers-8074?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:31 ET",
+        "pub_ts": 1795627860.0
+      },
+      {
+        "title": "Anthropic Vs. SpaceX: Both Fell Below IPO Price, But Only One Sees Valuation Below $1 Trillion",
+        "url": "https://stocktwits.com/news-articles/markets/equity/anthropic-vs-space-x-both-fell-below-ipo-price-but-only-one-sees-valuation-below-1-trillion/cNbHNrsR9mq?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:17 ET",
+        "pub_ts": 1795627022.0
+      },
+      {
         "title": "The Largest IPO in Stock Market History Is Here. What It Means for Your Portfolio",
         "url": "https://www.fool.com/investing/2026/11/25/the-largest-ipo-in-stock-market-history-is-here-what-it-means-for-your-portfolio/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1810,20 +1824,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 11:23 ET",
         "pub_ts": 1795623839.0
-      },
-      {
-        "title": "Goldman Sachs Group (GS) Could Be 29% Undervalued As SpaceX AI Financing Lifts Its Story",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-group-gs-could-161059299.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:10 ET",
-        "pub_ts": 1795623059.0
-      },
-      {
-        "title": "I’m Buying SpaceX Because There’s a Reasonable Case for $200 by January",
-        "url": "https://247wallst.com/investing/2026/11/25/im-buying-spacex-because-theres-a-reasonable-case-for-200-by-january/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:45 ET",
-        "pub_ts": 1795621507.0
       }
     ],
     "ASTS": [
@@ -3197,6 +3197,13 @@
     ],
     "GLW": [
       {
+        "title": "Corning Stocks Tumble 7.58% as AI Fiber Trade Unwinds",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/corning-stocks-tumble-7-58-172103702.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:21 ET",
+        "pub_ts": 1795627263.0
+      },
+      {
         "title": "Corning (GLW) Rides AI Optimism On A Narrative That Still Sees It Undervalued",
         "url": "https://finance.yahoo.com/markets/stocks/articles/corning-glw-rides-ai-optimism-151209714.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3223,13 +3230,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 13:36 ET",
         "pub_ts": 1795458967.0
-      },
-      {
-        "title": "Corning Surges 15.1% as Nvidia Rally Lifts AI Hardware Stocks on Nov. 23",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/corning-surges-15-1-nvidia-170242059.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 12:02 ET",
-        "pub_ts": 1795453362.0
       }
     ],
     "ANT": [
@@ -3334,30 +3334,30 @@
     "SOXS": 1795627687.312145,
     "NVDA": 1795627687.312145,
     "AMD": 1795627687.312145,
-    "ASML": 1795627155.1754026,
-    "QCOM": 1795627155.1754026,
-    "AVGO": 1795627155.1754026,
-    "AMAT": 1795627155.1754026,
-    "META": 1795627155.1754026,
-    "GOOGL": 1795627155.1754026,
-    "MSFT": 1795627155.1754026,
-    "AAPL": 1795627155.1754026,
-    "PLTR": 1795627155.1754026,
-    "NOW": 1795627155.1754026,
-    "AMZN": 1795627155.1754026,
-    "CRWV": 1795627155.1754026,
-    "NBIS": 1795627155.1754026,
-    "APLD": 1795627155.1754026,
-    "VST": 1795627155.1754026,
-    "BE": 1795627155.1754026,
-    "CRDO": 1795627155.1754026,
-    "COHR": 1795627155.1754026,
-    "MRVL": 1795627155.1754026,
-    "LITE": 1795627155.1754026,
-    "AAOI": 1795627155.1754026,
-    "SPCX": 1795627155.1754026,
+    "ASML": 1795628743.0518155,
+    "QCOM": 1795628743.0518155,
+    "AVGO": 1795628743.0518155,
+    "AMAT": 1795628743.0518155,
+    "META": 1795628743.0518155,
+    "GOOGL": 1795628743.0518155,
+    "MSFT": 1795628743.0518155,
+    "AAPL": 1795628743.0518155,
+    "PLTR": 1795628743.0518155,
+    "NOW": 1795628743.0518155,
+    "AMZN": 1795628743.0518155,
+    "CRWV": 1795628743.0518155,
+    "NBIS": 1795628743.0518155,
+    "APLD": 1795628743.0518155,
+    "VST": 1795628743.0518155,
+    "BE": 1795628743.0518155,
+    "CRDO": 1795628743.0518155,
+    "COHR": 1795628743.0518155,
+    "MRVL": 1795628743.0518155,
+    "LITE": 1795628743.0518155,
+    "AAOI": 1795628743.0518155,
+    "SPCX": 1795628743.0518155,
     "ASTS": 1795627581.7458813,
-    "AXTI": 1795627155.1754026,
+    "AXTI": 1795628743.0518155,
     "NASA": 1795627581.7458813,
     "LUNR": 1795627581.7458813,
     "TSLA": 1795627581.7458813,
@@ -3392,8 +3392,8 @@
     "WMT": 1795627793.54345,
     "V": 1795627687.312145,
     "CAT": 1795627793.54345,
-    "FN": 1795627155.1754026,
-    "GLW": 1795627155.1754026,
+    "FN": 1795628743.0518155,
+    "GLW": 1795628743.0518155,
     "ANT": 1795627793.54345,
     "XAUUSD": 1795627793.54345,
     "KOSPI": 1795627687.312145
