@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795646371.485,
-  "updated_at_et": "11-25 17:39 ET",
-  "updated_at_kst": "07:39 KST",
+  "updated_at_ts": 1795646469.57,
+  "updated_at_et": "11-25 17:41 ET",
+  "updated_at_kst": "07:41 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1801,6 +1801,13 @@
         "pub_ts": 1795640239.0
       },
       {
+        "title": "Stock Market Today, Nov. 25: SpaceX Gets Historic FCC Approval for 1 Million Satellites. Is This Its Next Growth Engine?",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-spacex-gets-historic-fcc-approval-for-1-million-satellites-is-this-its-next-growth-engine/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 17:05 ET",
+        "pub_ts": 1795644352.0
+      },
+      {
         "title": "SpaceX Stock Surges on AI Satellite Approval and Trump Accounts Plan",
         "url": "https://beincrypto.com/spacex-stock-ai-satellites-trump-accounts/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1820,13 +1827,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 16:10 ET",
         "pub_ts": 1795641010.0
-      },
-      {
-        "title": "FCC approves SpaceX plan to put AI data centers in space",
-        "url": "https://finance.yahoo.com/technology/ai/articles/fcc-approves-spacex-plan-put-205644117.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 15:56 ET",
-        "pub_ts": 1795640204.0
       }
     ],
     "ASTS": [
@@ -3356,11 +3356,11 @@
     "CRDO": 1795646371.4847808,
     "COHR": 1795646371.4847808,
     "MRVL": 1795646371.4847808,
-    "LITE": 1795644921.64759,
+    "LITE": 1795646469.5698726,
     "AAOI": 1795646371.4847808,
-    "SPCX": 1795644921.64759,
+    "SPCX": 1795646469.5698726,
     "ASTS": 1795646082.5259976,
-    "AXTI": 1795644921.64759,
+    "AXTI": 1795646469.5698726,
     "NASA": 1795646082.5259976,
     "LUNR": 1795646082.5259976,
     "TSLA": 1795646082.5259976,
@@ -3395,8 +3395,8 @@
     "WMT": 1795646371.4847808,
     "V": 1795646179.3607428,
     "CAT": 1795646371.4847808,
-    "FN": 1795644921.64759,
-    "GLW": 1795644921.64759,
+    "FN": 1795646469.5698726,
+    "GLW": 1795646469.5698726,
     "ANT": 1795646371.4847808,
     "XAUUSD": 1795646371.4847808,
     "KOSPI": 1795646179.3607428
