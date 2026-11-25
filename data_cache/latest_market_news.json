@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795647524.004,
-  "updated_at_et": "11-25 17:58 ET",
-  "updated_at_kst": "07:58 KST",
+  "updated_at_ts": 1795647619.181,
+  "updated_at_et": "11-25 18:00 ET",
+  "updated_at_kst": "08:00 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -2423,11 +2423,25 @@
     ],
     "MU": [
       {
+        "title": "Micron's CEO pay rose 28%. His security bill rose way faster",
+        "url": "https://www.thestreet.com/investing/micron-ceo-pay-security-costs-soar?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 17:33 ET",
+        "pub_ts": 1795645980.0
+      },
+      {
         "title": "Not Micron. Not Broadcom. This Is My Top Oversold Artificial Intelligence (AI) Stock to Buy in December",
         "url": "https://www.fool.com/investing/2026/11/25/not-micron-not-broadcom-this-is-my-top-oversold-artificial-intelligence-ai-stock-to-buy-in-december/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 16:51 ET",
         "pub_ts": 1795643461.0
+      },
+      {
+        "title": "Micron (MU) Suffers a Larger Drop Than the General Market: Key Insights",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/micron-mu-suffers-larger-drop-214502791.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:45 ET",
+        "pub_ts": 1795643102.0
       },
       {
         "title": "Chips and iPhones Are Safe From New Tariffs. Here’s What Isn’t.",
@@ -2442,20 +2456,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 14:20 ET",
         "pub_ts": 1795634402.0
-      },
-      {
-        "title": "Anthropic, Nvidia, Micron, HP Inc., Dell, Deere, and More Stocks That Explain Today’s Market",
-        "url": "https://finance.yahoo.com/m/18e72c51-c6d7-33b1-aa90-ccce17a9b32f/anthropic%2C-nvidia%2C-micron%2C-hp.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 13:37 ET",
-        "pub_ts": 1795631820.0
-      },
-      {
-        "title": "Micron Stock and Other Memory Plays Will Bear the Brunt of This AI Pain",
-        "url": "https://finance.yahoo.com/m/c60b7c01-7f3d-3700-ad68-951e994a6d38/micron-stock-and-other-memory.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:46 ET",
-        "pub_ts": 1795628760.0
       }
     ],
     "SKHY": [
@@ -2645,6 +2645,20 @@
     ],
     "BTC-USD": [
       {
+        "title": "Nvidia settles 8-year-old investor suit for $290M",
+        "url": "https://www.thestreet.com/crypto/artificial-intelligence/nvidia-settles-8-year-old-investor-suit-for-290m?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 17:30 ET",
+        "pub_ts": 1795645800.0
+      },
+      {
+        "title": "Crypto Market Today, Nov. 25: Bitcoin, Ethereum, and Solana as Short Liquidations Fuel Fragile Rebound",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/crypto-market-today-nov-25-bitcoin-ethereum-and-solana-as-short-liquidations-fuel-fragile-rebound/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 17:26 ET",
+        "pub_ts": 1795645579.0
+      },
+      {
         "title": "How Much of Your Portfolio Should Be in Bitcoin After a 50% Drop?",
         "url": "https://247wallst.com/investing/cryptocurrency/2026/11/25/how-much-of-your-portfolio-should-be-in-bitcoin-after-a-50-drop/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2664,20 +2678,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 17:00 ET",
         "pub_ts": 1795644000.0
-      },
-      {
-        "title": "Sector Update: Financial Stocks Advance Late Afternoon",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-afternoon-210138295.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 16:01 ET",
-        "pub_ts": 1795640498.0
-      },
-      {
-        "title": "With bitcoin crashing, is Strategy (MSTR) in trouble?",
-        "url": "https://blockspace.media/short/with-bitcoin-crashing-is-strategy-mstr-in-trouble/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 15:28 ET",
-        "pub_ts": 1795638489.0
       }
     ],
     "CRWD": [
@@ -3359,32 +3359,32 @@
     "LITE": 1795646469.5698726,
     "AAOI": 1795646371.4847808,
     "SPCX": 1795646469.5698726,
-    "ASTS": 1795646082.5259976,
+    "ASTS": 1795647619.1812096,
     "AXTI": 1795646469.5698726,
-    "NASA": 1795646082.5259976,
-    "LUNR": 1795646082.5259976,
-    "TSLA": 1795646082.5259976,
-    "AXP": 1795646082.5259976,
-    "RKLB": 1795646082.5259976,
-    "KO": 1795646082.5259976,
-    "FLY": 1795646082.5259976,
-    "INTC": 1795646082.5259976,
-    "VRT": 1795646082.5259976,
-    "HPE": 1795646082.5259976,
-    "DELL": 1795646082.5259976,
-    "OKLO": 1795646082.5259976,
-    "CEG": 1795646082.5259976,
-    "FPS": 1795646082.5259976,
-    "MU": 1795646082.5259976,
-    "SKHY": 1795646082.5259976,
-    "WDC": 1795646082.5259976,
-    "STX": 1795646082.5259976,
-    "MSTR": 1795646082.5259976,
-    "SNDK": 1795646082.5259976,
-    "BTC-USD": 1795646082.5259976,
-    "CRWD": 1795646082.5259976,
-    "ORCL": 1795646082.5259976,
-    "COIN": 1795646082.5259976,
+    "NASA": 1795647619.1812096,
+    "LUNR": 1795647619.1812096,
+    "TSLA": 1795647619.1812096,
+    "AXP": 1795647619.1812096,
+    "RKLB": 1795647619.1812096,
+    "KO": 1795647619.1812096,
+    "FLY": 1795647619.1812096,
+    "INTC": 1795647619.1812096,
+    "VRT": 1795647619.1812096,
+    "HPE": 1795647619.1812096,
+    "DELL": 1795647619.1812096,
+    "OKLO": 1795647619.1812096,
+    "CEG": 1795647619.1812096,
+    "FPS": 1795647619.1812096,
+    "MU": 1795647619.1812096,
+    "SKHY": 1795647619.1812096,
+    "WDC": 1795647619.1812096,
+    "STX": 1795647619.1812096,
+    "MSTR": 1795647619.1812096,
+    "SNDK": 1795647619.1812096,
+    "BTC-USD": 1795647619.1812096,
+    "CRWD": 1795647619.1812096,
+    "ORCL": 1795647619.1812096,
+    "COIN": 1795647619.1812096,
     "LLY": 1795646179.3607428,
     "MRNA": 1795646179.3607428,
     "NKE": 1795646179.3607428,
