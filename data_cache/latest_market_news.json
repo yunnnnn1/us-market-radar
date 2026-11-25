@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795642985.611,
-  "updated_at_et": "11-25 16:43 ET",
-  "updated_at_kst": "06:43 KST",
+  "updated_at_ts": 1795643083.234,
+  "updated_at_et": "11-25 16:44 ET",
+  "updated_at_kst": "06:44 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -604,6 +604,13 @@
     ],
     "SMH": [
       {
+        "title": "Update: US Equity Indexes Mixed, Treasury Yields Drop as Investors Rotate Out of Chipmakers While Assessing Trade Tariffs",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-treasury-213222387.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:32 ET",
+        "pub_ts": 1795642342.0
+      },
+      {
         "title": "AI Anxiety Rules Wall Street Pre-Bell; Asia Off, Europe Up",
         "url": "https://finance.yahoo.com/markets/stocks/articles/ai-anxiety-rules-wall-street-112810095.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -630,13 +637,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:52 ET",
         "pub_ts": 1795539162.0
-      },
-      {
-        "title": "Michael Burry Sells Most of His Nvidia Puts Before Stock Jumps 31%",
-        "url": "https://finance.yahoo.com/markets/options/articles/michael-burry-sells-most-nvidia-153035278.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:30 ET",
-        "pub_ts": 1795534235.0
       }
     ],
     "IWM": [
@@ -678,39 +678,39 @@
     ],
     "IGV": [
       {
-        "title": "Can Technology Stocks Regain Their Leadership Role?",
-        "url": "https://finnhub.io/api/news?id=b5d77e4a312a283d92e8edac19a149f2e76c77cced1f321cabc6b047c6b9e62a",
-        "source": "SeekingAlpha",
-        "time": "11-25 03:25 ET",
-        "pub_ts": 1795595100.0
-      },
-      {
-        "title": "3 ETFs For Owning Palo Alto Networks Without The Same Bet",
-        "url": "https://finnhub.io/api/news?id=9a829b5409bfe6b3e85cbf52c6713966134895858195430ae21c726d3bee7551",
-        "source": "Yahoo",
-        "time": "11-24 08:10 ET",
-        "pub_ts": 1795525858.0
-      },
-      {
-        "title": "Are Wall Street Analysts Bullish on Synopsys Stock?",
-        "url": "https://finnhub.io/api/news?id=917f995f59089dd9ab14dcc0ec3c9f355d7912ac34867d634ab61286bff589ed",
-        "source": "Yahoo",
-        "time": "11-24 06:15 ET",
-        "pub_ts": 1795518900.0
+        "title": "iShares Expanded Tech-Software (IGV) Buys $15 Million More Palo Alto on Nov. 23",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-expanded-tech-software-igv-110551099.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 06:05 ET",
+        "pub_ts": 1795604751.0
       },
       {
         "title": "What iShares Expanded Tech-Software (IGV) Sold: Palo Alto Leads on Friday",
-        "url": "https://finnhub.io/api/news?id=c47aba9ac16ec81021d634e54f81379741021333ba8e375ae2505405c3fdeded",
-        "source": "Yahoo",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-expanded-tech-software-igv-110408106.html?.tsrc=rss",
+        "source": "Yahoo Finance",
         "time": "11-24 06:04 ET",
         "pub_ts": 1795518248.0
       },
       {
-        "title": "Stocks Roar as the S&P 500 Jumps About 4.5% on News Jensen Huang Is Returning as NVIDIA CEO",
-        "url": "https://finnhub.io/api/news?id=b12296cc6a1b7eab1a3efae40b1e794480360b0be55affa590372940f0fbbea9",
-        "source": "Yahoo",
-        "time": "11-23 14:49 ET",
-        "pub_ts": 1795463390.0
+        "title": "iShares Expanded Tech-Software (IGV) Sells $17.3 Million More Microsoft on Nov. 17",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-expanded-tech-software-igv-110546407.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-19 06:05 ET",
+        "pub_ts": 1795086346.0
+      },
+      {
+        "title": "iShares Expanded Tech-Software (IGV) Sells $19.0 Million of Microsoft on Nov. 16",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-expanded-tech-software-igv-110517237.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-18 06:05 ET",
+        "pub_ts": 1794999917.0
+      },
+      {
+        "title": "Boom Goes the Stock Market",
+        "url": "https://finance.yahoo.com/m/a874bb50-570d-3775-bc4f-8ae36f44bacd/boom-goes-the-stock-market.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-17 10:59 ET",
+        "pub_ts": 1794931169.0
       }
     ],
     "TLT": [
@@ -937,42 +937,49 @@
     ],
     "NVDA": [
       {
+        "title": "Jensen Huang reclaims throne at Nvidia: Here's the bottom line for investors",
+        "url": "https://finance.yahoo.com/video/jensen-huang-reclaims-throne-at-nvidia-heres-the-bottom-line-for-investors-212803135.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:28 ET",
+        "pub_ts": 1795642083.0
+      },
+      {
+        "title": "Jensen Huang's return, neocloud risk, and a holiday retail rally",
+        "url": "https://finance.yahoo.com/video/jensen-huangs-return-neocloud-risk-210000087.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:00 ET",
+        "pub_ts": 1795640400.0
+      },
+      {
+        "title": "Update: US Equity Indexes Mixed, Treasury Yields Drop as Investors Rotate Out of Chipmakers While Assessing Trade Tariffs",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-treasury-213222387.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:32 ET",
+        "pub_ts": 1795642342.0
+      },
+      {
+        "title": "These 5 Tech Stocks are Sidestepping the AI Downturn",
+        "url": "https://finance.yahoo.com/m/d635c9d7-dbc8-3f44-bc94-e186ec33e2bd/these-5-tech-stocks-are.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:16 ET",
+        "pub_ts": 1795641360.0
+      },
+      {
         "title": "Nvidia Put on CreditWatch Negative by S&P Global Ratings Amid Governance Concerns",
         "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-put-creditwatch-negative-p-210636240.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 16:06 ET",
         "pub_ts": 1795640796.0
-      },
-      {
-        "title": "Update: US Equity Indexes Mixed, Treasury Yields Drop as Investors Rotate Out of Chipmakers",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-treasury-205803677.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 15:58 ET",
-        "pub_ts": 1795640283.0
-      },
-      {
-        "title": "Anthropic’s Chip Choices Could Change the Nvidia Story. Here’s How.",
-        "url": "https://www.fool.com/investing/2026/11/25/anthropic-s-chip-choices-could-change-the-nvidia-story-here-s-how/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 15:53 ET",
-        "pub_ts": 1795639982.0
-      },
-      {
-        "title": "Is Jensen Huang Really Worth $954 Billion to Nvidia?",
-        "url": "https://www.fool.com/investing/2026/11/25/is-jensen-huang-really-worth-usd954-billion-to-nvidia/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 15:35 ET",
-        "pub_ts": 1795638901.0
-      },
-      {
-        "title": "Dell’s Jeff Clarke: “We’ve Had No Customers Reschedule Business.” That’s Good News for Nvidia",
-        "url": "https://www.tikr.com/blog/dells-jeff-clarke-weve-had-no-customers-reschedule-business-thats-good-news-for-nvidia?ref=yahoofinance&tlnk=yf-261125-pm9r283x&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 15:20 ET",
-        "pub_ts": 1795638027.0
       }
     ],
     "AMD": [
+      {
+        "title": "Prediction: AMD Stock Could Rally 58% as Analysts Maintain Strong Buy Rating",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-amd-stock-could-rally-213100517.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:31 ET",
+        "pub_ts": 1795642260.0
+      },
       {
         "title": "David Tepper Sold All of His AMD Stock. His Biggest Position Is Micron.",
         "url": "https://www.fool.com/investing/2026/11/25/david-tepper-sold-all-of-his-amd-stock-his-biggest-position-is-micron/?.tsrc=rss",
@@ -1000,13 +1007,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 12:02 ET",
         "pub_ts": 1795626156.0
-      },
-      {
-        "title": "Without an Anthropic Rally, “There Will Be No OpenAI.” AMD Is the Real Loser",
-        "url": "https://www.tikr.com/blog/without-an-anthropic-rally-there-will-be-no-openai-amd-is-the-real-loser?ref=yahoofinance&tlnk=yf-261125-334c8hfc&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:18 ET",
-        "pub_ts": 1795623516.0
       }
     ],
     "ASML": [
@@ -3083,11 +3083,25 @@
     ],
     "V": [
       {
+        "title": "Jensen Huang's return, neocloud risk, and a holiday retail rally",
+        "url": "https://finance.yahoo.com/video/jensen-huangs-return-neocloud-risk-210000087.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:00 ET",
+        "pub_ts": 1795640400.0
+      },
+      {
         "title": "Japan's biggest banks pick Solana as Fidelity adds DeFi tokens",
         "url": "https://finance.yahoo.com/video/japans-biggest-banks-pick-solana-170000036.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 12:00 ET",
         "pub_ts": 1795626000.0
+      },
+      {
+        "title": "The Best Dividend Stocks to Buy With $5,000 in November",
+        "url": "https://www.fool.com/investing/2026/11/25/the-best-dividend-stocks-to-buy-with-5000-in-november/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:21 ET",
+        "pub_ts": 1795641662.0
       },
       {
         "title": "The challenge banks face in drawing consumers to AI payments",
@@ -3102,20 +3116,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 11:35 ET",
         "pub_ts": 1795624557.0
-      },
-      {
-        "title": "Klarna Announces Major Canada Expansion With Launch of Flexible Virtual Card",
-        "url": "https://finance.yahoo.com/small-business/articles/klarna-announces-major-canada-expansion-163500879.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:35 ET",
-        "pub_ts": 1795624500.0
-      },
-      {
-        "title": "Visa Paid About $335 per Share to Buy Back $20.5 Billion of Its Stock Last Year. Would You Pay $400?",
-        "url": "https://www.fool.com/investing/2026/11/25/visa-paid-about-usd335-per-share-to-buy-back-usd20-5-billion-of-its-stock-last-year-would-you-pay-usd400/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:28 ET",
-        "pub_ts": 1795624082.0
       }
     ],
     "CAT": [
@@ -3314,23 +3314,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795641538.099514,
-    "SOXL": 1795641538.099514,
-    "SPY": 1795641538.099514,
-    "DIA": 1795641538.099514,
-    "SOXX": 1795641538.099514,
-    "QQQ": 1795641538.099514,
-    "SMH": 1795641538.099514,
-    "IWM": 1795641538.099514,
-    "IGV": 1795641538.099514,
-    "TLT": 1795641538.099514,
-    "GLD": 1795641538.099514,
-    "SQQQ": 1795641538.099514,
-    "TSM": 1795641538.099514,
-    "VIXY": 1795641538.099514,
-    "SOXS": 1795641538.099514,
-    "NVDA": 1795641538.099514,
-    "AMD": 1795641538.099514,
+    "KORU": 1795643083.2340322,
+    "SOXL": 1795643083.2340322,
+    "SPY": 1795643083.2340322,
+    "DIA": 1795643083.2340322,
+    "SOXX": 1795643083.2340322,
+    "QQQ": 1795643083.2340322,
+    "SMH": 1795643083.2340322,
+    "IWM": 1795643083.2340322,
+    "IGV": 1795643083.2340322,
+    "TLT": 1795643083.2340322,
+    "GLD": 1795643083.2340322,
+    "SQQQ": 1795643083.2340322,
+    "TSM": 1795643083.2340322,
+    "VIXY": 1795643083.2340322,
+    "SOXS": 1795643083.2340322,
+    "NVDA": 1795643083.2340322,
+    "AMD": 1795643083.2340322,
     "ASML": 1795641735.5191722,
     "QCOM": 1795641735.5191722,
     "AVGO": 1795641735.5191722,
@@ -3379,21 +3379,21 @@
     "CRWD": 1795642985.6114042,
     "ORCL": 1795642985.6114042,
     "COIN": 1795642985.6114042,
-    "LLY": 1795641538.099514,
-    "MRNA": 1795641538.099514,
-    "NKE": 1795641538.099514,
-    "MCD": 1795641538.099514,
-    "PEP": 1795641538.099514,
+    "LLY": 1795643083.2340322,
+    "MRNA": 1795643083.2340322,
+    "NKE": 1795643083.2340322,
+    "MCD": 1795643083.2340322,
+    "PEP": 1795643083.2340322,
     "XOM": 1795641735.5191722,
-    "JPM": 1795641538.099514,
+    "JPM": 1795643083.2340322,
     "WMT": 1795641735.5191722,
-    "V": 1795641538.099514,
+    "V": 1795643083.2340322,
     "CAT": 1795641735.5191722,
     "FN": 1795641831.8541296,
     "GLW": 1795641831.8541296,
     "ANT": 1795641735.5191722,
     "XAUUSD": 1795641735.5191722,
-    "KOSPI": 1795641538.099514
+    "KOSPI": 1795643083.2340322
   },
   "opex_shield": {
     "date": "2026-11-25",
