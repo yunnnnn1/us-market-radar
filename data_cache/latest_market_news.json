@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795616394.822,
-  "updated_at_et": "11-25 09:19 ET",
-  "updated_at_kst": "23:19 KST",
+  "updated_at_ts": 1795616503.049,
+  "updated_at_et": "11-25 09:21 ET",
+  "updated_at_kst": "23:21 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -2058,6 +2058,13 @@
     ],
     "RKLB": [
       {
+        "title": "Rocket Lab Just Grew Revenue 73%. Its Next Chapter Could Be Even Bigger",
+        "url": "https://247wallst.com/investing/2026/11/25/rocket-lab-just-grew-revenue-73-its-next-chapter-could-be-even-bigger/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:03 ET",
+        "pub_ts": 1795615437.0
+      },
+      {
         "title": "Did Rocket Lab Stock Fall On Company News?",
         "url": "https://www.trefis.com/stock/rklb/articles/628989/did-rocket-lab-stock-fall-on-company-news/2026-11-25?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2084,16 +2091,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 14:13 ET",
         "pub_ts": 1795547613.0
-      },
-      {
-        "title": "Why Rocket Lab Demand News Could Make ETFs Worth A Look",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-rocket-lab-demand-news-151414622.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:14 ET",
-        "pub_ts": 1795533254.0
       }
     ],
     "KO": [
+      {
+        "title": "Prediction: Coca-Cola Stock Will Close 2026 Over $100 per Share. Here’s Why It’s a No-Brainer Buy for 2027.",
+        "url": "https://www.fool.com/investing/2026/11/25/prediction-coca-cola-stock-will-close-2026-over-100-per-share-heres-why-its-a-no-brainer-buy-for-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 08:51 ET",
+        "pub_ts": 1795614712.0
+      },
       {
         "title": "Up 41% at Just Over Half Costco’s P/E: Inside Coca-Cola’s Quiet Rally",
         "url": "https://finance.yahoo.com/markets/stocks/articles/41-just-over-half-costco-092400539.html?.tsrc=rss",
@@ -2121,13 +2128,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 16:45 ET",
         "pub_ts": 1795556758.0
-      },
-      {
-        "title": "Coca-Cola hires pharma vet for CFO",
-        "url": "https://www.cfodive.com/news/cocacola-grants-new-cfo-10m-stock-cash-awards-beverage-capex/875666/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 14:07 ET",
-        "pub_ts": 1795547238.0
       }
     ],
     "FLY": [
@@ -2243,6 +2243,13 @@
     ],
     "HPE": [
       {
+        "title": "HPE Q4 Earnings Beat Estimates on Strong Server Demand",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/hpe-q4-earnings-beat-estimates-130300467.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 08:03 ET",
+        "pub_ts": 1795611780.0
+      },
+      {
         "title": "What Is Dragging HPE Stock Down?",
         "url": "https://www.trefis.com/stock/hpe/articles/628967/what-is-dragging-hpe-stock-down/2026-11-25?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2269,13 +2276,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 18:21 ET",
         "pub_ts": 1795562494.0
-      },
-      {
-        "title": "Dell Just Reported Earnings and Raised Its Forecast by $10 Billion. Is the Stock a Buy After Tuesday's Selloff?",
-        "url": "https://www.fool.com/investing/2026/11/24/dell-just-reported-earnings-and-raised-its-forecast-by-usd10-billion-is-the-stock-a-buy-after-tuesday-s-selloff/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 17:14 ET",
-        "pub_ts": 1795558483.0
       }
     ],
     "DELL": [
@@ -2653,8 +2653,8 @@
         "title": "Stock Market Today: Dow Dives On Surprise Inflation Data; Nvidia, Anthropic Plunge (Live Coverage)",
         "url": "https://finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow-dives.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 08:38 ET",
-        "pub_ts": 1795613907.0
+        "time": "11-25 08:54 ET",
+        "pub_ts": 1795614871.0
       },
       {
         "title": "Cathie Wood's ARK Buys Anthropic as Ripple CEO Predicts Post-IPO Crypto Rally",
@@ -2724,6 +2724,13 @@
     ],
     "ORCL": [
       {
+        "title": "Data Center Americas 2027 Announces Industry Leaders from AWS, Google, Microsoft, Oracle, CoreWeave and Applied Digital as Featured Speakers",
+        "url": "https://finance.yahoo.com/technology/ai/articles/data-center-americas-2027-announces-140000391.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:00 ET",
+        "pub_ts": 1795615200.0
+      },
+      {
         "title": "Oracle Can Reach $240 in 2027: Wall Street Needs 4 Things to Happen",
         "url": "https://247wallst.com/investing/2026/11/25/oracle-can-reach-240-in-2027-wall-street-needs-4-things-to-happen/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2750,13 +2757,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 01:56 ET",
         "pub_ts": 1795589778.0
-      },
-      {
-        "title": "Oracle (ORCL) Falls More Steeply Than Broader Market: What Investors Need to Know",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-orcl-falls-more-steeply-214502238.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:45 ET",
-        "pub_ts": 1795556702.0
       }
     ],
     "COIN": [
@@ -3364,32 +3364,32 @@
     "LITE": 1795616076.3607793,
     "AAOI": 1795616076.3607793,
     "SPCX": 1795616076.3607793,
-    "ASTS": 1795614913.212797,
+    "ASTS": 1795616503.049081,
     "AXTI": 1795616076.3607793,
-    "NASA": 1795614913.212797,
-    "LUNR": 1795614913.212797,
-    "TSLA": 1795614913.212797,
-    "AXP": 1795614913.212797,
-    "RKLB": 1795614913.212797,
-    "KO": 1795614913.212797,
-    "FLY": 1795614913.212797,
-    "INTC": 1795614913.212797,
-    "VRT": 1795614913.212797,
-    "HPE": 1795614913.212797,
-    "DELL": 1795614913.212797,
-    "OKLO": 1795614913.212797,
-    "CEG": 1795614913.212797,
-    "FPS": 1795614913.212797,
-    "MU": 1795614913.212797,
-    "SKHY": 1795614913.212797,
-    "WDC": 1795614913.212797,
-    "STX": 1795614913.212797,
-    "MSTR": 1795614913.212797,
-    "SNDK": 1795614913.212797,
-    "BTC-USD": 1795614913.212797,
-    "CRWD": 1795614913.212797,
-    "ORCL": 1795614913.212797,
-    "COIN": 1795614913.212797,
+    "NASA": 1795616503.049081,
+    "LUNR": 1795616503.049081,
+    "TSLA": 1795616503.049081,
+    "AXP": 1795616503.049081,
+    "RKLB": 1795616503.049081,
+    "KO": 1795616503.049081,
+    "FLY": 1795616503.049081,
+    "INTC": 1795616503.049081,
+    "VRT": 1795616503.049081,
+    "HPE": 1795616503.049081,
+    "DELL": 1795616503.049081,
+    "OKLO": 1795616503.049081,
+    "CEG": 1795616503.049081,
+    "FPS": 1795616503.049081,
+    "MU": 1795616503.049081,
+    "SKHY": 1795616503.049081,
+    "WDC": 1795616503.049081,
+    "STX": 1795616503.049081,
+    "MSTR": 1795616503.049081,
+    "SNDK": 1795616503.049081,
+    "BTC-USD": 1795616503.049081,
+    "CRWD": 1795616503.049081,
+    "ORCL": 1795616503.049081,
+    "COIN": 1795616503.049081,
     "LLY": 1795615019.958787,
     "MRNA": 1795615019.958787,
     "NKE": 1795615019.958787,
