@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795641438.64,
-  "updated_at_et": "11-25 16:17 ET",
-  "updated_at_kst": "06:17 KST",
+  "updated_at_ts": 1795641538.1,
+  "updated_at_et": "11-25 16:18 ET",
+  "updated_at_kst": "06:18 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -456,6 +456,13 @@
     ],
     "SPY": [
       {
+        "title": "Nvidia is cheap on paper, so why won't the market buy it?",
+        "url": "https://finance.yahoo.com/video/nvidia-is-cheap-on-paper-so-why-wont-the-market-buy-it-192215326.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 14:22 ET",
+        "pub_ts": 1795634535.0
+      },
+      {
         "title": "SPDR S&P 500 ETF (SPY) Adds Apple and Nvidia on Monday",
         "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110402304.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -482,13 +489,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:05 ET",
         "pub_ts": 1795619103.0
-      },
-      {
-        "title": "Is A 4.7% S&P Jump A Good Sign?",
-        "url": "https://www.trefis.com/stock/spy/articles/628687/is-a-4-7-s-p-jump-a-good-sign/2026-11-25?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:02 ET",
-        "pub_ts": 1795604542.0
       }
     ],
     "DIA": [
@@ -678,39 +678,39 @@
     ],
     "IGV": [
       {
-        "title": "iShares Expanded Tech-Software (IGV) Buys $15 Million More Palo Alto on Nov. 23",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-expanded-tech-software-igv-110551099.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:05 ET",
-        "pub_ts": 1795604751.0
+        "title": "Can Technology Stocks Regain Their Leadership Role?",
+        "url": "https://finnhub.io/api/news?id=b5d77e4a312a283d92e8edac19a149f2e76c77cced1f321cabc6b047c6b9e62a",
+        "source": "SeekingAlpha",
+        "time": "11-25 03:25 ET",
+        "pub_ts": 1795595100.0
+      },
+      {
+        "title": "3 ETFs For Owning Palo Alto Networks Without The Same Bet",
+        "url": "https://finnhub.io/api/news?id=9a829b5409bfe6b3e85cbf52c6713966134895858195430ae21c726d3bee7551",
+        "source": "Yahoo",
+        "time": "11-24 08:10 ET",
+        "pub_ts": 1795525858.0
+      },
+      {
+        "title": "Are Wall Street Analysts Bullish on Synopsys Stock?",
+        "url": "https://finnhub.io/api/news?id=917f995f59089dd9ab14dcc0ec3c9f355d7912ac34867d634ab61286bff589ed",
+        "source": "Yahoo",
+        "time": "11-24 06:15 ET",
+        "pub_ts": 1795518900.0
       },
       {
         "title": "What iShares Expanded Tech-Software (IGV) Sold: Palo Alto Leads on Friday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-expanded-tech-software-igv-110408106.html?.tsrc=rss",
-        "source": "Yahoo Finance",
+        "url": "https://finnhub.io/api/news?id=c47aba9ac16ec81021d634e54f81379741021333ba8e375ae2505405c3fdeded",
+        "source": "Yahoo",
         "time": "11-24 06:04 ET",
         "pub_ts": 1795518248.0
       },
       {
-        "title": "iShares Expanded Tech-Software (IGV) Sells $17.3 Million More Microsoft on Nov. 17",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-expanded-tech-software-igv-110546407.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-19 06:05 ET",
-        "pub_ts": 1795086346.0
-      },
-      {
-        "title": "iShares Expanded Tech-Software (IGV) Sells $19.0 Million of Microsoft on Nov. 16",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-expanded-tech-software-igv-110517237.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-18 06:05 ET",
-        "pub_ts": 1794999917.0
-      },
-      {
-        "title": "Boom Goes the Stock Market",
-        "url": "https://finance.yahoo.com/m/a874bb50-570d-3775-bc4f-8ae36f44bacd/boom-goes-the-stock-market.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-17 10:59 ET",
-        "pub_ts": 1794931169.0
+        "title": "Stocks Roar as the S&P 500 Jumps About 4.5% on News Jensen Huang Is Returning as NVIDIA CEO",
+        "url": "https://finnhub.io/api/news?id=b12296cc6a1b7eab1a3efae40b1e794480360b0be55affa590372940f0fbbea9",
+        "source": "Yahoo",
+        "time": "11-23 14:49 ET",
+        "pub_ts": 1795463390.0
       }
     ],
     "TLT": [
@@ -937,6 +937,27 @@
     ],
     "NVDA": [
       {
+        "title": "Nvidia Put on CreditWatch Negative by S&P Global Ratings Amid Governance Concerns",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-put-creditwatch-negative-p-210636240.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:06 ET",
+        "pub_ts": 1795640796.0
+      },
+      {
+        "title": "Update: US Equity Indexes Mixed, Treasury Yields Drop as Investors Rotate Out of Chipmakers",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-treasury-205803677.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:58 ET",
+        "pub_ts": 1795640283.0
+      },
+      {
+        "title": "Anthropic’s Chip Choices Could Change the Nvidia Story. Here’s How.",
+        "url": "https://www.fool.com/investing/2026/11/25/anthropic-s-chip-choices-could-change-the-nvidia-story-here-s-how/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:53 ET",
+        "pub_ts": 1795639982.0
+      },
+      {
         "title": "Is Jensen Huang Really Worth $954 Billion to Nvidia?",
         "url": "https://www.fool.com/investing/2026/11/25/is-jensen-huang-really-worth-usd954-billion-to-nvidia/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -944,32 +965,11 @@
         "pub_ts": 1795638901.0
       },
       {
-        "title": "Mysterious traders made $340,000 betting on Huang’s Nvidia return",
-        "url": "https://www.thestreet.com/crypto/markets/mysterious-traders-made-340000-betting-on-huangs-nvidia-return?.tsrc=rss",
+        "title": "Dell’s Jeff Clarke: “We’ve Had No Customers Reschedule Business.” That’s Good News for Nvidia",
+        "url": "https://www.tikr.com/blog/dells-jeff-clarke-weve-had-no-customers-reschedule-business-thats-good-news-for-nvidia?ref=yahoofinance&tlnk=yf-261125-pm9r283x&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 15:00 ET",
-        "pub_ts": 1795636800.0
-      },
-      {
-        "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
-        "url": "https://finance.yahoo.com/technology/articles/jensen-huang-broke-nvidia-code-195457319.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 14:54 ET",
-        "pub_ts": 1795636497.0
-      },
-      {
-        "title": "Nvidia U-Turn Is Bad News For Anthropic, Says Parmy Olson",
-        "url": "https://finance.yahoo.com/video/nvidia-u-turn-bad-news-195302644.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 14:53 ET",
-        "pub_ts": 1795636382.0
-      },
-      {
-        "title": "Nvidia to Pay $290 Million to Settle Long-Running Crypto Mining Revenue Lawsuit",
-        "url": "https://decrypt.co/383994/nvidia-290-million-settle-crypto-mining-disclosure-lawsuit?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 14:28 ET",
-        "pub_ts": 1795634934.0
+        "time": "11-25 15:20 ET",
+        "pub_ts": 1795638027.0
       }
     ],
     "AMD": [
@@ -2787,6 +2787,13 @@
     ],
     "LLY": [
       {
+        "title": "Sector Update: Healthcare Stocks Fall Late Afternoon",
+        "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-fall-afternoon-205719060.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:57 ET",
+        "pub_ts": 1795640239.0
+      },
+      {
         "title": "Will Vision Warning Labels Change Novo Nordisk's (CPSE:NOVO B) Narrative",
         "url": "https://finance.yahoo.com/healthcare/articles/vision-warning-labels-change-novo-201554991.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2813,13 +2820,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 08:22 ET",
         "pub_ts": 1795612950.0
-      },
-      {
-        "title": "Eli Lilly vs. Novo Nordisk: Not Every GLP-1 Maker Is Enjoying Booming Sales Trends",
-        "url": "https://www.fool.com/coverage/charts/2026/11/24/eli-lilly-vs-novo-nordisk-not-every-glp-1-maker-is-enjoying-booming-sales-trends/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 15:50 ET",
-        "pub_ts": 1795553402.0
       }
     ],
     "MRNA": [
@@ -2845,18 +2845,18 @@
         "pub_ts": 1795604739.0
       },
       {
+        "title": "Stoke (STOK) Stock Is Up 8.3% Today Without Company News",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/stoke-stok-stock-8-3-204525381.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:45 ET",
+        "pub_ts": 1795639525.0
+      },
+      {
         "title": "BioMarin (BMRN) Stock Is Up 4.8% Today Without Company News",
         "url": "https://finance.yahoo.com/markets/stocks/articles/biomarin-bmrn-stock-4-8-191517739.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 14:15 ET",
         "pub_ts": 1795634117.0
-      },
-      {
-        "title": "ArriVent (AVBP) Stock Is Down 8.7% Today Amid Broad Market Selloff",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/arrivent-avbp-stock-down-8-153018078.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:30 ET",
-        "pub_ts": 1795620618.0
       }
     ],
     "NKE": [
@@ -3314,23 +3314,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795640032.842481,
-    "SOXL": 1795640032.842481,
-    "SPY": 1795640032.842481,
-    "DIA": 1795640032.842481,
-    "SOXX": 1795640032.842481,
-    "QQQ": 1795640032.842481,
-    "SMH": 1795640032.842481,
-    "IWM": 1795640032.842481,
-    "IGV": 1795640032.842481,
-    "TLT": 1795640032.842481,
-    "GLD": 1795640032.842481,
-    "SQQQ": 1795640032.842481,
-    "TSM": 1795640032.842481,
-    "VIXY": 1795640032.842481,
-    "SOXS": 1795640032.842481,
-    "NVDA": 1795640032.842481,
-    "AMD": 1795640032.842481,
+    "KORU": 1795641538.099514,
+    "SOXL": 1795641538.099514,
+    "SPY": 1795641538.099514,
+    "DIA": 1795641538.099514,
+    "SOXX": 1795641538.099514,
+    "QQQ": 1795641538.099514,
+    "SMH": 1795641538.099514,
+    "IWM": 1795641538.099514,
+    "IGV": 1795641538.099514,
+    "TLT": 1795641538.099514,
+    "GLD": 1795641538.099514,
+    "SQQQ": 1795641538.099514,
+    "TSM": 1795641538.099514,
+    "VIXY": 1795641538.099514,
+    "SOXS": 1795641538.099514,
+    "NVDA": 1795641538.099514,
+    "AMD": 1795641538.099514,
     "ASML": 1795640138.0302868,
     "QCOM": 1795640138.0302868,
     "AVGO": 1795640138.0302868,
@@ -3379,21 +3379,21 @@
     "CRWD": 1795641438.639946,
     "ORCL": 1795641438.639946,
     "COIN": 1795641438.639946,
-    "LLY": 1795640032.842481,
-    "MRNA": 1795640032.842481,
-    "NKE": 1795640032.842481,
-    "MCD": 1795640032.842481,
-    "PEP": 1795640032.842481,
+    "LLY": 1795641538.099514,
+    "MRNA": 1795641538.099514,
+    "NKE": 1795641538.099514,
+    "MCD": 1795641538.099514,
+    "PEP": 1795641538.099514,
     "XOM": 1795640138.0302868,
-    "JPM": 1795640032.842481,
+    "JPM": 1795641538.099514,
     "WMT": 1795640138.0302868,
-    "V": 1795640032.842481,
+    "V": 1795641538.099514,
     "CAT": 1795640138.0302868,
     "FN": 1795640241.0042448,
     "GLW": 1795640241.0042448,
     "ANT": 1795640138.0302868,
     "XAUUSD": 1795640138.0302868,
-    "KOSPI": 1795640032.842481
+    "KOSPI": 1795641538.099514
   },
   "opex_shield": {
     "date": "2026-11-25",
