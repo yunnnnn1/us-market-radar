@@ -1,9 +1,22 @@
 {
-  "updated_at_ts": 1795576501.022,
-  "updated_at_et": "11-24 22:15 ET",
-  "updated_at_kst": "12:15 KST",
+  "updated_at_ts": 1795576597.711,
+  "updated_at_et": "11-24 22:16 ET",
+  "updated_at_kst": "12:16 KST",
   "macro_calendar": [],
   "macro_flashes": [
+    {
+      "id": "20261125111424935800",
+      "title": "英伟达暴涨夜：有人一夜暴赚1984%，有人刚卖就踏空！",
+      "summary": "有交易员自称用1.9万美元赚了37.69万美元；有机构交易员一笔就锁定2380万美元。部分长期股东却因相信董事会而提前卖出，面对反转只能紧急追回仓位。点击查看",
+      "keywords": [
+        "英伟达"
+      ],
+      "pub_ts": 1795576464.0,
+      "time_et": "11-24 22:14 ET",
+      "time_bj": "11:14 BJ",
+      "time_kst": "12:14 KST",
+      "time_display": "22:14 ET / 11:14 BJ"
+    },
     {
       "id": "20261125110844703800",
       "title": "整理：每日存储市场要闻速递（2026-11-25）",
@@ -336,21 +349,6 @@
       "time_bj": "05:20 BJ",
       "time_kst": "06:20 KST",
       "time_display": "16:20 ET / 05:20 BJ"
-    },
-    {
-      "id": "20261125050125086800",
-      "title": "【美股收盘：纳指跌近1.5% 英伟达跌近6% Anthropic破发】 11月25日讯，…",
-      "summary": "【美股收盘：纳指跌近1.5% 英伟达跌近6% Anthropic破发】 11月25日讯，美股周二收盘，道指初步收涨0.86%，标普500指跌0.49%，纳指跌1.48%。Anthropic(ANT.O)跌6.5%，收于发行价之下。英伟达(NVDA.O)跌5.8%，AMD(AMD.O)跌8.8%，戴尔(DELL.N)跌13%。纳斯达克中国金龙指数涨0.13%，网易(NTES.O)跌超2%。",
-      "keywords": [
-        "英伟达",
-        "纳斯达克",
-        "标普"
-      ],
-      "pub_ts": 1795554085.0,
-      "time_et": "11-24 16:01 ET",
-      "time_bj": "05:01 BJ",
-      "time_kst": "06:01 KST",
-      "time_display": "16:01 ET / 05:01 BJ"
     }
   ],
   "ticker_news": {
@@ -430,6 +428,13 @@
     ],
     "SPY": [
       {
+        "title": "Harbor Arena Structured Income ETF (YLDS): Autocallable Income in an ETF Wrapper",
+        "url": "http://www.etf.com/sections/news/harbor-arena-structured-income-etf-ylds-autocallable-income-etf-wrapper?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 14:09 ET",
+        "pub_ts": 1795547398.0
+      },
+      {
         "title": "Own Humana Stock? Its Profit Cushion Is The Thinnest",
         "url": "https://www.trefis.com/stock/unh/articles/628256/own-humana-stock-its-profit-cushion-is-the-thinnest/2026-11-24?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -456,13 +461,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:19 ET",
         "pub_ts": 1795529962.0
-      },
-      {
-        "title": "Here's Why Investors Should Go Defensive Now: ETFs in Focus",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-investors-defensive-now-134200178.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:42 ET",
-        "pub_ts": 1795527720.0
       }
     ],
     "DIA": [
@@ -569,11 +567,11 @@
         "pub_ts": 1795518197.0
       },
       {
-        "title": "Before the bell: Bitcoin can’t catch a break",
-        "url": "https://www.thestreet.com/crypto/markets/before-the-bell-bitcoin-cant-catch-a-break-?.tsrc=rss",
+        "title": "Harbor Arena Structured Income ETF (YLDS): Autocallable Income in an ETF Wrapper",
+        "url": "http://www.etf.com/sections/news/harbor-arena-structured-income-etf-ylds-autocallable-income-etf-wrapper?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 11:47 ET",
-        "pub_ts": 1795538844.0
+        "time": "11-24 14:09 ET",
+        "pub_ts": 1795547398.0
       }
     ],
     "SMH": [
@@ -615,11 +613,11 @@
     ],
     "IWM": [
       {
-        "title": "Are These 6 Small-Cap ETFs Worth a Look Right Now?",
-        "url": "https://www.fool.com/investing/2026/11/10/are-these-6-small-cap-etfs-worth-a-look-right-now/?.tsrc=rss",
+        "title": "Harbor Arena Structured Income ETF (YLDS): Autocallable Income in an ETF Wrapper",
+        "url": "http://www.etf.com/sections/news/harbor-arena-structured-income-etf-ylds-autocallable-income-etf-wrapper?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-10 09:15 ET",
-        "pub_ts": 1794320100.0
+        "time": "11-24 14:09 ET",
+        "pub_ts": 1795547398.0
       },
       {
         "title": "Stock Market Today: Jensen’s Return to Nvidia Is Causing Index Indigestion",
@@ -914,8 +912,15 @@
         "title": "Dow Jones Futures Fall; Trump Says 'Not Too Late' For U.S. To Take Nvidia Stake",
         "url": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures-fall%3B-trump.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 21:45 ET",
-        "pub_ts": 1795574728.0
+        "time": "11-24 22:06 ET",
+        "pub_ts": 1795576010.0
+      },
+      {
+        "title": "Jensen Huang Reportedly Says Succession Plan Risks ‘Unnecessary Hierarchy’ At Nvidia — Crypto Bettors Wager on Another Exit",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63613509/nvidia-ceo-jensen-huang-succession-plan-polymarket-prediction-market?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 22:01 ET",
+        "pub_ts": 1795575686.0
       },
       {
         "title": "Tech firms back in crosshairs as Huang rally reverses",
@@ -937,13 +942,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 20:42 ET",
         "pub_ts": 1795570947.0
-      },
-      {
-        "title": "Why Nvidia's rebound may not mean the S&P 500 has bottomed",
-        "url": "https://www.thestreet.com/investing/why-nvidias-rebound-may-not-mean-the-sp-500-has-bottomed?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 20:23 ET",
-        "pub_ts": 1795569790.0
       }
     ],
     "AMD": [
@@ -3288,23 +3286,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795575037.3265321,
-    "SOXL": 1795575037.3265321,
-    "SPY": 1795575037.3265321,
-    "DIA": 1795575037.3265321,
-    "SOXX": 1795575037.3265321,
-    "QQQ": 1795575037.3265321,
-    "SMH": 1795575037.3265321,
-    "IWM": 1795575037.3265321,
-    "IGV": 1795575037.3265321,
-    "TLT": 1795575037.3265321,
-    "GLD": 1795575037.3265321,
-    "SQQQ": 1795575037.3265321,
-    "TSM": 1795575037.3265321,
-    "VIXY": 1795575037.3265321,
-    "SOXS": 1795575037.3265321,
-    "NVDA": 1795575037.3265321,
-    "AMD": 1795575037.3265321,
+    "KORU": 1795576597.71105,
+    "SOXL": 1795576597.71105,
+    "SPY": 1795576597.71105,
+    "DIA": 1795576597.71105,
+    "SOXX": 1795576597.71105,
+    "QQQ": 1795576597.71105,
+    "SMH": 1795576597.71105,
+    "IWM": 1795576597.71105,
+    "IGV": 1795576597.71105,
+    "TLT": 1795576597.71105,
+    "GLD": 1795576597.71105,
+    "SQQQ": 1795576597.71105,
+    "TSM": 1795576597.71105,
+    "VIXY": 1795576597.71105,
+    "SOXS": 1795576597.71105,
+    "NVDA": 1795576597.71105,
+    "AMD": 1795576597.71105,
     "ASML": 1795575424.8860216,
     "QCOM": 1795575424.8860216,
     "AVGO": 1795575424.8860216,
@@ -3357,17 +3355,17 @@
     "MRNA": 1795575912.470696,
     "NKE": 1795575912.470696,
     "MCD": 1795575912.470696,
-    "PEP": 1795575037.3265321,
-    "XOM": 1795575037.3265321,
-    "JPM": 1795575037.3265321,
-    "WMT": 1795575037.3265321,
+    "PEP": 1795576597.71105,
+    "XOM": 1795576597.71105,
+    "JPM": 1795576597.71105,
+    "WMT": 1795576597.71105,
     "V": 1795575912.470696,
-    "CAT": 1795575037.3265321,
+    "CAT": 1795576597.71105,
     "FN": 1795575424.8860216,
     "GLW": 1795575424.8860216,
-    "ANT": 1795575037.3265321,
-    "XAUUSD": 1795575037.3265321,
-    "KOSPI": 1795575037.3265321
+    "ANT": 1795576597.71105,
+    "XAUUSD": 1795576597.71105,
+    "KOSPI": 1795576597.71105
   },
   "opex_shield": {
     "date": "2026-11-24",
@@ -3386,7 +3384,7 @@
   "calendar_banner": {
     "level": "idle_with_flash",
     "headline": "📡 宏观消息面监控中 · 今日暂无美股五星级经济数据大考",
-    "detail": "⚡ 最新核心快讯 (22:08 ET / 11:08 BJ) [芯片] [英伟达]：1. 报道：英伟达AI GPU新单交货周期拉长，RTX60系显卡量产或后移。 2. 2027年手机厂商出货目标落地，多数厂家下调预期。 3. 高盛预计2027年DRAM供应仍紧，2028年缺",
+    "detail": "⚡ 最新核心快讯 (22:14 ET / 11:14 BJ) [英伟达]：有交易员自称用1.9万美元赚了37.69万美元；有机构交易员一笔就锁定2380万美元。部分长期股东却因相信董事会而提前卖出，面对反转只能紧急追回仓位。点击查看",
     "event_name": "",
     "minutes_left": 0,
     "opex_shield": {
