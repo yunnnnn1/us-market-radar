@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795619588.818,
-  "updated_at_et": "11-25 10:13 ET",
-  "updated_at_kst": "00:13 KST",
+  "updated_at_ts": 1795619697.877,
+  "updated_at_et": "11-25 10:14 ET",
+  "updated_at_kst": "00:14 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1984,6 +1984,13 @@
     ],
     "TSLA": [
       {
+        "title": "‘Big Short’ investor snubs Tesla stock, echoes Buffett on $1,000 play",
+        "url": "https://www.thestreet.com/investing/steve-eisman-snubs-tesla-stock-buffett-1000-sp500?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:07 ET",
+        "pub_ts": 1795619220.0
+      },
+      {
         "title": "SpaceX Slides 5% as Gary Black Warns a Tesla Bid Could Push It Below $100; Rocket Lab and AST SpaceMobile Drop 4%",
         "url": "https://247wallst.com/investing/2026/11/25/spacex-slides-5-as-gary-black-warns-a-tesla-bid-could-push-it-below-100-rocket-lab-and-ast-spacemobile-drop-4/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2010,13 +2017,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:27 ET",
         "pub_ts": 1795606042.0
-      },
-      {
-        "title": "Tesla and SpaceX $3.5 Trillion Merger Talks Take a Major Step Forward",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-spacex-3-5-trillion-111122235.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:11 ET",
-        "pub_ts": 1795605082.0
       }
     ],
     "AXP": [
@@ -2095,6 +2095,13 @@
     ],
     "KO": [
       {
+        "title": "Stock Market Today: Dow Dives 700 Points As Nvidia Sells Off, Inflation Rises; Anthropic Sinks (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow-dives.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:50 ET",
+        "pub_ts": 1795618250.0
+      },
+      {
         "title": "Prediction: Coca-Cola Stock Will Close 2026 Over $100 per Share. Here’s Why It’s a No-Brainer Buy for 2027.",
         "url": "https://www.fool.com/investing/2026/11/25/prediction-coca-cola-stock-will-close-2026-over-100-per-share-heres-why-its-a-no-brainer-buy-for-2027/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2121,13 +2128,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 21:47 ET",
         "pub_ts": 1795574825.0
-      },
-      {
-        "title": "Prediction: Here's What $10,000 in Coca-Cola Could Pay You in Dividends by 2036",
-        "url": "https://www.fool.com/investing/2026/11/24/prediction-heres-what-10000-in-coca-cola-could-pay-you-in-dividends-by-2036/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 17:33 ET",
-        "pub_ts": 1795559582.0
       }
     ],
     "FLY": [
@@ -2169,6 +2169,13 @@
     ],
     "INTC": [
       {
+        "title": "NVIDIA Tumbles 9% as Jensen Huang Rally Fades and Michael Burry Eyes a Fresh Short Near $200; AMD Plunges 10%, Intel Falls 8%",
+        "url": "https://247wallst.com/investing/2026/11/25/nvidia-tumbles-9-as-jensen-huang-rally-fades-and-michael-burry-eyes-a-fresh-short-near-200-amd-plunges-10-intel-falls-8/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:56 ET",
+        "pub_ts": 1795618610.0
+      },
+      {
         "title": "Trump Floats an Intel-Style Nvidia Stake. 10% Would Cost the Government $375 Billion",
         "url": "https://247wallst.com/investing/2026/11/25/trump-floats-an-intel-style-nvidia-stake-10-would-cost-the-government-375-billion/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2195,13 +2202,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:59 ET",
         "pub_ts": 1795607952.0
-      },
-      {
-        "title": "Dell Stock Joins Nvidia, AMD, and Intel Selloff Despite Record Demand",
-        "url": "https://beincrypto.com/dell-stock-falls-ai-selloff-record-backlog/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:50 ET",
-        "pub_ts": 1795607445.0
       }
     ],
     "VRT": [
@@ -2243,6 +2243,20 @@
     ],
     "HPE": [
       {
+        "title": "10 things fueling this nasty market pullback",
+        "url": "https://finance.yahoo.com/video/10-things-fueling-this-nasty-market-pullback-144906243.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:49 ET",
+        "pub_ts": 1795618146.0
+      },
+      {
+        "title": "Super Micro Falls 7% Despite Dell’s Record AI Server Backlog; Dell Drops 7% as Barclays Cuts Target to $344, Hewlett Packard Enterprise Slides 4%",
+        "url": "https://247wallst.com/investing/2026/11/25/super-micro-falls-7-despite-dells-record-ai-server-backlog-dell-drops-7-as-barclays-cuts-target-to-344-hewlett-packard-enterprise-slides-4/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:03 ET",
+        "pub_ts": 1795618989.0
+      },
+      {
         "title": "Software-Defined Networking and Network Function Virtualization Market Report 2026 | Secure $172.49B as Cisco, Microsoft, Huawei, HPE and Nokia Drive Cloud Automation by 2030",
         "url": "https://finance.yahoo.com/technology/articles/software-defined-networking-network-function-142900844.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2262,20 +2276,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:57 ET",
         "pub_ts": 1795607824.0
-      },
-      {
-        "title": "Hewlett Packard Enterprise (HPE) Suddenly Loses Its Shine. What Went Wrong?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/hewlett-packard-enterprise-hpe-suddenly-053159181.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 00:31 ET",
-        "pub_ts": 1795584719.0
-      },
-      {
-        "title": "Hewlett Packard Enterprise: 3 Key Takeaways for Long-Term Investors",
-        "url": "https://www.fool.com/earnings/takeaways/2026/11/24/hewlett-packard-enterprise-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 23:56 ET",
-        "pub_ts": 1795582614.0
       }
     ],
     "DELL": [
@@ -2285,6 +2285,13 @@
         "source": "Yahoo Finance",
         "time": "11-25 09:24 ET",
         "pub_ts": 1795616693.0
+      },
+      {
+        "title": "Super Micro Falls 7% Despite Dell’s Record AI Server Backlog; Dell Drops 7% as Barclays Cuts Target to $344, Hewlett Packard Enterprise Slides 4%",
+        "url": "https://247wallst.com/investing/2026/11/25/super-micro-falls-7-despite-dells-record-ai-server-backlog-dell-drops-7-as-barclays-cuts-target-to-344-hewlett-packard-enterprise-slides-4/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:03 ET",
+        "pub_ts": 1795618989.0
       },
       {
         "title": "The $132B Backlog Paradox: Dell vs. Super Micro Computer in 2027",
@@ -2306,13 +2313,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 08:36 ET",
         "pub_ts": 1795613809.0
-      },
-      {
-        "title": "Nvidia, chipmakers slide premarket; Dell falls despite upbeat outlook",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-chipmakers-slide-premarket-dell-131630827.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:16 ET",
-        "pub_ts": 1795612590.0
       }
     ],
     "OKLO": [
@@ -2435,6 +2435,13 @@
         "pub_ts": 1795614318.0
       },
       {
+        "title": "Micron Reveals a Stunning 2,000% Surge in One CEO Expense",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/micron-reveals-stunning-2-000-144558413.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:45 ET",
+        "pub_ts": 1795617958.0
+      },
+      {
         "title": "Micron Falls 7% as a Weaker DRAM Outlook and New Tariffs Hit Memory Stocks; SanDisk Drops 7%: Are Micron and Memory Stocks Now a Value Play?",
         "url": "https://247wallst.com/investing/2026/11/25/micron-falls-7-as-a-weaker-dram-outlook-and-new-tariffs-hit-memory-stocks-sandisk-drops-7-are-micron-and-memory-stocks-now-a-value-play/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2454,13 +2461,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 08:10 ET",
         "pub_ts": 1795612226.0
-      },
-      {
-        "title": "Micron Spends $765,000 Protecting CEO as Pay Hits $39.7 Million",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/micron-spends-765-000-protecting-124751624.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 07:47 ET",
-        "pub_ts": 1795610871.0
       }
     ],
     "SKHY": [
@@ -2576,6 +2576,13 @@
     ],
     "MSTR": [
       {
+        "title": "Strategy Now Holds More Than 850,000 Bitcoin. Where Could Its Stock Go Next?",
+        "url": "https://247wallst.com/investing/2026/11/25/strategy-now-holds-more-than-850000-bitcoin-where-could-its-stock-go-next/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:03 ET",
+        "pub_ts": 1795618995.0
+      },
+      {
         "title": "Michael Saylor Bought $100M In Bitcoin Before Strategy Did, Says The Man Who Convinced Him To Buy It — Now That Bet Is Around $589M",
         "url": "https://stocktwits.com/news-articles/markets/equity/michael-saylor-100m-bitcoin-purchase-589m-bet/cNbHOY3R9lH?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2602,13 +2609,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 16:27 ET",
         "pub_ts": 1795555626.0
-      },
-      {
-        "title": "Miller Industries, Inc. (MLR) Is Recovering From an Inventory Downturn: Could Earnings Rebound Drive Its Stock Higher?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/miller-industries-inc-mlr-recovering-211015377.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:10 ET",
-        "pub_ts": 1795554615.0
       }
     ],
     "SNDK": [
@@ -2650,39 +2650,39 @@
     ],
     "BTC-USD": [
       {
-        "title": "Are Stablecoins a Threat to Visa and Mastercard?",
-        "url": "https://www.fool.com/investing/2026/11/25/are-stablecoins-a-threat-to-visa-and-mastercard/?.tsrc=rss",
+        "title": "Stablecoin Redemptions Hit $12 Billion As Crypto Prices Fall",
+        "url": "https://www.cryptoprowl.com/releases/stablecoin-redemptions-hit-12-billion-as-crypto-prices-fall-8070?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 09:41 ET",
-        "pub_ts": 1795617662.0
+        "time": "11-25 10:05 ET",
+        "pub_ts": 1795619100.0
       },
       {
-        "title": "Bitcoin slides below $59,000, on pace for its worst month since June 2022",
-        "url": "https://finance.yahoo.com/markets/article/bitcoin-sinks-in-brutal-november-sell-off-as-broader-market-slides-143727717.html?.tsrc=rss",
+        "title": "Strategy Now Holds More Than 850,000 Bitcoin. Where Could Its Stock Go Next?",
+        "url": "https://247wallst.com/investing/2026/11/25/strategy-now-holds-more-than-850000-bitcoin-where-could-its-stock-go-next/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 09:37 ET",
-        "pub_ts": 1795617447.0
+        "time": "11-25 10:03 ET",
+        "pub_ts": 1795618995.0
       },
       {
-        "title": "Bitcoin trades as a high-beta tech proxy amid a strong downtrend",
-        "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-trades-high-beta-tech-141218301.html?.tsrc=rss",
+        "title": "Ukraine Officially Legalizes Cryptocurrencies",
+        "url": "https://www.cryptoprowl.com/releases/ukraine-officially-legalizes-cryptocurrencies-8069?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 09:12 ET",
-        "pub_ts": 1795615938.0
+        "time": "11-25 10:02 ET",
+        "pub_ts": 1795618920.0
       },
       {
-        "title": "Stock Market Today: Dow Dives On Surprise Inflation Data; Nvidia, Anthropic Plunge (Live Coverage)",
+        "title": "UniCredit Sells Italian Savers a Bitcoin Note With Their Money Back and a 65% Ceiling",
+        "url": "https://unchainedcrypto.com/unicredit-sells-italian-savers-a-bitcoin-note-with-their-money-back-and-a-65-ceiling/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:00 ET",
+        "pub_ts": 1795618809.0
+      },
+      {
+        "title": "Stock Market Today: Dow Dives 700 Points As Nvidia Sells Off, Inflation Rises; Anthropic Sinks (Live Coverage)",
         "url": "https://finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow-dives.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 08:54 ET",
-        "pub_ts": 1795614871.0
-      },
-      {
-        "title": "Cathie Wood's ARK Buys Anthropic as Ripple CEO Predicts Post-IPO Crypto Rally",
-        "url": "https://www.ccn.com/news/crypto/cathie-woods-ark-bitcoin-etf-anthropic-ripple-ceo-crypto-rebound/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:02 ET",
-        "pub_ts": 1795611735.0
+        "time": "11-25 09:50 ET",
+        "pub_ts": 1795618250.0
       }
     ],
     "CRWD": [
@@ -3364,32 +3364,32 @@
     "LITE": 1795619273.1052902,
     "AAOI": 1795619273.1052902,
     "SPCX": 1795619273.1052902,
-    "ASTS": 1795618098.9848337,
+    "ASTS": 1795619697.8769758,
     "AXTI": 1795619273.1052902,
-    "NASA": 1795618098.9848337,
-    "LUNR": 1795618098.9848337,
-    "TSLA": 1795618098.9848337,
-    "AXP": 1795618098.9848337,
-    "RKLB": 1795618098.9848337,
-    "KO": 1795618098.9848337,
-    "FLY": 1795618098.9848337,
-    "INTC": 1795618098.9848337,
-    "VRT": 1795618098.9848337,
-    "HPE": 1795618098.9848337,
-    "DELL": 1795618098.9848337,
-    "OKLO": 1795618098.9848337,
-    "CEG": 1795618098.9848337,
-    "FPS": 1795618098.9848337,
-    "MU": 1795618098.9848337,
-    "SKHY": 1795618098.9848337,
-    "WDC": 1795618098.9848337,
-    "STX": 1795618098.9848337,
-    "MSTR": 1795618098.9848337,
-    "SNDK": 1795618098.9848337,
-    "BTC-USD": 1795618098.9848337,
-    "CRWD": 1795618098.9848337,
-    "ORCL": 1795618098.9848337,
-    "COIN": 1795618098.9848337,
+    "NASA": 1795619697.8769758,
+    "LUNR": 1795619697.8769758,
+    "TSLA": 1795619697.8769758,
+    "AXP": 1795619697.8769758,
+    "RKLB": 1795619697.8769758,
+    "KO": 1795619697.8769758,
+    "FLY": 1795619697.8769758,
+    "INTC": 1795619697.8769758,
+    "VRT": 1795619697.8769758,
+    "HPE": 1795619697.8769758,
+    "DELL": 1795619697.8769758,
+    "OKLO": 1795619697.8769758,
+    "CEG": 1795619697.8769758,
+    "FPS": 1795619697.8769758,
+    "MU": 1795619697.8769758,
+    "SKHY": 1795619697.8769758,
+    "WDC": 1795619697.8769758,
+    "STX": 1795619697.8769758,
+    "MSTR": 1795619697.8769758,
+    "SNDK": 1795619697.8769758,
+    "BTC-USD": 1795619697.8769758,
+    "CRWD": 1795619697.8769758,
+    "ORCL": 1795619697.8769758,
+    "COIN": 1795619697.8769758,
     "LLY": 1795618209.6566267,
     "MRNA": 1795618209.6566267,
     "NKE": 1795618209.6566267,
