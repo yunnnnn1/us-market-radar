@@ -151,7 +151,7 @@
     },
     "DELL": {
       "state": "STOP_LOSS",
-      "last_notified_at": 1795633607.8937075
+      "last_notified_at": 1795640884.6238208
     },
     "BE": {
       "state": "STOP_LOSS",
@@ -162,12 +162,12 @@
       "last_notified_at": 1795482111.35759
     },
     "AMZN": {
-      "state": "WATCHLIST_ENTRY_READY",
-      "last_notified_at": 1795640565.5834942
+      "state": "NORMAL",
+      "last_notified_at": 0.0
     },
     "MSFT": {
-      "state": "WATCHLIST_ENTRY_READY",
-      "last_notified_at": 1795640671.771095
+      "state": "NORMAL",
+      "last_notified_at": 0.0
     },
     "NKE": {
       "state": "WATCHLIST_ENTRY_READY",
