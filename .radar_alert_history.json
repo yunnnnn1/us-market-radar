@@ -82,8 +82,8 @@
       "last_notified_at": 0.0
     },
     "DIA": {
-      "state": "NORMAL",
-      "last_notified_at": 0.0
+      "state": "WATCHLIST_ENTRY_READY",
+      "last_notified_at": 1795597757.0141616
     },
     "IWM": {
       "state": "NORMAL",
@@ -111,7 +111,7 @@
     },
     "CRWD": {
       "state": "STOP_LOSS",
-      "last_notified_at": 1795590487.1329875
+      "last_notified_at": 1795597757.0141616
     },
     "TSLA": {
       "state": "NORMAL",
