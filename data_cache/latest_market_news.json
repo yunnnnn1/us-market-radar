@@ -1,9 +1,22 @@
 {
-  "updated_at_ts": 1795566622.811,
-  "updated_at_et": "11-24 19:30 ET",
-  "updated_at_kst": "09:30 KST",
+  "updated_at_ts": 1795566722.838,
+  "updated_at_et": "11-24 19:32 ET",
+  "updated_at_kst": "09:32 KST",
   "macro_calendar": [],
   "macro_flashes": [
+    {
+      "id": "20261125083003175800",
+      "title": "澳大利亚10月未季调CPI年率 4.9%，预期4.7%，前值4.30%。",
+      "summary": "澳大利亚10月未季调CPI年率 4.9%，预期4.7%，前值4.30%。",
+      "keywords": [
+        "CPI"
+      ],
+      "pub_ts": 1795566603.0,
+      "time_et": "11-24 19:30 ET",
+      "time_bj": "08:30 BJ",
+      "time_kst": "09:30 KST",
+      "time_display": "19:30 ET / 08:30 BJ"
+    },
     {
       "id": "20261125082000000800",
       "title": "澳大利亚10月未季调CPI年率将于十分钟后公布。",
@@ -343,20 +356,6 @@
       "time_bj": "22:30 BJ",
       "time_kst": "23:30 KST",
       "time_display": "09:30 ET / 22:30 BJ"
-    },
-    {
-      "id": "20261124221929204800",
-      "title": "摩根大通：预计从2027年第一季度起，原油价格走低以及美联储按兵不动，最终将推动金价在2…",
-      "summary": "摩根大通：预计从2027年第一季度起，原油价格走低以及美联储按兵不动，最终将推动金价在2027年第四季度回升至每盎司4500美元，白银则回升至50美元区间中段。",
-      "keywords": [
-        "美联储",
-        "原油"
-      ],
-      "pub_ts": 1795529969.0,
-      "time_et": "11-24 09:19 ET",
-      "time_bj": "22:19 BJ",
-      "time_kst": "23:19 KST",
-      "time_display": "09:19 ET / 22:19 BJ"
     }
   ],
   "ticker_news": {
@@ -3392,7 +3391,7 @@
   "calendar_banner": {
     "level": "idle_with_flash",
     "headline": "📡 宏观消息面监控中 · 今日暂无美股五星级经济数据大考",
-    "detail": "⚡ 最新核心快讯 (19:20 ET / 08:20 BJ) [CPI]：澳大利亚10月未季调CPI年率将于十分钟后公布。",
+    "detail": "⚡ 最新核心快讯 (19:30 ET / 08:30 BJ) [CPI]：澳大利亚10月未季调CPI年率 4.9%，预期4.7%，前值4.30%。",
     "event_name": "",
     "minutes_left": 0,
     "opex_shield": {
