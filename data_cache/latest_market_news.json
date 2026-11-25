@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795617992.223,
-  "updated_at_et": "11-25 09:46 ET",
-  "updated_at_kst": "23:46 KST",
+  "updated_at_ts": 1795618098.985,
+  "updated_at_et": "11-25 09:48 ET",
+  "updated_at_kst": "23:48 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -43,6 +43,45 @@
     }
   ],
   "macro_flashes": [
+    {
+      "id": "20261125224704680800",
+      "title": "纳斯达克100指数较峰值下跌20%，势将进入熊市。",
+      "summary": "纳斯达克100指数较峰值下跌20%，势将进入熊市。",
+      "keywords": [
+        "纳斯达克"
+      ],
+      "pub_ts": 1795618024.0,
+      "time_et": "11-25 09:47 ET",
+      "time_bj": "22:47 BJ",
+      "time_kst": "23:47 KST",
+      "time_display": "09:47 ET / 22:47 BJ"
+    },
+    {
+      "id": "20261125224642140800",
+      "title": "英国央行货币政策委员曼恩：最优对策是更早、更大幅度地加息。",
+      "summary": "英国央行货币政策委员曼恩：最优对策是更早、更大幅度地加息。",
+      "keywords": [
+        "加息"
+      ],
+      "pub_ts": 1795618002.0,
+      "time_et": "11-25 09:46 ET",
+      "time_bj": "22:46 BJ",
+      "time_kst": "23:46 KST",
+      "time_display": "09:46 ET / 22:46 BJ"
+    },
+    {
+      "id": "20261125224623353800",
+      "title": "美国白宫国家经济委员会主任哈塞特：PCE数据表明“海湾问题”的影响正在减弱。",
+      "summary": "美国白宫国家经济委员会主任哈塞特：PCE数据表明“海湾问题”的影响正在减弱。",
+      "keywords": [
+        "PCE"
+      ],
+      "pub_ts": 1795617983.0,
+      "time_et": "11-25 09:46 ET",
+      "time_bj": "22:46 BJ",
+      "time_kst": "23:46 KST",
+      "time_display": "09:46 ET / 22:46 BJ"
+    },
     {
       "id": "20261125224514479800",
       "title": "【美股跌幅扩大 标普500指数跌超3%】 11月25日讯，美股跌幅盘初进一步扩大，标普5…",
@@ -349,45 +388,6 @@
       "time_bj": "15:27 BJ",
       "time_kst": "16:27 KST",
       "time_display": "02:27 ET / 15:27 BJ"
-    },
-    {
-      "id": "20261125152518758800",
-      "title": "国际金难言已至底部？能源市场进入进入“更脆弱的平衡” | Live分析更新中",
-      "summary": "国际现货金银逼近打开新一轮更深回调的大门，金价任何反弹都更可能遭遇抛售，白银已陷入“没人托底”的困境？今夜PCE或再掀波澜......",
-      "keywords": [
-        "PCE"
-      ],
-      "pub_ts": 1795591518.0,
-      "time_et": "11-25 02:25 ET",
-      "time_bj": "15:25 BJ",
-      "time_kst": "16:25 KST",
-      "time_display": "02:25 ET / 15:25 BJ"
-    },
-    {
-      "id": "20261125152438862800",
-      "title": "【外媒称美国将对中国等十几个国家加征关税，外交部回应】 11月25日讯，外交部发言人郭嘉…",
-      "summary": "【外媒称美国将对中国等十几个国家加征关税，外交部回应】 11月25日讯，外交部发言人郭嘉昆主持例行记者会。彭博社记者提问，据报道，美国即将宣布对来自中国等十几个国家的商品加征关税。对其他国家而言，额外关税不会使总税率超过此前在各自贸易谈判中商定的水平。中方对美方可能实施的关税措施有何评论？郭嘉昆强调，中方在处理中美经贸问题上的立场是一贯明确的。关税战、贸易战不符合任何一方的利益，双方应在平等、尊重、互惠的基础上协商解决有关问题。“所谓‘产能过剩’是一个伪命题，中方反对以此为借口进行政治操弄。中美双方应当共同落实好两国元首达成的重要共识，维护中美经贸关系稳定发展态势。”郭嘉昆说。",
-      "keywords": [
-        "关税"
-      ],
-      "pub_ts": 1795591478.0,
-      "time_et": "11-25 02:24 ET",
-      "time_bj": "15:24 BJ",
-      "time_kst": "16:24 KST",
-      "time_display": "02:24 ET / 15:24 BJ"
-    },
-    {
-      "id": "20261125152254886800",
-      "title": "期权押注在关口爆发分歧，PCE前黄金多空分别锁定目标",
-      "summary": "黄金在卖盘压力下重新测试低点，期权在整数关口集中押注；行情日内变量需看核心PCE，数据前多空头或已分别锁定短线目标。",
-      "keywords": [
-        "PCE"
-      ],
-      "pub_ts": 1795591374.0,
-      "time_et": "11-25 02:22 ET",
-      "time_bj": "15:22 BJ",
-      "time_kst": "16:22 KST",
-      "time_display": "02:22 ET / 15:22 BJ"
     }
   ],
   "ticker_news": {
@@ -1836,6 +1836,13 @@
     ],
     "ASTS": [
       {
+        "title": "SpaceX Slides 5% as Gary Black Warns a Tesla Bid Could Push It Below $100; Rocket Lab and AST SpaceMobile Drop 4%",
+        "url": "https://247wallst.com/investing/2026/11/25/spacex-slides-5-as-gary-black-warns-a-tesla-bid-could-push-it-below-100-rocket-lab-and-ast-spacemobile-drop-4/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:17 ET",
+        "pub_ts": 1795616238.0
+      },
+      {
         "title": "Is AST SpaceMobile Stock A Buy Despite Cash Burn?",
         "url": "https://www.trefis.com/stock/asts/articles/628793/is-ast-spacemobile-stock-a-buy-despite-cash-burn/2026-11-25?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1862,13 +1869,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 06:03 ET",
         "pub_ts": 1795518190.0
-      },
-      {
-        "title": "AST SpaceMobile Stock Gets FCC Approval for Direct to Device Service",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-stock-gets-fcc-002319879.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 19:23 ET",
-        "pub_ts": 1795479799.0
       }
     ],
     "AXTI": [
@@ -1984,6 +1984,13 @@
     ],
     "TSLA": [
       {
+        "title": "SpaceX Slides 5% as Gary Black Warns a Tesla Bid Could Push It Below $100; Rocket Lab and AST SpaceMobile Drop 4%",
+        "url": "https://247wallst.com/investing/2026/11/25/spacex-slides-5-as-gary-black-warns-a-tesla-bid-could-push-it-below-100-rocket-lab-and-ast-spacemobile-drop-4/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:17 ET",
+        "pub_ts": 1795616238.0
+      },
+      {
         "title": "Tesla’s FSD Push In Europe Hits Another Snag As EU Reportedly Delays Approval Talks Yet Again – TSLA Stock Falls Premarket",
         "url": "https://stocktwits.com/news-articles/markets/equity/tesla-fsd-push-in-europe-hits-snag-eu-delays-approval-talks-tsla-stock-falls/cNbHWoCR9m3?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2010,13 +2017,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:11 ET",
         "pub_ts": 1795605082.0
-      },
-      {
-        "title": "Franklin Systematic Style Premia (FLSP) Sells $8.1 Million of Costco on Monday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/franklin-systematic-style-premia-flsp-110453628.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:04 ET",
-        "pub_ts": 1795604693.0
       }
     ],
     "AXP": [
@@ -2058,6 +2058,13 @@
     ],
     "RKLB": [
       {
+        "title": "SpaceX Slides 5% as Gary Black Warns a Tesla Bid Could Push It Below $100; Rocket Lab and AST SpaceMobile Drop 4%",
+        "url": "https://247wallst.com/investing/2026/11/25/spacex-slides-5-as-gary-black-warns-a-tesla-bid-could-push-it-below-100-rocket-lab-and-ast-spacemobile-drop-4/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:17 ET",
+        "pub_ts": 1795616238.0
+      },
+      {
         "title": "Rocket Lab Just Grew Revenue 73%. Its Next Chapter Could Be Even Bigger",
         "url": "https://247wallst.com/investing/2026/11/25/rocket-lab-just-grew-revenue-73-its-next-chapter-could-be-even-bigger/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2084,13 +2091,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 16:11 ET",
         "pub_ts": 1795554666.0
-      },
-      {
-        "title": "Rocket Lab (RKLB) Has 117 Launches Booked. Barclays Has a View",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-rklb-117-launches-191333487.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 14:13 ET",
-        "pub_ts": 1795547613.0
       }
     ],
     "KO": [
@@ -2100,6 +2100,13 @@
         "source": "Yahoo Finance",
         "time": "11-25 08:51 ET",
         "pub_ts": 1795614712.0
+      },
+      {
+        "title": "Coca-Cola (KO) Just Reclaimed the 20-Day Moving Average",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-just-reclaimed-133502639.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 08:35 ET",
+        "pub_ts": 1795613702.0
       },
       {
         "title": "Up 41% at Just Over Half Costco’s P/E: Inside Coca-Cola’s Quiet Rally",
@@ -2121,13 +2128,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 17:33 ET",
         "pub_ts": 1795559582.0
-      },
-      {
-        "title": "Anthropic falls below IPO price as Nvidia gives back gains",
-        "url": "https://finance.yahoo.com/video/anthropic-falls-below-ipo-price-as-nvidia-gives-back-gains-214558309.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:45 ET",
-        "pub_ts": 1795556758.0
       }
     ],
     "FLY": [
@@ -2169,6 +2169,13 @@
     ],
     "INTC": [
       {
+        "title": "Trump Floats an Intel-Style Nvidia Stake. 10% Would Cost the Government $375 Billion",
+        "url": "https://247wallst.com/investing/2026/11/25/trump-floats-an-intel-style-nvidia-stake-10-would-cost-the-government-375-billion/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:28 ET",
+        "pub_ts": 1795616933.0
+      },
+      {
         "title": "What Explains The Drop In Intel Stock?",
         "url": "https://www.trefis.com/stock/intc/articles/628986/what-explains-the-drop-in-intel-stock/2026-11-25?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2195,13 +2202,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:50 ET",
         "pub_ts": 1795607445.0
-      },
-      {
-        "title": "Franklin Systematic Style Premia (FLSP) Sells $8.1 Million of Costco on Monday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/franklin-systematic-style-premia-flsp-110453628.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:04 ET",
-        "pub_ts": 1795604693.0
       }
     ],
     "VRT": [
@@ -2243,6 +2243,13 @@
     ],
     "HPE": [
       {
+        "title": "Software-Defined Networking and Network Function Virtualization Market Report 2026 | Secure $172.49B as Cisco, Microsoft, Huawei, HPE and Nokia Drive Cloud Automation by 2030",
+        "url": "https://finance.yahoo.com/technology/articles/software-defined-networking-network-function-142900844.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:29 ET",
+        "pub_ts": 1795616940.0
+      },
+      {
         "title": "HPE Q4 Earnings Beat Estimates on Strong Server Demand",
         "url": "https://finance.yahoo.com/markets/stocks/articles/hpe-q4-earnings-beat-estimates-130300467.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2269,22 +2276,29 @@
         "source": "Yahoo Finance",
         "time": "11-24 23:56 ET",
         "pub_ts": 1795582614.0
-      },
-      {
-        "title": "HPE (HPE) Stock Price Sinks As Q4 Earnings Clash With Margin Fears",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/hpe-hpe-stock-price-sinks-232134308.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 18:21 ET",
-        "pub_ts": 1795562494.0
       }
     ],
     "DELL": [
+      {
+        "title": "Dell stock is dropping despite AI demand pushing sales forecast higher",
+        "url": "https://finance.yahoo.com/video/dell-stock-is-dropping-despite-ai-demand-pushing-sales-forecast-higher-142453283.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:24 ET",
+        "pub_ts": 1795616693.0
+      },
       {
         "title": "The $132B Backlog Paradox: Dell vs. Super Micro Computer in 2027",
         "url": "https://247wallst.com/investing/2026/11/25/the-132b-backlog-paradox-dell-vs-super-micro-computer-in-2027/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 08:45 ET",
         "pub_ts": 1795614355.0
+      },
+      {
+        "title": "5 Things Investors Need to Know About Wednesday’s Markets",
+        "url": "https://www.investopedia.com/5-things-to-know-stock-market-november-25-2026-12276784?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 08:38 ET",
+        "pub_ts": 1795613900.0
       },
       {
         "title": "Dell Stock Gets Slew Of Price Target Cuts After 'Very Strong' Quarter On AI Buildout Worries",
@@ -2299,20 +2313,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 08:16 ET",
         "pub_ts": 1795612590.0
-      },
-      {
-        "title": "Dell's $132 Billion AI Backlog Can't Stop a Share Slide",
-        "url": "https://finance.yahoo.com/technology/ai/articles/dells-132-billion-ai-backlog-123018958.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 07:30 ET",
-        "pub_ts": 1795609818.0
-      },
-      {
-        "title": "Anthropic, Nvidia, Dell, Workday, Deere, and More Stocks That Explain Today’s Market",
-        "url": "https://finance.yahoo.com/m/18e72c51-c6d7-33b1-aa90-ccce17a9b32f/anthropic%2C-nvidia%2C-dell%2C.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 07:15 ET",
-        "pub_ts": 1795608900.0
       }
     ],
     "OKLO": [
@@ -2322,6 +2322,13 @@
         "source": "Yahoo Finance",
         "time": "11-25 07:28 ET",
         "pub_ts": 1795609680.0
+      },
+      {
+        "title": "Oklo Sinks 14% in a Week, NuScale Down 19%, as the AI Selloff Hits Nuclear Stocks. Time to Buy?",
+        "url": "https://www.tikr.com/blog/oklo-sinks-14-in-a-week-nuscale-down-19-as-the-ai-selloff-hits-nuclear-stocks-time-to-buy?ref=yahoofinance&tlnk=yf-261125-qw7frcvg&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 03:11 ET",
+        "pub_ts": 1795594260.0
       },
       {
         "title": "1 Reason I Haven’t Bought Oklo Stock -- and Probably Never Will",
@@ -2343,13 +2350,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:52 ET",
         "pub_ts": 1795539143.0
-      },
-      {
-        "title": "Wall Street Is Watching AI Stocks. But This Stock Could Be a Bigger Nuclear Energy Opportunity",
-        "url": "https://247wallst.com/investing/2026/11/23/wall-street-is-watching-ai-stocks-but-this-stock-could-be-a-bigger-nuclear-energy-opportunity/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 09:33 ET",
-        "pub_ts": 1795444403.0
       }
     ],
     "CEG": [
@@ -2435,6 +2435,20 @@
         "pub_ts": 1795614318.0
       },
       {
+        "title": "Micron Falls 7% as a Weaker DRAM Outlook and New Tariffs Hit Memory Stocks; SanDisk Drops 7%: Are Micron and Memory Stocks Now a Value Play?",
+        "url": "https://247wallst.com/investing/2026/11/25/micron-falls-7-as-a-weaker-dram-outlook-and-new-tariffs-hit-memory-stocks-sandisk-drops-7-are-micron-and-memory-stocks-now-a-value-play/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:13 ET",
+        "pub_ts": 1795615991.0
+      },
+      {
+        "title": "Micron Stock and Other Memory Plays Will Bear the Brunt of This AI Pain",
+        "url": "https://finance.yahoo.com/m/c60b7c01-7f3d-3700-ad68-951e994a6d38/micron-stock-and-other-memory.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 08:21 ET",
+        "pub_ts": 1795612860.0
+      },
+      {
         "title": "The Consensus on Micron Stock Is Changing. Here’s What Investors Should Know",
         "url": "https://247wallst.com/investing/2026/11/25/the-consensus-on-micron-stock-is-changing-heres-what-investors-should-know/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2447,20 +2461,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 07:47 ET",
         "pub_ts": 1795610871.0
-      },
-      {
-        "title": "Prediction: Micron Stock Will Be at This Price at the End of 2027",
-        "url": "https://www.fool.com/investing/2026/11/25/prediction-micron-stock-will-be-at-this-price-at-the-end-of-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 07:28 ET",
-        "pub_ts": 1795609682.0
-      },
-      {
-        "title": "AMD, Micron and Sandisk Stocks Slide as AI Spending Fears Deepen",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/amd-micron-sandisk-stocks-slide-122728877.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 07:27 ET",
-        "pub_ts": 1795609648.0
       }
     ],
     "SKHY": [
@@ -2530,11 +2530,11 @@
         "pub_ts": 1795472162.0
       },
       {
-        "title": "112% Upside for Seagate? Rosenblatt Thinks So, and Here’s How",
-        "url": "https://www.tikr.com/blog/112-upside-for-seagate-rosenblatt-thinks-so-and-heres-how?ref=yahoofinance&tlnk=yf-261123-pfm45wp8&.tsrc=rss",
+        "title": "Nvidia, AMD, and Micron stocks sink as investors flee AI trade",
+        "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-stocks-sink-as-investors-flee-ai-trade-134518921.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-23 14:40 ET",
-        "pub_ts": 1795462818.0
+        "time": "11-25 08:45 ET",
+        "pub_ts": 1795614318.0
       }
     ],
     "STX": [
@@ -2620,6 +2620,13 @@
         "pub_ts": 1795614318.0
       },
       {
+        "title": "Micron Falls 7% as a Weaker DRAM Outlook and New Tariffs Hit Memory Stocks; SanDisk Drops 7%: Are Micron and Memory Stocks Now a Value Play?",
+        "url": "https://247wallst.com/investing/2026/11/25/micron-falls-7-as-a-weaker-dram-outlook-and-new-tariffs-hit-memory-stocks-sandisk-drops-7-are-micron-and-memory-stocks-now-a-value-play/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:13 ET",
+        "pub_ts": 1795615991.0
+      },
+      {
         "title": "AMD, Micron and Sandisk Stocks Slide as AI Spending Fears Deepen",
         "url": "https://finance.yahoo.com/markets/stocks/articles/amd-micron-sandisk-stocks-slide-122728877.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2639,16 +2646,30 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:46 ET",
         "pub_ts": 1795607160.0
-      },
-      {
-        "title": "What Direxion Daily Technology Bull 3X ETF (TECL) Sold: Apple Leads on Monday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/direxion-daily-technology-bull-3x-110437163.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:04 ET",
-        "pub_ts": 1795604677.0
       }
     ],
     "BTC-USD": [
+      {
+        "title": "Are Stablecoins a Threat to Visa and Mastercard?",
+        "url": "https://www.fool.com/investing/2026/11/25/are-stablecoins-a-threat-to-visa-and-mastercard/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:41 ET",
+        "pub_ts": 1795617662.0
+      },
+      {
+        "title": "Bitcoin slides below $59,000, on pace for its worst month since June 2022",
+        "url": "https://finance.yahoo.com/markets/article/bitcoin-sinks-in-brutal-november-sell-off-as-broader-market-slides-143727717.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:37 ET",
+        "pub_ts": 1795617447.0
+      },
+      {
+        "title": "Bitcoin trades as a high-beta tech proxy amid a strong downtrend",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-trades-high-beta-tech-141218301.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:12 ET",
+        "pub_ts": 1795615938.0
+      },
       {
         "title": "Stock Market Today: Dow Dives On Surprise Inflation Data; Nvidia, Anthropic Plunge (Live Coverage)",
         "url": "https://finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow-dives.html?.tsrc=rss",
@@ -2662,27 +2683,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 08:02 ET",
         "pub_ts": 1795611735.0
-      },
-      {
-        "title": "Bitcoin Is on Track for Its Second-Worst Q4 Ever, and One Signal Points to 2027",
-        "url": "https://beincrypto.com/bitcoin-worst-q4-returns-2027-outlook/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:00 ET",
-        "pub_ts": 1795611600.0
-      },
-      {
-        "title": "Bitcoin Slips Below $59K Ahead Of PCE Report, Heads For Worst Month Since July 2022",
-        "url": "https://stocktwits.com/news-articles/markets/equity/bitcoin-slips-below-59-k-ahead-of-pce-report-heads-for-worst-month-since-july-2022/cNbHhdsR9ma?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 07:31 ET",
-        "pub_ts": 1795609916.0
-      },
-      {
-        "title": "CleanSpark Shares Fall 3% as Revenue Miss and Data Centre Delays Overshadow Earnings Beat",
-        "url": "https://investorshub.advfn.com/market-news/article/40705/cleanspark-shares-fall-3-as-revenue-miss-and-data-centre-delays-overshadow-earnings-beat?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:39 ET",
-        "pub_ts": 1795606766.0
       }
     ],
     "CRWD": [
@@ -2724,6 +2724,20 @@
     ],
     "ORCL": [
       {
+        "title": "Global Risk Analysis Management Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on AI and Real-Time Risk with Microsoft, IBM, Oracle, SAP, and ServiceNow",
+        "url": "https://finance.yahoo.com/technology/ai/articles/global-risk-analysis-management-market-142700333.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:27 ET",
+        "pub_ts": 1795616820.0
+      },
+      {
+        "title": "Artificial Intelligence (AI) in Hospital Operations Market Report 2026 | Capitalize on 28.9% CAGR as Microsoft, Oracle, Epic, LeanTaaS and Qventus Accelerate Workflow Automation",
+        "url": "https://finance.yahoo.com/healthcare/articles/artificial-intelligence-ai-hospital-operations-142000864.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:20 ET",
+        "pub_ts": 1795616400.0
+      },
+      {
         "title": "Data Center Americas 2027 Announces Industry Leaders from AWS, Google, Microsoft, Oracle, CoreWeave and Applied Digital as Featured Speakers",
         "url": "https://finance.yahoo.com/technology/ai/articles/data-center-americas-2027-announces-140000391.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2743,20 +2757,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 07:15 ET",
         "pub_ts": 1795608925.0
-      },
-      {
-        "title": "Should You Buy Oracle Stock After Its 53% Collapse? The Answer Might Shock You.",
-        "url": "https://www.fool.com/investing/2026/11/25/should-buy-oracle-stock-after-53-collapse-answer-shock-you/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 04:49 ET",
-        "pub_ts": 1795600142.0
-      },
-      {
-        "title": "AI Concerns Resurface? ORCL, GOOGL, SPCX, CRWV Credit Default Swap Spreads Hit Records As NVDA, ANT Tumble",
-        "url": "https://stocktwits.com/news-articles/markets/equity/ai-concerns-resurface-orcl-googl-spcx-crwv-credit-default-swap-spreads-hit-records-as-nvda-ant-tumble/cNbHEEAR9lZ?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 01:56 ET",
-        "pub_ts": 1795589778.0
       }
     ],
     "COIN": [
@@ -3364,32 +3364,32 @@
     "LITE": 1795617670.8932498,
     "AAOI": 1795617670.8932498,
     "SPCX": 1795617670.8932498,
-    "ASTS": 1795616503.049081,
+    "ASTS": 1795618098.9848337,
     "AXTI": 1795617670.8932498,
-    "NASA": 1795616503.049081,
-    "LUNR": 1795616503.049081,
-    "TSLA": 1795616503.049081,
-    "AXP": 1795616503.049081,
-    "RKLB": 1795616503.049081,
-    "KO": 1795616503.049081,
-    "FLY": 1795616503.049081,
-    "INTC": 1795616503.049081,
-    "VRT": 1795616503.049081,
-    "HPE": 1795616503.049081,
-    "DELL": 1795616503.049081,
-    "OKLO": 1795616503.049081,
-    "CEG": 1795616503.049081,
-    "FPS": 1795616503.049081,
-    "MU": 1795616503.049081,
-    "SKHY": 1795616503.049081,
-    "WDC": 1795616503.049081,
-    "STX": 1795616503.049081,
-    "MSTR": 1795616503.049081,
-    "SNDK": 1795616503.049081,
-    "BTC-USD": 1795616503.049081,
-    "CRWD": 1795616503.049081,
-    "ORCL": 1795616503.049081,
-    "COIN": 1795616503.049081,
+    "NASA": 1795618098.9848337,
+    "LUNR": 1795618098.9848337,
+    "TSLA": 1795618098.9848337,
+    "AXP": 1795618098.9848337,
+    "RKLB": 1795618098.9848337,
+    "KO": 1795618098.9848337,
+    "FLY": 1795618098.9848337,
+    "INTC": 1795618098.9848337,
+    "VRT": 1795618098.9848337,
+    "HPE": 1795618098.9848337,
+    "DELL": 1795618098.9848337,
+    "OKLO": 1795618098.9848337,
+    "CEG": 1795618098.9848337,
+    "FPS": 1795618098.9848337,
+    "MU": 1795618098.9848337,
+    "SKHY": 1795618098.9848337,
+    "WDC": 1795618098.9848337,
+    "STX": 1795618098.9848337,
+    "MSTR": 1795618098.9848337,
+    "SNDK": 1795618098.9848337,
+    "BTC-USD": 1795618098.9848337,
+    "CRWD": 1795618098.9848337,
+    "ORCL": 1795618098.9848337,
+    "COIN": 1795618098.9848337,
     "LLY": 1795616608.90211,
     "MRNA": 1795616608.90211,
     "NKE": 1795616608.90211,
