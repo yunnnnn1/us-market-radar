@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795571025.829,
-  "updated_at_et": "11-24 20:43 ET",
-  "updated_at_kst": "10:43 KST",
+  "updated_at_ts": 1795571122.302,
+  "updated_at_et": "11-24 20:45 ET",
+  "updated_at_kst": "10:45 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2166,11 +2166,11 @@
         "pub_ts": 1795549802.0
       },
       {
-        "title": "Do You Really Understand Intel Stock's Risk?",
-        "url": "https://www.trefis.com/stock/intc/articles/628282/do-you-really-understand-intel-stock-s-risk/2026-11-24?.tsrc=rss",
+        "title": "HP Q4 Earnings Call Highlights",
+        "url": "https://www.marketbeat.com/instant-alerts/transcript-hp-q4-earnings-call-highlights-2026-11-24/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 10:19 ET",
-        "pub_ts": 1795533547.0
+        "time": "11-24 20:13 ET",
+        "pub_ts": 1795569195.0
       }
     ],
     "VRT": [
@@ -2256,6 +2256,13 @@
         "pub_ts": 1795556758.0
       },
       {
+        "title": "Dow Jones Futures Fall After AI Stocks Tumble; Trump Says 'Not Too Late' For Nvidia Stake",
+        "url": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures-fall-after.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 20:37 ET",
+        "pub_ts": 1795570643.0
+      },
+      {
         "title": "Dell Technologies Q3 Earnings Call Highlights",
         "url": "https://www.marketbeat.com/instant-alerts/transcript-dell-technologies-q3-earnings-call-highlights-2026-11-24/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2275,13 +2282,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 18:30 ET",
         "pub_ts": 1795563053.0
-      },
-      {
-        "title": "Dell Technologies (DELL) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-q3-earnings-233002445.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 18:30 ET",
-        "pub_ts": 1795563002.0
       }
     ],
     "OKLO": [
@@ -3333,32 +3333,32 @@
     "LITE": 1795570729.9521568,
     "AAOI": 1795570729.9521568,
     "SPCX": 1795570729.9521568,
-    "ASTS": 1795569551.6664486,
+    "ASTS": 1795571122.3018625,
     "AXTI": 1795570729.9521568,
-    "NASA": 1795569551.6664486,
-    "LUNR": 1795569551.6664486,
-    "TSLA": 1795569551.6664486,
-    "AXP": 1795569551.6664486,
-    "RKLB": 1795569551.6664486,
-    "KO": 1795569551.6664486,
-    "FLY": 1795569551.6664486,
-    "INTC": 1795569551.6664486,
-    "VRT": 1795569551.6664486,
-    "HPE": 1795569551.6664486,
-    "DELL": 1795569551.6664486,
-    "OKLO": 1795569551.6664486,
-    "CEG": 1795569551.6664486,
-    "FPS": 1795569551.6664486,
-    "MU": 1795569551.6664486,
-    "SKHY": 1795569551.6664486,
-    "WDC": 1795569551.6664486,
-    "STX": 1795569551.6664486,
-    "MSTR": 1795569551.6664486,
-    "SNDK": 1795569551.6664486,
-    "BTC-USD": 1795569551.6664486,
-    "CRWD": 1795569551.6664486,
-    "ORCL": 1795569551.6664486,
-    "COIN": 1795569551.6664486,
+    "NASA": 1795571122.3018625,
+    "LUNR": 1795571122.3018625,
+    "TSLA": 1795571122.3018625,
+    "AXP": 1795571122.3018625,
+    "RKLB": 1795571122.3018625,
+    "KO": 1795571122.3018625,
+    "FLY": 1795571122.3018625,
+    "INTC": 1795571122.3018625,
+    "VRT": 1795571122.3018625,
+    "HPE": 1795571122.3018625,
+    "DELL": 1795571122.3018625,
+    "OKLO": 1795571122.3018625,
+    "CEG": 1795571122.3018625,
+    "FPS": 1795571122.3018625,
+    "MU": 1795571122.3018625,
+    "SKHY": 1795571122.3018625,
+    "WDC": 1795571122.3018625,
+    "STX": 1795571122.3018625,
+    "MSTR": 1795571122.3018625,
+    "SNDK": 1795571122.3018625,
+    "BTC-USD": 1795571122.3018625,
+    "CRWD": 1795571122.3018625,
+    "ORCL": 1795571122.3018625,
+    "COIN": 1795571122.3018625,
     "LLY": 1795569648.9186966,
     "MRNA": 1795569648.9186966,
     "NKE": 1795569648.9186966,
