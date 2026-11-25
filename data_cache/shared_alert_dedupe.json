@@ -6127,9 +6127,13 @@
     "2026-11-25:NKE/CRWD:5M_ENTRY+STOP_LOSS": {
       "device": "PC",
       "ts": 1795583259.5442882
+    },
+    "2026-11-25:DEFENSIVE_FLIGHT:+1.1": {
+      "device": "PC",
+      "ts": 1795583572.9083261
     }
   },
   "device": "PC",
-  "last_heartbeat_ts": 1795583379.181993,
-  "updated_at": "2026-11-25T05:09:39.182030+00:00"
+  "last_heartbeat_ts": 1795583484.3792007,
+  "updated_at": "2026-11-25T05:12:52.908373+00:00"
 }
