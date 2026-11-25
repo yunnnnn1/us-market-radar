@@ -175,7 +175,7 @@
     },
     "HPE": {
       "state": "STOP_LOSS",
-      "last_notified_at": 1795572205.9909565
+      "last_notified_at": 1795579427.1603072
     },
     "PLTR": {
       "state": "NORMAL",
