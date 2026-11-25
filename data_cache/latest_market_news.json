@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795589740.371,
-  "updated_at_et": "11-25 01:55 ET",
-  "updated_at_kst": "15:55 KST",
+  "updated_at_ts": 1795589845.605,
+  "updated_at_et": "11-25 01:57 ET",
+  "updated_at_kst": "15:57 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -17,7 +17,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 395,
+      "minutes_left": 393,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -36,13 +36,26 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 395,
+      "minutes_left": 393,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
     }
   ],
   "macro_flashes": [
+    {
+      "id": "20261125145616504800",
+      "title": "国际现货金银月末前大概率失守关键位，美伊最终协议落地权重下降｜市场赔率数据表",
+      "summary": "金银下探风险与白银反弹并存，十二月加息预期集中，明年一月续紧仍存分歧，油价极端路径权重有限。",
+      "keywords": [
+        "加息"
+      ],
+      "pub_ts": 1795589776.0,
+      "time_et": "11-25 01:56 ET",
+      "time_bj": "14:56 BJ",
+      "time_kst": "15:56 KST",
+      "time_display": "01:56 ET / 14:56 BJ"
+    },
     {
       "id": "20261125144936766800",
       "title": "整理：每日全球外汇市场要闻速递（2026-11-25）",
@@ -373,19 +386,6 @@
       "time_bj": "08:02 BJ",
       "time_kst": "09:02 KST",
       "time_display": "19:02 ET / 08:02 BJ"
-    },
-    {
-      "id": "20261125074730404800",
-      "title": "【期货热点追踪】涨幅全数回吐！COMEX期铜创8个月新低，LME铜锡暴跌，分析师指出此前…",
-      "summary": "【期货热点追踪】涨幅全数回吐！COMEX期铜创8个月新低，LME铜锡暴跌，分析师指出此前由关税预期和供应短缺支撑的行情似已近尾声？摩根大通最新报告指出，随着美国铜去库存及印尼铝过剩扩大，2027年基本金属将普遍承压。",
-      "keywords": [
-        "关税"
-      ],
-      "pub_ts": 1795564050.0,
-      "time_et": "11-24 18:47 ET",
-      "time_bj": "07:47 BJ",
-      "time_kst": "08:47 KST",
-      "time_display": "18:47 ET / 07:47 BJ"
     }
   ],
   "ticker_news": {
@@ -2463,6 +2463,13 @@
     ],
     "SKHY": [
       {
+        "title": "SK Hynix (NasdaqGS:SKHY) Signals Bigger Share Buybacks To Support Korea Stocks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-nasdaqgs-skhy-signals-061627176.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 01:16 ET",
+        "pub_ts": 1795587387.0
+      },
+      {
         "title": "SK Hynix (NasdaqGS:SKHY) Stock May Trade At A Discount Despite AI Demand News",
         "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-nasdaqgs-skhy-stock-051115290.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2489,13 +2496,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 20:12 ET",
         "pub_ts": 1795569172.0
-      },
-      {
-        "title": "SK hynix Stocks Rise 6.73% as Huang's Return Lifts Seoul's HBM Leader",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-stocks-rise-6-174140838.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 12:41 ET",
-        "pub_ts": 1795542100.0
       }
     ],
     "WDC": [
@@ -2648,6 +2648,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "Why Is Crypto Tokenization Booming on Wall Street While Bitcoin ETF Demand Shrinks?",
+        "url": "https://beincrypto.com/crypto-tokenization-booms-bitcoin-etf-demand/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 01:30 ET",
+        "pub_ts": 1795588200.0
+      },
+      {
         "title": "Bitcoin Miner Turned AI Landlord TeraWulf Says Selloff Hits Price, Not Demand",
         "url": "https://beincrypto.com/terawulf-ceo-tech-selloff-price-demand/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2674,13 +2681,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 21:09 ET",
         "pub_ts": 1795572548.0
-      },
-      {
-        "title": "Ethereum treasury firm sells $43 million in Ether to repay debt",
-        "url": "https://www.thestreet.com/crypto/markets/ethereum-treasury-firm-sells-43-million-in-ether-to-repay-debt?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 21:00 ET",
-        "pub_ts": 1795572000.0
       }
     ],
     "CRWD": [
@@ -3362,32 +3362,32 @@
     "LITE": 1795589634.4454834,
     "AAOI": 1795589634.4454834,
     "SPCX": 1795589634.4454834,
-    "ASTS": 1795588278.073936,
+    "ASTS": 1795589845.6046617,
     "AXTI": 1795589634.4454834,
-    "NASA": 1795588278.073936,
-    "LUNR": 1795588278.073936,
-    "TSLA": 1795588278.073936,
-    "AXP": 1795588278.073936,
-    "RKLB": 1795588278.073936,
-    "KO": 1795588278.073936,
-    "FLY": 1795588278.073936,
-    "INTC": 1795588278.073936,
-    "VRT": 1795588278.073936,
-    "HPE": 1795588278.073936,
-    "DELL": 1795588278.073936,
-    "OKLO": 1795588278.073936,
-    "CEG": 1795588278.073936,
-    "FPS": 1795588278.073936,
-    "MU": 1795588278.073936,
-    "SKHY": 1795588278.073936,
-    "WDC": 1795588278.073936,
-    "STX": 1795588278.073936,
-    "MSTR": 1795588278.073936,
-    "SNDK": 1795588278.073936,
-    "BTC-USD": 1795588278.073936,
-    "CRWD": 1795588278.073936,
-    "ORCL": 1795588278.073936,
-    "COIN": 1795588278.073936,
+    "NASA": 1795589845.6046617,
+    "LUNR": 1795589845.6046617,
+    "TSLA": 1795589845.6046617,
+    "AXP": 1795589845.6046617,
+    "RKLB": 1795589845.6046617,
+    "KO": 1795589845.6046617,
+    "FLY": 1795589845.6046617,
+    "INTC": 1795589845.6046617,
+    "VRT": 1795589845.6046617,
+    "HPE": 1795589845.6046617,
+    "DELL": 1795589845.6046617,
+    "OKLO": 1795589845.6046617,
+    "CEG": 1795589845.6046617,
+    "FPS": 1795589845.6046617,
+    "MU": 1795589845.6046617,
+    "SKHY": 1795589845.6046617,
+    "WDC": 1795589845.6046617,
+    "STX": 1795589845.6046617,
+    "MSTR": 1795589845.6046617,
+    "SNDK": 1795589845.6046617,
+    "BTC-USD": 1795589845.6046617,
+    "CRWD": 1795589845.6046617,
+    "ORCL": 1795589845.6046617,
+    "COIN": 1795589845.6046617,
     "LLY": 1795588383.257667,
     "MRNA": 1795588383.257667,
     "NKE": 1795588383.257667,
@@ -3420,10 +3420,10 @@
   },
   "calendar_banner": {
     "level": "upcoming",
-    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 395 分钟（11-25 08:30 ET / 22:30 KST）",
+    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 393 分钟（11-25 08:30 ET / 22:30 KST）",
     "detail": "前值 0.3% ｜ 预期 0.3% ｜ 临近公布前15分钟将自动触发防插针预警",
     "event_name": "美国10月核心PCE物价指数环比",
-    "minutes_left": 395,
+    "minutes_left": 393,
     "opex_shield": {
       "date": "2026-11-25",
       "active": false,
