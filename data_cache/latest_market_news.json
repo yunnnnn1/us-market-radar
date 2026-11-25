@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795633271.292,
-  "updated_at_et": "11-25 14:01 ET",
-  "updated_at_kst": "04:01 KST",
+  "updated_at_ts": 1795633374.449,
+  "updated_at_et": "11-25 14:02 ET",
+  "updated_at_kst": "04:02 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -43,6 +43,19 @@
     }
   ],
   "macro_flashes": [
+    {
+      "id": "20261126030222286800",
+      "title": "美联储褐皮书：总体而言，大多数地区预计经济小幅至温和增长。",
+      "summary": "美联储褐皮书：总体而言，大多数地区预计经济小幅至温和增长。",
+      "keywords": [
+        "美联储"
+      ],
+      "pub_ts": 1795633342.0,
+      "time_et": "11-25 14:02 ET",
+      "time_bj": "03:02 BJ",
+      "time_kst": "04:02 KST",
+      "time_display": "14:02 ET / 03:02 BJ"
+    },
     {
       "id": "20261126025000001800",
       "title": "美联储将于十分钟后公布经济状况褐皮书。",
@@ -363,20 +376,6 @@
       "time_bj": "22:30 BJ",
       "time_kst": "23:30 KST",
       "time_display": "09:30 ET / 22:30 BJ"
-    },
-    {
-      "id": "20261125221159717800",
-      "title": "沃什想让市场替美联储指路，英伟达事件却给了他当头一棒",
-      "summary": "沃什希望美联储更多观察市场指标来判断经济走势，但英伟达事件显示，市场定价同样可能剧烈波动，如何从中识别长期趋势成为他的政策难题。点击查看...",
-      "keywords": [
-        "美联储",
-        "英伟达"
-      ],
-      "pub_ts": 1795615919.0,
-      "time_et": "11-25 09:11 ET",
-      "time_bj": "22:11 BJ",
-      "time_kst": "23:11 KST",
-      "time_display": "09:11 ET / 22:11 BJ"
     }
   ],
   "ticker_news": {
@@ -2283,11 +2282,11 @@
         "pub_ts": 1795622664.0
       },
       {
-        "title": "Dell crushes earnings estimates. Why is the atock falling?",
-        "url": "https://finance.yahoo.com/video/dell-crushes-earnings-estimates-why-is-the-atock-falling-155648716.html?.tsrc=rss",
+        "title": "Sector Update: Tech Stocks Fall Wednesday Afternoon",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-wednesday-183231718.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 10:56 ET",
-        "pub_ts": 1795622208.0
+        "time": "11-25 13:32 ET",
+        "pub_ts": 1795631551.0
       },
       {
         "title": "What Does Dell Technologies (DELL) $25 Billion Buyback Mean After AI Demand Surged?",
@@ -2305,6 +2304,13 @@
       }
     ],
     "OKLO": [
+      {
+        "title": "Prediction: Oklo Stock Could Have a Huge Year as Nuclear Energy Demand Accelerates",
+        "url": "https://247wallst.com/investing/2026/11/25/prediction-oklo-stock-could-have-a-huge-year-as-nuclear-energy-demand-accelerates/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 13:33 ET",
+        "pub_ts": 1795631602.0
+      },
       {
         "title": "Oklo and NuScale Power Retreat 8% as AI Power Selloff Deepens; Energy Fuels Drops 6%",
         "url": "https://247wallst.com/investing/2026/11/25/oklo-and-nuscale-power-retreat-8-as-ai-power-selloff-deepens-energy-fuels-drops-6/?.tsrc=rss",
@@ -2332,13 +2338,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 21:20 ET",
         "pub_ts": 1795573202.0
-      },
-      {
-        "title": "Groves 1 Approval Could Open NASA Opportunity For Oklo Stock",
-        "url": "https://finance.yahoo.com/energy/articles/groves-1-approval-could-open-181225173.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 13:12 ET",
-        "pub_ts": 1795543945.0
       }
     ],
     "CEG": [
@@ -3353,32 +3352,32 @@
     "LITE": 1795632334.3763711,
     "AAOI": 1795632231.3878462,
     "SPCX": 1795632334.3763711,
-    "ASTS": 1795631779.8762825,
+    "ASTS": 1795633374.4492607,
     "AXTI": 1795632334.3763711,
-    "NASA": 1795631779.8762825,
-    "LUNR": 1795631779.8762825,
-    "TSLA": 1795631779.8762825,
-    "AXP": 1795631779.8762825,
-    "RKLB": 1795631779.8762825,
-    "KO": 1795631779.8762825,
-    "FLY": 1795631779.8762825,
-    "INTC": 1795631779.8762825,
-    "VRT": 1795631779.8762825,
-    "HPE": 1795631779.8762825,
-    "DELL": 1795631779.8762825,
-    "OKLO": 1795631779.8762825,
-    "CEG": 1795631779.8762825,
-    "FPS": 1795631779.8762825,
-    "MU": 1795631779.8762825,
-    "SKHY": 1795631779.8762825,
-    "WDC": 1795631779.8762825,
-    "STX": 1795631779.8762825,
-    "MSTR": 1795631779.8762825,
-    "SNDK": 1795631779.8762825,
-    "BTC-USD": 1795631779.8762825,
-    "CRWD": 1795631779.8762825,
-    "ORCL": 1795631779.8762825,
-    "COIN": 1795631779.8762825,
+    "NASA": 1795633374.4492607,
+    "LUNR": 1795633374.4492607,
+    "TSLA": 1795633374.4492607,
+    "AXP": 1795633374.4492607,
+    "RKLB": 1795633374.4492607,
+    "KO": 1795633374.4492607,
+    "FLY": 1795633374.4492607,
+    "INTC": 1795633374.4492607,
+    "VRT": 1795633374.4492607,
+    "HPE": 1795633374.4492607,
+    "DELL": 1795633374.4492607,
+    "OKLO": 1795633374.4492607,
+    "CEG": 1795633374.4492607,
+    "FPS": 1795633374.4492607,
+    "MU": 1795633374.4492607,
+    "SKHY": 1795633374.4492607,
+    "WDC": 1795633374.4492607,
+    "STX": 1795633374.4492607,
+    "MSTR": 1795633374.4492607,
+    "SNDK": 1795633374.4492607,
+    "BTC-USD": 1795633374.4492607,
+    "CRWD": 1795633374.4492607,
+    "ORCL": 1795633374.4492607,
+    "COIN": 1795633374.4492607,
     "LLY": 1795632125.651763,
     "MRNA": 1795632125.651763,
     "NKE": 1795632125.651763,
