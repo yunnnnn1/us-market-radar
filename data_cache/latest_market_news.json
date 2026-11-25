@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795641735.519,
-  "updated_at_et": "11-25 16:22 ET",
-  "updated_at_kst": "06:22 KST",
+  "updated_at_ts": 1795641831.854,
+  "updated_at_et": "11-25 16:23 ET",
+  "updated_at_kst": "06:23 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1735,18 +1735,18 @@
         "pub_ts": 1795532304.0
       },
       {
-        "title": "Wall Street’s New M&A Mood: Why Both Marvell-Lumentum and CrowdStrike-Zscaler Hit Pushback",
-        "url": "https://247wallst.com/investing/2026/11/24/wall-streets-new-ma-mood-why-both-marvell-lumentum-and-crowdstrike-zscaler-hit-pushback/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:45 ET",
-        "pub_ts": 1795527912.0
-      },
-      {
         "title": "Coherent’s Director Bought $15 Million of Stock as It Plunged 13%",
         "url": "https://247wallst.com/investing/2026/11/25/coherents-director-bought-15-million-of-stock-as-it-plunged-13/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 10:28 ET",
         "pub_ts": 1795620532.0
+      },
+      {
+        "title": "Oppenheimer Cut Its Marvell Target by $100. It Still Sees 147% Upside",
+        "url": "https://www.tikr.com/blog/oppenheimer-cut-its-marvell-target-by-100-it-still-sees-147-upside?ref=yahoofinance&tlnk=yf-261125-h25pvm3g&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 05:49 ET",
+        "pub_ts": 1795603771.0
       }
     ],
     "AAOI": [
@@ -1788,6 +1788,13 @@
     ],
     "SPCX": [
       {
+        "title": "SpaceX, Elon Musk to give one share each to active Trump accounts",
+        "url": "https://finance.yahoo.com/markets/article/spacex-elon-musk-to-give-one-share-each-to-active-trump-accounts-205719872.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:57 ET",
+        "pub_ts": 1795640239.0
+      },
+      {
         "title": "SpaceX stock pares losses following FCC approval for data centers in space",
         "url": "https://finance.yahoo.com/technology/article/spacex-stock-pares-losses-following-fcc-approval-for-data-centers-in-space-183757039.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1795,32 +1802,25 @@
         "pub_ts": 1795631877.0
       },
       {
+        "title": "Sector Update: Tech Stocks Fall Late Afternoon",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-204936627.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:49 ET",
+        "pub_ts": 1795639776.0
+      },
+      {
+        "title": "SpaceX stock price crashes on concerns over compute demand",
+        "url": "https://blockspace.media/short/spacex-stock-price-crashes-on-concerns-over-compute-demand/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:32 ET",
+        "pub_ts": 1795638730.0
+      },
+      {
         "title": "Is Space Exploration Technologies (SPCX) Cheap As Tesla Merger Talks Raise Valuation Questions?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/space-exploration-technologies-spcx-cheap-201121157.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 15:11 ET",
         "pub_ts": 1795637481.0
-      },
-      {
-        "title": "SpaceX to contribute one Class A share to every Trump Account",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-contribute-one-class-share-200240603.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 15:02 ET",
-        "pub_ts": 1795636960.0
-      },
-      {
-        "title": "SpaceX Slashes GPU Pricing? Plus, IREN’s Selloff and CoreWeave’s Distressed Bonds",
-        "url": "https://blockspace.media/podcast/spacex-slashes-gpu-pricing-plus-irens-selloff-and-coreweaves-distressed-bonds/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 14:57 ET",
-        "pub_ts": 1795636676.0
-      },
-      {
-        "title": "Why SpaceX Stock Is Down Today",
-        "url": "https://www.fool.com/investing/2026/11/25/why-spacex-stock-is-down-today/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 14:05 ET",
-        "pub_ts": 1795633502.0
       }
     ],
     "ASTS": [
@@ -3350,11 +3350,11 @@
     "CRDO": 1795641735.5191722,
     "COHR": 1795641735.5191722,
     "MRVL": 1795641735.5191722,
-    "LITE": 1795640241.0042448,
+    "LITE": 1795641831.8541296,
     "AAOI": 1795641735.5191722,
-    "SPCX": 1795640241.0042448,
+    "SPCX": 1795641831.8541296,
     "ASTS": 1795641438.639946,
-    "AXTI": 1795640241.0042448,
+    "AXTI": 1795641831.8541296,
     "NASA": 1795641438.639946,
     "LUNR": 1795641438.639946,
     "TSLA": 1795641438.639946,
@@ -3389,8 +3389,8 @@
     "WMT": 1795641735.5191722,
     "V": 1795641538.099514,
     "CAT": 1795641735.5191722,
-    "FN": 1795640241.0042448,
-    "GLW": 1795640241.0042448,
+    "FN": 1795641831.8541296,
+    "GLW": 1795641831.8541296,
     "ANT": 1795641735.5191722,
     "XAUUSD": 1795641735.5191722,
     "KOSPI": 1795641538.099514
