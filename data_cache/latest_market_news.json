@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795622718.965,
-  "updated_at_et": "11-25 11:05 ET",
-  "updated_at_kst": "01:05 KST",
+  "updated_at_ts": 1795622848.902,
+  "updated_at_et": "11-25 11:07 ET",
+  "updated_at_kst": "01:07 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1976,6 +1976,20 @@
     ],
     "TSLA": [
       {
+        "title": "Tesla and SpaceX stocks sink as merger concerns mount",
+        "url": "https://finance.yahoo.com/markets/stocks/article/tesla-and-spacex-stocks-sink-as-merger-concerns-mount-154159372.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:41 ET",
+        "pub_ts": 1795621319.0
+      },
+      {
+        "title": "Tesla Slides 6% as EU Delays Vote on Its Self-Driving Software; Rivian and Lucid Drop 4%",
+        "url": "https://247wallst.com/investing/2026/11/25/tesla-slides-6-as-eu-delays-vote-on-its-self-driving-software-rivian-and-lucid-drop-4/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:54 ET",
+        "pub_ts": 1795622051.0
+      },
+      {
         "title": "‘Big Short’ investor snubs Tesla stock, echoes Buffett on $1,000 play",
         "url": "https://www.thestreet.com/investing/steve-eisman-snubs-tesla-stock-buffett-1000-sp500?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1995,20 +2009,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 07:14 ET",
         "pub_ts": 1795608872.0
-      },
-      {
-        "title": "Tesla (TSLA) Could Be 36% Undervalued Following SpaceX Merger Talks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-could-36-undervalued-121112133.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 07:11 ET",
-        "pub_ts": 1795608672.0
-      },
-      {
-        "title": "Is Elon Musk More Systemically Important Than Jensen Huang?",
-        "url": "https://www.trefis.com/stock/tsla/articles/628207/is-elon-musk-more-systemically-important-than-jensen-huang/2026-11-25?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:27 ET",
-        "pub_ts": 1795606042.0
       }
     ],
     "AXP": [
@@ -2087,13 +2087,6 @@
     ],
     "KO": [
       {
-        "title": "Stock Market Today: Dow Dives 700 Points As Nvidia Sells Off, Inflation Rises; Anthropic Sinks (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow-dives.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:50 ET",
-        "pub_ts": 1795618250.0
-      },
-      {
         "title": "Prediction: Coca-Cola Stock Will Close 2026 Over $100 per Share. Here’s Why It’s a No-Brainer Buy for 2027.",
         "url": "https://www.fool.com/investing/2026/11/25/prediction-coca-cola-stock-will-close-2026-over-100-per-share-heres-why-its-a-no-brainer-buy-for-2027/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2120,6 +2113,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 21:47 ET",
         "pub_ts": 1795574825.0
+      },
+      {
+        "title": "Prediction: Here's What $10,000 in Coca-Cola Could Pay You in Dividends by 2036",
+        "url": "https://www.fool.com/investing/2026/11/24/prediction-heres-what-10000-in-coca-cola-could-pay-you-in-dividends-by-2036/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 17:33 ET",
+        "pub_ts": 1795559582.0
       }
     ],
     "FLY": [
@@ -2242,6 +2242,13 @@
         "pub_ts": 1795618146.0
       },
       {
+        "title": "Hewlett Packard Enterprise Lost 25% of Its Value Over 3 Months: One of The Biggest U.S. Banks Predicts 120% Gains Within 1 Year",
+        "url": "https://247wallst.com/investing/2026/11/25/hewlett-packard-enterprise-lost-25-of-its-value-over-3-months-one-of-the-biggest-u-s-banks-predicts-120-gains-within-1-year/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:45 ET",
+        "pub_ts": 1795621541.0
+      },
+      {
         "title": "Super Micro Falls 7% Despite Dell’s Record AI Server Backlog; Dell Drops 7% as Barclays Cuts Target to $344, Hewlett Packard Enterprise Slides 4%",
         "url": "https://247wallst.com/investing/2026/11/25/super-micro-falls-7-despite-dells-record-ai-server-backlog-dell-drops-7-as-barclays-cuts-target-to-344-hewlett-packard-enterprise-slides-4/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2261,16 +2268,16 @@
         "source": "Yahoo Finance",
         "time": "11-25 09:26 ET",
         "pub_ts": 1795616760.0
-      },
-      {
-        "title": "HPE Q4 Earnings Beat Estimates on Strong Server Demand",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/hpe-q4-earnings-beat-estimates-130300467.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:03 ET",
-        "pub_ts": 1795611780.0
       }
     ],
     "DELL": [
+      {
+        "title": "Dell crushes earnings estimates. Why is the atock falling?",
+        "url": "https://finance.yahoo.com/video/dell-crushes-earnings-estimates-why-is-the-atock-falling-155648716.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:56 ET",
+        "pub_ts": 1795622208.0
+      },
       {
         "title": "Dell stock is dropping despite AI demand pushing sales forecast higher",
         "url": "https://finance.yahoo.com/video/dell-stock-is-dropping-despite-ai-demand-pushing-sales-forecast-higher-142453283.html?.tsrc=rss",
@@ -2279,32 +2286,25 @@
         "pub_ts": 1795616693.0
       },
       {
+        "title": "Dell's Q3 Results, Commentary Suggest Profitability Remains Intact Entering Fiscal 2028, Morgan Stanley Says",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/dell-apos-q3-results-commentary-154217340.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:42 ET",
+        "pub_ts": 1795621337.0
+      },
+      {
+        "title": "Stock Market Today: Dow Slammed 800 Points; Dell Falls Hard Despite Big Earnings (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:41 ET",
+        "pub_ts": 1795621302.0
+      },
+      {
         "title": "Dell's AI Business Just Delivered a $132 Billion Wake-Up Call",
         "url": "https://finance.yahoo.com/technology/ai/articles/dells-ai-business-just-delivered-151641836.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 10:16 ET",
         "pub_ts": 1795619801.0
-      },
-      {
-        "title": "Super Micro Falls 7% Despite Dell’s Record AI Server Backlog; Dell Drops 7% as Barclays Cuts Target to $344, Hewlett Packard Enterprise Slides 4%",
-        "url": "https://247wallst.com/investing/2026/11/25/super-micro-falls-7-despite-dells-record-ai-server-backlog-dell-drops-7-as-barclays-cuts-target-to-344-hewlett-packard-enterprise-slides-4/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:03 ET",
-        "pub_ts": 1795618989.0
-      },
-      {
-        "title": "DELL Q3 Earnings Beat Estimates, Robust AI Demand Drives Revenues",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/dell-q3-earnings-beat-estimates-142800972.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:28 ET",
-        "pub_ts": 1795616880.0
-      },
-      {
-        "title": "The $132B Backlog Paradox: Dell vs. Super Micro Computer in 2027",
-        "url": "https://247wallst.com/investing/2026/11/25/the-132b-backlog-paradox-dell-vs-super-micro-computer-in-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:45 ET",
-        "pub_ts": 1795614355.0
       }
     ],
     "OKLO": [
@@ -2427,32 +2427,32 @@
         "pub_ts": 1795614318.0
       },
       {
+        "title": "Why Micron Stock Just Dropped Again",
+        "url": "https://www.fool.com/investing/2026/11/25/why-micron-stock-just-dropped-again/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:54 ET",
+        "pub_ts": 1795622058.0
+      },
+      {
+        "title": "Micron Stocks Sink 10.47% After BNP Paribas Halves Target on Oversupply Fears",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/micron-stocks-sink-10-47-154807203.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:48 ET",
+        "pub_ts": 1795621687.0
+      },
+      {
+        "title": "$10,000 In Micron At June's Record Is Now $5,190",
+        "url": "https://www.trefis.com/stock/mu/articles/628730/10-000-in-micron-at-june-s-record-is-now-5-190/2026-11-25?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:24 ET",
+        "pub_ts": 1795620267.0
+      },
+      {
         "title": "Micron Reveals a Stunning 2,000% Surge in One CEO Expense",
         "url": "https://finance.yahoo.com/markets/stocks/articles/micron-reveals-stunning-2-000-144558413.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 09:45 ET",
         "pub_ts": 1795617958.0
-      },
-      {
-        "title": "Micron Falls 7% as a Weaker DRAM Outlook and New Tariffs Hit Memory Stocks; SanDisk Drops 7%: Are Micron and Memory Stocks Now a Value Play?",
-        "url": "https://247wallst.com/investing/2026/11/25/micron-falls-7-as-a-weaker-dram-outlook-and-new-tariffs-hit-memory-stocks-sandisk-drops-7-are-micron-and-memory-stocks-now-a-value-play/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:13 ET",
-        "pub_ts": 1795615991.0
-      },
-      {
-        "title": "Micron Stock and Other Memory Plays Will Bear the Brunt of This AI Pain",
-        "url": "https://finance.yahoo.com/m/c60b7c01-7f3d-3700-ad68-951e994a6d38/micron-stock-and-other-memory.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:21 ET",
-        "pub_ts": 1795612860.0
-      },
-      {
-        "title": "The Consensus on Micron Stock Is Changing. Here’s What Investors Should Know",
-        "url": "https://247wallst.com/investing/2026/11/25/the-consensus-on-micron-stock-is-changing-heres-what-investors-should-know/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:10 ET",
-        "pub_ts": 1795612226.0
       }
     ],
     "SKHY": [
@@ -2552,18 +2552,18 @@
         "pub_ts": 1795462818.0
       },
       {
-        "title": "Memory chip and neocloud stocks soar by double digits as investors decide they love the AI trade again",
-        "url": "https://www.fastcompany.com/91647598/memory-chip-neocloud-stocks-why-micron-sandisk-coreweave-are-up?.tsrc=rss",
+        "title": "Alphabet Falls 4% on AI Credit Fears as Strategist Warns Capex Is “As Good as It Gets”",
+        "url": "https://www.tikr.com/blog/alphabet-falls-4-on-ai-credit-fears-as-strategist-warns-capex-is-as-good-as-it-gets?ref=yahoofinance&tlnk=yf-261125-pwcg7rgj&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-23 13:06 ET",
-        "pub_ts": 1795457160.0
+        "time": "11-25 10:39 ET",
+        "pub_ts": 1795621167.0
       },
       {
-        "title": "Investors Might Be Underestimating Seagate’s Long-Term AI Growth Opportunity",
-        "url": "https://247wallst.com/investing/2026/11/23/investors-might-be-underestimating-seagates-long-term-ai-growth-opportunity/?.tsrc=rss",
+        "title": "Nvidia, AMD, and Micron stocks sink as investors flee AI trade",
+        "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-stocks-sink-as-investors-flee-ai-trade-134518921.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-23 12:33 ET",
-        "pub_ts": 1795455234.0
+        "time": "11-25 08:45 ET",
+        "pub_ts": 1795614318.0
       }
     ],
     "MSTR": [
@@ -2612,35 +2612,49 @@
         "pub_ts": 1795614318.0
       },
       {
-        "title": "Micron Falls 7% as a Weaker DRAM Outlook and New Tariffs Hit Memory Stocks; SanDisk Drops 7%: Are Micron and Memory Stocks Now a Value Play?",
-        "url": "https://247wallst.com/investing/2026/11/25/micron-falls-7-as-a-weaker-dram-outlook-and-new-tariffs-hit-memory-stocks-sandisk-drops-7-are-micron-and-memory-stocks-now-a-value-play/?.tsrc=rss",
+        "title": "Cantor’s CJ Muse Sees Sandisk Buying Back “60% of the Outstanding Shares” Over Six Quarters",
+        "url": "https://www.tikr.com/blog/cantors-cj-muse-sees-sandisk-buying-back-60-of-the-outstanding-shares-over-six-quarters?ref=yahoofinance&tlnk=yf-261125-pj55v44v&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 09:13 ET",
-        "pub_ts": 1795615991.0
+        "time": "11-25 10:50 ET",
+        "pub_ts": 1795621816.0
       },
       {
-        "title": "AMD, Micron and Sandisk Stocks Slide as AI Spending Fears Deepen",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/amd-micron-sandisk-stocks-slide-122728877.html?.tsrc=rss",
+        "title": "Alphabet Falls 4% on AI Credit Fears as Strategist Warns Capex Is “As Good as It Gets”",
+        "url": "https://www.tikr.com/blog/alphabet-falls-4-on-ai-credit-fears-as-strategist-warns-capex-is-as-good-as-it-gets?ref=yahoofinance&tlnk=yf-261125-pwcg7rgj&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 07:27 ET",
-        "pub_ts": 1795609648.0
+        "time": "11-25 10:39 ET",
+        "pub_ts": 1795621167.0
       },
       {
-        "title": "Sandisk (SNDK) Shares Dropped, So What Is Driving Attention Now?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-sndk-shares-dropped-driving-121239819.html?.tsrc=rss",
+        "title": "Why Sandisk Stock Just Dropped Again",
+        "url": "https://www.fool.com/investing/2026/11/25/why-sandisk-stock-just-dropped-again/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 07:12 ET",
-        "pub_ts": 1795608759.0
+        "time": "11-25 10:36 ET",
+        "pub_ts": 1795621004.0
       },
       {
-        "title": "Tradr to Launch Six New Leveraged ETFs",
-        "url": "https://finance.yahoo.com/markets/options/articles/tradr-launch-six-leveraged-etfs-114600732.html?.tsrc=rss",
+        "title": "Amazon Sinks 6%, Sandisk Down 12% as AI Selloff Deepens: Bear Calls AI “Greatest Misallocation of Capital”",
+        "url": "https://www.tikr.com/blog/amazon-sinks-6-sandisk-down-12-as-ai-selloff-deepens-bear-calls-ai-greatest-misallocation-of-capital?ref=yahoofinance&tlnk=yf-261125-hq93vmx9&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 06:46 ET",
-        "pub_ts": 1795607160.0
+        "time": "11-25 10:29 ET",
+        "pub_ts": 1795620540.0
       }
     ],
     "BTC-USD": [
+      {
+        "title": "Fidelity adds DeFi staples to its crypto trading platform",
+        "url": "https://finance.yahoo.com/video/fidelity-adds-defi-staples-crypto-160000496.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:00 ET",
+        "pub_ts": 1795622400.0
+      },
+      {
+        "title": "Bitcoin Price Faces Alarming $58,000 Test as Selling Mounts",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-faces-alarming-58-155703029.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:57 ET",
+        "pub_ts": 1795622223.0
+      },
       {
         "title": "Bitcoin slides below $59,000, on pace for its worst month since June 2022",
         "url": "https://finance.yahoo.com/markets/article/bitcoin-sinks-in-brutal-november-sell-off-as-broader-market-slides-143727717.html?.tsrc=rss",
@@ -2661,20 +2675,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:05 ET",
         "pub_ts": 1795619100.0
-      },
-      {
-        "title": "Strategy Now Holds More Than 850,000 Bitcoin. Where Could Its Stock Go Next?",
-        "url": "https://247wallst.com/investing/2026/11/25/strategy-now-holds-more-than-850000-bitcoin-where-could-its-stock-go-next/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:03 ET",
-        "pub_ts": 1795618995.0
-      },
-      {
-        "title": "Ukraine Officially Legalizes Cryptocurrencies",
-        "url": "https://www.cryptoprowl.com/releases/ukraine-officially-legalizes-cryptocurrencies-8069?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:02 ET",
-        "pub_ts": 1795618920.0
       }
     ],
     "CRWD": [
@@ -2716,6 +2716,20 @@
     ],
     "ORCL": [
       {
+        "title": "Oracle’s Credit Swaps Blow Out. Blue Owl Anchored the $15 Billion Campus It Rents",
+        "url": "https://www.tikr.com/blog/oracles-credit-swaps-blow-out-blue-owl-anchored-the-15-billion-campus-it-rents?ref=yahoofinance&tlnk=yf-261125-c28562w4&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:48 ET",
+        "pub_ts": 1795621681.0
+      },
+      {
+        "title": "Oracle Stocks Tumble 7.45%, Now 12.6% Below November Offering Price",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-stocks-tumble-7-45-154419573.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:44 ET",
+        "pub_ts": 1795621459.0
+      },
+      {
         "title": "Global Risk Analysis Management Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on AI and Real-Time Risk with Microsoft, IBM, Oracle, SAP, and ServiceNow",
         "url": "https://finance.yahoo.com/technology/ai/articles/global-risk-analysis-management-market-142700333.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2735,20 +2749,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 09:00 ET",
         "pub_ts": 1795615200.0
-      },
-      {
-        "title": "Oracle Can Reach $240 in 2027: Wall Street Needs 4 Things to Happen",
-        "url": "https://247wallst.com/investing/2026/11/25/oracle-can-reach-240-in-2027-wall-street-needs-4-things-to-happen/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 07:15 ET",
-        "pub_ts": 1795608957.0
-      },
-      {
-        "title": "Oracle Spends $28.5 Billion A Quarter Building. Who Covers The Wait?",
-        "url": "https://www.trefis.com/stock/orcl/articles/628215/oracle-spends-28-5-billion-a-quarter-building-who-covers-the-wait/2026-11-25?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 07:15 ET",
-        "pub_ts": 1795608925.0
       }
     ],
     "COIN": [
@@ -3356,32 +3356,32 @@
     "LITE": 1795622399.4044936,
     "AAOI": 1795622399.4044936,
     "SPCX": 1795622399.4044936,
-    "ASTS": 1795621291.9100344,
+    "ASTS": 1795622848.9016576,
     "AXTI": 1795622399.4044936,
-    "NASA": 1795621291.9100344,
-    "LUNR": 1795621291.9100344,
-    "TSLA": 1795621291.9100344,
-    "AXP": 1795621291.9100344,
-    "RKLB": 1795621291.9100344,
-    "KO": 1795621291.9100344,
-    "FLY": 1795621291.9100344,
-    "INTC": 1795621291.9100344,
-    "VRT": 1795621291.9100344,
-    "HPE": 1795621291.9100344,
-    "DELL": 1795621291.9100344,
-    "OKLO": 1795621291.9100344,
-    "CEG": 1795621291.9100344,
-    "FPS": 1795621291.9100344,
-    "MU": 1795621291.9100344,
-    "SKHY": 1795621291.9100344,
-    "WDC": 1795621291.9100344,
-    "STX": 1795621291.9100344,
-    "MSTR": 1795621291.9100344,
-    "SNDK": 1795621291.9100344,
-    "BTC-USD": 1795621291.9100344,
-    "CRWD": 1795621291.9100344,
-    "ORCL": 1795621291.9100344,
-    "COIN": 1795621291.9100344,
+    "NASA": 1795622848.9016576,
+    "LUNR": 1795622848.9016576,
+    "TSLA": 1795622848.9016576,
+    "AXP": 1795622848.9016576,
+    "RKLB": 1795622848.9016576,
+    "KO": 1795622848.9016576,
+    "FLY": 1795622848.9016576,
+    "INTC": 1795622848.9016576,
+    "VRT": 1795622848.9016576,
+    "HPE": 1795622848.9016576,
+    "DELL": 1795622848.9016576,
+    "OKLO": 1795622848.9016576,
+    "CEG": 1795622848.9016576,
+    "FPS": 1795622848.9016576,
+    "MU": 1795622848.9016576,
+    "SKHY": 1795622848.9016576,
+    "WDC": 1795622848.9016576,
+    "STX": 1795622848.9016576,
+    "MSTR": 1795622848.9016576,
+    "SNDK": 1795622848.9016576,
+    "BTC-USD": 1795622848.9016576,
+    "CRWD": 1795622848.9016576,
+    "ORCL": 1795622848.9016576,
+    "COIN": 1795622848.9016576,
     "LLY": 1795621397.546281,
     "MRNA": 1795621397.546281,
     "NKE": 1795621397.546281,
