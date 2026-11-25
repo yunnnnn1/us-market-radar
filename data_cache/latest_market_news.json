@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795586598.823,
-  "updated_at_et": "11-25 01:03 ET",
-  "updated_at_kst": "15:03 KST",
+  "updated_at_ts": 1795586701.559,
+  "updated_at_et": "11-25 01:05 ET",
+  "updated_at_kst": "15:05 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -17,7 +17,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 447,
+      "minutes_left": 445,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -36,7 +36,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 447,
+      "minutes_left": 445,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -2255,6 +2255,13 @@
         "pub_ts": 1795556449.0
       },
       {
+        "title": "Hewlett Packard Enterprise (HPE) Suddenly Loses Its Shine. What Went Wrong?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/hewlett-packard-enterprise-hpe-suddenly-053159181.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 00:31 ET",
+        "pub_ts": 1795584719.0
+      },
+      {
         "title": "Hewlett Packard Enterprise: 3 Key Takeaways for Long-Term Investors",
         "url": "https://www.fool.com/earnings/takeaways/2026/11/24/hewlett-packard-enterprise-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2267,16 +2274,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 18:21 ET",
         "pub_ts": 1795562494.0
-      },
-      {
-        "title": "Dell Just Reported Earnings and Raised Its Forecast by $10 Billion. Is the Stock a Buy After Tuesday's Selloff?",
-        "url": "https://www.fool.com/investing/2026/11/24/dell-just-reported-earnings-and-raised-its-forecast-by-usd10-billion-is-the-stock-a-buy-after-tuesday-s-selloff/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 17:14 ET",
-        "pub_ts": 1795558483.0
       }
     ],
     "DELL": [
+      {
+        "title": "Dell Technologies: 3 Key Takeaways for Long-Term Investors",
+        "url": "https://www.fool.com/earnings/takeaways/2026/11/25/dell-technologies-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 00:29 ET",
+        "pub_ts": 1795584585.0
+      },
       {
         "title": "Dell (DELL) Q3 2027 Earnings Call Transcript",
         "url": "https://www.fool.com/earnings/call-transcripts/2026/11/24/dell-dell-q3-2027-earnings-call-transcript/?.tsrc=rss",
@@ -2304,13 +2311,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 21:26 ET",
         "pub_ts": 1795573586.0
-      },
-      {
-        "title": "Dell Technologies Q3 Earnings Call Highlights",
-        "url": "https://www.marketbeat.com/instant-alerts/transcript-dell-technologies-q3-earnings-call-highlights-2026-11-24/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 19:13 ET",
-        "pub_ts": 1795565616.0
       }
     ],
     "OKLO": [
@@ -3362,32 +3362,32 @@
     "LITE": 1795586495.525008,
     "AAOI": 1795586495.525008,
     "SPCX": 1795586495.525008,
-    "ASTS": 1795585109.9078283,
+    "ASTS": 1795586701.5591552,
     "AXTI": 1795586495.525008,
-    "NASA": 1795585109.9078283,
-    "LUNR": 1795585109.9078283,
-    "TSLA": 1795585109.9078283,
-    "AXP": 1795585109.9078283,
-    "RKLB": 1795585109.9078283,
-    "KO": 1795585109.9078283,
-    "FLY": 1795585109.9078283,
-    "INTC": 1795585109.9078283,
-    "VRT": 1795585109.9078283,
-    "HPE": 1795585109.9078283,
-    "DELL": 1795585109.9078283,
-    "OKLO": 1795585109.9078283,
-    "CEG": 1795585109.9078283,
-    "FPS": 1795585109.9078283,
-    "MU": 1795585109.9078283,
-    "SKHY": 1795585109.9078283,
-    "WDC": 1795585109.9078283,
-    "STX": 1795585109.9078283,
-    "MSTR": 1795585109.9078283,
-    "SNDK": 1795585109.9078283,
-    "BTC-USD": 1795585109.9078283,
-    "CRWD": 1795585109.9078283,
-    "ORCL": 1795585109.9078283,
-    "COIN": 1795585109.9078283,
+    "NASA": 1795586701.5591552,
+    "LUNR": 1795586701.5591552,
+    "TSLA": 1795586701.5591552,
+    "AXP": 1795586701.5591552,
+    "RKLB": 1795586701.5591552,
+    "KO": 1795586701.5591552,
+    "FLY": 1795586701.5591552,
+    "INTC": 1795586701.5591552,
+    "VRT": 1795586701.5591552,
+    "HPE": 1795586701.5591552,
+    "DELL": 1795586701.5591552,
+    "OKLO": 1795586701.5591552,
+    "CEG": 1795586701.5591552,
+    "FPS": 1795586701.5591552,
+    "MU": 1795586701.5591552,
+    "SKHY": 1795586701.5591552,
+    "WDC": 1795586701.5591552,
+    "STX": 1795586701.5591552,
+    "MSTR": 1795586701.5591552,
+    "SNDK": 1795586701.5591552,
+    "BTC-USD": 1795586701.5591552,
+    "CRWD": 1795586701.5591552,
+    "ORCL": 1795586701.5591552,
+    "COIN": 1795586701.5591552,
     "LLY": 1795585212.5951202,
     "MRNA": 1795585212.5951202,
     "NKE": 1795585212.5951202,
@@ -3420,10 +3420,10 @@
   },
   "calendar_banner": {
     "level": "upcoming",
-    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 447 分钟（11-25 08:30 ET / 22:30 KST）",
+    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 445 分钟（11-25 08:30 ET / 22:30 KST）",
     "detail": "前值 0.3% ｜ 预期 0.3% ｜ 临近公布前15分钟将自动触发防插针预警",
     "event_name": "美国10月核心PCE物价指数环比",
-    "minutes_left": 447,
+    "minutes_left": 445,
     "opex_shield": {
       "date": "2026-11-25",
       "active": false,
