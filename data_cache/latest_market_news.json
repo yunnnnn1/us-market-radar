@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795639607.981,
-  "updated_at_et": "11-25 15:46 ET",
-  "updated_at_kst": "05:46 KST",
+  "updated_at_ts": 1795639713.364,
+  "updated_at_et": "11-25 15:48 ET",
+  "updated_at_kst": "05:48 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1984,25 +1984,25 @@
         "pub_ts": 1795621319.0
       },
       {
+        "title": "Billionaire Brad Gerstner’s Altimeter Opened a $680 Million Tesla Stake and Exited Qualcomm and Applied Materials",
+        "url": "https://247wallst.com/investing/2026/11/25/billionaire-brad-gerstners-altimeter-opened-a-680-million-tesla-stake-and-exited-qualcomm-and-applied-materials/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:22 ET",
+        "pub_ts": 1795638121.0
+      },
+      {
+        "title": "Is Space Exploration Technologies (SPCX) Cheap As Tesla Merger Talks Raise Valuation Questions?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/space-exploration-technologies-spcx-cheap-201121157.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:11 ET",
+        "pub_ts": 1795637481.0
+      },
+      {
         "title": "Ford Motor vs. Tesla: Which Automaker Stock Is a Better Buy for 2027?",
         "url": "https://www.fool.com/coverage/better-buy/2026/11/25/ford-motor-vs-tesla-which-automaker-stock-is-a-better-buy-for-2027/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 13:13 ET",
         "pub_ts": 1795630381.0
-      },
-      {
-        "title": "Tesla’s FSD Version 15 Is an Improvement. How That Helps the Stock.",
-        "url": "https://finance.yahoo.com/m/2c17d7f3-1b8f-3c65-962c-b31a60522eff/tesla%E2%80%99s-fsd-version-15-is-an.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:38 ET",
-        "pub_ts": 1795624680.0
-      },
-      {
-        "title": "Tesla Sinks 5%, Sandisk Down 13% as AI Selloff Deepens and EU Stalls FSD Approval",
-        "url": "https://www.tikr.com/blog/tesla-sinks-5-sandisk-down-13-as-ai-selloff-deepens-and-eu-stalls-fsd-approval?ref=yahoofinance&tlnk=yf-261125-3jjqvxp5&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:31 ET",
-        "pub_ts": 1795624301.0
       }
     ],
     "AXP": [
@@ -2266,11 +2266,11 @@
     ],
     "DELL": [
       {
-        "title": "Tariffs are back as Anthropic sinks further below its IPO price",
-        "url": "https://finance.yahoo.com/video/tariffs-are-back-as-anthropic-sinks-further-below-its-ipo-price-160524926.html?.tsrc=rss",
+        "title": "What's Behind Dell Stock's Fall?",
+        "url": "https://www.trefis.com/stock/dell/articles/628977/what-s-behind-dell-stock-s-fall/2026-11-25?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 11:05 ET",
-        "pub_ts": 1795622724.0
+        "time": "11-25 15:06 ET",
+        "pub_ts": 1795637213.0
       },
       {
         "title": "Dell Stock Falls Despite Q3 Beat; Here’s Why Mizuho and Piper Lowered Their Price Targets",
@@ -2643,6 +2643,13 @@
         "pub_ts": 1795636800.0
       },
       {
+        "title": "SpaceX Slashes GPU Pricing? Plus, IREN’s Selloff and CoreWeave’s Distressed Bonds",
+        "url": "https://blockspace.media/podcast/spacex-slashes-gpu-pricing-plus-irens-selloff-and-coreweaves-distressed-bonds/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 14:57 ET",
+        "pub_ts": 1795636676.0
+      },
+      {
         "title": "Kraken’s new credit cards offer up to 4% bitcoin rewards",
         "url": "https://finance.yahoo.com/video/kraken-credit-cards-offer-4-192100513.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2662,13 +2669,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 13:57 ET",
         "pub_ts": 1795633021.0
-      },
-      {
-        "title": "Franklin Templeton Adds Hyperliquid's HYPE to Its Crypto Index ETF",
-        "url": "https://www.cryptoprowl.com/releases/franklin-templeton-adds-hyperliquids-hype-to-its-crypto-index-etf-8076?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 13:15 ET",
-        "pub_ts": 1795630500.0
       }
     ],
     "CRWD": [
@@ -3350,32 +3350,32 @@
     "LITE": 1795638665.9094474,
     "AAOI": 1795638557.488477,
     "SPCX": 1795638665.9094474,
-    "ASTS": 1795638136.5140955,
+    "ASTS": 1795639713.3643832,
     "AXTI": 1795638665.9094474,
-    "NASA": 1795638136.5140955,
-    "LUNR": 1795638136.5140955,
-    "TSLA": 1795638136.5140955,
-    "AXP": 1795638136.5140955,
-    "RKLB": 1795638136.5140955,
-    "KO": 1795638136.5140955,
-    "FLY": 1795638136.5140955,
-    "INTC": 1795638136.5140955,
-    "VRT": 1795638136.5140955,
-    "HPE": 1795638136.5140955,
-    "DELL": 1795638136.5140955,
-    "OKLO": 1795638136.5140955,
-    "CEG": 1795638136.5140955,
-    "FPS": 1795638136.5140955,
-    "MU": 1795638136.5140955,
-    "SKHY": 1795638136.5140955,
-    "WDC": 1795638136.5140955,
-    "STX": 1795638136.5140955,
-    "MSTR": 1795638136.5140955,
-    "SNDK": 1795638136.5140955,
-    "BTC-USD": 1795638136.5140955,
-    "CRWD": 1795638136.5140955,
-    "ORCL": 1795638136.5140955,
-    "COIN": 1795638136.5140955,
+    "NASA": 1795639713.3643832,
+    "LUNR": 1795639713.3643832,
+    "TSLA": 1795639713.3643832,
+    "AXP": 1795639713.3643832,
+    "RKLB": 1795639713.3643832,
+    "KO": 1795639713.3643832,
+    "FLY": 1795639713.3643832,
+    "INTC": 1795639713.3643832,
+    "VRT": 1795639713.3643832,
+    "HPE": 1795639713.3643832,
+    "DELL": 1795639713.3643832,
+    "OKLO": 1795639713.3643832,
+    "CEG": 1795639713.3643832,
+    "FPS": 1795639713.3643832,
+    "MU": 1795639713.3643832,
+    "SKHY": 1795639713.3643832,
+    "WDC": 1795639713.3643832,
+    "STX": 1795639713.3643832,
+    "MSTR": 1795639713.3643832,
+    "SNDK": 1795639713.3643832,
+    "BTC-USD": 1795639713.3643832,
+    "CRWD": 1795639713.3643832,
+    "ORCL": 1795639713.3643832,
+    "COIN": 1795639713.3643832,
     "LLY": 1795638452.7947655,
     "MRNA": 1795638452.7947655,
     "NKE": 1795638452.7947655,
