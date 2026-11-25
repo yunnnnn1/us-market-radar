@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795634853.949,
-  "updated_at_et": "11-25 14:27 ET",
-  "updated_at_kst": "04:27 KST",
+  "updated_at_ts": 1795634959.733,
+  "updated_at_et": "11-25 14:29 ET",
+  "updated_at_kst": "04:29 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -2243,6 +2243,13 @@
         "pub_ts": 1795618146.0
       },
       {
+        "title": "George Soros, Ken Fisher and 11 Other Big Funds Bought Hewlett Packard Enterprise Last Quarter, While 5 Sold. Who’s Right?",
+        "url": "https://www.tikr.com/blog/george-soros-ken-fisher-and-11-other-big-funds-bought-hewlett-packard-enterprise-last-quarter-while-5-sold-whos-right?ref=yahoofinance&tlnk=yf-261125-pp776jqf&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 13:19 ET",
+        "pub_ts": 1795630752.0
+      },
+      {
         "title": "Dell, HPE Post Big Sales Growth But Investors Sense Peak",
         "url": "https://finance.yahoo.com/m/509b8d3a-b338-3181-bdcf-b7e931f38513/dell%2C-hpe-post-big-sales.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2255,13 +2262,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 11:00 ET",
         "pub_ts": 1795622402.0
-      },
-      {
-        "title": "Hewlett Packard Enterprise Lost 25% of Its Value Over 3 Months: One of The Biggest U.S. Banks Predicts 120% Gains Within 1 Year",
-        "url": "https://247wallst.com/investing/2026/11/25/hewlett-packard-enterprise-lost-25-of-its-value-over-3-months-one-of-the-biggest-u-s-banks-predicts-120-gains-within-1-year/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:45 ET",
-        "pub_ts": 1795621541.0
       }
     ],
     "DELL": [
@@ -2414,6 +2414,13 @@
     ],
     "MU": [
       {
+        "title": "David Tepper Sold All of His AMD Stock. His Biggest Position Is Micron.",
+        "url": "https://www.fool.com/investing/2026/11/25/david-tepper-sold-all-of-his-amd-stock-his-biggest-position-is-micron/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 14:20 ET",
+        "pub_ts": 1795634402.0
+      },
+      {
         "title": "Micron Stock and Other Memory Plays Will Bear the Brunt of This AI Pain",
         "url": "https://finance.yahoo.com/m/c60b7c01-7f3d-3700-ad68-951e994a6d38/micron-stock-and-other-memory.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2440,13 +2447,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 12:14 ET",
         "pub_ts": 1795626855.0
-      },
-      {
-        "title": "HP Earnings: Memory Went From 15% to 40% of a PC’s Parts Cost in a Year",
-        "url": "https://247wallst.com/investing/2026/11/25/hp-earnings-memory-went-from-15-to-40-of-a-pcs-parts-cost-in-a-year/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:07 ET",
-        "pub_ts": 1795626424.0
       }
     ],
     "SKHY": [
@@ -2636,6 +2636,27 @@
     ],
     "BTC-USD": [
       {
+        "title": "Kraken’s new credit cards offer up to 4% bitcoin rewards",
+        "url": "https://finance.yahoo.com/video/kraken-credit-cards-offer-4-192100513.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 14:21 ET",
+        "pub_ts": 1795634460.0
+      },
+      {
+        "title": "Sector Update: Financial Stocks Rise in Afternoon Trading",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-afternoon-185859010.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 13:58 ET",
+        "pub_ts": 1795633139.0
+      },
+      {
+        "title": "Is the Anthropic IPO to Blame for Bitcoin's Recent Downturn? The Answer Might Surprise You.",
+        "url": "https://www.fool.com/investing/2026/11/25/is-the-anthropic-ipo-to-blame-for-bitcoins-recent-downturn-the-answer-might-surprise-you/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 13:57 ET",
+        "pub_ts": 1795633021.0
+      },
+      {
         "title": "Franklin Templeton Adds Hyperliquid's HYPE to Its Crypto Index ETF",
         "url": "https://www.cryptoprowl.com/releases/franklin-templeton-adds-hyperliquids-hype-to-its-crypto-index-etf-8076?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2648,27 +2669,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 13:00 ET",
         "pub_ts": 1795629600.0
-      },
-      {
-        "title": "Can XRP Reach Standard Chartered’s $12.60 Target by 2028?",
-        "url": "https://247wallst.com/investing/cryptocurrency/2026/11/25/can-xrp-reach-standard-chartereds-12-60-target-by-2028/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:59 ET",
-        "pub_ts": 1795629546.0
-      },
-      {
-        "title": "Why America’s Goldilocks Economy is Bad News for Bitcoin and Gold",
-        "url": "https://beincrypto.com/gold-silver-bitcoin-slide-us-inflation-pce-index/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:58 ET",
-        "pub_ts": 1795629512.0
-      },
-      {
-        "title": "Bitcoin Falls Toward $57,000 as Hotter Inflation and Tariff Worries Sink Stocks",
-        "url": "https://www.cryptoprowl.com/releases/bitcoin-falls-toward-57000-as-hotter-inflation-and-tariff-worries-sink-stocks-8075?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:54 ET",
-        "pub_ts": 1795629240.0
       }
     ],
     "CRWD": [
@@ -3350,32 +3350,32 @@
     "LITE": 1795633910.004571,
     "AAOI": 1795633804.952686,
     "SPCX": 1795633910.004571,
-    "ASTS": 1795633374.4492607,
+    "ASTS": 1795634959.7326298,
     "AXTI": 1795633910.004571,
-    "NASA": 1795633374.4492607,
-    "LUNR": 1795633374.4492607,
-    "TSLA": 1795633374.4492607,
-    "AXP": 1795633374.4492607,
-    "RKLB": 1795633374.4492607,
-    "KO": 1795633374.4492607,
-    "FLY": 1795633374.4492607,
-    "INTC": 1795633374.4492607,
-    "VRT": 1795633374.4492607,
-    "HPE": 1795633374.4492607,
-    "DELL": 1795633374.4492607,
-    "OKLO": 1795633374.4492607,
-    "CEG": 1795633374.4492607,
-    "FPS": 1795633374.4492607,
-    "MU": 1795633374.4492607,
-    "SKHY": 1795633374.4492607,
-    "WDC": 1795633374.4492607,
-    "STX": 1795633374.4492607,
-    "MSTR": 1795633374.4492607,
-    "SNDK": 1795633374.4492607,
-    "BTC-USD": 1795633374.4492607,
-    "CRWD": 1795633374.4492607,
-    "ORCL": 1795633374.4492607,
-    "COIN": 1795633374.4492607,
+    "NASA": 1795634959.7326298,
+    "LUNR": 1795634959.7326298,
+    "TSLA": 1795634959.7326298,
+    "AXP": 1795634959.7326298,
+    "RKLB": 1795634959.7326298,
+    "KO": 1795634959.7326298,
+    "FLY": 1795634959.7326298,
+    "INTC": 1795634959.7326298,
+    "VRT": 1795634959.7326298,
+    "HPE": 1795634959.7326298,
+    "DELL": 1795634959.7326298,
+    "OKLO": 1795634959.7326298,
+    "CEG": 1795634959.7326298,
+    "FPS": 1795634959.7326298,
+    "MU": 1795634959.7326298,
+    "SKHY": 1795634959.7326298,
+    "WDC": 1795634959.7326298,
+    "STX": 1795634959.7326298,
+    "MSTR": 1795634959.7326298,
+    "SNDK": 1795634959.7326298,
+    "BTC-USD": 1795634959.7326298,
+    "CRWD": 1795634959.7326298,
+    "ORCL": 1795634959.7326298,
+    "COIN": 1795634959.7326298,
     "LLY": 1795633701.723431,
     "MRNA": 1795633701.723431,
     "NKE": 1795633701.723431,
