@@ -86,8 +86,8 @@
       "last_notified_at": 1795647631.135729
     },
     "IWM": {
-      "state": "NORMAL",
-      "last_notified_at": 0.0
+      "state": "WATCHLIST_ENTRY_READY",
+      "last_notified_at": 1795650421.0856552
     },
     "IGV": {
       "state": "NORMAL",
@@ -166,8 +166,8 @@
       "last_notified_at": 0.0
     },
     "MSFT": {
-      "state": "NORMAL",
-      "last_notified_at": 0.0
+      "state": "WATCHLIST_ENTRY_READY",
+      "last_notified_at": 1795650421.0856552
     },
     "NKE": {
       "state": "NORMAL",
