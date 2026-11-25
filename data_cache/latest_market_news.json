@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795633804.953,
-  "updated_at_et": "11-25 14:10 ET",
-  "updated_at_kst": "04:10 KST",
+  "updated_at_ts": 1795633910.005,
+  "updated_at_et": "11-25 14:11 ET",
+  "updated_at_kst": "04:11 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1792,6 +1792,13 @@
         "pub_ts": 1795631877.0
       },
       {
+        "title": "Billionaire David Tepper Just Loaded Up on SpaceX Stock. Should You Follow His Lead?",
+        "url": "https://www.fool.com/investing/2026/11/25/billionaire-david-tepper-just-loaded-up-on-spacex-stock-should-you-follow-his-lead/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 13:53 ET",
+        "pub_ts": 1795632782.0
+      },
+      {
         "title": "Musk Says Grok Bot Can Find the “Best Black Friday Deals.” Grok Already Places 24% of AI Agent Orders",
         "url": "https://www.tikr.com/blog/musk-says-grok-bot-can-find-the-best-black-friday-deals-grok-already-places-24-of-ai-agent-orders?ref=yahoofinance&tlnk=yf-261125-2c88523j&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1811,13 +1818,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 13:18 ET",
         "pub_ts": 1795630717.0
-      },
-      {
-        "title": "SpaceX wins landmark FCC backing for 1 million-satellite data center constellation",
-        "url": "https://finance.yahoo.com/technology/ai/articles/spacex-wins-landmark-fcc-backing-175942978.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:59 ET",
-        "pub_ts": 1795629582.0
       }
     ],
     "ASTS": [
@@ -3347,11 +3347,11 @@
     "CRDO": 1795633804.952686,
     "COHR": 1795633804.952686,
     "MRVL": 1795633804.952686,
-    "LITE": 1795632334.3763711,
+    "LITE": 1795633910.004571,
     "AAOI": 1795633804.952686,
-    "SPCX": 1795632334.3763711,
+    "SPCX": 1795633910.004571,
     "ASTS": 1795633374.4492607,
-    "AXTI": 1795632334.3763711,
+    "AXTI": 1795633910.004571,
     "NASA": 1795633374.4492607,
     "LUNR": 1795633374.4492607,
     "TSLA": 1795633374.4492607,
@@ -3386,8 +3386,8 @@
     "WMT": 1795633804.952686,
     "V": 1795633701.723431,
     "CAT": 1795633804.952686,
-    "FN": 1795632334.3763711,
-    "GLW": 1795632334.3763711,
+    "FN": 1795633910.004571,
+    "GLW": 1795633910.004571,
     "ANT": 1795633804.952686,
     "XAUUSD": 1795633804.952686,
     "KOSPI": 1795633701.723431
