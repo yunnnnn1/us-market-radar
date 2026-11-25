@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795640138.03,
-  "updated_at_et": "11-25 15:55 ET",
-  "updated_at_kst": "05:55 KST",
+  "updated_at_ts": 1795640241.004,
+  "updated_at_et": "11-25 15:57 ET",
+  "updated_at_kst": "05:57 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1792,6 +1792,13 @@
         "pub_ts": 1795631877.0
       },
       {
+        "title": "Is Space Exploration Technologies (SPCX) Cheap As Tesla Merger Talks Raise Valuation Questions?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/space-exploration-technologies-spcx-cheap-201121157.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:11 ET",
+        "pub_ts": 1795637481.0
+      },
+      {
         "title": "SpaceX to contribute one Class A share to every Trump Account",
         "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-contribute-one-class-share-200240603.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1799,25 +1806,18 @@
         "pub_ts": 1795636960.0
       },
       {
+        "title": "SpaceX Slashes GPU Pricing? Plus, IREN’s Selloff and CoreWeave’s Distressed Bonds",
+        "url": "https://blockspace.media/podcast/spacex-slashes-gpu-pricing-plus-irens-selloff-and-coreweaves-distressed-bonds/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 14:57 ET",
+        "pub_ts": 1795636676.0
+      },
+      {
         "title": "Why SpaceX Stock Is Down Today",
         "url": "https://www.fool.com/investing/2026/11/25/why-spacex-stock-is-down-today/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 14:05 ET",
         "pub_ts": 1795633502.0
-      },
-      {
-        "title": "Billionaire David Tepper Just Loaded Up on SpaceX Stock. Should You Follow His Lead?",
-        "url": "https://www.fool.com/investing/2026/11/25/billionaire-david-tepper-just-loaded-up-on-spacex-stock-should-you-follow-his-lead/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 13:53 ET",
-        "pub_ts": 1795632782.0
-      },
-      {
-        "title": "Musk Says Grok Bot Can Find the “Best Black Friday Deals.” Grok Already Places 24% of AI Agent Orders",
-        "url": "https://www.tikr.com/blog/musk-says-grok-bot-can-find-the-best-black-friday-deals-grok-already-places-24-of-ai-agent-orders?ref=yahoofinance&tlnk=yf-261125-2c88523j&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 13:24 ET",
-        "pub_ts": 1795631070.0
       }
     ],
     "ASTS": [
@@ -3347,11 +3347,11 @@
     "CRDO": 1795640138.0302868,
     "COHR": 1795640138.0302868,
     "MRVL": 1795640138.0302868,
-    "LITE": 1795638665.9094474,
+    "LITE": 1795640241.0042448,
     "AAOI": 1795640138.0302868,
-    "SPCX": 1795638665.9094474,
+    "SPCX": 1795640241.0042448,
     "ASTS": 1795639713.3643832,
-    "AXTI": 1795638665.9094474,
+    "AXTI": 1795640241.0042448,
     "NASA": 1795639713.3643832,
     "LUNR": 1795639713.3643832,
     "TSLA": 1795639713.3643832,
@@ -3386,8 +3386,8 @@
     "WMT": 1795640138.0302868,
     "V": 1795640032.842481,
     "CAT": 1795640138.0302868,
-    "FN": 1795638665.9094474,
-    "GLW": 1795638665.9094474,
+    "FN": 1795640241.0042448,
+    "GLW": 1795640241.0042448,
     "ANT": 1795640138.0302868,
     "XAUUSD": 1795640138.0302868,
     "KOSPI": 1795640032.842481
