@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795596051.52,
-  "updated_at_et": "11-25 03:40 ET",
-  "updated_at_kst": "17:40 KST",
+  "updated_at_ts": 1795596155.197,
+  "updated_at_et": "11-25 03:42 ET",
+  "updated_at_kst": "17:42 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -17,7 +17,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 290,
+      "minutes_left": 288,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -36,7 +36,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 290,
+      "minutes_left": 288,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -2282,6 +2282,13 @@
     ],
     "DELL": [
       {
+        "title": "Dell Has 100,000 AI Agents at Work Daily: COO Jeff Clarke Says It Will 'Double That Number in the Next 90 Days'",
+        "url": "https://finance.yahoo.com/technology/ai/articles/dell-100-000-ai-agents-073020682.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 02:30 ET",
+        "pub_ts": 1795591820.0
+      },
+      {
         "title": "Dell Technologies: 3 Key Takeaways for Long-Term Investors",
         "url": "https://www.fool.com/earnings/takeaways/2026/11/25/dell-technologies-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2308,13 +2315,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 21:50 ET",
         "pub_ts": 1795575024.0
-      },
-      {
-        "title": "TSLA Stock Slips Overnight: Dell And HP See No Quick Relief From The AI-Driven Chip Crunch Behind Tesla’s 25% Memory Cut",
-        "url": "https://stocktwits.com/news-articles/markets/equity/tsla-stock-dell-hp-no-quick-relief-ai-chip-crunch-tesla-memory-cut/cNbuC6fR9ld?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 21:26 ET",
-        "pub_ts": 1795573586.0
       }
     ],
     "OKLO": [
@@ -2437,6 +2437,13 @@
         "pub_ts": 1795556758.0
       },
       {
+        "title": "MU, SKHY, SNDK Stocks In Focus After TrendForce Lowers DRAM Pricing Forecast",
+        "url": "https://stocktwits.com/news-articles/markets/equity/mu-skhy-sndk-stocks-in-focus-after-trend-force-lowers-dram-pricing-forecast/cNbH7VLR9l8?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 03:27 ET",
+        "pub_ts": 1795595230.0
+      },
+      {
         "title": "South Korea's chipmakers rally on Huang's return",
         "url": "http://www.intellinews.com/south-korea-s-chipmakers-rally-on-huang-s-return-488025/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2456,13 +2463,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 16:33 ET",
         "pub_ts": 1795555980.0
-      },
-      {
-        "title": "Why MaxLinear (MXL) Stock Is Plunging Today: Chip Stocks Sell Off",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-maxlinear-mxl-stock-plunging-210142402.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:01 ET",
-        "pub_ts": 1795554102.0
       }
     ],
     "SKHY": [
@@ -2615,6 +2615,13 @@
     ],
     "SNDK": [
       {
+        "title": "MU, SKHY, SNDK Stocks In Focus After TrendForce Lowers DRAM Pricing Forecast",
+        "url": "https://stocktwits.com/news-articles/markets/equity/mu-skhy-sndk-stocks-in-focus-after-trend-force-lowers-dram-pricing-forecast/cNbH7VLR9l8?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 03:27 ET",
+        "pub_ts": 1795595230.0
+      },
+      {
         "title": "Micron vs. Sandisk: Which AI Memory Stock Is the Better Buy?",
         "url": "https://www.fool.com/investing/2026/11/24/micron-vs-sandisk-which-ai-memory-stock-is-the-better-buy/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2641,16 +2648,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 12:16 ET",
         "pub_ts": 1795540583.0
-      },
-      {
-        "title": "Sandisk (SNDK) Stock Gets An AI Lift From Renewed Leadership Confidence",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-sndk-stock-gets-ai-160942401.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:09 ET",
-        "pub_ts": 1795536582.0
       }
     ],
     "BTC-USD": [
+      {
+        "title": "LIVE – Crypto News Today: Bitcoin Hit by Trump Tariff Threat and US Treasury Cyberattack as IBIT Bleeds Billions",
+        "url": "https://cryptonews.com/news/crypto-news-bitcoin-trump-tariffs-ibit-etf-outflows/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 03:05 ET",
+        "pub_ts": 1795593923.0
+      },
       {
         "title": "Bitcoin extends losses below $59,000 as ETF outflows weigh",
         "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-extends-losses-below-59-064934005.html?.tsrc=rss",
@@ -2678,13 +2685,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 00:20 ET",
         "pub_ts": 1795584052.0
-      },
-      {
-        "title": "Why Did CleanSpark Lose Nearly $1 Billion in Fiscal 2026?",
-        "url": "https://beincrypto.com/cleanspark-fiscal-2026-loss-bitcoin-ai/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 00:19 ET",
-        "pub_ts": 1795583980.0
       }
     ],
     "CRWD": [
@@ -3366,32 +3366,32 @@
     "LITE": 1795595945.323802,
     "AAOI": 1795595945.323802,
     "SPCX": 1795595945.323802,
-    "ASTS": 1795594574.0923738,
+    "ASTS": 1795596155.196879,
     "AXTI": 1795595945.323802,
-    "NASA": 1795594574.0923738,
-    "LUNR": 1795594574.0923738,
-    "TSLA": 1795594574.0923738,
-    "AXP": 1795594574.0923738,
-    "RKLB": 1795594574.0923738,
-    "KO": 1795594574.0923738,
-    "FLY": 1795594574.0923738,
-    "INTC": 1795594574.0923738,
-    "VRT": 1795594574.0923738,
-    "HPE": 1795594574.0923738,
-    "DELL": 1795594574.0923738,
-    "OKLO": 1795594574.0923738,
-    "CEG": 1795594574.0923738,
-    "FPS": 1795594574.0923738,
-    "MU": 1795594574.0923738,
-    "SKHY": 1795594574.0923738,
-    "WDC": 1795594574.0923738,
-    "STX": 1795594574.0923738,
-    "MSTR": 1795594574.0923738,
-    "SNDK": 1795594574.0923738,
-    "BTC-USD": 1795594574.0923738,
-    "CRWD": 1795594574.0923738,
-    "ORCL": 1795594574.0923738,
-    "COIN": 1795594574.0923738,
+    "NASA": 1795596155.196879,
+    "LUNR": 1795596155.196879,
+    "TSLA": 1795596155.196879,
+    "AXP": 1795596155.196879,
+    "RKLB": 1795596155.196879,
+    "KO": 1795596155.196879,
+    "FLY": 1795596155.196879,
+    "INTC": 1795596155.196879,
+    "VRT": 1795596155.196879,
+    "HPE": 1795596155.196879,
+    "DELL": 1795596155.196879,
+    "OKLO": 1795596155.196879,
+    "CEG": 1795596155.196879,
+    "FPS": 1795596155.196879,
+    "MU": 1795596155.196879,
+    "SKHY": 1795596155.196879,
+    "WDC": 1795596155.196879,
+    "STX": 1795596155.196879,
+    "MSTR": 1795596155.196879,
+    "SNDK": 1795596155.196879,
+    "BTC-USD": 1795596155.196879,
+    "CRWD": 1795596155.196879,
+    "ORCL": 1795596155.196879,
+    "COIN": 1795596155.196879,
     "LLY": 1795594681.8618581,
     "MRNA": 1795594681.8618581,
     "NKE": 1795594681.8618581,
@@ -3424,10 +3424,10 @@
   },
   "calendar_banner": {
     "level": "upcoming",
-    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 290 分钟（11-25 08:30 ET / 22:30 KST）",
+    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 288 分钟（11-25 08:30 ET / 22:30 KST）",
     "detail": "前值 0.3% ｜ 预期 0.3% ｜ 临近公布前15分钟将自动触发防插针预警",
     "event_name": "美国10月核心PCE物价指数环比",
-    "minutes_left": 290,
+    "minutes_left": 288,
     "opex_shield": {
       "date": "2026-11-25",
       "active": false,
