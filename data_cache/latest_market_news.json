@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795586701.559,
-  "updated_at_et": "11-25 01:05 ET",
-  "updated_at_kst": "15:05 KST",
+  "updated_at_ts": 1795586811.52,
+  "updated_at_et": "11-25 01:06 ET",
+  "updated_at_kst": "15:06 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -17,7 +17,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 445,
+      "minutes_left": 444,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -36,7 +36,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 445,
+      "minutes_left": 444,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -3388,15 +3388,15 @@
     "CRWD": 1795586701.5591552,
     "ORCL": 1795586701.5591552,
     "COIN": 1795586701.5591552,
-    "LLY": 1795585212.5951202,
-    "MRNA": 1795585212.5951202,
-    "NKE": 1795585212.5951202,
-    "MCD": 1795585212.5951202,
+    "LLY": 1795586811.519506,
+    "MRNA": 1795586811.519506,
+    "NKE": 1795586811.519506,
+    "MCD": 1795586811.519506,
     "PEP": 1795586149.0885742,
     "XOM": 1795586149.0885742,
     "JPM": 1795586149.0885742,
     "WMT": 1795586149.0885742,
-    "V": 1795585212.5951202,
+    "V": 1795586811.519506,
     "CAT": 1795586149.0885742,
     "FN": 1795586495.525008,
     "GLW": 1795586495.525008,
@@ -3420,10 +3420,10 @@
   },
   "calendar_banner": {
     "level": "upcoming",
-    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 445 分钟（11-25 08:30 ET / 22:30 KST）",
+    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 444 分钟（11-25 08:30 ET / 22:30 KST）",
     "detail": "前值 0.3% ｜ 预期 0.3% ｜ 临近公布前15分钟将自动触发防插针预警",
     "event_name": "美国10月核心PCE物价指数环比",
-    "minutes_left": 445,
+    "minutes_left": 444,
     "opex_shield": {
       "date": "2026-11-25",
       "active": false,
