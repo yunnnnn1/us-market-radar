@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795616503.049,
-  "updated_at_et": "11-25 09:21 ET",
-  "updated_at_kst": "23:21 KST",
+  "updated_at_ts": 1795616608.902,
+  "updated_at_et": "11-25 09:23 ET",
+  "updated_at_kst": "23:23 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -599,18 +599,18 @@
         "pub_ts": 1795543833.0
       },
       {
+        "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Wednesday Amid Inflation Data Release",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140441647.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:04 ET",
+        "pub_ts": 1795615481.0
+      },
+      {
         "title": "Stock Market Today: Dow Dives On Surprise Inflation Data; Nvidia, Anthropic Plunge (Live Coverage)",
         "url": "https://finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow-dives.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 08:38 ET",
-        "pub_ts": 1795613907.0
-      },
-      {
-        "title": "ETFs Are Net Sellers of Alphabet (GOOG) on Nov. 23",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-alphabet-goog-110257127.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:02 ET",
-        "pub_ts": 1795604577.0
+        "time": "11-25 08:54 ET",
+        "pub_ts": 1795614871.0
       }
     ],
     "SMH": [
@@ -955,32 +955,32 @@
         "pub_ts": 1795614318.0
       },
       {
-        "title": "In a Sell-Off, How Much in One Stock Is Too Much?",
-        "url": "https://www.fool.com/investing/2026/11/25/in-a-sell-off-how-much-in-one-stock-is-too-much/?.tsrc=rss",
+        "title": "Wall Street tech sell-off returns as AI boom fades",
+        "url": "https://uk.finance.yahoo.com/news/wall-street-tech-sell-off-140937796.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 08:43 ET",
-        "pub_ts": 1795614203.0
+        "time": "11-25 09:09 ET",
+        "pub_ts": 1795615777.0
+      },
+      {
+        "title": "The Tech Sell-Off Is Creating the Best Buying Window in 2 Years. Here’s What I’m Buying.",
+        "url": "https://www.fool.com/investing/2026/11/25/tech-sell-off-creating-best-buying-window-2-years-what-im-buying/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 08:58 ET",
+        "pub_ts": 1795615136.0
       },
       {
         "title": "Stock Market Today: Dow Dives On Surprise Inflation Data; Nvidia, Anthropic Plunge (Live Coverage)",
         "url": "https://finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow-dives.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 08:38 ET",
-        "pub_ts": 1795613907.0
+        "time": "11-25 08:54 ET",
+        "pub_ts": 1795614871.0
       },
       {
-        "title": "Nvidia’s Top Lawyer Sold $4.5 Million of Nvidia Stock the Day Before Its 14% Plunge",
-        "url": "https://247wallst.com/investing/2026/11/25/nvidias-top-lawyer-sold-4-5-million-of-nvidia-stock-the-day-before-its-14-plunge/?.tsrc=rss",
+        "title": "In a Sell-Off, How Much in One Stock Is Too Much?",
+        "url": "https://www.fool.com/investing/2026/11/25/in-a-sell-off-how-much-in-one-stock-is-too-much/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 08:37 ET",
-        "pub_ts": 1795613865.0
-      },
-      {
-        "title": "Not SpaceX, Not Anthropic: These Are the 2 AI Stocks I Bought During the Sell-Off",
-        "url": "https://www.fool.com/investing/2026/11/25/not-spacex-not-anthropic-these-are-the-2-ai-stocks-i-bought-during-the-sell-off/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:35 ET",
-        "pub_ts": 1795613702.0
+        "time": "11-25 08:43 ET",
+        "pub_ts": 1795614203.0
       }
     ],
     "AMD": [
@@ -992,6 +992,13 @@
         "pub_ts": 1795614318.0
       },
       {
+        "title": "AMD Stock Would Need to Rise About 57% to Get Back to Its Record. History Says How Long Past Comebacks Took.",
+        "url": "https://www.fool.com/investing/2026/11/25/amd-stock-would-need-to-rise-about-57-to-get-back-to-its-record-history-says-how-long-past-comebacks-took/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 08:57 ET",
+        "pub_ts": 1795615022.0
+      },
+      {
         "title": "Nvidia Author Stephen Witt Says Huang’s Return Is “Not Great for AMD.” Here’s What AMD Loses",
         "url": "https://www.tikr.com/blog/jensen-huangs-return-is-not-great-for-amd-and-its-obvious-why?ref=yahoofinance&tlnk=yf-261125-qv64gggm&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -999,25 +1006,18 @@
         "pub_ts": 1795612826.0
       },
       {
+        "title": "AMD Sees Server Revenues Doubling in 2027: Will the Momentum Last?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amd-sees-server-revenues-doubling-125600843.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 07:56 ET",
+        "pub_ts": 1795611360.0
+      },
+      {
         "title": "AMD, Micron and Sandisk Stocks Slide as AI Spending Fears Deepen",
         "url": "https://finance.yahoo.com/markets/stocks/articles/amd-micron-sandisk-stocks-slide-122728877.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 07:27 ET",
         "pub_ts": 1795609648.0
-      },
-      {
-        "title": "Is AMD Stock Falling On Its Own?",
-        "url": "https://www.trefis.com/stock/amd/articles/628978/is-amd-stock-falling-on-its-own/2026-11-25?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 07:05 ET",
-        "pub_ts": 1795608346.0
-      },
-      {
-        "title": "Dell Stock Joins Nvidia, AMD, and Intel Selloff Despite Record Demand",
-        "url": "https://beincrypto.com/dell-stock-falls-ai-selloff-record-backlog/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:50 ET",
-        "pub_ts": 1795607445.0
       }
     ],
     "ASML": [
@@ -3094,6 +3094,13 @@
     ],
     "V": [
       {
+        "title": "Visa Inc. (V) is Attracting Investor Attention: Here is What You Should Know",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/visa-inc-v-attracting-investor-130005459.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 08:00 ET",
+        "pub_ts": 1795611605.0
+      },
+      {
         "title": "Kraken’s Krak Moves Into Credit With Two US Cards, One Backed by a USDC Deposit",
         "url": "https://unchainedcrypto.com/krakens-krak-moves-into-credit-with-two-us-cards-one-backed-by-a-usdc-deposit/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3120,13 +3127,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 08:48 ET",
         "pub_ts": 1795528102.0
-      },
-      {
-        "title": "Visa (V) Broadens Checkout Options On Its Acceptance Platform",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/visa-v-broadens-checkout-options-111840301.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 06:18 ET",
-        "pub_ts": 1795519120.0
       }
     ],
     "CAT": [
@@ -3325,23 +3325,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795615019.958787,
-    "SOXL": 1795615019.958787,
-    "SPY": 1795615019.958787,
-    "DIA": 1795615019.958787,
-    "SOXX": 1795615019.958787,
-    "QQQ": 1795615019.958787,
-    "SMH": 1795615019.958787,
-    "IWM": 1795615019.958787,
-    "IGV": 1795615019.958787,
-    "TLT": 1795615019.958787,
-    "GLD": 1795615019.958787,
-    "SQQQ": 1795615019.958787,
-    "TSM": 1795615019.958787,
-    "VIXY": 1795615019.958787,
-    "SOXS": 1795615019.958787,
-    "NVDA": 1795615019.958787,
-    "AMD": 1795615019.958787,
+    "KORU": 1795616608.90211,
+    "SOXL": 1795616608.90211,
+    "SPY": 1795616608.90211,
+    "DIA": 1795616608.90211,
+    "SOXX": 1795616608.90211,
+    "QQQ": 1795616608.90211,
+    "SMH": 1795616608.90211,
+    "IWM": 1795616608.90211,
+    "IGV": 1795616608.90211,
+    "TLT": 1795616608.90211,
+    "GLD": 1795616608.90211,
+    "SQQQ": 1795616608.90211,
+    "TSM": 1795616608.90211,
+    "VIXY": 1795616608.90211,
+    "SOXS": 1795616608.90211,
+    "NVDA": 1795616608.90211,
+    "AMD": 1795616608.90211,
     "ASML": 1795616076.3607793,
     "QCOM": 1795616076.3607793,
     "AVGO": 1795616076.3607793,
@@ -3390,21 +3390,21 @@
     "CRWD": 1795616503.049081,
     "ORCL": 1795616503.049081,
     "COIN": 1795616503.049081,
-    "LLY": 1795615019.958787,
-    "MRNA": 1795615019.958787,
-    "NKE": 1795615019.958787,
-    "MCD": 1795615019.958787,
-    "PEP": 1795615019.958787,
+    "LLY": 1795616608.90211,
+    "MRNA": 1795616608.90211,
+    "NKE": 1795616608.90211,
+    "MCD": 1795616608.90211,
+    "PEP": 1795616608.90211,
     "XOM": 1795615125.205336,
-    "JPM": 1795615019.958787,
+    "JPM": 1795616608.90211,
     "WMT": 1795615125.205336,
-    "V": 1795615019.958787,
+    "V": 1795616608.90211,
     "CAT": 1795615125.205336,
     "FN": 1795616076.3607793,
     "GLW": 1795616076.3607793,
     "ANT": 1795615125.205336,
     "XAUUSD": 1795615125.205336,
-    "KOSPI": 1795615019.958787
+    "KOSPI": 1795616608.90211
   },
   "opex_shield": {
     "date": "2026-11-25",
