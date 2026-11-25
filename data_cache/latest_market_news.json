@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795638557.488,
-  "updated_at_et": "11-25 15:29 ET",
-  "updated_at_kst": "05:29 KST",
+  "updated_at_ts": 1795638665.909,
+  "updated_at_et": "11-25 15:31 ET",
+  "updated_at_kst": "05:31 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1792,6 +1792,13 @@
         "pub_ts": 1795631877.0
       },
       {
+        "title": "SpaceX to contribute one Class A share to every Trump Account",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-contribute-one-class-share-200240603.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:02 ET",
+        "pub_ts": 1795636960.0
+      },
+      {
         "title": "Why SpaceX Stock Is Down Today",
         "url": "https://www.fool.com/investing/2026/11/25/why-spacex-stock-is-down-today/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1811,13 +1818,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 13:24 ET",
         "pub_ts": 1795631070.0
-      },
-      {
-        "title": "Prediction: SpaceX Stock Will Be Worth This Much in 3 Years",
-        "url": "https://www.fool.com/investing/2026/11/25/prediction-spacex-stock-will-be-worth-this-much-in-3-years/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 13:20 ET",
-        "pub_ts": 1795630803.0
       }
     ],
     "ASTS": [
@@ -3347,11 +3347,11 @@
     "CRDO": 1795638557.488477,
     "COHR": 1795638557.488477,
     "MRVL": 1795638557.488477,
-    "LITE": 1795637074.5907528,
+    "LITE": 1795638665.9094474,
     "AAOI": 1795638557.488477,
-    "SPCX": 1795637074.5907528,
+    "SPCX": 1795638665.9094474,
     "ASTS": 1795638136.5140955,
-    "AXTI": 1795637074.5907528,
+    "AXTI": 1795638665.9094474,
     "NASA": 1795638136.5140955,
     "LUNR": 1795638136.5140955,
     "TSLA": 1795638136.5140955,
@@ -3386,8 +3386,8 @@
     "WMT": 1795638557.488477,
     "V": 1795638452.7947655,
     "CAT": 1795638557.488477,
-    "FN": 1795637074.5907528,
-    "GLW": 1795637074.5907528,
+    "FN": 1795638665.9094474,
+    "GLW": 1795638665.9094474,
     "ANT": 1795638557.488477,
     "XAUUSD": 1795638557.488477,
     "KOSPI": 1795638452.7947655
