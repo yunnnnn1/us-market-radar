@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795597424.387,
-  "updated_at_et": "11-25 04:03 ET",
-  "updated_at_kst": "18:03 KST",
+  "updated_at_ts": 1795597530.798,
+  "updated_at_et": "11-25 04:05 ET",
+  "updated_at_kst": "18:05 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -17,7 +17,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 267,
+      "minutes_left": 265,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -36,13 +36,27 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 267,
+      "minutes_left": 265,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
     }
   ],
   "macro_flashes": [
+    {
+      "id": "20261125170419473800",
+      "title": "【美股半导体股盘前多数下跌】 11月25日讯，美股半导体股盘前多数下跌，英伟达(NVDA…",
+      "summary": "【美股半导体股盘前多数下跌】 11月25日讯，美股半导体股盘前多数下跌，英伟达(NVDA.O)美股盘前跌约4%，上一交易日已下跌5.9%。美光科技(MU.O)、Arm(ARM.O)跌超5%，迈威尔科技(MRVL.O)、AMD(AMD.O)跌超4%。",
+      "keywords": [
+        "半导体",
+        "英伟达"
+      ],
+      "pub_ts": 1795597459.0,
+      "time_et": "11-25 04:04 ET",
+      "time_bj": "17:04 BJ",
+      "time_kst": "18:04 KST",
+      "time_display": "04:04 ET / 17:04 BJ"
+    },
     {
       "id": "20261125164622998800",
       "title": "欧佩克+为2027年配额定基准，短期供给反而更难增加｜原油头条",
@@ -377,19 +391,6 @@
       "time_bj": "11:33 BJ",
       "time_kst": "12:33 KST",
       "time_display": "22:33 ET / 11:33 BJ"
-    },
-    {
-      "id": "20261125112757742800",
-      "title": "金价反弹再遭打断，今晚PCE会送来第二次机会吗？",
-      "summary": "金价多头刚等来近3%的反弹，隔天就丢掉大半涨幅。美股带来的喘息正在消退，今晚PCE又将登场。多头盼的第二次机会，是会随着数据出现，还是仍要继续等？",
-      "keywords": [
-        "PCE"
-      ],
-      "pub_ts": 1795577277.0,
-      "time_et": "11-24 22:27 ET",
-      "time_bj": "11:27 BJ",
-      "time_kst": "12:27 KST",
-      "time_display": "22:27 ET / 11:27 BJ"
     }
   ],
   "ticker_news": {
@@ -1172,6 +1173,13 @@
     ],
     "META": [
       {
+        "title": "Prediction: Here’s What Anthropic’s Valuation Will Be in 2027, According to History",
+        "url": "https://www.fool.com/investing/2026/11/25/prediction-heres-what-anthropics-valuation-will-be-in-2027-according-to-history/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 03:58 ET",
+        "pub_ts": 1795597082.0
+      },
+      {
         "title": "Your $300,000 in XLC Holds $130,206 in Just Meta and Alphabet",
         "url": "https://247wallst.com/investing/etf/2026/11/24/your-300000-in-xlc-holds-130206-in-just-meta-and-alphabet/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1198,16 +1206,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 13:33 ET",
         "pub_ts": 1795545223.0
-      },
-      {
-        "title": "AI Regulation Could Put BILL Stock In Focus",
-        "url": "https://finance.yahoo.com/technology/ai/articles/ai-regulation-could-put-bill-211152422.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:11 ET",
-        "pub_ts": 1795554712.0
       }
     ],
     "GOOGL": [
+      {
+        "title": "Asia's AI race heads offshore with launch of Floating Data Centres in Singapore",
+        "url": "https://finance.yahoo.com/technology/ai/articles/asias-ai-race-heads-offshore-085300682.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 03:53 ET",
+        "pub_ts": 1795596780.0
+      },
       {
         "title": "Alphabet Has $251 Billion Invested In 2 of Its Biggest Artificial Intelligence Partners",
         "url": "https://www.fool.com/investing/2026/11/25/alphabet-has-251-billion-invested-in-2-of-its-biggest-artificial-intelligence-partners/?.tsrc=rss",
@@ -1235,13 +1243,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 19:52 ET",
         "pub_ts": 1795567953.0
-      },
-      {
-        "title": "Stephanie Link Says Marvell Could Earn $30 a Share by 2031. Is She Right?",
-        "url": "https://247wallst.com/investing/2026/11/24/stephanie-link-says-marvell-could-earn-30-a-share-by-2031-is-she-right/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 17:07 ET",
-        "pub_ts": 1795558073.0
       }
     ],
     "MSFT": [
@@ -1251,13 +1252,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 16:45 ET",
         "pub_ts": 1795556758.0
-      },
-      {
-        "title": "Microsoft declares a code red in the middle of a 'Patchpocalypse'",
-        "url": "https://finance.yahoo.com/markets/article/microsoft-declares-a-code-red-in-the-middle-of-a-patchpocalypse-193740712.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 14:37 ET",
-        "pub_ts": 1795549060.0
       },
       {
         "title": "Driven Tech Completes Acquisitions of ADEX and TekBay, Accelerating Enterprise AI Strategy",
@@ -1279,6 +1273,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 17:24 ET",
         "pub_ts": 1795559066.0
+      },
+      {
+        "title": "Microsoft (MSFT) Is One of the Safest Ways to Own AI",
+        "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-one-safest-ways-210600451.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:06 ET",
+        "pub_ts": 1795554360.0
       }
     ],
     "AAPL": [
@@ -3344,30 +3345,30 @@
     "SOXS": 1795597109.1347177,
     "NVDA": 1795597109.1347177,
     "AMD": 1795597109.1347177,
-    "ASML": 1795595945.323802,
-    "QCOM": 1795595945.323802,
-    "AVGO": 1795595945.323802,
-    "AMAT": 1795595945.323802,
-    "META": 1795595945.323802,
-    "GOOGL": 1795595945.323802,
-    "MSFT": 1795595945.323802,
-    "AAPL": 1795595945.323802,
-    "PLTR": 1795595945.323802,
-    "NOW": 1795595945.323802,
-    "AMZN": 1795595945.323802,
-    "CRWV": 1795595945.323802,
-    "NBIS": 1795595945.323802,
-    "APLD": 1795595945.323802,
-    "VST": 1795595945.323802,
-    "BE": 1795595945.323802,
-    "CRDO": 1795595945.323802,
-    "COHR": 1795595945.323802,
-    "MRVL": 1795595945.323802,
-    "LITE": 1795595945.323802,
-    "AAOI": 1795595945.323802,
-    "SPCX": 1795595945.323802,
+    "ASML": 1795597530.7977943,
+    "QCOM": 1795597530.7977943,
+    "AVGO": 1795597530.7977943,
+    "AMAT": 1795597530.7977943,
+    "META": 1795597530.7977943,
+    "GOOGL": 1795597530.7977943,
+    "MSFT": 1795597530.7977943,
+    "AAPL": 1795597530.7977943,
+    "PLTR": 1795597530.7977943,
+    "NOW": 1795597530.7977943,
+    "AMZN": 1795597530.7977943,
+    "CRWV": 1795597530.7977943,
+    "NBIS": 1795597530.7977943,
+    "APLD": 1795597530.7977943,
+    "VST": 1795597530.7977943,
+    "BE": 1795597530.7977943,
+    "CRDO": 1795597530.7977943,
+    "COHR": 1795597530.7977943,
+    "MRVL": 1795597530.7977943,
+    "LITE": 1795597530.7977943,
+    "AAOI": 1795597530.7977943,
+    "SPCX": 1795597530.7977943,
     "ASTS": 1795596155.196879,
-    "AXTI": 1795595945.323802,
+    "AXTI": 1795597530.7977943,
     "NASA": 1795596155.196879,
     "LUNR": 1795596155.196879,
     "TSLA": 1795596155.196879,
@@ -3402,8 +3403,8 @@
     "WMT": 1795597109.1347177,
     "V": 1795596261.569745,
     "CAT": 1795597109.1347177,
-    "FN": 1795595945.323802,
-    "GLW": 1795595945.323802,
+    "FN": 1795597530.7977943,
+    "GLW": 1795597530.7977943,
     "ANT": 1795597109.1347177,
     "XAUUSD": 1795597109.1347177,
     "KOSPI": 1795597109.1347177
@@ -3424,10 +3425,10 @@
   },
   "calendar_banner": {
     "level": "upcoming",
-    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 267 分钟（11-25 08:30 ET / 22:30 KST）",
+    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 265 分钟（11-25 08:30 ET / 22:30 KST）",
     "detail": "前值 0.3% ｜ 预期 0.3% ｜ 临近公布前15分钟将自动触发防插针预警",
     "event_name": "美国10月核心PCE物价指数环比",
-    "minutes_left": 267,
+    "minutes_left": 265,
     "opex_shield": {
       "date": "2026-11-25",
       "active": false,
