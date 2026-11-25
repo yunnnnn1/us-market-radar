@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795636438.21,
-  "updated_at_et": "11-25 14:53 ET",
-  "updated_at_kst": "04:53 KST",
+  "updated_at_ts": 1795636543.38,
+  "updated_at_et": "11-25 14:55 ET",
+  "updated_at_kst": "04:55 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -2280,6 +2280,13 @@
         "pub_ts": 1795622664.0
       },
       {
+        "title": "Anthropic, Nvidia, Micron, HP Inc., Dell, Deere, and More Stocks That Explain Today’s Market",
+        "url": "https://finance.yahoo.com/m/18e72c51-c6d7-33b1-aa90-ccce17a9b32f/anthropic%2C-nvidia%2C-micron%2C-hp.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 13:37 ET",
+        "pub_ts": 1795631820.0
+      },
+      {
         "title": "Sector Update: Tech Stocks Fall Wednesday Afternoon",
         "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-wednesday-183231718.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2292,13 +2299,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 13:15 ET",
         "pub_ts": 1795630543.0
-      },
-      {
-        "title": "Most of Dell’s New AI Server Orders Are Now for Nvidia’s Vera Rubin",
-        "url": "https://247wallst.com/investing/2026/11/25/most-of-dells-new-ai-server-orders-are-now-for-nvidias-vera-rubin/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 13:07 ET",
-        "pub_ts": 1795630026.0
       }
     ],
     "OKLO": [
@@ -2421,6 +2421,13 @@
         "pub_ts": 1795634402.0
       },
       {
+        "title": "Anthropic, Nvidia, Micron, HP Inc., Dell, Deere, and More Stocks That Explain Today’s Market",
+        "url": "https://finance.yahoo.com/m/18e72c51-c6d7-33b1-aa90-ccce17a9b32f/anthropic%2C-nvidia%2C-micron%2C-hp.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 13:37 ET",
+        "pub_ts": 1795631820.0
+      },
+      {
         "title": "Micron Stock and Other Memory Plays Will Bear the Brunt of This AI Pain",
         "url": "https://finance.yahoo.com/m/c60b7c01-7f3d-3700-ad68-951e994a6d38/micron-stock-and-other-memory.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2440,13 +2447,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 12:17 ET",
         "pub_ts": 1795627025.0
-      },
-      {
-        "title": "Micron Technology (MU) Dropped, So What Is Drawing Attention Now?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/micron-technology-mu-dropped-drawing-171415757.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:14 ET",
-        "pub_ts": 1795626855.0
       }
     ],
     "SKHY": [
@@ -3350,32 +3350,32 @@
     "LITE": 1795635487.9072354,
     "AAOI": 1795635381.3981485,
     "SPCX": 1795635487.9072354,
-    "ASTS": 1795634959.7326298,
+    "ASTS": 1795636543.3802476,
     "AXTI": 1795635487.9072354,
-    "NASA": 1795634959.7326298,
-    "LUNR": 1795634959.7326298,
-    "TSLA": 1795634959.7326298,
-    "AXP": 1795634959.7326298,
-    "RKLB": 1795634959.7326298,
-    "KO": 1795634959.7326298,
-    "FLY": 1795634959.7326298,
-    "INTC": 1795634959.7326298,
-    "VRT": 1795634959.7326298,
-    "HPE": 1795634959.7326298,
-    "DELL": 1795634959.7326298,
-    "OKLO": 1795634959.7326298,
-    "CEG": 1795634959.7326298,
-    "FPS": 1795634959.7326298,
-    "MU": 1795634959.7326298,
-    "SKHY": 1795634959.7326298,
-    "WDC": 1795634959.7326298,
-    "STX": 1795634959.7326298,
-    "MSTR": 1795634959.7326298,
-    "SNDK": 1795634959.7326298,
-    "BTC-USD": 1795634959.7326298,
-    "CRWD": 1795634959.7326298,
-    "ORCL": 1795634959.7326298,
-    "COIN": 1795634959.7326298,
+    "NASA": 1795636543.3802476,
+    "LUNR": 1795636543.3802476,
+    "TSLA": 1795636543.3802476,
+    "AXP": 1795636543.3802476,
+    "RKLB": 1795636543.3802476,
+    "KO": 1795636543.3802476,
+    "FLY": 1795636543.3802476,
+    "INTC": 1795636543.3802476,
+    "VRT": 1795636543.3802476,
+    "HPE": 1795636543.3802476,
+    "DELL": 1795636543.3802476,
+    "OKLO": 1795636543.3802476,
+    "CEG": 1795636543.3802476,
+    "FPS": 1795636543.3802476,
+    "MU": 1795636543.3802476,
+    "SKHY": 1795636543.3802476,
+    "WDC": 1795636543.3802476,
+    "STX": 1795636543.3802476,
+    "MSTR": 1795636543.3802476,
+    "SNDK": 1795636543.3802476,
+    "BTC-USD": 1795636543.3802476,
+    "CRWD": 1795636543.3802476,
+    "ORCL": 1795636543.3802476,
+    "COIN": 1795636543.3802476,
     "LLY": 1795635273.963288,
     "MRNA": 1795635273.963288,
     "NKE": 1795635273.963288,
