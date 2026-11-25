@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795579726.262,
-  "updated_at_et": "11-24 23:08 ET",
-  "updated_at_kst": "13:08 KST",
+  "updated_at_ts": 1795579831.687,
+  "updated_at_et": "11-24 23:10 ET",
+  "updated_at_kst": "13:10 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -914,8 +914,15 @@
         "title": "Dow Jones Futures Fall; Trump Says 'Not Too Late' For U.S. To Take Nvidia Stake",
         "url": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures-fall%3B-trump.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 22:27 ET",
-        "pub_ts": 1795577272.0
+        "time": "11-24 23:04 ET",
+        "pub_ts": 1795579473.0
+      },
+      {
+        "title": "Another Wall Street analyst revamps stock market outlook as volatility surges",
+        "url": "https://www.thestreet.com/investing/another-wall-street-analyst-revamps-stock-market-outlook-as-volatility-surges?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 22:53 ET",
+        "pub_ts": 1795578780.0
       },
       {
         "title": "South Korea's chipmakers rally on Huang's return",
@@ -937,13 +944,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 22:12 ET",
         "pub_ts": 1795576352.0
-      },
-      {
-        "title": "3 Stocks Investors Are Watching For Corporate Governance And Litigation Demand",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-investors-watching-corporate-031221183.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 22:12 ET",
-        "pub_ts": 1795576341.0
       }
     ],
     "AMD": [
@@ -953,6 +953,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 16:45 ET",
         "pub_ts": 1795556758.0
+      },
+      {
+        "title": "Jim Cramer and Tom Lee are Buying More AI Stocks. Are They Right?",
+        "url": "https://beincrypto.com/jim-cramer-tom-lee-ai-stock-call/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 19:53 ET",
+        "pub_ts": 1795568023.0
       },
       {
         "title": "Why AMD Stock Fell Today",
@@ -974,13 +981,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 17:39 ET",
         "pub_ts": 1795559978.0
-      },
-      {
-        "title": "Dow Brushes Off Tech Rout, Tariff Worries to Add 423 Points: Stock Market Today",
-        "url": "https://www.kiplinger.com/investing/stocks/dow-brushes-off-tech-rout-tariff-worries-stock-market-today?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:13 ET",
-        "pub_ts": 1795554780.0
       }
     ],
     "ASML": [
@@ -3205,6 +3205,13 @@
     ],
     "ANT": [
       {
+        "title": "ANT Slips Further After Closing Below IPO Price: Retail Traders Wait For A Better Entry, But Cathie Wood Buys The Dip",
+        "url": "https://stocktwits.com/news-articles/markets/equity/ant-slips-further-after-closing-below-ipo-price-retail-traders-wait-for-a-better-entry-but-cathie-wood-buys-the-dip/cNbHR3zR9lf?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 22:48 ET",
+        "pub_ts": 1795578497.0
+      },
+      {
         "title": "Dow, S&P 500, Nasdaq Futures Edge Lower Amid Tech Selloff Ahead Of Key Inflation Data: DELL, AMBA, SOXL, MSTR In Focus",
         "url": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-edge-lower-amid-tech-selloff-ahead-of-key-inflation-data-dell-amba-soxl-mstr-in-focus/cNbHbLoR9lJ?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3231,13 +3238,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 20:20 ET",
         "pub_ts": 1795569602.0
-      },
-      {
-        "title": "AI Pullback Raises the Cost of Data Center Financing",
-        "url": "https://finance.yahoo.com/video/ai-pullback-raises-cost-data-224116831.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 17:41 ET",
-        "pub_ts": 1795560076.0
       }
     ],
     "XAUUSD": [
@@ -3288,23 +3288,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795578272.0369065,
-    "SOXL": 1795578272.0369065,
-    "SPY": 1795578272.0369065,
-    "DIA": 1795578272.0369065,
-    "SOXX": 1795578272.0369065,
-    "QQQ": 1795578272.0369065,
-    "SMH": 1795578272.0369065,
-    "IWM": 1795578272.0369065,
-    "IGV": 1795578272.0369065,
-    "TLT": 1795578272.0369065,
-    "GLD": 1795578272.0369065,
-    "SQQQ": 1795578272.0369065,
-    "TSM": 1795578272.0369065,
-    "VIXY": 1795578272.0369065,
-    "SOXS": 1795578272.0369065,
-    "NVDA": 1795578272.0369065,
-    "AMD": 1795578272.0369065,
+    "KORU": 1795579831.686719,
+    "SOXL": 1795579831.686719,
+    "SPY": 1795579831.686719,
+    "DIA": 1795579831.686719,
+    "SOXX": 1795579831.686719,
+    "QQQ": 1795579831.686719,
+    "SMH": 1795579831.686719,
+    "IWM": 1795579831.686719,
+    "IGV": 1795579831.686719,
+    "TLT": 1795579831.686719,
+    "GLD": 1795579831.686719,
+    "SQQQ": 1795579831.686719,
+    "TSM": 1795579831.686719,
+    "VIXY": 1795579831.686719,
+    "SOXS": 1795579831.686719,
+    "NVDA": 1795579831.686719,
+    "AMD": 1795579831.686719,
     "ASML": 1795578584.0285435,
     "QCOM": 1795578584.0285435,
     "AVGO": 1795578584.0285435,
@@ -3357,17 +3357,17 @@
     "MRNA": 1795578995.0055861,
     "NKE": 1795578995.0055861,
     "MCD": 1795578995.0055861,
-    "PEP": 1795578272.0369065,
-    "XOM": 1795578272.0369065,
-    "JPM": 1795578272.0369065,
-    "WMT": 1795578272.0369065,
+    "PEP": 1795579831.686719,
+    "XOM": 1795579831.686719,
+    "JPM": 1795579831.686719,
+    "WMT": 1795579831.686719,
     "V": 1795578995.0055861,
-    "CAT": 1795578272.0369065,
+    "CAT": 1795579831.686719,
     "FN": 1795578584.0285435,
     "GLW": 1795578584.0285435,
-    "ANT": 1795578272.0369065,
-    "XAUUSD": 1795578272.0369065,
-    "KOSPI": 1795578272.0369065
+    "ANT": 1795579831.686719,
+    "XAUUSD": 1795579831.686719,
+    "KOSPI": 1795579831.686719
   },
   "opex_shield": {
     "date": "2026-11-24",
