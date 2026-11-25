@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795593841.662,
-  "updated_at_et": "11-25 03:04 ET",
-  "updated_at_kst": "17:04 KST",
+  "updated_at_ts": 1795593947.076,
+  "updated_at_et": "11-25 03:05 ET",
+  "updated_at_kst": "17:05 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -17,7 +17,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 326,
+      "minutes_left": 325,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -36,7 +36,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 326,
+      "minutes_left": 325,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -834,6 +834,13 @@
     ],
     "TSM": [
       {
+        "title": "Asian stocks mostly decline as AI shares tumble after a retreat on Wall Street",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-mostly-decline-ai-040526833.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 23:05 ET",
+        "pub_ts": 1795579526.0
+      },
+      {
         "title": "Novanta Shares Just Jumped And We’re Buying This Robotics Play",
         "url": "https://247wallst.com/videos/novanta-shares-just-jumped-and-were-buying-this-robotics-play/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -860,13 +867,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 14:59 ET",
         "pub_ts": 1795550362.0
-      },
-      {
-        "title": "If You Invest $5,000 Into These 3 Stocks, You Could Have $10,000 by 2030",
-        "url": "https://247wallst.com/investing/2026/11/24/if-you-invest-5000-into-these-3-stocks-you-could-have-10000-by-2030/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 13:03 ET",
-        "pub_ts": 1795543400.0
       }
     ],
     "VIXY": [
@@ -3054,13 +3054,6 @@
     ],
     "WMT": [
       {
-        "title": "Stocks give back gains as Anthropic dips below IPO price",
-        "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:44 ET",
-        "pub_ts": 1795535048.0
-      },
-      {
         "title": "Symbotic: 3 Key Takeaways for Long-Term Investors",
         "url": "https://www.fool.com/earnings/takeaways/2026/11/24/symbotic-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3087,6 +3080,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:03 ET",
         "pub_ts": 1795536197.0
+      },
+      {
+        "title": "Stocks give back gains as Anthropic dips below IPO price",
+        "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:44 ET",
+        "pub_ts": 1795535048.0
       }
     ],
     "V": [
@@ -3322,23 +3322,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795592368.6017811,
-    "SOXL": 1795592368.6017811,
-    "SPY": 1795592368.6017811,
-    "DIA": 1795592368.6017811,
-    "SOXX": 1795592368.6017811,
-    "QQQ": 1795592368.6017811,
-    "SMH": 1795592368.6017811,
-    "IWM": 1795592368.6017811,
-    "IGV": 1795592368.6017811,
-    "TLT": 1795592368.6017811,
-    "GLD": 1795592368.6017811,
-    "SQQQ": 1795592368.6017811,
-    "TSM": 1795592368.6017811,
-    "VIXY": 1795592368.6017811,
-    "SOXS": 1795592368.6017811,
-    "NVDA": 1795592368.6017811,
-    "AMD": 1795592368.6017811,
+    "KORU": 1795593947.0756052,
+    "SOXL": 1795593947.0756052,
+    "SPY": 1795593947.0756052,
+    "DIA": 1795593947.0756052,
+    "SOXX": 1795593947.0756052,
+    "QQQ": 1795593947.0756052,
+    "SMH": 1795593947.0756052,
+    "IWM": 1795593947.0756052,
+    "IGV": 1795593947.0756052,
+    "TLT": 1795593947.0756052,
+    "GLD": 1795593947.0756052,
+    "SQQQ": 1795593947.0756052,
+    "TSM": 1795593947.0756052,
+    "VIXY": 1795593947.0756052,
+    "SOXS": 1795593947.0756052,
+    "NVDA": 1795593947.0756052,
+    "AMD": 1795593947.0756052,
     "ASML": 1795592791.8285427,
     "QCOM": 1795592791.8285427,
     "AVGO": 1795592791.8285427,
@@ -3391,17 +3391,17 @@
     "MRNA": 1795593112.4191618,
     "NKE": 1795593112.4191618,
     "MCD": 1795593112.4191618,
-    "PEP": 1795592368.6017811,
-    "XOM": 1795592368.6017811,
-    "JPM": 1795592368.6017811,
-    "WMT": 1795592368.6017811,
+    "PEP": 1795593947.0756052,
+    "XOM": 1795593947.0756052,
+    "JPM": 1795593947.0756052,
+    "WMT": 1795593947.0756052,
     "V": 1795593112.4191618,
-    "CAT": 1795592368.6017811,
+    "CAT": 1795593947.0756052,
     "FN": 1795592791.8285427,
     "GLW": 1795592791.8285427,
-    "ANT": 1795592368.6017811,
-    "XAUUSD": 1795592368.6017811,
-    "KOSPI": 1795592368.6017811
+    "ANT": 1795593947.0756052,
+    "XAUUSD": 1795593947.0756052,
+    "KOSPI": 1795593947.0756052
   },
   "opex_shield": {
     "date": "2026-11-25",
@@ -3419,10 +3419,10 @@
   },
   "calendar_banner": {
     "level": "upcoming",
-    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 326 分钟（11-25 08:30 ET / 22:30 KST）",
+    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 325 分钟（11-25 08:30 ET / 22:30 KST）",
     "detail": "前值 0.3% ｜ 预期 0.3% ｜ 临近公布前15分钟将自动触发防插针预警",
     "event_name": "美国10月核心PCE物价指数环比",
-    "minutes_left": 326,
+    "minutes_left": 325,
     "opex_shield": {
       "date": "2026-11-25",
       "active": false,
