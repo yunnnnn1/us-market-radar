@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795590369.012,
-  "updated_at_et": "11-25 02:06 ET",
-  "updated_at_kst": "16:06 KST",
+  "updated_at_ts": 1795590473.257,
+  "updated_at_et": "11-25 02:07 ET",
+  "updated_at_kst": "16:07 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -17,7 +17,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 384,
+      "minutes_left": 383,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -36,13 +36,26 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 384,
+      "minutes_left": 383,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
     }
   ],
   "macro_flashes": [
+    {
+      "id": "20261125150624945800",
+      "title": "“特朗普账户”亲友缴款突破10亿美元，总资金规模超90亿美元",
+      "summary": "美国财政部公布，逾300万人已向儿童投资账户缴款，亲友出资总额突破10亿美元。不过，账户的税收待遇、资金提取限制仍受到理财行业关注。",
+      "keywords": [
+        "特朗普"
+      ],
+      "pub_ts": 1795590384.0,
+      "time_et": "11-25 02:06 ET",
+      "time_bj": "15:06 BJ",
+      "time_kst": "16:06 KST",
+      "time_display": "02:06 ET / 15:06 BJ"
+    },
     {
       "id": "20261125145616504800",
       "title": "国际现货金银月末前大概率失守关键位，美伊最终协议落地权重下降｜市场赔率数据表",
@@ -372,20 +385,6 @@
       "time_bj": "08:20 BJ",
       "time_kst": "09:20 KST",
       "time_display": "19:20 ET / 08:20 BJ"
-    },
-    {
-      "id": "20261125080231194800",
-      "title": "特朗普称愿赦免黄仁勋但认为没必要，对政府入股英伟达持开放态度",
-      "summary": "特朗普表示若黄仁勋可能涉及违法，赦免“始终是一种选择”，但他认为没必要，并希望他下周国会作证时不要援引第五修正案。特朗普还称对政府入股英伟达持开放态度。点击查看",
-      "keywords": [
-        "英伟达",
-        "特朗普"
-      ],
-      "pub_ts": 1795564951.0,
-      "time_et": "11-24 19:02 ET",
-      "time_bj": "08:02 BJ",
-      "time_kst": "09:02 KST",
-      "time_display": "19:02 ET / 08:02 BJ"
     }
   ],
   "ticker_news": {
@@ -3420,10 +3419,10 @@
   },
   "calendar_banner": {
     "level": "upcoming",
-    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 384 分钟（11-25 08:30 ET / 22:30 KST）",
+    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 383 分钟（11-25 08:30 ET / 22:30 KST）",
     "detail": "前值 0.3% ｜ 预期 0.3% ｜ 临近公布前15分钟将自动触发防插针预警",
     "event_name": "美国10月核心PCE物价指数环比",
-    "minutes_left": 384,
+    "minutes_left": 383,
     "opex_shield": {
       "date": "2026-11-25",
       "active": false,
