@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795621185.86,
-  "updated_at_et": "11-25 10:39 ET",
-  "updated_at_kst": "00:39 KST",
+  "updated_at_ts": 1795621291.91,
+  "updated_at_et": "11-25 10:41 ET",
+  "updated_at_kst": "00:41 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -43,6 +43,20 @@
     }
   ],
   "macro_flashes": [
+    {
+      "id": "20261125233948242800",
+      "title": "【纳斯达克100指数市值蒸发8.5万亿美元，距熊市仅一步之遥】 11月25日讯，随着市场…",
+      "summary": "【纳斯达克100指数市值蒸发8.5万亿美元，距熊市仅一步之遥】 11月25日讯，随着市场情绪迅速恶化，投资者纷纷抛售与人工智能产业相关的股票，导致纳斯达克100指数即将陷入一年多以来的首次熊市。周三，科技股权重较高的纳斯达克100指数一度暴跌4.7%，较10月初创下的历史高点累计下跌20%。在这一轮抛售潮中，该指数成分股市值合计蒸发超过8.5万亿美元。按照目前走势，该指数恐迎来自2025年4月关税相关抛售潮以来的首次熊市。近几周，投资者一直在大举抛售科技股，原因在于市场对该行业的前景，尤其是其在人工智能基础设施建设方面的支出日益感到担忧。此外，Anthropic备受瞩目的IPO市场反应不一，也进一步加剧了市场的低迷情绪。",
+      "keywords": [
+        "关税",
+        "纳斯达克"
+      ],
+      "pub_ts": 1795621188.0,
+      "time_et": "11-25 10:39 ET",
+      "time_bj": "23:39 BJ",
+      "time_kst": "00:39 KST",
+      "time_display": "10:39 ET / 23:39 BJ"
+    },
     {
       "id": "20261125233230883800",
       "title": "1. 美国至11月20日当周EIA战略石油储备库存为1982年8月27日当周以来最低。 …",
@@ -366,20 +380,6 @@
       "time_bj": "17:12 BJ",
       "time_kst": "18:12 KST",
       "time_display": "04:12 ET / 17:12 BJ"
-    },
-    {
-      "id": "20261125170419473800",
-      "title": "【美股半导体股盘前多数下跌】 11月25日讯，美股半导体股盘前多数下跌，英伟达(NVDA…",
-      "summary": "【美股半导体股盘前多数下跌】 11月25日讯，美股半导体股盘前多数下跌，英伟达(NVDA.O)美股盘前跌约4%，上一交易日已下跌5.9%。美光科技(MU.O)、Arm(ARM.O)跌超5%，迈威尔科技(MRVL.O)、AMD(AMD.O)跌超4%。",
-      "keywords": [
-        "半导体",
-        "英伟达"
-      ],
-      "pub_ts": 1795597459.0,
-      "time_et": "11-25 04:04 ET",
-      "time_bj": "17:04 BJ",
-      "time_kst": "18:04 KST",
-      "time_display": "04:04 ET / 17:04 BJ"
     }
   ],
   "ticker_news": {
@@ -2124,6 +2124,13 @@
     ],
     "FLY": [
       {
+        "title": "Firefly Could Fill ‘Large Supply Gaps’ In Launch Market, Says Needham – Analyst Sees Over 100% Upside Potential In FLY Stock",
+        "url": "https://stocktwits.com/news-articles/markets/equity/firefly-could-fill-large-supply-gaps-in-launch-market-says-needham-analyst-sees-over-100-upside-potential-in-fly-stock/cNbHjilR9mk?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:12 ET",
+        "pub_ts": 1795619548.0
+      },
+      {
         "title": "NASA Is Handing Out Moon Contracts Again. Intuitive Machines, Firefly, and Redwire All Got Paid. Only 1 Has the Balance Sheet to Keep Winning.",
         "url": "https://www.fool.com/investing/2026/11/23/nasa-is-handing-out-moon-contracts-again-intuitive-machines-firefly-and-redwire-all-got-paid-only-1-has-the-balance-sheet-to-keep-winning/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2150,13 +2157,6 @@
         "source": "Yahoo Finance",
         "time": "11-20 06:12 ET",
         "pub_ts": 1795173179.0
-      },
-      {
-        "title": "SpaceX Holds Its Orbit As Space Stocks Fall Back To Earth — Inside A Rough Week For FLY, ASTS, RKLB And RDW",
-        "url": "https://stocktwits.com/news-articles/markets/equity/spacex-holds-orbit-space-stocks-fall-back-earth-rough-week-fly-asts-rklb-rdw/cNbS4SbR9KQ?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-20 01:58 ET",
-        "pub_ts": 1795157911.0
       }
     ],
     "INTC": [
@@ -2219,18 +2219,18 @@
         "pub_ts": 1795597461.0
       },
       {
+        "title": "Vertiv CEO Says the Buildout Is “Accelerating.” Voters Just Knocked the Stock Down 25%",
+        "url": "https://www.tikr.com/blog/vertiv-ceo-says-the-buildout-is-accelerating-voters-just-knocked-the-stock-down-25?ref=yahoofinance&tlnk=yf-261125-m99mcvhj&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 03:46 ET",
+        "pub_ts": 1795596397.0
+      },
+      {
         "title": "Comfort Systems vs. Vertiv: Which AI Cooling Stock Is a Better Buy?",
         "url": "https://finance.yahoo.com/technology/ai/articles/comfort-systems-vs-vertiv-ai-163100993.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 11:31 ET",
         "pub_ts": 1795537860.0
-      },
-      {
-        "title": "Is Buying Vertiv Stock Now Too Early?",
-        "url": "https://www.trefis.com/stock/vrt/articles/628475/is-buying-vertiv-stock-now-too-early/2026-11-24?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 06:58 ET",
-        "pub_ts": 1795521488.0
       }
     ],
     "HPE": [
@@ -2256,18 +2256,18 @@
         "pub_ts": 1795616940.0
       },
       {
+        "title": "HPE Plunges Despite Raising the Bar for 2027",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/hpe-plunges-despite-raising-bar-142600515.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:26 ET",
+        "pub_ts": 1795616760.0
+      },
+      {
         "title": "HPE Q4 Earnings Beat Estimates on Strong Server Demand",
         "url": "https://finance.yahoo.com/markets/stocks/articles/hpe-q4-earnings-beat-estimates-130300467.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 08:03 ET",
         "pub_ts": 1795611780.0
-      },
-      {
-        "title": "What Is Dragging HPE Stock Down?",
-        "url": "https://www.trefis.com/stock/hpe/articles/628967/what-is-dragging-hpe-stock-down/2026-11-25?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:57 ET",
-        "pub_ts": 1795607824.0
       }
     ],
     "DELL": [
@@ -2279,6 +2279,13 @@
         "pub_ts": 1795616693.0
       },
       {
+        "title": "Dell's AI Business Just Delivered a $132 Billion Wake-Up Call",
+        "url": "https://finance.yahoo.com/technology/ai/articles/dells-ai-business-just-delivered-151641836.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:16 ET",
+        "pub_ts": 1795619801.0
+      },
+      {
         "title": "Super Micro Falls 7% Despite Dell’s Record AI Server Backlog; Dell Drops 7% as Barclays Cuts Target to $344, Hewlett Packard Enterprise Slides 4%",
         "url": "https://247wallst.com/investing/2026/11/25/super-micro-falls-7-despite-dells-record-ai-server-backlog-dell-drops-7-as-barclays-cuts-target-to-344-hewlett-packard-enterprise-slides-4/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2286,25 +2293,18 @@
         "pub_ts": 1795618989.0
       },
       {
+        "title": "DELL Q3 Earnings Beat Estimates, Robust AI Demand Drives Revenues",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/dell-q3-earnings-beat-estimates-142800972.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:28 ET",
+        "pub_ts": 1795616880.0
+      },
+      {
         "title": "The $132B Backlog Paradox: Dell vs. Super Micro Computer in 2027",
         "url": "https://247wallst.com/investing/2026/11/25/the-132b-backlog-paradox-dell-vs-super-micro-computer-in-2027/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 08:45 ET",
         "pub_ts": 1795614355.0
-      },
-      {
-        "title": "5 Things Investors Need to Know About Wednesday’s Markets",
-        "url": "https://www.investopedia.com/5-things-to-know-stock-market-november-25-2026-12276784?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:38 ET",
-        "pub_ts": 1795613900.0
-      },
-      {
-        "title": "Dell Stock Gets Slew Of Price Target Cuts After 'Very Strong' Quarter On AI Buildout Worries",
-        "url": "https://stocktwits.com/news-articles/markets/equity/dell-stock-gets-slew-of-price-target-cuts-after-very-strong-quarter-on-ai-buildout-worries/cNbHiwbR9mg?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:36 ET",
-        "pub_ts": 1795613809.0
       }
     ],
     "OKLO": [
@@ -2494,6 +2494,13 @@
     ],
     "WDC": [
       {
+        "title": "Western Digital (WDC) Stock Appears Undervalued Following Its 7x Three Year Run",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/western-digital-wdc-stock-appears-151158767.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:11 ET",
+        "pub_ts": 1795619518.0
+      },
+      {
         "title": "A $2.9 Billion Fund Dumps These 3 Stocks",
         "url": "https://www.tikr.com/blog/a-2-9-billion-fund-dumps-these-3-stocks-2?ref=yahoofinance&tlnk=yf-261124-gc5m322p&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2520,13 +2527,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 17:16 ET",
         "pub_ts": 1795472162.0
-      },
-      {
-        "title": "Nvidia, AMD, and Micron stocks sink as investors flee AI trade",
-        "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-stocks-sink-as-investors-flee-ai-trade-134518921.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:45 ET",
-        "pub_ts": 1795614318.0
       }
     ],
     "STX": [
@@ -2642,6 +2642,20 @@
     ],
     "BTC-USD": [
       {
+        "title": "Bitcoin slides below $59,000, on pace for its worst month since June 2022",
+        "url": "https://finance.yahoo.com/markets/article/bitcoin-sinks-in-brutal-november-sell-off-as-broader-market-slides-143727717.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:37 ET",
+        "pub_ts": 1795617447.0
+      },
+      {
+        "title": "Arthur Hayes Predicts AI Crash Will Trigger Bailout and Bitcoin Boom, but Not Yet",
+        "url": "https://www.cryptoprowl.com/releases/arthur-hayes-predicts-ai-crash-will-trigger-bailout-and-bitcoin-boom-but-not-yet-8071?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:16 ET",
+        "pub_ts": 1795619760.0
+      },
+      {
         "title": "Stablecoin Redemptions Hit $12 Billion As Crypto Prices Fall",
         "url": "https://www.cryptoprowl.com/releases/stablecoin-redemptions-hit-12-billion-as-crypto-prices-fall-8070?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2661,20 +2675,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:02 ET",
         "pub_ts": 1795618920.0
-      },
-      {
-        "title": "UniCredit Sells Italian Savers a Bitcoin Note With Their Money Back and a 65% Ceiling",
-        "url": "https://unchainedcrypto.com/unicredit-sells-italian-savers-a-bitcoin-note-with-their-money-back-and-a-65-ceiling/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:00 ET",
-        "pub_ts": 1795618809.0
-      },
-      {
-        "title": "Stock Market Today: Dow Dives 700 Points As Nvidia Sells Off, Inflation Rises; Anthropic Sinks (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow-dives.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:50 ET",
-        "pub_ts": 1795618250.0
       }
     ],
     "CRWD": [
@@ -3356,32 +3356,32 @@
     "LITE": 1795620866.5510201,
     "AAOI": 1795620866.5510201,
     "SPCX": 1795620866.5510201,
-    "ASTS": 1795619697.8769758,
+    "ASTS": 1795621291.9100344,
     "AXTI": 1795620866.5510201,
-    "NASA": 1795619697.8769758,
-    "LUNR": 1795619697.8769758,
-    "TSLA": 1795619697.8769758,
-    "AXP": 1795619697.8769758,
-    "RKLB": 1795619697.8769758,
-    "KO": 1795619697.8769758,
-    "FLY": 1795619697.8769758,
-    "INTC": 1795619697.8769758,
-    "VRT": 1795619697.8769758,
-    "HPE": 1795619697.8769758,
-    "DELL": 1795619697.8769758,
-    "OKLO": 1795619697.8769758,
-    "CEG": 1795619697.8769758,
-    "FPS": 1795619697.8769758,
-    "MU": 1795619697.8769758,
-    "SKHY": 1795619697.8769758,
-    "WDC": 1795619697.8769758,
-    "STX": 1795619697.8769758,
-    "MSTR": 1795619697.8769758,
-    "SNDK": 1795619697.8769758,
-    "BTC-USD": 1795619697.8769758,
-    "CRWD": 1795619697.8769758,
-    "ORCL": 1795619697.8769758,
-    "COIN": 1795619697.8769758,
+    "NASA": 1795621291.9100344,
+    "LUNR": 1795621291.9100344,
+    "TSLA": 1795621291.9100344,
+    "AXP": 1795621291.9100344,
+    "RKLB": 1795621291.9100344,
+    "KO": 1795621291.9100344,
+    "FLY": 1795621291.9100344,
+    "INTC": 1795621291.9100344,
+    "VRT": 1795621291.9100344,
+    "HPE": 1795621291.9100344,
+    "DELL": 1795621291.9100344,
+    "OKLO": 1795621291.9100344,
+    "CEG": 1795621291.9100344,
+    "FPS": 1795621291.9100344,
+    "MU": 1795621291.9100344,
+    "SKHY": 1795621291.9100344,
+    "WDC": 1795621291.9100344,
+    "STX": 1795621291.9100344,
+    "MSTR": 1795621291.9100344,
+    "SNDK": 1795621291.9100344,
+    "BTC-USD": 1795621291.9100344,
+    "CRWD": 1795621291.9100344,
+    "ORCL": 1795621291.9100344,
+    "COIN": 1795621291.9100344,
     "LLY": 1795619804.3499985,
     "MRNA": 1795619804.3499985,
     "NKE": 1795619804.3499985,
