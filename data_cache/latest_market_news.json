@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795621291.91,
-  "updated_at_et": "11-25 10:41 ET",
-  "updated_at_kst": "00:41 KST",
+  "updated_at_ts": 1795621397.546,
+  "updated_at_et": "11-25 10:43 ET",
+  "updated_at_kst": "00:43 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -422,6 +422,13 @@
     ],
     "SOXL": [
       {
+        "title": "Why Are Crypto Traders Still Betting on a Chip Fund That Fell 78%?",
+        "url": "https://beincrypto.com/leveraged-chip-fund-perps-crypto-exchanges/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:00 ET",
+        "pub_ts": 1795618800.0
+      },
+      {
         "title": "SOXL Crashes 32% in Its Third-Worst Day Ever and Is Down 90% From Its June Record. The Chip Index It Tracks Is Down 43%",
         "url": "https://247wallst.com/investing/2026/11/20/soxl-crashes-32-in-its-third-worst-day-ever-and-is-down-90-from-its-june-record-the-chip-index-it-tracks-is-down-43/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -448,13 +455,6 @@
         "source": "Yahoo Finance",
         "time": "11-11 07:56 ET",
         "pub_ts": 1794401778.0
-      },
-      {
-        "title": "Eric Balchunas Calls It a “Five Alarm Fire” Sell-Off. Here’s What Record ETF Trading Tells You",
-        "url": "https://247wallst.com/investing/2026/11/07/eric-balchunas-calls-it-a-five-alarm-fire-sell-off-heres-what-record-etf-trading-tells-you/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-07 09:17 ET",
-        "pub_ts": 1794061025.0
       }
     ],
     "SPY": [
@@ -776,11 +776,11 @@
         "pub_ts": 1794998792.0
       },
       {
-        "title": "Ray Dalio Keeps Telling Investors to Hold Gold. Gold Just Lost 28% From Its Record. Here’s His Rule for a 66-Year-Old With $800,000 in an IRA and $2,800 a Month in Social Security",
-        "url": "https://247wallst.com/investing/2026/11/14/ray-dalio-keeps-telling-investors-to-hold-gold-gold-just-lost-28-from-its-record-heres-his-rule-for-a-66-year-old-with-800000-in-an-ira-and-2800-a-month-in-social-security/?.tsrc=rss",
+        "title": "Gold Faces a Stunning November Not Seen in Nearly 50 Years",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/gold-faces-stunning-november-not-150642189.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-14 14:43 ET",
-        "pub_ts": 1794685380.0
+        "time": "11-25 10:06 ET",
+        "pub_ts": 1795619202.0
       },
       {
         "title": "Stocks or Gold? GDE Refuses to Choose: Every $100 Buys $90 of Each",
@@ -829,6 +829,13 @@
     ],
     "TSM": [
       {
+        "title": "TSMC Stocks Slide 6.65% as Taiwan Lands on US Tariff List",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-stocks-slide-6-65-153357532.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:33 ET",
+        "pub_ts": 1795620837.0
+      },
+      {
         "title": "TSMC Has a 'Substantially Wider Moat' Than Nvidia, Says Investor Joseph Carlson",
         "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63621669/joseph-carlson-tsmc-nvidia-moat?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -855,13 +862,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 23:03 ET",
         "pub_ts": 1795579400.0
-      },
-      {
-        "title": "TSMC Is Still Up 27% in a Year After the AI Rout. C.C. Wei Says Demand Is “Far Above” Supply",
-        "url": "https://www.tikr.com/blog/tsmc-is-still-up-27-in-a-year-after-the-ai-rout-c-c-wei-says-demand-is-far-above-supply?ref=yahoofinance&tlnk=yf-261125-68vr8rwg&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 02:58 ET",
-        "pub_ts": 1795593483.0
       }
     ],
     "VIXY": [
@@ -940,6 +940,13 @@
     ],
     "NVDA": [
       {
+        "title": "Investing rules for those checking stocks during the Thanksgiving holiday",
+        "url": "https://finance.yahoo.com/video/investing-rules-for-those-checking-stocks-during-the-thanksgiving-holiday-153334098.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:33 ET",
+        "pub_ts": 1795620814.0
+      },
+      {
         "title": "Dan Ives: Nvidia sell-off a 'growth scare,' not a demand problem",
         "url": "https://finance.yahoo.com/video/dan-ives-nvidia-sell-off-a-growth-scare-not-a-demand-problem-151140023.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -947,32 +954,25 @@
         "pub_ts": 1795619500.0
       },
       {
-        "title": "5 reasons Nvidia stock is stumbling",
-        "url": "https://finance.yahoo.com/video/5-reasons-nvidia-stock-is-stumbling-145638309.html?.tsrc=rss",
+        "title": "Michael Burry Calls Nvidia “More Craven Than Even I Thought.” Now He Eyes a Short Near $200",
+        "url": "https://www.tikr.com/blog/michael-burry-calls-nvidia-more-craven-than-even-i-thought-now-he-eyes-a-short-near-200?ref=yahoofinance&tlnk=yf-261125-c56gmvm2&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 09:56 ET",
-        "pub_ts": 1795618598.0
+        "time": "11-25 10:30 ET",
+        "pub_ts": 1795620603.0
       },
       {
-        "title": "The $2 trillion chip rally is getting wiped out — here's what history says comes next",
-        "url": "https://finance.yahoo.com/markets/article/the-2-trillion-chip-rally-is-getting-wiped-out--heres-what-history-says-comes-next-145306996.html?.tsrc=rss",
+        "title": "Michael Burry Has a Urgent Message For Nvidia Stock Investors",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-urgent-message-nvidia-152221193.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 09:53 ET",
-        "pub_ts": 1795618386.0
+        "time": "11-25 10:22 ET",
+        "pub_ts": 1795620141.0
       },
       {
-        "title": "10 things fueling this nasty market pullback",
-        "url": "https://finance.yahoo.com/video/10-things-fueling-this-nasty-market-pullback-144906243.html?.tsrc=rss",
+        "title": "Nvidia Stock Falls Again as AI Fears and CEO Questions Weigh on Shares",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-falls-again-ai-151733005.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 09:49 ET",
-        "pub_ts": 1795618146.0
-      },
-      {
-        "title": "Why Nvidia (NVDA) Stock Is Falling Today: Tech and Chip Selloff",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-nvidia-nvda-stock-falling-150041901.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:00 ET",
-        "pub_ts": 1795618841.0
+        "time": "11-25 10:17 ET",
+        "pub_ts": 1795619853.0
       }
     ],
     "AMD": [
@@ -2848,18 +2848,18 @@
         "pub_ts": 1795604739.0
       },
       {
+        "title": "ArriVent (AVBP) Stock Is Down 8.7% Today Amid Broad Market Selloff",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/arrivent-avbp-stock-down-8-153018078.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:30 ET",
+        "pub_ts": 1795620618.0
+      },
+      {
         "title": "Will 'Anti-Pharma' Democrats Chop Away At Biotech Stocks' Big Wins?",
         "url": "https://finance.yahoo.com/m/d110ac3d-b2ba-3c8d-8f15-274f2cd95b50/will-%27anti-pharma%27-democrats.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 16:16 ET",
         "pub_ts": 1795555004.0
-      },
-      {
-        "title": "Immunome (IMNM) Stock Is Up 13.8% Today Without Company News",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/immunome-imnm-stock-13-8-210119724.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:01 ET",
-        "pub_ts": 1795554079.0
       }
     ],
     "NKE": [
@@ -3317,23 +3317,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795619804.3499985,
-    "SOXL": 1795619804.3499985,
-    "SPY": 1795619804.3499985,
-    "DIA": 1795619804.3499985,
-    "SOXX": 1795619804.3499985,
-    "QQQ": 1795619804.3499985,
-    "SMH": 1795619804.3499985,
-    "IWM": 1795619804.3499985,
-    "IGV": 1795619804.3499985,
-    "TLT": 1795619804.3499985,
-    "GLD": 1795619804.3499985,
-    "SQQQ": 1795619804.3499985,
-    "TSM": 1795619804.3499985,
-    "VIXY": 1795619804.3499985,
-    "SOXS": 1795619804.3499985,
-    "NVDA": 1795619804.3499985,
-    "AMD": 1795619804.3499985,
+    "KORU": 1795621397.546281,
+    "SOXL": 1795621397.546281,
+    "SPY": 1795621397.546281,
+    "DIA": 1795621397.546281,
+    "SOXX": 1795621397.546281,
+    "QQQ": 1795621397.546281,
+    "SMH": 1795621397.546281,
+    "IWM": 1795621397.546281,
+    "IGV": 1795621397.546281,
+    "TLT": 1795621397.546281,
+    "GLD": 1795621397.546281,
+    "SQQQ": 1795621397.546281,
+    "TSM": 1795621397.546281,
+    "VIXY": 1795621397.546281,
+    "SOXS": 1795621397.546281,
+    "NVDA": 1795621397.546281,
+    "AMD": 1795621397.546281,
     "ASML": 1795620866.5510201,
     "QCOM": 1795620866.5510201,
     "AVGO": 1795620866.5510201,
@@ -3382,21 +3382,21 @@
     "CRWD": 1795621291.9100344,
     "ORCL": 1795621291.9100344,
     "COIN": 1795621291.9100344,
-    "LLY": 1795619804.3499985,
-    "MRNA": 1795619804.3499985,
-    "NKE": 1795619804.3499985,
-    "MCD": 1795619804.3499985,
-    "PEP": 1795619804.3499985,
+    "LLY": 1795621397.546281,
+    "MRNA": 1795621397.546281,
+    "NKE": 1795621397.546281,
+    "MCD": 1795621397.546281,
+    "PEP": 1795621397.546281,
     "XOM": 1795619911.0375345,
-    "JPM": 1795619804.3499985,
+    "JPM": 1795621397.546281,
     "WMT": 1795619911.0375345,
-    "V": 1795619804.3499985,
+    "V": 1795621397.546281,
     "CAT": 1795619911.0375345,
     "FN": 1795620866.5510201,
     "GLW": 1795620866.5510201,
     "ANT": 1795619911.0375345,
     "XAUUSD": 1795619911.0375345,
-    "KOSPI": 1795619804.3499985
+    "KOSPI": 1795621397.546281
   },
   "opex_shield": {
     "date": "2026-11-25",
