@@ -6855,9 +6855,17 @@
     "2026-11-25:MSFT/AMZN/AXP/DIA:5M_ENTRY": {
       "device": "PC",
       "ts": 1795640153.2698524
+    },
+    "2026-11-25:AXP/DIA:5M_ENTRY": {
+      "device": "PC",
+      "ts": 1795640359.6838748
+    },
+    "2026-11-25:DEFENSIVE_FLIGHT:+2.9": {
+      "device": "PC",
+      "ts": 1795640359.85041
     }
   },
   "device": "PC",
-  "last_heartbeat_ts": 1795640170.974654,
-  "updated_at": "2026-11-25T20:56:10.974705+00:00"
+  "last_heartbeat_ts": 1795640272.8443973,
+  "updated_at": "2026-11-25T20:59:19.850464+00:00"
 }
