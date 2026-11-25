@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795570239.563,
-  "updated_at_et": "11-24 20:30 ET",
-  "updated_at_kst": "10:30 KST",
+  "updated_at_ts": 1795570336.988,
+  "updated_at_et": "11-24 20:32 ET",
+  "updated_at_kst": "10:32 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -917,6 +917,20 @@
     ],
     "NVDA": [
       {
+        "title": "Dow Jones Futures Fall After AI Stocks Tumble; Trump Says 'Not Too Late' For Nvidia Stake",
+        "url": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures-fall-after.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 20:23 ET",
+        "pub_ts": 1795569785.0
+      },
+      {
+        "title": "Trump Says Inflation Could Help Pay Down the National Debt. Here's What That Means for Your Retirement Savings",
+        "url": "https://www.fool.com/investing/2026/11/24/trump-says-inflation-could-help-pay-down-the-national-debt-here-s-what-that-means-for-your-retirement-savings/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 20:20 ET",
+        "pub_ts": 1795569602.0
+      },
+      {
         "title": "Market Chatter: California AG Bonta to Press Nvidia Probe, Criticizes Federal Handling",
         "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-california-ag-bonta-005828411.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -931,25 +945,11 @@
         "pub_ts": 1795567562.0
       },
       {
-        "title": "Dow Jones Futures Fall: Nvidia, Anthropic Lead AI Retreat But Many Sectors Strong; Fed Inflation Data Due",
-        "url": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures-fall%3A.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 19:43 ET",
-        "pub_ts": 1795567407.0
-      },
-      {
         "title": "Most Stocks Are Losers. Here's How You Can Still Win",
         "url": "https://www.fool.com/investing/2026/11/24/most-stocks-are-losers-here-is-how-you-can-still-win/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 19:41 ET",
         "pub_ts": 1795567300.0
-      },
-      {
-        "title": "5 questions Nvidia still faces after bringing back Jensen Huang",
-        "url": "https://www.cbsnews.com/news/nvidia-jensen-huang-challenges/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 19:33 ET",
-        "pub_ts": 1795566787.0
       }
     ],
     "AMD": [
@@ -3218,11 +3218,11 @@
         "pub_ts": 1795556758.0
       },
       {
-        "title": "Dow Jones Futures Fall: Nvidia, Anthropic Lead AI Retreat But Many Sectors Strong; Fed Inflation Data Due",
-        "url": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures-fall%3A.html?.tsrc=rss",
+        "title": "Anthropic Has Plunged 30% From Its Peak. Here’s the Price at Which I’d Buy.",
+        "url": "https://www.fool.com/investing/2026/11/24/anthropic-has-plunged-30-from-its-peak-here-s-the-price-at-which-i-d-buy/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 19:43 ET",
-        "pub_ts": 1795567407.0
+        "time": "11-24 20:20 ET",
+        "pub_ts": 1795569602.0
       },
       {
         "title": "AI Pullback Raises the Cost of Data Center Financing",
@@ -3294,23 +3294,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795568769.5293427,
-    "SOXL": 1795568769.5293427,
-    "SPY": 1795568769.5293427,
-    "DIA": 1795568769.5293427,
-    "SOXX": 1795568769.5293427,
-    "QQQ": 1795568769.5293427,
-    "SMH": 1795568769.5293427,
-    "IWM": 1795568769.5293427,
-    "IGV": 1795568769.5293427,
-    "TLT": 1795568769.5293427,
-    "GLD": 1795568769.5293427,
-    "SQQQ": 1795568769.5293427,
-    "TSM": 1795568769.5293427,
-    "VIXY": 1795568769.5293427,
-    "SOXS": 1795568769.5293427,
-    "NVDA": 1795568769.5293427,
-    "AMD": 1795568769.5293427,
+    "KORU": 1795570336.9879074,
+    "SOXL": 1795570336.9879074,
+    "SPY": 1795570336.9879074,
+    "DIA": 1795570336.9879074,
+    "SOXX": 1795570336.9879074,
+    "QQQ": 1795570336.9879074,
+    "SMH": 1795570336.9879074,
+    "IWM": 1795570336.9879074,
+    "IGV": 1795570336.9879074,
+    "TLT": 1795570336.9879074,
+    "GLD": 1795570336.9879074,
+    "SQQQ": 1795570336.9879074,
+    "TSM": 1795570336.9879074,
+    "VIXY": 1795570336.9879074,
+    "SOXS": 1795570336.9879074,
+    "NVDA": 1795570336.9879074,
+    "AMD": 1795570336.9879074,
     "ASML": 1795569159.2065527,
     "QCOM": 1795569159.2065527,
     "AVGO": 1795569159.2065527,
@@ -3363,17 +3363,17 @@
     "MRNA": 1795569648.9186966,
     "NKE": 1795569648.9186966,
     "MCD": 1795569648.9186966,
-    "PEP": 1795568769.5293427,
-    "XOM": 1795568769.5293427,
-    "JPM": 1795568769.5293427,
-    "WMT": 1795568769.5293427,
+    "PEP": 1795570336.9879074,
+    "XOM": 1795570336.9879074,
+    "JPM": 1795570336.9879074,
+    "WMT": 1795570336.9879074,
     "V": 1795569648.9186966,
-    "CAT": 1795568769.5293427,
+    "CAT": 1795570336.9879074,
     "FN": 1795569159.2065527,
     "GLW": 1795569159.2065527,
-    "ANT": 1795568769.5293427,
-    "XAUUSD": 1795568769.5293427,
-    "KOSPI": 1795568769.5293427
+    "ANT": 1795570336.9879074,
+    "XAUUSD": 1795570336.9879074,
+    "KOSPI": 1795570336.9879074
   },
   "opex_shield": {
     "date": "2026-11-24",
