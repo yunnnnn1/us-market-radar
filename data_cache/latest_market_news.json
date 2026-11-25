@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795638027.29,
-  "updated_at_et": "11-25 15:20 ET",
-  "updated_at_kst": "05:20 KST",
+  "updated_at_ts": 1795638136.514,
+  "updated_at_et": "11-25 15:22 ET",
+  "updated_at_kst": "05:22 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -2273,11 +2273,11 @@
         "pub_ts": 1795622724.0
       },
       {
-        "title": "Ten reasons the market is selling off again before Thanksgiving",
-        "url": "https://finance.yahoo.com/video/ten-reasons-the-market-is-selling-off-again-before-thanksgiving-160424234.html?.tsrc=rss",
+        "title": "Dell Stock Falls Despite Q3 Beat; Here’s Why Mizuho and Piper Lowered Their Price Targets",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/dell-stock-falls-despite-q3-200443110.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 11:04 ET",
-        "pub_ts": 1795622664.0
+        "time": "11-25 15:04 ET",
+        "pub_ts": 1795637083.0
       },
       {
         "title": "Anthropic, Nvidia, Micron, HP Inc., Dell, Deere, and More Stocks That Explain Today’s Market",
@@ -2636,6 +2636,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "Mysterious traders made $340,000 betting on Huang’s Nvidia return",
+        "url": "https://www.thestreet.com/crypto/markets/mysterious-traders-made-340000-betting-on-huangs-nvidia-return?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:00 ET",
+        "pub_ts": 1795636800.0
+      },
+      {
         "title": "Kraken’s new credit cards offer up to 4% bitcoin rewards",
         "url": "https://finance.yahoo.com/video/kraken-credit-cards-offer-4-192100513.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2662,13 +2669,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 13:15 ET",
         "pub_ts": 1795630500.0
-      },
-      {
-        "title": "Michael Saylor reveals a Bitcoin plan that could shock investors",
-        "url": "https://www.thestreet.com/crypto/markets/michael-saylor-reveals-a-bitcoin-plan-that-could-shock-investors?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 13:00 ET",
-        "pub_ts": 1795629600.0
       }
     ],
     "CRWD": [
@@ -2747,6 +2747,13 @@
     ],
     "COIN": [
       {
+        "title": "Coinbase Is Buying Back COIN Again as Shares Slide",
+        "url": "https://www.bankless.com/read/news/coinbase-is-buying-back-coin-again-as-shares-slide?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:07 ET",
+        "pub_ts": 1795637258.0
+      },
+      {
         "title": "The Rich Got Into SpaceX Early. Brian Armstrong Wants to Change That",
         "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63643086/brian-armstrong-private-market-access?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2773,13 +2780,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 23:33 ET",
         "pub_ts": 1795581191.0
-      },
-      {
-        "title": "Competition Started In 24/7 Trading: Andrew Cuomo",
-        "url": "https://finance.yahoo.com/video/competition-started-24-7-trading-204050875.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 15:40 ET",
-        "pub_ts": 1795552850.0
       }
     ],
     "LLY": [
@@ -3350,32 +3350,32 @@
     "LITE": 1795637074.5907528,
     "AAOI": 1795636968.9183912,
     "SPCX": 1795637074.5907528,
-    "ASTS": 1795636543.3802476,
+    "ASTS": 1795638136.5140955,
     "AXTI": 1795637074.5907528,
-    "NASA": 1795636543.3802476,
-    "LUNR": 1795636543.3802476,
-    "TSLA": 1795636543.3802476,
-    "AXP": 1795636543.3802476,
-    "RKLB": 1795636543.3802476,
-    "KO": 1795636543.3802476,
-    "FLY": 1795636543.3802476,
-    "INTC": 1795636543.3802476,
-    "VRT": 1795636543.3802476,
-    "HPE": 1795636543.3802476,
-    "DELL": 1795636543.3802476,
-    "OKLO": 1795636543.3802476,
-    "CEG": 1795636543.3802476,
-    "FPS": 1795636543.3802476,
-    "MU": 1795636543.3802476,
-    "SKHY": 1795636543.3802476,
-    "WDC": 1795636543.3802476,
-    "STX": 1795636543.3802476,
-    "MSTR": 1795636543.3802476,
-    "SNDK": 1795636543.3802476,
-    "BTC-USD": 1795636543.3802476,
-    "CRWD": 1795636543.3802476,
-    "ORCL": 1795636543.3802476,
-    "COIN": 1795636543.3802476,
+    "NASA": 1795638136.5140955,
+    "LUNR": 1795638136.5140955,
+    "TSLA": 1795638136.5140955,
+    "AXP": 1795638136.5140955,
+    "RKLB": 1795638136.5140955,
+    "KO": 1795638136.5140955,
+    "FLY": 1795638136.5140955,
+    "INTC": 1795638136.5140955,
+    "VRT": 1795638136.5140955,
+    "HPE": 1795638136.5140955,
+    "DELL": 1795638136.5140955,
+    "OKLO": 1795638136.5140955,
+    "CEG": 1795638136.5140955,
+    "FPS": 1795638136.5140955,
+    "MU": 1795638136.5140955,
+    "SKHY": 1795638136.5140955,
+    "WDC": 1795638136.5140955,
+    "STX": 1795638136.5140955,
+    "MSTR": 1795638136.5140955,
+    "SNDK": 1795638136.5140955,
+    "BTC-USD": 1795638136.5140955,
+    "CRWD": 1795638136.5140955,
+    "ORCL": 1795638136.5140955,
+    "COIN": 1795638136.5140955,
     "LLY": 1795636861.7907069,
     "MRNA": 1795636861.7907069,
     "NKE": 1795636861.7907069,
