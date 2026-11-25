@@ -1,9 +1,24 @@
 {
-  "updated_at_ts": 1795577923.853,
-  "updated_at_et": "11-24 22:38 ET",
-  "updated_at_kst": "12:38 KST",
+  "updated_at_ts": 1795578272.037,
+  "updated_at_et": "11-24 22:44 ET",
+  "updated_at_kst": "12:44 KST",
   "macro_calendar": [],
   "macro_flashes": [
+    {
+      "id": "20261125114024959800",
+      "title": "美股下跌未能令美联储转向，偏高的PCE可能继续放大冲击",
+      "summary": "美银认为美股跌幅尚不足以逼迫美联储转向，加息仍是基本预期。假期前市场迎来通胀数据考验，瑞银警告称，偏高的数据可能形成更大冲击。",
+      "keywords": [
+        "美联储",
+        "加息",
+        "PCE"
+      ],
+      "pub_ts": 1795578024.0,
+      "time_et": "11-24 22:40 ET",
+      "time_bj": "11:40 BJ",
+      "time_kst": "12:40 KST",
+      "time_display": "22:40 ET / 11:40 BJ"
+    },
     {
       "id": "20261125113335504800",
       "title": "整理：每日人工智能动态汇总（2026-11-25）",
@@ -336,20 +351,6 @@
       "time_bj": "06:30 BJ",
       "time_kst": "07:30 KST",
       "time_display": "17:30 ET / 06:30 BJ"
-    },
-    {
-      "id": "20261125060203333800",
-      "title": "美伊冲突： 1. 以媒：以防长称伊朗“正在研发化学武器”。 2. 据伊朗迈赫尔通讯社：伊…",
-      "summary": "美伊冲突： 1. 以媒：以防长称伊朗“正在研发化学武器”。 2. 据伊朗迈赫尔通讯社：伊拉克埃尔比勒发生强烈爆炸。 3. 伊朗警告美国：中东军事基地无论迁往何处均在打击范围内。 4. 伊朗声称在霍尔木兹海峡上空摧毁两架卢卡斯和MQ-9无人机。 5. 伊朗革命卫队：一艘集装箱船在霍尔木兹海峡附近沿“未经授权”航线航行时遭到袭击。 6. 据NBC新闻：消息人士称，特朗普政府官员正讨论将伊朗领导人列为打击目标；特朗普尚未作出决定。 也门冲突： 1. 英国政府宣布针对胡塞武装的制裁方案。 2. 沙特联军：胡塞武装蓄意袭击平民和民用设施的行为必将遭到坚决回击。 3. 也门政府军：胡塞武装已推进至距临时首都亚丁约60公里处，但不会攻占该市。 4. 据沙特阿拉伯阿拉比亚电视台：利雅得金融中心的一座塔楼遭到恐怖袭击。沙特方面表示，袭击造成的金融影响“非常有限”。 和平谈判： 1. 伊朗议会议长卡利巴夫：在美国满足伊朗提出的七项谈判条件之前，不会进行新的谈判。 2. 伊朗总统佩泽希齐扬：我们正在与美国及其他国家进行谈判。我们寻求通过对话解决问题，但这并不意味着我们会屈服。 海峡情况： 1. 伊朗高官：伊朗仍坚定决心打破封锁。 2. 波斯湾水道管理局：将26艘拖船列入不合规名单。 3. 据伊朗官方媒体：伊朗海军称两艘油轮在霍尔木兹海峡触雷起火。 4. 卡塔尔与美国联合声明：我们重申对维护霍尔木兹海峡航行自由的承诺。 5. 伊朗陆军司令哈塔米：在伊朗的条件得到满足之前，伊朗必须加强霍尔木兹海峡管理。 其他情况： 1. 以媒：以防长称伊朗“正在研发化学武器”。 2. 石油出口回升缓解战争冲击，沙特上调经济预期。 3. 美国驻以色列大使：不确定对以军事援助是否会如特朗普所承诺的那样在今年结束。",
-      "keywords": [
-        "特朗普",
-        "中东"
-      ],
-      "pub_ts": 1795557723.0,
-      "time_et": "11-24 17:02 ET",
-      "time_bj": "06:02 BJ",
-      "time_kst": "07:02 KST",
-      "time_display": "17:02 ET / 06:02 BJ"
     }
   ],
   "ticker_news": {
@@ -913,36 +914,36 @@
         "title": "Dow Jones Futures Fall; Trump Says 'Not Too Late' For U.S. To Take Nvidia Stake",
         "url": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures-fall%3B-trump.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 22:06 ET",
-        "pub_ts": 1795576010.0
+        "time": "11-24 22:27 ET",
+        "pub_ts": 1795577272.0
       },
       {
-        "title": "Jensen Huang Reportedly Says Succession Plan Risks ‘Unnecessary Hierarchy’ At Nvidia — Crypto Bettors Wager on Another Exit",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63613509/nvidia-ceo-jensen-huang-succession-plan-polymarket-prediction-market?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "title": "South Korea's chipmakers rally on Huang's return",
+        "url": "http://www.intellinews.com/south-korea-s-chipmakers-rally-on-huang-s-return-488025/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 22:01 ET",
-        "pub_ts": 1795575686.0
+        "time": "11-24 22:21 ET",
+        "pub_ts": 1795576883.0
       },
       {
-        "title": "Tech firms back in crosshairs as Huang rally reverses",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/tech-firms-back-crosshairs-huang-024219799.html?.tsrc=rss",
+        "title": "Dow, S&P 500, Nasdaq Futures Edge Lower Amid Tech Selloff Ahead Of Key Inflation Data: DELL, AMBA, SOXL, MSTR In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-edge-lower-amid-tech-selloff-ahead-of-key-inflation-data-dell-amba-soxl-mstr-in-focus/cNbHbLoR9lJ?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 21:42 ET",
-        "pub_ts": 1795574539.0
+        "time": "11-24 22:20 ET",
+        "pub_ts": 1795576810.0
       },
       {
-        "title": "Nvidia’s Rebound, Falling Oil And A Strong Dollar: Three Signals Complicating The Fed’s December Decision",
-        "url": "https://stocktwits.com/news-articles/markets/equity/fed-december-rate-hike-oil-prices-nvidia-rally-inflation/cNbuClGR9l5?.tsrc=rss",
+        "title": "Lattice Semiconductor (LSCC) Could Be 37% Below Fair Value On AI Chip Optimism",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/lattice-semiconductor-lscc-could-37-031232846.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 21:09 ET",
-        "pub_ts": 1795572572.0
+        "time": "11-24 22:12 ET",
+        "pub_ts": 1795576352.0
       },
       {
-        "title": "Wall St futures fall after S&P 500, Nasdaq end lower; inflation data eyed",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-fall-p-014227385.html?.tsrc=rss",
+        "title": "3 Stocks Investors Are Watching For Corporate Governance And Litigation Demand",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-investors-watching-corporate-031221183.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 20:42 ET",
-        "pub_ts": 1795570947.0
+        "time": "11-24 22:12 ET",
+        "pub_ts": 1795576341.0
       }
     ],
     "AMD": [
@@ -3204,11 +3205,25 @@
     ],
     "ANT": [
       {
-        "title": "Anthropic falls below IPO price as Nvidia gives back gains",
-        "url": "https://finance.yahoo.com/video/anthropic-falls-below-ipo-price-as-nvidia-gives-back-gains-214558309.html?.tsrc=rss",
+        "title": "Dow, S&P 500, Nasdaq Futures Edge Lower Amid Tech Selloff Ahead Of Key Inflation Data: DELL, AMBA, SOXL, MSTR In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-edge-lower-amid-tech-selloff-ahead-of-key-inflation-data-dell-amba-soxl-mstr-in-focus/cNbHbLoR9lJ?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 16:45 ET",
-        "pub_ts": 1795556758.0
+        "time": "11-24 22:20 ET",
+        "pub_ts": 1795576810.0
+      },
+      {
+        "title": "Clarivate (CLVT) Shares Just Moved, So What Is Driving Attention Now?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/clarivate-clvt-shares-just-moved-031151386.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 22:11 ET",
+        "pub_ts": 1795576311.0
+      },
+      {
+        "title": "Ross Gerber Tells Investors to 'Be Patient' on Anthropic Stock After Post-IPO Slide: ‘That Would Be a Gift’",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ross-gerber-tells-investors-patient-023010868.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 21:30 ET",
+        "pub_ts": 1795573810.0
       },
       {
         "title": "Anthropic Has Plunged 30% From Its Peak. Here’s the Price at Which I’d Buy.",
@@ -3223,20 +3238,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 17:41 ET",
         "pub_ts": 1795560076.0
-      },
-      {
-        "title": "Anthropic: ANT that a shame",
-        "url": "https://www.axios.com/2026/11/24/anthropic-stock-ipo-banks#utm_source=yahoo_finance&utm_medium=partner&utm_campaign=subs-partner-yahoo-finance-AI?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 17:30 ET",
-        "pub_ts": 1795559446.0
-      },
-      {
-        "title": "Why Anthropic Stock Fell Again",
-        "url": "https://www.fool.com/investing/2026/11/24/why-anthropic-stock-fell-again/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:55 ET",
-        "pub_ts": 1795557302.0
       }
     ],
     "XAUUSD": [
@@ -3287,23 +3288,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795576597.71105,
-    "SOXL": 1795576597.71105,
-    "SPY": 1795576597.71105,
-    "DIA": 1795576597.71105,
-    "SOXX": 1795576597.71105,
-    "QQQ": 1795576597.71105,
-    "SMH": 1795576597.71105,
-    "IWM": 1795576597.71105,
-    "IGV": 1795576597.71105,
-    "TLT": 1795576597.71105,
-    "GLD": 1795576597.71105,
-    "SQQQ": 1795576597.71105,
-    "TSM": 1795576597.71105,
-    "VIXY": 1795576597.71105,
-    "SOXS": 1795576597.71105,
-    "NVDA": 1795576597.71105,
-    "AMD": 1795576597.71105,
+    "KORU": 1795578272.0369065,
+    "SOXL": 1795578272.0369065,
+    "SPY": 1795578272.0369065,
+    "DIA": 1795578272.0369065,
+    "SOXX": 1795578272.0369065,
+    "QQQ": 1795578272.0369065,
+    "SMH": 1795578272.0369065,
+    "IWM": 1795578272.0369065,
+    "IGV": 1795578272.0369065,
+    "TLT": 1795578272.0369065,
+    "GLD": 1795578272.0369065,
+    "SQQQ": 1795578272.0369065,
+    "TSM": 1795578272.0369065,
+    "VIXY": 1795578272.0369065,
+    "SOXS": 1795578272.0369065,
+    "NVDA": 1795578272.0369065,
+    "AMD": 1795578272.0369065,
     "ASML": 1795576988.412552,
     "QCOM": 1795576988.412552,
     "AVGO": 1795576988.412552,
@@ -3356,17 +3357,17 @@
     "MRNA": 1795577474.2832673,
     "NKE": 1795577474.2832673,
     "MCD": 1795577474.2832673,
-    "PEP": 1795576597.71105,
-    "XOM": 1795576597.71105,
-    "JPM": 1795576597.71105,
-    "WMT": 1795576597.71105,
+    "PEP": 1795578272.0369065,
+    "XOM": 1795578272.0369065,
+    "JPM": 1795578272.0369065,
+    "WMT": 1795578272.0369065,
     "V": 1795577474.2832673,
-    "CAT": 1795576597.71105,
+    "CAT": 1795578272.0369065,
     "FN": 1795576988.412552,
     "GLW": 1795576988.412552,
-    "ANT": 1795576597.71105,
-    "XAUUSD": 1795576597.71105,
-    "KOSPI": 1795576597.71105
+    "ANT": 1795578272.0369065,
+    "XAUUSD": 1795578272.0369065,
+    "KOSPI": 1795578272.0369065
   },
   "opex_shield": {
     "date": "2026-11-24",
@@ -3385,7 +3386,7 @@
   "calendar_banner": {
     "level": "idle_with_flash",
     "headline": "📡 宏观消息面监控中 · 今日暂无美股五星级经济数据大考",
-    "detail": "⚡ 最新核心快讯 (22:33 ET / 11:33 BJ) [英伟达] [特朗普]：1. 报道：英伟达AI GPU新单交货周期拉长，RTX60系显卡量产或后移。 2. 特朗普称必要时愿赦免黄仁勋，不排除美国政府入股英伟达。 3. AI巨头员工声称新模型“强大到不宜发布”，欲",
+    "detail": "⚡ 最新核心快讯 (22:40 ET / 11:40 BJ) [美联储] [加息] [PCE]：美银认为美股跌幅尚不足以逼迫美联储转向，加息仍是基本预期。假期前市场迎来通胀数据考验，瑞银警告称，偏高的数据可能形成更大冲击。",
     "event_name": "",
     "minutes_left": 0,
     "opex_shield": {
