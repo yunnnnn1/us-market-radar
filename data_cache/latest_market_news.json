@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795574940.088,
-  "updated_at_et": "11-24 21:49 ET",
-  "updated_at_kst": "11:49 KST",
+  "updated_at_ts": 1795575037.327,
+  "updated_at_et": "11-24 21:50 ET",
+  "updated_at_kst": "11:50 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -914,18 +914,25 @@
     ],
     "NVDA": [
       {
+        "title": "Dow Jones Futures Fall; Trump Says 'Not Too Late' For U.S. To Take Nvidia Stake",
+        "url": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures-fall%3B-trump.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 21:45 ET",
+        "pub_ts": 1795574728.0
+      },
+      {
+        "title": "Tech firms back in crosshairs as Huang rally reverses",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/tech-firms-back-crosshairs-huang-024219799.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 21:42 ET",
+        "pub_ts": 1795574539.0
+      },
+      {
         "title": "Nvidia’s Rebound, Falling Oil And A Strong Dollar: Three Signals Complicating The Fed’s December Decision",
         "url": "https://stocktwits.com/news-articles/markets/equity/fed-december-rate-hike-oil-prices-nvidia-rally-inflation/cNbuClGR9l5?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 21:09 ET",
         "pub_ts": 1795572572.0
-      },
-      {
-        "title": "Dow Jones Futures Fall After AI Stocks Tumble; Trump Says 'Not Too Late' For Nvidia Stake",
-        "url": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures-fall-after.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 21:02 ET",
-        "pub_ts": 1795572140.0
       },
       {
         "title": "Wall St futures fall after S&P 500, Nasdaq end lower; inflation data eyed",
@@ -940,13 +947,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 20:23 ET",
         "pub_ts": 1795569790.0
-      },
-      {
-        "title": "Trump Says Inflation Could Help Pay Down the National Debt. Here's What That Means for Your Retirement Savings",
-        "url": "https://www.fool.com/investing/2026/11/24/trump-says-inflation-could-help-pay-down-the-national-debt-here-s-what-that-means-for-your-retirement-savings/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 20:20 ET",
-        "pub_ts": 1795569602.0
       }
     ],
     "AMD": [
@@ -3215,13 +3215,6 @@
         "pub_ts": 1795556758.0
       },
       {
-        "title": "Dow Jones Futures Fall After AI Stocks Tumble; Trump Says 'Not Too Late' For Nvidia Stake",
-        "url": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures-fall-after.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 21:02 ET",
-        "pub_ts": 1795572140.0
-      },
-      {
         "title": "Anthropic Has Plunged 30% From Its Peak. Here’s the Price at Which I’d Buy.",
         "url": "https://www.fool.com/investing/2026/11/24/anthropic-has-plunged-30-from-its-peak-here-s-the-price-at-which-i-d-buy/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3241,6 +3234,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 17:30 ET",
         "pub_ts": 1795559446.0
+      },
+      {
+        "title": "Why Anthropic Stock Fell Again",
+        "url": "https://www.fool.com/investing/2026/11/24/why-anthropic-stock-fell-again/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:55 ET",
+        "pub_ts": 1795557302.0
       }
     ],
     "XAUUSD": [
@@ -3291,23 +3291,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795573470.6154578,
-    "SOXL": 1795573470.6154578,
-    "SPY": 1795573470.6154578,
-    "DIA": 1795573470.6154578,
-    "SOXX": 1795573470.6154578,
-    "QQQ": 1795573470.6154578,
-    "SMH": 1795573470.6154578,
-    "IWM": 1795573470.6154578,
-    "IGV": 1795573470.6154578,
-    "TLT": 1795573470.6154578,
-    "GLD": 1795573470.6154578,
-    "SQQQ": 1795573470.6154578,
-    "TSM": 1795573470.6154578,
-    "VIXY": 1795573470.6154578,
-    "SOXS": 1795573470.6154578,
-    "NVDA": 1795573470.6154578,
-    "AMD": 1795573470.6154578,
+    "KORU": 1795575037.3265321,
+    "SOXL": 1795575037.3265321,
+    "SPY": 1795575037.3265321,
+    "DIA": 1795575037.3265321,
+    "SOXX": 1795575037.3265321,
+    "QQQ": 1795575037.3265321,
+    "SMH": 1795575037.3265321,
+    "IWM": 1795575037.3265321,
+    "IGV": 1795575037.3265321,
+    "TLT": 1795575037.3265321,
+    "GLD": 1795575037.3265321,
+    "SQQQ": 1795575037.3265321,
+    "TSM": 1795575037.3265321,
+    "VIXY": 1795575037.3265321,
+    "SOXS": 1795575037.3265321,
+    "NVDA": 1795575037.3265321,
+    "AMD": 1795575037.3265321,
     "ASML": 1795573863.273633,
     "QCOM": 1795573863.273633,
     "AVGO": 1795573863.273633,
@@ -3360,17 +3360,17 @@
     "MRNA": 1795574354.4372246,
     "NKE": 1795574354.4372246,
     "MCD": 1795574354.4372246,
-    "PEP": 1795573470.6154578,
-    "XOM": 1795573470.6154578,
-    "JPM": 1795573470.6154578,
-    "WMT": 1795573470.6154578,
+    "PEP": 1795575037.3265321,
+    "XOM": 1795575037.3265321,
+    "JPM": 1795575037.3265321,
+    "WMT": 1795575037.3265321,
     "V": 1795574354.4372246,
-    "CAT": 1795573470.6154578,
+    "CAT": 1795575037.3265321,
     "FN": 1795573863.273633,
     "GLW": 1795573863.273633,
-    "ANT": 1795573470.6154578,
-    "XAUUSD": 1795573470.6154578,
-    "KOSPI": 1795573470.6154578
+    "ANT": 1795575037.3265321,
+    "XAUUSD": 1795575037.3265321,
+    "KOSPI": 1795575037.3265321
   },
   "opex_shield": {
     "date": "2026-11-24",
