@@ -6835,9 +6835,17 @@
     "2026-11-25:AMZN/AXP/NKE/DIA/IWM:5M_ENTRY": {
       "device": "PC",
       "ts": 1795639307.568546
+    },
+    "2026-11-25:SPY:5M_ENTRY": {
+      "device": "PC",
+      "ts": 1795639415.095385
+    },
+    "2026-11-25:DEFENSIVE_FLIGHT:+4.9": {
+      "device": "PC",
+      "ts": 1795639416.1857421
     }
   },
   "device": "PC",
-  "last_heartbeat_ts": 1795639222.6964073,
-  "updated_at": "2026-11-25T20:41:47.568603+00:00"
+  "last_heartbeat_ts": 1795639325.665086,
+  "updated_at": "2026-11-25T20:43:36.185797+00:00"
 }
