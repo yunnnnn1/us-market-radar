@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795638452.795,
-  "updated_at_et": "11-25 15:27 ET",
-  "updated_at_kst": "05:27 KST",
+  "updated_at_ts": 1795638557.488,
+  "updated_at_et": "11-25 15:29 ET",
+  "updated_at_kst": "05:29 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1119,6 +1119,13 @@
     ],
     "AMAT": [
       {
+        "title": "Applied Materials Falls 6% Despite UBS’s $575 Target as China Chip Curbs Hit Equipment Stocks; Lam Research Drops 7%, KLA Edges Lower",
+        "url": "https://247wallst.com/investing/2026/11/25/applied-materials-falls-6-despite-ubss-575-target-as-china-chip-curbs-hit-equipment-stocks-lam-research-drops-7-kla-edges-lower/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:09 ET",
+        "pub_ts": 1795637384.0
+      },
+      {
         "title": "Applied Materials Keeps Sliding: Why UBS Still Sees 94% Upside",
         "url": "https://www.tikr.com/blog/applied-materials-keeps-sliding-why-ubs-still-sees-94-upside?ref=yahoofinance&tlnk=yf-261125-g2xx6rwg&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1145,13 +1152,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:17 ET",
         "pub_ts": 1795619820.0
-      },
-      {
-        "title": "Applied Materials (AMAT) Stock Sees Fair Value Cut As Analysts Trim Targets",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-stock-sees-121330610.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 07:13 ET",
-        "pub_ts": 1795608810.0
       }
     ],
     "META": [
@@ -1193,6 +1193,13 @@
     ],
     "GOOGL": [
       {
+        "title": "Is the AI Correction Over? Why Ram Ahluwalia Thinks the AI Trade Has Hit Bottom",
+        "url": "https://unchainedcrypto.com/is-the-ai-correction-over-why-ram-ahluwalia-thinks-the-ai-trade-has-hit-bottom/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:00 ET",
+        "pub_ts": 1795636807.0
+      },
+      {
         "title": "Why Alphabet Stock Is Down Today",
         "url": "https://www.fool.com/investing/2026/11/25/why-alphabet-stock-is-down-today/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1219,13 +1226,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 13:52 ET",
         "pub_ts": 1795632731.0
-      },
-      {
-        "title": "SoftBank Group Stocks Crash 14.83% as AI Selloff Hits OpenAI Backer",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/softbank-group-stocks-crash-14-174425817.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:44 ET",
-        "pub_ts": 1795628665.0
       }
     ],
     "MSFT": [
@@ -1267,6 +1267,13 @@
     ],
     "AAPL": [
       {
+        "title": "Tech Stock Sell-Off: Here's Why Apple Has Been Immune",
+        "url": "https://www.fool.com/investing/2026/11/25/tech-stock-sell-off-here-s-why-apple-has-been-immune/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:20 ET",
+        "pub_ts": 1795638002.0
+      },
+      {
         "title": "How Qualcomm’s CMO is reshaping his team for its post-Apple era",
         "url": "https://finance.yahoo.com/technology/ai/articles/qualcomm-cmo-reshaping-team-post-160155309.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1293,16 +1300,16 @@
         "source": "Yahoo Finance",
         "time": "11-25 07:07 ET",
         "pub_ts": 1795608473.0
-      },
-      {
-        "title": "Is Micron's Record Margin Squeezing Apple And HP?",
-        "url": "https://www.trefis.com/stock/mu/articles/628762/is-micron-s-record-margin-squeezing-apple-and-hp/2026-11-25?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:38 ET",
-        "pub_ts": 1795606689.0
       }
     ],
     "PLTR": [
+      {
+        "title": "Goldman Sachs bets on Palantir's 'mega customers' after NYC demo",
+        "url": "https://www.thestreet.com/investing/palantir-mega-customers-goldman-sachs?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:13 ET",
+        "pub_ts": 1795637580.0
+      },
       {
         "title": "Peter Thiel Buys $122M of PLTR After Years Of Selling — And He Could Buy Millions More Shares",
         "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63645021/peter-thiel-palantir-stock-purchase?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
@@ -1330,13 +1337,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:33 ET",
         "pub_ts": 1795620789.0
-      },
-      {
-        "title": "Palantir’s CEO Alex Karp Sold $75 Million. Co-Founder Peter Thiel Bought $122 Million",
-        "url": "https://247wallst.com/investing/2026/11/25/palantirs-ceo-alex-karp-sold-75-million-co-founder-peter-thiel-bought-122-million/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:53 ET",
-        "pub_ts": 1795614827.0
       }
     ],
     "NOW": [
@@ -3228,39 +3228,39 @@
     ],
     "ANT": [
       {
-        "title": "The $2.9T Roller Coaster: Nvidia's Moat, Anthropic's Balance Sheet, And More",
-        "url": "https://finnhub.io/api/news?id=20beae09999780ae021e99f62729c9469666af79f70e7502c1ca81545b62750b",
-        "source": "SeekingAlpha",
-        "time": "11-25 07:29 ET",
-        "pub_ts": 1795609793.0
+        "title": "How retail investors are flipping the 'balance of power' in markets",
+        "url": "https://finance.yahoo.com/markets/article/how-retail-investors-are-flipping-the-balance-of-power-in-markets-200317274.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:03 ET",
+        "pub_ts": 1795636997.0
       },
       {
-        "title": "AI Angst Undercuts Asian Stock Markets",
-        "url": "https://finnhub.io/api/news?id=c05db7d7f6d87fb7b1ef664406bd11d8b702bc57175e3fd9bdb1f8ddbbe6d214",
-        "source": "Yahoo",
-        "time": "11-25 05:42 ET",
-        "pub_ts": 1795603346.0
+        "title": "Stock Market Today: Dow Reverses For 275-Point Gain; This Ad Firm Breaks Out (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 14:57 ET",
+        "pub_ts": 1795636622.0
       },
       {
-        "title": "Google Is Turning AI Performance Into a Price War Anthropic Can’t Ignore",
-        "url": "https://finnhub.io/api/news?id=f4220ed77d8015c133bda3a4392be2bc42dd341909d786bc05c5ed591118d829",
-        "source": "Benzinga",
-        "time": "11-25 05:38 ET",
-        "pub_ts": 1795603102.0
+        "title": "Nvidia U-Turn Is Bad News For Anthropic, Says Parmy Olson",
+        "url": "https://finance.yahoo.com/video/nvidia-u-turn-bad-news-195302644.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 14:53 ET",
+        "pub_ts": 1795636382.0
       },
       {
-        "title": "Amazon Is The Smartest Way To Own Anthropic",
-        "url": "https://finnhub.io/api/news?id=becc87b58813627c774fe0727c1da019a4a39d2208b3615a93b616ce0250abb7",
-        "source": "SeekingAlpha",
-        "time": "11-25 05:29 ET",
-        "pub_ts": 1795602599.0
+        "title": "Anthropic's IPO Creates About 5,100 Paper Millionaires, With Hundreds Worth Over $100 Million",
+        "url": "https://www.ibtimes.com/anthropic-ipo-employee-millionaires-wealth-restrictions-3810189?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 14:50 ET",
+        "pub_ts": 1795636233.0
       },
       {
-        "title": "Anthropic launches Claude Ship beta to support developer workflows",
-        "url": "https://finnhub.io/api/news?id=30ba283ecfb044a2a8d9e13c6bc4b1593db2994e1e2004e957afac838df1c79a",
-        "source": "Yahoo",
-        "time": "11-25 05:28 ET",
-        "pub_ts": 1795602530.0
+        "title": "Anthropic CEO pushes back on Axios reporting on AI and free will",
+        "url": "https://www.axios.com/2026/11/25/anthropic-dario-amodei-ai-free-will-contro-axios#utm_source=yahoo_finance&utm_medium=partner&utm_campaign=subs-partner-yahoo-finance-AI?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 14:28 ET",
+        "pub_ts": 1795634880.0
       }
     ],
     "XAUUSD": [
@@ -3328,27 +3328,27 @@
     "SOXS": 1795638452.7947655,
     "NVDA": 1795638452.7947655,
     "AMD": 1795638452.7947655,
-    "ASML": 1795636968.9183912,
-    "QCOM": 1795636968.9183912,
-    "AVGO": 1795636968.9183912,
-    "AMAT": 1795636968.9183912,
-    "META": 1795636968.9183912,
-    "GOOGL": 1795636968.9183912,
-    "MSFT": 1795636968.9183912,
-    "AAPL": 1795636968.9183912,
-    "PLTR": 1795636968.9183912,
-    "NOW": 1795636968.9183912,
-    "AMZN": 1795636968.9183912,
-    "CRWV": 1795636968.9183912,
-    "NBIS": 1795636968.9183912,
-    "APLD": 1795636968.9183912,
-    "VST": 1795636968.9183912,
-    "BE": 1795636968.9183912,
-    "CRDO": 1795636968.9183912,
-    "COHR": 1795636968.9183912,
-    "MRVL": 1795636968.9183912,
+    "ASML": 1795638557.488477,
+    "QCOM": 1795638557.488477,
+    "AVGO": 1795638557.488477,
+    "AMAT": 1795638557.488477,
+    "META": 1795638557.488477,
+    "GOOGL": 1795638557.488477,
+    "MSFT": 1795638557.488477,
+    "AAPL": 1795638557.488477,
+    "PLTR": 1795638557.488477,
+    "NOW": 1795638557.488477,
+    "AMZN": 1795638557.488477,
+    "CRWV": 1795638557.488477,
+    "NBIS": 1795638557.488477,
+    "APLD": 1795638557.488477,
+    "VST": 1795638557.488477,
+    "BE": 1795638557.488477,
+    "CRDO": 1795638557.488477,
+    "COHR": 1795638557.488477,
+    "MRVL": 1795638557.488477,
     "LITE": 1795637074.5907528,
-    "AAOI": 1795636968.9183912,
+    "AAOI": 1795638557.488477,
     "SPCX": 1795637074.5907528,
     "ASTS": 1795638136.5140955,
     "AXTI": 1795637074.5907528,
@@ -3381,15 +3381,15 @@
     "NKE": 1795638452.7947655,
     "MCD": 1795638452.7947655,
     "PEP": 1795638452.7947655,
-    "XOM": 1795636968.9183912,
+    "XOM": 1795638557.488477,
     "JPM": 1795638452.7947655,
-    "WMT": 1795636968.9183912,
+    "WMT": 1795638557.488477,
     "V": 1795638452.7947655,
-    "CAT": 1795636968.9183912,
+    "CAT": 1795638557.488477,
     "FN": 1795637074.5907528,
     "GLW": 1795637074.5907528,
-    "ANT": 1795636968.9183912,
-    "XAUUSD": 1795636968.9183912,
+    "ANT": 1795638557.488477,
+    "XAUUSD": 1795638557.488477,
     "KOSPI": 1795638452.7947655
   },
   "opex_shield": {
