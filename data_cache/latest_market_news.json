@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795587543.509,
-  "updated_at_et": "11-25 01:19 ET",
-  "updated_at_kst": "15:19 KST",
+  "updated_at_ts": 1795587649.51,
+  "updated_at_et": "11-25 01:20 ET",
+  "updated_at_kst": "15:20 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -17,7 +17,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 431,
+      "minutes_left": 430,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -36,7 +36,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 431,
+      "minutes_left": 430,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -471,13 +471,6 @@
         "pub_ts": 1795547398.0
       },
       {
-        "title": "Own Humana Stock? Its Profit Cushion Is The Thinnest",
-        "url": "https://www.trefis.com/stock/unh/articles/628256/own-humana-stock-its-profit-cushion-is-the-thinnest/2026-11-24?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:03 ET",
-        "pub_ts": 1795525388.0
-      },
-      {
         "title": "Is Apple (AAPL) Above Fair Value As ETF Buying Returns?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-above-fair-value-211324050.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -497,6 +490,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:19 ET",
         "pub_ts": 1795529962.0
+      },
+      {
+        "title": "Here's Why Investors Should Go Defensive Now: ETFs in Focus",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-investors-defensive-now-134200178.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 08:42 ET",
+        "pub_ts": 1795527720.0
       }
     ],
     "DIA": [
@@ -945,6 +945,13 @@
     ],
     "NVDA": [
       {
+        "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63614091/stock-market-will-sp-500-open-up-or-down-today-85?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 01:06 ET",
+        "pub_ts": 1795586777.0
+      },
+      {
         "title": "Donald Trump Floats Jensen Huang Pardon, US Stake In Nvidia – But NVDA Loses Momentum",
         "url": "https://stocktwits.com/news-articles/markets/equity/donald-trump-floats-jensen-huang-pardon-us-stake-in-nvidia-but-nvda-loses-momentum/cNbHPnyR9lL?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -971,13 +978,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 23:40 ET",
         "pub_ts": 1795581637.0
-      },
-      {
-        "title": "Jim Cramer resets Nvidia stock target as Jensen Huang returns as CEO",
-        "url": "https://www.thestreet.com/investing/stocks/jim-cramer-nvidia-stock-target-jensen-huang?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 23:33 ET",
-        "pub_ts": 1795581180.0
       }
     ],
     "AMD": [
@@ -3001,11 +3001,11 @@
         "pub_ts": 1795517116.0
       },
       {
-        "title": "ExxonMobil's $4B Kizomba Redevelopment: Can It Drive Earnings Growth?",
-        "url": "https://finance.yahoo.com/energy/articles/exxonmobils-4b-kizomba-redevelopment-drive-162400004.html?.tsrc=rss",
+        "title": "Oil Market Midweek Wrap: Brent Holds Near $90 Despite Iran Tensions – OPEC Meeting, ConocoPhillips Sale In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/oil-market-midweek-wrap-brent-holds-near-90-despite-iran-tensions-opec-meeting-conoco-phillips-sale-in-focus/cNbH5X8R9lK?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-23 11:24 ET",
-        "pub_ts": 1795451040.0
+        "time": "11-25 00:48 ET",
+        "pub_ts": 1795585705.0
       },
       {
         "title": "3 Non-AI Stocks to Buy for Long-Term Dividends and Stability",
@@ -3239,39 +3239,39 @@
     ],
     "ANT": [
       {
-        "title": "Investors shut out of Anthropic's IPO may be the lucky ones",
-        "url": "https://www.thestreet.com/investing/anthropic-stock-below-ipo-price-missed-allocation?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 00:03 ET",
-        "pub_ts": 1795582980.0
+        "title": "Nvidia-Backed Nscale Reportedly Eyes Private Route As AI Market Sell-Off Clouds $35B IPO Plans",
+        "url": "https://finnhub.io/api/news?id=452ef4e1875831f1f488c42890516e85628c6997f76c3d87eaef9e72c20bc58a",
+        "source": "Yahoo",
+        "time": "11-24 19:16 ET",
+        "pub_ts": 1795565791.0
       },
       {
-        "title": "Cathie Wood’s ARK Sees ‘Excellent Entry Points’ In AI — ‘Big Short’ Steve Eisman Warns Of Recession If Anthropic Or OpenAI Fails",
-        "url": "https://stocktwits.com/news-articles/markets/equity/cathie-wood-ark-excellent-entry-points-ai-steve-eisman-recession-anthropic-openai-fails/cNbHcZ4R9lW?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 23:41 ET",
-        "pub_ts": 1795581691.0
+        "title": "Dow Jones Futures Fall: Nvidia, Anthropic Lead AI Retreat But Many Sectors Strong; Fed Inflation Data Due",
+        "url": "https://finnhub.io/api/news?id=d9353a96e3607b36c1925ae7cd8e2e1a3dbe312864c395e673bd805b3450f463",
+        "source": "Yahoo",
+        "time": "11-24 19:09 ET",
+        "pub_ts": 1795565390.0
       },
       {
-        "title": "Anthropic vs. SpaceX: Here's the Better IPO Stock to Buy With $1,000 Right Now",
-        "url": "https://www.fool.com/investing/2026/11/24/anthropic-vs-spacex-here-s-the-better-ipo-stock-to-buy-with-usd1-000-right-now/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 23:35 ET",
-        "pub_ts": 1795581301.0
+        "title": "Nasdaq Drops As NVDA, ANT, SPCX Slide: Mohamed El-Erian Says Market Warning Signals Go Well Beyond Nvidia",
+        "url": "https://finnhub.io/api/news?id=dfe9b2fb2914add995a4451137db820082427ba5d30439ea714089950c9493db",
+        "source": "Yahoo",
+        "time": "11-24 18:58 ET",
+        "pub_ts": 1795564727.0
       },
       {
-        "title": "ANT Slips Further After Closing Below IPO Price: Retail Traders Wait For A Better Entry, But Cathie Wood Buys The Dip",
-        "url": "https://stocktwits.com/news-articles/markets/equity/ant-slips-further-after-closing-below-ipo-price-retail-traders-wait-for-a-better-entry-but-cathie-wood-buys-the-dip/cNbHR3zR9lf?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 22:48 ET",
-        "pub_ts": 1795578497.0
+        "title": "AI Pullback Raises the Cost of Data Center Financing",
+        "url": "https://finnhub.io/api/news?id=27c37b2368fd40513b486ca9a9da1e412b7ce57ff542652c6e046a8679bef209",
+        "source": "Yahoo",
+        "time": "11-24 17:41 ET",
+        "pub_ts": 1795560076.0
       },
       {
-        "title": "Dow, S&P 500, Nasdaq Futures Edge Lower Amid Tech Selloff Ahead Of Key Inflation Data: DELL, AMBA, SOXL, MSTR In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-edge-lower-amid-tech-selloff-ahead-of-key-inflation-data-dell-amba-soxl-mstr-in-focus/cNbHbLoR9lJ?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 22:20 ET",
-        "pub_ts": 1795576810.0
+        "title": "Anthropic: ANT that a shame",
+        "url": "https://finnhub.io/api/news?id=24775b5c474f0afd9e38899d05635a61e84f3d08130a0fd6480fc6c1136dd2a6",
+        "source": "Yahoo",
+        "time": "11-24 17:30 ET",
+        "pub_ts": 1795559446.0
       }
     ],
     "XAUUSD": [
@@ -3322,23 +3322,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795586149.0885742,
-    "SOXL": 1795586149.0885742,
-    "SPY": 1795586149.0885742,
-    "DIA": 1795586149.0885742,
-    "SOXX": 1795586149.0885742,
-    "QQQ": 1795586149.0885742,
-    "SMH": 1795586149.0885742,
-    "IWM": 1795586149.0885742,
-    "IGV": 1795586149.0885742,
-    "TLT": 1795586149.0885742,
-    "GLD": 1795586149.0885742,
-    "SQQQ": 1795586149.0885742,
-    "TSM": 1795586149.0885742,
-    "VIXY": 1795586149.0885742,
-    "SOXS": 1795586149.0885742,
-    "NVDA": 1795586149.0885742,
-    "AMD": 1795586149.0885742,
+    "KORU": 1795587649.5098495,
+    "SOXL": 1795587649.5098495,
+    "SPY": 1795587649.5098495,
+    "DIA": 1795587649.5098495,
+    "SOXX": 1795587649.5098495,
+    "QQQ": 1795587649.5098495,
+    "SMH": 1795587649.5098495,
+    "IWM": 1795587649.5098495,
+    "IGV": 1795587649.5098495,
+    "TLT": 1795587649.5098495,
+    "GLD": 1795587649.5098495,
+    "SQQQ": 1795587649.5098495,
+    "TSM": 1795587649.5098495,
+    "VIXY": 1795587649.5098495,
+    "SOXS": 1795587649.5098495,
+    "NVDA": 1795587649.5098495,
+    "AMD": 1795587649.5098495,
     "ASML": 1795586495.525008,
     "QCOM": 1795586495.525008,
     "AVGO": 1795586495.525008,
@@ -3391,17 +3391,17 @@
     "MRNA": 1795586811.519506,
     "NKE": 1795586811.519506,
     "MCD": 1795586811.519506,
-    "PEP": 1795586149.0885742,
-    "XOM": 1795586149.0885742,
-    "JPM": 1795586149.0885742,
-    "WMT": 1795586149.0885742,
+    "PEP": 1795587649.5098495,
+    "XOM": 1795587649.5098495,
+    "JPM": 1795587649.5098495,
+    "WMT": 1795587649.5098495,
     "V": 1795586811.519506,
-    "CAT": 1795586149.0885742,
+    "CAT": 1795587649.5098495,
     "FN": 1795586495.525008,
     "GLW": 1795586495.525008,
-    "ANT": 1795586149.0885742,
-    "XAUUSD": 1795586149.0885742,
-    "KOSPI": 1795586149.0885742
+    "ANT": 1795587649.5098495,
+    "XAUUSD": 1795587649.5098495,
+    "KOSPI": 1795587649.5098495
   },
   "opex_shield": {
     "date": "2026-11-25",
@@ -3419,10 +3419,10 @@
   },
   "calendar_banner": {
     "level": "upcoming",
-    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 431 分钟（11-25 08:30 ET / 22:30 KST）",
+    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 430 分钟（11-25 08:30 ET / 22:30 KST）",
     "detail": "前值 0.3% ｜ 预期 0.3% ｜ 临近公布前15分钟将自动触发防插针预警",
     "event_name": "美国10月核心PCE物价指数环比",
-    "minutes_left": 431,
+    "minutes_left": 430,
     "opex_shield": {
       "date": "2026-11-25",
       "active": false,
