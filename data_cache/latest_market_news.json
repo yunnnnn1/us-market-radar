@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795646276.113,
-  "updated_at_et": "11-25 17:37 ET",
-  "updated_at_kst": "07:37 KST",
+  "updated_at_ts": 1795646371.485,
+  "updated_at_et": "11-25 17:39 ET",
+  "updated_at_kst": "07:39 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1240,7 +1240,7 @@
     "MSFT": [
       {
         "title": "Japan's biggest banks pick Solana as Fidelity adds DeFi tokens",
-        "url": "https://finance.yahoo.com/video/japans-biggest-banks-pick-solana-170000036.html?.tsrc=rss",
+        "url": "https://finance.yahoo.com/video/japans-biggest-banks-pick-solana-as-fidelity-adds-defi-tokens-222056705.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 12:00 ET",
         "pub_ts": 1795626000.0
@@ -1388,7 +1388,7 @@
     "AMZN": [
       {
         "title": "Jensen Huang's return, neocloud risk, and a holiday retail rally",
-        "url": "https://finance.yahoo.com/video/jensen-huangs-return-neocloud-risk-210000087.html?.tsrc=rss",
+        "url": "https://finance.yahoo.com/video/jensen-huangs-return-neocloud-risk-and-a-holiday-retail-rally-222042649.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 16:00 ET",
         "pub_ts": 1795640400.0
@@ -1425,7 +1425,7 @@
     "CRWV": [
       {
         "title": "Jensen Huang's return, neocloud risk, and a holiday retail rally",
-        "url": "https://finance.yahoo.com/video/jensen-huangs-return-neocloud-risk-210000087.html?.tsrc=rss",
+        "url": "https://finance.yahoo.com/video/jensen-huangs-return-neocloud-risk-and-a-holiday-retail-rally-222042649.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 16:00 ET",
         "pub_ts": 1795640400.0
@@ -1462,7 +1462,7 @@
     "NBIS": [
       {
         "title": "Jensen Huang's return, neocloud risk, and a holiday retail rally",
-        "url": "https://finance.yahoo.com/video/jensen-huangs-return-neocloud-risk-210000087.html?.tsrc=rss",
+        "url": "https://finance.yahoo.com/video/jensen-huangs-return-neocloud-risk-and-a-holiday-retail-rally-222042649.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 16:00 ET",
         "pub_ts": 1795640400.0
@@ -3053,7 +3053,7 @@
     "WMT": [
       {
         "title": "Jensen Huang's return, neocloud risk, and a holiday retail rally",
-        "url": "https://finance.yahoo.com/video/jensen-huangs-return-neocloud-risk-210000087.html?.tsrc=rss",
+        "url": "https://finance.yahoo.com/video/jensen-huangs-return-neocloud-risk-and-a-holiday-retail-rally-222042649.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 16:00 ET",
         "pub_ts": 1795640400.0
@@ -3244,18 +3244,11 @@
         "pub_ts": 1795636997.0
       },
       {
-        "title": "Nvidia is cheap on paper, so why won't the market buy it?",
-        "url": "https://finance.yahoo.com/video/nvidia-is-cheap-on-paper-so-why-wont-the-market-buy-it-192215326.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 14:22 ET",
-        "pub_ts": 1795634535.0
-      },
-      {
         "title": "Dow Jones Futures: Market Goes On Wild Ride. Nasdaq, Nvidia Slash Losses While Anthropic Reverses Higher.",
         "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures%3A-market.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 17:07 ET",
-        "pub_ts": 1795644440.0
+        "time": "11-25 17:24 ET",
+        "pub_ts": 1795645475.0
       },
       {
         "title": "Stock Market Today: Dow Swings Into A Win; Anthropic Almost Retakes Its IPO Price",
@@ -3270,6 +3263,13 @@
         "source": "Yahoo Finance",
         "time": "11-25 15:53 ET",
         "pub_ts": 1795639982.0
+      },
+      {
+        "title": "Anthropic Broke Its $83 IPO Price. Most Giants Recovered",
+        "url": "https://www.trefis.com/stock/ant/articles/628871/anthropic-broke-its-83-ipo-price-most-giants-recovered/2026-11-25?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:16 ET",
+        "pub_ts": 1795637795.0
       }
     ],
     "XAUUSD": [
@@ -3337,27 +3337,27 @@
     "SOXS": 1795646179.3607428,
     "NVDA": 1795646179.3607428,
     "AMD": 1795646179.3607428,
-    "ASML": 1795644823.13393,
-    "QCOM": 1795644823.13393,
-    "AVGO": 1795644823.13393,
-    "AMAT": 1795644823.13393,
-    "META": 1795644823.13393,
-    "GOOGL": 1795644823.13393,
-    "MSFT": 1795644823.13393,
-    "AAPL": 1795644823.13393,
-    "PLTR": 1795644823.13393,
-    "NOW": 1795644823.13393,
-    "AMZN": 1795644823.13393,
-    "CRWV": 1795644823.13393,
-    "NBIS": 1795644823.13393,
-    "APLD": 1795644823.13393,
-    "VST": 1795644823.13393,
-    "BE": 1795644823.13393,
-    "CRDO": 1795644823.13393,
-    "COHR": 1795644823.13393,
-    "MRVL": 1795644823.13393,
+    "ASML": 1795646371.4847808,
+    "QCOM": 1795646371.4847808,
+    "AVGO": 1795646371.4847808,
+    "AMAT": 1795646371.4847808,
+    "META": 1795646371.4847808,
+    "GOOGL": 1795646371.4847808,
+    "MSFT": 1795646371.4847808,
+    "AAPL": 1795646371.4847808,
+    "PLTR": 1795646371.4847808,
+    "NOW": 1795646371.4847808,
+    "AMZN": 1795646371.4847808,
+    "CRWV": 1795646371.4847808,
+    "NBIS": 1795646371.4847808,
+    "APLD": 1795646371.4847808,
+    "VST": 1795646371.4847808,
+    "BE": 1795646371.4847808,
+    "CRDO": 1795646371.4847808,
+    "COHR": 1795646371.4847808,
+    "MRVL": 1795646371.4847808,
     "LITE": 1795644921.64759,
-    "AAOI": 1795644823.13393,
+    "AAOI": 1795646371.4847808,
     "SPCX": 1795644921.64759,
     "ASTS": 1795646082.5259976,
     "AXTI": 1795644921.64759,
@@ -3390,15 +3390,15 @@
     "NKE": 1795646179.3607428,
     "MCD": 1795646179.3607428,
     "PEP": 1795646179.3607428,
-    "XOM": 1795644823.13393,
+    "XOM": 1795646371.4847808,
     "JPM": 1795646179.3607428,
-    "WMT": 1795644823.13393,
+    "WMT": 1795646371.4847808,
     "V": 1795646179.3607428,
-    "CAT": 1795644823.13393,
+    "CAT": 1795646371.4847808,
     "FN": 1795644921.64759,
     "GLW": 1795644921.64759,
-    "ANT": 1795644823.13393,
-    "XAUUSD": 1795644823.13393,
+    "ANT": 1795646371.4847808,
+    "XAUUSD": 1795646371.4847808,
     "KOSPI": 1795646179.3607428
   },
   "opex_shield": {
