@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795646082.526,
-  "updated_at_et": "11-25 17:34 ET",
-  "updated_at_kst": "07:34 KST",
+  "updated_at_ts": 1795646179.361,
+  "updated_at_et": "11-25 17:36 ET",
+  "updated_at_kst": "07:36 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -943,11 +943,32 @@
     ],
     "NVDA": [
       {
-        "title": "Jensen Huang reclaims throne at Nvidia: Here's the bottom line for investors",
-        "url": "https://finance.yahoo.com/video/jensen-huang-reclaims-throne-at-nvidia-heres-the-bottom-line-for-investors-212803135.html?.tsrc=rss",
+        "title": "Dow Jones Futures: Market Goes On Wild Ride. Nasdaq, Nvidia Slash Losses While Anthropic Reverses Higher.",
+        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures%3A-market.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 16:28 ET",
-        "pub_ts": 1795642083.0
+        "time": "11-25 17:24 ET",
+        "pub_ts": 1795645475.0
+      },
+      {
+        "title": "Nvidia Sell-Off: You Won’t Believe How Cheap the Stock Is",
+        "url": "https://www.fool.com/investing/2026/11/25/nvidia-sell-off-you-won-t-believe-how-cheap-the-stock-is/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 17:20 ET",
+        "pub_ts": 1795645202.0
+      },
+      {
+        "title": "Michael Burry slashes Nvidia bets but issues stark warning",
+        "url": "https://www.thestreet.com/investing/michael-burry-slashes-nvidia-bets-but-issues-stark-warning?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 17:17 ET",
+        "pub_ts": 1795645020.0
+      },
+      {
+        "title": "Stock Market Today, Nov. 25: Nvidia Slides 3.9% as the Market Considers Hot PCE Inflation Data and New Tariff Proposals",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-nvidia-slides-3-9-as-the-market-considers-hot-pce-inflation-data-and-new-tariff-proposals/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 17:06 ET",
+        "pub_ts": 1795644405.0
       },
       {
         "title": "Nvidia engineer who quit in protest of Jensen Huang's ouster says he 'may have moved too quickly,' is open to returning",
@@ -955,27 +976,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 17:00 ET",
         "pub_ts": 1795644000.0
-      },
-      {
-        "title": "Dow Jones Futures: Market Goes On Wild Ride. Nasdaq, Nvidia Slash Losses While Anthropic Reverses Higher.",
-        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures%3A-market.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 16:55 ET",
-        "pub_ts": 1795643728.0
-      },
-      {
-        "title": "Deere & Company Q4 2026 Earnings Call Summary",
-        "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-deere-company-q4-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 16:44 ET",
-        "pub_ts": 1795643089.0
-      },
-      {
-        "title": "The Dividend ETF I'd Choose to to Generate $500 a Month in Passive Income",
-        "url": "https://www.fool.com/investing/2026/11/25/the-dividend-etf-id-choose-to-to-generate-500-a-month-in-passive-income/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 16:35 ET",
-        "pub_ts": 1795642502.0
       }
     ],
     "AMD": [
@@ -2796,8 +2796,8 @@
         "title": "Dow Jones Futures: Market Goes On Wild Ride. Nasdaq, Nvidia Slash Losses While Anthropic Reverses Higher.",
         "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures%3A-market.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 16:55 ET",
-        "pub_ts": 1795643728.0
+        "time": "11-25 17:24 ET",
+        "pub_ts": 1795645475.0
       },
       {
         "title": "Sector Update: Healthcare Stocks Fall Late Afternoon",
@@ -2867,6 +2867,13 @@
     ],
     "NKE": [
       {
+        "title": "Has NIKE (NKE) Fallen Far Enough to Look Undervalued?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nike-nke-fallen-far-enough-221034554.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 17:10 ET",
+        "pub_ts": 1795644634.0
+      },
+      {
         "title": "Did Nike Stock Jump On Its Own News?",
         "url": "https://www.trefis.com/stock/nke/articles/628998/did-nike-stock-jump-on-its-own-news/2026-11-25?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2893,13 +2900,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 03:42 ET",
         "pub_ts": 1795596136.0
-      },
-      {
-        "title": "Dick’s Chairman Says Nike ‘Made the Right Decision’ on Jordan Even Though It Will Be ‘Painful’ in the Near-term",
-        "url": "https://wwd.com/footwear-news/shoe-industry-news/dicks-foot-locker-jordan-brand-nike-earnings-takeaways-q3-1239464926/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:00 ET",
-        "pub_ts": 1795554057.0
       }
     ],
     "MCD": [
@@ -3022,6 +3022,13 @@
         "pub_ts": 1795622724.0
       },
       {
+        "title": "Market Chatter: JPMorgan Projects $450 Billion in AI High-Grade Debt Issuance for 2027",
+        "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-jpmorgan-projects-450-222027435.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 17:20 ET",
+        "pub_ts": 1795645227.0
+      },
+      {
         "title": "JPMorgan sees $450B in AI bond issuance in 2027",
         "url": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-sees-450b-ai-bond-215824242.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3041,13 +3048,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 13:21 ET",
         "pub_ts": 1795630860.0
-      },
-      {
-        "title": "JPMorgan Sees S&P 500 At 8,200 In 2027 As AI Supercycle Remains Intact",
-        "url": "https://stocktwits.com/news-articles/markets/equity/jp-morgan-sees-s-and-p-500-at-8-200-in-2027-as-ai-supercycle-remains-intact/cNbHmzoR9mY?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:47 ET",
-        "pub_ts": 1795625272.0
       }
     ],
     "WMT": [
@@ -3090,14 +3090,14 @@
     "V": [
       {
         "title": "Jensen Huang's return, neocloud risk, and a holiday retail rally",
-        "url": "https://finance.yahoo.com/video/jensen-huangs-return-neocloud-risk-210000087.html?.tsrc=rss",
+        "url": "https://finance.yahoo.com/video/jensen-huangs-return-neocloud-risk-and-a-holiday-retail-rally-222042649.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 16:00 ET",
         "pub_ts": 1795640400.0
       },
       {
         "title": "Japan's biggest banks pick Solana as Fidelity adds DeFi tokens",
-        "url": "https://finance.yahoo.com/video/japans-biggest-banks-pick-solana-170000036.html?.tsrc=rss",
+        "url": "https://finance.yahoo.com/video/japans-biggest-banks-pick-solana-as-fidelity-adds-defi-tokens-222056705.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 12:00 ET",
         "pub_ts": 1795626000.0
@@ -3320,23 +3320,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795644629.3283203,
-    "SOXL": 1795644629.3283203,
-    "SPY": 1795644629.3283203,
-    "DIA": 1795644629.3283203,
-    "SOXX": 1795644629.3283203,
-    "QQQ": 1795644629.3283203,
-    "SMH": 1795644629.3283203,
-    "IWM": 1795644629.3283203,
-    "IGV": 1795644629.3283203,
-    "TLT": 1795644629.3283203,
-    "GLD": 1795644629.3283203,
-    "SQQQ": 1795644629.3283203,
-    "TSM": 1795644629.3283203,
-    "VIXY": 1795644629.3283203,
-    "SOXS": 1795644629.3283203,
-    "NVDA": 1795644629.3283203,
-    "AMD": 1795644629.3283203,
+    "KORU": 1795646179.3607428,
+    "SOXL": 1795646179.3607428,
+    "SPY": 1795646179.3607428,
+    "DIA": 1795646179.3607428,
+    "SOXX": 1795646179.3607428,
+    "QQQ": 1795646179.3607428,
+    "SMH": 1795646179.3607428,
+    "IWM": 1795646179.3607428,
+    "IGV": 1795646179.3607428,
+    "TLT": 1795646179.3607428,
+    "GLD": 1795646179.3607428,
+    "SQQQ": 1795646179.3607428,
+    "TSM": 1795646179.3607428,
+    "VIXY": 1795646179.3607428,
+    "SOXS": 1795646179.3607428,
+    "NVDA": 1795646179.3607428,
+    "AMD": 1795646179.3607428,
     "ASML": 1795644823.13393,
     "QCOM": 1795644823.13393,
     "AVGO": 1795644823.13393,
@@ -3385,21 +3385,21 @@
     "CRWD": 1795646082.5259976,
     "ORCL": 1795646082.5259976,
     "COIN": 1795646082.5259976,
-    "LLY": 1795644629.3283203,
-    "MRNA": 1795644629.3283203,
-    "NKE": 1795644629.3283203,
-    "MCD": 1795644629.3283203,
-    "PEP": 1795644629.3283203,
+    "LLY": 1795646179.3607428,
+    "MRNA": 1795646179.3607428,
+    "NKE": 1795646179.3607428,
+    "MCD": 1795646179.3607428,
+    "PEP": 1795646179.3607428,
     "XOM": 1795644823.13393,
-    "JPM": 1795644629.3283203,
+    "JPM": 1795646179.3607428,
     "WMT": 1795644823.13393,
-    "V": 1795644629.3283203,
+    "V": 1795646179.3607428,
     "CAT": 1795644823.13393,
     "FN": 1795644921.64759,
     "GLW": 1795644921.64759,
     "ANT": 1795644823.13393,
     "XAUUSD": 1795644823.13393,
-    "KOSPI": 1795644629.3283203
+    "KOSPI": 1795646179.3607428
   },
   "opex_shield": {
     "date": "2026-11-25",
