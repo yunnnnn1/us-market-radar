@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795631779.876,
-  "updated_at_et": "11-25 13:36 ET",
-  "updated_at_kst": "03:36 KST",
+  "updated_at_ts": 1795632125.652,
+  "updated_at_et": "11-25 13:42 ET",
+  "updated_at_kst": "03:42 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -43,6 +43,20 @@
     }
   ],
   "macro_flashes": [
+    {
+      "id": "20261126024013312800",
+      "title": "标普全球评级：因并购风险上升，英伟达(NVDA.O)的“AA”评级被列入负面信用观察名单…",
+      "summary": "标普全球评级：因并购风险上升，英伟达(NVDA.O)的“AA”评级被列入负面信用观察名单。",
+      "keywords": [
+        "英伟达",
+        "标普"
+      ],
+      "pub_ts": 1795632013.0,
+      "time_et": "11-25 13:40 ET",
+      "time_bj": "02:40 BJ",
+      "time_kst": "03:40 KST",
+      "time_display": "13:40 ET / 02:40 BJ"
+    },
     {
       "id": "20261126023336387800",
       "title": "美国副总统万斯：我们已获得保证，英伟达(NVDA.O)CEO黄仁勋没有受到任何调查。",
@@ -365,20 +379,6 @@
       "time_bj": "22:02 BJ",
       "time_kst": "23:02 KST",
       "time_display": "09:02 ET / 22:02 BJ"
-    },
-    {
-      "id": "20261125215530473800",
-      "title": "【美国第三季度GDP增速上修至4.3%，为美联储加息留下更大空间】 11月25日讯，美国…",
-      "summary": "【美国第三季度GDP增速上修至4.3%，为美联储加息留下更大空间】 11月25日讯，美国政府周三表示，今年夏季美国经济的增长速度远超此前预期，对第三季度国内生产总值（GDP）的估算进行了大幅上调。数据显示，美国经济按年率计算增长了4.3%，高于此前公布的3.4%，且几乎是第二季度2.2%增速的两倍。美国经济展现出的增长动能比此前预想的更为强劲。在借贷成本上升和通胀持续顽固的背景下，这凸显了美国经济惊人的韧性，同时也可能为美联储进一步加息留出了更大空间。",
-      "keywords": [
-        "美联储",
-        "加息"
-      ],
-      "pub_ts": 1795614930.0,
-      "time_et": "11-25 08:55 ET",
-      "time_bj": "21:55 BJ",
-      "time_kst": "22:55 KST",
-      "time_display": "08:55 ET / 21:55 BJ"
     }
   ],
   "ticker_news": {
@@ -472,6 +472,13 @@
         "pub_ts": 1795604617.0
       },
       {
+        "title": "SPYD and SCHD Hold No Nvidia. Here’s What You Give Up and What You Get",
+        "url": "https://247wallst.com/investing/etf/2026/11/25/spyd-and-schd-hold-no-nvidia-heres-what-you-give-up-and-what-you-get/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:51 ET",
+        "pub_ts": 1795629062.0
+      },
+      {
         "title": "Dow Craters Over 1000 Points, Nasdaq Slips 4% As AI Trade Unravels – Investors Digest PCE Inflation, Fresh Tariff Proposal",
         "url": "https://stocktwits.com/news-articles/markets/equity/dow-craters-over-1000-points-nasdaq-slips-4-as-ai-trade-unravels-investors-digest-pce-inflation-fresh-tariff-proposal/cNbHjJvR9mj?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -484,13 +491,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:02 ET",
         "pub_ts": 1795604542.0
-      },
-      {
-        "title": "ETFs Are Buying American International Group (AIG) on Monday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-american-international-group-110210871.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:02 ET",
-        "pub_ts": 1795604530.0
       }
     ],
     "DIA": [
@@ -569,6 +569,13 @@
     ],
     "QQQ": [
       {
+        "title": "Exchange-Traded Funds Lower as US Equities Fall After Midday",
+        "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-lower-us-181148276.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 13:11 ET",
+        "pub_ts": 1795630308.0
+      },
+      {
         "title": "Should You Buy the Invesco QQQ ETF With the Nasdaq-100 Plummeting? Here's What History Says.",
         "url": "https://www.fool.com/investing/2026/11/25/should-you-buy-invesco-qqq-etf-nasdaq-100-plummeting-what-history-says/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -583,25 +590,18 @@
         "pub_ts": 1795604652.0
       },
       {
-        "title": "Exchange-Traded Funds, US Equities Mixed After Midday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-181033633.html?.tsrc=rss",
+        "title": "Berkshire Hathaway Is Up 15% in 2026 and Easily Beating the S&P 500. Is Berkshire Stock Better Than an Index Fund Now?",
+        "url": "https://247wallst.com/investing/2026/11/25/berkshire-hathaway-is-up-15-in-2026-and-easily-beating-the-sp-500-is-berkshire-stock-better-than-an-index-fund-now/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 13:10 ET",
-        "pub_ts": 1795543833.0
+        "time": "11-25 13:02 ET",
+        "pub_ts": 1795629735.0
       },
       {
-        "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Wednesday Amid Inflation Data Release",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140441647.html?.tsrc=rss",
+        "title": "1 Surprisingly Powerful ETF for Investors Who Only Have $200 to Start",
+        "url": "https://www.fool.com/investing/2026/11/25/1-surprisingly-powerful-etf-for-investors-who-only-have-200-to-start/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 09:04 ET",
-        "pub_ts": 1795615481.0
-      },
-      {
-        "title": "ETFs Are Net Sellers of Alphabet (GOOG) on Nov. 23",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-alphabet-goog-110257127.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:02 ET",
-        "pub_ts": 1795604577.0
+        "time": "11-25 12:27 ET",
+        "pub_ts": 1795627622.0
       }
     ],
     "SMH": [
@@ -775,18 +775,18 @@
         "pub_ts": 1794998792.0
       },
       {
+        "title": "Gold Is Having Its Worst November Since at Least 2000",
+        "url": "https://247wallst.com/investing/2026/11/25/gold-is-having-its-worst-november-since-at-least-2000/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:42 ET",
+        "pub_ts": 1795628569.0
+      },
+      {
         "title": "Gold Faces a Stunning November Not Seen in Nearly 50 Years",
         "url": "https://finance.yahoo.com/markets/commodities/articles/gold-faces-stunning-november-not-150642189.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 10:06 ET",
         "pub_ts": 1795619202.0
-      },
-      {
-        "title": "Stocks or Gold? GDE Refuses to Choose: Every $100 Buys $90 of Each",
-        "url": "https://247wallst.com/investing/etf/2026/11/25/stocks-or-gold-gde-refuses-to-choose-every-100-buys-90-of-each/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:42 ET",
-        "pub_ts": 1795614171.0
       }
     ],
     "SQQQ": [
@@ -828,6 +828,13 @@
     ],
     "TSM": [
       {
+        "title": "If You Invest $1,000 in Taiwan Semiconductor Today, Here’s What It Could Be Worth by 2030",
+        "url": "https://247wallst.com/investing/2026/11/25/if-you-invest-1000-in-taiwan-semiconductor-today-heres-what-it-could-be-worth-by-2030/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:33 ET",
+        "pub_ts": 1795627981.0
+      },
+      {
         "title": "Billionaire Stanley Druckenmiller Sold 94% of His TSMC Stake and All of His Alphabet Shares in Q3. Here’s the Brilliant Stock He Added.",
         "url": "https://www.fool.com/investing/2026/11/25/billionaire-stanley-druckenmiller-sold-94-of-his-tsmc-and-all-of-his-alphabet-here-s-the-brilliant-stock-he-added/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -854,13 +861,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:33 ET",
         "pub_ts": 1795620837.0
-      },
-      {
-        "title": "TSMC Has a 'Substantially Wider Moat' Than Nvidia, Says Investor Joseph Carlson",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63621669/joseph-carlson-tsmc-nvidia-moat?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:28 ET",
-        "pub_ts": 1795616919.0
       }
     ],
     "VIXY": [
@@ -939,48 +939,55 @@
     ],
     "NVDA": [
       {
-        "title": "Is NVIDIA (NVDA) Cheap After Jensen Huang’s Return Calmed Leadership Fears?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-cheap-jensen-huang-171040296.html?.tsrc=rss",
+        "title": "Lee Ainslie’s Maverick Capital Held $844 Million in Nvidia, Its Largest Position at 6.8% of Its Stocks",
+        "url": "https://247wallst.com/investing/2026/11/25/lee-ainslies-maverick-capital-held-844-million-in-nvidia-its-largest-position-at-6-8-of-its-stocks/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 12:10 ET",
-        "pub_ts": 1795626640.0
+        "time": "11-25 13:23 ET",
+        "pub_ts": 1795630992.0
       },
       {
-        "title": "Tech stocks suffer sell-off on AI angst, US inflation",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/tech-firms-back-crosshairs-huang-024219799.html?.tsrc=rss",
+        "title": "Most of Dell’s New AI Server Orders Are Now for Nvidia’s Vera Rubin",
+        "url": "https://247wallst.com/investing/2026/11/25/most-of-dells-new-ai-server-orders-are-now-for-nvidias-vera-rubin/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 12:05 ET",
-        "pub_ts": 1795626353.0
+        "time": "11-25 13:07 ET",
+        "pub_ts": 1795630026.0
       },
       {
-        "title": "Mohamed El-Erian Is Buying The Tech Dip ‘Very Slowly,’ Says Nvidia Is ‘Too Big to Wobble’",
-        "url": "https://stocktwits.com/news-articles/markets/equity/mohamed-el-erian-is-buying-the-tech-dip-very-slowly-says-nvidia-is-too-big-to-wobble/cNbHNilR9mp?.tsrc=rss",
+        "title": "3 Concerns I Still Have About Nvidia Stock, Even With Jensen Huang Back as CEO",
+        "url": "https://www.fool.com/investing/2026/11/25/3-concerns-i-still-have-about-nvidia-stock-even-with-jensen-huang-back-as-ceo/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 12:04 ET",
-        "pub_ts": 1795626288.0
+        "time": "11-25 13:05 ET",
+        "pub_ts": 1795629902.0
       },
       {
-        "title": "AI Chip Stocks Extend Brutal Selloff as Nvidia, AMD and Broadcom Tumble Again",
-        "url": "https://finance.yahoo.com/technology/ai/articles/ai-chip-stocks-extend-brutal-170236621.html?.tsrc=rss",
+        "title": "If the Fed Raises Interest Rates Multiple Times in the Coming Months, Here’s What Billionaire Investor David Tepper Would Do",
+        "url": "https://www.fool.com/investing/2026/11/25/if-the-fed-raises-interest-rates-multiple-times-in-the-coming-months-here-s-what-billionaire-investor-david-tepper-would-do/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 12:02 ET",
-        "pub_ts": 1795626156.0
+        "time": "11-25 13:03 ET",
+        "pub_ts": 1795629782.0
       },
       {
-        "title": "Chip stocks tumble as Nvidia-led AI rally unravels, tariff fears weigh",
-        "url": "https://www.proactiveinvestors.com/companies/news/1102454/chip-stocks-tumble-as-nvidia-led-ai-rally-unravels-tariff-fears-weigh-1102454.html?.tsrc=rss",
+        "title": "SUPER HI INTERNATIONAL HOLDING Ltd. American Depositary Shares Q3 2026 Earnings Call Summary",
+        "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-super-hi-international-holding-ltd-american-depositary-shares-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 11:49 ET",
-        "pub_ts": 1795625340.0
+        "time": "11-25 12:55 ET",
+        "pub_ts": 1795629319.0
       }
     ],
     "AMD": [
       {
-        "title": "Nvidia, AMD, and Micron stocks sink as investors flee AI trade",
-        "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-stocks-sink-as-investors-flee-ai-trade-134518921.html?.tsrc=rss",
+        "title": "AMD stock could reward patient investors enormously",
+        "url": "https://www.thestreet.com/investing/stocks/amd-stock-2027-data-center-growth?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 08:45 ET",
-        "pub_ts": 1795614318.0
+        "time": "11-25 12:47 ET",
+        "pub_ts": 1795628820.0
+      },
+      {
+        "title": "AMD is Actually on Sale at a 52% Discount Now Based on This Number and I’m Buying It",
+        "url": "https://247wallst.com/investing/2026/11/25/amd-is-actually-on-sale-at-a-52-discount-now-based-on-this-number-and-im-buying-it/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:45 ET",
+        "pub_ts": 1795628702.0
       },
       {
         "title": "AI Chip Stocks Extend Brutal Selloff as Nvidia, AMD and Broadcom Tumble Again",
@@ -1002,13 +1009,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:57 ET",
         "pub_ts": 1795622264.0
-      },
-      {
-        "title": "AMD Stocks Plunge 9.74% as Chip Rout and Tariff Threat Collide",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/amd-stocks-plunge-9-74-154902897.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:49 ET",
-        "pub_ts": 1795621742.0
       }
     ],
     "ASML": [
@@ -3011,6 +3011,13 @@
     ],
     "JPM": [
       {
+        "title": "Tariffs are back as Anthropic sinks further below its IPO price",
+        "url": "https://finance.yahoo.com/video/tariffs-are-back-as-anthropic-sinks-further-below-its-ipo-price-160524926.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:05 ET",
+        "pub_ts": 1795622724.0
+      },
+      {
         "title": "JPMorgan Sees S&P 500 At 8,200 In 2027 As AI Supercycle Remains Intact",
         "url": "https://stocktwits.com/news-articles/markets/equity/jp-morgan-sees-s-and-p-500-at-8-200-in-2027-as-ai-supercycle-remains-intact/cNbHmzoR9mY?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3037,13 +3044,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 07:58 ET",
         "pub_ts": 1795611539.0
-      },
-      {
-        "title": "Market Chatter: JPMorgan Weighs Scaling Back UK Investments After Bank Tax Increase",
-        "url": "https://finance.yahoo.com/economy/policy/articles/market-chatter-jpmorgan-weighs-scaling-115843710.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:58 ET",
-        "pub_ts": 1795607923.0
       }
     ],
     "WMT": [
@@ -3085,6 +3085,20 @@
     ],
     "V": [
       {
+        "title": "Japan's biggest banks pick Solana as Fidelity adds DeFi tokens",
+        "url": "https://finance.yahoo.com/video/japans-biggest-banks-pick-solana-170000036.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:00 ET",
+        "pub_ts": 1795626000.0
+      },
+      {
+        "title": "The challenge banks face in drawing consumers to AI payments",
+        "url": "https://www.americanbanker.com/payments/news/the-challenge-banks-face-in-drawing-consumers-to-ai-payments?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:38 ET",
+        "pub_ts": 1795628290.0
+      },
+      {
         "title": "Wedbush starts Robinhood, Coinbase at Outperform in fintech coverage launch",
         "url": "https://finance.yahoo.com/markets/stocks/articles/wedbush-starts-robinhood-coinbase-outperform-163557118.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3104,20 +3118,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 11:28 ET",
         "pub_ts": 1795624082.0
-      },
-      {
-        "title": "Visa (V) Stock May Be 15% Undervalued After Swipe Fee Delay",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/visa-v-stock-may-15-161010211.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:10 ET",
-        "pub_ts": 1795623010.0
-      },
-      {
-        "title": "Illinois fights for interchange law",
-        "url": "https://www.paymentsdive.com/news/illinois-fights-for-interchange-law/875779/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:03 ET",
-        "pub_ts": 1795622580.0
       }
     ],
     "CAT": [
@@ -3316,23 +3316,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795627687.312145,
-    "SOXL": 1795627687.312145,
-    "SPY": 1795627687.312145,
-    "DIA": 1795627687.312145,
-    "SOXX": 1795627687.312145,
-    "QQQ": 1795627687.312145,
-    "SMH": 1795627687.312145,
-    "IWM": 1795627687.312145,
-    "IGV": 1795627687.312145,
-    "TLT": 1795627687.312145,
-    "GLD": 1795627687.312145,
-    "SQQQ": 1795627687.312145,
-    "TSM": 1795627687.312145,
-    "VIXY": 1795627687.312145,
-    "SOXS": 1795627687.312145,
-    "NVDA": 1795627687.312145,
-    "AMD": 1795627687.312145,
+    "KORU": 1795632125.651763,
+    "SOXL": 1795632125.651763,
+    "SPY": 1795632125.651763,
+    "DIA": 1795632125.651763,
+    "SOXX": 1795632125.651763,
+    "QQQ": 1795632125.651763,
+    "SMH": 1795632125.651763,
+    "IWM": 1795632125.651763,
+    "IGV": 1795632125.651763,
+    "TLT": 1795632125.651763,
+    "GLD": 1795632125.651763,
+    "SQQQ": 1795632125.651763,
+    "TSM": 1795632125.651763,
+    "VIXY": 1795632125.651763,
+    "SOXS": 1795632125.651763,
+    "NVDA": 1795632125.651763,
+    "AMD": 1795632125.651763,
     "ASML": 1795628743.0518155,
     "QCOM": 1795628743.0518155,
     "AVGO": 1795628743.0518155,
@@ -3381,21 +3381,21 @@
     "CRWD": 1795631779.8762825,
     "ORCL": 1795631779.8762825,
     "COIN": 1795631779.8762825,
-    "LLY": 1795627687.312145,
-    "MRNA": 1795627687.312145,
-    "NKE": 1795627687.312145,
-    "MCD": 1795627687.312145,
-    "PEP": 1795627687.312145,
+    "LLY": 1795632125.651763,
+    "MRNA": 1795632125.651763,
+    "NKE": 1795632125.651763,
+    "MCD": 1795632125.651763,
+    "PEP": 1795632125.651763,
     "XOM": 1795627793.54345,
-    "JPM": 1795627687.312145,
+    "JPM": 1795632125.651763,
     "WMT": 1795627793.54345,
-    "V": 1795627687.312145,
+    "V": 1795632125.651763,
     "CAT": 1795627793.54345,
     "FN": 1795628743.0518155,
     "GLW": 1795628743.0518155,
     "ANT": 1795627793.54345,
     "XAUUSD": 1795627793.54345,
-    "KOSPI": 1795627687.312145
+    "KOSPI": 1795632125.651763
   },
   "opex_shield": {
     "date": "2026-11-25",
