@@ -166,8 +166,8 @@
       "last_notified_at": 1795643286.6312356
     },
     "MSFT": {
-      "state": "NORMAL",
-      "last_notified_at": 0.0
+      "state": "WATCHLIST_ENTRY_READY",
+      "last_notified_at": 1795643383.2406073
     },
     "NKE": {
       "state": "NORMAL",
