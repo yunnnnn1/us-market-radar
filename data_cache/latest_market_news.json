@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795599303.497,
-  "updated_at_et": "11-25 04:35 ET",
-  "updated_at_kst": "18:35 KST",
+  "updated_at_ts": 1795599410.862,
+  "updated_at_et": "11-25 04:36 ET",
+  "updated_at_kst": "18:36 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -17,7 +17,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 235,
+      "minutes_left": 234,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -36,7 +36,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 235,
+      "minutes_left": 234,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -2837,6 +2837,13 @@
     ],
     "MRNA": [
       {
+        "title": "Is Moderna (MRNA) Stock Reasonable After Its Huge Run And Vaccine Data?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/moderna-mrna-stock-reasonable-huge-090844311.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 04:08 ET",
+        "pub_ts": 1795597724.0
+      },
+      {
         "title": "Will 'Anti-Pharma' Democrats Chop Away At Biotech Stocks' Big Wins?",
         "url": "https://finance.yahoo.com/m/d110ac3d-b2ba-3c8d-8f15-274f2cd95b50/will-%27anti-pharma%27-democrats.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2863,16 +2870,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 16:00 ET",
         "pub_ts": 1795554055.0
-      },
-      {
-        "title": "Why Is Arcus Biosciences (RCUS) Stock Up Today? Biotech Rally on Insmed Deal",
-        "url": "https://finance.yahoo.com/healthcare/articles/why-arcus-biosciences-rcus-stock-210052610.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:00 ET",
-        "pub_ts": 1795554052.0
       }
     ],
     "NKE": [
+      {
+        "title": "Scott Galloway Is Buying Nike’s Dip. He Says Its Injury Isn’t “Career Ending”",
+        "url": "https://www.tikr.com/blog/scott-galloway-is-buying-nikes-dip-he-says-its-injury-isnt-career-ending?ref=yahoofinance&tlnk=yf-261125-544jwmg2&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 03:42 ET",
+        "pub_ts": 1795596136.0
+      },
       {
         "title": "Dick’s Chairman Says Nike ‘Made the Right Decision’ on Jordan Even Though It Will Be ‘Painful’ in the Near-term",
         "url": "https://wwd.com/footwear-news/shoe-industry-news/dicks-foot-locker-jordan-brand-nike-earnings-takeaways-q3-1239464926/?.tsrc=rss",
@@ -2900,13 +2907,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 12:39 ET",
         "pub_ts": 1795541974.0
-      },
-      {
-        "title": "NIKE (NKE) On Reaffirmed Guidance And The Case For Undervaluation",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nike-nke-reaffirmed-guidance-case-171440986.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 12:14 ET",
-        "pub_ts": 1795540480.0
       }
     ],
     "MCD": [
@@ -3392,15 +3392,15 @@
     "CRWD": 1795599303.4974651,
     "ORCL": 1795599303.4974651,
     "COIN": 1795599303.4974651,
-    "LLY": 1795597846.877001,
-    "MRNA": 1795597846.877001,
-    "NKE": 1795597846.877001,
-    "MCD": 1795597846.877001,
+    "LLY": 1795599410.862005,
+    "MRNA": 1795599410.862005,
+    "NKE": 1795599410.862005,
+    "MCD": 1795599410.862005,
     "PEP": 1795598680.3590257,
     "XOM": 1795598680.3590257,
     "JPM": 1795598680.3590257,
     "WMT": 1795598680.3590257,
-    "V": 1795597846.877001,
+    "V": 1795599410.862005,
     "CAT": 1795598680.3590257,
     "FN": 1795599095.8837297,
     "GLW": 1795599095.8837297,
@@ -3424,10 +3424,10 @@
   },
   "calendar_banner": {
     "level": "upcoming",
-    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 235 分钟（11-25 08:30 ET / 22:30 KST）",
+    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 234 分钟（11-25 08:30 ET / 22:30 KST）",
     "detail": "前值 0.3% ｜ 预期 0.3% ｜ 临近公布前15分钟将自动触发防插针预警",
     "event_name": "美国10月核心PCE物价指数环比",
-    "minutes_left": 235,
+    "minutes_left": 234,
     "opex_shield": {
       "date": "2026-11-25",
       "active": false,
