@@ -6043,9 +6043,13 @@
     "2026-11-24:MSFT/NBIS/APLD/TSM/NVDA:5M_ENTRY+STOP_LOSS": {
       "device": "PC",
       "ts": 1795568484.6574807
+    },
+    "JIN10_FLASH:20261125090002102800": {
+      "device": "PC",
+      "ts": 1795568485.7980485
     }
   },
   "device": "PC",
-  "last_heartbeat_ts": 1795568404.8444462,
-  "updated_at": "2026-11-25T01:01:24.657529+00:00"
+  "last_heartbeat_ts": 1795568502.858409,
+  "updated_at": "2026-11-25T01:01:42.858455+00:00"
 }
