@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795644532.912,
-  "updated_at_et": "11-25 17:08 ET",
-  "updated_at_kst": "07:08 KST",
+  "updated_at_ts": 1795644629.328,
+  "updated_at_et": "11-25 17:10 ET",
+  "updated_at_kst": "07:10 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -945,32 +945,32 @@
         "pub_ts": 1795642083.0
       },
       {
-        "title": "Jensen Huang's return, neocloud risk, and a holiday retail rally",
-        "url": "https://finance.yahoo.com/video/jensen-huangs-return-neocloud-risk-210000087.html?.tsrc=rss",
+        "title": "Nvidia engineer who quit in protest of Jensen Huang's ouster says he 'may have moved too quickly,' is open to returning",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-engineer-quit-protest-jensen-220000936.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 16:00 ET",
-        "pub_ts": 1795640400.0
+        "time": "11-25 17:00 ET",
+        "pub_ts": 1795644000.0
       },
       {
-        "title": "Update: US Equity Indexes Mixed, Treasury Yields Drop as Investors Rotate Out of Chipmakers While Assessing Trade Tariffs",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-treasury-213222387.html?.tsrc=rss",
+        "title": "Dow Jones Futures: Market Goes On Wild Ride. Nasdaq, Nvidia Slash Losses While Anthropic Reverses Higher.",
+        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures%3A-market.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 16:32 ET",
-        "pub_ts": 1795642342.0
+        "time": "11-25 16:55 ET",
+        "pub_ts": 1795643728.0
       },
       {
-        "title": "These 5 Tech Stocks are Sidestepping the AI Downturn",
-        "url": "https://finance.yahoo.com/m/d635c9d7-dbc8-3f44-bc94-e186ec33e2bd/these-5-tech-stocks-are.html?.tsrc=rss",
+        "title": "Deere & Company Q4 2026 Earnings Call Summary",
+        "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-deere-company-q4-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 16:16 ET",
-        "pub_ts": 1795641360.0
+        "time": "11-25 16:44 ET",
+        "pub_ts": 1795643089.0
       },
       {
-        "title": "Nvidia Put on CreditWatch Negative by S&P Global Ratings Amid Governance Concerns",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-put-creditwatch-negative-p-210636240.html?.tsrc=rss",
+        "title": "The Dividend ETF I'd Choose to to Generate $500 a Month in Passive Income",
+        "url": "https://www.fool.com/investing/2026/11/25/the-dividend-etf-id-choose-to-to-generate-500-a-month-in-passive-income/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 16:06 ET",
-        "pub_ts": 1795640796.0
+        "time": "11-25 16:35 ET",
+        "pub_ts": 1795642502.0
       }
     ],
     "AMD": [
@@ -2788,6 +2788,13 @@
     ],
     "LLY": [
       {
+        "title": "Dow Jones Futures: Market Goes On Wild Ride. Nasdaq, Nvidia Slash Losses While Anthropic Reverses Higher.",
+        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures%3A-market.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:55 ET",
+        "pub_ts": 1795643728.0
+      },
+      {
         "title": "Sector Update: Healthcare Stocks Fall Late Afternoon",
         "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-fall-afternoon-205719060.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2814,13 +2821,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:07 ET",
         "pub_ts": 1795619228.0
-      },
-      {
-        "title": "Market Chatter: Novo Nordisk and Eli Lilly Prepare New Warning Labels for GLP-1 Drugs Over Eye Condition Risk",
-        "url": "https://finance.yahoo.com/healthcare/articles/market-chatter-novo-nordisk-eli-132230427.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:22 ET",
-        "pub_ts": 1795612950.0
       }
     ],
     "MRNA": [
@@ -3017,6 +3017,20 @@
         "pub_ts": 1795622724.0
       },
       {
+        "title": "JPMorgan sees $450B in AI bond issuance in 2027",
+        "url": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-sees-450b-ai-bond-215824242.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:58 ET",
+        "pub_ts": 1795643904.0
+      },
+      {
+        "title": "JPMorgan Sees $450 Billion AI Debt Blitz in 2027 Before Plateau",
+        "url": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-sees-450-billion-ai-211721263.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:17 ET",
+        "pub_ts": 1795641441.0
+      },
+      {
         "title": "12 Big Funds Bought JPMorgan Chase Last Quarter, While 12 Sold. Who’s Right?",
         "url": "https://www.tikr.com/blog/12-big-funds-bought-jpmorgan-chase-last-quarter-while-12-sold-whos-right?ref=yahoofinance&tlnk=yf-261125-wgx95c2j&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3029,20 +3043,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 11:47 ET",
         "pub_ts": 1795625272.0
-      },
-      {
-        "title": "JPMorgan Says the Biggest Risk to Stocks in 2027 Is the Fed",
-        "url": "https://247wallst.com/investing/2026/11/25/jpmorgan-says-the-biggest-risk-to-stocks-in-2027-is-the-fed/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:27 ET",
-        "pub_ts": 1795624070.0
-      },
-      {
-        "title": "This Asian market could be your portfolio’s best anchor in 2027: JPM",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/asian-market-could-portfolio-best-141633303.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:16 ET",
-        "pub_ts": 1795616193.0
       }
     ],
     "WMT": [
@@ -3315,23 +3315,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795643083.2340322,
-    "SOXL": 1795643083.2340322,
-    "SPY": 1795643083.2340322,
-    "DIA": 1795643083.2340322,
-    "SOXX": 1795643083.2340322,
-    "QQQ": 1795643083.2340322,
-    "SMH": 1795643083.2340322,
-    "IWM": 1795643083.2340322,
-    "IGV": 1795643083.2340322,
-    "TLT": 1795643083.2340322,
-    "GLD": 1795643083.2340322,
-    "SQQQ": 1795643083.2340322,
-    "TSM": 1795643083.2340322,
-    "VIXY": 1795643083.2340322,
-    "SOXS": 1795643083.2340322,
-    "NVDA": 1795643083.2340322,
-    "AMD": 1795643083.2340322,
+    "KORU": 1795644629.3283203,
+    "SOXL": 1795644629.3283203,
+    "SPY": 1795644629.3283203,
+    "DIA": 1795644629.3283203,
+    "SOXX": 1795644629.3283203,
+    "QQQ": 1795644629.3283203,
+    "SMH": 1795644629.3283203,
+    "IWM": 1795644629.3283203,
+    "IGV": 1795644629.3283203,
+    "TLT": 1795644629.3283203,
+    "GLD": 1795644629.3283203,
+    "SQQQ": 1795644629.3283203,
+    "TSM": 1795644629.3283203,
+    "VIXY": 1795644629.3283203,
+    "SOXS": 1795644629.3283203,
+    "NVDA": 1795644629.3283203,
+    "AMD": 1795644629.3283203,
     "ASML": 1795643275.5587509,
     "QCOM": 1795643275.5587509,
     "AVGO": 1795643275.5587509,
@@ -3380,21 +3380,21 @@
     "CRWD": 1795644532.912402,
     "ORCL": 1795644532.912402,
     "COIN": 1795644532.912402,
-    "LLY": 1795643083.2340322,
-    "MRNA": 1795643083.2340322,
-    "NKE": 1795643083.2340322,
-    "MCD": 1795643083.2340322,
-    "PEP": 1795643083.2340322,
+    "LLY": 1795644629.3283203,
+    "MRNA": 1795644629.3283203,
+    "NKE": 1795644629.3283203,
+    "MCD": 1795644629.3283203,
+    "PEP": 1795644629.3283203,
     "XOM": 1795643275.5587509,
-    "JPM": 1795643083.2340322,
+    "JPM": 1795644629.3283203,
     "WMT": 1795643275.5587509,
-    "V": 1795643083.2340322,
+    "V": 1795644629.3283203,
     "CAT": 1795643275.5587509,
     "FN": 1795643372.4456983,
     "GLW": 1795643372.4456983,
     "ANT": 1795643275.5587509,
     "XAUUSD": 1795643275.5587509,
-    "KOSPI": 1795643083.2340322
+    "KOSPI": 1795644629.3283203
   },
   "opex_shield": {
     "date": "2026-11-25",
