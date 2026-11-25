@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795576889.038,
-  "updated_at_et": "11-24 22:21 ET",
-  "updated_at_kst": "12:21 KST",
+  "updated_at_ts": 1795576988.413,
+  "updated_at_et": "11-24 22:23 ET",
+  "updated_at_kst": "12:23 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1175,6 +1175,13 @@
         "pub_ts": 1795568646.0
       },
       {
+        "title": "5 Sleeper Blue-Chip Stock Picks for Steady Long-Term Gains",
+        "url": "https://www.kiplinger.com/investing/blue-chip-stocks/sleeper-blue-chip-stock-picks-for-steady-long-term-gains?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 19:52 ET",
+        "pub_ts": 1795567953.0
+      },
+      {
         "title": "Stephanie Link Says Marvell Could Earn $30 a Share by 2031. Is She Right?",
         "url": "https://247wallst.com/investing/2026/11/24/stephanie-link-says-marvell-could-earn-30-a-share-by-2031-is-she-right/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1194,13 +1201,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 16:06 ET",
         "pub_ts": 1795554360.0
-      },
-      {
-        "title": "Tesla Robotaxi Rival Starts Road Tests Without A Safety Monitor",
-        "url": "https://finance.yahoo.com/m/2fafeed7-c259-3087-9fa8-cf86f4a1ebd4/tesla-robotaxi-rival-starts.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:02 ET",
-        "pub_ts": 1795554167.0
       }
     ],
     "MSFT": [
@@ -1256,13 +1256,6 @@
         "pub_ts": 1795535048.0
       },
       {
-        "title": "Who is holding Jensen Huang accountable? It sure looks like nobody",
-        "url": "https://finance.yahoo.com/video/who-is-holding-jensen-huang-accountable-it-sure-looks-like-nobody-154255467.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:42 ET",
-        "pub_ts": 1795534975.0
-      },
-      {
         "title": "Tech Keeps Eating Hollywood As Netflix Buys Historic Seinfeld Lot",
         "url": "https://finance.yahoo.com/m/34be458f-965e-30c4-8fb7-e730267a65a9/tech-keeps-eating-hollywood.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1275,6 +1268,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 16:19 ET",
         "pub_ts": 1795555192.0
+      },
+      {
+        "title": "Is Apple (AAPL) Above Fair Value As ETF Buying Returns?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-above-fair-value-211324050.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:13 ET",
+        "pub_ts": 1795554804.0
       }
     ],
     "PLTR": [
@@ -1760,11 +1760,25 @@
     ],
     "SPCX": [
       {
+        "title": "Jensen Huang's Return Could Make a Tesla/SpaceX Merger More Likely",
+        "url": "https://www.fool.com/investing/2026/11/24/jensen-huang-s-return-could-make-a-tesla-spacex-merger-more-likely/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 21:50 ET",
+        "pub_ts": 1795575002.0
+      },
+      {
         "title": "Thinking of Buying SpaceX Stock? Gary Black Says Wait for a Potential Tesla Merger to Send It Below $100",
         "url": "https://finance.yahoo.com/markets/stocks/articles/thinking-buying-spacex-stock-gary-013135652.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 20:31 ET",
         "pub_ts": 1795570295.0
+      },
+      {
+        "title": "5 Sleeper Blue-Chip Stock Picks for Steady Long-Term Gains",
+        "url": "https://www.kiplinger.com/investing/blue-chip-stocks/sleeper-blue-chip-stock-picks-for-steady-long-term-gains?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 19:52 ET",
+        "pub_ts": 1795567953.0
       },
       {
         "title": "Nasdaq Drops As NVDA, ANT, SPCX Slide: Mohamed El-Erian Says Market Warning Signals Go Well Beyond Nvidia",
@@ -1779,20 +1793,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 17:12 ET",
         "pub_ts": 1795558359.0
-      },
-      {
-        "title": "RBC Expects SpaceX-Tesla Deal Announcement By Early 2027 — Notes TSLA Shareholders May Accept Combination Without Large Premium",
-        "url": "https://stocktwits.com/news-articles/markets/equity/rbc-expects-space-x-tesla-deal-announcement-by-early-2027-notes-tsla-shareholders-may-accept-combination-without-large-premium/cNbsNbYR9k6?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:55 ET",
-        "pub_ts": 1795557333.0
-      },
-      {
-        "title": "A SpaceX-Tesla Deal Could Come in December. Here's Why 1 Group of Investors Should Be Worried.",
-        "url": "https://www.fool.com/investing/2026/11/24/a-spacex-tesla-deal-could-come-in-december-here-s-why-1-group-of-investors-should-be-worried/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:27 ET",
-        "pub_ts": 1795555622.0
       }
     ],
     "ASTS": [
@@ -3303,30 +3303,30 @@
     "SOXS": 1795576597.71105,
     "NVDA": 1795576597.71105,
     "AMD": 1795576597.71105,
-    "ASML": 1795575424.8860216,
-    "QCOM": 1795575424.8860216,
-    "AVGO": 1795575424.8860216,
-    "AMAT": 1795575424.8860216,
-    "META": 1795575424.8860216,
-    "GOOGL": 1795575424.8860216,
-    "MSFT": 1795575424.8860216,
-    "AAPL": 1795575424.8860216,
-    "PLTR": 1795575424.8860216,
-    "NOW": 1795575424.8860216,
-    "AMZN": 1795575424.8860216,
-    "CRWV": 1795575424.8860216,
-    "NBIS": 1795575424.8860216,
-    "APLD": 1795575424.8860216,
-    "VST": 1795575424.8860216,
-    "BE": 1795575424.8860216,
-    "CRDO": 1795575424.8860216,
-    "COHR": 1795575424.8860216,
-    "MRVL": 1795575424.8860216,
-    "LITE": 1795575424.8860216,
-    "AAOI": 1795575424.8860216,
-    "SPCX": 1795575424.8860216,
+    "ASML": 1795576988.412552,
+    "QCOM": 1795576988.412552,
+    "AVGO": 1795576988.412552,
+    "AMAT": 1795576988.412552,
+    "META": 1795576988.412552,
+    "GOOGL": 1795576988.412552,
+    "MSFT": 1795576988.412552,
+    "AAPL": 1795576988.412552,
+    "PLTR": 1795576988.412552,
+    "NOW": 1795576988.412552,
+    "AMZN": 1795576988.412552,
+    "CRWV": 1795576988.412552,
+    "NBIS": 1795576988.412552,
+    "APLD": 1795576988.412552,
+    "VST": 1795576988.412552,
+    "BE": 1795576988.412552,
+    "CRDO": 1795576988.412552,
+    "COHR": 1795576988.412552,
+    "MRVL": 1795576988.412552,
+    "LITE": 1795576988.412552,
+    "AAOI": 1795576988.412552,
+    "SPCX": 1795576988.412552,
     "ASTS": 1795575815.6530938,
-    "AXTI": 1795575424.8860216,
+    "AXTI": 1795576988.412552,
     "NASA": 1795575815.6530938,
     "LUNR": 1795575815.6530938,
     "TSLA": 1795575815.6530938,
@@ -3361,8 +3361,8 @@
     "WMT": 1795576597.71105,
     "V": 1795575912.470696,
     "CAT": 1795576597.71105,
-    "FN": 1795575424.8860216,
-    "GLW": 1795575424.8860216,
+    "FN": 1795576988.412552,
+    "GLW": 1795576988.412552,
     "ANT": 1795576597.71105,
     "XAUUSD": 1795576597.71105,
     "KOSPI": 1795576597.71105
