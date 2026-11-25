@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795565519.406,
-  "updated_at_et": "11-24 19:11 ET",
-  "updated_at_kst": "09:11 KST",
+  "updated_at_ts": 1795565624.541,
+  "updated_at_et": "11-24 19:13 ET",
+  "updated_at_kst": "09:13 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -918,18 +918,25 @@
     ],
     "NVDA": [
       {
-        "title": "Why Trump wanted Jensen Huang back at the helm of Nvidia",
-        "url": "https://finance.yahoo.com/markets/article/why-trump-wanted-jensen-huang-back-at-the-helm-of-nvidia-224325153.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 17:43 ET",
-        "pub_ts": 1795560205.0
-      },
-      {
         "title": "Dow Jones Futures Fall: Nvidia, Anthropic Lead AI Retreat But Many Sectors Strong; Fed Inflation Data Due",
         "url": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures-fall%3A.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 18:34 ET",
-        "pub_ts": 1795563290.0
+        "time": "11-24 19:09 ET",
+        "pub_ts": 1795565390.0
+      },
+      {
+        "title": "Nasdaq Drops As NVDA, ANT, SPCX Slide: Mohamed El-Erian Says Market Warning Signals Go Well Beyond Nvidia",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-drops-as-nvda-ant-spcx-slide-mohamed-el-erian-says-market-warning-signals-go-well-beyond-nvidia/cNbsoOQR9lb?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 18:58 ET",
+        "pub_ts": 1795564727.0
+      },
+      {
+        "title": "Jensen Huang Reveals 90 Minutes Of Daily Therapy. Nvidia CEO Apologizes To Staff After Scandal.",
+        "url": "https://www.ibtimes.com/jensen-huang-daily-therapy-after-misconduct-scandal-3810157?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 18:42 ET",
+        "pub_ts": 1795563768.0
       },
       {
         "title": "How Much Is Nvidia Stock Worth Now That Jensen Huang Is Back?",
@@ -944,13 +951,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 18:25 ET",
         "pub_ts": 1795562702.0
-      },
-      {
-        "title": "3 Canadian Value Stocks For November 2026",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-canadian-value-stocks-november-232403769.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 18:24 ET",
-        "pub_ts": 1795562643.0
       }
     ],
     "AMD": [
@@ -3212,39 +3212,39 @@
     ],
     "ANT": [
       {
-        "title": "Don't Be A Hero: The Wrong Way To Buy The Tech Dip",
-        "url": "https://finnhub.io/api/news?id=241df4d0abcc07478c124c3cf5cb5ce55810e50d75a5d55d588241685d7723ee",
-        "source": "SeekingAlpha",
-        "time": "11-24 11:37 ET",
-        "pub_ts": 1795538249.0
+        "title": "Anthropic falls below IPO price as Nvidia gives back gains",
+        "url": "https://finance.yahoo.com/video/anthropic-falls-below-ipo-price-as-nvidia-gives-back-gains-214558309.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:45 ET",
+        "pub_ts": 1795556758.0
       },
       {
-        "title": "No Exposure? Think Again: How Anthropic's Fall Threatens Every Investor",
-        "url": "https://finnhub.io/api/news?id=3242bf55276018cb50fdb45e07eb3d5099c6beb78ca76f12b79ba126c30e4a4d",
-        "source": "SeekingAlpha",
-        "time": "11-24 11:06 ET",
-        "pub_ts": 1795536367.0
+        "title": "Dow Jones Futures Fall: Nvidia, Anthropic Lead AI Retreat But Many Sectors Strong; Fed Inflation Data Due",
+        "url": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures-fall%3A.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 19:09 ET",
+        "pub_ts": 1795565390.0
       },
       {
-        "title": "Stock Market Today: Jensen Huang's Comeback Sends Nvidia Up 31% and Gives the Nasdaq Its Best Day Since April 2025",
-        "url": "https://finnhub.io/api/news?id=a28ff3b86a2b59b70e2d8adc10dc2b7e83f0f7efe1d01c754c0c6ac79b1da05f",
-        "source": "ChartMill",
-        "time": "11-24 08:58 ET",
-        "pub_ts": 1795528688.0
+        "title": "AI Pullback Raises the Cost of Data Center Financing",
+        "url": "https://finance.yahoo.com/video/ai-pullback-raises-cost-data-224116831.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 17:41 ET",
+        "pub_ts": 1795560076.0
       },
       {
-        "title": "Beware, The AI Trade May Not Have Bottomed Yet",
-        "url": "https://finnhub.io/api/news?id=9b54774e4ea64a6c20bb99348fa0a94b16042ecf0e038bfedbac60fcecf3211e",
-        "source": "SeekingAlpha",
-        "time": "11-24 05:20 ET",
-        "pub_ts": 1795515649.0
+        "title": "Anthropic: ANT that a shame",
+        "url": "https://www.axios.com/2026/11/24/anthropic-stock-ipo-banks#utm_source=yahoo_finance&utm_medium=partner&utm_campaign=subs-partner-yahoo-finance-AI?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 17:30 ET",
+        "pub_ts": 1795559446.0
       },
       {
-        "title": "How AMD Is Set To Exploit The Nvidia Rout",
-        "url": "https://finnhub.io/api/news?id=d11c8f5c0a4efb8481ecf34f71b2d9b96272ce25ede3a0d3bffdd4b13bd15962",
-        "source": "SeekingAlpha",
-        "time": "11-24 04:52 ET",
-        "pub_ts": 1795513968.0
+        "title": "Why Anthropic Stock Fell Again",
+        "url": "https://www.fool.com/investing/2026/11/24/why-anthropic-stock-fell-again/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:55 ET",
+        "pub_ts": 1795557302.0
       }
     ],
     "XAUUSD": [
@@ -3295,23 +3295,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795564064.5261943,
-    "SOXL": 1795564064.5261943,
-    "SPY": 1795564064.5261943,
-    "DIA": 1795564064.5261943,
-    "SOXX": 1795564064.5261943,
-    "QQQ": 1795564064.5261943,
-    "SMH": 1795564064.5261943,
-    "IWM": 1795564064.5261943,
-    "IGV": 1795564064.5261943,
-    "TLT": 1795564064.5261943,
-    "GLD": 1795564064.5261943,
-    "SQQQ": 1795564064.5261943,
-    "TSM": 1795564064.5261943,
-    "VIXY": 1795564064.5261943,
-    "SOXS": 1795564064.5261943,
-    "NVDA": 1795564064.5261943,
-    "AMD": 1795564064.5261943,
+    "KORU": 1795565624.541219,
+    "SOXL": 1795565624.541219,
+    "SPY": 1795565624.541219,
+    "DIA": 1795565624.541219,
+    "SOXX": 1795565624.541219,
+    "QQQ": 1795565624.541219,
+    "SMH": 1795565624.541219,
+    "IWM": 1795565624.541219,
+    "IGV": 1795565624.541219,
+    "TLT": 1795565624.541219,
+    "GLD": 1795565624.541219,
+    "SQQQ": 1795565624.541219,
+    "TSM": 1795565624.541219,
+    "VIXY": 1795565624.541219,
+    "SOXS": 1795565624.541219,
+    "NVDA": 1795565624.541219,
+    "AMD": 1795565624.541219,
     "ASML": 1795564481.1529803,
     "QCOM": 1795564481.1529803,
     "AVGO": 1795564481.1529803,
@@ -3364,17 +3364,17 @@
     "MRNA": 1795564684.6016364,
     "NKE": 1795564684.6016364,
     "MCD": 1795564684.6016364,
-    "PEP": 1795564064.5261943,
-    "XOM": 1795564064.5261943,
-    "JPM": 1795564064.5261943,
-    "WMT": 1795564064.5261943,
+    "PEP": 1795565624.541219,
+    "XOM": 1795565624.541219,
+    "JPM": 1795565624.541219,
+    "WMT": 1795565624.541219,
     "V": 1795564684.6016364,
-    "CAT": 1795564064.5261943,
+    "CAT": 1795565624.541219,
     "FN": 1795564481.1529803,
     "GLW": 1795564481.1529803,
-    "ANT": 1795564064.5261943,
-    "XAUUSD": 1795564064.5261943,
-    "KOSPI": 1795564064.5261943
+    "ANT": 1795565624.541219,
+    "XAUUSD": 1795565624.541219,
+    "KOSPI": 1795565624.541219
   },
   "opex_shield": {
     "date": "2026-11-24",
