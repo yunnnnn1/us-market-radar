@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795644823.134,
-  "updated_at_et": "11-25 17:13 ET",
-  "updated_at_kst": "07:13 KST",
+  "updated_at_ts": 1795644921.648,
+  "updated_at_et": "11-25 17:15 ET",
+  "updated_at_kst": "07:15 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1796,6 +1796,20 @@
         "pub_ts": 1795640239.0
       },
       {
+        "title": "SpaceX Stock Surges on AI Satellite Approval and Trump Accounts Plan",
+        "url": "https://beincrypto.com/spacex-stock-ai-satellites-trump-accounts/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 17:03 ET",
+        "pub_ts": 1795644217.0
+      },
+      {
+        "title": "SpaceX is now on the clock to launch 1,000,000 satellites — 60x what exists in space today. Amazon calls it impossible",
+        "url": "https://finance.yahoo.com/technology/ai/articles/spacex-now-clock-launch-1-220000396.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 17:00 ET",
+        "pub_ts": 1795644000.0
+      },
+      {
         "title": "SpaceX (SPCX) Faces Grok Lawsuits As It Expands $74 Billion In AI Campuses",
         "url": "https://finance.yahoo.com/technology/ai/articles/spacex-spcx-faces-grok-lawsuits-211010807.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1808,20 +1822,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 15:56 ET",
         "pub_ts": 1795640204.0
-      },
-      {
-        "title": "Sector Update: Tech Stocks Fall Late Afternoon",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-204936627.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 15:49 ET",
-        "pub_ts": 1795639776.0
-      },
-      {
-        "title": "SpaceX stock price crashes on concerns over compute demand",
-        "url": "https://blockspace.media/short/spacex-stock-price-crashes-on-concerns-over-compute-demand/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 15:32 ET",
-        "pub_ts": 1795638730.0
       }
     ],
     "ASTS": [
@@ -3351,11 +3351,11 @@
     "CRDO": 1795644823.13393,
     "COHR": 1795644823.13393,
     "MRVL": 1795644823.13393,
-    "LITE": 1795643372.4456983,
+    "LITE": 1795644921.64759,
     "AAOI": 1795644823.13393,
-    "SPCX": 1795643372.4456983,
+    "SPCX": 1795644921.64759,
     "ASTS": 1795644532.912402,
-    "AXTI": 1795643372.4456983,
+    "AXTI": 1795644921.64759,
     "NASA": 1795644532.912402,
     "LUNR": 1795644532.912402,
     "TSLA": 1795644532.912402,
@@ -3390,8 +3390,8 @@
     "WMT": 1795644823.13393,
     "V": 1795644629.3283203,
     "CAT": 1795644823.13393,
-    "FN": 1795643372.4456983,
-    "GLW": 1795643372.4456983,
+    "FN": 1795644921.64759,
+    "GLW": 1795644921.64759,
     "ANT": 1795644823.13393,
     "XAUUSD": 1795644823.13393,
     "KOSPI": 1795644629.3283203
