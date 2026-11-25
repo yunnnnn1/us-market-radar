@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795641100.51,
-  "updated_at_et": "11-25 16:11 ET",
-  "updated_at_kst": "06:11 KST",
+  "updated_at_ts": 1795641438.64,
+  "updated_at_et": "11-25 16:17 ET",
+  "updated_at_kst": "06:17 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -2084,6 +2084,13 @@
     ],
     "KO": [
       {
+        "title": "Coca-Cola Has Raised Its Dividend 64 Straight Years. Here's What $10,000 Will Pay You in 2027.",
+        "url": "https://www.fool.com/investing/2026/11/25/coca-cola-has-raised-its-dividend-64-straight-years-what-10000-will-pay-you-in-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:07 ET",
+        "pub_ts": 1795640821.0
+      },
+      {
         "title": "Prediction: Coca-Cola Stock Will Close 2026 Over $100 per Share. Here’s Why It’s a No-Brainer Buy for 2027.",
         "url": "https://www.fool.com/investing/2026/11/25/prediction-coca-cola-stock-will-close-2026-over-100-per-share-heres-why-its-a-no-brainer-buy-for-2027/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2110,13 +2117,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 21:47 ET",
         "pub_ts": 1795574825.0
-      },
-      {
-        "title": "Prediction: Here's What $10,000 in Coca-Cola Could Pay You in Dividends by 2036",
-        "url": "https://www.fool.com/investing/2026/11/24/prediction-heres-what-10000-in-coca-cola-could-pay-you-in-dividends-by-2036/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 17:33 ET",
-        "pub_ts": 1795559582.0
       }
     ],
     "FLY": [
@@ -2269,6 +2269,20 @@
     ],
     "DELL": [
       {
+        "title": "Dell earnings analysis: questions answered and next catalysts",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/dell-earnings-analysis-questions-answered-204536459.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:45 ET",
+        "pub_ts": 1795639536.0
+      },
+      {
+        "title": "Dell’s Jeff Clarke: “We’ve Had No Customers Reschedule Business.” That’s Good News for Nvidia",
+        "url": "https://www.tikr.com/blog/dells-jeff-clarke-weve-had-no-customers-reschedule-business-thats-good-news-for-nvidia?ref=yahoofinance&tlnk=yf-261125-pm9r283x&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:20 ET",
+        "pub_ts": 1795638027.0
+      },
+      {
         "title": "What's Behind Dell Stock's Fall?",
         "url": "https://www.trefis.com/stock/dell/articles/628977/what-s-behind-dell-stock-s-fall/2026-11-25?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2288,20 +2302,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 13:37 ET",
         "pub_ts": 1795631820.0
-      },
-      {
-        "title": "Sector Update: Tech Stocks Fall Wednesday Afternoon",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-wednesday-183231718.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 13:32 ET",
-        "pub_ts": 1795631551.0
-      },
-      {
-        "title": "What Does Dell Technologies (DELL) $25 Billion Buyback Mean After AI Demand Surged?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/does-dell-technologies-dell-25-181543009.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 13:15 ET",
-        "pub_ts": 1795630543.0
       }
     ],
     "OKLO": [
@@ -2565,6 +2565,13 @@
     ],
     "MSTR": [
       {
+        "title": "With bitcoin crashing, is Strategy (MSTR) in trouble?",
+        "url": "https://blockspace.media/short/with-bitcoin-crashing-is-strategy-mstr-in-trouble/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:28 ET",
+        "pub_ts": 1795638489.0
+      },
+      {
         "title": "Strategy Is Worth $4 Billion Less Than Its Bitcoin Amid Liquidity Squeeze",
         "url": "https://finance.yahoo.com/m/02ba3534-33d6-31a7-8856-8ec31c96c8e5/strategy-is-worth-%244-billion.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2591,13 +2598,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 05:22 ET",
         "pub_ts": 1795602143.0
-      },
-      {
-        "title": "Dow, S&P 500, Nasdaq Futures Edge Lower Amid Tech Selloff Ahead Of Key Inflation Data: DELL, AMBA, SOXL, MSTR In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-edge-lower-amid-tech-selloff-ahead-of-key-inflation-data-dell-amba-soxl-mstr-in-focus/cNbHbLoR9lJ?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 22:20 ET",
-        "pub_ts": 1795576810.0
       }
     ],
     "SNDK": [
@@ -2639,6 +2639,27 @@
     ],
     "BTC-USD": [
       {
+        "title": "Sector Update: Financial Stocks Advance Late Afternoon",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-afternoon-210138295.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:01 ET",
+        "pub_ts": 1795640498.0
+      },
+      {
+        "title": "With bitcoin crashing, is Strategy (MSTR) in trouble?",
+        "url": "https://blockspace.media/short/with-bitcoin-crashing-is-strategy-mstr-in-trouble/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:28 ET",
+        "pub_ts": 1795638489.0
+      },
+      {
+        "title": "IREN stock price is down 80% over six months. Here’s why",
+        "url": "https://blockspace.media/short/iren-stock-price-is-down-80-over-six-months-heres-why/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:18 ET",
+        "pub_ts": 1795637937.0
+      },
+      {
         "title": "Mysterious traders made $340,000 betting on Huang’s Nvidia return",
         "url": "https://www.thestreet.com/crypto/markets/mysterious-traders-made-340000-betting-on-huangs-nvidia-return?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2651,27 +2672,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 14:57 ET",
         "pub_ts": 1795636676.0
-      },
-      {
-        "title": "Kraken’s new credit cards offer up to 4% bitcoin rewards",
-        "url": "https://finance.yahoo.com/video/kraken-credit-cards-offer-4-192100513.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 14:21 ET",
-        "pub_ts": 1795634460.0
-      },
-      {
-        "title": "Sector Update: Financial Stocks Rise in Afternoon Trading",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-afternoon-185859010.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 13:58 ET",
-        "pub_ts": 1795633139.0
-      },
-      {
-        "title": "Is the Anthropic IPO to Blame for Bitcoin's Recent Downturn? The Answer Might Surprise You.",
-        "url": "https://www.fool.com/investing/2026/11/25/is-the-anthropic-ipo-to-blame-for-bitcoins-recent-downturn-the-answer-might-surprise-you/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 13:57 ET",
-        "pub_ts": 1795633021.0
       }
     ],
     "CRWD": [
@@ -2713,6 +2713,13 @@
     ],
     "ORCL": [
       {
+        "title": "Why Oracle Stock Slumped Today",
+        "url": "https://www.fool.com/investing/2026/11/25/why-oracle-stock-slumped-today/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:40 ET",
+        "pub_ts": 1795639212.0
+      },
+      {
         "title": "Oracle Is Down 60% From Its June High. J.P. Morgan Still Sees $200",
         "url": "https://www.tikr.com/blog/oracle-is-down-60-from-its-june-high-j-p-morgan-still-sees-200?ref=yahoofinance&tlnk=yf-261125-q6w2wj6x&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2739,13 +2746,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 11:13 ET",
         "pub_ts": 1795623182.0
-      },
-      {
-        "title": "Oracle Stock Is Down 67%. Should It Keep Building Or Take A Breather?",
-        "url": "https://www.trefis.com/stock/orcl/articles/628199/oracle-stock-is-down-67-should-it-keep-building-or-take-a-breather/2026-11-25?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:00 ET",
-        "pub_ts": 1795622402.0
       }
     ],
     "COIN": [
@@ -3353,32 +3353,32 @@
     "LITE": 1795640241.0042448,
     "AAOI": 1795640138.0302868,
     "SPCX": 1795640241.0042448,
-    "ASTS": 1795639713.3643832,
+    "ASTS": 1795641438.639946,
     "AXTI": 1795640241.0042448,
-    "NASA": 1795639713.3643832,
-    "LUNR": 1795639713.3643832,
-    "TSLA": 1795639713.3643832,
-    "AXP": 1795639713.3643832,
-    "RKLB": 1795639713.3643832,
-    "KO": 1795639713.3643832,
-    "FLY": 1795639713.3643832,
-    "INTC": 1795639713.3643832,
-    "VRT": 1795639713.3643832,
-    "HPE": 1795639713.3643832,
-    "DELL": 1795639713.3643832,
-    "OKLO": 1795639713.3643832,
-    "CEG": 1795639713.3643832,
-    "FPS": 1795639713.3643832,
-    "MU": 1795639713.3643832,
-    "SKHY": 1795639713.3643832,
-    "WDC": 1795639713.3643832,
-    "STX": 1795639713.3643832,
-    "MSTR": 1795639713.3643832,
-    "SNDK": 1795639713.3643832,
-    "BTC-USD": 1795639713.3643832,
-    "CRWD": 1795639713.3643832,
-    "ORCL": 1795639713.3643832,
-    "COIN": 1795639713.3643832,
+    "NASA": 1795641438.639946,
+    "LUNR": 1795641438.639946,
+    "TSLA": 1795641438.639946,
+    "AXP": 1795641438.639946,
+    "RKLB": 1795641438.639946,
+    "KO": 1795641438.639946,
+    "FLY": 1795641438.639946,
+    "INTC": 1795641438.639946,
+    "VRT": 1795641438.639946,
+    "HPE": 1795641438.639946,
+    "DELL": 1795641438.639946,
+    "OKLO": 1795641438.639946,
+    "CEG": 1795641438.639946,
+    "FPS": 1795641438.639946,
+    "MU": 1795641438.639946,
+    "SKHY": 1795641438.639946,
+    "WDC": 1795641438.639946,
+    "STX": 1795641438.639946,
+    "MSTR": 1795641438.639946,
+    "SNDK": 1795641438.639946,
+    "BTC-USD": 1795641438.639946,
+    "CRWD": 1795641438.639946,
+    "ORCL": 1795641438.639946,
+    "COIN": 1795641438.639946,
     "LLY": 1795640032.842481,
     "MRNA": 1795640032.842481,
     "NKE": 1795640032.842481,
