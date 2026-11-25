@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795619804.35,
-  "updated_at_et": "11-25 10:16 ET",
-  "updated_at_kst": "00:16 KST",
+  "updated_at_ts": 1795619911.038,
+  "updated_at_et": "11-25 10:18 ET",
+  "updated_at_kst": "00:18 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -2983,6 +2983,13 @@
     ],
     "XOM": [
       {
+        "title": "Turn $100,000 Into Lifetime Paychecks With These “Forever” Passive Income Dividend Stocks",
+        "url": "https://247wallst.com/investing/2026/11/25/turn-100000-into-lifetime-paychecks-with-these-forever-passive-income-dividend-stocks/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:02 ET",
+        "pub_ts": 1795618961.0
+      },
+      {
         "title": "Global Ethyl Derivatives Market Report 2026: Executive Strategy and Forecast to 2030 | Capitalize on Bio-Based and Pharma Demand with BASF, Dow, Arkema, Clariant, and Exxon Mobil",
         "url": "https://finance.yahoo.com/markets/commodities/articles/global-ethyl-derivatives-market-report-143100666.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3009,13 +3016,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 12:28 ET",
         "pub_ts": 1795541310.0
-      },
-      {
-        "title": "ExxonMobil Sinks 14% and Chevron 12% in a Month as Trump Says Iran Wants “to Make a Deal”",
-        "url": "https://www.tikr.com/blog/exxonmobil-sinks-14-and-chevron-12-in-a-month-as-trump-says-iran-wants-to-make-a-deal?ref=yahoofinance&tlnk=yf-261124-fw5h76ch&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 05:45 ET",
-        "pub_ts": 1795517116.0
       }
     ],
     "JPM": [
@@ -3057,6 +3057,13 @@
     ],
     "WMT": [
       {
+        "title": "Tanking gas prices could be the setup needed for strong holiday season",
+        "url": "https://finance.yahoo.com/video/tanking-gas-prices-could-be-the-setup-needed-for-strong-holiday-season-145638621.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:56 ET",
+        "pub_ts": 1795618598.0
+      },
+      {
         "title": "Amazon and Meta are negotiating the future of AI shopping. Consumers aren't quite there yet.",
         "url": "https://finance.yahoo.com/technology/article/amazon-and-meta-are-negotiating-the-future-of-ai-shopping-consumers-arent-quite-there-yet-144215428.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3083,13 +3090,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 08:21 ET",
         "pub_ts": 1795612870.0
-      },
-      {
-        "title": "Flipkart CEO Kalyan Krishnamurthy to step down next week amid IPO uncertainty",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/flipkart-ceo-kalyan-krishnamurthy-step-130819116.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:08 ET",
-        "pub_ts": 1795612099.0
       }
     ],
     "V": [
@@ -3395,15 +3395,15 @@
     "NKE": 1795619804.3499985,
     "MCD": 1795619804.3499985,
     "PEP": 1795619804.3499985,
-    "XOM": 1795618316.0786698,
+    "XOM": 1795619911.0375345,
     "JPM": 1795619804.3499985,
-    "WMT": 1795618316.0786698,
+    "WMT": 1795619911.0375345,
     "V": 1795619804.3499985,
-    "CAT": 1795618316.0786698,
+    "CAT": 1795619911.0375345,
     "FN": 1795619273.1052902,
     "GLW": 1795619273.1052902,
-    "ANT": 1795618316.0786698,
-    "XAUUSD": 1795618316.0786698,
+    "ANT": 1795619911.0375345,
+    "XAUUSD": 1795619911.0375345,
     "KOSPI": 1795619804.3499985
   },
   "opex_shield": {
