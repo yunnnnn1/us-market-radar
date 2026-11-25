@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795632231.388,
-  "updated_at_et": "11-25 13:43 ET",
-  "updated_at_kst": "03:43 KST",
+  "updated_at_ts": 1795632334.376,
+  "updated_at_et": "11-25 13:45 ET",
+  "updated_at_kst": "03:45 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1790,39 +1790,39 @@
     ],
     "SPCX": [
       {
-        "title": "Tesla and SpaceX stocks sink as merger concerns mount",
-        "url": "https://finance.yahoo.com/markets/stocks/article/tesla-and-spacex-stocks-sink-as-merger-concerns-mount-154159372.html?.tsrc=rss",
+        "title": "SpaceX stock pares losses following FCC approval for data centers in space",
+        "url": "https://finance.yahoo.com/technology/article/spacex-stock-pares-losses-following-fcc-approval-for-data-centers-in-space-183757039.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 10:41 ET",
-        "pub_ts": 1795621319.0
+        "time": "11-25 13:37 ET",
+        "pub_ts": 1795631877.0
       },
       {
-        "title": "SpaceX Wins First-Ever U.S. Approval for Orbital AI Data Centers",
-        "url": "https://www.cryptoprowl.com/releases/spacex-wins-first-ever-us-approval-for-orbital-ai-data-centers-8074?.tsrc=rss",
+        "title": "Musk Says Grok Bot Can Find the “Best Black Friday Deals.” Grok Already Places 24% of AI Agent Orders",
+        "url": "https://www.tikr.com/blog/musk-says-grok-bot-can-find-the-best-black-friday-deals-grok-already-places-24-of-ai-agent-orders?ref=yahoofinance&tlnk=yf-261125-2c88523j&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 12:31 ET",
-        "pub_ts": 1795627860.0
+        "time": "11-25 13:24 ET",
+        "pub_ts": 1795631070.0
       },
       {
-        "title": "Anthropic Vs. SpaceX: Both Fell Below IPO Price, But Only One Sees Valuation Below $1 Trillion",
-        "url": "https://stocktwits.com/news-articles/markets/equity/anthropic-vs-space-x-both-fell-below-ipo-price-but-only-one-sees-valuation-below-1-trillion/cNbHNrsR9mq?.tsrc=rss",
+        "title": "Prediction: SpaceX Stock Will Be Worth This Much in 3 Years",
+        "url": "https://www.fool.com/investing/2026/11/25/prediction-spacex-stock-will-be-worth-this-much-in-3-years/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 12:17 ET",
-        "pub_ts": 1795627022.0
+        "time": "11-25 13:20 ET",
+        "pub_ts": 1795630803.0
       },
       {
-        "title": "The Largest IPO in Stock Market History Is Here. What It Means for Your Portfolio",
-        "url": "https://www.fool.com/investing/2026/11/25/the-largest-ipo-in-stock-market-history-is-here-what-it-means-for-your-portfolio/?.tsrc=rss",
+        "title": "SpaceX gets approval to deploy 1 million satellites for data centers in space",
+        "url": "https://www.independent.co.uk/tech/spacex-data-center-satellites-fcc-starmind-approval-b3091649.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 12:03 ET",
-        "pub_ts": 1795626182.0
+        "time": "11-25 13:18 ET",
+        "pub_ts": 1795630717.0
       },
       {
-        "title": "Why SpaceX Stock Keeps Going Down",
-        "url": "https://www.fool.com/investing/2026/11/25/why-spacex-stock-keeps-going-down/?.tsrc=rss",
+        "title": "SpaceX wins landmark FCC backing for 1 million-satellite data center constellation",
+        "url": "https://finance.yahoo.com/technology/ai/articles/spacex-wins-landmark-fcc-backing-175942978.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 11:23 ET",
-        "pub_ts": 1795623839.0
+        "time": "11-25 12:59 ET",
+        "pub_ts": 1795629582.0
       }
     ],
     "ASTS": [
@@ -3352,11 +3352,11 @@
     "CRDO": 1795632231.3878462,
     "COHR": 1795632231.3878462,
     "MRVL": 1795632231.3878462,
-    "LITE": 1795628743.0518155,
+    "LITE": 1795632334.3763711,
     "AAOI": 1795632231.3878462,
-    "SPCX": 1795628743.0518155,
+    "SPCX": 1795632334.3763711,
     "ASTS": 1795631779.8762825,
-    "AXTI": 1795628743.0518155,
+    "AXTI": 1795632334.3763711,
     "NASA": 1795631779.8762825,
     "LUNR": 1795631779.8762825,
     "TSLA": 1795631779.8762825,
@@ -3391,8 +3391,8 @@
     "WMT": 1795632231.3878462,
     "V": 1795632125.651763,
     "CAT": 1795632231.3878462,
-    "FN": 1795628743.0518155,
-    "GLW": 1795628743.0518155,
+    "FN": 1795632334.3763711,
+    "GLW": 1795632334.3763711,
     "ANT": 1795632231.3878462,
     "XAUUSD": 1795632231.3878462,
     "KOSPI": 1795632125.651763
