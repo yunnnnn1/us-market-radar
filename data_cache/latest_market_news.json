@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795592261.642,
-  "updated_at_et": "11-25 02:37 ET",
-  "updated_at_kst": "16:37 KST",
+  "updated_at_ts": 1795592368.602,
+  "updated_at_et": "11-25 02:39 ET",
+  "updated_at_kst": "16:39 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -17,7 +17,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 353,
+      "minutes_left": 351,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -36,7 +36,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 353,
+      "minutes_left": 351,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -946,6 +946,20 @@
     ],
     "NVDA": [
       {
+        "title": "Tech firms back in crosshairs as Huang rally reverses",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/tech-firms-back-crosshairs-huang-024219799.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 02:31 ET",
+        "pub_ts": 1795591873.0
+      },
+      {
+        "title": "SK hynix (NasdaqGS:SKHY) Sell Off Puts Undervalued Narrative Back In Focus",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-nasdaqgs-skhy-sell-070941477.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 02:09 ET",
+        "pub_ts": 1795590581.0
+      },
+      {
         "title": "Nvidia’s spying scandal is backfiring on China",
         "url": "https://uk.finance.yahoo.com/news/nvidia-spying-scandal-backfiring-china-070000166.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -965,20 +979,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 01:52 ET",
         "pub_ts": 1795589553.0
-      },
-      {
-        "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63614091/stock-market-will-sp-500-open-up-or-down-today-85?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 01:06 ET",
-        "pub_ts": 1795586777.0
-      },
-      {
-        "title": "‘Not All Of It Was Forthcoming’: Singapore PM Lawrence Wong Knocks US Cooperation In Nvidia Megaspeed Chip Probe",
-        "url": "https://finance.yahoo.com/technology/articles/not-forthcoming-singapore-pm-lawrence-052954958.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 00:29 ET",
-        "pub_ts": 1795584594.0
       }
     ],
     "AMD": [
@@ -3323,23 +3323,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795590786.8275473,
-    "SOXL": 1795590786.8275473,
-    "SPY": 1795590786.8275473,
-    "DIA": 1795590786.8275473,
-    "SOXX": 1795590786.8275473,
-    "QQQ": 1795590786.8275473,
-    "SMH": 1795590786.8275473,
-    "IWM": 1795590786.8275473,
-    "IGV": 1795590786.8275473,
-    "TLT": 1795590786.8275473,
-    "GLD": 1795590786.8275473,
-    "SQQQ": 1795590786.8275473,
-    "TSM": 1795590786.8275473,
-    "VIXY": 1795590786.8275473,
-    "SOXS": 1795590786.8275473,
-    "NVDA": 1795590786.8275473,
-    "AMD": 1795590786.8275473,
+    "KORU": 1795592368.6017811,
+    "SOXL": 1795592368.6017811,
+    "SPY": 1795592368.6017811,
+    "DIA": 1795592368.6017811,
+    "SOXX": 1795592368.6017811,
+    "QQQ": 1795592368.6017811,
+    "SMH": 1795592368.6017811,
+    "IWM": 1795592368.6017811,
+    "IGV": 1795592368.6017811,
+    "TLT": 1795592368.6017811,
+    "GLD": 1795592368.6017811,
+    "SQQQ": 1795592368.6017811,
+    "TSM": 1795592368.6017811,
+    "VIXY": 1795592368.6017811,
+    "SOXS": 1795592368.6017811,
+    "NVDA": 1795592368.6017811,
+    "AMD": 1795592368.6017811,
     "ASML": 1795591210.753893,
     "QCOM": 1795591210.753893,
     "AVGO": 1795591210.753893,
@@ -3392,17 +3392,17 @@
     "MRNA": 1795591522.5358188,
     "NKE": 1795591522.5358188,
     "MCD": 1795591522.5358188,
-    "PEP": 1795590786.8275473,
-    "XOM": 1795590786.8275473,
-    "JPM": 1795590786.8275473,
-    "WMT": 1795590786.8275473,
+    "PEP": 1795592368.6017811,
+    "XOM": 1795592368.6017811,
+    "JPM": 1795592368.6017811,
+    "WMT": 1795592368.6017811,
     "V": 1795591522.5358188,
-    "CAT": 1795590786.8275473,
+    "CAT": 1795592368.6017811,
     "FN": 1795591210.753893,
     "GLW": 1795591210.753893,
-    "ANT": 1795590786.8275473,
-    "XAUUSD": 1795590786.8275473,
-    "KOSPI": 1795590786.8275473
+    "ANT": 1795592368.6017811,
+    "XAUUSD": 1795592368.6017811,
+    "KOSPI": 1795592368.6017811
   },
   "opex_shield": {
     "date": "2026-11-25",
@@ -3420,10 +3420,10 @@
   },
   "calendar_banner": {
     "level": "upcoming",
-    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 353 分钟（11-25 08:30 ET / 22:30 KST）",
+    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 351 分钟（11-25 08:30 ET / 22:30 KST）",
     "detail": "前值 0.3% ｜ 预期 0.3% ｜ 临近公布前15分钟将自动触发防插针预警",
     "event_name": "美国10月核心PCE物价指数环比",
-    "minutes_left": 353,
+    "minutes_left": 351,
     "opex_shield": {
       "date": "2026-11-25",
       "active": false,
