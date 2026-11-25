@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795627049.518,
-  "updated_at_et": "11-25 12:17 ET",
-  "updated_at_kst": "02:17 KST",
+  "updated_at_ts": 1795627155.175,
+  "updated_at_et": "11-25 12:19 ET",
+  "updated_at_kst": "02:19 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1051,6 +1051,13 @@
     ],
     "QCOM": [
       {
+        "title": "Broadcom vs. Qualcomm: Which Technology Stock Is a Better Buy for 2027?",
+        "url": "https://www.fool.com/coverage/better-buy/2026/11/25/broadcom-vs-qualcomm-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:52 ET",
+        "pub_ts": 1795625521.0
+      },
+      {
         "title": "Qualcomm Sets Stunning $500 Stock Target for CEO",
         "url": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-sets-stunning-500-stock-144851221.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1077,50 +1084,43 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:28 ET",
         "pub_ts": 1795606122.0
-      },
-      {
-        "title": "ETFs Bought $75.2 Million of Qualcomm (QCOM) on Monday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-75-2-million-110142939.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:01 ET",
-        "pub_ts": 1795604502.0
       }
     ],
     "AVGO": [
+      {
+        "title": "This Is Why I Wouldn’t Ignore This Stock Heading Into 2027",
+        "url": "https://247wallst.com/investing/2026/11/25/this-is-why-i-wouldnt-ignore-this-stock-heading-into-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:03 ET",
+        "pub_ts": 1795626184.0
+      },
+      {
+        "title": "AI Chip Stocks Extend Brutal Selloff as Nvidia, AMD and Broadcom Tumble Again",
+        "url": "https://finance.yahoo.com/technology/ai/articles/ai-chip-stocks-extend-brutal-170236621.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:02 ET",
+        "pub_ts": 1795626156.0
+      },
+      {
+        "title": "104% Upside for Broadcom? Bernstein Thinks So, and Here’s How",
+        "url": "https://www.tikr.com/blog/104-upside-for-broadcom-bernstein-thinks-so-and-heres-how?ref=yahoofinance&tlnk=yf-261125-w78gc9qw&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:55 ET",
+        "pub_ts": 1795625749.0
+      },
+      {
+        "title": "Broadcom vs. Qualcomm: Which Technology Stock Is a Better Buy for 2027?",
+        "url": "https://www.fool.com/coverage/better-buy/2026/11/25/broadcom-vs-qualcomm-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:52 ET",
+        "pub_ts": 1795625521.0
+      },
       {
         "title": "Broadcom Stocks Slide 6.86% as AI Chip Selloff Deepens",
         "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-stocks-slide-6-86-154631717.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 10:46 ET",
         "pub_ts": 1795621591.0
-      },
-      {
-        "title": "Global Software-Defined Wide Area Network (SD-WAN) Market Forecast to 2035 | Capitalize as SASE, Zero Trust and Cloud Drive Market to $78.33 Billion: Cisco, Fortinet and Broadcom",
-        "url": "https://finance.yahoo.com/technology/articles/global-software-defined-wide-area-141800853.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:18 ET",
-        "pub_ts": 1795616280.0
-      },
-      {
-        "title": "Does Broadcom's Debt Load Pose a Risk to the Stock's Outlook for FY27?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/does-broadcoms-debt-load-pose-125600461.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 07:56 ET",
-        "pub_ts": 1795611360.0
-      },
-      {
-        "title": "Broadcom Bought $1 Billion Worth of Anthropic’s IPO, and It Has Tens of Billions More Riding on Its Success.",
-        "url": "https://www.fool.com/investing/2026/11/25/broadcom-bought-1-billion-worth-of-anthropic-tens-of-billions-more-riding-on-its-success/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:20 ET",
-        "pub_ts": 1795605602.0
-      },
-      {
-        "title": "iShares PHLX SOX Semiconductor (SOXX) Buys $46.9 Million More AMD on Nov. 23",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-phlx-sox-semiconductor-soxx-110447635.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:04 ET",
-        "pub_ts": 1795604687.0
       }
     ],
     "AMAT": [
@@ -1199,39 +1199,39 @@
     ],
     "GOOGL": [
       {
+        "title": "Billionaire Stephen Mandel’s Lone Pine Raised Its Alphabet Stake 901% to $743 Million",
+        "url": "https://247wallst.com/investing/2026/11/25/billionaire-stephen-mandels-lone-pine-raised-its-alphabet-stake-901-to-743-million/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:04 ET",
+        "pub_ts": 1795626255.0
+      },
+      {
+        "title": "This Is Why I Wouldn’t Ignore This Stock Heading Into 2027",
+        "url": "https://247wallst.com/investing/2026/11/25/this-is-why-i-wouldnt-ignore-this-stock-heading-into-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:03 ET",
+        "pub_ts": 1795626184.0
+      },
+      {
+        "title": "104% Upside for Broadcom? Bernstein Thinks So, and Here’s How",
+        "url": "https://www.tikr.com/blog/104-upside-for-broadcom-bernstein-thinks-so-and-heres-how?ref=yahoofinance&tlnk=yf-261125-w78gc9qw&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:55 ET",
+        "pub_ts": 1795625749.0
+      },
+      {
+        "title": "Cathie Wood Just Bought $17 Million of Alphabet Across 2 ARK Funds",
+        "url": "https://www.tikr.com/blog/cathie-wood-ark-invest-buys-alphabet-stock-17-million?ref=yahoofinance&tlnk=yf-261125-vg34rx7r&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:51 ET",
+        "pub_ts": 1795625504.0
+      },
+      {
         "title": "Billionaire Stanley Druckenmiller Sold 94% of His TSMC Stake and All of His Alphabet Shares in Q3. Here’s the Brilliant Stock He Added.",
         "url": "https://www.fool.com/investing/2026/11/25/billionaire-stanley-druckenmiller-sold-94-of-his-tsmc-and-all-of-his-alphabet-here-s-the-brilliant-stock-he-added/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 11:37 ET",
         "pub_ts": 1795624622.0
-      },
-      {
-        "title": "Oracle, CoreWeave Face Stark Warning From Credit Markets",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-coreweave-face-stark-warning-162922864.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:29 ET",
-        "pub_ts": 1795624162.0
-      },
-      {
-        "title": "How Warren Buffett Makes Billions from Dividends: Top 10 Stocks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-makes-billions-dividends-161220808.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:12 ET",
-        "pub_ts": 1795623140.0
-      },
-      {
-        "title": "3 High-Growth Stocks That Could Make $10,000 Worth Much More by 2030",
-        "url": "https://247wallst.com/investing/2026/11/25/3-high-growth-stocks-that-could-make-10000-worth-much-more-by-2030/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:03 ET",
-        "pub_ts": 1795622602.0
-      },
-      {
-        "title": "Alphabet Stocks Drop 5.56% as Credit Default Swaps Hit Record",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-drop-5-56-154523518.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:45 ET",
-        "pub_ts": 1795621523.0
       }
     ],
     "MSFT": [
@@ -1241,6 +1241,13 @@
         "source": "Yahoo Finance",
         "time": "11-25 11:33 ET",
         "pub_ts": 1795624439.0
+      },
+      {
+        "title": "Can PINS's New Microsoft Advertising Deal Boost Its Competitive Edge?",
+        "url": "https://finance.yahoo.com/media-advertising/articles/pinss-microsoft-advertising-deal-boost-155900901.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:59 ET",
+        "pub_ts": 1795622340.0
       },
       {
         "title": "Microsoft Stocks Fall 2.53% as Hyperscalers Join AI Selloff",
@@ -1262,13 +1269,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:00 ET",
         "pub_ts": 1795618839.0
-      },
-      {
-        "title": "Digital Twins in Healthcare Market to worth USD 101.19 Billion by 2031, at a CAGR of 68.4% – MarketsandMarkets™",
-        "url": "https://finance.yahoo.com/healthcare/articles/digital-twins-healthcare-market-worth-150000405.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:00 ET",
-        "pub_ts": 1795618800.0
       }
     ],
     "AAPL": [
@@ -1458,6 +1458,20 @@
     ],
     "NBIS": [
       {
+        "title": "Freedom Capital Markets’ $314 Target Says Nebius’s Selloff Went Too Far",
+        "url": "https://www.tikr.com/blog/freedom-capital-markets-314-target-says-nebiuss-selloff-went-too-far?ref=yahoofinance&tlnk=yf-261125-28wv344f&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:02 ET",
+        "pub_ts": 1795626140.0
+      },
+      {
+        "title": "Nebius Plunges 12%, Oracle Sinks 8% as AI Cloud Selloff Deepens; IBM Rises 2%: Is IBM a Safer AI Play?",
+        "url": "https://247wallst.com/investing/2026/11/25/nebius-plunges-12-oracle-sinks-8-as-ai-cloud-selloff-deepens-ibm-rises-2-is-ibm-a-safer-ai-play/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:56 ET",
+        "pub_ts": 1795625761.0
+      },
+      {
         "title": "CoreWeave Cratered 40% Year-to-Date: 320% Gains to Come According to This Investment Bank Desk",
         "url": "https://247wallst.com/investing/2026/11/25/coreweave-cratered-40-year-to-date-320-gains-to-come-according-to-this-investment-bank-desk/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1477,20 +1491,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 15:56 ET",
         "pub_ts": 1795553787.0
-      },
-      {
-        "title": "SpaceX Falls 4%, CoreWeave Down 13%, Nebius Down 11% as AI Stocks Give Back Nvidia Rally",
-        "url": "https://www.tikr.com/blog/spacex-falls-4-coreweave-down-13-nebius-down-11-as-ai-stocks-give-back-nvidia-rally?ref=yahoofinance&tlnk=yf-261124-6rfwxx6w&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 13:57 ET",
-        "pub_ts": 1795546678.0
-      },
-      {
-        "title": "What Does Nebius Group (NBIS) Need To Watch After Renewed AI Cloud Support?",
-        "url": "https://finance.yahoo.com/technology/ai/articles/does-nebius-group-nbis-watch-171813100.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 12:18 ET",
-        "pub_ts": 1795540693.0
       }
     ],
     "APLD": [
@@ -1532,6 +1532,13 @@
     ],
     "VST": [
       {
+        "title": "Vistra Has Slumped for a Year: Why Morgan Stanley Still Sees 82% Upside",
+        "url": "https://www.tikr.com/blog/vistra-has-slumped-for-a-year-why-morgan-stanley-still-sees-82-upside?ref=yahoofinance&tlnk=yf-261125-x7wjx655&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:01 ET",
+        "pub_ts": 1795626110.0
+      },
+      {
         "title": "Vistra Underperforms Industry in the Past Year: Time to Buy or Wait?",
         "url": "https://finance.yahoo.com/energy/articles/vistra-underperforms-industry-past-time-134200801.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1558,13 +1565,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 13:29 ET",
         "pub_ts": 1795544943.0
-      },
-      {
-        "title": "How Has Vistra Stock's Story Changed?",
-        "url": "https://www.trefis.com/stock/vst/articles/628443/how-has-vistra-stock-s-story-changed/2026-11-24?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 13:05 ET",
-        "pub_ts": 1795543525.0
       }
     ],
     "BE": [
@@ -1798,6 +1798,13 @@
         "pub_ts": 1795621319.0
       },
       {
+        "title": "The Largest IPO in Stock Market History Is Here. What It Means for Your Portfolio",
+        "url": "https://www.fool.com/investing/2026/11/25/the-largest-ipo-in-stock-market-history-is-here-what-it-means-for-your-portfolio/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:03 ET",
+        "pub_ts": 1795626182.0
+      },
+      {
         "title": "Why SpaceX Stock Keeps Going Down",
         "url": "https://www.fool.com/investing/2026/11/25/why-spacex-stock-keeps-going-down/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1817,13 +1824,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:45 ET",
         "pub_ts": 1795621507.0
-      },
-      {
-        "title": "SpaceX Drops $738 Million of Federal Subsidies to Give Dishes “at No Cost to New Subscribers”",
-        "url": "https://www.tikr.com/blog/spacex-drops-738-million-of-federal-subsidies-to-give-dishes-at-no-cost-to-new-subscribers?ref=yahoofinance&tlnk=yf-261125-6h9pw8gj&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:42 ET",
-        "pub_ts": 1795621347.0
       }
     ],
     "ASTS": [
@@ -3334,30 +3334,30 @@
     "SOXS": 1795626094.073924,
     "NVDA": 1795626094.073924,
     "AMD": 1795626094.073924,
-    "ASML": 1795625566.6606731,
-    "QCOM": 1795625566.6606731,
-    "AVGO": 1795625566.6606731,
-    "AMAT": 1795625566.6606731,
-    "META": 1795625566.6606731,
-    "GOOGL": 1795625566.6606731,
-    "MSFT": 1795625566.6606731,
-    "AAPL": 1795625566.6606731,
-    "PLTR": 1795625566.6606731,
-    "NOW": 1795625566.6606731,
-    "AMZN": 1795625566.6606731,
-    "CRWV": 1795625566.6606731,
-    "NBIS": 1795625566.6606731,
-    "APLD": 1795625566.6606731,
-    "VST": 1795625566.6606731,
-    "BE": 1795625566.6606731,
-    "CRDO": 1795625566.6606731,
-    "COHR": 1795625566.6606731,
-    "MRVL": 1795625566.6606731,
-    "LITE": 1795625566.6606731,
-    "AAOI": 1795625566.6606731,
-    "SPCX": 1795625566.6606731,
+    "ASML": 1795627155.1754026,
+    "QCOM": 1795627155.1754026,
+    "AVGO": 1795627155.1754026,
+    "AMAT": 1795627155.1754026,
+    "META": 1795627155.1754026,
+    "GOOGL": 1795627155.1754026,
+    "MSFT": 1795627155.1754026,
+    "AAPL": 1795627155.1754026,
+    "PLTR": 1795627155.1754026,
+    "NOW": 1795627155.1754026,
+    "AMZN": 1795627155.1754026,
+    "CRWV": 1795627155.1754026,
+    "NBIS": 1795627155.1754026,
+    "APLD": 1795627155.1754026,
+    "VST": 1795627155.1754026,
+    "BE": 1795627155.1754026,
+    "CRDO": 1795627155.1754026,
+    "COHR": 1795627155.1754026,
+    "MRVL": 1795627155.1754026,
+    "LITE": 1795627155.1754026,
+    "AAOI": 1795627155.1754026,
+    "SPCX": 1795627155.1754026,
     "ASTS": 1795625986.777743,
-    "AXTI": 1795625566.6606731,
+    "AXTI": 1795627155.1754026,
     "NASA": 1795625986.777743,
     "LUNR": 1795625986.777743,
     "TSLA": 1795625986.777743,
@@ -3392,8 +3392,8 @@
     "WMT": 1795626203.2783945,
     "V": 1795626094.073924,
     "CAT": 1795626203.2783945,
-    "FN": 1795625566.6606731,
-    "GLW": 1795625566.6606731,
+    "FN": 1795627155.1754026,
+    "GLW": 1795627155.1754026,
     "ANT": 1795626203.2783945,
     "XAUUSD": 1795626203.2783945,
     "KOSPI": 1795626094.073924
