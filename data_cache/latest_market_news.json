@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795650891.794,
-  "updated_at_et": "11-25 18:54 ET",
-  "updated_at_kst": "08:54 KST",
+  "updated_at_ts": 1795650987.107,
+  "updated_at_et": "11-25 18:56 ET",
+  "updated_at_kst": "08:56 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1202,6 +1202,13 @@
     ],
     "GOOGL": [
       {
+        "title": "Trump Has A Message for Big Tech Firms Like Amazon, Google and Microsoft Building Data Centers Abroad: ‘We’re Going to Put A Tremendous Tax On Them’",
+        "url": "https://finance.yahoo.com/economy/policy/articles/trump-message-big-tech-firms-223005233.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 17:30 ET",
+        "pub_ts": 1795645805.0
+      },
+      {
         "title": "These 5 Tech Stocks are Sidestepping the AI Downturn",
         "url": "https://finance.yahoo.com/m/d635c9d7-dbc8-3f44-bc94-e186ec33e2bd/these-5-tech-stocks-are.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1228,13 +1235,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 15:32 ET",
         "pub_ts": 1795638730.0
-      },
-      {
-        "title": "Is the AI Correction Over? Why Ram Ahluwalia Thinks the AI Trade Has Hit Bottom",
-        "url": "https://unchainedcrypto.com/is-the-ai-correction-over-why-ram-ahluwalia-thinks-the-ai-trade-has-hit-bottom/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 15:00 ET",
-        "pub_ts": 1795636807.0
       }
     ],
     "MSFT": [
@@ -1253,6 +1253,13 @@
         "pub_ts": 1795622724.0
       },
       {
+        "title": "Trump Has A Message for Big Tech Firms Like Amazon, Google and Microsoft Building Data Centers Abroad: ‘We’re Going to Put A Tremendous Tax On Them’",
+        "url": "https://finance.yahoo.com/economy/policy/articles/trump-message-big-tech-firms-223005233.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 17:30 ET",
+        "pub_ts": 1795645805.0
+      },
+      {
         "title": "Bill Ackman, George Soros and 5 Other Famous Investors Own Microsoft. Here’s Who Bought and Sold Recently",
         "url": "https://www.tikr.com/blog/bill-ackman-george-soros-and-5-other-famous-investors-own-microsoft-heres-who-bought-and-sold-recently?ref=yahoofinance&tlnk=yf-261125-hv5wfr5m&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1265,13 +1272,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 13:03 ET",
         "pub_ts": 1795629816.0
-      },
-      {
-        "title": "Every Dollar of Your Retirement Income Comes From One Fund at 73. These 3 ETFs Spread the Load",
-        "url": "https://247wallst.com/investing/etf/2026/11/25/every-dollar-of-your-retirement-income-comes-from-one-fund-at-73-these-3-etfs-spread-the-load/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:52 ET",
-        "pub_ts": 1795629177.0
       }
     ],
     "AAPL": [
@@ -1313,6 +1313,13 @@
     ],
     "PLTR": [
       {
+        "title": "Are You Overpaying For Palantir Stock Versus Its Rivals?",
+        "url": "https://www.trefis.com/stock/pltr/articles/628772/are-you-overpaying-for-palantir-stock-versus-its-rivals/2026-11-25?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 18:31 ET",
+        "pub_ts": 1795649464.0
+      },
+      {
         "title": "Goldman Sachs bets on Palantir's 'mega customers' after NYC demo",
         "url": "https://www.thestreet.com/investing/palantir-mega-customers-goldman-sachs?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1339,13 +1346,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 13:16 ET",
         "pub_ts": 1795630613.0
-      },
-      {
-        "title": "Palantir Is Down 25% From Its High. Is It a Bargain or Still Overvalued?",
-        "url": "https://www.fool.com/investing/2026/11/25/palantir-is-down-25-from-its-high-is-it-a-bargain-or-still-overvalued/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:20 ET",
-        "pub_ts": 1795627203.0
       }
     ],
     "NOW": [
@@ -1408,18 +1408,18 @@
         "pub_ts": 1795648590.0
       },
       {
+        "title": "Trump Has A Message for Big Tech Firms Like Amazon, Google and Microsoft Building Data Centers Abroad: ‘We’re Going to Put A Tremendous Tax On Them’",
+        "url": "https://finance.yahoo.com/economy/policy/articles/trump-message-big-tech-firms-223005233.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 17:30 ET",
+        "pub_ts": 1795645805.0
+      },
+      {
         "title": "SpaceX is now on the clock to launch 1,000,000 satellites — 60x what exists in space today. Amazon calls it impossible",
         "url": "https://finance.yahoo.com/technology/ai/articles/spacex-now-clock-launch-1-220000396.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 17:00 ET",
         "pub_ts": 1795644000.0
-      },
-      {
-        "title": "Federal Court Rules in Favor of CPSC in Landmark E-Commerce Product Safety Case",
-        "url": "https://finance.yahoo.com/economy/policy/articles/federal-court-rules-favor-cpsc-212500597.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 16:25 ET",
-        "pub_ts": 1795641900.0
       }
     ],
     "CRWV": [
@@ -3247,8 +3247,8 @@
         "title": "Dow Jones Futures: Market Goes On Wild Ride. Nasdaq, Nvidia Slash Losses While Anthropic Reverses Higher.",
         "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures%3A-market.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 18:28 ET",
-        "pub_ts": 1795649295.0
+        "time": "11-25 18:45 ET",
+        "pub_ts": 1795650339.0
       },
       {
         "title": "Anthropic Stock Is Down 33% From Its All-Time High. Here's What a $5,000 Investment Could Be Worth in 1 Year.",
@@ -3337,27 +3337,27 @@
     "SOXS": 1795650795.8320944,
     "NVDA": 1795650795.8320944,
     "AMD": 1795650795.8320944,
-    "ASML": 1795649451.427661,
-    "QCOM": 1795649451.427661,
-    "AVGO": 1795649451.427661,
-    "AMAT": 1795649451.427661,
-    "META": 1795649451.427661,
-    "GOOGL": 1795649451.427661,
-    "MSFT": 1795649451.427661,
-    "AAPL": 1795649451.427661,
-    "PLTR": 1795649451.427661,
-    "NOW": 1795649451.427661,
-    "AMZN": 1795649451.427661,
-    "CRWV": 1795649451.427661,
-    "NBIS": 1795649451.427661,
-    "APLD": 1795649451.427661,
-    "VST": 1795649451.427661,
-    "BE": 1795649451.427661,
-    "CRDO": 1795649451.427661,
-    "COHR": 1795649451.427661,
-    "MRVL": 1795649451.427661,
+    "ASML": 1795650987.1067276,
+    "QCOM": 1795650987.1067276,
+    "AVGO": 1795650987.1067276,
+    "AMAT": 1795650987.1067276,
+    "META": 1795650987.1067276,
+    "GOOGL": 1795650987.1067276,
+    "MSFT": 1795650987.1067276,
+    "AAPL": 1795650987.1067276,
+    "PLTR": 1795650987.1067276,
+    "NOW": 1795650987.1067276,
+    "AMZN": 1795650987.1067276,
+    "CRWV": 1795650987.1067276,
+    "NBIS": 1795650987.1067276,
+    "APLD": 1795650987.1067276,
+    "VST": 1795650987.1067276,
+    "BE": 1795650987.1067276,
+    "CRDO": 1795650987.1067276,
+    "COHR": 1795650987.1067276,
+    "MRVL": 1795650987.1067276,
     "LITE": 1795649547.443754,
-    "AAOI": 1795649451.427661,
+    "AAOI": 1795650987.1067276,
     "SPCX": 1795649547.443754,
     "ASTS": 1795650699.7030592,
     "AXTI": 1795649547.443754,
@@ -3390,15 +3390,15 @@
     "NKE": 1795650795.8320944,
     "MCD": 1795650795.8320944,
     "PEP": 1795650795.8320944,
-    "XOM": 1795649451.427661,
+    "XOM": 1795650987.1067276,
     "JPM": 1795650795.8320944,
-    "WMT": 1795649451.427661,
+    "WMT": 1795650987.1067276,
     "V": 1795650795.8320944,
-    "CAT": 1795649451.427661,
+    "CAT": 1795650987.1067276,
     "FN": 1795649547.443754,
     "GLW": 1795649547.443754,
-    "ANT": 1795649451.427661,
-    "XAUUSD": 1795649451.427661,
+    "ANT": 1795650987.1067276,
+    "XAUUSD": 1795650987.1067276,
     "KOSPI": 1795650795.8320944
   },
   "opex_shield": {
