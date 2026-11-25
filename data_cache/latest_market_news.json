@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795618209.657,
-  "updated_at_et": "11-25 09:50 ET",
-  "updated_at_kst": "23:50 KST",
+  "updated_at_ts": 1795618316.079,
+  "updated_at_et": "11-25 09:51 ET",
+  "updated_at_kst": "23:51 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -2983,6 +2983,13 @@
     ],
     "XOM": [
       {
+        "title": "Global Ethyl Derivatives Market Report 2026: Executive Strategy and Forecast to 2030 | Capitalize on Bio-Based and Pharma Demand with BASF, Dow, Arkema, Clariant, and Exxon Mobil",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/global-ethyl-derivatives-market-report-143100666.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:31 ET",
+        "pub_ts": 1795617060.0
+      },
+      {
         "title": "Chevron Pays a Bigger Dividend, but Exxon May Be the Better Retirement Stock",
         "url": "https://247wallst.com/investing/2026/11/25/chevron-pays-a-bigger-dividend-but-exxon-may-be-the-better-retirement-stock/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3009,13 +3016,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 05:45 ET",
         "pub_ts": 1795517116.0
-      },
-      {
-        "title": "Oil Market Midweek Wrap: Brent Holds Near $90 Despite Iran Tensions – OPEC Meeting, ConocoPhillips Sale In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/oil-market-midweek-wrap-brent-holds-near-90-despite-iran-tensions-opec-meeting-conoco-phillips-sale-in-focus/cNbH5X8R9lK?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 00:48 ET",
-        "pub_ts": 1795585705.0
       }
     ],
     "JPM": [
@@ -3057,6 +3057,20 @@
     ],
     "WMT": [
       {
+        "title": "Amazon and Meta are negotiating the future of AI shopping. Consumers aren't quite there yet.",
+        "url": "https://finance.yahoo.com/technology/article/amazon-and-meta-are-negotiating-the-future-of-ai-shopping-consumers-arent-quite-there-yet-144215428.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:42 ET",
+        "pub_ts": 1795617735.0
+      },
+      {
+        "title": "Global Retail Pharmacy Market Report 2026: Size, Trends, and Forecast to 2030 | Capitalize on AI and Automation as Walmart, Amazon, CVS Health, and Costco Scale Digital Care",
+        "url": "https://finance.yahoo.com/healthcare/articles/global-retail-pharmacy-market-report-143600337.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:36 ET",
+        "pub_ts": 1795617360.0
+      },
+      {
         "title": "Kalyan Krishnamurthy to step down as Flipkart CEO",
         "url": "https://www.retail-insight-network.com/news/kalyan-krishnamurthy-step-down-flipkart-ceo/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3076,20 +3090,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 08:08 ET",
         "pub_ts": 1795612099.0
-      },
-      {
-        "title": "Target vs Walmart holiday outlook: defensive strength against recovery potential",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/target-vs-walmart-holiday-outlook-130617796.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:06 ET",
-        "pub_ts": 1795611977.0
-      },
-      {
-        "title": "Market Chatter: Walmart-Backed PhonePe Resumes IPO Process; Seeks Up to $15 Billion in Valuation",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-walmart-backed-phonepe-121130205.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 07:11 ET",
-        "pub_ts": 1795608690.0
       }
     ],
     "V": [
@@ -3242,39 +3242,39 @@
     ],
     "ANT": [
       {
-        "title": "AI just solved something no human can understand",
-        "url": "https://finance.yahoo.com/video/ai-just-solved-something-no-120000560.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 07:00 ET",
-        "pub_ts": 1795608000.0
+        "title": "AI Angst Undercuts Asian Stock Markets",
+        "url": "https://finnhub.io/api/news?id=c05db7d7f6d87fb7b1ef664406bd11d8b702bc57175e3fd9bdb1f8ddbbe6d214",
+        "source": "Yahoo",
+        "time": "11-25 05:42 ET",
+        "pub_ts": 1795603346.0
       },
       {
-        "title": "Stock Market Today: Dow Dives On Surprise Inflation Data; Nvidia, Anthropic Plunge (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow-dives.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:54 ET",
-        "pub_ts": 1795614871.0
+        "title": "Google Is Turning AI Performance Into a Price War Anthropic Can’t Ignore",
+        "url": "https://finnhub.io/api/news?id=f4220ed77d8015c133bda3a4392be2bc42dd341909d786bc05c5ed591118d829",
+        "source": "Benzinga",
+        "time": "11-25 05:38 ET",
+        "pub_ts": 1795603102.0
       },
       {
-        "title": "Anthropic Reportedly Expands Zurich Operations To Tap AI Talent — ANT Stock On Track To Open Below $80",
-        "url": "https://stocktwits.com/news-articles/markets/equity/anthropic-reportedly-expands-zurich-operations-to-tap-ai-talent-ant-stock-on-track-to-open-below-80/cNbHiyfR9mW?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:39 ET",
-        "pub_ts": 1795613956.0
+        "title": "Anthropic launches Claude Ship beta to support developer workflows",
+        "url": "https://finnhub.io/api/news?id=30ba283ecfb044a2a8d9e13c6bc4b1593db2994e1e2004e957afac838df1c79a",
+        "source": "Yahoo",
+        "time": "11-25 05:28 ET",
+        "pub_ts": 1795602530.0
       },
       {
-        "title": "Not SpaceX, Not Anthropic: These Are the 2 AI Stocks I Bought During the Sell-Off",
-        "url": "https://www.fool.com/investing/2026/11/25/not-spacex-not-anthropic-these-are-the-2-ai-stocks-i-bought-during-the-sell-off/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:35 ET",
-        "pub_ts": 1795613702.0
+        "title": "Anthropic stock sinks further below IPO price as investors sour on the Amodei AI bet",
+        "url": "https://finnhub.io/api/news?id=ca2cffddd18a8ab4eff5c6208c93ad0aa41b78138cff9dea87350d2108f4b5b0",
+        "source": "Yahoo",
+        "time": "11-25 05:09 ET",
+        "pub_ts": 1795601358.0
       },
       {
-        "title": "Update: Market Chatter: Anthropic Expanding in Zurich to Advance AI Research",
-        "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-anthropic-expanding-zurich-130416327.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:04 ET",
-        "pub_ts": 1795611856.0
+        "title": "'Chinese AI Firms Confront Dire Future as U.S. Tightens Access to Chips and Tokens' -The Information",
+        "url": "https://finnhub.io/api/news?id=a60c5499a26b31c141eb409ce966ae81d7f53dbe9efa0113991064de70520568",
+        "source": "Benzinga",
+        "time": "11-25 05:04 ET",
+        "pub_ts": 1795601045.0
       }
     ],
     "XAUUSD": [
@@ -3395,15 +3395,15 @@
     "NKE": 1795618209.6566267,
     "MCD": 1795618209.6566267,
     "PEP": 1795618209.6566267,
-    "XOM": 1795616714.3397896,
+    "XOM": 1795618316.0786698,
     "JPM": 1795618209.6566267,
-    "WMT": 1795616714.3397896,
+    "WMT": 1795618316.0786698,
     "V": 1795618209.6566267,
-    "CAT": 1795616714.3397896,
+    "CAT": 1795618316.0786698,
     "FN": 1795617670.8932498,
     "GLW": 1795617670.8932498,
-    "ANT": 1795616714.3397896,
-    "XAUUSD": 1795616714.3397896,
+    "ANT": 1795618316.0786698,
+    "XAUUSD": 1795618316.0786698,
     "KOSPI": 1795618209.6566267
   },
   "opex_shield": {
