@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795569062.073,
-  "updated_at_et": "11-24 20:11 ET",
-  "updated_at_kst": "10:11 KST",
+  "updated_at_ts": 1795569159.207,
+  "updated_at_et": "11-24 20:12 ET",
+  "updated_at_kst": "10:12 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1135,6 +1135,13 @@
     ],
     "META": [
       {
+        "title": "Your $300,000 in XLC Holds $130,206 in Just Meta and Alphabet",
+        "url": "https://247wallst.com/investing/etf/2026/11/24/your-300000-in-xlc-holds-130206-in-just-meta-and-alphabet/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 20:04 ET",
+        "pub_ts": 1795568646.0
+      },
+      {
         "title": "Could Meta Actually Climb 30%? Or Is J.P. Morgan Totally Wrong?",
         "url": "https://www.tikr.com/blog/could-meta-actually-climb-30-or-is-j-p-morgan-totally-wrong?ref=yahoofinance&tlnk=yf-261124-24hpvhqr&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1161,16 +1168,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 16:11 ET",
         "pub_ts": 1795554712.0
-      },
-      {
-        "title": "These 4 Utility Stocks Pay Dividends While AI Drives Electricity Demand Higher",
-        "url": "https://247wallst.com/investing/2026/11/24/these-4-utility-stocks-pay-dividends-while-ai-drives-electricity-demand-higher/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 15:17 ET",
-        "pub_ts": 1795551459.0
       }
     ],
     "GOOGL": [
+      {
+        "title": "Your $300,000 in XLC Holds $130,206 in Just Meta and Alphabet",
+        "url": "https://247wallst.com/investing/etf/2026/11/24/your-300000-in-xlc-holds-130206-in-just-meta-and-alphabet/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 20:04 ET",
+        "pub_ts": 1795568646.0
+      },
       {
         "title": "Stephanie Link Says Marvell Could Earn $30 a Share by 2031. Is She Right?",
         "url": "https://247wallst.com/investing/2026/11/24/stephanie-link-says-marvell-could-earn-30-a-share-by-2031-is-she-right/?.tsrc=rss",
@@ -1198,13 +1205,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 16:02 ET",
         "pub_ts": 1795554167.0
-      },
-      {
-        "title": "Intuit vs. Palo Alto Networks: Which Technology Stock Is a Better Buy for 2027?",
-        "url": "https://www.fool.com/coverage/better-buy/2026/11/24/intuit-vs-palo-alto-networks-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 14:20 ET",
-        "pub_ts": 1795548002.0
       }
     ],
     "MSFT": [
@@ -3307,30 +3307,30 @@
     "SOXS": 1795568769.5293427,
     "NVDA": 1795568769.5293427,
     "AMD": 1795568769.5293427,
-    "ASML": 1795567597.792305,
-    "QCOM": 1795567597.792305,
-    "AVGO": 1795567597.792305,
-    "AMAT": 1795567597.792305,
-    "META": 1795567597.792305,
-    "GOOGL": 1795567597.792305,
-    "MSFT": 1795567597.792305,
-    "AAPL": 1795567597.792305,
-    "PLTR": 1795567597.792305,
-    "NOW": 1795567597.792305,
-    "AMZN": 1795567597.792305,
-    "CRWV": 1795567597.792305,
-    "NBIS": 1795567597.792305,
-    "APLD": 1795567597.792305,
-    "VST": 1795567597.792305,
-    "BE": 1795567597.792305,
-    "CRDO": 1795567597.792305,
-    "COHR": 1795567597.792305,
-    "MRVL": 1795567597.792305,
-    "LITE": 1795567597.792305,
-    "AAOI": 1795567597.792305,
-    "SPCX": 1795567597.792305,
+    "ASML": 1795569159.2065527,
+    "QCOM": 1795569159.2065527,
+    "AVGO": 1795569159.2065527,
+    "AMAT": 1795569159.2065527,
+    "META": 1795569159.2065527,
+    "GOOGL": 1795569159.2065527,
+    "MSFT": 1795569159.2065527,
+    "AAPL": 1795569159.2065527,
+    "PLTR": 1795569159.2065527,
+    "NOW": 1795569159.2065527,
+    "AMZN": 1795569159.2065527,
+    "CRWV": 1795569159.2065527,
+    "NBIS": 1795569159.2065527,
+    "APLD": 1795569159.2065527,
+    "VST": 1795569159.2065527,
+    "BE": 1795569159.2065527,
+    "CRDO": 1795569159.2065527,
+    "COHR": 1795569159.2065527,
+    "MRVL": 1795569159.2065527,
+    "LITE": 1795569159.2065527,
+    "AAOI": 1795569159.2065527,
+    "SPCX": 1795569159.2065527,
     "ASTS": 1795567985.8538668,
-    "AXTI": 1795567597.792305,
+    "AXTI": 1795569159.2065527,
     "NASA": 1795567985.8538668,
     "LUNR": 1795567985.8538668,
     "TSLA": 1795567985.8538668,
@@ -3365,8 +3365,8 @@
     "WMT": 1795568769.5293427,
     "V": 1795568084.8976922,
     "CAT": 1795568769.5293427,
-    "FN": 1795567597.792305,
-    "GLW": 1795567597.792305,
+    "FN": 1795569159.2065527,
+    "GLW": 1795569159.2065527,
     "ANT": 1795568769.5293427,
     "XAUUSD": 1795568769.5293427,
     "KOSPI": 1795568769.5293427
