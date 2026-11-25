@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795641637.596,
-  "updated_at_et": "11-25 16:20 ET",
-  "updated_at_kst": "06:20 KST",
+  "updated_at_ts": 1795641735.519,
+  "updated_at_et": "11-25 16:22 ET",
+  "updated_at_kst": "06:22 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1159,6 +1159,13 @@
     ],
     "META": [
       {
+        "title": "Nvidia is cheap on paper, so why won't the market buy it?",
+        "url": "https://finance.yahoo.com/video/nvidia-is-cheap-on-paper-so-why-wont-the-market-buy-it-192215326.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 14:22 ET",
+        "pub_ts": 1795634535.0
+      },
+      {
         "title": "Tariffs are back as Anthropic sinks further below its IPO price",
         "url": "https://finance.yahoo.com/video/tariffs-are-back-as-anthropic-sinks-further-below-its-ipo-price-160524926.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1185,16 +1192,23 @@
         "source": "Yahoo Finance",
         "time": "11-25 14:09 ET",
         "pub_ts": 1795633740.0
-      },
-      {
-        "title": "CoreWeave banks prepare $4.5 billion Meta-tied loan sale next week, Bloomberg says",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-banks-prepare-4-5-183018691.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 13:30 ET",
-        "pub_ts": 1795631418.0
       }
     ],
     "GOOGL": [
+      {
+        "title": "Anthropic’s Chip Choices Could Change the Nvidia Story. Here’s How.",
+        "url": "https://www.fool.com/investing/2026/11/25/anthropic-s-chip-choices-could-change-the-nvidia-story-here-s-how/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:53 ET",
+        "pub_ts": 1795639982.0
+      },
+      {
+        "title": "SpaceX stock price crashes on concerns over compute demand",
+        "url": "https://blockspace.media/short/spacex-stock-price-crashes-on-concerns-over-compute-demand/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:32 ET",
+        "pub_ts": 1795638730.0
+      },
       {
         "title": "Is the AI Correction Over? Why Ram Ahluwalia Thinks the AI Trade Has Hit Bottom",
         "url": "https://unchainedcrypto.com/is-the-ai-correction-over-why-ram-ahluwalia-thinks-the-ai-trade-has-hit-bottom/?.tsrc=rss",
@@ -1215,20 +1229,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 14:05 ET",
         "pub_ts": 1795633502.0
-      },
-      {
-        "title": "Why Nvidia Stock Is Falling Again",
-        "url": "https://www.fool.com/investing/2026/11/25/why-nvidia-stock-is-falling-again/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 13:53 ET",
-        "pub_ts": 1795632782.0
-      },
-      {
-        "title": "Why Alphabet Stock Fell Today (Hint: It's AI-Related)",
-        "url": "https://www.fool.com/investing/2026/11/25/why-alphabet-stock-fell-today/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 13:52 ET",
-        "pub_ts": 1795632731.0
       }
     ],
     "MSFT": [
@@ -1247,6 +1247,13 @@
         "pub_ts": 1795622724.0
       },
       {
+        "title": "Bill Ackman, George Soros and 5 Other Famous Investors Own Microsoft. Here’s Who Bought and Sold Recently",
+        "url": "https://www.tikr.com/blog/bill-ackman-george-soros-and-5-other-famous-investors-own-microsoft-heres-who-bought-and-sold-recently?ref=yahoofinance&tlnk=yf-261125-hv5wfr5m&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:50 ET",
+        "pub_ts": 1795639822.0
+      },
+      {
         "title": "Satya Nadella Says “the Floor of Cyber Attacks Has Fallen.” Microsoft Just Declared Code Red After a 24-Hour Outage",
         "url": "https://www.tikr.com/blog/satya-nadella-says-the-floor-of-cyber-attacks-has-fallen-microsoft-just-declared-code-red-after-a-24-hour-outage?ref=yahoofinance&tlnk=yf-261125-gxp284g5&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1259,13 +1266,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 12:52 ET",
         "pub_ts": 1795629177.0
-      },
-      {
-        "title": "DoubleLine’s Cohen turns bullish on hyperscaler bonds after selloff - Bloomberg",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/doubleline-cohen-turns-bullish-hyperscaler-173352564.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:33 ET",
-        "pub_ts": 1795628032.0
       }
     ],
     "AAPL": [
@@ -1381,25 +1381,18 @@
     ],
     "AMZN": [
       {
+        "title": "Nvidia is cheap on paper, so why won't the market buy it?",
+        "url": "https://finance.yahoo.com/video/nvidia-is-cheap-on-paper-so-why-wont-the-market-buy-it-192215326.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 14:22 ET",
+        "pub_ts": 1795634535.0
+      },
+      {
         "title": "Tariffs are back as Anthropic sinks further below its IPO price",
         "url": "https://finance.yahoo.com/video/tariffs-are-back-as-anthropic-sinks-further-below-its-ipo-price-160524926.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 11:05 ET",
         "pub_ts": 1795622724.0
-      },
-      {
-        "title": "Amazon and Meta are negotiating the future of AI shopping. Consumers aren't quite there yet.",
-        "url": "https://finance.yahoo.com/technology/article/amazon-and-meta-are-negotiating-the-future-of-ai-shopping-consumers-arent-quite-there-yet-144215428.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:42 ET",
-        "pub_ts": 1795617735.0
-      },
-      {
-        "title": "Amazon, Meta reportedly in talks to remove block on Muse AI agent",
-        "url": "https://finance.yahoo.com/video/amazon-meta-reportedly-in-talks-to-remove-block-on-muse-ai-agent-143616531.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:36 ET",
-        "pub_ts": 1795617376.0
       },
       {
         "title": "Amazon Is Backing More Than 5 Gigawatts of New Nuclear by 2039. This Reactor Developer Could Cash In.",
@@ -1414,9 +1407,23 @@
         "source": "Yahoo Finance",
         "time": "11-25 12:47 ET",
         "pub_ts": 1795628861.0
+      },
+      {
+        "title": "Amazon Wants a 'Fair Exchange' Before Letting Muse Back In",
+        "url": "https://finance.yahoo.com/technology/articles/amazon-wants-fair-exchange-letting-163449964.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:34 ET",
+        "pub_ts": 1795624489.0
       }
     ],
     "CRWV": [
+      {
+        "title": "CoreWeave’s Bankers Reportedly Ready $4.5B GPU-Backed Loan Tied To Meta Deal",
+        "url": "https://stocktwits.com/news-articles/markets/equity/core-weave-s-bankers-reportedly-ready-4-5-b-gpu-backed-loan-tied-to-meta-deal/cNbHrsCR9mw?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:02 ET",
+        "pub_ts": 1795640536.0
+      },
       {
         "title": "SpaceX Slashes GPU Pricing? Plus, IREN’s Selloff and CoreWeave’s Distressed Bonds",
         "url": "https://blockspace.media/podcast/spacex-slashes-gpu-pricing-plus-irens-selloff-and-coreweaves-distressed-bonds/?.tsrc=rss",
@@ -1444,13 +1451,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 12:25 ET",
         "pub_ts": 1795627523.0
-      },
-      {
-        "title": "CoreWeave, Nvidia Credit Risk Hit Fresh Highs as AI Fears Mount",
-        "url": "https://finance.yahoo.com/technology/ai/articles/coreweave-nvidia-credit-risk-hit-164402586.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:44 ET",
-        "pub_ts": 1795625042.0
       }
     ],
     "NBIS": [
@@ -1751,6 +1751,13 @@
     ],
     "AAOI": [
       {
+        "title": "Applied Optoelectronics to Present at the Raymond James TMT & Consumer Conference",
+        "url": "https://finance.yahoo.com/technology/articles/applied-optoelectronics-present-raymond-james-211000385.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:10 ET",
+        "pub_ts": 1795641000.0
+      },
+      {
         "title": "Supply Deal Might Change The Case For Investing In Applied Optoelectronics (AAOI)",
         "url": "https://finance.yahoo.com/markets/stocks/articles/supply-deal-might-change-case-110727461.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1777,13 +1784,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:44 ET",
         "pub_ts": 1795531449.0
-      },
-      {
-        "title": "AOI Announces Multi-Year Long-Term Agreement with Tier-1 Hyperscale Datacenter Customer",
-        "url": "https://finance.yahoo.com/technology/ai/articles/aoi-announces-multi-long-term-120000386.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 07:00 ET",
-        "pub_ts": 1795521600.0
       }
     ],
     "SPCX": [
@@ -3238,6 +3238,20 @@
         "pub_ts": 1795636997.0
       },
       {
+        "title": "Nvidia is cheap on paper, so why won't the market buy it?",
+        "url": "https://finance.yahoo.com/video/nvidia-is-cheap-on-paper-so-why-wont-the-market-buy-it-192215326.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 14:22 ET",
+        "pub_ts": 1795634535.0
+      },
+      {
+        "title": "Anthropic’s Chip Choices Could Change the Nvidia Story. Here’s How.",
+        "url": "https://www.fool.com/investing/2026/11/25/anthropic-s-chip-choices-could-change-the-nvidia-story-here-s-how/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:53 ET",
+        "pub_ts": 1795639982.0
+      },
+      {
         "title": "Anthropic Broke Its $83 IPO Price. Most Giants Recovered",
         "url": "https://www.trefis.com/stock/ant/articles/628871/anthropic-broke-its-83-ipo-price-most-giants-recovered/2026-11-25?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3250,20 +3264,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 15:12 ET",
         "pub_ts": 1795637528.0
-      },
-      {
-        "title": "Stock Market Today: Dow Reverses For 275-Point Gain; This Ad Firm Breaks Out (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 14:57 ET",
-        "pub_ts": 1795636622.0
-      },
-      {
-        "title": "Nvidia U-Turn Is Bad News For Anthropic, Says Parmy Olson",
-        "url": "https://finance.yahoo.com/video/nvidia-u-turn-bad-news-195302644.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 14:53 ET",
-        "pub_ts": 1795636382.0
       }
     ],
     "XAUUSD": [
@@ -3331,27 +3331,27 @@
     "SOXS": 1795641538.099514,
     "NVDA": 1795641538.099514,
     "AMD": 1795641538.099514,
-    "ASML": 1795640138.0302868,
-    "QCOM": 1795640138.0302868,
-    "AVGO": 1795640138.0302868,
-    "AMAT": 1795640138.0302868,
-    "META": 1795640138.0302868,
-    "GOOGL": 1795640138.0302868,
-    "MSFT": 1795640138.0302868,
-    "AAPL": 1795640138.0302868,
-    "PLTR": 1795640138.0302868,
-    "NOW": 1795640138.0302868,
-    "AMZN": 1795640138.0302868,
-    "CRWV": 1795640138.0302868,
-    "NBIS": 1795640138.0302868,
-    "APLD": 1795640138.0302868,
-    "VST": 1795640138.0302868,
-    "BE": 1795640138.0302868,
-    "CRDO": 1795640138.0302868,
-    "COHR": 1795640138.0302868,
-    "MRVL": 1795640138.0302868,
+    "ASML": 1795641735.5191722,
+    "QCOM": 1795641735.5191722,
+    "AVGO": 1795641735.5191722,
+    "AMAT": 1795641735.5191722,
+    "META": 1795641735.5191722,
+    "GOOGL": 1795641735.5191722,
+    "MSFT": 1795641735.5191722,
+    "AAPL": 1795641735.5191722,
+    "PLTR": 1795641735.5191722,
+    "NOW": 1795641735.5191722,
+    "AMZN": 1795641735.5191722,
+    "CRWV": 1795641735.5191722,
+    "NBIS": 1795641735.5191722,
+    "APLD": 1795641735.5191722,
+    "VST": 1795641735.5191722,
+    "BE": 1795641735.5191722,
+    "CRDO": 1795641735.5191722,
+    "COHR": 1795641735.5191722,
+    "MRVL": 1795641735.5191722,
     "LITE": 1795640241.0042448,
-    "AAOI": 1795640138.0302868,
+    "AAOI": 1795641735.5191722,
     "SPCX": 1795640241.0042448,
     "ASTS": 1795641438.639946,
     "AXTI": 1795640241.0042448,
@@ -3384,15 +3384,15 @@
     "NKE": 1795641538.099514,
     "MCD": 1795641538.099514,
     "PEP": 1795641538.099514,
-    "XOM": 1795640138.0302868,
+    "XOM": 1795641735.5191722,
     "JPM": 1795641538.099514,
-    "WMT": 1795640138.0302868,
+    "WMT": 1795641735.5191722,
     "V": 1795641538.099514,
-    "CAT": 1795640138.0302868,
+    "CAT": 1795641735.5191722,
     "FN": 1795640241.0042448,
     "GLW": 1795640241.0042448,
-    "ANT": 1795640138.0302868,
-    "XAUUSD": 1795640138.0302868,
+    "ANT": 1795641735.5191722,
+    "XAUUSD": 1795641735.5191722,
     "KOSPI": 1795641538.099514
   },
   "opex_shield": {
