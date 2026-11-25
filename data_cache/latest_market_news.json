@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795642888.346,
-  "updated_at_et": "11-25 16:41 ET",
-  "updated_at_kst": "06:41 KST",
+  "updated_at_ts": 1795642985.611,
+  "updated_at_et": "11-25 16:43 ET",
+  "updated_at_kst": "06:43 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -2246,18 +2246,18 @@
         "pub_ts": 1795618146.0
       },
       {
+        "title": "Dell, HPE Post Big Sales Growth But Investors Sense AI Spending Peak",
+        "url": "https://finance.yahoo.com/m/509b8d3a-b338-3181-bdcf-b7e931f38513/dell%2C-hpe-post-big-sales.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:20 ET",
+        "pub_ts": 1795641634.0
+      },
+      {
         "title": "George Soros, Ken Fisher and 11 Other Big Funds Bought Hewlett Packard Enterprise Last Quarter, While 5 Sold. Who’s Right?",
         "url": "https://www.tikr.com/blog/george-soros-ken-fisher-and-11-other-big-funds-bought-hewlett-packard-enterprise-last-quarter-while-5-sold-whos-right?ref=yahoofinance&tlnk=yf-261125-pp776jqf&.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 13:19 ET",
         "pub_ts": 1795630752.0
-      },
-      {
-        "title": "Dell, HPE Post Big Sales Growth But Investors Sense Peak",
-        "url": "https://finance.yahoo.com/m/509b8d3a-b338-3181-bdcf-b7e931f38513/dell%2C-hpe-post-big-sales.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:30 ET",
-        "pub_ts": 1795624252.0
       },
       {
         "title": "Own Dell Or HPE? HPE Wins On Cash",
@@ -2268,6 +2268,13 @@
       }
     ],
     "DELL": [
+      {
+        "title": "Dell, HPE Post Big Sales Growth But Investors Sense AI Spending Peak",
+        "url": "https://finance.yahoo.com/m/509b8d3a-b338-3181-bdcf-b7e931f38513/dell%2C-hpe-post-big-sales.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:20 ET",
+        "pub_ts": 1795641634.0
+      },
       {
         "title": "Dell earnings analysis: questions answered and next catalysts",
         "url": "https://finance.yahoo.com/markets/stocks/articles/dell-earnings-analysis-questions-answered-204536459.html?.tsrc=rss",
@@ -2295,13 +2302,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 15:04 ET",
         "pub_ts": 1795637083.0
-      },
-      {
-        "title": "Anthropic, Nvidia, Micron, HP Inc., Dell, Deere, and More Stocks That Explain Today’s Market",
-        "url": "https://finance.yahoo.com/m/18e72c51-c6d7-33b1-aa90-ccce17a9b32f/anthropic%2C-nvidia%2C-micron%2C-hp.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 13:37 ET",
-        "pub_ts": 1795631820.0
       }
     ],
     "OKLO": [
@@ -2343,6 +2343,20 @@
     ],
     "CEG": [
       {
+        "title": "LS Power Completes Acquisition of 4.4 GW Natural Gas Generation Assets from Constellation",
+        "url": "https://finance.yahoo.com/energy/articles/ls-power-completes-acquisition-4-213800844.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:38 ET",
+        "pub_ts": 1795642680.0
+      },
+      {
+        "title": "Constellation Completes Divestiture of Legacy Calpine PJM Generation Assets to LS Power",
+        "url": "https://finance.yahoo.com/energy/articles/constellation-completes-divestiture-legacy-calpine-213000879.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:30 ET",
+        "pub_ts": 1795642200.0
+      },
+      {
         "title": "Is Constellation Energy Stock's Fall A Bargain Or A Warning?",
         "url": "https://www.trefis.com/stock/ceg/articles/628278/is-constellation-energy-stocks-fall-a-bargain-or-a-warning/2026-11-24?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2362,20 +2376,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:05 ET",
         "pub_ts": 1795532700.0
-      },
-      {
-        "title": "Is It Worth Investing in Constellation Energy Corporation (CEG) Based on Wall Street's Bullish Views?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/worth-investing-constellation-energy-corporation-133004847.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:30 ET",
-        "pub_ts": 1795527004.0
-      },
-      {
-        "title": "CEG Below the 50 and 200-Day SMAs: Is It a Buy or Hold Right Now?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ceg-below-50-200-day-132400164.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:24 ET",
-        "pub_ts": 1795526640.0
       }
     ],
     "FPS": [
@@ -2417,6 +2417,13 @@
     ],
     "MU": [
       {
+        "title": "Chips and iPhones Are Safe From New Tariffs. Here’s What Isn’t.",
+        "url": "https://finance.yahoo.com/m/fed0ba1a-1835-3234-b475-4ad6bcc3e25d/chips-and-iphones-are-safe.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:47 ET",
+        "pub_ts": 1795639620.0
+      },
+      {
         "title": "David Tepper Sold All of His AMD Stock. His Biggest Position Is Micron.",
         "url": "https://www.fool.com/investing/2026/11/25/david-tepper-sold-all-of-his-amd-stock-his-biggest-position-is-micron/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2443,16 +2450,23 @@
         "source": "Yahoo Finance",
         "time": "11-25 12:35 ET",
         "pub_ts": 1795628144.0
-      },
-      {
-        "title": "Why Micron Technology Stock is Plunging Today",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-micron-technology-stock-plunging-171705917.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:17 ET",
-        "pub_ts": 1795627025.0
       }
     ],
     "SKHY": [
+      {
+        "title": "SK hynix (KOSE:A000660) AI Memory Narrative Puts Valuation Back In Focus",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-kose-a000660-ai-211453290.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:14 ET",
+        "pub_ts": 1795641293.0
+      },
+      {
+        "title": "SK Hynix Stock (SKHY) Is Cheap Even After Factoring In a Brutal Memory Downturn",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-stock-skhy-cheap-211200806.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:12 ET",
+        "pub_ts": 1795641120.0
+      },
       {
         "title": "SK hynix Falls 5%, Sandisk Down 10% as Asian Chip Stocks Give Back the Huang Rally",
         "url": "https://www.tikr.com/blog/sk-hynix-falls-5-sandisk-down-10-as-asian-chip-stocks-give-back-the-huang-rally?ref=yahoofinance&tlnk=yf-261125-7hm5f9h6&.tsrc=rss",
@@ -2473,20 +2487,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 11:17 ET",
         "pub_ts": 1795623420.0
-      },
-      {
-        "title": "SK Hynix Sheds 20% in 30 Days: Two Wall Street Pros Agree That 260% Gains Are Coming",
-        "url": "https://247wallst.com/investing/2026/11/25/sk-hynix-sheds-20-in-30-days-two-wall-street-pros-agree-that-260-gains-are-coming/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:45 ET",
-        "pub_ts": 1795614313.0
-      },
-      {
-        "title": "Huang Boost Fades Quickly as AI Fears Sink TSMC, SK Hynix Shares",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/huang-boost-fades-quickly-ai-040320019.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 23:03 ET",
-        "pub_ts": 1795579400.0
       }
     ],
     "WDC": [
@@ -2549,18 +2549,18 @@
         "pub_ts": 1795609034.0
       },
       {
+        "title": "Nvidia, AMD, and Micron stocks trim steep losses amid jittery AI trade",
+        "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-stocks-sink-as-investors-flee-ai-trade-134518921.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 08:45 ET",
+        "pub_ts": 1795614318.0
+      },
+      {
         "title": "Western Digital Stocks Sink 7.42%, Trading 139% Above GF Value",
         "url": "https://finance.yahoo.com/markets/stocks/articles/western-digital-stocks-sink-7-172258485.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 12:22 ET",
         "pub_ts": 1795627378.0
-      },
-      {
-        "title": "Tesla Sinks 5%, Sandisk Down 13% as AI Selloff Deepens and EU Stalls FSD Approval",
-        "url": "https://www.tikr.com/blog/tesla-sinks-5-sandisk-down-13-as-ai-selloff-deepens-and-eu-stalls-fsd-approval?ref=yahoofinance&tlnk=yf-261125-3jjqvxp5&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:31 ET",
-        "pub_ts": 1795624301.0
       }
     ],
     "MSTR": [
@@ -2602,6 +2602,13 @@
     ],
     "SNDK": [
       {
+        "title": "Qualcomm vs. Sandisk: Which Technology Stock Is a Better Buy for 2027?",
+        "url": "https://www.fool.com/coverage/better-buy/2026/11/25/qualcomm-vs-sandisk-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:20 ET",
+        "pub_ts": 1795641602.0
+      },
+      {
         "title": "SK hynix Falls 5%, Sandisk Down 10% as Asian Chip Stocks Give Back the Huang Rally",
         "url": "https://www.tikr.com/blog/sk-hynix-falls-5-sandisk-down-10-as-asian-chip-stocks-give-back-the-huang-rally?ref=yahoofinance&tlnk=yf-261125-7hm5f9h6&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2628,13 +2635,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:50 ET",
         "pub_ts": 1795621816.0
-      },
-      {
-        "title": "Alphabet Falls 4% on AI Credit Fears as Strategist Warns Capex Is “As Good as It Gets”",
-        "url": "https://www.tikr.com/blog/alphabet-falls-4-on-ai-credit-fears-as-strategist-warns-capex-is-as-good-as-it-gets?ref=yahoofinance&tlnk=yf-261125-pwcg7rgj&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:39 ET",
-        "pub_ts": 1795621167.0
       }
     ],
     "BTC-USD": [
@@ -2676,6 +2676,20 @@
     ],
     "CRWD": [
       {
+        "title": "Megadeals Defy Selloff, Head Toward Record",
+        "url": "https://finance.yahoo.com/video/megadeals-defy-selloff-head-toward-204909645.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:49 ET",
+        "pub_ts": 1795639749.0
+      },
+      {
+        "title": "Top Research Reports for CrowdStrike, Lockheed Martin & S&P",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/top-research-reports-crowdstrike-lockheed-202700539.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:27 ET",
+        "pub_ts": 1795638420.0
+      },
+      {
         "title": "CrowdStrike Sees a Path to the “Largest AI Safety and Security Company” Ever. Zscaler Must Deliver $1 Billion of Synergies",
         "url": "https://www.tikr.com/blog/crowdstrike-sees-a-path-to-the-largest-ai-safety-and-security-company-ever-zscaler-must-deliver-1-billion-of-synergies?ref=yahoofinance&tlnk=yf-261125-wpgvq53r&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2695,20 +2709,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 07:50 ET",
         "pub_ts": 1795611023.0
-      },
-      {
-        "title": "CrowdStrike CEO Says Security Has Gone “From the Brakes to the Gas” as Fortune 50 Clients Pause AI Rollouts",
-        "url": "https://www.tikr.com/blog/crowdstrike-ceo-says-security-has-gone-from-the-brakes-to-the-gas-as-fortune-50-clients-pause-ai-rollouts?ref=yahoofinance&tlnk=yf-261125-p6p2v33f&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:36 ET",
-        "pub_ts": 1795606577.0
-      },
-      {
-        "title": "Shots Fired: Zscaler CEO Says a Rival Platform’s Only Benefit Was “an Integrated Invoice.” That’s a Problem for Palo Alto",
-        "url": "https://www.tikr.com/blog/shots-fired-zscaler-ceo-says-a-rival-platforms-only-benefit-was-an-integrated-invoice-thats-a-problem-for-palo-alto?ref=yahoofinance&tlnk=yf-261125-fgj2pmwp&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 03:37 ET",
-        "pub_ts": 1795595828.0
       }
     ],
     "ORCL": [
@@ -3353,32 +3353,32 @@
     "LITE": 1795641831.8541296,
     "AAOI": 1795641735.5191722,
     "SPCX": 1795641831.8541296,
-    "ASTS": 1795641438.639946,
+    "ASTS": 1795642985.6114042,
     "AXTI": 1795641831.8541296,
-    "NASA": 1795641438.639946,
-    "LUNR": 1795641438.639946,
-    "TSLA": 1795641438.639946,
-    "AXP": 1795641438.639946,
-    "RKLB": 1795641438.639946,
-    "KO": 1795641438.639946,
-    "FLY": 1795641438.639946,
-    "INTC": 1795641438.639946,
-    "VRT": 1795641438.639946,
-    "HPE": 1795641438.639946,
-    "DELL": 1795641438.639946,
-    "OKLO": 1795641438.639946,
-    "CEG": 1795641438.639946,
-    "FPS": 1795641438.639946,
-    "MU": 1795641438.639946,
-    "SKHY": 1795641438.639946,
-    "WDC": 1795641438.639946,
-    "STX": 1795641438.639946,
-    "MSTR": 1795641438.639946,
-    "SNDK": 1795641438.639946,
-    "BTC-USD": 1795641438.639946,
-    "CRWD": 1795641438.639946,
-    "ORCL": 1795641438.639946,
-    "COIN": 1795641438.639946,
+    "NASA": 1795642985.6114042,
+    "LUNR": 1795642985.6114042,
+    "TSLA": 1795642985.6114042,
+    "AXP": 1795642985.6114042,
+    "RKLB": 1795642985.6114042,
+    "KO": 1795642985.6114042,
+    "FLY": 1795642985.6114042,
+    "INTC": 1795642985.6114042,
+    "VRT": 1795642985.6114042,
+    "HPE": 1795642985.6114042,
+    "DELL": 1795642985.6114042,
+    "OKLO": 1795642985.6114042,
+    "CEG": 1795642985.6114042,
+    "FPS": 1795642985.6114042,
+    "MU": 1795642985.6114042,
+    "SKHY": 1795642985.6114042,
+    "WDC": 1795642985.6114042,
+    "STX": 1795642985.6114042,
+    "MSTR": 1795642985.6114042,
+    "SNDK": 1795642985.6114042,
+    "BTC-USD": 1795642985.6114042,
+    "CRWD": 1795642985.6114042,
+    "ORCL": 1795642985.6114042,
+    "COIN": 1795642985.6114042,
     "LLY": 1795641538.099514,
     "MRNA": 1795641538.099514,
     "NKE": 1795641538.099514,
