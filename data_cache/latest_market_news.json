@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795643178.564,
-  "updated_at_et": "11-25 16:46 ET",
-  "updated_at_kst": "06:46 KST",
+  "updated_at_ts": 1795643275.559,
+  "updated_at_et": "11-25 16:47 ET",
+  "updated_at_kst": "06:47 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1018,6 +1018,13 @@
         "pub_ts": 1795637700.0
       },
       {
+        "title": "Forget ASML: Tokyo Electron Has More China Sales at Stake in the MATCH Act",
+        "url": "https://www.tikr.com/blog/forget-asml-tokyo-electron-has-more-china-sales-at-stake-in-the-match-act?ref=yahoofinance&tlnk=yf-261125-h7wjhc27&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 13:26 ET",
+        "pub_ts": 1795631202.0
+      },
+      {
         "title": "ASML Stocks Drop 6.1% as Dutch Lawmakers Fight US Chip Curb Bill",
         "url": "https://finance.yahoo.com/markets/stocks/articles/asml-stocks-drop-6-1-171745637.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1037,16 +1044,16 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:36 ET",
         "pub_ts": 1795620971.0
-      },
-      {
-        "title": "MARKETS LIVE: Wall Street, FTSE losses continue as technology shares plunge",
-        "url": "https://www.proactiveinvestors.com/companies/news/1102406/markets-live-wall-street-suffers-sharp-losses-as-technology-shares-plunge-1102406.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 07:01 ET",
-        "pub_ts": 1795608060.0
       }
     ],
     "QCOM": [
+      {
+        "title": "Qualcomm vs. Sandisk: Which Technology Stock Is a Better Buy for 2027?",
+        "url": "https://www.fool.com/coverage/better-buy/2026/11/25/qualcomm-vs-sandisk-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:20 ET",
+        "pub_ts": 1795641602.0
+      },
       {
         "title": "What Sent Qualcomm Stock Higher?",
         "url": "https://www.trefis.com/stock/qcom/articles/628621/what-sent-qualcomm-stock-higher/2026-11-25?.tsrc=rss",
@@ -1074,13 +1081,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 11:01 ET",
         "pub_ts": 1795622515.0
-      },
-      {
-        "title": "Qualcomm Sets Stunning $500 Stock Target for CEO",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-sets-stunning-500-stock-144851221.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:48 ET",
-        "pub_ts": 1795618131.0
       }
     ],
     "AVGO": [
@@ -1196,11 +1196,25 @@
     ],
     "GOOGL": [
       {
+        "title": "These 5 Tech Stocks are Sidestepping the AI Downturn",
+        "url": "https://finance.yahoo.com/m/d635c9d7-dbc8-3f44-bc94-e186ec33e2bd/these-5-tech-stocks-are.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:16 ET",
+        "pub_ts": 1795641360.0
+      },
+      {
         "title": "Anthropic’s Chip Choices Could Change the Nvidia Story. Here’s How.",
         "url": "https://www.fool.com/investing/2026/11/25/anthropic-s-chip-choices-could-change-the-nvidia-story-here-s-how/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 15:53 ET",
         "pub_ts": 1795639982.0
+      },
+      {
+        "title": "Megadeals Defy Selloff, Head Toward Record",
+        "url": "https://finance.yahoo.com/video/megadeals-defy-selloff-head-toward-204909645.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:49 ET",
+        "pub_ts": 1795639749.0
       },
       {
         "title": "SpaceX stock price crashes on concerns over compute demand",
@@ -1215,20 +1229,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 15:00 ET",
         "pub_ts": 1795636807.0
-      },
-      {
-        "title": "Why Alphabet Stock Is Down Today",
-        "url": "https://www.fool.com/investing/2026/11/25/why-alphabet-stock-is-down-today/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 14:15 ET",
-        "pub_ts": 1795634101.0
-      },
-      {
-        "title": "Why SpaceX Stock Is Down Today",
-        "url": "https://www.fool.com/investing/2026/11/25/why-spacex-stock-is-down-today/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 14:05 ET",
-        "pub_ts": 1795633502.0
       }
     ],
     "MSFT": [
@@ -1270,6 +1270,27 @@
     ],
     "AAPL": [
       {
+        "title": "Is the market experiencing a 'dead cat' bounce?",
+        "url": "https://finance.yahoo.com/video/is-the-market-experiencing-a-dead-cat-bounce-212704552.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:27 ET",
+        "pub_ts": 1795642024.0
+      },
+      {
+        "title": "Apple (AAPL) Pushes Back As 24 7 Tokenized Shares Trading Opens",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/apple-aapl-pushes-back-24-211147818.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:11 ET",
+        "pub_ts": 1795641107.0
+      },
+      {
+        "title": "Chips and iPhones Are Safe From New Tariffs. Here’s What Isn’t.",
+        "url": "https://finance.yahoo.com/m/fed0ba1a-1835-3234-b475-4ad6bcc3e25d/chips-and-iphones-are-safe.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:47 ET",
+        "pub_ts": 1795639620.0
+      },
+      {
         "title": "Tech Stock Sell-Off: Here's Why Apple Has Been Immune",
         "url": "https://www.fool.com/investing/2026/11/25/tech-stock-sell-off-here-s-why-apple-has-been-immune/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1282,27 +1303,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 11:01 ET",
         "pub_ts": 1795622515.0
-      },
-      {
-        "title": "The Next Big Healthcare Revolution Is Already Here. This Stock Could Cash In.",
-        "url": "https://www.fool.com/investing/2026/11/25/the-next-big-healthcare-revolution-is-already-here-this-stock-could-cash-in/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:27 ET",
-        "pub_ts": 1795620422.0
-      },
-      {
-        "title": "The Zacks Analyst Blog Highlights Apple, Philip Morris, Intel and Crimson Wine",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-apple-152500421.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:25 ET",
-        "pub_ts": 1795620300.0
-      },
-      {
-        "title": "Does Apple's New Silence Mean You Should Worry?",
-        "url": "https://www.trefis.com/stock/aapl/articles/628917/does-apple-s-new-silence-mean-you-should-worry/2026-11-25?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 07:07 ET",
-        "pub_ts": 1795608473.0
       }
     ],
     "PLTR": [
@@ -1328,18 +1328,18 @@
         "pub_ts": 1795630722.0
       },
       {
+        "title": "Cathie Wood Just Sold $7 Million of Palantir Across 3 ARK Funds",
+        "url": "https://www.tikr.com/blog/cathie-wood-just-sold-7-million-of-palantir-across-3-ark-funds?ref=yahoofinance&tlnk=yf-261125-979hm5m9&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 13:16 ET",
+        "pub_ts": 1795630613.0
+      },
+      {
         "title": "Palantir Is Down 25% From Its High. Is It a Bargain or Still Overvalued?",
         "url": "https://www.fool.com/investing/2026/11/25/palantir-is-down-25-from-its-high-is-it-a-bargain-or-still-overvalued/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 12:20 ET",
         "pub_ts": 1795627203.0
-      },
-      {
-        "title": "Palantir Stocks Fall 4.62% as Nasdaq Rout Hits AI Software",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stocks-fall-4-62-171959856.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:19 ET",
-        "pub_ts": 1795627199.0
       }
     ],
     "NOW": [
@@ -1381,6 +1381,13 @@
     ],
     "AMZN": [
       {
+        "title": "Jensen Huang's return, neocloud risk, and a holiday retail rally",
+        "url": "https://finance.yahoo.com/video/jensen-huangs-return-neocloud-risk-210000087.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:00 ET",
+        "pub_ts": 1795640400.0
+      },
+      {
         "title": "Nvidia is cheap on paper, so why won't the market buy it?",
         "url": "https://finance.yahoo.com/video/nvidia-is-cheap-on-paper-so-why-wont-the-market-buy-it-192215326.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1395,28 +1402,28 @@
         "pub_ts": 1795622724.0
       },
       {
+        "title": "Federal Court Rules in Favor of CPSC in Landmark E-Commerce Product Safety Case",
+        "url": "https://finance.yahoo.com/economy/policy/articles/federal-court-rules-favor-cpsc-212500597.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:25 ET",
+        "pub_ts": 1795641900.0
+      },
+      {
         "title": "Amazon Is Backing More Than 5 Gigawatts of New Nuclear by 2039. This Reactor Developer Could Cash In.",
         "url": "https://www.fool.com/investing/2026/11/25/amazon-is-backing-more-than-5-gigawatts-of-new-nuclear-by-2039-this-reactor-developer-could-cash-in/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 13:35 ET",
         "pub_ts": 1795631702.0
-      },
-      {
-        "title": "Amazon to start selling cars in the UK",
-        "url": "https://uk.finance.yahoo.com/news/amazon-start-selling-cars-uk-174741468.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:47 ET",
-        "pub_ts": 1795628861.0
-      },
-      {
-        "title": "Amazon Wants a 'Fair Exchange' Before Letting Muse Back In",
-        "url": "https://finance.yahoo.com/technology/articles/amazon-wants-fair-exchange-letting-163449964.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:34 ET",
-        "pub_ts": 1795624489.0
       }
     ],
     "CRWV": [
+      {
+        "title": "Jensen Huang's return, neocloud risk, and a holiday retail rally",
+        "url": "https://finance.yahoo.com/video/jensen-huangs-return-neocloud-risk-210000087.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:00 ET",
+        "pub_ts": 1795640400.0
+      },
       {
         "title": "CoreWeave’s Bankers Reportedly Ready $4.5B GPU-Backed Loan Tied To Meta Deal",
         "url": "https://stocktwits.com/news-articles/markets/equity/core-weave-s-bankers-reportedly-ready-4-5-b-gpu-backed-loan-tied-to-meta-deal/cNbHrsCR9mw?.tsrc=rss",
@@ -1444,16 +1451,16 @@
         "source": "Yahoo Finance",
         "time": "11-25 12:44 ET",
         "pub_ts": 1795628655.0
-      },
-      {
-        "title": "CoreWeave’s Banks to Sell $4.5 Billion Meta-Tied Loan Next Week",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-banks-sell-4-5-172523161.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:25 ET",
-        "pub_ts": 1795627523.0
       }
     ],
     "NBIS": [
+      {
+        "title": "Jensen Huang's return, neocloud risk, and a holiday retail rally",
+        "url": "https://finance.yahoo.com/video/jensen-huangs-return-neocloud-risk-210000087.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:00 ET",
+        "pub_ts": 1795640400.0
+      },
       {
         "title": "Freedom Capital Markets’ $314 Target Says Nebius’s Selloff Went Too Far",
         "url": "https://www.tikr.com/blog/freedom-capital-markets-314-target-says-nebiuss-selloff-went-too-far?ref=yahoofinance&tlnk=yf-261125-28wv344f&.tsrc=rss",
@@ -1481,13 +1488,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:26 ET",
         "pub_ts": 1795605984.0
-      },
-      {
-        "title": "Here’s why AI stocks crashed today",
-        "url": "https://blockspace.media/short/heres-why-ai-stocks-crashed-today-2/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 15:56 ET",
-        "pub_ts": 1795553787.0
       }
     ],
     "APLD": [
@@ -1603,6 +1603,13 @@
     ],
     "CRDO": [
       {
+        "title": "Why Is Credo Stock Going Up?",
+        "url": "https://www.trefis.com/stock/crdo/articles/628617/why-is-credo-stock-going-up/2026-11-25?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:13 ET",
+        "pub_ts": 1795641212.0
+      },
+      {
         "title": "Credo Technology Crashed 27% Over a Month: This Wall Street Desk Now Expects 190% Returns",
         "url": "https://247wallst.com/investing/2026/11/25/credo-technology-crashed-27-over-a-month-this-wall-street-desk-now-expects-190-returns/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1629,13 +1636,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:45 ET",
         "pub_ts": 1795607107.0
-      },
-      {
-        "title": "Credo Technology Group Holding (CRDO) Stock Still Looks Undervalued After Its 7x Run",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/credo-technology-group-holding-crdo-110715948.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:07 ET",
-        "pub_ts": 1795604835.0
       }
     ],
     "COHR": [
@@ -3046,6 +3046,13 @@
     ],
     "WMT": [
       {
+        "title": "Jensen Huang's return, neocloud risk, and a holiday retail rally",
+        "url": "https://finance.yahoo.com/video/jensen-huangs-return-neocloud-risk-210000087.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:00 ET",
+        "pub_ts": 1795640400.0
+      },
+      {
         "title": "Tariffs are back as Anthropic sinks further below its IPO price",
         "url": "https://finance.yahoo.com/video/tariffs-are-back-as-anthropic-sinks-further-below-its-ipo-price-160524926.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3072,13 +3079,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 09:42 ET",
         "pub_ts": 1795617735.0
-      },
-      {
-        "title": "Walmart+ Members Spend 4 Times As Much As Non-Members. The Retailer’s New $120 Bundle Could Unlock More Growth.",
-        "url": "https://www.fool.com/investing/2026/11/25/walmart-members-spend-4-times-as-much-as-non-members-the-retailer-s-new-usd120-bundle-could-unlock-more-growth/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 14:50 ET",
-        "pub_ts": 1795636202.0
       }
     ],
     "V": [
@@ -3331,27 +3331,27 @@
     "SOXS": 1795643083.2340322,
     "NVDA": 1795643083.2340322,
     "AMD": 1795643083.2340322,
-    "ASML": 1795641735.5191722,
-    "QCOM": 1795641735.5191722,
-    "AVGO": 1795641735.5191722,
-    "AMAT": 1795641735.5191722,
-    "META": 1795641735.5191722,
-    "GOOGL": 1795641735.5191722,
-    "MSFT": 1795641735.5191722,
-    "AAPL": 1795641735.5191722,
-    "PLTR": 1795641735.5191722,
-    "NOW": 1795641735.5191722,
-    "AMZN": 1795641735.5191722,
-    "CRWV": 1795641735.5191722,
-    "NBIS": 1795641735.5191722,
-    "APLD": 1795641735.5191722,
-    "VST": 1795641735.5191722,
-    "BE": 1795641735.5191722,
-    "CRDO": 1795641735.5191722,
-    "COHR": 1795641735.5191722,
-    "MRVL": 1795641735.5191722,
+    "ASML": 1795643275.5587509,
+    "QCOM": 1795643275.5587509,
+    "AVGO": 1795643275.5587509,
+    "AMAT": 1795643275.5587509,
+    "META": 1795643275.5587509,
+    "GOOGL": 1795643275.5587509,
+    "MSFT": 1795643275.5587509,
+    "AAPL": 1795643275.5587509,
+    "PLTR": 1795643275.5587509,
+    "NOW": 1795643275.5587509,
+    "AMZN": 1795643275.5587509,
+    "CRWV": 1795643275.5587509,
+    "NBIS": 1795643275.5587509,
+    "APLD": 1795643275.5587509,
+    "VST": 1795643275.5587509,
+    "BE": 1795643275.5587509,
+    "CRDO": 1795643275.5587509,
+    "COHR": 1795643275.5587509,
+    "MRVL": 1795643275.5587509,
     "LITE": 1795641831.8541296,
-    "AAOI": 1795641735.5191722,
+    "AAOI": 1795643275.5587509,
     "SPCX": 1795641831.8541296,
     "ASTS": 1795642985.6114042,
     "AXTI": 1795641831.8541296,
@@ -3384,15 +3384,15 @@
     "NKE": 1795643083.2340322,
     "MCD": 1795643083.2340322,
     "PEP": 1795643083.2340322,
-    "XOM": 1795641735.5191722,
+    "XOM": 1795643275.5587509,
     "JPM": 1795643083.2340322,
-    "WMT": 1795641735.5191722,
+    "WMT": 1795643275.5587509,
     "V": 1795643083.2340322,
-    "CAT": 1795641735.5191722,
+    "CAT": 1795643275.5587509,
     "FN": 1795641831.8541296,
     "GLW": 1795641831.8541296,
-    "ANT": 1795641735.5191722,
-    "XAUUSD": 1795641735.5191722,
+    "ANT": 1795643275.5587509,
+    "XAUUSD": 1795643275.5587509,
     "KOSPI": 1795643083.2340322
   },
   "opex_shield": {
