@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795639925.85,
-  "updated_at_et": "11-25 15:52 ET",
-  "updated_at_kst": "05:52 KST",
+  "updated_at_ts": 1795640032.842,
+  "updated_at_et": "11-25 15:53 ET",
+  "updated_at_kst": "05:53 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -934,6 +934,13 @@
     ],
     "NVDA": [
       {
+        "title": "Is Jensen Huang Really Worth $954 Billion to Nvidia?",
+        "url": "https://www.fool.com/investing/2026/11/25/is-jensen-huang-really-worth-usd954-billion-to-nvidia/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:35 ET",
+        "pub_ts": 1795638901.0
+      },
+      {
         "title": "Mysterious traders made $340,000 betting on Huang’s Nvidia return",
         "url": "https://www.thestreet.com/crypto/markets/mysterious-traders-made-340000-betting-on-huangs-nvidia-return?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -941,32 +948,25 @@
         "pub_ts": 1795636800.0
       },
       {
+        "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+        "url": "https://finance.yahoo.com/technology/articles/jensen-huang-broke-nvidia-code-195457319.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 14:54 ET",
+        "pub_ts": 1795636497.0
+      },
+      {
+        "title": "Nvidia U-Turn Is Bad News For Anthropic, Says Parmy Olson",
+        "url": "https://finance.yahoo.com/video/nvidia-u-turn-bad-news-195302644.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 14:53 ET",
+        "pub_ts": 1795636382.0
+      },
+      {
         "title": "Nvidia to Pay $290 Million to Settle Long-Running Crypto Mining Revenue Lawsuit",
         "url": "https://decrypt.co/383994/nvidia-290-million-settle-crypto-mining-disclosure-lawsuit?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 14:28 ET",
         "pub_ts": 1795634934.0
-      },
-      {
-        "title": "S&P puts NVIDIA on CreditWatch over governance concerns",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/p-puts-nvidia-creditwatch-over-192625970.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 14:26 ET",
-        "pub_ts": 1795634785.0
-      },
-      {
-        "title": "David Tepper Sold All of His AMD Stock. His Biggest Position Is Micron.",
-        "url": "https://www.fool.com/investing/2026/11/25/david-tepper-sold-all-of-his-amd-stock-his-biggest-position-is-micron/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 14:20 ET",
-        "pub_ts": 1795634402.0
-      },
-      {
-        "title": "This Strategist Still Sees the S&P 500 Hitting 10,000",
-        "url": "https://finance.yahoo.com/m/f24bf1b4-b64e-35a6-8dc1-c6ce8ed67405/this-strategist-still-sees.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 14:20 ET",
-        "pub_ts": 1795634400.0
       }
     ],
     "AMD": [
@@ -2784,6 +2784,13 @@
     ],
     "LLY": [
       {
+        "title": "Will Vision Warning Labels Change Novo Nordisk's (CPSE:NOVO B) Narrative",
+        "url": "https://finance.yahoo.com/healthcare/articles/vision-warning-labels-change-novo-201554991.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:15 ET",
+        "pub_ts": 1795637754.0
+      },
+      {
         "title": "Sector Update: Healthcare Stocks Mixed Wednesday Afternoon",
         "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-mixed-wednesday-183851394.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2810,13 +2817,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 15:50 ET",
         "pub_ts": 1795553402.0
-      },
-      {
-        "title": "Eli Lilly earns Moody’s upgrade to Aa2 as obesity drug demand fuels earnings",
-        "url": "https://finance.yahoo.com/healthcare/articles/eli-lilly-earns-moody-upgrade-204431978.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 15:44 ET",
-        "pub_ts": 1795553071.0
       }
     ],
     "MRNA": [
@@ -3311,23 +3311,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795638452.7947655,
-    "SOXL": 1795638452.7947655,
-    "SPY": 1795638452.7947655,
-    "DIA": 1795638452.7947655,
-    "SOXX": 1795638452.7947655,
-    "QQQ": 1795638452.7947655,
-    "SMH": 1795638452.7947655,
-    "IWM": 1795638452.7947655,
-    "IGV": 1795638452.7947655,
-    "TLT": 1795638452.7947655,
-    "GLD": 1795638452.7947655,
-    "SQQQ": 1795638452.7947655,
-    "TSM": 1795638452.7947655,
-    "VIXY": 1795638452.7947655,
-    "SOXS": 1795638452.7947655,
-    "NVDA": 1795638452.7947655,
-    "AMD": 1795638452.7947655,
+    "KORU": 1795640032.842481,
+    "SOXL": 1795640032.842481,
+    "SPY": 1795640032.842481,
+    "DIA": 1795640032.842481,
+    "SOXX": 1795640032.842481,
+    "QQQ": 1795640032.842481,
+    "SMH": 1795640032.842481,
+    "IWM": 1795640032.842481,
+    "IGV": 1795640032.842481,
+    "TLT": 1795640032.842481,
+    "GLD": 1795640032.842481,
+    "SQQQ": 1795640032.842481,
+    "TSM": 1795640032.842481,
+    "VIXY": 1795640032.842481,
+    "SOXS": 1795640032.842481,
+    "NVDA": 1795640032.842481,
+    "AMD": 1795640032.842481,
     "ASML": 1795638557.488477,
     "QCOM": 1795638557.488477,
     "AVGO": 1795638557.488477,
@@ -3376,21 +3376,21 @@
     "CRWD": 1795639713.3643832,
     "ORCL": 1795639713.3643832,
     "COIN": 1795639713.3643832,
-    "LLY": 1795638452.7947655,
-    "MRNA": 1795638452.7947655,
-    "NKE": 1795638452.7947655,
-    "MCD": 1795638452.7947655,
-    "PEP": 1795638452.7947655,
+    "LLY": 1795640032.842481,
+    "MRNA": 1795640032.842481,
+    "NKE": 1795640032.842481,
+    "MCD": 1795640032.842481,
+    "PEP": 1795640032.842481,
     "XOM": 1795638557.488477,
-    "JPM": 1795638452.7947655,
+    "JPM": 1795640032.842481,
     "WMT": 1795638557.488477,
-    "V": 1795638452.7947655,
+    "V": 1795640032.842481,
     "CAT": 1795638557.488477,
     "FN": 1795638665.9094474,
     "GLW": 1795638665.9094474,
     "ANT": 1795638557.488477,
     "XAUUSD": 1795638557.488477,
-    "KOSPI": 1795638452.7947655
+    "KOSPI": 1795640032.842481
   },
   "opex_shield": {
     "date": "2026-11-25",
