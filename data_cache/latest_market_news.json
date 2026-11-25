@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795615019.959,
-  "updated_at_et": "11-25 08:56 ET",
-  "updated_at_kst": "22:56 KST",
+  "updated_at_ts": 1795615125.205,
+  "updated_at_et": "11-25 08:58 ET",
+  "updated_at_kst": "22:58 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -2981,6 +2981,13 @@
     ],
     "XOM": [
       {
+        "title": "Chevron Pays a Bigger Dividend, but Exxon May Be the Better Retirement Stock",
+        "url": "https://247wallst.com/investing/2026/11/25/chevron-pays-a-bigger-dividend-but-exxon-may-be-the-better-retirement-stock/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 08:17 ET",
+        "pub_ts": 1795612675.0
+      },
+      {
         "title": "Your Exxon Dividend Needs Only About $59 Oil",
         "url": "https://www.trefis.com/stock/xom/articles/628301/your-exxon-dividend-needs-only-about-59-oil/2026-11-24?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3007,13 +3014,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 00:48 ET",
         "pub_ts": 1795585705.0
-      },
-      {
-        "title": "3 Non-AI Stocks to Buy for Long-Term Dividends and Stability",
-        "url": "https://www.fool.com/investing/2026/11/24/3-non-ai-stocks-to-buy-for-long-term-dividends-and-stability/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 15:12 ET",
-        "pub_ts": 1795551122.0
       }
     ],
     "JPM": [
@@ -3055,39 +3055,39 @@
     ],
     "WMT": [
       {
-        "title": "Symbotic: 3 Key Takeaways for Long-Term Investors",
-        "url": "https://www.fool.com/earnings/takeaways/2026/11/24/symbotic-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
+        "title": "Top 3 holiday consumer stocks: Walmart, Hasbro, and Ulta Beauty",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/top-3-holiday-consumer-stocks-132110158.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 00:12 ET",
-        "pub_ts": 1795583550.0
+        "time": "11-25 08:21 ET",
+        "pub_ts": 1795612870.0
       },
       {
-        "title": "Walmart’s Robot Warehouse Partner Symbotic Just Had Its First Profitable Year",
-        "url": "https://247wallst.com/investing/2026/11/24/walmarts-robot-warehouse-partner-symbotic-just-had-its-first-profitable-year/?.tsrc=rss",
+        "title": "Flipkart CEO Kalyan Krishnamurthy to step down next week amid IPO uncertainty",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/flipkart-ceo-kalyan-krishnamurthy-step-130819116.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 12:22 ET",
-        "pub_ts": 1795540937.0
+        "time": "11-25 08:08 ET",
+        "pub_ts": 1795612099.0
       },
       {
-        "title": "Symbotic Q4 Earnings Call Details Walmart Deal and Revenue Timing",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/symbotic-q4-earnings-call-details-161300983.html?.tsrc=rss",
+        "title": "Target vs Walmart holiday outlook: defensive strength against recovery potential",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/target-vs-walmart-holiday-outlook-130617796.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 11:13 ET",
-        "pub_ts": 1795536780.0
+        "time": "11-25 08:06 ET",
+        "pub_ts": 1795611977.0
       },
       {
-        "title": "Consumer Mood Improves Into Holidays, But Risks Loom",
-        "url": "https://finance.yahoo.com/video/consumer-mood-improves-holidays-risks-160317427.html?.tsrc=rss",
+        "title": "Market Chatter: Walmart-Backed PhonePe Resumes IPO Process; Seeks Up to $15 Billion in Valuation",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-walmart-backed-phonepe-121130205.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 11:03 ET",
-        "pub_ts": 1795536197.0
+        "time": "11-25 07:11 ET",
+        "pub_ts": 1795608690.0
       },
       {
-        "title": "Stocks give back gains as Anthropic dips below IPO price",
-        "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
+        "title": "State Street Consumer Staples SPDR (XLP) Adds Walmart and Costco on Nov. 23",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-consumer-staples-spdr-110513471.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 10:44 ET",
-        "pub_ts": 1795535048.0
+        "time": "11-25 06:05 ET",
+        "pub_ts": 1795604713.0
       }
     ],
     "V": [
@@ -3129,6 +3129,13 @@
     ],
     "CAT": [
       {
+        "title": "The AI Stock Slump Is Crushing Caterpillar. Here’s Why I Like the Stock More Than Ever.",
+        "url": "https://www.fool.com/investing/2026/11/25/the-ai-stock-slump-is-crushing-caterpillar-here-s-why-i-like-the-stock-more-than-ever/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 07:10 ET",
+        "pub_ts": 1795608602.0
+      },
+      {
         "title": "Can Caterpillar Stock Jump 50%?",
         "url": "https://www.trefis.com/stock/cat/articles/628403/can-caterpillar-stock-jump-50/2026-11-24?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3150,18 +3157,11 @@
         "pub_ts": 1795460416.0
       },
       {
-        "title": "Caterpillar (CAT) Sees $31.1 Million in Net ETF Selling on Nov. 19",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-cat-sees-31-1-110327569.html?.tsrc=rss",
+        "title": "Deere Has More Than Doubled Its Dividend Since 2020, but the Raises Have Stopped",
+        "url": "https://247wallst.com/investing/2026/11/24/deere-has-more-than-doubled-its-dividend-since-2020-but-the-raises-have-stopped/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-23 06:03 ET",
-        "pub_ts": 1795431807.0
-      },
-      {
-        "title": "3 Industrial Stocks Trading Above $500 a Share: Which One Splits First?",
-        "url": "https://www.fool.com/investing/2026/11/21/3-industrial-stocks-trading-above-500-a-share-which-one-splits-first-cat-fix-gev/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-21 22:30 ET",
-        "pub_ts": 1795318202.0
+        "time": "11-24 14:32 ET",
+        "pub_ts": 1795548771.0
       }
     ],
     "FN": [
@@ -3240,39 +3240,39 @@
     ],
     "ANT": [
       {
-        "title": "Prediction: Here’s What Anthropic’s Valuation Will Be in 2027, According to History",
-        "url": "https://www.fool.com/investing/2026/11/25/prediction-heres-what-anthropics-valuation-will-be-in-2027-according-to-history/?.tsrc=rss",
+        "title": "AI just solved something no human can understand",
+        "url": "https://finance.yahoo.com/video/ai-just-solved-something-no-120000560.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 03:58 ET",
-        "pub_ts": 1795597082.0
+        "time": "11-25 07:00 ET",
+        "pub_ts": 1795608000.0
       },
       {
-        "title": "AI Concerns Resurface? ORCL, GOOGL, SPCX, CRWV Credit Default Swap Spreads Hit Records As NVDA, ANT Tumble",
-        "url": "https://stocktwits.com/news-articles/markets/equity/ai-concerns-resurface-orcl-googl-spcx-crwv-credit-default-swap-spreads-hit-records-as-nvda-ant-tumble/cNbHEEAR9lZ?.tsrc=rss",
+        "title": "Anthropic Reportedly Expands Zurich Operations To Tap AI Talent — ANT Stock On Track To Open Below $80",
+        "url": "https://stocktwits.com/news-articles/markets/equity/anthropic-reportedly-expands-zurich-operations-to-tap-ai-talent-ant-stock-on-track-to-open-below-80/cNbHiyfR9mW?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 01:56 ET",
-        "pub_ts": 1795589778.0
+        "time": "11-25 08:39 ET",
+        "pub_ts": 1795613956.0
       },
       {
-        "title": "Investors shut out of Anthropic's IPO may be the lucky ones",
-        "url": "https://www.thestreet.com/investing/anthropic-stock-below-ipo-price-missed-allocation?.tsrc=rss",
+        "title": "Stock Market Today: Dow Dives On Surprise Inflation Data; Nvidia, Anthropic Plunge (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow-dives.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 00:03 ET",
-        "pub_ts": 1795582980.0
+        "time": "11-25 08:38 ET",
+        "pub_ts": 1795613907.0
       },
       {
-        "title": "Cathie Wood’s ARK Sees ‘Excellent Entry Points’ In AI — ‘Big Short’ Steve Eisman Warns Of Recession If Anthropic Or OpenAI Fails",
-        "url": "https://stocktwits.com/news-articles/markets/equity/cathie-wood-ark-excellent-entry-points-ai-steve-eisman-recession-anthropic-openai-fails/cNbHcZ4R9lW?.tsrc=rss",
+        "title": "Not SpaceX, Not Anthropic: These Are the 2 AI Stocks I Bought During the Sell-Off",
+        "url": "https://www.fool.com/investing/2026/11/25/not-spacex-not-anthropic-these-are-the-2-ai-stocks-i-bought-during-the-sell-off/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 23:41 ET",
-        "pub_ts": 1795581691.0
+        "time": "11-25 08:35 ET",
+        "pub_ts": 1795613702.0
       },
       {
-        "title": "Anthropic vs. SpaceX: Here's the Better IPO Stock to Buy With $1,000 Right Now",
-        "url": "https://www.fool.com/investing/2026/11/24/anthropic-vs-spacex-here-s-the-better-ipo-stock-to-buy-with-usd1-000-right-now/?.tsrc=rss",
+        "title": "Update: Market Chatter: Anthropic Expanding in Zurich to Advance AI Research",
+        "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-anthropic-expanding-zurich-130416327.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 23:35 ET",
-        "pub_ts": 1795581301.0
+        "time": "11-25 08:04 ET",
+        "pub_ts": 1795611856.0
       }
     ],
     "XAUUSD": [
@@ -3393,15 +3393,15 @@
     "NKE": 1795615019.958787,
     "MCD": 1795615019.958787,
     "PEP": 1795615019.958787,
-    "XOM": 1795600248.561613,
+    "XOM": 1795615125.205336,
     "JPM": 1795615019.958787,
-    "WMT": 1795600248.561613,
+    "WMT": 1795615125.205336,
     "V": 1795615019.958787,
-    "CAT": 1795600248.561613,
+    "CAT": 1795615125.205336,
     "FN": 1795614562.6345942,
     "GLW": 1795614562.6345942,
-    "ANT": 1795600248.561613,
-    "XAUUSD": 1795600248.561613,
+    "ANT": 1795615125.205336,
+    "XAUUSD": 1795615125.205336,
     "KOSPI": 1795615019.958787
   },
   "opex_shield": {
