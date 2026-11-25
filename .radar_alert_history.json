@@ -111,7 +111,7 @@
     },
     "CRWD": {
       "state": "STOP_LOSS",
-      "last_notified_at": 1795597757.0141616
+      "last_notified_at": 1795614578.742408
     },
     "TSLA": {
       "state": "NORMAL",
@@ -151,7 +151,7 @@
     },
     "DELL": {
       "state": "STOP_LOSS",
-      "last_notified_at": 1795595961.709385
+      "last_notified_at": 1795614578.742408
     },
     "BE": {
       "state": "STOP_LOSS",
@@ -170,12 +170,12 @@
       "last_notified_at": 0.0
     },
     "NKE": {
-      "state": "WATCHLIST_ENTRY_READY",
-      "last_notified_at": 1795600262.0043175
+      "state": "NORMAL",
+      "last_notified_at": 0.0
     },
     "HPE": {
       "state": "STOP_LOSS",
-      "last_notified_at": 1795593961.1826227
+      "last_notified_at": 1795614578.742408
     },
     "PLTR": {
       "state": "NORMAL",
