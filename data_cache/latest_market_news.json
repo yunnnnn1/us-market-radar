@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795585004.514,
-  "updated_at_et": "11-25 00:36 ET",
-  "updated_at_kst": "14:36 KST",
+  "updated_at_ts": 1795585109.908,
+  "updated_at_et": "11-25 00:38 ET",
+  "updated_at_kst": "14:38 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -17,7 +17,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 474,
+      "minutes_left": 472,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -36,7 +36,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 474,
+      "minutes_left": 472,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -2199,11 +2199,11 @@
         "pub_ts": 1795549802.0
       },
       {
-        "title": "Dell Says AI Demand Remains ‘Firm,’ Every Order ‘Fully Vetted’ – But DELL Stock Barely Moves After Beat-And-Raise Quarter",
-        "url": "https://stocktwits.com/news-articles/markets/equity/dell-says-ai-demand-remains-firm-every-order-fully-vetted-but-dell-stock-barely-moves-after-beat-and-raise-quarter/cNbu6VGR9lI?.tsrc=rss",
+        "title": "Donald Trump Floats Jensen Huang Pardon, US Stake In Nvidia – But NVDA Loses Momentum",
+        "url": "https://stocktwits.com/news-articles/markets/equity/donald-trump-floats-jensen-huang-pardon-us-stake-in-nvidia-but-nvda-loses-momentum/cNbHPnyR9lL?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 21:50 ET",
-        "pub_ts": 1795575024.0
+        "time": "11-25 00:20 ET",
+        "pub_ts": 1795584052.0
       }
     ],
     "VRT": [
@@ -2467,6 +2467,13 @@
     ],
     "SKHY": [
       {
+        "title": "SK Hynix (NasdaqGS:SKHY) Stock May Trade At A Discount Despite AI Demand News",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-nasdaqgs-skhy-stock-051115290.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 00:11 ET",
+        "pub_ts": 1795583475.0
+      },
+      {
         "title": "South Korea's chipmakers rally on Huang's return",
         "url": "http://www.intellinews.com/south-korea-s-chipmakers-rally-on-huang-s-return-488025/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2493,13 +2500,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 12:41 ET",
         "pub_ts": 1795542100.0
-      },
-      {
-        "title": "SK hynix vs. TSMC: One Chipmaker's Revenue Is Exploding, but Is It the Better Buy for 2027?",
-        "url": "https://www.fool.com/coverage/charts/2026/11/24/sk-hynix-vs-tsmc-one-chipmaker-s-revenue-is-exploding-but-is-it-the-better-buy-for-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 12:35 ET",
-        "pub_ts": 1795541702.0
       }
     ],
     "WDC": [
@@ -2652,6 +2652,20 @@
     ],
     "BTC-USD": [
       {
+        "title": "BlackRock Says Markets Overprice Fed Hikes: Will Bitcoin Catch a Break?",
+        "url": "https://beincrypto.com/blackrock-fed-hikes-bitcoin-relief/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 00:20 ET",
+        "pub_ts": 1795584052.0
+      },
+      {
+        "title": "Why Did CleanSpark Lose Nearly $1 Billion in Fiscal 2026?",
+        "url": "https://beincrypto.com/cleanspark-fiscal-2026-loss-bitcoin-ai/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 00:19 ET",
+        "pub_ts": 1795583980.0
+      },
+      {
         "title": "Strategy (MSTR) Stock Trades At A Discount To Book Value",
         "url": "https://finance.yahoo.com/markets/stocks/articles/strategy-mstr-stock-trades-discount-020908385.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2671,20 +2685,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 19:50 ET",
         "pub_ts": 1795567830.0
-      },
-      {
-        "title": "What Cleanspark (CLSK) Said on Its Q4 Earnings Call",
-        "url": "https://www.marketbeat.com/instant-alerts/transcript-what-cleanspark-clsk-said-on-its-q4-earnings-call-2026-11-24/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 19:13 ET",
-        "pub_ts": 1795565614.0
-      },
-      {
-        "title": "Why Bitcoin's Dominance Over Crypto Could Finally Be Breaking: Helius CEO",
-        "url": "https://www.coinage.media/2026/why-bitcoins-dominance-over-crypto-could-finally-be-breaking-helius-ceo?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 18:56 ET",
-        "pub_ts": 1795564560.0
       }
     ],
     "CRWD": [
@@ -3366,32 +3366,32 @@
     "LITE": 1795584798.8112814,
     "AAOI": 1795584798.8112814,
     "SPCX": 1795584798.8112814,
-    "ASTS": 1795583557.2608793,
+    "ASTS": 1795585109.9078283,
     "AXTI": 1795584798.8112814,
-    "NASA": 1795583557.2608793,
-    "LUNR": 1795583557.2608793,
-    "TSLA": 1795583557.2608793,
-    "AXP": 1795583557.2608793,
-    "RKLB": 1795583557.2608793,
-    "KO": 1795583557.2608793,
-    "FLY": 1795583557.2608793,
-    "INTC": 1795583557.2608793,
-    "VRT": 1795583557.2608793,
-    "HPE": 1795583557.2608793,
-    "DELL": 1795583557.2608793,
-    "OKLO": 1795583557.2608793,
-    "CEG": 1795583557.2608793,
-    "FPS": 1795583557.2608793,
-    "MU": 1795583557.2608793,
-    "SKHY": 1795583557.2608793,
-    "WDC": 1795583557.2608793,
-    "STX": 1795583557.2608793,
-    "MSTR": 1795583557.2608793,
-    "SNDK": 1795583557.2608793,
-    "BTC-USD": 1795583557.2608793,
-    "CRWD": 1795583557.2608793,
-    "ORCL": 1795583557.2608793,
-    "COIN": 1795583557.2608793,
+    "NASA": 1795585109.9078283,
+    "LUNR": 1795585109.9078283,
+    "TSLA": 1795585109.9078283,
+    "AXP": 1795585109.9078283,
+    "RKLB": 1795585109.9078283,
+    "KO": 1795585109.9078283,
+    "FLY": 1795585109.9078283,
+    "INTC": 1795585109.9078283,
+    "VRT": 1795585109.9078283,
+    "HPE": 1795585109.9078283,
+    "DELL": 1795585109.9078283,
+    "OKLO": 1795585109.9078283,
+    "CEG": 1795585109.9078283,
+    "FPS": 1795585109.9078283,
+    "MU": 1795585109.9078283,
+    "SKHY": 1795585109.9078283,
+    "WDC": 1795585109.9078283,
+    "STX": 1795585109.9078283,
+    "MSTR": 1795585109.9078283,
+    "SNDK": 1795585109.9078283,
+    "BTC-USD": 1795585109.9078283,
+    "CRWD": 1795585109.9078283,
+    "ORCL": 1795585109.9078283,
+    "COIN": 1795585109.9078283,
     "LLY": 1795583661.3927386,
     "MRNA": 1795583661.3927386,
     "NKE": 1795583661.3927386,
@@ -3424,10 +3424,10 @@
   },
   "calendar_banner": {
     "level": "upcoming",
-    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 474 分钟（11-25 08:30 ET / 22:30 KST）",
+    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 472 分钟（11-25 08:30 ET / 22:30 KST）",
     "detail": "前值 0.3% ｜ 预期 0.3% ｜ 临近公布前15分钟将自动触发防插针预警",
     "event_name": "美国10月核心PCE物价指数环比",
-    "minutes_left": 474,
+    "minutes_left": 472,
     "opex_shield": {
       "date": "2026-11-25",
       "active": false,
