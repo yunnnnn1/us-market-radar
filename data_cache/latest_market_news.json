@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795581901.193,
-  "updated_at_et": "11-24 23:45 ET",
-  "updated_at_kst": "13:45 KST",
+  "updated_at_ts": 1795582004.0,
+  "updated_at_et": "11-24 23:46 ET",
+  "updated_at_kst": "13:46 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2243,6 +2243,13 @@
     ],
     "DELL": [
       {
+        "title": "Dell (DELL) Q3 2027 Earnings Call Transcript",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/11/24/dell-dell-q3-2027-earnings-call-transcript/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 23:13 ET",
+        "pub_ts": 1795579984.0
+      },
+      {
         "title": "Asian stocks slide as AI selloff deepens, U.S. tariff threats weigh on sentiment",
         "url": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-slide-ai-selloff-040525614.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2269,13 +2276,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 19:13 ET",
         "pub_ts": 1795565616.0
-      },
-      {
-        "title": "S&P 500, Nasdaq End Lower As AI Jitters Resurface With Nvidia’s Governance Issues And Talks Of Fresh Import Tariffs — NVDA, DELL, TSLA, TGTX In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-lower-as-ai-jitters-resurface-with-nvidia-s-governance-issues-and-talks-of-fresh-import-tariffs-nvda-dell-tsla-tgtx-in-focus/cNbuDhyR9lT?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 19:12 ET",
-        "pub_ts": 1795565532.0
       }
     ],
     "OKLO": [
@@ -2650,6 +2650,13 @@
     ],
     "CRWD": [
       {
+        "title": "CrowdStrike: 3 Key Takeaways for Long-Term Investors",
+        "url": "https://www.fool.com/earnings/takeaways/2026/11/24/crowdstrike-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 23:32 ET",
+        "pub_ts": 1795581159.0
+      },
+      {
         "title": "7 Firms Downgraded Zscaler After CrowdStrike’s $43.9 Billion Deal. Is There Still Money to Make?",
         "url": "https://www.tikr.com/blog/7-firms-downgraded-zscaler-after-crowdstrikes-43-9-billion-deal-is-there-still-money-to-make?ref=yahoofinance&tlnk=yf-261124-pchw9jcv&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2676,13 +2683,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 13:50 ET",
         "pub_ts": 1795546200.0
-      },
-      {
-        "title": "CrowdStrike Stocks Move Lower as $43.9 Billion Zscaler Deal Value Shrinks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-stocks-move-lower-43-174628727.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 12:46 ET",
-        "pub_ts": 1795542388.0
       }
     ],
     "ORCL": [
@@ -2724,6 +2724,13 @@
     ],
     "COIN": [
       {
+        "title": "HOOD, COIN Get Wedbush Outperform Ratings: Here’s What The Firm Sees In Fintech’s Next Growth Phase",
+        "url": "https://stocktwits.com/news-articles/markets/equity/robinhood-coinbase-circle-block-wedbush-price-targets-fintech-growth/cNbHcXzR9lX?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 23:33 ET",
+        "pub_ts": 1795581191.0
+      },
+      {
         "title": "Competition Started In 24/7 Trading: Andrew Cuomo",
         "url": "https://finance.yahoo.com/video/competition-started-24-7-trading-204050875.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2750,13 +2757,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:58 ET",
         "pub_ts": 1795532312.0
-      },
-      {
-        "title": "Coinbase Global, Inc. (COIN) Is a Trending Stock: Facts to Know Before Betting on It",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/coinbase-global-inc-coin-trending-130003894.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 08:00 ET",
-        "pub_ts": 1795525203.0
       }
     ],
     "LLY": [
@@ -3327,32 +3327,32 @@
     "LITE": 1795581696.2411923,
     "AAOI": 1795581696.2411923,
     "SPCX": 1795581696.2411923,
-    "ASTS": 1795580456.5182183,
+    "ASTS": 1795582004.000062,
     "AXTI": 1795581696.2411923,
-    "NASA": 1795580456.5182183,
-    "LUNR": 1795580456.5182183,
-    "TSLA": 1795580456.5182183,
-    "AXP": 1795580456.5182183,
-    "RKLB": 1795580456.5182183,
-    "KO": 1795580456.5182183,
-    "FLY": 1795580456.5182183,
-    "INTC": 1795580456.5182183,
-    "VRT": 1795580456.5182183,
-    "HPE": 1795580456.5182183,
-    "DELL": 1795580456.5182183,
-    "OKLO": 1795580456.5182183,
-    "CEG": 1795580456.5182183,
-    "FPS": 1795580456.5182183,
-    "MU": 1795580456.5182183,
-    "SKHY": 1795580456.5182183,
-    "WDC": 1795580456.5182183,
-    "STX": 1795580456.5182183,
-    "MSTR": 1795580456.5182183,
-    "SNDK": 1795580456.5182183,
-    "BTC-USD": 1795580456.5182183,
-    "CRWD": 1795580456.5182183,
-    "ORCL": 1795580456.5182183,
-    "COIN": 1795580456.5182183,
+    "NASA": 1795582004.000062,
+    "LUNR": 1795582004.000062,
+    "TSLA": 1795582004.000062,
+    "AXP": 1795582004.000062,
+    "RKLB": 1795582004.000062,
+    "KO": 1795582004.000062,
+    "FLY": 1795582004.000062,
+    "INTC": 1795582004.000062,
+    "VRT": 1795582004.000062,
+    "HPE": 1795582004.000062,
+    "DELL": 1795582004.000062,
+    "OKLO": 1795582004.000062,
+    "CEG": 1795582004.000062,
+    "FPS": 1795582004.000062,
+    "MU": 1795582004.000062,
+    "SKHY": 1795582004.000062,
+    "WDC": 1795582004.000062,
+    "STX": 1795582004.000062,
+    "MSTR": 1795582004.000062,
+    "SNDK": 1795582004.000062,
+    "BTC-USD": 1795582004.000062,
+    "CRWD": 1795582004.000062,
+    "ORCL": 1795582004.000062,
+    "COIN": 1795582004.000062,
     "LLY": 1795580559.087344,
     "MRNA": 1795580559.087344,
     "NKE": 1795580559.087344,
