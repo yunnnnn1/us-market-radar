@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795627477.252,
-  "updated_at_et": "11-25 12:24 ET",
-  "updated_at_kst": "02:24 KST",
+  "updated_at_ts": 1795627581.746,
+  "updated_at_et": "11-25 12:26 ET",
+  "updated_at_kst": "02:26 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -2050,6 +2050,13 @@
     ],
     "RKLB": [
       {
+        "title": "Mizuho Calls Rocket Lab’s Business Model “Among Our Favorites.” It Still Sees 6% Downside",
+        "url": "https://www.tikr.com/blog/mizuho-calls-rocket-labs-business-model-among-our-favorites-it-still-sees-6-downside?ref=yahoofinance&tlnk=yf-261125-4ffhq3f5&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:05 ET",
+        "pub_ts": 1795626319.0
+      },
+      {
         "title": "SpaceX Slides 5% as Gary Black Warns a Tesla Bid Could Push It Below $100; Rocket Lab and AST SpaceMobile Drop 4%",
         "url": "https://247wallst.com/investing/2026/11/25/spacex-slides-5-as-gary-black-warns-a-tesla-bid-could-push-it-below-100-rocket-lab-and-ast-spacemobile-drop-4/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2076,13 +2083,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:02 ET",
         "pub_ts": 1795604565.0
-      },
-      {
-        "title": "Mizuho Sees 14% Downside in Rocket Lab Even After Its 69% Fall From May’s High",
-        "url": "https://www.tikr.com/blog/mizuho-sees-14-downside-in-rocket-lab-even-after-its-69-fall-from-mays-high?ref=yahoofinance&tlnk=yf-261124-63fgqw27&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:11 ET",
-        "pub_ts": 1795554666.0
       }
     ],
     "KO": [
@@ -2124,6 +2124,13 @@
     ],
     "FLY": [
       {
+        "title": "Why Did Firefly Aerospace Stock Drop Today?",
+        "url": "https://www.fool.com/investing/2026/11/25/why-did-firefly-aerospace-stock-drop-today/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:57 ET",
+        "pub_ts": 1795625831.0
+      },
+      {
         "title": "Firefly Could Fill ‘Large Supply Gaps’ In Launch Market, Says Needham – Analyst Sees Over 100% Upside Potential In FLY Stock",
         "url": "https://stocktwits.com/news-articles/markets/equity/firefly-could-fill-large-supply-gaps-in-launch-market-says-needham-analyst-sees-over-100-upside-potential-in-fly-stock/cNbHjilR9mk?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2150,13 +2157,6 @@
         "source": "Yahoo Finance",
         "time": "11-20 06:23 ET",
         "pub_ts": 1795173782.0
-      },
-      {
-        "title": "Firefly Aerospace (FLY) Ties 2028 Moon Mission To New Lunar Mapping Payload",
-        "url": "https://finance.yahoo.com/technology/articles/firefly-aerospace-fly-ties-2028-111259581.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-20 06:12 ET",
-        "pub_ts": 1795173179.0
       }
     ],
     "INTC": [
@@ -2198,6 +2198,13 @@
     ],
     "VRT": [
       {
+        "title": "Vertiv jumps 17 spots on the Roundtable 100",
+        "url": "https://www.thestreet.com/crypto/markets/vertiv-jumps-17-spots-on-the-roundtable-100?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:18 ET",
+        "pub_ts": 1795627133.0
+      },
+      {
         "title": "Vertiv Just Raised Its Dividend 60%, but the AI Stock Still Yields Only 0.23%",
         "url": "https://247wallst.com/investing/2026/11/25/vertiv-just-raised-its-dividend-60-but-the-ai-stock-still-yields-only-0-23/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2224,13 +2231,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 03:46 ET",
         "pub_ts": 1795596397.0
-      },
-      {
-        "title": "Comfort Systems vs. Vertiv: Which AI Cooling Stock Is a Better Buy?",
-        "url": "https://finance.yahoo.com/technology/ai/articles/comfort-systems-vs-vertiv-ai-163100993.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:31 ET",
-        "pub_ts": 1795537860.0
       }
     ],
     "HPE": [
@@ -2286,13 +2286,6 @@
         "pub_ts": 1795622208.0
       },
       {
-        "title": "Stock Market Today: Dow Falls 700 Points, Nasdaq Off 4%; Nutanix Dives On CEO Exit (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow-falls.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:43 ET",
-        "pub_ts": 1795625038.0
-      },
-      {
         "title": "Dell, HPE Post Big Sales Growth But Investors Sense Peak",
         "url": "https://finance.yahoo.com/m/509b8d3a-b338-3181-bdcf-b7e931f38513/dell%2C-hpe-post-big-sales.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2305,9 +2298,23 @@
         "source": "Yahoo Finance",
         "time": "11-25 11:10 ET",
         "pub_ts": 1795623043.0
+      },
+      {
+        "title": "Dell Doubled Revenue. The Stock Tumbled Anyway.",
+        "url": "https://app.moby.co/home/news/news-dell-doubled-revenue-the-stock-tumbled-anyway?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:08 ET",
+        "pub_ts": 1795622905.0
       }
     ],
     "OKLO": [
+      {
+        "title": "Oklo and NuScale Power Retreat 8% as AI Power Selloff Deepens; Energy Fuels Drops 6%",
+        "url": "https://247wallst.com/investing/2026/11/25/oklo-and-nuscale-power-retreat-8-as-ai-power-selloff-deepens-energy-fuels-drops-6/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:57 ET",
+        "pub_ts": 1795625822.0
+      },
       {
         "title": "OKLO Has More Cash, But Is NuScale the Better Nuclear Stock?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-more-cash-nuscale-better-122800602.html?.tsrc=rss",
@@ -2335,13 +2342,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 13:12 ET",
         "pub_ts": 1795543945.0
-      },
-      {
-        "title": "Oklo Slides 7% as Monday’s Nuclear Rebound Fades; NuScale Power and Energy Fuels Drop 6%",
-        "url": "https://247wallst.com/investing/2026/11/24/oklo-slides-7-as-mondays-nuclear-rebound-fades-nuscale-power-and-energy-fuels-drop-6/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:52 ET",
-        "pub_ts": 1795539143.0
       }
     ],
     "CEG": [
@@ -2420,6 +2420,20 @@
     ],
     "MU": [
       {
+        "title": "HP Earnings: Memory Went From 15% to 40% of a PC’s Parts Cost in a Year",
+        "url": "https://247wallst.com/investing/2026/11/25/hp-earnings-memory-went-from-15-to-40-of-a-pcs-parts-cost-in-a-year/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:07 ET",
+        "pub_ts": 1795626424.0
+      },
+      {
+        "title": "HP Soars 11% on Q4 Beat as Interim CEO Sees “Multiple Waves of Device Refresh”",
+        "url": "https://www.tikr.com/blog/hp-soars-11-on-q4-beat-as-interim-ceo-sees-multiple-waves-of-device-refresh?ref=yahoofinance&tlnk=yf-261125-vw9jfr94&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:02 ET",
+        "pub_ts": 1795626175.0
+      },
+      {
         "title": "Chip stocks tumble as Nvidia-led AI rally unravels, tariff fears weigh",
         "url": "https://www.proactiveinvestors.com/companies/news/1102454/chip-stocks-tumble-as-nvidia-led-ai-rally-unravels-tariff-fears-weigh-1102454.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2439,20 +2453,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 11:03 ET",
         "pub_ts": 1795622602.0
-      },
-      {
-        "title": "Why Micron Stock Just Dropped Again",
-        "url": "https://www.fool.com/investing/2026/11/25/why-micron-stock-just-dropped-again/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:54 ET",
-        "pub_ts": 1795622058.0
-      },
-      {
-        "title": "Micron Stocks Sink 10.47% After BNP Paribas Halves Target on Oversupply Fears",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/micron-stocks-sink-10-47-154807203.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:48 ET",
-        "pub_ts": 1795621687.0
       }
     ],
     "SKHY": [
@@ -2642,6 +2642,27 @@
     ],
     "BTC-USD": [
       {
+        "title": "Why AI Clouds Could Be ‘Missing Money’ by Not Mining Pearl",
+        "url": "https://unchainedcrypto.com/why-ai-clouds-could-be-missing-money-by-not-mining-pearl/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:00 ET",
+        "pub_ts": 1795626044.0
+      },
+      {
+        "title": "The Bitcoin Dominance Metric Just Fell Below 60%. Could Altcoin Season Be Right Around the Corner?",
+        "url": "https://www.fool.com/investing/2026/11/25/the-bitcoin-dominance-metric-just-fell-below-60-could-altcoin-season-be-right-around-the-corner/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:53 ET",
+        "pub_ts": 1795625581.0
+      },
+      {
+        "title": "Bitcoin Falls Further as Inflation, Trump Tariffs and AI Selloff Rattle Markets",
+        "url": "https://decrypt.co/383967/bitcoin-sinks-inflation-trump-tariffs-ai-selloff?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:52 ET",
+        "pub_ts": 1795625570.0
+      },
+      {
         "title": "Prediction: IREN’s Microsoft Deal Could Be Just the Beginning of Its Next Growth Phase",
         "url": "https://247wallst.com/investing/2026/11/25/prediction-irens-microsoft-deal-could-be-just-the-beginning-of-its-next-growth-phase-massive-upside-ahead/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2654,27 +2675,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 11:30 ET",
         "pub_ts": 1795624200.0
-      },
-      {
-        "title": "Tether Gold Under Pressure: Bitcoin and Gold Losses Erase 70% of USDT’s Cushion",
-        "url": "https://www.coinspeaker.com/tether-gold-under-pressure-bitcoin-and-gold-losses-erase-70-of-usdts-cushion/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:24 ET",
-        "pub_ts": 1795623846.0
-      },
-      {
-        "title": "Before the bell: Bitcoin's Thanksgiving comes with a tariff bill",
-        "url": "https://www.thestreet.com/crypto/markets/before-the-bell-bitcoins-thanksgiving-comes-with-a-tariff-bill-?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:24 ET",
-        "pub_ts": 1795623845.0
-      },
-      {
-        "title": "Bitcoin Price Prediction for December 2026: What the Forecasts Say",
-        "url": "https://247wallst.com/investing/cryptocurrency/2026/11/25/bitcoin-price-prediction-for-december-2026-what-the-forecasts-say/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:17 ET",
-        "pub_ts": 1795623429.0
       }
     ],
     "CRWD": [
@@ -2716,6 +2716,13 @@
     ],
     "ORCL": [
       {
+        "title": "Oracle Is Down 60% From Its June High. J.P. Morgan Still Sees $200",
+        "url": "https://www.tikr.com/blog/oracle-is-down-60-from-its-june-high-j-p-morgan-still-sees-200?ref=yahoofinance&tlnk=yf-261125-q6w2wj6x&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:50 ET",
+        "pub_ts": 1795625456.0
+      },
+      {
         "title": "Oracle, CoreWeave Face Stark Warning From Credit Markets",
         "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-coreweave-face-stark-warning-162922864.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2742,13 +2749,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 11:00 ET",
         "pub_ts": 1795622402.0
-      },
-      {
-        "title": "Oracle’s Credit Swaps Blow Out. Blue Owl Anchored the $15 Billion Campus It Rents",
-        "url": "https://www.tikr.com/blog/oracles-credit-swaps-blow-out-blue-owl-anchored-the-15-billion-campus-it-rents?ref=yahoofinance&tlnk=yf-261125-c28562w4&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:48 ET",
-        "pub_ts": 1795621681.0
       }
     ],
     "COIN": [
@@ -3356,32 +3356,32 @@
     "LITE": 1795627155.1754026,
     "AAOI": 1795627155.1754026,
     "SPCX": 1795627155.1754026,
-    "ASTS": 1795625986.777743,
+    "ASTS": 1795627581.7458813,
     "AXTI": 1795627155.1754026,
-    "NASA": 1795625986.777743,
-    "LUNR": 1795625986.777743,
-    "TSLA": 1795625986.777743,
-    "AXP": 1795625986.777743,
-    "RKLB": 1795625986.777743,
-    "KO": 1795625986.777743,
-    "FLY": 1795625986.777743,
-    "INTC": 1795625986.777743,
-    "VRT": 1795625986.777743,
-    "HPE": 1795625986.777743,
-    "DELL": 1795625986.777743,
-    "OKLO": 1795625986.777743,
-    "CEG": 1795625986.777743,
-    "FPS": 1795625986.777743,
-    "MU": 1795625986.777743,
-    "SKHY": 1795625986.777743,
-    "WDC": 1795625986.777743,
-    "STX": 1795625986.777743,
-    "MSTR": 1795625986.777743,
-    "SNDK": 1795625986.777743,
-    "BTC-USD": 1795625986.777743,
-    "CRWD": 1795625986.777743,
-    "ORCL": 1795625986.777743,
-    "COIN": 1795625986.777743,
+    "NASA": 1795627581.7458813,
+    "LUNR": 1795627581.7458813,
+    "TSLA": 1795627581.7458813,
+    "AXP": 1795627581.7458813,
+    "RKLB": 1795627581.7458813,
+    "KO": 1795627581.7458813,
+    "FLY": 1795627581.7458813,
+    "INTC": 1795627581.7458813,
+    "VRT": 1795627581.7458813,
+    "HPE": 1795627581.7458813,
+    "DELL": 1795627581.7458813,
+    "OKLO": 1795627581.7458813,
+    "CEG": 1795627581.7458813,
+    "FPS": 1795627581.7458813,
+    "MU": 1795627581.7458813,
+    "SKHY": 1795627581.7458813,
+    "WDC": 1795627581.7458813,
+    "STX": 1795627581.7458813,
+    "MSTR": 1795627581.7458813,
+    "SNDK": 1795627581.7458813,
+    "BTC-USD": 1795627581.7458813,
+    "CRWD": 1795627581.7458813,
+    "ORCL": 1795627581.7458813,
+    "COIN": 1795627581.7458813,
     "LLY": 1795626094.073924,
     "MRNA": 1795626094.073924,
     "NKE": 1795626094.073924,
