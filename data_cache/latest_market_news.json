@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795575718.803,
-  "updated_at_et": "11-24 22:01 ET",
-  "updated_at_kst": "12:01 KST",
+  "updated_at_ts": 1795575815.653,
+  "updated_at_et": "11-24 22:03 ET",
+  "updated_at_kst": "12:03 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1954,6 +1954,13 @@
         "pub_ts": 1795573586.0
       },
       {
+        "title": "Thinking of Buying SpaceX Stock? Gary Black Says Wait for a Potential Tesla Merger to Send It Below $100",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/thinking-buying-spacex-stock-gary-013135652.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 20:31 ET",
+        "pub_ts": 1795570295.0
+      },
+      {
         "title": "He Lets His Tesla Drive at 93, Trusting the Brand. A $400,000 Crash Judgment Could Reach His Savings, While His $2,800 Social Security Check Stays Off-Limits to the Victim",
         "url": "https://247wallst.com/personal-finance/social-security/2026/11/24/he-lets-his-tesla-drive-at-93-trusting-the-brand-a-400000-crash-judgment-could-reach-his-savings-while-his-2800-social-security-check-stays-off-limits-to-the-victim/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1973,13 +1980,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 17:12 ET",
         "pub_ts": 1795558359.0
-      },
-      {
-        "title": "RBC Expects SpaceX-Tesla Deal Announcement By Early 2027 — Notes TSLA Shareholders May Accept Combination Without Large Premium",
-        "url": "https://stocktwits.com/news-articles/markets/equity/rbc-expects-space-x-tesla-deal-announcement-by-early-2027-notes-tsla-shareholders-may-accept-combination-without-large-premium/cNbsNbYR9k6?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:55 ET",
-        "pub_ts": 1795557333.0
       }
     ],
     "AXP": [
@@ -2065,6 +2065,13 @@
         "pub_ts": 1795556758.0
       },
       {
+        "title": "Warren Buffett Finished Buying Coca-Cola in August 1994 and Never Bought Another Share. Under Greg Abel, Berkshire Now Collects $2.3 Million a Day From It",
+        "url": "https://247wallst.com/investing/2026/11/24/warren-buffett-finished-buying-coca-cola-in-august-1994-and-never-bought-another-share-under-greg-abel-berkshire-now-collects-2-3-million-a-day-from-it/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 21:47 ET",
+        "pub_ts": 1795574825.0
+      },
+      {
         "title": "Prediction: Here's What $10,000 in Coca-Cola Could Pay You in Dividends by 2036",
         "url": "https://www.fool.com/investing/2026/11/24/prediction-heres-what-10000-in-coca-cola-could-pay-you-in-dividends-by-2036/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2084,13 +2091,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:35 ET",
         "pub_ts": 1795538100.0
-      },
-      {
-        "title": "Coca-Cola (KO) Appoints David Elkins As CFO Effective April 2027",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-appoints-david-151354439.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:13 ET",
-        "pub_ts": 1795533234.0
       }
     ],
     "FLY": [
@@ -2160,11 +2160,11 @@
         "pub_ts": 1795549802.0
       },
       {
-        "title": "HP Q4 Earnings Call Highlights",
-        "url": "https://www.marketbeat.com/instant-alerts/transcript-hp-q4-earnings-call-highlights-2026-11-24/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+        "title": "Dell Says AI Demand Remains ‘Firm,’ Every Order ‘Fully Vetted’ – But DELL Stock Barely Moves After Beat-And-Raise Quarter",
+        "url": "https://stocktwits.com/news-articles/markets/equity/dell-says-ai-demand-remains-firm-every-order-fully-vetted-but-dell-stock-barely-moves-after-beat-and-raise-quarter/cNbu6VGR9lI?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 20:13 ET",
-        "pub_ts": 1795569195.0
+        "time": "11-24 21:50 ET",
+        "pub_ts": 1795575024.0
       }
     ],
     "VRT": [
@@ -2243,18 +2243,11 @@
     ],
     "DELL": [
       {
-        "title": "Anthropic falls below IPO price as Nvidia gives back gains",
-        "url": "https://finance.yahoo.com/video/anthropic-falls-below-ipo-price-as-nvidia-gives-back-gains-214558309.html?.tsrc=rss",
+        "title": "Dell Says AI Demand Remains ‘Firm,’ Every Order ‘Fully Vetted’ – But DELL Stock Barely Moves After Beat-And-Raise Quarter",
+        "url": "https://stocktwits.com/news-articles/markets/equity/dell-says-ai-demand-remains-firm-every-order-fully-vetted-but-dell-stock-barely-moves-after-beat-and-raise-quarter/cNbu6VGR9lI?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 16:45 ET",
-        "pub_ts": 1795556758.0
-      },
-      {
-        "title": "Dow Jones Futures Fall; Trump Says 'Not Too Late' For U.S. To Take Nvidia Stake",
-        "url": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures-fall%3B-trump.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 21:34 ET",
-        "pub_ts": 1795574078.0
+        "time": "11-24 21:50 ET",
+        "pub_ts": 1795575024.0
       },
       {
         "title": "TSLA Stock Slips Overnight: Dell And HP See No Quick Relief From The AI-Driven Chip Crunch Behind Tesla’s 25% Memory Cut",
@@ -2276,6 +2269,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 19:12 ET",
         "pub_ts": 1795565532.0
+      },
+      {
+        "title": "Dell Technologies Q3 2027 Earnings: Recap of $DELL Earnings Call, Stock Forecast",
+        "url": "https://www.thestreet.com/latest-news/dell-technologies-q3-2027-earnings-call-stock-updates?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 18:30 ET",
+        "pub_ts": 1795563053.0
       }
     ],
     "OKLO": [
@@ -2419,14 +2419,21 @@
         "pub_ts": 1795554102.0
       },
       {
-        "title": "Morning Movers: Dick’s Sporting and Dollar Tree gain following quarterly reports",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/morning-movers-dick-sporting-dollar-220046732.html?.tsrc=rss",
+        "title": "5 Sleeper Blue-Chip Stock Picks for Steady Long-Term Gains",
+        "url": "https://www.kiplinger.com/investing/blue-chip-stocks/sleeper-blue-chip-stock-picks-for-steady-long-term-gains?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-24 17:00 ET",
-        "pub_ts": 1795557646.0
+        "time": "11-24 19:52 ET",
+        "pub_ts": 1795567953.0
       }
     ],
     "SKHY": [
+      {
+        "title": "AI Chip Boom to See Won Build on Best Year in Almost a Decade",
+        "url": "https://finance.yahoo.com/news/ai-chip-boom-see-won-014144127.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 20:41 ET",
+        "pub_ts": 1795570904.0
+      },
       {
         "title": "SK hynix Stocks Rise 6.73% as Huang's Return Lifts Seoul's HBM Leader",
         "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-stocks-rise-6-174140838.html?.tsrc=rss",
@@ -2454,13 +2461,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 07:56 ET",
         "pub_ts": 1795524966.0
-      },
-      {
-        "title": "TSMC and SK Hynix Stocks Jump After Nvidia Reinstates Jensen Huang as CEO",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-sk-hynix-stocks-jump-120300756.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 07:03 ET",
-        "pub_ts": 1795521780.0
       }
     ],
     "WDC": [
@@ -3327,32 +3327,32 @@
     "LITE": 1795575424.8860216,
     "AAOI": 1795575424.8860216,
     "SPCX": 1795575424.8860216,
-    "ASTS": 1795574256.1054826,
+    "ASTS": 1795575815.6530938,
     "AXTI": 1795575424.8860216,
-    "NASA": 1795574256.1054826,
-    "LUNR": 1795574256.1054826,
-    "TSLA": 1795574256.1054826,
-    "AXP": 1795574256.1054826,
-    "RKLB": 1795574256.1054826,
-    "KO": 1795574256.1054826,
-    "FLY": 1795574256.1054826,
-    "INTC": 1795574256.1054826,
-    "VRT": 1795574256.1054826,
-    "HPE": 1795574256.1054826,
-    "DELL": 1795574256.1054826,
-    "OKLO": 1795574256.1054826,
-    "CEG": 1795574256.1054826,
-    "FPS": 1795574256.1054826,
-    "MU": 1795574256.1054826,
-    "SKHY": 1795574256.1054826,
-    "WDC": 1795574256.1054826,
-    "STX": 1795574256.1054826,
-    "MSTR": 1795574256.1054826,
-    "SNDK": 1795574256.1054826,
-    "BTC-USD": 1795574256.1054826,
-    "CRWD": 1795574256.1054826,
-    "ORCL": 1795574256.1054826,
-    "COIN": 1795574256.1054826,
+    "NASA": 1795575815.6530938,
+    "LUNR": 1795575815.6530938,
+    "TSLA": 1795575815.6530938,
+    "AXP": 1795575815.6530938,
+    "RKLB": 1795575815.6530938,
+    "KO": 1795575815.6530938,
+    "FLY": 1795575815.6530938,
+    "INTC": 1795575815.6530938,
+    "VRT": 1795575815.6530938,
+    "HPE": 1795575815.6530938,
+    "DELL": 1795575815.6530938,
+    "OKLO": 1795575815.6530938,
+    "CEG": 1795575815.6530938,
+    "FPS": 1795575815.6530938,
+    "MU": 1795575815.6530938,
+    "SKHY": 1795575815.6530938,
+    "WDC": 1795575815.6530938,
+    "STX": 1795575815.6530938,
+    "MSTR": 1795575815.6530938,
+    "SNDK": 1795575815.6530938,
+    "BTC-USD": 1795575815.6530938,
+    "CRWD": 1795575815.6530938,
+    "ORCL": 1795575815.6530938,
+    "COIN": 1795575815.6530938,
     "LLY": 1795574354.4372246,
     "MRNA": 1795574354.4372246,
     "NKE": 1795574354.4372246,
