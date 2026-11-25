@@ -6991,9 +6991,13 @@
     "2026-11-25:MSFT/AMZN/IWM:5M_ENTRY": {
       "device": "PC",
       "ts": 1795650710.6337066
+    },
+    "2026-11-25:DEFENSIVE_FLIGHT:-0.6": {
+      "device": "PC",
+      "ts": 1795651093.5361595
     }
   },
   "device": "PC",
-  "last_heartbeat_ts": 1795650920.5142052,
-  "updated_at": "2026-11-25T23:55:20.514238+00:00"
+  "last_heartbeat_ts": 1795651015.696627,
+  "updated_at": "2026-11-25T23:58:13.536194+00:00"
 }

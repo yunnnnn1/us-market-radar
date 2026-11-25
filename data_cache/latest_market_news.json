@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795650987.107,
-  "updated_at_et": "11-25 18:56 ET",
-  "updated_at_kst": "08:56 KST",
+  "updated_at_ts": 1795651082.682,
+  "updated_at_et": "11-25 18:58 ET",
+  "updated_at_kst": "08:58 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1801,6 +1801,13 @@
         "pub_ts": 1795640239.0
       },
       {
+        "title": "If SpaceX and Tesla Merge Next Year, Here's What a $5,000 Investment in the Combined Company Could Be Worth by the End of 2028",
+        "url": "https://www.fool.com/investing/2026/11/25/if-spacex-and-tesla-merge-next-year-here-s-what-a-usd5-000-investment-in-the-combined-company-could-be-worth-by-the-end-of-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 18:24 ET",
+        "pub_ts": 1795649042.0
+      },
+      {
         "title": "Musk's Plan To Put 1 Million AI Satellites In Orbit Gets US Approval. Amazon Questions Whether It Can Be Done.",
         "url": "https://www.ibtimes.com/fcc-approves-spacex-ai-satellite-constellation-3810209?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1820,13 +1827,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 17:22 ET",
         "pub_ts": 1795645320.0
-      },
-      {
-        "title": "Stock Market Today, Nov. 25: SpaceX Gets Historic FCC Approval for 1 Million Satellites. Is This Its Next Growth Engine?",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-spacex-gets-historic-fcc-approval-for-1-million-satellites-is-this-its-next-growth-engine/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 17:05 ET",
-        "pub_ts": 1795644352.0
       }
     ],
     "ASTS": [
@@ -3356,11 +3356,11 @@
     "CRDO": 1795650987.1067276,
     "COHR": 1795650987.1067276,
     "MRVL": 1795650987.1067276,
-    "LITE": 1795649547.443754,
+    "LITE": 1795651082.6820278,
     "AAOI": 1795650987.1067276,
-    "SPCX": 1795649547.443754,
+    "SPCX": 1795651082.6820278,
     "ASTS": 1795650699.7030592,
-    "AXTI": 1795649547.443754,
+    "AXTI": 1795651082.6820278,
     "NASA": 1795650699.7030592,
     "LUNR": 1795650699.7030592,
     "TSLA": 1795650699.7030592,
@@ -3395,8 +3395,8 @@
     "WMT": 1795650987.1067276,
     "V": 1795650795.8320944,
     "CAT": 1795650987.1067276,
-    "FN": 1795649547.443754,
-    "GLW": 1795649547.443754,
+    "FN": 1795651082.6820278,
+    "GLW": 1795651082.6820278,
     "ANT": 1795650987.1067276,
     "XAUUSD": 1795650987.1067276,
     "KOSPI": 1795650795.8320944
