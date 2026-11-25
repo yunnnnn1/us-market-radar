@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795645986.619,
-  "updated_at_et": "11-25 17:33 ET",
-  "updated_at_kst": "07:33 KST",
+  "updated_at_ts": 1795646082.526,
+  "updated_at_et": "11-25 17:34 ET",
+  "updated_at_kst": "07:34 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -2239,7 +2239,7 @@
     "HPE": [
       {
         "title": "Jensen Huang's return, neocloud risk, and a holiday retail rally",
-        "url": "https://finance.yahoo.com/video/jensen-huangs-return-neocloud-risk-210000087.html?.tsrc=rss",
+        "url": "https://finance.yahoo.com/video/jensen-huangs-return-neocloud-risk-and-a-holiday-retail-rally-222042649.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 16:00 ET",
         "pub_ts": 1795640400.0
@@ -2571,6 +2571,13 @@
     ],
     "MSTR": [
       {
+        "title": "Why Has Strategy Stock Trailed Dropbox?",
+        "url": "https://www.trefis.com/stock/mstr/articles/628944/why-has-strategy-stock-trailed-dropbox/2026-11-25?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 17:10 ET",
+        "pub_ts": 1795644642.0
+      },
+      {
         "title": "With bitcoin crashing, is Strategy (MSTR) in trouble?",
         "url": "https://blockspace.media/short/with-bitcoin-crashing-is-strategy-mstr-in-trouble/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2597,13 +2604,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:03 ET",
         "pub_ts": 1795618995.0
-      },
-      {
-        "title": "Michael Saylor Bought $100M In Bitcoin Before Strategy Did, Says The Man Who Convinced Him To Buy It — Now That Bet Is Around $589M",
-        "url": "https://stocktwits.com/news-articles/markets/equity/michael-saylor-100m-bitcoin-purchase-589m-bet/cNbHOY3R9lH?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 05:22 ET",
-        "pub_ts": 1795602143.0
       }
     ],
     "SNDK": [
@@ -2645,6 +2645,20 @@
     ],
     "BTC-USD": [
       {
+        "title": "How Much of Your Portfolio Should Be in Bitcoin After a 50% Drop?",
+        "url": "https://247wallst.com/investing/cryptocurrency/2026/11/25/how-much-of-your-portfolio-should-be-in-bitcoin-after-a-50-drop/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 17:14 ET",
+        "pub_ts": 1795644888.0
+      },
+      {
+        "title": "Why Has Strategy Stock Trailed Dropbox?",
+        "url": "https://www.trefis.com/stock/mstr/articles/628944/why-has-strategy-stock-trailed-dropbox/2026-11-25?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 17:10 ET",
+        "pub_ts": 1795644642.0
+      },
+      {
         "title": "Analyst explains why Bitcoin’s next move depends on Nasdaq",
         "url": "https://www.thestreet.com/crypto/markets/analyst-explains-why-bitcoins-next-move-depends-on-nasdaq?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2664,20 +2678,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 15:28 ET",
         "pub_ts": 1795638489.0
-      },
-      {
-        "title": "IREN stock price is down 80% over six months. Here’s why",
-        "url": "https://blockspace.media/short/iren-stock-price-is-down-80-over-six-months-heres-why/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 15:18 ET",
-        "pub_ts": 1795637937.0
-      },
-      {
-        "title": "Mysterious traders made $340,000 betting on Huang’s Nvidia return",
-        "url": "https://www.thestreet.com/crypto/markets/mysterious-traders-made-340000-betting-on-huangs-nvidia-return?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 15:00 ET",
-        "pub_ts": 1795636800.0
       }
     ],
     "CRWD": [
@@ -2747,11 +2747,11 @@
         "pub_ts": 1795623516.0
       },
       {
-        "title": "This May Be the Best Artificial Intelligence (AI) Stock to Buy in December (Hint: It’s Not Micron or Oracle)",
-        "url": "https://www.fool.com/investing/2026/11/25/this-may-be-the-best-artificial-intelligence-ai-stock-to-buy-in-december-hint-it-s-not-micron-or-oracle/?.tsrc=rss",
+        "title": "Amdocs (DOX) Stock Is Up 4.6% Today Without Company News",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amdocs-dox-stock-4-6-181513799.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 11:13 ET",
-        "pub_ts": 1795623182.0
+        "time": "11-25 13:15 ET",
+        "pub_ts": 1795630513.0
       }
     ],
     "COIN": [
@@ -3359,32 +3359,32 @@
     "LITE": 1795644921.64759,
     "AAOI": 1795644823.13393,
     "SPCX": 1795644921.64759,
-    "ASTS": 1795644532.912402,
+    "ASTS": 1795646082.5259976,
     "AXTI": 1795644921.64759,
-    "NASA": 1795644532.912402,
-    "LUNR": 1795644532.912402,
-    "TSLA": 1795644532.912402,
-    "AXP": 1795644532.912402,
-    "RKLB": 1795644532.912402,
-    "KO": 1795644532.912402,
-    "FLY": 1795644532.912402,
-    "INTC": 1795644532.912402,
-    "VRT": 1795644532.912402,
-    "HPE": 1795644532.912402,
-    "DELL": 1795644532.912402,
-    "OKLO": 1795644532.912402,
-    "CEG": 1795644532.912402,
-    "FPS": 1795644532.912402,
-    "MU": 1795644532.912402,
-    "SKHY": 1795644532.912402,
-    "WDC": 1795644532.912402,
-    "STX": 1795644532.912402,
-    "MSTR": 1795644532.912402,
-    "SNDK": 1795644532.912402,
-    "BTC-USD": 1795644532.912402,
-    "CRWD": 1795644532.912402,
-    "ORCL": 1795644532.912402,
-    "COIN": 1795644532.912402,
+    "NASA": 1795646082.5259976,
+    "LUNR": 1795646082.5259976,
+    "TSLA": 1795646082.5259976,
+    "AXP": 1795646082.5259976,
+    "RKLB": 1795646082.5259976,
+    "KO": 1795646082.5259976,
+    "FLY": 1795646082.5259976,
+    "INTC": 1795646082.5259976,
+    "VRT": 1795646082.5259976,
+    "HPE": 1795646082.5259976,
+    "DELL": 1795646082.5259976,
+    "OKLO": 1795646082.5259976,
+    "CEG": 1795646082.5259976,
+    "FPS": 1795646082.5259976,
+    "MU": 1795646082.5259976,
+    "SKHY": 1795646082.5259976,
+    "WDC": 1795646082.5259976,
+    "STX": 1795646082.5259976,
+    "MSTR": 1795646082.5259976,
+    "SNDK": 1795646082.5259976,
+    "BTC-USD": 1795646082.5259976,
+    "CRWD": 1795646082.5259976,
+    "ORCL": 1795646082.5259976,
+    "COIN": 1795646082.5259976,
     "LLY": 1795644629.3283203,
     "MRNA": 1795644629.3283203,
     "NKE": 1795644629.3283203,
