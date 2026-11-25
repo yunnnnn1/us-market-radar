@@ -1,8 +1,47 @@
 {
-  "updated_at_ts": 1795582724.216,
-  "updated_at_et": "11-24 23:58 ET",
-  "updated_at_kst": "13:58 KST",
-  "macro_calendar": [],
+  "updated_at_ts": 1795582829.046,
+  "updated_at_et": "11-25 00:00 ET",
+  "updated_at_kst": "14:00 KST",
+  "macro_calendar": [
+    {
+      "event_id": "1599680",
+      "name": "美国10月核心PCE物价指数环比",
+      "country": "美国",
+      "star": 5,
+      "pub_time_ts": 1795613400.0,
+      "pub_time_et": "11-25 08:30 ET",
+      "pub_time_bj": "21:30 BJ",
+      "pub_time_kst": "22:30 KST",
+      "previous": "0.3%",
+      "forecast": "0.3%",
+      "actual": "待公布",
+      "unit": "%",
+      "status": "upcoming",
+      "minutes_left": 510,
+      "impact_tone": "pending",
+      "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
+      "source": "wscn"
+    },
+    {
+      "event_id": "1599678",
+      "name": "美国10月PCE物价指数环比",
+      "country": "美国",
+      "star": 5,
+      "pub_time_ts": 1795613400.0,
+      "pub_time_et": "11-25 08:30 ET",
+      "pub_time_bj": "21:30 BJ",
+      "pub_time_kst": "22:30 KST",
+      "previous": "0.5%",
+      "forecast": "0.3%",
+      "actual": "待公布",
+      "unit": "%",
+      "status": "upcoming",
+      "minutes_left": 510,
+      "impact_tone": "pending",
+      "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
+      "source": "wscn"
+    }
+  ],
   "macro_flashes": [
     {
       "id": "20261125114024959800",
@@ -3370,7 +3409,7 @@
     "KOSPI": 1795581380.1088
   },
   "opex_shield": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "active": false,
     "timing": "NONE",
     "kind": "NONE",
@@ -3378,19 +3417,19 @@
     "opex_date": "2026-11-20",
     "next_opex_date": "2026-12-18",
     "next_is_quad_witching": true,
-    "days_to_opex": 24,
+    "days_to_opex": 23,
     "badge": "",
     "headline": "",
     "detail": ""
   },
   "calendar_banner": {
-    "level": "idle_with_flash",
-    "headline": "📡 宏观消息面监控中 · 今日暂无美股五星级经济数据大考",
-    "detail": "⚡ 最新核心快讯 (22:40 ET / 11:40 BJ) [美联储] [加息] [PCE]：美银认为美股跌幅尚不足以逼迫美联储转向，加息仍是基本预期。假期前市场迎来通胀数据考验，瑞银警告称，偏高的数据可能形成更大冲击。",
-    "event_name": "",
-    "minutes_left": 0,
+    "level": "upcoming",
+    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 510 分钟（11-25 08:30 ET / 22:30 KST）",
+    "detail": "前值 0.3% ｜ 预期 0.3% ｜ 临近公布前15分钟将自动触发防插针预警",
+    "event_name": "美国10月核心PCE物价指数环比",
+    "minutes_left": 510,
     "opex_shield": {
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "active": false,
       "timing": "NONE",
       "kind": "NONE",
@@ -3398,7 +3437,7 @@
       "opex_date": "2026-11-20",
       "next_opex_date": "2026-12-18",
       "next_is_quad_witching": true,
-      "days_to_opex": 24,
+      "days_to_opex": 23,
       "badge": "",
       "headline": "",
       "detail": ""
