@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795649451.428,
-  "updated_at_et": "11-25 18:30 ET",
-  "updated_at_kst": "08:30 KST",
+  "updated_at_ts": 1795649547.444,
+  "updated_at_et": "11-25 18:32 ET",
+  "updated_at_kst": "08:32 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1801,6 +1801,13 @@
         "pub_ts": 1795640239.0
       },
       {
+        "title": "Musk's Plan To Put 1 Million AI Satellites In Orbit Gets US Approval. Amazon Questions Whether It Can Be Done.",
+        "url": "https://www.ibtimes.com/fcc-approves-spacex-ai-satellite-constellation-3810209?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 18:16 ET",
+        "pub_ts": 1795648590.0
+      },
+      {
         "title": "Elon Musk’s plan for SpaceX to launch 1 million satellites for ‘constellation’ of data centers approved by FCC",
         "url": "https://nypost.com/2026/11/25/business/fcc-approves-elon-musks-spacex-to-launch-1-million-satellites-for-data-centers-in-space/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1808,25 +1815,18 @@
         "pub_ts": 1795646334.0
       },
       {
+        "title": "SpaceX’s New Stock Giveaway Sweetens the Deal on Trump Accounts",
+        "url": "https://finance.yahoo.com/m/16ef1ef9-a683-3ab2-8fe5-a532cc88b6ba/spacex%E2%80%99s-new-stock-giveaway.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 17:22 ET",
+        "pub_ts": 1795645320.0
+      },
+      {
         "title": "Stock Market Today, Nov. 25: SpaceX Gets Historic FCC Approval for 1 Million Satellites. Is This Its Next Growth Engine?",
         "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-spacex-gets-historic-fcc-approval-for-1-million-satellites-is-this-its-next-growth-engine/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 17:05 ET",
         "pub_ts": 1795644352.0
-      },
-      {
-        "title": "SpaceX Stock Surges on AI Satellite Approval and Trump Accounts Plan",
-        "url": "https://beincrypto.com/spacex-stock-ai-satellites-trump-accounts/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 17:03 ET",
-        "pub_ts": 1795644217.0
-      },
-      {
-        "title": "SpaceX is now on the clock to launch 1,000,000 satellites — 60x what exists in space today. Amazon calls it impossible",
-        "url": "https://finance.yahoo.com/technology/ai/articles/spacex-now-clock-launch-1-220000396.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 17:00 ET",
-        "pub_ts": 1795644000.0
       }
     ],
     "ASTS": [
@@ -3356,11 +3356,11 @@
     "CRDO": 1795649451.427661,
     "COHR": 1795649451.427661,
     "MRVL": 1795649451.427661,
-    "LITE": 1795648006.5159512,
+    "LITE": 1795649547.443754,
     "AAOI": 1795649451.427661,
-    "SPCX": 1795648006.5159512,
+    "SPCX": 1795649547.443754,
     "ASTS": 1795649163.9605234,
-    "AXTI": 1795648006.5159512,
+    "AXTI": 1795649547.443754,
     "NASA": 1795649163.9605234,
     "LUNR": 1795649163.9605234,
     "TSLA": 1795649163.9605234,
@@ -3395,8 +3395,8 @@
     "WMT": 1795649451.427661,
     "V": 1795649260.4670765,
     "CAT": 1795649451.427661,
-    "FN": 1795648006.5159512,
-    "GLW": 1795648006.5159512,
+    "FN": 1795649547.443754,
+    "GLW": 1795649547.443754,
     "ANT": 1795649451.427661,
     "XAUUSD": 1795649451.427661,
     "KOSPI": 1795649260.4670765
