@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795625986.778,
-  "updated_at_et": "11-25 11:59 ET",
-  "updated_at_kst": "01:59 KST",
+  "updated_at_ts": 1795626094.074,
+  "updated_at_et": "11-25 12:01 ET",
+  "updated_at_kst": "02:01 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -829,6 +829,20 @@
     ],
     "TSM": [
       {
+        "title": "Billionaire Stanley Druckenmiller Sold 94% of His TSMC Stake and All of His Alphabet Shares in Q3. Here’s the Brilliant Stock He Added.",
+        "url": "https://www.fool.com/investing/2026/11/25/billionaire-stanley-druckenmiller-sold-94-of-his-tsmc-and-all-of-his-alphabet-here-s-the-brilliant-stock-he-added/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:37 ET",
+        "pub_ts": 1795624622.0
+      },
+      {
+        "title": "Nvidia Chipmaker TSMC Sends $22.6 Billion AI Signal",
+        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-chipmaker-tsmc-sends-22-162725540.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:27 ET",
+        "pub_ts": 1795624045.0
+      },
+      {
         "title": "TSMC proposes $22.6B advanced wafer facility in Texas",
         "url": "https://www.manufacturingdive.com/news/tsmc-proposes-226b-advanced-wafer-fab-texas-AI-semiconductors/875671/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -848,20 +862,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 09:28 ET",
         "pub_ts": 1795616919.0
-      },
-      {
-        "title": "Market Chatter: Trump to Preside Over Taiwan Semiconductor Plant Expansion Ceremony in Arizona",
-        "url": "https://finance.yahoo.com/technology/articles/market-chatter-trump-preside-over-130436480.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:04 ET",
-        "pub_ts": 1795611876.0
-      },
-      {
-        "title": "Taiwan Semiconductor Manufacturing Is Down Nearly 30% From Its High. Is It a Bargain Buy?",
-        "url": "https://www.fool.com/investing/2026/11/25/taiwan-semiconductor-manufacturing-is-down-nearly-30-from-its-high-is-it-a-bargain-buy/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:00 ET",
-        "pub_ts": 1795611601.0
       }
     ],
     "VIXY": [
@@ -940,39 +940,39 @@
     ],
     "NVDA": [
       {
-        "title": "Nvidia Just Delivered Its Latest Earnings Report. Is the Stock a Buy Below $160?",
-        "url": "https://www.fool.com/investing/2026/11/25/nvidia-just-delivered-its-latest-earnings-report-is-the-stock-a-buy-below-usd160/?.tsrc=rss",
+        "title": "Chip stocks tumble as Nvidia-led AI rally unravels, tariff fears weigh",
+        "url": "https://www.proactiveinvestors.com/companies/news/1102454/chip-stocks-tumble-as-nvidia-led-ai-rally-unravels-tariff-fears-weigh-1102454.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 11:13 ET",
-        "pub_ts": 1795623182.0
+        "time": "11-25 11:49 ET",
+        "pub_ts": 1795625340.0
       },
       {
-        "title": "This Iconic Growth Investor Can't Stop Buying Anthropic Stock",
-        "url": "https://www.fool.com/investing/2026/11/25/this-iconic-growth-investor-can-t-stop-buying-anthropic-stock/?.tsrc=rss",
+        "title": "Top Midday Stories: Fed's Preferred Inflation Gauge Rises to 3.8% YoY in October; Nvidia CEO Huang's Affair Not Orchestrated by China, US Officials Say",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-fed-apos-164318180.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 11:03 ET",
-        "pub_ts": 1795622582.0
+        "time": "11-25 11:43 ET",
+        "pub_ts": 1795624998.0
       },
       {
-        "title": "Why Nvidia Stock Continues to Fall After the Jensen Huang Pop",
-        "url": "https://www.fool.com/investing/2026/11/25/why-nvidia-stock-continues-to-fall-after-the-jensen-huang-pop/?.tsrc=rss",
+        "title": "Nasdaq tumbles 4% as Nvidia leads AI sell-off, inflation and tariffs weigh on investors",
+        "url": "https://nypost.com/2026/11/25/business/nasdaq-tumbles-4-as-nvidia-leads-ai-sell-off-inflation-and-tariffs-weigh-on-investors/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 11:02 ET",
-        "pub_ts": 1795622545.0
+        "time": "11-25 11:43 ET",
+        "pub_ts": 1795624993.0
       },
       {
-        "title": "CNBC’s David Faber Says “AMD Is Taking Clients.” SemiAnalysis Has Its MI355X Beating Nvidia’s B200 on Cost",
-        "url": "https://www.tikr.com/blog/cnbcs-david-faber-says-amd-is-taking-clients-semianalysis-has-its-mi355x-beating-nvidias-b200-on-cost?ref=yahoofinance&tlnk=yf-261125-pj6xvm8j&.tsrc=rss",
+        "title": "Nvidia Agrees to Pay $290M to Settle Investor Lawsuit Over Crypto Mining Sales",
+        "url": "https://www.cryptoprowl.com/releases/nvidia-agrees-to-pay-290m-to-settle-investor-lawsuit-over-crypto-mining-sales-8072?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 10:57 ET",
-        "pub_ts": 1795622264.0
+        "time": "11-25 11:39 ET",
+        "pub_ts": 1795624740.0
       },
       {
-        "title": "Stock Market Today: Huangover Is Causing Headache for Tech Stocks",
-        "url": "https://247wallst.com/investing/2026/11/25/stock-market-today-huangover-is-causing-headache-for-tech-stocks/?.tsrc=rss",
+        "title": "Billionaire Stanley Druckenmiller Sold 94% of His TSMC Stake and All of His Alphabet Shares in Q3. Here’s the Brilliant Stock He Added.",
+        "url": "https://www.fool.com/investing/2026/11/25/billionaire-stanley-druckenmiller-sold-94-of-his-tsmc-and-all-of-his-alphabet-here-s-the-brilliant-stock-he-added/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 10:56 ET",
-        "pub_ts": 1795622202.0
+        "time": "11-25 11:37 ET",
+        "pub_ts": 1795624622.0
       }
     ],
     "AMD": [
@@ -3012,6 +3012,20 @@
     ],
     "JPM": [
       {
+        "title": "JPMorgan Sees S&P 500 At 8,200 In 2027 As AI Supercycle Remains Intact",
+        "url": "https://stocktwits.com/news-articles/markets/equity/jp-morgan-sees-s-and-p-500-at-8-200-in-2027-as-ai-supercycle-remains-intact/cNbHmzoR9mY?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:47 ET",
+        "pub_ts": 1795625272.0
+      },
+      {
+        "title": "JPMorgan Says the Biggest Risk to Stocks in 2027 Is the Fed",
+        "url": "https://247wallst.com/investing/2026/11/25/jpmorgan-says-the-biggest-risk-to-stocks-in-2027-is-the-fed/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:27 ET",
+        "pub_ts": 1795624070.0
+      },
+      {
         "title": "This Asian market could be your portfolio’s best anchor in 2027: JPM",
         "url": "https://finance.yahoo.com/markets/stocks/articles/asian-market-could-portfolio-best-141633303.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3031,20 +3045,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:58 ET",
         "pub_ts": 1795607923.0
-      },
-      {
-        "title": "JPMorgan Chase (JPM) Sees $92.2 Million in Net ETF Buying on Nov. 23",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-jpm-sees-92-110101868.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:01 ET",
-        "pub_ts": 1795604461.0
-      },
-      {
-        "title": "This Nasdaq ETF Pays a 19% Yield Without Writing a Single Covered Call. Here’s How",
-        "url": "https://247wallst.com/investing/etf/2026/11/24/this-nasdaq-etf-pays-a-19-yield-without-writing-a-single-covered-call-heres-how/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 21:02 ET",
-        "pub_ts": 1795572153.0
       }
     ],
     "WMT": [
@@ -3086,6 +3086,27 @@
     ],
     "V": [
       {
+        "title": "Wedbush starts Robinhood, Coinbase at Outperform in fintech coverage launch",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/wedbush-starts-robinhood-coinbase-outperform-163557118.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:35 ET",
+        "pub_ts": 1795624557.0
+      },
+      {
+        "title": "Klarna Announces Major Canada Expansion With Launch of Flexible Virtual Card",
+        "url": "https://finance.yahoo.com/small-business/articles/klarna-announces-major-canada-expansion-163500879.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:35 ET",
+        "pub_ts": 1795624500.0
+      },
+      {
+        "title": "Visa Paid About $335 per Share to Buy Back $20.5 Billion of Its Stock Last Year. Would You Pay $400?",
+        "url": "https://www.fool.com/investing/2026/11/25/visa-paid-about-usd335-per-share-to-buy-back-usd20-5-billion-of-its-stock-last-year-would-you-pay-usd400/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:28 ET",
+        "pub_ts": 1795624082.0
+      },
+      {
         "title": "Visa (V) Stock May Be 15% Undervalued After Swipe Fee Delay",
         "url": "https://finance.yahoo.com/markets/stocks/articles/visa-v-stock-may-15-161010211.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3098,27 +3119,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 09:41 ET",
         "pub_ts": 1795617662.0
-      },
-      {
-        "title": "Visa Inc. (V) is Attracting Investor Attention: Here is What You Should Know",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/visa-inc-v-attracting-investor-130005459.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:00 ET",
-        "pub_ts": 1795611605.0
-      },
-      {
-        "title": "Kraken’s Krak Moves Into Credit With Two US Cards, One Backed by a USDC Deposit",
-        "url": "https://unchainedcrypto.com/krakens-krak-moves-into-credit-with-two-us-cards-one-backed-by-a-usdc-deposit/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:30 ET",
-        "pub_ts": 1795606236.0
-      },
-      {
-        "title": "iwoca and Visa launch credit card to widen SME funding choice",
-        "url": "https://finance.yahoo.com/small-business/articles/iwoca-visa-launch-credit-card-000100356.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 19:01 ET",
-        "pub_ts": 1795564860.0
       }
     ],
     "CAT": [
@@ -3317,23 +3317,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795624508.094305,
-    "SOXL": 1795624508.094305,
-    "SPY": 1795624508.094305,
-    "DIA": 1795624508.094305,
-    "SOXX": 1795624508.094305,
-    "QQQ": 1795624508.094305,
-    "SMH": 1795624508.094305,
-    "IWM": 1795624508.094305,
-    "IGV": 1795624508.094305,
-    "TLT": 1795624508.094305,
-    "GLD": 1795624508.094305,
-    "SQQQ": 1795624508.094305,
-    "TSM": 1795624508.094305,
-    "VIXY": 1795624508.094305,
-    "SOXS": 1795624508.094305,
-    "NVDA": 1795624508.094305,
-    "AMD": 1795624508.094305,
+    "KORU": 1795626094.073924,
+    "SOXL": 1795626094.073924,
+    "SPY": 1795626094.073924,
+    "DIA": 1795626094.073924,
+    "SOXX": 1795626094.073924,
+    "QQQ": 1795626094.073924,
+    "SMH": 1795626094.073924,
+    "IWM": 1795626094.073924,
+    "IGV": 1795626094.073924,
+    "TLT": 1795626094.073924,
+    "GLD": 1795626094.073924,
+    "SQQQ": 1795626094.073924,
+    "TSM": 1795626094.073924,
+    "VIXY": 1795626094.073924,
+    "SOXS": 1795626094.073924,
+    "NVDA": 1795626094.073924,
+    "AMD": 1795626094.073924,
     "ASML": 1795625566.6606731,
     "QCOM": 1795625566.6606731,
     "AVGO": 1795625566.6606731,
@@ -3382,21 +3382,21 @@
     "CRWD": 1795625986.777743,
     "ORCL": 1795625986.777743,
     "COIN": 1795625986.777743,
-    "LLY": 1795624508.094305,
-    "MRNA": 1795624508.094305,
-    "NKE": 1795624508.094305,
-    "MCD": 1795624508.094305,
-    "PEP": 1795624508.094305,
+    "LLY": 1795626094.073924,
+    "MRNA": 1795626094.073924,
+    "NKE": 1795626094.073924,
+    "MCD": 1795626094.073924,
+    "PEP": 1795626094.073924,
     "XOM": 1795624613.474064,
-    "JPM": 1795624508.094305,
+    "JPM": 1795626094.073924,
     "WMT": 1795624613.474064,
-    "V": 1795624508.094305,
+    "V": 1795626094.073924,
     "CAT": 1795624613.474064,
     "FN": 1795625566.6606731,
     "GLW": 1795625566.6606731,
     "ANT": 1795624613.474064,
     "XAUUSD": 1795624613.474064,
-    "KOSPI": 1795624508.094305
+    "KOSPI": 1795626094.073924
   },
   "opex_shield": {
     "date": "2026-11-25",
