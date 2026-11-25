@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795633593.791,
-  "updated_at_et": "11-25 14:06 ET",
-  "updated_at_kst": "04:06 KST",
+  "updated_at_ts": 1795633701.723,
+  "updated_at_et": "11-25 14:08 ET",
+  "updated_at_kst": "04:08 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -934,39 +934,39 @@
     ],
     "NVDA": [
       {
-        "title": "Lee Ainslie’s Maverick Capital Held $844 Million in Nvidia, Its Largest Position at 6.8% of Its Stocks",
-        "url": "https://247wallst.com/investing/2026/11/25/lee-ainslies-maverick-capital-held-844-million-in-nvidia-its-largest-position-at-6-8-of-its-stocks/?.tsrc=rss",
+        "title": "Why Nvidia's 'Jensen put' failed to stop the AI trade meltdown",
+        "url": "https://finance.yahoo.com/markets/article/why-nvidias-jensen-put-did-little-to-ease-the-ai-trade-meltdown-185334279.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 13:23 ET",
-        "pub_ts": 1795630992.0
+        "time": "11-25 13:53 ET",
+        "pub_ts": 1795632814.0
       },
       {
-        "title": "Most of Dell’s New AI Server Orders Are Now for Nvidia’s Vera Rubin",
-        "url": "https://247wallst.com/investing/2026/11/25/most-of-dells-new-ai-server-orders-are-now-for-nvidias-vera-rubin/?.tsrc=rss",
+        "title": "Nvidia Chip Sellers Reportedly Scramble For New Buyers As US Tightens China Export Loopholes",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nvidia-chip-sellers-reportedly-scramble-for-new-buyers-as-us-tightens-china-export-loopholes/cNbHoZSR9mv?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 13:07 ET",
-        "pub_ts": 1795630026.0
+        "time": "11-25 14:02 ET",
+        "pub_ts": 1795633343.0
       },
       {
-        "title": "3 Concerns I Still Have About Nvidia Stock, Even With Jensen Huang Back as CEO",
-        "url": "https://www.fool.com/investing/2026/11/25/3-concerns-i-still-have-about-nvidia-stock-even-with-jensen-huang-back-as-ceo/?.tsrc=rss",
+        "title": "Dan Ives Says Nvidia’s Jensen Huang Worth At Least $8 Trillion To US Economy, Calls Sell-Off A ‘Gut Check Moment’",
+        "url": "https://stocktwits.com/news-articles/markets/equity/dan-ives-says-nvidia-s-jensen-huang-worth-at-least-8-trillion-to-us-economy-calls-sell-off-a-gut-check-moment/cNbH8KYR9mH?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 13:05 ET",
-        "pub_ts": 1795629902.0
+        "time": "11-25 13:59 ET",
+        "pub_ts": 1795633197.0
       },
       {
-        "title": "If the Fed Raises Interest Rates Multiple Times in the Coming Months, Here’s What Billionaire Investor David Tepper Would Do",
-        "url": "https://www.fool.com/investing/2026/11/25/if-the-fed-raises-interest-rates-multiple-times-in-the-coming-months-here-s-what-billionaire-investor-david-tepper-would-do/?.tsrc=rss",
+        "title": "How Nvidia's Jensen Huang Survived the Kind of Scandal That Ends CEO Careers",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63647697/jensen-huang-sex-scandal-ceo?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 13:03 ET",
-        "pub_ts": 1795629782.0
+        "time": "11-25 13:55 ET",
+        "pub_ts": 1795632908.0
       },
       {
-        "title": "SUPER HI INTERNATIONAL HOLDING Ltd. American Depositary Shares Q3 2026 Earnings Call Summary",
-        "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-super-hi-international-holding-ltd-american-depositary-shares-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+        "title": "Why Nvidia Stock Is Falling Again",
+        "url": "https://www.fool.com/investing/2026/11/25/why-nvidia-stock-is-falling-again/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 12:55 ET",
-        "pub_ts": 1795629319.0
+        "time": "11-25 13:53 ET",
+        "pub_ts": 1795632782.0
       }
     ],
     "AMD": [
@@ -2784,6 +2784,13 @@
     ],
     "LLY": [
       {
+        "title": "Sector Update: Healthcare Stocks Mixed Wednesday Afternoon",
+        "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-mixed-wednesday-183851394.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 13:38 ET",
+        "pub_ts": 1795631931.0
+      },
+      {
         "title": "Update: Market Chatter: Novo Nordisk and Eli Lilly Prepare New Warning Labels for GLP-1 Drugs Over Eye Condition Risk",
         "url": "https://finance.yahoo.com/healthcare/articles/market-chatter-novo-nordisk-eli-150708947.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2810,13 +2817,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 15:44 ET",
         "pub_ts": 1795553071.0
-      },
-      {
-        "title": "Forget Zepbound: Lilly's Retatrutide Just Cut Sleep Apnea Severity by Up to 60%",
-        "url": "https://www.fool.com/investing/2026/11/24/forget-zepbound-lillys-retatrutide-just-cut-sleep-apnea-severity-by-up-to-60/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:35 ET",
-        "pub_ts": 1795534502.0
       }
     ],
     "MRNA": [
@@ -3311,23 +3311,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795632125.651763,
-    "SOXL": 1795632125.651763,
-    "SPY": 1795632125.651763,
-    "DIA": 1795632125.651763,
-    "SOXX": 1795632125.651763,
-    "QQQ": 1795632125.651763,
-    "SMH": 1795632125.651763,
-    "IWM": 1795632125.651763,
-    "IGV": 1795632125.651763,
-    "TLT": 1795632125.651763,
-    "GLD": 1795632125.651763,
-    "SQQQ": 1795632125.651763,
-    "TSM": 1795632125.651763,
-    "VIXY": 1795632125.651763,
-    "SOXS": 1795632125.651763,
-    "NVDA": 1795632125.651763,
-    "AMD": 1795632125.651763,
+    "KORU": 1795633701.723431,
+    "SOXL": 1795633701.723431,
+    "SPY": 1795633701.723431,
+    "DIA": 1795633701.723431,
+    "SOXX": 1795633701.723431,
+    "QQQ": 1795633701.723431,
+    "SMH": 1795633701.723431,
+    "IWM": 1795633701.723431,
+    "IGV": 1795633701.723431,
+    "TLT": 1795633701.723431,
+    "GLD": 1795633701.723431,
+    "SQQQ": 1795633701.723431,
+    "TSM": 1795633701.723431,
+    "VIXY": 1795633701.723431,
+    "SOXS": 1795633701.723431,
+    "NVDA": 1795633701.723431,
+    "AMD": 1795633701.723431,
     "ASML": 1795632231.3878462,
     "QCOM": 1795632231.3878462,
     "AVGO": 1795632231.3878462,
@@ -3376,21 +3376,21 @@
     "CRWD": 1795633374.4492607,
     "ORCL": 1795633374.4492607,
     "COIN": 1795633374.4492607,
-    "LLY": 1795632125.651763,
-    "MRNA": 1795632125.651763,
-    "NKE": 1795632125.651763,
-    "MCD": 1795632125.651763,
-    "PEP": 1795632125.651763,
+    "LLY": 1795633701.723431,
+    "MRNA": 1795633701.723431,
+    "NKE": 1795633701.723431,
+    "MCD": 1795633701.723431,
+    "PEP": 1795633701.723431,
     "XOM": 1795632231.3878462,
-    "JPM": 1795632125.651763,
+    "JPM": 1795633701.723431,
     "WMT": 1795632231.3878462,
-    "V": 1795632125.651763,
+    "V": 1795633701.723431,
     "CAT": 1795632231.3878462,
     "FN": 1795632334.3763711,
     "GLW": 1795632334.3763711,
     "ANT": 1795632231.3878462,
     "XAUUSD": 1795632231.3878462,
-    "KOSPI": 1795632125.651763
+    "KOSPI": 1795633701.723431
   },
   "opex_shield": {
     "date": "2026-11-25",
