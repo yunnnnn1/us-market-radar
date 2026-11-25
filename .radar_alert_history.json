@@ -162,12 +162,12 @@
       "last_notified_at": 1795482111.35759
     },
     "AMZN": {
-      "state": "WATCHLIST_ENTRY_READY",
-      "last_notified_at": 1795643961.780044
-    },
-    "MSFT": {
       "state": "NORMAL",
       "last_notified_at": 0.0
+    },
+    "MSFT": {
+      "state": "WATCHLIST_ENTRY_READY",
+      "last_notified_at": 1795644156.2596009
     },
     "NKE": {
       "state": "NORMAL",
