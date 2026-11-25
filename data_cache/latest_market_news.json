@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795592685.826,
-  "updated_at_et": "11-25 02:44 ET",
-  "updated_at_kst": "16:44 KST",
+  "updated_at_ts": 1795592791.829,
+  "updated_at_et": "11-25 02:46 ET",
+  "updated_at_kst": "16:46 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -17,7 +17,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 346,
+      "minutes_left": 344,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -36,7 +36,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 346,
+      "minutes_left": 344,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -1091,13 +1091,6 @@
     ],
     "AVGO": [
       {
-        "title": "Stocks give back gains as Anthropic dips below IPO price",
-        "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:44 ET",
-        "pub_ts": 1795535048.0
-      },
-      {
         "title": "Broadcom Stock Could Have 70% Upside, Analysts Say. What AVGO’s Valuation Reveals.",
         "url": "https://www.barchart.com/story/news/8991255/broadcom-stock-could-have-70-upside-analysts-say-what-avgos-valuation-reveals?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1124,6 +1117,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:22 ET",
         "pub_ts": 1795537322.0
+      },
+      {
+        "title": "Stocks give back gains as Anthropic dips below IPO price",
+        "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 10:44 ET",
+        "pub_ts": 1795535048.0
       }
     ],
     "AMAT": [
@@ -1202,6 +1202,13 @@
     ],
     "GOOGL": [
       {
+        "title": "Alphabet Has $251 Billion Invested In 2 of Its Biggest Artificial Intelligence Partners",
+        "url": "https://www.fool.com/investing/2026/11/25/alphabet-has-251-billion-invested-in-2-of-its-biggest-artificial-intelligence-partners/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 02:29 ET",
+        "pub_ts": 1795591742.0
+      },
+      {
         "title": "AI Concerns Resurface? ORCL, GOOGL, SPCX, CRWV Credit Default Swap Spreads Hit Records As NVDA, ANT Tumble",
         "url": "https://stocktwits.com/news-articles/markets/equity/ai-concerns-resurface-orcl-googl-spcx-crwv-credit-default-swap-spreads-hit-records-as-nvda-ant-tumble/cNbHEEAR9lZ?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1228,13 +1235,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 17:07 ET",
         "pub_ts": 1795558073.0
-      },
-      {
-        "title": "Billionaire Charlie Munger’s Protege Li Lu: Himalaya Capital Has 45% of Its $3.78 Billion Portfolio in Alphabet",
-        "url": "https://247wallst.com/investing/2026/11/24/billionaire-charlie-mungers-protege-li-lu-himalaya-capital-has-45-of-its-3-78-billion-portfolio-in-alphabet/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:58 ET",
-        "pub_ts": 1795557538.0
       }
     ],
     "MSFT": [
@@ -1320,6 +1320,13 @@
         "pub_ts": 1795556758.0
       },
       {
+        "title": "Can Palantir Technologies (PLTR) Justify Its Price Through Cash Flow?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-pltr-justify-price-070848763.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 02:08 ET",
+        "pub_ts": 1795590528.0
+      },
+      {
         "title": "Where Will Palantir Stock Be at the End of 2030?",
         "url": "https://www.fool.com/investing/2026/11/25/where-will-palantir-stock-be-at-the-end-of-2030/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1339,13 +1346,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:33 ET",
         "pub_ts": 1795537993.0
-      },
-      {
-        "title": "AI-Enabled Battlefield Management and Decision Support Systems Global Market Report 2026 | Lockheed Martin, RTX, Palantir Capitalize on Edge AI as Market Hits $17.88B by 2030",
-        "url": "https://finance.yahoo.com/technology/ai/articles/ai-enabled-battlefield-management-decision-144200975.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:42 ET",
-        "pub_ts": 1795531320.0
       }
     ],
     "NOW": [
@@ -1424,13 +1424,6 @@
     ],
     "CRWV": [
       {
-        "title": "Stocks give back gains as Anthropic dips below IPO price",
-        "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:44 ET",
-        "pub_ts": 1795535048.0
-      },
-      {
         "title": "AI Concerns Resurface? ORCL, GOOGL, SPCX, CRWV Credit Default Swap Spreads Hit Records As NVDA, ANT Tumble",
         "url": "https://stocktwits.com/news-articles/markets/equity/ai-concerns-resurface-orcl-googl-spcx-crwv-credit-default-swap-spreads-hit-records-as-nvda-ant-tumble/cNbHEEAR9lZ?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1457,6 +1450,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 13:57 ET",
         "pub_ts": 1795546678.0
+      },
+      {
+        "title": "CoreWeave Bonds Hit All-Time Lows, Erasing Nvidia-Fueled Gains",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-bonds-hit-time-lows-185527465.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 13:55 ET",
+        "pub_ts": 1795546527.0
       }
     ],
     "NBIS": [
@@ -3337,30 +3337,30 @@
     "SOXS": 1795592368.6017811,
     "NVDA": 1795592368.6017811,
     "AMD": 1795592368.6017811,
-    "ASML": 1795591210.753893,
-    "QCOM": 1795591210.753893,
-    "AVGO": 1795591210.753893,
-    "AMAT": 1795591210.753893,
-    "META": 1795591210.753893,
-    "GOOGL": 1795591210.753893,
-    "MSFT": 1795591210.753893,
-    "AAPL": 1795591210.753893,
-    "PLTR": 1795591210.753893,
-    "NOW": 1795591210.753893,
-    "AMZN": 1795591210.753893,
-    "CRWV": 1795591210.753893,
-    "NBIS": 1795591210.753893,
-    "APLD": 1795591210.753893,
-    "VST": 1795591210.753893,
-    "BE": 1795591210.753893,
-    "CRDO": 1795591210.753893,
-    "COHR": 1795591210.753893,
-    "MRVL": 1795591210.753893,
-    "LITE": 1795591210.753893,
-    "AAOI": 1795591210.753893,
-    "SPCX": 1795591210.753893,
+    "ASML": 1795592791.8285427,
+    "QCOM": 1795592791.8285427,
+    "AVGO": 1795592791.8285427,
+    "AMAT": 1795592791.8285427,
+    "META": 1795592791.8285427,
+    "GOOGL": 1795592791.8285427,
+    "MSFT": 1795592791.8285427,
+    "AAPL": 1795592791.8285427,
+    "PLTR": 1795592791.8285427,
+    "NOW": 1795592791.8285427,
+    "AMZN": 1795592791.8285427,
+    "CRWV": 1795592791.8285427,
+    "NBIS": 1795592791.8285427,
+    "APLD": 1795592791.8285427,
+    "VST": 1795592791.8285427,
+    "BE": 1795592791.8285427,
+    "CRDO": 1795592791.8285427,
+    "COHR": 1795592791.8285427,
+    "MRVL": 1795592791.8285427,
+    "LITE": 1795592791.8285427,
+    "AAOI": 1795592791.8285427,
+    "SPCX": 1795592791.8285427,
     "ASTS": 1795591418.3827271,
-    "AXTI": 1795591210.753893,
+    "AXTI": 1795592791.8285427,
     "NASA": 1795591418.3827271,
     "LUNR": 1795591418.3827271,
     "TSLA": 1795591418.3827271,
@@ -3395,8 +3395,8 @@
     "WMT": 1795592368.6017811,
     "V": 1795591522.5358188,
     "CAT": 1795592368.6017811,
-    "FN": 1795591210.753893,
-    "GLW": 1795591210.753893,
+    "FN": 1795592791.8285427,
+    "GLW": 1795592791.8285427,
     "ANT": 1795592368.6017811,
     "XAUUSD": 1795592368.6017811,
     "KOSPI": 1795592368.6017811
@@ -3417,10 +3417,10 @@
   },
   "calendar_banner": {
     "level": "upcoming",
-    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 346 分钟（11-25 08:30 ET / 22:30 KST）",
+    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 344 分钟（11-25 08:30 ET / 22:30 KST）",
     "detail": "前值 0.3% ｜ 预期 0.3% ｜ 临近公布前15分钟将自动触发防插针预警",
     "event_name": "美国10月核心PCE物价指数环比",
-    "minutes_left": 346,
+    "minutes_left": 344,
     "opex_shield": {
       "date": "2026-11-25",
       "active": false,
