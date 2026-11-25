@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795649066.541,
-  "updated_at_et": "11-25 18:24 ET",
-  "updated_at_kst": "08:24 KST",
+  "updated_at_ts": 1795649163.961,
+  "updated_at_et": "11-25 18:26 ET",
+  "updated_at_kst": "08:26 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -2259,21 +2259,28 @@
         "pub_ts": 1795618146.0
       },
       {
+        "title": "HPE stock plunges after record quarter as a hidden catch emerges",
+        "url": "https://www.thestreet.com/investing/hpe-stock-plunges-record-quarter-hidden-catch?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 18:17 ET",
+        "pub_ts": 1795648620.0
+      },
+      {
         "title": "Dell, HPE Post Big Sales Growth But Investors Sense AI Spending Peak",
         "url": "https://finance.yahoo.com/m/509b8d3a-b338-3181-bdcf-b7e931f38513/dell%2C-hpe-post-big-sales.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 16:20 ET",
         "pub_ts": 1795641634.0
-      },
-      {
-        "title": "George Soros, Ken Fisher and 11 Other Big Funds Bought Hewlett Packard Enterprise Last Quarter, While 5 Sold. Who’s Right?",
-        "url": "https://www.tikr.com/blog/george-soros-ken-fisher-and-11-other-big-funds-bought-hewlett-packard-enterprise-last-quarter-while-5-sold-whos-right?ref=yahoofinance&tlnk=yf-261125-pp776jqf&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 13:19 ET",
-        "pub_ts": 1795630752.0
       }
     ],
     "DELL": [
+      {
+        "title": "Anthropic, Nvidia, Micron, HP Inc., Dell, Deere, and More Stocks That Explain Today’s Market",
+        "url": "https://finance.yahoo.com/m/18e72c51-c6d7-33b1-aa90-ccce17a9b32f/anthropic%2C-nvidia%2C-micron%2C-hp.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:41 ET",
+        "pub_ts": 1795642860.0
+      },
       {
         "title": "Dell, HPE Post Big Sales Growth But Investors Sense AI Spending Peak",
         "url": "https://finance.yahoo.com/m/509b8d3a-b338-3181-bdcf-b7e931f38513/dell%2C-hpe-post-big-sales.html?.tsrc=rss",
@@ -2301,13 +2308,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 15:06 ET",
         "pub_ts": 1795637213.0
-      },
-      {
-        "title": "Dell Stock Falls Despite Q3 Beat; Here’s Why Mizuho and Piper Lowered Their Price Targets",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/dell-stock-falls-despite-q3-200443110.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 15:04 ET",
-        "pub_ts": 1795637083.0
       }
     ],
     "OKLO": [
@@ -2444,18 +2444,18 @@
         "pub_ts": 1795643102.0
       },
       {
+        "title": "Anthropic, Nvidia, Micron, HP Inc., Dell, Deere, and More Stocks That Explain Today’s Market",
+        "url": "https://finance.yahoo.com/m/18e72c51-c6d7-33b1-aa90-ccce17a9b32f/anthropic%2C-nvidia%2C-micron%2C-hp.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:41 ET",
+        "pub_ts": 1795642860.0
+      },
+      {
         "title": "Chips and iPhones Are Safe From New Tariffs. Here’s What Isn’t.",
         "url": "https://finance.yahoo.com/m/fed0ba1a-1835-3234-b475-4ad6bcc3e25d/chips-and-iphones-are-safe.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 15:47 ET",
         "pub_ts": 1795639620.0
-      },
-      {
-        "title": "David Tepper Sold All of His AMD Stock. His Biggest Position Is Micron.",
-        "url": "https://www.fool.com/investing/2026/11/25/david-tepper-sold-all-of-his-amd-stock-his-biggest-position-is-micron/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 14:20 ET",
-        "pub_ts": 1795634402.0
       }
     ],
     "SKHY": [
@@ -2645,6 +2645,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "Gold vs. Bitcoin: Analyst reveals why the tide is turning",
+        "url": "https://www.thestreet.com/crypto/markets/gold-vs-bitcoin-analyst-reveals-why-the-tide-is-turning?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 18:15 ET",
+        "pub_ts": 1795648500.0
+      },
+      {
         "title": "Nvidia settles 8-year-old investor suit for $290M",
         "url": "https://www.thestreet.com/crypto/artificial-intelligence/nvidia-settles-8-year-old-investor-suit-for-290m?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2671,13 +2678,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 17:10 ET",
         "pub_ts": 1795644642.0
-      },
-      {
-        "title": "Analyst explains why Bitcoin’s next move depends on Nasdaq",
-        "url": "https://www.thestreet.com/crypto/markets/analyst-explains-why-bitcoins-next-move-depends-on-nasdaq?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 17:00 ET",
-        "pub_ts": 1795644000.0
       }
     ],
     "CRWD": [
@@ -2719,6 +2719,13 @@
     ],
     "ORCL": [
       {
+        "title": "Oracle Bonds Yield a Towering 9% on Debt and Data-Center Concerns. Are They a Buy?",
+        "url": "https://finance.yahoo.com/m/7cf2c7c4-a034-30e7-a2f0-b3ea8684f897/oracle-bonds-yield-a-towering.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:46 ET",
+        "pub_ts": 1795643160.0
+      },
+      {
         "title": "Why Oracle Stock Slumped Today",
         "url": "https://www.fool.com/investing/2026/11/25/why-oracle-stock-slumped-today/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2738,13 +2745,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 11:29 ET",
         "pub_ts": 1795624162.0
-      },
-      {
-        "title": "Without an Anthropic Rally, “There Will Be No OpenAI.” AMD Is the Real Loser",
-        "url": "https://www.tikr.com/blog/without-an-anthropic-rally-there-will-be-no-openai-amd-is-the-real-loser?ref=yahoofinance&tlnk=yf-261125-334c8hfc&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:18 ET",
-        "pub_ts": 1795623516.0
       },
       {
         "title": "Amdocs (DOX) Stock Is Up 4.6% Today Without Company News",
@@ -3359,32 +3359,32 @@
     "LITE": 1795648006.5159512,
     "AAOI": 1795647910.6572583,
     "SPCX": 1795648006.5159512,
-    "ASTS": 1795647619.1812096,
+    "ASTS": 1795649163.9605234,
     "AXTI": 1795648006.5159512,
-    "NASA": 1795647619.1812096,
-    "LUNR": 1795647619.1812096,
-    "TSLA": 1795647619.1812096,
-    "AXP": 1795647619.1812096,
-    "RKLB": 1795647619.1812096,
-    "KO": 1795647619.1812096,
-    "FLY": 1795647619.1812096,
-    "INTC": 1795647619.1812096,
-    "VRT": 1795647619.1812096,
-    "HPE": 1795647619.1812096,
-    "DELL": 1795647619.1812096,
-    "OKLO": 1795647619.1812096,
-    "CEG": 1795647619.1812096,
-    "FPS": 1795647619.1812096,
-    "MU": 1795647619.1812096,
-    "SKHY": 1795647619.1812096,
-    "WDC": 1795647619.1812096,
-    "STX": 1795647619.1812096,
-    "MSTR": 1795647619.1812096,
-    "SNDK": 1795647619.1812096,
-    "BTC-USD": 1795647619.1812096,
-    "CRWD": 1795647619.1812096,
-    "ORCL": 1795647619.1812096,
-    "COIN": 1795647619.1812096,
+    "NASA": 1795649163.9605234,
+    "LUNR": 1795649163.9605234,
+    "TSLA": 1795649163.9605234,
+    "AXP": 1795649163.9605234,
+    "RKLB": 1795649163.9605234,
+    "KO": 1795649163.9605234,
+    "FLY": 1795649163.9605234,
+    "INTC": 1795649163.9605234,
+    "VRT": 1795649163.9605234,
+    "HPE": 1795649163.9605234,
+    "DELL": 1795649163.9605234,
+    "OKLO": 1795649163.9605234,
+    "CEG": 1795649163.9605234,
+    "FPS": 1795649163.9605234,
+    "MU": 1795649163.9605234,
+    "SKHY": 1795649163.9605234,
+    "WDC": 1795649163.9605234,
+    "STX": 1795649163.9605234,
+    "MSTR": 1795649163.9605234,
+    "SNDK": 1795649163.9605234,
+    "BTC-USD": 1795649163.9605234,
+    "CRWD": 1795649163.9605234,
+    "ORCL": 1795649163.9605234,
+    "COIN": 1795649163.9605234,
     "LLY": 1795647716.6601908,
     "MRNA": 1795647716.6601908,
     "NKE": 1795647716.6601908,
