@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795595422.714,
-  "updated_at_et": "11-25 03:30 ET",
-  "updated_at_kst": "17:30 KST",
+  "updated_at_ts": 1795595528.193,
+  "updated_at_et": "11-25 03:32 ET",
+  "updated_at_kst": "17:32 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -17,7 +17,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 300,
+      "minutes_left": 298,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -36,7 +36,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 300,
+      "minutes_left": 298,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -965,7 +965,7 @@
       },
       {
         "title": "Nvidia’s spying scandal is backfiring on China",
-        "url": "https://uk.finance.yahoo.com/news/nvidia-spying-scandal-backfiring-china-070000166.html?.tsrc=rss",
+        "url": "https://www.telegraph.co.uk/business/2026/11/25/nvidias-spying-scandal-is-backfiring-on-china/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 02:00 ET",
         "pub_ts": 1795590000.0
@@ -994,6 +994,13 @@
         "pub_ts": 1795556758.0
       },
       {
+        "title": "1 Reason to Buy AMD Stock Before 2027",
+        "url": "https://www.fool.com/investing/2026/11/25/1-reason-to-buy-amd-stock-before-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 03:26 ET",
+        "pub_ts": 1795595162.0
+      },
+      {
         "title": "Jim Cramer and Tom Lee are Buying More AI Stocks. Are They Right?",
         "url": "https://beincrypto.com/jim-cramer-tom-lee-ai-stock-call/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1013,13 +1020,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 18:17 ET",
         "pub_ts": 1795562220.0
-      },
-      {
-        "title": "Stock Market Today, Nov. 24: AMD Plunges 9% as 337 Million-Share Resale Filing Adds to AI Sell-Off",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-today-nov-24-amd-plunges-9-as-337-million-share-resale-filing-adds-to-ai-sell-off/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 17:39 ET",
-        "pub_ts": 1795559978.0
       }
     ],
     "ASML": [
@@ -3244,39 +3244,39 @@
     ],
     "ANT": [
       {
-        "title": "Nvidia-Backed Nscale Reportedly Eyes Private Route As AI Market Sell-Off Clouds $35B IPO Plans",
-        "url": "https://finnhub.io/api/news?id=452ef4e1875831f1f488c42890516e85628c6997f76c3d87eaef9e72c20bc58a",
-        "source": "Yahoo",
-        "time": "11-24 19:16 ET",
-        "pub_ts": 1795565791.0
+        "title": "AI Concerns Resurface? ORCL, GOOGL, SPCX, CRWV Credit Default Swap Spreads Hit Records As NVDA, ANT Tumble",
+        "url": "https://stocktwits.com/news-articles/markets/equity/ai-concerns-resurface-orcl-googl-spcx-crwv-credit-default-swap-spreads-hit-records-as-nvda-ant-tumble/cNbHEEAR9lZ?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 01:56 ET",
+        "pub_ts": 1795589778.0
       },
       {
-        "title": "Dow Jones Futures Fall: Nvidia, Anthropic Lead AI Retreat But Many Sectors Strong; Fed Inflation Data Due",
-        "url": "https://finnhub.io/api/news?id=d9353a96e3607b36c1925ae7cd8e2e1a3dbe312864c395e673bd805b3450f463",
-        "source": "Yahoo",
-        "time": "11-24 19:09 ET",
-        "pub_ts": 1795565390.0
+        "title": "Investors shut out of Anthropic's IPO may be the lucky ones",
+        "url": "https://www.thestreet.com/investing/anthropic-stock-below-ipo-price-missed-allocation?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 00:03 ET",
+        "pub_ts": 1795582980.0
       },
       {
-        "title": "Nasdaq Drops As NVDA, ANT, SPCX Slide: Mohamed El-Erian Says Market Warning Signals Go Well Beyond Nvidia",
-        "url": "https://finnhub.io/api/news?id=dfe9b2fb2914add995a4451137db820082427ba5d30439ea714089950c9493db",
-        "source": "Yahoo",
-        "time": "11-24 18:58 ET",
-        "pub_ts": 1795564727.0
+        "title": "Cathie Wood’s ARK Sees ‘Excellent Entry Points’ In AI — ‘Big Short’ Steve Eisman Warns Of Recession If Anthropic Or OpenAI Fails",
+        "url": "https://stocktwits.com/news-articles/markets/equity/cathie-wood-ark-excellent-entry-points-ai-steve-eisman-recession-anthropic-openai-fails/cNbHcZ4R9lW?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 23:41 ET",
+        "pub_ts": 1795581691.0
       },
       {
-        "title": "AI Pullback Raises the Cost of Data Center Financing",
-        "url": "https://finnhub.io/api/news?id=27c37b2368fd40513b486ca9a9da1e412b7ce57ff542652c6e046a8679bef209",
-        "source": "Yahoo",
-        "time": "11-24 17:41 ET",
-        "pub_ts": 1795560076.0
+        "title": "Anthropic vs. SpaceX: Here's the Better IPO Stock to Buy With $1,000 Right Now",
+        "url": "https://www.fool.com/investing/2026/11/24/anthropic-vs-spacex-here-s-the-better-ipo-stock-to-buy-with-usd1-000-right-now/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 23:35 ET",
+        "pub_ts": 1795581301.0
       },
       {
-        "title": "Anthropic: ANT that a shame",
-        "url": "https://finnhub.io/api/news?id=24775b5c474f0afd9e38899d05635a61e84f3d08130a0fd6480fc6c1136dd2a6",
-        "source": "Yahoo",
-        "time": "11-24 17:30 ET",
-        "pub_ts": 1795559446.0
+        "title": "ANT Slips Further After Closing Below IPO Price: Retail Traders Wait For A Better Entry, But Cathie Wood Buys The Dip",
+        "url": "https://stocktwits.com/news-articles/markets/equity/ant-slips-further-after-closing-below-ipo-price-retail-traders-wait-for-a-better-entry-but-cathie-wood-buys-the-dip/cNbHR3zR9lf?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 22:48 ET",
+        "pub_ts": 1795578497.0
       }
     ],
     "XAUUSD": [
@@ -3327,23 +3327,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795593947.0756052,
-    "SOXL": 1795593947.0756052,
-    "SPY": 1795593947.0756052,
-    "DIA": 1795593947.0756052,
-    "SOXX": 1795593947.0756052,
-    "QQQ": 1795593947.0756052,
-    "SMH": 1795593947.0756052,
-    "IWM": 1795593947.0756052,
-    "IGV": 1795593947.0756052,
-    "TLT": 1795593947.0756052,
-    "GLD": 1795593947.0756052,
-    "SQQQ": 1795593947.0756052,
-    "TSM": 1795593947.0756052,
-    "VIXY": 1795593947.0756052,
-    "SOXS": 1795593947.0756052,
-    "NVDA": 1795593947.0756052,
-    "AMD": 1795593947.0756052,
+    "KORU": 1795595528.193339,
+    "SOXL": 1795595528.193339,
+    "SPY": 1795595528.193339,
+    "DIA": 1795595528.193339,
+    "SOXX": 1795595528.193339,
+    "QQQ": 1795595528.193339,
+    "SMH": 1795595528.193339,
+    "IWM": 1795595528.193339,
+    "IGV": 1795595528.193339,
+    "TLT": 1795595528.193339,
+    "GLD": 1795595528.193339,
+    "SQQQ": 1795595528.193339,
+    "TSM": 1795595528.193339,
+    "VIXY": 1795595528.193339,
+    "SOXS": 1795595528.193339,
+    "NVDA": 1795595528.193339,
+    "AMD": 1795595528.193339,
     "ASML": 1795594365.897433,
     "QCOM": 1795594365.897433,
     "AVGO": 1795594365.897433,
@@ -3396,17 +3396,17 @@
     "MRNA": 1795594681.8618581,
     "NKE": 1795594681.8618581,
     "MCD": 1795594681.8618581,
-    "PEP": 1795593947.0756052,
-    "XOM": 1795593947.0756052,
-    "JPM": 1795593947.0756052,
-    "WMT": 1795593947.0756052,
+    "PEP": 1795595528.193339,
+    "XOM": 1795595528.193339,
+    "JPM": 1795595528.193339,
+    "WMT": 1795595528.193339,
     "V": 1795594681.8618581,
-    "CAT": 1795593947.0756052,
+    "CAT": 1795595528.193339,
     "FN": 1795594365.897433,
     "GLW": 1795594365.897433,
-    "ANT": 1795593947.0756052,
-    "XAUUSD": 1795593947.0756052,
-    "KOSPI": 1795593947.0756052
+    "ANT": 1795595528.193339,
+    "XAUUSD": 1795595528.193339,
+    "KOSPI": 1795595528.193339
   },
   "opex_shield": {
     "date": "2026-11-25",
@@ -3424,10 +3424,10 @@
   },
   "calendar_banner": {
     "level": "upcoming",
-    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 300 分钟（11-25 08:30 ET / 22:30 KST）",
+    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 298 分钟（11-25 08:30 ET / 22:30 KST）",
     "detail": "前值 0.3% ｜ 预期 0.3% ｜ 临近公布前15分钟将自动触发防插针预警",
     "event_name": "美国10月核心PCE物价指数环比",
-    "minutes_left": 300,
+    "minutes_left": 298,
     "opex_shield": {
       "date": "2026-11-25",
       "active": false,
