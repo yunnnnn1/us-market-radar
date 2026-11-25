@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795624297.564,
-  "updated_at_et": "11-25 11:31 ET",
-  "updated_at_kst": "01:31 KST",
+  "updated_at_ts": 1795624402.52,
+  "updated_at_et": "11-25 11:33 ET",
+  "updated_at_kst": "01:33 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -2013,6 +2013,13 @@
     ],
     "AXP": [
       {
+        "title": "Black Friday shopping: Check this credit card perk first",
+        "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/black-friday-shopping-check-this-credit-card-perk-first-195924850.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-23 14:59 ET",
+        "pub_ts": 1795463964.0
+      },
+      {
         "title": "How American Express Turned Berkshire’s $1.3 Billion Bet Into a $576 Million Annual Paycheck",
         "url": "https://www.fool.com/investing/2026/11/25/how-american-express-turned-berkshire-billion-bet-into-576-million-annual-paycheck/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2032,13 +2039,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 06:48 ET",
         "pub_ts": 1795520917.0
-      },
-      {
-        "title": "Black Friday shopping: Check this credit card perk first",
-        "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/black-friday-shopping-check-this-credit-card-perk-first-195924850.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 14:59 ET",
-        "pub_ts": 1795463964.0
       },
       {
         "title": "Berkshire Hathaway Owns 22.6% of American Express. Is the Stock a Buy, Sell, or Hold After a 17% Drop in 2026?",
@@ -2161,6 +2161,13 @@
     ],
     "INTC": [
       {
+        "title": "The Zacks Analyst Blog Highlights Apple, Philip Morris, Intel and Crimson Wine",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-apple-152500421.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 10:25 ET",
+        "pub_ts": 1795620300.0
+      },
+      {
         "title": "NVIDIA Tumbles 9% as Jensen Huang Rally Fades and Michael Burry Eyes a Fresh Short Near $200; AMD Plunges 10%, Intel Falls 8%",
         "url": "https://247wallst.com/investing/2026/11/25/nvidia-tumbles-9-as-jensen-huang-rally-fades-and-michael-burry-eyes-a-fresh-short-near-200-amd-plunges-10-intel-falls-8/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2187,13 +2194,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 07:33 ET",
         "pub_ts": 1795610027.0
-      },
-      {
-        "title": "The Dates That Matter Most For Intel Stock",
-        "url": "https://www.trefis.com/stock/intc/articles/628903/the-dates-that-matter-most-for-intel-stock/2026-11-25?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:59 ET",
-        "pub_ts": 1795607952.0
       }
     ],
     "VRT": [
@@ -2242,6 +2242,13 @@
         "pub_ts": 1795618146.0
       },
       {
+        "title": "Own Dell Or HPE? HPE Wins On Cash",
+        "url": "https://www.trefis.com/stock/dell/articles/628899/own-dell-or-hpe-hpe-wins-on-cash/2026-11-25?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:00 ET",
+        "pub_ts": 1795622402.0
+      },
+      {
         "title": "Hewlett Packard Enterprise Lost 25% of Its Value Over 3 Months: One of The Biggest U.S. Banks Predicts 120% Gains Within 1 Year",
         "url": "https://247wallst.com/investing/2026/11/25/hewlett-packard-enterprise-lost-25-of-its-value-over-3-months-one-of-the-biggest-u-s-banks-predicts-120-gains-within-1-year/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2261,13 +2268,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 09:29 ET",
         "pub_ts": 1795616940.0
-      },
-      {
-        "title": "HPE Plunges Despite Raising the Bar for 2027",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/hpe-plunges-despite-raising-bar-142600515.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:26 ET",
-        "pub_ts": 1795616760.0
       }
     ],
     "DELL": [
@@ -2279,11 +2279,18 @@
         "pub_ts": 1795622208.0
       },
       {
-        "title": "Dell stock is dropping despite AI demand pushing sales forecast higher",
-        "url": "https://finance.yahoo.com/video/dell-stock-is-dropping-despite-ai-demand-pushing-sales-forecast-higher-142453283.html?.tsrc=rss",
+        "title": "Dell's Strong Q3 Overshadowed by Data Center Buildout Delays, Neocloud Exposure, BofA Says",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/dell-apos-strong-q3-overshadowed-160252447.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 09:24 ET",
-        "pub_ts": 1795616693.0
+        "time": "11-25 11:02 ET",
+        "pub_ts": 1795622572.0
+      },
+      {
+        "title": "Own Dell Or HPE? HPE Wins On Cash",
+        "url": "https://www.trefis.com/stock/dell/articles/628899/own-dell-or-hpe-hpe-wins-on-cash/2026-11-25?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:00 ET",
+        "pub_ts": 1795622402.0
       },
       {
         "title": "Dell's Q3 Results, Commentary Suggest Profitability Remains Intact Entering Fiscal 2028, Morgan Stanley Says",
@@ -2298,13 +2305,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:41 ET",
         "pub_ts": 1795621302.0
-      },
-      {
-        "title": "Dell's AI Business Just Delivered a $132 Billion Wake-Up Call",
-        "url": "https://finance.yahoo.com/technology/ai/articles/dells-ai-business-just-delivered-151641836.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:16 ET",
-        "pub_ts": 1795619801.0
       }
     ],
     "OKLO": [
@@ -2420,11 +2420,18 @@
     ],
     "MU": [
       {
-        "title": "Nvidia, AMD, and Micron stocks sink as investors flee AI trade",
-        "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-stocks-sink-as-investors-flee-ai-trade-134518921.html?.tsrc=rss",
+        "title": "This May Be the Best Artificial Intelligence (AI) Stock to Buy in December (Hint: It’s Not Micron or Oracle)",
+        "url": "https://www.fool.com/investing/2026/11/25/this-may-be-the-best-artificial-intelligence-ai-stock-to-buy-in-december-hint-it-s-not-micron-or-oracle/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 08:45 ET",
-        "pub_ts": 1795614318.0
+        "time": "11-25 11:13 ET",
+        "pub_ts": 1795623182.0
+      },
+      {
+        "title": "3 High-Growth Stocks That Could Make $10,000 Worth Much More by 2030",
+        "url": "https://247wallst.com/investing/2026/11/25/3-high-growth-stocks-that-could-make-10000-worth-much-more-by-2030/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:03 ET",
+        "pub_ts": 1795622602.0
       },
       {
         "title": "Why Micron Stock Just Dropped Again",
@@ -2446,13 +2453,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:24 ET",
         "pub_ts": 1795620267.0
-      },
-      {
-        "title": "Micron Reveals a Stunning 2,000% Surge in One CEO Expense",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/micron-reveals-stunning-2-000-144558413.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:45 ET",
-        "pub_ts": 1795617958.0
       }
     ],
     "SKHY": [
@@ -2522,11 +2522,11 @@
         "pub_ts": 1795529253.0
       },
       {
-        "title": "Prediction: This Will Be Sandisk’s Stock Price by the End of 2027",
-        "url": "https://www.fool.com/investing/2026/11/23/prediction-this-will-be-sandisks-stock-price-by-the-end-of-2027/?.tsrc=rss",
+        "title": "Anthropic, Nvidia, Micron, Dell, HP, Deere, and More Stocks That Explain Today’s Market",
+        "url": "https://finance.yahoo.com/m/18e72c51-c6d7-33b1-aa90-ccce17a9b32f/anthropic%2C-nvidia%2C-micron%2C.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-23 17:16 ET",
-        "pub_ts": 1795472162.0
+        "time": "11-25 09:57 ET",
+        "pub_ts": 1795618620.0
       }
     ],
     "STX": [
@@ -2642,6 +2642,27 @@
     ],
     "BTC-USD": [
       {
+        "title": "Bitcoin wallet COLDCARD patches code after August hack",
+        "url": "https://finance.yahoo.com/video/bitcoin-wallet-coldcard-patches-code-163000292.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:30 ET",
+        "pub_ts": 1795624200.0
+      },
+      {
+        "title": "Tether Gold Under Pressure: Bitcoin and Gold Losses Erase 70% of USDT’s Cushion",
+        "url": "https://www.coinspeaker.com/tether-gold-under-pressure-bitcoin-and-gold-losses-erase-70-of-usdts-cushion/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:24 ET",
+        "pub_ts": 1795623846.0
+      },
+      {
+        "title": "Before the bell: Bitcoin's Thanksgiving comes with a tariff bill",
+        "url": "https://www.thestreet.com/crypto/markets/before-the-bell-bitcoins-thanksgiving-comes-with-a-tariff-bill-?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:24 ET",
+        "pub_ts": 1795623845.0
+      },
+      {
         "title": "Fidelity adds DeFi staples to its crypto trading platform",
         "url": "https://finance.yahoo.com/video/fidelity-adds-defi-staples-crypto-160000496.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2654,27 +2675,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:57 ET",
         "pub_ts": 1795622223.0
-      },
-      {
-        "title": "Bitcoin slides below $59,000, on pace for its worst month since June 2022",
-        "url": "https://finance.yahoo.com/markets/article/bitcoin-sinks-in-brutal-november-sell-off-as-broader-market-slides-143727717.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:37 ET",
-        "pub_ts": 1795617447.0
-      },
-      {
-        "title": "Arthur Hayes Predicts AI Crash Will Trigger Bailout and Bitcoin Boom, but Not Yet",
-        "url": "https://www.cryptoprowl.com/releases/arthur-hayes-predicts-ai-crash-will-trigger-bailout-and-bitcoin-boom-but-not-yet-8071?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:16 ET",
-        "pub_ts": 1795619760.0
-      },
-      {
-        "title": "Stablecoin Redemptions Hit $12 Billion As Crypto Prices Fall",
-        "url": "https://www.cryptoprowl.com/releases/stablecoin-redemptions-hit-12-billion-as-crypto-prices-fall-8070?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:05 ET",
-        "pub_ts": 1795619100.0
       }
     ],
     "CRWD": [
@@ -2716,6 +2716,27 @@
     ],
     "ORCL": [
       {
+        "title": "Without an Anthropic Rally, “There Will Be No OpenAI.” AMD Is the Real Loser",
+        "url": "https://www.tikr.com/blog/without-an-anthropic-rally-there-will-be-no-openai-amd-is-the-real-loser?ref=yahoofinance&tlnk=yf-261125-334c8hfc&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:18 ET",
+        "pub_ts": 1795623516.0
+      },
+      {
+        "title": "This May Be the Best Artificial Intelligence (AI) Stock to Buy in December (Hint: It’s Not Micron or Oracle)",
+        "url": "https://www.fool.com/investing/2026/11/25/this-may-be-the-best-artificial-intelligence-ai-stock-to-buy-in-december-hint-it-s-not-micron-or-oracle/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:13 ET",
+        "pub_ts": 1795623182.0
+      },
+      {
+        "title": "Oracle Stock Is Down 67%. Should It Keep Building Or Take A Breather?",
+        "url": "https://www.trefis.com/stock/orcl/articles/628199/oracle-stock-is-down-67-should-it-keep-building-or-take-a-breather/2026-11-25?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:00 ET",
+        "pub_ts": 1795622402.0
+      },
+      {
         "title": "Oracle’s Credit Swaps Blow Out. Blue Owl Anchored the $15 Billion Campus It Rents",
         "url": "https://www.tikr.com/blog/oracles-credit-swaps-blow-out-blue-owl-anchored-the-15-billion-campus-it-rents?ref=yahoofinance&tlnk=yf-261125-c28562w4&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2728,27 +2749,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:44 ET",
         "pub_ts": 1795621459.0
-      },
-      {
-        "title": "Global Risk Analysis Management Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on AI and Real-Time Risk with Microsoft, IBM, Oracle, SAP, and ServiceNow",
-        "url": "https://finance.yahoo.com/technology/ai/articles/global-risk-analysis-management-market-142700333.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:27 ET",
-        "pub_ts": 1795616820.0
-      },
-      {
-        "title": "Artificial Intelligence (AI) in Hospital Operations Market Report 2026 | Capitalize on 28.9% CAGR as Microsoft, Oracle, Epic, LeanTaaS and Qventus Accelerate Workflow Automation",
-        "url": "https://finance.yahoo.com/healthcare/articles/artificial-intelligence-ai-hospital-operations-142000864.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:20 ET",
-        "pub_ts": 1795616400.0
-      },
-      {
-        "title": "Data Center Americas 2027 Announces Industry Leaders from AWS, Google, Microsoft, Oracle, CoreWeave and Applied Digital as Featured Speakers",
-        "url": "https://finance.yahoo.com/technology/ai/articles/data-center-americas-2027-announces-140000391.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:00 ET",
-        "pub_ts": 1795615200.0
       }
     ],
     "COIN": [
@@ -3356,32 +3356,32 @@
     "LITE": 1795623976.145159,
     "AAOI": 1795623976.145159,
     "SPCX": 1795623976.145159,
-    "ASTS": 1795622848.9016576,
+    "ASTS": 1795624402.5195794,
     "AXTI": 1795623976.145159,
-    "NASA": 1795622848.9016576,
-    "LUNR": 1795622848.9016576,
-    "TSLA": 1795622848.9016576,
-    "AXP": 1795622848.9016576,
-    "RKLB": 1795622848.9016576,
-    "KO": 1795622848.9016576,
-    "FLY": 1795622848.9016576,
-    "INTC": 1795622848.9016576,
-    "VRT": 1795622848.9016576,
-    "HPE": 1795622848.9016576,
-    "DELL": 1795622848.9016576,
-    "OKLO": 1795622848.9016576,
-    "CEG": 1795622848.9016576,
-    "FPS": 1795622848.9016576,
-    "MU": 1795622848.9016576,
-    "SKHY": 1795622848.9016576,
-    "WDC": 1795622848.9016576,
-    "STX": 1795622848.9016576,
-    "MSTR": 1795622848.9016576,
-    "SNDK": 1795622848.9016576,
-    "BTC-USD": 1795622848.9016576,
-    "CRWD": 1795622848.9016576,
-    "ORCL": 1795622848.9016576,
-    "COIN": 1795622848.9016576,
+    "NASA": 1795624402.5195794,
+    "LUNR": 1795624402.5195794,
+    "TSLA": 1795624402.5195794,
+    "AXP": 1795624402.5195794,
+    "RKLB": 1795624402.5195794,
+    "KO": 1795624402.5195794,
+    "FLY": 1795624402.5195794,
+    "INTC": 1795624402.5195794,
+    "VRT": 1795624402.5195794,
+    "HPE": 1795624402.5195794,
+    "DELL": 1795624402.5195794,
+    "OKLO": 1795624402.5195794,
+    "CEG": 1795624402.5195794,
+    "FPS": 1795624402.5195794,
+    "MU": 1795624402.5195794,
+    "SKHY": 1795624402.5195794,
+    "WDC": 1795624402.5195794,
+    "STX": 1795624402.5195794,
+    "MSTR": 1795624402.5195794,
+    "SNDK": 1795624402.5195794,
+    "BTC-USD": 1795624402.5195794,
+    "CRWD": 1795624402.5195794,
+    "ORCL": 1795624402.5195794,
+    "COIN": 1795624402.5195794,
     "LLY": 1795622958.4469829,
     "MRNA": 1795622958.4469829,
     "NKE": 1795622958.4469829,
