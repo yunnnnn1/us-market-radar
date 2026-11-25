@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795635170.048,
-  "updated_at_et": "11-25 14:32 ET",
-  "updated_at_kst": "04:32 KST",
+  "updated_at_ts": 1795635273.963,
+  "updated_at_et": "11-25 14:34 ET",
+  "updated_at_kst": "04:34 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -941,35 +941,42 @@
         "pub_ts": 1795632814.0
       },
       {
-        "title": "Nvidia Chip Sellers Reportedly Scramble For New Buyers As US Tightens China Export Loopholes",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nvidia-chip-sellers-reportedly-scramble-for-new-buyers-as-us-tightens-china-export-loopholes/cNbHoZSR9mv?.tsrc=rss",
+        "title": "S&P puts NVIDIA on CreditWatch over governance concerns",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/p-puts-nvidia-creditwatch-over-192625970.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 14:02 ET",
-        "pub_ts": 1795633343.0
+        "time": "11-25 14:26 ET",
+        "pub_ts": 1795634785.0
       },
       {
-        "title": "Dan Ives Says Nvidia’s Jensen Huang Worth At Least $8 Trillion To US Economy, Calls Sell-Off A ‘Gut Check Moment’",
-        "url": "https://stocktwits.com/news-articles/markets/equity/dan-ives-says-nvidia-s-jensen-huang-worth-at-least-8-trillion-to-us-economy-calls-sell-off-a-gut-check-moment/cNbH8KYR9mH?.tsrc=rss",
+        "title": "David Tepper Sold All of His AMD Stock. His Biggest Position Is Micron.",
+        "url": "https://www.fool.com/investing/2026/11/25/david-tepper-sold-all-of-his-amd-stock-his-biggest-position-is-micron/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 13:59 ET",
-        "pub_ts": 1795633197.0
+        "time": "11-25 14:20 ET",
+        "pub_ts": 1795634402.0
       },
       {
-        "title": "How Nvidia's Jensen Huang Survived the Kind of Scandal That Ends CEO Careers",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63647697/jensen-huang-sex-scandal-ceo?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "title": "Michael Burry Loads Up on 3 Chinese Stocks; Sticks to Nvidia Bearish Bet",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-loads-3-chinese-191345318.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 13:55 ET",
-        "pub_ts": 1795632908.0
+        "time": "11-25 14:13 ET",
+        "pub_ts": 1795634025.0
       },
       {
-        "title": "Why Nvidia Stock Is Falling Again",
-        "url": "https://www.fool.com/investing/2026/11/25/why-nvidia-stock-is-falling-again/?.tsrc=rss",
+        "title": "Why Did Nvidia Stock Jump So Much?",
+        "url": "https://www.trefis.com/stock/nvda/articles/628615/why-did-nvidia-stock-jump-so-much/2026-11-25?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 13:53 ET",
-        "pub_ts": 1795632782.0
+        "time": "11-25 14:07 ET",
+        "pub_ts": 1795633623.0
       }
     ],
     "AMD": [
+      {
+        "title": "David Tepper Sold All of His AMD Stock. His Biggest Position Is Micron.",
+        "url": "https://www.fool.com/investing/2026/11/25/david-tepper-sold-all-of-his-amd-stock-his-biggest-position-is-micron/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 14:20 ET",
+        "pub_ts": 1795634402.0
+      },
       {
         "title": "AMD stock could reward patient investors enormously",
         "url": "https://www.thestreet.com/investing/stocks/amd-stock-2027-data-center-growth?.tsrc=rss",
@@ -997,13 +1004,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 11:18 ET",
         "pub_ts": 1795623516.0
-      },
-      {
-        "title": "CNBC’s David Faber Says “AMD Is Taking Clients.” SemiAnalysis Has Its MI355X Beating Nvidia’s B200 on Cost",
-        "url": "https://www.tikr.com/blog/cnbcs-david-faber-says-amd-is-taking-clients-semianalysis-has-its-mi355x-beating-nvidias-b200-on-cost?ref=yahoofinance&tlnk=yf-261125-pj6xvm8j&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:57 ET",
-        "pub_ts": 1795622264.0
       }
     ],
     "ASML": [
@@ -2858,6 +2858,13 @@
     ],
     "NKE": [
       {
+        "title": "Did Nike Stock Jump On Its Own News?",
+        "url": "https://www.trefis.com/stock/nke/articles/628998/did-nike-stock-jump-on-its-own-news/2026-11-25?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 14:11 ET",
+        "pub_ts": 1795633908.0
+      },
+      {
         "title": "Why Nike's Perfect Comeback Isn't Working",
         "url": "https://thehustle.videonest.co/videos/2367511/why-nike-s-perfect-comeback-isn-t-working-F-EfqW8p5e?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2884,13 +2891,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 16:00 ET",
         "pub_ts": 1795554057.0
-      },
-      {
-        "title": "Why Is Nike (NKE) Stock Up Today? Dick's Strong Earnings Lift Retailers",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-nike-nke-stock-today-204540602.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 15:45 ET",
-        "pub_ts": 1795553140.0
       }
     ],
     "MCD": [
@@ -3311,23 +3311,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795633701.723431,
-    "SOXL": 1795633701.723431,
-    "SPY": 1795633701.723431,
-    "DIA": 1795633701.723431,
-    "SOXX": 1795633701.723431,
-    "QQQ": 1795633701.723431,
-    "SMH": 1795633701.723431,
-    "IWM": 1795633701.723431,
-    "IGV": 1795633701.723431,
-    "TLT": 1795633701.723431,
-    "GLD": 1795633701.723431,
-    "SQQQ": 1795633701.723431,
-    "TSM": 1795633701.723431,
-    "VIXY": 1795633701.723431,
-    "SOXS": 1795633701.723431,
-    "NVDA": 1795633701.723431,
-    "AMD": 1795633701.723431,
+    "KORU": 1795635273.963288,
+    "SOXL": 1795635273.963288,
+    "SPY": 1795635273.963288,
+    "DIA": 1795635273.963288,
+    "SOXX": 1795635273.963288,
+    "QQQ": 1795635273.963288,
+    "SMH": 1795635273.963288,
+    "IWM": 1795635273.963288,
+    "IGV": 1795635273.963288,
+    "TLT": 1795635273.963288,
+    "GLD": 1795635273.963288,
+    "SQQQ": 1795635273.963288,
+    "TSM": 1795635273.963288,
+    "VIXY": 1795635273.963288,
+    "SOXS": 1795635273.963288,
+    "NVDA": 1795635273.963288,
+    "AMD": 1795635273.963288,
     "ASML": 1795633804.952686,
     "QCOM": 1795633804.952686,
     "AVGO": 1795633804.952686,
@@ -3376,21 +3376,21 @@
     "CRWD": 1795634959.7326298,
     "ORCL": 1795634959.7326298,
     "COIN": 1795634959.7326298,
-    "LLY": 1795633701.723431,
-    "MRNA": 1795633701.723431,
-    "NKE": 1795633701.723431,
-    "MCD": 1795633701.723431,
-    "PEP": 1795633701.723431,
+    "LLY": 1795635273.963288,
+    "MRNA": 1795635273.963288,
+    "NKE": 1795635273.963288,
+    "MCD": 1795635273.963288,
+    "PEP": 1795635273.963288,
     "XOM": 1795633804.952686,
-    "JPM": 1795633701.723431,
+    "JPM": 1795635273.963288,
     "WMT": 1795633804.952686,
-    "V": 1795633701.723431,
+    "V": 1795635273.963288,
     "CAT": 1795633804.952686,
     "FN": 1795633910.004571,
     "GLW": 1795633910.004571,
     "ANT": 1795633804.952686,
     "XAUUSD": 1795633804.952686,
-    "KOSPI": 1795633701.723431
+    "KOSPI": 1795635273.963288
   },
   "opex_shield": {
     "date": "2026-11-25",
