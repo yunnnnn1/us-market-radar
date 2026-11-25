@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795598993.941,
-  "updated_at_et": "11-25 04:29 ET",
-  "updated_at_kst": "18:29 KST",
+  "updated_at_ts": 1795599095.884,
+  "updated_at_et": "11-25 04:31 ET",
+  "updated_at_kst": "18:31 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -17,7 +17,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 241,
+      "minutes_left": 239,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -36,7 +36,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 241,
+      "minutes_left": 239,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -1179,6 +1179,13 @@
         "pub_ts": 1795597082.0
       },
       {
+        "title": "Cathie Wood Just Sold $14 Million of Meta",
+        "url": "https://www.tikr.com/blog/cathie-wood-just-sold-14-million-of-meta?ref=yahoofinance&tlnk=yf-261125-3qjvv3gp&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 02:09 ET",
+        "pub_ts": 1795590541.0
+      },
+      {
         "title": "Your $300,000 in XLC Holds $130,206 in Just Meta and Alphabet",
         "url": "https://247wallst.com/investing/etf/2026/11/24/your-300000-in-xlc-holds-130206-in-just-meta-and-alphabet/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1198,22 +1205,29 @@
         "source": "Yahoo Finance",
         "time": "11-24 14:06 ET",
         "pub_ts": 1795547193.0
-      },
-      {
-        "title": "Meta launches its Muse personal agent in the UK – but it comes with a big warning",
-        "url": "https://www.independent.co.uk/tech/meta-muse-uk-launch-release-warning-b3090758.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 13:33 ET",
-        "pub_ts": 1795545223.0
       }
     ],
     "GOOGL": [
+      {
+        "title": "Bear of the Day: Zillow Group (ZG)",
+        "url": "https://finance.yahoo.com/real-estate/articles/bear-day-zillow-group-zg-080000482.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 03:00 ET",
+        "pub_ts": 1795593600.0
+      },
       {
         "title": "Asia's AI race heads offshore with launch of Floating Data Centres in Singapore",
         "url": "https://finance.yahoo.com/technology/ai/articles/asias-ai-race-heads-offshore-085300682.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 03:53 ET",
         "pub_ts": 1795596780.0
+      },
+      {
+        "title": "Bull of the Day: Quanta Services (PWR)",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/bull-day-quanta-services-pwr-080000871.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 03:00 ET",
+        "pub_ts": 1795593600.0
       },
       {
         "title": "Alphabet Has $251 Billion Invested In 2 of Its Biggest Artificial Intelligence Partners",
@@ -1228,20 +1242,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 01:56 ET",
         "pub_ts": 1795589778.0
-      },
-      {
-        "title": "Your $300,000 in XLC Holds $130,206 in Just Meta and Alphabet",
-        "url": "https://247wallst.com/investing/etf/2026/11/24/your-300000-in-xlc-holds-130206-in-just-meta-and-alphabet/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 20:04 ET",
-        "pub_ts": 1795568646.0
-      },
-      {
-        "title": "5 Sleeper Blue-Chip Stock Picks for Steady Long-Term Gains",
-        "url": "https://www.kiplinger.com/investing/blue-chip-stocks/sleeper-blue-chip-stock-picks-for-steady-long-term-gains?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 19:52 ET",
-        "pub_ts": 1795567953.0
       }
     ],
     "MSFT": [
@@ -1251,6 +1251,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 16:45 ET",
         "pub_ts": 1795556758.0
+      },
+      {
+        "title": "Satya Nadella Says “Six Months Behind Is a Great Place to Be.” That’s a Warning for Anthropic",
+        "url": "https://www.tikr.com/blog/satya-nadella-says-six-months-behind-is-a-great-place-to-be-thats-a-warning-for-anthropic?ref=yahoofinance&tlnk=yf-261125-m52c2qqr&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 22:43 ET",
+        "pub_ts": 1795578235.0
       },
       {
         "title": "Driven Tech Completes Acquisitions of ADEX and TekBay, Accelerating Enterprise AI Strategy",
@@ -1272,13 +1279,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 17:24 ET",
         "pub_ts": 1795559066.0
-      },
-      {
-        "title": "Microsoft (MSFT) Is One of the Safest Ways to Own AI",
-        "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-one-safest-ways-210600451.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:06 ET",
-        "pub_ts": 1795554360.0
       }
     ],
     "AAPL": [
@@ -1660,6 +1660,13 @@
         "pub_ts": 1795581637.0
       },
       {
+        "title": "Plot Twist: Coherent Announces a $2 Billion Buyback, the Same Sum Nvidia Paid for Its Stock in March",
+        "url": "https://www.tikr.com/blog/plot-twist-coherent-announces-a-2-billion-buyback-the-same-sum-nvidia-paid-for-its-stock-in-march?ref=yahoofinance&tlnk=yf-261125-6hc4qc8p&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 22:52 ET",
+        "pub_ts": 1795578749.0
+      },
+      {
         "title": "Coherent Stock Is Jensen Huang Reinstatement Changing The AI Partner Story",
         "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-stock-jensen-huang-reinstatement-080923486.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1679,13 +1686,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 16:34 ET",
         "pub_ts": 1795469657.0
-      },
-      {
-        "title": "Applied Optoelectronics and Lumentum Soar 22% as Jensen Huang’s Return to NVIDIA Sparks AI Optics Rebound; Coherent Jumps 19%",
-        "url": "https://247wallst.com/investing/2026/11/23/applied-optoelectronics-and-lumentum-soar-22-as-jensen-huangs-return-to-nvidia-sparks-ai-optics-rebound-coherent-jumps-19/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 10:57 ET",
-        "pub_ts": 1795449427.0
       }
     ],
     "MRVL": [
@@ -3344,30 +3344,30 @@
     "SOXS": 1795598680.3590257,
     "NVDA": 1795598680.3590257,
     "AMD": 1795598680.3590257,
-    "ASML": 1795597530.7977943,
-    "QCOM": 1795597530.7977943,
-    "AVGO": 1795597530.7977943,
-    "AMAT": 1795597530.7977943,
-    "META": 1795597530.7977943,
-    "GOOGL": 1795597530.7977943,
-    "MSFT": 1795597530.7977943,
-    "AAPL": 1795597530.7977943,
-    "PLTR": 1795597530.7977943,
-    "NOW": 1795597530.7977943,
-    "AMZN": 1795597530.7977943,
-    "CRWV": 1795597530.7977943,
-    "NBIS": 1795597530.7977943,
-    "APLD": 1795597530.7977943,
-    "VST": 1795597530.7977943,
-    "BE": 1795597530.7977943,
-    "CRDO": 1795597530.7977943,
-    "COHR": 1795597530.7977943,
-    "MRVL": 1795597530.7977943,
-    "LITE": 1795597530.7977943,
-    "AAOI": 1795597530.7977943,
-    "SPCX": 1795597530.7977943,
+    "ASML": 1795599095.8837297,
+    "QCOM": 1795599095.8837297,
+    "AVGO": 1795599095.8837297,
+    "AMAT": 1795599095.8837297,
+    "META": 1795599095.8837297,
+    "GOOGL": 1795599095.8837297,
+    "MSFT": 1795599095.8837297,
+    "AAPL": 1795599095.8837297,
+    "PLTR": 1795599095.8837297,
+    "NOW": 1795599095.8837297,
+    "AMZN": 1795599095.8837297,
+    "CRWV": 1795599095.8837297,
+    "NBIS": 1795599095.8837297,
+    "APLD": 1795599095.8837297,
+    "VST": 1795599095.8837297,
+    "BE": 1795599095.8837297,
+    "CRDO": 1795599095.8837297,
+    "COHR": 1795599095.8837297,
+    "MRVL": 1795599095.8837297,
+    "LITE": 1795599095.8837297,
+    "AAOI": 1795599095.8837297,
+    "SPCX": 1795599095.8837297,
     "ASTS": 1795597743.2972617,
-    "AXTI": 1795597530.7977943,
+    "AXTI": 1795599095.8837297,
     "NASA": 1795597743.2972617,
     "LUNR": 1795597743.2972617,
     "TSLA": 1795597743.2972617,
@@ -3402,8 +3402,8 @@
     "WMT": 1795598680.3590257,
     "V": 1795597846.877001,
     "CAT": 1795598680.3590257,
-    "FN": 1795597530.7977943,
-    "GLW": 1795597530.7977943,
+    "FN": 1795599095.8837297,
+    "GLW": 1795599095.8837297,
     "ANT": 1795598680.3590257,
     "XAUUSD": 1795598680.3590257,
     "KOSPI": 1795598680.3590257
@@ -3424,10 +3424,10 @@
   },
   "calendar_banner": {
     "level": "upcoming",
-    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 241 分钟（11-25 08:30 ET / 22:30 KST）",
+    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 239 分钟（11-25 08:30 ET / 22:30 KST）",
     "detail": "前值 0.3% ｜ 预期 0.3% ｜ 临近公布前15分钟将自动触发防插针预警",
     "event_name": "美国10月核心PCE物价指数环比",
-    "minutes_left": 241,
+    "minutes_left": 239,
     "opex_shield": {
       "date": "2026-11-25",
       "active": false,
