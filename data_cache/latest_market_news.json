@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795580038.979,
-  "updated_at_et": "11-24 23:13 ET",
-  "updated_at_kst": "13:13 KST",
+  "updated_at_ts": 1795580141.959,
+  "updated_at_et": "11-24 23:15 ET",
+  "updated_at_kst": "13:15 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1362,6 +1362,13 @@
         "pub_ts": 1795556758.0
       },
       {
+        "title": "Amazon ‘Trying to Trick’ You With Black Friday Offers That Aren’t Really Deals, Says Elizabeth Warren: E-Commerce Giant Pushes Back",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-trying-trick-black-friday-025557873.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 21:55 ET",
+        "pub_ts": 1795575357.0
+      },
+      {
         "title": "Amazon customers may qualify for $309.5M settlement. See how",
         "url": "https://www.usatoday.com/story/money/2026/11/24/amazon-settlement-deadline-is-approaching-who-qualifies/92947347007/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1381,13 +1388,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 14:42 ET",
         "pub_ts": 1795549322.0
-      },
-      {
-        "title": "Former Amazon VP Reveals What Jeff Bezos Was Really Like Behind Closed Doors: 'Very Demanding And Never Said Anything Good'",
-        "url": "https://finance.yahoo.com/small-business/articles/former-amazon-vp-reveals-jeff-183006747.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 13:30 ET",
-        "pub_ts": 1795545006.0
       }
     ],
     "CRWV": [
@@ -1540,6 +1540,13 @@
     ],
     "BE": [
       {
+        "title": "BE Stock Slumps After AI-Driven Gains: This Analyst Sees ‘An Attractive Entry Point’",
+        "url": "https://stocktwits.com/news-articles/markets/equity/be-stock-slumps-after-ai-driven-gains-this-analyst-sees-an-attractive-entry-point/cNbHRamR9lQ?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 22:53 ET",
+        "pub_ts": 1795578831.0
+      },
+      {
         "title": "Bloom Energy Revenue Jumped 138%. Its Next Growth Phase Could Be Even Bigger",
         "url": "https://247wallst.com/investing/2026/11/24/bloom-energy-revenue-jumped-138-its-next-growth-phase-could-be-even-bigger/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1566,13 +1573,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:38 ET",
         "pub_ts": 1795534689.0
-      },
-      {
-        "title": "Bloom Energy vs. NextEra Energy: Which Power Stock Is a Better Buy?",
-        "url": "https://www.fool.com/coverage/better-buy/2026/11/24/bloom-energy-vs-nextera-energy-which-power-stock-is-a-better-buy/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 06:51 ET",
-        "pub_ts": 1795521062.0
       }
     ],
     "CRDO": [
@@ -3305,30 +3305,30 @@
     "SOXS": 1795579831.686719,
     "NVDA": 1795579831.686719,
     "AMD": 1795579831.686719,
-    "ASML": 1795578584.0285435,
-    "QCOM": 1795578584.0285435,
-    "AVGO": 1795578584.0285435,
-    "AMAT": 1795578584.0285435,
-    "META": 1795578584.0285435,
-    "GOOGL": 1795578584.0285435,
-    "MSFT": 1795578584.0285435,
-    "AAPL": 1795578584.0285435,
-    "PLTR": 1795578584.0285435,
-    "NOW": 1795578584.0285435,
-    "AMZN": 1795578584.0285435,
-    "CRWV": 1795578584.0285435,
-    "NBIS": 1795578584.0285435,
-    "APLD": 1795578584.0285435,
-    "VST": 1795578584.0285435,
-    "BE": 1795578584.0285435,
-    "CRDO": 1795578584.0285435,
-    "COHR": 1795578584.0285435,
-    "MRVL": 1795578584.0285435,
-    "LITE": 1795578584.0285435,
-    "AAOI": 1795578584.0285435,
-    "SPCX": 1795578584.0285435,
+    "ASML": 1795580141.9585474,
+    "QCOM": 1795580141.9585474,
+    "AVGO": 1795580141.9585474,
+    "AMAT": 1795580141.9585474,
+    "META": 1795580141.9585474,
+    "GOOGL": 1795580141.9585474,
+    "MSFT": 1795580141.9585474,
+    "AAPL": 1795580141.9585474,
+    "PLTR": 1795580141.9585474,
+    "NOW": 1795580141.9585474,
+    "AMZN": 1795580141.9585474,
+    "CRWV": 1795580141.9585474,
+    "NBIS": 1795580141.9585474,
+    "APLD": 1795580141.9585474,
+    "VST": 1795580141.9585474,
+    "BE": 1795580141.9585474,
+    "CRDO": 1795580141.9585474,
+    "COHR": 1795580141.9585474,
+    "MRVL": 1795580141.9585474,
+    "LITE": 1795580141.9585474,
+    "AAOI": 1795580141.9585474,
+    "SPCX": 1795580141.9585474,
     "ASTS": 1795578890.9625905,
-    "AXTI": 1795578584.0285435,
+    "AXTI": 1795580141.9585474,
     "NASA": 1795578890.9625905,
     "LUNR": 1795578890.9625905,
     "TSLA": 1795578890.9625905,
@@ -3363,8 +3363,8 @@
     "WMT": 1795579831.686719,
     "V": 1795578995.0055861,
     "CAT": 1795579831.686719,
-    "FN": 1795578584.0285435,
-    "GLW": 1795578584.0285435,
+    "FN": 1795580141.9585474,
+    "GLW": 1795580141.9585474,
     "ANT": 1795579831.686719,
     "XAUUSD": 1795579831.686719,
     "KOSPI": 1795579831.686719
