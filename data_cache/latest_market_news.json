@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795591315.399,
-  "updated_at_et": "11-25 02:21 ET",
-  "updated_at_kst": "16:21 KST",
+  "updated_at_ts": 1795591418.383,
+  "updated_at_et": "11-25 02:23 ET",
+  "updated_at_kst": "16:23 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -17,7 +17,7 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 369,
+      "minutes_left": 367,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
@@ -36,13 +36,26 @@
       "actual": "待公布",
       "unit": "%",
       "status": "upcoming",
-      "minutes_left": 369,
+      "minutes_left": 367,
       "impact_tone": "pending",
       "impact_note": "待公布（数据发布前后盘口易上下剧烈插针）",
       "source": "wscn"
     }
   ],
   "macro_flashes": [
+    {
+      "id": "20261125152254886800",
+      "title": "期权押注在关口爆发分歧，PCE前黄金多空分别锁定目标",
+      "summary": "黄金在卖盘压力下重新测试低点，期权在整数关口集中押注；行情日内变量需看核心PCE，数据前多空头或已分别锁定短线目标。",
+      "keywords": [
+        "PCE"
+      ],
+      "pub_ts": 1795591374.0,
+      "time_et": "11-25 02:22 ET",
+      "time_bj": "15:22 BJ",
+      "time_kst": "16:22 KST",
+      "time_display": "02:22 ET / 15:22 BJ"
+    },
     {
       "id": "20261125150624945800",
       "title": "“特朗普账户”亲友缴款突破10亿美元，总资金规模超90亿美元",
@@ -372,19 +385,6 @@
       "time_bj": "08:30 BJ",
       "time_kst": "09:30 KST",
       "time_display": "19:30 ET / 08:30 BJ"
-    },
-    {
-      "id": "20261125082000000800",
-      "title": "澳大利亚10月未季调CPI年率将于十分钟后公布。",
-      "summary": "澳大利亚10月未季调CPI年率将于十分钟后公布。",
-      "keywords": [
-        "CPI"
-      ],
-      "pub_ts": 1795566000.0,
-      "time_et": "11-24 19:20 ET",
-      "time_bj": "08:20 BJ",
-      "time_kst": "09:20 KST",
-      "time_display": "19:20 ET / 08:20 BJ"
     }
   ],
   "ticker_news": {
@@ -2291,7 +2291,7 @@
         "pub_ts": 1795579984.0
       },
       {
-        "title": "Asian stocks slide as AI selloff deepens, U.S. tariff threats weigh on sentiment",
+        "title": "Asian stocks slide as Taiwan, South Korea extend AI-led losses",
         "url": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-slide-ai-selloff-040525614.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 23:05 ET",
@@ -2580,13 +2580,6 @@
         "pub_ts": 1795535048.0
       },
       {
-        "title": "Is Michael Saylor's bitcoin strategy losing its appeal?",
-        "url": "https://finance.yahoo.com/video/is-michael-saylors-bitcoin-strategy-losing-its-appeal-151603542.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:16 ET",
-        "pub_ts": 1795533363.0
-      },
-      {
         "title": "Dow, S&P 500, Nasdaq Futures Edge Lower Amid Tech Selloff Ahead Of Key Inflation Data: DELL, AMBA, SOXL, MSTR In Focus",
         "url": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-edge-lower-amid-tech-selloff-ahead-of-key-inflation-data-dell-amba-soxl-mstr-in-focus/cNbHbLoR9lJ?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2606,6 +2599,13 @@
         "source": "Yahoo Finance",
         "time": "11-24 16:27 ET",
         "pub_ts": 1795555626.0
+      },
+      {
+        "title": "Miller Industries, Inc. (MLR) Is Recovering From an Inventory Downturn: Could Earnings Rebound Drive Its Stock Higher?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/miller-industries-inc-mlr-recovering-211015377.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-24 16:10 ET",
+        "pub_ts": 1795554615.0
       }
     ],
     "SNDK": [
@@ -2647,6 +2647,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "Bitcoin extends losses below $59,000 as ETF outflows weigh",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-extends-losses-below-59-064934005.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 01:49 ET",
+        "pub_ts": 1795589374.0
+      },
+      {
         "title": "Why Is Crypto Tokenization Booming on Wall Street While Bitcoin ETF Demand Shrinks?",
         "url": "https://beincrypto.com/crypto-tokenization-booms-bitcoin-etf-demand/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2673,13 +2680,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 00:19 ET",
         "pub_ts": 1795583980.0
-      },
-      {
-        "title": "Strategy (MSTR) Stock Trades At A Discount To Book Value",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/strategy-mstr-stock-trades-discount-020908385.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 21:09 ET",
-        "pub_ts": 1795572548.0
       }
     ],
     "CRWD": [
@@ -2721,6 +2721,13 @@
     ],
     "ORCL": [
       {
+        "title": "AI Concerns Resurface? ORCL, GOOGL, SPCX, CRWV Credit Default Swap Spreads Hit Records As NVDA, ANT Tumble",
+        "url": "https://stocktwits.com/news-articles/markets/equity/ai-concerns-resurface-orcl-googl-spcx-crwv-credit-default-swap-spreads-hit-records-as-nvda-ant-tumble/cNbHEEAR9lZ?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 01:56 ET",
+        "pub_ts": 1795589778.0
+      },
+      {
         "title": "Oracle (ORCL) Falls More Steeply Than Broader Market: What Investors Need to Know",
         "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-orcl-falls-more-steeply-214502238.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2747,13 +2754,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:45 ET",
         "pub_ts": 1795535101.0
-      },
-      {
-        "title": "Asia-Pacific Digital Transformation Market: Size, Trends, and Forecast (2026-2034) Featuring Intelligence on Accenture, Google (Alphabet), IBM, Microsoft, Oracle, HPE, SAP, EMC (Dell EMC), Cognex, Adobe and Siemens",
-        "url": "https://finance.yahoo.com/technology/articles/asia-pacific-digital-transformation-market-152900939.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:29 ET",
-        "pub_ts": 1795534140.0
       }
     ],
     "COIN": [
@@ -3361,32 +3361,32 @@
     "LITE": 1795591210.753893,
     "AAOI": 1795591210.753893,
     "SPCX": 1795591210.753893,
-    "ASTS": 1795589845.6046617,
+    "ASTS": 1795591418.3827271,
     "AXTI": 1795591210.753893,
-    "NASA": 1795589845.6046617,
-    "LUNR": 1795589845.6046617,
-    "TSLA": 1795589845.6046617,
-    "AXP": 1795589845.6046617,
-    "RKLB": 1795589845.6046617,
-    "KO": 1795589845.6046617,
-    "FLY": 1795589845.6046617,
-    "INTC": 1795589845.6046617,
-    "VRT": 1795589845.6046617,
-    "HPE": 1795589845.6046617,
-    "DELL": 1795589845.6046617,
-    "OKLO": 1795589845.6046617,
-    "CEG": 1795589845.6046617,
-    "FPS": 1795589845.6046617,
-    "MU": 1795589845.6046617,
-    "SKHY": 1795589845.6046617,
-    "WDC": 1795589845.6046617,
-    "STX": 1795589845.6046617,
-    "MSTR": 1795589845.6046617,
-    "SNDK": 1795589845.6046617,
-    "BTC-USD": 1795589845.6046617,
-    "CRWD": 1795589845.6046617,
-    "ORCL": 1795589845.6046617,
-    "COIN": 1795589845.6046617,
+    "NASA": 1795591418.3827271,
+    "LUNR": 1795591418.3827271,
+    "TSLA": 1795591418.3827271,
+    "AXP": 1795591418.3827271,
+    "RKLB": 1795591418.3827271,
+    "KO": 1795591418.3827271,
+    "FLY": 1795591418.3827271,
+    "INTC": 1795591418.3827271,
+    "VRT": 1795591418.3827271,
+    "HPE": 1795591418.3827271,
+    "DELL": 1795591418.3827271,
+    "OKLO": 1795591418.3827271,
+    "CEG": 1795591418.3827271,
+    "FPS": 1795591418.3827271,
+    "MU": 1795591418.3827271,
+    "SKHY": 1795591418.3827271,
+    "WDC": 1795591418.3827271,
+    "STX": 1795591418.3827271,
+    "MSTR": 1795591418.3827271,
+    "SNDK": 1795591418.3827271,
+    "BTC-USD": 1795591418.3827271,
+    "CRWD": 1795591418.3827271,
+    "ORCL": 1795591418.3827271,
+    "COIN": 1795591418.3827271,
     "LLY": 1795589956.9214673,
     "MRNA": 1795589956.9214673,
     "NKE": 1795589956.9214673,
@@ -3419,10 +3419,10 @@
   },
   "calendar_banner": {
     "level": "upcoming",
-    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 369 分钟（11-25 08:30 ET / 22:30 KST）",
+    "headline": "📅 今日美股重磅预告【美国10月核心PCE物价指数环比】· 距公布约 367 分钟（11-25 08:30 ET / 22:30 KST）",
     "detail": "前值 0.3% ｜ 预期 0.3% ｜ 临近公布前15分钟将自动触发防插针预警",
     "event_name": "美国10月核心PCE物价指数环比",
-    "minutes_left": 369,
+    "minutes_left": 367,
     "opex_shield": {
       "date": "2026-11-25",
       "active": false,
