@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795617562.415,
-  "updated_at_et": "11-25 09:39 ET",
-  "updated_at_kst": "23:39 KST",
+  "updated_at_ts": 1795617670.893,
+  "updated_at_et": "11-25 09:41 ET",
+  "updated_at_kst": "23:41 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1059,6 +1059,13 @@
     ],
     "QCOM": [
       {
+        "title": "Prediction: Qualcomm Becomes the Top Auto Chipmaker in 2027, “a Story the Market Has Quietly Ignored,” per SemiAnalysis",
+        "url": "https://www.tikr.com/blog/qualcomm-top-auto-chipmaker-2027-semianalysis-prediction?ref=yahoofinance&tlnk=yf-261125-96xwhg7w&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:05 ET",
+        "pub_ts": 1795615557.0
+      },
+      {
         "title": "A $65 Million Reason Why Qualcomm Stock In Focus Today",
         "url": "https://finance.yahoo.com/markets/stocks/articles/65-million-reason-why-qualcomm-115831855.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1085,16 +1092,16 @@
         "source": "Yahoo Finance",
         "time": "11-25 00:23 ET",
         "pub_ts": 1795584227.0
-      },
-      {
-        "title": "Is Qualcomm Stock As Cheap As It Looks Now?",
-        "url": "https://www.trefis.com/stock/qcom/articles/628330/is-qualcomm-stock-as-cheap-as-it-looks-now/2026-11-24?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 12:49 ET",
-        "pub_ts": 1795542560.0
       }
     ],
     "AVGO": [
+      {
+        "title": "Global Software-Defined Wide Area Network (SD-WAN) Market Forecast to 2035 | Capitalize as SASE, Zero Trust and Cloud Drive Market to $78.33 Billion: Cisco, Fortinet and Broadcom",
+        "url": "https://finance.yahoo.com/technology/articles/global-software-defined-wide-area-141800853.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:18 ET",
+        "pub_ts": 1795616280.0
+      },
       {
         "title": "Does Broadcom's Debt Load Pose a Risk to the Stock's Outlook for FY27?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/does-broadcoms-debt-load-pose-125600461.html?.tsrc=rss",
@@ -1122,13 +1129,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:00 ET",
         "pub_ts": 1795604457.0
-      },
-      {
-        "title": "Can Broadcom Stock Hit $450?",
-        "url": "https://www.trefis.com/stock/avgo/articles/628740/can-broadcom-stock-hit-450/2026-11-25?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:00 ET",
-        "pub_ts": 1795604414.0
       }
     ],
     "AMAT": [
@@ -1170,6 +1170,20 @@
     ],
     "META": [
       {
+        "title": "Amazon, Meta reportedly in talks to remove block on Muse AI agent",
+        "url": "https://finance.yahoo.com/video/amazon-meta-reportedly-in-talks-to-remove-block-on-muse-ai-agent-143616531.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:36 ET",
+        "pub_ts": 1795617376.0
+      },
+      {
+        "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+        "url": "https://finance.yahoo.com/technology/ai/articles/amazon-meta-reportedly-talks-lift-141018682.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:10 ET",
+        "pub_ts": 1795615818.0
+      },
+      {
         "title": "Circus Enters the UK; Meta Launches CA-1 in London",
         "url": "https://finance.yahoo.com/technology/ai/articles/circus-enters-uk-meta-launches-133400578.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1189,20 +1203,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 08:04 ET",
         "pub_ts": 1795611888.0
-      },
-      {
-        "title": "Cathie Wood Buys $61.6 Million in Anthropic, Sells $21 Million in Meta and Palantir",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-buys-61-6-123632406.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 07:36 ET",
-        "pub_ts": 1795610192.0
-      },
-      {
-        "title": "Amazon, Meta Reportedly Discuss Restoring Muse Shopping Bot Access As Advertising Concerns Persist",
-        "url": "https://stocktwits.com/news-articles/markets/equity/amazon-meta-reportedly-discuss-restoring-muse-shopping-bot-access-as-advertising-concerns-persist/cNbHg4eR9m5?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:56 ET",
-        "pub_ts": 1795607779.0
       }
     ],
     "GOOGL": [
@@ -1228,21 +1228,42 @@
         "pub_ts": 1795615200.0
       },
       {
+        "title": "Funds With Anthropic Exposure Are Off to a Rough Start",
+        "url": "https://finance.yahoo.com/m/7bc6aba7-b1c4-3abf-b83a-be1cf9f2e52c/funds-with-anthropic-exposure.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 08:46 ET",
+        "pub_ts": 1795614360.0
+      },
+      {
         "title": "Not SpaceX, Not Anthropic: These Are the 2 AI Stocks I Bought During the Sell-Off",
         "url": "https://www.fool.com/investing/2026/11/25/not-spacex-not-anthropic-these-are-the-2-ai-stocks-i-bought-during-the-sell-off/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 08:35 ET",
         "pub_ts": 1795613702.0
-      },
-      {
-        "title": "Can NIQ Global Intelligence (NIQ) Hold Its Value After A 16% Slide?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/niq-global-intelligence-niq-hold-131023828.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:10 ET",
-        "pub_ts": 1795612223.0
       }
     ],
     "MSFT": [
+      {
+        "title": "Software-Defined Networking and Network Function Virtualization Market Report 2026 | Secure $172.49B as Cisco, Microsoft, Huawei, HPE and Nokia Drive Cloud Automation by 2030",
+        "url": "https://finance.yahoo.com/technology/articles/software-defined-networking-network-function-142900844.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:29 ET",
+        "pub_ts": 1795616940.0
+      },
+      {
+        "title": "Global Risk Analysis Management Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on AI and Real-Time Risk with Microsoft, IBM, Oracle, SAP, and ServiceNow",
+        "url": "https://finance.yahoo.com/technology/ai/articles/global-risk-analysis-management-market-142700333.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:27 ET",
+        "pub_ts": 1795616820.0
+      },
+      {
+        "title": "Artificial Intelligence (AI) in Hospital Operations Market Report 2026 | Capitalize on 28.9% CAGR as Microsoft, Oracle, Epic, LeanTaaS and Qventus Accelerate Workflow Automation",
+        "url": "https://finance.yahoo.com/healthcare/articles/artificial-intelligence-ai-hospital-operations-142000864.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:20 ET",
+        "pub_ts": 1795616400.0
+      },
       {
         "title": "Data Center Americas 2027 Announces Industry Leaders from AWS, Google, Microsoft, Oracle, CoreWeave and Applied Digital as Featured Speakers",
         "url": "https://finance.yahoo.com/technology/ai/articles/data-center-americas-2027-announces-140000391.html?.tsrc=rss",
@@ -1256,27 +1277,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 07:40 ET",
         "pub_ts": 1795610400.0
-      },
-      {
-        "title": "Microsoft Stock And 2 AI Software Leaders For Productivity Focused Investors",
-        "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-stock-2-ai-software-121419292.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 07:14 ET",
-        "pub_ts": 1795608859.0
-      },
-      {
-        "title": "Microsoft Declares Code Red After 24-Hour Global Outage",
-        "url": "https://finance.yahoo.com/technology/articles/microsoft-declares-code-red-24-121215829.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 07:12 ET",
-        "pub_ts": 1795608735.0
-      },
-      {
-        "title": "IBM and Microsoft expand Azure Compute Fleet integration",
-        "url": "https://www.verdict.co.uk/ibm-microsoft-azure-compute-fleet-integration/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:43 ET",
-        "pub_ts": 1795607017.0
       }
     ],
     "AAPL": [
@@ -1355,6 +1355,13 @@
     ],
     "NOW": [
       {
+        "title": "Global Risk Analysis Management Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on AI and Real-Time Risk with Microsoft, IBM, Oracle, SAP, and ServiceNow",
+        "url": "https://finance.yahoo.com/technology/ai/articles/global-risk-analysis-management-market-142700333.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:27 ET",
+        "pub_ts": 1795616820.0
+      },
+      {
         "title": "Anthropic falls below IPO price as Nvidia gives back gains",
         "url": "https://finance.yahoo.com/video/anthropic-falls-below-ipo-price-as-nvidia-gives-back-gains-214558309.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1381,16 +1388,30 @@
         "source": "Yahoo Finance",
         "time": "11-23 16:20 ET",
         "pub_ts": 1795468829.0
-      },
-      {
-        "title": "Palantir Rips 10% to Lead Software Stocks. Cloudflare and ServiceNow Also Join ‘Jensen Rally’",
-        "url": "https://247wallst.com/videos/palantir-rips-10-to-lead-software-stocks-cloudflare-and-servicenow-also-join-jensen-rally/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 15:08 ET",
-        "pub_ts": 1795464489.0
       }
     ],
     "AMZN": [
+      {
+        "title": "Amazon, Meta reportedly in talks to remove block on Muse AI agent",
+        "url": "https://finance.yahoo.com/video/amazon-meta-reportedly-in-talks-to-remove-block-on-muse-ai-agent-143616531.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:36 ET",
+        "pub_ts": 1795617376.0
+      },
+      {
+        "title": "Amazon’s CEO, CFO and AWS Chief All Just Sold Amazon Stock",
+        "url": "https://247wallst.com/investing/2026/11/25/amazons-ceo-cfo-and-aws-chief-all-just-sold-amazon-stock/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:13 ET",
+        "pub_ts": 1795616032.0
+      },
+      {
+        "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+        "url": "https://finance.yahoo.com/technology/ai/articles/amazon-meta-reportedly-talks-lift-141018682.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:10 ET",
+        "pub_ts": 1795615818.0
+      },
       {
         "title": "In partnership with Amazon, Duracell Brings Holiday Magic to Chicago with Power Playland on the Pier",
         "url": "https://finance.yahoo.com/media-advertising/articles/partnership-amazon-duracell-brings-holiday-140300229.html?.tsrc=rss",
@@ -1404,27 +1425,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 08:01 ET",
         "pub_ts": 1795611690.0
-      },
-      {
-        "title": "GameStop Tops Amazon in Stock Ratings Ahead of Holiday Season",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/gamestop-tops-amazon-stock-ratings-125429295.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 07:54 ET",
-        "pub_ts": 1795611269.0
-      },
-      {
-        "title": "Amazon Takes Car Shopping Abroad for the First Time",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-takes-car-shopping-abroad-123451773.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 07:34 ET",
-        "pub_ts": 1795610091.0
-      },
-      {
-        "title": "Is There A Risk Hiding In Amazon Stock's Growth Plan?",
-        "url": "https://www.trefis.com/stock/amzn/articles/628897/is-there-a-risk-hiding-in-amazon-stock-s-growth-plan/2026-11-25?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:57 ET",
-        "pub_ts": 1795607824.0
       }
     ],
     "CRWV": [
@@ -1473,6 +1473,13 @@
         "pub_ts": 1795608943.0
       },
       {
+        "title": "Nebius Sinks 43% in a Month on Delays and Soaring Capex. Its CFO Calls 2027’s Timing “Very, Very Conservative”",
+        "url": "https://www.tikr.com/blog/nebius-sinks-43-in-a-month-on-delays-and-soaring-capex-its-cfo-calls-2027s-timing-very-very-conservative?ref=yahoofinance&tlnk=yf-261125-m3ww43x2&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 06:26 ET",
+        "pub_ts": 1795605984.0
+      },
+      {
         "title": "SpaceX Falls 4%, CoreWeave Down 13%, Nebius Down 11% as AI Stocks Give Back Nvidia Rally",
         "url": "https://www.tikr.com/blog/spacex-falls-4-coreweave-down-13-nebius-down-11-as-ai-stocks-give-back-nvidia-rally?ref=yahoofinance&tlnk=yf-261124-6rfwxx6w&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1492,13 +1499,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:22 ET",
         "pub_ts": 1795533759.0
-      },
-      {
-        "title": "Anthropic Tumbles 9%, Trades Below IPO Price Despite Canaccord’s $135 Target; CoreWeave and Nebius Drop 8%",
-        "url": "https://247wallst.com/investing/2026/11/24/anthropic-tumbles-9-breaks-below-ipo-price-despite-canaccords-135-target-coreweave-and-nebius-drop-8/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:54 ET",
-        "pub_ts": 1795532088.0
       }
     ],
     "APLD": [
@@ -1577,6 +1577,13 @@
     ],
     "BE": [
       {
+        "title": "Oklo Sinks 14% in a Week, NuScale Down 19%, as the AI Selloff Hits Nuclear Stocks. Time to Buy?",
+        "url": "https://www.tikr.com/blog/oklo-sinks-14-in-a-week-nuscale-down-19-as-the-ai-selloff-hits-nuclear-stocks-time-to-buy?ref=yahoofinance&tlnk=yf-261125-qw7frcvg&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 03:11 ET",
+        "pub_ts": 1795594260.0
+      },
+      {
         "title": "BE Stock Slumps After AI-Driven Gains: This Analyst Sees ‘An Attractive Entry Point’",
         "url": "https://stocktwits.com/news-articles/markets/equity/be-stock-slumps-after-ai-driven-gains-this-analyst-sees-an-attractive-entry-point/cNbHRamR9lQ?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1603,13 +1610,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 10:54 ET",
         "pub_ts": 1795535640.0
-      },
-      {
-        "title": "Why Did Bloom Energy Stock Jump Monday?",
-        "url": "https://www.trefis.com/stock/be/articles/628613/why-did-bloom-energy-stock-jump-monday/2026-11-24?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 10:38 ET",
-        "pub_ts": 1795534689.0
       }
     ],
     "CRDO": [
@@ -1688,6 +1688,13 @@
     ],
     "MRVL": [
       {
+        "title": "What Pulled Marvell Stock Down On Tuesday?",
+        "url": "https://www.trefis.com/stock/mrvl/articles/628981/what-pulled-marvell-stock-down-on-tuesday/2026-11-25?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:14 ET",
+        "pub_ts": 1795616066.0
+      },
+      {
         "title": "Oppenheimer Cut Its Marvell Target by $100. It Still Sees 147% Upside",
         "url": "https://www.tikr.com/blog/oppenheimer-cut-its-marvell-target-by-100-it-still-sees-147-upside?ref=yahoofinance&tlnk=yf-261125-h25pvm3g&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1714,13 +1721,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 13:11 ET",
         "pub_ts": 1795543912.0
-      },
-      {
-        "title": "Generate A Return From Marvell Stock, Set For A Large Post-Earnings Swing",
-        "url": "https://finance.yahoo.com/m/330eaa7f-a35f-39e4-a840-89d34cd4eb9e/generate-a-return-from.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 12:29 ET",
-        "pub_ts": 1795541384.0
       }
     ],
     "LITE": [
@@ -1799,6 +1799,13 @@
     ],
     "SPCX": [
       {
+        "title": "SpaceX Slides 5% as Gary Black Warns a Tesla Bid Could Push It Below $100; Rocket Lab and AST SpaceMobile Drop 4%",
+        "url": "https://247wallst.com/investing/2026/11/25/spacex-slides-5-as-gary-black-warns-a-tesla-bid-could-push-it-below-100-rocket-lab-and-ast-spacemobile-drop-4/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:17 ET",
+        "pub_ts": 1795616238.0
+      },
+      {
         "title": "Not SpaceX, Not Anthropic: These Are the 2 AI Stocks I Bought During the Sell-Off",
         "url": "https://www.fool.com/investing/2026/11/25/not-spacex-not-anthropic-these-are-the-2-ai-stocks-i-bought-during-the-sell-off/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1825,13 +1832,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:11 ET",
         "pub_ts": 1795605082.0
-      },
-      {
-        "title": "Musk: Starlink Has a “Good Chance” of Carrying “About Half of Global Traffic”",
-        "url": "https://www.tikr.com/blog/musk-starlink-has-a-good-chance-of-carrying-about-half-of-global-traffic?ref=yahoofinance&tlnk=yf-261125-27pjcxp8&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:09 ET",
-        "pub_ts": 1795604999.0
       }
     ],
     "ASTS": [
@@ -3342,30 +3342,30 @@
     "SOXS": 1795616608.90211,
     "NVDA": 1795616608.90211,
     "AMD": 1795616608.90211,
-    "ASML": 1795616076.3607793,
-    "QCOM": 1795616076.3607793,
-    "AVGO": 1795616076.3607793,
-    "AMAT": 1795616076.3607793,
-    "META": 1795616076.3607793,
-    "GOOGL": 1795616076.3607793,
-    "MSFT": 1795616076.3607793,
-    "AAPL": 1795616076.3607793,
-    "PLTR": 1795616076.3607793,
-    "NOW": 1795616076.3607793,
-    "AMZN": 1795616076.3607793,
-    "CRWV": 1795616076.3607793,
-    "NBIS": 1795616076.3607793,
-    "APLD": 1795616076.3607793,
-    "VST": 1795616076.3607793,
-    "BE": 1795616076.3607793,
-    "CRDO": 1795616076.3607793,
-    "COHR": 1795616076.3607793,
-    "MRVL": 1795616076.3607793,
-    "LITE": 1795616076.3607793,
-    "AAOI": 1795616076.3607793,
-    "SPCX": 1795616076.3607793,
+    "ASML": 1795617670.8932498,
+    "QCOM": 1795617670.8932498,
+    "AVGO": 1795617670.8932498,
+    "AMAT": 1795617670.8932498,
+    "META": 1795617670.8932498,
+    "GOOGL": 1795617670.8932498,
+    "MSFT": 1795617670.8932498,
+    "AAPL": 1795617670.8932498,
+    "PLTR": 1795617670.8932498,
+    "NOW": 1795617670.8932498,
+    "AMZN": 1795617670.8932498,
+    "CRWV": 1795617670.8932498,
+    "NBIS": 1795617670.8932498,
+    "APLD": 1795617670.8932498,
+    "VST": 1795617670.8932498,
+    "BE": 1795617670.8932498,
+    "CRDO": 1795617670.8932498,
+    "COHR": 1795617670.8932498,
+    "MRVL": 1795617670.8932498,
+    "LITE": 1795617670.8932498,
+    "AAOI": 1795617670.8932498,
+    "SPCX": 1795617670.8932498,
     "ASTS": 1795616503.049081,
-    "AXTI": 1795616076.3607793,
+    "AXTI": 1795617670.8932498,
     "NASA": 1795616503.049081,
     "LUNR": 1795616503.049081,
     "TSLA": 1795616503.049081,
@@ -3400,8 +3400,8 @@
     "WMT": 1795616714.3397896,
     "V": 1795616608.90211,
     "CAT": 1795616714.3397896,
-    "FN": 1795616076.3607793,
-    "GLW": 1795616076.3607793,
+    "FN": 1795617670.8932498,
+    "GLW": 1795617670.8932498,
     "ANT": 1795616714.3397896,
     "XAUUSD": 1795616714.3397896,
     "KOSPI": 1795616608.90211
