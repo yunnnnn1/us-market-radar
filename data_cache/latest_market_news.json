@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795649356.158,
-  "updated_at_et": "11-25 18:29 ET",
-  "updated_at_kst": "08:29 KST",
+  "updated_at_ts": 1795649451.428,
+  "updated_at_et": "11-25 18:30 ET",
+  "updated_at_kst": "08:30 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1401,6 +1401,13 @@
         "pub_ts": 1795634535.0
       },
       {
+        "title": "Musk's Plan To Put 1 Million AI Satellites In Orbit Gets US Approval. Amazon Questions Whether It Can Be Done.",
+        "url": "https://www.ibtimes.com/fcc-approves-spacex-ai-satellite-constellation-3810209?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 18:16 ET",
+        "pub_ts": 1795648590.0
+      },
+      {
         "title": "SpaceX is now on the clock to launch 1,000,000 satellites — 60x what exists in space today. Amazon calls it impossible",
         "url": "https://finance.yahoo.com/technology/ai/articles/spacex-now-clock-launch-1-220000396.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1413,13 +1420,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 16:25 ET",
         "pub_ts": 1795641900.0
-      },
-      {
-        "title": "Amazon Is Backing More Than 5 Gigawatts of New Nuclear by 2039. This Reactor Developer Could Cash In.",
-        "url": "https://www.fool.com/investing/2026/11/25/amazon-is-backing-more-than-5-gigawatts-of-new-nuclear-by-2039-this-reactor-developer-could-cash-in/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 13:35 ET",
-        "pub_ts": 1795631702.0
       }
     ],
     "CRWV": [
@@ -1535,6 +1535,13 @@
     ],
     "VST": [
       {
+        "title": "What Are Wall Street Analysts' Target Price for Vistra Corp. Stock?",
+        "url": "https://www.barchart.com/story/news/9006879/what-are-wall-street-analysts-target-price-for-vistra-corp-stock?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:07 ET",
+        "pub_ts": 1795626461.0
+      },
+      {
         "title": "Vistra Has Slumped for a Year: Why Morgan Stanley Still Sees 82% Upside",
         "url": "https://www.tikr.com/blog/vistra-has-slumped-for-a-year-why-morgan-stanley-still-sees-82-upside?ref=yahoofinance&tlnk=yf-261125-x7wjx655&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1561,13 +1568,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 16:11 ET",
         "pub_ts": 1795554686.0
-      },
-      {
-        "title": "What Just Happened To Vistra Stock?",
-        "url": "https://www.trefis.com/stock/vst/articles/628627/what-just-happened-to-vistra-stock-2/2026-11-24?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 13:29 ET",
-        "pub_ts": 1795544943.0
       }
     ],
     "BE": [
@@ -3247,8 +3247,8 @@
         "title": "Dow Jones Futures: Market Goes On Wild Ride. Nasdaq, Nvidia Slash Losses While Anthropic Reverses Higher.",
         "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures%3A-market.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 17:35 ET",
-        "pub_ts": 1795646125.0
+        "time": "11-25 18:28 ET",
+        "pub_ts": 1795649295.0
       },
       {
         "title": "Anthropic Stock Is Down 33% From Its All-Time High. Here's What a $5,000 Investment Could Be Worth in 1 Year.",
@@ -3265,11 +3265,11 @@
         "pub_ts": 1795643474.0
       },
       {
-        "title": "Anthropic’s Chip Choices Could Change the Nvidia Story. Here’s How.",
-        "url": "https://www.fool.com/investing/2026/11/25/anthropic-s-chip-choices-could-change-the-nvidia-story-here-s-how/?.tsrc=rss",
+        "title": "Anthropic, Nvidia, Micron, HP Inc., Dell, Deere, and More Stocks That Explain Today’s Market",
+        "url": "https://finance.yahoo.com/m/18e72c51-c6d7-33b1-aa90-ccce17a9b32f/anthropic%2C-nvidia%2C-micron%2C-hp.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 15:53 ET",
-        "pub_ts": 1795639982.0
+        "time": "11-25 16:41 ET",
+        "pub_ts": 1795642860.0
       }
     ],
     "XAUUSD": [
@@ -3337,27 +3337,27 @@
     "SOXS": 1795649260.4670765,
     "NVDA": 1795649260.4670765,
     "AMD": 1795649260.4670765,
-    "ASML": 1795647910.6572583,
-    "QCOM": 1795647910.6572583,
-    "AVGO": 1795647910.6572583,
-    "AMAT": 1795647910.6572583,
-    "META": 1795647910.6572583,
-    "GOOGL": 1795647910.6572583,
-    "MSFT": 1795647910.6572583,
-    "AAPL": 1795647910.6572583,
-    "PLTR": 1795647910.6572583,
-    "NOW": 1795647910.6572583,
-    "AMZN": 1795647910.6572583,
-    "CRWV": 1795647910.6572583,
-    "NBIS": 1795647910.6572583,
-    "APLD": 1795647910.6572583,
-    "VST": 1795647910.6572583,
-    "BE": 1795647910.6572583,
-    "CRDO": 1795647910.6572583,
-    "COHR": 1795647910.6572583,
-    "MRVL": 1795647910.6572583,
+    "ASML": 1795649451.427661,
+    "QCOM": 1795649451.427661,
+    "AVGO": 1795649451.427661,
+    "AMAT": 1795649451.427661,
+    "META": 1795649451.427661,
+    "GOOGL": 1795649451.427661,
+    "MSFT": 1795649451.427661,
+    "AAPL": 1795649451.427661,
+    "PLTR": 1795649451.427661,
+    "NOW": 1795649451.427661,
+    "AMZN": 1795649451.427661,
+    "CRWV": 1795649451.427661,
+    "NBIS": 1795649451.427661,
+    "APLD": 1795649451.427661,
+    "VST": 1795649451.427661,
+    "BE": 1795649451.427661,
+    "CRDO": 1795649451.427661,
+    "COHR": 1795649451.427661,
+    "MRVL": 1795649451.427661,
     "LITE": 1795648006.5159512,
-    "AAOI": 1795647910.6572583,
+    "AAOI": 1795649451.427661,
     "SPCX": 1795648006.5159512,
     "ASTS": 1795649163.9605234,
     "AXTI": 1795648006.5159512,
@@ -3390,15 +3390,15 @@
     "NKE": 1795649260.4670765,
     "MCD": 1795649260.4670765,
     "PEP": 1795649260.4670765,
-    "XOM": 1795647910.6572583,
+    "XOM": 1795649451.427661,
     "JPM": 1795649260.4670765,
-    "WMT": 1795647910.6572583,
+    "WMT": 1795649451.427661,
     "V": 1795649260.4670765,
-    "CAT": 1795647910.6572583,
+    "CAT": 1795649451.427661,
     "FN": 1795648006.5159512,
     "GLW": 1795648006.5159512,
-    "ANT": 1795647910.6572583,
-    "XAUUSD": 1795647910.6572583,
+    "ANT": 1795649451.427661,
+    "XAUUSD": 1795649451.427661,
     "KOSPI": 1795649260.4670765
   },
   "opex_shield": {
