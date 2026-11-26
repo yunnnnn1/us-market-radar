@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795664909.635,
-  "updated_at_et": "11-25 22:48 ET",
-  "updated_at_kst": "12:48 KST",
+  "updated_at_ts": 1795665015.26,
+  "updated_at_et": "11-25 22:50 ET",
+  "updated_at_kst": "12:50 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -942,6 +942,20 @@
     ],
     "NVDA": [
       {
+        "title": "Trump admin weighed using Cold War law to reinstate Nvidia CEO Huang, WaPo reports",
+        "url": "https://finance.yahoo.com/technology/articles/trump-admin-weighed-using-cold-032247551.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 22:22 ET",
+        "pub_ts": 1795663367.0
+      },
+      {
+        "title": "Nvidia chips reach Chinese-owned U.S. firms despite export curbs, CBS reports",
+        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-chips-reach-chinese-owned-031146505.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 22:11 ET",
+        "pub_ts": 1795662706.0
+      },
+      {
         "title": "Kioxia and NVIDIA Collaborate to Expand Effective High-Bandwidth Memory Capacity with SSDs",
         "url": "https://finance.yahoo.com/technology/ai/articles/kioxia-nvidia-collaborate-expand-effective-031000587.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -961,20 +975,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 21:39 ET",
         "pub_ts": 1795660782.0
-      },
-      {
-        "title": "Nvidia Put on Negative Credit Watch by S&P Over ‘Key Man’ Risk: Moody’s Says Jensen Huang’s Return as CEO ‘Reduces Near-Term Uncertainty’",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-put-negative-credit-watch-013558626.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 20:35 ET",
-        "pub_ts": 1795656958.0
-      },
-      {
-        "title": "Pete Hegseth, Trump Officials Reportedly Floated Wartime Law to Force Jensen Huang’s Return as Nvidia CEO, But Pentagon Says It ‘Never Happened’",
-        "url": "https://finance.yahoo.com/technology/articles/pete-hegseth-trump-officials-reportedly-013224994.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 20:32 ET",
-        "pub_ts": 1795656744.0
       }
     ],
     "AMD": [
@@ -2795,8 +2795,8 @@
         "title": "Dow Jones Futures Rise; Market Goes On Wild Ride As Nasdaq Slashes Losses",
         "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 22:15 ET",
-        "pub_ts": 1795662907.0
+        "time": "11-25 22:39 ET",
+        "pub_ts": 1795664376.0
       },
       {
         "title": "Sector Update: Healthcare Stocks Fall Late Afternoon",
@@ -3319,23 +3319,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795663479.5940428,
-    "SOXL": 1795663479.5940428,
-    "SPY": 1795663479.5940428,
-    "DIA": 1795663479.5940428,
-    "SOXX": 1795663479.5940428,
-    "QQQ": 1795663479.5940428,
-    "SMH": 1795663479.5940428,
-    "IWM": 1795663479.5940428,
-    "IGV": 1795663479.5940428,
-    "TLT": 1795663479.5940428,
-    "GLD": 1795663479.5940428,
-    "SQQQ": 1795663479.5940428,
-    "TSM": 1795663479.5940428,
-    "VIXY": 1795663479.5940428,
-    "SOXS": 1795663479.5940428,
-    "NVDA": 1795663479.5940428,
-    "AMD": 1795663479.5940428,
+    "KORU": 1795665015.2598774,
+    "SOXL": 1795665015.2598774,
+    "SPY": 1795665015.2598774,
+    "DIA": 1795665015.2598774,
+    "SOXX": 1795665015.2598774,
+    "QQQ": 1795665015.2598774,
+    "SMH": 1795665015.2598774,
+    "IWM": 1795665015.2598774,
+    "IGV": 1795665015.2598774,
+    "TLT": 1795665015.2598774,
+    "GLD": 1795665015.2598774,
+    "SQQQ": 1795665015.2598774,
+    "TSM": 1795665015.2598774,
+    "VIXY": 1795665015.2598774,
+    "SOXS": 1795665015.2598774,
+    "NVDA": 1795665015.2598774,
+    "AMD": 1795665015.2598774,
     "ASML": 1795663786.9206064,
     "QCOM": 1795663786.9206064,
     "AVGO": 1795663786.9206064,
@@ -3384,21 +3384,21 @@
     "CRWD": 1795664808.0445356,
     "ORCL": 1795664808.0445356,
     "COIN": 1795664808.0445356,
-    "LLY": 1795663479.5940428,
-    "MRNA": 1795663479.5940428,
-    "NKE": 1795663479.5940428,
-    "MCD": 1795663479.5940428,
-    "PEP": 1795663479.5940428,
+    "LLY": 1795665015.2598774,
+    "MRNA": 1795665015.2598774,
+    "NKE": 1795665015.2598774,
+    "MCD": 1795665015.2598774,
+    "PEP": 1795665015.2598774,
     "XOM": 1795663786.9206064,
-    "JPM": 1795663479.5940428,
+    "JPM": 1795665015.2598774,
     "WMT": 1795663786.9206064,
-    "V": 1795663479.5940428,
+    "V": 1795665015.2598774,
     "CAT": 1795663786.9206064,
     "FN": 1795663889.0771606,
     "GLW": 1795663889.0771606,
     "ANT": 1795663786.9206064,
     "XAUUSD": 1795663786.9206064,
-    "KOSPI": 1795663479.5940428
+    "KOSPI": 1795665015.2598774
   },
   "opex_shield": {
     "date": "2026-11-25",
