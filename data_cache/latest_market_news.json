@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795712449.837,
-  "updated_at_et": "11-26 12:00 ET",
-  "updated_at_kst": "02:00 KST",
+  "updated_at_ts": 1795712552.141,
+  "updated_at_et": "11-26 12:02 ET",
+  "updated_at_kst": "02:02 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1383,6 +1383,13 @@
     ],
     "CRWV": [
       {
+        "title": "CoreWeave Seeks $4.5 Billion Meta-Backed Loan as Bond Yields Hit 18%",
+        "url": "https://finance.yahoo.com/technology/ai/articles/coreweave-seeks-4-5-billion-163142061.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:31 ET",
+        "pub_ts": 1795710702.0
+      },
+      {
         "title": "CoreWeave Can Now Borrow at 7% With Meta’s Name on the Loan",
         "url": "https://247wallst.com/investing/2026/11/26/coreweave-can-now-borrow-at-7-with-metas-name-on-the-loan/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1409,13 +1416,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 10:21 ET",
         "pub_ts": 1795706487.0
-      },
-      {
-        "title": "Own CoreWeave? A Quarter Of Revenue Pays Interest",
-        "url": "https://www.trefis.com/stock/crwv/articles/629191/own-coreweave-a-quarter-of-revenue-pays-interest/2026-11-26?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 10:15 ET",
-        "pub_ts": 1795706126.0
       }
     ],
     "NBIS": [
@@ -3206,8 +3206,8 @@
         "title": "Dow Jones Futures Rise With U.S. Markets Shut; Look For This Bullish Signal",
         "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise-with.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 11:17 ET",
-        "pub_ts": 1795709823.0
+        "time": "11-26 11:48 ET",
+        "pub_ts": 1795711715.0
       },
       {
         "title": "Anthropic Stock Snapped Its Losing Streak. The Case to Buy.",
@@ -3296,27 +3296,27 @@
     "SOXS": 1795712245.511414,
     "NVDA": 1795712245.511414,
     "AMD": 1795712245.511414,
-    "ASML": 1795711011.1222024,
-    "QCOM": 1795711011.1222024,
-    "AVGO": 1795711011.1222024,
-    "AMAT": 1795711011.1222024,
-    "META": 1795711011.1222024,
-    "GOOGL": 1795711011.1222024,
-    "MSFT": 1795711011.1222024,
-    "AAPL": 1795711011.1222024,
-    "PLTR": 1795711011.1222024,
-    "NOW": 1795711011.1222024,
-    "AMZN": 1795711011.1222024,
-    "CRWV": 1795711011.1222024,
-    "NBIS": 1795711011.1222024,
-    "APLD": 1795711011.1222024,
-    "VST": 1795711011.1222024,
-    "BE": 1795711011.1222024,
-    "CRDO": 1795711011.1222024,
-    "COHR": 1795711011.1222024,
-    "MRVL": 1795711011.1222024,
+    "ASML": 1795712552.1412592,
+    "QCOM": 1795712552.1412592,
+    "AVGO": 1795712552.1412592,
+    "AMAT": 1795712552.1412592,
+    "META": 1795712552.1412592,
+    "GOOGL": 1795712552.1412592,
+    "MSFT": 1795712552.1412592,
+    "AAPL": 1795712552.1412592,
+    "PLTR": 1795712552.1412592,
+    "NOW": 1795712552.1412592,
+    "AMZN": 1795712552.1412592,
+    "CRWV": 1795712552.1412592,
+    "NBIS": 1795712552.1412592,
+    "APLD": 1795712552.1412592,
+    "VST": 1795712552.1412592,
+    "BE": 1795712552.1412592,
+    "CRDO": 1795712552.1412592,
+    "COHR": 1795712552.1412592,
+    "MRVL": 1795712552.1412592,
     "LITE": 1795711113.6742878,
-    "AAOI": 1795711011.1222024,
+    "AAOI": 1795712552.1412592,
     "SPCX": 1795711113.6742878,
     "ASTS": 1795711113.6742878,
     "AXTI": 1795711113.6742878,
@@ -3349,15 +3349,15 @@
     "NKE": 1795712245.511414,
     "MCD": 1795712245.511414,
     "PEP": 1795712245.511414,
-    "XOM": 1795711011.1222024,
+    "XOM": 1795712552.1412592,
     "JPM": 1795712245.511414,
-    "WMT": 1795711011.1222024,
+    "WMT": 1795712552.1412592,
     "V": 1795712245.511414,
-    "CAT": 1795711011.1222024,
+    "CAT": 1795712552.1412592,
     "FN": 1795711113.6742878,
     "GLW": 1795711113.6742878,
-    "ANT": 1795711011.1222024,
-    "XAUUSD": 1795711011.1222024,
+    "ANT": 1795712552.1412592,
+    "XAUUSD": 1795712552.1412592,
     "KOSPI": 1795712245.511414
   },
   "opex_shield": {
