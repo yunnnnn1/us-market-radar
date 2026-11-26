@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795709346.701,
-  "updated_at_et": "11-26 11:09 ET",
-  "updated_at_kst": "01:09 KST",
+  "updated_at_ts": 1795709448.717,
+  "updated_at_et": "11-26 11:10 ET",
+  "updated_at_kst": "01:10 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1124,6 +1124,13 @@
     ],
     "META": [
       {
+        "title": "CoreWeave Can Now Borrow at 7% With Meta’s Name on the Loan",
+        "url": "https://247wallst.com/investing/2026/11/26/coreweave-can-now-borrow-at-7-with-metas-name-on-the-loan/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:48 ET",
+        "pub_ts": 1795708100.0
+      },
+      {
         "title": "Anthropic Broke Its $83 IPO Price. What Did Facebook Do Next?",
         "url": "https://www.trefis.com/stock/ant/articles/629153/anthropic-broke-its-83-ipo-price-what-did-facebook-do-next/2026-11-26?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1150,13 +1157,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 04:12 ET",
         "pub_ts": 1795684343.0
-      },
-      {
-        "title": "CoStar Data Shows Noho Office Leasing Nearing 900,000 Sq. Ft.",
-        "url": "https://finance.yahoo.com/real-estate/articles/costar-data-shows-noho-office-090000605.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 04:00 ET",
-        "pub_ts": 1795683600.0
       }
     ],
     "GOOGL": [
@@ -1175,6 +1175,13 @@
         "pub_ts": 1795694400.0
       },
       {
+        "title": "A 26-year-old Google worker earns $323K but spends under $20K a year — his plan for financial freedom",
+        "url": "https://finance.yahoo.com/markets/articles/26-old-google-worker-earns-160000076.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:00 ET",
+        "pub_ts": 1795708800.0
+      },
+      {
         "title": "AI's self-improvement era is nearly here. It will be felt everywhere",
         "url": "https://finance.yahoo.com/video/ais-self-improvement-era-nearly-150000618.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1187,13 +1194,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 10:00 ET",
         "pub_ts": 1795705200.0
-      },
-      {
-        "title": "Brazil's Data Center Market: Strategic Investment Analysis and Growth Opportunities (2026-2031) with Profiles of Prominent Operators and Infrastructure Providers",
-        "url": "https://finance.yahoo.com/technology/articles/brazils-data-center-market-strategic-140400060.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 09:04 ET",
-        "pub_ts": 1795701840.0
       }
     ],
     "MSFT": [
@@ -1383,6 +1383,27 @@
     ],
     "CRWV": [
       {
+        "title": "CoreWeave Can Now Borrow at 7% With Meta’s Name on the Loan",
+        "url": "https://247wallst.com/investing/2026/11/26/coreweave-can-now-borrow-at-7-with-metas-name-on-the-loan/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:48 ET",
+        "pub_ts": 1795708100.0
+      },
+      {
+        "title": "CoreWeave Has the Backlog Lead, Nebius Has the Leverage Edge: Who Wins the Next $100B?",
+        "url": "https://247wallst.com/investing/2026/11/26/coreweave-has-the-backlog-lead-nebius-has-the-leverage-edge-who-wins-the-next-100b/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:45 ET",
+        "pub_ts": 1795707923.0
+      },
+      {
+        "title": "CoreWeave’s Swaps Price a 68% Default Chance. That’s Bad News for Galaxy Digital",
+        "url": "https://www.tikr.com/blog/coreweaves-swaps-price-a-68-default-chance-thats-bad-news-for-galaxy-digital?ref=yahoofinance&tlnk=yf-261126-pvg7vpfj&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:21 ET",
+        "pub_ts": 1795706487.0
+      },
+      {
         "title": "Own CoreWeave? A Quarter Of Revenue Pays Interest",
         "url": "https://www.trefis.com/stock/crwv/articles/629191/own-coreweave-a-quarter-of-revenue-pays-interest/2026-11-26?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1395,30 +1416,16 @@
         "source": "Yahoo Finance",
         "time": "11-26 10:15 ET",
         "pub_ts": 1795706110.0
-      },
-      {
-        "title": "Evercore Cut Its CoreWeave Target to $80 From $100. It Still Sees 88% Upside",
-        "url": "https://www.tikr.com/blog/evercore-cut-its-coreweave-target-to-80-from-100-it-still-sees-88-upside?ref=yahoofinance&tlnk=yf-261126-v28p9qrq&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:35 ET",
-        "pub_ts": 1795692923.0
-      },
-      {
-        "title": "Cantor Fitzgerald’s $96 Target Says CoreWeave’s Selloff Went Too Far",
-        "url": "https://www.tikr.com/blog/cantor-fitzgeralds-96-target-says-coreweaves-selloff-went-too-far?ref=yahoofinance&tlnk=yf-261126-vf2gf27j&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 04:00 ET",
-        "pub_ts": 1795683618.0
-      },
-      {
-        "title": "CoreWeave (CRWV) Debt Sale Wins Investment Grade Ratings",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-crwv-debt-sale-wins-080908581.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 03:09 ET",
-        "pub_ts": 1795680548.0
       }
     ],
     "NBIS": [
+      {
+        "title": "CoreWeave Has the Backlog Lead, Nebius Has the Leverage Edge: Who Wins the Next $100B?",
+        "url": "https://247wallst.com/investing/2026/11/26/coreweave-has-the-backlog-lead-nebius-has-the-leverage-edge-who-wins-the-next-100b/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:45 ET",
+        "pub_ts": 1795707923.0
+      },
       {
         "title": "Jensen Huang's return, neocloud risk, and a holiday retail rally",
         "url": "https://finance.yahoo.com/video/jensen-huangs-return-neocloud-risk-and-a-holiday-retail-rally-222042649.html?.tsrc=rss",
@@ -1446,13 +1453,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 11:56 ET",
         "pub_ts": 1795625761.0
-      },
-      {
-        "title": "CoreWeave Cratered 40% Year-to-Date: 320% Gains to Come According to This Investment Bank Desk",
-        "url": "https://247wallst.com/investing/2026/11/25/coreweave-cratered-40-year-to-date-320-gains-to-come-according-to-this-investment-bank-desk/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 07:15 ET",
-        "pub_ts": 1795608943.0
       }
     ],
     "APLD": [
@@ -3206,8 +3206,8 @@
         "title": "Dow Jones Futures Rise With U.S. Markets Shut; Look For This Bullish Signal",
         "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise-with.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 10:34 ET",
-        "pub_ts": 1795707299.0
+        "time": "11-26 10:39 ET",
+        "pub_ts": 1795707569.0
       },
       {
         "title": "Anthropic Is Down 7% Since Its IPO. History Says a $5,000 Investment Could Be Worth This Much in a Year.",
@@ -3296,27 +3296,27 @@
     "SOXS": 1795709142.330208,
     "NVDA": 1795709142.330208,
     "AMD": 1795709142.330208,
-    "ASML": 1795707896.0412085,
-    "QCOM": 1795707896.0412085,
-    "AVGO": 1795707896.0412085,
-    "AMAT": 1795707896.0412085,
-    "META": 1795707896.0412085,
-    "GOOGL": 1795707896.0412085,
-    "MSFT": 1795707896.0412085,
-    "AAPL": 1795707896.0412085,
-    "PLTR": 1795707896.0412085,
-    "NOW": 1795707896.0412085,
-    "AMZN": 1795707896.0412085,
-    "CRWV": 1795707896.0412085,
-    "NBIS": 1795707896.0412085,
-    "APLD": 1795707896.0412085,
-    "VST": 1795707896.0412085,
-    "BE": 1795707896.0412085,
-    "CRDO": 1795707896.0412085,
-    "COHR": 1795707896.0412085,
-    "MRVL": 1795707896.0412085,
+    "ASML": 1795709448.7174318,
+    "QCOM": 1795709448.7174318,
+    "AVGO": 1795709448.7174318,
+    "AMAT": 1795709448.7174318,
+    "META": 1795709448.7174318,
+    "GOOGL": 1795709448.7174318,
+    "MSFT": 1795709448.7174318,
+    "AAPL": 1795709448.7174318,
+    "PLTR": 1795709448.7174318,
+    "NOW": 1795709448.7174318,
+    "AMZN": 1795709448.7174318,
+    "CRWV": 1795709448.7174318,
+    "NBIS": 1795709448.7174318,
+    "APLD": 1795709448.7174318,
+    "VST": 1795709448.7174318,
+    "BE": 1795709448.7174318,
+    "CRDO": 1795709448.7174318,
+    "COHR": 1795709448.7174318,
+    "MRVL": 1795709448.7174318,
     "LITE": 1795708001.4619792,
-    "AAOI": 1795707896.0412085,
+    "AAOI": 1795709448.7174318,
     "SPCX": 1795708001.4619792,
     "ASTS": 1795708001.4619792,
     "AXTI": 1795708001.4619792,
@@ -3349,15 +3349,15 @@
     "NKE": 1795709142.330208,
     "MCD": 1795709142.330208,
     "PEP": 1795709142.330208,
-    "XOM": 1795707896.0412085,
+    "XOM": 1795709448.7174318,
     "JPM": 1795709142.330208,
-    "WMT": 1795707896.0412085,
+    "WMT": 1795709448.7174318,
     "V": 1795709142.330208,
-    "CAT": 1795707896.0412085,
+    "CAT": 1795709448.7174318,
     "FN": 1795708001.4619792,
     "GLW": 1795708001.4619792,
-    "ANT": 1795707896.0412085,
-    "XAUUSD": 1795707896.0412085,
+    "ANT": 1795709448.7174318,
+    "XAUUSD": 1795709448.7174318,
     "KOSPI": 1795709142.330208
   },
   "opex_shield": {
