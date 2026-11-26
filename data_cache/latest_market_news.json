@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795685286.831,
-  "updated_at_et": "11-26 04:28 ET",
-  "updated_at_kst": "18:28 KST",
+  "updated_at_ts": 1795685387.706,
+  "updated_at_et": "11-26 04:29 ET",
+  "updated_at_kst": "18:29 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1680,6 +1680,13 @@
     ],
     "LITE": [
       {
+        "title": "Lumentum Sinks 14% in a Week as AI Stocks Slide, but Its CEO Says “We Haven’t Seen Any Slowdown”",
+        "url": "https://www.tikr.com/blog/lumentum-sinks-14-in-a-week-as-ai-stocks-slide-but-its-ceo-says-we-havent-seen-any-slowdown?ref=yahoofinance&tlnk=yf-261126-mcfhw988&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 03:27 ET",
+        "pub_ts": 1795681663.0
+      },
+      {
         "title": "AAOI vs. Lumentum: Which Optical Networking Stock Has an Edge Now?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/aaoi-vs-lumentum-optical-networking-163600829.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1706,13 +1713,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:28 ET",
         "pub_ts": 1795620532.0
-      },
-      {
-        "title": "Oppenheimer Cut Its Marvell Target by $100. It Still Sees 147% Upside",
-        "url": "https://www.tikr.com/blog/oppenheimer-cut-its-marvell-target-by-100-it-still-sees-147-upside?ref=yahoofinance&tlnk=yf-261125-h25pvm3g&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 05:49 ET",
-        "pub_ts": 1795603771.0
       }
     ],
     "AAOI": [
@@ -1768,6 +1768,13 @@
         "pub_ts": 1795681559.0
       },
       {
+        "title": "AT&T Is Up 10% in a Month. Steve Eisman Calls the Big Three Carriers “Uninvestable.” Who’s Right?",
+        "url": "https://www.tikr.com/blog/att-is-up-10-in-a-month-steve-eisman-calls-the-big-three-carriers-uninvestable-whos-right?ref=yahoofinance&tlnk=yf-261126-82p43rqx&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 03:24 ET",
+        "pub_ts": 1795681485.0
+      },
+      {
         "title": "Musk makes $18 billion SpaceX stock pledge for every kid in America",
         "url": "https://www.axios.com/2026/11/26/musk-spacex-shares-trump-accounts#utm_source=yahoo_finance&utm_medium=partner&utm_campaign=subs-partner-yahoo-finance-AI?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1780,13 +1787,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 00:36 ET",
         "pub_ts": 1795671399.0
-      },
-      {
-        "title": "SpaceX Reportedly Slashes Some Nvidia Chip Rents — AI Researcher Sees Musk’s Edge In A GPU Glut",
-        "url": "https://stocktwits.com/news-articles/markets/equity/spacex-reportedly-slashes-nvidia-chip-rents-ai-researcher-musk-edge-gpu-glut/cNbxOPgR9ZQ?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 00:32 ET",
-        "pub_ts": 1795671175.0
       }
     ],
     "ASTS": [
@@ -3316,11 +3316,11 @@
     "CRDO": 1795685286.8308706,
     "COHR": 1795685286.8308706,
     "MRVL": 1795685286.8308706,
-    "LITE": 1795683853.9113793,
+    "LITE": 1795685387.70565,
     "AAOI": 1795685286.8308706,
-    "SPCX": 1795683853.9113793,
+    "SPCX": 1795685387.70565,
     "ASTS": 1795684775.3857462,
-    "AXTI": 1795683853.9113793,
+    "AXTI": 1795685387.70565,
     "NASA": 1795684775.3857462,
     "LUNR": 1795684775.3857462,
     "TSLA": 1795684775.3857462,
@@ -3355,8 +3355,8 @@
     "WMT": 1795685286.8308706,
     "V": 1795684981.8807309,
     "CAT": 1795685286.8308706,
-    "FN": 1795683853.9113793,
-    "GLW": 1795683853.9113793,
+    "FN": 1795685387.70565,
+    "GLW": 1795685387.70565,
     "ANT": 1795685286.8308706,
     "XAUUSD": 1795685286.8308706,
     "KOSPI": 1795684981.8807309
