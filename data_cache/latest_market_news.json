@@ -1,9 +1,22 @@
 {
-  "updated_at_ts": 1795705927.171,
-  "updated_at_et": "11-26 10:12 ET",
-  "updated_at_kst": "00:12 KST",
+  "updated_at_ts": 1795706032.44,
+  "updated_at_et": "11-26 10:13 ET",
+  "updated_at_kst": "00:13 KST",
   "macro_calendar": [],
   "macro_flashes": [
+    {
+      "id": "20261126231128755800",
+      "title": "美联储褐皮书显美消费动能减弱，欧央行新帅或为法德交易结果 | Plus日报",
+      "summary": "美联储褐皮书显美消费动能减弱；欧洲天然气库存跌至2011年来同期新低，寒潮下提取承压；SpaceX获批建太空数据中心，马斯克称将向美儿童赠股。",
+      "keywords": [
+        "美联储"
+      ],
+      "pub_ts": 1795705888.0,
+      "time_et": "11-26 10:11 ET",
+      "time_bj": "23:11 BJ",
+      "time_kst": "00:11 KST",
+      "time_display": "10:11 ET / 23:11 BJ"
+    },
     {
       "id": "20261126225544721800",
       "title": "美国总统特朗普：乌克兰与俄罗斯很有可能迅速达成协议。",
@@ -330,19 +343,6 @@
       "time_bj": "14:44 BJ",
       "time_kst": "15:44 KST",
       "time_display": "01:44 ET / 14:44 BJ"
-    },
-    {
-      "id": "20261126143416825800",
-      "title": "黄金暴跌真相：杠杆投资者被迫抛售，保证金追缴潮席卷市场！",
-      "summary": "黄金近期重挫，背后可能并非美联储突然转鹰，而是AI股市震荡引发保证金追缴。买家有着不同的投资周期，判断后市的关键在于区分短期强制平仓与长期投资需求是否真正改变。",
-      "keywords": [
-        "美联储"
-      ],
-      "pub_ts": 1795674856.0,
-      "time_et": "11-26 01:34 ET",
-      "time_bj": "14:34 BJ",
-      "time_kst": "15:34 KST",
-      "time_display": "01:34 ET / 14:34 BJ"
     }
   ],
   "ticker_news": {
@@ -910,32 +910,32 @@
         "pub_ts": 1795701600.0
       },
       {
+        "title": "Investing $500 a Month in Coca-Cola, Realty Income, and Altria Could Generate Over $1,000 in Monthly Dividend Income by 2046",
+        "url": "https://www.fool.com/investing/2026/11/26/investing-usd500-a-month-in-coca-cola-realty-income-and-altria-could-generate-over-usd1-000-in-monthly-dividend-income-by-2046/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 09:51 ET",
+        "pub_ts": 1795704662.0
+      },
+      {
+        "title": "Dow Investors Chased Tech Swings—While Amgen Quietly Surged 77%",
+        "url": "https://finance.yahoo.com/healthcare/articles/dow-investors-chased-tech-swings-144540662.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 09:45 ET",
+        "pub_ts": 1795704340.0
+      },
+      {
+        "title": "Stocks’ Swoon and Higher Interest Rates Are a Bad Combo for the Economy",
+        "url": "https://finance.yahoo.com/m/faf3cdb5-65de-33b2-bf66-cb69fde1728a/stocks%E2%80%99-swoon-and-higher.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 09:44 ET",
+        "pub_ts": 1795704240.0
+      },
+      {
         "title": "President Donald Trump Considers Jensen Huang's Return to Nvidia a \"Great Decision,\" but It Doesn't Resolve a Critical Problem",
         "url": "https://www.fool.com/investing/2026/11/26/donald-trump-considers-jensen-huang-return-nvidia-great-decision-doesnt-resolve-critical-problem/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-26 09:26 ET",
         "pub_ts": 1795703161.0
-      },
-      {
-        "title": "Nvidia’s Reliance on Huang Could Now Hurt Its Credit Rating",
-        "url": "https://247wallst.com/investing/2026/11/26/nvidias-reliance-on-huang-could-now-hurt-its-credit-rating/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 09:17 ET",
-        "pub_ts": 1795702648.0
-      },
-      {
-        "title": "Jensen Huang is back as the chief at Nvidia",
-        "url": "https://www.digitaltrends.com/computing/jensen-huang-is-back-as-the-chief-at-nvidia/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 09:16 ET",
-        "pub_ts": 1795702619.0
-      },
-      {
-        "title": "Michael Burry Makes Surprising Pivot on Stock Market",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-makes-surprising-pivot-141451027.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 09:14 ET",
-        "pub_ts": 1795702491.0
       }
     ],
     "AMD": [
@@ -2827,6 +2827,13 @@
     ],
     "NKE": [
       {
+        "title": "Nike Slumped to $34, Yet This Apparel Pick Surged 23% Since October",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nike-slumped-34-yet-apparel-144519189.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 09:45 ET",
+        "pub_ts": 1795704319.0
+      },
+      {
         "title": "Has NIKE (NKE) Fallen Far Enough to Look Undervalued?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/nike-nke-fallen-far-enough-221034554.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2853,13 +2860,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 09:32 ET",
         "pub_ts": 1795617157.0
-      },
-      {
-        "title": "Scott Galloway Is Buying Nike’s Dip. He Says Its Injury Isn’t “Career Ending”",
-        "url": "https://www.tikr.com/blog/scott-galloway-is-buying-nikes-dip-he-says-its-injury-isnt-career-ending?ref=yahoofinance&tlnk=yf-261125-544jwmg2&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 03:42 ET",
-        "pub_ts": 1795596136.0
       }
     ],
     "MCD": [
@@ -3280,23 +3280,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795704458.3549743,
-    "SOXL": 1795704458.3549743,
-    "SPY": 1795704458.3549743,
-    "DIA": 1795704458.3549743,
-    "SOXX": 1795704458.3549743,
-    "QQQ": 1795704458.3549743,
-    "SMH": 1795704458.3549743,
-    "IWM": 1795704458.3549743,
-    "IGV": 1795704458.3549743,
-    "TLT": 1795704458.3549743,
-    "GLD": 1795704458.3549743,
-    "SQQQ": 1795704458.3549743,
-    "TSM": 1795704458.3549743,
-    "VIXY": 1795704458.3549743,
-    "SOXS": 1795704458.3549743,
-    "NVDA": 1795704458.3549743,
-    "AMD": 1795704458.3549743,
+    "KORU": 1795706032.4400713,
+    "SOXL": 1795706032.4400713,
+    "SPY": 1795706032.4400713,
+    "DIA": 1795706032.4400713,
+    "SOXX": 1795706032.4400713,
+    "QQQ": 1795706032.4400713,
+    "SMH": 1795706032.4400713,
+    "IWM": 1795706032.4400713,
+    "IGV": 1795706032.4400713,
+    "TLT": 1795706032.4400713,
+    "GLD": 1795706032.4400713,
+    "SQQQ": 1795706032.4400713,
+    "TSM": 1795706032.4400713,
+    "VIXY": 1795706032.4400713,
+    "SOXS": 1795706032.4400713,
+    "NVDA": 1795706032.4400713,
+    "AMD": 1795706032.4400713,
     "ASML": 1795704767.4034963,
     "QCOM": 1795704767.4034963,
     "AVGO": 1795704767.4034963,
@@ -3345,21 +3345,21 @@
     "CRWD": 1795704973.1911623,
     "ORCL": 1795704973.1911623,
     "COIN": 1795704973.1911623,
-    "LLY": 1795704458.3549743,
-    "MRNA": 1795704458.3549743,
-    "NKE": 1795704458.3549743,
-    "MCD": 1795704458.3549743,
-    "PEP": 1795704458.3549743,
+    "LLY": 1795706032.4400713,
+    "MRNA": 1795706032.4400713,
+    "NKE": 1795706032.4400713,
+    "MCD": 1795706032.4400713,
+    "PEP": 1795706032.4400713,
     "XOM": 1795704767.4034963,
-    "JPM": 1795704458.3549743,
+    "JPM": 1795706032.4400713,
     "WMT": 1795704767.4034963,
-    "V": 1795704458.3549743,
+    "V": 1795706032.4400713,
     "CAT": 1795704767.4034963,
     "FN": 1795704870.2073371,
     "GLW": 1795704870.2073371,
     "ANT": 1795704767.4034963,
     "XAUUSD": 1795704767.4034963,
-    "KOSPI": 1795704458.3549743
+    "KOSPI": 1795706032.4400713
   },
   "opex_shield": {
     "date": "2026-11-26",
@@ -3378,7 +3378,7 @@
   "calendar_banner": {
     "level": "idle_with_flash",
     "headline": "📡 宏观消息面监控中 · 今日暂无美股五星级经济数据大考",
-    "detail": "⚡ 最新核心快讯 (09:55 ET / 22:55 BJ) [特朗普]：美国总统特朗普：乌克兰与俄罗斯很有可能迅速达成协议。",
+    "detail": "⚡ 最新核心快讯 (10:11 ET / 23:11 BJ) [美联储]：美联储褐皮书显美消费动能减弱；欧洲天然气库存跌至2011年来同期新低，寒潮下提取承压；SpaceX获批建太空数据中心，马斯克称将向美儿童赠股。",
     "event_name": "",
     "minutes_left": 0,
     "opex_shield": {
