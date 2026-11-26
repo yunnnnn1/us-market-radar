@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795672389.277,
-  "updated_at_et": "11-26 00:53 ET",
-  "updated_at_kst": "14:53 KST",
+  "updated_at_ts": 1795672490.171,
+  "updated_at_et": "11-26 00:54 ET",
+  "updated_at_kst": "14:54 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2231,6 +2231,13 @@
     ],
     "DELL": [
       {
+        "title": "ANT, NVDA Slide Tests Investor Resolve, Software Firms Post Sharp Growth",
+        "url": "https://stocktwits.com/news-articles/markets/equity/ant-nvda-slide-tests-investor-resolve-software-firms-post-sharp-growth/cNbxO5FR9ZX?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 00:33 ET",
+        "pub_ts": 1795671214.0
+      },
+      {
         "title": "Is Nvidia Stock a Buy After Dell's Record AI Backlog?",
         "url": "https://www.fool.com/investing/2026/11/25/is-nvidia-stock-a-buy-after-dell-s-record-ai-backlog/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2257,13 +2264,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 16:20 ET",
         "pub_ts": 1795641634.0
-      },
-      {
-        "title": "Dell earnings analysis: questions answered and next catalysts",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/dell-earnings-analysis-questions-answered-204536459.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 15:45 ET",
-        "pub_ts": 1795639536.0
       }
     ],
     "OKLO": [
@@ -2601,6 +2601,20 @@
     ],
     "BTC-USD": [
       {
+        "title": "Bitcoin technical outlook: bear trend with oversold signals near $61,000",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-technical-outlook-bear-trend-054532169.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 00:45 ET",
+        "pub_ts": 1795671932.0
+      },
+      {
+        "title": "LIVE – Crypto News Today: Is Bitcoin Bottoming Out? BTC Bounces Back After PCE Shock",
+        "url": "https://cryptonews.com/news/bitcoin-crypto-news-btc-bottom-pce-rebound/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 23:57 ET",
+        "pub_ts": 1795669064.0
+      },
+      {
         "title": "Bitcoin Reclaims $60,000: Michaël Van De Poppe Eyes ‘Great First Quarter Of 2027’, While Cathie Wood Trims Crypto Exposure",
         "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-reclaims-60-000-michael-van-de-poppe-eyes-great-first-quarter-of-2027-while-cathie-wood-trims-crypto-exposure/cNbxBZpR9Za?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2620,20 +2634,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 20:00 ET",
         "pub_ts": 1795654845.0
-      },
-      {
-        "title": "Why CleanSpark Stock Was a Winner on Wednesday",
-        "url": "https://www.fool.com/investing/2026/11/25/why-cleanspark-stock-was-a-winner-on-wednesday/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 19:30 ET",
-        "pub_ts": 1795653039.0
-      },
-      {
-        "title": "If you invested $1,000 in gold, Bitcoin or silver last Thanksgiving, here’s what you’d have today",
-        "url": "https://www.thestreet.com/crypto/markets/if-you-invested-1000-in-gold-bitcoin-or-silver-last-thanksgiving-heres-what-youd-have-today?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 19:15 ET",
-        "pub_ts": 1795652100.0
       }
     ],
     "CRWD": [
@@ -3315,32 +3315,32 @@
     "LITE": 1795671558.4144914,
     "AAOI": 1795671456.68926,
     "SPCX": 1795671558.4144914,
-    "ASTS": 1795670947.33903,
+    "ASTS": 1795672490.170636,
     "AXTI": 1795671558.4144914,
-    "NASA": 1795670947.33903,
-    "LUNR": 1795670947.33903,
-    "TSLA": 1795670947.33903,
-    "AXP": 1795670947.33903,
-    "RKLB": 1795670947.33903,
-    "KO": 1795670947.33903,
-    "FLY": 1795670947.33903,
-    "INTC": 1795670947.33903,
-    "VRT": 1795670947.33903,
-    "HPE": 1795670947.33903,
-    "DELL": 1795670947.33903,
-    "OKLO": 1795670947.33903,
-    "CEG": 1795670947.33903,
-    "FPS": 1795670947.33903,
-    "MU": 1795670947.33903,
-    "SKHY": 1795670947.33903,
-    "WDC": 1795670947.33903,
-    "STX": 1795670947.33903,
-    "MSTR": 1795670947.33903,
-    "SNDK": 1795670947.33903,
-    "BTC-USD": 1795670947.33903,
-    "CRWD": 1795670947.33903,
-    "ORCL": 1795670947.33903,
-    "COIN": 1795670947.33903,
+    "NASA": 1795672490.170636,
+    "LUNR": 1795672490.170636,
+    "TSLA": 1795672490.170636,
+    "AXP": 1795672490.170636,
+    "RKLB": 1795672490.170636,
+    "KO": 1795672490.170636,
+    "FLY": 1795672490.170636,
+    "INTC": 1795672490.170636,
+    "VRT": 1795672490.170636,
+    "HPE": 1795672490.170636,
+    "DELL": 1795672490.170636,
+    "OKLO": 1795672490.170636,
+    "CEG": 1795672490.170636,
+    "FPS": 1795672490.170636,
+    "MU": 1795672490.170636,
+    "SKHY": 1795672490.170636,
+    "WDC": 1795672490.170636,
+    "STX": 1795672490.170636,
+    "MSTR": 1795672490.170636,
+    "SNDK": 1795672490.170636,
+    "BTC-USD": 1795672490.170636,
+    "CRWD": 1795672490.170636,
+    "ORCL": 1795672490.170636,
+    "COIN": 1795672490.170636,
     "LLY": 1795671153.2752805,
     "MRNA": 1795671153.2752805,
     "NKE": 1795671153.2752805,
