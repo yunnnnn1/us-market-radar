@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795701654.52,
-  "updated_at_et": "11-26 09:00 ET",
-  "updated_at_kst": "23:00 KST",
+  "updated_at_ts": 1795701757.327,
+  "updated_at_et": "11-26 09:02 ET",
+  "updated_at_kst": "23:02 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2013,6 +2013,13 @@
     ],
     "RKLB": [
       {
+        "title": "RKLB vs. LUNR: Which Space Stock Has the Stronger Growth Outlook?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/rklb-vs-lunr-space-stock-125000446.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 07:50 ET",
+        "pub_ts": 1795697400.0
+      },
+      {
         "title": "Rocket Lab (RKLB) Stock Sees Fair Value Cut As Analysts Weigh Backlog And Neutron Risk",
         "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-rklb-stock-sees-121113577.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2039,16 +2046,16 @@
         "source": "Yahoo Finance",
         "time": "11-25 09:17 ET",
         "pub_ts": 1795616238.0
-      },
-      {
-        "title": "Rocket Lab Just Grew Revenue 73%. Its Next Chapter Could Be Even Bigger",
-        "url": "https://247wallst.com/investing/2026/11/25/rocket-lab-just-grew-revenue-73-its-next-chapter-could-be-even-bigger/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:03 ET",
-        "pub_ts": 1795615437.0
       }
     ],
     "KO": [
+      {
+        "title": "3 Dividend Kings Retirees Can Own for the Rest of Their Lives",
+        "url": "https://247wallst.com/investing/2026/11/26/3-dividend-kings-retirees-can-own-for-the-rest-of-their-lives/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 08:32 ET",
+        "pub_ts": 1795699976.0
+      },
       {
         "title": "Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises, I'll Never Sell.",
         "url": "https://www.fool.com/investing/2026/11/26/coca-cola-is-the-most-boring-stock-i-own-after-64-years-of-dividend-raises-ill-never-sell/?.tsrc=rss",
@@ -2076,13 +2083,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 08:51 ET",
         "pub_ts": 1795614712.0
-      },
-      {
-        "title": "Coca-Cola (KO) Just Reclaimed the 20-Day Moving Average",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-just-reclaimed-133502639.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:35 ET",
-        "pub_ts": 1795613702.0
       }
     ],
     "FLY": [
@@ -2198,6 +2198,13 @@
     ],
     "HPE": [
       {
+        "title": "Is Micron Stock a Buy After HPE Said Memory Will Stay Scarce Into 2028?",
+        "url": "https://www.fool.com/investing/2026/11/26/is-micron-stock-a-buy-after-hpe-said-memory-will-stay-scarce-into-2028/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 08:37 ET",
+        "pub_ts": 1795700222.0
+      },
+      {
         "title": "Is HPE's 18-Quarter Inventory High A Warning?",
         "url": "https://www.trefis.com/stock/dell/articles/629185/is-hpe-s-18-quarter-inventory-high-a-warning/2026-11-26?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2224,16 +2231,16 @@
         "source": "Yahoo Finance",
         "time": "11-25 16:20 ET",
         "pub_ts": 1795641634.0
-      },
-      {
-        "title": "Jensen Huang's return, neocloud risk, and a holiday retail rally",
-        "url": "https://finance.yahoo.com/video/jensen-huangs-return-neocloud-risk-and-a-holiday-retail-rally-222042649.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 16:00 ET",
-        "pub_ts": 1795640400.0
       }
     ],
     "DELL": [
+      {
+        "title": "Dell’s $132B Backlog Turns 2027 Into a Pure Multiple-Expansion Trade Toward $500",
+        "url": "https://247wallst.com/investing/2026/11/26/dells-132b-backlog-turns-2027-into-a-pure-multiple-expansion-trade-toward-500/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 08:45 ET",
+        "pub_ts": 1795700729.0
+      },
       {
         "title": "DELL Stock Heads For Worst Month Since 2021: Morningstar Sees Risk Ahead For Dell Despite AI-Led Earnings Beat",
         "url": "https://stocktwits.com/news-articles/markets/equity/dell-stock-heads-for-worst-month-since-2021-morningstar-sees-risk-ahead-for-dell-despite-ai-led-earnings-beat/cNbx0U7R9Zo?.tsrc=rss",
@@ -2261,13 +2268,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 22:07 ET",
         "pub_ts": 1795662422.0
-      },
-      {
-        "title": "TD Cowen Just Cut Its Dell Target From $550 to $325 After a Record Quarter",
-        "url": "https://www.tikr.com/blog/td-cowen-just-cut-its-dell-target-from-550-to-325-after-a-record-quarter?ref=yahoofinance&tlnk=yf-261126-835vp4w8&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 21:27 ET",
-        "pub_ts": 1795660063.0
       }
     ],
     "OKLO": [
@@ -2383,6 +2383,20 @@
     ],
     "MU": [
       {
+        "title": "Jim Cramer Says Micron Stock Is “Comically Cheap” at About 3 Times Earnings",
+        "url": "https://247wallst.com/investing/2026/11/26/jim-cramer-says-micron-stock-is-comically-cheap-at-about-3-times-earnings/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 08:53 ET",
+        "pub_ts": 1795701219.0
+      },
+      {
+        "title": "Is Micron Stock a Buy After HPE Said Memory Will Stay Scarce Into 2028?",
+        "url": "https://www.fool.com/investing/2026/11/26/is-micron-stock-a-buy-after-hpe-said-memory-will-stay-scarce-into-2028/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 08:37 ET",
+        "pub_ts": 1795700222.0
+      },
+      {
         "title": "Micron May Now Face a Threat From Two Chinese Rivals but Shouldn’t Sweat It",
         "url": "https://finance.yahoo.com/m/75ebee7a-b584-3441-9bac-c4a6ec75020e/micron-may-now-face-a-threat.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2402,20 +2416,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 07:15 ET",
         "pub_ts": 1795695305.0
-      },
-      {
-        "title": "Micron's $50 Billion Taiwan Investment Faces Fresh Labor Risk",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/microns-50-billion-taiwan-investment-113553440.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:35 ET",
-        "pub_ts": 1795692953.0
-      },
-      {
-        "title": "Micron and Sandisk Are Two of the Cheapest AI Chip Stocks to Own",
-        "url": "https://finance.yahoo.com/technology/ai/articles/micron-sandisk-two-cheapest-ai-112351523.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:23 ET",
-        "pub_ts": 1795692231.0
       }
     ],
     "SKHY": [
@@ -2425,6 +2425,13 @@
         "source": "Yahoo Finance",
         "time": "11-26 07:13 ET",
         "pub_ts": 1795695235.0
+      },
+      {
+        "title": "SK hynix Just Hit a New 52-Week Low After Sinking 9% in a Week. Is the Selling Overdone?",
+        "url": "https://www.tikr.com/blog/sk-hynix-just-hit-a-new-52-week-low-after-sinking-9-in-a-week-is-the-selling-overdone?ref=yahoofinance&tlnk=yf-261126-ww3x89g9&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 04:14 ET",
+        "pub_ts": 1795684451.0
       },
       {
         "title": "MU, SNDK, SKHY Jump As Nvidia Tests Kioxia Memory Fix — Analyst Presses Memory Giants For ‘Massive’ Buybacks",
@@ -2446,13 +2453,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 16:14 ET",
         "pub_ts": 1795641293.0
-      },
-      {
-        "title": "SK Hynix Stock (SKHY) Is Cheap Even After Factoring In a Brutal Memory Downturn",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-stock-skhy-cheap-211200806.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 16:12 ET",
-        "pub_ts": 1795641120.0
       }
     ],
     "WDC": [
@@ -3316,31 +3316,31 @@
     "CRDO": 1795701654.5202398,
     "COHR": 1795701654.5202398,
     "MRVL": 1795701654.5202398,
-    "LITE": 1795700212.5610683,
+    "LITE": 1795701757.3269928,
     "AAOI": 1795701654.5202398,
-    "SPCX": 1795700212.5610683,
-    "ASTS": 1795700212.5610683,
-    "AXTI": 1795700212.5610683,
-    "NASA": 1795700212.5610683,
-    "LUNR": 1795700212.5610683,
-    "TSLA": 1795700212.5610683,
-    "AXP": 1795700212.5610683,
-    "RKLB": 1795700212.5610683,
-    "KO": 1795700212.5610683,
-    "FLY": 1795700212.5610683,
-    "INTC": 1795700212.5610683,
-    "VRT": 1795700212.5610683,
-    "HPE": 1795700212.5610683,
-    "DELL": 1795700212.5610683,
-    "OKLO": 1795700212.5610683,
-    "CEG": 1795700212.5610683,
-    "FPS": 1795700212.5610683,
-    "MU": 1795700212.5610683,
-    "SKHY": 1795700212.5610683,
-    "WDC": 1795700212.5610683,
-    "STX": 1795700212.5610683,
+    "SPCX": 1795701757.3269928,
+    "ASTS": 1795701757.3269928,
+    "AXTI": 1795701757.3269928,
+    "NASA": 1795701757.3269928,
+    "LUNR": 1795701757.3269928,
+    "TSLA": 1795701757.3269928,
+    "AXP": 1795701757.3269928,
+    "RKLB": 1795701757.3269928,
+    "KO": 1795701757.3269928,
+    "FLY": 1795701757.3269928,
+    "INTC": 1795701757.3269928,
+    "VRT": 1795701757.3269928,
+    "HPE": 1795701757.3269928,
+    "DELL": 1795701757.3269928,
+    "OKLO": 1795701757.3269928,
+    "CEG": 1795701757.3269928,
+    "FPS": 1795701757.3269928,
+    "MU": 1795701757.3269928,
+    "SKHY": 1795701757.3269928,
+    "WDC": 1795701757.3269928,
+    "STX": 1795701757.3269928,
     "MSTR": 1795700314.8364077,
-    "SNDK": 1795700212.5610683,
+    "SNDK": 1795701757.3269928,
     "BTC-USD": 1795700314.8364077,
     "CRWD": 1795700314.8364077,
     "ORCL": 1795700314.8364077,
@@ -3355,8 +3355,8 @@
     "WMT": 1795701654.5202398,
     "V": 1795701342.187749,
     "CAT": 1795701654.5202398,
-    "FN": 1795700212.5610683,
-    "GLW": 1795700212.5610683,
+    "FN": 1795701757.3269928,
+    "GLW": 1795701757.3269928,
     "ANT": 1795701654.5202398,
     "XAUUSD": 1795701654.5202398,
     "KOSPI": 1795701342.187749
