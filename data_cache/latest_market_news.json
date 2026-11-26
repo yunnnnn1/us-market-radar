@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795701240.272,
-  "updated_at_et": "11-26 08:54 ET",
-  "updated_at_kst": "22:54 KST",
+  "updated_at_ts": 1795701342.188,
+  "updated_at_et": "11-26 08:55 ET",
+  "updated_at_kst": "22:55 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -910,11 +910,11 @@
         "pub_ts": 1795698000.0
       },
       {
-        "title": "5 things I'm thankful for in AI",
-        "url": "https://finance.yahoo.com/video/5-things-im-thankful-ai-120000522.html?.tsrc=rss",
+        "title": "New U.S. Chip Rule Is Now Hitting AI Data-Center Loans, Not Just Nvidia Chips",
+        "url": "https://247wallst.com/investing/2026/11/26/new-u-s-chip-rule-is-now-hitting-ai-data-center-loans-not-just-nvidia-chips/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 07:00 ET",
-        "pub_ts": 1795694400.0
+        "time": "11-26 08:28 ET",
+        "pub_ts": 1795699709.0
       },
       {
         "title": "Trump Is Hiking Tariffs Again. Here Are the New Tariff Rates on 14 Countries",
@@ -2753,11 +2753,11 @@
     ],
     "LLY": [
       {
-        "title": "Dow Jones Futures Rise After Nasdaq Slashes Losses In Wild Market Ride",
-        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise-after.html?.tsrc=rss",
+        "title": "Dow Jones Futures Rise With U.S. Markets Shut; Look For This Bullish Signal",
+        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise-with.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 08:22 ET",
-        "pub_ts": 1795699324.0
+        "time": "11-26 08:47 ET",
+        "pub_ts": 1795700853.0
       },
       {
         "title": "Can Oncology Emerge as Eli Lilly's Next Major Growth Driver?",
@@ -3280,23 +3280,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795699759.8466806,
-    "SOXL": 1795699759.8466806,
-    "SPY": 1795699759.8466806,
-    "DIA": 1795699759.8466806,
-    "SOXX": 1795699759.8466806,
-    "QQQ": 1795699759.8466806,
-    "SMH": 1795699759.8466806,
-    "IWM": 1795699759.8466806,
-    "IGV": 1795699759.8466806,
-    "TLT": 1795699759.8466806,
-    "GLD": 1795699759.8466806,
-    "SQQQ": 1795699759.8466806,
-    "TSM": 1795699759.8466806,
-    "VIXY": 1795699759.8466806,
-    "SOXS": 1795699759.8466806,
-    "NVDA": 1795699759.8466806,
-    "AMD": 1795699759.8466806,
+    "KORU": 1795701342.187749,
+    "SOXL": 1795701342.187749,
+    "SPY": 1795701342.187749,
+    "DIA": 1795701342.187749,
+    "SOXX": 1795701342.187749,
+    "QQQ": 1795701342.187749,
+    "SMH": 1795701342.187749,
+    "IWM": 1795701342.187749,
+    "IGV": 1795701342.187749,
+    "TLT": 1795701342.187749,
+    "GLD": 1795701342.187749,
+    "SQQQ": 1795701342.187749,
+    "TSM": 1795701342.187749,
+    "VIXY": 1795701342.187749,
+    "SOXS": 1795701342.187749,
+    "NVDA": 1795701342.187749,
+    "AMD": 1795701342.187749,
     "ASML": 1795700109.0107005,
     "QCOM": 1795700109.0107005,
     "AVGO": 1795700109.0107005,
@@ -3345,21 +3345,21 @@
     "CRWD": 1795700314.8364077,
     "ORCL": 1795700314.8364077,
     "COIN": 1795700314.8364077,
-    "LLY": 1795699759.8466806,
-    "MRNA": 1795699759.8466806,
-    "NKE": 1795699759.8466806,
-    "MCD": 1795699759.8466806,
-    "PEP": 1795699759.8466806,
+    "LLY": 1795701342.187749,
+    "MRNA": 1795701342.187749,
+    "NKE": 1795701342.187749,
+    "MCD": 1795701342.187749,
+    "PEP": 1795701342.187749,
     "XOM": 1795700109.0107005,
-    "JPM": 1795699759.8466806,
+    "JPM": 1795701342.187749,
     "WMT": 1795700109.0107005,
-    "V": 1795699759.8466806,
+    "V": 1795701342.187749,
     "CAT": 1795700109.0107005,
     "FN": 1795700212.5610683,
     "GLW": 1795700212.5610683,
     "ANT": 1795700109.0107005,
     "XAUUSD": 1795700109.0107005,
-    "KOSPI": 1795699759.8466806
+    "KOSPI": 1795701342.187749
   },
   "opex_shield": {
     "date": "2026-11-26",
