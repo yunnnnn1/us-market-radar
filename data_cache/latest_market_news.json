@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795720761.794,
-  "updated_at_et": "11-26 14:19 ET",
-  "updated_at_kst": "04:19 KST",
+  "updated_at_ts": 1795720860.375,
+  "updated_at_et": "11-26 14:21 ET",
+  "updated_at_kst": "04:21 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -3018,6 +3018,13 @@
         "pub_ts": 1795698000.0
       },
       {
+        "title": "U.S. retailers offer Thanksgiving deals even as meal costs, turkey prices rise",
+        "url": "https://finance.yahoo.com/economy/articles/u-retailers-offer-thanksgiving-deals-190718507.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 14:07 ET",
+        "pub_ts": 1795720038.0
+      },
+      {
         "title": "Amazon , Walmart Battle for $124 Billion Holiday Shopping Market",
         "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-walmart-battle-124-billion-175223253.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3037,13 +3044,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 08:15 ET",
         "pub_ts": 1795698900.0
-      },
-      {
-        "title": "What State Street Consumer Staples SPDR (XLP) Bought: Walmart Leads on Nov. 24",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-consumer-staples-spdr-110503086.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:05 ET",
-        "pub_ts": 1795691103.0
       }
     ],
     "V": [
@@ -3085,6 +3085,13 @@
     ],
     "CAT": [
       {
+        "title": "Caterpillar's $78 Billion Backlog, Explained",
+        "url": "https://www.fool.com/investing/2026/11/26/caterpillar-s-usd78-billion-backlog-explained/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 13:57 ET",
+        "pub_ts": 1795719422.0
+      },
+      {
         "title": "2027 Industrial Divide: Caterpillar Monetizes AI Power While Deere Chases an Ag Bottom",
         "url": "https://247wallst.com/investing/2026/11/25/2027-industrial-divide-caterpillar-monetizes-ai-power-while-deere-chases-an-ag-bottom/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3111,13 +3118,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 14:11 ET",
         "pub_ts": 1795461103.0
-      },
-      {
-        "title": "GEV vs CAT rebound comparison: two speeds, different risk profiles",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/gev-vs-cat-rebound-comparison-190016772.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 14:00 ET",
-        "pub_ts": 1795460416.0
       }
     ],
     "FN": [
@@ -3203,6 +3203,13 @@
         "pub_ts": 1795705200.0
       },
       {
+        "title": "Anthropic Stocks Rise but Close Below $83 IPO Price for a Second Day",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-stocks-rise-close-below-190552499.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 14:05 ET",
+        "pub_ts": 1795719952.0
+      },
+      {
         "title": "Dow Jones Futures Rise With U.S. Markets Shut; Look For This Bullish Signal",
         "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise-with.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3222,13 +3229,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 12:47 ET",
         "pub_ts": 1795715222.0
-      },
-      {
-        "title": "Cathie Wood Buys $87.8 Million in Anthropic Shares This Week",
-        "url": "https://finance.yahoo.com/technology/ai/articles/cathie-wood-buys-87-8-174136348.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 12:41 ET",
-        "pub_ts": 1795714896.0
       }
     ],
     "XAUUSD": [
@@ -3349,15 +3349,15 @@
     "NKE": 1795720761.7937882,
     "MCD": 1795720761.7937882,
     "PEP": 1795720761.7937882,
-    "XOM": 1795719303.3650284,
+    "XOM": 1795720860.3751976,
     "JPM": 1795720761.7937882,
-    "WMT": 1795719303.3650284,
+    "WMT": 1795720860.3751976,
     "V": 1795720761.7937882,
-    "CAT": 1795719303.3650284,
+    "CAT": 1795720860.3751976,
     "FN": 1795720275.0311432,
     "GLW": 1795720275.0311432,
-    "ANT": 1795719303.3650284,
-    "XAUUSD": 1795719303.3650284,
+    "ANT": 1795720860.3751976,
+    "XAUUSD": 1795720860.3751976,
     "KOSPI": 1795720663.8153572
   },
   "opex_shield": {
