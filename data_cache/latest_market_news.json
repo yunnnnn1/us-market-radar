@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795654052.705,
-  "updated_at_et": "11-25 19:47 ET",
-  "updated_at_kst": "09:47 KST",
+  "updated_at_ts": 1795654149.996,
+  "updated_at_et": "11-25 19:49 ET",
+  "updated_at_kst": "09:49 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1123,6 +1123,13 @@
     ],
     "AMAT": [
       {
+        "title": "Applied Materials (AMAT) Falls In Chip Selloff, Is It 44% Undervalued?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-falls-chip-003412379.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 19:34 ET",
+        "pub_ts": 1795653252.0
+      },
+      {
         "title": "Billionaire Brad Gerstner’s Altimeter Opened a $680 Million Tesla Stake and Exited Qualcomm and Applied Materials",
         "url": "https://247wallst.com/investing/2026/11/25/billionaire-brad-gerstners-altimeter-opened-a-680-million-tesla-stake-and-exited-qualcomm-and-applied-materials/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1149,13 +1156,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 12:40 ET",
         "pub_ts": 1795628457.0
-      },
-      {
-        "title": "Why Applied Materials (AMAT) Stock Is Falling Today: AI-Led Chip Selloff",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-applied-materials-amat-stock-163016087.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:30 ET",
-        "pub_ts": 1795624216.0
       }
     ],
     "META": [
@@ -1197,6 +1197,20 @@
     ],
     "GOOGL": [
       {
+        "title": "5 Best Strong Buy Growth Stocks to Buy for 2027",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/5-best-strong-buy-growth-004610627.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 19:46 ET",
+        "pub_ts": 1795653970.0
+      },
+      {
+        "title": "SpaceX wins approval to launch one million AI data centre satellites",
+        "url": "https://www.proactiveinvestors.com/companies/news/1102478/spacex-wins-approval-to-launch-one-million-ai-data-centre-satellites-1102478.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 19:27 ET",
+        "pub_ts": 1795652820.0
+      },
+      {
         "title": "Bill Gurley: Investors Weren’t “Scrambling to Actually Own Anthropic.” That’s a Problem for Amazon and Alphabet",
         "url": "https://www.tikr.com/blog/bill-gurley-investors-werent-scrambling-to-actually-own-anthropic-thats-a-problem-for-amazon-and-alphabet?ref=yahoofinance&tlnk=yf-261125-5qg4553j&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1216,20 +1230,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 16:16 ET",
         "pub_ts": 1795641360.0
-      },
-      {
-        "title": "Anthropic’s Chip Choices Could Change the Nvidia Story. Here’s How.",
-        "url": "https://www.fool.com/investing/2026/11/25/anthropic-s-chip-choices-could-change-the-nvidia-story-here-s-how/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 15:53 ET",
-        "pub_ts": 1795639982.0
-      },
-      {
-        "title": "Megadeals Defy Selloff, Head Toward Record",
-        "url": "https://finance.yahoo.com/video/megadeals-defy-selloff-head-toward-204909645.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 15:49 ET",
-        "pub_ts": 1795639749.0
       }
     ],
     "MSFT": [
@@ -3232,39 +3232,39 @@
     ],
     "ANT": [
       {
-        "title": "Amazon: Lower Downside Risk, But Not Immune To AI-Trade Related Risks",
-        "url": "https://finnhub.io/api/news?id=57bc7d8fa4d6994d50535ab505f18748d770e85f8ed5264704a70c6214a20b6f",
-        "source": "SeekingAlpha",
-        "time": "11-25 12:01 ET",
-        "pub_ts": 1795626070.0
+        "title": "Dow Jones Futures Rise; Market Goes On Wild Ride As Nasdaq Slashes Losses",
+        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 19:43 ET",
+        "pub_ts": 1795653794.0
       },
       {
-        "title": "Where AI Money Flows In 2027 After Anthropic's IPO",
-        "url": "https://finnhub.io/api/news?id=9039cc7977eefb7ba98c4868fc86780e3aa17b5e6ef08e10043fb5f198dc01d1",
-        "source": "SeekingAlpha",
-        "time": "11-25 10:05 ET",
-        "pub_ts": 1795619103.0
+        "title": "SpaceX wins approval to launch one million AI data centre satellites",
+        "url": "https://www.proactiveinvestors.com/companies/news/1102478/spacex-wins-approval-to-launch-one-million-ai-data-centre-satellites-1102478.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 19:27 ET",
+        "pub_ts": 1795652820.0
       },
       {
-        "title": "The $2.9T Roller Coaster: Nvidia's Moat, Anthropic's Balance Sheet, And More",
-        "url": "https://finnhub.io/api/news?id=20beae09999780ae021e99f62729c9469666af79f70e7502c1ca81545b62750b",
-        "source": "SeekingAlpha",
-        "time": "11-25 07:29 ET",
-        "pub_ts": 1795609793.0
+        "title": "Bill Gurley: Investors Weren’t “Scrambling to Actually Own Anthropic.” That’s a Problem for Amazon and Alphabet",
+        "url": "https://www.tikr.com/blog/bill-gurley-investors-werent-scrambling-to-actually-own-anthropic-thats-a-problem-for-amazon-and-alphabet?ref=yahoofinance&tlnk=yf-261125-5qg4553j&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 18:43 ET",
+        "pub_ts": 1795650186.0
       },
       {
-        "title": "AI Angst Undercuts Asian Stock Markets",
-        "url": "https://finnhub.io/api/news?id=c05db7d7f6d87fb7b1ef664406bd11d8b702bc57175e3fd9bdb1f8ddbbe6d214",
-        "source": "Yahoo",
-        "time": "11-25 05:42 ET",
-        "pub_ts": 1795603346.0
+        "title": "Anthropic Earns “$80 a Year per Watt” of GPUs, Says Modal’s CEO. That’s Good News for SpaceX",
+        "url": "https://www.tikr.com/blog/anthropic-earns-80-a-year-per-watt-of-gpus-says-modals-ceo-thats-good-news-for-spacex?ref=yahoofinance&tlnk=yf-261125-5cgv35mg&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 18:41 ET",
+        "pub_ts": 1795650106.0
       },
       {
-        "title": "Google Is Turning AI Performance Into a Price War Anthropic Can’t Ignore",
-        "url": "https://finnhub.io/api/news?id=f4220ed77d8015c133bda3a4392be2bc42dd341909d786bc05c5ed591118d829",
-        "source": "Benzinga",
-        "time": "11-25 05:38 ET",
-        "pub_ts": 1795603102.0
+        "title": "Anthropic Stock Is Down 33% From Its All-Time High. Here's What a $5,000 Investment Could Be Worth in 1 Year.",
+        "url": "https://www.fool.com/investing/2026/11/25/anthropic-stock-is-down-33-from-its-all-time-high-here-s-what-a-usd5-000-investment-could-be-worth-in-1-year/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 17:35 ET",
+        "pub_ts": 1795646102.0
       }
     ],
     "XAUUSD": [
@@ -3332,27 +3332,27 @@
     "SOXS": 1795653953.2134147,
     "NVDA": 1795653953.2134147,
     "AMD": 1795653953.2134147,
-    "ASML": 1795652570.0894077,
-    "QCOM": 1795652570.0894077,
-    "AVGO": 1795652570.0894077,
-    "AMAT": 1795652570.0894077,
-    "META": 1795652570.0894077,
-    "GOOGL": 1795652570.0894077,
-    "MSFT": 1795652570.0894077,
-    "AAPL": 1795652570.0894077,
-    "PLTR": 1795652570.0894077,
-    "NOW": 1795652570.0894077,
-    "AMZN": 1795652570.0894077,
-    "CRWV": 1795652570.0894077,
-    "NBIS": 1795652570.0894077,
-    "APLD": 1795652570.0894077,
-    "VST": 1795652570.0894077,
-    "BE": 1795652570.0894077,
-    "CRDO": 1795652570.0894077,
-    "COHR": 1795652570.0894077,
-    "MRVL": 1795652570.0894077,
+    "ASML": 1795654149.9958305,
+    "QCOM": 1795654149.9958305,
+    "AVGO": 1795654149.9958305,
+    "AMAT": 1795654149.9958305,
+    "META": 1795654149.9958305,
+    "GOOGL": 1795654149.9958305,
+    "MSFT": 1795654149.9958305,
+    "AAPL": 1795654149.9958305,
+    "PLTR": 1795654149.9958305,
+    "NOW": 1795654149.9958305,
+    "AMZN": 1795654149.9958305,
+    "CRWV": 1795654149.9958305,
+    "NBIS": 1795654149.9958305,
+    "APLD": 1795654149.9958305,
+    "VST": 1795654149.9958305,
+    "BE": 1795654149.9958305,
+    "CRDO": 1795654149.9958305,
+    "COHR": 1795654149.9958305,
+    "MRVL": 1795654149.9958305,
     "LITE": 1795652675.2002335,
-    "AAOI": 1795652570.0894077,
+    "AAOI": 1795654149.9958305,
     "SPCX": 1795652675.2002335,
     "ASTS": 1795653852.7959487,
     "AXTI": 1795652675.2002335,
@@ -3385,15 +3385,15 @@
     "NKE": 1795653953.2134147,
     "MCD": 1795653953.2134147,
     "PEP": 1795653953.2134147,
-    "XOM": 1795652570.0894077,
+    "XOM": 1795654149.9958305,
     "JPM": 1795653953.2134147,
-    "WMT": 1795652570.0894077,
+    "WMT": 1795654149.9958305,
     "V": 1795653953.2134147,
-    "CAT": 1795652570.0894077,
+    "CAT": 1795654149.9958305,
     "FN": 1795652675.2002335,
     "GLW": 1795652675.2002335,
-    "ANT": 1795652570.0894077,
-    "XAUUSD": 1795652570.0894077,
+    "ANT": 1795654149.9958305,
+    "XAUUSD": 1795654149.9958305,
     "KOSPI": 1795653953.2134147
   },
   "opex_shield": {
