@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795657003.853,
-  "updated_at_et": "11-25 20:36 ET",
-  "updated_at_kst": "10:36 KST",
+  "updated_at_ts": 1795657101.977,
+  "updated_at_et": "11-25 20:38 ET",
+  "updated_at_kst": "10:38 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -972,11 +972,11 @@
         "pub_ts": 1795648685.0
       },
       {
-        "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/p-considers-nvidia-credit-downgrade-224432360.html?.tsrc=rss",
+        "title": "Broadcom Stock Hasn't Traded This Low Since July 2025. I Think It's a Buy.",
+        "url": "https://www.fool.com/investing/2026/11/25/broadcom-stock-hasn-t-traded-this-low-since-july-2025-i-think-it-s-a-buy/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 17:44 ET",
-        "pub_ts": 1795646672.0
+        "time": "11-25 20:03 ET",
+        "pub_ts": 1795654982.0
       }
     ],
     "AMD": [
@@ -2797,8 +2797,8 @@
         "title": "Dow Jones Futures Rise; Market Goes On Wild Ride As Nasdaq Slashes Losses",
         "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 19:58 ET",
-        "pub_ts": 1795654731.0
+        "time": "11-25 20:22 ET",
+        "pub_ts": 1795656155.0
       },
       {
         "title": "Sector Update: Healthcare Stocks Fall Late Afternoon",
@@ -3321,23 +3321,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795655530.6058269,
-    "SOXL": 1795655530.6058269,
-    "SPY": 1795655530.6058269,
-    "DIA": 1795655530.6058269,
-    "SOXX": 1795655530.6058269,
-    "QQQ": 1795655530.6058269,
-    "SMH": 1795655530.6058269,
-    "IWM": 1795655530.6058269,
-    "IGV": 1795655530.6058269,
-    "TLT": 1795655530.6058269,
-    "GLD": 1795655530.6058269,
-    "SQQQ": 1795655530.6058269,
-    "TSM": 1795655530.6058269,
-    "VIXY": 1795655530.6058269,
-    "SOXS": 1795655530.6058269,
-    "NVDA": 1795655530.6058269,
-    "AMD": 1795655530.6058269,
+    "KORU": 1795657101.977278,
+    "SOXL": 1795657101.977278,
+    "SPY": 1795657101.977278,
+    "DIA": 1795657101.977278,
+    "SOXX": 1795657101.977278,
+    "QQQ": 1795657101.977278,
+    "SMH": 1795657101.977278,
+    "IWM": 1795657101.977278,
+    "IGV": 1795657101.977278,
+    "TLT": 1795657101.977278,
+    "GLD": 1795657101.977278,
+    "SQQQ": 1795657101.977278,
+    "TSM": 1795657101.977278,
+    "VIXY": 1795657101.977278,
+    "SOXS": 1795657101.977278,
+    "NVDA": 1795657101.977278,
+    "AMD": 1795657101.977278,
     "ASML": 1795655727.471411,
     "QCOM": 1795655727.471411,
     "AVGO": 1795655727.471411,
@@ -3386,21 +3386,21 @@
     "CRWD": 1795657003.8525672,
     "ORCL": 1795657003.8525672,
     "COIN": 1795657003.8525672,
-    "LLY": 1795655530.6058269,
-    "MRNA": 1795655530.6058269,
-    "NKE": 1795655530.6058269,
-    "MCD": 1795655530.6058269,
-    "PEP": 1795655530.6058269,
+    "LLY": 1795657101.977278,
+    "MRNA": 1795657101.977278,
+    "NKE": 1795657101.977278,
+    "MCD": 1795657101.977278,
+    "PEP": 1795657101.977278,
     "XOM": 1795655727.471411,
-    "JPM": 1795655530.6058269,
+    "JPM": 1795657101.977278,
     "WMT": 1795655727.471411,
-    "V": 1795655530.6058269,
+    "V": 1795657101.977278,
     "CAT": 1795655727.471411,
     "FN": 1795655825.7702444,
     "GLW": 1795655825.7702444,
     "ANT": 1795655727.471411,
     "XAUUSD": 1795655727.471411,
-    "KOSPI": 1795655530.6058269
+    "KOSPI": 1795657101.977278
   },
   "opex_shield": {
     "date": "2026-11-25",
