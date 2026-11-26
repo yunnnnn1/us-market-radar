@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795655430.361,
-  "updated_at_et": "11-25 20:10 ET",
-  "updated_at_kst": "10:10 KST",
+  "updated_at_ts": 1795655530.606,
+  "updated_at_et": "11-25 20:12 ET",
+  "updated_at_kst": "10:12 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -941,13 +941,6 @@
     ],
     "NVDA": [
       {
-        "title": "Dow Jones Futures: Market Goes On Wild Ride. Nasdaq, Nvidia Slash Losses While Anthropic Reverses Higher.",
-        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures%3A-market.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 19:29 ET",
-        "pub_ts": 1795652963.0
-      },
-      {
         "title": "S&P 500, Nasdaq End Lower But Dow Rebounds As Traders Rotate Out Of AI — NVDA, SPCX, PANW In Focus",
         "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-lower-but-dow-rebounds-as-traders-rotate-out-of-ai-nvda-spcx-panw-in-focus/cNbx21AR9mC?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -974,9 +967,23 @@
         "source": "Yahoo Finance",
         "time": "11-25 18:18 ET",
         "pub_ts": 1795648685.0
+      },
+      {
+        "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/p-considers-nvidia-credit-downgrade-224432360.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 17:44 ET",
+        "pub_ts": 1795646672.0
       }
     ],
     "AMD": [
+      {
+        "title": "Big AI Buyers Want a Second Source. Is AMD (AMD) It?",
+        "url": "https://finance.yahoo.com/technology/ai/articles/big-ai-buyers-want-second-005602621.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 19:56 ET",
+        "pub_ts": 1795654562.0
+      },
       {
         "title": "2 Billionaire Funds Dumped AMD Last Quarter. Is It a Sell?",
         "url": "https://www.fool.com/investing/2026/11/25/2-billionaire-funds-dumped-amd-last-quarter-is-it-a-sell/?.tsrc=rss",
@@ -1004,13 +1011,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 12:47 ET",
         "pub_ts": 1795628820.0
-      },
-      {
-        "title": "AMD is Actually on Sale at a 52% Discount Now Based on This Number and I’m Buying It",
-        "url": "https://247wallst.com/investing/2026/11/25/amd-is-actually-on-sale-at-a-52-discount-now-based-on-this-number-and-im-buying-it/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:45 ET",
-        "pub_ts": 1795628702.0
       }
     ],
     "ASML": [
@@ -2791,11 +2791,11 @@
     ],
     "LLY": [
       {
-        "title": "Dow Jones Futures: Market Goes On Wild Ride. Nasdaq, Nvidia Slash Losses While Anthropic Reverses Higher.",
-        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures%3A-market.html?.tsrc=rss",
+        "title": "Dow Jones Futures Rise; Market Goes On Wild Ride As Nasdaq Slashes Losses",
+        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 19:29 ET",
-        "pub_ts": 1795652963.0
+        "time": "11-25 19:58 ET",
+        "pub_ts": 1795654731.0
       },
       {
         "title": "Sector Update: Healthcare Stocks Fall Late Afternoon",
@@ -3318,23 +3318,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795653953.2134147,
-    "SOXL": 1795653953.2134147,
-    "SPY": 1795653953.2134147,
-    "DIA": 1795653953.2134147,
-    "SOXX": 1795653953.2134147,
-    "QQQ": 1795653953.2134147,
-    "SMH": 1795653953.2134147,
-    "IWM": 1795653953.2134147,
-    "IGV": 1795653953.2134147,
-    "TLT": 1795653953.2134147,
-    "GLD": 1795653953.2134147,
-    "SQQQ": 1795653953.2134147,
-    "TSM": 1795653953.2134147,
-    "VIXY": 1795653953.2134147,
-    "SOXS": 1795653953.2134147,
-    "NVDA": 1795653953.2134147,
-    "AMD": 1795653953.2134147,
+    "KORU": 1795655530.6058269,
+    "SOXL": 1795655530.6058269,
+    "SPY": 1795655530.6058269,
+    "DIA": 1795655530.6058269,
+    "SOXX": 1795655530.6058269,
+    "QQQ": 1795655530.6058269,
+    "SMH": 1795655530.6058269,
+    "IWM": 1795655530.6058269,
+    "IGV": 1795655530.6058269,
+    "TLT": 1795655530.6058269,
+    "GLD": 1795655530.6058269,
+    "SQQQ": 1795655530.6058269,
+    "TSM": 1795655530.6058269,
+    "VIXY": 1795655530.6058269,
+    "SOXS": 1795655530.6058269,
+    "NVDA": 1795655530.6058269,
+    "AMD": 1795655530.6058269,
     "ASML": 1795654149.9958305,
     "QCOM": 1795654149.9958305,
     "AVGO": 1795654149.9958305,
@@ -3383,21 +3383,21 @@
     "CRWD": 1795655430.3611717,
     "ORCL": 1795655430.3611717,
     "COIN": 1795655430.3611717,
-    "LLY": 1795653953.2134147,
-    "MRNA": 1795653953.2134147,
-    "NKE": 1795653953.2134147,
-    "MCD": 1795653953.2134147,
-    "PEP": 1795653953.2134147,
+    "LLY": 1795655530.6058269,
+    "MRNA": 1795655530.6058269,
+    "NKE": 1795655530.6058269,
+    "MCD": 1795655530.6058269,
+    "PEP": 1795655530.6058269,
     "XOM": 1795654149.9958305,
-    "JPM": 1795653953.2134147,
+    "JPM": 1795655530.6058269,
     "WMT": 1795654149.9958305,
-    "V": 1795653953.2134147,
+    "V": 1795655530.6058269,
     "CAT": 1795654149.9958305,
     "FN": 1795654247.9220798,
     "GLW": 1795654247.9220798,
     "ANT": 1795654149.9958305,
     "XAUUSD": 1795654149.9958305,
-    "KOSPI": 1795653953.2134147
+    "KOSPI": 1795655530.6058269
   },
   "opex_shield": {
     "date": "2026-11-25",
