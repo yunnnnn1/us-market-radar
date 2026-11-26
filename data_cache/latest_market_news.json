@@ -1,9 +1,22 @@
 {
-  "updated_at_ts": 1795683748.708,
-  "updated_at_et": "11-26 04:02 ET",
-  "updated_at_kst": "18:02 KST",
+  "updated_at_ts": 1795683853.911,
+  "updated_at_et": "11-26 04:04 ET",
+  "updated_at_kst": "18:04 KST",
   "macro_calendar": [],
   "macro_flashes": [
+    {
+      "id": "20261126170220969800",
+      "title": "布伦特原油日内下跌1.00%，现报93.83美元/桶。WTI原油现跌0.9%。",
+      "summary": "布伦特原油日内下跌1.00%，现报93.83美元/桶。WTI原油现跌0.9%。",
+      "keywords": [
+        "原油"
+      ],
+      "pub_ts": 1795683740.0,
+      "time_et": "11-26 04:02 ET",
+      "time_bj": "17:02 BJ",
+      "time_kst": "18:02 KST",
+      "time_display": "04:02 ET / 17:02 BJ"
+    },
     {
       "id": "20261126163700483800",
       "title": "通胀高企之际特朗普再挥关税大棒，美联储加息前置风险升温",
@@ -330,19 +343,6 @@
       "time_bj": "14:05 BJ",
       "time_kst": "15:05 KST",
       "time_display": "01:05 ET / 14:05 BJ"
-    },
-    {
-      "id": "20261126134247017800",
-      "title": "WTI原油站上86美元/桶，布伦特原油向上触及96美元/桶，均创近10日来新高。",
-      "summary": "WTI原油站上86美元/桶，布伦特原油向上触及96美元/桶，均创近10日来新高。",
-      "keywords": [
-        "原油"
-      ],
-      "pub_ts": 1795671767.0,
-      "time_et": "11-26 00:42 ET",
-      "time_bj": "13:42 BJ",
-      "time_kst": "14:42 KST",
-      "time_display": "00:42 ET / 13:42 BJ"
     }
   ],
   "ticker_news": {
@@ -1754,6 +1754,13 @@
     ],
     "SPCX": [
       {
+        "title": "Musk says will give two SpaceX shares to 'every child in America'",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/musk-says-two-spacex-shares-085820244.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 03:58 ET",
+        "pub_ts": 1795683500.0
+      },
+      {
         "title": "SPCX Wins Million-Satellite Nod And Retail Attention — But ASTS Leads Space Stocks Into Thanksgiving",
         "url": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-million-satellite-nod-asts-leads-rklb-lunr-bksy-thanksgiving/cNbxLqbR9ZV?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1780,13 +1787,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 00:32 ET",
         "pub_ts": 1795671175.0
-      },
-      {
-        "title": "Elon Musk, SpaceX pledge major stock donations to active Trump Accounts",
-        "url": "https://www.foxbusiness.com/markets/elon-musk-spacex-pledge-major-stock-donations-active-trump-accounts?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 23:29 ET",
-        "pub_ts": 1795667395.0
       }
     ],
     "ASTS": [
@@ -3316,11 +3316,11 @@
     "CRDO": 1795683748.7084718,
     "COHR": 1795683748.7084718,
     "MRVL": 1795683748.7084718,
-    "LITE": 1795682315.5160306,
+    "LITE": 1795683853.9113793,
     "AAOI": 1795683748.7084718,
-    "SPCX": 1795682315.5160306,
+    "SPCX": 1795683853.9113793,
     "ASTS": 1795683237.1074305,
-    "AXTI": 1795682315.5160306,
+    "AXTI": 1795683853.9113793,
     "NASA": 1795683237.1074305,
     "LUNR": 1795683237.1074305,
     "TSLA": 1795683237.1074305,
@@ -3355,8 +3355,8 @@
     "WMT": 1795683748.7084718,
     "V": 1795683440.2585049,
     "CAT": 1795683748.7084718,
-    "FN": 1795682315.5160306,
-    "GLW": 1795682315.5160306,
+    "FN": 1795683853.9113793,
+    "GLW": 1795683853.9113793,
     "ANT": 1795683748.7084718,
     "XAUUSD": 1795683748.7084718,
     "KOSPI": 1795683440.2585049
@@ -3378,7 +3378,7 @@
   "calendar_banner": {
     "level": "idle_with_flash",
     "headline": "📡 宏观消息面监控中 · 今日暂无美股五星级经济数据大考",
-    "detail": "⚡ 最新核心快讯 (03:37 ET / 16:37 BJ) [美联储] [降息] [加息]：2025年关税推出后美联储就曾搁置降息，直至就业走弱才转向宽松。本次叠加能源、AI需求压力，政策环境更复杂。点击查看...",
+    "detail": "⚡ 最新核心快讯 (04:02 ET / 17:02 BJ) [原油]：布伦特原油日内下跌1.00%，现报93.83美元/桶。WTI原油现跌0.9%。",
     "event_name": "",
     "minutes_left": 0,
     "opex_shield": {
