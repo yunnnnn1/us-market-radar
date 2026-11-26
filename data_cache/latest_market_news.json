@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795655629.693,
-  "updated_at_et": "11-25 20:13 ET",
-  "updated_at_kst": "10:13 KST",
+  "updated_at_ts": 1795655727.471,
+  "updated_at_et": "11-25 20:15 ET",
+  "updated_at_kst": "10:15 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1018,6 +1018,13 @@
     ],
     "ASML": [
       {
+        "title": "ASML (ASML) Can’t Meet Demand. Is That a Strength or Risk?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/asml-asml-t-meet-demand-004924571.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 19:49 ET",
+        "pub_ts": 1795654164.0
+      },
+      {
         "title": "ASML Holding (ENXTAM:ASML) Faces Dutch Pushback On New US China Chip Curbs",
         "url": "https://finance.yahoo.com/markets/stocks/articles/asml-holding-enxtam-asml-faces-201500190.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1044,13 +1051,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 12:11 ET",
         "pub_ts": 1795626676.0
-      },
-      {
-        "title": "Congress Could Pass Tougher Chip Curbs “With Veto Proof Majorities.” ASML Has the Most to Lose",
-        "url": "https://www.tikr.com/blog/congress-could-pass-tougher-chip-curbs-with-veto-proof-majorities-asml-has-the-most-to-lose?ref=yahoofinance&tlnk=yf-261125-q479h9j5&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:36 ET",
-        "pub_ts": 1795620971.0
       }
     ],
     "QCOM": [
@@ -1092,6 +1092,13 @@
     ],
     "AVGO": [
       {
+        "title": "Broadcom Stock Hasn't Traded This Low Since July 2025. I Think It's a Buy.",
+        "url": "https://www.fool.com/investing/2026/11/25/broadcom-stock-hasn-t-traded-this-low-since-july-2025-i-think-it-s-a-buy/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 20:03 ET",
+        "pub_ts": 1795654982.0
+      },
+      {
         "title": "Not Micron. Not Broadcom. This Is My Top Oversold Artificial Intelligence (AI) Stock to Buy in December",
         "url": "https://www.fool.com/investing/2026/11/25/not-micron-not-broadcom-this-is-my-top-oversold-artificial-intelligence-ai-stock-to-buy-in-december/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1118,16 +1125,16 @@
         "source": "Yahoo Finance",
         "time": "11-25 11:55 ET",
         "pub_ts": 1795625749.0
-      },
-      {
-        "title": "Broadcom vs. Qualcomm: Which Technology Stock Is a Better Buy for 2027?",
-        "url": "https://www.fool.com/coverage/better-buy/2026/11/25/broadcom-vs-qualcomm-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:52 ET",
-        "pub_ts": 1795625521.0
       }
     ],
     "AMAT": [
+      {
+        "title": "Applied Materials (AMAT) Supplies Almost Every Fab. Is That Enough?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-supplies-almost-005322656.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 19:53 ET",
+        "pub_ts": 1795654402.0
+      },
       {
         "title": "Applied Materials (AMAT) Falls In Chip Selloff, Is It 44% Undervalued?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-falls-chip-003412379.html?.tsrc=rss",
@@ -1155,13 +1162,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 13:01 ET",
         "pub_ts": 1795629665.0
-      },
-      {
-        "title": "Applied Materials Stocks Fall 7.98% as MATCH Act Fight Rattles Chip Toolmakers",
-        "url": "https://finance.yahoo.com/technology/articles/applied-materials-stocks-fall-7-174057061.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:40 ET",
-        "pub_ts": 1795628457.0
       }
     ],
     "META": [
@@ -1469,6 +1469,13 @@
         "pub_ts": 1795640400.0
       },
       {
+        "title": "Nebius Group Climbed 22% as Tech Stocks Rebounded. Don’t Get Caught Rushing In.",
+        "url": "https://www.barchart.com/story/news/9008512/nebius-group-climbed-22-as-tech-stocks-rebounded-dont-get-caught-rushing-in?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 13:48 ET",
+        "pub_ts": 1795632501.0
+      },
+      {
         "title": "Freedom Capital Markets’ $314 Target Says Nebius’s Selloff Went Too Far",
         "url": "https://www.tikr.com/blog/freedom-capital-markets-314-target-says-nebiuss-selloff-went-too-far?ref=yahoofinance&tlnk=yf-261125-28wv344f&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1488,13 +1495,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 07:15 ET",
         "pub_ts": 1795608943.0
-      },
-      {
-        "title": "Nebius Sinks 43% in a Month on Delays and Soaring Capex. Its CFO Calls 2027’s Timing “Very, Very Conservative”",
-        "url": "https://www.tikr.com/blog/nebius-sinks-43-in-a-month-on-delays-and-soaring-capex-its-cfo-calls-2027s-timing-very-very-conservative?ref=yahoofinance&tlnk=yf-261125-m3ww43x2&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:26 ET",
-        "pub_ts": 1795605984.0
       }
     ],
     "APLD": [
@@ -3241,8 +3241,8 @@
         "title": "Dow Jones Futures Rise; Market Goes On Wild Ride As Nasdaq Slashes Losses",
         "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 19:43 ET",
-        "pub_ts": 1795653794.0
+        "time": "11-25 19:58 ET",
+        "pub_ts": 1795654731.0
       },
       {
         "title": "SpaceX wins approval to launch one million AI data centre satellites",
@@ -3338,27 +3338,27 @@
     "SOXS": 1795655530.6058269,
     "NVDA": 1795655530.6058269,
     "AMD": 1795655530.6058269,
-    "ASML": 1795654149.9958305,
-    "QCOM": 1795654149.9958305,
-    "AVGO": 1795654149.9958305,
-    "AMAT": 1795654149.9958305,
-    "META": 1795654149.9958305,
-    "GOOGL": 1795654149.9958305,
-    "MSFT": 1795654149.9958305,
-    "AAPL": 1795654149.9958305,
-    "PLTR": 1795654149.9958305,
-    "NOW": 1795654149.9958305,
-    "AMZN": 1795654149.9958305,
-    "CRWV": 1795654149.9958305,
-    "NBIS": 1795654149.9958305,
-    "APLD": 1795654149.9958305,
-    "VST": 1795654149.9958305,
-    "BE": 1795654149.9958305,
-    "CRDO": 1795654149.9958305,
-    "COHR": 1795654149.9958305,
-    "MRVL": 1795654149.9958305,
+    "ASML": 1795655727.471411,
+    "QCOM": 1795655727.471411,
+    "AVGO": 1795655727.471411,
+    "AMAT": 1795655727.471411,
+    "META": 1795655727.471411,
+    "GOOGL": 1795655727.471411,
+    "MSFT": 1795655727.471411,
+    "AAPL": 1795655727.471411,
+    "PLTR": 1795655727.471411,
+    "NOW": 1795655727.471411,
+    "AMZN": 1795655727.471411,
+    "CRWV": 1795655727.471411,
+    "NBIS": 1795655727.471411,
+    "APLD": 1795655727.471411,
+    "VST": 1795655727.471411,
+    "BE": 1795655727.471411,
+    "CRDO": 1795655727.471411,
+    "COHR": 1795655727.471411,
+    "MRVL": 1795655727.471411,
     "LITE": 1795654247.9220798,
-    "AAOI": 1795654149.9958305,
+    "AAOI": 1795655727.471411,
     "SPCX": 1795654247.9220798,
     "ASTS": 1795655430.3611717,
     "AXTI": 1795654247.9220798,
@@ -3391,15 +3391,15 @@
     "NKE": 1795655530.6058269,
     "MCD": 1795655530.6058269,
     "PEP": 1795655530.6058269,
-    "XOM": 1795654149.9958305,
+    "XOM": 1795655727.471411,
     "JPM": 1795655530.6058269,
-    "WMT": 1795654149.9958305,
+    "WMT": 1795655727.471411,
     "V": 1795655530.6058269,
-    "CAT": 1795654149.9958305,
+    "CAT": 1795655727.471411,
     "FN": 1795654247.9220798,
     "GLW": 1795654247.9220798,
-    "ANT": 1795654149.9958305,
-    "XAUUSD": 1795654149.9958305,
+    "ANT": 1795655727.471411,
+    "XAUUSD": 1795655727.471411,
     "KOSPI": 1795655530.6058269
   },
   "opex_shield": {
