@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795719010.206,
-  "updated_at_et": "11-26 13:50 ET",
-  "updated_at_kst": "03:50 KST",
+  "updated_at_ts": 1795719107.067,
+  "updated_at_et": "11-26 13:51 ET",
+  "updated_at_kst": "03:51 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -909,35 +909,42 @@
         "pub_ts": 1795717022.0
       },
       {
+        "title": "Super Micro Computer (SMCI) Faces Southeast Asia AI Server Disruption After Export Halt",
+        "url": "https://finance.yahoo.com/technology/ai/articles/super-micro-computer-smci-faces-181532913.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 13:15 ET",
+        "pub_ts": 1795716932.0
+      },
+      {
+        "title": "Big News For Nvidia Stock Fans",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/big-news-nvidia-stock-fans-181400521.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 13:14 ET",
+        "pub_ts": 1795716840.0
+      },
+      {
+        "title": "Nvidia Now Has 41% of Its Stock Portfolio in SpaceX. Here’s What That Means for Nvidia Shareholders",
+        "url": "https://www.tikr.com/blog/nvidia-now-has-41-of-its-stock-portfolio-in-spacex-heres-what-that-means-for-nvidia-shareholders?ref=yahoofinance&tlnk=yf-261126-gr78h4qh&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 13:12 ET",
+        "pub_ts": 1795716730.0
+      },
+      {
         "title": "Billionaire John Overdeck’s former fund, Two Sigma Raised Its Nvidia Stake 67% to $2.39 Billion",
         "url": "https://247wallst.com/investing/2026/11/26/billionaire-john-overdecks-former-fund-two-sigma-raised-its-nvidia-stake-67-to-2-39-billion/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-26 13:05 ET",
         "pub_ts": 1795716339.0
-      },
-      {
-        "title": "Should You Buy Nvidia After Its Sharp Decline? Warren Buffett’s Long-Held Investment Philosophy Provides a Clear Answer",
-        "url": "https://www.fool.com/investing/2026/11/26/should-you-buy-nvidia-warren-buffett-investment-philosophy-provides-a-clear-answer/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 12:35 ET",
-        "pub_ts": 1795714502.0
-      },
-      {
-        "title": "NVIDIA Stocks Fall 3.91% as S&P Puts AA Rating on Downgrade Watch",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stocks-fall-3-91-173102633.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 12:31 ET",
-        "pub_ts": 1795714262.0
-      },
-      {
-        "title": "Nvidia faces credit rating review as S&P flags governance concerns",
-        "url": "https://www.proactiveinvestors.com/companies/news/1102544/nvidia-faces-credit-rating-review-as-s-p-flags-governance-concerns-1102544.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 12:16 ET",
-        "pub_ts": 1795713360.0
       }
     ],
     "AMD": [
+      {
+        "title": "AMD Stocks Slip 1.75% After Filing Registers 337 Million Shares for Resale",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amd-stocks-slip-1-75-182928246.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 13:29 ET",
+        "pub_ts": 1795717768.0
+      },
       {
         "title": "Cerebras Expands AI Inference Reach: Can It Challenge NVDA & AMD?",
         "url": "https://finance.yahoo.com/technology/ai/articles/cerebras-expands-ai-inference-reach-161400247.html?.tsrc=rss",
@@ -965,13 +972,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 06:13 ET",
         "pub_ts": 1795691582.0
-      },
-      {
-        "title": "Nvidia, AMD and Micron Stocks Plunge as AI Selloff Deepens",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-amd-micron-stocks-plunge-110624788.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:06 ET",
-        "pub_ts": 1795691184.0
       }
     ],
     "ASML": [
@@ -2604,6 +2604,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "Bitcoin Holds Above $60K as Death Cross Clouds Thanksgiving Recovery",
+        "url": "https://decrypt.co/384079/bitcoin-holds-above-60k-as-death-cross-clouds-thanksgiving-recovery?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 13:15 ET",
+        "pub_ts": 1795716929.0
+      },
+      {
         "title": "Why Strategy Can Rebound to $175 in 2027 Even If Bitcoin Stays Below Peak",
         "url": "https://247wallst.com/investing/2026/11/26/why-strategy-can-rebound-to-175-in-2027-even-if-bitcoin-stays-below-peak/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2630,13 +2637,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 11:15 ET",
         "pub_ts": 1795709753.0
-      },
-      {
-        "title": "BTC News Today: US Bitcoin Strategic Reserve Bill Moves Closer as BTC Reclaims $60K",
-        "url": "https://www.coinspeaker.com/btc-news-today-us-bitcoin-strategic-reserve-bill-moves-closer-as-btc-reclaims-60k/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 11:09 ET",
-        "pub_ts": 1795709365.0
       }
     ],
     "CRWD": [
@@ -3279,23 +3279,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795717542.8582504,
-    "SOXL": 1795717542.8582504,
-    "SPY": 1795717542.8582504,
-    "DIA": 1795717542.8582504,
-    "SOXX": 1795717542.8582504,
-    "QQQ": 1795717542.8582504,
-    "SMH": 1795717542.8582504,
-    "IWM": 1795717542.8582504,
-    "IGV": 1795717542.8582504,
-    "TLT": 1795717542.8582504,
-    "GLD": 1795717542.8582504,
-    "SQQQ": 1795717542.8582504,
-    "TSM": 1795717542.8582504,
-    "VIXY": 1795717542.8582504,
-    "SOXS": 1795717542.8582504,
-    "NVDA": 1795717542.8582504,
-    "AMD": 1795717542.8582504,
+    "KORU": 1795719107.0668628,
+    "SOXL": 1795719107.0668628,
+    "SPY": 1795719107.0668628,
+    "DIA": 1795719107.0668628,
+    "SOXX": 1795719107.0668628,
+    "QQQ": 1795719107.0668628,
+    "SMH": 1795719107.0668628,
+    "IWM": 1795719107.0668628,
+    "IGV": 1795719107.0668628,
+    "TLT": 1795719107.0668628,
+    "GLD": 1795719107.0668628,
+    "SQQQ": 1795719107.0668628,
+    "TSM": 1795719107.0668628,
+    "VIXY": 1795719107.0668628,
+    "SOXS": 1795719107.0668628,
+    "NVDA": 1795719107.0668628,
+    "AMD": 1795719107.0668628,
     "ASML": 1795717639.767247,
     "QCOM": 1795717639.767247,
     "AVGO": 1795717639.767247,
@@ -3338,14 +3338,14 @@
     "SKHY": 1795718714.9537654,
     "WDC": 1795718714.9537654,
     "STX": 1795718714.9537654,
-    "MSTR": 1795717542.8582504,
+    "MSTR": 1795719107.0668628,
     "SNDK": 1795718714.9537654,
-    "BTC-USD": 1795717542.8582504,
-    "CRWD": 1795717542.8582504,
-    "ORCL": 1795717542.8582504,
-    "COIN": 1795717542.8582504,
-    "LLY": 1795717542.8582504,
-    "MRNA": 1795717542.8582504,
+    "BTC-USD": 1795719107.0668628,
+    "CRWD": 1795719107.0668628,
+    "ORCL": 1795719107.0668628,
+    "COIN": 1795719107.0668628,
+    "LLY": 1795719107.0668628,
+    "MRNA": 1795719107.0668628,
     "NKE": 1795717639.767247,
     "MCD": 1795717639.767247,
     "PEP": 1795717639.767247,
@@ -3358,7 +3358,7 @@
     "GLW": 1795718714.9537654,
     "ANT": 1795717737.412457,
     "XAUUSD": 1795717737.412457,
-    "KOSPI": 1795717542.8582504
+    "KOSPI": 1795719107.0668628
   },
   "opex_shield": {
     "date": "2026-11-26",
