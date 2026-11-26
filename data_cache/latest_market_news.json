@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795703321.5,
-  "updated_at_et": "11-26 09:28 ET",
-  "updated_at_kst": "23:28 KST",
+  "updated_at_ts": 1795703424.909,
+  "updated_at_et": "11-26 09:30 ET",
+  "updated_at_kst": "23:30 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2605,6 +2605,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "Polygon Brings Its Cross-Border Payments Stack to Coinbase’s Base",
+        "url": "https://decrypt.co/384023/polygon-cross-border-payments-stack-coinbase-base?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 09:01 ET",
+        "pub_ts": 1795701662.0
+      },
+      {
         "title": "Galaxy Research Withdraws Call That Bitcoin's Bear Market Is Over",
         "url": "https://decrypt.co/384030/galaxy-research-withdraws-call-that-bitcoins-bear-market-is-over?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2631,13 +2638,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 06:00 ET",
         "pub_ts": 1795690845.0
-      },
-      {
-        "title": "He Claimed Social Security at 62 to Pour Every $2,100 Check Into Bitcoin, Betting Growth Would Beat Waiting. Bitcoin’s November Plunge Wipes Out About a Quarter of His $50,400, and His Check Stays $900 a Month Smaller for Life",
-        "url": "https://247wallst.com/personal-finance/social-security/2026/11/26/he-claimed-social-security-at-62-to-pour-every-2100-check-into-bitcoin-betting-growth-would-beat-waiting-bitcoins-november-plunge-wipes-out-about-a-quarter-of-his-50400-and-his-check-stays-9/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 05:34 ET",
-        "pub_ts": 1795689268.0
       }
     ],
     "CRWD": [
@@ -2679,6 +2679,27 @@
     ],
     "ORCL": [
       {
+        "title": "Brazil's Data Center Market: Strategic Investment Analysis and Growth Opportunities (2026-2031) with Profiles of Prominent Operators and Infrastructure Providers",
+        "url": "https://finance.yahoo.com/technology/articles/brazils-data-center-market-strategic-140400060.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 09:04 ET",
+        "pub_ts": 1795701840.0
+      },
+      {
+        "title": "Oracle Is Down 47% in 2026. Is There Really a “Reasonable Chance Oracle Goes Bankrupt”?",
+        "url": "https://www.tikr.com/blog/oracle-is-down-47-in-2026-is-there-really-a-reasonable-chance-oracle-goes-bankrupt?ref=yahoofinance&tlnk=yf-261126-97j6xfvm&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 08:50 ET",
+        "pub_ts": 1795701019.0
+      },
+      {
+        "title": "Oracle Corporation (ORCL) Is a Trending Stock: Facts to Know Before Betting on It",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-corporation-orcl-trending-stock-130006105.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 08:00 ET",
+        "pub_ts": 1795698006.0
+      },
+      {
         "title": "Tepper Trims Alphabet by ~46% and Dumps Broadcom & AMD While Backing Micron and Oracle",
         "url": "https://247wallst.com/investing/2026/11/26/tepper-trims-alphabet-by-46-and-dumps-broadcom-amd-while-backing-micron-and-oracle/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2691,30 +2712,16 @@
         "source": "Yahoo Finance",
         "time": "11-26 06:45 ET",
         "pub_ts": 1795693510.0
-      },
-      {
-        "title": "Bloom Energy Issued Oracle 2.15 Million Shares. Now Oracle’s Credit Is Cracking",
-        "url": "https://www.tikr.com/blog/bloom-energy-issued-oracle-2-15-million-shares-now-oracles-credit-is-cracking?ref=yahoofinance&tlnk=yf-261126-v76w4j96&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:35 ET",
-        "pub_ts": 1795692926.0
-      },
-      {
-        "title": "Oracle Bond Yields Hit 9% as AI Debt Fears Deepen",
-        "url": "https://finance.yahoo.com/technology/ai/articles/oracle-bond-yields-hit-9-113300522.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:33 ET",
-        "pub_ts": 1795692780.0
-      },
-      {
-        "title": "Is Oracle the First AI Casualty as It Sheds 70% of Its Value?",
-        "url": "https://beincrypto.com/oracle-stock-falls-70-ai-debt/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 21:15 ET",
-        "pub_ts": 1795659300.0
       }
     ],
     "COIN": [
+      {
+        "title": "Polygon Brings Its Cross-Border Payments Stack to Coinbase’s Base",
+        "url": "https://decrypt.co/384023/polygon-cross-border-payments-stack-coinbase-base?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 09:01 ET",
+        "pub_ts": 1795701662.0
+      },
       {
         "title": "Coinbase CEO on the Anthropic and SpaceX IPOs: Who Actually Made the Money?",
         "url": "https://beincrypto.com/coinbase-ceo-anthropic-spacex-ipo-money/?.tsrc=rss",
@@ -2742,13 +2749,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 15:07 ET",
         "pub_ts": 1795637258.0
-      },
-      {
-        "title": "The Rich Got Into SpaceX Early. Brian Armstrong Wants to Change That",
-        "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63643086/brian-armstrong-private-market-access?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:49 ET",
-        "pub_ts": 1795628959.0
       }
     ],
     "LLY": [
@@ -3339,12 +3339,12 @@
     "SKHY": 1795703321.49975,
     "WDC": 1795703321.49975,
     "STX": 1795703321.49975,
-    "MSTR": 1795701861.4900713,
+    "MSTR": 1795703424.9093442,
     "SNDK": 1795703321.49975,
-    "BTC-USD": 1795701861.4900713,
-    "CRWD": 1795701861.4900713,
-    "ORCL": 1795701861.4900713,
-    "COIN": 1795701861.4900713,
+    "BTC-USD": 1795703424.9093442,
+    "CRWD": 1795703424.9093442,
+    "ORCL": 1795703424.9093442,
+    "COIN": 1795703424.9093442,
     "LLY": 1795702896.9191728,
     "MRNA": 1795702896.9191728,
     "NKE": 1795702896.9191728,
