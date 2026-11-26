@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795729866.585,
-  "updated_at_et": "11-26 16:51 ET",
-  "updated_at_kst": "06:51 KST",
+  "updated_at_ts": 1795729963.712,
+  "updated_at_et": "11-26 16:52 ET",
+  "updated_at_kst": "06:52 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -902,6 +902,13 @@
     ],
     "NVDA": [
       {
+        "title": "Jensen Huang’s Return Doesn’t Make Nvidia Stock (NVDA) a Buy",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-return-doesn-t-212200380.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 16:22 ET",
+        "pub_ts": 1795728120.0
+      },
+      {
         "title": "Nvidia halts server shipments to 4 countries just weeks after Jensen Huang’s affair with alleged spy was exposed",
         "url": "https://nypost.com/2026/11/26/business/nvidia-halts-server-shipments-to-4-southeast-asian-countries-report/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -928,13 +935,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 13:17 ET",
         "pub_ts": 1795717022.0
-      },
-      {
-        "title": "Super Micro Computer (SMCI) Faces Southeast Asia AI Server Disruption After Export Halt",
-        "url": "https://finance.yahoo.com/technology/ai/articles/super-micro-computer-smci-faces-181532913.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 13:15 ET",
-        "pub_ts": 1795716932.0
       }
     ],
     "AMD": [
@@ -3279,23 +3279,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795728405.2348375,
-    "SOXL": 1795728405.2348375,
-    "SPY": 1795728405.2348375,
-    "DIA": 1795728405.2348375,
-    "SOXX": 1795728405.2348375,
-    "QQQ": 1795728405.2348375,
-    "SMH": 1795728405.2348375,
-    "IWM": 1795728405.2348375,
-    "IGV": 1795728405.2348375,
-    "TLT": 1795728405.2348375,
-    "GLD": 1795728405.2348375,
-    "SQQQ": 1795728405.2348375,
-    "TSM": 1795728405.2348375,
-    "VIXY": 1795728405.2348375,
-    "SOXS": 1795728405.2348375,
-    "NVDA": 1795728405.2348375,
-    "AMD": 1795728405.2348375,
+    "KORU": 1795729963.7117205,
+    "SOXL": 1795729963.7117205,
+    "SPY": 1795729963.7117205,
+    "DIA": 1795729963.7117205,
+    "SOXX": 1795729963.7117205,
+    "QQQ": 1795729963.7117205,
+    "SMH": 1795729963.7117205,
+    "IWM": 1795729963.7117205,
+    "IGV": 1795729963.7117205,
+    "TLT": 1795729963.7117205,
+    "GLD": 1795729963.7117205,
+    "SQQQ": 1795729963.7117205,
+    "TSM": 1795729963.7117205,
+    "VIXY": 1795729963.7117205,
+    "SOXS": 1795729963.7117205,
+    "NVDA": 1795729963.7117205,
+    "AMD": 1795729963.7117205,
     "ASML": 1795728793.6173792,
     "QCOM": 1795728793.6173792,
     "AVGO": 1795728793.6173792,
@@ -3338,14 +3338,14 @@
     "SKHY": 1795729672.0397775,
     "WDC": 1795729672.0397775,
     "STX": 1795729672.0397775,
-    "MSTR": 1795728405.2348375,
+    "MSTR": 1795729963.7117205,
     "SNDK": 1795729672.0397775,
-    "BTC-USD": 1795728405.2348375,
-    "CRWD": 1795728405.2348375,
-    "ORCL": 1795728405.2348375,
-    "COIN": 1795728405.2348375,
-    "LLY": 1795728405.2348375,
-    "MRNA": 1795728405.2348375,
+    "BTC-USD": 1795729963.7117205,
+    "CRWD": 1795729963.7117205,
+    "ORCL": 1795729963.7117205,
+    "COIN": 1795729963.7117205,
+    "LLY": 1795729963.7117205,
+    "MRNA": 1795729963.7117205,
     "NKE": 1795728793.6173792,
     "MCD": 1795728793.6173792,
     "PEP": 1795728793.6173792,
@@ -3358,7 +3358,7 @@
     "GLW": 1795729672.0397775,
     "ANT": 1795728893.729584,
     "XAUUSD": 1795728893.729584,
-    "KOSPI": 1795728405.2348375
+    "KOSPI": 1795729963.7117205
   },
   "opex_shield": {
     "date": "2026-11-26",
