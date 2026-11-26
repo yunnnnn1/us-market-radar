@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795660162.754,
-  "updated_at_et": "11-25 21:29 ET",
-  "updated_at_kst": "11:29 KST",
+  "updated_at_ts": 1795660261.822,
+  "updated_at_et": "11-25 21:31 ET",
+  "updated_at_kst": "11:31 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -632,18 +632,18 @@
         "pub_ts": 1795518582.0
       },
       {
+        "title": "Tech Stocks Stall Into Thanksgiving: Will the AI Rebound Return?",
+        "url": "https://beincrypto.com/tech-stocks-stall-thanksgiving-nvidia-rebound/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 20:19 ET",
+        "pub_ts": 1795655993.0
+      },
+      {
         "title": "The Semiconductor ETF Kept Falling After Nvidia Raised Its Forecast. Time to Buy?",
         "url": "https://www.fool.com/investing/2026/11/24/the-semiconductor-etf-kept-falling-after-nvidia-raised-its-forecast-time-to-buy/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-24 23:57 ET",
         "pub_ts": 1795582622.0
-      },
-      {
-        "title": "Micron Jumped 19% Monday, Then Sank Double Digits. Here’s What That Swing Means for SMH Holders",
-        "url": "https://247wallst.com/investing/etf/2026/11/24/micron-jumped-19-monday-then-sank-double-digits-heres-what-that-swing-means-for-smh-holders/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:52 ET",
-        "pub_ts": 1795539162.0
       }
     ],
     "IWM": [
@@ -944,6 +944,13 @@
     ],
     "NVDA": [
       {
+        "title": "Tech Stocks Stall Into Thanksgiving: Will the AI Rebound Return?",
+        "url": "https://beincrypto.com/tech-stocks-stall-thanksgiving-nvidia-rebound/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 20:19 ET",
+        "pub_ts": 1795655993.0
+      },
+      {
         "title": "S&P 500, Nasdaq End Lower But Dow Rebounds As Traders Rotate Out Of AI — NVDA, SPCX, PANW In Focus",
         "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-lower-but-dow-rebounds-as-traders-rotate-out-of-ai-nvda-spcx-panw-in-focus/cNbx21AR9mC?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -963,13 +970,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 18:20 ET",
         "pub_ts": 1795648828.0
-      },
-      {
-        "title": "The Nvidia Scandal Set Off a Chip Crackdown in Congress. Which Stocks Are Most at Risk?",
-        "url": "https://www.fool.com/investing/2026/11/25/the-nvidia-scandal-set-off-a-chip-crackdown-in-congress-which-stocks-are-most-at-risk/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 18:18 ET",
-        "pub_ts": 1795648685.0
       },
       {
         "title": "Broadcom Stock Hasn't Traded This Low Since July 2025. I Think It's a Buy.",
@@ -2797,8 +2797,8 @@
         "title": "Dow Jones Futures Rise; Market Goes On Wild Ride As Nasdaq Slashes Losses",
         "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 20:34 ET",
-        "pub_ts": 1795656875.0
+        "time": "11-25 21:17 ET",
+        "pub_ts": 1795659448.0
       },
       {
         "title": "Sector Update: Healthcare Stocks Fall Late Afternoon",
@@ -3321,23 +3321,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795658682.1702785,
-    "SOXL": 1795658682.1702785,
-    "SPY": 1795658682.1702785,
-    "DIA": 1795658682.1702785,
-    "SOXX": 1795658682.1702785,
-    "QQQ": 1795658682.1702785,
-    "SMH": 1795658682.1702785,
-    "IWM": 1795658682.1702785,
-    "IGV": 1795658682.1702785,
-    "TLT": 1795658682.1702785,
-    "GLD": 1795658682.1702785,
-    "SQQQ": 1795658682.1702785,
-    "TSM": 1795658682.1702785,
-    "VIXY": 1795658682.1702785,
-    "SOXS": 1795658682.1702785,
-    "NVDA": 1795658682.1702785,
-    "AMD": 1795658682.1702785,
+    "KORU": 1795660261.8218083,
+    "SOXL": 1795660261.8218083,
+    "SPY": 1795660261.8218083,
+    "DIA": 1795660261.8218083,
+    "SOXX": 1795660261.8218083,
+    "QQQ": 1795660261.8218083,
+    "SMH": 1795660261.8218083,
+    "IWM": 1795660261.8218083,
+    "IGV": 1795660261.8218083,
+    "TLT": 1795660261.8218083,
+    "GLD": 1795660261.8218083,
+    "SQQQ": 1795660261.8218083,
+    "TSM": 1795660261.8218083,
+    "VIXY": 1795660261.8218083,
+    "SOXS": 1795660261.8218083,
+    "NVDA": 1795660261.8218083,
+    "AMD": 1795660261.8218083,
     "ASML": 1795658879.5318527,
     "QCOM": 1795658879.5318527,
     "AVGO": 1795658879.5318527,
@@ -3386,21 +3386,21 @@
     "CRWD": 1795660162.754134,
     "ORCL": 1795660162.754134,
     "COIN": 1795660162.754134,
-    "LLY": 1795658682.1702785,
-    "MRNA": 1795658682.1702785,
-    "NKE": 1795658682.1702785,
-    "MCD": 1795658682.1702785,
-    "PEP": 1795658682.1702785,
+    "LLY": 1795660261.8218083,
+    "MRNA": 1795660261.8218083,
+    "NKE": 1795660261.8218083,
+    "MCD": 1795660261.8218083,
+    "PEP": 1795660261.8218083,
     "XOM": 1795658879.5318527,
-    "JPM": 1795658682.1702785,
+    "JPM": 1795660261.8218083,
     "WMT": 1795658879.5318527,
-    "V": 1795658682.1702785,
+    "V": 1795660261.8218083,
     "CAT": 1795658879.5318527,
     "FN": 1795658979.0032287,
     "GLW": 1795658979.0032287,
     "ANT": 1795658879.5318527,
     "XAUUSD": 1795658879.5318527,
-    "KOSPI": 1795658682.1702785
+    "KOSPI": 1795660261.8218083
   },
   "opex_shield": {
     "date": "2026-11-25",
