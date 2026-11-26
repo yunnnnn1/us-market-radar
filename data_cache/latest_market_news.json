@@ -1,9 +1,22 @@
 {
-  "updated_at_ts": 1795681802.933,
-  "updated_at_et": "11-26 03:30 ET",
-  "updated_at_kst": "17:30 KST",
+  "updated_at_ts": 1795681907.51,
+  "updated_at_et": "11-26 03:31 ET",
+  "updated_at_kst": "17:31 KST",
   "macro_calendar": [],
   "macro_flashes": [
+    {
+      "id": "20261126163014982800",
+      "title": "原油地缘溢价限时返场，过剩预期会给多头带来多大压力？｜原油头条",
+      "summary": "油价在地缘溢价回归中快速回升，但EIA原油库存持续增加，摩根大通更是发出供应过剩将延续至2028年，多头会面临多大压力？",
+      "keywords": [
+        "原油"
+      ],
+      "pub_ts": 1795681814.0,
+      "time_et": "11-26 03:30 ET",
+      "time_bj": "16:30 BJ",
+      "time_kst": "17:30 KST",
+      "time_display": "03:30 ET / 16:30 BJ"
+    },
     {
       "id": "20261126161124620800",
       "title": "柴油价格终于松动，全球能源市场虽迎来喘息但远未脱险",
@@ -323,19 +336,6 @@
       "time_bj": "13:13 BJ",
       "time_kst": "14:13 KST",
       "time_display": "00:13 ET / 13:13 BJ"
-    },
-    {
-      "id": "20261126131204680800",
-      "title": "马斯克与SpaceX豪捐178亿美元！7000万个特朗普账户有望各获两股",
-      "summary": "马斯克与SpaceX将分别向每个有效的“特朗普账户”捐赠一股SpaceX股票，数千万美国儿童有望各持有两股。按当前股价估算，双方捐赠总额约178亿美元。点击查看",
-      "keywords": [
-        "特朗普"
-      ],
-      "pub_ts": 1795669924.0,
-      "time_et": "11-26 00:12 ET",
-      "time_bj": "13:12 BJ",
-      "time_kst": "14:12 KST",
-      "time_display": "00:12 ET / 13:12 BJ"
     }
   ],
   "ticker_news": {
@@ -896,6 +896,20 @@
     ],
     "NVDA": [
       {
+        "title": "Nvidia Reportedly Halts AI Server Shipments To Southeast Asia Ahead Of Jensen Huang's Congress Testimony",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nvidia-reportedly-halts-ai-server-shipments-to-southeast-asia-ahead-of-jensen-huang-s-congress-testimony/cNbxLXJR9ZN?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 03:11 ET",
+        "pub_ts": 1795680707.0
+      },
+      {
+        "title": "S&P Weighs Nvidia Downgrade Despite Huang's Return. What Would a Cut Mean?",
+        "url": "https://beincrypto.com/sp-nvidia-credit-rating-downgrade-watch/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 03:00 ET",
+        "pub_ts": 1795680000.0
+      },
+      {
         "title": "Prediction: This Is What Nvidia Stock Will Be Worth by 2028",
         "url": "https://www.fool.com/investing/2026/11/26/prediction-this-is-what-nvidia-stock-will-be-worth-by-2028/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -915,20 +929,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 02:32 ET",
         "pub_ts": 1795678362.0
-      },
-      {
-        "title": "Mike Pompeo Has ‘No Doubt’ Alice Huang Coordinated With Communist Party of China: Crypto Bettors Weigh Odds of Her Arrest",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63660281/mike-pompeo-has-no-doubt-alice-huang-coordinated-with-communist-party-of-china-crypto-bettors-weigh-odds-of-her-arrest?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 02:22 ET",
-        "pub_ts": 1795677733.0
-      },
-      {
-        "title": "MU, SNDK, SKHY Jump As Nvidia Tests Kioxia Memory Fix — Analyst Presses Memory Giants For ‘Massive’ Buybacks",
-        "url": "https://stocktwits.com/news-articles/markets/equity/mu-sndk-skhy-nvidia-kioxia-memory-fix-analyst-memory-giants-buybacks/cNbxQFgR9ZK?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 01:30 ET",
-        "pub_ts": 1795674651.0
       }
     ],
     "AMD": [
@@ -2968,6 +2968,13 @@
     ],
     "JPM": [
       {
+        "title": "What Is JPMorgan Chase (JPM) Saying With Its $450 Billion AI Debt Call?",
+        "url": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-chase-jpm-saying-450-080838063.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 03:08 ET",
+        "pub_ts": 1795680518.0
+      },
+      {
         "title": "Market Chatter: JPMorgan Projects $450 Billion in AI High-Grade Debt Issuance for 2027",
         "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-jpmorgan-projects-450-222027435.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2994,13 +3001,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 13:21 ET",
         "pub_ts": 1795630860.0
-      },
-      {
-        "title": "JPMorgan Sees S&P 500 At 8,200 In 2027 As AI Supercycle Remains Intact",
-        "url": "https://stocktwits.com/news-articles/markets/equity/jp-morgan-sees-s-and-p-500-at-8-200-in-2027-as-ai-supercycle-remains-intact/cNbHmzoR9mY?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:47 ET",
-        "pub_ts": 1795625272.0
       }
     ],
     "WMT": [
@@ -3273,23 +3273,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795680365.9272068,
-    "SOXL": 1795680365.9272068,
-    "SPY": 1795680365.9272068,
-    "DIA": 1795680365.9272068,
-    "SOXX": 1795680365.9272068,
-    "QQQ": 1795680365.9272068,
-    "SMH": 1795680365.9272068,
-    "IWM": 1795680365.9272068,
-    "IGV": 1795680365.9272068,
-    "TLT": 1795680365.9272068,
-    "GLD": 1795680365.9272068,
-    "SQQQ": 1795680365.9272068,
-    "TSM": 1795680365.9272068,
-    "VIXY": 1795680365.9272068,
-    "SOXS": 1795680365.9272068,
-    "NVDA": 1795680365.9272068,
-    "AMD": 1795680365.9272068,
+    "KORU": 1795681907.5100489,
+    "SOXL": 1795681907.5100489,
+    "SPY": 1795681907.5100489,
+    "DIA": 1795681907.5100489,
+    "SOXX": 1795681907.5100489,
+    "QQQ": 1795681907.5100489,
+    "SMH": 1795681907.5100489,
+    "IWM": 1795681907.5100489,
+    "IGV": 1795681907.5100489,
+    "TLT": 1795681907.5100489,
+    "GLD": 1795681907.5100489,
+    "SQQQ": 1795681907.5100489,
+    "TSM": 1795681907.5100489,
+    "VIXY": 1795681907.5100489,
+    "SOXS": 1795681907.5100489,
+    "NVDA": 1795681907.5100489,
+    "AMD": 1795681907.5100489,
     "ASML": 1795680675.356762,
     "QCOM": 1795680675.356762,
     "AVGO": 1795680675.356762,
@@ -3338,21 +3338,21 @@
     "CRWD": 1795681698.2501345,
     "ORCL": 1795681698.2501345,
     "COIN": 1795681698.2501345,
-    "LLY": 1795680365.9272068,
-    "MRNA": 1795680365.9272068,
-    "NKE": 1795680365.9272068,
-    "MCD": 1795680365.9272068,
-    "PEP": 1795680365.9272068,
+    "LLY": 1795681907.5100489,
+    "MRNA": 1795681907.5100489,
+    "NKE": 1795681907.5100489,
+    "MCD": 1795681907.5100489,
+    "PEP": 1795681907.5100489,
     "XOM": 1795680675.356762,
-    "JPM": 1795680365.9272068,
+    "JPM": 1795681907.5100489,
     "WMT": 1795680675.356762,
-    "V": 1795680365.9272068,
+    "V": 1795681907.5100489,
     "CAT": 1795680675.356762,
     "FN": 1795680777.5981672,
     "GLW": 1795680777.5981672,
     "ANT": 1795680675.356762,
     "XAUUSD": 1795680675.356762,
-    "KOSPI": 1795680365.9272068
+    "KOSPI": 1795681907.5100489
   },
   "opex_shield": {
     "date": "2026-11-26",
@@ -3371,7 +3371,7 @@
   "calendar_banner": {
     "level": "idle_with_flash",
     "headline": "📡 宏观消息面监控中 · 今日暂无美股五星级经济数据大考",
-    "detail": "⚡ 最新核心快讯 (03:11 ET / 16:11 BJ) [原油]：欧洲柴油期货较高点跌近三成，美零售柴油、亚洲船货价格同步走弱；原油价格下行、海峡运量修复是本轮供应改善主线，但航运安全风险和美国低库存仍可能令供应再度趋紧。",
+    "detail": "⚡ 最新核心快讯 (03:30 ET / 16:30 BJ) [原油]：油价在地缘溢价回归中快速回升，但EIA原油库存持续增加，摩根大通更是发出供应过剩将延续至2028年，多头会面临多大压力？",
     "event_name": "",
     "minutes_left": 0,
     "opex_shield": {
