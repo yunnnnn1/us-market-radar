@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795728013.424,
-  "updated_at_et": "11-26 16:20 ET",
-  "updated_at_kst": "06:20 KST",
+  "updated_at_ts": 1795728110.322,
+  "updated_at_et": "11-26 16:21 ET",
+  "updated_at_kst": "06:21 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1753,6 +1753,13 @@
     ],
     "SPCX": [
       {
+        "title": "SpaceX Is a Great Company. Is It a Great Stock at This Price?",
+        "url": "https://www.fool.com/investing/2026/11/26/spacex-is-a-great-company-is-it-a-great-stock-at-this-price/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 15:56 ET",
+        "pub_ts": 1795726562.0
+      },
+      {
         "title": "SpaceX gets approval to deploy 1 million satellites for data centers in space",
         "url": "https://www.independent.co.uk/tech/elon-musk-spacex-data-centre-satellites-b3092444.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1779,13 +1786,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 13:12 ET",
         "pub_ts": 1795716730.0
-      },
-      {
-        "title": "SpaceX Gets a Fresh Vote of Confidence From Cathie Wood",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-gets-fresh-vote-confidence-181158897.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 13:11 ET",
-        "pub_ts": 1795716718.0
       }
     ],
     "ASTS": [
@@ -2382,6 +2382,13 @@
     ],
     "MU": [
       {
+        "title": "Why It’s Hard to Write Off Micron (MU) Even with a Memory Peak in Sight",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-hard-write-off-micron-210000375.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 16:00 ET",
+        "pub_ts": 1795726800.0
+      },
+      {
         "title": "Micron Stock Faces Surprising New Threat From Huawei",
         "url": "https://finance.yahoo.com/markets/stocks/articles/micron-stock-faces-surprising-threat-180348513.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2408,13 +2415,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 08:53 ET",
         "pub_ts": 1795701219.0
-      },
-      {
-        "title": "Is Micron Stock a Buy After HPE Said Memory Will Stay Scarce Into 2028?",
-        "url": "https://www.fool.com/investing/2026/11/26/is-micron-stock-a-buy-after-hpe-said-memory-will-stay-scarce-into-2028/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 08:37 ET",
-        "pub_ts": 1795700222.0
       }
     ],
     "SKHY": [
@@ -3315,31 +3315,31 @@
     "CRDO": 1795727233.36914,
     "COHR": 1795727233.36914,
     "MRVL": 1795727233.36914,
-    "LITE": 1795726516.744358,
+    "LITE": 1795728110.3223414,
     "AAOI": 1795727233.36914,
-    "SPCX": 1795726516.744358,
-    "ASTS": 1795726516.744358,
-    "AXTI": 1795726516.744358,
-    "NASA": 1795726516.744358,
-    "LUNR": 1795726516.744358,
-    "TSLA": 1795726516.744358,
-    "AXP": 1795726516.744358,
-    "RKLB": 1795726516.744358,
-    "KO": 1795726516.744358,
-    "FLY": 1795726516.744358,
-    "INTC": 1795726516.744358,
-    "VRT": 1795726516.744358,
-    "HPE": 1795726516.744358,
-    "DELL": 1795726516.744358,
-    "OKLO": 1795726516.744358,
-    "CEG": 1795726516.744358,
-    "FPS": 1795726516.744358,
-    "MU": 1795726516.744358,
-    "SKHY": 1795726516.744358,
-    "WDC": 1795726516.744358,
-    "STX": 1795726516.744358,
+    "SPCX": 1795728110.3223414,
+    "ASTS": 1795728110.3223414,
+    "AXTI": 1795728110.3223414,
+    "NASA": 1795728110.3223414,
+    "LUNR": 1795728110.3223414,
+    "TSLA": 1795728110.3223414,
+    "AXP": 1795728110.3223414,
+    "RKLB": 1795728110.3223414,
+    "KO": 1795728110.3223414,
+    "FLY": 1795728110.3223414,
+    "INTC": 1795728110.3223414,
+    "VRT": 1795728110.3223414,
+    "HPE": 1795728110.3223414,
+    "DELL": 1795728110.3223414,
+    "OKLO": 1795728110.3223414,
+    "CEG": 1795728110.3223414,
+    "FPS": 1795728110.3223414,
+    "MU": 1795728110.3223414,
+    "SKHY": 1795728110.3223414,
+    "WDC": 1795728110.3223414,
+    "STX": 1795728110.3223414,
     "MSTR": 1795726887.066239,
-    "SNDK": 1795726516.744358,
+    "SNDK": 1795728110.3223414,
     "BTC-USD": 1795726887.066239,
     "CRWD": 1795726887.066239,
     "ORCL": 1795726887.066239,
@@ -3354,8 +3354,8 @@
     "WMT": 1795727331.0110416,
     "V": 1795727233.36914,
     "CAT": 1795727331.0110416,
-    "FN": 1795726516.744358,
-    "GLW": 1795726516.744358,
+    "FN": 1795728110.3223414,
+    "GLW": 1795728110.3223414,
     "ANT": 1795727331.0110416,
     "XAUUSD": 1795727331.0110416,
     "KOSPI": 1795726887.066239
