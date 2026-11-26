@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795721741.296,
-  "updated_at_et": "11-26 14:35 ET",
-  "updated_at_kst": "04:35 KST",
+  "updated_at_ts": 1795721838.42,
+  "updated_at_et": "11-26 14:37 ET",
+  "updated_at_kst": "04:37 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1753,6 +1753,13 @@
     ],
     "SPCX": [
       {
+        "title": "SpaceX Stocks Rise 1.3% as FCC Approves 1 Million Orbital Data Center Satellites",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-stocks-rise-1-3-191028542.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 14:10 ET",
+        "pub_ts": 1795720228.0
+      },
+      {
         "title": "Elon Musk doubles SpaceX share pledge for U.S. children",
         "url": "https://www.cbsnews.com/news/elon-musk-spacex-shares-trump-accounts/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1779,13 +1786,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 12:46 ET",
         "pub_ts": 1795715166.0
-      },
-      {
-        "title": "Elon Musk didn’t sell a single share in SpaceX’s record $85.7B IPO. Anthropic’s 7 cofounders cashed out $1.96B in theirs",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-didn-t-sell-170000854.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 12:00 ET",
-        "pub_ts": 1795712400.0
       }
     ],
     "ASTS": [
@@ -1938,6 +1938,13 @@
     ],
     "TSLA": [
       {
+        "title": "Tesla Stocks Slip 1.18% as EU Delays Self-Driving Vote to December 15",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-stocks-slip-1-18-190357031.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 14:03 ET",
+        "pub_ts": 1795719837.0
+      },
+      {
         "title": "Tesla: A SpaceX Merger Could Turn $5,000 Into $10,000",
         "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-spacex-merger-could-turn-174606474.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1964,13 +1971,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 06:45 ET",
         "pub_ts": 1795693559.0
-      },
-      {
-        "title": "Invesco QQQ Trust (QQQ) Buys $187.4 Million More Apple on Tuesday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-qqq-trust-qqq-buys-110402435.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:04 ET",
-        "pub_ts": 1795691042.0
       }
     ],
     "AXP": [
@@ -2419,6 +2419,13 @@
     ],
     "SKHY": [
       {
+        "title": "SK hynix Stocks Rise 2.23% as Seoul Chip Rebound Fades From a 5.7% Gain",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-stocks-rise-2-191120627.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 14:11 ET",
+        "pub_ts": 1795720280.0
+      },
+      {
         "title": "SK Hynix Just Revealed the Next Generation of DRAM. Can It Beat Micron in the Next Memory Supercycle?",
         "url": "https://247wallst.com/investing/2026/11/26/sk-hynix-just-revealed-the-next-generation-of-dram-can-it-beat-micron-in-the-next-memory-supercycle/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2445,13 +2452,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 19:54 ET",
         "pub_ts": 1795654498.0
-      },
-      {
-        "title": "SK hynix (KOSE:A000660) AI Memory Narrative Puts Valuation Back In Focus",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-kose-a000660-ai-211453290.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 16:14 ET",
-        "pub_ts": 1795641293.0
       }
     ],
     "WDC": [
@@ -3315,31 +3315,31 @@
     "CRDO": 1795720761.7937882,
     "COHR": 1795720761.7937882,
     "MRVL": 1795720761.7937882,
-    "LITE": 1795720275.0311432,
+    "LITE": 1795721838.4203064,
     "AAOI": 1795720761.7937882,
-    "SPCX": 1795720275.0311432,
-    "ASTS": 1795720275.0311432,
-    "AXTI": 1795720275.0311432,
-    "NASA": 1795720275.0311432,
-    "LUNR": 1795720275.0311432,
-    "TSLA": 1795720275.0311432,
-    "AXP": 1795720275.0311432,
-    "RKLB": 1795720275.0311432,
-    "KO": 1795720275.0311432,
-    "FLY": 1795720275.0311432,
-    "INTC": 1795720275.0311432,
-    "VRT": 1795720275.0311432,
-    "HPE": 1795720275.0311432,
-    "DELL": 1795720275.0311432,
-    "OKLO": 1795720275.0311432,
-    "CEG": 1795720275.0311432,
-    "FPS": 1795720275.0311432,
-    "MU": 1795720275.0311432,
-    "SKHY": 1795720275.0311432,
-    "WDC": 1795720275.0311432,
-    "STX": 1795720275.0311432,
+    "SPCX": 1795721838.4203064,
+    "ASTS": 1795721838.4203064,
+    "AXTI": 1795721838.4203064,
+    "NASA": 1795721838.4203064,
+    "LUNR": 1795721838.4203064,
+    "TSLA": 1795721838.4203064,
+    "AXP": 1795721838.4203064,
+    "RKLB": 1795721838.4203064,
+    "KO": 1795721838.4203064,
+    "FLY": 1795721838.4203064,
+    "INTC": 1795721838.4203064,
+    "VRT": 1795721838.4203064,
+    "HPE": 1795721838.4203064,
+    "DELL": 1795721838.4203064,
+    "OKLO": 1795721838.4203064,
+    "CEG": 1795721838.4203064,
+    "FPS": 1795721838.4203064,
+    "MU": 1795721838.4203064,
+    "SKHY": 1795721838.4203064,
+    "WDC": 1795721838.4203064,
+    "STX": 1795721838.4203064,
     "MSTR": 1795720663.8153572,
-    "SNDK": 1795720275.0311432,
+    "SNDK": 1795721838.4203064,
     "BTC-USD": 1795720663.8153572,
     "CRWD": 1795720663.8153572,
     "ORCL": 1795720663.8153572,
@@ -3354,8 +3354,8 @@
     "WMT": 1795720860.3751976,
     "V": 1795720761.7937882,
     "CAT": 1795720860.3751976,
-    "FN": 1795720275.0311432,
-    "GLW": 1795720275.0311432,
+    "FN": 1795721838.4203064,
+    "GLW": 1795721838.4203064,
     "ANT": 1795720860.3751976,
     "XAUUSD": 1795720860.3751976,
     "KOSPI": 1795720663.8153572
