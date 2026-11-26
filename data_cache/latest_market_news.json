@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795667987.463,
-  "updated_at_et": "11-25 23:39 ET",
-  "updated_at_kst": "13:39 KST",
+  "updated_at_ts": 1795668093.485,
+  "updated_at_et": "11-25 23:41 ET",
+  "updated_at_kst": "13:41 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -939,6 +939,20 @@
     ],
     "NVDA": [
       {
+        "title": "Kioxia and NVIDIA Collaborate to Expand Effective High-Bandwidth Memory Capacity with SSDs",
+        "url": "https://finance.yahoo.com/technology/ai/articles/kioxia-nvidia-collaborate-expand-effective-041900475.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 23:19 ET",
+        "pub_ts": 1795666740.0
+      },
+      {
+        "title": "‘I Don’t Think He Needs a Pardon at All’: JD Vance Defends Nvidia CEO Jensen Huang as Crypto Bettors Put Him Atop Trump’s List",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63659548/jd-vance-jensen-huang-trump-pardon-nvidia?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 23:14 ET",
+        "pub_ts": 1795666443.0
+      },
+      {
         "title": "Trump admin weighed using Cold War law to reinstate Nvidia CEO Huang, WaPo reports",
         "url": "https://finance.yahoo.com/technology/articles/trump-admin-weighed-using-cold-032247551.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -953,25 +967,11 @@
         "pub_ts": 1795662706.0
       },
       {
-        "title": "Kioxia and NVIDIA Collaborate to Expand Effective High-Bandwidth Memory Capacity with SSDs",
-        "url": "https://finance.yahoo.com/technology/ai/articles/kioxia-nvidia-collaborate-expand-effective-031000587.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 22:10 ET",
-        "pub_ts": 1795662600.0
-      },
-      {
         "title": "Is Nvidia Stock a Buy After Dell's Record AI Backlog?",
         "url": "https://www.fool.com/investing/2026/11/25/is-nvidia-stock-a-buy-after-dell-s-record-ai-backlog/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 22:07 ET",
         "pub_ts": 1795662422.0
-      },
-      {
-        "title": "Nvidia’s Market Cap Falls Below Microsoft’s: Analyst Flags Five Overhangs For NVDA Stock",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nvidia-s-market-cap-falls-below-microsoft-s-analyst-flags-five-overhangs-for-nvda-stock/cNbx4KZR9Z3?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 21:39 ET",
-        "pub_ts": 1795660782.0
       }
     ],
     "AMD": [
@@ -2789,11 +2789,11 @@
     ],
     "LLY": [
       {
-        "title": "Dow Jones Futures Rise; Market Goes On Wild Ride As Nasdaq Slashes Losses",
-        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B.html?.tsrc=rss",
+        "title": "Dow Jones Futures Rise After Nasdaq Slashes Losses In Wild Market Ride",
+        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise-after.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 22:51 ET",
-        "pub_ts": 1795665090.0
+        "time": "11-25 23:06 ET",
+        "pub_ts": 1795665992.0
       },
       {
         "title": "Sector Update: Healthcare Stocks Fall Late Afternoon",
@@ -3316,23 +3316,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795666555.049817,
-    "SOXL": 1795666555.049817,
-    "SPY": 1795666555.049817,
-    "DIA": 1795666555.049817,
-    "SOXX": 1795666555.049817,
-    "QQQ": 1795666555.049817,
-    "SMH": 1795666555.049817,
-    "IWM": 1795666555.049817,
-    "IGV": 1795666555.049817,
-    "TLT": 1795666555.049817,
-    "GLD": 1795666555.049817,
-    "SQQQ": 1795666555.049817,
-    "TSM": 1795666555.049817,
-    "VIXY": 1795666555.049817,
-    "SOXS": 1795666555.049817,
-    "NVDA": 1795666555.049817,
-    "AMD": 1795666555.049817,
+    "KORU": 1795668093.4854088,
+    "SOXL": 1795668093.4854088,
+    "SPY": 1795668093.4854088,
+    "DIA": 1795668093.4854088,
+    "SOXX": 1795668093.4854088,
+    "QQQ": 1795668093.4854088,
+    "SMH": 1795668093.4854088,
+    "IWM": 1795668093.4854088,
+    "IGV": 1795668093.4854088,
+    "TLT": 1795668093.4854088,
+    "GLD": 1795668093.4854088,
+    "SQQQ": 1795668093.4854088,
+    "TSM": 1795668093.4854088,
+    "VIXY": 1795668093.4854088,
+    "SOXS": 1795668093.4854088,
+    "NVDA": 1795668093.4854088,
+    "AMD": 1795668093.4854088,
     "ASML": 1795666863.6458282,
     "QCOM": 1795666863.6458282,
     "AVGO": 1795666863.6458282,
@@ -3381,21 +3381,21 @@
     "CRWD": 1795667886.2056994,
     "ORCL": 1795667886.2056994,
     "COIN": 1795667886.2056994,
-    "LLY": 1795666555.049817,
-    "MRNA": 1795666555.049817,
-    "NKE": 1795666555.049817,
-    "MCD": 1795666555.049817,
-    "PEP": 1795666555.049817,
+    "LLY": 1795668093.4854088,
+    "MRNA": 1795668093.4854088,
+    "NKE": 1795668093.4854088,
+    "MCD": 1795668093.4854088,
+    "PEP": 1795668093.4854088,
     "XOM": 1795666863.6458282,
-    "JPM": 1795666555.049817,
+    "JPM": 1795668093.4854088,
     "WMT": 1795666863.6458282,
-    "V": 1795666555.049817,
+    "V": 1795668093.4854088,
     "CAT": 1795666863.6458282,
     "FN": 1795666965.4622643,
     "GLW": 1795666965.4622643,
     "ANT": 1795666863.6458282,
     "XAUUSD": 1795666863.6458282,
-    "KOSPI": 1795666555.049817
+    "KOSPI": 1795668093.4854088
   },
   "opex_shield": {
     "date": "2026-11-25",
