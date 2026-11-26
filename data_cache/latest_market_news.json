@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795678526.426,
-  "updated_at_et": "11-26 02:35 ET",
-  "updated_at_kst": "16:35 KST",
+  "updated_at_ts": 1795678629.297,
+  "updated_at_et": "11-26 02:37 ET",
+  "updated_at_kst": "16:37 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2376,6 +2376,13 @@
     ],
     "MU": [
       {
+        "title": "Micron Technology (MU) Products Are Exempt From New US Tariffs",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/micron-technology-mu-products-exempt-071205634.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 02:12 ET",
+        "pub_ts": 1795677125.0
+      },
+      {
         "title": "MU, SNDK, SKHY Jump As Nvidia Tests Kioxia Memory Fix — Analyst Presses Memory Giants For ‘Massive’ Buybacks",
         "url": "https://stocktwits.com/news-articles/markets/equity/mu-sndk-skhy-nvidia-kioxia-memory-fix-analyst-memory-giants-buybacks/cNbxQFgR9ZK?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2402,16 +2409,16 @@
         "source": "Yahoo Finance",
         "time": "11-25 17:33 ET",
         "pub_ts": 1795645980.0
-      },
-      {
-        "title": "Not Micron. Not Broadcom. This Is My Top Oversold Artificial Intelligence (AI) Stock to Buy in December",
-        "url": "https://www.fool.com/investing/2026/11/25/not-micron-not-broadcom-this-is-my-top-oversold-artificial-intelligence-ai-stock-to-buy-in-december/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 16:51 ET",
-        "pub_ts": 1795643461.0
       }
     ],
     "SKHY": [
+      {
+        "title": "Asian stocks stabilise after tech rout",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-enjoy-another-bounce-023024729.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 02:11 ET",
+        "pub_ts": 1795677102.0
+      },
       {
         "title": "MU, SNDK, SKHY Jump As Nvidia Tests Kioxia Memory Fix — Analyst Presses Memory Giants For ‘Massive’ Buybacks",
         "url": "https://stocktwits.com/news-articles/markets/equity/mu-sndk-skhy-nvidia-kioxia-memory-fix-analyst-memory-giants-buybacks/cNbxQFgR9ZK?.tsrc=rss",
@@ -2439,16 +2446,16 @@
         "source": "Yahoo Finance",
         "time": "11-25 16:12 ET",
         "pub_ts": 1795641120.0
-      },
-      {
-        "title": "SK hynix Falls 5%, Sandisk Down 10% as Asian Chip Stocks Give Back the Huang Rally",
-        "url": "https://www.tikr.com/blog/sk-hynix-falls-5-sandisk-down-10-as-asian-chip-stocks-give-back-the-huang-rally?ref=yahoofinance&tlnk=yf-261125-7hm5f9h6&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:46 ET",
-        "pub_ts": 1795628786.0
       }
     ],
     "WDC": [
+      {
+        "title": "Elite Growth Stocks To Own In November 2026",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/elite-growth-stocks-own-november-071347242.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 02:13 ET",
+        "pub_ts": 1795677227.0
+      },
       {
         "title": "Western Digital Stocks Sink 7.42%, Trading 139% Above GF Value",
         "url": "https://finance.yahoo.com/markets/stocks/articles/western-digital-stocks-sink-7-172258485.html?.tsrc=rss",
@@ -2476,13 +2483,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 13:00 ET",
         "pub_ts": 1795629657.0
-      },
-      {
-        "title": "SK hynix Falls 5%, Sandisk Down 10% as Asian Chip Stocks Give Back the Huang Rally",
-        "url": "https://www.tikr.com/blog/sk-hynix-falls-5-sandisk-down-10-as-asian-chip-stocks-give-back-the-huang-rally?ref=yahoofinance&tlnk=yf-261125-7hm5f9h6&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:46 ET",
-        "pub_ts": 1795628786.0
       }
     ],
     "STX": [
@@ -2598,6 +2598,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "Bitcoin recovers to $60.5k, but rates, regulatory fears persist",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-recovers-60-5k-rates-070224193.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 02:02 ET",
+        "pub_ts": 1795676544.0
+      },
+      {
         "title": "Bitcoin technical outlook: bear trend with oversold signals near $61,000",
         "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-technical-outlook-bear-trend-054532169.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2624,13 +2631,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 20:37 ET",
         "pub_ts": 1795657054.0
-      },
-      {
-        "title": "One Big Difference Between Bitcoin and Pearl: There’s ‘No True Fair Launch Anymore’",
-        "url": "https://unchainedcrypto.com/one-big-difference-between-bitcoin-and-pearl-theres-no-true-fair-launch-anymore/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 20:00 ET",
-        "pub_ts": 1795654845.0
       }
     ],
     "CRWD": [
@@ -3312,32 +3312,32 @@
     "LITE": 1795677706.4549344,
     "AAOI": 1795677604.9918277,
     "SPCX": 1795677706.4549344,
-    "ASTS": 1795677093.3457341,
+    "ASTS": 1795678629.2971346,
     "AXTI": 1795677706.4549344,
-    "NASA": 1795677093.3457341,
-    "LUNR": 1795677093.3457341,
-    "TSLA": 1795677093.3457341,
-    "AXP": 1795677093.3457341,
-    "RKLB": 1795677093.3457341,
-    "KO": 1795677093.3457341,
-    "FLY": 1795677093.3457341,
-    "INTC": 1795677093.3457341,
-    "VRT": 1795677093.3457341,
-    "HPE": 1795677093.3457341,
-    "DELL": 1795677093.3457341,
-    "OKLO": 1795677093.3457341,
-    "CEG": 1795677093.3457341,
-    "FPS": 1795677093.3457341,
-    "MU": 1795677093.3457341,
-    "SKHY": 1795677093.3457341,
-    "WDC": 1795677093.3457341,
-    "STX": 1795677093.3457341,
-    "MSTR": 1795677093.3457341,
-    "SNDK": 1795677093.3457341,
-    "BTC-USD": 1795677093.3457341,
-    "CRWD": 1795677093.3457341,
-    "ORCL": 1795677093.3457341,
-    "COIN": 1795677093.3457341,
+    "NASA": 1795678629.2971346,
+    "LUNR": 1795678629.2971346,
+    "TSLA": 1795678629.2971346,
+    "AXP": 1795678629.2971346,
+    "RKLB": 1795678629.2971346,
+    "KO": 1795678629.2971346,
+    "FLY": 1795678629.2971346,
+    "INTC": 1795678629.2971346,
+    "VRT": 1795678629.2971346,
+    "HPE": 1795678629.2971346,
+    "DELL": 1795678629.2971346,
+    "OKLO": 1795678629.2971346,
+    "CEG": 1795678629.2971346,
+    "FPS": 1795678629.2971346,
+    "MU": 1795678629.2971346,
+    "SKHY": 1795678629.2971346,
+    "WDC": 1795678629.2971346,
+    "STX": 1795678629.2971346,
+    "MSTR": 1795678629.2971346,
+    "SNDK": 1795678629.2971346,
+    "BTC-USD": 1795678629.2971346,
+    "CRWD": 1795678629.2971346,
+    "ORCL": 1795678629.2971346,
+    "COIN": 1795678629.2971346,
     "LLY": 1795677296.6248264,
     "MRNA": 1795677296.6248264,
     "NKE": 1795677296.6248264,
