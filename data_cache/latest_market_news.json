@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795685183.63,
-  "updated_at_et": "11-26 04:26 ET",
-  "updated_at_kst": "18:26 KST",
+  "updated_at_ts": 1795685286.831,
+  "updated_at_et": "11-26 04:28 ET",
+  "updated_at_kst": "18:28 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -977,6 +977,13 @@
     ],
     "ASML": [
       {
+        "title": "ASML Sinks 7% in a Week: Dutch Lawmaker Warns the MATCH Act Is “Disastrous for ASML.” Time to Buy?",
+        "url": "https://www.tikr.com/blog/asml-sinks-7-in-a-week-dutch-lawmaker-warns-the-match-act-is-disastrous-for-asml-time-to-buy?ref=yahoofinance&tlnk=yf-261126-5mg6h437&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 03:28 ET",
+        "pub_ts": 1795681730.0
+      },
+      {
         "title": "ASML (ASML) Can’t Meet Demand. Is That a Strength or Risk?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/asml-asml-t-meet-demand-004924571.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1003,13 +1010,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 12:17 ET",
         "pub_ts": 1795627065.0
-      },
-      {
-        "title": "ASML Sinks 6% in Chip Rout as Dutch Lawmaker Warns MATCH Act Is “Disastrous for ASML”",
-        "url": "https://www.tikr.com/blog/asml-sinks-6-in-chip-rout-as-dutch-lawmaker-warns-match-act-is-disastrous-for-asml?ref=yahoofinance&tlnk=yf-261125-c48vq838&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:11 ET",
-        "pub_ts": 1795626676.0
       }
     ],
     "QCOM": [
@@ -1088,6 +1088,13 @@
     ],
     "AMAT": [
       {
+        "title": "ASML Sinks 7% in a Week: Dutch Lawmaker Warns the MATCH Act Is “Disastrous for ASML.” Time to Buy?",
+        "url": "https://www.tikr.com/blog/asml-sinks-7-in-a-week-dutch-lawmaker-warns-the-match-act-is-disastrous-for-asml-time-to-buy?ref=yahoofinance&tlnk=yf-261126-5mg6h437&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 03:28 ET",
+        "pub_ts": 1795681730.0
+      },
+      {
         "title": "Applied Materials (AMAT) Supplies Almost Every Fab. Is That Enough?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-supplies-almost-005322656.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1114,13 +1121,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 15:09 ET",
         "pub_ts": 1795637384.0
-      },
-      {
-        "title": "Applied Materials Keeps Sliding: Why UBS Still Sees 94% Upside",
-        "url": "https://www.tikr.com/blog/applied-materials-keeps-sliding-why-ubs-still-sees-94-upside?ref=yahoofinance&tlnk=yf-261125-g2xx6rwg&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 13:01 ET",
-        "pub_ts": 1795629665.0
       }
     ],
     "META": [
@@ -1130,6 +1130,13 @@
         "source": "Yahoo Finance",
         "time": "11-25 14:22 ET",
         "pub_ts": 1795634535.0
+      },
+      {
+        "title": "CoStar Data Shows Noho Office Leasing Nearing 900,000 Sq. Ft.",
+        "url": "https://finance.yahoo.com/real-estate/articles/costar-data-shows-noho-office-090000605.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 04:00 ET",
+        "pub_ts": 1795683600.0
       },
       {
         "title": "Stocks Pare Losses as Anthropic Shares Swing Higher",
@@ -1151,13 +1158,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 14:09 ET",
         "pub_ts": 1795633740.0
-      },
-      {
-        "title": "CoreWeave banks prepare $4.5 billion Meta-tied loan sale next week, Bloomberg says",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-banks-prepare-4-5-183018691.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 13:30 ET",
-        "pub_ts": 1795631418.0
       }
     ],
     "GOOGL": [
@@ -1273,6 +1273,13 @@
     ],
     "PLTR": [
       {
+        "title": "Palantir Is Down 22% From Its October High. Dan Ives Puts It Among the Sell-Off’s “Clear Areas of Safety”",
+        "url": "https://www.tikr.com/blog/palantir-is-down-22-from-its-october-high-dan-ives-puts-it-among-the-sell-offs-clear-areas-of-safety?ref=yahoofinance&tlnk=yf-261126-xw5cpjr4&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 03:26 ET",
+        "pub_ts": 1795681576.0
+      },
+      {
         "title": "Michael Burry Says His Portfolio Was Discussed 'About the Time the Market Reversed Off Its Lows': He Is 'Temporarily Almost Entirely Long'",
         "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-says-portfolio-discussed-025825540.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1299,13 +1306,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 15:07 ET",
         "pub_ts": 1795637255.0
-      },
-      {
-        "title": "Peter Thiel Buys $122M of PLTR After Years Of Selling — And He Could Buy Millions More Shares",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63645021/peter-thiel-palantir-stock-purchase?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 13:18 ET",
-        "pub_ts": 1795630722.0
       }
     ],
     "NOW": [
@@ -1643,6 +1643,13 @@
     ],
     "MRVL": [
       {
+        "title": "Lumentum Sinks 14% in a Week as AI Stocks Slide, but Its CEO Says “We Haven’t Seen Any Slowdown”",
+        "url": "https://www.tikr.com/blog/lumentum-sinks-14-in-a-week-as-ai-stocks-slide-but-its-ceo-says-we-havent-seen-any-slowdown?ref=yahoofinance&tlnk=yf-261126-mcfhw988&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 03:27 ET",
+        "pub_ts": 1795681663.0
+      },
+      {
         "title": "Analysts Expect More From Marvell Than Marvell Does",
         "url": "https://www.trefis.com/stock/mrvl/articles/628747/analysts-expect-more-from-marvell-than-marvell-does/2026-11-25?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1669,13 +1676,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 05:49 ET",
         "pub_ts": 1795603771.0
-      },
-      {
-        "title": "Lumentum Has Lost 42% Since October 28 Despite Its Best Quarter Ever. Marvell’s Stock Is Why",
-        "url": "https://www.tikr.com/blog/lumentum-has-lost-42-since-october-28-despite-its-best-quarter-ever-marvells-stock-is-why?ref=yahoofinance&tlnk=yf-261125-mgqw8383&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 03:39 ET",
-        "pub_ts": 1795595940.0
       }
     ],
     "LITE": [
@@ -3197,39 +3197,39 @@
     ],
     "ANT": [
       {
-        "title": "Apple Is November's Mag7 Winner — Nvidia Takes The Biggest Hit",
-        "url": "https://finnhub.io/api/news?id=222e495311d1cbd45224d5505ca825715a0b76fa3c8a67ee624dc2133f1edfd3",
-        "source": "Yahoo",
-        "time": "11-26 02:32 ET",
-        "pub_ts": 1795678362.0
+        "title": "ANT Stock Gains Overnight: US Exchange-Traded Funds’ Anthropic Holdings Swell To Over $2B",
+        "url": "https://stocktwits.com/news-articles/markets/equity/ant-stock-gains-overnight-us-exchange-traded-funds-anthropic-holdings-swell-to-over-2-b/cNbxKBjR9ZY?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 04:23 ET",
+        "pub_ts": 1795685004.0
       },
       {
         "title": "Anthropic’s Potential Bond Issue Could Reportedly Be Rated Junk — Here’s When Crypto Bettors Think It Could Go Bankrupt",
-        "url": "https://finnhub.io/api/news?id=cfb89dac189e935bd15543e91fd7902b70dd6f00ad28a271209eb681a76734e5",
-        "source": "Yahoo",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63659962/anthropic-bankruptcy-prediction-market-bond-issue-junk?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "source": "Yahoo Finance",
         "time": "11-26 01:12 ET",
         "pub_ts": 1795673564.0
       },
       {
-        "title": "ANT, NVDA Slide Tests Investor Resolve, Software Firms Post Sharp Growth",
-        "url": "https://finnhub.io/api/news?id=21df9492788bb247bd105596f3ede6962cc85b154b8d2a0231b677df9e3342c5",
-        "source": "Yahoo",
-        "time": "11-26 00:33 ET",
-        "pub_ts": 1795671214.0
-      },
-      {
         "title": "2 Ways Anthropic's IPO Pays Off for Alphabet Investors",
-        "url": "https://finnhub.io/api/news?id=0f795e97b828fe75c0ad5b79dca686f5a424cf13254852e72294887e130361a3",
-        "source": "Yahoo",
+        "url": "https://www.fool.com/investing/2026/11/26/2-ways-anthropic-s-ipo-pays-off-for-alphabet-investors/?.tsrc=rss",
+        "source": "Yahoo Finance",
         "time": "11-26 00:20 ET",
         "pub_ts": 1795670402.0
       },
       {
-        "title": "Is the Stock Market Open Today? Here Are the Trading Hours for Thanksgiving.",
-        "url": "https://finnhub.io/api/news?id=c6b6584a38fe295c801f066ede2530b48fa249b3c44b85050733b49c75c16544",
-        "source": "Yahoo",
-        "time": "11-26 00:01 ET",
-        "pub_ts": 1795669260.0
+        "title": "‘Free Pop Is Over’ for OpenAI After Anthropic’s Rout, Tech Analyst Luke Lango Says: But a Late-2027 IPO Could ‘Ride the Recovery’",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/free-pop-over-openai-anthropic-044149243.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 23:41 ET",
+        "pub_ts": 1795668109.0
+      },
+      {
+        "title": "Does Anthropic Want AI to Run the World? CEO Dario Amodei Pushes Back Against ‘Surrender Human Free Will’ Claims",
+        "url": "https://finance.yahoo.com/technology/ai/articles/does-anthropic-want-ai-run-041314042.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 23:13 ET",
+        "pub_ts": 1795666394.0
       }
     ],
     "XAUUSD": [
@@ -3297,27 +3297,27 @@
     "SOXS": 1795684981.8807309,
     "NVDA": 1795684981.8807309,
     "AMD": 1795684981.8807309,
-    "ASML": 1795683748.7084718,
-    "QCOM": 1795683748.7084718,
-    "AVGO": 1795683748.7084718,
-    "AMAT": 1795683748.7084718,
-    "META": 1795683748.7084718,
-    "GOOGL": 1795683748.7084718,
-    "MSFT": 1795683748.7084718,
-    "AAPL": 1795683748.7084718,
-    "PLTR": 1795683748.7084718,
-    "NOW": 1795683748.7084718,
-    "AMZN": 1795683748.7084718,
-    "CRWV": 1795683748.7084718,
-    "NBIS": 1795683748.7084718,
-    "APLD": 1795683748.7084718,
-    "VST": 1795683748.7084718,
-    "BE": 1795683748.7084718,
-    "CRDO": 1795683748.7084718,
-    "COHR": 1795683748.7084718,
-    "MRVL": 1795683748.7084718,
+    "ASML": 1795685286.8308706,
+    "QCOM": 1795685286.8308706,
+    "AVGO": 1795685286.8308706,
+    "AMAT": 1795685286.8308706,
+    "META": 1795685286.8308706,
+    "GOOGL": 1795685286.8308706,
+    "MSFT": 1795685286.8308706,
+    "AAPL": 1795685286.8308706,
+    "PLTR": 1795685286.8308706,
+    "NOW": 1795685286.8308706,
+    "AMZN": 1795685286.8308706,
+    "CRWV": 1795685286.8308706,
+    "NBIS": 1795685286.8308706,
+    "APLD": 1795685286.8308706,
+    "VST": 1795685286.8308706,
+    "BE": 1795685286.8308706,
+    "CRDO": 1795685286.8308706,
+    "COHR": 1795685286.8308706,
+    "MRVL": 1795685286.8308706,
     "LITE": 1795683853.9113793,
-    "AAOI": 1795683748.7084718,
+    "AAOI": 1795685286.8308706,
     "SPCX": 1795683853.9113793,
     "ASTS": 1795684775.3857462,
     "AXTI": 1795683853.9113793,
@@ -3350,15 +3350,15 @@
     "NKE": 1795684981.8807309,
     "MCD": 1795684981.8807309,
     "PEP": 1795684981.8807309,
-    "XOM": 1795683748.7084718,
+    "XOM": 1795685286.8308706,
     "JPM": 1795684981.8807309,
-    "WMT": 1795683748.7084718,
+    "WMT": 1795685286.8308706,
     "V": 1795684981.8807309,
-    "CAT": 1795683748.7084718,
+    "CAT": 1795685286.8308706,
     "FN": 1795683853.9113793,
     "GLW": 1795683853.9113793,
-    "ANT": 1795683748.7084718,
-    "XAUUSD": 1795683748.7084718,
+    "ANT": 1795685286.8308706,
+    "XAUUSD": 1795685286.8308706,
     "KOSPI": 1795684981.8807309
   },
   "opex_shield": {
