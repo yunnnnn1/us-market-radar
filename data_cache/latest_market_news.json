@@ -1,9 +1,25 @@
 {
-  "updated_at_ts": 1795682112.714,
-  "updated_at_et": "11-26 03:35 ET",
-  "updated_at_kst": "17:35 KST",
+  "updated_at_ts": 1795682214.221,
+  "updated_at_et": "11-26 03:36 ET",
+  "updated_at_kst": "17:36 KST",
   "macro_calendar": [],
   "macro_flashes": [
+    {
+      "id": "20261126163441615800",
+      "title": "整理：每日债券市场要闻速递（2026-11-26）",
+      "summary": "1. 通胀升温，经济增长强劲，美联储加息几成定局。 2. DoubleLine科恩转而看好AI债务，称价格已反映潜在风险。 3. 穆迪维持英伟达Aa1评级及稳定展望，标普将其AA评级列入负面观察。 4. CoreWeave五年期违约保护成本创新高，AI企业举债压力继续传导至信用市场。 5. 韩国央行加息25个基点至3.25%，10月暂停后恢复紧缩。 6. 韩国央行在AI热潮推动经济增长之际重启加息。 7. 全国新增专项债累计发行约4.33万亿元，年度法定额度进度达98.3%。 8. 保利发展披露公司债融资预案，拟发行规模不超过200亿元。 9. 科创债年内发行达1.70万亿元，24只科创债ETF规模达3364亿元。 10. 财政部3000亿元注资特别国债发行完成，首次纳入保险及政策性机构。 11. 巴克莱分析师预计2027年ESG债券发行规模约9100亿美元。",
+      "keywords": [
+        "美联储",
+        "加息",
+        "英伟达",
+        "标普"
+      ],
+      "pub_ts": 1795682081.0,
+      "time_et": "11-26 03:34 ET",
+      "time_bj": "16:34 BJ",
+      "time_kst": "17:34 KST",
+      "time_display": "03:34 ET / 16:34 BJ"
+    },
     {
       "id": "20261126163418909800",
       "title": "【氢氧化锂上市首日回顾：价格缺乏实质支撑，走势偏弱】金十期货11月26日讯，福能期货11…",
@@ -323,20 +339,6 @@
       "time_bj": "13:40 BJ",
       "time_kst": "14:40 KST",
       "time_display": "00:40 ET / 13:40 BJ"
-    },
-    {
-      "id": "20261126132146159800",
-      "title": "特朗普新一轮关税惹恼日本、巴西！日本公开抗议，巴西警告对等反制",
-      "summary": "特朗普政府宣布新一轮关税措施后，日本和巴西相继提出抗议。日本否认存在结构性产能过剩，反对美国加征关税；巴西指责美单方面采取行动，并警告可能实施对等反制。点击查看",
-      "keywords": [
-        "关税",
-        "特朗普"
-      ],
-      "pub_ts": 1795670506.0,
-      "time_et": "11-26 00:21 ET",
-      "time_bj": "13:21 BJ",
-      "time_kst": "14:21 KST",
-      "time_display": "00:21 ET / 13:21 BJ"
     }
   ],
   "ticker_news": {
@@ -1385,6 +1387,13 @@
         "pub_ts": 1795640400.0
       },
       {
+        "title": "CoreWeave (CRWV) Debt Sale Wins Investment Grade Ratings",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-crwv-debt-sale-wins-080908581.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 03:09 ET",
+        "pub_ts": 1795680548.0
+      },
+      {
         "title": "CoreWeave Stock Could Soar 125%, According to One Wall Street Analyst, Even After a Price Target Cut. Is It a Buy?",
         "url": "https://www.fool.com/investing/2026/11/25/coreweave-stock-could-soar-130-according-to-one-wall-street-analyst-even-after-a-price-target-cut-is-it-a-buy/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1404,13 +1413,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 14:57 ET",
         "pub_ts": 1795636676.0
-      },
-      {
-        "title": "CoreWeave banks prepare $4.5 billion Meta-tied loan sale next week, Bloomberg says",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-banks-prepare-4-5-183018691.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 13:30 ET",
-        "pub_ts": 1795631418.0
       }
     ],
     "NBIS": [
@@ -3191,39 +3193,39 @@
     ],
     "ANT": [
       {
-        "title": "Dow Jones Futures: Market Goes On Wild Ride. Nasdaq, Nvidia Slash Losses While Anthropic Reverses Higher.",
-        "url": "https://finnhub.io/api/news?id=37e810abbd6318dcef19cc006990e5a6a0131b21e16944b93c130712a4a4548f",
-        "source": "Yahoo",
-        "time": "11-25 18:56 ET",
-        "pub_ts": 1795650985.0
+        "title": "Anthropic’s Potential Bond Issue Could Reportedly Be Rated Junk — Here’s When Crypto Bettors Think It Could Go Bankrupt",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63659962/anthropic-bankruptcy-prediction-market-bond-issue-junk?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 01:12 ET",
+        "pub_ts": 1795673564.0
       },
       {
-        "title": "Bill Gurley: Investors Weren’t “Scrambling to Actually Own Anthropic.” That’s a Problem for Amazon and Alphabet",
-        "url": "https://finnhub.io/api/news?id=ccb83e0bd6299a160bd26c2c7dab41080b62eb966bf96d125c76f3e43f010e28",
-        "source": "Yahoo",
-        "time": "11-25 18:43 ET",
-        "pub_ts": 1795650186.0
+        "title": "2 Ways Anthropic's IPO Pays Off for Alphabet Investors",
+        "url": "https://www.fool.com/investing/2026/11/26/2-ways-anthropic-s-ipo-pays-off-for-alphabet-investors/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 00:20 ET",
+        "pub_ts": 1795670402.0
       },
       {
-        "title": "Anthropic Earns “$80 a Year per Watt” of GPUs, Says Modal’s CEO. That’s Good News for SpaceX",
-        "url": "https://finnhub.io/api/news?id=64b8d64c94f3fca5cb72c32c7de1853e4b80668baebbc263bf701369ca71ac3c",
-        "source": "Yahoo",
-        "time": "11-25 18:41 ET",
-        "pub_ts": 1795650106.0
+        "title": "‘Free Pop Is Over’ for OpenAI After Anthropic’s Rout, Tech Analyst Luke Lango Says: But a Late-2027 IPO Could ‘Ride the Recovery’",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/free-pop-over-openai-anthropic-044149243.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 23:41 ET",
+        "pub_ts": 1795668109.0
       },
       {
-        "title": "Anthropic Stock Is Down 33% From Its All-Time High. Here's What a $5,000 Investment Could Be Worth in 1 Year.",
-        "url": "https://finnhub.io/api/news?id=32b72b2384c60e7711aa61013c2fed217794bdf0f0f5d31abef36111c2893827",
-        "source": "Yahoo",
-        "time": "11-25 17:35 ET",
-        "pub_ts": 1795646102.0
+        "title": "Does Anthropic Want AI to Run the World? CEO Dario Amodei Pushes Back Against ‘Surrender Human Free Will’ Claims",
+        "url": "https://finance.yahoo.com/technology/ai/articles/does-anthropic-want-ai-run-041314042.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 23:13 ET",
+        "pub_ts": 1795666394.0
       },
       {
-        "title": "Stocks turn volatile as Jensen Huang rebound rally fades",
-        "url": "https://finnhub.io/api/news?id=6d8605c3e210fcf7d6c3b58fc9cc5a61d0965bf1d815689a3898962a8e834d36",
-        "source": "Yahoo",
-        "time": "11-25 16:51 ET",
-        "pub_ts": 1795643503.0
+        "title": "Dow Jones Futures Rise After Nasdaq Slashes Losses In Wild Market Ride",
+        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise-after.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 23:06 ET",
+        "pub_ts": 1795665992.0
       }
     ],
     "XAUUSD": [
@@ -3291,27 +3293,27 @@
     "SOXS": 1795681907.5100489,
     "NVDA": 1795681907.5100489,
     "AMD": 1795681907.5100489,
-    "ASML": 1795680675.356762,
-    "QCOM": 1795680675.356762,
-    "AVGO": 1795680675.356762,
-    "AMAT": 1795680675.356762,
-    "META": 1795680675.356762,
-    "GOOGL": 1795680675.356762,
-    "MSFT": 1795680675.356762,
-    "AAPL": 1795680675.356762,
-    "PLTR": 1795680675.356762,
-    "NOW": 1795680675.356762,
-    "AMZN": 1795680675.356762,
-    "CRWV": 1795680675.356762,
-    "NBIS": 1795680675.356762,
-    "APLD": 1795680675.356762,
-    "VST": 1795680675.356762,
-    "BE": 1795680675.356762,
-    "CRDO": 1795680675.356762,
-    "COHR": 1795680675.356762,
-    "MRVL": 1795680675.356762,
+    "ASML": 1795682214.2205687,
+    "QCOM": 1795682214.2205687,
+    "AVGO": 1795682214.2205687,
+    "AMAT": 1795682214.2205687,
+    "META": 1795682214.2205687,
+    "GOOGL": 1795682214.2205687,
+    "MSFT": 1795682214.2205687,
+    "AAPL": 1795682214.2205687,
+    "PLTR": 1795682214.2205687,
+    "NOW": 1795682214.2205687,
+    "AMZN": 1795682214.2205687,
+    "CRWV": 1795682214.2205687,
+    "NBIS": 1795682214.2205687,
+    "APLD": 1795682214.2205687,
+    "VST": 1795682214.2205687,
+    "BE": 1795682214.2205687,
+    "CRDO": 1795682214.2205687,
+    "COHR": 1795682214.2205687,
+    "MRVL": 1795682214.2205687,
     "LITE": 1795680777.5981672,
-    "AAOI": 1795680675.356762,
+    "AAOI": 1795682214.2205687,
     "SPCX": 1795680777.5981672,
     "ASTS": 1795681698.2501345,
     "AXTI": 1795680777.5981672,
@@ -3344,15 +3346,15 @@
     "NKE": 1795681907.5100489,
     "MCD": 1795681907.5100489,
     "PEP": 1795681907.5100489,
-    "XOM": 1795680675.356762,
+    "XOM": 1795682214.2205687,
     "JPM": 1795681907.5100489,
-    "WMT": 1795680675.356762,
+    "WMT": 1795682214.2205687,
     "V": 1795681907.5100489,
-    "CAT": 1795680675.356762,
+    "CAT": 1795682214.2205687,
     "FN": 1795680777.5981672,
     "GLW": 1795680777.5981672,
-    "ANT": 1795680675.356762,
-    "XAUUSD": 1795680675.356762,
+    "ANT": 1795682214.2205687,
+    "XAUUSD": 1795682214.2205687,
     "KOSPI": 1795681907.5100489
   },
   "opex_shield": {
@@ -3372,7 +3374,7 @@
   "calendar_banner": {
     "level": "idle_with_flash",
     "headline": "📡 宏观消息面监控中 · 今日暂无美股五星级经济数据大考",
-    "detail": "⚡ 最新核心快讯 (03:34 ET / 16:34 BJ) [美联储] [加息]：【氢氧化锂上市首日回顾：价格缺乏实质支撑，走势偏弱】金十期货11月26日讯，福能期货11月26日研报指出，11月26日，广期所氢氧化锂期货正式挂牌，挂牌基准价75000元/吨，全天低开低走，",
+    "detail": "⚡ 最新核心快讯 (03:34 ET / 16:34 BJ) [美联储] [加息] [英伟达]：1. 通胀升温，经济增长强劲，美联储加息几成定局。 2. DoubleLine科恩转而看好AI债务，称价格已反映潜在风险。 3. 穆迪维持英伟达Aa1评级及稳定展望，标普将其AA评级列入负面",
     "event_name": "",
     "minutes_left": 0,
     "opex_shield": {
