@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795723884.108,
-  "updated_at_et": "11-26 15:11 ET",
-  "updated_at_kst": "05:11 KST",
+  "updated_at_ts": 1795723983.433,
+  "updated_at_et": "11-26 15:13 ET",
+  "updated_at_kst": "05:13 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -3203,6 +3203,13 @@
         "pub_ts": 1795705200.0
       },
       {
+        "title": "Anthropic Stock Is Now Trading as ANT. Should You Buy Today or Wait?",
+        "url": "https://www.fool.com/investing/2026/11/26/anthropic-stock-is-now-trading-as-ant-should-you-buy-today-or-wait/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 14:50 ET",
+        "pub_ts": 1795722602.0
+      },
+      {
         "title": "I'd Buy Anthropic Stock Early — but Only If I Liked the Answers to These 3 Questions",
         "url": "https://www.fool.com/investing/2026/11/26/id-buy-anthropic-stock-on-day-1-but-only-if-you-can-answer-these-3-questions/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3222,13 +3229,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 13:11 ET",
         "pub_ts": 1795716674.0
-      },
-      {
-        "title": "Cathie Wood Just Bought $88 Million of Anthropic Stock",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-just-bought-88-180915500.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 13:09 ET",
-        "pub_ts": 1795716555.0
       }
     ],
     "XAUUSD": [
@@ -3349,15 +3349,15 @@
     "NKE": 1795723884.107633,
     "MCD": 1795723884.107633,
     "PEP": 1795723884.107633,
-    "XOM": 1795722422.4021988,
+    "XOM": 1795723983.4332519,
     "JPM": 1795723884.107633,
-    "WMT": 1795722422.4021988,
+    "WMT": 1795723983.4332519,
     "V": 1795723884.107633,
-    "CAT": 1795722422.4021988,
+    "CAT": 1795723983.4332519,
     "FN": 1795723396.6401916,
     "GLW": 1795723396.6401916,
-    "ANT": 1795722422.4021988,
-    "XAUUSD": 1795722422.4021988,
+    "ANT": 1795723983.4332519,
+    "XAUUSD": 1795723983.4332519,
     "KOSPI": 1795723786.600303
   },
   "opex_shield": {
