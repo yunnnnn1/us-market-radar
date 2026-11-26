@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795732699.048,
-  "updated_at_et": "11-26 17:38 ET",
-  "updated_at_kst": "07:38 KST",
+  "updated_at_ts": 1795732795.775,
+  "updated_at_et": "11-26 17:39 ET",
+  "updated_at_kst": "07:39 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1755,6 +1755,13 @@
     ],
     "SPCX": [
       {
+        "title": "Stanley Druckenmiller Sees 70% Chance of Data Centers in Space Within 10 Years — Duquesne Adds $30 Million to SpaceX Stake in Q3",
+        "url": "https://finance.yahoo.com/technology/ai/articles/stanley-druckenmiller-sees-70-chance-213004535.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 16:30 ET",
+        "pub_ts": 1795728604.0
+      },
+      {
         "title": "SpaceX Is a Great Company. Is It a Great Stock at This Price?",
         "url": "https://www.fool.com/investing/2026/11/26/spacex-is-a-great-company-is-it-a-great-stock-at-this-price/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1781,13 +1788,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 13:22 ET",
         "pub_ts": 1795717354.0
-      },
-      {
-        "title": "Nvidia Now Has 41% of Its Stock Portfolio in SpaceX. Here’s What That Means for Nvidia Shareholders",
-        "url": "https://www.tikr.com/blog/nvidia-now-has-41-of-its-stock-portfolio-in-spacex-heres-what-that-means-for-nvidia-shareholders?ref=yahoofinance&tlnk=yf-261126-gr78h4qh&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 13:12 ET",
-        "pub_ts": 1795716730.0
       }
     ],
     "ASTS": [
@@ -1940,6 +1940,13 @@
     ],
     "TSLA": [
       {
+        "title": "Should You Buy Tesla Stock Before December?",
+        "url": "https://www.fool.com/investing/2026/11/26/should-you-buy-tesla-stock-before-december/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 17:35 ET",
+        "pub_ts": 1795732502.0
+      },
+      {
         "title": "Tesla Stocks Slip 1.18% as EU Delays Self-Driving Vote to December 15",
         "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-stocks-slip-1-18-190357031.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1966,13 +1973,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 08:44 ET",
         "pub_ts": 1795700640.0
-      },
-      {
-        "title": "JPMorgan Says S&P Could Waive Its Rules for a Tesla-SpaceX Merger. That’s Good News for SpaceX Holders",
-        "url": "https://www.tikr.com/blog/jpmorgan-says-sp-could-waive-its-rules-for-a-tesla-spacex-merger-thats-good-news-for-spacex-holders?ref=yahoofinance&tlnk=yf-261126-gpc9wr29&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:45 ET",
-        "pub_ts": 1795693559.0
       }
     ],
     "AXP": [
@@ -3317,31 +3317,31 @@
     "CRDO": 1795731918.1163251,
     "COHR": 1795731918.1163251,
     "MRVL": 1795731918.1163251,
-    "LITE": 1795731235.9520001,
+    "LITE": 1795732795.7754316,
     "AAOI": 1795731918.1163251,
-    "SPCX": 1795731235.9520001,
-    "ASTS": 1795731235.9520001,
-    "AXTI": 1795731235.9520001,
-    "NASA": 1795731235.9520001,
-    "LUNR": 1795731235.9520001,
-    "TSLA": 1795731235.9520001,
-    "AXP": 1795731235.9520001,
-    "RKLB": 1795731235.9520001,
-    "KO": 1795731235.9520001,
-    "FLY": 1795731235.9520001,
-    "INTC": 1795731235.9520001,
-    "VRT": 1795731235.9520001,
-    "HPE": 1795731235.9520001,
-    "DELL": 1795731235.9520001,
-    "OKLO": 1795731235.9520001,
-    "CEG": 1795731235.9520001,
-    "FPS": 1795731235.9520001,
-    "MU": 1795731235.9520001,
-    "SKHY": 1795731235.9520001,
-    "WDC": 1795731235.9520001,
-    "STX": 1795731235.9520001,
+    "SPCX": 1795732795.7754316,
+    "ASTS": 1795732795.7754316,
+    "AXTI": 1795732795.7754316,
+    "NASA": 1795732795.7754316,
+    "LUNR": 1795732795.7754316,
+    "TSLA": 1795732795.7754316,
+    "AXP": 1795732795.7754316,
+    "RKLB": 1795732795.7754316,
+    "KO": 1795732795.7754316,
+    "FLY": 1795732795.7754316,
+    "INTC": 1795732795.7754316,
+    "VRT": 1795732795.7754316,
+    "HPE": 1795732795.7754316,
+    "DELL": 1795732795.7754316,
+    "OKLO": 1795732795.7754316,
+    "CEG": 1795732795.7754316,
+    "FPS": 1795732795.7754316,
+    "MU": 1795732795.7754316,
+    "SKHY": 1795732795.7754316,
+    "WDC": 1795732795.7754316,
+    "STX": 1795732795.7754316,
     "MSTR": 1795731527.1413274,
-    "SNDK": 1795731235.9520001,
+    "SNDK": 1795732795.7754316,
     "BTC-USD": 1795731527.1413274,
     "CRWD": 1795731527.1413274,
     "ORCL": 1795731527.1413274,
@@ -3356,8 +3356,8 @@
     "WMT": 1795732017.3020346,
     "V": 1795731918.1163251,
     "CAT": 1795732017.3020346,
-    "FN": 1795731235.9520001,
-    "GLW": 1795731235.9520001,
+    "FN": 1795732795.7754316,
+    "GLW": 1795732795.7754316,
     "ANT": 1795732017.3020346,
     "XAUUSD": 1795732017.3020346,
     "KOSPI": 1795731527.1413274
