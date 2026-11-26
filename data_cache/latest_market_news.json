@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795718618.192,
-  "updated_at_et": "11-26 13:43 ET",
-  "updated_at_kst": "03:43 KST",
+  "updated_at_ts": 1795718714.954,
+  "updated_at_et": "11-26 13:45 ET",
+  "updated_at_kst": "03:45 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1753,6 +1753,20 @@
     ],
     "SPCX": [
       {
+        "title": "Nvidia Now Has 41% of Its Stock Portfolio in SpaceX. Here’s What That Means for Nvidia Shareholders",
+        "url": "https://www.tikr.com/blog/nvidia-now-has-41-of-its-stock-portfolio-in-spacex-heres-what-that-means-for-nvidia-shareholders?ref=yahoofinance&tlnk=yf-261126-gr78h4qh&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 13:12 ET",
+        "pub_ts": 1795716730.0
+      },
+      {
+        "title": "SpaceX Gets a Fresh Vote of Confidence From Cathie Wood",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-gets-fresh-vote-confidence-181158897.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 13:11 ET",
+        "pub_ts": 1795716718.0
+      },
+      {
         "title": "Tesla: A SpaceX Merger Could Turn $5,000 Into $10,000",
         "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-spacex-merger-could-turn-174606474.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1772,20 +1786,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 11:40 ET",
         "pub_ts": 1795711200.0
-      },
-      {
-        "title": "Musk makes $18 billion SpaceX stock pledge for every kid in America",
-        "url": "https://www.axios.com/2026/11/26/musk-spacex-shares-trump-accounts#utm_source=yahoo_finance&utm_medium=partner&utm_campaign=subs-partner-yahoo-finance-AI?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 10:54 ET",
-        "pub_ts": 1795708455.0
-      },
-      {
-        "title": "SpaceX Just Slid 11% in a Week. Can Elon Musk’s FCC Win for 1 Million Satellites Get SPCX Stock Back Above Its $135 IPO Price?",
-        "url": "https://247wallst.com/investing/2026/11/26/spacex-just-slid-11-in-a-week-can-elon-musks-fcc-win-for-1-million-satellites-get-spcx-stock-back-above-its-135-ipo-price/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 10:08 ET",
-        "pub_ts": 1795705715.0
       }
     ],
     "ASTS": [
@@ -2123,6 +2123,13 @@
     ],
     "INTC": [
       {
+        "title": "Nvidia Now Has 41% of Its Stock Portfolio in SpaceX. Here’s What That Means for Nvidia Shareholders",
+        "url": "https://www.tikr.com/blog/nvidia-now-has-41-of-its-stock-portfolio-in-spacex-heres-what-that-means-for-nvidia-shareholders?ref=yahoofinance&tlnk=yf-261126-gr78h4qh&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 13:12 ET",
+        "pub_ts": 1795716730.0
+      },
+      {
         "title": "Here’s Why $35 Is The Price to Buy Intel, and No Higher",
         "url": "https://247wallst.com/investing/2026/11/26/heres-why-35-is-the-price-to-buy-intel-and-no-higher/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2149,13 +2156,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 11:32 ET",
         "pub_ts": 1795624327.0
-      },
-      {
-        "title": "Trump Just Floated Taking a Stake in Nvidia. An Intel-Style Deal Could Be Worth $380 Billion",
-        "url": "https://247wallst.com/investing/2026/11/25/trump-just-floated-taking-a-stake-in-nvidia-an-intel-style-deal-could-be-worth-380-billion/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:25 ET",
-        "pub_ts": 1795623948.0
       }
     ],
     "VRT": [
@@ -3315,31 +3315,31 @@
     "CRDO": 1795717639.767247,
     "COHR": 1795717639.767247,
     "MRVL": 1795717639.767247,
-    "LITE": 1795717203.4180288,
+    "LITE": 1795718714.9537654,
     "AAOI": 1795717639.767247,
-    "SPCX": 1795717203.4180288,
-    "ASTS": 1795717203.4180288,
-    "AXTI": 1795717203.4180288,
-    "NASA": 1795717203.4180288,
-    "LUNR": 1795717203.4180288,
-    "TSLA": 1795717203.4180288,
-    "AXP": 1795717203.4180288,
-    "RKLB": 1795717203.4180288,
-    "KO": 1795717203.4180288,
-    "FLY": 1795717203.4180288,
-    "INTC": 1795717203.4180288,
-    "VRT": 1795717203.4180288,
-    "HPE": 1795717203.4180288,
-    "DELL": 1795717203.4180288,
-    "OKLO": 1795717203.4180288,
-    "CEG": 1795717203.4180288,
-    "FPS": 1795717203.4180288,
-    "MU": 1795717203.4180288,
-    "SKHY": 1795717203.4180288,
-    "WDC": 1795717203.4180288,
-    "STX": 1795717203.4180288,
+    "SPCX": 1795718714.9537654,
+    "ASTS": 1795718714.9537654,
+    "AXTI": 1795718714.9537654,
+    "NASA": 1795718714.9537654,
+    "LUNR": 1795718714.9537654,
+    "TSLA": 1795718714.9537654,
+    "AXP": 1795718714.9537654,
+    "RKLB": 1795718714.9537654,
+    "KO": 1795718714.9537654,
+    "FLY": 1795718714.9537654,
+    "INTC": 1795718714.9537654,
+    "VRT": 1795718714.9537654,
+    "HPE": 1795718714.9537654,
+    "DELL": 1795718714.9537654,
+    "OKLO": 1795718714.9537654,
+    "CEG": 1795718714.9537654,
+    "FPS": 1795718714.9537654,
+    "MU": 1795718714.9537654,
+    "SKHY": 1795718714.9537654,
+    "WDC": 1795718714.9537654,
+    "STX": 1795718714.9537654,
     "MSTR": 1795717542.8582504,
-    "SNDK": 1795717203.4180288,
+    "SNDK": 1795718714.9537654,
     "BTC-USD": 1795717542.8582504,
     "CRWD": 1795717542.8582504,
     "ORCL": 1795717542.8582504,
@@ -3354,8 +3354,8 @@
     "WMT": 1795717737.412457,
     "V": 1795717639.767247,
     "CAT": 1795717737.412457,
-    "FN": 1795717203.4180288,
-    "GLW": 1795717203.4180288,
+    "FN": 1795718714.9537654,
+    "GLW": 1795718714.9537654,
     "ANT": 1795717737.412457,
     "XAUUSD": 1795717737.412457,
     "KOSPI": 1795717542.8582504
