@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795722227.588,
-  "updated_at_et": "11-26 14:43 ET",
-  "updated_at_kst": "04:43 KST",
+  "updated_at_ts": 1795722325.094,
+  "updated_at_et": "11-26 14:45 ET",
+  "updated_at_kst": "04:45 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1050,6 +1050,13 @@
     ],
     "AVGO": [
       {
+        "title": "Goldman Sachs resets Broadcom's 12-month price target before earnings",
+        "url": "https://www.thestreet.com/investing/stocks/avgo-broadcom-stock-goldman-sachs-resets-avgo-stock-12-month-price-target-before-earnings?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 14:33 ET",
+        "pub_ts": 1795721595.0
+      },
+      {
         "title": "Broadcom Stocks Edge Lower After Rebounding From an Intraday Low of $278",
         "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stocks-edge-lower-rebounding-183041028.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1076,13 +1083,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 07:15 ET",
         "pub_ts": 1795695305.0
-      },
-      {
-        "title": "UBS’s $425 Target Says Broadcom’s Selloff Went Too Far",
-        "url": "https://www.tikr.com/blog/ubss-425-target-says-broadcoms-selloff-went-too-far?ref=yahoofinance&tlnk=yf-261126-xrf8pwvw&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:51 ET",
-        "pub_ts": 1795693883.0
       }
     ],
     "AMAT": [
@@ -2826,6 +2826,13 @@
     ],
     "NKE": [
       {
+        "title": "Nike Stock Is Down 42% in 2026, and Lululemon Is Doing Even Worse",
+        "url": "https://247wallst.com/investing/2026/11/26/nike-stock-is-down-42-in-2026-and-lululemon-is-doing-even-worse/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 14:18 ET",
+        "pub_ts": 1795720694.0
+      },
+      {
         "title": "Nike Slumped to $34, Yet This Apparel Pick Surged 23% Since October",
         "url": "https://finance.yahoo.com/markets/stocks/articles/nike-slumped-34-yet-apparel-144519189.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2852,13 +2859,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:32 ET",
         "pub_ts": 1795620743.0
-      },
-      {
-        "title": "Nike And Under Armour Stocks Are Down More Than 40%. What Will Black Friday Cost Them?",
-        "url": "https://www.trefis.com/stock/nke/articles/627535/nike-and-under-armour-stocks-are-down-more-than-40-what-will-black-friday-cost-them/2026-11-25?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:32 ET",
-        "pub_ts": 1795617157.0
       }
     ],
     "MCD": [
@@ -3296,27 +3296,27 @@
     "SOXS": 1795722227.5881047,
     "NVDA": 1795722227.5881047,
     "AMD": 1795722227.5881047,
-    "ASML": 1795720761.7937882,
-    "QCOM": 1795720761.7937882,
-    "AVGO": 1795720761.7937882,
-    "AMAT": 1795720761.7937882,
-    "META": 1795720761.7937882,
-    "GOOGL": 1795720761.7937882,
-    "MSFT": 1795720761.7937882,
-    "AAPL": 1795720761.7937882,
-    "PLTR": 1795720761.7937882,
-    "NOW": 1795720761.7937882,
-    "AMZN": 1795720761.7937882,
-    "CRWV": 1795720761.7937882,
-    "NBIS": 1795720761.7937882,
-    "APLD": 1795720761.7937882,
-    "VST": 1795720761.7937882,
-    "BE": 1795720761.7937882,
-    "CRDO": 1795720761.7937882,
-    "COHR": 1795720761.7937882,
-    "MRVL": 1795720761.7937882,
+    "ASML": 1795722325.0941594,
+    "QCOM": 1795722325.0941594,
+    "AVGO": 1795722325.0941594,
+    "AMAT": 1795722325.0941594,
+    "META": 1795722325.0941594,
+    "GOOGL": 1795722325.0941594,
+    "MSFT": 1795722325.0941594,
+    "AAPL": 1795722325.0941594,
+    "PLTR": 1795722325.0941594,
+    "NOW": 1795722325.0941594,
+    "AMZN": 1795722325.0941594,
+    "CRWV": 1795722325.0941594,
+    "NBIS": 1795722325.0941594,
+    "APLD": 1795722325.0941594,
+    "VST": 1795722325.0941594,
+    "BE": 1795722325.0941594,
+    "CRDO": 1795722325.0941594,
+    "COHR": 1795722325.0941594,
+    "MRVL": 1795722325.0941594,
     "LITE": 1795721838.4203064,
-    "AAOI": 1795720761.7937882,
+    "AAOI": 1795722325.0941594,
     "SPCX": 1795721838.4203064,
     "ASTS": 1795721838.4203064,
     "AXTI": 1795721838.4203064,
@@ -3346,13 +3346,13 @@
     "COIN": 1795722227.5881047,
     "LLY": 1795722227.5881047,
     "MRNA": 1795722227.5881047,
-    "NKE": 1795720761.7937882,
-    "MCD": 1795720761.7937882,
-    "PEP": 1795720761.7937882,
+    "NKE": 1795722325.0941594,
+    "MCD": 1795722325.0941594,
+    "PEP": 1795722325.0941594,
     "XOM": 1795720860.3751976,
-    "JPM": 1795720761.7937882,
+    "JPM": 1795722325.0941594,
     "WMT": 1795720860.3751976,
-    "V": 1795720761.7937882,
+    "V": 1795722325.0941594,
     "CAT": 1795720860.3751976,
     "FN": 1795721838.4203064,
     "GLW": 1795721838.4203064,
