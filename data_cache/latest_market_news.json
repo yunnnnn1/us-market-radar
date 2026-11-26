@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795683338.156,
-  "updated_at_et": "11-26 03:55 ET",
-  "updated_at_kst": "17:55 KST",
+  "updated_at_ts": 1795683440.259,
+  "updated_at_et": "11-26 03:57 ET",
+  "updated_at_kst": "17:57 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -903,6 +903,13 @@
     ],
     "NVDA": [
       {
+        "title": "Nvidia Wins Back Wall Street Backing As Jensen Huang Returns; CRWD, LI Stocks Score Upgrades While DKNG, AMBA Face Pressure",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nvda-jensen-huang-return-stock-upgrades-crwd-li-amba-dkng/cNbxi4aR9ZF?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 03:43 ET",
+        "pub_ts": 1795682592.0
+      },
+      {
         "title": "Nvidia Reportedly Halts AI Server Shipments To Southeast Asia Ahead Of Jensen Huang's Congress Testimony",
         "url": "https://stocktwits.com/news-articles/markets/equity/nvidia-reportedly-halts-ai-server-shipments-to-southeast-asia-ahead-of-jensen-huang-s-congress-testimony/cNbxLXJR9ZN?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -929,13 +936,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 02:41 ET",
         "pub_ts": 1795678868.0
-      },
-      {
-        "title": "Apple Is November's Mag7 Winner — Nvidia Takes The Biggest Hit",
-        "url": "https://stocktwits.com/news-articles/markets/equity/apple-is-november-s-mag7-winner-nvidia-takes-the-biggest-hit/cNbxWaAR9Zm?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 02:32 ET",
-        "pub_ts": 1795678362.0
       }
     ],
     "AMD": [
@@ -3280,23 +3280,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795681907.5100489,
-    "SOXL": 1795681907.5100489,
-    "SPY": 1795681907.5100489,
-    "DIA": 1795681907.5100489,
-    "SOXX": 1795681907.5100489,
-    "QQQ": 1795681907.5100489,
-    "SMH": 1795681907.5100489,
-    "IWM": 1795681907.5100489,
-    "IGV": 1795681907.5100489,
-    "TLT": 1795681907.5100489,
-    "GLD": 1795681907.5100489,
-    "SQQQ": 1795681907.5100489,
-    "TSM": 1795681907.5100489,
-    "VIXY": 1795681907.5100489,
-    "SOXS": 1795681907.5100489,
-    "NVDA": 1795681907.5100489,
-    "AMD": 1795681907.5100489,
+    "KORU": 1795683440.2585049,
+    "SOXL": 1795683440.2585049,
+    "SPY": 1795683440.2585049,
+    "DIA": 1795683440.2585049,
+    "SOXX": 1795683440.2585049,
+    "QQQ": 1795683440.2585049,
+    "SMH": 1795683440.2585049,
+    "IWM": 1795683440.2585049,
+    "IGV": 1795683440.2585049,
+    "TLT": 1795683440.2585049,
+    "GLD": 1795683440.2585049,
+    "SQQQ": 1795683440.2585049,
+    "TSM": 1795683440.2585049,
+    "VIXY": 1795683440.2585049,
+    "SOXS": 1795683440.2585049,
+    "NVDA": 1795683440.2585049,
+    "AMD": 1795683440.2585049,
     "ASML": 1795682214.2205687,
     "QCOM": 1795682214.2205687,
     "AVGO": 1795682214.2205687,
@@ -3345,21 +3345,21 @@
     "CRWD": 1795683237.1074305,
     "ORCL": 1795683237.1074305,
     "COIN": 1795683237.1074305,
-    "LLY": 1795681907.5100489,
-    "MRNA": 1795681907.5100489,
-    "NKE": 1795681907.5100489,
-    "MCD": 1795681907.5100489,
-    "PEP": 1795681907.5100489,
+    "LLY": 1795683440.2585049,
+    "MRNA": 1795683440.2585049,
+    "NKE": 1795683440.2585049,
+    "MCD": 1795683440.2585049,
+    "PEP": 1795683440.2585049,
     "XOM": 1795682214.2205687,
-    "JPM": 1795681907.5100489,
+    "JPM": 1795683440.2585049,
     "WMT": 1795682214.2205687,
-    "V": 1795681907.5100489,
+    "V": 1795683440.2585049,
     "CAT": 1795682214.2205687,
     "FN": 1795682315.5160306,
     "GLW": 1795682315.5160306,
     "ANT": 1795682214.2205687,
     "XAUUSD": 1795682214.2205687,
-    "KOSPI": 1795681907.5100489
+    "KOSPI": 1795683440.2585049
   },
   "opex_shield": {
     "date": "2026-11-26",
