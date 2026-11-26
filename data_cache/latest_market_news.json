@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795686206.245,
-  "updated_at_et": "11-26 04:43 ET",
-  "updated_at_kst": "18:43 KST",
+  "updated_at_ts": 1795686307.17,
+  "updated_at_et": "11-26 04:45 ET",
+  "updated_at_kst": "18:45 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2605,6 +2605,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "Index Reshuffle Puts Hyperliquid’s HYPE in Franklin’s EZPZ Crypto ETF on Dec. 1",
+        "url": "https://unchainedcrypto.com/index-reshuffle-puts-hyperliquids-hype-in-franklins-ezpz-crypto-etf-on-dec-1/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 04:15 ET",
+        "pub_ts": 1795684557.0
+      },
+      {
         "title": "K33 AB (ARCNF) (Q3 2026) Earnings Call Highlights: 35% Revenue Growth and 40% Trading Volume ...",
         "url": "https://finance.yahoo.com/markets/crypto/articles/k33-ab-arcnf-q3-2026-082042686.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2631,13 +2638,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 23:57 ET",
         "pub_ts": 1795669064.0
-      },
-      {
-        "title": "Bitcoin Reclaims $60,000: Michaël Van De Poppe Eyes ‘Great First Quarter Of 2027’, While Cathie Wood Trims Crypto Exposure",
-        "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-reclaims-60-000-michael-van-de-poppe-eyes-great-first-quarter-of-2027-while-cathie-wood-trims-crypto-exposure/cNbxBZpR9Za?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 23:36 ET",
-        "pub_ts": 1795667764.0
       }
     ],
     "CRWD": [
@@ -2647,6 +2647,13 @@
         "source": "Yahoo Finance",
         "time": "11-26 03:43 ET",
         "pub_ts": 1795682592.0
+      },
+      {
+        "title": "CrowdStrike Sinks 12% in a Week on Its $43.9 Billion Zscaler Deal: Kurtz Says They “Only Overlap in 2,000 Accounts”",
+        "url": "https://www.tikr.com/blog/crowdstrike-sinks-12-in-a-week-on-its-43-9-billion-zscaler-deal-kurtz-says-they-only-overlap-in-2000-accounts?ref=yahoofinance&tlnk=yf-261126-vphvjq98&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 03:29 ET",
+        "pub_ts": 1795681782.0
       },
       {
         "title": "Bridgewater Sees 1-in-3 Odds of a Destabilizing Cyberattack. CrowdStrike’s Workload Is Already “Up 50%”",
@@ -2668,13 +2675,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 15:27 ET",
         "pub_ts": 1795638420.0
-      },
-      {
-        "title": "CrowdStrike Sees a Path to the “Largest AI Safety and Security Company” Ever. Zscaler Must Deliver $1 Billion of Synergies",
-        "url": "https://www.tikr.com/blog/crowdstrike-sees-a-path-to-the-largest-ai-safety-and-security-company-ever-zscaler-must-deliver-1-billion-of-synergies?ref=yahoofinance&tlnk=yf-261125-wpgvq53r&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:05 ET",
-        "pub_ts": 1795611924.0
       }
     ],
     "ORCL": [
@@ -3319,32 +3319,32 @@
     "LITE": 1795685387.70565,
     "AAOI": 1795685286.8308706,
     "SPCX": 1795685387.70565,
-    "ASTS": 1795684775.3857462,
+    "ASTS": 1795686307.169843,
     "AXTI": 1795685387.70565,
-    "NASA": 1795684775.3857462,
-    "LUNR": 1795684775.3857462,
-    "TSLA": 1795684775.3857462,
-    "AXP": 1795684775.3857462,
-    "RKLB": 1795684775.3857462,
-    "KO": 1795684775.3857462,
-    "FLY": 1795684775.3857462,
-    "INTC": 1795684775.3857462,
-    "VRT": 1795684775.3857462,
-    "HPE": 1795684775.3857462,
-    "DELL": 1795684775.3857462,
-    "OKLO": 1795684775.3857462,
-    "CEG": 1795684775.3857462,
-    "FPS": 1795684775.3857462,
-    "MU": 1795684775.3857462,
-    "SKHY": 1795684775.3857462,
-    "WDC": 1795684775.3857462,
-    "STX": 1795684775.3857462,
-    "MSTR": 1795684775.3857462,
-    "SNDK": 1795684775.3857462,
-    "BTC-USD": 1795684775.3857462,
-    "CRWD": 1795684775.3857462,
-    "ORCL": 1795684775.3857462,
-    "COIN": 1795684775.3857462,
+    "NASA": 1795686307.169843,
+    "LUNR": 1795686307.169843,
+    "TSLA": 1795686307.169843,
+    "AXP": 1795686307.169843,
+    "RKLB": 1795686307.169843,
+    "KO": 1795686307.169843,
+    "FLY": 1795686307.169843,
+    "INTC": 1795686307.169843,
+    "VRT": 1795686307.169843,
+    "HPE": 1795686307.169843,
+    "DELL": 1795686307.169843,
+    "OKLO": 1795686307.169843,
+    "CEG": 1795686307.169843,
+    "FPS": 1795686307.169843,
+    "MU": 1795686307.169843,
+    "SKHY": 1795686307.169843,
+    "WDC": 1795686307.169843,
+    "STX": 1795686307.169843,
+    "MSTR": 1795686307.169843,
+    "SNDK": 1795686307.169843,
+    "BTC-USD": 1795686307.169843,
+    "CRWD": 1795686307.169843,
+    "ORCL": 1795686307.169843,
+    "COIN": 1795686307.169843,
     "LLY": 1795684981.8807309,
     "MRNA": 1795684981.8807309,
     "NKE": 1795684981.8807309,
