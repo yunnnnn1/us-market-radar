@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795719107.067,
-  "updated_at_et": "11-26 13:51 ET",
-  "updated_at_kst": "03:51 KST",
+  "updated_at_ts": 1795719206.348,
+  "updated_at_et": "11-26 13:53 ET",
+  "updated_at_kst": "03:53 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1050,6 +1050,13 @@
     ],
     "AVGO": [
       {
+        "title": "Broadcom Stocks Edge Lower After Rebounding From an Intraday Low of $278",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stocks-edge-lower-rebounding-183041028.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 13:30 ET",
+        "pub_ts": 1795717841.0
+      },
+      {
         "title": "3 AI Infrastructure Stocks That Pay You While You Wait",
         "url": "https://247wallst.com/investing/2026/11/26/3-ai-infrastructure-stocks-that-pay-you-while-you-wait/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1076,16 +1083,16 @@
         "source": "Yahoo Finance",
         "time": "11-26 06:51 ET",
         "pub_ts": 1795693883.0
-      },
-      {
-        "title": "What iShares PHLX SOX Semi (SOXX) Sold: AMD Leads on Nov. 24",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-phlx-sox-semi-soxx-110411069.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:04 ET",
-        "pub_ts": 1795691051.0
       }
     ],
     "AMAT": [
+      {
+        "title": "Applied Materials Stocks Fall 3.89% as UBS Trims Target and China Curbs Loom",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-stocks-fall-3-183452125.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 13:34 ET",
+        "pub_ts": 1795718092.0
+      },
       {
         "title": "“Another Record Year”: Applied Materials CEO Bets on 2027 as Chip Stocks Slide",
         "url": "https://www.tikr.com/blog/another-record-year-applied-materials-ceo-bets-on-2027-as-chip-stocks-slide?ref=yahoofinance&tlnk=yf-261126-r2g3rcm8&.tsrc=rss",
@@ -1113,13 +1120,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 19:34 ET",
         "pub_ts": 1795653252.0
-      },
-      {
-        "title": "Billionaire Brad Gerstner’s Altimeter Opened a $680 Million Tesla Stake and Exited Qualcomm and Applied Materials",
-        "url": "https://247wallst.com/investing/2026/11/25/billionaire-brad-gerstners-altimeter-opened-a-680-million-tesla-stake-and-exited-qualcomm-and-applied-materials/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 15:22 ET",
-        "pub_ts": 1795638121.0
       }
     ],
     "META": [
@@ -1168,11 +1168,18 @@
         "pub_ts": 1795700640.0
       },
       {
-        "title": "5 things I'm thankful for in AI",
-        "url": "https://finance.yahoo.com/video/5-things-im-thankful-ai-120000522.html?.tsrc=rss",
+        "title": "Broadcom Stocks Edge Lower After Rebounding From an Intraday Low of $278",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stocks-edge-lower-rebounding-183041028.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 07:00 ET",
-        "pub_ts": 1795694400.0
+        "time": "11-26 13:30 ET",
+        "pub_ts": 1795717841.0
+      },
+      {
+        "title": "Alphabet Stocks Slip 2.13% as Credit Swaps Hit Record Amid $9.1 Billion Cash Burn",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-slip-2-13-182601811.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 13:26 ET",
+        "pub_ts": 1795717561.0
       },
       {
         "title": "George Soros and 64 Other Big Funds Bought Meta Last Quarter. David Tepper and 33 Others Sold. Who’s Right?",
@@ -1187,16 +1194,16 @@
         "source": "Yahoo Finance",
         "time": "11-26 12:47 ET",
         "pub_ts": 1795715222.0
-      },
-      {
-        "title": "Amazon Has 59 Buy Ratings and Not a Single Sell. Here’s Where its Headed",
-        "url": "https://247wallst.com/investing/2026/11/26/amazon-has-59-buy-ratings-and-not-a-single-sell-heres-where-its-headed/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 12:10 ET",
-        "pub_ts": 1795713002.0
       }
     ],
     "MSFT": [
+      {
+        "title": "Can NICE (TASE:NICE) Support A Reasonable Price On Earnings?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nice-tase-nice-support-reasonable-181420159.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 13:14 ET",
+        "pub_ts": 1795716860.0
+      },
       {
         "title": "Data Engineering Workflow Orchestration Market Global Report 2026 | Capture $14.43B AI and Multi-Cloud Demand with Databricks, Microsoft, Snowflake and Astronomer",
         "url": "https://finance.yahoo.com/technology/articles/data-engineering-workflow-orchestration-market-142400107.html?.tsrc=rss",
@@ -1205,11 +1212,11 @@
         "pub_ts": 1795703040.0
       },
       {
-        "title": "State Street Tech Select SPDR (XLK) Adds Apple and Nvidia on Nov. 24",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-tech-select-spdr-110452004.html?.tsrc=rss",
+        "title": "Stanley Druckenmiller, Bill Ackman and 7 Other Famous Investors Own Amazon. Here’s Who Bought and Sold Recently",
+        "url": "https://www.tikr.com/blog/stanley-druckenmiller-bill-ackman-and-7-other-famous-investors-own-amazon-heres-who-bought-and-sold-recently?ref=yahoofinance&tlnk=yf-261126-2mffj2wm&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 06:04 ET",
-        "pub_ts": 1795691092.0
+        "time": "11-26 13:11 ET",
+        "pub_ts": 1795716673.0
       },
       {
         "title": "What Does Pinterest (PINS) Pay Overhaul Mean For Its Takeover Talk And Ad Push?",
@@ -1224,16 +1231,16 @@
         "source": "Yahoo Finance",
         "time": "11-26 10:00 ET",
         "pub_ts": 1795705200.0
-      },
-      {
-        "title": "Michael Burry Makes Surprising Pivot on Stock Market",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-makes-surprising-pivot-141451027.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 09:14 ET",
-        "pub_ts": 1795702491.0
       }
     ],
     "AAPL": [
+      {
+        "title": "Apple Removes Talkie From App Store After Reports of Inappropriate AI Messages",
+        "url": "https://finance.yahoo.com/technology/ai/articles/apple-removes-talkie-app-store-180937483.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 13:09 ET",
+        "pub_ts": 1795716577.0
+      },
       {
         "title": "Apple, Exxon and Lowe’s Are Rewarding Shareholders Beyond Their Regular Dividends",
         "url": "https://247wallst.com/investing/2026/11/26/apple-exxon-and-lowes-are-rewarding-shareholders-beyond-their-regular-dividends/?.tsrc=rss",
@@ -1261,16 +1268,16 @@
         "source": "Yahoo Finance",
         "time": "11-26 09:18 ET",
         "pub_ts": 1795702680.0
-      },
-      {
-        "title": "Apple Pulls Popular AI App Over Alarming Safety Concerns",
-        "url": "https://finance.yahoo.com/technology/ai/articles/apple-pulls-popular-ai-app-141351113.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 09:13 ET",
-        "pub_ts": 1795702431.0
       }
     ],
     "PLTR": [
+      {
+        "title": "Palantir Stocks Rise 1.5% After Peter Thiel Discloses a $122 Million Share Purchase",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stocks-rise-1-5-183642789.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 13:36 ET",
+        "pub_ts": 1795718202.0
+      },
       {
         "title": "Palantir Closed 212 Deals Worth at Least $1 Million. Here’s What That Means for Its Growth",
         "url": "https://247wallst.com/investing/2026/11/26/palantir-closed-212-deals-worth-at-least-1-million-heres-what-that-means-for-its-growth/?.tsrc=rss",
@@ -1298,13 +1305,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 03:26 ET",
         "pub_ts": 1795681576.0
-      },
-      {
-        "title": "Michael Burry Says His Portfolio Was Discussed 'About the Time the Market Reversed Off Its Lows': He Is 'Temporarily Almost Entirely Long'",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-says-portfolio-discussed-025825540.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 21:58 ET",
-        "pub_ts": 1795661905.0
       }
     ],
     "NOW": [
@@ -1346,6 +1346,13 @@
     ],
     "AMZN": [
       {
+        "title": "Stanley Druckenmiller, Bill Ackman and 7 Other Famous Investors Own Amazon. Here’s Who Bought and Sold Recently",
+        "url": "https://www.tikr.com/blog/stanley-druckenmiller-bill-ackman-and-7-other-famous-investors-own-amazon-heres-who-bought-and-sold-recently?ref=yahoofinance&tlnk=yf-261126-2mffj2wm&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 13:11 ET",
+        "pub_ts": 1795716673.0
+      },
+      {
         "title": "Amazon , Walmart Battle for $124 Billion Holiday Shopping Market",
         "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-walmart-battle-124-billion-175223253.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1372,13 +1379,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 12:15 ET",
         "pub_ts": 1795713331.0
-      },
-      {
-        "title": "Amazon Has 59 Buy Ratings and Not a Single Sell. Here’s Where its Headed",
-        "url": "https://247wallst.com/investing/2026/11/26/amazon-has-59-buy-ratings-and-not-a-single-sell-heres-where-its-headed/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 12:10 ET",
-        "pub_ts": 1795713002.0
       }
     ],
     "CRWV": [
@@ -3296,27 +3296,27 @@
     "SOXS": 1795719107.0668628,
     "NVDA": 1795719107.0668628,
     "AMD": 1795719107.0668628,
-    "ASML": 1795717639.767247,
-    "QCOM": 1795717639.767247,
-    "AVGO": 1795717639.767247,
-    "AMAT": 1795717639.767247,
-    "META": 1795717639.767247,
-    "GOOGL": 1795717639.767247,
-    "MSFT": 1795717639.767247,
-    "AAPL": 1795717639.767247,
-    "PLTR": 1795717639.767247,
-    "NOW": 1795717639.767247,
-    "AMZN": 1795717639.767247,
-    "CRWV": 1795717639.767247,
-    "NBIS": 1795717639.767247,
-    "APLD": 1795717639.767247,
-    "VST": 1795717639.767247,
-    "BE": 1795717639.767247,
-    "CRDO": 1795717639.767247,
-    "COHR": 1795717639.767247,
-    "MRVL": 1795717639.767247,
+    "ASML": 1795719206.3475246,
+    "QCOM": 1795719206.3475246,
+    "AVGO": 1795719206.3475246,
+    "AMAT": 1795719206.3475246,
+    "META": 1795719206.3475246,
+    "GOOGL": 1795719206.3475246,
+    "MSFT": 1795719206.3475246,
+    "AAPL": 1795719206.3475246,
+    "PLTR": 1795719206.3475246,
+    "NOW": 1795719206.3475246,
+    "AMZN": 1795719206.3475246,
+    "CRWV": 1795719206.3475246,
+    "NBIS": 1795719206.3475246,
+    "APLD": 1795719206.3475246,
+    "VST": 1795719206.3475246,
+    "BE": 1795719206.3475246,
+    "CRDO": 1795719206.3475246,
+    "COHR": 1795719206.3475246,
+    "MRVL": 1795719206.3475246,
     "LITE": 1795718714.9537654,
-    "AAOI": 1795717639.767247,
+    "AAOI": 1795719206.3475246,
     "SPCX": 1795718714.9537654,
     "ASTS": 1795718714.9537654,
     "AXTI": 1795718714.9537654,
@@ -3346,13 +3346,13 @@
     "COIN": 1795719107.0668628,
     "LLY": 1795719107.0668628,
     "MRNA": 1795719107.0668628,
-    "NKE": 1795717639.767247,
-    "MCD": 1795717639.767247,
-    "PEP": 1795717639.767247,
+    "NKE": 1795719206.3475246,
+    "MCD": 1795719206.3475246,
+    "PEP": 1795719206.3475246,
     "XOM": 1795717737.412457,
-    "JPM": 1795717639.767247,
+    "JPM": 1795719206.3475246,
     "WMT": 1795717737.412457,
-    "V": 1795717639.767247,
+    "V": 1795719206.3475246,
     "CAT": 1795717737.412457,
     "FN": 1795718714.9537654,
     "GLW": 1795718714.9537654,
