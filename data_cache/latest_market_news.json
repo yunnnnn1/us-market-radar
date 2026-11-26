@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795732993.202,
-  "updated_at_et": "11-26 17:43 ET",
-  "updated_at_kst": "07:43 KST",
+  "updated_at_ts": 1795733090.289,
+  "updated_at_et": "11-26 17:44 ET",
+  "updated_at_kst": "07:44 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -904,6 +904,13 @@
     ],
     "NVDA": [
       {
+        "title": "Loonie weakens amid Thanksgiving holiday lull, Canadian labor market data",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/loonie-weakens-amid-thanksgiving-holiday-222803240.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 17:28 ET",
+        "pub_ts": 1795732083.0
+      },
+      {
         "title": "Jensen Huang’s Return Doesn’t Make Nvidia Stock (NVDA) a Buy",
         "url": "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-return-doesn-t-212200380.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -930,13 +937,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 15:03 ET",
         "pub_ts": 1795723434.0
-      },
-      {
-        "title": "Nvidia Stock Has Found Its Next Big Catalyst, Making the Stock a Once-in-a-Decade Buying Opportunity.",
-        "url": "https://www.fool.com/investing/2026/11/26/nvidia-stock-has-found-its-next-big-catalyst-making-the-stock-a-once-in-a-decade-buying-opportunity/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 13:17 ET",
-        "pub_ts": 1795717022.0
       }
     ],
     "AMD": [
@@ -3281,23 +3281,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795731527.1413274,
-    "SOXL": 1795731527.1413274,
-    "SPY": 1795731527.1413274,
-    "DIA": 1795731527.1413274,
-    "SOXX": 1795731527.1413274,
-    "QQQ": 1795731527.1413274,
-    "SMH": 1795731527.1413274,
-    "IWM": 1795731527.1413274,
-    "IGV": 1795731527.1413274,
-    "TLT": 1795731527.1413274,
-    "GLD": 1795731527.1413274,
-    "SQQQ": 1795731527.1413274,
-    "TSM": 1795731527.1413274,
-    "VIXY": 1795731527.1413274,
-    "SOXS": 1795731527.1413274,
-    "NVDA": 1795731527.1413274,
-    "AMD": 1795731527.1413274,
+    "KORU": 1795733090.2889307,
+    "SOXL": 1795733090.2889307,
+    "SPY": 1795733090.2889307,
+    "DIA": 1795733090.2889307,
+    "SOXX": 1795733090.2889307,
+    "QQQ": 1795733090.2889307,
+    "SMH": 1795733090.2889307,
+    "IWM": 1795733090.2889307,
+    "IGV": 1795733090.2889307,
+    "TLT": 1795733090.2889307,
+    "GLD": 1795733090.2889307,
+    "SQQQ": 1795733090.2889307,
+    "TSM": 1795733090.2889307,
+    "VIXY": 1795733090.2889307,
+    "SOXS": 1795733090.2889307,
+    "NVDA": 1795733090.2889307,
+    "AMD": 1795733090.2889307,
     "ASML": 1795731918.1163251,
     "QCOM": 1795731918.1163251,
     "AVGO": 1795731918.1163251,
@@ -3340,14 +3340,14 @@
     "SKHY": 1795732795.7754316,
     "WDC": 1795732795.7754316,
     "STX": 1795732795.7754316,
-    "MSTR": 1795731527.1413274,
+    "MSTR": 1795733090.2889307,
     "SNDK": 1795732795.7754316,
-    "BTC-USD": 1795731527.1413274,
-    "CRWD": 1795731527.1413274,
-    "ORCL": 1795731527.1413274,
-    "COIN": 1795731527.1413274,
-    "LLY": 1795731527.1413274,
-    "MRNA": 1795731527.1413274,
+    "BTC-USD": 1795733090.2889307,
+    "CRWD": 1795733090.2889307,
+    "ORCL": 1795733090.2889307,
+    "COIN": 1795733090.2889307,
+    "LLY": 1795733090.2889307,
+    "MRNA": 1795733090.2889307,
     "NKE": 1795731918.1163251,
     "MCD": 1795731918.1163251,
     "PEP": 1795731918.1163251,
@@ -3360,7 +3360,7 @@
     "GLW": 1795732795.7754316,
     "ANT": 1795732017.3020346,
     "XAUUSD": 1795732017.3020346,
-    "KOSPI": 1795731527.1413274
+    "KOSPI": 1795733090.2889307
   },
   "opex_shield": {
     "date": "2026-11-26",
