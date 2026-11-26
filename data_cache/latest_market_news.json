@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795728308.271,
-  "updated_at_et": "11-26 16:25 ET",
-  "updated_at_kst": "06:25 KST",
+  "updated_at_ts": 1795728405.235,
+  "updated_at_et": "11-26 16:26 ET",
+  "updated_at_kst": "06:26 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2604,6 +2604,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "Bitcoin, XRP, Ethereum face brutal crash risk as key levels crack",
+        "url": "https://www.thestreet.com/crypto/markets/bitcoin-xrp-ethereum-face-brutal-crash-risk-as-key-levels-crack?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 16:00 ET",
+        "pub_ts": 1795726800.0
+      },
+      {
         "title": "Is Bitcoin a Good Investment for Building Wealth After a 50% Drop?",
         "url": "https://247wallst.com/investing/cryptocurrency/2026/11/26/is-bitcoin-a-good-investment-for-building-wealth-after-a-50-drop/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2630,13 +2637,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 12:45 ET",
         "pub_ts": 1795715154.0
-      },
-      {
-        "title": "Galaxy Research Warns Bitcoin Could Fall to $28,200 if June Low Breaks",
-        "url": "https://www.cryptoprowl.com/releases/galaxy-research-warns-bitcoin-could-fall-to-28200-if-june-low-breaks-8091?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 11:37 ET",
-        "pub_ts": 1795711020.0
       }
     ],
     "CRWD": [
@@ -3279,23 +3279,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795726887.066239,
-    "SOXL": 1795726887.066239,
-    "SPY": 1795726887.066239,
-    "DIA": 1795726887.066239,
-    "SOXX": 1795726887.066239,
-    "QQQ": 1795726887.066239,
-    "SMH": 1795726887.066239,
-    "IWM": 1795726887.066239,
-    "IGV": 1795726887.066239,
-    "TLT": 1795726887.066239,
-    "GLD": 1795726887.066239,
-    "SQQQ": 1795726887.066239,
-    "TSM": 1795726887.066239,
-    "VIXY": 1795726887.066239,
-    "SOXS": 1795726887.066239,
-    "NVDA": 1795726887.066239,
-    "AMD": 1795726887.066239,
+    "KORU": 1795728405.2348375,
+    "SOXL": 1795728405.2348375,
+    "SPY": 1795728405.2348375,
+    "DIA": 1795728405.2348375,
+    "SOXX": 1795728405.2348375,
+    "QQQ": 1795728405.2348375,
+    "SMH": 1795728405.2348375,
+    "IWM": 1795728405.2348375,
+    "IGV": 1795728405.2348375,
+    "TLT": 1795728405.2348375,
+    "GLD": 1795728405.2348375,
+    "SQQQ": 1795728405.2348375,
+    "TSM": 1795728405.2348375,
+    "VIXY": 1795728405.2348375,
+    "SOXS": 1795728405.2348375,
+    "NVDA": 1795728405.2348375,
+    "AMD": 1795728405.2348375,
     "ASML": 1795727233.36914,
     "QCOM": 1795727233.36914,
     "AVGO": 1795727233.36914,
@@ -3338,14 +3338,14 @@
     "SKHY": 1795728110.3223414,
     "WDC": 1795728110.3223414,
     "STX": 1795728110.3223414,
-    "MSTR": 1795726887.066239,
+    "MSTR": 1795728405.2348375,
     "SNDK": 1795728110.3223414,
-    "BTC-USD": 1795726887.066239,
-    "CRWD": 1795726887.066239,
-    "ORCL": 1795726887.066239,
-    "COIN": 1795726887.066239,
-    "LLY": 1795726887.066239,
-    "MRNA": 1795726887.066239,
+    "BTC-USD": 1795728405.2348375,
+    "CRWD": 1795728405.2348375,
+    "ORCL": 1795728405.2348375,
+    "COIN": 1795728405.2348375,
+    "LLY": 1795728405.2348375,
+    "MRNA": 1795728405.2348375,
     "NKE": 1795727233.36914,
     "MCD": 1795727233.36914,
     "PEP": 1795727233.36914,
@@ -3358,7 +3358,7 @@
     "GLW": 1795728110.3223414,
     "ANT": 1795727331.0110416,
     "XAUUSD": 1795727331.0110416,
-    "KOSPI": 1795726887.066239
+    "KOSPI": 1795728405.2348375
   },
   "opex_shield": {
     "date": "2026-11-26",
