@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795665321.65,
-  "updated_at_et": "11-25 22:55 ET",
-  "updated_at_kst": "12:55 KST",
+  "updated_at_ts": 1795665423.003,
+  "updated_at_et": "11-25 22:57 ET",
+  "updated_at_kst": "12:57 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1793,6 +1793,13 @@
     ],
     "SPCX": [
       {
+        "title": "Cathie Wood Buys More SpaceX Amid Tesla Merger Talks — Ron Baron Says SpaceX Could Make $50B A Year From One Data Center",
+        "url": "https://stocktwits.com/news-articles/markets/equity/cathie-wood-buys-spacex-tesla-merger-talks-ron-baron-spacex-50b-one-data-center/cNbxeDKR9Z4?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 22:32 ET",
+        "pub_ts": 1795663955.0
+      },
+      {
         "title": "SpaceX gets approval for 1 million data center satellites",
         "url": "https://finance.yahoo.com/technology/ai/articles/spacex-gets-approval-1-million-023847485.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1819,13 +1826,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 19:22 ET",
         "pub_ts": 1795652561.0
-      },
-      {
-        "title": "S&P 500, Nasdaq End Lower But Dow Rebounds As Traders Rotate Out Of AI — NVDA, SPCX, PANW In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-lower-but-dow-rebounds-as-traders-rotate-out-of-ai-nvda-spcx-panw-in-focus/cNbx21AR9mC?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 19:09 ET",
-        "pub_ts": 1795651790.0
       }
     ],
     "ASTS": [
@@ -3355,11 +3355,11 @@
     "CRDO": 1795665321.6496377,
     "COHR": 1795665321.6496377,
     "MRVL": 1795665321.6496377,
-    "LITE": 1795663889.0771606,
+    "LITE": 1795665423.0032654,
     "AAOI": 1795665321.6496377,
-    "SPCX": 1795663889.0771606,
+    "SPCX": 1795665423.0032654,
     "ASTS": 1795664808.0445356,
-    "AXTI": 1795663889.0771606,
+    "AXTI": 1795665423.0032654,
     "NASA": 1795664808.0445356,
     "LUNR": 1795664808.0445356,
     "TSLA": 1795664808.0445356,
@@ -3394,8 +3394,8 @@
     "WMT": 1795665321.6496377,
     "V": 1795665015.2598774,
     "CAT": 1795665321.6496377,
-    "FN": 1795663889.0771606,
-    "GLW": 1795663889.0771606,
+    "FN": 1795665423.0032654,
+    "GLW": 1795665423.0032654,
     "ANT": 1795665321.6496377,
     "XAUUSD": 1795665321.6496377,
     "KOSPI": 1795665015.2598774
