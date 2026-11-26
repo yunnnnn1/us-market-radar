@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795728793.617,
-  "updated_at_et": "11-26 16:33 ET",
-  "updated_at_kst": "06:33 KST",
+  "updated_at_ts": 1795728893.73,
+  "updated_at_et": "11-26 16:34 ET",
+  "updated_at_kst": "06:34 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -3203,6 +3203,13 @@
         "pub_ts": 1795705200.0
       },
       {
+        "title": "Cathie Wood Just Bought $26 Million of Anthropic Across 6 ARK Funds",
+        "url": "https://www.tikr.com/blog/cathie-wood-just-bought-26-million-of-anthropic-across-6-ark-funds?ref=yahoofinance&tlnk=yf-261126-p2m2c5g4&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 16:06 ET",
+        "pub_ts": 1795727161.0
+      },
+      {
         "title": "Anthropic Stock Is Now Trading as ANT. Should You Buy Today or Wait?",
         "url": "https://www.fool.com/investing/2026/11/26/anthropic-stock-is-now-trading-as-ant-should-you-buy-today-or-wait/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3222,13 +3229,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 14:05 ET",
         "pub_ts": 1795719952.0
-      },
-      {
-        "title": "Dow Jones Futures Rise With U.S. Markets Shut; Look For This Bullish Signal",
-        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise-with.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 13:11 ET",
-        "pub_ts": 1795716674.0
       }
     ],
     "XAUUSD": [
@@ -3349,15 +3349,15 @@
     "NKE": 1795728793.6173792,
     "MCD": 1795728793.6173792,
     "PEP": 1795728793.6173792,
-    "XOM": 1795727331.0110416,
+    "XOM": 1795728893.729584,
     "JPM": 1795728793.6173792,
-    "WMT": 1795727331.0110416,
+    "WMT": 1795728893.729584,
     "V": 1795728793.6173792,
-    "CAT": 1795727331.0110416,
+    "CAT": 1795728893.729584,
     "FN": 1795728110.3223414,
     "GLW": 1795728110.3223414,
-    "ANT": 1795727331.0110416,
-    "XAUUSD": 1795727331.0110416,
+    "ANT": 1795728893.729584,
+    "XAUUSD": 1795728893.729584,
     "KOSPI": 1795728405.2348375
   },
   "opex_shield": {
