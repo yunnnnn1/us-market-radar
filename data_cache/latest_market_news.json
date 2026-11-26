@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795656905.51,
-  "updated_at_et": "11-25 20:35 ET",
-  "updated_at_kst": "10:35 KST",
+  "updated_at_ts": 1795657003.853,
+  "updated_at_et": "11-25 20:36 ET",
+  "updated_at_kst": "10:36 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -2387,6 +2387,13 @@
     ],
     "FPS": [
       {
+        "title": "Why Forgent Power Solutions (FPS) Failed to Live Up to Its IPO Hype?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-forgent-power-solutions-fps-011255361.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 20:12 ET",
+        "pub_ts": 1795655575.0
+      },
+      {
         "title": "Forgent: 3 Key Takeaways for Long-Term Investors",
         "url": "https://www.fool.com/earnings/takeaways/2026/11/18/forgent-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2413,13 +2420,6 @@
         "source": "Yahoo Finance",
         "time": "11-12 20:02 ET",
         "pub_ts": 1794531745.0
-      },
-      {
-        "title": "Forgent Power Solutions (FPS) Stock Price Falls After Q1 Earnings Recovery",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/forgent-power-solutions-fps-stock-001917011.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-12 19:19 ET",
-        "pub_ts": 1794529157.0
       }
     ],
     "MU": [
@@ -2461,6 +2461,13 @@
     ],
     "SKHY": [
       {
+        "title": "Samsung and SK Hynix Drag KOSPI Down 6%, and Foreign Investors Are Running",
+        "url": "https://beincrypto.com/kospi-crash-south-korea-stock-market/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 19:54 ET",
+        "pub_ts": 1795654498.0
+      },
+      {
         "title": "SK hynix (KOSE:A000660) AI Memory Narrative Puts Valuation Back In Focus",
         "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-kose-a000660-ai-211453290.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2487,13 +2494,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 12:16 ET",
         "pub_ts": 1795626966.0
-      },
-      {
-        "title": "SK hynix vs Micron: Which AI Memory Player Has the Edge?",
-        "url": "https://finance.yahoo.com/technology/ai/articles/sk-hynix-vs-micron-ai-161700194.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:17 ET",
-        "pub_ts": 1795623420.0
       }
     ],
     "WDC": [
@@ -3360,32 +3360,32 @@
     "LITE": 1795655825.7702444,
     "AAOI": 1795655727.471411,
     "SPCX": 1795655825.7702444,
-    "ASTS": 1795655430.3611717,
+    "ASTS": 1795657003.8525672,
     "AXTI": 1795655825.7702444,
-    "NASA": 1795655430.3611717,
-    "LUNR": 1795655430.3611717,
-    "TSLA": 1795655430.3611717,
-    "AXP": 1795655430.3611717,
-    "RKLB": 1795655430.3611717,
-    "KO": 1795655430.3611717,
-    "FLY": 1795655430.3611717,
-    "INTC": 1795655430.3611717,
-    "VRT": 1795655430.3611717,
-    "HPE": 1795655430.3611717,
-    "DELL": 1795655430.3611717,
-    "OKLO": 1795655430.3611717,
-    "CEG": 1795655430.3611717,
-    "FPS": 1795655430.3611717,
-    "MU": 1795655430.3611717,
-    "SKHY": 1795655430.3611717,
-    "WDC": 1795655430.3611717,
-    "STX": 1795655430.3611717,
-    "MSTR": 1795655430.3611717,
-    "SNDK": 1795655430.3611717,
-    "BTC-USD": 1795655430.3611717,
-    "CRWD": 1795655430.3611717,
-    "ORCL": 1795655430.3611717,
-    "COIN": 1795655430.3611717,
+    "NASA": 1795657003.8525672,
+    "LUNR": 1795657003.8525672,
+    "TSLA": 1795657003.8525672,
+    "AXP": 1795657003.8525672,
+    "RKLB": 1795657003.8525672,
+    "KO": 1795657003.8525672,
+    "FLY": 1795657003.8525672,
+    "INTC": 1795657003.8525672,
+    "VRT": 1795657003.8525672,
+    "HPE": 1795657003.8525672,
+    "DELL": 1795657003.8525672,
+    "OKLO": 1795657003.8525672,
+    "CEG": 1795657003.8525672,
+    "FPS": 1795657003.8525672,
+    "MU": 1795657003.8525672,
+    "SKHY": 1795657003.8525672,
+    "WDC": 1795657003.8525672,
+    "STX": 1795657003.8525672,
+    "MSTR": 1795657003.8525672,
+    "SNDK": 1795657003.8525672,
+    "BTC-USD": 1795657003.8525672,
+    "CRWD": 1795657003.8525672,
+    "ORCL": 1795657003.8525672,
+    "COIN": 1795657003.8525672,
     "LLY": 1795655530.6058269,
     "MRNA": 1795655530.6058269,
     "NKE": 1795655530.6058269,
