@@ -1,9 +1,22 @@
 {
-  "updated_at_ts": 1795704870.207,
-  "updated_at_et": "11-26 09:54 ET",
-  "updated_at_kst": "23:54 KST",
+  "updated_at_ts": 1795704973.191,
+  "updated_at_et": "11-26 09:56 ET",
+  "updated_at_kst": "23:56 KST",
   "macro_calendar": [],
   "macro_flashes": [
+    {
+      "id": "20261126225544721800",
+      "title": "美国总统特朗普：乌克兰与俄罗斯很有可能迅速达成协议。",
+      "summary": "美国总统特朗普：乌克兰与俄罗斯很有可能迅速达成协议。",
+      "keywords": [
+        "特朗普"
+      ],
+      "pub_ts": 1795704944.0,
+      "time_et": "11-26 09:55 ET",
+      "time_bj": "22:55 BJ",
+      "time_kst": "23:55 KST",
+      "time_display": "09:55 ET / 22:55 BJ"
+    },
     {
       "id": "20261126222609141800",
       "title": "【特朗普质疑GDP数据为什么不在大选前上修 将展开调查】 11月26日讯，美国总统特朗普…",
@@ -330,19 +343,6 @@
       "time_bj": "14:34 BJ",
       "time_kst": "15:34 KST",
       "time_display": "01:34 ET / 14:34 BJ"
-    },
-    {
-      "id": "20261126142420943800",
-      "title": "特朗普与北约秘书长会晤，联合敦促俄罗斯避免战争扩大化",
-      "summary": "特朗普与北约秘书长吕特发表联合声明，呼吁俄罗斯避免采取扩大俄乌冲突的行动。欧洲对战争外溢的担忧加剧，美国也在调整促成俄乌和平协议的策略。",
-      "keywords": [
-        "特朗普"
-      ],
-      "pub_ts": 1795674260.0,
-      "time_et": "11-26 01:24 ET",
-      "time_bj": "14:24 BJ",
-      "time_kst": "15:24 KST",
-      "time_display": "01:24 ET / 14:24 BJ"
     }
   ],
   "ticker_news": {
@@ -2605,39 +2605,39 @@
     ],
     "BTC-USD": [
       {
+        "title": "Core Scientific (CORZ) Quit Bitcoin for AI. Was It Worth It?",
+        "url": "https://finance.yahoo.com/technology/ai/articles/core-scientific-corz-quit-bitcoin-144324574.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 09:43 ET",
+        "pub_ts": 1795704204.0
+      },
+      {
+        "title": "Why Is Bitcoin Dropping So Much? 5 Reasons Behind Its Worst Month Since 2022",
+        "url": "https://247wallst.com/investing/cryptocurrency/2026/11/26/why-is-bitcoin-dropping-so-much-5-reasons-behind-its-worst-month-since-2022/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 09:43 ET",
+        "pub_ts": 1795704192.0
+      },
+      {
+        "title": "5 Best Small Cap AI Stocks to Buy for 2027",
+        "url": "https://finance.yahoo.com/technology/ai/articles/5-best-small-cap-ai-144008304.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 09:40 ET",
+        "pub_ts": 1795704008.0
+      },
+      {
+        "title": "Europe's Only Bitcoin ETF Begins Trading In Switzerland",
+        "url": "https://www.cryptoprowl.com/releases/europes-only-bitcoin-etf-begins-trading-in-switzerland-8087?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 09:37 ET",
+        "pub_ts": 1795703820.0
+      },
+      {
         "title": "Polygon Brings Its Cross-Border Payments Stack to Coinbase’s Base",
         "url": "https://decrypt.co/384023/polygon-cross-border-payments-stack-coinbase-base?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-26 09:01 ET",
         "pub_ts": 1795701662.0
-      },
-      {
-        "title": "Galaxy Research Withdraws Call That Bitcoin's Bear Market Is Over",
-        "url": "https://decrypt.co/384030/galaxy-research-withdraws-call-that-bitcoins-bear-market-is-over?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 07:26 ET",
-        "pub_ts": 1795695968.0
-      },
-      {
-        "title": "Billionaire Investor Paul Tudor Jones Just Doubled Down on Bitcoin. What Does He Know That the Market Doesn't?",
-        "url": "https://www.fool.com/investing/2026/11/26/billionaire-investor-paul-tudor-jones-just-doubled-down-on-bitcoin-what-does-he-know-that-you-dont/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 07:20 ET",
-        "pub_ts": 1795695602.0
-      },
-      {
-        "title": "Crypto Market Faces 3 Critical Risks Heading Into December 2026",
-        "url": "https://beincrypto.com/crypto-market-outlook-december-2026-three-risks/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:26 ET",
-        "pub_ts": 1795692392.0
-      },
-      {
-        "title": "Can a 17-Year Track Record Protect Bitcoin? Ryan Watkins Weighs In",
-        "url": "https://unchainedcrypto.com/can-a-17-year-track-record-protect-bitcoin-ryan-watkins-weighs-in/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:00 ET",
-        "pub_ts": 1795690845.0
       }
     ],
     "CRWD": [
@@ -2693,6 +2693,13 @@
         "pub_ts": 1795701019.0
       },
       {
+        "title": "How Will Oracle's Heavy AI Spending Shape the Stock's Cash Flow Trend?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/oracles-heavy-ai-spending-shape-134100910.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 08:41 ET",
+        "pub_ts": 1795700460.0
+      },
+      {
         "title": "Oracle Corporation (ORCL) Is a Trending Stock: Facts to Know Before Betting on It",
         "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-corporation-orcl-trending-stock-130006105.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2705,13 +2712,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 07:15 ET",
         "pub_ts": 1795695305.0
-      },
-      {
-        "title": "'Where Will That Come From?': Elon Musk Warns AI Firms Need Hundreds of Billions in Working Capital as Oracle Says It's Covered",
-        "url": "https://finance.yahoo.com/technology/ai/articles/where-come-elon-musk-warns-114510759.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:45 ET",
-        "pub_ts": 1795693510.0
       }
     ],
     "COIN": [
@@ -3339,12 +3339,12 @@
     "SKHY": 1795704870.2073371,
     "WDC": 1795704870.2073371,
     "STX": 1795704870.2073371,
-    "MSTR": 1795703424.9093442,
+    "MSTR": 1795704973.1911623,
     "SNDK": 1795704870.2073371,
-    "BTC-USD": 1795703424.9093442,
-    "CRWD": 1795703424.9093442,
-    "ORCL": 1795703424.9093442,
-    "COIN": 1795703424.9093442,
+    "BTC-USD": 1795704973.1911623,
+    "CRWD": 1795704973.1911623,
+    "ORCL": 1795704973.1911623,
+    "COIN": 1795704973.1911623,
     "LLY": 1795704458.3549743,
     "MRNA": 1795704458.3549743,
     "NKE": 1795704458.3549743,
@@ -3378,7 +3378,7 @@
   "calendar_banner": {
     "level": "idle_with_flash",
     "headline": "📡 宏观消息面监控中 · 今日暂无美股五星级经济数据大考",
-    "detail": "⚡ 最新核心快讯 (09:26 ET / 22:26 BJ) [特朗普]：【特朗普质疑GDP数据为什么不在大选前上修 将展开调查】 11月26日讯，美国总统特朗普：“刚刚披露的消息显示，在大选前公布的经济数据其实是虚假的；负责统计这些数据的政府机构人员昨天发布了修",
+    "detail": "⚡ 最新核心快讯 (09:55 ET / 22:55 BJ) [特朗普]：美国总统特朗普：乌克兰与俄罗斯很有可能迅速达成协议。",
     "event_name": "",
     "minutes_left": 0,
     "opex_shield": {
