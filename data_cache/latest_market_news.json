@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795712552.141,
-  "updated_at_et": "11-26 12:02 ET",
-  "updated_at_kst": "02:02 KST",
+  "updated_at_ts": 1795712655.327,
+  "updated_at_et": "11-26 12:04 ET",
+  "updated_at_kst": "02:04 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1753,6 +1753,13 @@
     ],
     "SPCX": [
       {
+        "title": "Elon Musk says he’ll gift every US kid 1 of his own SpaceX shares, plus 1 from SpaceX — but there’s a catch to claim",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-says-ll-gift-164000030.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:40 ET",
+        "pub_ts": 1795711200.0
+      },
+      {
         "title": "Musk makes $18 billion SpaceX stock pledge for every kid in America",
         "url": "https://www.axios.com/2026/11/26/musk-spacex-shares-trump-accounts#utm_source=yahoo_finance&utm_medium=partner&utm_campaign=subs-partner-yahoo-finance-AI?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1779,13 +1786,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 09:28 ET",
         "pub_ts": 1795703287.0
-      },
-      {
-        "title": "SpaceX refused $738M in fed grants to give rural homes free Starlink gear. It got what it wanted from Trump in return",
-        "url": "https://finance.yahoo.com/technology/articles/spacex-refused-738m-fed-grants-140000981.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 09:00 ET",
-        "pub_ts": 1795701600.0
       }
     ],
     "ASTS": [
@@ -1938,6 +1938,13 @@
     ],
     "TSLA": [
       {
+        "title": "XPeng Raises Stakes for Tesla Stock Investors' Big Growth Bet",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/xpeng-raises-stakes-tesla-stock-163240808.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:32 ET",
+        "pub_ts": 1795710760.0
+      },
+      {
         "title": "Tesla's Self-Driving Expansion in Europe Faces a Crucial Test",
         "url": "https://finance.yahoo.com/technology/ai/articles/teslas-self-driving-expansion-europe-134400727.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1964,13 +1971,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 22:32 ET",
         "pub_ts": 1795663955.0
-      },
-      {
-        "title": "Elon Musk tells Tesla investors there is 'only one way' to eliminate poverty",
-        "url": "https://www.thestreet.com/investing/elon-musk-tells-tesla-investors-optimus-robots-will-eliminate-poverty?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 19:37 ET",
-        "pub_ts": 1795653420.0
       }
     ],
     "AXP": [
@@ -2049,6 +2049,13 @@
     ],
     "KO": [
       {
+        "title": "Coca-Cola (KO) Up 6.4% Since Last Earnings Report: Can It Continue?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-6-4-153014132.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:30 ET",
+        "pub_ts": 1795707014.0
+      },
+      {
         "title": "Investing $500 a Month in Coca-Cola, Realty Income, and Altria Could Generate Over $1,000 in Monthly Dividend Income by 2046",
         "url": "https://www.fool.com/investing/2026/11/26/investing-usd500-a-month-in-coca-cola-realty-income-and-altria-could-generate-over-usd1-000-in-monthly-dividend-income-by-2046/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2075,13 +2082,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 07:59 ET",
         "pub_ts": 1795697942.0
-      },
-      {
-        "title": "Here’s How Many Coca-Cola Shares It Takes to Earn $1,300 Every Quarter in Dividends",
-        "url": "https://www.fool.com/investing/2026/11/25/heres-how-many-coca-cola-shares-it-takes-to-earn-1300-every-quarter-in-dividends/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 18:48 ET",
-        "pub_ts": 1795650482.0
       }
     ],
     "FLY": [
@@ -2308,6 +2308,13 @@
     ],
     "CEG": [
       {
+        "title": "NEE or CEG: Which Clean Energy Stock Is Better Positioned for Growth?",
+        "url": "https://finance.yahoo.com/energy/articles/nee-ceg-clean-energy-stock-154500861.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:45 ET",
+        "pub_ts": 1795707900.0
+      },
+      {
         "title": "Constellation concludes 4.4GW natural gas-fired power plants sale",
         "url": "https://www.power-technology.com/news/constellation-natural-gas-fired-power-plants/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2334,13 +2341,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 16:30 ET",
         "pub_ts": 1795642200.0
-      },
-      {
-        "title": "Is Constellation Energy Stock's Fall A Bargain Or A Warning?",
-        "url": "https://www.trefis.com/stock/ceg/articles/628278/is-constellation-energy-stocks-fall-a-bargain-or-a-warning/2026-11-24?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 12:22 ET",
-        "pub_ts": 1795540954.0
       }
     ],
     "FPS": [
@@ -2382,6 +2382,13 @@
     ],
     "MU": [
       {
+        "title": "SK Hynix Just Revealed the Next Generation of DRAM. Can It Beat Micron in the Next Memory Supercycle?",
+        "url": "https://247wallst.com/investing/2026/11/26/sk-hynix-just-revealed-the-next-generation-of-dram-can-it-beat-micron-in-the-next-memory-supercycle/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:44 ET",
+        "pub_ts": 1795711465.0
+      },
+      {
         "title": "Jim Cramer Says Micron Stock Is “Comically Cheap” at About 3 Times Earnings",
         "url": "https://247wallst.com/investing/2026/11/26/jim-cramer-says-micron-stock-is-comically-cheap-at-about-3-times-earnings/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2408,16 +2415,16 @@
         "source": "Yahoo Finance",
         "time": "11-26 07:21 ET",
         "pub_ts": 1795695663.0
-      },
-      {
-        "title": "Tepper Trims Alphabet by ~46% and Dumps Broadcom & AMD While Backing Micron and Oracle",
-        "url": "https://247wallst.com/investing/2026/11/26/tepper-trims-alphabet-by-46-and-dumps-broadcom-amd-while-backing-micron-and-oracle/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 07:15 ET",
-        "pub_ts": 1795695305.0
       }
     ],
     "SKHY": [
+      {
+        "title": "SK Hynix Just Revealed the Next Generation of DRAM. Can It Beat Micron in the Next Memory Supercycle?",
+        "url": "https://247wallst.com/investing/2026/11/26/sk-hynix-just-revealed-the-next-generation-of-dram-can-it-beat-micron-in-the-next-memory-supercycle/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:44 ET",
+        "pub_ts": 1795711465.0
+      },
       {
         "title": "European stocks rally as tech jitters ease",
         "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-enjoy-another-bounce-023024729.html?.tsrc=rss",
@@ -2445,13 +2452,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 19:54 ET",
         "pub_ts": 1795654498.0
-      },
-      {
-        "title": "SK hynix (KOSE:A000660) AI Memory Narrative Puts Valuation Back In Focus",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-kose-a000660-ai-211453290.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 16:14 ET",
-        "pub_ts": 1795641293.0
       }
     ],
     "WDC": [
@@ -3159,6 +3159,13 @@
     ],
     "GLW": [
       {
+        "title": "Corning (GLW) Down 23.6% Since Last Earnings Report: Can It Rebound?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/corning-glw-down-23-6-153011443.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:30 ET",
+        "pub_ts": 1795707011.0
+      },
+      {
         "title": "Corning Stocks Tumble 7.58% as AI Fiber Trade Unwinds",
         "url": "https://finance.yahoo.com/markets/stocks/articles/corning-stocks-tumble-7-58-172103702.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3185,13 +3192,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 13:03 ET",
         "pub_ts": 1795543380.0
-      },
-      {
-        "title": "Who's Buying And Who's Selling AI? The Full List, Next To 2000",
-        "url": "https://www.trefis.com/stock/nvda/articles/627430/who-s-buying-and-who-s-selling-ai-the-full-list-next-to-2000/2026-11-23?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 13:36 ET",
-        "pub_ts": 1795458967.0
       }
     ],
     "ANT": [
@@ -3315,31 +3315,31 @@
     "CRDO": 1795712552.1412592,
     "COHR": 1795712552.1412592,
     "MRVL": 1795712552.1412592,
-    "LITE": 1795711113.6742878,
+    "LITE": 1795712655.3272152,
     "AAOI": 1795712552.1412592,
-    "SPCX": 1795711113.6742878,
-    "ASTS": 1795711113.6742878,
-    "AXTI": 1795711113.6742878,
-    "NASA": 1795711113.6742878,
-    "LUNR": 1795711113.6742878,
-    "TSLA": 1795711113.6742878,
-    "AXP": 1795711113.6742878,
-    "RKLB": 1795711113.6742878,
-    "KO": 1795711113.6742878,
-    "FLY": 1795711113.6742878,
-    "INTC": 1795711113.6742878,
-    "VRT": 1795711113.6742878,
-    "HPE": 1795711113.6742878,
-    "DELL": 1795711113.6742878,
-    "OKLO": 1795711113.6742878,
-    "CEG": 1795711113.6742878,
-    "FPS": 1795711113.6742878,
-    "MU": 1795711113.6742878,
-    "SKHY": 1795711113.6742878,
-    "WDC": 1795711113.6742878,
-    "STX": 1795711113.6742878,
+    "SPCX": 1795712655.3272152,
+    "ASTS": 1795712655.3272152,
+    "AXTI": 1795712655.3272152,
+    "NASA": 1795712655.3272152,
+    "LUNR": 1795712655.3272152,
+    "TSLA": 1795712655.3272152,
+    "AXP": 1795712655.3272152,
+    "RKLB": 1795712655.3272152,
+    "KO": 1795712655.3272152,
+    "FLY": 1795712655.3272152,
+    "INTC": 1795712655.3272152,
+    "VRT": 1795712655.3272152,
+    "HPE": 1795712655.3272152,
+    "DELL": 1795712655.3272152,
+    "OKLO": 1795712655.3272152,
+    "CEG": 1795712655.3272152,
+    "FPS": 1795712655.3272152,
+    "MU": 1795712655.3272152,
+    "SKHY": 1795712655.3272152,
+    "WDC": 1795712655.3272152,
+    "STX": 1795712655.3272152,
     "MSTR": 1795711216.1780229,
-    "SNDK": 1795711113.6742878,
+    "SNDK": 1795712655.3272152,
     "BTC-USD": 1795711216.1780229,
     "CRWD": 1795711216.1780229,
     "ORCL": 1795711216.1780229,
@@ -3354,8 +3354,8 @@
     "WMT": 1795712552.1412592,
     "V": 1795712245.511414,
     "CAT": 1795712552.1412592,
-    "FN": 1795711113.6742878,
-    "GLW": 1795711113.6742878,
+    "FN": 1795712655.3272152,
+    "GLW": 1795712655.3272152,
     "ANT": 1795712552.1412592,
     "XAUUSD": 1795712552.1412592,
     "KOSPI": 1795712245.511414
