@@ -1,9 +1,22 @@
 {
-  "updated_at_ts": 1795733382.188,
-  "updated_at_et": "11-26 17:49 ET",
-  "updated_at_kst": "07:49 KST",
+  "updated_at_ts": 1795733479.123,
+  "updated_at_et": "11-26 17:51 ET",
+  "updated_at_kst": "07:51 KST",
   "macro_calendar": [],
   "macro_flashes": [
+    {
+      "id": "20261127065000002800",
+      "title": "【今日重点关注的财经数据与事件：2026年11月27日 周五】 ① 15:45 法国11…",
+      "summary": "【今日重点关注的财经数据与事件：2026年11月27日 周五】 ① 15:45 法国11月CPI月率初值 ② 15:45 法国第三季度GDP年率终值 ③ 16:55 德国11月季调后失业人数 ④ 16:55 德国11月季调后失业率 ⑤ 18:00 欧元区11月工业景气指数 ⑥ 18:00 欧元区11月经济景气指数 ⑦ 21:30 加拿大第三季度经常帐",
+      "keywords": [
+        "CPI"
+      ],
+      "pub_ts": 1795733400.0,
+      "time_et": "11-26 17:50 ET",
+      "time_bj": "06:50 BJ",
+      "time_kst": "07:50 KST",
+      "time_display": "17:50 ET / 06:50 BJ"
+    },
     {
       "id": "20261127063049983800",
       "title": "整理：昨日今晨重要新闻汇总（2026-11-27）",
@@ -331,19 +344,6 @@
       "time_bj": "15:17 BJ",
       "time_kst": "16:17 KST",
       "time_display": "02:17 ET / 15:17 BJ"
-    },
-    {
-      "id": "20261126151022413800",
-      "title": "【商务部：坚决反对美对中国等经济体加征301关税】 11月26日讯，针对美国贸易代表办公…",
-      "summary": "【商务部：坚决反对美对中国等经济体加征301关税】 11月26日讯，针对美国贸易代表办公室日前宣布“产能过剩”301调查结果，发布拟议措施，提出对包括中国在内的14个经济体加征301关税，商务部新闻发言人何亚东在26日举行的例行新闻发布会上表示，美方301调查是典型的单边主义行为，严重破坏国际经济秩序，严重违反世贸组织规则，中方对此坚决反对。中方敦促美方纠正错误做法，回到通过对话协商解决问题的正确轨道上来。中方将密切关注事态进展，保留采取必要措施的权利，坚决捍卫自身正当权益。",
-      "keywords": [
-        "关税"
-      ],
-      "pub_ts": 1795677022.0,
-      "time_et": "11-26 02:10 ET",
-      "time_bj": "15:10 BJ",
-      "time_kst": "16:10 KST",
-      "time_display": "02:10 ET / 15:10 BJ"
     }
   ],
   "ticker_news": {
@@ -1200,6 +1200,13 @@
     ],
     "MSFT": [
       {
+        "title": "Tech Stock Sell-Off: Down 13%, Is Microsoft a Buy Now?",
+        "url": "https://www.fool.com/investing/2026/11/26/tech-stock-sell-off-down-13-is-microsoft-a-buy-now/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 17:20 ET",
+        "pub_ts": 1795731602.0
+      },
+      {
         "title": "Microsoft Stocks Slip 1.25% While Nadella Backs Cheaper In-House AI Models",
         "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stocks-slip-1-25-184200035.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1226,13 +1233,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 13:12 ET",
         "pub_ts": 1795716770.0
-      },
-      {
-        "title": "Stanley Druckenmiller, Bill Ackman and 7 Other Famous Investors Own Amazon. Here’s Who Bought and Sold Recently",
-        "url": "https://www.tikr.com/blog/stanley-druckenmiller-bill-ackman-and-7-other-famous-investors-own-amazon-heres-who-bought-and-sold-recently?ref=yahoofinance&tlnk=yf-261126-2mffj2wm&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 13:11 ET",
-        "pub_ts": 1795716673.0
       }
     ],
     "AAPL": [
@@ -2976,6 +2976,13 @@
     ],
     "JPM": [
       {
+        "title": "Is Standard Chartered (LSE:STAN) Undervalued Following Its J.P. Morgan Conference Appearance?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/standard-chartered-lse-stan-undervalued-220908677.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 17:09 ET",
+        "pub_ts": 1795730948.0
+      },
+      {
         "title": "JPMorgan Sees $450 Billion AI Debt Wave as Credit Risks Mount",
         "url": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-sees-450-billion-ai-154741192.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3002,13 +3009,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 17:20 ET",
         "pub_ts": 1795645227.0
-      },
-      {
-        "title": "JPMorgan sees $450B in AI bond issuance in 2027",
-        "url": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-sees-450b-ai-bond-215824242.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 16:58 ET",
-        "pub_ts": 1795643904.0
       }
     ],
     "WMT": [
@@ -3298,27 +3298,27 @@
     "SOXS": 1795733090.2889307,
     "NVDA": 1795733090.2889307,
     "AMD": 1795733090.2889307,
-    "ASML": 1795731918.1163251,
-    "QCOM": 1795731918.1163251,
-    "AVGO": 1795731918.1163251,
-    "AMAT": 1795731918.1163251,
-    "META": 1795731918.1163251,
-    "GOOGL": 1795731918.1163251,
-    "MSFT": 1795731918.1163251,
-    "AAPL": 1795731918.1163251,
-    "PLTR": 1795731918.1163251,
-    "NOW": 1795731918.1163251,
-    "AMZN": 1795731918.1163251,
-    "CRWV": 1795731918.1163251,
-    "NBIS": 1795731918.1163251,
-    "APLD": 1795731918.1163251,
-    "VST": 1795731918.1163251,
-    "BE": 1795731918.1163251,
-    "CRDO": 1795731918.1163251,
-    "COHR": 1795731918.1163251,
-    "MRVL": 1795731918.1163251,
+    "ASML": 1795733479.123011,
+    "QCOM": 1795733479.123011,
+    "AVGO": 1795733479.123011,
+    "AMAT": 1795733479.123011,
+    "META": 1795733479.123011,
+    "GOOGL": 1795733479.123011,
+    "MSFT": 1795733479.123011,
+    "AAPL": 1795733479.123011,
+    "PLTR": 1795733479.123011,
+    "NOW": 1795733479.123011,
+    "AMZN": 1795733479.123011,
+    "CRWV": 1795733479.123011,
+    "NBIS": 1795733479.123011,
+    "APLD": 1795733479.123011,
+    "VST": 1795733479.123011,
+    "BE": 1795733479.123011,
+    "CRDO": 1795733479.123011,
+    "COHR": 1795733479.123011,
+    "MRVL": 1795733479.123011,
     "LITE": 1795732795.7754316,
-    "AAOI": 1795731918.1163251,
+    "AAOI": 1795733479.123011,
     "SPCX": 1795732795.7754316,
     "ASTS": 1795732795.7754316,
     "AXTI": 1795732795.7754316,
@@ -3348,13 +3348,13 @@
     "COIN": 1795733090.2889307,
     "LLY": 1795733090.2889307,
     "MRNA": 1795733090.2889307,
-    "NKE": 1795731918.1163251,
-    "MCD": 1795731918.1163251,
-    "PEP": 1795731918.1163251,
+    "NKE": 1795733479.123011,
+    "MCD": 1795733479.123011,
+    "PEP": 1795733479.123011,
     "XOM": 1795732017.3020346,
-    "JPM": 1795731918.1163251,
+    "JPM": 1795733479.123011,
     "WMT": 1795732017.3020346,
-    "V": 1795731918.1163251,
+    "V": 1795733479.123011,
     "CAT": 1795732017.3020346,
     "FN": 1795732795.7754316,
     "GLW": 1795732795.7754316,
@@ -3379,7 +3379,7 @@
   "calendar_banner": {
     "level": "idle_with_flash",
     "headline": "📡 宏观消息面监控中 · 今日暂无美股五星级经济数据大考",
-    "detail": "⚡ 最新核心快讯 (17:30 ET / 06:30 BJ) [关税] [特朗普] [中东]：国内新闻 1. 商务部：坚决反对美对中国等经济体加征301关税。 2. 商务部等8部门印发《服务贸易发展“十五五”规划》的通知。 3. 商务部：中方将密切关注欧方混动汽车保障措施后续调查进展",
+    "detail": "⚡ 最新核心快讯 (17:50 ET / 06:50 BJ) [CPI]：【今日重点关注的财经数据与事件：2026年11月27日 周五】 ① 15:45 法国11月CPI月率初值 ② 15:45 法国第三季度GDP年率终值 ③ 16:55 德国11月季调后失业人数",
     "event_name": "",
     "minutes_left": 0,
     "opex_shield": {
