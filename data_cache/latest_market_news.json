@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795722325.094,
-  "updated_at_et": "11-26 14:45 ET",
-  "updated_at_kst": "04:45 KST",
+  "updated_at_ts": 1795722422.402,
+  "updated_at_et": "11-26 14:47 ET",
+  "updated_at_kst": "04:47 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -3203,6 +3203,13 @@
         "pub_ts": 1795705200.0
       },
       {
+        "title": "I'd Buy Anthropic Stock Early — but Only If I Liked the Answers to These 3 Questions",
+        "url": "https://www.fool.com/investing/2026/11/26/id-buy-anthropic-stock-on-day-1-but-only-if-you-can-answer-these-3-questions/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 14:37 ET",
+        "pub_ts": 1795721822.0
+      },
+      {
         "title": "Anthropic Stocks Rise but Close Below $83 IPO Price for a Second Day",
         "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-stocks-rise-close-below-190552499.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3222,13 +3229,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 13:09 ET",
         "pub_ts": 1795716555.0
-      },
-      {
-        "title": "Alphabet Could Be the Safest Way to Own Anthropic. Here’s the Math.",
-        "url": "https://www.fool.com/investing/2026/11/26/alphabet-could-be-the-safest-way-to-own-anthropic-here-s-the-math/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 12:47 ET",
-        "pub_ts": 1795715222.0
       }
     ],
     "XAUUSD": [
@@ -3349,15 +3349,15 @@
     "NKE": 1795722325.0941594,
     "MCD": 1795722325.0941594,
     "PEP": 1795722325.0941594,
-    "XOM": 1795720860.3751976,
+    "XOM": 1795722422.4021988,
     "JPM": 1795722325.0941594,
-    "WMT": 1795720860.3751976,
+    "WMT": 1795722422.4021988,
     "V": 1795722325.0941594,
-    "CAT": 1795720860.3751976,
+    "CAT": 1795722422.4021988,
     "FN": 1795721838.4203064,
     "GLW": 1795721838.4203064,
-    "ANT": 1795720860.3751976,
-    "XAUUSD": 1795720860.3751976,
+    "ANT": 1795722422.4021988,
+    "XAUUSD": 1795722422.4021988,
     "KOSPI": 1795722227.5881047
   },
   "opex_shield": {
