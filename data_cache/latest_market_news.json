@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795710584.956,
-  "updated_at_et": "11-26 11:29 ET",
-  "updated_at_kst": "01:29 KST",
+  "updated_at_ts": 1795710688.912,
+  "updated_at_et": "11-26 11:31 ET",
+  "updated_at_kst": "01:31 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -643,6 +643,13 @@
     ],
     "IGV": [
       {
+        "title": "Which Funds With Software Exposure Fit Rising US AI Spending?",
+        "url": "https://finance.yahoo.com/technology/ai/articles/funds-software-exposure-fit-rising-160905233.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:09 ET",
+        "pub_ts": 1795709345.0
+      },
+      {
         "title": "iShares Expanded Tech-Software (IGV) Buys $15 Million More Palo Alto on Nov. 23",
         "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-expanded-tech-software-igv-110551099.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -669,13 +676,6 @@
         "source": "Yahoo Finance",
         "time": "11-18 06:05 ET",
         "pub_ts": 1794999917.0
-      },
-      {
-        "title": "Boom Goes the Stock Market",
-        "url": "https://finance.yahoo.com/m/a874bb50-570d-3775-bc4f-8ae36f44bacd/boom-goes-the-stock-market.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-17 10:59 ET",
-        "pub_ts": 1794931169.0
       }
     ],
     "TLT": [
@@ -902,6 +902,27 @@
     ],
     "NVDA": [
       {
+        "title": "Scott Bessent sends the Fed a stern warning it cannot ignore",
+        "url": "https://www.thestreet.com/fed/scott-bessent-sends-the-fed-a-stern-warning-it-cannot-ignore?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:17 ET",
+        "pub_ts": 1795709820.0
+      },
+      {
+        "title": "NVIDIA Just Dropped 31% in a Month. Will NVDA Stock Hit $125 or $200 First?",
+        "url": "https://247wallst.com/investing/2026/11/26/nvidia-just-dropped-31-in-a-month-will-nvda-stock-hit-125-or-200-first/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:06 ET",
+        "pub_ts": 1795709182.0
+      },
+      {
+        "title": "S&P 500 Sell-Off: Here's Why I'm Not Panicking -- and What I'm Doing Instead",
+        "url": "https://www.fool.com/investing/2026/11/26/sp-500-sell-off-heres-why-im-not-panicking-and-what-im-doing-instead/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:05 ET",
+        "pub_ts": 1795709102.0
+      },
+      {
         "title": "S&P’s NVIDIA Warning is Backward Looking Governance Theater That Gives Everyone an Opportunity to Buy at $150",
         "url": "https://247wallst.com/investing/2026/11/26/sps-nvidia-warning-is-backward-looking-governance-theater-that-gives-everyone-an-opportunity-to-buy-at-150/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -914,27 +935,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 09:51 ET",
         "pub_ts": 1795704662.0
-      },
-      {
-        "title": "Dow Investors Chased Tech Swings—While Amgen Quietly Surged 77%",
-        "url": "https://finance.yahoo.com/healthcare/articles/dow-investors-chased-tech-swings-144540662.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 09:45 ET",
-        "pub_ts": 1795704340.0
-      },
-      {
-        "title": "Stocks’ Swoon and Higher Interest Rates Are a Bad Combo for the Economy",
-        "url": "https://finance.yahoo.com/m/faf3cdb5-65de-33b2-bf66-cb69fde1728a/stocks%E2%80%99-swoon-and-higher.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 09:44 ET",
-        "pub_ts": 1795704240.0
-      },
-      {
-        "title": "President Donald Trump Considers Jensen Huang's Return to Nvidia a \"Great Decision,\" but It Doesn't Resolve a Critical Problem",
-        "url": "https://www.fool.com/investing/2026/11/26/donald-trump-considers-jensen-huang-return-nvidia-great-decision-doesnt-resolve-critical-problem/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 09:26 ET",
-        "pub_ts": 1795703161.0
       }
     ],
     "AMD": [
@@ -2789,6 +2789,13 @@
     ],
     "MRNA": [
       {
+        "title": "$1,000 in Moderna Stock on Jan. 1 Is Worth About $7,500 Today",
+        "url": "https://247wallst.com/investing/2026/11/26/1000-in-moderna-stock-on-jan-1-is-worth-about-7500-today/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:12 ET",
+        "pub_ts": 1795709556.0
+      },
+      {
         "title": "Invesco S&P 500 Equal Weight (RSP) Sells Moderna and PTC on Nov. 24",
         "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-p-500-equal-weight-110438813.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2815,13 +2822,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 04:08 ET",
         "pub_ts": 1795597724.0
-      },
-      {
-        "title": "Invesco S&P 500 High Beta (SPHB) Buys $13.4 Million More Bloom Energy on Monday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-p-500-high-beta-110539855.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:05 ET",
-        "pub_ts": 1795604739.0
       }
     ],
     "NKE": [
@@ -3279,23 +3279,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795709142.330208,
-    "SOXL": 1795709142.330208,
-    "SPY": 1795709142.330208,
-    "DIA": 1795709142.330208,
-    "SOXX": 1795709142.330208,
-    "QQQ": 1795709142.330208,
-    "SMH": 1795709142.330208,
-    "IWM": 1795709142.330208,
-    "IGV": 1795709142.330208,
-    "TLT": 1795709142.330208,
-    "GLD": 1795709142.330208,
-    "SQQQ": 1795709142.330208,
-    "TSM": 1795709142.330208,
-    "VIXY": 1795709142.330208,
-    "SOXS": 1795709142.330208,
-    "NVDA": 1795709142.330208,
-    "AMD": 1795709142.330208,
+    "KORU": 1795710688.9120066,
+    "SOXL": 1795710688.9120066,
+    "SPY": 1795710688.9120066,
+    "DIA": 1795710688.9120066,
+    "SOXX": 1795710688.9120066,
+    "QQQ": 1795710688.9120066,
+    "SMH": 1795710688.9120066,
+    "IWM": 1795710688.9120066,
+    "IGV": 1795710688.9120066,
+    "TLT": 1795710688.9120066,
+    "GLD": 1795710688.9120066,
+    "SQQQ": 1795710688.9120066,
+    "TSM": 1795710688.9120066,
+    "VIXY": 1795710688.9120066,
+    "SOXS": 1795710688.9120066,
+    "NVDA": 1795710688.9120066,
+    "AMD": 1795710688.9120066,
     "ASML": 1795709448.7174318,
     "QCOM": 1795709448.7174318,
     "AVGO": 1795709448.7174318,
@@ -3344,21 +3344,21 @@
     "CRWD": 1795709654.9171453,
     "ORCL": 1795709654.9171453,
     "COIN": 1795709654.9171453,
-    "LLY": 1795709142.330208,
-    "MRNA": 1795709142.330208,
-    "NKE": 1795709142.330208,
-    "MCD": 1795709142.330208,
-    "PEP": 1795709142.330208,
+    "LLY": 1795710688.9120066,
+    "MRNA": 1795710688.9120066,
+    "NKE": 1795710688.9120066,
+    "MCD": 1795710688.9120066,
+    "PEP": 1795710688.9120066,
     "XOM": 1795709448.7174318,
-    "JPM": 1795709142.330208,
+    "JPM": 1795710688.9120066,
     "WMT": 1795709448.7174318,
-    "V": 1795709142.330208,
+    "V": 1795710688.9120066,
     "CAT": 1795709448.7174318,
     "FN": 1795709551.8828852,
     "GLW": 1795709551.8828852,
     "ANT": 1795709448.7174318,
     "XAUUSD": 1795709448.7174318,
-    "KOSPI": 1795709142.330208
+    "KOSPI": 1795710688.9120066
   },
   "opex_shield": {
     "date": "2026-11-26",
