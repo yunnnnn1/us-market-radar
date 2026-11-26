@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795671048.522,
-  "updated_at_et": "11-26 00:30 ET",
-  "updated_at_kst": "14:30 KST",
+  "updated_at_ts": 1795671153.275,
+  "updated_at_et": "11-26 00:32 ET",
+  "updated_at_kst": "14:32 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -901,6 +901,13 @@
     ],
     "NVDA": [
       {
+        "title": "Asian shares rebound led by AI stocks after Wall Street pares sharp losses",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-rebound-led-ai-052153058.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 00:21 ET",
+        "pub_ts": 1795670513.0
+      },
+      {
         "title": "Kioxia and NVIDIA Collaborate to Expand Effective High-Bandwidth Memory Capacity with SSDs",
         "url": "https://finance.yahoo.com/technology/ai/articles/kioxia-nvidia-collaborate-expand-effective-041900475.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -927,13 +934,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 22:11 ET",
         "pub_ts": 1795662706.0
-      },
-      {
-        "title": "Is Nvidia Stock a Buy After Dell's Record AI Backlog?",
-        "url": "https://www.fool.com/investing/2026/11/25/is-nvidia-stock-a-buy-after-dell-s-record-ai-backlog/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 22:07 ET",
-        "pub_ts": 1795662422.0
       }
     ],
     "AMD": [
@@ -3278,23 +3278,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795669622.3272827,
-    "SOXL": 1795669622.3272827,
-    "SPY": 1795669622.3272827,
-    "DIA": 1795669622.3272827,
-    "SOXX": 1795669622.3272827,
-    "QQQ": 1795669622.3272827,
-    "SMH": 1795669622.3272827,
-    "IWM": 1795669622.3272827,
-    "IGV": 1795669622.3272827,
-    "TLT": 1795669622.3272827,
-    "GLD": 1795669622.3272827,
-    "SQQQ": 1795669622.3272827,
-    "TSM": 1795669622.3272827,
-    "VIXY": 1795669622.3272827,
-    "SOXS": 1795669622.3272827,
-    "NVDA": 1795669622.3272827,
-    "AMD": 1795669622.3272827,
+    "KORU": 1795671153.2752805,
+    "SOXL": 1795671153.2752805,
+    "SPY": 1795671153.2752805,
+    "DIA": 1795671153.2752805,
+    "SOXX": 1795671153.2752805,
+    "QQQ": 1795671153.2752805,
+    "SMH": 1795671153.2752805,
+    "IWM": 1795671153.2752805,
+    "IGV": 1795671153.2752805,
+    "TLT": 1795671153.2752805,
+    "GLD": 1795671153.2752805,
+    "SQQQ": 1795671153.2752805,
+    "TSM": 1795671153.2752805,
+    "VIXY": 1795671153.2752805,
+    "SOXS": 1795671153.2752805,
+    "NVDA": 1795671153.2752805,
+    "AMD": 1795671153.2752805,
     "ASML": 1795669929.019677,
     "QCOM": 1795669929.019677,
     "AVGO": 1795669929.019677,
@@ -3343,21 +3343,21 @@
     "CRWD": 1795670947.33903,
     "ORCL": 1795670947.33903,
     "COIN": 1795670947.33903,
-    "LLY": 1795669622.3272827,
-    "MRNA": 1795669622.3272827,
-    "NKE": 1795669622.3272827,
-    "MCD": 1795669622.3272827,
-    "PEP": 1795669622.3272827,
+    "LLY": 1795671153.2752805,
+    "MRNA": 1795671153.2752805,
+    "NKE": 1795671153.2752805,
+    "MCD": 1795671153.2752805,
+    "PEP": 1795671153.2752805,
     "XOM": 1795669929.019677,
-    "JPM": 1795669622.3272827,
+    "JPM": 1795671153.2752805,
     "WMT": 1795669929.019677,
-    "V": 1795669622.3272827,
+    "V": 1795671153.2752805,
     "CAT": 1795669929.019677,
     "FN": 1795670030.2325711,
     "GLW": 1795670030.2325711,
     "ANT": 1795669929.019677,
     "XAUUSD": 1795669929.019677,
-    "KOSPI": 1795669622.3272827
+    "KOSPI": 1795671153.2752805
   },
   "opex_shield": {
     "date": "2026-11-26",
