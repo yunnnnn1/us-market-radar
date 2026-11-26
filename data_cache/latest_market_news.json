@@ -1,9 +1,22 @@
 {
-  "updated_at_ts": 1795703219.062,
-  "updated_at_et": "11-26 09:26 ET",
-  "updated_at_kst": "23:26 KST",
+  "updated_at_ts": 1795703321.5,
+  "updated_at_et": "11-26 09:28 ET",
+  "updated_at_kst": "23:28 KST",
   "macro_calendar": [],
   "macro_flashes": [
+    {
+      "id": "20261126222609141800",
+      "title": "【特朗普质疑GDP数据为什么不在大选前上修 将展开调查】 11月26日讯，美国总统特朗普…",
+      "summary": "【特朗普质疑GDP数据为什么不在大选前上修 将展开调查】 11月26日讯，美国总统特朗普：“刚刚披露的消息显示，在大选前公布的经济数据其实是虚假的；负责统计这些数据的政府机构人员昨天发布了修正数据。在特朗普政府领导下，美国经济的表现远比此前公布的“良好”数据所显示的还要好。第三季度GDP增长率现已修正为4.3%（此前为3.4%），这可是个巨大的差异！为什么在大选前没有公布正确的数据？我要求立即对此事展开调查。这绝非小小的失误，而是一个严重且蓄意的错误。感谢各位对此事的关注。”",
+      "keywords": [
+        "特朗普"
+      ],
+      "pub_ts": 1795703169.0,
+      "time_et": "11-26 09:26 ET",
+      "time_bj": "22:26 BJ",
+      "time_kst": "23:26 KST",
+      "time_display": "09:26 ET / 22:26 BJ"
+    },
     {
       "id": "20261126172955272800",
       "title": "特朗普政府加大对内塔尼亚胡施压，要求兑现加沙和平计划承诺",
@@ -330,19 +343,6 @@
       "time_bj": "14:24 BJ",
       "time_kst": "15:24 KST",
       "time_display": "01:24 ET / 14:24 BJ"
-    },
-    {
-      "id": "20261126141114575800",
-      "title": "特朗普警告民主党勿提前结束伊朗战争，否则“胜利”变为“失败”",
-      "summary": "特朗普称美国对伊的军事行动资金大致可维持至明年1月底，但民主党可能迫使战争提前结束，届时可能会将“一场彻底的胜利”变成“一场失败”。点击查看…",
-      "keywords": [
-        "特朗普"
-      ],
-      "pub_ts": 1795673474.0,
-      "time_et": "11-26 01:11 ET",
-      "time_bj": "14:11 BJ",
-      "time_kst": "15:11 KST",
-      "time_display": "01:11 ET / 14:11 BJ"
     }
   ],
   "ticker_news": {
@@ -1754,6 +1754,13 @@
     ],
     "SPCX": [
       {
+        "title": "SpaceX refused $738M in fed grants to give rural homes free Starlink gear. It got what it wanted from Trump in return",
+        "url": "https://finance.yahoo.com/technology/articles/spacex-refused-738m-fed-grants-140000981.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 09:00 ET",
+        "pub_ts": 1795701600.0
+      },
+      {
         "title": "Jensen Huang Says Grok Bot Consumption Is “Really Skyrocketing.” That’s Good News for SpaceX",
         "url": "https://www.tikr.com/blog/jensen-huang-says-grok-bot-consumption-is-really-skyrocketing-thats-good-news-for-spacex?ref=yahoofinance&tlnk=yf-261126-q7mrmmjx&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1780,13 +1787,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 06:45 ET",
         "pub_ts": 1795693559.0
-      },
-      {
-        "title": "Elon Musk's 2-Share SpaceX Giveaway Comes With an Extraordinary Prediction",
-        "url": "https://beincrypto.com/musk-spacex-shares-every-american-child/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:42 ET",
-        "pub_ts": 1795693337.0
       }
     ],
     "ASTS": [
@@ -1902,6 +1902,13 @@
     ],
     "LUNR": [
       {
+        "title": "RKLB vs. LUNR: Which Space Stock Has the Stronger Growth Outlook?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/rklb-vs-lunr-space-stock-125000446.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 07:50 ET",
+        "pub_ts": 1795697400.0
+      },
+      {
         "title": "SPCX Wins Million-Satellite Nod And Retail Attention — But ASTS Leads Space Stocks Into Thanksgiving",
         "url": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-million-satellite-nod-asts-leads-rklb-lunr-bksy-thanksgiving/cNbxLqbR9ZV?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1928,13 +1935,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 12:01 ET",
         "pub_ts": 1795453262.0
-      },
-      {
-        "title": "MarketBeat Week in Review – 11/16 - 11/20",
-        "url": "https://www.marketbeat.com/articles/marketbeat-week-in-review-2026-11-16-11-20/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-21 07:00 ET",
-        "pub_ts": 1795262400.0
       }
     ],
     "TSLA": [
@@ -2205,6 +2205,13 @@
         "pub_ts": 1795700222.0
       },
       {
+        "title": "3 Stocks to Watch That Announced Dividend Hikes Amid Market Turmoil",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-watch-announced-dividend-131500607.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 08:15 ET",
+        "pub_ts": 1795698900.0
+      },
+      {
         "title": "Is HPE's 18-Quarter Inventory High A Warning?",
         "url": "https://www.trefis.com/stock/dell/articles/629185/is-hpe-s-18-quarter-inventory-high-a-warning/2026-11-26?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2224,13 +2231,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 18:17 ET",
         "pub_ts": 1795648620.0
-      },
-      {
-        "title": "Dell, HPE Post Big Sales Growth But Investors Sense AI Spending Peak",
-        "url": "https://finance.yahoo.com/m/509b8d3a-b338-3181-bdcf-b7e931f38513/dell%2C-hpe-post-big-sales.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 16:20 ET",
-        "pub_ts": 1795641634.0
       }
     ],
     "DELL": [
@@ -3316,31 +3316,31 @@
     "CRDO": 1795703219.0616622,
     "COHR": 1795703219.0616622,
     "MRVL": 1795703219.0616622,
-    "LITE": 1795701757.3269928,
+    "LITE": 1795703321.49975,
     "AAOI": 1795703219.0616622,
-    "SPCX": 1795701757.3269928,
-    "ASTS": 1795701757.3269928,
-    "AXTI": 1795701757.3269928,
-    "NASA": 1795701757.3269928,
-    "LUNR": 1795701757.3269928,
-    "TSLA": 1795701757.3269928,
-    "AXP": 1795701757.3269928,
-    "RKLB": 1795701757.3269928,
-    "KO": 1795701757.3269928,
-    "FLY": 1795701757.3269928,
-    "INTC": 1795701757.3269928,
-    "VRT": 1795701757.3269928,
-    "HPE": 1795701757.3269928,
-    "DELL": 1795701757.3269928,
-    "OKLO": 1795701757.3269928,
-    "CEG": 1795701757.3269928,
-    "FPS": 1795701757.3269928,
-    "MU": 1795701757.3269928,
-    "SKHY": 1795701757.3269928,
-    "WDC": 1795701757.3269928,
-    "STX": 1795701757.3269928,
+    "SPCX": 1795703321.49975,
+    "ASTS": 1795703321.49975,
+    "AXTI": 1795703321.49975,
+    "NASA": 1795703321.49975,
+    "LUNR": 1795703321.49975,
+    "TSLA": 1795703321.49975,
+    "AXP": 1795703321.49975,
+    "RKLB": 1795703321.49975,
+    "KO": 1795703321.49975,
+    "FLY": 1795703321.49975,
+    "INTC": 1795703321.49975,
+    "VRT": 1795703321.49975,
+    "HPE": 1795703321.49975,
+    "DELL": 1795703321.49975,
+    "OKLO": 1795703321.49975,
+    "CEG": 1795703321.49975,
+    "FPS": 1795703321.49975,
+    "MU": 1795703321.49975,
+    "SKHY": 1795703321.49975,
+    "WDC": 1795703321.49975,
+    "STX": 1795703321.49975,
     "MSTR": 1795701861.4900713,
-    "SNDK": 1795701757.3269928,
+    "SNDK": 1795703321.49975,
     "BTC-USD": 1795701861.4900713,
     "CRWD": 1795701861.4900713,
     "ORCL": 1795701861.4900713,
@@ -3355,8 +3355,8 @@
     "WMT": 1795703219.0616622,
     "V": 1795702896.9191728,
     "CAT": 1795703219.0616622,
-    "FN": 1795701757.3269928,
-    "GLW": 1795701757.3269928,
+    "FN": 1795703321.49975,
+    "GLW": 1795703321.49975,
     "ANT": 1795703219.0616622,
     "XAUUSD": 1795703219.0616622,
     "KOSPI": 1795702896.9191728
@@ -3378,7 +3378,7 @@
   "calendar_banner": {
     "level": "idle_with_flash",
     "headline": "📡 宏观消息面监控中 · 今日暂无美股五星级经济数据大考",
-    "detail": "⚡ 最新核心快讯 (04:29 ET / 17:29 BJ) [特朗普]：特朗普此前已亲自要求内塔尼亚胡落实加沙计划，库什纳周二又通过电话施压。美国方面希望在以色列政局出现变化前，推动计划从政治承诺进入执行阶段。",
+    "detail": "⚡ 最新核心快讯 (09:26 ET / 22:26 BJ) [特朗普]：【特朗普质疑GDP数据为什么不在大选前上修 将展开调查】 11月26日讯，美国总统特朗普：“刚刚披露的消息显示，在大选前公布的经济数据其实是虚假的；负责统计这些数据的政府机构人员昨天发布了修",
     "event_name": "",
     "minutes_left": 0,
     "opex_shield": {
