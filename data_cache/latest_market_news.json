@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795710900.007,
-  "updated_at_et": "11-26 11:35 ET",
-  "updated_at_kst": "01:35 KST",
+  "updated_at_ts": 1795711011.122,
+  "updated_at_et": "11-26 11:36 ET",
+  "updated_at_kst": "01:36 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1124,6 +1124,13 @@
     ],
     "META": [
       {
+        "title": "Meta Platforms Just Partnered With Walmart. Here's Why Investors Should Pay Attention",
+        "url": "https://www.fool.com/investing/2026/11/26/meta-platforms-just-partnered-with-walmart-here-s-why-investors-should-pay-attention/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:25 ET",
+        "pub_ts": 1795710302.0
+      },
+      {
         "title": "CoreWeave Can Now Borrow at 7% With Meta’s Name on the Loan",
         "url": "https://247wallst.com/investing/2026/11/26/coreweave-can-now-borrow-at-7-with-metas-name-on-the-loan/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1150,13 +1157,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 06:02 ET",
         "pub_ts": 1795690967.0
-      },
-      {
-        "title": "Walmart (WMT) Brings Direct AI Shopping And a 3,000 Store Beauty Box Launch",
-        "url": "https://finance.yahoo.com/technology/ai/articles/walmart-wmt-brings-direct-ai-091223863.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 04:12 ET",
-        "pub_ts": 1795684343.0
       }
     ],
     "GOOGL": [
@@ -1212,13 +1212,6 @@
         "pub_ts": 1795691092.0
       },
       {
-        "title": "Microsoft (MSFT) Sees $91.7 Million in Net ETF Buying on Nov. 24",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-sees-91-7-110049983.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:00 ET",
-        "pub_ts": 1795690849.0
-      },
-      {
         "title": "Europe Cloud Computing Market Surges to $ 550.42 billion at a CAGR 11.0% by 2030 | Report by MarketsandMarkets™",
         "url": "https://finance.yahoo.com/technology/articles/europe-cloud-computing-market-surges-150000346.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1231,6 +1224,13 @@
         "source": "Yahoo Finance",
         "time": "11-26 09:14 ET",
         "pub_ts": 1795702491.0
+      },
+      {
+        "title": "Brazil's Data Center Market: Strategic Investment Analysis and Growth Opportunities (2026-2031) with Profiles of Prominent Operators and Infrastructure Providers",
+        "url": "https://finance.yahoo.com/technology/articles/brazils-data-center-market-strategic-140400060.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 09:04 ET",
+        "pub_ts": 1795701840.0
       }
     ],
     "AAPL": [
@@ -1272,6 +1272,13 @@
     ],
     "PLTR": [
       {
+        "title": "Palantir Closed 212 Deals Worth at Least $1 Million. Here’s What That Means for Its Growth",
+        "url": "https://247wallst.com/investing/2026/11/26/palantir-closed-212-deals-worth-at-least-1-million-heres-what-that-means-for-its-growth/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:03 ET",
+        "pub_ts": 1795709007.0
+      },
+      {
         "title": "Michael Burry flips mostly long as tech stocks slide",
         "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-flips-mostly-long-112229765.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1298,13 +1305,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 21:58 ET",
         "pub_ts": 1795661905.0
-      },
-      {
-        "title": "Are You Overpaying For Palantir Stock Versus Its Rivals?",
-        "url": "https://www.trefis.com/stock/pltr/articles/628772/are-you-overpaying-for-palantir-stock-versus-its-rivals/2026-11-25?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 18:31 ET",
-        "pub_ts": 1795649464.0
       }
     ],
     "NOW": [
@@ -1346,6 +1346,13 @@
     ],
     "AMZN": [
       {
+        "title": "Walmart, Amazon Face Surprising Shopping Shift",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-amazon-face-surprising-shopping-160813140.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:08 ET",
+        "pub_ts": 1795709293.0
+      },
+      {
         "title": "SpaceX Gets the First U.S. Approval for Data Centers in Space",
         "url": "https://247wallst.com/investing/2026/11/26/spacex-gets-the-first-u-s-approval-for-data-centers-in-space/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1372,13 +1379,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 06:29 ET",
         "pub_ts": 1795692596.0
-      },
-      {
-        "title": "iShares S&P 500 Value ETF (IVE) Buys $31.4 Million More Apple on Nov. 24",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-p-500-value-etf-110442447.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:04 ET",
-        "pub_ts": 1795691082.0
       }
     ],
     "CRWV": [
@@ -1397,6 +1397,13 @@
         "pub_ts": 1795707923.0
       },
       {
+        "title": "CoreWeave’s Default Odds Hit a Record. Core Scientific Has a Big Problem",
+        "url": "https://www.tikr.com/blog/coreweaves-default-odds-hit-a-record-core-scientific-has-a-big-problem?ref=yahoofinance&tlnk=yf-261126-x54g96m4&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:35 ET",
+        "pub_ts": 1795707326.0
+      },
+      {
         "title": "CoreWeave’s Swaps Price a 68% Default Chance. That’s Bad News for Galaxy Digital",
         "url": "https://www.tikr.com/blog/coreweaves-swaps-price-a-68-default-chance-thats-bad-news-for-galaxy-digital?ref=yahoofinance&tlnk=yf-261126-pvg7vpfj&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1409,13 +1416,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 10:15 ET",
         "pub_ts": 1795706126.0
-      },
-      {
-        "title": "“It’s Dead”: Applied Digital Has $11 Billion Riding on CoreWeave’s Record Credit Stress",
-        "url": "https://www.tikr.com/blog/its-dead-applied-digital-has-11-billion-riding-on-coreweaves-record-credit-stress?ref=yahoofinance&tlnk=yf-261126-j6cxr9m2&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 10:15 ET",
-        "pub_ts": 1795706110.0
       }
     ],
     "NBIS": [
@@ -3018,6 +3018,13 @@
         "pub_ts": 1795698000.0
       },
       {
+        "title": "Walmart, Amazon Face Surprising Shopping Shift",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-amazon-face-surprising-shopping-160813140.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:08 ET",
+        "pub_ts": 1795709293.0
+      },
+      {
         "title": "How to Play Walmart Stock a Week After Its Q3 Earnings Release",
         "url": "https://finance.yahoo.com/markets/stocks/articles/play-walmart-stock-week-q3-131500867.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3037,13 +3044,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 06:00 ET",
         "pub_ts": 1795690852.0
-      },
-      {
-        "title": "Walmart (WMT) Brings Direct AI Shopping And a 3,000 Store Beauty Box Launch",
-        "url": "https://finance.yahoo.com/technology/ai/articles/walmart-wmt-brings-direct-ai-091223863.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 04:12 ET",
-        "pub_ts": 1795684343.0
       }
     ],
     "V": [
@@ -3206,8 +3206,15 @@
         "title": "Dow Jones Futures Rise With U.S. Markets Shut; Look For This Bullish Signal",
         "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise-with.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 10:39 ET",
-        "pub_ts": 1795707569.0
+        "time": "11-26 11:17 ET",
+        "pub_ts": 1795709823.0
+      },
+      {
+        "title": "Anthropic Stock Snapped Its Losing Streak. The Case to Buy.",
+        "url": "https://finance.yahoo.com/m/a4b30342-f454-31c5-bfd4-b330ff0a2e04/anthropic-stock-snapped-its.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:56 ET",
+        "pub_ts": 1795708560.0
       },
       {
         "title": "Anthropic Is Down 7% Since Its IPO. History Says a $5,000 Investment Could Be Worth This Much in a Year.",
@@ -3222,13 +3229,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 09:42 ET",
         "pub_ts": 1795704122.0
-      },
-      {
-        "title": "Is Anthropic Joining the S&P 500? Here's What Investors Need to Know.",
-        "url": "https://www.fool.com/investing/2026/11/26/is-anthropic-joining-sp-500-what-investors-need-to-know/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 08:23 ET",
-        "pub_ts": 1795699382.0
       }
     ],
     "XAUUSD": [
@@ -3296,27 +3296,27 @@
     "SOXS": 1795710688.9120066,
     "NVDA": 1795710688.9120066,
     "AMD": 1795710688.9120066,
-    "ASML": 1795709448.7174318,
-    "QCOM": 1795709448.7174318,
-    "AVGO": 1795709448.7174318,
-    "AMAT": 1795709448.7174318,
-    "META": 1795709448.7174318,
-    "GOOGL": 1795709448.7174318,
-    "MSFT": 1795709448.7174318,
-    "AAPL": 1795709448.7174318,
-    "PLTR": 1795709448.7174318,
-    "NOW": 1795709448.7174318,
-    "AMZN": 1795709448.7174318,
-    "CRWV": 1795709448.7174318,
-    "NBIS": 1795709448.7174318,
-    "APLD": 1795709448.7174318,
-    "VST": 1795709448.7174318,
-    "BE": 1795709448.7174318,
-    "CRDO": 1795709448.7174318,
-    "COHR": 1795709448.7174318,
-    "MRVL": 1795709448.7174318,
+    "ASML": 1795711011.1222024,
+    "QCOM": 1795711011.1222024,
+    "AVGO": 1795711011.1222024,
+    "AMAT": 1795711011.1222024,
+    "META": 1795711011.1222024,
+    "GOOGL": 1795711011.1222024,
+    "MSFT": 1795711011.1222024,
+    "AAPL": 1795711011.1222024,
+    "PLTR": 1795711011.1222024,
+    "NOW": 1795711011.1222024,
+    "AMZN": 1795711011.1222024,
+    "CRWV": 1795711011.1222024,
+    "NBIS": 1795711011.1222024,
+    "APLD": 1795711011.1222024,
+    "VST": 1795711011.1222024,
+    "BE": 1795711011.1222024,
+    "CRDO": 1795711011.1222024,
+    "COHR": 1795711011.1222024,
+    "MRVL": 1795711011.1222024,
     "LITE": 1795709551.8828852,
-    "AAOI": 1795709448.7174318,
+    "AAOI": 1795711011.1222024,
     "SPCX": 1795709551.8828852,
     "ASTS": 1795709551.8828852,
     "AXTI": 1795709551.8828852,
@@ -3349,15 +3349,15 @@
     "NKE": 1795710688.9120066,
     "MCD": 1795710688.9120066,
     "PEP": 1795710688.9120066,
-    "XOM": 1795709448.7174318,
+    "XOM": 1795711011.1222024,
     "JPM": 1795710688.9120066,
-    "WMT": 1795709448.7174318,
+    "WMT": 1795711011.1222024,
     "V": 1795710688.9120066,
-    "CAT": 1795709448.7174318,
+    "CAT": 1795711011.1222024,
     "FN": 1795709551.8828852,
     "GLW": 1795709551.8828852,
-    "ANT": 1795709448.7174318,
-    "XAUUSD": 1795709448.7174318,
+    "ANT": 1795711011.1222024,
+    "XAUUSD": 1795711011.1222024,
     "KOSPI": 1795710688.9120066
   },
   "opex_shield": {
