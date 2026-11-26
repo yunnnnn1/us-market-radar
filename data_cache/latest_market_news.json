@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795654149.996,
-  "updated_at_et": "11-25 19:49 ET",
-  "updated_at_kst": "09:49 KST",
+  "updated_at_ts": 1795654247.922,
+  "updated_at_et": "11-25 19:50 ET",
+  "updated_at_kst": "09:50 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -43,6 +43,21 @@
     }
   ],
   "macro_flashes": [
+    {
+      "id": "20261126084813707800",
+      "title": "美联储褐皮书显示经济持续增长，通胀与工资压力仍顽固",
+      "summary": "美联储褐皮书显示，美国多数地区经济保持增长，就业小幅增加，但企业成本和工资压力仍未缓解。与此同时，10月PCE数据正进一步强化市场对12月加息的预期。点击查看…",
+      "keywords": [
+        "美联储",
+        "加息",
+        "PCE"
+      ],
+      "pub_ts": 1795654093.0,
+      "time_et": "11-25 19:48 ET",
+      "time_bj": "08:48 BJ",
+      "time_kst": "09:48 KST",
+      "time_display": "19:48 ET / 08:48 BJ"
+    },
     {
       "id": "20261126083706278800",
       "title": "沙特最大炼油厂遭袭！胡塞宣称发动攻击，吉赞港同日受损",
@@ -365,19 +380,6 @@
       "time_bj": "23:11 BJ",
       "time_kst": "00:11 KST",
       "time_display": "10:11 ET / 23:11 BJ"
-    },
-    {
-      "id": "20261125230935665800",
-      "title": "美股反弹只是死猫跳？科技巨头违约利差飙升，日本散户浮亏近两成 | Plus日报",
-      "summary": "美核心通胀反弹强化加息预期，美股科技股感恩节前承压；国内多只宽基尾盘放量，神舟二十四号发射成功；科技巨头信贷违约利差飙升，日本散户融资浮亏逼近两成。",
-      "keywords": [
-        "加息"
-      ],
-      "pub_ts": 1795619375.0,
-      "time_et": "11-25 10:09 ET",
-      "time_bj": "23:09 BJ",
-      "time_kst": "00:09 KST",
-      "time_display": "10:09 ET / 23:09 BJ"
     }
   ],
   "ticker_news": {
@@ -1796,6 +1798,20 @@
         "pub_ts": 1795640239.0
       },
       {
+        "title": "SpaceX wins approval to launch one million AI data centre satellites",
+        "url": "https://www.proactiveinvestors.com/companies/news/1102478/spacex-wins-approval-to-launch-one-million-ai-data-centre-satellites-1102478.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 19:27 ET",
+        "pub_ts": 1795652820.0
+      },
+      {
+        "title": "SPCX Stock Rebounds From 9% Drop: SpaceX Pledges Shares To Trump Accounts And Wins FCC Starmind Nod",
+        "url": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-rebounds-from-9-drop-space-x-pledges-shares-to-trump-accounts-and-wins-fcc-starmind-nod/cNbx2umR9m6?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 19:22 ET",
+        "pub_ts": 1795652561.0
+      },
+      {
         "title": "S&P 500, Nasdaq End Lower But Dow Rebounds As Traders Rotate Out Of AI — NVDA, SPCX, PANW In Focus",
         "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-lower-but-dow-rebounds-as-traders-rotate-out-of-ai-nvda-spcx-panw-in-focus/cNbx21AR9mC?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1808,20 +1824,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 18:41 ET",
         "pub_ts": 1795650106.0
-      },
-      {
-        "title": "If SpaceX and Tesla Merge Next Year, Here's What a $5,000 Investment in the Combined Company Could Be Worth by the End of 2028",
-        "url": "https://www.fool.com/investing/2026/11/25/if-spacex-and-tesla-merge-next-year-here-s-what-a-usd5-000-investment-in-the-combined-company-could-be-worth-by-the-end-of-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 18:24 ET",
-        "pub_ts": 1795649042.0
-      },
-      {
-        "title": "Musk's Plan To Put 1 Million AI Satellites In Orbit Gets US Approval. Amazon Questions Whether It Can Be Done.",
-        "url": "https://www.ibtimes.com/fcc-approves-spacex-ai-satellite-constellation-3810209?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 18:16 ET",
-        "pub_ts": 1795648590.0
       }
     ],
     "ASTS": [
@@ -3351,11 +3353,11 @@
     "CRDO": 1795654149.9958305,
     "COHR": 1795654149.9958305,
     "MRVL": 1795654149.9958305,
-    "LITE": 1795652675.2002335,
+    "LITE": 1795654247.9220798,
     "AAOI": 1795654149.9958305,
-    "SPCX": 1795652675.2002335,
+    "SPCX": 1795654247.9220798,
     "ASTS": 1795653852.7959487,
-    "AXTI": 1795652675.2002335,
+    "AXTI": 1795654247.9220798,
     "NASA": 1795653852.7959487,
     "LUNR": 1795653852.7959487,
     "TSLA": 1795653852.7959487,
@@ -3390,8 +3392,8 @@
     "WMT": 1795654149.9958305,
     "V": 1795653953.2134147,
     "CAT": 1795654149.9958305,
-    "FN": 1795652675.2002335,
-    "GLW": 1795652675.2002335,
+    "FN": 1795654247.9220798,
+    "GLW": 1795654247.9220798,
     "ANT": 1795654149.9958305,
     "XAUUSD": 1795654149.9958305,
     "KOSPI": 1795653953.2134147
