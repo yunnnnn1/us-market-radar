@@ -1,9 +1,24 @@
 {
-  "updated_at_ts": 1795680569.677,
-  "updated_at_et": "11-26 03:09 ET",
-  "updated_at_kst": "17:09 KST",
+  "updated_at_ts": 1795680675.357,
+  "updated_at_et": "11-26 03:11 ET",
+  "updated_at_kst": "17:11 KST",
   "macro_calendar": [],
   "macro_flashes": [
+    {
+      "id": "20261126161102192800",
+      "title": "整理：每日投行/机构观点梳理（2026-11-26）",
+      "summary": "国外 1. 花旗：恐慌指数14次飙升至40后，美股13次在3个月后录得上涨。 2. 摩根大通：AI资本支出明年逼近1.4万亿美元，2028年或迎增长拐点。 3. 凯投宏观：韩国央行完成可能是本轮周期最后一次加息。 4. 马来亚银行：美国公布关税细节之际，亚洲货币料将维持盘整。 5. 澳联邦银行：美元走势将成为未来数月金价关键驱动因素。 6. 杰富瑞：美印关税若降至17%，印度出口或将获得竞争优势。 7. 摩根大通：印度银行、住房金融机构及保险公司有望受益于大幅加息。 8. 丹斯克银行：美元仍受美联储加息押注提振。 国内 1. 中金展望2027年美国经济，预计增长向制造业和就业扩散。 2. 中金：海外云收入受AI需求带动，数据中心投产进度决定订单兑现。 3. 华泰证券：AI产业内部更重交付与回报质量。 4. 中信建投：AI科研取得突破，办公Agent需求增长。 5. 中信建投：AI相关需求放量升级，测试设备产业链价值重估。 6. 中信证券：啤酒市场结构升级方向未变，建议关注品牌基础扎实、效率改善空间较大企业。",
+      "keywords": [
+        "美联储",
+        "加息",
+        "关税"
+      ],
+      "pub_ts": 1795680662.0,
+      "time_et": "11-26 03:11 ET",
+      "time_bj": "16:11 BJ",
+      "time_kst": "17:11 KST",
+      "time_display": "03:11 ET / 16:11 BJ"
+    },
     {
       "id": "20261126160837973800",
       "title": "金银多头在假日来临前实现反杀，V型反转却难称反弹？| 每日市场观察11.26",
@@ -321,21 +336,6 @@
       "time_bj": "12:11 BJ",
       "time_kst": "13:11 KST",
       "time_display": "23:11 ET / 12:11 BJ"
-    },
-    {
-      "id": "20261126120250000800",
-      "title": "整理：每日人工智能动态汇总（2026-11-26）",
-      "summary": "1. 八部门：稳妥有序推动云计算、大模型等人工智能相关服务出海。 2. Anthropic主张部分决策权交给AI，引发同行反对。 3. SpaceX获美国批准部署最多100万颗卫星，用于建设太空数据中心。 4. 穆迪维持英伟达Aa1评级，标普将其AA评级列入负面观察。 5. 日媒：日本考虑建立芯片及材料稳定供应体系，降低对特定国家或供应商的依赖风险。 6. 报道：英伟达芯片卖家寻找新买家，数千颗B300 GPU寻求转售。 7. 小鹏发布图灵物理AI架构，新一代IRON拟于2027年二季度发布。 8. 郭明錤：仅凭供电能力和芯片功耗预测AI芯片出货量过于简单。 9. Neuralink获准启动植入式脑机接口关键性试验，面向重度瘫痪ALS患者。 10. 逐际动力与商汤大装置合作，算力将用于机器人仿真和强化学习。 11. 亚马逊与Meta据报磋商，拟让Muse购物智能体接入亚马逊。",
-      "keywords": [
-        "芯片",
-        "英伟达",
-        "标普"
-      ],
-      "pub_ts": 1795665770.0,
-      "time_et": "11-25 23:02 ET",
-      "time_bj": "12:02 BJ",
-      "time_kst": "13:02 KST",
-      "time_display": "23:02 ET / 12:02 BJ"
     }
   ],
   "ticker_news": {
@@ -3012,20 +3012,6 @@
         "pub_ts": 1795640400.0
       },
       {
-        "title": "Tariffs are back as Anthropic sinks further below its IPO price",
-        "url": "https://finance.yahoo.com/video/tariffs-are-back-as-anthropic-sinks-further-below-its-ipo-price-160524926.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:05 ET",
-        "pub_ts": 1795622724.0
-      },
-      {
-        "title": "Ten reasons the market is selling off again before Thanksgiving",
-        "url": "https://finance.yahoo.com/video/ten-reasons-the-market-is-selling-off-again-before-thanksgiving-160424234.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:04 ET",
-        "pub_ts": 1795622664.0
-      },
-      {
         "title": "Walmart CEO Says Your Income Won’t Change The Price. So What Do Digital Shelf Tags Actually Do?",
         "url": "https://finance.yahoo.com/small-business/articles/walmart-ceo-says-income-won-000012697.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3038,6 +3024,20 @@
         "source": "Yahoo Finance",
         "time": "11-25 16:33 ET",
         "pub_ts": 1795642380.0
+      },
+      {
+        "title": "Walmart+ Members Spend 4 Times As Much As Non-Members. The Retailer’s New $120 Bundle Could Unlock More Growth.",
+        "url": "https://www.fool.com/investing/2026/11/25/walmart-members-spend-4-times-as-much-as-non-members-the-retailer-s-new-usd120-bundle-could-unlock-more-growth/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 14:50 ET",
+        "pub_ts": 1795636202.0
+      },
+      {
+        "title": "Meta’s AI shopping push could lift Instagram ad revenue, Jefferies says",
+        "url": "https://www.proactiveinvestors.com/companies/news/1102462/meta-s-ai-shopping-push-could-lift-instagram-ad-revenue-jefferies-says-1102462.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 14:09 ET",
+        "pub_ts": 1795633740.0
       }
     ],
     "V": [
@@ -3190,39 +3190,39 @@
     ],
     "ANT": [
       {
-        "title": "Anthropic’s Potential Bond Issue Could Reportedly Be Rated Junk — Here’s When Crypto Bettors Think It Could Go Bankrupt",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63659962/anthropic-bankruptcy-prediction-market-bond-issue-junk?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 01:12 ET",
-        "pub_ts": 1795673564.0
+        "title": "Dow Jones Futures: Market Goes On Wild Ride. Nasdaq, Nvidia Slash Losses While Anthropic Reverses Higher.",
+        "url": "https://finnhub.io/api/news?id=37e810abbd6318dcef19cc006990e5a6a0131b21e16944b93c130712a4a4548f",
+        "source": "Yahoo",
+        "time": "11-25 18:56 ET",
+        "pub_ts": 1795650985.0
       },
       {
-        "title": "2 Ways Anthropic's IPO Pays Off for Alphabet Investors",
-        "url": "https://www.fool.com/investing/2026/11/26/2-ways-anthropic-s-ipo-pays-off-for-alphabet-investors/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 00:20 ET",
-        "pub_ts": 1795670402.0
+        "title": "Bill Gurley: Investors Weren’t “Scrambling to Actually Own Anthropic.” That’s a Problem for Amazon and Alphabet",
+        "url": "https://finnhub.io/api/news?id=ccb83e0bd6299a160bd26c2c7dab41080b62eb966bf96d125c76f3e43f010e28",
+        "source": "Yahoo",
+        "time": "11-25 18:43 ET",
+        "pub_ts": 1795650186.0
       },
       {
-        "title": "‘Free Pop Is Over’ for OpenAI After Anthropic’s Rout, Tech Analyst Luke Lango Says: But a Late-2027 IPO Could ‘Ride the Recovery’",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/free-pop-over-openai-anthropic-044149243.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 23:41 ET",
-        "pub_ts": 1795668109.0
+        "title": "Anthropic Earns “$80 a Year per Watt” of GPUs, Says Modal’s CEO. That’s Good News for SpaceX",
+        "url": "https://finnhub.io/api/news?id=64b8d64c94f3fca5cb72c32c7de1853e4b80668baebbc263bf701369ca71ac3c",
+        "source": "Yahoo",
+        "time": "11-25 18:41 ET",
+        "pub_ts": 1795650106.0
       },
       {
-        "title": "Does Anthropic Want AI to Run the World? CEO Dario Amodei Pushes Back Against ‘Surrender Human Free Will’ Claims",
-        "url": "https://finance.yahoo.com/technology/ai/articles/does-anthropic-want-ai-run-041314042.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 23:13 ET",
-        "pub_ts": 1795666394.0
+        "title": "Anthropic Stock Is Down 33% From Its All-Time High. Here's What a $5,000 Investment Could Be Worth in 1 Year.",
+        "url": "https://finnhub.io/api/news?id=32b72b2384c60e7711aa61013c2fed217794bdf0f0f5d31abef36111c2893827",
+        "source": "Yahoo",
+        "time": "11-25 17:35 ET",
+        "pub_ts": 1795646102.0
       },
       {
-        "title": "Dow Jones Futures Rise After Nasdaq Slashes Losses In Wild Market Ride",
-        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise-after.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 23:06 ET",
-        "pub_ts": 1795665992.0
+        "title": "Stocks turn volatile as Jensen Huang rebound rally fades",
+        "url": "https://finnhub.io/api/news?id=6d8605c3e210fcf7d6c3b58fc9cc5a61d0965bf1d815689a3898962a8e834d36",
+        "source": "Yahoo",
+        "time": "11-25 16:51 ET",
+        "pub_ts": 1795643503.0
       }
     ],
     "XAUUSD": [
@@ -3290,27 +3290,27 @@
     "SOXS": 1795680365.9272068,
     "NVDA": 1795680365.9272068,
     "AMD": 1795680365.9272068,
-    "ASML": 1795679138.217673,
-    "QCOM": 1795679138.217673,
-    "AVGO": 1795679138.217673,
-    "AMAT": 1795679138.217673,
-    "META": 1795679138.217673,
-    "GOOGL": 1795679138.217673,
-    "MSFT": 1795679138.217673,
-    "AAPL": 1795679138.217673,
-    "PLTR": 1795679138.217673,
-    "NOW": 1795679138.217673,
-    "AMZN": 1795679138.217673,
-    "CRWV": 1795679138.217673,
-    "NBIS": 1795679138.217673,
-    "APLD": 1795679138.217673,
-    "VST": 1795679138.217673,
-    "BE": 1795679138.217673,
-    "CRDO": 1795679138.217673,
-    "COHR": 1795679138.217673,
-    "MRVL": 1795679138.217673,
+    "ASML": 1795680675.356762,
+    "QCOM": 1795680675.356762,
+    "AVGO": 1795680675.356762,
+    "AMAT": 1795680675.356762,
+    "META": 1795680675.356762,
+    "GOOGL": 1795680675.356762,
+    "MSFT": 1795680675.356762,
+    "AAPL": 1795680675.356762,
+    "PLTR": 1795680675.356762,
+    "NOW": 1795680675.356762,
+    "AMZN": 1795680675.356762,
+    "CRWV": 1795680675.356762,
+    "NBIS": 1795680675.356762,
+    "APLD": 1795680675.356762,
+    "VST": 1795680675.356762,
+    "BE": 1795680675.356762,
+    "CRDO": 1795680675.356762,
+    "COHR": 1795680675.356762,
+    "MRVL": 1795680675.356762,
     "LITE": 1795679240.5950189,
-    "AAOI": 1795679138.217673,
+    "AAOI": 1795680675.356762,
     "SPCX": 1795679240.5950189,
     "ASTS": 1795680162.9182074,
     "AXTI": 1795679240.5950189,
@@ -3343,15 +3343,15 @@
     "NKE": 1795680365.9272068,
     "MCD": 1795680365.9272068,
     "PEP": 1795680365.9272068,
-    "XOM": 1795679138.217673,
+    "XOM": 1795680675.356762,
     "JPM": 1795680365.9272068,
-    "WMT": 1795679138.217673,
+    "WMT": 1795680675.356762,
     "V": 1795680365.9272068,
-    "CAT": 1795679138.217673,
+    "CAT": 1795680675.356762,
     "FN": 1795679240.5950189,
     "GLW": 1795679240.5950189,
-    "ANT": 1795679138.217673,
-    "XAUUSD": 1795679138.217673,
+    "ANT": 1795680675.356762,
+    "XAUUSD": 1795680675.356762,
     "KOSPI": 1795680365.9272068
   },
   "opex_shield": {
@@ -3371,7 +3371,7 @@
   "calendar_banner": {
     "level": "idle_with_flash",
     "headline": "📡 宏观消息面监控中 · 今日暂无美股五星级经济数据大考",
-    "detail": "⚡ 最新核心快讯 (03:08 ET / 16:08 BJ) [关税]：全球资产在周三美盘被“血洗”后成功反转，但现在就谈论反弹还是太早。美国关税战打响带来的抛压会持续多久？",
+    "detail": "⚡ 最新核心快讯 (03:11 ET / 16:11 BJ) [美联储] [加息] [关税]：国外 1. 花旗：恐慌指数14次飙升至40后，美股13次在3个月后录得上涨。 2. 摩根大通：AI资本支出明年逼近1.4万亿美元，2028年或迎增长拐点。 3. 凯投宏观：韩国央行完成可能是",
     "event_name": "",
     "minutes_left": 0,
     "opex_shield": {
