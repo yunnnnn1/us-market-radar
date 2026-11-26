@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795707791.149,
-  "updated_at_et": "11-26 10:43 ET",
-  "updated_at_kst": "00:43 KST",
+  "updated_at_ts": 1795707896.041,
+  "updated_at_et": "11-26 10:44 ET",
+  "updated_at_kst": "00:44 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1220,18 +1220,18 @@
         "pub_ts": 1795690849.0
       },
       {
-        "title": "BT launches nationwide cyber resilience drive as AI helps fuel 500% surge in malicious activity",
-        "url": "https://finance.yahoo.com/small-business/articles/bt-launches-nationwide-cyber-resilience-104600266.html?.tsrc=rss",
+        "title": "Europe Cloud Computing Market Surges to $ 550.42 billion at a CAGR 11.0% by 2030 | Report by MarketsandMarkets™",
+        "url": "https://finance.yahoo.com/technology/articles/europe-cloud-computing-market-surges-150000346.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 05:46 ET",
-        "pub_ts": 1795689960.0
+        "time": "11-26 10:00 ET",
+        "pub_ts": 1795705200.0
       },
       {
-        "title": "How Investors May Respond To Arrow Electronics (ARW) AI Sales Portal Launch",
-        "url": "https://finance.yahoo.com/technology/ai/articles/investors-may-respond-arrow-electronics-100853526.html?.tsrc=rss",
+        "title": "Michael Burry Makes Surprising Pivot on Stock Market",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-makes-surprising-pivot-141451027.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 05:08 ET",
-        "pub_ts": 1795687733.0
+        "time": "11-26 09:14 ET",
+        "pub_ts": 1795702491.0
       }
     ],
     "AAPL": [
@@ -1241,6 +1241,13 @@
         "source": "Yahoo Finance",
         "time": "11-26 10:03 ET",
         "pub_ts": 1795705418.0
+      },
+      {
+        "title": "Netflix vs. Apple: Which Streaming Stock Has an Edge Right Now?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/netflix-vs-apple-streaming-stock-142100099.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 09:21 ET",
+        "pub_ts": 1795702860.0
       },
       {
         "title": "Global Wearable Healthcare Devices Market Report 2026 | Capitalize on 24.9% CAGR Through 2030 as Apple, Abbott, Medtronic and Dexcom Scale AI and Remote Monitoring",
@@ -1262,13 +1269,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 08:41 ET",
         "pub_ts": 1795700514.0
-      },
-      {
-        "title": "An Apple Executive Just Filed to Sell $19 Million of Apple Stock With Shares a Hair Below Their Record",
-        "url": "https://247wallst.com/investing/2026/11/26/an-apple-executive-just-filed-to-sell-19-million-of-apple-stock-with-shares-a-hair-below-their-record/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 07:57 ET",
-        "pub_ts": 1795697875.0
       }
     ],
     "PLTR": [
@@ -1384,6 +1384,20 @@
     ],
     "CRWV": [
       {
+        "title": "Own CoreWeave? A Quarter Of Revenue Pays Interest",
+        "url": "https://www.trefis.com/stock/crwv/articles/629191/own-coreweave-a-quarter-of-revenue-pays-interest/2026-11-26?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:15 ET",
+        "pub_ts": 1795706126.0
+      },
+      {
+        "title": "“It’s Dead”: Applied Digital Has $11 Billion Riding on CoreWeave’s Record Credit Stress",
+        "url": "https://www.tikr.com/blog/its-dead-applied-digital-has-11-billion-riding-on-coreweaves-record-credit-stress?ref=yahoofinance&tlnk=yf-261126-j6cxr9m2&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:15 ET",
+        "pub_ts": 1795706110.0
+      },
+      {
         "title": "Evercore Cut Its CoreWeave Target to $80 From $100. It Still Sees 88% Upside",
         "url": "https://www.tikr.com/blog/evercore-cut-its-coreweave-target-to-80-from-100-it-still-sees-88-upside?ref=yahoofinance&tlnk=yf-261126-v28p9qrq&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1403,20 +1417,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 03:09 ET",
         "pub_ts": 1795680548.0
-      },
-      {
-        "title": "CoreWeave Stock Could Soar 125%, According to One Wall Street Analyst, Even After a Price Target Cut. Is It a Buy?",
-        "url": "https://www.fool.com/investing/2026/11/25/coreweave-stock-could-soar-130-according-to-one-wall-street-analyst-even-after-a-price-target-cut-is-it-a-buy/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 17:45 ET",
-        "pub_ts": 1795646709.0
-      },
-      {
-        "title": "CoreWeave’s Bankers Reportedly Ready $4.5B GPU-Backed Loan Tied To Meta Deal",
-        "url": "https://stocktwits.com/news-articles/markets/equity/core-weave-s-bankers-reportedly-ready-4-5-b-gpu-backed-loan-tied-to-meta-deal/cNbHrsCR9mw?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 16:02 ET",
-        "pub_ts": 1795640536.0
       }
     ],
     "NBIS": [
@@ -1458,6 +1458,13 @@
     ],
     "APLD": [
       {
+        "title": "“It’s Dead”: Applied Digital Has $11 Billion Riding on CoreWeave’s Record Credit Stress",
+        "url": "https://www.tikr.com/blog/its-dead-applied-digital-has-11-billion-riding-on-coreweaves-record-credit-stress?ref=yahoofinance&tlnk=yf-261126-j6cxr9m2&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:15 ET",
+        "pub_ts": 1795706110.0
+      },
+      {
         "title": "Lucid Capital Cut Its Applied Digital Target to $40 From $83. It Still Sees 227% Upside",
         "url": "https://www.tikr.com/blog/lucid-capital-cut-its-applied-digital-target-to-40-from-83-it-still-sees-227-upside?ref=yahoofinance&tlnk=yf-261126-hxqmqqw8&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1484,13 +1491,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:40 ET",
         "pub_ts": 1795606841.0
-      },
-      {
-        "title": "“The Bank of NVIDIA” Is Back. Applied Digital Is the Real Winner",
-        "url": "https://www.tikr.com/blog/the-bank-of-nvidia-is-back-applied-digital-is-the-real-winner?ref=yahoofinance&tlnk=yf-261125-ppwv3gxj&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:20 ET",
-        "pub_ts": 1795605637.0
       }
     ],
     "VST": [
@@ -1569,6 +1569,20 @@
     ],
     "CRDO": [
       {
+        "title": "Before Credo Reports, Watch Cash, Not Sales",
+        "url": "https://www.trefis.com/stock/crdo/articles/629189/before-credo-reports-watch-cash-not-sales/2026-11-26?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:15 ET",
+        "pub_ts": 1795706126.0
+      },
+      {
+        "title": "Credo Technology Ahead of Q2 Earnings: How to Approach the Stock Now?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/credo-technology-ahead-q2-earnings-143000855.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 09:30 ET",
+        "pub_ts": 1795703400.0
+      },
+      {
         "title": "Credo Technology Has Had a Wild Ride to a 25% Decline Year-to-Date: Two Wall Street Teams Target 190% Returns Moving Forward",
         "url": "https://247wallst.com/investing/2026/11/26/credo-technology-has-had-a-wild-ride-to-a-25-decline-year-to-date-two-wall-street-teams-target-190-returns-moving-forward/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1588,20 +1602,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 12:45 ET",
         "pub_ts": 1795628759.0
-      },
-      {
-        "title": "Nvidia Sinks 9% as Huang Rally Fades: Stephanie Link Sees “A Cloud Over It”",
-        "url": "https://www.tikr.com/blog/nvidia-sinks-9-as-huang-rally-fades-stephanie-link-sees-a-cloud-over-it?ref=yahoofinance&tlnk=yf-261125-q8ch658v&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:24 ET",
-        "pub_ts": 1795627456.0
-      },
-      {
-        "title": "Credo CEO: Its Portfolio Now Spans “Millimeters to Kilometers.” December 1 Tests the Optics Push",
-        "url": "https://www.tikr.com/blog/credo-ceo-its-portfolio-now-spans-millimeters-to-kilometers-december-1-tests-the-optics-push?ref=yahoofinance&tlnk=yf-261125-h78f5v23&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:05 ET",
-        "pub_ts": 1795619138.0
       }
     ],
     "COHR": [
@@ -1643,6 +1643,13 @@
     ],
     "MRVL": [
       {
+        "title": "Marvell Reports Tuesday. How Often Has It Dropped 10%?",
+        "url": "https://www.trefis.com/stock/mrvl/articles/629177/marvell-reports-tuesday-how-often-has-it-dropped-10/2026-11-26?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:15 ET",
+        "pub_ts": 1795706126.0
+      },
+      {
         "title": "Marvell Technology, Inc. (MRVL) is Attracting Investor Attention: Here is What You Should Know",
         "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-inc-mrvl-attracting-130006516.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1669,13 +1676,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 12:59 ET",
         "pub_ts": 1795629598.0
-      },
-      {
-        "title": "What Pulled Marvell Stock Down On Tuesday?",
-        "url": "https://www.trefis.com/stock/mrvl/articles/628981/what-pulled-marvell-stock-down-on-tuesday/2026-11-25?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:14 ET",
-        "pub_ts": 1795616066.0
       }
     ],
     "LITE": [
@@ -3204,6 +3204,20 @@
         "pub_ts": 1795705200.0
       },
       {
+        "title": "Dow Jones Futures Rise With U.S. Markets Shut; Look For This Bullish Signal",
+        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise-with.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:34 ET",
+        "pub_ts": 1795707299.0
+      },
+      {
+        "title": "Anthropic Is Down 7% Since Its IPO. History Says a $5,000 Investment Could Be Worth This Much in a Year.",
+        "url": "https://www.fool.com/investing/2026/11/26/anthropic-is-down-7-since-its-ipo-history-says-a-usd5-000-investment-could-be-worth-this-much-in-a-year/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:33 ET",
+        "pub_ts": 1795707182.0
+      },
+      {
         "title": "Anthropic Signed a $19 Billion Lease. Is TeraWulf (WULF) Ready?",
         "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-signed-19-billion-lease-144202573.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3211,25 +3225,11 @@
         "pub_ts": 1795704122.0
       },
       {
-        "title": "Dow Jones Futures Rise With U.S. Markets Shut; Look For This Bullish Signal",
-        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise-with.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 09:07 ET",
-        "pub_ts": 1795702030.0
-      },
-      {
         "title": "Is Anthropic Joining the S&P 500? Here's What Investors Need to Know.",
         "url": "https://www.fool.com/investing/2026/11/26/is-anthropic-joining-sp-500-what-investors-need-to-know/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-26 08:23 ET",
         "pub_ts": 1795699382.0
-      },
-      {
-        "title": "Will Anthropic’s Float Tripling by February Sink a Stock Already Below Its IPO Price?",
-        "url": "https://www.tikr.com/blog/will-anthropics-float-tripling-by-february-sink-a-stock-already-below-its-ipo-price?ref=yahoofinance&tlnk=yf-261126-rh7435mm&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 08:02 ET",
-        "pub_ts": 1795698151.0
       }
     ],
     "XAUUSD": [
@@ -3297,27 +3297,27 @@
     "SOXS": 1795707586.7275345,
     "NVDA": 1795707586.7275345,
     "AMD": 1795707586.7275345,
-    "ASML": 1795706339.4412441,
-    "QCOM": 1795706339.4412441,
-    "AVGO": 1795706339.4412441,
-    "AMAT": 1795706339.4412441,
-    "META": 1795706339.4412441,
-    "GOOGL": 1795706339.4412441,
-    "MSFT": 1795706339.4412441,
-    "AAPL": 1795706339.4412441,
-    "PLTR": 1795706339.4412441,
-    "NOW": 1795706339.4412441,
-    "AMZN": 1795706339.4412441,
-    "CRWV": 1795706339.4412441,
-    "NBIS": 1795706339.4412441,
-    "APLD": 1795706339.4412441,
-    "VST": 1795706339.4412441,
-    "BE": 1795706339.4412441,
-    "CRDO": 1795706339.4412441,
-    "COHR": 1795706339.4412441,
-    "MRVL": 1795706339.4412441,
+    "ASML": 1795707896.0412085,
+    "QCOM": 1795707896.0412085,
+    "AVGO": 1795707896.0412085,
+    "AMAT": 1795707896.0412085,
+    "META": 1795707896.0412085,
+    "GOOGL": 1795707896.0412085,
+    "MSFT": 1795707896.0412085,
+    "AAPL": 1795707896.0412085,
+    "PLTR": 1795707896.0412085,
+    "NOW": 1795707896.0412085,
+    "AMZN": 1795707896.0412085,
+    "CRWV": 1795707896.0412085,
+    "NBIS": 1795707896.0412085,
+    "APLD": 1795707896.0412085,
+    "VST": 1795707896.0412085,
+    "BE": 1795707896.0412085,
+    "CRDO": 1795707896.0412085,
+    "COHR": 1795707896.0412085,
+    "MRVL": 1795707896.0412085,
     "LITE": 1795706441.6626613,
-    "AAOI": 1795706339.4412441,
+    "AAOI": 1795707896.0412085,
     "SPCX": 1795706441.6626613,
     "ASTS": 1795706441.6626613,
     "AXTI": 1795706441.6626613,
@@ -3350,15 +3350,15 @@
     "NKE": 1795707586.7275345,
     "MCD": 1795707586.7275345,
     "PEP": 1795707586.7275345,
-    "XOM": 1795706339.4412441,
+    "XOM": 1795707896.0412085,
     "JPM": 1795707586.7275345,
-    "WMT": 1795706339.4412441,
+    "WMT": 1795707896.0412085,
     "V": 1795707586.7275345,
-    "CAT": 1795706339.4412441,
+    "CAT": 1795707896.0412085,
     "FN": 1795706441.6626613,
     "GLW": 1795706441.6626613,
-    "ANT": 1795706339.4412441,
-    "XAUUSD": 1795706339.4412441,
+    "ANT": 1795707896.0412085,
+    "XAUUSD": 1795707896.0412085,
     "KOSPI": 1795707586.7275345
   },
   "opex_shield": {
