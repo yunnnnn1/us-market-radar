@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795660061.957,
-  "updated_at_et": "11-25 21:27 ET",
-  "updated_at_kst": "11:27 KST",
+  "updated_at_ts": 1795660162.754,
+  "updated_at_et": "11-25 21:29 ET",
+  "updated_at_kst": "11:29 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -2646,6 +2646,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "How Low Can Bitcoin, Ethereum and XRP Fall? 4 Price Levels to Watch",
+        "url": "https://beincrypto.com/critical-price-levels-for-bitcoin-ethereum-xrp/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 20:37 ET",
+        "pub_ts": 1795657054.0
+      },
+      {
         "title": "One Big Difference Between Bitcoin and Pearl: There’s ‘No True Fair Launch Anymore’",
         "url": "https://unchainedcrypto.com/one-big-difference-between-bitcoin-and-pearl-theres-no-true-fair-launch-anymore/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2672,13 +2679,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 19:04 ET",
         "pub_ts": 1795651459.0
-      },
-      {
-        "title": "Bitcoin and Tokenized Gold Trading in Euros Rises When Eurozone Yields Outpace US",
-        "url": "https://beincrypto.com/bitcoin-tokenized-gold-euro-bond-yields/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 19:02 ET",
-        "pub_ts": 1795651320.0
       }
     ],
     "CRWD": [
@@ -2741,11 +2741,11 @@
         "pub_ts": 1795625456.0
       },
       {
-        "title": "Oracle, CoreWeave Face Stark Warning From Credit Markets",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-coreweave-face-stark-warning-162922864.html?.tsrc=rss",
+        "title": "Tech Stocks Stall Into Thanksgiving: Will the AI Rebound Return?",
+        "url": "https://beincrypto.com/tech-stocks-stall-thanksgiving-nvidia-rebound/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 11:29 ET",
-        "pub_ts": 1795624162.0
+        "time": "11-25 20:19 ET",
+        "pub_ts": 1795655993.0
       },
       {
         "title": "Amdocs (DOX) Stock Is Up 4.6% Today Without Company News",
@@ -3360,32 +3360,32 @@
     "LITE": 1795658979.0032287,
     "AAOI": 1795658879.5318527,
     "SPCX": 1795658979.0032287,
-    "ASTS": 1795658581.7057152,
+    "ASTS": 1795660162.754134,
     "AXTI": 1795658979.0032287,
-    "NASA": 1795658581.7057152,
-    "LUNR": 1795658581.7057152,
-    "TSLA": 1795658581.7057152,
-    "AXP": 1795658581.7057152,
-    "RKLB": 1795658581.7057152,
-    "KO": 1795658581.7057152,
-    "FLY": 1795658581.7057152,
-    "INTC": 1795658581.7057152,
-    "VRT": 1795658581.7057152,
-    "HPE": 1795658581.7057152,
-    "DELL": 1795658581.7057152,
-    "OKLO": 1795658581.7057152,
-    "CEG": 1795658581.7057152,
-    "FPS": 1795658581.7057152,
-    "MU": 1795658581.7057152,
-    "SKHY": 1795658581.7057152,
-    "WDC": 1795658581.7057152,
-    "STX": 1795658581.7057152,
-    "MSTR": 1795658581.7057152,
-    "SNDK": 1795658581.7057152,
-    "BTC-USD": 1795658581.7057152,
-    "CRWD": 1795658581.7057152,
-    "ORCL": 1795658581.7057152,
-    "COIN": 1795658581.7057152,
+    "NASA": 1795660162.754134,
+    "LUNR": 1795660162.754134,
+    "TSLA": 1795660162.754134,
+    "AXP": 1795660162.754134,
+    "RKLB": 1795660162.754134,
+    "KO": 1795660162.754134,
+    "FLY": 1795660162.754134,
+    "INTC": 1795660162.754134,
+    "VRT": 1795660162.754134,
+    "HPE": 1795660162.754134,
+    "DELL": 1795660162.754134,
+    "OKLO": 1795660162.754134,
+    "CEG": 1795660162.754134,
+    "FPS": 1795660162.754134,
+    "MU": 1795660162.754134,
+    "SKHY": 1795660162.754134,
+    "WDC": 1795660162.754134,
+    "STX": 1795660162.754134,
+    "MSTR": 1795660162.754134,
+    "SNDK": 1795660162.754134,
+    "BTC-USD": 1795660162.754134,
+    "CRWD": 1795660162.754134,
+    "ORCL": 1795660162.754134,
+    "COIN": 1795660162.754134,
     "LLY": 1795658682.1702785,
     "MRNA": 1795658682.1702785,
     "NKE": 1795658682.1702785,
