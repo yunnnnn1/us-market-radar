@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795709448.717,
-  "updated_at_et": "11-26 11:10 ET",
-  "updated_at_kst": "01:10 KST",
+  "updated_at_ts": 1795709551.883,
+  "updated_at_et": "11-26 11:12 ET",
+  "updated_at_kst": "01:12 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1753,6 +1753,13 @@
     ],
     "SPCX": [
       {
+        "title": "Musk makes $18 billion SpaceX stock pledge for every kid in America",
+        "url": "https://www.axios.com/2026/11/26/musk-spacex-shares-trump-accounts#utm_source=yahoo_finance&utm_medium=partner&utm_campaign=subs-partner-yahoo-finance-AI?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:54 ET",
+        "pub_ts": 1795708455.0
+      },
+      {
         "title": "SpaceX Just Slid 11% in a Week. Can Elon Musk’s FCC Win for 1 Million Satellites Get SPCX Stock Back Above Its $135 IPO Price?",
         "url": "https://247wallst.com/investing/2026/11/26/spacex-just-slid-11-in-a-week-can-elon-musks-fcc-win-for-1-million-satellites-get-spcx-stock-back-above-its-135-ipo-price/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1779,13 +1786,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 09:00 ET",
         "pub_ts": 1795701600.0
-      },
-      {
-        "title": "SpaceX pledges stock for active Trump Accounts, Elon Musk to match",
-        "url": "https://www.proactiveinvestors.com/companies/news/1102523/spacex-pledges-stock-for-active-trump-accounts-elon-musk-to-match-1102523.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 08:54 ET",
-        "pub_ts": 1795701240.0
       }
     ],
     "ASTS": [
@@ -2012,6 +2012,13 @@
     ],
     "RKLB": [
       {
+        "title": "Rocket Lab Stock Just Fell to Its Lowest Price in About a Year. Is It a Buy Now?",
+        "url": "https://www.fool.com/investing/2026/11/26/rocket-lab-stock-just-fell-to-its-lowest-price-in-about-a-year-is-it-a-buy-now/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:43 ET",
+        "pub_ts": 1795707782.0
+      },
+      {
         "title": "AST SpaceMobile Is Still Down 64% in 2026. Can Insider Buying and a B. Riley Upgrade Get ASTS Stock Back to $40?",
         "url": "https://247wallst.com/investing/2026/11/26/ast-spacemobile-is-still-down-64-in-2026-can-insider-buying-and-a-b-riley-upgrade-get-asts-stock-back-to-40/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2038,13 +2045,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 07:11 ET",
         "pub_ts": 1795695073.0
-      },
-      {
-        "title": "RKLB Stock Rebounds Into Thanksgiving: CFO, COO And Other Execs Sell Nearly $4M In Shares Ahead Of Electron Launch",
-        "url": "https://stocktwits.com/news-articles/markets/equity/rklb-stock-cfo-coo-other-execs-sell-shares-ahead-of-electron-launch/cNbx33ZR9ZR?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 20:50 ET",
-        "pub_ts": 1795657814.0
       }
     ],
     "KO": [
@@ -2456,6 +2456,13 @@
     ],
     "WDC": [
       {
+        "title": "Western Digital Plummets 20% Over a Month: This Wall Street Team Now Predicts 230% Gains After Earnings Re-Rating",
+        "url": "https://247wallst.com/investing/2026/11/26/western-digital-plummets-20-over-a-month-this-wall-street-team-now-predicts-230-gains-after-earnings-re-rating/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:45 ET",
+        "pub_ts": 1795707935.0
+      },
+      {
         "title": "Elite Growth Stocks To Own In November 2026",
         "url": "https://finance.yahoo.com/markets/stocks/articles/elite-growth-stocks-own-november-071347242.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2482,13 +2489,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:11 ET",
         "pub_ts": 1795619518.0
-      },
-      {
-        "title": "4 Memory and Storage Stocks Cut by More Than 30% That I'd Buy Now and Hold for the Next Decade",
-        "url": "https://www.fool.com/investing/2026/11/26/4-memory-and-storage-stocks-cut-by-more-than-30-that-i-d-buy-now-and-hold-for-the-next-decade/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 05:01 ET",
-        "pub_ts": 1795687262.0
       }
     ],
     "STX": [
@@ -3315,31 +3315,31 @@
     "CRDO": 1795709448.7174318,
     "COHR": 1795709448.7174318,
     "MRVL": 1795709448.7174318,
-    "LITE": 1795708001.4619792,
+    "LITE": 1795709551.8828852,
     "AAOI": 1795709448.7174318,
-    "SPCX": 1795708001.4619792,
-    "ASTS": 1795708001.4619792,
-    "AXTI": 1795708001.4619792,
-    "NASA": 1795708001.4619792,
-    "LUNR": 1795708001.4619792,
-    "TSLA": 1795708001.4619792,
-    "AXP": 1795708001.4619792,
-    "RKLB": 1795708001.4619792,
-    "KO": 1795708001.4619792,
-    "FLY": 1795708001.4619792,
-    "INTC": 1795708001.4619792,
-    "VRT": 1795708001.4619792,
-    "HPE": 1795708001.4619792,
-    "DELL": 1795708001.4619792,
-    "OKLO": 1795708001.4619792,
-    "CEG": 1795708001.4619792,
-    "FPS": 1795708001.4619792,
-    "MU": 1795708001.4619792,
-    "SKHY": 1795708001.4619792,
-    "WDC": 1795708001.4619792,
-    "STX": 1795708001.4619792,
+    "SPCX": 1795709551.8828852,
+    "ASTS": 1795709551.8828852,
+    "AXTI": 1795709551.8828852,
+    "NASA": 1795709551.8828852,
+    "LUNR": 1795709551.8828852,
+    "TSLA": 1795709551.8828852,
+    "AXP": 1795709551.8828852,
+    "RKLB": 1795709551.8828852,
+    "KO": 1795709551.8828852,
+    "FLY": 1795709551.8828852,
+    "INTC": 1795709551.8828852,
+    "VRT": 1795709551.8828852,
+    "HPE": 1795709551.8828852,
+    "DELL": 1795709551.8828852,
+    "OKLO": 1795709551.8828852,
+    "CEG": 1795709551.8828852,
+    "FPS": 1795709551.8828852,
+    "MU": 1795709551.8828852,
+    "SKHY": 1795709551.8828852,
+    "WDC": 1795709551.8828852,
+    "STX": 1795709551.8828852,
     "MSTR": 1795708106.1790764,
-    "SNDK": 1795708001.4619792,
+    "SNDK": 1795709551.8828852,
     "BTC-USD": 1795708106.1790764,
     "CRWD": 1795708106.1790764,
     "ORCL": 1795708106.1790764,
@@ -3354,8 +3354,8 @@
     "WMT": 1795709448.7174318,
     "V": 1795709142.330208,
     "CAT": 1795709448.7174318,
-    "FN": 1795708001.4619792,
-    "GLW": 1795708001.4619792,
+    "FN": 1795709551.8828852,
+    "GLW": 1795709551.8828852,
     "ANT": 1795709448.7174318,
     "XAUUSD": 1795709448.7174318,
     "KOSPI": 1795709142.330208
