@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795720178.182,
-  "updated_at_et": "11-26 14:09 ET",
-  "updated_at_kst": "04:09 KST",
+  "updated_at_ts": 1795720275.031,
+  "updated_at_et": "11-26 14:11 ET",
+  "updated_at_kst": "04:11 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1753,6 +1753,13 @@
     ],
     "SPCX": [
       {
+        "title": "Elon Musk doubles SpaceX share pledge for U.S. children",
+        "url": "https://www.cbsnews.com/news/elon-musk-spacex-shares-trump-accounts/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 13:22 ET",
+        "pub_ts": 1795717354.0
+      },
+      {
         "title": "Nvidia Now Has 41% of Its Stock Portfolio in SpaceX. Here’s What That Means for Nvidia Shareholders",
         "url": "https://www.tikr.com/blog/nvidia-now-has-41-of-its-stock-portfolio-in-spacex-heres-what-that-means-for-nvidia-shareholders?ref=yahoofinance&tlnk=yf-261126-gr78h4qh&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1779,13 +1786,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 12:00 ET",
         "pub_ts": 1795712400.0
-      },
-      {
-        "title": "Elon Musk says he’ll gift every US kid 1 of his own SpaceX shares, plus 1 from SpaceX — but there’s a catch to claim",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-says-ll-gift-164000030.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 11:40 ET",
-        "pub_ts": 1795711200.0
       }
     ],
     "ASTS": [
@@ -2123,6 +2123,13 @@
     ],
     "INTC": [
       {
+        "title": "Intel Stocks Slip After Erasing a 10.3% Plunge Below $50",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/intel-stocks-slip-erasing-10-184536612.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 13:45 ET",
+        "pub_ts": 1795718736.0
+      },
+      {
         "title": "Nvidia Now Has 41% of Its Stock Portfolio in SpaceX. Here’s What That Means for Nvidia Shareholders",
         "url": "https://www.tikr.com/blog/nvidia-now-has-41-of-its-stock-portfolio-in-spacex-heres-what-that-means-for-nvidia-shareholders?ref=yahoofinance&tlnk=yf-261126-gr78h4qh&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2149,13 +2156,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 12:42 ET",
         "pub_ts": 1795628526.0
-      },
-      {
-        "title": "Nvidia’s Biggest Advantage Could Become Its Biggest Weakness, Says Former Intel AI Chief",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63635370/nvidia-ai-chip-advantage-rao?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:32 ET",
-        "pub_ts": 1795624327.0
       }
     ],
     "VRT": [
@@ -2234,6 +2234,13 @@
     ],
     "DELL": [
       {
+        "title": "BofA resets Dell stock price target by $100 after record earnings",
+        "url": "https://www.thestreet.com/investing/stocks/dell-dell-technologies-bank-of-america-resets-dell-stock-price-target-by-100-after-record-q3-earnings?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 14:03 ET",
+        "pub_ts": 1795719780.0
+      },
+      {
         "title": "Dell Is No Longer the Company You Originally Bought. Is That a Reason to Buy More Stock in 2027?",
         "url": "https://247wallst.com/investing/2026/11/26/dell-is-no-longer-the-company-you-originally-bought-is-that-a-reason-to-buy-more-stock-in-2027/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2260,13 +2267,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 04:51 ET",
         "pub_ts": 1795686662.0
-      },
-      {
-        "title": "DELL Stock Heads For Worst Month Since 2021: Morningstar Sees Risk Ahead For Dell Despite AI-Led Earnings Beat",
-        "url": "https://stocktwits.com/news-articles/markets/equity/dell-stock-heads-for-worst-month-since-2021-morningstar-sees-risk-ahead-for-dell-despite-ai-led-earnings-beat/cNbx0U7R9Zo?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 04:10 ET",
-        "pub_ts": 1795684204.0
       }
     ],
     "OKLO": [
@@ -3315,31 +3315,31 @@
     "CRDO": 1795719206.3475246,
     "COHR": 1795719206.3475246,
     "MRVL": 1795719206.3475246,
-    "LITE": 1795718714.9537654,
+    "LITE": 1795720275.0311432,
     "AAOI": 1795719206.3475246,
-    "SPCX": 1795718714.9537654,
-    "ASTS": 1795718714.9537654,
-    "AXTI": 1795718714.9537654,
-    "NASA": 1795718714.9537654,
-    "LUNR": 1795718714.9537654,
-    "TSLA": 1795718714.9537654,
-    "AXP": 1795718714.9537654,
-    "RKLB": 1795718714.9537654,
-    "KO": 1795718714.9537654,
-    "FLY": 1795718714.9537654,
-    "INTC": 1795718714.9537654,
-    "VRT": 1795718714.9537654,
-    "HPE": 1795718714.9537654,
-    "DELL": 1795718714.9537654,
-    "OKLO": 1795718714.9537654,
-    "CEG": 1795718714.9537654,
-    "FPS": 1795718714.9537654,
-    "MU": 1795718714.9537654,
-    "SKHY": 1795718714.9537654,
-    "WDC": 1795718714.9537654,
-    "STX": 1795718714.9537654,
+    "SPCX": 1795720275.0311432,
+    "ASTS": 1795720275.0311432,
+    "AXTI": 1795720275.0311432,
+    "NASA": 1795720275.0311432,
+    "LUNR": 1795720275.0311432,
+    "TSLA": 1795720275.0311432,
+    "AXP": 1795720275.0311432,
+    "RKLB": 1795720275.0311432,
+    "KO": 1795720275.0311432,
+    "FLY": 1795720275.0311432,
+    "INTC": 1795720275.0311432,
+    "VRT": 1795720275.0311432,
+    "HPE": 1795720275.0311432,
+    "DELL": 1795720275.0311432,
+    "OKLO": 1795720275.0311432,
+    "CEG": 1795720275.0311432,
+    "FPS": 1795720275.0311432,
+    "MU": 1795720275.0311432,
+    "SKHY": 1795720275.0311432,
+    "WDC": 1795720275.0311432,
+    "STX": 1795720275.0311432,
     "MSTR": 1795719107.0668628,
-    "SNDK": 1795718714.9537654,
+    "SNDK": 1795720275.0311432,
     "BTC-USD": 1795719107.0668628,
     "CRWD": 1795719107.0668628,
     "ORCL": 1795719107.0668628,
@@ -3354,8 +3354,8 @@
     "WMT": 1795719303.3650284,
     "V": 1795719206.3475246,
     "CAT": 1795719303.3650284,
-    "FN": 1795718714.9537654,
-    "GLW": 1795718714.9537654,
+    "FN": 1795720275.0311432,
+    "GLW": 1795720275.0311432,
     "ANT": 1795719303.3650284,
     "XAUUSD": 1795719303.3650284,
     "KOSPI": 1795719107.0668628
