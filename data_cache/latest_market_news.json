@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795713998.275,
-  "updated_at_et": "11-26 12:26 ET",
-  "updated_at_kst": "02:26 KST",
+  "updated_at_ts": 1795714103.043,
+  "updated_at_et": "11-26 12:28 ET",
+  "updated_at_kst": "02:28 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1013,6 +1013,13 @@
     ],
     "QCOM": [
       {
+        "title": "What Is Qualcomm (QCOM) Worth Watching In Automotive AI Right Now?",
+        "url": "https://finance.yahoo.com/technology/ai/articles/qualcomm-qcom-worth-watching-automotive-171007378.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 12:10 ET",
+        "pub_ts": 1795713007.0
+      },
+      {
         "title": "Qualcomm vs. Sandisk: Which Technology Stock Is a Better Buy for 2027?",
         "url": "https://www.fool.com/coverage/better-buy/2026/11/25/qualcomm-vs-sandisk-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1039,13 +1046,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 11:52 ET",
         "pub_ts": 1795625521.0
-      },
-      {
-        "title": "How Qualcomm’s CMO is reshaping his team for its post-Apple era",
-        "url": "https://finance.yahoo.com/technology/ai/articles/qualcomm-cmo-reshaping-team-post-160155309.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:01 ET",
-        "pub_ts": 1795622515.0
       }
     ],
     "AVGO": [
@@ -1124,6 +1124,13 @@
     ],
     "META": [
       {
+        "title": "Meta Platforms’ (META) Surging Capex Pressures Free Cash Flow Amid Monetization Debates",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-meta-surging-capex-165927360.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:59 ET",
+        "pub_ts": 1795712367.0
+      },
+      {
         "title": "Meta Platforms Just Partnered With Walmart. Here's Why Investors Should Pay Attention",
         "url": "https://www.fool.com/investing/2026/11/26/meta-platforms-just-partnered-with-walmart-here-s-why-investors-should-pay-attention/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1150,13 +1157,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 06:05 ET",
         "pub_ts": 1795691124.0
-      },
-      {
-        "title": "ETFs Are Net Sellers of Meta Platforms (META) on Tuesday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-meta-platforms-110247680.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:02 ET",
-        "pub_ts": 1795690967.0
       }
     ],
     "GOOGL": [
@@ -1175,25 +1175,25 @@
         "pub_ts": 1795694400.0
       },
       {
-        "title": "A 26-year-old Google worker earns $323K but spends under $20K a year — his plan for financial freedom",
-        "url": "https://finance.yahoo.com/markets/articles/26-old-google-worker-earns-160000076.html?.tsrc=rss",
+        "title": "Amazon Has 59 Buy Ratings and Not a Single Sell. Here’s Where its Headed",
+        "url": "https://247wallst.com/investing/2026/11/26/amazon-has-59-buy-ratings-and-not-a-single-sell-heres-where-its-headed/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 11:00 ET",
-        "pub_ts": 1795708800.0
+        "time": "11-26 12:10 ET",
+        "pub_ts": 1795713002.0
       },
       {
-        "title": "AI's self-improvement era is nearly here. It will be felt everywhere",
-        "url": "https://finance.yahoo.com/video/ais-self-improvement-era-nearly-150000618.html?.tsrc=rss",
+        "title": "Alphabet (GOOGL) Dropped, So What Is Behind The Latest Attention?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-googl-dropped-behind-latest-170937914.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 10:00 ET",
-        "pub_ts": 1795705200.0
+        "time": "11-26 12:09 ET",
+        "pub_ts": 1795712977.0
       },
       {
-        "title": "Europe Cloud Computing Market Surges to $ 550.42 billion at a CAGR 11.0% by 2030 | Report by MarketsandMarkets™",
-        "url": "https://finance.yahoo.com/technology/articles/europe-cloud-computing-market-surges-150000346.html?.tsrc=rss",
+        "title": "I'm an Investing Expert: What Warren Buffett's Cash Stockpile Says About Stocks",
+        "url": "https://moneylion.com/trending/money/investing-expert-warren-buffett-cash-stockpile-stock-market-signs?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 10:00 ET",
-        "pub_ts": 1795705200.0
+        "time": "11-26 12:00 ET",
+        "pub_ts": 1795712439.0
       }
     ],
     "MSFT": [
@@ -1235,6 +1235,13 @@
     ],
     "AAPL": [
       {
+        "title": "Apple, Exxon and Lowe’s Are Rewarding Shareholders Beyond Their Regular Dividends",
+        "url": "https://247wallst.com/investing/2026/11/26/apple-exxon-and-lowes-are-rewarding-shareholders-beyond-their-regular-dividends/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 12:07 ET",
+        "pub_ts": 1795712854.0
+      },
+      {
         "title": "If You Invest $1,000 in Apple Today, Here’s What It Could Be Worth by 2029",
         "url": "https://247wallst.com/investing/2026/11/26/if-you-invest-1000-in-apple-today-heres-what-it-could-be-worth-by-2029/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1261,13 +1268,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 09:13 ET",
         "pub_ts": 1795702431.0
-      },
-      {
-        "title": "Hold $500,000 of Apple in an IRA and Your Kids Inherit a Tax Bill on Every Dollar. Hold the Same Shares in a Brokerage Account and They Can Sell the Day After You Die and Owe Nothing",
-        "url": "https://247wallst.com/personal-finance/2026/11/26/hold-500000-of-apple-in-an-ira-and-your-kids-inherit-a-tax-bill-on-every-dollar-hold-the-same-shares-in-a-brokerage-account-and-they-can-sell-the-day-after-you-die-and-owe-nothing/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 08:41 ET",
-        "pub_ts": 1795700514.0
       }
     ],
     "PLTR": [
@@ -1346,6 +1346,13 @@
     ],
     "AMZN": [
       {
+        "title": "Amazon Has 59 Buy Ratings and Not a Single Sell. Here’s Where its Headed",
+        "url": "https://247wallst.com/investing/2026/11/26/amazon-has-59-buy-ratings-and-not-a-single-sell-heres-where-its-headed/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 12:10 ET",
+        "pub_ts": 1795713002.0
+      },
+      {
         "title": "Walmart, Amazon Face Surprising Shopping Shift",
         "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-amazon-face-surprising-shopping-160813140.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1372,13 +1379,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 08:38 ET",
         "pub_ts": 1795700312.0
-      },
-      {
-        "title": "Does Black Friday Ever Move Amazon Stock?",
-        "url": "https://www.trefis.com/stock/amzn/articles/629188/does-black-friday-ever-move-amazon-stock/2026-11-26?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:29 ET",
-        "pub_ts": 1795692596.0
       }
     ],
     "CRWV": [
@@ -1457,6 +1457,13 @@
     ],
     "APLD": [
       {
+        "title": "Applied Digital Just Tumbled 33% in a Month. Can APLD Stock Get Back to $20 in 2027?",
+        "url": "https://247wallst.com/investing/2026/11/26/applied-digital-just-tumbled-33-in-a-month-can-apld-stock-get-back-to-20-in-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 12:08 ET",
+        "pub_ts": 1795712888.0
+      },
+      {
         "title": "“It’s Dead”: Applied Digital Has $11 Billion Riding on CoreWeave’s Record Credit Stress",
         "url": "https://www.tikr.com/blog/its-dead-applied-digital-has-11-billion-riding-on-coreweaves-record-credit-stress?ref=yahoofinance&tlnk=yf-261126-j6cxr9m2&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1483,13 +1490,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 09:00 ET",
         "pub_ts": 1795615200.0
-      },
-      {
-        "title": "What Made Applied Digital Stock Fall?",
-        "url": "https://www.trefis.com/stock/apld/articles/628984/what-made-applied-digital-stock-fall/2026-11-25?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:40 ET",
-        "pub_ts": 1795606841.0
       }
     ],
     "VST": [
@@ -1605,6 +1605,13 @@
     ],
     "COHR": [
       {
+        "title": "Coherent’s Director Has Now Bought $50 Million of COHR Stock in 3 Trading Days",
+        "url": "https://247wallst.com/investing/2026/11/26/coherents-director-has-now-bought-50-million-of-cohr-stock-in-3-trading-days/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 12:22 ET",
+        "pub_ts": 1795713742.0
+      },
+      {
         "title": "Coherent (COHR) Authorizes A $2.0b Buyback, Is The 47% Undervaluation Case Intact?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-cohr-authorizes-2-0b-201459636.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1631,13 +1638,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 03:35 ET",
         "pub_ts": 1795595727.0
-      },
-      {
-        "title": "COHR Stock Swings After Nvidia-Led AI Rally: $15M Insider Buy Draws Attention",
-        "url": "https://stocktwits.com/news-articles/markets/equity/cohr-stock-swings-after-nvidia-led-ai-rally-15-m-insider-buy-draws-attention/cNbHcl8R9lg?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 23:40 ET",
-        "pub_ts": 1795581637.0
       }
     ],
     "MRVL": [
@@ -3206,8 +3206,15 @@
         "title": "Dow Jones Futures Rise With U.S. Markets Shut; Look For This Bullish Signal",
         "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise-with.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 11:48 ET",
-        "pub_ts": 1795711715.0
+        "time": "11-26 12:17 ET",
+        "pub_ts": 1795713454.0
+      },
+      {
+        "title": "Elon Musk didn’t sell a single share in SpaceX’s record $85.7B IPO. Anthropic’s 7 cofounders cashed out $1.96B in theirs",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-didn-t-sell-170000854.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 12:00 ET",
+        "pub_ts": 1795712400.0
       },
       {
         "title": "Anthropic Stock Snapped Its Losing Streak. The Case to Buy.",
@@ -3222,13 +3229,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 10:33 ET",
         "pub_ts": 1795707182.0
-      },
-      {
-        "title": "Anthropic Signed a $19 Billion Lease. Is TeraWulf (WULF) Ready?",
-        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-signed-19-billion-lease-144202573.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 09:42 ET",
-        "pub_ts": 1795704122.0
       }
     ],
     "XAUUSD": [
@@ -3296,27 +3296,27 @@
     "SOXS": 1795713793.1176853,
     "NVDA": 1795713793.1176853,
     "AMD": 1795713793.1176853,
-    "ASML": 1795712552.1412592,
-    "QCOM": 1795712552.1412592,
-    "AVGO": 1795712552.1412592,
-    "AMAT": 1795712552.1412592,
-    "META": 1795712552.1412592,
-    "GOOGL": 1795712552.1412592,
-    "MSFT": 1795712552.1412592,
-    "AAPL": 1795712552.1412592,
-    "PLTR": 1795712552.1412592,
-    "NOW": 1795712552.1412592,
-    "AMZN": 1795712552.1412592,
-    "CRWV": 1795712552.1412592,
-    "NBIS": 1795712552.1412592,
-    "APLD": 1795712552.1412592,
-    "VST": 1795712552.1412592,
-    "BE": 1795712552.1412592,
-    "CRDO": 1795712552.1412592,
-    "COHR": 1795712552.1412592,
-    "MRVL": 1795712552.1412592,
+    "ASML": 1795714103.0429132,
+    "QCOM": 1795714103.0429132,
+    "AVGO": 1795714103.0429132,
+    "AMAT": 1795714103.0429132,
+    "META": 1795714103.0429132,
+    "GOOGL": 1795714103.0429132,
+    "MSFT": 1795714103.0429132,
+    "AAPL": 1795714103.0429132,
+    "PLTR": 1795714103.0429132,
+    "NOW": 1795714103.0429132,
+    "AMZN": 1795714103.0429132,
+    "CRWV": 1795714103.0429132,
+    "NBIS": 1795714103.0429132,
+    "APLD": 1795714103.0429132,
+    "VST": 1795714103.0429132,
+    "BE": 1795714103.0429132,
+    "CRDO": 1795714103.0429132,
+    "COHR": 1795714103.0429132,
+    "MRVL": 1795714103.0429132,
     "LITE": 1795712655.3272152,
-    "AAOI": 1795712552.1412592,
+    "AAOI": 1795714103.0429132,
     "SPCX": 1795712655.3272152,
     "ASTS": 1795712655.3272152,
     "AXTI": 1795712655.3272152,
@@ -3349,15 +3349,15 @@
     "NKE": 1795713793.1176853,
     "MCD": 1795713793.1176853,
     "PEP": 1795713793.1176853,
-    "XOM": 1795712552.1412592,
+    "XOM": 1795714103.0429132,
     "JPM": 1795713793.1176853,
-    "WMT": 1795712552.1412592,
+    "WMT": 1795714103.0429132,
     "V": 1795713793.1176853,
-    "CAT": 1795712552.1412592,
+    "CAT": 1795714103.0429132,
     "FN": 1795712655.3272152,
     "GLW": 1795712655.3272152,
-    "ANT": 1795712552.1412592,
-    "XAUUSD": 1795712552.1412592,
+    "ANT": 1795714103.0429132,
+    "XAUUSD": 1795714103.0429132,
     "KOSPI": 1795713793.1176853
   },
   "opex_shield": {
