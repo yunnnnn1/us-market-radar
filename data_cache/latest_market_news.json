@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795723689.275,
-  "updated_at_et": "11-26 15:08 ET",
-  "updated_at_kst": "05:08 KST",
+  "updated_at_ts": 1795723786.6,
+  "updated_at_et": "11-26 15:09 ET",
+  "updated_at_kst": "05:09 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2604,6 +2604,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "Bitcoin’s Price Every Thanksgiving Since 2013",
+        "url": "https://247wallst.com/investing/cryptocurrency/2026/11/26/bitcoins-price-every-thanksgiving-since-2013/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 14:44 ET",
+        "pub_ts": 1795722296.0
+      },
+      {
         "title": "Bitcoin Holds Above $60K as Death Cross Clouds Thanksgiving Recovery",
         "url": "https://decrypt.co/384079/bitcoin-holds-above-60k-as-death-cross-clouds-thanksgiving-recovery?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2630,13 +2637,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 11:28 ET",
         "pub_ts": 1795710503.0
-      },
-      {
-        "title": "TeraWulf (WULF) CEO Sets 1 GW Muskie Leasing Terms To Avoid Dilution",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/terawulf-wulf-ceo-sets-1-161553042.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 11:15 ET",
-        "pub_ts": 1795709753.0
       }
     ],
     "CRWD": [
@@ -3279,23 +3279,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795722227.5881047,
-    "SOXL": 1795722227.5881047,
-    "SPY": 1795722227.5881047,
-    "DIA": 1795722227.5881047,
-    "SOXX": 1795722227.5881047,
-    "QQQ": 1795722227.5881047,
-    "SMH": 1795722227.5881047,
-    "IWM": 1795722227.5881047,
-    "IGV": 1795722227.5881047,
-    "TLT": 1795722227.5881047,
-    "GLD": 1795722227.5881047,
-    "SQQQ": 1795722227.5881047,
-    "TSM": 1795722227.5881047,
-    "VIXY": 1795722227.5881047,
-    "SOXS": 1795722227.5881047,
-    "NVDA": 1795722227.5881047,
-    "AMD": 1795722227.5881047,
+    "KORU": 1795723786.600303,
+    "SOXL": 1795723786.600303,
+    "SPY": 1795723786.600303,
+    "DIA": 1795723786.600303,
+    "SOXX": 1795723786.600303,
+    "QQQ": 1795723786.600303,
+    "SMH": 1795723786.600303,
+    "IWM": 1795723786.600303,
+    "IGV": 1795723786.600303,
+    "TLT": 1795723786.600303,
+    "GLD": 1795723786.600303,
+    "SQQQ": 1795723786.600303,
+    "TSM": 1795723786.600303,
+    "VIXY": 1795723786.600303,
+    "SOXS": 1795723786.600303,
+    "NVDA": 1795723786.600303,
+    "AMD": 1795723786.600303,
     "ASML": 1795722325.0941594,
     "QCOM": 1795722325.0941594,
     "AVGO": 1795722325.0941594,
@@ -3338,14 +3338,14 @@
     "SKHY": 1795723396.6401916,
     "WDC": 1795723396.6401916,
     "STX": 1795723396.6401916,
-    "MSTR": 1795722227.5881047,
+    "MSTR": 1795723786.600303,
     "SNDK": 1795723396.6401916,
-    "BTC-USD": 1795722227.5881047,
-    "CRWD": 1795722227.5881047,
-    "ORCL": 1795722227.5881047,
-    "COIN": 1795722227.5881047,
-    "LLY": 1795722227.5881047,
-    "MRNA": 1795722227.5881047,
+    "BTC-USD": 1795723786.600303,
+    "CRWD": 1795723786.600303,
+    "ORCL": 1795723786.600303,
+    "COIN": 1795723786.600303,
+    "LLY": 1795723786.600303,
+    "MRNA": 1795723786.600303,
     "NKE": 1795722325.0941594,
     "MCD": 1795722325.0941594,
     "PEP": 1795722325.0941594,
@@ -3358,7 +3358,7 @@
     "GLW": 1795723396.6401916,
     "ANT": 1795722422.4021988,
     "XAUUSD": 1795722422.4021988,
-    "KOSPI": 1795722227.5881047
+    "KOSPI": 1795723786.600303
   },
   "opex_shield": {
     "date": "2026-11-26",
