@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795717639.767,
-  "updated_at_et": "11-26 13:27 ET",
-  "updated_at_kst": "03:27 KST",
+  "updated_at_ts": 1795717737.412,
+  "updated_at_et": "11-26 13:28 ET",
+  "updated_at_kst": "03:28 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -3018,6 +3018,13 @@
         "pub_ts": 1795698000.0
       },
       {
+        "title": "Amazon , Walmart Battle for $124 Billion Holiday Shopping Market",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-walmart-battle-124-billion-175223253.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 12:52 ET",
+        "pub_ts": 1795715543.0
+      },
+      {
         "title": "Walmart, Amazon Face Surprising Shopping Shift",
         "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-amazon-face-surprising-shopping-160813140.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3037,13 +3044,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 06:05 ET",
         "pub_ts": 1795691103.0
-      },
-      {
-        "title": "ETFs Bought $89.2 Million of Walmart (WMT) on Tuesday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-89-2-million-110052786.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:00 ET",
-        "pub_ts": 1795690852.0
       }
     ],
     "V": [
@@ -3206,29 +3206,29 @@
         "title": "Dow Jones Futures Rise With U.S. Markets Shut; Look For This Bullish Signal",
         "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise-with.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 12:17 ET",
-        "pub_ts": 1795713454.0
+        "time": "11-26 13:11 ET",
+        "pub_ts": 1795716674.0
       },
       {
-        "title": "Elon Musk didn’t sell a single share in SpaceX’s record $85.7B IPO. Anthropic’s 7 cofounders cashed out $1.96B in theirs",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-didn-t-sell-170000854.html?.tsrc=rss",
+        "title": "Cathie Wood Just Bought $88 Million of Anthropic Stock",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-just-bought-88-180915500.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 12:00 ET",
-        "pub_ts": 1795712400.0
+        "time": "11-26 13:09 ET",
+        "pub_ts": 1795716555.0
       },
       {
-        "title": "Anthropic Stock Snapped Its Losing Streak. The Case to Buy.",
-        "url": "https://finance.yahoo.com/m/a4b30342-f454-31c5-bfd4-b330ff0a2e04/anthropic-stock-snapped-its.html?.tsrc=rss",
+        "title": "Alphabet Could Be the Safest Way to Own Anthropic. Here’s the Math.",
+        "url": "https://www.fool.com/investing/2026/11/26/alphabet-could-be-the-safest-way-to-own-anthropic-here-s-the-math/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 10:56 ET",
-        "pub_ts": 1795708560.0
+        "time": "11-26 12:47 ET",
+        "pub_ts": 1795715222.0
       },
       {
-        "title": "Anthropic Is Down 7% Since Its IPO. History Says a $5,000 Investment Could Be Worth This Much in a Year.",
-        "url": "https://www.fool.com/investing/2026/11/26/anthropic-is-down-7-since-its-ipo-history-says-a-usd5-000-investment-could-be-worth-this-much-in-a-year/?.tsrc=rss",
+        "title": "Cathie Wood Buys $87.8 Million in Anthropic Shares This Week",
+        "url": "https://finance.yahoo.com/technology/ai/articles/cathie-wood-buys-87-8-174136348.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 10:33 ET",
-        "pub_ts": 1795707182.0
+        "time": "11-26 12:41 ET",
+        "pub_ts": 1795714896.0
       }
     ],
     "XAUUSD": [
@@ -3349,15 +3349,15 @@
     "NKE": 1795717639.767247,
     "MCD": 1795717639.767247,
     "PEP": 1795717639.767247,
-    "XOM": 1795714103.0429132,
+    "XOM": 1795717737.412457,
     "JPM": 1795717639.767247,
-    "WMT": 1795714103.0429132,
+    "WMT": 1795717737.412457,
     "V": 1795717639.767247,
-    "CAT": 1795714103.0429132,
+    "CAT": 1795717737.412457,
     "FN": 1795717203.4180288,
     "GLW": 1795717203.4180288,
-    "ANT": 1795714103.0429132,
-    "XAUUSD": 1795714103.0429132,
+    "ANT": 1795717737.412457,
+    "XAUUSD": 1795717737.412457,
     "KOSPI": 1795717542.8582504
   },
   "opex_shield": {
