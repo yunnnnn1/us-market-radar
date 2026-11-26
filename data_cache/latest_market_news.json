@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795669319.507,
-  "updated_at_et": "11-26 00:01 ET",
-  "updated_at_kst": "14:01 KST",
+  "updated_at_ts": 1795669419.988,
+  "updated_at_et": "11-26 00:03 ET",
+  "updated_at_kst": "14:03 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1943,13 +1943,6 @@
         "pub_ts": 1795622664.0
       },
       {
-        "title": "Tesla and SpaceX stocks sink as merger concerns mount",
-        "url": "https://finance.yahoo.com/markets/stocks/article/tesla-and-spacex-stocks-sink-as-merger-concerns-mount-154159372.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:41 ET",
-        "pub_ts": 1795621319.0
-      },
-      {
         "title": "Cathie Wood Buys More SpaceX Amid Tesla Merger Talks — Ron Baron Says SpaceX Could Make $50B A Year From One Data Center",
         "url": "https://stocktwits.com/news-articles/markets/equity/cathie-wood-buys-spacex-tesla-merger-talks-ron-baron-spacex-50b-one-data-center/cNbxeDKR9Z4?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1969,6 +1962,13 @@
         "source": "Yahoo Finance",
         "time": "11-25 18:24 ET",
         "pub_ts": 1795649042.0
+      },
+      {
+        "title": "Billionaire Brad Gerstner’s Altimeter Opened a $680 Million Tesla Stake and Exited Qualcomm and Applied Materials",
+        "url": "https://247wallst.com/investing/2026/11/25/billionaire-brad-gerstners-altimeter-opened-a-680-million-tesla-stake-and-exited-qualcomm-and-applied-materials/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:22 ET",
+        "pub_ts": 1795638121.0
       }
     ],
     "AXP": [
@@ -2491,6 +2491,13 @@
     ],
     "STX": [
       {
+        "title": "Seagate (STX) Stock Fair Value Edges Lower As Analysts Rework AI Storage Assumptions",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/seagate-stx-stock-fair-value-043825316.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 23:38 ET",
+        "pub_ts": 1795667905.0
+      },
+      {
         "title": "Seagate Technology Stocks Fall 7.64%, Still Nearly Double GF Value",
         "url": "https://finance.yahoo.com/markets/stocks/articles/seagate-technology-stocks-fall-7-180057704.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2517,13 +2524,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 08:45 ET",
         "pub_ts": 1795614318.0
-      },
-      {
-        "title": "Western Digital Stocks Sink 7.42%, Trading 139% Above GF Value",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/western-digital-stocks-sink-7-172258485.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:22 ET",
-        "pub_ts": 1795627378.0
       }
     ],
     "MSTR": [
@@ -2602,6 +2602,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "Bitcoin Reclaims $60,000: Michaël Van De Poppe Eyes ‘Great First Quarter Of 2027’, While Cathie Wood Trims Crypto Exposure",
+        "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-reclaims-60-000-michael-van-de-poppe-eyes-great-first-quarter-of-2027-while-cathie-wood-trims-crypto-exposure/cNbxBZpR9Za?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 23:36 ET",
+        "pub_ts": 1795667764.0
+      },
+      {
         "title": "How Low Can Bitcoin, Ethereum and XRP Fall? 4 Price Levels to Watch",
         "url": "https://beincrypto.com/critical-price-levels-for-bitcoin-ethereum-xrp/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2628,13 +2635,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 19:15 ET",
         "pub_ts": 1795652100.0
-      },
-      {
-        "title": "New U.S. Bill to lock Bitcoin for 20 years",
-        "url": "https://www.thestreet.com/crypto/policy/new-u-s-bill-to-lock-bitcoin-for-20-years?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 19:04 ET",
-        "pub_ts": 1795651459.0
       }
     ],
     "CRWD": [
@@ -3316,32 +3316,32 @@
     "LITE": 1795668499.6142323,
     "AAOI": 1795668397.83705,
     "SPCX": 1795668499.6142323,
-    "ASTS": 1795667886.2056994,
+    "ASTS": 1795669419.988097,
     "AXTI": 1795668499.6142323,
-    "NASA": 1795667886.2056994,
-    "LUNR": 1795667886.2056994,
-    "TSLA": 1795667886.2056994,
-    "AXP": 1795667886.2056994,
-    "RKLB": 1795667886.2056994,
-    "KO": 1795667886.2056994,
-    "FLY": 1795667886.2056994,
-    "INTC": 1795667886.2056994,
-    "VRT": 1795667886.2056994,
-    "HPE": 1795667886.2056994,
-    "DELL": 1795667886.2056994,
-    "OKLO": 1795667886.2056994,
-    "CEG": 1795667886.2056994,
-    "FPS": 1795667886.2056994,
-    "MU": 1795667886.2056994,
-    "SKHY": 1795667886.2056994,
-    "WDC": 1795667886.2056994,
-    "STX": 1795667886.2056994,
-    "MSTR": 1795667886.2056994,
-    "SNDK": 1795667886.2056994,
-    "BTC-USD": 1795667886.2056994,
-    "CRWD": 1795667886.2056994,
-    "ORCL": 1795667886.2056994,
-    "COIN": 1795667886.2056994,
+    "NASA": 1795669419.988097,
+    "LUNR": 1795669419.988097,
+    "TSLA": 1795669419.988097,
+    "AXP": 1795669419.988097,
+    "RKLB": 1795669419.988097,
+    "KO": 1795669419.988097,
+    "FLY": 1795669419.988097,
+    "INTC": 1795669419.988097,
+    "VRT": 1795669419.988097,
+    "HPE": 1795669419.988097,
+    "DELL": 1795669419.988097,
+    "OKLO": 1795669419.988097,
+    "CEG": 1795669419.988097,
+    "FPS": 1795669419.988097,
+    "MU": 1795669419.988097,
+    "SKHY": 1795669419.988097,
+    "WDC": 1795669419.988097,
+    "STX": 1795669419.988097,
+    "MSTR": 1795669419.988097,
+    "SNDK": 1795669419.988097,
+    "BTC-USD": 1795669419.988097,
+    "CRWD": 1795669419.988097,
+    "ORCL": 1795669419.988097,
+    "COIN": 1795669419.988097,
     "LLY": 1795668093.4854088,
     "MRNA": 1795668093.4854088,
     "NKE": 1795668093.4854088,
