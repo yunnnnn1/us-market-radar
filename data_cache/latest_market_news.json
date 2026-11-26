@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795711113.674,
-  "updated_at_et": "11-26 11:38 ET",
-  "updated_at_kst": "01:38 KST",
+  "updated_at_ts": 1795711216.178,
+  "updated_at_et": "11-26 11:40 ET",
+  "updated_at_kst": "01:40 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2604,6 +2604,20 @@
     ],
     "BTC-USD": [
       {
+        "title": "TeraWulf (WULF) CEO Sets 1 GW Muskie Leasing Terms To Avoid Dilution",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/terawulf-wulf-ceo-sets-1-161553042.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:15 ET",
+        "pub_ts": 1795709753.0
+      },
+      {
+        "title": "BTC News Today: US Bitcoin Strategic Reserve Bill Moves Closer as BTC Reclaims $60K",
+        "url": "https://www.coinspeaker.com/btc-news-today-us-bitcoin-strategic-reserve-bill-moves-closer-as-btc-reclaims-60k/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:09 ET",
+        "pub_ts": 1795709365.0
+      },
+      {
         "title": "Before the bell: gold, oil, and Bitcoin skip the Thanksgiving break",
         "url": "https://www.thestreet.com/crypto/markets/before-the-bell-gold-oil-and-bitcoin-skip-the-thanksgiving-break-?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2611,32 +2625,18 @@
         "pub_ts": 1795708200.0
       },
       {
+        "title": "Bitcoin News: Swiss ETF Debut Meets $7B Options Expiry and US Strategic Reserve Push",
+        "url": "https://cryptonews.com/news/bitcoin-news-7b-options-expiry-swiss-etf-reserve-bill/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:38 ET",
+        "pub_ts": 1795707512.0
+      },
+      {
         "title": "Could CleanSpark Actually Climb 286%? Or Is Canaccord Genuity Totally Wrong?",
         "url": "https://www.tikr.com/blog/could-cleanspark-actually-climb-286-or-is-canaccord-genuity-totally-wrong?ref=yahoofinance&tlnk=yf-261126-9p928vf7&.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-26 10:18 ET",
         "pub_ts": 1795706292.0
-      },
-      {
-        "title": "What TeraWulf (WULF) Long Term Data Center Contracts Mean For Shareholders",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/terawulf-wulf-long-term-data-150921107.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 10:09 ET",
-        "pub_ts": 1795705761.0
-      },
-      {
-        "title": "Core Scientific (CORZ) Quit Bitcoin for AI. Was It Worth It?",
-        "url": "https://finance.yahoo.com/technology/ai/articles/core-scientific-corz-quit-bitcoin-144324574.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 09:43 ET",
-        "pub_ts": 1795704204.0
-      },
-      {
-        "title": "Why Is Bitcoin Dropping So Much? 5 Reasons Behind Its Worst Month Since 2022",
-        "url": "https://247wallst.com/investing/cryptocurrency/2026/11/26/why-is-bitcoin-dropping-so-much-5-reasons-behind-its-worst-month-since-2022/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 09:43 ET",
-        "pub_ts": 1795704192.0
       }
     ],
     "CRWD": [
@@ -2678,6 +2678,13 @@
     ],
     "ORCL": [
       {
+        "title": "Oracle Stock Dipped Under $100 as Banks Try to Unload Its Data-Center Loans",
+        "url": "https://247wallst.com/investing/2026/11/26/oracle-stock-dipped-under-100-as-banks-try-to-unload-its-data-center-loans/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:27 ET",
+        "pub_ts": 1795710442.0
+      },
+      {
         "title": "Brazil's Data Center Market: Strategic Investment Analysis and Growth Opportunities (2026-2031) with Profiles of Prominent Operators and Infrastructure Providers",
         "url": "https://finance.yahoo.com/technology/articles/brazils-data-center-market-strategic-140400060.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2704,13 +2711,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 08:00 ET",
         "pub_ts": 1795698006.0
-      },
-      {
-        "title": "Tepper Trims Alphabet by ~46% and Dumps Broadcom & AMD While Backing Micron and Oracle",
-        "url": "https://247wallst.com/investing/2026/11/26/tepper-trims-alphabet-by-46-and-dumps-broadcom-amd-while-backing-micron-and-oracle/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 07:15 ET",
-        "pub_ts": 1795695305.0
       }
     ],
     "COIN": [
@@ -3338,12 +3338,12 @@
     "SKHY": 1795711113.6742878,
     "WDC": 1795711113.6742878,
     "STX": 1795711113.6742878,
-    "MSTR": 1795709654.9171453,
+    "MSTR": 1795711216.1780229,
     "SNDK": 1795711113.6742878,
-    "BTC-USD": 1795709654.9171453,
-    "CRWD": 1795709654.9171453,
-    "ORCL": 1795709654.9171453,
-    "COIN": 1795709654.9171453,
+    "BTC-USD": 1795711216.1780229,
+    "CRWD": 1795711216.1780229,
+    "ORCL": 1795711216.1780229,
+    "COIN": 1795711216.1780229,
     "LLY": 1795710688.9120066,
     "MRNA": 1795710688.9120066,
     "NKE": 1795710688.9120066,
