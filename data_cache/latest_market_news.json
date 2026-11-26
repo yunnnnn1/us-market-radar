@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795701547.266,
-  "updated_at_et": "11-26 08:59 ET",
-  "updated_at_kst": "22:59 KST",
+  "updated_at_ts": 1795701654.52,
+  "updated_at_et": "11-26 09:00 ET",
+  "updated_at_kst": "23:00 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1051,6 +1051,13 @@
     ],
     "AVGO": [
       {
+        "title": "Heading Into FY27: How to Trade Broadcom’s ~$115B AI Target Against Nvidia’s Multiple Reset",
+        "url": "https://247wallst.com/investing/2026/11/26/heading-into-fy27-how-to-trade-broadcoms-115b-ai-target-against-nvidias-multiple-reset/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 08:45 ET",
+        "pub_ts": 1795700733.0
+      },
+      {
         "title": "Tepper Trims Alphabet by ~46% and Dumps Broadcom & AMD While Backing Micron and Oracle",
         "url": "https://247wallst.com/investing/2026/11/26/tepper-trims-alphabet-by-46-and-dumps-broadcom-amd-while-backing-micron-and-oracle/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1077,13 +1084,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 06:02 ET",
         "pub_ts": 1795690978.0
-      },
-      {
-        "title": "3 AI Infrastructure Stocks With Revenue Growth Up To 168%",
-        "url": "https://finance.yahoo.com/technology/ai/articles/3-ai-infrastructure-stocks-revenue-100924358.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 05:09 ET",
-        "pub_ts": 1795687764.0
       }
     ],
     "AMAT": [
@@ -1169,6 +1169,13 @@
         "pub_ts": 1795694400.0
       },
       {
+        "title": "A Magnificent Seven Stock Has a Surprising Path to New Highs",
+        "url": "https://247wallst.com/investing/2026/11/26/a-magnificent-seven-stock-has-a-surprising-path-to-new-highs/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 08:38 ET",
+        "pub_ts": 1795700312.0
+      },
+      {
         "title": "Will Anthropic’s Float Tripling by February Sink a Stock Already Below Its IPO Price?",
         "url": "https://www.tikr.com/blog/will-anthropics-float-tripling-by-february-sink-a-stock-already-below-its-ipo-price?ref=yahoofinance&tlnk=yf-261126-rh7435mm&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1176,25 +1183,18 @@
         "pub_ts": 1795698151.0
       },
       {
+        "title": "3 Medical Info Systems Stocks to Watch as AI Transforms Healthcare",
+        "url": "https://finance.yahoo.com/healthcare/articles/3-medical-systems-stocks-watch-124100806.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 07:41 ET",
+        "pub_ts": 1795696860.0
+      },
+      {
         "title": "Tepper Trims Alphabet by ~46% and Dumps Broadcom & AMD While Backing Micron and Oracle",
         "url": "https://247wallst.com/investing/2026/11/26/tepper-trims-alphabet-by-46-and-dumps-broadcom-amd-while-backing-micron-and-oracle/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-26 07:15 ET",
         "pub_ts": 1795695305.0
-      },
-      {
-        "title": "UBS’s $425 Target Says Broadcom’s Selloff Went Too Far",
-        "url": "https://www.tikr.com/blog/ubss-425-target-says-broadcoms-selloff-went-too-far?ref=yahoofinance&tlnk=yf-261126-xrf8pwvw&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:51 ET",
-        "pub_ts": 1795693883.0
-      },
-      {
-        "title": "iShares MSCI ACWI (ACWI) Adds Apple and Nvidia on Tuesday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-msci-acwi-acwi-adds-110448380.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:04 ET",
-        "pub_ts": 1795691088.0
       }
     ],
     "MSFT": [
@@ -1236,6 +1236,13 @@
     ],
     "AAPL": [
       {
+        "title": "Hold $500,000 of Apple in an IRA and Your Kids Inherit a Tax Bill on Every Dollar. Hold the Same Shares in a Brokerage Account and They Can Sell the Day After You Die and Owe Nothing",
+        "url": "https://247wallst.com/personal-finance/2026/11/26/hold-500000-of-apple-in-an-ira-and-your-kids-inherit-a-tax-bill-on-every-dollar-hold-the-same-shares-in-a-brokerage-account-and-they-can-sell-the-day-after-you-die-and-owe-nothing/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 08:41 ET",
+        "pub_ts": 1795700514.0
+      },
+      {
         "title": "An Apple Executive Just Filed to Sell $19 Million of Apple Stock With Shares a Hair Below Their Record",
         "url": "https://247wallst.com/investing/2026/11/26/an-apple-executive-just-filed-to-sell-19-million-of-apple-stock-with-shares-a-hair-below-their-record/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1262,13 +1269,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 06:05 ET",
         "pub_ts": 1795691124.0
-      },
-      {
-        "title": "ProShares Ultra QQQ (QLD) Sells Apple and Nvidia on Tuesday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/proshares-ultra-qqq-qld-sells-110520288.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:05 ET",
-        "pub_ts": 1795691120.0
       }
     ],
     "PLTR": [
@@ -1347,6 +1347,13 @@
     ],
     "AMZN": [
       {
+        "title": "A Magnificent Seven Stock Has a Surprising Path to New Highs",
+        "url": "https://247wallst.com/investing/2026/11/26/a-magnificent-seven-stock-has-a-surprising-path-to-new-highs/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 08:38 ET",
+        "pub_ts": 1795700312.0
+      },
+      {
         "title": "Does Black Friday Ever Move Amazon Stock?",
         "url": "https://www.trefis.com/stock/amzn/articles/629188/does-black-friday-ever-move-amazon-stock/2026-11-26?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1373,13 +1380,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 23:28 ET",
         "pub_ts": 1795667280.0
-      },
-      {
-        "title": "Will Anthropic’s Float Tripling by February Sink a Stock Already Below Its IPO Price?",
-        "url": "https://www.tikr.com/blog/will-anthropics-float-tripling-by-february-sink-a-stock-already-below-its-ipo-price?ref=yahoofinance&tlnk=yf-261126-rh7435mm&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 08:02 ET",
-        "pub_ts": 1795698151.0
       }
     ],
     "CRWV": [
@@ -3197,18 +3197,18 @@
     ],
     "ANT": [
       {
+        "title": "Dow Jones Futures Rise With U.S. Markets Shut; Look For This Bullish Signal",
+        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise-with.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 08:56 ET",
+        "pub_ts": 1795701416.0
+      },
+      {
         "title": "Is Anthropic Joining the S&P 500? Here's What Investors Need to Know.",
         "url": "https://www.fool.com/investing/2026/11/26/is-anthropic-joining-sp-500-what-investors-need-to-know/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-26 08:23 ET",
         "pub_ts": 1795699382.0
-      },
-      {
-        "title": "Dow Jones Futures Rise After Nasdaq Slashes Losses In Wild Market Ride",
-        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise-after.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 08:22 ET",
-        "pub_ts": 1795699324.0
       },
       {
         "title": "Will Anthropic’s Float Tripling by February Sink a Stock Already Below Its IPO Price?",
@@ -3297,27 +3297,27 @@
     "SOXS": 1795701342.187749,
     "NVDA": 1795701342.187749,
     "AMD": 1795701342.187749,
-    "ASML": 1795700109.0107005,
-    "QCOM": 1795700109.0107005,
-    "AVGO": 1795700109.0107005,
-    "AMAT": 1795700109.0107005,
-    "META": 1795700109.0107005,
-    "GOOGL": 1795700109.0107005,
-    "MSFT": 1795700109.0107005,
-    "AAPL": 1795700109.0107005,
-    "PLTR": 1795700109.0107005,
-    "NOW": 1795700109.0107005,
-    "AMZN": 1795700109.0107005,
-    "CRWV": 1795700109.0107005,
-    "NBIS": 1795700109.0107005,
-    "APLD": 1795700109.0107005,
-    "VST": 1795700109.0107005,
-    "BE": 1795700109.0107005,
-    "CRDO": 1795700109.0107005,
-    "COHR": 1795700109.0107005,
-    "MRVL": 1795700109.0107005,
+    "ASML": 1795701654.5202398,
+    "QCOM": 1795701654.5202398,
+    "AVGO": 1795701654.5202398,
+    "AMAT": 1795701654.5202398,
+    "META": 1795701654.5202398,
+    "GOOGL": 1795701654.5202398,
+    "MSFT": 1795701654.5202398,
+    "AAPL": 1795701654.5202398,
+    "PLTR": 1795701654.5202398,
+    "NOW": 1795701654.5202398,
+    "AMZN": 1795701654.5202398,
+    "CRWV": 1795701654.5202398,
+    "NBIS": 1795701654.5202398,
+    "APLD": 1795701654.5202398,
+    "VST": 1795701654.5202398,
+    "BE": 1795701654.5202398,
+    "CRDO": 1795701654.5202398,
+    "COHR": 1795701654.5202398,
+    "MRVL": 1795701654.5202398,
     "LITE": 1795700212.5610683,
-    "AAOI": 1795700109.0107005,
+    "AAOI": 1795701654.5202398,
     "SPCX": 1795700212.5610683,
     "ASTS": 1795700212.5610683,
     "AXTI": 1795700212.5610683,
@@ -3350,15 +3350,15 @@
     "NKE": 1795701342.187749,
     "MCD": 1795701342.187749,
     "PEP": 1795701342.187749,
-    "XOM": 1795700109.0107005,
+    "XOM": 1795701654.5202398,
     "JPM": 1795701342.187749,
-    "WMT": 1795700109.0107005,
+    "WMT": 1795701654.5202398,
     "V": 1795701342.187749,
-    "CAT": 1795700109.0107005,
+    "CAT": 1795701654.5202398,
     "FN": 1795700212.5610683,
     "GLW": 1795700212.5610683,
-    "ANT": 1795700109.0107005,
-    "XAUUSD": 1795700109.0107005,
+    "ANT": 1795701654.5202398,
+    "XAUUSD": 1795701654.5202398,
     "KOSPI": 1795701342.187749
   },
   "opex_shield": {
