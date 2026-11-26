@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795720663.815,
-  "updated_at_et": "11-26 14:17 ET",
-  "updated_at_kst": "04:17 KST",
+  "updated_at_ts": 1795720761.794,
+  "updated_at_et": "11-26 14:19 ET",
+  "updated_at_kst": "04:19 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1198,6 +1198,13 @@
     ],
     "MSFT": [
       {
+        "title": "Microsoft Stocks Slip 1.25% While Nadella Backs Cheaper In-House AI Models",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stocks-slip-1-25-184200035.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 13:42 ET",
+        "pub_ts": 1795718520.0
+      },
+      {
         "title": "Can NICE (TASE:NICE) Support A Reasonable Price On Earnings?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/nice-tase-nice-support-reasonable-181420159.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1212,28 +1219,28 @@
         "pub_ts": 1795703040.0
       },
       {
+        "title": "David Tepper, Cathie Wood and 4 Other Famous Investors Own Nvidia. Here’s Who Bought Recently",
+        "url": "https://www.tikr.com/blog/david-tepper-cathie-wood-and-4-other-famous-investors-own-nvidia-heres-who-bought-recently?ref=yahoofinance&tlnk=yf-261126-8957xqr5&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 13:12 ET",
+        "pub_ts": 1795716770.0
+      },
+      {
         "title": "Stanley Druckenmiller, Bill Ackman and 7 Other Famous Investors Own Amazon. Here’s Who Bought and Sold Recently",
         "url": "https://www.tikr.com/blog/stanley-druckenmiller-bill-ackman-and-7-other-famous-investors-own-amazon-heres-who-bought-and-sold-recently?ref=yahoofinance&tlnk=yf-261126-2mffj2wm&.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-26 13:11 ET",
         "pub_ts": 1795716673.0
-      },
-      {
-        "title": "What Does Pinterest (PINS) Pay Overhaul Mean For Its Takeover Talk And Ad Push?",
-        "url": "https://finance.yahoo.com/media-advertising/articles/does-pinterest-pins-pay-overhaul-171447901.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 12:14 ET",
-        "pub_ts": 1795713287.0
-      },
-      {
-        "title": "Europe Cloud Computing Market Surges to $ 550.42 billion at a CAGR 11.0% by 2030 | Report by MarketsandMarkets™",
-        "url": "https://finance.yahoo.com/technology/articles/europe-cloud-computing-market-surges-150000346.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 10:00 ET",
-        "pub_ts": 1795705200.0
       }
     ],
     "AAPL": [
+      {
+        "title": "Apple Stocks Rise as AI Selloff Spares the iPhone Maker",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-stocks-rise-ai-selloff-190038273.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 14:00 ET",
+        "pub_ts": 1795719638.0
+      },
       {
         "title": "Apple Removes Talkie From App Store After Reports of Inappropriate AI Messages",
         "url": "https://finance.yahoo.com/technology/ai/articles/apple-removes-talkie-app-store-180937483.html?.tsrc=rss",
@@ -1261,13 +1268,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 09:21 ET",
         "pub_ts": 1795702860.0
-      },
-      {
-        "title": "Global Wearable Healthcare Devices Market Report 2026 | Capitalize on 24.9% CAGR Through 2030 as Apple, Abbott, Medtronic and Dexcom Scale AI and Remote Monitoring",
-        "url": "https://finance.yahoo.com/healthcare/articles/global-wearable-healthcare-devices-market-141800552.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 09:18 ET",
-        "pub_ts": 1795702680.0
       }
     ],
     "PLTR": [
@@ -3296,27 +3296,27 @@
     "SOXS": 1795720663.8153572,
     "NVDA": 1795720663.8153572,
     "AMD": 1795720663.8153572,
-    "ASML": 1795719206.3475246,
-    "QCOM": 1795719206.3475246,
-    "AVGO": 1795719206.3475246,
-    "AMAT": 1795719206.3475246,
-    "META": 1795719206.3475246,
-    "GOOGL": 1795719206.3475246,
-    "MSFT": 1795719206.3475246,
-    "AAPL": 1795719206.3475246,
-    "PLTR": 1795719206.3475246,
-    "NOW": 1795719206.3475246,
-    "AMZN": 1795719206.3475246,
-    "CRWV": 1795719206.3475246,
-    "NBIS": 1795719206.3475246,
-    "APLD": 1795719206.3475246,
-    "VST": 1795719206.3475246,
-    "BE": 1795719206.3475246,
-    "CRDO": 1795719206.3475246,
-    "COHR": 1795719206.3475246,
-    "MRVL": 1795719206.3475246,
+    "ASML": 1795720761.7937882,
+    "QCOM": 1795720761.7937882,
+    "AVGO": 1795720761.7937882,
+    "AMAT": 1795720761.7937882,
+    "META": 1795720761.7937882,
+    "GOOGL": 1795720761.7937882,
+    "MSFT": 1795720761.7937882,
+    "AAPL": 1795720761.7937882,
+    "PLTR": 1795720761.7937882,
+    "NOW": 1795720761.7937882,
+    "AMZN": 1795720761.7937882,
+    "CRWV": 1795720761.7937882,
+    "NBIS": 1795720761.7937882,
+    "APLD": 1795720761.7937882,
+    "VST": 1795720761.7937882,
+    "BE": 1795720761.7937882,
+    "CRDO": 1795720761.7937882,
+    "COHR": 1795720761.7937882,
+    "MRVL": 1795720761.7937882,
     "LITE": 1795720275.0311432,
-    "AAOI": 1795719206.3475246,
+    "AAOI": 1795720761.7937882,
     "SPCX": 1795720275.0311432,
     "ASTS": 1795720275.0311432,
     "AXTI": 1795720275.0311432,
@@ -3346,13 +3346,13 @@
     "COIN": 1795720663.8153572,
     "LLY": 1795720663.8153572,
     "MRNA": 1795720663.8153572,
-    "NKE": 1795719206.3475246,
-    "MCD": 1795719206.3475246,
-    "PEP": 1795719206.3475246,
+    "NKE": 1795720761.7937882,
+    "MCD": 1795720761.7937882,
+    "PEP": 1795720761.7937882,
     "XOM": 1795719303.3650284,
-    "JPM": 1795719206.3475246,
+    "JPM": 1795720761.7937882,
     "WMT": 1795719303.3650284,
-    "V": 1795719206.3475246,
+    "V": 1795720761.7937882,
     "CAT": 1795719303.3650284,
     "FN": 1795720275.0311432,
     "GLW": 1795720275.0311432,
