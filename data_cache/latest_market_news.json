@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795683136.05,
-  "updated_at_et": "11-26 03:52 ET",
-  "updated_at_kst": "17:52 KST",
+  "updated_at_ts": 1795683237.107,
+  "updated_at_et": "11-26 03:53 ET",
+  "updated_at_kst": "17:53 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1791,6 +1791,13 @@
     ],
     "ASTS": [
       {
+        "title": "SPCX Wins Million-Satellite Nod And Retail Attention — But ASTS Leads Space Stocks Into Thanksgiving",
+        "url": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-million-satellite-nod-asts-leads-rklb-lunr-bksy-thanksgiving/cNbxLqbR9ZV?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 03:25 ET",
+        "pub_ts": 1795681559.0
+      },
+      {
         "title": "AST SpaceMobile (ASTS) Stages Impressive Comeback From Record Low",
         "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-asts-stages-impressive-060124396.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1817,13 +1824,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 04:02 ET",
         "pub_ts": 1795597322.0
-      },
-      {
-        "title": "ASTS Stock Eyes Worst Month Since 2024: Bulls Cheer Director’s Dip Buy And Bet On A Launch-Fueled Comeback",
-        "url": "https://stocktwits.com/news-articles/markets/equity/asts-stock-bulls-director-dip-buy-bet-on-launch-fueled-comeback/cNbHb6dR9lO?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 22:41 ET",
-        "pub_ts": 1795578106.0
       }
     ],
     "AXTI": [
@@ -1902,6 +1902,13 @@
     ],
     "LUNR": [
       {
+        "title": "SPCX Wins Million-Satellite Nod And Retail Attention — But ASTS Leads Space Stocks Into Thanksgiving",
+        "url": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-million-satellite-nod-asts-leads-rklb-lunr-bksy-thanksgiving/cNbxLqbR9ZV?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 03:25 ET",
+        "pub_ts": 1795681559.0
+      },
+      {
         "title": "NASA Is Handing Out Moon Contracts Again. Intuitive Machines, Firefly, and Redwire All Got Paid. Only 1 Has the Balance Sheet to Keep Winning.",
         "url": "https://www.fool.com/investing/2026/11/23/nasa-is-handing-out-moon-contracts-again-intuitive-machines-firefly-and-redwire-all-got-paid-only-1-has-the-balance-sheet-to-keep-winning/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1928,13 +1935,6 @@
         "source": "Yahoo Finance",
         "time": "11-21 07:00 ET",
         "pub_ts": 1795262400.0
-      },
-      {
-        "title": "Intuitive Machines vs. Rocket Lab: Which Space Stock Is a Better Buy for 2027?",
-        "url": "https://www.fool.com/coverage/better-buy/2026/11/20/intuitive-machines-vs-rocket-lab-which-space-stock-is-a-better-buy-for-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-20 13:20 ET",
-        "pub_ts": 1795198803.0
       }
     ],
     "TSLA": [
@@ -2423,8 +2423,8 @@
         "title": "Asian stocks stabilise after tech rout",
         "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-enjoy-another-bounce-023024729.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 02:11 ET",
-        "pub_ts": 1795677102.0
+        "time": "11-26 03:26 ET",
+        "pub_ts": 1795681619.0
       },
       {
         "title": "MU, SNDK, SKHY Jump As Nvidia Tests Kioxia Memory Fix — Analyst Presses Memory Giants For ‘Massive’ Buybacks",
@@ -2642,6 +2642,13 @@
     ],
     "CRWD": [
       {
+        "title": "Nvidia Wins Back Wall Street Backing As Jensen Huang Returns; CRWD, LI Stocks Score Upgrades While DKNG, AMBA Face Pressure",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nvda-jensen-huang-return-stock-upgrades-crwd-li-amba-dkng/cNbxi4aR9ZF?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 03:43 ET",
+        "pub_ts": 1795682592.0
+      },
+      {
         "title": "Bridgewater Sees 1-in-3 Odds of a Destabilizing Cyberattack. CrowdStrike’s Workload Is Already “Up 50%”",
         "url": "https://www.tikr.com/blog/bridgewater-sees-1-in-3-odds-of-a-destabilizing-cyberattack-crowdstrikes-workload-is-already-up-50?ref=yahoofinance&tlnk=yf-261125-gjg8qh7p&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2668,13 +2675,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 08:05 ET",
         "pub_ts": 1795611924.0
-      },
-      {
-        "title": "CrowdStrike to Participate in Upcoming Investor Conferences",
-        "url": "https://finance.yahoo.com/technology/articles/crowdstrike-participate-upcoming-investor-conferences-130000206.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:00 ET",
-        "pub_ts": 1795611600.0
       }
     ],
     "ORCL": [
@@ -3319,32 +3319,32 @@
     "LITE": 1795682315.5160306,
     "AAOI": 1795682214.2205687,
     "SPCX": 1795682315.5160306,
-    "ASTS": 1795681698.2501345,
+    "ASTS": 1795683237.1074305,
     "AXTI": 1795682315.5160306,
-    "NASA": 1795681698.2501345,
-    "LUNR": 1795681698.2501345,
-    "TSLA": 1795681698.2501345,
-    "AXP": 1795681698.2501345,
-    "RKLB": 1795681698.2501345,
-    "KO": 1795681698.2501345,
-    "FLY": 1795681698.2501345,
-    "INTC": 1795681698.2501345,
-    "VRT": 1795681698.2501345,
-    "HPE": 1795681698.2501345,
-    "DELL": 1795681698.2501345,
-    "OKLO": 1795681698.2501345,
-    "CEG": 1795681698.2501345,
-    "FPS": 1795681698.2501345,
-    "MU": 1795681698.2501345,
-    "SKHY": 1795681698.2501345,
-    "WDC": 1795681698.2501345,
-    "STX": 1795681698.2501345,
-    "MSTR": 1795681698.2501345,
-    "SNDK": 1795681698.2501345,
-    "BTC-USD": 1795681698.2501345,
-    "CRWD": 1795681698.2501345,
-    "ORCL": 1795681698.2501345,
-    "COIN": 1795681698.2501345,
+    "NASA": 1795683237.1074305,
+    "LUNR": 1795683237.1074305,
+    "TSLA": 1795683237.1074305,
+    "AXP": 1795683237.1074305,
+    "RKLB": 1795683237.1074305,
+    "KO": 1795683237.1074305,
+    "FLY": 1795683237.1074305,
+    "INTC": 1795683237.1074305,
+    "VRT": 1795683237.1074305,
+    "HPE": 1795683237.1074305,
+    "DELL": 1795683237.1074305,
+    "OKLO": 1795683237.1074305,
+    "CEG": 1795683237.1074305,
+    "FPS": 1795683237.1074305,
+    "MU": 1795683237.1074305,
+    "SKHY": 1795683237.1074305,
+    "WDC": 1795683237.1074305,
+    "STX": 1795683237.1074305,
+    "MSTR": 1795683237.1074305,
+    "SNDK": 1795683237.1074305,
+    "BTC-USD": 1795683237.1074305,
+    "CRWD": 1795683237.1074305,
+    "ORCL": 1795683237.1074305,
+    "COIN": 1795683237.1074305,
     "LLY": 1795681907.5100489,
     "MRNA": 1795681907.5100489,
     "NKE": 1795681907.5100489,
