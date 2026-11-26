@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795704356.22,
-  "updated_at_et": "11-26 09:45 ET",
-  "updated_at_kst": "23:45 KST",
+  "updated_at_ts": 1795704458.355,
+  "updated_at_et": "11-26 09:47 ET",
+  "updated_at_kst": "23:47 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -910,32 +910,32 @@
         "pub_ts": 1795701600.0
       },
       {
-        "title": "Jensen Huang 'absolutely could be fired again,' legal expert says",
-        "url": "https://finance.yahoo.com/video/jensen-huang-absolutely-could-fired-130000374.html?.tsrc=rss",
+        "title": "President Donald Trump Considers Jensen Huang's Return to Nvidia a \"Great Decision,\" but It Doesn't Resolve a Critical Problem",
+        "url": "https://www.fool.com/investing/2026/11/26/donald-trump-considers-jensen-huang-return-nvidia-great-decision-doesnt-resolve-critical-problem/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 08:00 ET",
-        "pub_ts": 1795698000.0
+        "time": "11-26 09:26 ET",
+        "pub_ts": 1795703161.0
       },
       {
-        "title": "Heading Into FY27: How to Trade Broadcom’s ~$115B AI Target Against Nvidia’s Multiple Reset",
-        "url": "https://247wallst.com/investing/2026/11/26/heading-into-fy27-how-to-trade-broadcoms-115b-ai-target-against-nvidias-multiple-reset/?.tsrc=rss",
+        "title": "Nvidia’s Reliance on Huang Could Now Hurt Its Credit Rating",
+        "url": "https://247wallst.com/investing/2026/11/26/nvidias-reliance-on-huang-could-now-hurt-its-credit-rating/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 08:45 ET",
-        "pub_ts": 1795700733.0
+        "time": "11-26 09:17 ET",
+        "pub_ts": 1795702648.0
       },
       {
-        "title": "New U.S. Chip Rule Is Now Hitting AI Data-Center Loans, Not Just Nvidia Chips",
-        "url": "https://247wallst.com/investing/2026/11/26/new-u-s-chip-rule-is-now-hitting-ai-data-center-loans-not-just-nvidia-chips/?.tsrc=rss",
+        "title": "Jensen Huang is back as the chief at Nvidia",
+        "url": "https://www.digitaltrends.com/computing/jensen-huang-is-back-as-the-chief-at-nvidia/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 08:28 ET",
-        "pub_ts": 1795699709.0
+        "time": "11-26 09:16 ET",
+        "pub_ts": 1795702619.0
       },
       {
-        "title": "Trump Is Hiking Tariffs Again. Here Are the New Tariff Rates on 14 Countries",
-        "url": "https://247wallst.com/investing/2026/11/26/trump-is-hiking-tariffs-again-here-are-the-new-tariff-rates-on-14-countries/?.tsrc=rss",
+        "title": "Michael Burry Makes Surprising Pivot on Stock Market",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-makes-surprising-pivot-141451027.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 08:17 ET",
-        "pub_ts": 1795699058.0
+        "time": "11-26 09:14 ET",
+        "pub_ts": 1795702491.0
       }
     ],
     "AMD": [
@@ -2901,6 +2901,13 @@
     ],
     "PEP": [
       {
+        "title": "A $1,500,000 Portfolio in McCormick, PepsiCo and Bristol Myers Squibb Pays $61,489 a Year in Dividends. Here’s What Happens if One Cuts",
+        "url": "https://www.tikr.com/blog/a-1500000-portfolio-in-mccormick-pepsico-and-bristol-myers-squibb-pays-63471-a-year-in-dividends-heres-what-happens-if-one-cuts?ref=yahoofinancedividend&tlnk=yf-261126-cvcr78vq&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 09:20 ET",
+        "pub_ts": 1795702840.0
+      },
+      {
         "title": "Forget the Market's Hottest Stocks. This Boring Dividend Stock Is Where I'd Put $1,000 Before 2027.",
         "url": "https://www.fool.com/investing/2026/11/26/forget-the-markets-hottest-stocks-this-boring-dividend-stock-is-where-id-put-1000-before-2027/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2927,13 +2934,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 14:47 ET",
         "pub_ts": 1795636025.0
-      },
-      {
-        "title": "Does PepsiCo (PEP) Change Its Long Term Case With Its Efficiency Reset?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/does-pepsico-pep-change-long-221530250.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 17:15 ET",
-        "pub_ts": 1795558530.0
       }
     ],
     "XOM": [
@@ -3280,23 +3280,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795702896.9191728,
-    "SOXL": 1795702896.9191728,
-    "SPY": 1795702896.9191728,
-    "DIA": 1795702896.9191728,
-    "SOXX": 1795702896.9191728,
-    "QQQ": 1795702896.9191728,
-    "SMH": 1795702896.9191728,
-    "IWM": 1795702896.9191728,
-    "IGV": 1795702896.9191728,
-    "TLT": 1795702896.9191728,
-    "GLD": 1795702896.9191728,
-    "SQQQ": 1795702896.9191728,
-    "TSM": 1795702896.9191728,
-    "VIXY": 1795702896.9191728,
-    "SOXS": 1795702896.9191728,
-    "NVDA": 1795702896.9191728,
-    "AMD": 1795702896.9191728,
+    "KORU": 1795704458.3549743,
+    "SOXL": 1795704458.3549743,
+    "SPY": 1795704458.3549743,
+    "DIA": 1795704458.3549743,
+    "SOXX": 1795704458.3549743,
+    "QQQ": 1795704458.3549743,
+    "SMH": 1795704458.3549743,
+    "IWM": 1795704458.3549743,
+    "IGV": 1795704458.3549743,
+    "TLT": 1795704458.3549743,
+    "GLD": 1795704458.3549743,
+    "SQQQ": 1795704458.3549743,
+    "TSM": 1795704458.3549743,
+    "VIXY": 1795704458.3549743,
+    "SOXS": 1795704458.3549743,
+    "NVDA": 1795704458.3549743,
+    "AMD": 1795704458.3549743,
     "ASML": 1795703219.0616622,
     "QCOM": 1795703219.0616622,
     "AVGO": 1795703219.0616622,
@@ -3345,21 +3345,21 @@
     "CRWD": 1795703424.9093442,
     "ORCL": 1795703424.9093442,
     "COIN": 1795703424.9093442,
-    "LLY": 1795702896.9191728,
-    "MRNA": 1795702896.9191728,
-    "NKE": 1795702896.9191728,
-    "MCD": 1795702896.9191728,
-    "PEP": 1795702896.9191728,
+    "LLY": 1795704458.3549743,
+    "MRNA": 1795704458.3549743,
+    "NKE": 1795704458.3549743,
+    "MCD": 1795704458.3549743,
+    "PEP": 1795704458.3549743,
     "XOM": 1795703219.0616622,
-    "JPM": 1795702896.9191728,
+    "JPM": 1795704458.3549743,
     "WMT": 1795703219.0616622,
-    "V": 1795702896.9191728,
+    "V": 1795704458.3549743,
     "CAT": 1795703219.0616622,
     "FN": 1795703321.49975,
     "GLW": 1795703321.49975,
     "ANT": 1795703219.0616622,
     "XAUUSD": 1795703219.0616622,
-    "KOSPI": 1795702896.9191728
+    "KOSPI": 1795704458.3549743
   },
   "opex_shield": {
     "date": "2026-11-26",
