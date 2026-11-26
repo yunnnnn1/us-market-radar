@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795717203.418,
-  "updated_at_et": "11-26 13:20 ET",
-  "updated_at_kst": "03:20 KST",
+  "updated_at_ts": 1795717542.858,
+  "updated_at_et": "11-26 13:25 ET",
+  "updated_at_kst": "03:25 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -613,6 +613,13 @@
         "pub_ts": 1795683880.0
       },
       {
+        "title": "How to Turn Small-Cap Volatility Into a 14% Yield with Monthly Payouts",
+        "url": "https://247wallst.com/investing/etf/2026/11/26/how-to-turn-small-cap-volatility-into-a-14-yield-with-monthly-payouts/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 12:15 ET",
+        "pub_ts": 1795713316.0
+      },
+      {
         "title": "iShares Russell 2000 (IWM) Sells $3.0 Million More Glaukos on Tuesday",
         "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-2000-iwm-sells-110425571.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -632,13 +639,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:04 ET",
         "pub_ts": 1795604665.0
-      },
-      {
-        "title": "Harbor Arena Structured Income ETF (YLDS): Autocallable Income in an ETF Wrapper",
-        "url": "http://www.etf.com/sections/news/harbor-arena-structured-income-etf-ylds-autocallable-income-etf-wrapper?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 14:09 ET",
-        "pub_ts": 1795547398.0
       }
     ],
     "IGV": [
@@ -902,39 +902,39 @@
     ],
     "NVDA": [
       {
-        "title": "Stock-Split Watch: 3 Industrial Stocks That Could Split in 2027",
-        "url": "https://www.fool.com/investing/2026/11/26/stock-split-watch-3-industrial-stocks-that-could-split-in-2027/?.tsrc=rss",
+        "title": "Nvidia Stock Has Found Its Next Big Catalyst, Making the Stock a Once-in-a-Decade Buying Opportunity.",
+        "url": "https://www.fool.com/investing/2026/11/26/nvidia-stock-has-found-its-next-big-catalyst-making-the-stock-a-once-in-a-decade-buying-opportunity/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 12:05 ET",
-        "pub_ts": 1795712702.0
+        "time": "11-26 13:17 ET",
+        "pub_ts": 1795717022.0
       },
       {
-        "title": "Did Arm CEO Rene Haas Dodge a Bullet With Jensen Huang’s Reinstatement at Nvidia?",
-        "url": "https://247wallst.com/investing/2026/11/26/did-arm-ceo-rene-haas-dodge-a-bullet-with-jensen-huangs-reinstatement-at-nvidia/?.tsrc=rss",
+        "title": "Billionaire John Overdeck’s former fund, Two Sigma Raised Its Nvidia Stake 67% to $2.39 Billion",
+        "url": "https://247wallst.com/investing/2026/11/26/billionaire-john-overdecks-former-fund-two-sigma-raised-its-nvidia-stake-67-to-2-39-billion/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 11:49 ET",
-        "pub_ts": 1795711781.0
+        "time": "11-26 13:05 ET",
+        "pub_ts": 1795716339.0
       },
       {
-        "title": "For the Retiree Who Wants the Portfolio to Match Their Faith at 69: 3 ETFs Built Around Values",
-        "url": "https://247wallst.com/investing/etf/2026/11/26/for-the-retiree-who-wants-the-portfolio-to-match-their-faith-at-69-3-etfs-built-around-values/?.tsrc=rss",
+        "title": "Should You Buy Nvidia After Its Sharp Decline? Warren Buffett’s Long-Held Investment Philosophy Provides a Clear Answer",
+        "url": "https://www.fool.com/investing/2026/11/26/should-you-buy-nvidia-warren-buffett-investment-philosophy-provides-a-clear-answer/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 11:23 ET",
-        "pub_ts": 1795710216.0
+        "time": "11-26 12:35 ET",
+        "pub_ts": 1795714502.0
       },
       {
-        "title": "Scott Bessent sends the Fed a stern warning it cannot ignore",
-        "url": "https://www.thestreet.com/fed/scott-bessent-sends-the-fed-a-stern-warning-it-cannot-ignore?.tsrc=rss",
+        "title": "NVIDIA Stocks Fall 3.91% as S&P Puts AA Rating on Downgrade Watch",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stocks-fall-3-91-173102633.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 11:17 ET",
-        "pub_ts": 1795709820.0
+        "time": "11-26 12:31 ET",
+        "pub_ts": 1795714262.0
       },
       {
-        "title": "Cerebras Expands AI Inference Reach: Can It Challenge NVDA & AMD?",
-        "url": "https://finance.yahoo.com/technology/ai/articles/cerebras-expands-ai-inference-reach-161400247.html?.tsrc=rss",
+        "title": "Nvidia faces credit rating review as S&P flags governance concerns",
+        "url": "https://www.proactiveinvestors.com/companies/news/1102544/nvidia-faces-credit-rating-review-as-s-p-flags-governance-concerns-1102544.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 11:14 ET",
-        "pub_ts": 1795709640.0
+        "time": "11-26 12:16 ET",
+        "pub_ts": 1795713360.0
       }
     ],
     "AMD": [
@@ -2530,6 +2530,13 @@
     ],
     "MSTR": [
       {
+        "title": "Why Strategy Can Rebound to $175 in 2027 Even If Bitcoin Stays Below Peak",
+        "url": "https://247wallst.com/investing/2026/11/26/why-strategy-can-rebound-to-175-in-2027-even-if-bitcoin-stays-below-peak/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 12:45 ET",
+        "pub_ts": 1795715154.0
+      },
+      {
         "title": "Circle Is Down 13% in a Week and Just Hit a New 52-Week Low. Is the Selling Overdone?",
         "url": "https://www.tikr.com/blog/circle-is-down-13-in-a-week-and-just-hit-a-new-52-week-low-is-the-selling-overdone?ref=yahoofinance&tlnk=yf-261125-4j456v2q&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2556,13 +2563,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 12:36 ET",
         "pub_ts": 1795628186.0
-      },
-      {
-        "title": "U.S. Physical Therapy’s (USPH) Rally Driven by Record Q2 Results and Hospital Alliances",
-        "url": "https://finance.yahoo.com/healthcare/articles/u-physical-therapy-usph-rally-164634544.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:46 ET",
-        "pub_ts": 1795625194.0
       }
     ],
     "SNDK": [
@@ -2604,6 +2604,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "Why Strategy Can Rebound to $175 in 2027 Even If Bitcoin Stays Below Peak",
+        "url": "https://247wallst.com/investing/2026/11/26/why-strategy-can-rebound-to-175-in-2027-even-if-bitcoin-stays-below-peak/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 12:45 ET",
+        "pub_ts": 1795715154.0
+      },
+      {
         "title": "Galaxy Research Warns Bitcoin Could Fall to $28,200 if June Low Breaks",
         "url": "https://www.cryptoprowl.com/releases/galaxy-research-warns-bitcoin-could-fall-to-28200-if-june-low-breaks-8091?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2630,13 +2637,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 11:09 ET",
         "pub_ts": 1795709365.0
-      },
-      {
-        "title": "Before the bell: gold, oil, and Bitcoin skip the Thanksgiving break",
-        "url": "https://www.thestreet.com/crypto/markets/before-the-bell-gold-oil-and-bitcoin-skip-the-thanksgiving-break-?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 10:50 ET",
-        "pub_ts": 1795708200.0
       }
     ],
     "CRWD": [
@@ -2678,6 +2678,13 @@
     ],
     "ORCL": [
       {
+        "title": "Oracle Stocks Sink 5.13% to 52-Week Low as Default Swaps Hit Record",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-stocks-sink-5-13-171842760.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 12:18 ET",
+        "pub_ts": 1795713522.0
+      },
+      {
         "title": "Oracle Stock Dipped Under $100 as Banks Try to Unload Its Data-Center Loans",
         "url": "https://247wallst.com/investing/2026/11/26/oracle-stock-dipped-under-100-as-banks-try-to-unload-its-data-center-loans/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2704,13 +2711,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 08:41 ET",
         "pub_ts": 1795700460.0
-      },
-      {
-        "title": "Oracle Corporation (ORCL) Is a Trending Stock: Facts to Know Before Betting on It",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-corporation-orcl-trending-stock-130006105.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 08:00 ET",
-        "pub_ts": 1795698006.0
       }
     ],
     "COIN": [
@@ -3279,23 +3279,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795713793.1176853,
-    "SOXL": 1795713793.1176853,
-    "SPY": 1795713793.1176853,
-    "DIA": 1795713793.1176853,
-    "SOXX": 1795713793.1176853,
-    "QQQ": 1795713793.1176853,
-    "SMH": 1795713793.1176853,
-    "IWM": 1795713793.1176853,
-    "IGV": 1795713793.1176853,
-    "TLT": 1795713793.1176853,
-    "GLD": 1795713793.1176853,
-    "SQQQ": 1795713793.1176853,
-    "TSM": 1795713793.1176853,
-    "VIXY": 1795713793.1176853,
-    "SOXS": 1795713793.1176853,
-    "NVDA": 1795713793.1176853,
-    "AMD": 1795713793.1176853,
+    "KORU": 1795717542.8582504,
+    "SOXL": 1795717542.8582504,
+    "SPY": 1795717542.8582504,
+    "DIA": 1795717542.8582504,
+    "SOXX": 1795717542.8582504,
+    "QQQ": 1795717542.8582504,
+    "SMH": 1795717542.8582504,
+    "IWM": 1795717542.8582504,
+    "IGV": 1795717542.8582504,
+    "TLT": 1795717542.8582504,
+    "GLD": 1795717542.8582504,
+    "SQQQ": 1795717542.8582504,
+    "TSM": 1795717542.8582504,
+    "VIXY": 1795717542.8582504,
+    "SOXS": 1795717542.8582504,
+    "NVDA": 1795717542.8582504,
+    "AMD": 1795717542.8582504,
     "ASML": 1795714103.0429132,
     "QCOM": 1795714103.0429132,
     "AVGO": 1795714103.0429132,
@@ -3338,14 +3338,14 @@
     "SKHY": 1795717203.4180288,
     "WDC": 1795717203.4180288,
     "STX": 1795717203.4180288,
-    "MSTR": 1795712758.1758242,
+    "MSTR": 1795717542.8582504,
     "SNDK": 1795717203.4180288,
-    "BTC-USD": 1795712758.1758242,
-    "CRWD": 1795712758.1758242,
-    "ORCL": 1795712758.1758242,
-    "COIN": 1795712758.1758242,
-    "LLY": 1795713793.1176853,
-    "MRNA": 1795713793.1176853,
+    "BTC-USD": 1795717542.8582504,
+    "CRWD": 1795717542.8582504,
+    "ORCL": 1795717542.8582504,
+    "COIN": 1795717542.8582504,
+    "LLY": 1795717542.8582504,
+    "MRNA": 1795717542.8582504,
     "NKE": 1795713793.1176853,
     "MCD": 1795713793.1176853,
     "PEP": 1795713793.1176853,
@@ -3358,7 +3358,7 @@
     "GLW": 1795717203.4180288,
     "ANT": 1795714103.0429132,
     "XAUUSD": 1795714103.0429132,
-    "KOSPI": 1795713793.1176853
+    "KOSPI": 1795717542.8582504
   },
   "opex_shield": {
     "date": "2026-11-26",
