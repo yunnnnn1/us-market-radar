@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795726712.408,
-  "updated_at_et": "11-26 15:58 ET",
-  "updated_at_kst": "05:58 KST",
+  "updated_at_ts": 1795726887.066,
+  "updated_at_et": "11-26 16:01 ET",
+  "updated_at_kst": "06:01 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -902,11 +902,25 @@
     ],
     "NVDA": [
       {
+        "title": "Nvidia halts server shipments to 4 countries just weeks after Jensen Huang’s affair with alleged spy was exposed",
+        "url": "https://nypost.com/2026/11/26/business/nvidia-halts-server-shipments-to-4-southeast-asian-countries-report/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 15:30 ET",
+        "pub_ts": 1795725014.0
+      },
+      {
         "title": "If a Market Correction Is Around the Corner, I'm Making This 1 Easy Move",
         "url": "https://www.fool.com/investing/2026/11/26/if-market-correction-around-corner-making-this-1-easy-move/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-26 15:20 ET",
         "pub_ts": 1795724402.0
+      },
+      {
+        "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+        "url": "https://finance.yahoo.com/technology/articles/nvidia-hits-pause-chip-shipments-200354308.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 15:03 ET",
+        "pub_ts": 1795723434.0
       },
       {
         "title": "Nvidia Stock Has Found Its Next Big Catalyst, Making the Stock a Once-in-a-Decade Buying Opportunity.",
@@ -921,20 +935,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 13:15 ET",
         "pub_ts": 1795716932.0
-      },
-      {
-        "title": "Big News For Nvidia Stock Fans",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/big-news-nvidia-stock-fans-181400521.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 13:14 ET",
-        "pub_ts": 1795716840.0
-      },
-      {
-        "title": "David Tepper, Cathie Wood and 4 Other Famous Investors Own Nvidia. Here’s Who Bought Recently",
-        "url": "https://www.tikr.com/blog/david-tepper-cathie-wood-and-4-other-famous-investors-own-nvidia-heres-who-bought-recently?ref=yahoofinance&tlnk=yf-261126-8957xqr5&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 13:12 ET",
-        "pub_ts": 1795716770.0
       }
     ],
     "AMD": [
@@ -2604,6 +2604,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "Is Bitcoin a Good Investment for Building Wealth After a 50% Drop?",
+        "url": "https://247wallst.com/investing/cryptocurrency/2026/11/26/is-bitcoin-a-good-investment-for-building-wealth-after-a-50-drop/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 15:50 ET",
+        "pub_ts": 1795726217.0
+      },
+      {
         "title": "Bitcoin’s Price Every Thanksgiving Since 2013",
         "url": "https://247wallst.com/investing/cryptocurrency/2026/11/26/bitcoins-price-every-thanksgiving-since-2013/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2630,13 +2637,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 11:37 ET",
         "pub_ts": 1795711020.0
-      },
-      {
-        "title": "Bitcoin Tops $60,000 as Risk Assets Rise in Holiday Trading",
-        "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-tops-60-000-risk-162823539.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 11:28 ET",
-        "pub_ts": 1795710503.0
       }
     ],
     "CRWD": [
@@ -3279,23 +3279,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795725347.4419146,
-    "SOXL": 1795725347.4419146,
-    "SPY": 1795725347.4419146,
-    "DIA": 1795725347.4419146,
-    "SOXX": 1795725347.4419146,
-    "QQQ": 1795725347.4419146,
-    "SMH": 1795725347.4419146,
-    "IWM": 1795725347.4419146,
-    "IGV": 1795725347.4419146,
-    "TLT": 1795725347.4419146,
-    "GLD": 1795725347.4419146,
-    "SQQQ": 1795725347.4419146,
-    "TSM": 1795725347.4419146,
-    "VIXY": 1795725347.4419146,
-    "SOXS": 1795725347.4419146,
-    "NVDA": 1795725347.4419146,
-    "AMD": 1795725347.4419146,
+    "KORU": 1795726887.066239,
+    "SOXL": 1795726887.066239,
+    "SPY": 1795726887.066239,
+    "DIA": 1795726887.066239,
+    "SOXX": 1795726887.066239,
+    "QQQ": 1795726887.066239,
+    "SMH": 1795726887.066239,
+    "IWM": 1795726887.066239,
+    "IGV": 1795726887.066239,
+    "TLT": 1795726887.066239,
+    "GLD": 1795726887.066239,
+    "SQQQ": 1795726887.066239,
+    "TSM": 1795726887.066239,
+    "VIXY": 1795726887.066239,
+    "SOXS": 1795726887.066239,
+    "NVDA": 1795726887.066239,
+    "AMD": 1795726887.066239,
     "ASML": 1795725447.0262222,
     "QCOM": 1795725447.0262222,
     "AVGO": 1795725447.0262222,
@@ -3338,14 +3338,14 @@
     "SKHY": 1795726516.744358,
     "WDC": 1795726516.744358,
     "STX": 1795726516.744358,
-    "MSTR": 1795725347.4419146,
+    "MSTR": 1795726887.066239,
     "SNDK": 1795726516.744358,
-    "BTC-USD": 1795725347.4419146,
-    "CRWD": 1795725347.4419146,
-    "ORCL": 1795725347.4419146,
-    "COIN": 1795725347.4419146,
-    "LLY": 1795725347.4419146,
-    "MRNA": 1795725347.4419146,
+    "BTC-USD": 1795726887.066239,
+    "CRWD": 1795726887.066239,
+    "ORCL": 1795726887.066239,
+    "COIN": 1795726887.066239,
+    "LLY": 1795726887.066239,
+    "MRNA": 1795726887.066239,
     "NKE": 1795725447.0262222,
     "MCD": 1795725447.0262222,
     "PEP": 1795725447.0262222,
@@ -3358,7 +3358,7 @@
     "GLW": 1795726516.744358,
     "ANT": 1795725544.3944855,
     "XAUUSD": 1795725544.3944855,
-    "KOSPI": 1795725347.4419146
+    "KOSPI": 1795726887.066239
   },
   "opex_shield": {
     "date": "2026-11-26",
