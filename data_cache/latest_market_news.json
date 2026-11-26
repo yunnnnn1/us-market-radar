@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795709551.883,
-  "updated_at_et": "11-26 11:12 ET",
-  "updated_at_kst": "01:12 KST",
+  "updated_at_ts": 1795709654.917,
+  "updated_at_et": "11-26 11:14 ET",
+  "updated_at_kst": "01:14 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2604,6 +2604,20 @@
     ],
     "BTC-USD": [
       {
+        "title": "Before the bell: gold, oil, and Bitcoin skip the Thanksgiving break",
+        "url": "https://www.thestreet.com/crypto/markets/before-the-bell-gold-oil-and-bitcoin-skip-the-thanksgiving-break-?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:50 ET",
+        "pub_ts": 1795708200.0
+      },
+      {
+        "title": "Could CleanSpark Actually Climb 286%? Or Is Canaccord Genuity Totally Wrong?",
+        "url": "https://www.tikr.com/blog/could-cleanspark-actually-climb-286-or-is-canaccord-genuity-totally-wrong?ref=yahoofinance&tlnk=yf-261126-9p928vf7&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:18 ET",
+        "pub_ts": 1795706292.0
+      },
+      {
         "title": "What TeraWulf (WULF) Long Term Data Center Contracts Mean For Shareholders",
         "url": "https://finance.yahoo.com/markets/stocks/articles/terawulf-wulf-long-term-data-150921107.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2623,20 +2637,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 09:43 ET",
         "pub_ts": 1795704192.0
-      },
-      {
-        "title": "5 Best Small Cap AI Stocks to Buy for 2027",
-        "url": "https://finance.yahoo.com/technology/ai/articles/5-best-small-cap-ai-144008304.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 09:40 ET",
-        "pub_ts": 1795704008.0
-      },
-      {
-        "title": "Europe's Only Bitcoin ETF Begins Trading In Switzerland",
-        "url": "https://www.cryptoprowl.com/releases/europes-only-bitcoin-etf-begins-trading-in-switzerland-8087?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 09:37 ET",
-        "pub_ts": 1795703820.0
       }
     ],
     "CRWD": [
@@ -3338,12 +3338,12 @@
     "SKHY": 1795709551.8828852,
     "WDC": 1795709551.8828852,
     "STX": 1795709551.8828852,
-    "MSTR": 1795708106.1790764,
+    "MSTR": 1795709654.9171453,
     "SNDK": 1795709551.8828852,
-    "BTC-USD": 1795708106.1790764,
-    "CRWD": 1795708106.1790764,
-    "ORCL": 1795708106.1790764,
-    "COIN": 1795708106.1790764,
+    "BTC-USD": 1795709654.9171453,
+    "CRWD": 1795709654.9171453,
+    "ORCL": 1795709654.9171453,
+    "COIN": 1795709654.9171453,
     "LLY": 1795709142.330208,
     "MRNA": 1795709142.330208,
     "NKE": 1795709142.330208,
