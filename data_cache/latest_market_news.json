@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795652275.81,
-  "updated_at_et": "11-25 19:17 ET",
-  "updated_at_kst": "09:17 KST",
+  "updated_at_ts": 1795652373.51,
+  "updated_at_et": "11-25 19:19 ET",
+  "updated_at_kst": "09:19 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -943,11 +943,25 @@
     ],
     "NVDA": [
       {
+        "title": "S&P 500, Nasdaq End Lower But Dow Rebounds As Traders Rotate Out Of AI — NVDA, SPCX, PANW In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-lower-but-dow-rebounds-as-traders-rotate-out-of-ai-nvda-spcx-panw-in-focus/cNbx21AR9mC?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 19:09 ET",
+        "pub_ts": 1795651790.0
+      },
+      {
         "title": "Dow Jones Futures: Market Goes On Wild Ride. Nasdaq, Nvidia Slash Losses While Anthropic Reverses Higher.",
         "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures%3A-market.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 18:45 ET",
-        "pub_ts": 1795650339.0
+        "time": "11-25 18:56 ET",
+        "pub_ts": 1795650985.0
+      },
+      {
+        "title": "Altimeter’s Brad Gerstner Says Nvidia Was Priced for “Negative Growth for 2028 and 2029.” Wall Street Expects 29%",
+        "url": "https://www.tikr.com/blog/altimeters-brad-gerstner-says-nvidia-was-priced-for-negative-growth-for-2028-and-2029-wall-street-expects-29?ref=yahoofinance&tlnk=yf-261125-3qj6vf95&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 18:39 ET",
+        "pub_ts": 1795649942.0
       },
       {
         "title": "'Big Short' Investor Michael Burry Just Closed His Bet Against the Nasdaq. Here's What Investors Should Do Now",
@@ -962,20 +976,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 18:18 ET",
         "pub_ts": 1795648685.0
-      },
-      {
-        "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/p-considers-nvidia-credit-downgrade-224432360.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 17:44 ET",
-        "pub_ts": 1795646672.0
-      },
-      {
-        "title": "Nvidia settles 8-year-old investor suit for $290M",
-        "url": "https://www.thestreet.com/crypto/artificial-intelligence/nvidia-settles-8-year-old-investor-suit-for-290m?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 17:30 ET",
-        "pub_ts": 1795645800.0
       }
     ],
     "AMD": [
@@ -2793,6 +2793,13 @@
     ],
     "LLY": [
       {
+        "title": "Dow Jones Futures: Market Goes On Wild Ride. Nasdaq, Nvidia Slash Losses While Anthropic Reverses Higher.",
+        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures%3A-market.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 18:56 ET",
+        "pub_ts": 1795650985.0
+      },
+      {
         "title": "Sector Update: Healthcare Stocks Fall Late Afternoon",
         "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-fall-afternoon-205719060.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2819,16 +2826,16 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:07 ET",
         "pub_ts": 1795619228.0
-      },
-      {
-        "title": "Market Chatter: Novo Nordisk and Eli Lilly Prepare New Warning Labels for GLP-1 Drugs Over Eye Condition Risk",
-        "url": "https://finance.yahoo.com/healthcare/articles/market-chatter-novo-nordisk-eli-132230427.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:22 ET",
-        "pub_ts": 1795612950.0
       }
     ],
     "MRNA": [
+      {
+        "title": "What Sent Moderna Stock Higher?",
+        "url": "https://www.trefis.com/stock/mrna/articles/628629/what-sent-moderna-stock-higher/2026-11-25?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 18:36 ET",
+        "pub_ts": 1795649781.0
+      },
       {
         "title": "What Invesco S&P 500 Equal Weight ETF (RSP) Sold: Moderna Leads on Nov. 23",
         "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-p-500-equal-weight-110443601.html?.tsrc=rss",
@@ -2856,13 +2863,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 15:45 ET",
         "pub_ts": 1795639525.0
-      },
-      {
-        "title": "BioMarin (BMRN) Stock Is Up 4.8% Today Without Company News",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/biomarin-bmrn-stock-4-8-191517739.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 14:15 ET",
-        "pub_ts": 1795634117.0
       }
     ],
     "NKE": [
@@ -3320,23 +3320,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795650795.8320944,
-    "SOXL": 1795650795.8320944,
-    "SPY": 1795650795.8320944,
-    "DIA": 1795650795.8320944,
-    "SOXX": 1795650795.8320944,
-    "QQQ": 1795650795.8320944,
-    "SMH": 1795650795.8320944,
-    "IWM": 1795650795.8320944,
-    "IGV": 1795650795.8320944,
-    "TLT": 1795650795.8320944,
-    "GLD": 1795650795.8320944,
-    "SQQQ": 1795650795.8320944,
-    "TSM": 1795650795.8320944,
-    "VIXY": 1795650795.8320944,
-    "SOXS": 1795650795.8320944,
-    "NVDA": 1795650795.8320944,
-    "AMD": 1795650795.8320944,
+    "KORU": 1795652373.5101364,
+    "SOXL": 1795652373.5101364,
+    "SPY": 1795652373.5101364,
+    "DIA": 1795652373.5101364,
+    "SOXX": 1795652373.5101364,
+    "QQQ": 1795652373.5101364,
+    "SMH": 1795652373.5101364,
+    "IWM": 1795652373.5101364,
+    "IGV": 1795652373.5101364,
+    "TLT": 1795652373.5101364,
+    "GLD": 1795652373.5101364,
+    "SQQQ": 1795652373.5101364,
+    "TSM": 1795652373.5101364,
+    "VIXY": 1795652373.5101364,
+    "SOXS": 1795652373.5101364,
+    "NVDA": 1795652373.5101364,
+    "AMD": 1795652373.5101364,
     "ASML": 1795650987.1067276,
     "QCOM": 1795650987.1067276,
     "AVGO": 1795650987.1067276,
@@ -3385,21 +3385,21 @@
     "CRWD": 1795652275.8101263,
     "ORCL": 1795652275.8101263,
     "COIN": 1795652275.8101263,
-    "LLY": 1795650795.8320944,
-    "MRNA": 1795650795.8320944,
-    "NKE": 1795650795.8320944,
-    "MCD": 1795650795.8320944,
-    "PEP": 1795650795.8320944,
+    "LLY": 1795652373.5101364,
+    "MRNA": 1795652373.5101364,
+    "NKE": 1795652373.5101364,
+    "MCD": 1795652373.5101364,
+    "PEP": 1795652373.5101364,
     "XOM": 1795650987.1067276,
-    "JPM": 1795650795.8320944,
+    "JPM": 1795652373.5101364,
     "WMT": 1795650987.1067276,
-    "V": 1795650795.8320944,
+    "V": 1795652373.5101364,
     "CAT": 1795650987.1067276,
     "FN": 1795651082.6820278,
     "GLW": 1795651082.6820278,
     "ANT": 1795650987.1067276,
     "XAUUSD": 1795650987.1067276,
-    "KOSPI": 1795650795.8320944
+    "KOSPI": 1795652373.5101364
   },
   "opex_shield": {
     "date": "2026-11-25",
