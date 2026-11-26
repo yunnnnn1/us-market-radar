@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795714103.043,
-  "updated_at_et": "11-26 12:28 ET",
-  "updated_at_kst": "02:28 KST",
+  "updated_at_ts": 1795717203.418,
+  "updated_at_et": "11-26 13:20 ET",
+  "updated_at_kst": "03:20 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1679,6 +1679,13 @@
     ],
     "LITE": [
       {
+        "title": "Lumentum Surges 55% in a Year: Should You Buy, Sell, or Hold the Stock?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/lumentum-surges-55-buy-sell-162000564.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:20 ET",
+        "pub_ts": 1795710000.0
+      },
+      {
         "title": "Lumentum Sinks 14% in a Week as AI Stocks Slide, but Its CEO Says “We Haven’t Seen Any Slowdown”",
         "url": "https://www.tikr.com/blog/lumentum-sinks-14-in-a-week-as-ai-stocks-slide-but-its-ceo-says-we-havent-seen-any-slowdown?ref=yahoofinance&tlnk=yf-261126-mcfhw988&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1698,13 +1705,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:09 ET",
         "pub_ts": 1795536550.0
-      },
-      {
-        "title": "Applied Optoelectronics Climbs 5% on $2.2 Billion Hyperscaler Supply Deal; Lumentum and Coherent Drop 6%",
-        "url": "https://247wallst.com/investing/2026/11/24/applied-optoelectronics-climbs-5-on-2-2-billion-hyperscaler-supply-deal-lumentum-and-coherent-drop-6/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:58 ET",
-        "pub_ts": 1795532304.0
       },
       {
         "title": "Coherent’s Director Bought $15 Million of Stock as It Plunged 13%",
@@ -1753,6 +1753,20 @@
     ],
     "SPCX": [
       {
+        "title": "Tesla: A SpaceX Merger Could Turn $5,000 Into $10,000",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-spacex-merger-could-turn-174606474.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 12:46 ET",
+        "pub_ts": 1795715166.0
+      },
+      {
+        "title": "Elon Musk didn’t sell a single share in SpaceX’s record $85.7B IPO. Anthropic’s 7 cofounders cashed out $1.96B in theirs",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-didn-t-sell-170000854.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 12:00 ET",
+        "pub_ts": 1795712400.0
+      },
+      {
         "title": "Elon Musk says he’ll gift every US kid 1 of his own SpaceX shares, plus 1 from SpaceX — but there’s a catch to claim",
         "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-says-ll-gift-164000030.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1772,20 +1786,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 10:08 ET",
         "pub_ts": 1795705715.0
-      },
-      {
-        "title": "Elon Musk Says ‘Multiplanetary’ SpaceX Could Be Worth $118 Quintillion. Yes, Quintillion",
-        "url": "https://decrypt.co/384043/elon-musk-says-multiplanetary-spacex-could-be-worth-118-quintillion-yes-quintillion?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 09:38 ET",
-        "pub_ts": 1795703935.0
-      },
-      {
-        "title": "SpaceX Gets the First U.S. Approval for Data Centers in Space",
-        "url": "https://247wallst.com/investing/2026/11/26/spacex-gets-the-first-u-s-approval-for-data-centers-in-space/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 09:28 ET",
-        "pub_ts": 1795703287.0
       }
     ],
     "ASTS": [
@@ -1938,6 +1938,13 @@
     ],
     "TSLA": [
       {
+        "title": "Tesla: A SpaceX Merger Could Turn $5,000 Into $10,000",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-spacex-merger-could-turn-174606474.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 12:46 ET",
+        "pub_ts": 1795715166.0
+      },
+      {
         "title": "XPeng Raises Stakes for Tesla Stock Investors' Big Growth Bet",
         "url": "https://finance.yahoo.com/markets/stocks/articles/xpeng-raises-stakes-tesla-stock-163240808.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1964,13 +1971,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 06:04 ET",
         "pub_ts": 1795691042.0
-      },
-      {
-        "title": "Cathie Wood Buys More SpaceX Amid Tesla Merger Talks — Ron Baron Says SpaceX Could Make $50B A Year From One Data Center",
-        "url": "https://stocktwits.com/news-articles/markets/equity/cathie-wood-buys-spacex-tesla-merger-talks-ron-baron-spacex-50b-one-data-center/cNbxeDKR9Z4?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 22:32 ET",
-        "pub_ts": 1795663955.0
       }
     ],
     "AXP": [
@@ -2234,6 +2234,20 @@
     ],
     "DELL": [
       {
+        "title": "Dell Is No Longer the Company You Originally Bought. Is That a Reason to Buy More Stock in 2027?",
+        "url": "https://247wallst.com/investing/2026/11/26/dell-is-no-longer-the-company-you-originally-bought-is-that-a-reason-to-buy-more-stock-in-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 12:04 ET",
+        "pub_ts": 1795712643.0
+      },
+      {
+        "title": "DELL's AI Server Sales Surge: Can the Growth Momentum Continue?",
+        "url": "https://finance.yahoo.com/technology/ai/articles/dells-ai-server-sales-surge-160100190.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:01 ET",
+        "pub_ts": 1795708860.0
+      },
+      {
         "title": "Dell’s $132B Backlog Turns 2027 Into a Pure Multiple-Expansion Trade Toward $500",
         "url": "https://247wallst.com/investing/2026/11/26/dells-132b-backlog-turns-2027-into-a-pure-multiple-expansion-trade-toward-500/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2253,20 +2267,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 04:10 ET",
         "pub_ts": 1795684204.0
-      },
-      {
-        "title": "Bad News for Intel: Dell Says Companies Are “Deferring Their PC Purchases” for AI Servers",
-        "url": "https://www.tikr.com/blog/bad-news-for-intel-dell-says-companies-are-deferring-their-pc-purchases-for-ai-servers?ref=yahoofinance&tlnk=yf-261126-x92x938h&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 03:50 ET",
-        "pub_ts": 1795683021.0
-      },
-      {
-        "title": "ANT, NVDA Slide Tests Investor Resolve, Software Firms Post Sharp Growth",
-        "url": "https://stocktwits.com/news-articles/markets/equity/ant-nvda-slide-tests-investor-resolve-software-firms-post-sharp-growth/cNbxO5FR9ZX?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 00:33 ET",
-        "pub_ts": 1795671214.0
       }
     ],
     "OKLO": [
@@ -2382,6 +2382,20 @@
     ],
     "MU": [
       {
+        "title": "Micron Stock Faces Surprising New Threat From Huawei",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/micron-stock-faces-surprising-threat-180348513.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 13:03 ET",
+        "pub_ts": 1795716228.0
+      },
+      {
+        "title": "Micron Stocks Fall 4.53% as TrendForce Cuts 2027 Memory Forecasts",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/micron-stocks-fall-4-53-172600974.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 12:26 ET",
+        "pub_ts": 1795713960.0
+      },
+      {
         "title": "SK Hynix Just Revealed the Next Generation of DRAM. Can It Beat Micron in the Next Memory Supercycle?",
         "url": "https://247wallst.com/investing/2026/11/26/sk-hynix-just-revealed-the-next-generation-of-dram-can-it-beat-micron-in-the-next-memory-supercycle/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2401,20 +2415,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 08:37 ET",
         "pub_ts": 1795700222.0
-      },
-      {
-        "title": "Micron May Now Face a Threat From Two Chinese Rivals but Shouldn’t Sweat It",
-        "url": "https://finance.yahoo.com/m/75ebee7a-b584-3441-9bac-c4a6ec75020e/micron-may-now-face-a-threat.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 08:01 ET",
-        "pub_ts": 1795698060.0
-      },
-      {
-        "title": "Micron Can’t Stop Sliding. UBS Cut Its Target, but Still Sees 83% Upside",
-        "url": "https://www.tikr.com/blog/micron-cant-stop-sliding-ubs-cut-its-target-but-still-sees-83-upside?ref=yahoofinance&tlnk=yf-261126-5mxg7gm6&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 07:21 ET",
-        "pub_ts": 1795695663.0
       }
     ],
     "SKHY": [
@@ -2424,13 +2424,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 11:44 ET",
         "pub_ts": 1795711465.0
-      },
-      {
-        "title": "European stocks rally as tech jitters ease",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-enjoy-another-bounce-023024729.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 07:13 ET",
-        "pub_ts": 1795695235.0
       },
       {
         "title": "SK hynix Just Hit a New 52-Week Low After Sinking 9% in a Week. Is the Selling Overdone?",
@@ -2452,6 +2445,13 @@
         "source": "Yahoo Finance",
         "time": "11-25 19:54 ET",
         "pub_ts": 1795654498.0
+      },
+      {
+        "title": "SK hynix (KOSE:A000660) AI Memory Narrative Puts Valuation Back In Focus",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-kose-a000660-ai-211453290.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 16:14 ET",
+        "pub_ts": 1795641293.0
       }
     ],
     "WDC": [
@@ -2493,6 +2493,13 @@
     ],
     "STX": [
       {
+        "title": "Seagate Technology Got Hammered By Multiple Compression, Falling 40% in 3 Months: This Renowned Wall Street Desk Targets 185% Gains Following Earnings",
+        "url": "https://247wallst.com/investing/2026/11/26/seagate-technology-got-hammered-by-multiple-compression-falling-40-in-3-months-this-renowned-wall-street-desk-targets-185-gains-following-earnings/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 12:45 ET",
+        "pub_ts": 1795715150.0
+      },
+      {
         "title": "Why Is Seagate (STX) Down 32.3% Since Last Earnings Report?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/why-seagate-stx-down-32-153018072.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2519,13 +2526,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 13:00 ET",
         "pub_ts": 1795629657.0
-      },
-      {
-        "title": "Why It’s Time to Load Up On Seagate Stock",
-        "url": "https://www.barchart.com/story/news/9001338/why-its-time-to-load-up-on-seagate-stock?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 07:30 ET",
-        "pub_ts": 1795609802.0
       }
     ],
     "MSTR": [
@@ -3315,31 +3315,31 @@
     "CRDO": 1795714103.0429132,
     "COHR": 1795714103.0429132,
     "MRVL": 1795714103.0429132,
-    "LITE": 1795712655.3272152,
+    "LITE": 1795717203.4180288,
     "AAOI": 1795714103.0429132,
-    "SPCX": 1795712655.3272152,
-    "ASTS": 1795712655.3272152,
-    "AXTI": 1795712655.3272152,
-    "NASA": 1795712655.3272152,
-    "LUNR": 1795712655.3272152,
-    "TSLA": 1795712655.3272152,
-    "AXP": 1795712655.3272152,
-    "RKLB": 1795712655.3272152,
-    "KO": 1795712655.3272152,
-    "FLY": 1795712655.3272152,
-    "INTC": 1795712655.3272152,
-    "VRT": 1795712655.3272152,
-    "HPE": 1795712655.3272152,
-    "DELL": 1795712655.3272152,
-    "OKLO": 1795712655.3272152,
-    "CEG": 1795712655.3272152,
-    "FPS": 1795712655.3272152,
-    "MU": 1795712655.3272152,
-    "SKHY": 1795712655.3272152,
-    "WDC": 1795712655.3272152,
-    "STX": 1795712655.3272152,
+    "SPCX": 1795717203.4180288,
+    "ASTS": 1795717203.4180288,
+    "AXTI": 1795717203.4180288,
+    "NASA": 1795717203.4180288,
+    "LUNR": 1795717203.4180288,
+    "TSLA": 1795717203.4180288,
+    "AXP": 1795717203.4180288,
+    "RKLB": 1795717203.4180288,
+    "KO": 1795717203.4180288,
+    "FLY": 1795717203.4180288,
+    "INTC": 1795717203.4180288,
+    "VRT": 1795717203.4180288,
+    "HPE": 1795717203.4180288,
+    "DELL": 1795717203.4180288,
+    "OKLO": 1795717203.4180288,
+    "CEG": 1795717203.4180288,
+    "FPS": 1795717203.4180288,
+    "MU": 1795717203.4180288,
+    "SKHY": 1795717203.4180288,
+    "WDC": 1795717203.4180288,
+    "STX": 1795717203.4180288,
     "MSTR": 1795712758.1758242,
-    "SNDK": 1795712655.3272152,
+    "SNDK": 1795717203.4180288,
     "BTC-USD": 1795712758.1758242,
     "CRWD": 1795712758.1758242,
     "ORCL": 1795712758.1758242,
@@ -3354,8 +3354,8 @@
     "WMT": 1795714103.0429132,
     "V": 1795713793.1176853,
     "CAT": 1795714103.0429132,
-    "FN": 1795712655.3272152,
-    "GLW": 1795712655.3272152,
+    "FN": 1795717203.4180288,
+    "GLW": 1795717203.4180288,
     "ANT": 1795714103.0429132,
     "XAUUSD": 1795714103.0429132,
     "KOSPI": 1795713793.1176853
