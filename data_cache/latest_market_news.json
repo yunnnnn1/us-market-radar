@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795731918.116,
-  "updated_at_et": "11-26 17:25 ET",
-  "updated_at_kst": "07:25 KST",
+  "updated_at_ts": 1795732017.302,
+  "updated_at_et": "11-26 17:26 ET",
+  "updated_at_kst": "07:26 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -3196,11 +3196,11 @@
     ],
     "ANT": [
       {
-        "title": "AI's self-improvement era is nearly here. It will be felt everywhere",
-        "url": "https://finance.yahoo.com/video/ais-self-improvement-era-nearly-150000618.html?.tsrc=rss",
+        "title": "O’Reilly’s Sales to Professional Mechanics Jumped 12.7% Last Quarter. Here’s Why That’s the Clearest Sign of Its Moat.",
+        "url": "https://www.fool.com/investing/2026/11/26/oreilly-sales-professional-mechanics-jumped-last-quarter-why-that-s-the-clearest-sign-of-its-moat/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 10:00 ET",
-        "pub_ts": 1795705200.0
+        "time": "11-26 16:50 ET",
+        "pub_ts": 1795729802.0
       },
       {
         "title": "Cathie Wood Just Bought $26 Million of Anthropic Across 6 ARK Funds",
@@ -3349,15 +3349,15 @@
     "NKE": 1795731918.1163251,
     "MCD": 1795731918.1163251,
     "PEP": 1795731918.1163251,
-    "XOM": 1795730454.729327,
+    "XOM": 1795732017.3020346,
     "JPM": 1795731918.1163251,
-    "WMT": 1795730454.729327,
+    "WMT": 1795732017.3020346,
     "V": 1795731918.1163251,
-    "CAT": 1795730454.729327,
+    "CAT": 1795732017.3020346,
     "FN": 1795731235.9520001,
     "GLW": 1795731235.9520001,
-    "ANT": 1795730454.729327,
-    "XAUUSD": 1795730454.729327,
+    "ANT": 1795732017.3020346,
+    "XAUUSD": 1795732017.3020346,
     "KOSPI": 1795731527.1413274
   },
   "opex_shield": {
