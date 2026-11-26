@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795679037.179,
-  "updated_at_et": "11-26 02:43 ET",
-  "updated_at_kst": "16:43 KST",
+  "updated_at_ts": 1795679138.218,
+  "updated_at_et": "11-26 02:45 ET",
+  "updated_at_kst": "16:45 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1191,11 +1191,11 @@
     ],
     "MSFT": [
       {
-        "title": "Japan's biggest banks pick Solana as Fidelity adds DeFi tokens",
-        "url": "https://finance.yahoo.com/video/japans-biggest-banks-pick-solana-as-fidelity-adds-defi-tokens-222056705.html?.tsrc=rss",
+        "title": "Apple Is November's Mag7 Winner — Nvidia Takes The Biggest Hit",
+        "url": "https://stocktwits.com/news-articles/markets/equity/apple-is-november-s-mag7-winner-nvidia-takes-the-biggest-hit/cNbxWaAR9Zm?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 12:00 ET",
-        "pub_ts": 1795626000.0
+        "time": "11-26 02:32 ET",
+        "pub_ts": 1795678362.0
       },
       {
         "title": "Nvidia’s Market Cap Falls Below Microsoft’s: Analyst Flags Five Overhangs For NVDA Stock",
@@ -1235,6 +1235,13 @@
         "pub_ts": 1795642024.0
       },
       {
+        "title": "Apple Is November's Mag7 Winner — Nvidia Takes The Biggest Hit",
+        "url": "https://stocktwits.com/news-articles/markets/equity/apple-is-november-s-mag7-winner-nvidia-takes-the-biggest-hit/cNbxWaAR9Zm?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 02:32 ET",
+        "pub_ts": 1795678362.0
+      },
+      {
         "title": "Michael Burry Says He’s Shorting The Market’s ‘Generals’ As Apple Flashes A Warning Last Seen In 2002",
         "url": "https://stocktwits.com/news-articles/markets/equity/michael-burry-shorting-market-generals-apple-warning-last-seen-in-2002/cNbx7IxR9Ze?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1254,13 +1261,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 16:11 ET",
         "pub_ts": 1795641107.0
-      },
-      {
-        "title": "Chips and iPhones Are Safe From New Tariffs. Here’s What Isn’t.",
-        "url": "https://finance.yahoo.com/m/fed0ba1a-1835-3234-b475-4ad6bcc3e25d/chips-and-iphones-are-safe.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 15:47 ET",
-        "pub_ts": 1795639620.0
       }
     ],
     "PLTR": [
@@ -3289,27 +3289,27 @@
     "SOXS": 1795678834.4011266,
     "NVDA": 1795678834.4011266,
     "AMD": 1795678834.4011266,
-    "ASML": 1795677604.9918277,
-    "QCOM": 1795677604.9918277,
-    "AVGO": 1795677604.9918277,
-    "AMAT": 1795677604.9918277,
-    "META": 1795677604.9918277,
-    "GOOGL": 1795677604.9918277,
-    "MSFT": 1795677604.9918277,
-    "AAPL": 1795677604.9918277,
-    "PLTR": 1795677604.9918277,
-    "NOW": 1795677604.9918277,
-    "AMZN": 1795677604.9918277,
-    "CRWV": 1795677604.9918277,
-    "NBIS": 1795677604.9918277,
-    "APLD": 1795677604.9918277,
-    "VST": 1795677604.9918277,
-    "BE": 1795677604.9918277,
-    "CRDO": 1795677604.9918277,
-    "COHR": 1795677604.9918277,
-    "MRVL": 1795677604.9918277,
+    "ASML": 1795679138.217673,
+    "QCOM": 1795679138.217673,
+    "AVGO": 1795679138.217673,
+    "AMAT": 1795679138.217673,
+    "META": 1795679138.217673,
+    "GOOGL": 1795679138.217673,
+    "MSFT": 1795679138.217673,
+    "AAPL": 1795679138.217673,
+    "PLTR": 1795679138.217673,
+    "NOW": 1795679138.217673,
+    "AMZN": 1795679138.217673,
+    "CRWV": 1795679138.217673,
+    "NBIS": 1795679138.217673,
+    "APLD": 1795679138.217673,
+    "VST": 1795679138.217673,
+    "BE": 1795679138.217673,
+    "CRDO": 1795679138.217673,
+    "COHR": 1795679138.217673,
+    "MRVL": 1795679138.217673,
     "LITE": 1795677706.4549344,
-    "AAOI": 1795677604.9918277,
+    "AAOI": 1795679138.217673,
     "SPCX": 1795677706.4549344,
     "ASTS": 1795678629.2971346,
     "AXTI": 1795677706.4549344,
@@ -3342,15 +3342,15 @@
     "NKE": 1795678834.4011266,
     "MCD": 1795678834.4011266,
     "PEP": 1795678834.4011266,
-    "XOM": 1795677604.9918277,
+    "XOM": 1795679138.217673,
     "JPM": 1795678834.4011266,
-    "WMT": 1795677604.9918277,
+    "WMT": 1795679138.217673,
     "V": 1795678834.4011266,
-    "CAT": 1795677604.9918277,
+    "CAT": 1795679138.217673,
     "FN": 1795677706.4549344,
     "GLW": 1795677706.4549344,
-    "ANT": 1795677604.9918277,
-    "XAUUSD": 1795677604.9918277,
+    "ANT": 1795679138.217673,
+    "XAUUSD": 1795679138.217673,
     "KOSPI": 1795678834.4011266
   },
   "opex_shield": {
