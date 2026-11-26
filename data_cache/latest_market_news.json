@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795652570.089,
-  "updated_at_et": "11-25 19:22 ET",
-  "updated_at_kst": "09:22 KST",
+  "updated_at_ts": 1795652675.2,
+  "updated_at_et": "11-25 19:24 ET",
+  "updated_at_kst": "09:24 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1801,6 +1801,20 @@
         "pub_ts": 1795640239.0
       },
       {
+        "title": "S&P 500, Nasdaq End Lower But Dow Rebounds As Traders Rotate Out Of AI — NVDA, SPCX, PANW In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-lower-but-dow-rebounds-as-traders-rotate-out-of-ai-nvda-spcx-panw-in-focus/cNbx21AR9mC?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 19:09 ET",
+        "pub_ts": 1795651790.0
+      },
+      {
+        "title": "Anthropic Earns “$80 a Year per Watt” of GPUs, Says Modal’s CEO. That’s Good News for SpaceX",
+        "url": "https://www.tikr.com/blog/anthropic-earns-80-a-year-per-watt-of-gpus-says-modals-ceo-thats-good-news-for-spacex?ref=yahoofinance&tlnk=yf-261125-5cgv35mg&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 18:41 ET",
+        "pub_ts": 1795650106.0
+      },
+      {
         "title": "If SpaceX and Tesla Merge Next Year, Here's What a $5,000 Investment in the Combined Company Could Be Worth by the End of 2028",
         "url": "https://www.fool.com/investing/2026/11/25/if-spacex-and-tesla-merge-next-year-here-s-what-a-usd5-000-investment-in-the-combined-company-could-be-worth-by-the-end-of-2027/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1813,20 +1827,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 18:16 ET",
         "pub_ts": 1795648590.0
-      },
-      {
-        "title": "Elon Musk’s plan for SpaceX to launch 1 million satellites for ‘constellation’ of data centers approved by FCC",
-        "url": "https://nypost.com/2026/11/25/business/fcc-approves-elon-musks-spacex-to-launch-1-million-satellites-for-data-centers-in-space/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 17:38 ET",
-        "pub_ts": 1795646334.0
-      },
-      {
-        "title": "SpaceX’s New Stock Giveaway Sweetens the Deal on Trump Accounts",
-        "url": "https://finance.yahoo.com/m/16ef1ef9-a683-3ab2-8fe5-a532cc88b6ba/spacex%E2%80%99s-new-stock-giveaway.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 17:22 ET",
-        "pub_ts": 1795645320.0
       }
     ],
     "ASTS": [
@@ -3356,11 +3356,11 @@
     "CRDO": 1795652570.0894077,
     "COHR": 1795652570.0894077,
     "MRVL": 1795652570.0894077,
-    "LITE": 1795651082.6820278,
+    "LITE": 1795652675.2002335,
     "AAOI": 1795652570.0894077,
-    "SPCX": 1795651082.6820278,
+    "SPCX": 1795652675.2002335,
     "ASTS": 1795652275.8101263,
-    "AXTI": 1795651082.6820278,
+    "AXTI": 1795652675.2002335,
     "NASA": 1795652275.8101263,
     "LUNR": 1795652275.8101263,
     "TSLA": 1795652275.8101263,
@@ -3395,8 +3395,8 @@
     "WMT": 1795652570.0894077,
     "V": 1795652373.5101364,
     "CAT": 1795652570.0894077,
-    "FN": 1795651082.6820278,
-    "GLW": 1795651082.6820278,
+    "FN": 1795652675.2002335,
+    "GLW": 1795652675.2002335,
     "ANT": 1795652570.0894077,
     "XAUUSD": 1795652570.0894077,
     "KOSPI": 1795652373.5101364
