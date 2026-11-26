@@ -1,9 +1,22 @@
 {
-  "updated_at_ts": 1795678730.552,
-  "updated_at_et": "11-26 02:38 ET",
-  "updated_at_kst": "16:38 KST",
+  "updated_at_ts": 1795678834.401,
+  "updated_at_et": "11-26 02:40 ET",
+  "updated_at_kst": "16:40 KST",
   "macro_calendar": [],
   "macro_flashes": [
+    {
+      "id": "20261126153831903800",
+      "title": "【高盛：预计沪深300明年上涨10% 上调港股至高配】 11月26日讯，“未来一年，港股…",
+      "summary": "【高盛：预计沪深300明年上涨10% 上调港股至高配】 11月26日讯，“未来一年，港股的盈利同比增速有可能达到15%左右。”11月25日，高盛首席中国股票策略分析师刘劲津在该行年度经济与股市展望媒体会上表示，高盛将港股由中性上调至高配。高盛预计，2027年MSCI中国指数和沪深300指数将分别上涨23%和10%。从中国市场来看，高盛将半导体、医药和服务消费由中性上调至高配，维持对银行板块的高配建议。",
+      "keywords": [
+        "半导体"
+      ],
+      "pub_ts": 1795678711.0,
+      "time_et": "11-26 02:38 ET",
+      "time_bj": "15:38 BJ",
+      "time_kst": "16:38 KST",
+      "time_display": "02:38 ET / 15:38 BJ"
+    },
     {
       "id": "20261126152408614800",
       "title": "【美股美债今日休市 金银油期货交易提前结束】 11月26日讯，受美国感恩节（11月26日…",
@@ -318,20 +331,6 @@
         "特朗普"
       ],
       "pub_ts": 1795662539.0,
-      "time_et": "11-25 22:08 ET",
-      "time_bj": "11:08 BJ",
-      "time_kst": "12:08 KST",
-      "time_display": "22:08 ET / 11:08 BJ"
-    },
-    {
-      "id": "20261126110846088800",
-      "title": "整理：每日存储市场要闻速递（2026-11-26）",
-      "summary": "1. 报道：英伟达芯片卖家寻找新买家，数千颗B300 GPU寻求转售。 2. 消息称三星与SK海力士获准使用长江存储部分晶栈技术。 3. 集邦下调2027年存储产值预估，NAND合约价预计转跌。 4. 机构：部分CSP需求下修影响价格展望，2027年存储器产值增速放缓。 5. 三星拟披露500层TLC NAND，SK海力士将展示375层方案。 6. 三星HBM4E论文披露17Gbps单引脚速率，进入英伟达目标区间。 7. SK海力士瞄准2031年前后商用3D DRAM，首款目标为100层。 8. MLC NAND退出供货周期，利基应用转向SLC或TLC。 9. 兆易创新与德赛西威共建实验室，聚焦车规存储和MCU验证。 10. 集邦称消费级DRAM现货买气偏弱，南亚科与华邦电补位。",
-      "keywords": [
-        "芯片",
-        "英伟达"
-      ],
-      "pub_ts": 1795662526.0,
       "time_et": "11-25 22:08 ET",
       "time_bj": "11:08 BJ",
       "time_kst": "12:08 KST",
@@ -792,6 +791,13 @@
         "pub_ts": 1795662196.0
       },
       {
+        "title": "Trump heads to Arizona next week for a high-stakes expansion of TSMC's computer chip factories",
+        "url": "https://finance.yahoo.com/technology/articles/trump-heads-arizona-next-week-225636899.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 17:56 ET",
+        "pub_ts": 1795647396.0
+      },
+      {
         "title": "TSMC eyes 3K-acre Aggieland site for $22.6B chip plant",
         "url": "https://finance.yahoo.com/technology/articles/tsmc-eyes-3k-acre-aggieland-192901231.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -811,13 +817,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 11:37 ET",
         "pub_ts": 1795624622.0
-      },
-      {
-        "title": "Nvidia Chipmaker TSMC Sends $22.6 Billion AI Signal",
-        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-chipmaker-tsmc-sends-22-162725540.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:27 ET",
-        "pub_ts": 1795624045.0
       }
     ],
     "VIXY": [
@@ -896,6 +895,13 @@
     ],
     "NVDA": [
       {
+        "title": "Mike Pompeo Has ‘No Doubt’ Alice Huang Coordinated With Communist Party of China: Crypto Bettors Weigh Odds of Her Arrest",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63660281/mike-pompeo-has-no-doubt-alice-huang-coordinated-with-communist-party-of-china-crypto-bettors-weigh-odds-of-her-arrest?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 02:22 ET",
+        "pub_ts": 1795677733.0
+      },
+      {
         "title": "MU, SNDK, SKHY Jump As Nvidia Tests Kioxia Memory Fix — Analyst Presses Memory Giants For ‘Massive’ Buybacks",
         "url": "https://stocktwits.com/news-articles/markets/equity/mu-sndk-skhy-nvidia-kioxia-memory-fix-analyst-memory-giants-buybacks/cNbxQFgR9ZK?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -922,13 +928,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 00:33 ET",
         "pub_ts": 1795671214.0
-      },
-      {
-        "title": "SpaceX Reportedly Slashes Some Nvidia Chip Rents — AI Researcher Sees Musk’s Edge In A GPU Glut",
-        "url": "https://stocktwits.com/news-articles/markets/equity/spacex-reportedly-slashes-nvidia-chip-rents-ai-researcher-musk-edge-gpu-glut/cNbxOPgR9ZQ?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 00:32 ET",
-        "pub_ts": 1795671175.0
       }
     ],
     "AMD": [
@@ -3273,23 +3272,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795677296.6248264,
-    "SOXL": 1795677296.6248264,
-    "SPY": 1795677296.6248264,
-    "DIA": 1795677296.6248264,
-    "SOXX": 1795677296.6248264,
-    "QQQ": 1795677296.6248264,
-    "SMH": 1795677296.6248264,
-    "IWM": 1795677296.6248264,
-    "IGV": 1795677296.6248264,
-    "TLT": 1795677296.6248264,
-    "GLD": 1795677296.6248264,
-    "SQQQ": 1795677296.6248264,
-    "TSM": 1795677296.6248264,
-    "VIXY": 1795677296.6248264,
-    "SOXS": 1795677296.6248264,
-    "NVDA": 1795677296.6248264,
-    "AMD": 1795677296.6248264,
+    "KORU": 1795678834.4011266,
+    "SOXL": 1795678834.4011266,
+    "SPY": 1795678834.4011266,
+    "DIA": 1795678834.4011266,
+    "SOXX": 1795678834.4011266,
+    "QQQ": 1795678834.4011266,
+    "SMH": 1795678834.4011266,
+    "IWM": 1795678834.4011266,
+    "IGV": 1795678834.4011266,
+    "TLT": 1795678834.4011266,
+    "GLD": 1795678834.4011266,
+    "SQQQ": 1795678834.4011266,
+    "TSM": 1795678834.4011266,
+    "VIXY": 1795678834.4011266,
+    "SOXS": 1795678834.4011266,
+    "NVDA": 1795678834.4011266,
+    "AMD": 1795678834.4011266,
     "ASML": 1795677604.9918277,
     "QCOM": 1795677604.9918277,
     "AVGO": 1795677604.9918277,
@@ -3338,21 +3337,21 @@
     "CRWD": 1795678629.2971346,
     "ORCL": 1795678629.2971346,
     "COIN": 1795678629.2971346,
-    "LLY": 1795677296.6248264,
-    "MRNA": 1795677296.6248264,
-    "NKE": 1795677296.6248264,
-    "MCD": 1795677296.6248264,
-    "PEP": 1795677296.6248264,
+    "LLY": 1795678834.4011266,
+    "MRNA": 1795678834.4011266,
+    "NKE": 1795678834.4011266,
+    "MCD": 1795678834.4011266,
+    "PEP": 1795678834.4011266,
     "XOM": 1795677604.9918277,
-    "JPM": 1795677296.6248264,
+    "JPM": 1795678834.4011266,
     "WMT": 1795677604.9918277,
-    "V": 1795677296.6248264,
+    "V": 1795678834.4011266,
     "CAT": 1795677604.9918277,
     "FN": 1795677706.4549344,
     "GLW": 1795677706.4549344,
     "ANT": 1795677604.9918277,
     "XAUUSD": 1795677604.9918277,
-    "KOSPI": 1795677296.6248264
+    "KOSPI": 1795678834.4011266
   },
   "opex_shield": {
     "date": "2026-11-26",
@@ -3371,7 +3370,7 @@
   "calendar_banner": {
     "level": "idle_with_flash",
     "headline": "📡 宏观消息面监控中 · 今日暂无美股五星级经济数据大考",
-    "detail": "⚡ 最新核心快讯 (02:24 ET / 15:24 BJ) [原油] [美债]：【美股美债今日休市 金银油期货交易提前结束】 11月26日讯，受美国感恩节（11月26日）假期影响，美国股市、债市今日休市一日；芝商所（CME）旗下贵金属、美国原油期货合约交易提前于北京时间",
+    "detail": "⚡ 最新核心快讯 (02:38 ET / 15:38 BJ) [半导体]：【高盛：预计沪深300明年上涨10% 上调港股至高配】 11月26日讯，“未来一年，港股的盈利同比增速有可能达到15%左右。”11月25日，高盛首席中国股票策略分析师刘劲津在该行年度经济与股",
     "event_name": "",
     "minutes_left": 0,
     "opex_shield": {
