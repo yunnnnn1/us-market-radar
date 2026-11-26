@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795712140.892,
-  "updated_at_et": "11-26 11:55 ET",
-  "updated_at_kst": "01:55 KST",
+  "updated_at_ts": 1795712245.511,
+  "updated_at_et": "11-26 11:57 ET",
+  "updated_at_kst": "01:57 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -902,6 +902,20 @@
     ],
     "NVDA": [
       {
+        "title": "Did Arm CEO Rene Haas Dodge a Bullet With Jensen Huang’s Reinstatement at Nvidia?",
+        "url": "https://247wallst.com/investing/2026/11/26/did-arm-ceo-rene-haas-dodge-a-bullet-with-jensen-huangs-reinstatement-at-nvidia/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:49 ET",
+        "pub_ts": 1795711781.0
+      },
+      {
+        "title": "For the Retiree Who Wants the Portfolio to Match Their Faith at 69: 3 ETFs Built Around Values",
+        "url": "https://247wallst.com/investing/etf/2026/11/26/for-the-retiree-who-wants-the-portfolio-to-match-their-faith-at-69-3-etfs-built-around-values/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:23 ET",
+        "pub_ts": 1795710216.0
+      },
+      {
         "title": "Scott Bessent sends the Fed a stern warning it cannot ignore",
         "url": "https://www.thestreet.com/fed/scott-bessent-sends-the-fed-a-stern-warning-it-cannot-ignore?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -921,20 +935,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 11:05 ET",
         "pub_ts": 1795709102.0
-      },
-      {
-        "title": "S&P’s NVIDIA Warning is Backward Looking Governance Theater That Gives Everyone an Opportunity to Buy at $150",
-        "url": "https://247wallst.com/investing/2026/11/26/sps-nvidia-warning-is-backward-looking-governance-theater-that-gives-everyone-an-opportunity-to-buy-at-150/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 10:45 ET",
-        "pub_ts": 1795707938.0
-      },
-      {
-        "title": "Investing $500 a Month in Coca-Cola, Realty Income, and Altria Could Generate Over $1,000 in Monthly Dividend Income by 2046",
-        "url": "https://www.fool.com/investing/2026/11/26/investing-usd500-a-month-in-coca-cola-realty-income-and-altria-could-generate-over-usd1-000-in-monthly-dividend-income-by-2046/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 09:51 ET",
-        "pub_ts": 1795704662.0
       }
     ],
     "AMD": [
@@ -2752,6 +2752,20 @@
     ],
     "LLY": [
       {
+        "title": "Eli Lilly Stock Is Up 64% Since April. Is It Time to Take Profits?",
+        "url": "https://247wallst.com/investing/2026/11/26/eli-lilly-stock-is-up-64-since-april-is-it-time-to-take-profits/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:43 ET",
+        "pub_ts": 1795711384.0
+      },
+      {
+        "title": "Eli Lilly Is Now Worth 7 Novo Nordisks. Here’s How the Gap Got So Wide.",
+        "url": "https://www.fool.com/investing/2026/11/26/eli-lilly-is-now-worth-nearly-9-novo-nordisks-heres-how-the-gap-got-so-wide/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:40 ET",
+        "pub_ts": 1795711202.0
+      },
+      {
         "title": "Eli Lilly (LLY) Adds FDA Vision Warning To GLP 1 Drug Labels",
         "url": "https://finance.yahoo.com/healthcare/articles/eli-lilly-lly-adds-fda-151036334.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2771,20 +2785,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 06:04 ET",
         "pub_ts": 1795691058.0
-      },
-      {
-        "title": "ETFs Are Net Sellers of Lilly (Eli) & Co (LLY) on Nov. 24",
-        "url": "https://finance.yahoo.com/healthcare/articles/etfs-net-sellers-lilly-eli-110215574.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:02 ET",
-        "pub_ts": 1795690935.0
-      },
-      {
-        "title": "Lilly, Novo Supplier Bachem Hit by Share Drop After Growth Plans Disappoint",
-        "url": "https://www.wsj.com/business/earnings/lilly-novo-supplier-bachem-hit-by-share-drop-after-growth-plans-disappoint-d3bcf6fa?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 05:55 ET",
-        "pub_ts": 1795690500.0
       }
     ],
     "MRNA": [
@@ -3048,6 +3048,13 @@
     ],
     "V": [
       {
+        "title": "Visa (V) Up 5.9% Since Last Earnings Report: Can It Continue?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/visa-v-5-9-since-153019522.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:30 ET",
+        "pub_ts": 1795707019.0
+      },
+      {
         "title": "The Best Dividend Stocks to Buy With $5,000 in November",
         "url": "https://www.fool.com/investing/2026/11/25/the-best-dividend-stocks-to-buy-with-5000-in-november/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3074,13 +3081,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 12:00 ET",
         "pub_ts": 1795626000.0
-      },
-      {
-        "title": "Wedbush starts Robinhood, Coinbase at Outperform in fintech coverage launch",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/wedbush-starts-robinhood-coinbase-outperform-163557118.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:35 ET",
-        "pub_ts": 1795624557.0
       }
     ],
     "CAT": [
@@ -3279,23 +3279,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795710688.9120066,
-    "SOXL": 1795710688.9120066,
-    "SPY": 1795710688.9120066,
-    "DIA": 1795710688.9120066,
-    "SOXX": 1795710688.9120066,
-    "QQQ": 1795710688.9120066,
-    "SMH": 1795710688.9120066,
-    "IWM": 1795710688.9120066,
-    "IGV": 1795710688.9120066,
-    "TLT": 1795710688.9120066,
-    "GLD": 1795710688.9120066,
-    "SQQQ": 1795710688.9120066,
-    "TSM": 1795710688.9120066,
-    "VIXY": 1795710688.9120066,
-    "SOXS": 1795710688.9120066,
-    "NVDA": 1795710688.9120066,
-    "AMD": 1795710688.9120066,
+    "KORU": 1795712245.511414,
+    "SOXL": 1795712245.511414,
+    "SPY": 1795712245.511414,
+    "DIA": 1795712245.511414,
+    "SOXX": 1795712245.511414,
+    "QQQ": 1795712245.511414,
+    "SMH": 1795712245.511414,
+    "IWM": 1795712245.511414,
+    "IGV": 1795712245.511414,
+    "TLT": 1795712245.511414,
+    "GLD": 1795712245.511414,
+    "SQQQ": 1795712245.511414,
+    "TSM": 1795712245.511414,
+    "VIXY": 1795712245.511414,
+    "SOXS": 1795712245.511414,
+    "NVDA": 1795712245.511414,
+    "AMD": 1795712245.511414,
     "ASML": 1795711011.1222024,
     "QCOM": 1795711011.1222024,
     "AVGO": 1795711011.1222024,
@@ -3344,21 +3344,21 @@
     "CRWD": 1795711216.1780229,
     "ORCL": 1795711216.1780229,
     "COIN": 1795711216.1780229,
-    "LLY": 1795710688.9120066,
-    "MRNA": 1795710688.9120066,
-    "NKE": 1795710688.9120066,
-    "MCD": 1795710688.9120066,
-    "PEP": 1795710688.9120066,
+    "LLY": 1795712245.511414,
+    "MRNA": 1795712245.511414,
+    "NKE": 1795712245.511414,
+    "MCD": 1795712245.511414,
+    "PEP": 1795712245.511414,
     "XOM": 1795711011.1222024,
-    "JPM": 1795710688.9120066,
+    "JPM": 1795712245.511414,
     "WMT": 1795711011.1222024,
-    "V": 1795710688.9120066,
+    "V": 1795712245.511414,
     "CAT": 1795711011.1222024,
     "FN": 1795711113.6742878,
     "GLW": 1795711113.6742878,
     "ANT": 1795711011.1222024,
     "XAUUSD": 1795711011.1222024,
-    "KOSPI": 1795710688.9120066
+    "KOSPI": 1795712245.511414
   },
   "opex_shield": {
     "date": "2026-11-26",
