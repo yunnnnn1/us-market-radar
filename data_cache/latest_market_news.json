@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795681597.029,
-  "updated_at_et": "11-26 03:26 ET",
-  "updated_at_kst": "17:26 KST",
+  "updated_at_ts": 1795681698.25,
+  "updated_at_et": "11-26 03:28 ET",
+  "updated_at_kst": "17:28 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1932,13 +1932,6 @@
     ],
     "TSLA": [
       {
-        "title": "Ten reasons the market is selling off again before Thanksgiving",
-        "url": "https://finance.yahoo.com/video/ten-reasons-the-market-is-selling-off-again-before-thanksgiving-160424234.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:04 ET",
-        "pub_ts": 1795622664.0
-      },
-      {
         "title": "Cathie Wood Buys More SpaceX Amid Tesla Merger Talks — Ron Baron Says SpaceX Could Make $50B A Year From One Data Center",
         "url": "https://stocktwits.com/news-articles/markets/equity/cathie-wood-buys-spacex-tesla-merger-talks-ron-baron-spacex-50b-one-data-center/cNbxeDKR9Z4?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1965,22 +1958,29 @@
         "source": "Yahoo Finance",
         "time": "11-25 15:22 ET",
         "pub_ts": 1795638121.0
+      },
+      {
+        "title": "Is Space Exploration Technologies (SPCX) Cheap As Tesla Merger Talks Raise Valuation Questions?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/space-exploration-technologies-spcx-cheap-201121157.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 15:11 ET",
+        "pub_ts": 1795637481.0
       }
     ],
     "AXP": [
-      {
-        "title": "Tariffs are back as Anthropic sinks further below its IPO price",
-        "url": "https://finance.yahoo.com/video/tariffs-are-back-as-anthropic-sinks-further-below-its-ipo-price-160524926.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:05 ET",
-        "pub_ts": 1795622724.0
-      },
       {
         "title": "Black Friday shopping: Check this credit card perk first",
         "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/black-friday-shopping-check-this-credit-card-perk-first-195924850.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-23 14:59 ET",
         "pub_ts": 1795463964.0
+      },
+      {
+        "title": "Tariffs are back as Anthropic sinks further below its IPO price",
+        "url": "https://finance.yahoo.com/video/tariffs-are-back-as-anthropic-sinks-further-below-its-ipo-price-160524926.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:05 ET",
+        "pub_ts": 1795622724.0
       },
       {
         "title": "How American Express Turned Berkshire’s $1.3 Billion Bet Into a $576 Million Annual Paycheck",
@@ -2117,13 +2117,6 @@
     ],
     "INTC": [
       {
-        "title": "Tariffs are back as Anthropic sinks further below its IPO price",
-        "url": "https://finance.yahoo.com/video/tariffs-are-back-as-anthropic-sinks-further-below-its-ipo-price-160524926.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:05 ET",
-        "pub_ts": 1795622724.0
-      },
-      {
         "title": "Intel Stocks Drop 7.47% as GuruFocus Flags 48.7% Premium to GF Value",
         "url": "https://finance.yahoo.com/markets/stocks/articles/intel-stocks-drop-7-47-174206192.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2143,6 +2136,13 @@
         "source": "Yahoo Finance",
         "time": "11-25 11:25 ET",
         "pub_ts": 1795623948.0
+      },
+      {
+        "title": "Tariffs are back as Anthropic sinks further below its IPO price",
+        "url": "https://finance.yahoo.com/video/tariffs-are-back-as-anthropic-sinks-further-below-its-ipo-price-160524926.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:05 ET",
+        "pub_ts": 1795622724.0
       },
       {
         "title": "The Zacks Analyst Blog Highlights Apple, Philip Morris, Intel and Crimson Wine",
@@ -2198,13 +2198,6 @@
         "pub_ts": 1795640400.0
       },
       {
-        "title": "Ten reasons the market is selling off again before Thanksgiving",
-        "url": "https://finance.yahoo.com/video/ten-reasons-the-market-is-selling-off-again-before-thanksgiving-160424234.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:04 ET",
-        "pub_ts": 1795622664.0
-      },
-      {
         "title": "Ensign InfoSecurity partners with HPE to help enterprises deploy AI with greater control and security",
         "url": "https://finance.yahoo.com/technology/ai/articles/ensign-infosecurity-partners-hpe-help-000000295.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2224,6 +2217,13 @@
         "source": "Yahoo Finance",
         "time": "11-25 16:20 ET",
         "pub_ts": 1795641634.0
+      },
+      {
+        "title": "George Soros, Ken Fisher and 11 Other Big Funds Bought Hewlett Packard Enterprise Last Quarter, While 5 Sold. Who’s Right?",
+        "url": "https://www.tikr.com/blog/george-soros-ken-fisher-and-11-other-big-funds-bought-hewlett-packard-enterprise-last-quarter-while-5-sold-whos-right?ref=yahoofinance&tlnk=yf-261125-pp776jqf&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 13:19 ET",
+        "pub_ts": 1795630752.0
       }
     ],
     "DELL": [
@@ -2302,6 +2302,13 @@
     ],
     "CEG": [
       {
+        "title": "Constellation concludes 4.4GW natural gas-fired power plants sale",
+        "url": "https://www.power-technology.com/news/constellation-natural-gas-fired-power-plants/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 02:57 ET",
+        "pub_ts": 1795679831.0
+      },
+      {
         "title": "How Investors May Respond To Constellation Energy Stock After Earnings Estimate Upgrades",
         "url": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-constellation-energy-061507801.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2328,13 +2335,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 12:22 ET",
         "pub_ts": 1795540954.0
-      },
-      {
-        "title": "Constellation Energy Corporation (CEG) Upgraded to Buy: Here's What You Should Know",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/constellation-energy-corporation-ceg-upgraded-160004395.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 11:00 ET",
-        "pub_ts": 1795536004.0
       }
     ],
     "FPS": [
@@ -2598,6 +2598,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "K33 AB (ARCNF) (Q3 2026) Earnings Call Highlights: 35% Revenue Growth and 40% Trading Volume ...",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/k33-ab-arcnf-q3-2026-082042686.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 03:20 ET",
+        "pub_ts": 1795681242.0
+      },
+      {
         "title": "Bitcoin recovers to $60.5k, but rates, regulatory fears persist",
         "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-recovers-60-5k-rates-070224193.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2624,13 +2631,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 23:36 ET",
         "pub_ts": 1795667764.0
-      },
-      {
-        "title": "How Low Can Bitcoin, Ethereum and XRP Fall? 4 Price Levels to Watch",
-        "url": "https://beincrypto.com/critical-price-levels-for-bitcoin-ethereum-xrp/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 20:37 ET",
-        "pub_ts": 1795657054.0
       }
     ],
     "CRWD": [
@@ -3312,32 +3312,32 @@
     "LITE": 1795680777.5981672,
     "AAOI": 1795680675.356762,
     "SPCX": 1795680777.5981672,
-    "ASTS": 1795680162.9182074,
+    "ASTS": 1795681698.2501345,
     "AXTI": 1795680777.5981672,
-    "NASA": 1795680162.9182074,
-    "LUNR": 1795680162.9182074,
-    "TSLA": 1795680162.9182074,
-    "AXP": 1795680162.9182074,
-    "RKLB": 1795680162.9182074,
-    "KO": 1795680162.9182074,
-    "FLY": 1795680162.9182074,
-    "INTC": 1795680162.9182074,
-    "VRT": 1795680162.9182074,
-    "HPE": 1795680162.9182074,
-    "DELL": 1795680162.9182074,
-    "OKLO": 1795680162.9182074,
-    "CEG": 1795680162.9182074,
-    "FPS": 1795680162.9182074,
-    "MU": 1795680162.9182074,
-    "SKHY": 1795680162.9182074,
-    "WDC": 1795680162.9182074,
-    "STX": 1795680162.9182074,
-    "MSTR": 1795680162.9182074,
-    "SNDK": 1795680162.9182074,
-    "BTC-USD": 1795680162.9182074,
-    "CRWD": 1795680162.9182074,
-    "ORCL": 1795680162.9182074,
-    "COIN": 1795680162.9182074,
+    "NASA": 1795681698.2501345,
+    "LUNR": 1795681698.2501345,
+    "TSLA": 1795681698.2501345,
+    "AXP": 1795681698.2501345,
+    "RKLB": 1795681698.2501345,
+    "KO": 1795681698.2501345,
+    "FLY": 1795681698.2501345,
+    "INTC": 1795681698.2501345,
+    "VRT": 1795681698.2501345,
+    "HPE": 1795681698.2501345,
+    "DELL": 1795681698.2501345,
+    "OKLO": 1795681698.2501345,
+    "CEG": 1795681698.2501345,
+    "FPS": 1795681698.2501345,
+    "MU": 1795681698.2501345,
+    "SKHY": 1795681698.2501345,
+    "WDC": 1795681698.2501345,
+    "STX": 1795681698.2501345,
+    "MSTR": 1795681698.2501345,
+    "SNDK": 1795681698.2501345,
+    "BTC-USD": 1795681698.2501345,
+    "CRWD": 1795681698.2501345,
+    "ORCL": 1795681698.2501345,
+    "COIN": 1795681698.2501345,
     "LLY": 1795680365.9272068,
     "MRNA": 1795680365.9272068,
     "NKE": 1795680365.9272068,
