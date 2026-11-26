@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795684876.344,
-  "updated_at_et": "11-26 04:21 ET",
-  "updated_at_kst": "18:21 KST",
+  "updated_at_ts": 1795684981.881,
+  "updated_at_et": "11-26 04:23 ET",
+  "updated_at_kst": "18:23 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -607,6 +607,13 @@
     ],
     "IWM": [
       {
+        "title": "A Third of the Russell 2000 Loses Money. This Small-Cap ETF Screens Most of Them Out",
+        "url": "https://247wallst.com/investing/etf/2026/11/26/a-third-of-the-russell-2000-loses-money-this-small-cap-etf-screens-most-of-them-out/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 04:04 ET",
+        "pub_ts": 1795683880.0
+      },
+      {
         "title": "The Average Stock Shrugged Off the Tech Slide. History Is Split",
         "url": "https://www.trefis.com/stock/spx/articles/628711/the-average-stock-shrugged-off-the-tech-slide-history-is-split/2026-11-25?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -633,13 +640,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:50 ET",
         "pub_ts": 1795539001.0
-      },
-      {
-        "title": "iShares Russell 2000 (IWM) Adds Glaukos and Jackson Financial on Nov. 20",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-2000-iwm-adds-110258205.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 06:02 ET",
-        "pub_ts": 1795518178.0
       }
     ],
     "IGV": [
@@ -903,6 +903,13 @@
     ],
     "NVDA": [
       {
+        "title": "Nvidia halts chip exports to south-east Asia after US crackdown",
+        "url": "https://uk.finance.yahoo.com/news/nvidia-halts-chip-exports-south-091719498.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 04:17 ET",
+        "pub_ts": 1795684639.0
+      },
+      {
         "title": "Nvidia Wins Back Wall Street Backing As Jensen Huang Returns; CRWD, LI Stocks Score Upgrades While DKNG, AMBA Face Pressure",
         "url": "https://stocktwits.com/news-articles/markets/equity/nvda-jensen-huang-return-stock-upgrades-crwd-li-amba-dkng/cNbxi4aR9ZF?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -929,13 +936,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 02:54 ET",
         "pub_ts": 1795679642.0
-      },
-      {
-        "title": "Nvidia Could Shift Chips To ‘Better-Funded Buyers’ As Neoclouds Face Shakeout: Analyst Sees ‘Smaller Top Tier’",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nvidia-could-shift-chips-to-better-funded-buyers-as-neoclouds-face-shakeout-analyst-sees-smaller-top-tier/cNbxWjpR9ZZ?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 02:41 ET",
-        "pub_ts": 1795678868.0
       }
     ],
     "AMD": [
@@ -3056,13 +3056,6 @@
         "pub_ts": 1795640400.0
       },
       {
-        "title": "Japan's biggest banks pick Solana as Fidelity adds DeFi tokens",
-        "url": "https://finance.yahoo.com/video/japans-biggest-banks-pick-solana-as-fidelity-adds-defi-tokens-222056705.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:00 ET",
-        "pub_ts": 1795626000.0
-      },
-      {
         "title": "The Best Dividend Stocks to Buy With $5,000 in November",
         "url": "https://www.fool.com/investing/2026/11/25/the-best-dividend-stocks-to-buy-with-5000-in-november/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3075,6 +3068,13 @@
         "source": "Yahoo Finance",
         "time": "11-25 12:38 ET",
         "pub_ts": 1795628290.0
+      },
+      {
+        "title": "Japan's biggest banks pick Solana as Fidelity adds DeFi tokens",
+        "url": "https://finance.yahoo.com/video/japans-biggest-banks-pick-solana-as-fidelity-adds-defi-tokens-222056705.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:00 ET",
+        "pub_ts": 1795626000.0
       },
       {
         "title": "Wedbush starts Robinhood, Coinbase at Outperform in fintech coverage launch",
@@ -3280,23 +3280,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795683440.2585049,
-    "SOXL": 1795683440.2585049,
-    "SPY": 1795683440.2585049,
-    "DIA": 1795683440.2585049,
-    "SOXX": 1795683440.2585049,
-    "QQQ": 1795683440.2585049,
-    "SMH": 1795683440.2585049,
-    "IWM": 1795683440.2585049,
-    "IGV": 1795683440.2585049,
-    "TLT": 1795683440.2585049,
-    "GLD": 1795683440.2585049,
-    "SQQQ": 1795683440.2585049,
-    "TSM": 1795683440.2585049,
-    "VIXY": 1795683440.2585049,
-    "SOXS": 1795683440.2585049,
-    "NVDA": 1795683440.2585049,
-    "AMD": 1795683440.2585049,
+    "KORU": 1795684981.8807309,
+    "SOXL": 1795684981.8807309,
+    "SPY": 1795684981.8807309,
+    "DIA": 1795684981.8807309,
+    "SOXX": 1795684981.8807309,
+    "QQQ": 1795684981.8807309,
+    "SMH": 1795684981.8807309,
+    "IWM": 1795684981.8807309,
+    "IGV": 1795684981.8807309,
+    "TLT": 1795684981.8807309,
+    "GLD": 1795684981.8807309,
+    "SQQQ": 1795684981.8807309,
+    "TSM": 1795684981.8807309,
+    "VIXY": 1795684981.8807309,
+    "SOXS": 1795684981.8807309,
+    "NVDA": 1795684981.8807309,
+    "AMD": 1795684981.8807309,
     "ASML": 1795683748.7084718,
     "QCOM": 1795683748.7084718,
     "AVGO": 1795683748.7084718,
@@ -3345,21 +3345,21 @@
     "CRWD": 1795684775.3857462,
     "ORCL": 1795684775.3857462,
     "COIN": 1795684775.3857462,
-    "LLY": 1795683440.2585049,
-    "MRNA": 1795683440.2585049,
-    "NKE": 1795683440.2585049,
-    "MCD": 1795683440.2585049,
-    "PEP": 1795683440.2585049,
+    "LLY": 1795684981.8807309,
+    "MRNA": 1795684981.8807309,
+    "NKE": 1795684981.8807309,
+    "MCD": 1795684981.8807309,
+    "PEP": 1795684981.8807309,
     "XOM": 1795683748.7084718,
-    "JPM": 1795683440.2585049,
+    "JPM": 1795684981.8807309,
     "WMT": 1795683748.7084718,
-    "V": 1795683440.2585049,
+    "V": 1795684981.8807309,
     "CAT": 1795683748.7084718,
     "FN": 1795683853.9113793,
     "GLW": 1795683853.9113793,
     "ANT": 1795683748.7084718,
     "XAUUSD": 1795683748.7084718,
-    "KOSPI": 1795683440.2585049
+    "KOSPI": 1795684981.8807309
   },
   "opex_shield": {
     "date": "2026-11-26",
