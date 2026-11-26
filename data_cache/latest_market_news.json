@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795653852.796,
-  "updated_at_et": "11-25 19:44 ET",
-  "updated_at_kst": "09:44 KST",
+  "updated_at_ts": 1795653953.213,
+  "updated_at_et": "11-25 19:45 ET",
+  "updated_at_kst": "09:45 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -938,18 +938,18 @@
     ],
     "NVDA": [
       {
+        "title": "Dow Jones Futures: Market Goes On Wild Ride. Nasdaq, Nvidia Slash Losses While Anthropic Reverses Higher.",
+        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures%3A-market.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 19:29 ET",
+        "pub_ts": 1795652963.0
+      },
+      {
         "title": "S&P 500, Nasdaq End Lower But Dow Rebounds As Traders Rotate Out Of AI — NVDA, SPCX, PANW In Focus",
         "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-lower-but-dow-rebounds-as-traders-rotate-out-of-ai-nvda-spcx-panw-in-focus/cNbx21AR9mC?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-25 19:09 ET",
         "pub_ts": 1795651790.0
-      },
-      {
-        "title": "Dow Jones Futures: Market Goes On Wild Ride. Nasdaq, Nvidia Slash Losses While Anthropic Reverses Higher.",
-        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures%3A-market.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 18:56 ET",
-        "pub_ts": 1795650985.0
       },
       {
         "title": "Altimeter’s Brad Gerstner Says Nvidia Was Priced for “Negative Growth for 2028 and 2029.” Wall Street Expects 29%",
@@ -2791,8 +2791,8 @@
         "title": "Dow Jones Futures: Market Goes On Wild Ride. Nasdaq, Nvidia Slash Losses While Anthropic Reverses Higher.",
         "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures%3A-market.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 18:56 ET",
-        "pub_ts": 1795650985.0
+        "time": "11-25 19:29 ET",
+        "pub_ts": 1795652963.0
       },
       {
         "title": "Sector Update: Healthcare Stocks Fall Late Afternoon",
@@ -3315,23 +3315,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795652373.5101364,
-    "SOXL": 1795652373.5101364,
-    "SPY": 1795652373.5101364,
-    "DIA": 1795652373.5101364,
-    "SOXX": 1795652373.5101364,
-    "QQQ": 1795652373.5101364,
-    "SMH": 1795652373.5101364,
-    "IWM": 1795652373.5101364,
-    "IGV": 1795652373.5101364,
-    "TLT": 1795652373.5101364,
-    "GLD": 1795652373.5101364,
-    "SQQQ": 1795652373.5101364,
-    "TSM": 1795652373.5101364,
-    "VIXY": 1795652373.5101364,
-    "SOXS": 1795652373.5101364,
-    "NVDA": 1795652373.5101364,
-    "AMD": 1795652373.5101364,
+    "KORU": 1795653953.2134147,
+    "SOXL": 1795653953.2134147,
+    "SPY": 1795653953.2134147,
+    "DIA": 1795653953.2134147,
+    "SOXX": 1795653953.2134147,
+    "QQQ": 1795653953.2134147,
+    "SMH": 1795653953.2134147,
+    "IWM": 1795653953.2134147,
+    "IGV": 1795653953.2134147,
+    "TLT": 1795653953.2134147,
+    "GLD": 1795653953.2134147,
+    "SQQQ": 1795653953.2134147,
+    "TSM": 1795653953.2134147,
+    "VIXY": 1795653953.2134147,
+    "SOXS": 1795653953.2134147,
+    "NVDA": 1795653953.2134147,
+    "AMD": 1795653953.2134147,
     "ASML": 1795652570.0894077,
     "QCOM": 1795652570.0894077,
     "AVGO": 1795652570.0894077,
@@ -3380,21 +3380,21 @@
     "CRWD": 1795653852.7959487,
     "ORCL": 1795653852.7959487,
     "COIN": 1795653852.7959487,
-    "LLY": 1795652373.5101364,
-    "MRNA": 1795652373.5101364,
-    "NKE": 1795652373.5101364,
-    "MCD": 1795652373.5101364,
-    "PEP": 1795652373.5101364,
+    "LLY": 1795653953.2134147,
+    "MRNA": 1795653953.2134147,
+    "NKE": 1795653953.2134147,
+    "MCD": 1795653953.2134147,
+    "PEP": 1795653953.2134147,
     "XOM": 1795652570.0894077,
-    "JPM": 1795652373.5101364,
+    "JPM": 1795653953.2134147,
     "WMT": 1795652570.0894077,
-    "V": 1795652373.5101364,
+    "V": 1795653953.2134147,
     "CAT": 1795652570.0894077,
     "FN": 1795652675.2002335,
     "GLW": 1795652675.2002335,
     "ANT": 1795652570.0894077,
     "XAUUSD": 1795652570.0894077,
-    "KOSPI": 1795652373.5101364
+    "KOSPI": 1795653953.2134147
   },
   "opex_shield": {
     "date": "2026-11-25",
