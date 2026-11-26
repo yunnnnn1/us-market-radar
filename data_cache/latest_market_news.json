@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795657202.941,
-  "updated_at_et": "11-25 20:40 ET",
-  "updated_at_kst": "10:40 KST",
+  "updated_at_ts": 1795657301.069,
+  "updated_at_et": "11-25 20:41 ET",
+  "updated_at_kst": "10:41 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -1203,6 +1203,13 @@
     ],
     "GOOGL": [
       {
+        "title": "Apple Stock Defies AI Selloff: Is It the Market's Safe Haven?",
+        "url": "https://beincrypto.com/apple-stock-ai-selloff-safe-haven/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 20:00 ET",
+        "pub_ts": 1795654800.0
+      },
+      {
         "title": "5 Best Strong Buy Growth Stocks to Buy for 2027",
         "url": "https://finance.yahoo.com/markets/stocks/articles/5-best-strong-buy-growth-004610627.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1229,13 +1236,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 17:30 ET",
         "pub_ts": 1795645805.0
-      },
-      {
-        "title": "These 5 Tech Stocks are Sidestepping the AI Downturn",
-        "url": "https://finance.yahoo.com/m/d635c9d7-dbc8-3f44-bc94-e186ec33e2bd/these-5-tech-stocks-are.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 16:16 ET",
-        "pub_ts": 1795641360.0
       }
     ],
     "MSFT": [
@@ -1245,13 +1245,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 12:00 ET",
         "pub_ts": 1795626000.0
-      },
-      {
-        "title": "Tariffs are back as Anthropic sinks further below its IPO price",
-        "url": "https://finance.yahoo.com/video/tariffs-are-back-as-anthropic-sinks-further-below-its-ipo-price-160524926.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:05 ET",
-        "pub_ts": 1795622724.0
       },
       {
         "title": "Microsoft's Green Card Filings Reveal A Striking Pattern After Mass Layoffs. Trump's New Rule Could Freeze Sponsorships For Two Years.",
@@ -1273,6 +1266,13 @@
         "source": "Yahoo Finance",
         "time": "11-25 15:50 ET",
         "pub_ts": 1795639822.0
+      },
+      {
+        "title": "Satya Nadella Says “the Floor of Cyber Attacks Has Fallen.” Microsoft Just Declared Code Red After a 24-Hour Outage",
+        "url": "https://www.tikr.com/blog/satya-nadella-says-the-floor-of-cyber-attacks-has-fallen-microsoft-just-declared-code-red-after-a-24-hour-outage?ref=yahoofinance&tlnk=yf-261125-gxp284g5&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 13:03 ET",
+        "pub_ts": 1795629816.0
       }
     ],
     "AAPL": [
@@ -1282,6 +1282,13 @@
         "source": "Yahoo Finance",
         "time": "11-25 16:27 ET",
         "pub_ts": 1795642024.0
+      },
+      {
+        "title": "Apple Stock Defies AI Selloff: Is It the Market's Safe Haven?",
+        "url": "https://beincrypto.com/apple-stock-ai-selloff-safe-haven/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 20:00 ET",
+        "pub_ts": 1795654800.0
       },
       {
         "title": "Apple (AAPL) Pushes Back As 24 7 Tokenized Shares Trading Opens",
@@ -1303,13 +1310,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 15:20 ET",
         "pub_ts": 1795638002.0
-      },
-      {
-        "title": "How Qualcomm’s CMO is reshaping his team for its post-Apple era",
-        "url": "https://finance.yahoo.com/technology/ai/articles/qualcomm-cmo-reshaping-team-post-160155309.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:01 ET",
-        "pub_ts": 1795622515.0
       }
     ],
     "PLTR": [
@@ -3241,8 +3241,8 @@
         "title": "Dow Jones Futures Rise; Market Goes On Wild Ride As Nasdaq Slashes Losses",
         "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 19:58 ET",
-        "pub_ts": 1795654731.0
+        "time": "11-25 20:22 ET",
+        "pub_ts": 1795656155.0
       },
       {
         "title": "SpaceX wins approval to launch one million AI data centre satellites",
@@ -3338,27 +3338,27 @@
     "SOXS": 1795657101.977278,
     "NVDA": 1795657101.977278,
     "AMD": 1795657101.977278,
-    "ASML": 1795655727.471411,
-    "QCOM": 1795655727.471411,
-    "AVGO": 1795655727.471411,
-    "AMAT": 1795655727.471411,
-    "META": 1795655727.471411,
-    "GOOGL": 1795655727.471411,
-    "MSFT": 1795655727.471411,
-    "AAPL": 1795655727.471411,
-    "PLTR": 1795655727.471411,
-    "NOW": 1795655727.471411,
-    "AMZN": 1795655727.471411,
-    "CRWV": 1795655727.471411,
-    "NBIS": 1795655727.471411,
-    "APLD": 1795655727.471411,
-    "VST": 1795655727.471411,
-    "BE": 1795655727.471411,
-    "CRDO": 1795655727.471411,
-    "COHR": 1795655727.471411,
-    "MRVL": 1795655727.471411,
+    "ASML": 1795657301.0689156,
+    "QCOM": 1795657301.0689156,
+    "AVGO": 1795657301.0689156,
+    "AMAT": 1795657301.0689156,
+    "META": 1795657301.0689156,
+    "GOOGL": 1795657301.0689156,
+    "MSFT": 1795657301.0689156,
+    "AAPL": 1795657301.0689156,
+    "PLTR": 1795657301.0689156,
+    "NOW": 1795657301.0689156,
+    "AMZN": 1795657301.0689156,
+    "CRWV": 1795657301.0689156,
+    "NBIS": 1795657301.0689156,
+    "APLD": 1795657301.0689156,
+    "VST": 1795657301.0689156,
+    "BE": 1795657301.0689156,
+    "CRDO": 1795657301.0689156,
+    "COHR": 1795657301.0689156,
+    "MRVL": 1795657301.0689156,
     "LITE": 1795655825.7702444,
-    "AAOI": 1795655727.471411,
+    "AAOI": 1795657301.0689156,
     "SPCX": 1795655825.7702444,
     "ASTS": 1795657003.8525672,
     "AXTI": 1795655825.7702444,
@@ -3391,15 +3391,15 @@
     "NKE": 1795657101.977278,
     "MCD": 1795657101.977278,
     "PEP": 1795657101.977278,
-    "XOM": 1795655727.471411,
+    "XOM": 1795657301.0689156,
     "JPM": 1795657101.977278,
-    "WMT": 1795655727.471411,
+    "WMT": 1795657301.0689156,
     "V": 1795657101.977278,
-    "CAT": 1795655727.471411,
+    "CAT": 1795657301.0689156,
     "FN": 1795655825.7702444,
     "GLW": 1795655825.7702444,
-    "ANT": 1795655727.471411,
-    "XAUUSD": 1795655727.471411,
+    "ANT": 1795657301.0689156,
+    "XAUUSD": 1795657301.0689156,
     "KOSPI": 1795657101.977278
   },
   "opex_shield": {
