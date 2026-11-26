@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795655331.716,
-  "updated_at_et": "11-25 20:08 ET",
-  "updated_at_kst": "10:08 KST",
+  "updated_at_ts": 1795655430.361,
+  "updated_at_et": "11-25 20:10 ET",
+  "updated_at_kst": "10:10 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -2125,6 +2125,13 @@
     ],
     "FLY": [
       {
+        "title": "Firefly Aerospace Stock Just Scored a New 'Buy' Rating. Here's Why.",
+        "url": "https://www.barchart.com/story/news/9008537/firefly-aerospace-stock-just-scored-a-new-buy-rating-here-s-why?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 13:51 ET",
+        "pub_ts": 1795632709.0
+      },
+      {
         "title": "Why Did Firefly Aerospace Stock Drop Today?",
         "url": "https://www.fool.com/investing/2026/11/25/why-did-firefly-aerospace-stock-drop-today/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2151,13 +2158,6 @@
         "source": "Yahoo Finance",
         "time": "11-20 13:25 ET",
         "pub_ts": 1795199111.0
-      },
-      {
-        "title": "Why Firefly Aerospace Stock Dropped This Week",
-        "url": "https://www.fool.com/coverage/market-movers/2026/11/20/why-firefly-aerospace-stock-dropped-this-week/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-20 06:23 ET",
-        "pub_ts": 1795173782.0
       }
     ],
     "INTC": [
@@ -2643,6 +2643,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "One Big Difference Between Bitcoin and Pearl: There’s ‘No True Fair Launch Anymore’",
+        "url": "https://unchainedcrypto.com/one-big-difference-between-bitcoin-and-pearl-theres-no-true-fair-launch-anymore/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 20:00 ET",
+        "pub_ts": 1795654845.0
+      },
+      {
         "title": "Why CleanSpark Stock Was a Winner on Wednesday",
         "url": "https://www.fool.com/investing/2026/11/25/why-cleanspark-stock-was-a-winner-on-wednesday/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2669,13 +2676,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 19:02 ET",
         "pub_ts": 1795651320.0
-      },
-      {
-        "title": "Bitcoin miners bet big on AI. Now, one is down 70%",
-        "url": "https://www.thestreet.com/crypto/markets/bitcoin-miners-bet-big-on-ai-now-one-is-down-70?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 18:45 ET",
-        "pub_ts": 1795650300.0
       }
     ],
     "CRWD": [
@@ -3357,32 +3357,32 @@
     "LITE": 1795654247.9220798,
     "AAOI": 1795654149.9958305,
     "SPCX": 1795654247.9220798,
-    "ASTS": 1795653852.7959487,
+    "ASTS": 1795655430.3611717,
     "AXTI": 1795654247.9220798,
-    "NASA": 1795653852.7959487,
-    "LUNR": 1795653852.7959487,
-    "TSLA": 1795653852.7959487,
-    "AXP": 1795653852.7959487,
-    "RKLB": 1795653852.7959487,
-    "KO": 1795653852.7959487,
-    "FLY": 1795653852.7959487,
-    "INTC": 1795653852.7959487,
-    "VRT": 1795653852.7959487,
-    "HPE": 1795653852.7959487,
-    "DELL": 1795653852.7959487,
-    "OKLO": 1795653852.7959487,
-    "CEG": 1795653852.7959487,
-    "FPS": 1795653852.7959487,
-    "MU": 1795653852.7959487,
-    "SKHY": 1795653852.7959487,
-    "WDC": 1795653852.7959487,
-    "STX": 1795653852.7959487,
-    "MSTR": 1795653852.7959487,
-    "SNDK": 1795653852.7959487,
-    "BTC-USD": 1795653852.7959487,
-    "CRWD": 1795653852.7959487,
-    "ORCL": 1795653852.7959487,
-    "COIN": 1795653852.7959487,
+    "NASA": 1795655430.3611717,
+    "LUNR": 1795655430.3611717,
+    "TSLA": 1795655430.3611717,
+    "AXP": 1795655430.3611717,
+    "RKLB": 1795655430.3611717,
+    "KO": 1795655430.3611717,
+    "FLY": 1795655430.3611717,
+    "INTC": 1795655430.3611717,
+    "VRT": 1795655430.3611717,
+    "HPE": 1795655430.3611717,
+    "DELL": 1795655430.3611717,
+    "OKLO": 1795655430.3611717,
+    "CEG": 1795655430.3611717,
+    "FPS": 1795655430.3611717,
+    "MU": 1795655430.3611717,
+    "SKHY": 1795655430.3611717,
+    "WDC": 1795655430.3611717,
+    "STX": 1795655430.3611717,
+    "MSTR": 1795655430.3611717,
+    "SNDK": 1795655430.3611717,
+    "BTC-USD": 1795655430.3611717,
+    "CRWD": 1795655430.3611717,
+    "ORCL": 1795655430.3611717,
+    "COIN": 1795655430.3611717,
     "LLY": 1795653953.2134147,
     "MRNA": 1795653953.2134147,
     "NKE": 1795653953.2134147,
