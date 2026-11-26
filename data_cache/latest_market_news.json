@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795673009.038,
-  "updated_at_et": "11-26 01:03 ET",
-  "updated_at_kst": "15:03 KST",
+  "updated_at_ts": 1795673110.572,
+  "updated_at_et": "11-26 01:05 ET",
+  "updated_at_kst": "15:05 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1750,6 +1750,27 @@
     ],
     "SPCX": [
       {
+        "title": "Musk makes $18 billion SpaceX stock pledge for every kid in America",
+        "url": "https://www.axios.com/2026/11/26/musk-spacex-shares-trump-accounts#utm_source=yahoo_finance&utm_medium=partner&utm_campaign=subs-partner-yahoo-finance-AI?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 00:39 ET",
+        "pub_ts": 1795671542.0
+      },
+      {
+        "title": "Musk says every U.S. child will receive two SpaceX shares",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/musk-says-every-u-child-053639491.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 00:36 ET",
+        "pub_ts": 1795671399.0
+      },
+      {
+        "title": "SpaceX Reportedly Slashes Some Nvidia Chip Rents — AI Researcher Sees Musk’s Edge In A GPU Glut",
+        "url": "https://stocktwits.com/news-articles/markets/equity/spacex-reportedly-slashes-nvidia-chip-rents-ai-researcher-musk-edge-gpu-glut/cNbxOPgR9ZQ?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 00:32 ET",
+        "pub_ts": 1795671175.0
+      },
+      {
         "title": "Cathie Wood Buys More SpaceX Amid Tesla Merger Talks — Ron Baron Says SpaceX Could Make $50B A Year From One Data Center",
         "url": "https://stocktwits.com/news-articles/markets/equity/cathie-wood-buys-spacex-tesla-merger-talks-ron-baron-spacex-50b-one-data-center/cNbxeDKR9Z4?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1762,27 +1783,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 21:38 ET",
         "pub_ts": 1795660727.0
-      },
-      {
-        "title": "Coinbase CEO on the Anthropic and SpaceX IPOs: Who Actually Made the Money?",
-        "url": "https://beincrypto.com/coinbase-ceo-anthropic-spacex-ipo-money/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 21:10 ET",
-        "pub_ts": 1795659004.0
-      },
-      {
-        "title": "SpaceX wins approval to launch one million AI data centre satellites",
-        "url": "https://www.proactiveinvestors.com/companies/news/1102478/spacex-wins-approval-to-launch-one-million-ai-data-centre-satellites-1102478.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 19:27 ET",
-        "pub_ts": 1795652820.0
-      },
-      {
-        "title": "SPCX Stock Rebounds From 9% Drop: SpaceX Pledges Shares To Trump Accounts And Wins FCC Starmind Nod",
-        "url": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-rebounds-from-9-drop-space-x-pledges-shares-to-trump-accounts-and-wins-fcc-starmind-nod/cNbx2umR9m6?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 19:22 ET",
-        "pub_ts": 1795652561.0
       }
     ],
     "ASTS": [
@@ -3312,11 +3312,11 @@
     "CRDO": 1795673009.0378375,
     "COHR": 1795673009.0378375,
     "MRVL": 1795673009.0378375,
-    "LITE": 1795671558.4144914,
+    "LITE": 1795673110.5723069,
     "AAOI": 1795673009.0378375,
-    "SPCX": 1795671558.4144914,
+    "SPCX": 1795673110.5723069,
     "ASTS": 1795672490.170636,
-    "AXTI": 1795671558.4144914,
+    "AXTI": 1795673110.5723069,
     "NASA": 1795672490.170636,
     "LUNR": 1795672490.170636,
     "TSLA": 1795672490.170636,
@@ -3351,8 +3351,8 @@
     "WMT": 1795673009.0378375,
     "V": 1795672700.8270657,
     "CAT": 1795673009.0378375,
-    "FN": 1795671558.4144914,
-    "GLW": 1795671558.4144914,
+    "FN": 1795673110.5723069,
+    "GLW": 1795673110.5723069,
     "ANT": 1795673009.0378375,
     "XAUUSD": 1795673009.0378375,
     "KOSPI": 1795672700.8270657
