@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795731429.992,
-  "updated_at_et": "11-26 17:17 ET",
-  "updated_at_kst": "07:17 KST",
+  "updated_at_ts": 1795731527.141,
+  "updated_at_et": "11-26 17:18 ET",
+  "updated_at_kst": "07:18 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2604,6 +2604,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "A 30% Bitcoin crash hasn't shaken this asset manager's $1.6 million call",
+        "url": "https://www.thestreet.com/crypto/markets/a-30-bitcoin-crash-hasnt-shaken-this-asset-managers-1-6-million-call-?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 17:00 ET",
+        "pub_ts": 1795730400.0
+      },
+      {
         "title": "Bitcoin, XRP, Ethereum face brutal crash risk as key levels crack",
         "url": "https://www.thestreet.com/crypto/markets/bitcoin-xrp-ethereum-face-brutal-crash-risk-as-key-levels-crack?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2630,13 +2637,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 13:15 ET",
         "pub_ts": 1795716929.0
-      },
-      {
-        "title": "Why Strategy Can Rebound to $175 in 2027 Even If Bitcoin Stays Below Peak",
-        "url": "https://247wallst.com/investing/2026/11/26/why-strategy-can-rebound-to-175-in-2027-even-if-bitcoin-stays-below-peak/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 12:45 ET",
-        "pub_ts": 1795715154.0
       }
     ],
     "CRWD": [
@@ -2678,6 +2678,13 @@
     ],
     "ORCL": [
       {
+        "title": "‘Room to Spare,’ Says Investor About Oracle Stock",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/room-spare-says-investor-oracle-215243159.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 16:52 ET",
+        "pub_ts": 1795729963.0
+      },
+      {
         "title": "Oracle Stocks Sink 5.13% to 52-Week Low as Default Swaps Hit Record",
         "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-stocks-sink-5-13-171842760.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2704,13 +2711,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 08:50 ET",
         "pub_ts": 1795701019.0
-      },
-      {
-        "title": "How Will Oracle's Heavy AI Spending Shape the Stock's Cash Flow Trend?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/oracles-heavy-ai-spending-shape-134100910.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 08:41 ET",
-        "pub_ts": 1795700460.0
       }
     ],
     "COIN": [
@@ -3279,23 +3279,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795729963.7117205,
-    "SOXL": 1795729963.7117205,
-    "SPY": 1795729963.7117205,
-    "DIA": 1795729963.7117205,
-    "SOXX": 1795729963.7117205,
-    "QQQ": 1795729963.7117205,
-    "SMH": 1795729963.7117205,
-    "IWM": 1795729963.7117205,
-    "IGV": 1795729963.7117205,
-    "TLT": 1795729963.7117205,
-    "GLD": 1795729963.7117205,
-    "SQQQ": 1795729963.7117205,
-    "TSM": 1795729963.7117205,
-    "VIXY": 1795729963.7117205,
-    "SOXS": 1795729963.7117205,
-    "NVDA": 1795729963.7117205,
-    "AMD": 1795729963.7117205,
+    "KORU": 1795731527.1413274,
+    "SOXL": 1795731527.1413274,
+    "SPY": 1795731527.1413274,
+    "DIA": 1795731527.1413274,
+    "SOXX": 1795731527.1413274,
+    "QQQ": 1795731527.1413274,
+    "SMH": 1795731527.1413274,
+    "IWM": 1795731527.1413274,
+    "IGV": 1795731527.1413274,
+    "TLT": 1795731527.1413274,
+    "GLD": 1795731527.1413274,
+    "SQQQ": 1795731527.1413274,
+    "TSM": 1795731527.1413274,
+    "VIXY": 1795731527.1413274,
+    "SOXS": 1795731527.1413274,
+    "NVDA": 1795731527.1413274,
+    "AMD": 1795731527.1413274,
     "ASML": 1795730357.4411318,
     "QCOM": 1795730357.4411318,
     "AVGO": 1795730357.4411318,
@@ -3338,14 +3338,14 @@
     "SKHY": 1795731235.9520001,
     "WDC": 1795731235.9520001,
     "STX": 1795731235.9520001,
-    "MSTR": 1795729963.7117205,
+    "MSTR": 1795731527.1413274,
     "SNDK": 1795731235.9520001,
-    "BTC-USD": 1795729963.7117205,
-    "CRWD": 1795729963.7117205,
-    "ORCL": 1795729963.7117205,
-    "COIN": 1795729963.7117205,
-    "LLY": 1795729963.7117205,
-    "MRNA": 1795729963.7117205,
+    "BTC-USD": 1795731527.1413274,
+    "CRWD": 1795731527.1413274,
+    "ORCL": 1795731527.1413274,
+    "COIN": 1795731527.1413274,
+    "LLY": 1795731527.1413274,
+    "MRNA": 1795731527.1413274,
     "NKE": 1795730357.4411318,
     "MCD": 1795730357.4411318,
     "PEP": 1795730357.4411318,
@@ -3358,7 +3358,7 @@
     "GLW": 1795731235.9520001,
     "ANT": 1795730454.729327,
     "XAUUSD": 1795730454.729327,
-    "KOSPI": 1795729963.7117205
+    "KOSPI": 1795731527.1413274
   },
   "opex_shield": {
     "date": "2026-11-26",
