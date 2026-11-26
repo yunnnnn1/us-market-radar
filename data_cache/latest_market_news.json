@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795661743.714,
-  "updated_at_et": "11-25 21:55 ET",
-  "updated_at_kst": "11:55 KST",
+  "updated_at_ts": 1795661898.187,
+  "updated_at_et": "11-25 21:58 ET",
+  "updated_at_kst": "11:58 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -944,6 +944,27 @@
     ],
     "NVDA": [
       {
+        "title": "Nvidia’s Market Cap Falls Below Microsoft’s: Analyst Flags Five Overhangs For NVDA Stock",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nvidia-s-market-cap-falls-below-microsoft-s-analyst-flags-five-overhangs-for-nvda-stock/cNbx4KZR9Z3?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 21:39 ET",
+        "pub_ts": 1795660782.0
+      },
+      {
+        "title": "Nvidia Put on Negative Credit Watch by S&P Over ‘Key Man’ Risk: Moody’s Says Jensen Huang’s Return as CEO ‘Reduces Near-Term Uncertainty’",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-put-negative-credit-watch-013558626.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 20:35 ET",
+        "pub_ts": 1795656958.0
+      },
+      {
+        "title": "Pete Hegseth, Trump Officials Reportedly Floated Wartime Law to Force Jensen Huang’s Return as Nvidia CEO, But Pentagon Says It ‘Never Happened’",
+        "url": "https://finance.yahoo.com/technology/articles/pete-hegseth-trump-officials-reportedly-013224994.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 20:32 ET",
+        "pub_ts": 1795656744.0
+      },
+      {
         "title": "Tech Stocks Stall Into Thanksgiving: Will the AI Rebound Return?",
         "url": "https://beincrypto.com/tech-stocks-stall-thanksgiving-nvidia-rebound/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -956,27 +977,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 19:09 ET",
         "pub_ts": 1795651790.0
-      },
-      {
-        "title": "Altimeter’s Brad Gerstner Says Nvidia Was Priced for “Negative Growth for 2028 and 2029.” Wall Street Expects 29%",
-        "url": "https://www.tikr.com/blog/altimeters-brad-gerstner-says-nvidia-was-priced-for-negative-growth-for-2028-and-2029-wall-street-expects-29?ref=yahoofinance&tlnk=yf-261125-3qj6vf95&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 18:39 ET",
-        "pub_ts": 1795649942.0
-      },
-      {
-        "title": "'Big Short' Investor Michael Burry Just Closed His Bet Against the Nasdaq. Here's What Investors Should Do Now",
-        "url": "https://www.fool.com/investing/2026/11/25/big-short-investor-michael-burry-just-closed-his-bet-against-the-nasdaq-here-s-what-investors-should-do-now/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 18:20 ET",
-        "pub_ts": 1795648828.0
-      },
-      {
-        "title": "Broadcom Stock Hasn't Traded This Low Since July 2025. I Think It's a Buy.",
-        "url": "https://www.fool.com/investing/2026/11/25/broadcom-stock-hasn-t-traded-this-low-since-july-2025-i-think-it-s-a-buy/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 20:03 ET",
-        "pub_ts": 1795654982.0
       }
     ],
     "AMD": [
@@ -3284,6 +3284,20 @@
     ],
     "KOSPI": [
       {
+        "title": "Bank of Korea Rate Hike Meets KOSPI Struggles: Can Chips Carry Korea?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/bank-korea-rate-hike-meets-015500527.html",
+        "source": "BeInCrypto",
+        "time": "11-25 20:55 ET",
+        "pub_ts": 1795658100.0
+      },
+      {
+        "title": "Samsung and SK Hynix Drag KOSPI Down 6%, and Foreign Investors Are Running",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/samsung-sk-hynix-drag-kospi-005458159.html",
+        "source": "BeInCrypto",
+        "time": "11-25 19:54 ET",
+        "pub_ts": 1795654498.0
+      },
+      {
         "title": "AI Angst Undercuts Asian Stock Markets",
         "url": "https://finance.yahoo.com/markets/world-indices/articles/ai-angst-undercuts-asian-stock-104226080.html",
         "source": "MT Newswires",
@@ -3303,41 +3317,27 @@
         "source": "GuruFocus.com",
         "time": "11-23 12:08 ET",
         "pub_ts": 1795453686.0
-      },
-      {
-        "title": "AI Jitters Roil Asian Stock Markets",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/ai-jitters-roil-asian-stock-103847073.html",
-        "source": "MT Newswires",
-        "time": "11-23 05:38 ET",
-        "pub_ts": 1795430327.0
-      },
-      {
-        "title": "Asia stocks mixed as Taiwan rebounds, KOSPI slides; U.S. futures jump",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/asia-stocks-slide-ai-rout-033321972.html",
-        "source": "Investing.com",
-        "time": "11-22 22:33 ET",
-        "pub_ts": 1795404801.0
       }
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795660261.8218083,
-    "SOXL": 1795660261.8218083,
-    "SPY": 1795660261.8218083,
-    "DIA": 1795660261.8218083,
-    "SOXX": 1795660261.8218083,
-    "QQQ": 1795660261.8218083,
-    "SMH": 1795660261.8218083,
-    "IWM": 1795660261.8218083,
-    "IGV": 1795660261.8218083,
-    "TLT": 1795660261.8218083,
-    "GLD": 1795660261.8218083,
-    "SQQQ": 1795660261.8218083,
-    "TSM": 1795660261.8218083,
-    "VIXY": 1795660261.8218083,
-    "SOXS": 1795660261.8218083,
-    "NVDA": 1795660261.8218083,
-    "AMD": 1795660261.8218083,
+    "KORU": 1795661898.1867115,
+    "SOXL": 1795661898.1867115,
+    "SPY": 1795661898.1867115,
+    "DIA": 1795661898.1867115,
+    "SOXX": 1795661898.1867115,
+    "QQQ": 1795661898.1867115,
+    "SMH": 1795661898.1867115,
+    "IWM": 1795661898.1867115,
+    "IGV": 1795661898.1867115,
+    "TLT": 1795661898.1867115,
+    "GLD": 1795661898.1867115,
+    "SQQQ": 1795661898.1867115,
+    "TSM": 1795661898.1867115,
+    "VIXY": 1795661898.1867115,
+    "SOXS": 1795661898.1867115,
+    "NVDA": 1795661898.1867115,
+    "AMD": 1795661898.1867115,
     "ASML": 1795660462.1849606,
     "QCOM": 1795660462.1849606,
     "AVGO": 1795660462.1849606,
@@ -3386,21 +3386,21 @@
     "CRWD": 1795661743.7140336,
     "ORCL": 1795661743.7140336,
     "COIN": 1795661743.7140336,
-    "LLY": 1795660261.8218083,
-    "MRNA": 1795660261.8218083,
-    "NKE": 1795660261.8218083,
-    "MCD": 1795660261.8218083,
-    "PEP": 1795660261.8218083,
+    "LLY": 1795661898.1867115,
+    "MRNA": 1795661898.1867115,
+    "NKE": 1795661898.1867115,
+    "MCD": 1795661898.1867115,
+    "PEP": 1795661898.1867115,
     "XOM": 1795660462.1849606,
-    "JPM": 1795660261.8218083,
+    "JPM": 1795661898.1867115,
     "WMT": 1795660462.1849606,
-    "V": 1795660261.8218083,
+    "V": 1795661898.1867115,
     "CAT": 1795660462.1849606,
     "FN": 1795660560.390828,
     "GLW": 1795660560.390828,
     "ANT": 1795660462.1849606,
     "XAUUSD": 1795660462.1849606,
-    "KOSPI": 1795660261.8218083
+    "KOSPI": 1795661898.1867115
   },
   "opex_shield": {
     "date": "2026-11-25",
