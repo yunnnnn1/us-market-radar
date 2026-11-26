@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795725248.976,
-  "updated_at_et": "11-26 15:34 ET",
-  "updated_at_kst": "05:34 KST",
+  "updated_at_ts": 1795725347.442,
+  "updated_at_et": "11-26 15:35 ET",
+  "updated_at_kst": "05:35 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -798,6 +798,13 @@
         "pub_ts": 1795719799.0
       },
       {
+        "title": "3 Top Stocks to Buy Before 2027 as Quantum Enters AI Data Centers",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-top-stocks-buy-2027-190000024.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 14:00 ET",
+        "pub_ts": 1795719600.0
+      },
+      {
         "title": "TSMC (TSM) Upgraded to Strong Buy: Here's Why",
         "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-tsm-upgraded-strong-buy-160004326.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -817,13 +824,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 06:03 ET",
         "pub_ts": 1795690998.0
-      },
-      {
-        "title": "Asian tech stocks jump as bargain buyers boost battered AI trade",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/asian-tech-stocks-jump-bargain-030316035.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 22:03 ET",
-        "pub_ts": 1795662196.0
       }
     ],
     "VIXY": [
@@ -902,6 +902,13 @@
     ],
     "NVDA": [
       {
+        "title": "If a Market Correction Is Around the Corner, I'm Making This 1 Easy Move",
+        "url": "https://www.fool.com/investing/2026/11/26/if-market-correction-around-corner-making-this-1-easy-move/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 15:20 ET",
+        "pub_ts": 1795724402.0
+      },
+      {
         "title": "Nvidia Stock Has Found Its Next Big Catalyst, Making the Stock a Once-in-a-Decade Buying Opportunity.",
         "url": "https://www.fool.com/investing/2026/11/26/nvidia-stock-has-found-its-next-big-catalyst-making-the-stock-a-once-in-a-decade-buying-opportunity/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -928,13 +935,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 13:12 ET",
         "pub_ts": 1795716770.0
-      },
-      {
-        "title": "Nvidia Now Has 41% of Its Stock Portfolio in SpaceX. Here’s What That Means for Nvidia Shareholders",
-        "url": "https://www.tikr.com/blog/nvidia-now-has-41-of-its-stock-portfolio-in-spacex-heres-what-that-means-for-nvidia-shareholders?ref=yahoofinance&tlnk=yf-261126-gr78h4qh&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 13:12 ET",
-        "pub_ts": 1795716730.0
       }
     ],
     "AMD": [
@@ -3279,23 +3279,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795723786.600303,
-    "SOXL": 1795723786.600303,
-    "SPY": 1795723786.600303,
-    "DIA": 1795723786.600303,
-    "SOXX": 1795723786.600303,
-    "QQQ": 1795723786.600303,
-    "SMH": 1795723786.600303,
-    "IWM": 1795723786.600303,
-    "IGV": 1795723786.600303,
-    "TLT": 1795723786.600303,
-    "GLD": 1795723786.600303,
-    "SQQQ": 1795723786.600303,
-    "TSM": 1795723786.600303,
-    "VIXY": 1795723786.600303,
-    "SOXS": 1795723786.600303,
-    "NVDA": 1795723786.600303,
-    "AMD": 1795723786.600303,
+    "KORU": 1795725347.4419146,
+    "SOXL": 1795725347.4419146,
+    "SPY": 1795725347.4419146,
+    "DIA": 1795725347.4419146,
+    "SOXX": 1795725347.4419146,
+    "QQQ": 1795725347.4419146,
+    "SMH": 1795725347.4419146,
+    "IWM": 1795725347.4419146,
+    "IGV": 1795725347.4419146,
+    "TLT": 1795725347.4419146,
+    "GLD": 1795725347.4419146,
+    "SQQQ": 1795725347.4419146,
+    "TSM": 1795725347.4419146,
+    "VIXY": 1795725347.4419146,
+    "SOXS": 1795725347.4419146,
+    "NVDA": 1795725347.4419146,
+    "AMD": 1795725347.4419146,
     "ASML": 1795723884.107633,
     "QCOM": 1795723884.107633,
     "AVGO": 1795723884.107633,
@@ -3338,14 +3338,14 @@
     "SKHY": 1795724957.0877175,
     "WDC": 1795724957.0877175,
     "STX": 1795724957.0877175,
-    "MSTR": 1795723786.600303,
+    "MSTR": 1795725347.4419146,
     "SNDK": 1795724957.0877175,
-    "BTC-USD": 1795723786.600303,
-    "CRWD": 1795723786.600303,
-    "ORCL": 1795723786.600303,
-    "COIN": 1795723786.600303,
-    "LLY": 1795723786.600303,
-    "MRNA": 1795723786.600303,
+    "BTC-USD": 1795725347.4419146,
+    "CRWD": 1795725347.4419146,
+    "ORCL": 1795725347.4419146,
+    "COIN": 1795725347.4419146,
+    "LLY": 1795725347.4419146,
+    "MRNA": 1795725347.4419146,
     "NKE": 1795723884.107633,
     "MCD": 1795723884.107633,
     "PEP": 1795723884.107633,
@@ -3358,7 +3358,7 @@
     "GLW": 1795724957.0877175,
     "ANT": 1795723983.4332519,
     "XAUUSD": 1795723983.4332519,
-    "KOSPI": 1795723786.600303
+    "KOSPI": 1795725347.4419146
   },
   "opex_shield": {
     "date": "2026-11-26",
