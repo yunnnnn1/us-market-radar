@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795704767.403,
-  "updated_at_et": "11-26 09:52 ET",
-  "updated_at_kst": "23:52 KST",
+  "updated_at_ts": 1795704870.207,
+  "updated_at_et": "11-26 09:54 ET",
+  "updated_at_kst": "23:54 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1754,6 +1754,20 @@
     ],
     "SPCX": [
       {
+        "title": "Elon Musk Says ‘Multiplanetary’ SpaceX Could Be Worth $118 Quintillion. Yes, Quintillion",
+        "url": "https://decrypt.co/384043/elon-musk-says-multiplanetary-spacex-could-be-worth-118-quintillion-yes-quintillion?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 09:38 ET",
+        "pub_ts": 1795703935.0
+      },
+      {
+        "title": "SpaceX Gets the First U.S. Approval for Data Centers in Space",
+        "url": "https://247wallst.com/investing/2026/11/26/spacex-gets-the-first-u-s-approval-for-data-centers-in-space/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 09:28 ET",
+        "pub_ts": 1795703287.0
+      },
+      {
         "title": "SpaceX refused $738M in fed grants to give rural homes free Starlink gear. It got what it wanted from Trump in return",
         "url": "https://finance.yahoo.com/technology/articles/spacex-refused-738m-fed-grants-140000981.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1761,35 +1775,28 @@
         "pub_ts": 1795701600.0
       },
       {
+        "title": "SpaceX pledges stock for active Trump Accounts, Elon Musk to match",
+        "url": "https://www.proactiveinvestors.com/companies/news/1102523/spacex-pledges-stock-for-active-trump-accounts-elon-musk-to-match-1102523.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 08:54 ET",
+        "pub_ts": 1795701240.0
+      },
+      {
         "title": "Jensen Huang Says Grok Bot Consumption Is “Really Skyrocketing.” That’s Good News for SpaceX",
         "url": "https://www.tikr.com/blog/jensen-huang-says-grok-bot-consumption-is-really-skyrocketing-thats-good-news-for-spacex?ref=yahoofinance&tlnk=yf-261126-q7mrmmjx&.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-26 08:16 ET",
         "pub_ts": 1795698985.0
-      },
-      {
-        "title": "Musk to gift SpaceX shares to every child in America",
-        "url": "https://uk.finance.yahoo.com/news/musk-gift-spacex-shares-every-131214750.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 08:12 ET",
-        "pub_ts": 1795698734.0
-      },
-      {
-        "title": "SpaceX and Elon Musk Will Each Give a Share to Every Active Trump Account",
-        "url": "https://247wallst.com/investing/2026/11/26/spacex-and-elon-musk-will-each-give-a-share-to-every-active-trump-account/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 07:38 ET",
-        "pub_ts": 1795696715.0
-      },
-      {
-        "title": "JPMorgan Says S&P Could Waive Its Rules for a Tesla-SpaceX Merger. That’s Good News for SpaceX Holders",
-        "url": "https://www.tikr.com/blog/jpmorgan-says-sp-could-waive-its-rules-for-a-tesla-spacex-merger-thats-good-news-for-spacex-holders?ref=yahoofinance&tlnk=yf-261126-gpc9wr29&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:45 ET",
-        "pub_ts": 1795693559.0
       }
     ],
     "ASTS": [
+      {
+        "title": "AST SpaceMobile Is Down 80% From Its May High. Jim Cramer Calls It “A Very Hard Stock to Own”",
+        "url": "https://www.tikr.com/blog/ast-spacemobile-is-down-80-from-its-may-high-jim-cramer-calls-it-a-very-hard-stock-to-own?ref=yahoofinance&tlnk=yf-261126-26mpx8wg&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 09:05 ET",
+        "pub_ts": 1795701937.0
+      },
       {
         "title": "SPCX Wins Million-Satellite Nod And Retail Attention — But ASTS Leads Space Stocks Into Thanksgiving",
         "url": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-million-satellite-nod-asts-leads-rklb-lunr-bksy-thanksgiving/cNbxLqbR9ZV?.tsrc=rss",
@@ -1817,13 +1824,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:52 ET",
         "pub_ts": 1795607571.0
-      },
-      {
-        "title": "AST SpaceMobile Is 82% Below Its May High. A Director Just Bought $1 Million More",
-        "url": "https://www.tikr.com/blog/ast-spacemobile-is-82-below-its-may-high-a-director-just-bought-1-million-more?ref=yahoofinance&tlnk=yf-261125-j8v5vv4r&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 04:02 ET",
-        "pub_ts": 1795597322.0
       }
     ],
     "AXTI": [
@@ -2013,6 +2013,13 @@
     ],
     "RKLB": [
       {
+        "title": "AST SpaceMobile Is Down 80% From Its May High. Jim Cramer Calls It “A Very Hard Stock to Own”",
+        "url": "https://www.tikr.com/blog/ast-spacemobile-is-down-80-from-its-may-high-jim-cramer-calls-it-a-very-hard-stock-to-own?ref=yahoofinance&tlnk=yf-261126-26mpx8wg&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 09:05 ET",
+        "pub_ts": 1795701937.0
+      },
+      {
         "title": "RKLB vs. LUNR: Which Space Stock Has the Stronger Growth Outlook?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/rklb-vs-lunr-space-stock-125000446.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2039,13 +2046,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 12:05 ET",
         "pub_ts": 1795626319.0
-      },
-      {
-        "title": "SpaceX Slides 5% as Gary Black Warns a Tesla Bid Could Push It Below $100; Rocket Lab and AST SpaceMobile Drop 4%",
-        "url": "https://247wallst.com/investing/2026/11/25/spacex-slides-5-as-gary-black-warns-a-tesla-bid-could-push-it-below-100-rocket-lab-and-ast-spacemobile-drop-4/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:17 ET",
-        "pub_ts": 1795616238.0
       }
     ],
     "KO": [
@@ -2242,6 +2242,13 @@
         "pub_ts": 1795700729.0
       },
       {
+        "title": "Dell’s Jeff Clarke: Dell Is “Now a Different Company.” A $132 Billion Backlog Backs Him Up",
+        "url": "https://www.tikr.com/blog/dells-jeff-clarke-dell-is-now-a-different-company-a-132-billion-backlog-backs-him-up?ref=yahoofinance&tlnk=yf-261126-27hg7x9w&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 04:51 ET",
+        "pub_ts": 1795686662.0
+      },
+      {
         "title": "DELL Stock Heads For Worst Month Since 2021: Morningstar Sees Risk Ahead For Dell Despite AI-Led Earnings Beat",
         "url": "https://stocktwits.com/news-articles/markets/equity/dell-stock-heads-for-worst-month-since-2021-morningstar-sees-risk-ahead-for-dell-despite-ai-led-earnings-beat/cNbx0U7R9Zo?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2261,13 +2268,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 00:33 ET",
         "pub_ts": 1795671214.0
-      },
-      {
-        "title": "Is Nvidia Stock a Buy After Dell's Record AI Backlog?",
-        "url": "https://www.fool.com/investing/2026/11/25/is-nvidia-stock-a-buy-after-dell-s-record-ai-backlog/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 22:07 ET",
-        "pub_ts": 1795662422.0
       }
     ],
     "OKLO": [
@@ -3316,31 +3316,31 @@
     "CRDO": 1795704767.4034963,
     "COHR": 1795704767.4034963,
     "MRVL": 1795704767.4034963,
-    "LITE": 1795703321.49975,
+    "LITE": 1795704870.2073371,
     "AAOI": 1795704767.4034963,
-    "SPCX": 1795703321.49975,
-    "ASTS": 1795703321.49975,
-    "AXTI": 1795703321.49975,
-    "NASA": 1795703321.49975,
-    "LUNR": 1795703321.49975,
-    "TSLA": 1795703321.49975,
-    "AXP": 1795703321.49975,
-    "RKLB": 1795703321.49975,
-    "KO": 1795703321.49975,
-    "FLY": 1795703321.49975,
-    "INTC": 1795703321.49975,
-    "VRT": 1795703321.49975,
-    "HPE": 1795703321.49975,
-    "DELL": 1795703321.49975,
-    "OKLO": 1795703321.49975,
-    "CEG": 1795703321.49975,
-    "FPS": 1795703321.49975,
-    "MU": 1795703321.49975,
-    "SKHY": 1795703321.49975,
-    "WDC": 1795703321.49975,
-    "STX": 1795703321.49975,
+    "SPCX": 1795704870.2073371,
+    "ASTS": 1795704870.2073371,
+    "AXTI": 1795704870.2073371,
+    "NASA": 1795704870.2073371,
+    "LUNR": 1795704870.2073371,
+    "TSLA": 1795704870.2073371,
+    "AXP": 1795704870.2073371,
+    "RKLB": 1795704870.2073371,
+    "KO": 1795704870.2073371,
+    "FLY": 1795704870.2073371,
+    "INTC": 1795704870.2073371,
+    "VRT": 1795704870.2073371,
+    "HPE": 1795704870.2073371,
+    "DELL": 1795704870.2073371,
+    "OKLO": 1795704870.2073371,
+    "CEG": 1795704870.2073371,
+    "FPS": 1795704870.2073371,
+    "MU": 1795704870.2073371,
+    "SKHY": 1795704870.2073371,
+    "WDC": 1795704870.2073371,
+    "STX": 1795704870.2073371,
     "MSTR": 1795703424.9093442,
-    "SNDK": 1795703321.49975,
+    "SNDK": 1795704870.2073371,
     "BTC-USD": 1795703424.9093442,
     "CRWD": 1795703424.9093442,
     "ORCL": 1795703424.9093442,
@@ -3355,8 +3355,8 @@
     "WMT": 1795704767.4034963,
     "V": 1795704458.3549743,
     "CAT": 1795704767.4034963,
-    "FN": 1795703321.49975,
-    "GLW": 1795703321.49975,
+    "FN": 1795704870.2073371,
+    "GLW": 1795704870.2073371,
     "ANT": 1795704767.4034963,
     "XAUUSD": 1795704767.4034963,
     "KOSPI": 1795704458.3549743
