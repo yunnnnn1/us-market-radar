@@ -151,7 +151,7 @@
     },
     "DELL": {
       "state": "STOP_LOSS",
-      "last_notified_at": 1795724478.330466
+      "last_notified_at": 1795731735.0844696
     },
     "BE": {
       "state": "STOP_LOSS",
@@ -167,7 +167,7 @@
     },
     "MSFT": {
       "state": "WATCHLIST_ENTRY_READY",
-      "last_notified_at": 1795728121.8716905
+      "last_notified_at": 1795731735.0844696
     },
     "NKE": {
       "state": "NORMAL",
