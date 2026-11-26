@@ -7147,9 +7147,21 @@
     "JIN10_FLASH:20261126121104918800": {
       "device": "PC",
       "ts": 1795666367.7067647
+    },
+    "2026-11-26:DEFENSIVE_FLIGHT:-0.7": {
+      "device": "PC",
+      "ts": 1795669229.1984751
+    },
+    "2026-11-26:VIX_REGIME:BACKWARDATION_BRAKE": {
+      "device": "PC",
+      "ts": 1795669229.3686771
+    },
+    "2026-11-26:VXN_TECH_DELEVERAGING": {
+      "device": "PC",
+      "ts": 1795669229.5344334
     }
   },
   "device": "PC",
-  "last_heartbeat_ts": 1795669044.30816,
-  "updated_at": "2026-11-26T04:57:24.308197+00:00"
+  "last_heartbeat_ts": 1795669144.0534434,
+  "updated_at": "2026-11-26T05:00:29.534458+00:00"
 }
