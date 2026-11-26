@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795663171.483,
-  "updated_at_et": "11-25 22:19 ET",
-  "updated_at_kst": "12:19 KST",
+  "updated_at_ts": 1795663273.094,
+  "updated_at_et": "11-25 22:21 ET",
+  "updated_at_kst": "12:21 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -2278,6 +2278,13 @@
     ],
     "DELL": [
       {
+        "title": "Is Nvidia Stock a Buy After Dell's Record AI Backlog?",
+        "url": "https://www.fool.com/investing/2026/11/25/is-nvidia-stock-a-buy-after-dell-s-record-ai-backlog/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 22:07 ET",
+        "pub_ts": 1795662422.0
+      },
+      {
         "title": "Dell Technologies (DELL) Q3 Earnings Showcase AI Strength Without Stock Heat",
         "url": "https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-q3-earnings-231732006.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2304,13 +2311,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 15:45 ET",
         "pub_ts": 1795639536.0
-      },
-      {
-        "title": "Dell’s Jeff Clarke: “We’ve Had No Customers Reschedule Business.” That’s Good News for Nvidia",
-        "url": "https://www.tikr.com/blog/dells-jeff-clarke-weve-had-no-customers-reschedule-business-thats-good-news-for-nvidia?ref=yahoofinance&tlnk=yf-261125-pm9r283x&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 15:20 ET",
-        "pub_ts": 1795638027.0
       }
     ],
     "OKLO": [
@@ -2722,6 +2722,13 @@
     ],
     "ORCL": [
       {
+        "title": "Is Oracle the First AI Casualty as It Sheds 70% of Its Value?",
+        "url": "https://beincrypto.com/oracle-stock-falls-70-ai-debt/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 21:15 ET",
+        "pub_ts": 1795659300.0
+      },
+      {
         "title": "Oracle Bonds Yield a Towering 9% on Debt and Data-Center Concerns. Are They a Buy?",
         "url": "https://finance.yahoo.com/m/7cf2c7c4-a034-30e7-a2f0-b3ea8684f897/oracle-bonds-yield-a-towering.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2748,16 +2755,16 @@
         "source": "Yahoo Finance",
         "time": "11-25 20:19 ET",
         "pub_ts": 1795655993.0
-      },
-      {
-        "title": "Amdocs (DOX) Stock Is Up 4.6% Today Without Company News",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/amdocs-dox-stock-4-6-181513799.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 13:15 ET",
-        "pub_ts": 1795630513.0
       }
     ],
     "COIN": [
+      {
+        "title": "Coinbase CEO on the Anthropic and SpaceX IPOs: Who Actually Made the Money?",
+        "url": "https://beincrypto.com/coinbase-ceo-anthropic-spacex-ipo-money/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 21:10 ET",
+        "pub_ts": 1795659004.0
+      },
       {
         "title": "What Sent Coinbase Stock Lower?",
         "url": "https://www.trefis.com/stock/coin/articles/629018/what-sent-coinbase-stock-lower/2026-11-25?.tsrc=rss",
@@ -2785,13 +2792,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 12:49 ET",
         "pub_ts": 1795628959.0
-      },
-      {
-        "title": "Wedbush starts Robinhood, Coinbase at Outperform in fintech coverage launch",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/wedbush-starts-robinhood-coinbase-outperform-163557118.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:35 ET",
-        "pub_ts": 1795624557.0
       }
     ],
     "LLY": [
@@ -3362,32 +3362,32 @@
     "LITE": 1795662353.6528084,
     "AAOI": 1795662250.9697812,
     "SPCX": 1795662353.6528084,
-    "ASTS": 1795661743.7140336,
+    "ASTS": 1795663273.0939364,
     "AXTI": 1795662353.6528084,
-    "NASA": 1795661743.7140336,
-    "LUNR": 1795661743.7140336,
-    "TSLA": 1795661743.7140336,
-    "AXP": 1795661743.7140336,
-    "RKLB": 1795661743.7140336,
-    "KO": 1795661743.7140336,
-    "FLY": 1795661743.7140336,
-    "INTC": 1795661743.7140336,
-    "VRT": 1795661743.7140336,
-    "HPE": 1795661743.7140336,
-    "DELL": 1795661743.7140336,
-    "OKLO": 1795661743.7140336,
-    "CEG": 1795661743.7140336,
-    "FPS": 1795661743.7140336,
-    "MU": 1795661743.7140336,
-    "SKHY": 1795661743.7140336,
-    "WDC": 1795661743.7140336,
-    "STX": 1795661743.7140336,
-    "MSTR": 1795661743.7140336,
-    "SNDK": 1795661743.7140336,
-    "BTC-USD": 1795661743.7140336,
-    "CRWD": 1795661743.7140336,
-    "ORCL": 1795661743.7140336,
-    "COIN": 1795661743.7140336,
+    "NASA": 1795663273.0939364,
+    "LUNR": 1795663273.0939364,
+    "TSLA": 1795663273.0939364,
+    "AXP": 1795663273.0939364,
+    "RKLB": 1795663273.0939364,
+    "KO": 1795663273.0939364,
+    "FLY": 1795663273.0939364,
+    "INTC": 1795663273.0939364,
+    "VRT": 1795663273.0939364,
+    "HPE": 1795663273.0939364,
+    "DELL": 1795663273.0939364,
+    "OKLO": 1795663273.0939364,
+    "CEG": 1795663273.0939364,
+    "FPS": 1795663273.0939364,
+    "MU": 1795663273.0939364,
+    "SKHY": 1795663273.0939364,
+    "WDC": 1795663273.0939364,
+    "STX": 1795663273.0939364,
+    "MSTR": 1795663273.0939364,
+    "SNDK": 1795663273.0939364,
+    "BTC-USD": 1795663273.0939364,
+    "CRWD": 1795663273.0939364,
+    "ORCL": 1795663273.0939364,
+    "COIN": 1795663273.0939364,
     "LLY": 1795661898.1867115,
     "MRNA": 1795661898.1867115,
     "NKE": 1795661898.1867115,
