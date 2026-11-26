@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795680264.682,
-  "updated_at_et": "11-26 03:04 ET",
-  "updated_at_kst": "17:04 KST",
+  "updated_at_ts": 1795680365.927,
+  "updated_at_et": "11-26 03:06 ET",
+  "updated_at_kst": "17:06 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -896,6 +896,27 @@
     ],
     "NVDA": [
       {
+        "title": "Prediction: This Is What Nvidia Stock Will Be Worth by 2028",
+        "url": "https://www.fool.com/investing/2026/11/26/prediction-this-is-what-nvidia-stock-will-be-worth-by-2028/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 02:54 ET",
+        "pub_ts": 1795679642.0
+      },
+      {
+        "title": "Nvidia Could Shift Chips To ‘Better-Funded Buyers’ As Neoclouds Face Shakeout: Analyst Sees ‘Smaller Top Tier’",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nvidia-could-shift-chips-to-better-funded-buyers-as-neoclouds-face-shakeout-analyst-sees-smaller-top-tier/cNbxWjpR9ZZ?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 02:41 ET",
+        "pub_ts": 1795678868.0
+      },
+      {
+        "title": "Apple Is November's Mag7 Winner — Nvidia Takes The Biggest Hit",
+        "url": "https://stocktwits.com/news-articles/markets/equity/apple-is-november-s-mag7-winner-nvidia-takes-the-biggest-hit/cNbxWaAR9Zm?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 02:32 ET",
+        "pub_ts": 1795678362.0
+      },
+      {
         "title": "Mike Pompeo Has ‘No Doubt’ Alice Huang Coordinated With Communist Party of China: Crypto Bettors Weigh Odds of Her Arrest",
         "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63660281/mike-pompeo-has-no-doubt-alice-huang-coordinated-with-communist-party-of-china-crypto-bettors-weigh-odds-of-her-arrest?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -908,27 +929,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 01:30 ET",
         "pub_ts": 1795674651.0
-      },
-      {
-        "title": "Nvidia stops shipping AI servers to 4 Southeast Asian countries- FT",
-        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-stops-shipping-ai-servers-062916311.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 01:29 ET",
-        "pub_ts": 1795674556.0
-      },
-      {
-        "title": "Kioxia jumps 14% after Nvidia collaboration as chip stocks rebound",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/kioxia-jumps-14-nvidia-collaboration-062844097.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 01:28 ET",
-        "pub_ts": 1795674524.0
-      },
-      {
-        "title": "ANT, NVDA Slide Tests Investor Resolve, Software Firms Post Sharp Growth",
-        "url": "https://stocktwits.com/news-articles/markets/equity/ant-nvda-slide-tests-investor-resolve-software-firms-post-sharp-growth/cNbxO5FR9ZX?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 00:33 ET",
-        "pub_ts": 1795671214.0
       }
     ],
     "AMD": [
@@ -2968,13 +2968,6 @@
     ],
     "JPM": [
       {
-        "title": "Tariffs are back as Anthropic sinks further below its IPO price",
-        "url": "https://finance.yahoo.com/video/tariffs-are-back-as-anthropic-sinks-further-below-its-ipo-price-160524926.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:05 ET",
-        "pub_ts": 1795622724.0
-      },
-      {
         "title": "Market Chatter: JPMorgan Projects $450 Billion in AI High-Grade Debt Issuance for 2027",
         "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-jpmorgan-projects-450-222027435.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3001,6 +2994,13 @@
         "source": "Yahoo Finance",
         "time": "11-25 13:21 ET",
         "pub_ts": 1795630860.0
+      },
+      {
+        "title": "JPMorgan Sees S&P 500 At 8,200 In 2027 As AI Supercycle Remains Intact",
+        "url": "https://stocktwits.com/news-articles/markets/equity/jp-morgan-sees-s-and-p-500-at-8-200-in-2027-as-ai-supercycle-remains-intact/cNbHmzoR9mY?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 11:47 ET",
+        "pub_ts": 1795625272.0
       }
     ],
     "WMT": [
@@ -3273,23 +3273,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795678834.4011266,
-    "SOXL": 1795678834.4011266,
-    "SPY": 1795678834.4011266,
-    "DIA": 1795678834.4011266,
-    "SOXX": 1795678834.4011266,
-    "QQQ": 1795678834.4011266,
-    "SMH": 1795678834.4011266,
-    "IWM": 1795678834.4011266,
-    "IGV": 1795678834.4011266,
-    "TLT": 1795678834.4011266,
-    "GLD": 1795678834.4011266,
-    "SQQQ": 1795678834.4011266,
-    "TSM": 1795678834.4011266,
-    "VIXY": 1795678834.4011266,
-    "SOXS": 1795678834.4011266,
-    "NVDA": 1795678834.4011266,
-    "AMD": 1795678834.4011266,
+    "KORU": 1795680365.9272068,
+    "SOXL": 1795680365.9272068,
+    "SPY": 1795680365.9272068,
+    "DIA": 1795680365.9272068,
+    "SOXX": 1795680365.9272068,
+    "QQQ": 1795680365.9272068,
+    "SMH": 1795680365.9272068,
+    "IWM": 1795680365.9272068,
+    "IGV": 1795680365.9272068,
+    "TLT": 1795680365.9272068,
+    "GLD": 1795680365.9272068,
+    "SQQQ": 1795680365.9272068,
+    "TSM": 1795680365.9272068,
+    "VIXY": 1795680365.9272068,
+    "SOXS": 1795680365.9272068,
+    "NVDA": 1795680365.9272068,
+    "AMD": 1795680365.9272068,
     "ASML": 1795679138.217673,
     "QCOM": 1795679138.217673,
     "AVGO": 1795679138.217673,
@@ -3338,21 +3338,21 @@
     "CRWD": 1795680162.9182074,
     "ORCL": 1795680162.9182074,
     "COIN": 1795680162.9182074,
-    "LLY": 1795678834.4011266,
-    "MRNA": 1795678834.4011266,
-    "NKE": 1795678834.4011266,
-    "MCD": 1795678834.4011266,
-    "PEP": 1795678834.4011266,
+    "LLY": 1795680365.9272068,
+    "MRNA": 1795680365.9272068,
+    "NKE": 1795680365.9272068,
+    "MCD": 1795680365.9272068,
+    "PEP": 1795680365.9272068,
     "XOM": 1795679138.217673,
-    "JPM": 1795678834.4011266,
+    "JPM": 1795680365.9272068,
     "WMT": 1795679138.217673,
-    "V": 1795678834.4011266,
+    "V": 1795680365.9272068,
     "CAT": 1795679138.217673,
     "FN": 1795679240.5950189,
     "GLW": 1795679240.5950189,
     "ANT": 1795679138.217673,
     "XAUUSD": 1795679138.217673,
-    "KOSPI": 1795678834.4011266
+    "KOSPI": 1795680365.9272068
   },
   "opex_shield": {
     "date": "2026-11-26",
