@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795702791.761,
-  "updated_at_et": "11-26 09:19 ET",
-  "updated_at_kst": "23:19 KST",
+  "updated_at_ts": 1795702896.919,
+  "updated_at_et": "11-26 09:21 ET",
+  "updated_at_kst": "23:21 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -903,11 +903,25 @@
     ],
     "NVDA": [
       {
+        "title": "Will Jensen Huang's second act as Nvidia CEO be different?",
+        "url": "https://finance.yahoo.com/video/jensen-huangs-second-act-nvidia-140000599.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 09:00 ET",
+        "pub_ts": 1795701600.0
+      },
+      {
         "title": "Jensen Huang 'absolutely could be fired again,' legal expert says",
         "url": "https://finance.yahoo.com/video/jensen-huang-absolutely-could-fired-130000374.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-26 08:00 ET",
         "pub_ts": 1795698000.0
+      },
+      {
+        "title": "Heading Into FY27: How to Trade Broadcom’s ~$115B AI Target Against Nvidia’s Multiple Reset",
+        "url": "https://247wallst.com/investing/2026/11/26/heading-into-fy27-how-to-trade-broadcoms-115b-ai-target-against-nvidias-multiple-reset/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 08:45 ET",
+        "pub_ts": 1795700733.0
       },
       {
         "title": "New U.S. Chip Rule Is Now Hitting AI Data-Center Loans, Not Just Nvidia Chips",
@@ -922,20 +936,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 08:17 ET",
         "pub_ts": 1795699058.0
-      },
-      {
-        "title": "How Much Is Jensen Huang Worth to Nvidia? The Stock Market Just Gave a Clear Answer",
-        "url": "https://www.fool.com/investing/2026/11/26/how-much-is-jensen-huang-worth-to-nvidia-the-stock-market-just-gave-a-clear-answer/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 07:54 ET",
-        "pub_ts": 1795697642.0
-      },
-      {
-        "title": "US Chip Curbs Can't Shake China's Appetite For Nvidia. Another Chinese Firm Is Buying 5,000 Blackwell GPUs.",
-        "url": "https://www.ibtimes.com/weimob-buying-5000-nvidia-blackwell-gpus-3810225?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 07:37 ET",
-        "pub_ts": 1795696625.0
       }
     ],
     "AMD": [
@@ -2756,8 +2756,8 @@
         "title": "Dow Jones Futures Rise With U.S. Markets Shut; Look For This Bullish Signal",
         "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise-with.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 08:47 ET",
-        "pub_ts": 1795700853.0
+        "time": "11-26 09:07 ET",
+        "pub_ts": 1795702030.0
       },
       {
         "title": "Can Oncology Emerge as Eli Lilly's Next Major Growth Driver?",
@@ -2864,6 +2864,13 @@
     ],
     "MCD": [
       {
+        "title": "McDonald’s, Dunkin’ restaurants are open on Thanksgiving with a twist",
+        "url": "https://www.thestreet.com/restaurants/thanksgiving-restaurant-hours-2026-mcdonalds-dunkin-starbucks?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 09:07 ET",
+        "pub_ts": 1795702020.0
+      },
+      {
         "title": "Here's How Much a $10,000 Investment in McDonald's Pays You Every Single Year",
         "url": "https://www.fool.com/investing/2026/11/25/heres-how-much-a-10000-investment-in-mcdonalds-pays-you-every-single-year/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2890,16 +2897,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 17:30 ET",
         "pub_ts": 1795559400.0
-      },
-      {
-        "title": "Crispier Chicken and Remodels Pit McDonald's Against Franchisees",
-        "url": "https://finance.yahoo.com/video/crispier-chicken-remodels-pit-mcdonalds-172814756.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 12:28 ET",
-        "pub_ts": 1795541294.0
       }
     ],
     "PEP": [
+      {
+        "title": "Forget the Market's Hottest Stocks. This Boring Dividend Stock Is Where I'd Put $1,000 Before 2027.",
+        "url": "https://www.fool.com/investing/2026/11/26/forget-the-markets-hottest-stocks-this-boring-dividend-stock-is-where-id-put-1000-before-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 08:52 ET",
+        "pub_ts": 1795701122.0
+      },
       {
         "title": "ETFs Bought $39.1 Million of PepsiCo (PEP) on Nov. 24",
         "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-39-1-million-110120545.html?.tsrc=rss",
@@ -2927,13 +2934,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 17:15 ET",
         "pub_ts": 1795558530.0
-      },
-      {
-        "title": "Anthropic falls below IPO price as Nvidia gives back gains",
-        "url": "https://finance.yahoo.com/video/anthropic-falls-below-ipo-price-as-nvidia-gives-back-gains-214558309.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:45 ET",
-        "pub_ts": 1795556758.0
       }
     ],
     "XOM": [
@@ -3280,23 +3280,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795701342.187749,
-    "SOXL": 1795701342.187749,
-    "SPY": 1795701342.187749,
-    "DIA": 1795701342.187749,
-    "SOXX": 1795701342.187749,
-    "QQQ": 1795701342.187749,
-    "SMH": 1795701342.187749,
-    "IWM": 1795701342.187749,
-    "IGV": 1795701342.187749,
-    "TLT": 1795701342.187749,
-    "GLD": 1795701342.187749,
-    "SQQQ": 1795701342.187749,
-    "TSM": 1795701342.187749,
-    "VIXY": 1795701342.187749,
-    "SOXS": 1795701342.187749,
-    "NVDA": 1795701342.187749,
-    "AMD": 1795701342.187749,
+    "KORU": 1795702896.9191728,
+    "SOXL": 1795702896.9191728,
+    "SPY": 1795702896.9191728,
+    "DIA": 1795702896.9191728,
+    "SOXX": 1795702896.9191728,
+    "QQQ": 1795702896.9191728,
+    "SMH": 1795702896.9191728,
+    "IWM": 1795702896.9191728,
+    "IGV": 1795702896.9191728,
+    "TLT": 1795702896.9191728,
+    "GLD": 1795702896.9191728,
+    "SQQQ": 1795702896.9191728,
+    "TSM": 1795702896.9191728,
+    "VIXY": 1795702896.9191728,
+    "SOXS": 1795702896.9191728,
+    "NVDA": 1795702896.9191728,
+    "AMD": 1795702896.9191728,
     "ASML": 1795701654.5202398,
     "QCOM": 1795701654.5202398,
     "AVGO": 1795701654.5202398,
@@ -3345,21 +3345,21 @@
     "CRWD": 1795701861.4900713,
     "ORCL": 1795701861.4900713,
     "COIN": 1795701861.4900713,
-    "LLY": 1795701342.187749,
-    "MRNA": 1795701342.187749,
-    "NKE": 1795701342.187749,
-    "MCD": 1795701342.187749,
-    "PEP": 1795701342.187749,
+    "LLY": 1795702896.9191728,
+    "MRNA": 1795702896.9191728,
+    "NKE": 1795702896.9191728,
+    "MCD": 1795702896.9191728,
+    "PEP": 1795702896.9191728,
     "XOM": 1795701654.5202398,
-    "JPM": 1795701342.187749,
+    "JPM": 1795702896.9191728,
     "WMT": 1795701654.5202398,
-    "V": 1795701342.187749,
+    "V": 1795702896.9191728,
     "CAT": 1795701654.5202398,
     "FN": 1795701757.3269928,
     "GLW": 1795701757.3269928,
     "ANT": 1795701654.5202398,
     "XAUUSD": 1795701654.5202398,
-    "KOSPI": 1795701342.187749
+    "KOSPI": 1795702896.9191728
   },
   "opex_shield": {
     "date": "2026-11-26",
