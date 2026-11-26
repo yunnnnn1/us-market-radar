@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795733479.123,
-  "updated_at_et": "11-26 17:51 ET",
-  "updated_at_kst": "07:51 KST",
+  "updated_at_ts": 1795733576.044,
+  "updated_at_et": "11-26 17:52 ET",
+  "updated_at_kst": "07:52 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -3198,6 +3198,20 @@
     ],
     "ANT": [
       {
+        "title": "Anthropic Stock (ANT) Forecast – Analysts See 60%+ Upside Despite Ongoing AI Trade Concerns",
+        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-stock-ant-forecast-analysts-222745210.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 17:27 ET",
+        "pub_ts": 1795732065.0
+      },
+      {
+        "title": "Dow Jones Futures Rise On Holiday; Look For This Bullish Market Signal",
+        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise-on.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 17:26 ET",
+        "pub_ts": 1795731969.0
+      },
+      {
         "title": "O’Reilly’s Sales to Professional Mechanics Jumped 12.7% Last Quarter. Here’s Why That’s the Clearest Sign of Its Moat.",
         "url": "https://www.fool.com/investing/2026/11/26/oreilly-sales-professional-mechanics-jumped-last-quarter-why-that-s-the-clearest-sign-of-its-moat/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3217,20 +3231,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 14:50 ET",
         "pub_ts": 1795722602.0
-      },
-      {
-        "title": "I'd Buy Anthropic Stock Early — but Only If I Liked the Answers to These 3 Questions",
-        "url": "https://www.fool.com/investing/2026/11/26/id-buy-anthropic-stock-on-day-1-but-only-if-you-can-answer-these-3-questions/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 14:37 ET",
-        "pub_ts": 1795721822.0
-      },
-      {
-        "title": "Anthropic Stocks Rise but Close Below $83 IPO Price for a Second Day",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-stocks-rise-close-below-190552499.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 14:05 ET",
-        "pub_ts": 1795719952.0
       }
     ],
     "XAUUSD": [
@@ -3351,15 +3351,15 @@
     "NKE": 1795733479.123011,
     "MCD": 1795733479.123011,
     "PEP": 1795733479.123011,
-    "XOM": 1795732017.3020346,
+    "XOM": 1795733576.0440662,
     "JPM": 1795733479.123011,
-    "WMT": 1795732017.3020346,
+    "WMT": 1795733576.0440662,
     "V": 1795733479.123011,
-    "CAT": 1795732017.3020346,
+    "CAT": 1795733576.0440662,
     "FN": 1795732795.7754316,
     "GLW": 1795732795.7754316,
-    "ANT": 1795732017.3020346,
-    "XAUUSD": 1795732017.3020346,
+    "ANT": 1795733576.0440662,
+    "XAUUSD": 1795733576.0440662,
     "KOSPI": 1795733090.2889307
   },
   "opex_shield": {
