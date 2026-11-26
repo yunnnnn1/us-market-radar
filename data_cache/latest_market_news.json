@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795736124.12,
-  "updated_at_et": "11-26 18:35 ET",
-  "updated_at_kst": "08:35 KST",
+  "updated_at_ts": 1795736221.616,
+  "updated_at_et": "11-26 18:37 ET",
+  "updated_at_kst": "08:37 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -904,6 +904,20 @@
     ],
     "NVDA": [
       {
+        "title": "Not Nvidia. Not Micron. If I Could Buy and Hold Only 1 Artificial Intelligence (AI) Semiconductor Stock Through 2030, This Would Be It.",
+        "url": "https://www.fool.com/investing/2026/11/26/not-nvidia-not-micron-if-i-could-buy-and-hold-only-1-artificial-intelligence-ai-semiconductor-stock-through-2030-this-would-be-it/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 18:14 ET",
+        "pub_ts": 1795734884.0
+      },
+      {
+        "title": "Did Jensen Huang’s Alleged Chinese Spy Get Him to Do Anything Nvidia Didn’t Want?",
+        "url": "https://unchainedcrypto.com/did-jensen-huangs-alleged-chinese-spy-get-him-to-do-anything-nvidia-didnt-want/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 18:00 ET",
+        "pub_ts": 1795734049.0
+      },
+      {
         "title": "Nvidia Is the Worst-Performing \"Magnificent Seven\" Stock This Year. Is It a Buy Before 2027?",
         "url": "https://www.fool.com/investing/2026/11/26/nvidia-is-the-worst-performing-magnificent-seven-stock-this-year-is-it-a-buy-before-2027/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -923,20 +937,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 16:22 ET",
         "pub_ts": 1795728120.0
-      },
-      {
-        "title": "Nvidia halts server shipments to 4 countries just weeks after Jensen Huang’s affair with alleged spy was exposed",
-        "url": "https://nypost.com/2026/11/26/business/nvidia-halts-server-shipments-to-4-southeast-asian-countries-report/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 15:30 ET",
-        "pub_ts": 1795725014.0
-      },
-      {
-        "title": "If a Market Correction Is Around the Corner, I'm Making This 1 Easy Move",
-        "url": "https://www.fool.com/investing/2026/11/26/if-market-correction-around-corner-making-this-1-easy-move/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 15:20 ET",
-        "pub_ts": 1795724402.0
       }
     ],
     "AMD": [
@@ -3281,23 +3281,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795734653.3576236,
-    "SOXL": 1795734653.3576236,
-    "SPY": 1795734653.3576236,
-    "DIA": 1795734653.3576236,
-    "SOXX": 1795734653.3576236,
-    "QQQ": 1795734653.3576236,
-    "SMH": 1795734653.3576236,
-    "IWM": 1795734653.3576236,
-    "IGV": 1795734653.3576236,
-    "TLT": 1795734653.3576236,
-    "GLD": 1795734653.3576236,
-    "SQQQ": 1795734653.3576236,
-    "TSM": 1795734653.3576236,
-    "VIXY": 1795734653.3576236,
-    "SOXS": 1795734653.3576236,
-    "NVDA": 1795734653.3576236,
-    "AMD": 1795734653.3576236,
+    "KORU": 1795736221.6158953,
+    "SOXL": 1795736221.6158953,
+    "SPY": 1795736221.6158953,
+    "DIA": 1795736221.6158953,
+    "SOXX": 1795736221.6158953,
+    "QQQ": 1795736221.6158953,
+    "SMH": 1795736221.6158953,
+    "IWM": 1795736221.6158953,
+    "IGV": 1795736221.6158953,
+    "TLT": 1795736221.6158953,
+    "GLD": 1795736221.6158953,
+    "SQQQ": 1795736221.6158953,
+    "TSM": 1795736221.6158953,
+    "VIXY": 1795736221.6158953,
+    "SOXS": 1795736221.6158953,
+    "NVDA": 1795736221.6158953,
+    "AMD": 1795736221.6158953,
     "ASML": 1795735045.4043362,
     "QCOM": 1795735045.4043362,
     "AVGO": 1795735045.4043362,
@@ -3340,14 +3340,14 @@
     "SKHY": 1795735928.8353598,
     "WDC": 1795735928.8353598,
     "STX": 1795735928.8353598,
-    "MSTR": 1795734653.3576236,
+    "MSTR": 1795736221.6158953,
     "SNDK": 1795735928.8353598,
-    "BTC-USD": 1795734653.3576236,
-    "CRWD": 1795734653.3576236,
-    "ORCL": 1795734653.3576236,
-    "COIN": 1795734653.3576236,
-    "LLY": 1795734653.3576236,
-    "MRNA": 1795734653.3576236,
+    "BTC-USD": 1795736221.6158953,
+    "CRWD": 1795736221.6158953,
+    "ORCL": 1795736221.6158953,
+    "COIN": 1795736221.6158953,
+    "LLY": 1795736221.6158953,
+    "MRNA": 1795736221.6158953,
     "NKE": 1795735045.4043362,
     "MCD": 1795735045.4043362,
     "PEP": 1795735045.4043362,
@@ -3360,7 +3360,7 @@
     "GLW": 1795735928.8353598,
     "ANT": 1795735142.4999812,
     "XAUUSD": 1795735142.4999812,
-    "KOSPI": 1795734653.3576236
+    "KOSPI": 1795736221.6158953
   },
   "opex_shield": {
     "date": "2026-11-26",
