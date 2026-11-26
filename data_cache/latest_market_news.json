@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795709033.821,
-  "updated_at_et": "11-26 11:03 ET",
-  "updated_at_kst": "01:03 KST",
+  "updated_at_ts": 1795709142.33,
+  "updated_at_et": "11-26 11:05 ET",
+  "updated_at_kst": "01:05 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -902,11 +902,11 @@
     ],
     "NVDA": [
       {
-        "title": "Will Jensen Huang's second act as Nvidia CEO be different?",
-        "url": "https://finance.yahoo.com/video/jensen-huangs-second-act-nvidia-140000599.html?.tsrc=rss",
+        "title": "S&P’s NVIDIA Warning is Backward Looking Governance Theater That Gives Everyone an Opportunity to Buy at $150",
+        "url": "https://247wallst.com/investing/2026/11/26/sps-nvidia-warning-is-backward-looking-governance-theater-that-gives-everyone-an-opportunity-to-buy-at-150/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 09:00 ET",
-        "pub_ts": 1795701600.0
+        "time": "11-26 10:45 ET",
+        "pub_ts": 1795707938.0
       },
       {
         "title": "Investing $500 a Month in Coca-Cola, Realty Income, and Altria Could Generate Over $1,000 in Monthly Dividend Income by 2046",
@@ -2863,6 +2863,13 @@
     ],
     "MCD": [
       {
+        "title": "MCD's Entry-Level Value Push: A Key Catalyst for Its 2027 Outlook?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mcds-entry-level-value-push-143800328.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 09:38 ET",
+        "pub_ts": 1795703880.0
+      },
+      {
         "title": "McDonald’s, Dunkin’ restaurants are open on Thanksgiving with a twist",
         "url": "https://www.thestreet.com/restaurants/thanksgiving-restaurant-hours-2026-mcdonalds-dunkin-starbucks?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2889,13 +2896,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 00:10 ET",
         "pub_ts": 1795583444.0
-      },
-      {
-        "title": "Wendy’s has inflated prices for up to 10 years, lawsuit claims — weeks after McDonald's was accused of a similar scheme",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/wendy-inflated-prices-10-years-223000770.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 17:30 ET",
-        "pub_ts": 1795559400.0
       }
     ],
     "PEP": [
@@ -2974,6 +2974,13 @@
     ],
     "JPM": [
       {
+        "title": "JPMorgan Sees $450 Billion AI Debt Wave as Credit Risks Mount",
+        "url": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-sees-450-billion-ai-154741192.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:47 ET",
+        "pub_ts": 1795708061.0
+      },
+      {
         "title": "Why Outages at Apps Like Chase Mean Cybersecurity Is Now Everyone’s Problem",
         "url": "https://unchainedcrypto.com/why-outages-at-apps-like-chase-mean-cybersecurity-is-now-everyones-problem/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3000,13 +3007,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 16:58 ET",
         "pub_ts": 1795643904.0
-      },
-      {
-        "title": "JPMorgan Sees $450 Billion AI Debt Blitz in 2027 Before Plateau",
-        "url": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-sees-450-billion-ai-211721263.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 16:17 ET",
-        "pub_ts": 1795641441.0
       }
     ],
     "WMT": [
@@ -3279,23 +3279,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795707586.7275345,
-    "SOXL": 1795707586.7275345,
-    "SPY": 1795707586.7275345,
-    "DIA": 1795707586.7275345,
-    "SOXX": 1795707586.7275345,
-    "QQQ": 1795707586.7275345,
-    "SMH": 1795707586.7275345,
-    "IWM": 1795707586.7275345,
-    "IGV": 1795707586.7275345,
-    "TLT": 1795707586.7275345,
-    "GLD": 1795707586.7275345,
-    "SQQQ": 1795707586.7275345,
-    "TSM": 1795707586.7275345,
-    "VIXY": 1795707586.7275345,
-    "SOXS": 1795707586.7275345,
-    "NVDA": 1795707586.7275345,
-    "AMD": 1795707586.7275345,
+    "KORU": 1795709142.330208,
+    "SOXL": 1795709142.330208,
+    "SPY": 1795709142.330208,
+    "DIA": 1795709142.330208,
+    "SOXX": 1795709142.330208,
+    "QQQ": 1795709142.330208,
+    "SMH": 1795709142.330208,
+    "IWM": 1795709142.330208,
+    "IGV": 1795709142.330208,
+    "TLT": 1795709142.330208,
+    "GLD": 1795709142.330208,
+    "SQQQ": 1795709142.330208,
+    "TSM": 1795709142.330208,
+    "VIXY": 1795709142.330208,
+    "SOXS": 1795709142.330208,
+    "NVDA": 1795709142.330208,
+    "AMD": 1795709142.330208,
     "ASML": 1795707896.0412085,
     "QCOM": 1795707896.0412085,
     "AVGO": 1795707896.0412085,
@@ -3344,21 +3344,21 @@
     "CRWD": 1795708106.1790764,
     "ORCL": 1795708106.1790764,
     "COIN": 1795708106.1790764,
-    "LLY": 1795707586.7275345,
-    "MRNA": 1795707586.7275345,
-    "NKE": 1795707586.7275345,
-    "MCD": 1795707586.7275345,
-    "PEP": 1795707586.7275345,
+    "LLY": 1795709142.330208,
+    "MRNA": 1795709142.330208,
+    "NKE": 1795709142.330208,
+    "MCD": 1795709142.330208,
+    "PEP": 1795709142.330208,
     "XOM": 1795707896.0412085,
-    "JPM": 1795707586.7275345,
+    "JPM": 1795709142.330208,
     "WMT": 1795707896.0412085,
-    "V": 1795707586.7275345,
+    "V": 1795709142.330208,
     "CAT": 1795707896.0412085,
     "FN": 1795708001.4619792,
     "GLW": 1795708001.4619792,
     "ANT": 1795707896.0412085,
     "XAUUSD": 1795707896.0412085,
-    "KOSPI": 1795707586.7275345
+    "KOSPI": 1795709142.330208
   },
   "opex_shield": {
     "date": "2026-11-26",
