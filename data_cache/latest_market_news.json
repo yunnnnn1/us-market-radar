@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795731820.861,
-  "updated_at_et": "11-26 17:23 ET",
-  "updated_at_kst": "07:23 KST",
+  "updated_at_ts": 1795731918.116,
+  "updated_at_et": "11-26 17:25 ET",
+  "updated_at_kst": "07:25 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1168,6 +1168,13 @@
         "pub_ts": 1795700640.0
       },
       {
+        "title": "Jim Lebenthal Says This Is “a Correction, Not Something Worse.” Why He’s Buying More Alphabet",
+        "url": "https://247wallst.com/investing/2026/11/26/jim-lebenthal-says-this-is-a-correction-not-something-worse-why-hes-buying-more-alphabet/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 17:07 ET",
+        "pub_ts": 1795730875.0
+      },
+      {
         "title": "Jensen Huang’s Return Doesn’t Make Nvidia Stock (NVDA) a Buy",
         "url": "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-return-doesn-t-212200380.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1187,13 +1194,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 13:26 ET",
         "pub_ts": 1795717561.0
-      },
-      {
-        "title": "George Soros and 64 Other Big Funds Bought Meta Last Quarter. David Tepper and 33 Others Sold. Who’s Right?",
-        "url": "https://www.tikr.com/blog/george-soros-and-64-other-big-funds-bought-meta-last-quarter-david-tepper-and-33-others-sold-whos-right?ref=yahoofinance&tlnk=yf-261126-jj5cfjgh&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 13:09 ET",
-        "pub_ts": 1795716599.0
       }
     ],
     "MSFT": [
@@ -2863,6 +2863,13 @@
     ],
     "MCD": [
       {
+        "title": "‘I’d Be Having My Thanksgiving Dinner at McDonald’s’: Warren Buffett Credited ‘Uncle Sam’ for Saving His Holiday — And the U.S. Economy",
+        "url": "https://www.barchart.com/story/news/9021069/id-be-having-my-thanksgiving-dinner-at-mcdonalds-warren-buffett-credited-uncle-sam-for-saving-his-holiday-and-the-u-s-economy?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:00 ET",
+        "pub_ts": 1795708802.0
+      },
+      {
         "title": "MCD's Entry-Level Value Push: A Key Catalyst for Its 2027 Outlook?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/mcds-entry-level-value-push-143800328.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2889,13 +2896,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 15:03 ET",
         "pub_ts": 1795636996.0
-      },
-      {
-        "title": "McDonald's (MCD), What Is Behind The Fresh Attention?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-mcd-behind-fresh-attention-051044318.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 00:10 ET",
-        "pub_ts": 1795583444.0
       }
     ],
     "PEP": [
@@ -3296,27 +3296,27 @@
     "SOXS": 1795731527.1413274,
     "NVDA": 1795731527.1413274,
     "AMD": 1795731527.1413274,
-    "ASML": 1795730357.4411318,
-    "QCOM": 1795730357.4411318,
-    "AVGO": 1795730357.4411318,
-    "AMAT": 1795730357.4411318,
-    "META": 1795730357.4411318,
-    "GOOGL": 1795730357.4411318,
-    "MSFT": 1795730357.4411318,
-    "AAPL": 1795730357.4411318,
-    "PLTR": 1795730357.4411318,
-    "NOW": 1795730357.4411318,
-    "AMZN": 1795730357.4411318,
-    "CRWV": 1795730357.4411318,
-    "NBIS": 1795730357.4411318,
-    "APLD": 1795730357.4411318,
-    "VST": 1795730357.4411318,
-    "BE": 1795730357.4411318,
-    "CRDO": 1795730357.4411318,
-    "COHR": 1795730357.4411318,
-    "MRVL": 1795730357.4411318,
+    "ASML": 1795731918.1163251,
+    "QCOM": 1795731918.1163251,
+    "AVGO": 1795731918.1163251,
+    "AMAT": 1795731918.1163251,
+    "META": 1795731918.1163251,
+    "GOOGL": 1795731918.1163251,
+    "MSFT": 1795731918.1163251,
+    "AAPL": 1795731918.1163251,
+    "PLTR": 1795731918.1163251,
+    "NOW": 1795731918.1163251,
+    "AMZN": 1795731918.1163251,
+    "CRWV": 1795731918.1163251,
+    "NBIS": 1795731918.1163251,
+    "APLD": 1795731918.1163251,
+    "VST": 1795731918.1163251,
+    "BE": 1795731918.1163251,
+    "CRDO": 1795731918.1163251,
+    "COHR": 1795731918.1163251,
+    "MRVL": 1795731918.1163251,
     "LITE": 1795731235.9520001,
-    "AAOI": 1795730357.4411318,
+    "AAOI": 1795731918.1163251,
     "SPCX": 1795731235.9520001,
     "ASTS": 1795731235.9520001,
     "AXTI": 1795731235.9520001,
@@ -3346,13 +3346,13 @@
     "COIN": 1795731527.1413274,
     "LLY": 1795731527.1413274,
     "MRNA": 1795731527.1413274,
-    "NKE": 1795730357.4411318,
-    "MCD": 1795730357.4411318,
-    "PEP": 1795730357.4411318,
+    "NKE": 1795731918.1163251,
+    "MCD": 1795731918.1163251,
+    "PEP": 1795731918.1163251,
     "XOM": 1795730454.729327,
-    "JPM": 1795730357.4411318,
+    "JPM": 1795731918.1163251,
     "WMT": 1795730454.729327,
-    "V": 1795730357.4411318,
+    "V": 1795731918.1163251,
     "CAT": 1795730454.729327,
     "FN": 1795731235.9520001,
     "GLW": 1795731235.9520001,
