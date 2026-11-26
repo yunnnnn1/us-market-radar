@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795713690.717,
-  "updated_at_et": "11-26 12:21 ET",
-  "updated_at_kst": "02:21 KST",
+  "updated_at_ts": 1795713793.118,
+  "updated_at_et": "11-26 12:23 ET",
+  "updated_at_kst": "02:23 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -791,6 +791,13 @@
     ],
     "TSM": [
       {
+        "title": "TSMC (TSM) Upgraded to Strong Buy: Here's Why",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-tsm-upgraded-strong-buy-160004326.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:00 ET",
+        "pub_ts": 1795708804.0
+      },
+      {
         "title": "Taiwan Semiconductor Manufacturing (TSM) May Make Its $22.6 Billion Texas Plant Conditional",
         "url": "https://finance.yahoo.com/technology/articles/taiwan-semiconductor-manufacturing-tsm-may-111054914.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -817,13 +824,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 17:56 ET",
         "pub_ts": 1795647396.0
-      },
-      {
-        "title": "TSMC eyes 3K-acre Aggieland site for $22.6B chip plant",
-        "url": "https://finance.yahoo.com/technology/articles/tsmc-eyes-3k-acre-aggieland-192901231.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 14:29 ET",
-        "pub_ts": 1795634941.0
       }
     ],
     "VIXY": [
@@ -902,6 +902,13 @@
     ],
     "NVDA": [
       {
+        "title": "Stock-Split Watch: 3 Industrial Stocks That Could Split in 2027",
+        "url": "https://www.fool.com/investing/2026/11/26/stock-split-watch-3-industrial-stocks-that-could-split-in-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 12:05 ET",
+        "pub_ts": 1795712702.0
+      },
+      {
         "title": "Did Arm CEO Rene Haas Dodge a Bullet With Jensen Huang’s Reinstatement at Nvidia?",
         "url": "https://247wallst.com/investing/2026/11/26/did-arm-ceo-rene-haas-dodge-a-bullet-with-jensen-huangs-reinstatement-at-nvidia/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -923,21 +930,21 @@
         "pub_ts": 1795709820.0
       },
       {
-        "title": "NVIDIA Just Dropped 31% in a Month. Will NVDA Stock Hit $125 or $200 First?",
-        "url": "https://247wallst.com/investing/2026/11/26/nvidia-just-dropped-31-in-a-month-will-nvda-stock-hit-125-or-200-first/?.tsrc=rss",
+        "title": "Cerebras Expands AI Inference Reach: Can It Challenge NVDA & AMD?",
+        "url": "https://finance.yahoo.com/technology/ai/articles/cerebras-expands-ai-inference-reach-161400247.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 11:06 ET",
-        "pub_ts": 1795709182.0
-      },
-      {
-        "title": "S&P 500 Sell-Off: Here's Why I'm Not Panicking -- and What I'm Doing Instead",
-        "url": "https://www.fool.com/investing/2026/11/26/sp-500-sell-off-heres-why-im-not-panicking-and-what-im-doing-instead/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 11:05 ET",
-        "pub_ts": 1795709102.0
+        "time": "11-26 11:14 ET",
+        "pub_ts": 1795709640.0
       }
     ],
     "AMD": [
+      {
+        "title": "Cerebras Expands AI Inference Reach: Can It Challenge NVDA & AMD?",
+        "url": "https://finance.yahoo.com/technology/ai/articles/cerebras-expands-ai-inference-reach-161400247.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 11:14 ET",
+        "pub_ts": 1795709640.0
+      },
       {
         "title": "Tepper Trims Alphabet by ~46% and Dumps Broadcom & AMD While Backing Micron and Oracle",
         "url": "https://247wallst.com/investing/2026/11/26/tepper-trims-alphabet-by-46-and-dumps-broadcom-amd-while-backing-micron-and-oracle/?.tsrc=rss",
@@ -965,13 +972,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 06:06 ET",
         "pub_ts": 1795691184.0
-      },
-      {
-        "title": "What iShares PHLX SOX Semi (SOXX) Sold: AMD Leads on Nov. 24",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-phlx-sox-semi-soxx-110411069.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:04 ET",
-        "pub_ts": 1795691051.0
       }
     ],
     "ASML": [
@@ -2796,6 +2796,13 @@
         "pub_ts": 1795709556.0
       },
       {
+        "title": "Moderna vs. Pfizer: Which Vaccine Stock Offers More Upside?",
+        "url": "https://finance.yahoo.com/healthcare/articles/moderna-vs-pfizer-vaccine-stock-154600852.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:46 ET",
+        "pub_ts": 1795707960.0
+      },
+      {
         "title": "Invesco S&P 500 Equal Weight (RSP) Sells Moderna and PTC on Nov. 24",
         "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-p-500-equal-weight-110438813.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2815,13 +2822,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 06:04 ET",
         "pub_ts": 1795604683.0
-      },
-      {
-        "title": "Is Moderna (MRNA) Stock Reasonable After Its Huge Run And Vaccine Data?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/moderna-mrna-stock-reasonable-huge-090844311.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 04:08 ET",
-        "pub_ts": 1795597724.0
       }
     ],
     "NKE": [
@@ -3279,23 +3279,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795712245.511414,
-    "SOXL": 1795712245.511414,
-    "SPY": 1795712245.511414,
-    "DIA": 1795712245.511414,
-    "SOXX": 1795712245.511414,
-    "QQQ": 1795712245.511414,
-    "SMH": 1795712245.511414,
-    "IWM": 1795712245.511414,
-    "IGV": 1795712245.511414,
-    "TLT": 1795712245.511414,
-    "GLD": 1795712245.511414,
-    "SQQQ": 1795712245.511414,
-    "TSM": 1795712245.511414,
-    "VIXY": 1795712245.511414,
-    "SOXS": 1795712245.511414,
-    "NVDA": 1795712245.511414,
-    "AMD": 1795712245.511414,
+    "KORU": 1795713793.1176853,
+    "SOXL": 1795713793.1176853,
+    "SPY": 1795713793.1176853,
+    "DIA": 1795713793.1176853,
+    "SOXX": 1795713793.1176853,
+    "QQQ": 1795713793.1176853,
+    "SMH": 1795713793.1176853,
+    "IWM": 1795713793.1176853,
+    "IGV": 1795713793.1176853,
+    "TLT": 1795713793.1176853,
+    "GLD": 1795713793.1176853,
+    "SQQQ": 1795713793.1176853,
+    "TSM": 1795713793.1176853,
+    "VIXY": 1795713793.1176853,
+    "SOXS": 1795713793.1176853,
+    "NVDA": 1795713793.1176853,
+    "AMD": 1795713793.1176853,
     "ASML": 1795712552.1412592,
     "QCOM": 1795712552.1412592,
     "AVGO": 1795712552.1412592,
@@ -3344,21 +3344,21 @@
     "CRWD": 1795712758.1758242,
     "ORCL": 1795712758.1758242,
     "COIN": 1795712758.1758242,
-    "LLY": 1795712245.511414,
-    "MRNA": 1795712245.511414,
-    "NKE": 1795712245.511414,
-    "MCD": 1795712245.511414,
-    "PEP": 1795712245.511414,
+    "LLY": 1795713793.1176853,
+    "MRNA": 1795713793.1176853,
+    "NKE": 1795713793.1176853,
+    "MCD": 1795713793.1176853,
+    "PEP": 1795713793.1176853,
     "XOM": 1795712552.1412592,
-    "JPM": 1795712245.511414,
+    "JPM": 1795713793.1176853,
     "WMT": 1795712552.1412592,
-    "V": 1795712245.511414,
+    "V": 1795713793.1176853,
     "CAT": 1795712552.1412592,
     "FN": 1795712655.3272152,
     "GLW": 1795712655.3272152,
     "ANT": 1795712552.1412592,
     "XAUUSD": 1795712552.1412592,
-    "KOSPI": 1795712245.511414
+    "KOSPI": 1795713793.1176853
   },
   "opex_shield": {
     "date": "2026-11-26",
