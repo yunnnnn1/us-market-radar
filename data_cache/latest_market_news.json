@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795706339.441,
-  "updated_at_et": "11-26 10:18 ET",
-  "updated_at_kst": "00:18 KST",
+  "updated_at_ts": 1795706441.663,
+  "updated_at_et": "11-26 10:20 ET",
+  "updated_at_kst": "00:20 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1754,6 +1754,13 @@
     ],
     "SPCX": [
       {
+        "title": "SpaceX Just Slid 11% in a Week. Can Elon Musk’s FCC Win for 1 Million Satellites Get SPCX Stock Back Above Its $135 IPO Price?",
+        "url": "https://247wallst.com/investing/2026/11/26/spacex-just-slid-11-in-a-week-can-elon-musks-fcc-win-for-1-million-satellites-get-spcx-stock-back-above-its-135-ipo-price/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:08 ET",
+        "pub_ts": 1795705715.0
+      },
+      {
         "title": "Elon Musk Says ‘Multiplanetary’ SpaceX Could Be Worth $118 Quintillion. Yes, Quintillion",
         "url": "https://decrypt.co/384043/elon-musk-says-multiplanetary-spacex-could-be-worth-118-quintillion-yes-quintillion?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1780,16 +1787,16 @@
         "source": "Yahoo Finance",
         "time": "11-26 08:54 ET",
         "pub_ts": 1795701240.0
-      },
-      {
-        "title": "Jensen Huang Says Grok Bot Consumption Is “Really Skyrocketing.” That’s Good News for SpaceX",
-        "url": "https://www.tikr.com/blog/jensen-huang-says-grok-bot-consumption-is-really-skyrocketing-thats-good-news-for-spacex?ref=yahoofinance&tlnk=yf-261126-q7mrmmjx&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 08:16 ET",
-        "pub_ts": 1795698985.0
       }
     ],
     "ASTS": [
+      {
+        "title": "AST SpaceMobile Is Still Down 64% in 2026. Can Insider Buying and a B. Riley Upgrade Get ASTS Stock Back to $40?",
+        "url": "https://247wallst.com/investing/2026/11/26/ast-spacemobile-is-still-down-64-in-2026-can-insider-buying-and-a-b-riley-upgrade-get-asts-stock-back-to-40/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:04 ET",
+        "pub_ts": 1795705486.0
+      },
       {
         "title": "AST SpaceMobile Is Down 80% From Its May High. Jim Cramer Calls It “A Very Hard Stock to Own”",
         "url": "https://www.tikr.com/blog/ast-spacemobile-is-down-80-from-its-may-high-jim-cramer-calls-it-a-very-hard-stock-to-own?ref=yahoofinance&tlnk=yf-261126-26mpx8wg&.tsrc=rss",
@@ -1817,16 +1824,16 @@
         "source": "Yahoo Finance",
         "time": "11-25 09:17 ET",
         "pub_ts": 1795616238.0
-      },
-      {
-        "title": "Is AST SpaceMobile Stock A Buy Despite Cash Burn?",
-        "url": "https://www.trefis.com/stock/asts/articles/628793/is-ast-spacemobile-stock-a-buy-despite-cash-burn/2026-11-25?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:52 ET",
-        "pub_ts": 1795607571.0
       }
     ],
     "AXTI": [
+      {
+        "title": "AI Optics Need This Wafer. Can AXT (AXTI) Keep Shipping It?",
+        "url": "https://finance.yahoo.com/technology/ai/articles/ai-optics-wafer-axt-axti-144502551.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 09:45 ET",
+        "pub_ts": 1795704302.0
+      },
       {
         "title": "Why Investors Are Suddenly Turning Against AXT Inc. (AXTI)?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/why-investors-suddenly-turning-against-053354130.html?.tsrc=rss",
@@ -1854,13 +1861,6 @@
         "source": "Yahoo Finance",
         "time": "11-17 12:45 ET",
         "pub_ts": 1794937559.0
-      },
-      {
-        "title": "What Propelled AXT Inc.’s (AXTI) 19.5% Rally?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/propelled-axt-inc-axti-19-234754017.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-11 18:47 ET",
-        "pub_ts": 1794440874.0
       }
     ],
     "NASA": [
@@ -1939,6 +1939,13 @@
     ],
     "TSLA": [
       {
+        "title": "Tesla's Self-Driving Expansion in Europe Faces a Crucial Test",
+        "url": "https://finance.yahoo.com/technology/ai/articles/teslas-self-driving-expansion-europe-134400727.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 08:44 ET",
+        "pub_ts": 1795700640.0
+      },
+      {
         "title": "JPMorgan Says S&P Could Waive Its Rules for a Tesla-SpaceX Merger. That’s Good News for SpaceX Holders",
         "url": "https://www.tikr.com/blog/jpmorgan-says-sp-could-waive-its-rules-for-a-tesla-spacex-merger-thats-good-news-for-spacex-holders?ref=yahoofinance&tlnk=yf-261126-gpc9wr29&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1965,13 +1972,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 19:37 ET",
         "pub_ts": 1795653420.0
-      },
-      {
-        "title": "If SpaceX and Tesla Merge Next Year, Here's What a $5,000 Investment in the Combined Company Could Be Worth by the End of 2028",
-        "url": "https://www.fool.com/investing/2026/11/25/if-spacex-and-tesla-merge-next-year-here-s-what-a-usd5-000-investment-in-the-combined-company-could-be-worth-by-the-end-of-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 18:24 ET",
-        "pub_ts": 1795649042.0
       }
     ],
     "AXP": [
@@ -2013,6 +2013,13 @@
     ],
     "RKLB": [
       {
+        "title": "AST SpaceMobile Is Still Down 64% in 2026. Can Insider Buying and a B. Riley Upgrade Get ASTS Stock Back to $40?",
+        "url": "https://247wallst.com/investing/2026/11/26/ast-spacemobile-is-still-down-64-in-2026-can-insider-buying-and-a-b-riley-upgrade-get-asts-stock-back-to-40/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 10:04 ET",
+        "pub_ts": 1795705486.0
+      },
+      {
         "title": "AST SpaceMobile Is Down 80% From Its May High. Jim Cramer Calls It “A Very Hard Stock to Own”",
         "url": "https://www.tikr.com/blog/ast-spacemobile-is-down-80-from-its-may-high-jim-cramer-calls-it-a-very-hard-stock-to-own?ref=yahoofinance&tlnk=yf-261126-26mpx8wg&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2039,16 +2046,23 @@
         "source": "Yahoo Finance",
         "time": "11-25 20:50 ET",
         "pub_ts": 1795657814.0
-      },
-      {
-        "title": "Mizuho Calls Rocket Lab’s Business Model “Among Our Favorites.” It Still Sees 6% Downside",
-        "url": "https://www.tikr.com/blog/mizuho-calls-rocket-labs-business-model-among-our-favorites-it-still-sees-6-downside?ref=yahoofinance&tlnk=yf-261125-4ffhq3f5&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:05 ET",
-        "pub_ts": 1795626319.0
       }
     ],
     "KO": [
+      {
+        "title": "Investing $500 a Month in Coca-Cola, Realty Income, and Altria Could Generate Over $1,000 in Monthly Dividend Income by 2046",
+        "url": "https://www.fool.com/investing/2026/11/26/investing-usd500-a-month-in-coca-cola-realty-income-and-altria-could-generate-over-usd1-000-in-monthly-dividend-income-by-2046/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 09:51 ET",
+        "pub_ts": 1795704662.0
+      },
+      {
+        "title": "Coca-Cola vs. Keurig Dr Pepper: Which Beverage Stock Looks Stronger?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-vs-keurig-dr-135000666.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 08:50 ET",
+        "pub_ts": 1795701000.0
+      },
       {
         "title": "3 Dividend Kings Retirees Can Own for the Rest of Their Lives",
         "url": "https://247wallst.com/investing/2026/11/26/3-dividend-kings-retirees-can-own-for-the-rest-of-their-lives/?.tsrc=rss",
@@ -2069,20 +2083,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 18:48 ET",
         "pub_ts": 1795650482.0
-      },
-      {
-        "title": "Coca-Cola Has Raised Its Dividend 64 Straight Years. Here's What $10,000 Will Pay You in 2027.",
-        "url": "https://www.fool.com/investing/2026/11/25/coca-cola-has-raised-its-dividend-64-straight-years-what-10000-will-pay-you-in-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 16:07 ET",
-        "pub_ts": 1795640821.0
-      },
-      {
-        "title": "Prediction: Coca-Cola Stock Will Close 2026 Over $100 per Share. Here’s Why It’s a No-Brainer Buy for 2027.",
-        "url": "https://www.fool.com/investing/2026/11/25/prediction-coca-cola-stock-will-close-2026-over-100-per-share-heres-why-its-a-no-brainer-buy-for-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:51 ET",
-        "pub_ts": 1795614712.0
       }
     ],
     "FLY": [
@@ -3316,31 +3316,31 @@
     "CRDO": 1795706339.4412441,
     "COHR": 1795706339.4412441,
     "MRVL": 1795706339.4412441,
-    "LITE": 1795704870.2073371,
+    "LITE": 1795706441.6626613,
     "AAOI": 1795706339.4412441,
-    "SPCX": 1795704870.2073371,
-    "ASTS": 1795704870.2073371,
-    "AXTI": 1795704870.2073371,
-    "NASA": 1795704870.2073371,
-    "LUNR": 1795704870.2073371,
-    "TSLA": 1795704870.2073371,
-    "AXP": 1795704870.2073371,
-    "RKLB": 1795704870.2073371,
-    "KO": 1795704870.2073371,
-    "FLY": 1795704870.2073371,
-    "INTC": 1795704870.2073371,
-    "VRT": 1795704870.2073371,
-    "HPE": 1795704870.2073371,
-    "DELL": 1795704870.2073371,
-    "OKLO": 1795704870.2073371,
-    "CEG": 1795704870.2073371,
-    "FPS": 1795704870.2073371,
-    "MU": 1795704870.2073371,
-    "SKHY": 1795704870.2073371,
-    "WDC": 1795704870.2073371,
-    "STX": 1795704870.2073371,
+    "SPCX": 1795706441.6626613,
+    "ASTS": 1795706441.6626613,
+    "AXTI": 1795706441.6626613,
+    "NASA": 1795706441.6626613,
+    "LUNR": 1795706441.6626613,
+    "TSLA": 1795706441.6626613,
+    "AXP": 1795706441.6626613,
+    "RKLB": 1795706441.6626613,
+    "KO": 1795706441.6626613,
+    "FLY": 1795706441.6626613,
+    "INTC": 1795706441.6626613,
+    "VRT": 1795706441.6626613,
+    "HPE": 1795706441.6626613,
+    "DELL": 1795706441.6626613,
+    "OKLO": 1795706441.6626613,
+    "CEG": 1795706441.6626613,
+    "FPS": 1795706441.6626613,
+    "MU": 1795706441.6626613,
+    "SKHY": 1795706441.6626613,
+    "WDC": 1795706441.6626613,
+    "STX": 1795706441.6626613,
     "MSTR": 1795704973.1911623,
-    "SNDK": 1795704870.2073371,
+    "SNDK": 1795706441.6626613,
     "BTC-USD": 1795704973.1911623,
     "CRWD": 1795704973.1911623,
     "ORCL": 1795704973.1911623,
@@ -3355,8 +3355,8 @@
     "WMT": 1795706339.4412441,
     "V": 1795706032.4400713,
     "CAT": 1795706339.4412441,
-    "FN": 1795704870.2073371,
-    "GLW": 1795704870.2073371,
+    "FN": 1795706441.6626613,
+    "GLW": 1795706441.6626613,
     "ANT": 1795706339.4412441,
     "XAUUSD": 1795706339.4412441,
     "KOSPI": 1795706032.4400713
