@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795673928.998,
-  "updated_at_et": "11-26 01:18 ET",
-  "updated_at_kst": "15:18 KST",
+  "updated_at_ts": 1795674030.2,
+  "updated_at_et": "11-26 01:20 ET",
+  "updated_at_kst": "15:20 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1784,6 +1784,13 @@
     ],
     "ASTS": [
       {
+        "title": "AST SpaceMobile (ASTS) Stages Impressive Comeback From Record Low",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-asts-stages-impressive-060124396.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 01:01 ET",
+        "pub_ts": 1795672884.0
+      },
+      {
         "title": "SpaceX Slides 5% as Gary Black Warns a Tesla Bid Could Push It Below $100; Rocket Lab and AST SpaceMobile Drop 4%",
         "url": "https://247wallst.com/investing/2026/11/25/spacex-slides-5-as-gary-black-warns-a-tesla-bid-could-push-it-below-100-rocket-lab-and-ast-spacemobile-drop-4/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1810,13 +1817,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 22:41 ET",
         "pub_ts": 1795578106.0
-      },
-      {
-        "title": "Three Reasons To Rethink AST SpaceMobile Stock Now",
-        "url": "https://www.trefis.com/stock/asts/articles/628365/three-reasons-to-rethink-ast-spacemobile-stock-now/2026-11-24?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 06:03 ET",
-        "pub_ts": 1795518190.0
       }
     ],
     "AXTI": [
@@ -2376,6 +2376,13 @@
     ],
     "MU": [
       {
+        "title": "Micron faces Taiwan uncertainty as labor dispute threatens expansion, report warns",
+        "url": "https://finance.yahoo.com/technology/articles/micron-faces-taiwan-uncertainty-labor-055543451.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 00:55 ET",
+        "pub_ts": 1795672543.0
+      },
+      {
         "title": "Is Micron Cheap Only If Its Record Margin Lasts?",
         "url": "https://www.trefis.com/stock/mu/articles/628939/is-micron-cheap-only-if-its-record-margin-lasts/2026-11-25?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2402,13 +2409,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 16:45 ET",
         "pub_ts": 1795643102.0
-      },
-      {
-        "title": "Anthropic, Nvidia, Micron, HP Inc., Dell, Deere, and More Stocks That Explain Today’s Market",
-        "url": "https://finance.yahoo.com/m/18e72c51-c6d7-33b1-aa90-ccce17a9b32f/anthropic%2C-nvidia%2C-micron%2C-hp.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 16:41 ET",
-        "pub_ts": 1795642860.0
       }
     ],
     "SKHY": [
@@ -3312,32 +3312,32 @@
     "LITE": 1795673110.5723069,
     "AAOI": 1795673009.0378375,
     "SPCX": 1795673110.5723069,
-    "ASTS": 1795672490.170636,
+    "ASTS": 1795674030.1999552,
     "AXTI": 1795673110.5723069,
-    "NASA": 1795672490.170636,
-    "LUNR": 1795672490.170636,
-    "TSLA": 1795672490.170636,
-    "AXP": 1795672490.170636,
-    "RKLB": 1795672490.170636,
-    "KO": 1795672490.170636,
-    "FLY": 1795672490.170636,
-    "INTC": 1795672490.170636,
-    "VRT": 1795672490.170636,
-    "HPE": 1795672490.170636,
-    "DELL": 1795672490.170636,
-    "OKLO": 1795672490.170636,
-    "CEG": 1795672490.170636,
-    "FPS": 1795672490.170636,
-    "MU": 1795672490.170636,
-    "SKHY": 1795672490.170636,
-    "WDC": 1795672490.170636,
-    "STX": 1795672490.170636,
-    "MSTR": 1795672490.170636,
-    "SNDK": 1795672490.170636,
-    "BTC-USD": 1795672490.170636,
-    "CRWD": 1795672490.170636,
-    "ORCL": 1795672490.170636,
-    "COIN": 1795672490.170636,
+    "NASA": 1795674030.1999552,
+    "LUNR": 1795674030.1999552,
+    "TSLA": 1795674030.1999552,
+    "AXP": 1795674030.1999552,
+    "RKLB": 1795674030.1999552,
+    "KO": 1795674030.1999552,
+    "FLY": 1795674030.1999552,
+    "INTC": 1795674030.1999552,
+    "VRT": 1795674030.1999552,
+    "HPE": 1795674030.1999552,
+    "DELL": 1795674030.1999552,
+    "OKLO": 1795674030.1999552,
+    "CEG": 1795674030.1999552,
+    "FPS": 1795674030.1999552,
+    "MU": 1795674030.1999552,
+    "SKHY": 1795674030.1999552,
+    "WDC": 1795674030.1999552,
+    "STX": 1795674030.1999552,
+    "MSTR": 1795674030.1999552,
+    "SNDK": 1795674030.1999552,
+    "BTC-USD": 1795674030.1999552,
+    "CRWD": 1795674030.1999552,
+    "ORCL": 1795674030.1999552,
+    "COIN": 1795674030.1999552,
     "LLY": 1795672700.8270657,
     "MRNA": 1795672700.8270657,
     "NKE": 1795672700.8270657,
