@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795661898.187,
-  "updated_at_et": "11-25 21:58 ET",
-  "updated_at_kst": "11:58 KST",
+  "updated_at_ts": 1795662250.97,
+  "updated_at_et": "11-25 22:04 ET",
+  "updated_at_kst": "12:04 KST",
   "macro_calendar": [
     {
       "event_id": "1599680",
@@ -43,6 +43,20 @@
     }
   ],
   "macro_flashes": [
+    {
+      "id": "20261126105817615800",
+      "title": "远期过剩预期与近端溢价交锋，原油反弹动能正在回归",
+      "summary": "中东产量恢复后投行预计2027年市场将面临供应过剩，但叙事已被充分交易，深跌需更大利空。原油虽有基本面压制，但风险溢价回归后短期需警惕反弹的可能。",
+      "keywords": [
+        "中东",
+        "原油"
+      ],
+      "pub_ts": 1795661897.0,
+      "time_et": "11-25 21:58 ET",
+      "time_bj": "10:58 BJ",
+      "time_kst": "11:58 KST",
+      "time_display": "21:58 ET / 10:58 BJ"
+    },
     {
       "id": "20261126104536775800",
       "title": "恒生科技指数涨超4%，芯片、光通信、PCB等板块涨幅居前；成分股中，智谱(02513.H…",
@@ -371,19 +385,6 @@
       "time_bj": "03:02 BJ",
       "time_kst": "04:02 KST",
       "time_display": "14:02 ET / 03:02 BJ"
-    },
-    {
-      "id": "20261126025000001800",
-      "title": "美联储将于十分钟后公布经济状况褐皮书。",
-      "summary": "美联储将于十分钟后公布经济状况褐皮书。",
-      "keywords": [
-        "美联储"
-      ],
-      "pub_ts": 1795632600.0,
-      "time_et": "11-25 13:50 ET",
-      "time_bj": "02:50 BJ",
-      "time_kst": "03:50 KST",
-      "time_display": "13:50 ET / 02:50 BJ"
     }
   ],
   "ticker_news": {
@@ -1203,6 +1204,13 @@
     ],
     "GOOGL": [
       {
+        "title": "SpaceX gets approval for 1 million data center satellites",
+        "url": "https://finance.yahoo.com/technology/ai/articles/spacex-gets-approval-1-million-023847485.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 21:38 ET",
+        "pub_ts": 1795660727.0
+      },
+      {
         "title": "Apple Stock Defies AI Selloff: Is It the Market's Safe Haven?",
         "url": "https://beincrypto.com/apple-stock-ai-selloff-safe-haven/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1229,13 +1237,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 18:43 ET",
         "pub_ts": 1795650186.0
-      },
-      {
-        "title": "Trump Has A Message for Big Tech Firms Like Amazon, Google and Microsoft Building Data Centers Abroad: ‘We’re Going to Put A Tremendous Tax On Them’",
-        "url": "https://finance.yahoo.com/economy/policy/articles/trump-message-big-tech-firms-223005233.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 17:30 ET",
-        "pub_ts": 1795645805.0
       }
     ],
     "MSFT": [
@@ -1245,6 +1246,13 @@
         "source": "Yahoo Finance",
         "time": "11-25 12:00 ET",
         "pub_ts": 1795626000.0
+      },
+      {
+        "title": "Nvidia’s Market Cap Falls Below Microsoft’s: Analyst Flags Five Overhangs For NVDA Stock",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nvidia-s-market-cap-falls-below-microsoft-s-analyst-flags-five-overhangs-for-nvda-stock/cNbx4KZR9Z3?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 21:39 ET",
+        "pub_ts": 1795660782.0
       },
       {
         "title": "Microsoft's Green Card Filings Reveal A Striking Pattern After Mass Layoffs. Trump's New Rule Could Freeze Sponsorships For Two Years.",
@@ -1266,13 +1274,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 15:50 ET",
         "pub_ts": 1795639822.0
-      },
-      {
-        "title": "Satya Nadella Says “the Floor of Cyber Attacks Has Fallen.” Microsoft Just Declared Code Red After a 24-Hour Outage",
-        "url": "https://www.tikr.com/blog/satya-nadella-says-the-floor-of-cyber-attacks-has-fallen-microsoft-just-declared-code-red-after-a-24-hour-outage?ref=yahoofinance&tlnk=yf-261125-gxp284g5&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 13:03 ET",
-        "pub_ts": 1795629816.0
       }
     ],
     "AAPL": [
@@ -3252,6 +3253,13 @@
         "pub_ts": 1795659420.0
       },
       {
+        "title": "Coinbase CEO on the Anthropic and SpaceX IPOs: Who Actually Made the Money?",
+        "url": "https://beincrypto.com/coinbase-ceo-anthropic-spacex-ipo-money/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 21:10 ET",
+        "pub_ts": 1795659004.0
+      },
+      {
         "title": "SpaceX wins approval to launch one million AI data centre satellites",
         "url": "https://www.proactiveinvestors.com/companies/news/1102478/spacex-wins-approval-to-launch-one-million-ai-data-centre-satellites-1102478.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3264,13 +3272,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 18:43 ET",
         "pub_ts": 1795650186.0
-      },
-      {
-        "title": "Anthropic Earns “$80 a Year per Watt” of GPUs, Says Modal’s CEO. That’s Good News for SpaceX",
-        "url": "https://www.tikr.com/blog/anthropic-earns-80-a-year-per-watt-of-gpus-says-modals-ceo-thats-good-news-for-spacex?ref=yahoofinance&tlnk=yf-261125-5cgv35mg&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 18:41 ET",
-        "pub_ts": 1795650106.0
       }
     ],
     "XAUUSD": [
@@ -3338,27 +3339,27 @@
     "SOXS": 1795661898.1867115,
     "NVDA": 1795661898.1867115,
     "AMD": 1795661898.1867115,
-    "ASML": 1795660462.1849606,
-    "QCOM": 1795660462.1849606,
-    "AVGO": 1795660462.1849606,
-    "AMAT": 1795660462.1849606,
-    "META": 1795660462.1849606,
-    "GOOGL": 1795660462.1849606,
-    "MSFT": 1795660462.1849606,
-    "AAPL": 1795660462.1849606,
-    "PLTR": 1795660462.1849606,
-    "NOW": 1795660462.1849606,
-    "AMZN": 1795660462.1849606,
-    "CRWV": 1795660462.1849606,
-    "NBIS": 1795660462.1849606,
-    "APLD": 1795660462.1849606,
-    "VST": 1795660462.1849606,
-    "BE": 1795660462.1849606,
-    "CRDO": 1795660462.1849606,
-    "COHR": 1795660462.1849606,
-    "MRVL": 1795660462.1849606,
+    "ASML": 1795662250.9697812,
+    "QCOM": 1795662250.9697812,
+    "AVGO": 1795662250.9697812,
+    "AMAT": 1795662250.9697812,
+    "META": 1795662250.9697812,
+    "GOOGL": 1795662250.9697812,
+    "MSFT": 1795662250.9697812,
+    "AAPL": 1795662250.9697812,
+    "PLTR": 1795662250.9697812,
+    "NOW": 1795662250.9697812,
+    "AMZN": 1795662250.9697812,
+    "CRWV": 1795662250.9697812,
+    "NBIS": 1795662250.9697812,
+    "APLD": 1795662250.9697812,
+    "VST": 1795662250.9697812,
+    "BE": 1795662250.9697812,
+    "CRDO": 1795662250.9697812,
+    "COHR": 1795662250.9697812,
+    "MRVL": 1795662250.9697812,
     "LITE": 1795660560.390828,
-    "AAOI": 1795660462.1849606,
+    "AAOI": 1795662250.9697812,
     "SPCX": 1795660560.390828,
     "ASTS": 1795661743.7140336,
     "AXTI": 1795660560.390828,
@@ -3391,15 +3392,15 @@
     "NKE": 1795661898.1867115,
     "MCD": 1795661898.1867115,
     "PEP": 1795661898.1867115,
-    "XOM": 1795660462.1849606,
+    "XOM": 1795662250.9697812,
     "JPM": 1795661898.1867115,
-    "WMT": 1795660462.1849606,
+    "WMT": 1795662250.9697812,
     "V": 1795661898.1867115,
-    "CAT": 1795660462.1849606,
+    "CAT": 1795662250.9697812,
     "FN": 1795660560.390828,
     "GLW": 1795660560.390828,
-    "ANT": 1795660462.1849606,
-    "XAUUSD": 1795660462.1849606,
+    "ANT": 1795662250.9697812,
+    "XAUUSD": 1795662250.9697812,
     "KOSPI": 1795661898.1867115
   },
   "opex_shield": {
