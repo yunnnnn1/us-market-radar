@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795790908.477,
-  "updated_at_et": "11-27 09:48 ET",
-  "updated_at_kst": "23:48 KST",
+  "updated_at_ts": 1795791014.731,
+  "updated_at_et": "11-27 09:50 ET",
+  "updated_at_kst": "23:50 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1763,6 +1763,13 @@
         "pub_ts": 1795788295.0
       },
       {
+        "title": "SpaceX Stock Rises. Elon Musk Makes Billion-Dollar Pledge to American Children",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-stock-rises-elon-musk-143029317.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:30 ET",
+        "pub_ts": 1795789829.0
+      },
+      {
         "title": "Stock Market Today: Dow Futures Jump 650 Points As Nvidia Rebounds; Anthropic, SpaceX, Tesla Rally (Live Coverage)",
         "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1782,16 +1789,16 @@
         "source": "Yahoo Finance",
         "time": "11-27 08:53 ET",
         "pub_ts": 1795787581.0
-      },
-      {
-        "title": "SpaceX Stock Jumps Thanks to AI Rally. Why It Should Be Rising Even More.",
-        "url": "https://finance.yahoo.com/m/4d380fe9-e29b-3b6c-8f18-28ee89ad558e/spacex-stock-jumps-thanks-to.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 07:18 ET",
-        "pub_ts": 1795781880.0
       }
     ],
     "ASTS": [
+      {
+        "title": "HubSpot, AST SpaceMobile downgraded: Wall Street's top analyst calls",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/hubspot-ast-spacemobile-downgraded-wall-143518350.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:35 ET",
+        "pub_ts": 1795790118.0
+      },
       {
         "title": "AST SpaceMobile Gains 2% Despite Berenberg’s Price Target Cut to $30, Rocket Lab Climbs 5% After Electron Launch; Cathie Wood-Backed SpaceX Rises 3%",
         "url": "https://247wallst.com/investing/2026/11/27/ast-spacemobile-gains-2-despite-berenbergs-price-target-cut-to-30-rocket-lab-climbs-5-after-electron-launch-cathie-wood-backed-spacex-rises-3/?.tsrc=rss",
@@ -1819,13 +1826,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 07:34 ET",
         "pub_ts": 1795782899.0
-      },
-      {
-        "title": "Starlink Mobile Reached 3M+ Kazakh Users in “Cellular Dead Zones” in Under Two Months. Bad News for AST SpaceMobile",
-        "url": "https://www.tikr.com/blog/starlink-mobile-reached-3m-kazakh-users-in-cellular-dead-zones-in-under-two-months-bad-news-for-ast-spacemobile?ref=yahoofinance&tlnk=yf-261127-hqwmchmc&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 01:46 ET",
-        "pub_ts": 1795761965.0
       }
     ],
     "AXTI": [
@@ -2052,6 +2052,20 @@
     ],
     "KO": [
       {
+        "title": "Coca-Cola Completes Major $2.6 Billion Africa Deal",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-completes-major-2-142729812.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:27 ET",
+        "pub_ts": 1795789649.0
+      },
+      {
+        "title": "S&P 500 Investors Make Surprising Shift as Tech Stocks Sink",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-investors-surprising-shift-142353935.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:23 ET",
+        "pub_ts": 1795789433.0
+      },
+      {
         "title": "If This Dividend King Doubles, Here’s What $10,000 Could Become",
         "url": "https://247wallst.com/investing/2026/11/27/if-this-dividend-king-doubles-heres-what-10000-could-become/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2059,32 +2073,18 @@
         "pub_ts": 1795788245.0
       },
       {
+        "title": "Is Coca-Cola Stock Outperforming the Dow?",
+        "url": "https://www.barchart.com/story/news/9028491/is-coca-cola-stock-outperforming-the-dow?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 03:17 ET",
+        "pub_ts": 1795767478.0
+      },
+      {
         "title": "The Coca-Cola Company and Gutsche Family Investments Close on Sale of Controlling Interest in Coca-Cola Beverages Africa to Coca-Cola HBC AG",
         "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-company-gutsche-family-075100177.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-27 02:51 ET",
         "pub_ts": 1795765860.0
-      },
-      {
-        "title": "Coca-Cola (KO) Up 6.4% Since Last Earnings Report: Can It Continue?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-6-4-153014132.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 10:30 ET",
-        "pub_ts": 1795707014.0
-      },
-      {
-        "title": "Investing $500 a Month in Coca-Cola, Realty Income, and Altria Could Generate Over $1,000 in Monthly Dividend Income by 2046",
-        "url": "https://www.fool.com/investing/2026/11/26/investing-usd500-a-month-in-coca-cola-realty-income-and-altria-could-generate-over-usd1-000-in-monthly-dividend-income-by-2046/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 09:51 ET",
-        "pub_ts": 1795704662.0
-      },
-      {
-        "title": "Coca-Cola vs. Keurig Dr Pepper: Which Beverage Stock Looks Stronger?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-vs-keurig-dr-135000666.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 08:50 ET",
-        "pub_ts": 1795701000.0
       }
     ],
     "FLY": [
@@ -2237,6 +2237,13 @@
     ],
     "DELL": [
       {
+        "title": "Jensen Huang Said Blackwell Racks Wouldn't Fit In A 'Pocket Or Backpack' But One Has Reportedly Turned Up in Shanghai",
+        "url": "https://stocktwits.com/news-articles/markets/equity/jensen-huang-said-blackwell-racks-wouldn-t-fit-in-a-pocket-or-backpack-but-one-has-reportedly-turned-up-in-shanghai/cNbCwmzR9Vb?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:29 ET",
+        "pub_ts": 1795789781.0
+      },
+      {
         "title": "Dell, Super Micro Under Pressure as Nvidia Halts Shipments to 4 Asian Countries",
         "url": "https://247wallst.com/investing/2026/11/27/dell-super-micro-under-pressure-as-nvidia-halts-shipments-to-4-asian-countries/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2263,13 +2270,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 14:03 ET",
         "pub_ts": 1795719780.0
-      },
-      {
-        "title": "Dell Is No Longer the Company You Originally Bought. Is That a Reason to Buy More Stock in 2027?",
-        "url": "https://247wallst.com/investing/2026/11/26/dell-is-no-longer-the-company-you-originally-bought-is-that-a-reason-to-buy-more-stock-in-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 12:04 ET",
-        "pub_ts": 1795712643.0
       }
     ],
     "OKLO": [
@@ -3014,6 +3014,20 @@
     ],
     "WMT": [
       {
+        "title": "Blockchain in Retail Global Market Report 2026 | Capitalize on 26.1% CAGR to $2.39 Billion by 2030 as IBM, SAP, Oracle, AWS and Walmart Scale BaaS, Traceability and Web3 Loyalty",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/blockchain-retail-global-market-report-143400087.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:34 ET",
+        "pub_ts": 1795790040.0
+      },
+      {
+        "title": "S&P 500 Investors Make Surprising Shift as Tech Stocks Sink",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-investors-surprising-shift-142353935.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:23 ET",
+        "pub_ts": 1795789433.0
+      },
+      {
         "title": "Amazon Blocked Meta’s Muse Two Months Ago. Now It’s in Talks to Let It Shop, and Walmart Already Did",
         "url": "https://www.tikr.com/blog/amazon-blocked-metas-muse-two-months-ago-now-its-in-talks-to-let-it-shop-and-walmart-already-did?ref=yahoofinance&tlnk=yf-261127-c9m256qx&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3033,20 +3047,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 06:01 ET",
         "pub_ts": 1795777272.0
-      },
-      {
-        "title": "PhonePe resumes IPO plans with $15bn valuation target- report",
-        "url": "https://www.electronicpaymentsinternational.com/news/phonepe-resumes-ipo-plans-with-15bn-valuation-target-report/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 02:40 ET",
-        "pub_ts": 1795765236.0
-      },
-      {
-        "title": "Forget Walmart: Nike Has More to Lose From Vietnam’s Proposed Tariff of Up to 35%",
-        "url": "https://www.tikr.com/blog/forget-walmart-nike-has-more-to-lose-from-vietnams-proposed-tariff-of-up-to-35?ref=yahoofinance&tlnk=yf-261126-xh7cp5rc&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 21:22 ET",
-        "pub_ts": 1795746130.0
       }
     ],
     "V": [
@@ -3162,6 +3162,13 @@
     ],
     "GLW": [
       {
+        "title": "Wall Street Analysts See Corning (GLW) as a Buy: Should You Invest?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-see-corning-133003621.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:30 ET",
+        "pub_ts": 1795786203.0
+      },
+      {
         "title": "Corning’s 80-Million-Mile Fiber Deal Puts Its 2027 Expansion to the Test",
         "url": "https://finance.yahoo.com/technology/articles/corning-80-million-mile-fiber-041319616.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3188,13 +3195,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:12 ET",
         "pub_ts": 1795619529.0
-      },
-      {
-        "title": "Is Most-Watched Stock Owens Corning Inc (OC) Worth Betting on Now?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/most-watched-stock-owens-corning-130004945.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 08:00 ET",
-        "pub_ts": 1795611604.0
       }
     ],
     "ANT": [
@@ -3318,25 +3318,25 @@
     "CRDO": 1795790698.963265,
     "COHR": 1795790698.963265,
     "MRVL": 1795790698.963265,
-    "LITE": 1795789418.0122743,
+    "LITE": 1795791014.7312832,
     "AAOI": 1795790698.963265,
-    "SPCX": 1795789418.0122743,
-    "ASTS": 1795789418.0122743,
-    "AXTI": 1795789418.0122743,
-    "NASA": 1795789418.0122743,
-    "LUNR": 1795789418.0122743,
-    "TSLA": 1795789418.0122743,
-    "AXP": 1795789418.0122743,
-    "RKLB": 1795789418.0122743,
-    "KO": 1795789418.0122743,
-    "FLY": 1795789418.0122743,
-    "INTC": 1795789418.0122743,
-    "VRT": 1795789418.0122743,
-    "HPE": 1795789418.0122743,
-    "DELL": 1795789418.0122743,
-    "OKLO": 1795789418.0122743,
-    "CEG": 1795789418.0122743,
-    "FPS": 1795789418.0122743,
+    "SPCX": 1795791014.7312832,
+    "ASTS": 1795791014.7312832,
+    "AXTI": 1795791014.7312832,
+    "NASA": 1795791014.7312832,
+    "LUNR": 1795791014.7312832,
+    "TSLA": 1795791014.7312832,
+    "AXP": 1795791014.7312832,
+    "RKLB": 1795791014.7312832,
+    "KO": 1795791014.7312832,
+    "FLY": 1795791014.7312832,
+    "INTC": 1795791014.7312832,
+    "VRT": 1795791014.7312832,
+    "HPE": 1795791014.7312832,
+    "DELL": 1795791014.7312832,
+    "OKLO": 1795791014.7312832,
+    "CEG": 1795791014.7312832,
+    "FPS": 1795791014.7312832,
     "MU": 1795789520.5510197,
     "SKHY": 1795789520.5510197,
     "WDC": 1795789520.5510197,
@@ -3352,15 +3352,15 @@
     "NKE": 1795790698.963265,
     "MCD": 1795790698.963265,
     "PEP": 1795790698.963265,
-    "XOM": 1795789418.0122743,
+    "XOM": 1795791014.7312832,
     "JPM": 1795790698.963265,
-    "WMT": 1795789418.0122743,
+    "WMT": 1795791014.7312832,
     "V": 1795790698.963265,
-    "CAT": 1795789418.0122743,
-    "FN": 1795789418.0122743,
-    "GLW": 1795789418.0122743,
-    "ANT": 1795789418.0122743,
-    "XAUUSD": 1795789418.0122743,
+    "CAT": 1795791014.7312832,
+    "FN": 1795791014.7312832,
+    "GLW": 1795791014.7312832,
+    "ANT": 1795791014.7312832,
+    "XAUUSD": 1795791014.7312832,
     "KOSPI": 1795789520.5510197
   },
   "opex_shield": {
