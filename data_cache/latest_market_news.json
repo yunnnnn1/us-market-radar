@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795795274.479,
-  "updated_at_et": "11-27 11:01 ET",
-  "updated_at_kst": "01:01 KST",
+  "updated_at_ts": 1795795380.807,
+  "updated_at_et": "11-27 11:03 ET",
+  "updated_at_kst": "01:03 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1178,25 +1178,25 @@
         "pub_ts": 1795780980.0
       },
       {
+        "title": "Anthropic Just Hit an $81 Billion Run Rate—Why Wall Street’s Post-IPO Jitters Are a Gift",
+        "url": "https://247wallst.com/investing/2026/11/27/anthropic-just-hit-an-81-billion-run-rate-why-wall-streets-post-ipo-jitters-are-a-gift/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:45 ET",
+        "pub_ts": 1795794329.0
+      },
+      {
+        "title": "Is Alphabet No Longer Telling You Something?",
+        "url": "https://www.trefis.com/stock/googl/articles/629385/is-alphabet-no-longer-telling-you-something/2026-11-27?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:36 ET",
+        "pub_ts": 1795793761.0
+      },
+      {
         "title": "The Nuclear Stock AI Investors Loved Is Down 33% This Year. Is Constellation Energy a Buy Now?",
         "url": "https://247wallst.com/investing/2026/11/27/the-nuclear-stock-ai-investors-loved-is-down-33-this-year-is-constellation-energy-a-buy-now/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-27 10:28 ET",
         "pub_ts": 1795793309.0
-      },
-      {
-        "title": "Anthropic Stock Jumps to Reveal Its True Place in the AI Trade",
-        "url": "https://finance.yahoo.com/m/eac9c281-033c-3c73-8b9a-a27703a8cdc9/anthropic-stock-jumps-to.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 10:09 ET",
-        "pub_ts": 1795792140.0
-      },
-      {
-        "title": "Stock Market Today: Dow Jumps 500 Points While Nvidia Wavers; Anthropic, Tesla, SpaceX Rally (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow-jumps.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 09:51 ET",
-        "pub_ts": 1795791085.0
       }
     ],
     "MSFT": [
@@ -1349,6 +1349,13 @@
     ],
     "AMZN": [
       {
+        "title": "Amazon technical outlook amid Black Friday shopping",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-technical-outlook-amid-black-155428563.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:54 ET",
+        "pub_ts": 1795794868.0
+      },
+      {
         "title": "Anthropic, Meta and Microsoft Join AI Data Center Talks in Japan",
         "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-meta-microsoft-join-ai-143801446.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1375,13 +1382,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 06:33 ET",
         "pub_ts": 1795779182.0
-      },
-      {
-        "title": "Can Generac's Data Center Push Unlock a Multi-Year Growth Cycle?",
-        "url": "https://finance.yahoo.com/technology/articles/generacs-data-center-push-unlock-134200372.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 08:42 ET",
-        "pub_ts": 1795786920.0
       }
     ],
     "CRWV": [
@@ -3299,27 +3299,27 @@
     "SOXS": 1795794237.4348946,
     "NVDA": 1795794237.4348946,
     "AMD": 1795794237.4348946,
-    "ASML": 1795793821.4336011,
-    "QCOM": 1795793821.4336011,
-    "AVGO": 1795793821.4336011,
-    "AMAT": 1795793821.4336011,
-    "META": 1795793821.4336011,
-    "GOOGL": 1795793821.4336011,
-    "MSFT": 1795793821.4336011,
-    "AAPL": 1795793821.4336011,
-    "PLTR": 1795793821.4336011,
-    "NOW": 1795793821.4336011,
-    "AMZN": 1795793821.4336011,
-    "CRWV": 1795793821.4336011,
-    "NBIS": 1795793821.4336011,
-    "APLD": 1795793821.4336011,
-    "VST": 1795793821.4336011,
-    "BE": 1795793821.4336011,
-    "CRDO": 1795793821.4336011,
-    "COHR": 1795793821.4336011,
-    "MRVL": 1795793821.4336011,
+    "ASML": 1795795380.8073232,
+    "QCOM": 1795795380.8073232,
+    "AVGO": 1795795380.8073232,
+    "AMAT": 1795795380.8073232,
+    "META": 1795795380.8073232,
+    "GOOGL": 1795795380.8073232,
+    "MSFT": 1795795380.8073232,
+    "AAPL": 1795795380.8073232,
+    "PLTR": 1795795380.8073232,
+    "NOW": 1795795380.8073232,
+    "AMZN": 1795795380.8073232,
+    "CRWV": 1795795380.8073232,
+    "NBIS": 1795795380.8073232,
+    "APLD": 1795795380.8073232,
+    "VST": 1795795380.8073232,
+    "BE": 1795795380.8073232,
+    "CRDO": 1795795380.8073232,
+    "COHR": 1795795380.8073232,
+    "MRVL": 1795795380.8073232,
     "LITE": 1795794133.7407513,
-    "AAOI": 1795793821.4336011,
+    "AAOI": 1795795380.8073232,
     "SPCX": 1795794133.7407513,
     "ASTS": 1795794133.7407513,
     "AXTI": 1795794133.7407513,
@@ -3349,13 +3349,13 @@
     "COIN": 1795794340.6840937,
     "LLY": 1795794340.6840937,
     "MRNA": 1795794340.6840937,
-    "NKE": 1795793821.4336011,
-    "MCD": 1795793821.4336011,
-    "PEP": 1795793821.4336011,
+    "NKE": 1795795380.8073232,
+    "MCD": 1795795380.8073232,
+    "PEP": 1795795380.8073232,
     "XOM": 1795794133.7407513,
-    "JPM": 1795793821.4336011,
+    "JPM": 1795795380.8073232,
     "WMT": 1795794133.7407513,
-    "V": 1795793821.4336011,
+    "V": 1795795380.8073232,
     "CAT": 1795794133.7407513,
     "FN": 1795794133.7407513,
     "GLW": 1795794133.7407513,
