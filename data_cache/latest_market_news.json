@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795750250.723,
-  "updated_at_et": "11-26 22:30 ET",
-  "updated_at_kst": "12:30 KST",
+  "updated_at_ts": 1795750356.541,
+  "updated_at_et": "11-26 22:32 ET",
+  "updated_at_kst": "12:32 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -896,6 +896,13 @@
     ],
     "NVDA": [
       {
+        "title": "Nvidia Is Down 35% From Its All-Time High, Tied for Its Biggest Drop Since the AI Boom Began. Is It a Buy?",
+        "url": "https://www.fool.com/investing/2026/11/26/nvidia-is-down-35-from-its-all-time-high-tied-for-its-biggest-drop-since-the-ai-boom-began-is-it-a-buy/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 22:20 ET",
+        "pub_ts": 1795749602.0
+      },
+      {
         "title": "Stocks Are Plunging Right Now. Here's What History Says Investors Should Do.",
         "url": "https://www.fool.com/investing/2026/11/26/stocks-are-plunging-right-now-heres-what-history-s/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -922,13 +929,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 18:14 ET",
         "pub_ts": 1795734884.0
-      },
-      {
-        "title": "Did Jensen Huang’s Alleged Chinese Spy Get Him to Do Anything Nvidia Didn’t Want?",
-        "url": "https://unchainedcrypto.com/did-jensen-huangs-alleged-chinese-spy-get-him-to-do-anything-nvidia-didnt-want/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 18:00 ET",
-        "pub_ts": 1795734049.0
       }
     ],
     "AMD": [
@@ -3273,23 +3273,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795748811.024912,
-    "SOXL": 1795748811.024912,
-    "SPY": 1795748811.024912,
-    "DIA": 1795748811.024912,
-    "SOXX": 1795748811.024912,
-    "QQQ": 1795748811.024912,
-    "SMH": 1795748811.024912,
-    "IWM": 1795748811.024912,
-    "IGV": 1795748811.024912,
-    "TLT": 1795748811.024912,
-    "GLD": 1795748811.024912,
-    "SQQQ": 1795748811.024912,
-    "TSM": 1795748811.024912,
-    "VIXY": 1795748811.024912,
-    "SOXS": 1795748811.024912,
-    "NVDA": 1795748811.024912,
-    "AMD": 1795748811.024912,
+    "KORU": 1795750356.5409815,
+    "SOXL": 1795750356.5409815,
+    "SPY": 1795750356.5409815,
+    "DIA": 1795750356.5409815,
+    "SOXX": 1795750356.5409815,
+    "QQQ": 1795750356.5409815,
+    "SMH": 1795750356.5409815,
+    "IWM": 1795750356.5409815,
+    "IGV": 1795750356.5409815,
+    "TLT": 1795750356.5409815,
+    "GLD": 1795750356.5409815,
+    "SQQQ": 1795750356.5409815,
+    "TSM": 1795750356.5409815,
+    "VIXY": 1795750356.5409815,
+    "SOXS": 1795750356.5409815,
+    "NVDA": 1795750356.5409815,
+    "AMD": 1795750356.5409815,
     "ASML": 1795749122.7915733,
     "QCOM": 1795749122.7915733,
     "AVGO": 1795749122.7915733,
@@ -3332,14 +3332,14 @@
     "SKHY": 1795750047.0336108,
     "WDC": 1795750047.0336108,
     "STX": 1795750047.0336108,
-    "MSTR": 1795748811.024912,
+    "MSTR": 1795750356.5409815,
     "SNDK": 1795750047.0336108,
-    "BTC-USD": 1795748811.024912,
-    "CRWD": 1795748811.024912,
-    "ORCL": 1795748811.024912,
-    "COIN": 1795748811.024912,
-    "LLY": 1795748811.024912,
-    "MRNA": 1795748811.024912,
+    "BTC-USD": 1795750356.5409815,
+    "CRWD": 1795750356.5409815,
+    "ORCL": 1795750356.5409815,
+    "COIN": 1795750356.5409815,
+    "LLY": 1795750356.5409815,
+    "MRNA": 1795750356.5409815,
     "NKE": 1795749122.7915733,
     "MCD": 1795749122.7915733,
     "PEP": 1795749122.7915733,
@@ -3352,7 +3352,7 @@
     "GLW": 1795750047.0336108,
     "ANT": 1795749228.187877,
     "XAUUSD": 1795749228.187877,
-    "KOSPI": 1795748811.024912
+    "KOSPI": 1795750356.5409815
   },
   "opex_shield": {
     "date": "2026-11-26",
