@@ -74,16 +74,16 @@
       "last_notified_at": 0.0
     },
     "AXP": {
-      "state": "NORMAL",
-      "last_notified_at": 0.0
+      "state": "WATCHLIST_ENTRY_READY",
+      "last_notified_at": 1795789847.825327
     },
     "SPY": {
       "state": "NORMAL",
       "last_notified_at": 0.0
     },
     "DIA": {
-      "state": "NORMAL",
-      "last_notified_at": 0.0
+      "state": "WATCHLIST_ENTRY_READY",
+      "last_notified_at": 1795789847.825327
     },
     "IWM": {
       "state": "NORMAL",
@@ -166,12 +166,12 @@
       "last_notified_at": 0.0
     },
     "MSFT": {
-      "state": "WATCHLIST_ENTRY_READY",
-      "last_notified_at": 1795789636.8578658
-    },
-    "NKE": {
       "state": "NORMAL",
       "last_notified_at": 0.0
+    },
+    "NKE": {
+      "state": "WATCHLIST_ENTRY_READY",
+      "last_notified_at": 1795789847.825327
     },
     "HPE": {
       "state": "STOP_LOSS",
