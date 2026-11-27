@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795807095.162,
-  "updated_at_et": "11-27 14:18 ET",
-  "updated_at_kst": "04:18 KST",
+  "updated_at_ts": 1795807196.649,
+  "updated_at_et": "11-27 14:19 ET",
+  "updated_at_kst": "04:19 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -908,6 +908,20 @@
     ],
     "NVDA": [
       {
+        "title": "'Big Short' Investor Michael Burry Thinks This Chinese Stock Is Worth About 60% More Than Its Price. Should You Buy?",
+        "url": "https://www.fool.com/investing/2026/11/27/big-short-investor-michael-burry-thinks-this-chinese-stock-is-worth-about-60-more-than-its-price-should-you-buy/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:53 ET",
+        "pub_ts": 1795805583.0
+      },
+      {
+        "title": "Dow Jones Futures: Stock Market Makes Bullish Move, Tesla Leads 7 New Buys; Nvidia's Jensen Huang Heads To Capitol Hill",
+        "url": "https://finance.yahoo.com/m/5b917298-e5b5-3d87-b1fa-f7cad345af64/dow-jones-futures%3A-stock.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:48 ET",
+        "pub_ts": 1795805323.0
+      },
+      {
         "title": "US Equity Indexes Rise as Jensen Huang's Return to Nvidia Guardrails AI Trade While Investors Slice Growth Exposure This Week",
         "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-jensen-183902792.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -927,20 +941,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 13:29 ET",
         "pub_ts": 1795804150.0
-      },
-      {
-        "title": "SanDisk Stocks Jump 12.85% After Kioxia and Nvidia Stretch GPU Memory With SSDs",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-stocks-jump-12-85-181316890.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 13:13 ET",
-        "pub_ts": 1795803196.0
-      },
-      {
-        "title": "Kioxia Stocks Jump 8.86% as Nvidia SSD Test and Index Buying Lift Shares",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/kioxia-stocks-jump-8-86-181157042.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 13:11 ET",
-        "pub_ts": 1795803117.0
       }
     ],
     "AMD": [
@@ -2601,11 +2601,11 @@
         "pub_ts": 1795802584.0
       },
       {
-        "title": "Stock Market Today: Dow, Nasdaq Pop In Post-Holiday Trade; Nvidia Falls, Sandisk Vaults Higher (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow%2C.html?.tsrc=rss",
+        "title": "Stock Market Today: Indexes Log Best Thanksgiving Week In 18 Years",
+        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-indexes.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 12:47 ET",
-        "pub_ts": 1795801677.0
+        "time": "11-27 14:19 ET",
+        "pub_ts": 1795807162.0
       }
     ],
     "BTC-USD": [
@@ -3285,23 +3285,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795805653.0994964,
-    "SOXL": 1795805653.0994964,
-    "SPY": 1795805653.0994964,
-    "DIA": 1795805653.0994964,
-    "SOXX": 1795805653.0994964,
-    "QQQ": 1795805653.0994964,
-    "SMH": 1795805653.0994964,
-    "IWM": 1795805653.0994964,
-    "IGV": 1795805653.0994964,
-    "TLT": 1795805653.0994964,
-    "GLD": 1795805653.0994964,
-    "SQQQ": 1795805653.0994964,
-    "TSM": 1795805653.0994964,
-    "VIXY": 1795805653.0994964,
-    "SOXS": 1795805653.0994964,
-    "NVDA": 1795805653.0994964,
-    "AMD": 1795805653.0994964,
+    "KORU": 1795807196.649296,
+    "SOXL": 1795807196.649296,
+    "SPY": 1795807196.649296,
+    "DIA": 1795807196.649296,
+    "SOXX": 1795807196.649296,
+    "QQQ": 1795807196.649296,
+    "SMH": 1795807196.649296,
+    "IWM": 1795807196.649296,
+    "IGV": 1795807196.649296,
+    "TLT": 1795807196.649296,
+    "GLD": 1795807196.649296,
+    "SQQQ": 1795807196.649296,
+    "TSM": 1795807196.649296,
+    "VIXY": 1795807196.649296,
+    "SOXS": 1795807196.649296,
+    "NVDA": 1795807196.649296,
+    "AMD": 1795807196.649296,
     "ASML": 1795805957.6747034,
     "QCOM": 1795805957.6747034,
     "AVGO": 1795805957.6747034,
@@ -3340,14 +3340,14 @@
     "OKLO": 1795806059.3108487,
     "CEG": 1795806059.3108487,
     "FPS": 1795806059.3108487,
-    "MU": 1795805653.0994964,
-    "SKHY": 1795805653.0994964,
-    "WDC": 1795805653.0994964,
-    "STX": 1795805653.0994964,
-    "MSTR": 1795805653.0994964,
-    "SNDK": 1795805653.0994964,
+    "MU": 1795807196.649296,
+    "SKHY": 1795807196.649296,
+    "WDC": 1795807196.649296,
+    "STX": 1795807196.649296,
+    "MSTR": 1795807196.649296,
+    "SNDK": 1795807196.649296,
     "BTC-USD": 1795805957.6747034,
-    "CRWD": 1795805653.0994964,
+    "CRWD": 1795807196.649296,
     "ORCL": 1795805957.6747034,
     "COIN": 1795805957.6747034,
     "LLY": 1795805957.6747034,
@@ -3364,7 +3364,7 @@
     "GLW": 1795806059.3108487,
     "ANT": 1795806161.7641485,
     "XAUUSD": 1795806161.7641485,
-    "KOSPI": 1795805653.0994964
+    "KOSPI": 1795807196.649296
   },
   "opex_shield": {
     "date": "2026-11-27",
