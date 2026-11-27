@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795752220.785,
-  "updated_at_et": "11-26 23:03 ET",
-  "updated_at_kst": "13:03 KST",
+  "updated_at_ts": 1795752324.623,
+  "updated_at_et": "11-26 23:05 ET",
+  "updated_at_kst": "13:05 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -3188,6 +3188,13 @@
     ],
     "ANT": [
       {
+        "title": "Dow Jones Futures Rise; Look For This Bullish Market Signal On Black Friday",
+        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B-look.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 22:56 ET",
+        "pub_ts": 1795751783.0
+      },
+      {
         "title": "Is DXC Technology (DXC) Fully Valued On Its New AI Security Push?",
         "url": "https://finance.yahoo.com/technology/ai/articles/dxc-technology-dxc-fully-valued-021346564.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3200,13 +3207,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 20:35 ET",
         "pub_ts": 1795743302.0
-      },
-      {
-        "title": "Dow Jones Futures Rise; Look For This Bullish Market Signal On Black Friday",
-        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B-look.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 20:34 ET",
-        "pub_ts": 1795743275.0
       },
       {
         "title": "Anthropic Stock (ANT) Forecast – Analysts See 60%+ Upside Despite Ongoing AI Trade Concerns",
@@ -3341,15 +3341,15 @@
     "NKE": 1795752220.7853909,
     "MCD": 1795752220.7853909,
     "PEP": 1795752220.7853909,
-    "XOM": 1795750770.8592343,
+    "XOM": 1795752324.6225436,
     "JPM": 1795752220.7853909,
-    "WMT": 1795750770.8592343,
+    "WMT": 1795752324.6225436,
     "V": 1795752220.7853909,
-    "CAT": 1795750770.8592343,
+    "CAT": 1795752324.6225436,
     "FN": 1795751600.6089237,
     "GLW": 1795751600.6089237,
-    "ANT": 1795750770.8592343,
-    "XAUUSD": 1795750770.8592343,
+    "ANT": 1795752324.6225436,
+    "XAUUSD": 1795752324.6225436,
     "KOSPI": 1795751907.4946942
   },
   "opex_shield": {
