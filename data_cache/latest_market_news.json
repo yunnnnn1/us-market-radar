@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795805856.183,
-  "updated_at_et": "11-27 13:57 ET",
-  "updated_at_kst": "03:57 KST",
+  "updated_at_ts": 1795805957.675,
+  "updated_at_et": "11-27 13:59 ET",
+  "updated_at_kst": "03:59 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -982,6 +982,13 @@
     ],
     "ASML": [
       {
+        "title": "ASML Stocks Edge Higher 0.07% as Dutch Government Pushes Back on U.S. Export Curbs",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/asml-stocks-edge-higher-0-181452154.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:14 ET",
+        "pub_ts": 1795803292.0
+      },
+      {
         "title": "AMD vs. ASML: As Wall Street Questions the AI Boom, Which Chip Stock Wins in 2027?",
         "url": "https://www.fool.com/coverage/better-buy/2026/11/27/amd-vs-asml-as-wall-street-questions-the-ai-boom-which-chip-stock-wins-in-2027/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1008,16 +1015,16 @@
         "source": "Yahoo Finance",
         "time": "11-26 03:28 ET",
         "pub_ts": 1795681730.0
-      },
-      {
-        "title": "ASML (ASML) Can’t Meet Demand. Is That a Strength or Risk?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/asml-asml-t-meet-demand-004924571.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 19:49 ET",
-        "pub_ts": 1795654164.0
       }
     ],
     "QCOM": [
+      {
+        "title": "Qualcomm Stocks Climb 4.18% After Tying CEO Award to $500 Share Price",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-stocks-climb-4-18-181911724.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:19 ET",
+        "pub_ts": 1795803551.0
+      },
       {
         "title": "Qualcomm, Cava, and Dutch Bros Earnings and a Robotics IPO",
         "url": "https://www.fool.com/investing/2026/11/27/qualcomm-cava-and-dutch-bros-earnings-and-a-robotics-ipo/?.tsrc=rss",
@@ -1045,13 +1052,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 07:45 ET",
         "pub_ts": 1795783529.0
-      },
-      {
-        "title": "Why Is Qualcomm Stock Rallying Today?",
-        "url": "https://investorshub.advfn.com/market-news/article/40788/why-is-qualcomm-stock-rallying-today?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:50 ET",
-        "pub_ts": 1795780239.0
       }
     ],
     "AVGO": [
@@ -1174,6 +1174,13 @@
         "pub_ts": 1795798320.0
       },
       {
+        "title": "Jim Cramer Is Still Bullish On These 5 Tech Stocks Despite AI Bear Market",
+        "url": "https://finance.yahoo.com/technology/articles/jim-cramer-still-bullish-5-184921596.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:49 ET",
+        "pub_ts": 1795805361.0
+      },
+      {
         "title": "AppLovin vs. Magnite: Which Technology Stock Is a Better Buy for 2027?",
         "url": "https://www.fool.com/coverage/better-buy/2026/11/27/applovin-vs-magnite-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1193,16 +1200,16 @@
         "source": "Yahoo Finance",
         "time": "11-27 13:00 ET",
         "pub_ts": 1795802423.0
-      },
-      {
-        "title": "Snap vs. The Trade Desk: Which Stock Is a Better Buy for 2027?",
-        "url": "https://www.fool.com/coverage/better-buy/2026/11/27/snap-vs-the-trade-desk-which-stock-is-a-better-buy-for-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 12:52 ET",
-        "pub_ts": 1795801955.0
       }
     ],
     "MSFT": [
+      {
+        "title": "Microsoft Stocks Rise 0.26% as Code Red Targets One-Hour Outage Recovery",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stocks-rise-0-26-182320294.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:23 ET",
+        "pub_ts": 1795803800.0
+      },
       {
         "title": "Did Billionaire Bill Ackman Lose Confidence in Microsoft? The Answer Might Surprise You",
         "url": "https://www.fool.com/investing/2026/11/27/did-billionaire-bill-ackman-lose-confidence-in-microsoft-the-answer-might-surprise-you/?.tsrc=rss",
@@ -1230,13 +1237,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 09:36 ET",
         "pub_ts": 1795790160.0
-      },
-      {
-        "title": "AI Powered Supply Chain Planning Software Market Report 2026 | Capitalize on 24.8% CAGR and $26.72B in Revenue by 2030 with Microsoft, Oracle, SAP and IBM",
-        "url": "https://finance.yahoo.com/technology/ai/articles/ai-powered-supply-chain-planning-143200996.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 09:32 ET",
-        "pub_ts": 1795789920.0
       }
     ],
     "AAPL": [
@@ -1278,6 +1278,20 @@
     ],
     "PLTR": [
       {
+        "title": "PLTR Stock Sees Best Week In 4 Months: Palantir Bags Reported $300M Defense Deal With Poland",
+        "url": "https://stocktwits.com/news-articles/markets/equity/pltr-stock-sees-best-week-in-4-months-palantir-bags-reported-300-m-defense-deal-with-poland/cNb6TaWR9Vg?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:41 ET",
+        "pub_ts": 1795804896.0
+      },
+      {
+        "title": "Peter Thiel Takes $122M of Palantir Off the Market",
+        "url": "https://app.moby.co/home/news/news-peter-thiel-takes-122m-of-palantir-off-the-market?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:29 ET",
+        "pub_ts": 1795804173.0
+      },
+      {
         "title": "Palantir Lands Major Defense Deal as European Demand Grows",
         "url": "https://finance.yahoo.com/technology/articles/palantir-lands-major-defense-deal-175756769.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1297,20 +1311,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 12:33 ET",
         "pub_ts": 1795800816.0
-      },
-      {
-        "title": "Why Palantir Popped on Friday",
-        "url": "https://www.fool.com/investing/2026/11/27/why-palantir-popped-on-friday/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 11:31 ET",
-        "pub_ts": 1795797091.0
-      },
-      {
-        "title": "Palantir Stock Jumps. It Could Land a Major Poland Defense Deal",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-jumps-could-land-143921179.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 09:39 ET",
-        "pub_ts": 1795790361.0
       }
     ],
     "NOW": [
@@ -1463,39 +1463,39 @@
     ],
     "APLD": [
       {
-        "title": "Applied Digital Stock Rises After Steep Monthly Drop Near 52-Week Low",
-        "url": "https://finnhub.io/api/news?id=d3506b353c59109b0fa0e30261bd486a2881e24b1fd68874ddfc6d26edf1fec6",
-        "source": "Benzinga",
-        "time": "11-27 05:37 ET",
-        "pub_ts": 1795775869.0
-      },
-      {
         "title": "Applied Digital Just Tumbled 33% in a Month. Can APLD Stock Get Back to $20 in 2027?",
-        "url": "https://finnhub.io/api/news?id=5d2b2a169074a187ef5565fe5e2b0d292919b6e0ee62f3863e87115081007424",
-        "source": "Yahoo",
+        "url": "https://247wallst.com/investing/2026/11/26/applied-digital-just-tumbled-33-in-a-month-can-apld-stock-get-back-to-20-in-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
         "time": "11-26 12:08 ET",
         "pub_ts": 1795712888.0
       },
       {
         "title": "“It’s Dead”: Applied Digital Has $11 Billion Riding on CoreWeave’s Record Credit Stress",
-        "url": "https://finnhub.io/api/news?id=2464c94959f4f1def1279e4febeb03d423a76fd8303d2761c9d40b6b71f55d4e",
-        "source": "Yahoo",
+        "url": "https://www.tikr.com/blog/its-dead-applied-digital-has-11-billion-riding-on-coreweaves-record-credit-stress?ref=yahoofinance&tlnk=yf-261126-j6cxr9m2&.tsrc=rss",
+        "source": "Yahoo Finance",
         "time": "11-26 10:15 ET",
         "pub_ts": 1795706110.0
       },
       {
-        "title": "5 Best Small Cap AI Stocks to Buy for 2027",
-        "url": "https://finnhub.io/api/news?id=a4ef77b4796e10bbbee79cda95be8cc4f552a77cb902cb2bd655f086e2bea727",
-        "source": "Yahoo",
-        "time": "11-26 09:40 ET",
-        "pub_ts": 1795704008.0
-      },
-      {
         "title": "Lucid Capital Cut Its Applied Digital Target to $40 From $83. It Still Sees 227% Upside",
-        "url": "https://finnhub.io/api/news?id=ef9648da9a6eeddf0e1e035f089c37212ba3c42bb017565f129b72b9f5c8b957",
-        "source": "Yahoo",
+        "url": "https://www.tikr.com/blog/lucid-capital-cut-its-applied-digital-target-to-40-from-83-it-still-sees-227-upside?ref=yahoofinance&tlnk=yf-261126-hxqmqqw8&.tsrc=rss",
+        "source": "Yahoo Finance",
         "time": "11-26 06:20 ET",
         "pub_ts": 1795692020.0
+      },
+      {
+        "title": "Applied Digital Dropped 14% in a Week Despite a $5.4 Billion Lease. Lucid Still Sees 227% Upside",
+        "url": "https://www.tikr.com/blog/applied-digital-dropped-14-in-a-week-despite-a-5-4-billion-lease-lucid-still-sees-227-upside?ref=yahoofinance&tlnk=yf-261125-mhcw2483&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 18:37 ET",
+        "pub_ts": 1795649864.0
+      },
+      {
+        "title": "Data Center Americas 2027 Announces Industry Leaders from AWS, Google, Microsoft, Oracle, CoreWeave and Applied Digital as Featured Speakers",
+        "url": "https://finance.yahoo.com/technology/ai/articles/data-center-americas-2027-announces-140000391.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 09:00 ET",
+        "pub_ts": 1795615200.0
       }
     ],
     "VST": [
@@ -3302,27 +3302,27 @@
     "SOXS": 1795805653.0994964,
     "NVDA": 1795805653.0994964,
     "AMD": 1795805653.0994964,
-    "ASML": 1795804423.4267256,
-    "QCOM": 1795804423.4267256,
-    "AVGO": 1795804423.4267256,
-    "AMAT": 1795804423.4267256,
-    "META": 1795804423.4267256,
-    "GOOGL": 1795804423.4267256,
-    "MSFT": 1795804423.4267256,
-    "AAPL": 1795804423.4267256,
-    "PLTR": 1795804423.4267256,
-    "NOW": 1795804423.4267256,
-    "AMZN": 1795804423.4267256,
-    "CRWV": 1795804423.4267256,
-    "NBIS": 1795804423.4267256,
-    "APLD": 1795804423.4267256,
-    "VST": 1795804423.4267256,
-    "BE": 1795804423.4267256,
-    "CRDO": 1795804423.4267256,
-    "COHR": 1795804423.4267256,
-    "MRVL": 1795804423.4267256,
+    "ASML": 1795805957.6747034,
+    "QCOM": 1795805957.6747034,
+    "AVGO": 1795805957.6747034,
+    "AMAT": 1795805957.6747034,
+    "META": 1795805957.6747034,
+    "GOOGL": 1795805957.6747034,
+    "MSFT": 1795805957.6747034,
+    "AAPL": 1795805957.6747034,
+    "PLTR": 1795805957.6747034,
+    "NOW": 1795805957.6747034,
+    "AMZN": 1795805957.6747034,
+    "CRWV": 1795805957.6747034,
+    "NBIS": 1795805957.6747034,
+    "APLD": 1795805957.6747034,
+    "VST": 1795805957.6747034,
+    "BE": 1795805957.6747034,
+    "CRDO": 1795805957.6747034,
+    "COHR": 1795805957.6747034,
+    "MRVL": 1795805957.6747034,
     "LITE": 1795804526.326668,
-    "AAOI": 1795804423.4267256,
+    "AAOI": 1795805957.6747034,
     "SPCX": 1795804526.326668,
     "ASTS": 1795804526.326668,
     "AXTI": 1795804526.326668,
@@ -3346,12 +3346,12 @@
     "STX": 1795805653.0994964,
     "MSTR": 1795805653.0994964,
     "SNDK": 1795805653.0994964,
-    "BTC-USD": 1795804423.4267256,
+    "BTC-USD": 1795805957.6747034,
     "CRWD": 1795805653.0994964,
-    "ORCL": 1795804423.4267256,
-    "COIN": 1795804423.4267256,
-    "LLY": 1795804423.4267256,
-    "MRNA": 1795804423.4267256,
+    "ORCL": 1795805957.6747034,
+    "COIN": 1795805957.6747034,
+    "LLY": 1795805957.6747034,
+    "MRNA": 1795805957.6747034,
     "NKE": 1795804526.326668,
     "MCD": 1795804526.326668,
     "PEP": 1795804526.326668,
