@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795789002.814,
-  "updated_at_et": "11-27 09:16 ET",
-  "updated_at_kst": "23:16 KST",
+  "updated_at_ts": 1795789108.51,
+  "updated_at_et": "11-27 09:18 ET",
+  "updated_at_kst": "23:18 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1088,6 +1088,13 @@
     ],
     "AMAT": [
       {
+        "title": "Investors Heavily Search Applied Materials, Inc. (AMAT): Here is What You Need to Know",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/investors-heavily-search-applied-materials-130003962.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:00 ET",
+        "pub_ts": 1795784403.0
+      },
+      {
         "title": "Why Summit Insights Downgraded Applied Materials (AMAT) After Record Results",
         "url": "https://finance.yahoo.com/markets/stocks/articles/why-summit-insights-downgraded-applied-034833923.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1114,13 +1121,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 03:28 ET",
         "pub_ts": 1795681730.0
-      },
-      {
-        "title": "Applied Materials (AMAT) Supplies Almost Every Fab. Is That Enough?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-supplies-almost-005322656.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 19:53 ET",
-        "pub_ts": 1795654402.0
       }
     ],
     "META": [
@@ -1176,6 +1176,13 @@
         "pub_ts": 1795780980.0
       },
       {
+        "title": "AI Search Optimization for SaaS and Financial-Services Companies as All Organic Search Moves to AI",
+        "url": "https://finance.yahoo.com/technology/ai/articles/ai-search-optimization-saas-financial-140000805.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:00 ET",
+        "pub_ts": 1795788000.0
+      },
+      {
         "title": "Latest News In Cloud AI - Cloudera Advances Data Control With Digital Sovereignty Solution",
         "url": "https://finance.yahoo.com/technology/ai/articles/latest-news-cloud-ai-cloudera-123749135.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1188,16 +1195,16 @@
         "source": "Yahoo Finance",
         "time": "11-27 07:37 ET",
         "pub_ts": 1795783022.0
-      },
-      {
-        "title": "Market Chatter: Hackers Breach US Air Force Cloud Platform Powered by Microsoft, Amazon, Oracle, Alphabet",
-        "url": "https://finance.yahoo.com/technology/articles/market-chatter-hackers-breach-us-122132707.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 07:21 ET",
-        "pub_ts": 1795782092.0
       }
     ],
     "MSFT": [
+      {
+        "title": "Near-Equal ~$664B–$678B Backlogs: Why Oracle’s AI Concentration Risk Differs From Microsoft’s",
+        "url": "https://247wallst.com/investing/2026/11/27/near-equal-664b-678b-backlogs-why-oracles-ai-concentration-risk-differs-from-microsofts/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:45 ET",
+        "pub_ts": 1795787137.0
+      },
       {
         "title": "Tech Sell-Off: 1 Unstoppable Stock-Split Stock to Buy Before It Joins Nvidia, Alphabet, Microsoft, and Apple in the $3 Trillion Club",
         "url": "https://www.fool.com/investing/2026/11/27/tech-sell-off-1-unstoppable-stock-split-stock-buy-before-joins-nvidia-alphabet-microsoft-apple-usd3-trillion-club/?.tsrc=rss",
@@ -1225,13 +1232,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 06:50 ET",
         "pub_ts": 1795780233.0
-      },
-      {
-        "title": "iShares Russell 3000 ETF (IWV) Adds Apple and Microsoft on Nov. 25",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-3000-etf-iwv-110513086.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:05 ET",
-        "pub_ts": 1795777513.0
       }
     ],
     "AAPL": [
@@ -1273,6 +1273,13 @@
     ],
     "PLTR": [
       {
+        "title": "Palantir’s 17% Month Long Downturn: An Entry Opportunity According to This Wall Street Desk That Sees 67% Gains Ahead",
+        "url": "https://247wallst.com/investing/2026/11/27/palantirs-17-month-long-downturn-an-entry-opportunity-according-to-this-wall-street-desk-that-sees-67-gains-ahead/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:45 ET",
+        "pub_ts": 1795787131.0
+      },
+      {
         "title": "Palantir Nears AI Defense Deal With Poland's Defense Ministry",
         "url": "https://finance.yahoo.com/technology/ai/articles/palantir-nears-ai-defense-deal-113217461.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1299,13 +1306,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 13:36 ET",
         "pub_ts": 1795718202.0
-      },
-      {
-        "title": "Palantir Closed 212 Deals Worth at Least $1 Million. Here’s What That Means for Its Growth",
-        "url": "https://247wallst.com/investing/2026/11/26/palantir-closed-212-deals-worth-at-least-1-million-heres-what-that-means-for-its-growth/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 11:03 ET",
-        "pub_ts": 1795709007.0
       }
     ],
     "NOW": [
@@ -1569,6 +1569,13 @@
     ],
     "CRDO": [
       {
+        "title": "AI Needs More Than Nvidia Chips. This Stock Could Benefit",
+        "url": "https://247wallst.com/investing/2026/11/27/ai-needs-more-than-nvidia-chips-this-stock-could-benefit/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:47 ET",
+        "pub_ts": 1795787250.0
+      },
+      {
         "title": "Credo Technology Group Holding (CRDO) Could Be 50% Below Fair Value After Marvell Settlement",
         "url": "https://finance.yahoo.com/markets/stocks/articles/credo-technology-group-holding-crdo-012531407.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1595,13 +1602,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 07:15 ET",
         "pub_ts": 1795695300.0
-      },
-      {
-        "title": "Why Is Credo Stock Going Up?",
-        "url": "https://www.trefis.com/stock/crdo/articles/628617/why-is-credo-stock-going-up/2026-11-25?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 16:13 ET",
-        "pub_ts": 1795641212.0
       }
     ],
     "COHR": [
@@ -1643,6 +1643,13 @@
     ],
     "MRVL": [
       {
+        "title": "AMD Rises 4% Despite Erste Group Downgrade on Valuation; Marvell Climbs 6%, Intel Gains 5%",
+        "url": "https://247wallst.com/investing/2026/11/27/amd-rises-4-despite-erste-group-downgrade-on-valuation-marvell-climbs-6-intel-gains-5/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:02 ET",
+        "pub_ts": 1795788175.0
+      },
+      {
         "title": "The Next Phase of AI Spending Could Put This Overlooked Stock in the Spotlight",
         "url": "https://247wallst.com/investing/2026/11/27/the-next-phase-of-ai-spending-could-put-this-overlooked-stock-in-the-spotlight/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1669,13 +1676,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 05:22 ET",
         "pub_ts": 1795774920.0
-      },
-      {
-        "title": "Top 3 Undervalued Tech Stocks To Watch In November 2026",
-        "url": "https://finance.yahoo.com/technology/articles/top-3-undervalued-tech-stocks-071100555.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 02:11 ET",
-        "pub_ts": 1795763460.0
       }
     ],
     "LITE": [
@@ -2864,6 +2864,13 @@
     ],
     "MCD": [
       {
+        "title": "McDonald’s Joined the Dividend Kings in September, but These 4 Have Been Kings for Decades",
+        "url": "https://247wallst.com/investing/2026/11/27/mcdonalds-joined-the-dividend-kings-in-september-but-these-4-have-been-kings-for-decades/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:03 ET",
+        "pub_ts": 1795788238.0
+      },
+      {
         "title": "What Should McDonald's Stock Holders Watch Now?",
         "url": "https://www.trefis.com/stock/mcd/articles/629362/what-should-mcdonald-s-stock-holders-watch-now/2026-11-27?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2890,16 +2897,16 @@
         "source": "Yahoo Finance",
         "time": "11-26 09:07 ET",
         "pub_ts": 1795702020.0
-      },
-      {
-        "title": "Here's How Much a $10,000 Investment in McDonald's Pays You Every Single Year",
-        "url": "https://www.fool.com/investing/2026/11/25/heres-how-much-a-10000-investment-in-mcdonalds-pays-you-every-single-year/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 15:13 ET",
-        "pub_ts": 1795637582.0
       }
     ],
     "PEP": [
+      {
+        "title": "McDonald’s Joined the Dividend Kings in September, but These 4 Have Been Kings for Decades",
+        "url": "https://247wallst.com/investing/2026/11/27/mcdonalds-joined-the-dividend-kings-in-september-but-these-4-have-been-kings-for-decades/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:03 ET",
+        "pub_ts": 1795788238.0
+      },
       {
         "title": "44 ETFs Add to PepsiCo (PEP) on Nov. 25",
         "url": "https://finance.yahoo.com/markets/stocks/articles/44-etfs-add-pepsico-pep-110144979.html?.tsrc=rss",
@@ -2927,13 +2934,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 06:01 ET",
         "pub_ts": 1795690880.0
-      },
-      {
-        "title": "2 Bargain Stocks to Buy With $1,000 in November",
-        "url": "https://www.fool.com/investing/2026/11/25/2-bargain-stocks-to-buy-with-usd1-000-in-november/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 17:47 ET",
-        "pub_ts": 1795646821.0
       }
     ],
     "XOM": [
@@ -3049,6 +3049,13 @@
     ],
     "V": [
       {
+        "title": "Can Holiday Bargain Hunting Boost Visa's Cross-Border Business?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/holiday-bargain-hunting-boost-visas-125600178.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 07:56 ET",
+        "pub_ts": 1795784160.0
+      },
+      {
         "title": "What Is Visa (V) Doing With Stablecoin Payments In Europe And Asia?",
         "url": "https://finance.yahoo.com/markets/crypto/articles/visa-v-doing-stablecoin-payments-120939492.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3075,13 +3082,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 10:30 ET",
         "pub_ts": 1795707019.0
-      },
-      {
-        "title": "Visa Is Up 29% in a Year. Wedbush Sees Another 15%",
-        "url": "https://www.tikr.com/blog/visa-is-up-27-in-a-year-wedbush-sees-another-17?ref=yahoofinance&tlnk=yf-261127-mqgv9mhv&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 18:08 ET",
-        "pub_ts": 1795648111.0
       }
     ],
     "CAT": [
@@ -3297,27 +3297,27 @@
     "SOXS": 1795787976.477584,
     "NVDA": 1795787976.477584,
     "AMD": 1795787976.477584,
-    "ASML": 1795787560.5999227,
-    "QCOM": 1795787560.5999227,
-    "AVGO": 1795787560.5999227,
-    "AMAT": 1795787560.5999227,
-    "META": 1795787560.5999227,
-    "GOOGL": 1795787560.5999227,
-    "MSFT": 1795787560.5999227,
-    "AAPL": 1795787560.5999227,
-    "PLTR": 1795787560.5999227,
-    "NOW": 1795787560.5999227,
-    "AMZN": 1795787560.5999227,
-    "CRWV": 1795787560.5999227,
-    "NBIS": 1795787560.5999227,
-    "APLD": 1795787560.5999227,
-    "VST": 1795787560.5999227,
-    "BE": 1795787560.5999227,
-    "CRDO": 1795787560.5999227,
-    "COHR": 1795787560.5999227,
-    "MRVL": 1795787560.5999227,
+    "ASML": 1795789108.510426,
+    "QCOM": 1795789108.510426,
+    "AVGO": 1795789108.510426,
+    "AMAT": 1795789108.510426,
+    "META": 1795789108.510426,
+    "GOOGL": 1795789108.510426,
+    "MSFT": 1795789108.510426,
+    "AAPL": 1795789108.510426,
+    "PLTR": 1795789108.510426,
+    "NOW": 1795789108.510426,
+    "AMZN": 1795789108.510426,
+    "CRWV": 1795789108.510426,
+    "NBIS": 1795789108.510426,
+    "APLD": 1795789108.510426,
+    "VST": 1795789108.510426,
+    "BE": 1795789108.510426,
+    "CRDO": 1795789108.510426,
+    "COHR": 1795789108.510426,
+    "MRVL": 1795789108.510426,
     "LITE": 1795787872.0706527,
-    "AAOI": 1795787560.5999227,
+    "AAOI": 1795789108.510426,
     "SPCX": 1795787872.0706527,
     "ASTS": 1795787872.0706527,
     "AXTI": 1795787872.0706527,
@@ -3347,13 +3347,13 @@
     "COIN": 1795788078.920592,
     "LLY": 1795788078.920592,
     "MRNA": 1795788078.920592,
-    "NKE": 1795787560.5999227,
-    "MCD": 1795787560.5999227,
-    "PEP": 1795787560.5999227,
+    "NKE": 1795789108.510426,
+    "MCD": 1795789108.510426,
+    "PEP": 1795789108.510426,
     "XOM": 1795787872.0706527,
-    "JPM": 1795787560.5999227,
+    "JPM": 1795789108.510426,
     "WMT": 1795787872.0706527,
-    "V": 1795787560.5999227,
+    "V": 1795789108.510426,
     "CAT": 1795787872.0706527,
     "FN": 1795787872.0706527,
     "GLW": 1795787872.0706527,
