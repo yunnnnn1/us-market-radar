@@ -8115,9 +8115,13 @@
     "2026-11-27:DEFENSIVE_FLIGHT:+0.9": {
       "device": "PC",
       "ts": 1795816336.4169738
+    },
+    "WEEKLY_LEDGER_RECAP:2026-W48": {
+      "device": "PC",
+      "ts": 1795822227.6749616
     }
   },
   "device": "PC",
-  "last_heartbeat_ts": 1795822053.8101766,
-  "updated_at": "2026-11-27T23:27:33.810219+00:00"
+  "last_heartbeat_ts": 1795822148.8349783,
+  "updated_at": "2026-11-27T23:30:27.675004+00:00"
 }
