@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795804423.427,
-  "updated_at_et": "11-27 13:33 ET",
-  "updated_at_kst": "03:33 KST",
+  "updated_at_ts": 1795804526.327,
+  "updated_at_et": "11-27 13:35 ET",
+  "updated_at_kst": "03:35 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1759,11 +1759,18 @@
     ],
     "SPCX": [
       {
-        "title": "Stocks snap from a $6 trillion washout to a $3 trillion surge as Nvidia, Micron, and SpaceX bounce back",
+        "title": "Stocks snap from a $6 trillion washout to a $3.5 trillion surge as Nvidia, Micron, and SpaceX bounce back",
         "url": "https://finance.yahoo.com/markets/article/stocks-snap-from-a-6-trillion-washout-to-a-3-trillion-surge-as-nvidia-micron-and-spacex-bounce-back-151218930.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-27 10:12 ET",
         "pub_ts": 1795792338.0
+      },
+      {
+        "title": "Are billionaires gaining too much influence as they invest in Trump Accounts?",
+        "url": "https://finance.yahoo.com/video/are-billionaires-gaining-too-much-influence-as-they-invest-in-trump-accounts-181419307.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:14 ET",
+        "pub_ts": 1795803259.0
       },
       {
         "title": "Nvidia halts sales to SE Asia, SpaceX surges on Musk's share promise",
@@ -1785,13 +1792,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 12:52 ET",
         "pub_ts": 1795801976.0
-      },
-      {
-        "title": "Here's Why SpaceX’s Starship Could Lift Linde’s Space Revenue up to 700%",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63684152/spacex-starship-linde-fueling-infrastructure?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 12:46 ET",
-        "pub_ts": 1795801563.0
       }
     ],
     "ASTS": [
@@ -1907,6 +1907,13 @@
     ],
     "LUNR": [
       {
+        "title": "Intuitive Machines (LUNR) Could Be 8% Undervalued As START Review Clears",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/intuitive-machines-lunr-could-8-180856389.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:08 ET",
+        "pub_ts": 1795802936.0
+      },
+      {
         "title": "Intuitive Machines (LUNR) Joined NASA’s New Lunar Infrastructure Contractor Group",
         "url": "https://finance.yahoo.com/markets/stocks/articles/intuitive-machines-lunr-joined-nasa-171637431.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1933,13 +1940,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 03:25 ET",
         "pub_ts": 1795681559.0
-      },
-      {
-        "title": "NASA Is Handing Out Moon Contracts Again. Intuitive Machines, Firefly, and Redwire All Got Paid. Only 1 Has the Balance Sheet to Keep Winning.",
-        "url": "https://www.fool.com/investing/2026/11/23/nasa-is-handing-out-moon-contracts-again-intuitive-machines-firefly-and-redwire-all-got-paid-only-1-has-the-balance-sheet-to-keep-winning/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 22:47 ET",
-        "pub_ts": 1795492022.0
       }
     ],
     "TSLA": [
@@ -1949,6 +1949,13 @@
         "source": "Yahoo Finance",
         "time": "11-27 09:58 ET",
         "pub_ts": 1795791529.0
+      },
+      {
+        "title": "Tesla Takes 1.2M SF at Houston’s Cedar Port Industrial Park",
+        "url": "https://www.credaily.com/briefs/tesla-takes-1-2m-sf-at-houstons-cedar-port-industrial-park/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:11 ET",
+        "pub_ts": 1795803114.0
       },
       {
         "title": "Sector Update: Consumer Stocks Advance Friday Afternoon",
@@ -1970,13 +1977,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 06:04 ET",
         "pub_ts": 1795777488.0
-      },
-      {
-        "title": "What Invesco NASDAQ 100 ETF (QQQM) Bought: Apple Leads on Wednesday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-nasdaq-100-etf-qqqm-110420784.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:04 ET",
-        "pub_ts": 1795777460.0
       }
     ],
     "AXP": [
@@ -2240,6 +2240,13 @@
     ],
     "DELL": [
       {
+        "title": "High Implied Volatility Sets Up Iron Condor For Dell Stock",
+        "url": "https://finance.yahoo.com/m/239a90e3-8d86-3090-9b13-08baad8636d1/high-implied-volatility-sets.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:08 ET",
+        "pub_ts": 1795802929.0
+      },
+      {
         "title": "Stock Market Midday, Nov. 27: Tech Stocks Recover and Amazon Posts Black Friday Gains",
         "url": "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-midday-nov-27-tech-stocks-recover-and-amazon-posts-black-friday-gains/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2266,13 +2273,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 11:44 ET",
         "pub_ts": 1795797840.0
-      },
-      {
-        "title": "Jensen Huang Said Blackwell Racks Wouldn't Fit In A 'Pocket Or Backpack' But One Has Reportedly Turned Up in Shanghai",
-        "url": "https://stocktwits.com/news-articles/markets/equity/jensen-huang-said-blackwell-racks-wouldn-t-fit-in-a-pocket-or-backpack-but-one-has-reportedly-turned-up-in-shanghai/cNbCwmzR9Vb?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 09:29 ET",
-        "pub_ts": 1795789781.0
       }
     ],
     "OKLO": [
@@ -3321,25 +3321,25 @@
     "CRDO": 1795804423.4267256,
     "COHR": 1795804423.4267256,
     "MRVL": 1795804423.4267256,
-    "LITE": 1795802986.7616377,
+    "LITE": 1795804526.326668,
     "AAOI": 1795804423.4267256,
-    "SPCX": 1795802986.7616377,
-    "ASTS": 1795802986.7616377,
-    "AXTI": 1795802986.7616377,
-    "NASA": 1795802986.7616377,
-    "LUNR": 1795802986.7616377,
-    "TSLA": 1795802986.7616377,
-    "AXP": 1795802986.7616377,
-    "RKLB": 1795802986.7616377,
-    "KO": 1795802986.7616377,
-    "FLY": 1795802986.7616377,
-    "INTC": 1795802986.7616377,
-    "VRT": 1795802986.7616377,
-    "HPE": 1795802986.7616377,
-    "DELL": 1795802986.7616377,
-    "OKLO": 1795802986.7616377,
-    "CEG": 1795802986.7616377,
-    "FPS": 1795802986.7616377,
+    "SPCX": 1795804526.326668,
+    "ASTS": 1795804526.326668,
+    "AXTI": 1795804526.326668,
+    "NASA": 1795804526.326668,
+    "LUNR": 1795804526.326668,
+    "TSLA": 1795804526.326668,
+    "AXP": 1795804526.326668,
+    "RKLB": 1795804526.326668,
+    "KO": 1795804526.326668,
+    "FLY": 1795804526.326668,
+    "INTC": 1795804526.326668,
+    "VRT": 1795804526.326668,
+    "HPE": 1795804526.326668,
+    "DELL": 1795804526.326668,
+    "OKLO": 1795804526.326668,
+    "CEG": 1795804526.326668,
+    "FPS": 1795804526.326668,
     "MU": 1795804112.8596241,
     "SKHY": 1795804112.8596241,
     "WDC": 1795804112.8596241,
@@ -3352,16 +3352,16 @@
     "COIN": 1795804423.4267256,
     "LLY": 1795804423.4267256,
     "MRNA": 1795804423.4267256,
-    "NKE": 1795802986.7616377,
-    "MCD": 1795802986.7616377,
-    "PEP": 1795802986.7616377,
+    "NKE": 1795804526.326668,
+    "MCD": 1795804526.326668,
+    "PEP": 1795804526.326668,
     "XOM": 1795803087.929716,
-    "JPM": 1795802986.7616377,
+    "JPM": 1795804526.326668,
     "WMT": 1795803087.929716,
-    "V": 1795802986.7616377,
+    "V": 1795804526.326668,
     "CAT": 1795803087.929716,
-    "FN": 1795802986.7616377,
-    "GLW": 1795802986.7616377,
+    "FN": 1795804526.326668,
+    "GLW": 1795804526.326668,
     "ANT": 1795803087.929716,
     "XAUUSD": 1795803087.929716,
     "KOSPI": 1795804112.8596241
