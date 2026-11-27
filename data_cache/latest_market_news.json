@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795767851.294,
-  "updated_at_et": "11-27 03:24 ET",
-  "updated_at_kst": "17:24 KST",
+  "updated_at_ts": 1795767948.739,
+  "updated_at_et": "11-27 03:25 ET",
+  "updated_at_kst": "17:25 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -3187,39 +3187,39 @@
     ],
     "ANT": [
       {
+        "title": "Prediction: This Will Be Anthropic’s Stock Price by the End of 2026",
+        "url": "https://www.fool.com/investing/2026/11/27/prediction-this-will-be-anthropic-s-stock-price-by-the-end-of-2026/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 02:23 ET",
+        "pub_ts": 1795764182.0
+      },
+      {
         "title": "Dow Jones Futures Rise; Look For This Bullish Market Signal On Black Friday",
-        "url": "https://finnhub.io/api/news?id=ad1499815de9fcb015c4d8f9a5870e9036fff5d0b19bac37e6ac3602b1115bc7",
-        "source": "Yahoo",
-        "time": "11-26 19:44 ET",
-        "pub_ts": 1795740266.0
+        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B-look.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 23:23 ET",
+        "pub_ts": 1795753438.0
+      },
+      {
+        "title": "Is DXC Technology (DXC) Fully Valued On Its New AI Security Push?",
+        "url": "https://finance.yahoo.com/technology/ai/articles/dxc-technology-dxc-fully-valued-021346564.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 21:13 ET",
+        "pub_ts": 1795745626.0
+      },
+      {
+        "title": "Thinking About Investing in Anthropic? Make This 1 Portfolio Move First",
+        "url": "https://www.fool.com/investing/2026/11/26/thinking-about-investing-in-anthropic-make-this-1-portfolio-move-first/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 20:35 ET",
+        "pub_ts": 1795743302.0
       },
       {
         "title": "Anthropic Stock (ANT) Forecast – Analysts See 60%+ Upside Despite Ongoing AI Trade Concerns",
-        "url": "https://finnhub.io/api/news?id=b6c930629e7ea794bc18185c9e5b46f9e267370097b770a0b72e08155b978fc3",
-        "source": "Yahoo",
+        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-stock-ant-forecast-analysts-222745210.html?.tsrc=rss",
+        "source": "Yahoo Finance",
         "time": "11-26 17:27 ET",
         "pub_ts": 1795732065.0
-      },
-      {
-        "title": "O’Reilly’s Sales to Professional Mechanics Jumped 12.7% Last Quarter. Here’s Why That’s the Clearest Sign of Its Moat.",
-        "url": "https://finnhub.io/api/news?id=e1e28a7e94953860ba7ad6b2e22acbca725f81f327fba9bbd7f3c16b3f40a198",
-        "source": "Yahoo",
-        "time": "11-26 16:50 ET",
-        "pub_ts": 1795729802.0
-      },
-      {
-        "title": "Cathie Wood Just Bought $26 Million of Anthropic Across 6 ARK Funds",
-        "url": "https://finnhub.io/api/news?id=007dac00e1d080fcca64fc3002a0fd35b7d5e89468190fab0a5a4a414c34734f",
-        "source": "Yahoo",
-        "time": "11-26 16:06 ET",
-        "pub_ts": 1795727161.0
-      },
-      {
-        "title": "Bitcoin, XRP, Ethereum face brutal crash risk as key levels crack",
-        "url": "https://finnhub.io/api/news?id=ce7f1bfa9852a069a7d758d0435580203e4b217dc9213079661034f3d2f914e7",
-        "source": "Yahoo",
-        "time": "11-26 16:00 ET",
-        "pub_ts": 1795726800.0
       }
     ],
     "XAUUSD": [
@@ -3340,15 +3340,15 @@
     "NKE": 1795767851.2943783,
     "MCD": 1795767851.2943783,
     "PEP": 1795767851.2943783,
-    "XOM": 1795766378.0920386,
+    "XOM": 1795767948.7385569,
     "JPM": 1795767851.2943783,
-    "WMT": 1795766378.0920386,
+    "WMT": 1795767948.7385569,
     "V": 1795767851.2943783,
-    "CAT": 1795766378.0920386,
+    "CAT": 1795767948.7385569,
     "FN": 1795767160.400745,
     "GLW": 1795767160.400745,
-    "ANT": 1795766378.0920386,
-    "XAUUSD": 1795766378.0920386,
+    "ANT": 1795767948.7385569,
+    "XAUUSD": 1795767948.7385569,
     "KOSPI": 1795767458.9247115
   },
   "opex_shield": {
