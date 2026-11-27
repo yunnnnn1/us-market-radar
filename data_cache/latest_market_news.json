@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795815072.681,
-  "updated_at_et": "11-27 16:31 ET",
-  "updated_at_kst": "06:31 KST",
+  "updated_at_ts": 1795815168.569,
+  "updated_at_et": "11-27 16:32 ET",
+  "updated_at_kst": "06:32 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1167,11 +1167,18 @@
     ],
     "GOOGL": [
       {
-        "title": "PLTR vs. ARM: Which AI-Tech Stock is Better Positioned Now?",
-        "url": "https://finance.yahoo.com/technology/ai/articles/pltr-vs-arm-ai-tech-165200990.html?.tsrc=rss",
+        "title": "5 Best Tech Stocks to Buy for 2027 According to Hedge Funds",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/5-best-tech-stocks-buy-030856400.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 11:52 ET",
-        "pub_ts": 1795798320.0
+        "time": "11-27 16:28 ET",
+        "pub_ts": 1795814936.0
+      },
+      {
+        "title": "Jensen Huang Is Back. Nvidia’s (NVDA) Bull Case Remains",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-back-nvidia-nvda-210600721.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 16:06 ET",
+        "pub_ts": 1795813560.0
       },
       {
         "title": "Alphabet Down Nearly 20%: What Would Its CEO Say?",
@@ -1193,13 +1200,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 13:49 ET",
         "pub_ts": 1795805361.0
-      },
-      {
-        "title": "Top Stock Reports for Alphabet, Meta & Bank of America",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/top-stock-reports-alphabet-meta-184100991.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 13:41 ET",
-        "pub_ts": 1795804860.0
       }
     ],
     "MSFT": [
@@ -1225,18 +1225,18 @@
         "pub_ts": 1795793427.0
       },
       {
-        "title": "Anthropic, Meta and Microsoft Join AI Data Center Talks in Japan",
-        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-meta-microsoft-join-ai-143801446.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 09:38 ET",
-        "pub_ts": 1795790281.0
-      },
-      {
         "title": "IREN (NasdaqGS:IREN) Stock Sees Modest Fair Value Cut After AI Cloud Sentiment Swings",
         "url": "https://finance.yahoo.com/markets/stocks/articles/iren-nasdaqgs-iren-stock-sees-190922720.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-27 14:09 ET",
         "pub_ts": 1795806562.0
+      },
+      {
+        "title": "What Does Alphabet (GOOGL) Need To Prove After The Air Force Cloud Breach?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/does-alphabet-googl-prove-air-181025421.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:10 ET",
+        "pub_ts": 1795803025.0
       }
     ],
     "AAPL": [
@@ -3302,27 +3302,27 @@
     "SOXS": 1795814878.3530025,
     "NVDA": 1795814878.3530025,
     "AMD": 1795814878.3530025,
-    "ASML": 1795813621.4450605,
-    "QCOM": 1795813621.4450605,
-    "AVGO": 1795813621.4450605,
-    "AMAT": 1795813621.4450605,
-    "META": 1795813621.4450605,
-    "GOOGL": 1795813621.4450605,
-    "MSFT": 1795813621.4450605,
-    "AAPL": 1795813621.4450605,
-    "PLTR": 1795813621.4450605,
-    "NOW": 1795813621.4450605,
-    "AMZN": 1795813621.4450605,
-    "CRWV": 1795813621.4450605,
-    "NBIS": 1795813621.4450605,
-    "APLD": 1795813621.4450605,
-    "VST": 1795813621.4450605,
-    "BE": 1795813621.4450605,
-    "CRDO": 1795813621.4450605,
-    "COHR": 1795813621.4450605,
-    "MRVL": 1795813621.4450605,
+    "ASML": 1795815168.5688682,
+    "QCOM": 1795815168.5688682,
+    "AVGO": 1795815168.5688682,
+    "AMAT": 1795815168.5688682,
+    "META": 1795815168.5688682,
+    "GOOGL": 1795815168.5688682,
+    "MSFT": 1795815168.5688682,
+    "AAPL": 1795815168.5688682,
+    "PLTR": 1795815168.5688682,
+    "NOW": 1795815168.5688682,
+    "AMZN": 1795815168.5688682,
+    "CRWV": 1795815168.5688682,
+    "NBIS": 1795815168.5688682,
+    "APLD": 1795815168.5688682,
+    "VST": 1795815168.5688682,
+    "BE": 1795815168.5688682,
+    "CRDO": 1795815168.5688682,
+    "COHR": 1795815168.5688682,
+    "MRVL": 1795815168.5688682,
     "LITE": 1795813720.101142,
-    "AAOI": 1795813621.4450605,
+    "AAOI": 1795815168.5688682,
     "SPCX": 1795813720.101142,
     "ASTS": 1795813720.101142,
     "AXTI": 1795813720.101142,
@@ -3346,12 +3346,12 @@
     "STX": 1795814878.3530025,
     "MSTR": 1795814878.3530025,
     "SNDK": 1795814878.3530025,
-    "BTC-USD": 1795813621.4450605,
+    "BTC-USD": 1795815168.5688682,
     "CRWD": 1795814878.3530025,
-    "ORCL": 1795813621.4450605,
-    "COIN": 1795813621.4450605,
-    "LLY": 1795813621.4450605,
-    "MRNA": 1795813621.4450605,
+    "ORCL": 1795815168.5688682,
+    "COIN": 1795815168.5688682,
+    "LLY": 1795815168.5688682,
+    "MRNA": 1795815168.5688682,
     "NKE": 1795813720.101142,
     "MCD": 1795813720.101142,
     "PEP": 1795813720.101142,
