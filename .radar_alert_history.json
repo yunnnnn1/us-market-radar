@@ -7,11 +7,11 @@
     },
     "NBIS": {
       "state": "STOP_LOSS",
-      "last_notified_at": 1795568484.3939078
+      "last_notified_at": 1795568545.5093307
     },
     "NVDA": {
       "state": "STOP_LOSS",
-      "last_notified_at": 1795568484.3939078
+      "last_notified_at": 1795568545.5093307
     },
     "META": {
       "state": "NORMAL",
@@ -82,8 +82,8 @@
       "last_notified_at": 0.0
     },
     "DIA": {
-      "state": "NORMAL",
-      "last_notified_at": 0.0
+      "state": "WATCHLIST_ENTRY_READY",
+      "last_notified_at": 1795782279.269001
     },
     "IWM": {
       "state": "NORMAL",
@@ -135,7 +135,7 @@
     },
     "APLD": {
       "state": "STOP_LOSS",
-      "last_notified_at": 1795568484.3939078
+      "last_notified_at": 1795568545.5093307
     },
     "CRDO": {
       "state": "STOP_LOSS",
@@ -151,7 +151,7 @@
     },
     "DELL": {
       "state": "STOP_LOSS",
-      "last_notified_at": 1795785999.093942
+      "last_notified_at": 1795785745.8054469
     },
     "BE": {
       "state": "STOP_LOSS",
@@ -166,8 +166,8 @@
       "last_notified_at": 0.0
     },
     "MSFT": {
-      "state": "WATCHLIST_ENTRY_READY",
-      "last_notified_at": 1795785999.093942
+      "state": "NORMAL",
+      "last_notified_at": 0.0
     },
     "NKE": {
       "state": "NORMAL",
@@ -175,7 +175,7 @@
     },
     "HPE": {
       "state": "STOP_LOSS",
-      "last_notified_at": 1795654948.2577598
+      "last_notified_at": 1795615946.2530591
     },
     "PLTR": {
       "state": "NORMAL",

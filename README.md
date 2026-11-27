@@ -137,6 +137,7 @@ python -u integrated_market_radar.py --loop-daemon --interval-seconds 60 --durat
 | `DISCORD_CLAW_WEBHOOK_URL` | 可选 | 买点/止损/止盈镜像。本地留空则跳过；Actions 注入上面的同一个 Secret |
 | `DISCORD_DEFENSIVE_FLIGHT_WEBHOOK_URL` | 可选 | 防御因子与 VXN。Actions 同样注入 `DISCORD_WEBHOOK_URL` |
 | `DISCORD_JIN10_WEBHOOK_URL` | 可选 | 金十快讯。留空则跳过，不借用其他频道 |
+| `DISCORD_COPY_TRADE_WEBHOOK_URL` | 可选 | 模拟跟单。留空则回退买点频道；Actions 同样注入 `DISCORD_WEBHOOK_URL` |
 | `GH_TOKEN` | 云端/本地自动同步必需 | 有本仓库 `contents:write` 权限的 GitHub PAT |
 
 ---
@@ -168,7 +169,7 @@ python -u integrated_market_radar.py --loop-daemon --interval-seconds 60 --durat
 | `FINNHUB_API_KEY` | ✅ | Finnhub 免费 API Key |
 | `PUSHPLUS_TOKEN` | 可选 | 微信推送 Token |
 | `GH_TOKEN` | 可选（推荐） | 有本仓库 `contents:write` 权限的 PAT；用于让 push 触发 Pages 重新部署 |
-| `DISCORD_WEBHOOK_URL` | 可选 | 一个 Webhook URL。定时雷达把它注入哨兵、买点镜像、防御因子、金十和通用回退。斜杠机器人不需要 Token |
+| `DISCORD_WEBHOOK_URL` | 可选 | 一个 Webhook URL。定时雷达把它注入哨兵、买点镜像、防御因子、金十、模拟跟单和通用回退。斜杠机器人不需要 Token |
 
 仓库页面：[Settings → Secrets and variables → Actions](https://github.com/yunnnnn1/us-market-radar/settings/secrets/actions)。Secret 名称必须是 `DISCORD_WEBHOOK_URL`。保存后，现有 cron 才会在窗口内发普通通知。`RADAR_DISABLE_EXTERNAL_ALERTS=1` 或 `--no-alerts` 仍然关闭微信、Discord、金十和周报。`Safe quote refresh once` 固定带这两个开关，并且不注入 Discord Secret。定时雷达另设 `RADAR_SENTINEL_NO_CATCHUP=1`，不补发过去 12 小时的哨兵档。
 

@@ -74,7 +74,8 @@ def verify_desktop(browser):
     reg_txt = page.locator("#pAiRegimePill").inner_text().strip()
     sc_txt = page.locator("#pAiScorecardPill").inner_text().strip()
     assert any(k in reg_txt for k in ("市场偏弱", "多头顺风", "震荡分化")), f"Bad regime pill: {reg_txt}"
-    assert "胜率" in sc_txt, f"Bad scorecard pill: {sc_txt}"
+    assert "胜率" in sc_txt or "样本积累中" in sc_txt, f"Bad scorecard pill: {sc_txt}"
+    assert "笔)" in sc_txt, f"Scorecard pill missing sample count '(N笔)': {sc_txt}"
 
     # Quick search by Chinese name ("闪迪" -> SNDK) and ticker ("NVDA" -> NVDA)
     page.fill("#quickSearchInput", "闪迪")
@@ -111,7 +112,7 @@ def verify_desktop(browser):
     badge_counts = page.locator("#watchlistContainer .stock-item").evaluate_all(
         "els => els.map(e => e.querySelectorAll('.s-status-pill').length)"
     )
-    assert len(badge_counts) == 80, f"Expected 80 watchlist rows, got {len(badge_counts)}"
+    assert len(badge_counts) == 81, f"Expected 81 watchlist rows, got {len(badge_counts)}"
     assert all(c == 1 for c in badge_counts), f"Each stock item must have strictly 1 status pill: {set(badge_counts)}"
 
     for flt in ("opportunity", "risk", "gold_crypto", "all"):
@@ -304,6 +305,29 @@ def verify_desktop(browser):
     page.locator("#btnProQuantToggle").click()
     page.wait_for_timeout(120)
 
+    # V5.4 Copy-Trade Collapsible Drawer (#termCopyTradeDrawer) on Desktop (Dark & Light)
+    ct_drawer = page.locator("#termCopyTradeDrawer")
+    assert ct_drawer.is_visible(), "#termCopyTradeDrawer must exist and be visible in tactics pane"
+    assert not ct_drawer.evaluate("el => el.open"), "#termCopyTradeDrawer must start collapsed"
+    ct_drawer.locator("summary").click()
+    page.wait_for_timeout(150)
+    assert ct_drawer.evaluate("el => el.open"), "#termCopyTradeDrawer failed to expand"
+    ct_txt = ct_drawer.inner_text()
+    assert "$1,000" in ct_txt or "模拟跟单账本" in ct_txt, f"Unexpected #termCopyTradeDrawer text: {ct_txt[:120]!r}"
+    assert "V5.5 激进 KOL 狙击轨" in ct_txt and "V5.4 稳健基准轨" in ct_txt, "Missing dual-track PK cards in #termCopyTradeDrawer"
+    assert "建议股数" not in ct_txt, "#termCopyTradeDrawer must NEVER contain 建议股数!"
+    assert ct_drawer.locator("svg").count() >= 1, "#termCopyTradeDrawer missing inline SVG equity curve!"
+    ct_drawer.locator(".ct-track-tab[data-ct-tab='steady']").click()
+    page.wait_for_timeout(80)
+    assert ct_drawer.locator(".ct-track-panel[data-ct-panel='steady']").is_visible(), "V5.4 tab panel failed to show"
+    ct_drawer.locator(".ct-track-tab[data-ct-tab='kol']").click()
+    page.wait_for_timeout(80)
+    assert ct_drawer.locator(".ct-track-panel[data-ct-panel='kol']").is_visible(), "V5.5 KOL tab panel failed to show"
+    assert_no_horizontal_overflow(page, 1440, "Desktop-Dark-CopyTradeDrawer")
+    ct_drawer.locator("summary").click()
+    page.wait_for_timeout(100)
+    assert not ct_drawer.evaluate("el => el.open"), "#termCopyTradeDrawer failed to collapse"
+
     assert not errors, f"Desktop JS pageerrors: {errors}"
     ctx.close()
     print("[PASS] Desktop (1440x900) full Phase 4 verification passed (0 JS pageerrors, 0 horizontal overflow).")
@@ -359,6 +383,18 @@ def verify_mobile(browser):
     page.wait_for_timeout(200)
     assert page.evaluate("document.documentElement.getAttribute('data-theme')") == "light"
     assert_no_horizontal_overflow(page, 390, "Mobile-Light-Mode")
+
+    # V5.4 Copy-Trade Drawer on Mobile Light mode
+    m_ct = page.locator("#termCopyTradeDrawer")
+    assert m_ct.is_visible(), "[Mobile] #termCopyTradeDrawer missing"
+    assert not m_ct.evaluate("el => el.open"), "[Mobile] #termCopyTradeDrawer must start collapsed"
+    m_ct.locator("summary").click()
+    page.wait_for_timeout(150)
+    assert m_ct.evaluate("el => el.open"), "[Mobile] #termCopyTradeDrawer failed to expand"
+    assert "建议股数" not in m_ct.inner_text(), "[Mobile] #termCopyTradeDrawer leaked 建议股数"
+    assert_no_horizontal_overflow(page, 390, "Mobile-Light-CopyTradeDrawer")
+    m_ct.locator("summary").click()
+    page.wait_for_timeout(100)
 
     assert not errors, f"Mobile JS pageerrors: {errors}"
     ctx.close()

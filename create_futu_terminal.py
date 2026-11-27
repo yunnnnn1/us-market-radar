@@ -40,7 +40,7 @@ def compute_resilient_leaders_top5(stocks_data, macro_data=None, session_code="R
                     unified.append({**m, "ticker": tk})
 
     def _eff_pct(item):
-        if sess in ("REGULAR", "POST_MARKET", "WEEKEND"):
+        if sess in ("REGULAR", "POST_MARKET", "WEEKEND", "HOLIDAY"):
             val = item.get("pct_change")
         else:
             ext_p = item.get("ext_price") or 0
@@ -122,6 +122,67 @@ def compute_resilient_leaders_top5(stocks_data, macro_data=None, session_code="R
         reverse=True,
     )
     return ranked[:max(1, int(top_n))]
+
+
+def format_topbar_scorecard_pill(sc_obj):
+    """
+    顶栏胜率胶囊样本数与小样本回退规则 (V5.3.2)：
+    1. 近 7 日样本 n7 >= 10: 展示 `近7日胜率 XX.X% (n7笔)`（若降权或 <45% 标警示色）；
+    2. 近 7 日样本 n7 < 10 且近 30 日样本 n30 >= 10: 自动回退 `近30日胜率 XX.X% (n30笔)`，
+       悬停 title 保留 `近7日 XX.X% (n7笔) · 样本偏少已回退30日口径` 完整明细；
+    3. 若 30 日样本也 < 10: 展示灰/琥珀色 `样本积累中 (N笔)`，绝不亮刺眼绿牌 100.0%。
+    返回 dict(text, title, tone) 其中 tone in ("up", "warn", "muted")。
+    """
+    if not isinstance(sc_obj, dict) or sc_obj.get("sample_count_7d") is None:
+        return {
+            "text": "样本积累中 (0笔)",
+            "title": "AI 实盘成绩单 · 等待样本积累",
+            "tone": "muted",
+        }
+    try:
+        n7 = int(sc_obj.get("sample_count_7d") or 0)
+    except Exception:
+        n7 = 0
+    try:
+        n30 = int(sc_obj.get("sample_count_30d") or 0)
+    except Exception:
+        n30 = 0
+    try:
+        wr7 = float(sc_obj.get("win_rate_7d_pct") or 0.0)
+    except Exception:
+        wr7 = 0.0
+    try:
+        wr30 = float(sc_obj.get("win_rate_30d_pct") or 0.0)
+    except Exception:
+        wr30 = 0.0
+
+    if n7 >= 10:
+        is_deg = bool(sc_obj.get("is_degraded") or wr7 < 45.0)
+        if is_deg:
+            text = f"⚠️ 近7日胜率 {wr7:.1f}% ({n7}笔) · 降权参考"
+            tone = "warn"
+        else:
+            text = f"近7日胜率 {wr7:.1f}% ({n7}笔)"
+            tone = "up" if wr7 >= 50.0 else "warn"
+        title = f"AI 实盘成绩单 · 近7日:{wr7:.1f}% ({n7}笔) | 近30日:{wr30:.1f}% ({n30}笔)"
+        return {"text": text, "title": title, "tone": tone}
+
+    if n30 >= 10:
+        if wr30 < 45.0:
+            text = f"⚠️ 近30日胜率 {wr30:.1f}% ({n30}笔) · 降权参考"
+            tone = "warn"
+        else:
+            text = f"近30日胜率 {wr30:.1f}% ({n30}笔)"
+            tone = "up" if wr30 >= 50.0 else "warn"
+        title = f"AI 实盘成绩单 · 近7日 {wr7:.1f}% ({n7}笔) · 样本偏少已回退30日口径 | 近30日 {wr30:.1f}% ({n30}笔)"
+        return {"text": text, "title": title, "tone": tone}
+
+    n_eff = max(n30, n7)
+    return {
+        "text": f"样本积累中 ({n_eff}笔)",
+        "title": f"AI 实盘成绩单 · 近7日 {wr7:.1f}% ({n7}笔) | 近30日 {wr30:.1f}% ({n30}笔) · 样本不足10笔",
+        "tone": "muted",
+    }
 
 
 def normalize_dual_probabilities(p_long: float, p_short: float):
@@ -331,7 +392,7 @@ def resolve_long_tp_sl_ordering_guard(
     }
 
 
-def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_str="", has_realtime=False, target_watchlist=None, terminal_notifications=None, session_code="REGULAR", session_name="常规盘中", sync_side_effects=False, sync_dir=None, daily_sr_anchors=None):
+def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_str="", has_realtime=False, target_watchlist=None, terminal_notifications=None, session_code="REGULAR", session_name="常规盘中", sync_side_effects=False, sync_dir=None, daily_sr_anchors=None, apac_doc=None, apac_ml_doc=None, apac_intraday_doc=None):
     is_overnight = (session_code == "OVERNIGHT")
     if session_code == "OVERNIGHT":
         session_badge_html = '<span class="tool-link" style="color: #c084fc; border: 1px solid rgba(192, 132, 252, 0.45); background: rgba(192, 132, 252, 0.12); padding: 4px 7px; font-weight: 700;">🌌 美股夜盘</span>'
@@ -339,6 +400,8 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
         session_badge_html = '<span class="tool-link" style="color: #93c5fd; border: 1px solid rgba(147, 197, 253, 0.4); background: rgba(147, 197, 253, 0.1); padding: 4px 7px; font-weight: 700;">🌙 盘后交易</span>'
     elif session_code == "PRE_MARKET":
         session_badge_html = '<span class="tool-link" style="color: #fb923c; border: 1px solid rgba(251, 146, 60, 0.4); background: rgba(251, 146, 60, 0.1); padding: 4px 7px; font-weight: 700;">🌅 盘前交易</span>'
+    elif session_code == "HOLIDAY":
+        session_badge_html = '<span class="tool-link" style="color: #9ca3af; border: 1px solid rgba(156, 163, 175, 0.45); background: rgba(156, 163, 175, 0.14); padding: 4px 7px; font-weight: 700;">🏖️ 节假日休市</span>'
     elif session_code == "WEEKEND":
         session_badge_html = '<span class="tool-link" style="color: #9ca3af; border: 1px solid rgba(156, 163, 175, 0.4); background: rgba(156, 163, 175, 0.1); padding: 4px 7px;">☕ 周末休市</span>'
     else:
@@ -478,7 +541,7 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                     _panel_last_close = _pdf.sort_values("Date").groupby("Ticker")["Close"].last().to_dict()
             except Exception:
                 _panel_last_close = {}
-            pure_etf_set = {"QQQ", "SPY", "DIA", "IWM", "SMH", "SOXX", "SOXL", "KORU", "KOSPI", "IGV", "TLT", "GLD", "VIXY", "SQQQ", "SOXS"}
+            pure_etf_set = {"QQQ", "SPY", "DIA", "IWM", "SMH", "SOXX", "SOXL", "KORU", "KOSPI", "KSTR", "IGV", "TLT", "GLD", "VIXY", "SQQQ", "SOXS"}
             offensive_lev_etfs = {"SOXL", "KORU"}
             _exempt_regime_set = {"SQQQ", "SOXS", "VIXY", "TLT", "GLD", "XAUUSD", "KOSPI"}
             _active_regime = str(
@@ -899,6 +962,7 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                                     is_vix_backwardation=_vix_back_now,
                                     is_bear_dominant=bool(_short_dom or (not _is_inv_tk and _is_bear_regime)),
                                     is_inverse=_is_inv_tk,
+                                    session_code=session_code,
                                 )
                                 sc_map.update(_sr_eval)
                             else:
@@ -931,6 +995,7 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                                     is_vix_backwardation=_vix_back_now,
                                     is_bear_dominant=bool(_short_dom or (not _is_inv_tk and _is_bear_regime)),
                                     is_inverse=_is_inv_tk,
+                                    session_code=session_code,
                                 )
                                 _sr_eval["sr_anchor_locked"] = False
                                 sc_map.update(_sr_eval)
@@ -967,6 +1032,27 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                         eff_atr_frac=eff_atr,
                     )
                     item.update(_guarded)
+                    # 4H 剧本文案防守止损位二次硬对齐：确保与顶部波段止损一致且严格 < live_p
+                    _g_sl_final = float(_guarded.get("stop_loss_price") or 0.0)
+                    if _g_sl_final > 0 and live_p > 0 and _g_sl_final < live_p and item.get("scenario_script"):
+                        import re as _re_sl
+                        _is_pts_sl = (tk.upper() == "KOSPI")
+                        _sl_fmt_final = f"{_g_sl_final:,.2f}" if _is_pts_sl else f"${_g_sl_final:.2f}"
+                        def _fix_sc_sl(_m):
+                            try:
+                                _v = float(_m.group(2).replace(",", ""))
+                                if _v >= live_p:
+                                    return f"{_m.group(1)}{_sl_fmt_final}"
+                            except Exception:
+                                pass
+                            return _m.group(0)
+                        item["scenario_script"] = _re_sl.sub(
+                            r"(防守止损位\s*)\$?([0-9,]+(?:\.[0-9]+)?)",
+                            _fix_sc_sl,
+                            str(item["scenario_script"]),
+                        )
+                        if float(item.get("script_stop_loss") or 0.0) >= live_p:
+                            item["script_stop_loss"] = _g_sl_final
 
                 # 3X 杠杆镜像对母指数锚定对齐（SOXL/SOXS -> SOXX；TQQQ/SQQQ -> QQQ），保证排序与多空温度一致
                 apply_leveraged_mirror_parent_alignment(all_preds)
@@ -1160,6 +1246,35 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
     except Exception:
         intraday_path_forecasts = {}
 
+    # V5.6 亚太纯指数 (6 只) + A 股场内 ETF (10 只) 独立只读分区数据（绝不混入 stocks_data / macro_data，KOSPI 仅做前端视图交叉过滤不克隆）
+    _apac_payload = apac_doc if isinstance(apac_doc, dict) and apac_doc else {}
+    if not _apac_payload:
+        try:
+            import apac_ashare_feed as _aaf_term
+            _apac_payload = _aaf_term.load_apac_ashare_cache() or {}
+        except Exception:
+            _apac_payload = {}
+    _apac_items_map = _apac_payload.get("items") if isinstance(_apac_payload.get("items"), dict) else {}
+    _apac_ml_payload = apac_ml_doc if isinstance(apac_ml_doc, dict) and apac_ml_doc else {}
+    if not _apac_ml_payload:
+        try:
+            import apac_ml_predictor as _amp_term
+            _apac_ml_payload = _amp_term.load_apac_ml_predictions() or {}
+        except Exception:
+            _apac_ml_payload = {}
+    _apac_ip_payload = apac_intraday_doc if isinstance(apac_intraday_doc, dict) and apac_intraday_doc else {}
+    if not _apac_ip_payload:
+        try:
+            import apac_intraday_path_predictor as _aip_term
+            _apac_ip_payload = _aip_term.load_apac_intraday_forecasts() or {}
+        except Exception:
+            _apac_ip_payload = {}
+    apac_json = json.dumps(_apac_items_map, ensure_ascii=False, separators=(",", ":"))
+    apac_ml_json = json.dumps(_apac_ml_payload, ensure_ascii=False, separators=(",", ":"))
+    apac_intraday_path_json = json.dumps(_apac_ip_payload, ensure_ascii=False, separators=(",", ":"))
+    _has_kospi_cross = isinstance(macro_data, dict) and ("KOSPI" in macro_data)
+    apac_count_str = str(len(_apac_items_map) + (1 if _has_kospi_cross else 0))
+
     # 将标的数据转为 JSON 供前端动态渲染
     resilient_leaders_top5 = compute_resilient_leaders_top5(
         stocks_data=stocks_data,
@@ -1181,7 +1296,7 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
 <html lang="zh-CN" data-theme="dark">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="90">
+    <meta name="radar-build-ts" content="__PY_TPL_PORTFOLIO_TS__">
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
@@ -1195,23 +1310,6 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                 document.documentElement.setAttribute("data-theme", "dark");
             }
         })();
-        // ⚡ 客户端智能防缓存自动刷新 (彻底突破 GitHub Pages / Fastly CDN 10分钟 max-age=600 强缓存)
-        setTimeout(function() {
-            try {
-                var cleanPath = window.location.pathname;
-                var searchParams = new URLSearchParams(window.location.search);
-                searchParams.delete('symbol');
-                searchParams.delete('ticker');
-                searchParams.set('_t', Date.now());
-                var wl = document.getElementById("watchlistContainer");
-                if (wl) {
-                    localStorage.setItem("futu_watchlist_scroll", wl.scrollTop);
-                }
-                window.location.replace(cleanPath + '?' + searchParams.toString() + window.location.hash);
-            } catch(e) {
-                window.location.reload();
-            }
-        }, 60000);
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -1873,18 +1971,20 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
         }
 
         .wl-leader-bar {
-            display: flex;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 6px;
             align-items: center;
         }
 
         .wl-leader-btn {
             width: 100%;
-            padding: 6px 10px;
+            padding: 6px 8px;
             border-radius: 8px;
             border: 1px solid rgba(16, 185, 129, 0.35);
             background: rgba(16, 185, 129, 0.10);
             color: var(--color-up);
-            font-size: 11.5px;
+            font-size: 11px;
             font-weight: 700;
             cursor: pointer;
             text-align: center;
@@ -1903,6 +2003,34 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
             background: var(--color-up);
             color: #FFFFFF;
             border-color: var(--color-up);
+        }
+
+        .wl-apac-btn {
+            width: 100%;
+            padding: 6px 8px;
+            border-radius: 8px;
+            border: 1px solid rgba(245, 158, 11, 0.42);
+            background: rgba(245, 158, 11, 0.10);
+            color: var(--color-warn);
+            font-size: 11px;
+            font-weight: 700;
+            cursor: pointer;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            transition: all 0.15s ease;
+        }
+
+        .wl-apac-btn:hover {
+            border-color: var(--color-warn);
+            background: rgba(245, 158, 11, 0.20);
+        }
+
+        .wl-apac-btn.active {
+            background: var(--color-warn);
+            color: #FFFFFF;
+            border-color: var(--color-warn);
         }
 
         .resilient-leaders-strip {
@@ -3592,6 +3720,7 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
             white-space: pre-wrap;
             word-break: break-word;
         }
+        __PY_TPL_COPY_DRAWER_CSS__
         @media (max-width: 768px) {
             .temp-futures-mini {
                 display: none;
@@ -3684,6 +3813,70 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                 max-width: calc(100vw - 20px);
             }
         }
+        /* 静默版本检测提示胶囊 & 可选防打断自动刷新开关 */
+        @keyframes updatePillPulse {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.34); }
+            50% { box-shadow: 0 0 0 6px rgba(16, 185, 129, 0.0); }
+        }
+        .update-ready-pill,
+        .footer-update-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 4px 10px;
+            border-radius: 999px;
+            border: 1px solid var(--color-up-border);
+            background: var(--color-up-bg);
+            color: var(--color-up);
+            font-size: 11.5px;
+            font-weight: 700;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: transform 0.14s ease, filter 0.14s ease, border-color 0.14s ease;
+            animation: updatePillPulse 2.4s ease-in-out infinite;
+        }
+        .update-ready-pill:hover,
+        .footer-update-pill:hover {
+            filter: brightness(1.08);
+            transform: translateY(-1px);
+        }
+        .update-ready-pill.is-deferred,
+        .footer-update-pill.is-deferred {
+            border-color: var(--color-warn-border);
+            background: var(--color-warn-bg);
+            color: var(--color-warn);
+            animation: none;
+        }
+        .auto-reload-toggle-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 3px 9px;
+            border-radius: 999px;
+            border: 1px solid var(--border-strong);
+            background: var(--bg-elevated);
+            color: var(--text-secondary);
+            font-size: 11px;
+            font-weight: 700;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: all 0.15s ease;
+        }
+        .auto-reload-toggle-btn:hover {
+            color: var(--text-primary);
+            border-color: var(--color-accent-border);
+        }
+        .auto-reload-toggle-btn.is-on {
+            border-color: var(--color-up-border);
+            background: var(--color-up-bg);
+            color: var(--color-up);
+        }
+        @media (max-width: 768px) {
+            .update-ready-pill {
+                padding: 4px 8px;
+                font-size: 11px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -3699,13 +3892,13 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
             <!-- 大盘红绿灯一句话胶囊 + 全局真VIX恐慌胶囊 + 实盘成绩单胶囊 -->
             <span id="pAiRegimePill" class="regime-pill" title="大盘体制状态">--</span>
             <div class="vix-pill-wrap" id="vixPillWrap">
-                <button type="button" id="pVixRegimePill" class="vix-regime-pill" onclick="toggleVixPopover(event)" title="全局真 VIX 恐慌中枢" aria-expanded="false" aria-controls="vixDetailPopover">⚪ VIX --</button>
+                <button type="button" id="pVixRegimePill" class="vix-regime-pill" onclick="toggleVixPopover(event)" aria-label="全局真 VIX 恐慌中枢" aria-expanded="false" aria-controls="vixDetailPopover">⚪ VIX --</button>
                 <div id="vixDetailPopover" class="vix-detail-popover" role="dialog" aria-label="全局真 VIX 恐慌中枢详情"></div>
             </div>
             <div class="temp-pill-wrap" id="tempPillWrap">
-                <button type="button" id="pBubbleTempPill" class="temp-pill-btn tabular" onclick="toggleTempPopover(event)" title="大盘/日内泡沫评分（点击展开详情 · 不含BTC）" aria-expanded="false" aria-controls="tempDetailPopover">🔥 泡沫 --/--</button>
-                <button type="button" id="pBottomTempPill" class="temp-pill-btn tabular" onclick="toggleTempPopover(event)" title="大盘/日内抄底指数（点击展开详情 · 不含BTC）" aria-expanded="false" aria-controls="tempDetailPopover">🧲 抄底 --/--</button>
-                <span id="pFuturesMiniPill" class="temp-futures-mini tabular" title="美股指期货先导哨 (NQ=F / ES=F)">NQ -- · ES --</span>
+                <button type="button" id="pBubbleTempPill" class="temp-pill-btn tabular" onclick="toggleTempPopover(event)" aria-label="大盘与日内泡沫评分详情" aria-expanded="false" aria-controls="tempDetailPopover">🔥 泡沫 --/--</button>
+                <button type="button" id="pBottomTempPill" class="temp-pill-btn tabular" onclick="toggleTempPopover(event)" aria-label="大盘与日内抄底指数详情" aria-expanded="false" aria-controls="tempDetailPopover">🧲 抄底 --/--</button>
+                <span id="pFuturesMiniPill" class="temp-futures-mini tabular" aria-label="美股指期货先导哨">NQ -- · ES --</span>
                 <div id="tempDetailPopover" class="temp-detail-popover" role="dialog" aria-label="大盘与日内泡沫抄底温度计详情"></div>
             </div>
             <span id="pAiScorecardPill" class="scorecard-pill tabular" title="AI 实盘近7日/30日滚动胜率">--</span>
@@ -3732,8 +3925,11 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                 <a href="backtest_report_5y.html" class="tool-link m-quick-link" id="navLinkBacktest5y">5Y回测</a>
             </nav>
 
-            <!-- 预警中心 & 声音切换 -->
+            <!-- 预警中心 & 声音切换 & 静默版本更新轻提示 -->
             <div class="header-alert-controls">
+                <button type="button" id="btnNewUpdatePill" class="update-ready-pill" style="display: none;" onclick="triggerManualRefresh()" title="后台静默检测到新行情快照，点击安全刷新并自动恢复当前标的与视图">
+                    <span id="newUpdatePillText">🟢 发现新行情 · 点击刷新</span>
+                </button>
                 <button type="button" id="btnNotifCenter" onclick="toggleNotifDrawer()" class="btn-notif-pill" title="打开预警通知中心">
                     <span>🔔</span>
                     <span class="notif-btn-label">预警中心</span>
@@ -3776,11 +3972,13 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                 </div>
                 <div class="wl-leader-bar">
                     <button type="button" id="btnResilientTop5" class="wl-leader-btn" data-filter="resilient_top5" onclick="setWatchlistFilter('resilient_top5')" title="恐慌退潮真龙头：排除反向ETF，优先站稳VWAP + 20日超额RS + 相对SPY强弱">🛡️ 抗跌领涨 Top 5</button>
+                    <button type="button" id="btnApacAshare" class="wl-apac-btn" data-filter="apac_ashare" onclick="setWatchlistFilter('apac_ashare')" title="独立分区：6只亚太纯指数(pt) + KOSPI视图交叉归队 + 10只A股场内ETF(¥三位小数)，独立AI胜率与原生K线，不污染美股主池">🇨🇳 A股/亚太 (__PY_TPL_APAC_COUNT__)</button>
                 </div>
                 <!-- 二级细分赛道下拉 + 展开按钮 -->
                 <div class="wl-secondary-bar">
                     <select id="sectorFilterSelect" class="wl-sector-select" onchange="onSectorSelectChange(this.value)" aria-label="按行业赛道或策略筛选">
                         <option value="">更多赛道 / 策略筛选...</option>
+                        <option value="apac_ashare">🇨🇳 A股/亚太 (__PY_TPL_APAC_COUNT__)</option>
                         <option value="resilient_top5">🛡️ 抗跌领涨 Top 5</option>
                         <option value="ai_top">⚡ AI高胜率排序</option>
                         <option value="ai_short">🩸 AI做空榜 (Top 5)</option>
@@ -3809,6 +4007,7 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
             <!-- 默认折叠的细分赛道标签栏 -->
             <div class="watchlist-categories" id="watchlistCategories">
                 <div class="w-tab active" data-filter="all">全部 (__PY_TPL_TOTAL_COUNT__)</div>
+                <div class="w-tab" data-filter="apac_ashare" style="color: var(--color-warn); font-weight: 700;">🇨🇳 A股/亚太 (__PY_TPL_APAC_COUNT__)</div>
                 <div class="w-tab" data-filter="resilient_top5" style="color: var(--color-up); font-weight: 700;">🛡️ 抗跌领涨 Top 5</div>
                 <div class="w-tab" data-filter="ai_top" style="color: #a78bfa; font-weight: 700;">⚡ AI高胜率 (__PY_TPL_TOTAL_COUNT__)</div>
                 <div class="w-tab" data-filter="ai_short" style="color: #ff5252; font-weight: 700; background: rgba(248, 81, 73, 0.14); border-color: rgba(248, 81, 73, 0.35);">🩸 AI做空榜 (Top 5)</div>
@@ -3990,6 +4189,9 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                 </summary>
                 <div id="v51TermAiBody" class="v51-term-ai-body"></div>
             </details>
+
+            <!-- V5.4 可折叠 $1,000 多空模拟跟单账本抽屉 -->
+            __PY_TPL_COPY_DRAWER_HTML__
 
             <!-- 展开/收起专业量化数据抽屉按钮 -->
             <button type="button" id="btnProQuantToggle" class="pro-drawer-toggle" onclick="toggleProQuantDrawer()" aria-expanded="false" aria-controls="proQuantDrawer">
@@ -4205,9 +4407,13 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                 <span class="chip">RS相对强弱</span>
                 <span class="chip">财报日历</span>
             </div>
-            <div style="display: flex; align-items: center; gap: 14px;">
+            <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+                <button type="button" id="btnFooterUpdatePill" class="footer-update-pill" style="display: none;" onclick="triggerManualRefresh()" title="点击安全刷新最新行情，并无缝恢复当前标的与视图">🟢 发现新行情 · 点击刷新</button>
+                <button type="button" id="btnAutoReloadToggle" class="auto-reload-toggle-btn" onclick="toggleAutoReload()" aria-pressed="false" title="默认关闭以防打断看盘；开启后仅在您 20 秒无操作且未打开搜索/弹窗/全屏时静默自动更新">
+                    <span id="autoReloadLabel">自动刷新: 关</span>
+                </button>
                 <span style="color: var(--color-accent); cursor: pointer;" onclick="toggleFullscreen()" title="点击全屏或按F11">🖥️ 全屏模式(F11)</span>
-                <span class="tabular">⏱️ 60秒自动轮询 | 标的池: __PY_TPL_TOTAL_COUNT__只 | 更新: __PY_TPL_UPDATE_TIME__</span>
+                <span id="footerSyncStatus" class="tabular">⏱️ 60秒静默检测 | 标的池: __PY_TPL_TOTAL_COUNT__只 | 更新: __PY_TPL_UPDATE_TIME__</span>
             </div>
         </div>
         <div class="site-disclaimer-banner" id="siteDisclaimerBanner">
@@ -4282,7 +4488,11 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
         const INITIAL_MARKET_NEWS = __PY_TPL_MARKET_NEWS_JSON__;
         const INTRADAY_PATH_FORECASTS = __PY_TPL_INTRADAY_PATH_JSON__;
         const SESSION_CODE = "__PY_TPL_SESSION_CODE__";
+        const CURRENT_ET_DATE = "__PY_TPL_ET_DATE__";
         const RESILIENT_LEADERS_INIT = __PY_TPL_LEADERS_JSON__;
+        const APAC_ASHARE_DATA = __PY_TPL_APAC_JSON__;
+        const APAC_ML_PREDICTIONS = __PY_TPL_APAC_ML_JSON__;
+        const APAC_INTRADAY_PATH_FORECASTS = __PY_TPL_APAC_INTRADAY_PATH_JSON__;
 
         let currentFilter = "all";
         let currentCenterView = "kline";
@@ -4474,23 +4684,56 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
             if (scEl) {
                 const scObj = (AI_PREDICTIONS && AI_PREDICTIONS.live_scorecard) ? AI_PREDICTIONS.live_scorecard : null;
                 if (scObj && scObj.sample_count_7d !== undefined) {
+                    const n7 = Number(scObj.sample_count_7d || 0);
+                    const n30 = Number(scObj.sample_count_30d || 0);
                     const wr7 = Number(scObj.win_rate_7d_pct || 0);
                     const wr30 = Number(scObj.win_rate_30d_pct || 0);
-                    const isDeg = Boolean(scObj.is_degraded || (Number(scObj.sample_count_7d || 0) > 0 && wr7 < 45.0));
-                    if (isDeg) {
-                        scEl.innerText = `⚠️ 近7日胜率 ${wr7.toFixed(1)}% · 降权参考`;
+                    let scText = "";
+                    let scTitle = "";
+                    let scTone = "muted";
+                    if (n7 >= 10) {
+                        const isDeg = Boolean(scObj.is_degraded || wr7 < 45.0);
+                        if (isDeg) {
+                            scText = `⚠️ 近7日胜率 ${wr7.toFixed(1)}% (${n7}笔) · 降权参考`;
+                            scTone = "warn";
+                        } else {
+                            scText = `近7日胜率 ${wr7.toFixed(1)}% (${n7}笔)`;
+                            scTone = (wr7 >= 50.0) ? "up" : "warn";
+                        }
+                        scTitle = `AI 实盘成绩单 · 近7日:${wr7.toFixed(1)}% (${n7}笔) | 近30日:${wr30.toFixed(1)}% (${n30}笔)`;
+                    } else if (n30 >= 10) {
+                        if (wr30 < 45.0) {
+                            scText = `⚠️ 近30日胜率 ${wr30.toFixed(1)}% (${n30}笔) · 降权参考`;
+                            scTone = "warn";
+                        } else {
+                            scText = `近30日胜率 ${wr30.toFixed(1)}% (${n30}笔)`;
+                            scTone = (wr30 >= 50.0) ? "up" : "warn";
+                        }
+                        scTitle = `AI 实盘成绩单 · 近7日 ${wr7.toFixed(1)}% (${n7}笔) · 样本偏少已回退30日口径 | 近30日 ${wr30.toFixed(1)}% (${n30}笔)`;
+                    } else {
+                        const nEff = Math.max(n30, n7);
+                        scText = `样本积累中 (${nEff}笔)`;
+                        scTitle = `AI 实盘成绩单 · 近7日 ${wr7.toFixed(1)}% (${n7}笔) | 近30日 ${wr30.toFixed(1)}% (${n30}笔) · 样本不足10笔`;
+                        scTone = "muted";
+                    }
+                    scEl.innerText = scText;
+                    scEl.title = scTitle;
+                    if (scTone === "up") {
+                        scEl.style.color = pal.up;
+                        scEl.style.background = pal.upBg;
+                        scEl.style.borderColor = pal.upBorder;
+                    } else if (scTone === "warn") {
                         scEl.style.color = pal.warn;
                         scEl.style.background = pal.warnBg;
                         scEl.style.borderColor = pal.warnBorder;
                     } else {
-                        scEl.innerText = `近7日胜率 ${wr7.toFixed(1)}%`;
-                        scEl.style.color = pal.up;
-                        scEl.style.background = pal.upBg;
-                        scEl.style.borderColor = pal.upBorder;
+                        scEl.style.color = pal.sub;
+                        scEl.style.background = pal.elevatedBg;
+                        scEl.style.borderColor = pal.border;
                     }
-                    scEl.title = `AI 实盘成绩单 · 近7日:${wr7.toFixed(1)}% | 近30日:${wr30.toFixed(1)}%`;
                 } else {
-                    scEl.innerText = "近7日胜率 初始化中";
+                    scEl.innerText = "样本积累中 (0笔)";
+                    scEl.title = "AI 实盘成绩单 · 等待样本积累";
                     scEl.style.color = pal.sub;
                     scEl.style.background = pal.elevatedBg;
                     scEl.style.borderColor = pal.border;
@@ -4579,7 +4822,7 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                     bubblePill.innerText = `🔥 泡沫 ${mb}/${ib}`;
                     const clr = (Number(mt.macro_bubble_score) >= 65 || Number(mt.intraday_bubble_score) >= 75) ? pal.down : ((Number(mt.macro_bubble_score) >= 50 || Number(mt.intraday_bubble_score) >= 60) ? pal.warn : pal.sub);
                     bubblePill.style.color = clr;
-                    bubblePill.title = `大盘泡沫 ${mt.macro_bubble_score} (${mt.macro_bubble_tier || ''}) | 日内泡沫 ${mt.intraday_bubble_score} (${mt.intraday_bubble_tier || ''})`;
+                    bubblePill.removeAttribute("title");
                 } else {
                     bubblePill.innerText = "🔥 泡沫 --/--";
                 }
@@ -4592,7 +4835,7 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                     bottomPill.innerText = `🧲 抄底 ${mbt}/${ibt}${lockIcon}`;
                     const clr = mt.knife_catch_locked ? pal.down : ((Number(mt.macro_bottom_score) >= 65 || Number(mt.intraday_bottom_score) >= 65) ? pal.up : pal.sub);
                     bottomPill.style.color = clr;
-                    bottomPill.title = `大盘抄底 ${mt.macro_bottom_score} (${mt.macro_bottom_tier || ''}) | 日内抄底 ${mt.intraday_bottom_score} (${mt.intraday_bottom_tier || ''})`;
+                    bottomPill.removeAttribute("title");
                 } else {
                     bottomPill.innerText = "🧲 抄底 --/--";
                 }
@@ -4613,11 +4856,17 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                     const es = futs["ES=F"] || {};
                     const fmtP = (v) => (v !== null && v !== undefined && !Number.isNaN(Number(v))) ? Number(v).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : "--";
                     const fmtPct = (v) => (v !== null && v !== undefined && !Number.isNaN(Number(v))) ? `${Number(v) >= 0 ? "+" : ""}${Number(v).toFixed(2)}%` : "--";
+                    const ibTierDisplay = mt.intraday_bubble_note
+                        ? `${mt.intraday_bubble_tier || ""}（${mt.intraday_bubble_note}）`
+                        : (mt.intraday_bubble_tier || "");
+                    const idTierDisplay = mt.intraday_dip_note
+                        ? `${mt.intraday_bottom_tier || ""}（${mt.intraday_dip_note}）`
+                        : (mt.intraday_bottom_tier || "");
                     const rows = [
                         { lbl: "🔥 大盘整体泡沫", sc: Number(mt.macro_bubble_score || 0), tier: mt.macro_bubble_tier || "", clr: _scoreColor(mt.macro_bubble_color) },
-                        { lbl: `⚡ 日内泡沫 (${mt.source_tag || "期货实时"})`, sc: Number(mt.intraday_bubble_score || 0), tier: mt.intraday_bubble_tier || "", clr: _scoreColor(mt.intraday_bubble_color) },
+                        { lbl: `⚡ 日内泡沫 (${mt.source_tag || "期货实时"})`, sc: Number(mt.intraday_bubble_score || 0), tier: ibTierDisplay, clr: _scoreColor(mt.intraday_bubble_color) },
                         { lbl: "🧲 大盘整体抄底", sc: Number(mt.macro_bottom_score || 0), tier: mt.macro_bottom_tier || "", clr: _scoreColor(mt.macro_bottom_color) },
-                        { lbl: `🎯 日内抄底 (${mt.source_tag || "期货实时"})`, sc: Number(mt.intraday_bottom_score || 0), tier: mt.intraday_bottom_tier || "", clr: _scoreColor(mt.intraday_bottom_color) },
+                        { lbl: `🎯 日内抄底 (${mt.source_tag || "期货实时"})`, sc: Number(mt.intraday_bottom_score || 0), tier: idTierDisplay, clr: _scoreColor(mt.intraday_bottom_color) },
                     ];
                     const gridHtml = rows.map(r => `
                         <div class="vix-pop-cell">
@@ -4653,17 +4902,33 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
         const LEADER_EXCLUDED_TICKERS = new Set(["SQQQ", "SOXS", "VIXY", "TLT", "GLD", "XAUUSD", "BTC-USD", "KOSPI", "SHY", "IEF", "HYG", "UUP"]);
         const LEADER_EXCLUDED_CATS = new Set(["大宗商品", "数字资产", "避险美债", "恐慌指数", "反向做空", "亚太指数"]);
 
+        function isApacAshareTicker(tk) {
+            const sym = String(tk || "").toUpperCase();
+            return Boolean(typeof APAC_ASHARE_DATA !== "undefined" && APAC_ASHARE_DATA && APAC_ASHARE_DATA[sym]);
+        }
+
+        function isCnyTicker(tk) {
+            const sym = String(tk || "").toUpperCase();
+            const ap = (typeof APAC_ASHARE_DATA !== "undefined" && APAC_ASHARE_DATA) ? APAC_ASHARE_DATA[sym] : null;
+            return Boolean(ap && (ap.price_unit === "cny" || ap.kind === "ASHARE_ETF"));
+        }
+
         function isPointsTicker(tk) {
             const sym = String(tk || "").toUpperCase();
             if (sym === "KOSPI") return true;
             const m = (typeof MACRO_DATA !== "undefined" && MACRO_DATA) ? MACRO_DATA[sym] : null;
             if (m && (m.price_unit === "pts" || m.is_index === true)) return true;
+            const ap = (typeof APAC_ASHARE_DATA !== "undefined" && APAC_ASHARE_DATA) ? APAC_ASHARE_DATA[sym] : null;
+            if (ap && (ap.price_unit === "pts" || ap.kind === "APAC_INDEX")) return true;
             return false;
         }
 
         function fmtAssetPx(val, tk = currentTicker, digits = 2) {
             const n = Number(val);
             if (!Number.isFinite(n) || n <= 0) return "--";
+            if (isCnyTicker(tk)) {
+                return "¥" + n.toFixed(3);
+            }
             if (isPointsTicker(tk)) {
                 return n.toLocaleString("en-US", { minimumFractionDigits: digits, maximumFractionDigits: digits });
             }
@@ -4687,7 +4952,7 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
             });
 
             const effPct = (it) => {
-                if (SESSION_CODE === "REGULAR" || SESSION_CODE === "POST_MARKET" || SESSION_CODE === "WEEKEND") {
+                if (SESSION_CODE === "REGULAR" || SESSION_CODE === "POST_MARKET" || SESSION_CODE === "WEEKEND" || SESSION_CODE === "HOLIDAY") {
                     const v = Number(it.pct_change || 0);
                     return Number.isFinite(v) ? v : 0;
                 }
@@ -4889,8 +5154,45 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
             }));
         }
 
+        function extractNotifDateEt(n) {
+            if (!n || typeof n !== "object") return "";
+            if (typeof n.date_et === "string" && /^\d{4}-\d{2}-\d{2}/.test(n.date_et)) {
+                return n.date_et.slice(0, 10);
+            }
+            const idStr = String(n.id || "");
+            const mId = idStr.match(/(\d{4}-\d{2}-\d{2})/);
+            if (mId) return mId[1];
+            const tmStr = String(n.time || "").trim();
+            const mTm = tmStr.match(/^(\d{2}-\d{2})\b/);
+            if (mTm && CURRENT_ET_DATE && CURRENT_ET_DATE.length >= 4) {
+                return `${CURRENT_ET_DATE.slice(0, 4)}-${mTm[1]}`;
+            }
+            return "";
+        }
+
+        function filterNotificationsForSessionAndDay(tradingList, sessionCode, currentEtDate) {
+            const arr = Array.isArray(tradingList) ? tradingList : [];
+            const sessU = String(sessionCode || "REGULAR").toUpperCase();
+            const isRegular = (sessU === "REGULAR" || sessU === "RTH" || sessU === "INTRADAY");
+            const curD = String(currentEtDate || "").slice(0, 10);
+            return arr.filter(n => {
+                if (!n || typeof n !== "object") return false;
+                const cat = String(n.category || "");
+                // 非美股正规盘门禁：禁止 5m买点 与 全池批量破位预警 误弹刷屏
+                if (!isRegular && (cat === "5m_entry" || cat === "stop_loss")) {
+                    return false;
+                }
+                // 跨美东交易日自动清理旧日通知（如昨日 11-26 残余告警）
+                if (curD && cat !== "macro_flash") {
+                    const nd = extractNotifDateEt(n);
+                    if (nd && nd < curD) return false;
+                }
+                return true;
+            });
+        }
+
         function mergeNotificationsWithFlashes(tradingList, newsObj) {
-            const tArr = Array.isArray(tradingList) ? tradingList : [];
+            const tArr = filterNotificationsForSessionAndDay(tradingList, SESSION_CODE, CURRENT_ET_DATE);
             const fArr = buildMacroFlashNotifs(newsObj);
             return [...tArr, ...fArr];
         }
@@ -5027,7 +5329,7 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
             })
             .catch(() => {});
 
-        // TradingView 交易所标的代码映射 (全量 80 只)
+        // TradingView 交易所标的代码映射 (全量 81 只)
         const SYMBOL_MAP = {
             "QQQ": "NASDAQ:QQQ",
             "SPY": "AMEX:SPY",
@@ -5038,6 +5340,7 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
             "SOXL": "AMEX:SOXL",
             "KORU": "AMEX:KORU",
             "KOSPI": "KRX:KOSPI",
+            "KSTR": "AMEX:KSTR",
             "IGV": "AMEX:IGV",
             "TLT": "NASDAQ:TLT",
             "GLD": "AMEX:GLD",
@@ -5113,13 +5416,17 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
 
         let _kospiNativeMode = "daily";
 
-        function renderKospiNativeChart(container, interval, tvTheme) {
+        function renderNativeAssetChart(ticker, container, interval, tvTheme) {
             const pal = getThemePalette();
-            const m = (MACRO_DATA && MACRO_DATA["KOSPI"]) ? MACRO_DATA["KOSPI"] : {};
+            const sym = String(ticker || "KOSPI").toUpperCase();
+            const isKospi = (sym === "KOSPI");
+            const apacItem = (!isKospi && typeof APAC_ASHARE_DATA !== "undefined" && APAC_ASHARE_DATA) ? (APAC_ASHARE_DATA[sym] || {}) : {};
+            const m = isKospi ? ((MACRO_DATA && MACRO_DATA["KOSPI"]) ? MACRO_DATA["KOSPI"] : {}) : apacItem;
+            const isCny = isCnyTicker(sym);
             const aiByTk = (AI_PREDICTIONS && AI_PREDICTIONS.by_ticker) ? AI_PREDICTIONS.by_ticker : {};
-            const aiKs = aiByTk["KOSPI"] || {};
+            const aiKs = isKospi ? (aiByTk["KOSPI"] || {}) : {};
             const tcByTk = (AI_PREDICTIONS && AI_PREDICTIONS.time_cycle_projections) ? AI_PREDICTIONS.time_cycle_projections : {};
-            const tcKs = tcByTk["KOSPI"] || {};
+            const tcKs = isKospi ? (tcByTk["KOSPI"] || {}) : {};
 
             const intvStr = String(interval || "D").toUpperCase();
             if (["1", "3", "5", "10", "15", "30", "60"].includes(intvStr)) {
@@ -5128,8 +5435,10 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                 _kospiNativeMode = "daily";
             }
 
-            let dailyRows = Array.isArray(m.krx_daily_ohlc) ? m.krx_daily_ohlc.slice() : [];
-            if (dailyRows.length < 3 && Array.isArray(tcKs.history) && tcKs.history.length >= 2) {
+            let dailyRows = isKospi
+                ? (Array.isArray(m.krx_daily_ohlc) ? m.krx_daily_ohlc.slice() : [])
+                : (Array.isArray(m.daily_ohlc) ? m.daily_ohlc.slice() : []);
+            if (isKospi && dailyRows.length < 3 && Array.isArray(tcKs.history) && tcKs.history.length >= 2) {
                 dailyRows = tcKs.history.map((h, i, arr) => {
                     const c = Number(h.price || m.last || 2500);
                     const prev = i > 0 ? Number(arr[i - 1].price || c) : c;
@@ -5139,24 +5448,44 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                 });
             }
             if (dailyRows.length < 2) {
-                const baseP = Number(m.last || 2500);
+                const baseP = Number(m.last || m.price || (isCny ? 1.0 : 2500));
+                const dN = isCny ? 3 : 2;
                 dailyRows = [
-                    ["T-2", Number((baseP * 0.992).toFixed(2)), Number((baseP * 0.998).toFixed(2)), Number((baseP * 0.988).toFixed(2)), Number((baseP * 0.995).toFixed(2)), 100000],
-                    ["T-1", Number((baseP * 0.995).toFixed(2)), Number((baseP * 1.002).toFixed(2)), Number((baseP * 0.991).toFixed(2)), Number((baseP * 0.998).toFixed(2)), 110000],
-                    ["今日", Number((baseP * 0.998).toFixed(2)), Number((baseP * 1.005).toFixed(2)), Number((baseP * 0.994).toFixed(2)), Number(baseP.toFixed(2)), 120000]
+                    ["T-2", Number((baseP * 0.992).toFixed(dN)), Number((baseP * 0.998).toFixed(dN)), Number((baseP * 0.988).toFixed(dN)), Number((baseP * 0.995).toFixed(dN)), 100000],
+                    ["T-1", Number((baseP * 0.995).toFixed(dN)), Number((baseP * 1.002).toFixed(dN)), Number((baseP * 0.991).toFixed(dN)), Number((baseP * 0.998).toFixed(dN)), 110000],
+                    ["今日", Number((baseP * 0.998).toFixed(dN)), Number((baseP * 1.005).toFixed(dN)), Number((baseP * 0.994).toFixed(dN)), Number(baseP.toFixed(dN)), 120000]
                 ];
             }
-            let intraRows = Array.isArray(m.krx_intraday_5m) ? m.krx_intraday_5m.slice() : [];
+            let intraRows = isKospi
+                ? (Array.isArray(m.krx_intraday_5m) ? m.krx_intraday_5m.slice() : [])
+                : (Array.isArray(m.intraday_5m) ? m.intraday_5m.slice() : []);
+            // 剔除午休空档死直线（按交易 Bar 序号等距绘制，避免 11:30~13:00 午休横线）
+            if (!isKospi && intraRows.length > 0) {
+                const apMkt = String(m.market || (isCny ? "CN" : "")).toUpperCase();
+                intraRows = intraRows.filter(r => {
+                    const t = String((r && r[0]) || "").slice(-5);
+                    if (!t.includes(":")) return true;
+                    const parts = t.split(":");
+                    const mins = Number(parts[0]) * 60 + Number(parts[1]);
+                    if (!Number.isFinite(mins)) return true;
+                    if (apMkt === "CN" && mins > (11 * 60 + 30) && mins < (13 * 60)) return false;
+                    if (apMkt === "HK" && mins > (12 * 60) && mins < (13 * 60)) return false;
+                    if (apMkt === "JP" && mins > (11 * 60 + 30) && mins < (12 * 60 + 30)) return false;
+                    return true;
+                });
+            }
             const useIntra = (_kospiNativeMode === "5m") && intraRows.length >= 2;
             const rows = useIntra ? intraRows : dailyRows;
 
-            const krxLbl = m.krx_session_label || "韩国交易时段 09:00–15:30 KST";
-            const s1Val = Number(aiKs.anchor_s1 || aiKs.s1 || m.fib_low || 0);
-            const r1Val = Number(aiKs.anchor_r1 || aiKs.r1 || m.fib_high || 0);
+            const sessLbl = isKospi
+                ? (m.krx_session_label || "韩国交易时段 09:00–15:30 KST")
+                : (m.session_label || (isCny ? "A股交易时段 09:30–15:00 CST" : "亚太交易时段"));
+            const s1Val = Number(isKospi ? (aiKs.anchor_s1 || aiKs.s1 || m.fib_low || 0) : (m.s1 || 0));
+            const r1Val = Number(isKospi ? (aiKs.anchor_r1 || aiKs.r1 || m.fib_high || 0) : (m.r1 || 0));
             const vwapVal = Number(m.vwap || 0);
 
             const W = 920, H = 430;
-            const padL = 16, padR = 76, padT = 18, padB = 28;
+            const padL = 16, padR = 82, padT = 18, padB = 28;
             const plotW = W - padL - padR;
             const mainH = Math.round((H - padT - padB) * 0.76);
             const volTop = padT + mainH + 10;
@@ -5169,27 +5498,34 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
             let minP = Math.min(...lows);
             let maxP = Math.max(...highs);
             if (!useIntra) {
-                if (s1Val > minP * 0.92 && s1Val < maxP) minP = Math.min(minP, s1Val);
-                if (r1Val > minP && r1Val < maxP * 1.08) maxP = Math.max(maxP, r1Val);
+                if (s1Val > minP * 0.90 && s1Val < maxP) minP = Math.min(minP, s1Val);
+                if (r1Val > minP && r1Val < maxP * 1.10) maxP = Math.max(maxP, r1Val);
             } else if (vwapVal > 0) {
                 minP = Math.min(minP, vwapVal);
                 maxP = Math.max(maxP, vwapVal);
             }
-            const spanP = Math.max(maxP - minP, (closes[closes.length - 1] || 2500) * 0.006);
+            const spanP = Math.max(maxP - minP, (closes[closes.length - 1] || (isCny ? 1.0 : 2500)) * 0.006);
             minP -= spanP * 0.08;
             maxP += spanP * 0.08;
             const maxVol = Math.max(1, ...vols);
 
             const xAt = (i) => padL + ((i + 0.5) / rows.length) * plotW;
             const yAt = (p) => padT + ((maxP - p) / (maxP - minP)) * mainH;
-            const fmtPt = (p) => Number(p).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+            const fmtChartVal = (p) => isCny
+                ? ("¥" + Number(p).toFixed(3))
+                : Number(p).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+            const unitTag = isCny ? "" : " pt";
+            const unitDesc = isCny ? "人民币计价 (¥ · 三位小数)" : "指数点数计价 (pt)";
+            const chartTitle = isKospi
+                ? "🇰🇷 KOSPI 原生行情引擎 (^KS11 真实数据)"
+                : `${isCny ? "🇨🇳" : "🌏"} ${escapeNewsHtml(sym)} ${escapeNewsHtml(m.name || "")} 原生行情引擎 (本地真实数据)`;
 
             let svgParts = [];
             for (let g = 0; g <= 4; g++) {
                 const gy = padT + (g / 4) * mainH;
                 const gp = maxP - (g / 4) * (maxP - minP);
                 svgParts.push(`<line x1="${padL}" y1="${gy.toFixed(1)}" x2="${W - padR}" y2="${gy.toFixed(1)}" stroke="${pal.svgGrid}" stroke-dasharray="3,3"/>`);
-                svgParts.push(`<text x="${W - padR + 6}" y="${(gy + 3.5).toFixed(1)}" fill="${pal.svgAxis}" font-size="10.5" font-family="monospace">${fmtPt(gp)}</text>`);
+                svgParts.push(`<text x="${W - padR + 6}" y="${(gy + 3.5).toFixed(1)}" fill="${pal.svgAxis}" font-size="10.5" font-family="monospace">${fmtChartVal(gp)}</text>`);
             }
 
             const stepX = Math.max(1, Math.floor(rows.length / 6));
@@ -5249,26 +5585,26 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                 if (r1Val >= minP && r1Val <= maxP) {
                     const yr1 = yAt(r1Val);
                     svgParts.push(`<line x1="${padL}" y1="${yr1.toFixed(1)}" x2="${W - padR}" y2="${yr1.toFixed(1)}" stroke="${pal.down}" stroke-width="1.1" stroke-dasharray="4,3"/>`);
-                    svgParts.push(`<text x="${padL + 6}" y="${(yr1 - 4).toFixed(1)}" fill="${pal.down}" font-size="10" font-weight="700">R1 ${fmtPt(r1Val)}</text>`);
+                    svgParts.push(`<text x="${padL + 6}" y="${(yr1 - 4).toFixed(1)}" fill="${pal.down}" font-size="10" font-weight="700">R1 ${fmtChartVal(r1Val)}</text>`);
                 }
                 if (s1Val >= minP && s1Val <= maxP) {
                     const ys1 = yAt(s1Val);
                     svgParts.push(`<line x1="${padL}" y1="${ys1.toFixed(1)}" x2="${W - padR}" y2="${ys1.toFixed(1)}" stroke="${pal.up}" stroke-width="1.1" stroke-dasharray="4,3"/>`);
-                    svgParts.push(`<text x="${padL + 6}" y="${(ys1 - 4).toFixed(1)}" fill="${pal.up}" font-size="10" font-weight="700">S1 ${fmtPt(s1Val)}</text>`);
+                    svgParts.push(`<text x="${padL + 6}" y="${(ys1 - 4).toFixed(1)}" fill="${pal.up}" font-size="10" font-weight="700">S1 ${fmtChartVal(s1Val)}</text>`);
                 }
             }
 
             const lastR = rows[rows.length - 1];
-            const defaultReadout = `${lastR[0]} ｜ 开 ${fmtPt(lastR[1])} · 高 ${fmtPt(lastR[2])} · 低 ${fmtPt(lastR[3])} · 收 ${fmtPt(lastR[4])} pt`;
+            const defaultReadout = `${lastR[0]} ｜ 开 ${fmtChartVal(lastR[1])} · 高 ${fmtChartVal(lastR[2])} · 低 ${fmtChartVal(lastR[3])} · 收 ${fmtChartVal(lastR[4])}${unitTag}`;
 
             container.innerHTML = `
-                <div id="kospiNativeChartBox" data-tv-theme="${tvTheme}" style="width:100%; height:100%; display:flex; flex-direction:column; background:${pal.cardBg}; padding:8px 10px; box-sizing:border-box; gap:6px;">
+                <div id="kospiNativeChartBox" data-native-ticker="${escapeNewsHtml(sym)}" data-tv-theme="${tvTheme}" style="width:100%; height:100%; display:flex; flex-direction:column; background:${pal.cardBg}; padding:8px 10px; box-sizing:border-box; gap:6px;">
                     <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:6px; font-size:11.5px;">
                         <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
-                            <span style="font-weight:800; color:${pal.text};">🇰🇷 KOSPI 原生行情引擎 (^KS11 真实数据)</span>
+                            <span style="font-weight:800; color:${pal.text};">${chartTitle}</span>
                             <button type="button" id="btnKospiDaily" style="padding:2px 8px; border-radius:5px; border:1px solid ${!useIntra ? pal.accent : pal.border}; background:${!useIntra ? pal.accentBg : pal.elevatedBg}; color:${!useIntra ? pal.accent : pal.sub}; cursor:pointer; font-size:11px; font-weight:700;">日K线 + MA5/20</button>
-                            <button type="button" id="btnKospi5m" style="padding:2px 8px; border-radius:5px; border:1px solid ${useIntra ? pal.accent : pal.border}; background:${useIntra ? pal.accentBg : pal.elevatedBg}; color:${useIntra ? pal.accent : pal.sub}; cursor:pointer; font-size:11px; font-weight:700;" ${intraRows.length < 2 ? 'disabled title="当前无5m分时切片"' : ''}>5m 韩盘分时 + VWAP</button>
-                            <span style="font-size:10.5px; color:${pal.sub};">${escapeNewsHtml(krxLbl)} · 指数点数计价</span>
+                            <button type="button" id="btnKospi5m" style="padding:2px 8px; border-radius:5px; border:1px solid ${useIntra ? pal.accent : pal.border}; background:${useIntra ? pal.accentBg : pal.elevatedBg}; color:${useIntra ? pal.accent : pal.sub}; cursor:pointer; font-size:11px; font-weight:700;" ${intraRows.length < 2 ? 'disabled title="当前无5m分时切片"' : ''}>5m 盘中分时 + VWAP</button>
+                            <span style="font-size:10.5px; color:${pal.sub};">${escapeNewsHtml(sessLbl)} · ${unitDesc}</span>
                         </div>
                         <div id="kospiHoverReadout" class="tabular" style="font-size:11px; color:${pal.sub}; font-family:monospace;">${escapeNewsHtml(defaultReadout)}</div>
                     </div>
@@ -5283,8 +5619,8 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
 
             const btnD = document.getElementById("btnKospiDaily");
             const btnM = document.getElementById("btnKospi5m");
-            if (btnD) btnD.onclick = () => { _kospiNativeMode = "daily"; renderKospiNativeChart(container, "D", tvTheme); };
-            if (btnM && intraRows.length >= 2) btnM.onclick = () => { _kospiNativeMode = "5m"; renderKospiNativeChart(container, "5", tvTheme); };
+            if (btnD) btnD.onclick = () => { _kospiNativeMode = "daily"; renderNativeAssetChart(sym, container, "D", tvTheme); };
+            if (btnM && intraRows.length >= 2) btnM.onclick = () => { _kospiNativeMode = "5m"; renderNativeAssetChart(sym, container, "5", tvTheme); };
 
             const svgDom = document.getElementById("kospiNativeChartSvg");
             const crossX = document.getElementById("kospiCrossX");
@@ -5302,13 +5638,17 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                         crossX.setAttribute("x2", cx.toFixed(1));
                         crossX.style.display = "block";
                     }
-                    readoutEl.innerText = `${r[0]} ｜ 开 ${fmtPt(r[1])} · 高 ${fmtPt(r[2])} · 低 ${fmtPt(r[3])} · 收 ${fmtPt(r[4])} pt`;
+                    readoutEl.innerText = `${r[0]} ｜ 开 ${fmtChartVal(r[1])} · 高 ${fmtChartVal(r[2])} · 低 ${fmtChartVal(r[3])} · 收 ${fmtChartVal(r[4])}${unitTag}`;
                 };
                 svgDom.onmouseleave = () => {
                     if (crossX) crossX.style.display = "none";
                     readoutEl.innerText = defaultReadout;
                 };
             }
+        }
+
+        function renderKospiNativeChart(container, interval, tvTheme) {
+            return renderNativeAssetChart("KOSPI", container, interval, tvTheme);
         }
 
         function loadTvWidget(ticker, interval, style) {
@@ -5321,9 +5661,10 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
             const toolbarBg = tvTheme === "light" ? "#FFFFFF" : "#121826";
             container.dataset.tvTheme = tvTheme;
 
-            // KRX:KOSPI / TVC:KOSPI 在免费嵌入组件中受韩国交易所版权限制拦截，自动切换为基于真实 ^KS11 的原生交互式日K/5m分时引擎
-            if (String(ticker || "").toUpperCase() === "KOSPI") {
-                renderKospiNativeChart(container, interval, tvTheme);
+            // KRX:KOSPI 及 V5.6 亚太纯指数(6只)/A股场内ETF(10只) 全部使用本地真实数据原生交互式日K/5m分时引擎，彻底规避 TradingView 免费嵌入拦截
+            const symUp = String(ticker || "").toUpperCase();
+            if (symUp === "KOSPI" || isApacAshareTicker(symUp)) {
+                renderNativeAssetChart(symUp, container, interval, tvTheme);
                 return;
             }
 
@@ -5378,6 +5719,7 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
 
         function switchCenterChartView(view) {
             currentCenterView = (view === "intraday_path") ? "intraday_path" : "kline";
+            try { localStorage.setItem("futu_center_view", currentCenterView); } catch (e) {}
             const chartMid = document.getElementById("chartMiddle");
             const tabK = document.getElementById("tabKlineView");
             const tabI = document.getElementById("tabIntradayPathView");
@@ -5405,20 +5747,27 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
             if (!svgEl || !wrapEl || !fbEl) return;
             if (tipEl) tipEl.style.display = "none";
 
-            const rootDoc = INTRADAY_PATH_FORECASTS || {};
+            const isApacPathTk = isApacAshareTicker(ticker);
+            const rootDoc = isApacPathTk
+                ? ((typeof APAC_INTRADAY_PATH_FORECASTS !== "undefined" && APAC_INTRADAY_PATH_FORECASTS) ? APAC_INTRADAY_PATH_FORECASTS : {})
+                : (INTRADAY_PATH_FORECASTS || {});
             const byTk = rootDoc.by_ticker || {};
-            const item = byTk[ticker];
-            const isKrxPath = Boolean(item && (String(item.session_tz || "").toUpperCase() === "KST" || (isPointsTicker(ticker) && item.status === "ok")));
+            const item = isApacPathTk ? (byTk[String(ticker || "").toUpperCase()] || byTk[ticker]) : byTk[ticker];
+            const isKrxPath = !isApacPathTk && Boolean(item && (String(item.session_tz || "").toUpperCase() === "KST" || (isPointsTicker(ticker) && item.status === "ok")));
+            const isNonUsCorridor = isApacPathTk || isKrxPath;
             const fmtIpPx = (v) => {
                 if (v === null || v === undefined) return "--";
                 const n = Number(v);
                 if (!Number.isFinite(n) || n <= 0) return "--";
+                if (isApacPathTk) {
+                    return fmtAssetPx(n, ticker);
+                }
                 if (isKrxPath || isPointsTicker(ticker)) {
                     return n.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
                 }
                 return `$${n.toFixed(2)}`;
             };
-            const timeSlots = (item && Array.isArray(item.time_slots) && item.time_slots.length === 78)
+            const timeSlots = (item && Array.isArray(item.time_slots) && item.time_slots.length >= 10)
                 ? item.time_slots
                 : (Array.isArray(rootDoc.time_slots) && rootDoc.time_slots.length === 78
                     ? rootDoc.time_slots
@@ -5429,7 +5778,7 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
 
             if (!item) {
                 if (sumEl) sumEl.innerText = `${ticker} 暂无当日盘中推演数据`;
-                if (metaEl) metaEl.innerText = "请等待每日盘前 09:25 ET 或后台增量重建完成";
+                if (metaEl) metaEl.innerText = isApacPathTk ? "亚太/A股独立推演底模同步中，请稍后刷新查看" : "请等待每日盘前 09:25 ET 或后台增量重建完成";
                 if (divEl) {
                     divEl.innerText = "⏳ 等待推演数据";
                     divEl.style.color = pal.sub;
@@ -5439,7 +5788,7 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                 if (lvBar) lvBar.innerHTML = "";
                 wrapEl.style.display = "none";
                 fbEl.style.display = "flex";
-                fbEl.innerHTML = `<div style="font-size:24px;">📊</div><div style="font-size:14px; font-weight:700; color:${pal.text};">${escapeNewsHtml(ticker)} 盘中走廊待生成</div><div style="font-size:12px; color:${pal.sub};">下轮扫描将自动匹配近 60 日相似开盘走势</div>`;
+                fbEl.innerHTML = `<div style="font-size:24px;">📊</div><div style="font-size:14px; font-weight:700; color:${pal.text};">${escapeNewsHtml(ticker)} 盘中走廊待生成</div><div style="font-size:12px; color:${pal.sub};">${isApacPathTk ? "正在按亚太/A股独立 5m 底模匹配相似开盘走势" : "下轮扫描将自动匹配近 60 日相似开盘走势"}</div>`;
                 return;
             }
 
@@ -5455,11 +5804,12 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
             if (metaEl) {
                 if (isNonUs) {
                     metaEl.innerText = String(item.meta_header || "KRX 韩国交易所 (09:00–15:30 KST) · 亚太基准指数");
-                } else if (isKrxPath) {
+                } else if (isNonUsCorridor) {
                     const aoK = _ipNum(item.anchor_open, 0);
                     const pcK = _ipNum(item.prev_close, 0);
-                    const lockK = item.anchor_label || "09:00 KST 开盘已锁定";
-                    metaEl.innerText = `目标日 ${item.forecast_date || "--"} · 🔒 ${lockK} · 开盘锚 ${fmtIpPx(aoK)} · 昨收 ${fmtIpPx(pcK)}`;
+                    const lockK = item.anchor_label || (isKrxPath ? "09:00 KST 开盘已锁定" : "开盘已锁定");
+                    const unitSfx = (isApacPathTk && !isCnyTicker(ticker)) ? " pt" : "";
+                    metaEl.innerText = `目标日 ${item.forecast_date || "--"} · 🔒 ${lockK} · 开盘锚 ${fmtIpPx(aoK)}${unitSfx} · 昨收 ${fmtIpPx(pcK)}${unitSfx}`;
                 } else if (is24h) {
                     if (item.meta_header) {
                         metaEl.innerText = String(item.meta_header);
@@ -5525,7 +5875,7 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                 const iconStr = isNonUs ? "🇰🇷" : (is24h ? "🌐" : "🐣");
                 const titleStr = isNonUs ? "韩国综合指数 (KRX 非美股时段)" : (is24h ? "24H 连续交易品种" : "次新上市·分时历史样本积累中");
                 const msgStr = item.status_message || item.summary_text || "当前暂不绘制美股 RTH 盘前走廊";
-                const stockInfo = STOCKS_DATA.find(s => s.ticker === ticker) || MACRO_DATA[ticker] || {};
+                const stockInfo = STOCKS_DATA.find(s => s.ticker === ticker) || MACRO_DATA[ticker] || (APAC_ASHARE_DATA && APAC_ASHARE_DATA[String(ticker || "").toUpperCase()]) || {};
                 const curPx = _ipNum(stockInfo.active_price || stockInfo.last, _ipNum(item.anchor_open, 0));
                 const curVwap = _ipNum(stockInfo.vwap, 0);
                 if (lvBar) {
@@ -5563,7 +5913,7 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                 const hwArr = item.p75_pcts.map((h, i) => Math.abs(Number(h) - Number(item.p25_pcts[i] || 0)) / 2.0).filter(Number.isFinite);
                 if (hwArr.length) adaptOpenThresh = Math.max(0.005, 0.5 * ((hwArr.reduce((a, b) => a + b, 0) / hwArr.length) / 100.0));
             }
-            if (!has24hChart && !isKrxPath && !item.rth_open_aligned && act[0] !== null && act[0] > 0 && anchorOpen > 0 && Math.abs(act[0] - anchorOpen) / anchorOpen >= adaptOpenThresh) {
+            if (!has24hChart && !isNonUsCorridor && !item.rth_open_aligned && act[0] !== null && act[0] > 0 && anchorOpen > 0 && Math.abs(act[0] - anchorOpen) / anchorOpen >= adaptOpenThresh) {
                 const rthOpen = act[0];
                 if (Array.isArray(item.p25_pcts) && Array.isArray(item.p50_pcts) && Array.isArray(item.p75_pcts) && item.p50_pcts.length === nSlots) {
                     p25 = item.p25_pcts.map(x => Number((rthOpen * (1.0 + Number(x) / 100.0)).toFixed(2)));
@@ -5591,13 +5941,16 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                         <span style="color:${pal.warn};">24H高 ${fmt(high24)}</span>
                         <span style="color:${pal.accent};">24H低 ${fmt(low24)}</span>
                     `;
-                } else if (isKrxPath) {
+                } else if (isNonUsCorridor) {
+                    const mktCn = isApacPathTk ? (item.market_cn || "亚太") : "韩盘";
+                    const ancTag = isApacPathTk ? (item.anchor_label || "开盘锚") : "09:00 KST 开盘锚";
+                    const uTag = (isApacPathTk && !isCnyTicker(ticker)) ? " pt" : "";
                     lvBar.innerHTML = `
                         <span style="display:inline-flex;align-items:center;gap:4px;"><span style="width:10px;height:10px;background:${pal.svgCorridorFill};border:1px solid ${pal.accent};display:inline-block;border-radius:2px;"></span>正常波动带 (P25~P75)</span>
                         <span style="color:${pal.svgP50}; font-weight:600;">┈ 预期中位线 (P50)</span>
-                        <span style="color:${pal.svgActual}; font-weight:600;">━ 今日韩盘走势</span>
-                        <span style="color:${pal.sub};">昨收 ${fmt(prevClose)}</span>
-                        <span style="color:${pal.accent};">09:00 KST 开盘锚 ${fmt(anchorOpen)}</span>
+                        <span style="color:${pal.svgActual}; font-weight:600;">━ 今日${escapeNewsHtml(mktCn)}走势</span>
+                        <span style="color:${pal.sub};">昨收 ${fmt(prevClose)}${uTag}</span>
+                        <span style="color:${pal.accent};">${escapeNewsHtml(ancTag)} ${fmt(anchorOpen)}${uTag}</span>
                     `;
                 } else {
                     lvBar.innerHTML = `
@@ -5634,7 +5987,7 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                 const coreMid = (coreMin + coreMax) / 2.0;
                 const coreSpanRth = Math.max(coreMax - coreMin, (anchorOpen > 0 ? anchorOpen : coreMid) * 0.008);
                 const allowPad = 0.55 * coreSpanRth;
-                const rthCandidates = isKrxPath
+                const rthCandidates = isNonUsCorridor
                     ? [{ label: "昨收", val: prevClose, color: pal.svgAxis, dash: "5 4" }]
                     : [
                         { label: "昨收", val: prevClose, color: pal.svgAxis, dash: "5 4" },
@@ -5753,18 +6106,42 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                     }
                 }
             } else {
-                const xTickIdxs = [0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 77];
+                let xTickIdxs;
+                if (isApacPathTk) {
+                    const minTickGapPx = 44;
+                    const stepTick = Math.max(4, Math.round((nSlots - 1) / 8));
+                    const pinned = [0, nSlots - 1];
+                    const seam = Number(item.lunch_seam_idx);
+                    if (Number.isFinite(seam) && seam > 0 && seam < nSlots - 1) {
+                        const xSeam = xAt(seam);
+                        if (Math.abs(xSeam - xAt(0)) >= minTickGapPx && Math.abs(xSeam - xAt(nSlots - 1)) >= minTickGapPx) {
+                            pinned.push(seam);
+                        }
+                    }
+                    const chosen = pinned.slice();
+                    for (let idx = stepTick; idx < nSlots - 1; idx += stepTick) {
+                        const xi = xAt(idx);
+                        const collides = chosen.some(p => Math.abs(xi - xAt(p)) < minTickGapPx);
+                        if (!collides) chosen.push(idx);
+                    }
+                    xTickIdxs = chosen.sort((a, b) => a - b);
+                } else {
+                    xTickIdxs = [0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 77];
+                }
                 xTickIdxs.forEach(idx => {
                     if (idx >= nSlots) return;
                     const x = xAt(idx);
                     parts.push(`<line x1="${x.toFixed(1)}" y1="${pad.top}" x2="${x.toFixed(1)}" y2="${H - pad.bottom}" stroke="${pal.svgGrid}" stroke-width="1" />`);
                     parts.push(`<text x="${x.toFixed(1)}" y="${H - pad.bottom + 15}" text-anchor="middle" fill="${pal.svgAxis}" font-size="10">${timeSlots[idx] || ""}</text>`);
                 });
-                const x0945 = xAt(3);
+                const earlySlotIdx = (isApacPathTk && Number.isFinite(Number(item.early_window_slot))) ? Number(item.early_window_slot) : 3;
+                const x0945 = xAt(Math.max(0, Math.min(nSlots - 1, earlySlotIdx)));
                 if (Number.isFinite(x0945)) {
-                    const earlyWinTxt = isKrxPath ? "09:15 KST 观察窗" : "09:45 背离窗";
+                    const earlyWinTxt = isApacPathTk
+                        ? (item.early_window_label || "开盘15m 观察窗")
+                        : (isKrxPath ? "09:15 KST 观察窗" : "09:45 背离窗");
                     parts.push(`<line x1="${x0945.toFixed(1)}" y1="${pad.top}" x2="${x0945.toFixed(1)}" y2="${H - pad.bottom}" stroke="${pal.svgDiv0945}" stroke-width="1.2" stroke-dasharray="3 3" />`);
-                    parts.push(`<text x="${(x0945 + 4).toFixed(1)}" y="${pad.top + 12}" fill="${pal.svgDiv0945Text}" font-size="10" font-weight="700">${earlyWinTxt}</text>`);
+                    parts.push(`<text x="${(x0945 + 4).toFixed(1)}" y="${pad.top + 12}" fill="${pal.svgDiv0945Text}" font-size="10" font-weight="700">${escapeNewsHtml(earlyWinTxt)}</text>`);
                 }
             }
 
@@ -5939,11 +6316,20 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                         const vwDiff = (pxV !== null && vwV !== null && vwV > 0) ? ` (${((pxV - vwV) / vwV * 100 >= 0 ? "+" : "")}${((pxV - vwV) / vwV * 100).toFixed(2)}%)` : "";
                         tipEl.innerHTML = `<b>${escapeNewsHtml(ticker)} · ${escapeNewsHtml(tStr)}</b><br>24H 价格: <b style="color:${pal.svgActual};">${f(pxV)}</b><br>实时 VWAP: <b style="color:${pal.accent};">${f(vwV)}${vwDiff}</b><br>24H 波动带 [P25~P75]: <span style="color:${pal.accent};">${f(p25[si])} ~ ${f(p75[si])}</span><br>中位参考 P50: <b style="color:${pal.svgP50};">${f(p50[si])}</b>`;
                     } else {
+                        let lastActualIdx = -1;
+                        for (let k = act.length - 1; k >= 0; k--) {
+                            const kv = act[k];
+                            if (kv !== null && kv !== undefined && Number.isFinite(kv) && kv > 0) {
+                                lastActualIdx = k;
+                                break;
+                            }
+                        }
                         const actVal = act[si];
+                        const missingLabel = (lastActualIdx >= 0 && si < lastActualIdx) ? "—（数据源缺失）" : "—（未到时段）";
                         const actDisp = (actVal !== null && Number.isFinite(actVal) && actVal > 0)
                             ? `<b style="color:${pal.svgActual};">${f(actVal)}</b>`
-                            : `<span style="color:${pal.sub};">—（未到时段）</span>`;
-                        const tzLbl = isKrxPath ? "KST" : "ET";
+                            : `<span style="color:${pal.sub};">${missingLabel}</span>`;
+                        const tzLbl = isApacPathTk ? (item.session_tz || "CST") : (isKrxPath ? "KST" : "ET");
                         tipEl.innerHTML = `<b>${escapeNewsHtml(ticker)} · ${timeSlots[si] || ""} ${tzLbl}</b><br>实际 5m: ${actDisp}<br>P50 预期: <b style="color:${pal.svgP50};">${f(p50[si])}</b><br>走廊 [P25~P75]: <span style="color:${pal.accent};">${f(p25[si])} ~ ${f(p75[si])}</span>`;
                     }
                     tipEl.style.display = "block";
@@ -5960,6 +6346,37 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
         function toggleCurrentStar() {}
 
         function getPlainStatusBadge(item, pal) {
+            if (item && item.is_apac_ashare) {
+                const isIdx = (item.price_unit === "pts" || item.kind === "APAC_INDEX");
+                const apAi = (typeof APAC_ML_PREDICTIONS !== "undefined" && APAC_ML_PREDICTIONS && APAC_ML_PREDICTIONS.by_ticker)
+                    ? APAC_ML_PREDICTIONS.by_ticker[String(item.ticker || "").toUpperCase()]
+                    : null;
+                if (apAi && apAi.calibrated_win_rate_pct !== undefined) {
+                    const lWr = Number(apAi.calibrated_win_rate_pct || 50);
+                    const sWr = Number(apAi.calibrated_short_win_rate_pct || 50);
+                    const newTag = apAi.is_short_sample ? "·次新" : "";
+                    if (lWr >= sWr && lWr >= 52.0) {
+                        return { label: `🤖 多${lWr.toFixed(0)}%${newTag}`, color: pal.up, bg: pal.upBg };
+                    }
+                    if (sWr > lWr && sWr >= 52.0) {
+                        return { label: `🤖 空${sWr.toFixed(0)}%${newTag}`, color: pal.down, bg: pal.downBg };
+                    }
+                    return { label: `🤖 ${lWr.toFixed(0)}%${newTag}`, color: isIdx ? pal.accent : pal.warn, bg: isIdx ? pal.accentBg : pal.warnBg };
+                }
+                return {
+                    label: item._apac_badge || (isIdx ? "🌏 指数" : "🇨🇳 ETF"),
+                    color: isIdx ? pal.accent : pal.warn,
+                    bg: isIdx ? pal.accentBg : pal.warnBg
+                };
+            }
+            if (item && item._kospi_apac_view) {
+                const ksAi = (AI_PREDICTIONS && AI_PREDICTIONS.by_ticker) ? AI_PREDICTIONS.by_ticker["KOSPI"] : null;
+                if (ksAi && ksAi.calibrated_win_rate_pct !== undefined) {
+                    const lWr = Number(ksAi.calibrated_win_rate_pct || 50);
+                    return { label: `🇰🇷 多${lWr.toFixed(0)}%`, color: lWr >= 52 ? pal.up : pal.accent, bg: lWr >= 52 ? pal.upBg : pal.accentBg };
+                }
+                return { label: "🇰🇷 指数", color: pal.accent, bg: pal.accentBg };
+            }
             const sig = String(item.signal || "");
             const isTakeProfit = Boolean(item.is_take_profit || sig.includes("止盈") || sig.includes("超买") || sig.includes("冲顶"));
             const isStop = Boolean(item.is_stop || sig.includes("破位") || sig.includes("跌破"));
@@ -5988,12 +6405,16 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
             if (leaderBtn) {
                 leaderBtn.classList.toggle("active", filter === "resilient_top5");
             }
+            const apacBtn = document.getElementById("btnApacAshare");
+            if (apacBtn) {
+                apacBtn.classList.toggle("active", filter === "apac_ashare");
+            }
             document.querySelectorAll(".w-tab").forEach(t => {
                 t.classList.toggle("active", t.getAttribute("data-filter") === filter);
             });
             const sel = document.getElementById("sectorFilterSelect");
             if (sel) {
-                sel.value = (primaryFilters.has(filter) || filter === "resilient_top5") ? "" : filter;
+                sel.value = (primaryFilters.has(filter) || filter === "resilient_top5" || filter === "apac_ashare") ? "" : filter;
             }
         }
 
@@ -6100,6 +6521,32 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
             const aiByTicker = (AI_PREDICTIONS && AI_PREDICTIONS.by_ticker) ? AI_PREDICTIONS.by_ticker : {};
             let items = [];
 
+            if (filter === "apac_ashare") {
+                // KOSPI 纯前端视图交叉归队：直接复用 MACRO_DATA["KOSPI"]，绝不克隆重复节点
+                if (MACRO_DATA && MACRO_DATA["KOSPI"]) {
+                    const ksEntry = buildMacroListEntry("KOSPI", MACRO_DATA["KOSPI"]);
+                    ksEntry._kospi_apac_view = true;
+                    items.push(ksEntry);
+                }
+                const apacMap = (typeof APAC_ASHARE_DATA !== "undefined" && APAC_ASHARE_DATA) ? APAC_ASHARE_DATA : {};
+                const apacAiMap = (typeof APAC_ML_PREDICTIONS !== "undefined" && APAC_ML_PREDICTIONS && APAC_ML_PREDICTIONS.by_ticker) ? APAC_ML_PREDICTIONS.by_ticker : {};
+                Object.keys(apacMap).forEach(k => {
+                    const a = apacMap[k];
+                    if (!a || typeof a !== "object") return;
+                    const p = Number(a.pct_change || 0);
+                    const isIdx = (a.price_unit === "pts" || a.kind === "APAC_INDEX");
+                    const apAi = apacAiMap[String(k).toUpperCase()] || null;
+                    items.push({
+                        ...a,
+                        ticker: k,
+                        last: Number(a.last || a.price || 0),
+                        pct_change: p,
+                        signal: (apAi && apAi.signal_cn) ? apAi.signal_cn : (p >= 1.2 ? "多头偏强" : (p <= -1.5 ? "回调观察" : "震荡整理")),
+                        _apac_badge: isIdx ? "🌏 指数" : "🇨🇳 ETF",
+                        is_apac_ashare: true,
+                    });
+                });
+            } else {
             STOCKS_DATA.forEach(s => {
                 let match = false;
                 const aiRow = aiByTicker[s.ticker];
@@ -6157,13 +6604,14 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                 else if (filter === "pit" && !m.is_crash_halt && !m.is_cooling_halt && !m.is_inverse_hedge && !["SQQQ", "SOXS", "VIXY"].includes(t) && (m.is_pit || (m.signal && m.signal.includes("黄金坑")) || (m.pit_status && (m.pit_status.includes("坑内") || m.pit_status.includes("黄金坑"))) || (m.dist_to_pit !== undefined && m.dist_to_pit <= 0.0 && m.dist_to_pit >= -8.0))) match = true;
                 else if (filter === "take_profit" && (m.is_take_profit || (m.signal && (m.signal.includes("止盈") || m.signal.includes("超买") || m.signal.includes("冲顶"))))) match = true;
                 else if (filter === "stop" && (m.is_stop || m.is_deep_pullback || (m.signal && (m.signal.includes("破位") || m.signal.includes("跌破") || m.signal.includes("回踩"))))) match = true;
-                else if (filter === "芯片与半导体" && (t === "SMH" || t === "SOXX" || t === "SOXL" || t === "SOXS" || t === "KORU" || t === "KOSPI")) match = true;
+                else if (filter === "芯片与半导体" && (t === "SMH" || t === "SOXX" || t === "SOXL" || t === "SOXS" || t === "KORU" || t === "KOSPI" || t === "KSTR")) match = true;
                 else if (filter === "云与软件" && (t === "QQQ" || t === "IGV" || t === "SQQQ")) match = true;
                 else if (filter === "数字资产" && (t === "BTC-USD" || m.cat === "数字资产")) match = true;
                 else if (filter === "大宗商品" && (t === "GLD" || m.cat === "大宗商品")) match = true;
 
                 if (match) items.push(buildMacroListEntry(t, m));
             });
+            }
 
             if (filter === "resilient_top5") {
                 items = computeResilientLeadersTop5().map(ld => ({
@@ -6329,7 +6777,10 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
 
             const stock = STOCKS_DATA.find(s => s.ticker === ticker);
             const macro = MACRO_DATA[ticker];
-            const data = stock || macro || {};
+            const apacItem = (typeof APAC_ASHARE_DATA !== "undefined" && APAC_ASHARE_DATA) ? APAC_ASHARE_DATA[String(ticker || "").toUpperCase()] : null;
+            const data = stock || macro || apacItem || {};
+            const isApacCur = Boolean(apacItem);
+            const isCnyCur = isCnyTicker(ticker);
 
             // 1. 顶部 / 图表头部行情标识
             const curSymEl = document.getElementById("curSym");
@@ -6337,10 +6788,12 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
             const curPriceEl = document.getElementById("curPrice");
             const curChangeEl = document.getElementById("curChange");
             const isPtsCur = isPointsTicker(ticker);
+            const isNonUsdCur = isPtsCur || isCnyCur;
             const fpCur = (v) => fmtAssetPx(v, ticker);
             if (curSymEl) curSymEl.innerText = ticker;
             if (curNameEl) curNameEl.innerText = data.name || "";
-            if (curPriceEl) curPriceEl.innerText = (data.last && data.last > 0) ? fpCur(data.last) : "--";
+            const topPxVal = Number(data.last || data.price || 0);
+            if (curPriceEl) curPriceEl.innerText = (topPxVal > 0) ? fpCur(topPxVal) : "--";
 
             const pct = data.pct_change || 0;
             if (curChangeEl) {
@@ -6351,7 +6804,14 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
 
             const extBadgeEl = document.getElementById("curExtBadge");
             if (extBadgeEl) {
-                if (isPtsCur && data.krx_session_label) {
+                if (isApacCur) {
+                    extBadgeEl.style.display = "inline-block";
+                    extBadgeEl.style.background = pal.warnBg;
+                    extBadgeEl.style.color = pal.warn;
+                    const apFlag = isCnyCur ? "🇨🇳" : "🌏";
+                    const apUnitLbl = isCnyCur ? "人民币 ¥ · 三位小数" : "指数点数 pt";
+                    extBadgeEl.innerHTML = `${apFlag} ${escapeNewsHtml(data.session_label || "亚太时段")} · ${apUnitLbl}`;
+                } else if (isPtsCur && data.krx_session_label) {
                     extBadgeEl.style.display = "inline-block";
                     extBadgeEl.style.background = pal.accentBg;
                     extBadgeEl.style.color = pal.accent;
@@ -6386,7 +6846,7 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
             const curLast = data.last || 0;
             const curActive = (data.ext_price && data.ext_price > 0) ? data.ext_price : (data.active_price || curLast);
             const curMa50 = data.ma50 || 0;
-            const curEma20 = data.ema20 || curMa50;
+            const curEma20 = data.ema20 || data.ma20 || curMa50;
             const curBias = data.bias !== undefined ? data.bias : (curMa50 > 0 ? ((curActive - curMa50) / curMa50 * 100) : 0);
             const curAtr = data.atr || 0;
             const curRsi = data.rsi !== undefined ? data.rsi : 50;
@@ -6423,7 +6883,8 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
             const isIpo = Boolean(data.is_ipo_pending || sig.includes("IPO"));
 
             const aiMap = (AI_PREDICTIONS && AI_PREDICTIONS.by_ticker) ? AI_PREDICTIONS.by_ticker : {};
-            const aiItem = aiMap[ticker] || null;
+            const apacAiMapCur = (typeof APAC_ML_PREDICTIONS !== "undefined" && APAC_ML_PREDICTIONS && APAC_ML_PREDICTIONS.by_ticker) ? APAC_ML_PREDICTIONS.by_ticker : {};
+            const aiItem = isApacCur ? (apacAiMapCur[String(ticker || "").toUpperCase()] || null) : (aiMap[ticker] || null);
             const aiNowR1 = Number((aiItem && aiItem.r1) || 0);
 
             // 3. 更新专业抽屉 ①：基础技术面指标
@@ -6496,15 +6957,21 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                 volReason = `量比 ${curVolRatio.toFixed(2)}x，成交量能处于常态水平`;
             }
 
+            const _pitDownPct = (curFibLow > 0 && curActive > 0 && curActive < curFibLow)
+                ? Math.abs(((curActive - curFibLow) / curFibLow) * 100.0)
+                : Math.min(99.9, Math.abs(curDistPit));
+            const _pitUpPct = (curFibHigh > 0 && curActive > curFibHigh)
+                ? (((curActive - curFibHigh) / curFibHigh) * 100.0)
+                : Math.abs(curDistPit);
             if (curFibLow && curFibHigh) {
                 if (curLast >= curFibLow && curLast <= curFibHigh) {
                     fibReason = `精准落入 60日斐波那契 0.5~0.618 黄金坑支撑带 (${fpCur(curFibLow)} ~ ${fpCur(curFibHigh)})，处于战略低吸区`;
                 } else if (isPit && curDistPit >= -2.0) {
-                    fibReason = `处于黄金坑底极窄洗盘弹簧区 (${curDistPit.toFixed(1)}%，坑底线 ${fpCur(curFibLow)})，属主力诱空洗盘，未实质破位`;
+                    fibReason = `处于黄金坑底极窄洗盘弹簧区 (-${_pitDownPct.toFixed(1)}%，坑底线 ${fpCur(curFibLow)})，属主力诱空洗盘，未实质破位`;
                 } else if (curLast > curFibHigh) {
-                    fibReason = `运行于黄金坑上方 (+${curDistPit.toFixed(1)}%)，波段支撑带位于 ${fpCur(curFibLow)} ~ ${fpCur(curFibHigh)}`;
+                    fibReason = `运行于黄金坑上方 (+${_pitUpPct.toFixed(1)}%)，波段支撑带位于 ${fpCur(curFibLow)} ~ ${fpCur(curFibHigh)}`;
                 } else {
-                    fibReason = `击穿波段坑底支撑 -${Math.abs(curDistPit).toFixed(1)}% (坑底线 ${fpCur(curFibLow)})，斐波那契多头支撑已破位`;
+                    fibReason = `击穿波段坑底支撑 -${_pitDownPct.toFixed(1)}% (坑底线 ${fpCur(curFibLow)})，斐波那契多头支撑已破位`;
                 }
             } else {
                 fibReason = "基准支撑带平稳运行";
@@ -6554,7 +7021,7 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                 themeColor = pal.down; themeBg = pal.downBg; themeBorder = pal.downBorder;
                 actionType = "破位风控 / 严禁抄底";
                 mainVerdict = "🔴 放量破位杀跌 · 严禁逆势接飞刀";
-                actionDirective = `【铁血风控指令】标的击穿关键斐波那契坑底防线 (跌破 ${Math.abs(curDistPit).toFixed(1)}%)，空头动能处于释放期。持仓者若跌破底线必须坚决离场止损；空仓观察者坚决管住手。`;
+                actionDirective = `【铁血风控指令】标的击穿关键斐波那契坑底防线 (跌破 ${_pitDownPct.toFixed(1)}%)，空头动能处于释放期。持仓者若跌破底线必须坚决离场止损；空仓观察者坚决管住手。`;
             } else if (isDeepPullback) {
                 themeColor = pal.warn; themeBg = pal.warnBg; themeBorder = pal.warnBorder;
                 actionType = "深度回踩 / 严控追高";
@@ -6623,14 +7090,14 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
             const fibREl = document.getElementById("pFibReason");
             const macREl = document.getElementById("pMacroReason");
             const dirEl = document.getElementById("pActionDirective");
-            if (isPtsCur && actionDirective) {
-                actionDirective = actionDirective.replace(/\$([0-9]+(?:\.[0-9]+)?)/g, (_, d) => fmtAssetPx(Number(d), ticker));
+            if (isNonUsdCur && actionDirective) {
+                actionDirective = actionDirective.replace(/\$([0-9,]+(?:\.[0-9]+)?)/g, (_, d) => fpCur(Number(d.replace(/,/g, ""))));
             }
             if (maREl) maREl.innerText = maReason;
             if (volREl) volREl.innerText = volReason;
             if (fibREl) fibREl.innerText = fibReason;
             if (macREl) macREl.innerText = macroReason;
-            if (dirEl) dirEl.innerHTML = isPtsCur ? String(actionDirective).replace(/\$([0-9]+(?:\.[0-9]+)?)/g, (_, d) => fmtAssetPx(Number(d), ticker)) : actionDirective;
+            if (dirEl) dirEl.innerHTML = isNonUsdCur ? String(actionDirective).replace(/\$([0-9,]+(?:\.[0-9]+)?)/g, (_, d) => fpCur(Number(d.replace(/,/g, "")))) : actionDirective;
 
             // 5. 日内微结构数据 (Group ① 抽屉内实时同步)
             const intraBannerEl = document.getElementById("pIntradayBanner");
@@ -6697,7 +7164,7 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                         intraStatusEl.style.color = pal.warn;
                     }
                 }
-                if (isPtsCur) {
+                if (isNonUsdCur) {
                     intraStatusEl.innerText = String(intraStatusEl.innerText || "").replace(/\$([0-9,]+(?:\.[0-9]+)?)/g, (_, d) => fpCur(Number(d.replace(/,/g, ""))));
                     intraReasonEl.innerText = String(intraReasonEl.innerText || "").replace(/\$([0-9,]+(?:\.[0-9]+)?)/g, (_, d) => fpCur(Number(d.replace(/,/g, ""))));
                 }
@@ -6706,6 +7173,10 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
             function getMicroLabelSuffixHtml(sym) {
                 const ipByTk = (typeof INTRADAY_PATH_FORECASTS !== "undefined" && INTRADAY_PATH_FORECASTS && INTRADAY_PATH_FORECASTS.by_ticker) ? INTRADAY_PATH_FORECASTS.by_ticker : {};
                 const ipTk = ipByTk[sym] || {};
+                if (isApacAshareTicker(sym)) {
+                    const apM = (APAC_ASHARE_DATA && APAC_ASHARE_DATA[String(sym).toUpperCase()]) || {};
+                    return `<span class="stale-ref-tag">(${escapeNewsHtml(apM.session_label || "亚太时段")})</span>`;
+                }
                 if (sym === "KOSPI") {
                     const ksM = (MACRO_DATA && MACRO_DATA["KOSPI"]) || {};
                     return ksM.krx_session_open
@@ -6737,8 +7208,10 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
             }
             const vwapEl = document.getElementById("pVwap");
             if (vwapEl) {
-                const vwapVal = data.vwap || curLast;
-                const vwapDiff = vwapVal > 0 ? ((curActive - vwapVal) / vwapVal * 100) : 0;
+                const vwapVal = Number(data.vwap || 0) > 0 ? Number(data.vwap) : curLast;
+                const vwapDiff = (data.vwap_diff_pct !== undefined && data.vwap_diff_pct !== null && Number.isFinite(Number(data.vwap_diff_pct)))
+                    ? Number(data.vwap_diff_pct)
+                    : (vwapVal > 0 ? ((curActive - vwapVal) / vwapVal * 100) : 0);
                 vwapEl.innerHTML = vwapVal > 0 ? `${fpCur(vwapVal)} <span style="font-size:10px; color:${vwapDiff >= 0 ? pal.up : pal.down};">(${vwapDiff >= 0 ? '+' : ''}${vwapDiff.toFixed(2)}%)</span>` : "--";
             }
             const rsi5mEl = document.getElementById("pRsi5m");
@@ -6814,6 +7287,9 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                 } else if (data.earnings_tag) {
                     earnEl.innerText = data.earnings_tag;
                     earnEl.style.color = data.is_earnings_risk ? pal.down : pal.warn;
+                } else if (isApacCur) {
+                    earnEl.innerText = `${isCnyCur ? "🇨🇳" : "🌏"} ${data.session_label || "亚太交易时段"}（无美股财报）`;
+                    earnEl.style.color = pal.warn;
                 } else if (ticker === "KOSPI") {
                     earnEl.innerText = "🇰🇷 KRX 09:00–15:30 KST";
                     earnEl.style.color = pal.accent;
@@ -6853,6 +7329,24 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                     const krClr = krPct >= 0 ? pal.up : pal.down;
                     vixHintEl.innerHTML = `<b>🔗 美股可交易联动参考 KORU (3倍做多韩国)：</b><b>${krPx}</b> <span style="color:${krClr}; font-weight:700;">(${krPct >= 0 ? "+" : ""}${krPct.toFixed(2)}%)</span><br><span style="color: var(--text-secondary);">注：KOSPI 为韩国综合指数（点数计价，无美元符号），交易时段为周一至周五 09:00–15:30 KST。</span>`;
                     vixHintEl.style.display = "block";
+                } else if (isApacCur) {
+                    const turnRaw = Number(data.turnover || 0);
+                    let turnDisp = "--";
+                    if (turnRaw >= 1e8) turnDisp = (turnRaw / 1e8).toFixed(2) + (isCnyCur ? " 亿元" : " 亿");
+                    else if (turnRaw >= 1e4) turnDisp = (turnRaw / 1e4).toFixed(1) + (isCnyCur ? " 万元" : " 万");
+                    else if (turnRaw > 0) turnDisp = turnRaw.toLocaleString("en-US");
+                    const uTag = isCnyCur ? "" : " pt";
+                    const apS1 = data.s1 ? `${fpCur(data.s1)}${uTag}` : "--";
+                    const apS2 = data.s2 ? `${fpCur(data.s2)}${uTag}` : "--";
+                    const apR1 = data.r1 ? `${fpCur(data.r1)}${uTag}` : "--";
+                    const apR2 = data.r2 ? `${fpCur(data.r2)}${uTag}` : "--";
+                    const apEma20 = (data.ema20 || data.ma20) ? `${fpCur(data.ema20 || data.ma20)}${uTag}` : "--";
+                    const apMa50 = data.ma50 ? `${fpCur(data.ma50)}${uTag}` : "--";
+                    const apPoc = data.poc ? `${fpCur(data.poc)}${uTag}` : "--";
+                    const apRsi = (data.rsi !== null && data.rsi !== undefined) ? Number(data.rsi).toFixed(1) : "--";
+                    const apUsNote = (aiItem && aiItem.us_lead_date) ? ` · T-1美股外盘 ${escapeNewsHtml(aiItem.us_lead_date)} (${Number(aiItem.us_lead_adj_pct || 0) >= 0 ? '+' : ''}${Number(aiItem.us_lead_adj_pct || 0).toFixed(1)}%)` : "";
+                    vixHintEl.innerHTML = `<b>${isCnyCur ? "🇨🇳 A股场内 ETF 独立分区" : "🌏 亚太纯指数独立分区"}：</b>支撑 <b>${apS1}</b> / ${apS2} ｜ 压力 <b>${apR1}</b> / ${apR2} ｜ 筹码POC <b>${apPoc}</b><br><span style="color: var(--text-secondary);">EMA20 ${apEma20} · MA50 ${apMa50} · RSI ${apRsi} · 成交额 ${turnDisp}${apUsNote}（独立AI引擎 · 零美股温度计与跟单污染）</span>`;
+                    vixHintEl.style.display = "block";
                 } else {
                     vixHintEl.style.display = "none";
                 }
@@ -6860,7 +7354,8 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
 
             const bandEl = document.getElementById("pEntryFibBand");
             if (bandEl) {
-                bandEl.innerText = isInverseHedge ? "🛡️ 反向衰减对冲(不计黄金坑)" : ((curFibLow && curFibHigh) ? (`${fpCur(curFibLow)} ~ ${fpCur(curFibHigh)}`) : "--");
+                const pocInline = (isApacCur && data.poc && Number(data.poc) > 0) ? ` · POC ${fpCur(data.poc)}` : "";
+                bandEl.innerText = isInverseHedge ? "🛡️ 反向衰减对冲(不计黄金坑)" : ((curFibLow && curFibHigh) ? (`${fpCur(curFibLow)} ~ ${fpCur(curFibHigh)}${pocInline}`) : (pocInline ? `POC ${fpCur(data.poc)}` : "--"));
             }
 
             // 6. Layer A：小白 3 秒决策卡渲染 (结论 + 三列直白价格 + 多空温度条)
@@ -7258,18 +7753,38 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                     const supShortLbl = String(aiItem.suppression_short_tag || "").trim() || (isInvMulti ? "日线破位/反向衰减" : "空头/VIX倒挂");
                     const s1GapTag = (s1Src === "GAP_PULLBACK") ? " (缺口回撤)" : "";
                     const s2GapTag = (s2Src === "GAP_PULLBACK") ? " (缺口回撤)" : "";
+                    const isThinSessJs = (!isPtsCur && !isApacCur) && (
+                        SESSION_CODE === "OVERNIGHT"
+                        || SESSION_CODE === "PRE_MARKET"
+                        || SESSION_CODE === "POST_MARKET"
+                        || Boolean(aiItem.thin_session_unconfirmed)
+                    );
+                    const thinSessCnJs = SESSION_CODE === "OVERNIGHT" ? "夜盘" : (SESSION_CODE === "PRE_MARKET" ? "盘前" : "盘后");
 
                     if (srState === "ALL_SUPPORT_BREACHED") {
-                        leftHtml = `<span style="color:${pal.down}; font-weight:700;">⚠️ 今日原定支撑全线跌穿 (原S1:${s1v} / 原S2:${s2v}) · 下方无真实支撑，别猜底</span>`;
-                        rightHtml = `<span style="color:${pal.down};">上方前压 R1:${r1v} / R2:${r2v}</span>`;
+                        if (isThinSessJs) {
+                            leftHtml = `<span style="color:${pal.warn}; font-weight:700;">🌙 ${thinSessCnJs}暂破原支撑 ${s1v}/${s2v}（薄盘不计有效破位，待正规盘开盘确认）</span>`;
+                            rightHtml = `<span style="color:${pal.down};">上方原压 R1:${r1v} / R2:${r2v}</span>`;
+                        } else {
+                            leftHtml = `<span style="color:${pal.down}; font-weight:700;">⚠️ 今日原定支撑全线跌穿 (原S1:${s1v} / 原S2:${s2v}) · 下方无真实支撑，别猜底</span>`;
+                            rightHtml = `<span style="color:${pal.down};">上方前压 R1:${r1v} / R2:${r2v}</span>`;
+                        }
                     } else if (srState === "S1_BREACHED") {
                         const s2IsEst = (s2Src === "ATR_ESTIMATE");
                         const s2Clr = s2IsEst ? pal.warn : pal.up;
                         const s2Tag = s2IsEst ? `退守估算防线 S2:${s2v} (无真实筹码)` : `退守 S2:${s2v}${s2GapTag}`;
-                        leftHtml = `<span><s style="color:${pal.sub};">S1:${s1v}</s> <span style="color:${pal.warn}; font-weight:700;">已击穿转压 ➔ </span><span style="color:${s2Clr}; font-weight:700;">${s2Tag}</span></span>`;
-                        rightHtml = `<span style="color:${pal.down};">${r1Src === "ATR_ESTIMATE" ? "估算阻力" : "阻力"} R1:${r1v} / R2:${r2v}</span>`;
+                        if (isThinSessJs) {
+                            leftHtml = `<span style="color:${pal.warn}; font-weight:700;">🌙 ${thinSessCnJs}暂破原支撑 ${s1v}（薄盘不计有效破位，待正规盘确认） · ${s2Tag}</span>`;
+                            rightHtml = `<span style="color:${pal.down};">${r1Src === "ATR_ESTIMATE" ? "估算阻力" : "阻力"} R1:${r1v} / R2:${r2v}</span>`;
+                        } else {
+                            leftHtml = `<span><s style="color:${pal.sub};">S1:${s1v}</s> <span style="color:${pal.warn}; font-weight:700;">已击穿转压 ➔ </span><span style="color:${s2Clr}; font-weight:700;">${s2Tag}</span></span>`;
+                            rightHtml = `<span style="color:${pal.down};">${r1Src === "ATR_ESTIMATE" ? "估算阻力" : "阻力"} R1:${r1v} / R2:${r2v}</span>`;
+                        }
                     } else if (srState === "ALL_RESISTANCE_BROKEN") {
-                        if (aiItem.bear_suppressed_r1_break) {
+                        if (isThinSessJs) {
+                            leftHtml = `<span style="color:${pal.warn}; font-weight:700;">🌙 ${thinSessCnJs}暂越原阻力 ${r1v}/${r2v}（薄盘不计有效突破，待正规盘放量站稳确认）</span>`;
+                            rightHtml = `<span style="color:${pal.sub}; font-weight:600;">薄盘流动性较浅 · 暂不判定为防守底线</span>`;
+                        } else if (aiItem.bear_suppressed_r1_break) {
                             leftHtml = `<span style="color:${pal.warn}; font-weight:700;">⚠️ 原R1:${r1v} / R2:${r2v} (跳空越过 · ${escapeNewsHtml(supShortLbl)}压制)</span>`;
                             rightHtml = `<span style="color:${pal.sub}; font-weight:600;">短线以 VWAP 为界 · 暂不追高</span>`;
                         } else {
@@ -7279,7 +7794,11 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                     } else if (srState === "R1_BROKEN") {
                         const isFarR2 = Boolean(aiItem.r2_is_far_historical);
                         const r2CapNum = Number(aiItem.r2_swing_cap || 0);
-                        if (aiItem.bear_suppressed_r1_break) {
+                        if (isThinSessJs) {
+                            leftHtml = `<span style="color:${pal.warn}; font-weight:700;">🌙 ${thinSessCnJs}暂越原阻力 ${r1v}（薄盘不计有效突破，待正规盘放量站稳确认）</span>`;
+                            const r2NearDisp = (isFarR2 && r2CapNum > 0) ? fpCur(r2CapNum) : r2v;
+                            rightHtml = `<span style="color:${pal.sub}; font-weight:600;">上方近端观察 ${r2NearDisp}</span>`;
+                        } else if (aiItem.bear_suppressed_r1_break) {
                             leftHtml = `<span style="color:${pal.warn}; font-weight:700;">⚠️ 旧R1:${r1v} (跳空越过 · ${escapeNewsHtml(supShortLbl)}压制)</span>`;
                             const r2RefStr = isFarR2 ? `远期前高参考 ${r2v}（非短线目标）` : `上方前压 R2:${r2v}`;
                             rightHtml = `<span style="color:${pal.sub}; font-weight:600;">${r2RefStr}</span>`;
@@ -7316,8 +7835,18 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                 }
                 const scScriptEl = document.getElementById("pAiScenarioScript");
                 if (scScriptEl) {
-                    const rawScTxt = String(aiItem.scenario_script || "--");
-                    scScriptEl.innerText = isPtsCur ? rawScTxt.replace(/\$([0-9]+(?:\.[0-9]+)?)/g, (_, d) => fpCur(Number(d))) : rawScTxt;
+                    let rawScTxt = String(aiItem.scenario_script || "--");
+                    const _dynSlJs = Number(aiItem.stop_loss_price || 0);
+                    if (_dynSlJs > 0 && curActive > 0 && _dynSlJs < curActive) {
+                        rawScTxt = rawScTxt.replace(/(防守止损位\s*)\$?([0-9,]+(?:\.[0-9]+)?)/g, (m, pfx, numStr) => {
+                            const v = Number(String(numStr).replace(/,/g, ""));
+                            if (Number.isFinite(v) && v >= curActive) {
+                                return `${pfx}${fpCur(_dynSlJs)}`;
+                            }
+                            return m;
+                        });
+                    }
+                    scScriptEl.innerText = isNonUsdCur ? rawScTxt.replace(/\$([0-9,]+(?:\.[0-9]+)?)/g, (_, d) => fpCur(Number(d.replace(/,/g, "")))) : rawScTxt;
                     const srStateSc = String(aiItem.sr_breach_state || "INTACT").toUpperCase();
                     scScriptEl.style.borderLeftColor = (srStateSc === "ALL_SUPPORT_BREACHED")
                         ? pal.down
@@ -7415,6 +7944,61 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
             }
             renderResilientLeadersStrip();
 
+            if (isApacCur) {
+                const apUnit = isCnyCur ? "" : " pt";
+                const apS1v = Number(data.s1 || 0);
+                const apS2v = Number(data.s2 || 0);
+                const apR1v = Number(data.r1 || 0);
+                const apSlv = Number(data.entry_stop_loss || 0) > 0 ? Number(data.entry_stop_loss) : (apS1v > 0 ? apS1v * 0.992 : apS2v);
+                const apPctNow = Number(data.pct_change || 0);
+                const apAiDir = aiItem ? Number(aiItem.direction_score || 0) : 0;
+                const apAiL = aiItem ? Number(aiItem.calibrated_win_rate_pct || 50) : null;
+                const apAiS = aiItem ? Number(aiItem.calibrated_short_win_rate_pct || 50) : null;
+                const apNewTag = (aiItem && aiItem.is_short_sample) ? " · 次新样本" : "";
+                if (vTitle) {
+                    if (aiItem && aiItem.action) {
+                        vTitle.innerText = `${isCnyCur ? "🇨🇳" : "🌏"} ${aiItem.action}`;
+                        vTitle.style.color = apAiDir >= 5.0 ? pal.up : (apAiDir <= -5.0 ? pal.down : pal.warn);
+                    } else {
+                        vTitle.innerText = apPctNow >= 1.2
+                            ? `${isCnyCur ? "🇨🇳" : "🌏"} 亚太/A股偏强运行 · 顺势跟踪`
+                            : (apPctNow <= -1.5 ? `${isCnyCur ? "🇨🇳" : "🌏"} 短线回调承压 · 观察支撑` : `${isCnyCur ? "🇨🇳" : "🌏"} 震荡整理 · 围绕撑压观察`);
+                        vTitle.style.color = apPctNow >= 1.2 ? pal.up : (apPctNow <= -1.5 ? pal.down : pal.warn);
+                    }
+                }
+                if (vSub) {
+                    const aiSubBit = (apAiL !== null && apAiS !== null)
+                        ? `独立AI 5日多 ${apAiL.toFixed(1)}% vs 空 ${apAiS.toFixed(1)}%${apNewTag} · `
+                        : "";
+                    vSub.innerText = `${aiSubBit}${data.sub || data.name || ticker}（${isCnyCur ? "人民币 ¥ 三位小数" : "指数点数 pt"} · 零美股期权与跟单污染）。`;
+                }
+                if (priceLabelEl) priceLabelEl.innerText = "🧭 参考低吸 / 支撑 S1";
+                if (optEl) { optEl.innerText = apS1v > 0 ? `${fpCur(apS1v)}${apUnit}` : "--"; optEl.style.color = pal.up; }
+                if (noteEl) {
+                    const dS1 = (topPxVal > 0 && apS1v > 0) ? ((apS1v - topPxVal) / topPxVal * 100) : null;
+                    noteEl.innerText = dS1 !== null ? `距现价 ${dS1 >= 0 ? "+" : ""}${dS1.toFixed(1)}%` : "结构支撑参考";
+                }
+                const tileTpLblAp = document.getElementById("pTileTpLbl");
+                const tileSlLblAp = document.getElementById("pTileStopLbl");
+                if (tileTpLblAp) tileTpLblAp.innerText = "上方压力 / 目标 R1";
+                if (tileSlLblAp) tileSlLblAp.innerText = "防守止损线 (贴近S1)";
+                if (stopLabelEl) stopLabelEl.innerText = "🛡️ 防守止损线 (贴近S1)";
+                if (tpBegEl) { tpBegEl.innerText = apR1v > 0 ? `${fpCur(apR1v)}${apUnit}` : "--"; tpBegEl.style.color = pal.up; }
+                if (tpPctEl) {
+                    const dR1 = (topPxVal > 0 && apR1v > 0) ? ((apR1v - topPxVal) / topPxVal * 100) : null;
+                    tpPctEl.innerText = dR1 !== null ? `距现价 ${dR1 >= 0 ? "+" : ""}${dR1.toFixed(1)}%` : "结构压力参考";
+                    tpPctEl.style.color = pal.up;
+                }
+                if (stopEl) { stopEl.innerText = apSlv > 0 ? `${fpCur(apSlv)}${apUnit}` : "--"; stopEl.style.color = pal.down; }
+                if (stopDistEl) {
+                    const dSl = (topPxVal > 0 && apSlv > 0) ? ((apSlv - topPxVal) / topPxVal * 100) : null;
+                    stopDistEl.innerText = dSl !== null ? `距现价 ${dSl >= 0 ? "+" : ""}${dSl.toFixed(1)}% · 短线防守` : "短线防守线";
+                    stopDistEl.style.color = pal.down;
+                }
+                if (proEntryRef) proEntryRef.innerText = apS1v > 0 ? `${fpCur(apS1v)}${apUnit}` : "--";
+                if (proStopRef) proStopRef.innerText = apSlv > 0 ? `${fpCur(apSlv)}${apUnit}` : "--";
+            }
+
             // 8. 机构期权雷达 (Group ②)
             const optBox = document.getElementById("optionsAnomalyBox");
             const optUnavail = document.getElementById("optionsUnavailableNote");
@@ -7464,12 +8048,14 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                     optBox.style.display = "none";
                     if (optUnavail) {
                         optUnavail.style.display = "block";
-                        optUnavail.innerText = (ticker === "KOSPI")
-                            ? "🇰🇷 指数基准 · 无美股期权链（美股交易联动参考 KORU）"
-                            : "⚪ 当前标的暂无美股期权链数据（现货/加密/新股仅展示现货与均线量价指标）。";
+                        optUnavail.innerText = isApacCur
+                            ? `${isCnyCur ? "🇨🇳" : "🌏"} 亚太/A股独立分区 · 无美股期权链（仅展示本地真实日K/5m均线、RSI与撑压）`
+                            : ((ticker === "KOSPI")
+                                ? "🇰🇷 指数基准 · 无美股期权链（美股交易联动参考 KORU）"
+                                : "⚪ 当前标的暂无美股期权链数据（现货/加密/新股仅展示现货与均线量价指标）。");
                     }
                     if (pcrBadge) {
-                        pcrBadge.innerText = (ticker === "KOSPI") ? "🇰🇷 指数无期权" : "⚪ 无美股期权";
+                        pcrBadge.innerText = isApacCur ? "🇨🇳 无美股期权" : ((ticker === "KOSPI") ? "🇰🇷 指数无期权" : "⚪ 无美股期权");
                         pcrBadge.style.color = pal.sub;
                         pcrBadge.style.background = pal.elevatedBg;
                     }
@@ -7503,6 +8089,14 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                 const m = MACRO_DATA[k];
                 allEntries.push({ ticker: k, name: m.name || "", last: m.last || 0, pct: m.pct_change || 0 });
             });
+            if (typeof APAC_ASHARE_DATA !== "undefined" && APAC_ASHARE_DATA) {
+                Object.keys(APAC_ASHARE_DATA).forEach(k => {
+                    const a = APAC_ASHARE_DATA[k];
+                    if (a && typeof a === "object") {
+                        allEntries.push({ ticker: k, name: a.name || "", last: Number(a.last || a.price || 0), pct: Number(a.pct_change || 0) });
+                    }
+                });
+            }
 
             const renderHits = (q) => {
                 const pal = getThemePalette();
@@ -7981,7 +8575,17 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
 
         let knownNotifIds = new Set();
         let isFirstEverVisit = false;
+        let isNewTradingDayNotifReset = false;
         try {
+            const savedNotifDateEt = localStorage.getItem("terminalNotifDateEt") || "";
+            if (CURRENT_ET_DATE && savedNotifDateEt && savedNotifDateEt < CURRENT_ET_DATE) {
+                // 跨美东交易日自动清空前序交易日已读集合，避免昨日残余红标误导
+                localStorage.removeItem("terminalKnownNotifIds");
+                isNewTradingDayNotifReset = true;
+            }
+            if (CURRENT_ET_DATE) {
+                localStorage.setItem("terminalNotifDateEt", CURRENT_ET_DATE);
+            }
             const rawSaved = localStorage.getItem("terminalKnownNotifIds");
             if (rawSaved === null) {
                 isFirstEverVisit = true;
@@ -7998,21 +8602,26 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
             } catch(e) {}
         }
 
-        if (isFirstEverVisit) {
+        // 首次访问或新交易日首轮加载：静默建立基线，绝不把存量标的当新警报狂弹 60+ 条
+        if (isFirstEverVisit || isNewTradingDayNotifReset) {
             terminalNotifications.forEach(n => { if (n && n.id) knownNotifIds.add(n.id); });
             persistKnownNotifIds();
         } else {
             const initialFresh = [];
+            const isRegularInit = ["REGULAR", "RTH", "INTRADAY"].includes(String(SESSION_CODE || "").toUpperCase());
             terminalNotifications.forEach(n => {
                 if (n && n.id && !knownNotifIds.has(n.id)) {
                     knownNotifIds.add(n.id);
-                    if (n.category !== "macro_flash") initialFresh.push(n);
+                    if (n.category === "macro_flash") return;
+                    if (!isRegularInit && (n.category === "5m_entry" || n.category === "stop_loss")) return;
+                    initialFresh.push(n);
                 }
             });
-            if (initialFresh.length > 0) {
-                persistKnownNotifIds();
+            persistKnownNotifIds();
+            // 仅对明确少量新增跃迁（<= 5 条）弹窗提示，批量存量不轰炸
+            if (initialFresh.length > 0 && initialFresh.length <= 5) {
                 setTimeout(() => {
-                    initialFresh.slice(0, 6).forEach(item => queueAlertSound(item.category || "5m_entry"));
+                    initialFresh.slice(0, 3).forEach(item => queueAlertSound(item.category || "5m_entry"));
                     showToast(`🔔 收到 ${initialFresh.length} 条全新实盘量化预警！`);
                 }, 800);
             }
@@ -8020,21 +8629,26 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
 
         function handleIncomingNotifications(newNotifs) {
             if (!Array.isArray(newNotifs)) return;
-            rawTradingNotifications = newNotifs;
+            rawTradingNotifications = filterNotificationsForSessionAndDay(newNotifs, SESSION_CODE, CURRENT_ET_DATE);
             const merged = mergeNotificationsWithFlashes(rawTradingNotifications, latestMarketNews);
+            const isRegularNow = ["REGULAR", "RTH", "INTRADAY"].includes(String(SESSION_CODE || "").toUpperCase());
             let freshItems = [];
             merged.forEach(n => {
                 if (n && n.id && !knownNotifIds.has(n.id)) {
                     knownNotifIds.add(n.id);
-                    if (n.category !== "macro_flash") freshItems.push(n);
+                    if (n.category === "macro_flash") return;
+                    if (!isRegularNow && (n.category === "5m_entry" || n.category === "stop_loss")) return;
+                    freshItems.push(n);
                 }
             });
             terminalNotifications = merged;
             renderNotifList(currentNotifCat);
             if (freshItems.length > 0) {
                 persistKnownNotifIds();
-                freshItems.slice(0, 6).forEach(item => queueAlertSound(item.category || "5m_entry"));
-                showToast(`🔔 收到 ${freshItems.length} 条全新量化预警...`);
+                if (freshItems.length <= 5) {
+                    freshItems.slice(0, 3).forEach(item => queueAlertSound(item.category || "5m_entry"));
+                    showToast(`🔔 收到 ${freshItems.length} 条全新量化预警...`);
+                }
             }
         }
 
@@ -8126,14 +8740,385 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
             document.querySelectorAll(".notif-category-bar, .mobile-period-bar").forEach(bar => enableHorizontalDragScroll(bar));
         }
 
+        // =========================================================================
+        // 🛡️ 静默版本检测 + 非阻塞轻提示 + 可选防打断自动刷新 (20s Idle Guard) + 状态无缝恢复
+        // =========================================================================
+        const AUTO_RELOAD_STORAGE_KEY = "radar_auto_reload_enabled";
+        const REFRESH_STATE_SESSION_KEY = "radar_refresh_state_v1";
+        const VERSION_CHECK_INTERVAL_MS = 60000;
+        const IDLE_GUARD_MS = 20000;
+        const PAGE_BUILD_TS = (function() {
+            const metaEl = document.querySelector('meta[name="radar-build-ts"]');
+            const metaVal = metaEl ? String(metaEl.getAttribute("content") || "").trim() : "";
+            return metaVal || String(typeof INITIAL_PORTFOLIO_TS !== "undefined" ? INITIAL_PORTFOLIO_TS : "");
+        })();
+
+        const _refreshState = {
+            autoReloadEnabled: false,
+            hasRemoteUpdate: false,
+            baselineHeaderSig: null,
+            lastUserActivityAt: Date.now(),
+            deferredToastShown: false,
+            idleRecheckTimer: null,
+            versionCheckTimer: null,
+            navigatorFn: null,
+        };
+
+        function readAutoReloadPref() {
+            try {
+                return localStorage.getItem(AUTO_RELOAD_STORAGE_KEY) === "true";
+            } catch (e) {
+                return false;
+            }
+        }
+
+        function writeAutoReloadPref(enabled) {
+            try {
+                localStorage.setItem(AUTO_RELOAD_STORAGE_KEY, enabled ? "true" : "false");
+            } catch (e) {}
+        }
+
+        function updateAutoReloadToggleUI() {
+            const btn = document.getElementById("btnAutoReloadToggle");
+            const lbl = document.getElementById("autoReloadLabel");
+            const isOn = !!_refreshState.autoReloadEnabled;
+            if (lbl) lbl.innerText = isOn ? "自动刷新: 开" : "自动刷新: 关";
+            if (btn) {
+                btn.classList.toggle("is-on", isOn);
+                btn.setAttribute("aria-pressed", isOn ? "true" : "false");
+                btn.title = isOn
+                    ? "已开启防打断自动刷新：检测到新行情且您 20 秒无操作、未打开搜索/弹窗/全屏时自动更新（点击关闭）"
+                    : "默认关闭以防打断看盘；开启后仅在您 20 秒无操作且未打开搜索/弹窗/全屏时静默自动更新";
+            }
+        }
+
+        function renderUpdateAvailableUI(deferredReason) {
+            const topPill = document.getElementById("btnNewUpdatePill");
+            const topText = document.getElementById("newUpdatePillText");
+            const footerPill = document.getElementById("btnFooterUpdatePill");
+            if (!_refreshState.hasRemoteUpdate) {
+                if (topPill) topPill.style.display = "none";
+                if (footerPill) footerPill.style.display = "none";
+                return;
+            }
+            const isDeferred = !!(_refreshState.autoReloadEnabled && deferredReason);
+            const label = isDeferred ? "🟡 检测到操作，空闲后自动更新" : "🟢 发现新行情 · 点击刷新";
+            if (topPill) {
+                topPill.style.display = "inline-flex";
+                topPill.classList.toggle("is-deferred", isDeferred);
+            }
+            if (topText) topText.innerText = label;
+            if (footerPill) {
+                footerPill.style.display = "inline-flex";
+                footerPill.classList.toggle("is-deferred", isDeferred);
+                footerPill.innerText = label;
+            }
+        }
+
+        function saveTerminalUiState() {
+            const wl = document.getElementById("watchlistContainer");
+            const scrollTop = wl ? wl.scrollTop : 0;
+            const snapshot = {
+                ticker: currentTicker || "NVDA",
+                filter: currentFilter || "all",
+                centerView: currentCenterView || "kline",
+                theme: getCurrentTheme(),
+                scrollTop: scrollTop,
+                interval: currentInterval || "D",
+                style: currentStyle || "1",
+                savedAt: Date.now(),
+            };
+            try {
+                sessionStorage.setItem(REFRESH_STATE_SESSION_KEY, JSON.stringify(snapshot));
+            } catch (e) {}
+            try {
+                localStorage.setItem("lastSelectedTicker", snapshot.ticker);
+                localStorage.setItem("futu_watchlist_filter", snapshot.filter);
+                localStorage.setItem("futu_center_view", snapshot.centerView);
+                localStorage.setItem("futu_theme", snapshot.theme);
+                localStorage.setItem("futu_watchlist_scroll", String(snapshot.scrollTop));
+                localStorage.setItem("futu_kline_period", snapshot.interval);
+                localStorage.setItem("futu_kline_style", snapshot.style);
+            } catch (e) {}
+            return snapshot;
+        }
+
+        function executeSafeReload() {
+            saveTerminalUiState();
+            const cleanPath = window.location.pathname;
+            const searchParams = new URLSearchParams(window.location.search);
+            searchParams.delete("symbol");
+            searchParams.delete("ticker");
+            searchParams.set("_t", String(Date.now()));
+            const targetUrl = cleanPath + "?" + searchParams.toString() + window.location.hash;
+            if (typeof _refreshState.navigatorFn === "function") {
+                _refreshState.navigatorFn(targetUrl);
+                return targetUrl;
+            }
+            try {
+                window.location.replace(targetUrl);
+            } catch (e) {
+                window.location.reload();
+            }
+            return targetUrl;
+        }
+
+        function triggerManualRefresh() {
+            return executeSafeReload();
+        }
+
+        function hasBlockingInteractiveOverlay() {
+            try {
+                const searchInput = document.getElementById("quickSearchInput");
+                const searchDropdown = document.getElementById("quickSearchDropdown");
+                if (searchInput && (document.activeElement === searchInput || String(searchInput.value || "").trim().length > 0)) {
+                    return "search_active";
+                }
+                if (searchDropdown && searchDropdown.classList.contains("show")) {
+                    return "search_dropdown";
+                }
+                const notifOverlay = document.getElementById("notifDrawerOverlay");
+                if (notifOverlay && notifOverlay.style.display === "flex") {
+                    return "notif_drawer";
+                }
+                const vixPop = document.getElementById("vixDetailPopover");
+                if (vixPop && (vixPop.classList.contains("is-open") || vixPop.classList.contains("is-hover-open"))) {
+                    return "vix_popover";
+                }
+                const tempPop = document.getElementById("tempDetailPopover");
+                if (tempPop && (tempPop.classList.contains("is-open") || tempPop.classList.contains("is-hover-open"))) {
+                    return "temp_popover";
+                }
+                if (document.fullscreenElement || document.webkitFullscreenElement) {
+                    return "fullscreen_mode";
+                }
+                const openModal = document.querySelector('[role="dialog"].is-open, .modal.show, .lightbox-overlay.show, .copy-trade-drawer.is-open');
+                if (openModal) {
+                    return "modal_open";
+                }
+            } catch (e) {}
+            return "";
+        }
+
+        function canSafelyAutoReload(nowMs) {
+            const ts = (typeof nowMs === "number") ? nowMs : Date.now();
+            if (!_refreshState.autoReloadEnabled) {
+                return { allowed: false, reason: "disabled" };
+            }
+            if (!_refreshState.hasRemoteUpdate) {
+                return { allowed: false, reason: "no_update" };
+            }
+            if (document.hidden) {
+                return { allowed: false, reason: "tab_hidden" };
+            }
+            const overlayBlock = hasBlockingInteractiveOverlay();
+            if (overlayBlock) {
+                return { allowed: false, reason: overlayBlock };
+            }
+            const idleMs = ts - _refreshState.lastUserActivityAt;
+            if (idleMs < IDLE_GUARD_MS) {
+                return { allowed: false, reason: "user_active", idleMs: idleMs };
+            }
+            return { allowed: true, reason: "idle_ready", idleMs: idleMs };
+        }
+
+        function scheduleIdleRecheck() {
+            if (_refreshState.idleRecheckTimer) return;
+            _refreshState.idleRecheckTimer = setInterval(function() {
+                if (!_refreshState.autoReloadEnabled || !_refreshState.hasRemoteUpdate) {
+                    clearInterval(_refreshState.idleRecheckTimer);
+                    _refreshState.idleRecheckTimer = null;
+                    return;
+                }
+                evaluateAutoReload();
+            }, 2000);
+        }
+
+        function evaluateAutoReload(nowMs) {
+            if (!_refreshState.hasRemoteUpdate) {
+                renderUpdateAvailableUI("");
+                return { reloaded: false, reason: "no_update" };
+            }
+            if (!_refreshState.autoReloadEnabled) {
+                renderUpdateAvailableUI("");
+                return { reloaded: false, reason: "disabled" };
+            }
+            const check = canSafelyAutoReload(nowMs);
+            if (check.allowed) {
+                if (_refreshState.idleRecheckTimer) {
+                    clearInterval(_refreshState.idleRecheckTimer);
+                    _refreshState.idleRecheckTimer = null;
+                }
+                const targetUrl = executeSafeReload();
+                return { reloaded: true, reason: "idle_ready", targetUrl: targetUrl };
+            }
+            if (check.reason !== "tab_hidden") {
+                renderUpdateAvailableUI(check.reason);
+                if (!_refreshState.deferredToastShown) {
+                    _refreshState.deferredToastShown = true;
+                    showToast("⏳ 检测到操作，空闲后自动更新");
+                }
+            } else {
+                renderUpdateAvailableUI("");
+            }
+            scheduleIdleRecheck();
+            return { reloaded: false, reason: check.reason };
+        }
+
+        function markRemoteUpdateAvailable() {
+            const wasAlready = _refreshState.hasRemoteUpdate;
+            _refreshState.hasRemoteUpdate = true;
+            if (!wasAlready) {
+                _refreshState.deferredToastShown = false;
+            }
+            if (document.hidden) {
+                renderUpdateAvailableUI("");
+                return { reloaded: false, reason: "tab_hidden" };
+            }
+            if (_refreshState.autoReloadEnabled) {
+                return evaluateAutoReload();
+            }
+            renderUpdateAvailableUI("");
+            return { reloaded: false, reason: "manual_prompt_only" };
+        }
+
+        function toggleAutoReload() {
+            _refreshState.autoReloadEnabled = !_refreshState.autoReloadEnabled;
+            writeAutoReloadPref(_refreshState.autoReloadEnabled);
+            _refreshState.lastUserActivityAt = Date.now();
+            _refreshState.deferredToastShown = false;
+            updateAutoReloadToggleUI();
+            if (_refreshState.autoReloadEnabled) {
+                showToast("✅ 已开启自动刷新（检测到操作将自动延后，20秒空闲后再更新）");
+                if (_refreshState.hasRemoteUpdate) {
+                    evaluateAutoReload();
+                }
+            } else {
+                if (_refreshState.idleRecheckTimer) {
+                    clearInterval(_refreshState.idleRecheckTimer);
+                    _refreshState.idleRecheckTimer = null;
+                }
+                renderUpdateAvailableUI("");
+                showToast("🛡️ 已关闭自动刷新（发现新行情仅显示轻提示，不打断看盘）");
+            }
+        }
+
+        function bindUserActivityListeners() {
+            const bumpActivity = function() {
+                _refreshState.lastUserActivityAt = Date.now();
+            };
+            ["mousemove", "mousedown", "wheel", "keydown", "touchstart"].forEach(function(evt) {
+                window.addEventListener(evt, bumpActivity, { passive: true, capture: true });
+            });
+            document.addEventListener("visibilitychange", function() {
+                if (!document.hidden) {
+                    // 从后台切回标签页时重置活跃时间，仅展示轻提示胶囊，绝不擅自抢屏刷新
+                    _refreshState.lastUserActivityAt = Date.now();
+                    if (_refreshState.hasRemoteUpdate) {
+                        renderUpdateAvailableUI(_refreshState.autoReloadEnabled ? "tab_returned" : "");
+                        if (_refreshState.autoReloadEnabled) {
+                            scheduleIdleRecheck();
+                        }
+                    }
+                }
+            });
+        }
+
+        async function checkRemoteVersionUpdate(isBaselineInit) {
+            if (window.location.protocol !== "http:" && window.location.protocol !== "https:") {
+                return { checked: false, reason: "non_http_protocol" };
+            }
+            try {
+                const headResp = await fetch(window.location.pathname, { method: "HEAD", cache: "no-store" });
+                if (headResp && headResp.ok) {
+                    const etag = (headResp.headers && headResp.headers.get("etag")) || "";
+                    const lastMod = (headResp.headers && headResp.headers.get("last-modified")) || "";
+                    const sig = (etag || lastMod) ? `${etag}|${lastMod}` : "";
+                    if (sig) {
+                        if (isBaselineInit || !_refreshState.baselineHeaderSig) {
+                            _refreshState.baselineHeaderSig = sig;
+                            return { checked: true, updated: false, mode: "head_baseline", sig: sig };
+                        }
+                        if (sig !== _refreshState.baselineHeaderSig) {
+                            markRemoteUpdateAvailable();
+                            return { checked: true, updated: true, mode: "head_diff", sig: sig };
+                        }
+                        return { checked: true, updated: false, mode: "head_same", sig: sig };
+                    }
+                }
+            } catch (e) {
+                // HEAD 不可用时继续尝试轻量 GET 对比内嵌构建时间戳
+            }
+
+            if (isBaselineInit) {
+                return { checked: true, updated: false, mode: "build_ts_baseline", buildTs: PAGE_BUILD_TS };
+            }
+            try {
+                const getResp = await fetch(window.location.pathname, { method: "GET", cache: "no-store" });
+                if (!getResp || !getResp.ok) {
+                    return { checked: false, reason: "get_failed" };
+                }
+                const htmlText = await getResp.text();
+                const mMeta = htmlText.match(/<meta\s+name=["']radar-build-ts["']\s+content=["']([^"']+)["']/i);
+                const mTs = htmlText.match(/INITIAL_PORTFOLIO_TS\s*=\s*(\d+)/);
+                const remoteBuildTs = (mMeta && mMeta[1]) ? String(mMeta[1]).trim() : ((mTs && mTs[1]) ? String(mTs[1]).trim() : "");
+                if (remoteBuildTs && PAGE_BUILD_TS && remoteBuildTs !== PAGE_BUILD_TS) {
+                    markRemoteUpdateAvailable();
+                    return { checked: true, updated: true, mode: "get_build_ts_diff", remoteBuildTs: remoteBuildTs };
+                }
+                return { checked: true, updated: false, mode: "get_build_ts_same", remoteBuildTs: remoteBuildTs };
+            } catch (e) {
+                return { checked: false, reason: "network_error" };
+            }
+        }
+
+        function initSmartVersionMonitor() {
+            _refreshState.autoReloadEnabled = readAutoReloadPref();
+            _refreshState.lastUserActivityAt = Date.now();
+            updateAutoReloadToggleUI();
+            bindUserActivityListeners();
+            checkRemoteVersionUpdate(true);
+            if (_refreshState.versionCheckTimer) clearInterval(_refreshState.versionCheckTimer);
+            _refreshState.versionCheckTimer = setInterval(function() {
+                checkRemoteVersionUpdate(false);
+            }, VERSION_CHECK_INTERVAL_MS);
+        }
+
+        window.__RADAR_REFRESH_GUARD__ = {
+            getState: function() { return Object.assign({ pageBuildTs: PAGE_BUILD_TS }, _refreshState); },
+            checkRemoteVersionUpdate: checkRemoteVersionUpdate,
+            markRemoteUpdateAvailable: markRemoteUpdateAvailable,
+            canSafelyAutoReload: canSafelyAutoReload,
+            evaluateAutoReload: evaluateAutoReload,
+            triggerManualRefresh: triggerManualRefresh,
+            toggleAutoReload: toggleAutoReload,
+            saveTerminalUiState: saveTerminalUiState,
+            setNavigatorFn: function(fn) { _refreshState.navigatorFn = (typeof fn === "function") ? fn : null; },
+            setLastActivityAt: function(ts) { _refreshState.lastUserActivityAt = ts; },
+        };
+
         window.addEventListener("DOMContentLoaded", function() {
             initAllHorizontalScrollBars();
             initQuickSearch();
+            initSmartVersionMonitor();
+
+            // 0. 读取刷新前会话暂存状态 (sessionStorage 优先，localStorage 兜底)
+            let restoredSession = null;
+            try {
+                const rawSess = sessionStorage.getItem(REFRESH_STATE_SESSION_KEY);
+                if (rawSess) {
+                    restoredSession = JSON.parse(rawSess);
+                    sessionStorage.removeItem(REFRESH_STATE_SESSION_KEY);
+                }
+            } catch (e) {
+                restoredSession = null;
+            }
 
             // 1. 恢复主题 (默认深色 dark)
             let savedTheme = "dark";
             try {
-                if (localStorage.getItem("futu_theme") === "light") savedTheme = "light";
+                const themeCand = (restoredSession && restoredSession.theme) || localStorage.getItem("futu_theme");
+                if (themeCand === "light") savedTheme = "light";
             } catch(e) {}
             applyTheme(savedTheme, true);
 
@@ -8147,7 +9132,7 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
             // 3. 还原左侧筛选状态
             let savedFilter = "all";
             try {
-                savedFilter = localStorage.getItem("futu_watchlist_filter") || "all";
+                savedFilter = (restoredSession && restoredSession.filter) || localStorage.getItem("futu_watchlist_filter") || "all";
                 if (savedFilter === "starred") savedFilter = "all";
             } catch(e) {}
             syncFilterControlsUI(savedFilter);
@@ -8160,9 +9145,11 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                     try { localStorage.setItem("futu_watchlist_scroll", wlContainer.scrollTop); } catch(e) {}
                 }, { passive: true });
                 try {
-                    const savedScroll = localStorage.getItem("futu_watchlist_scroll");
-                    if (savedScroll) {
-                        setTimeout(() => { wlContainer.scrollTop = parseInt(savedScroll, 10); }, 60);
+                    const savedScroll = (restoredSession && restoredSession.scrollTop !== undefined)
+                        ? restoredSession.scrollTop
+                        : localStorage.getItem("futu_watchlist_scroll");
+                    if (savedScroll !== null && savedScroll !== undefined && savedScroll !== "") {
+                        setTimeout(() => { wlContainer.scrollTop = parseInt(savedScroll, 10) || 0; }, 60);
                     }
                 } catch(e) {}
             }
@@ -8172,23 +9159,24 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
             try {
                 const urlParams = new URLSearchParams(window.location.search);
                 const urlSym = (urlParams.get("symbol") || urlParams.get("ticker") || "").trim().toUpperCase();
-                const savedT = localStorage.getItem("lastSelectedTicker");
-                if (urlSym && (STOCKS_DATA.some(s => s.ticker === urlSym) || MACRO_DATA[urlSym])) {
+                const savedT = ((restoredSession && restoredSession.ticker) || localStorage.getItem("lastSelectedTicker") || "").trim().toUpperCase();
+                const isKnownTicker = (sym) => !!(sym && (STOCKS_DATA.some(s => s.ticker === sym) || MACRO_DATA[sym] || (typeof APAC_ASHARE_DATA !== "undefined" && APAC_ASHARE_DATA && APAC_ASHARE_DATA[sym])));
+                if (isKnownTicker(urlSym)) {
                     initTicker = urlSym;
                     localStorage.setItem("lastSelectedTicker", urlSym);
                     urlParams.delete("symbol");
                     urlParams.delete("ticker");
                     const newQuery = urlParams.toString();
                     window.history.replaceState(null, "", window.location.pathname + (newQuery ? "?" + newQuery : "") + window.location.hash);
-                } else if (savedT && (STOCKS_DATA.some(s => s.ticker === savedT) || MACRO_DATA[savedT])) {
+                } else if (isKnownTicker(savedT)) {
                     initTicker = savedT;
                 }
             } catch(e) {}
 
             // 6. 还原 K 线周期
             try {
-                const savedPeriod = localStorage.getItem("futu_kline_period");
-                const savedStyle = localStorage.getItem("futu_kline_style");
+                const savedPeriod = (restoredSession && restoredSession.interval) || localStorage.getItem("futu_kline_period");
+                const savedStyle = (restoredSession && restoredSession.style) || localStorage.getItem("futu_kline_style");
                 if (savedPeriod) {
                     currentInterval = savedPeriod;
                     currentStyle = savedStyle || "1";
@@ -8206,9 +9194,17 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
                 }
             } catch(e) {}
 
-            // 7. 选中初始标的 + 刷新顶部红绿灯/成绩单
+            // 7. 选中初始标的 + 恢复中区视图（实时行情K线 / 今日盘中推演） + 刷新顶部红绿灯/成绩单
+            let savedCenterView = "kline";
+            try {
+                const cv = (restoredSession && restoredSession.centerView) || localStorage.getItem("futu_center_view") || "kline";
+                if (cv === "intraday_path") savedCenterView = "intraday_path";
+            } catch(e) {}
             updateTopRegimeAndScorecard();
             selectTicker(initTicker, false);
+            if (savedCenterView === "intraday_path") {
+                switchCenterChartView("intraday_path");
+            }
 
             // 8. 手机端视图还原
             if (window.innerWidth <= 768) {
@@ -8267,8 +9263,31 @@ def build_futu_terminal_html(stocks_data, macro_data, weather_info, update_time_
         "__PY_TPL_MARKET_NEWS_JSON__": market_news_json,
         "__PY_TPL_INTRADAY_PATH_JSON__": intraday_path_json,
         "__PY_TPL_SESSION_CODE__": str(session_code or "REGULAR"),
+        "__PY_TPL_ET_DATE__": str(update_time_str or "")[:10],
         "__PY_TPL_LEADERS_JSON__": leaders_json,
+        "__PY_TPL_APAC_JSON__": apac_json,
+        "__PY_TPL_APAC_ML_JSON__": apac_ml_json,
+        "__PY_TPL_APAC_INTRADAY_PATH_JSON__": apac_intraday_path_json,
+        "__PY_TPL_APAC_COUNT__": apac_count_str,
     }
+    try:
+        import copy_trade_kol_engine as _ct_dual_term_mod
+        replacements["__PY_TPL_COPY_DRAWER_CSS__"] = _ct_dual_term_mod.DUAL_COPY_DRAWER_CSS
+        replacements["__PY_TPL_COPY_DRAWER_HTML__"] = _ct_dual_term_mod.render_dual_track_copy_drawer_html(
+            compact=True,
+            drawer_id="termCopyTradeDrawer",
+        )
+    except Exception:
+        try:
+            import copy_trade_engine as _ct_term_mod
+            replacements["__PY_TPL_COPY_DRAWER_CSS__"] = _ct_term_mod.COPY_TRADE_DRAWER_CSS
+            replacements["__PY_TPL_COPY_DRAWER_HTML__"] = _ct_term_mod.render_copy_trade_drawer_html(
+                compact=True,
+                drawer_id="termCopyTradeDrawer",
+            )
+        except Exception:
+            replacements["__PY_TPL_COPY_DRAWER_CSS__"] = ""
+            replacements["__PY_TPL_COPY_DRAWER_HTML__"] = ""
     for _tok, _val in replacements.items():
         html = html.replace(_tok, _val)
     return html
