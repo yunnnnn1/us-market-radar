@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795794237.435,
-  "updated_at_et": "11-27 10:43 ET",
-  "updated_at_kst": "00:43 KST",
+  "updated_at_ts": 1795794340.684,
+  "updated_at_et": "11-27 10:45 ET",
+  "updated_at_kst": "00:45 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2607,6 +2607,20 @@
     ],
     "BTC-USD": [
       {
+        "title": "BC-Most Active Stocks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153017329.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:30 ET",
+        "pub_ts": 1795793417.0
+      },
+      {
+        "title": "Bitcoin Reserve bill advances; ETF outflows top $5.3B",
+        "url": "https://finance.yahoo.com/video/bitcoin-reserve-bill-advances-etf-outflows-top-53b-151524584.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:15 ET",
+        "pub_ts": 1795792524.0
+      },
+      {
         "title": "Tether Buys $10 Million Worth of Bitdeer Stock",
         "url": "https://www.cryptoprowl.com/releases/tether-buys-10-million-worth-of-bitdeer-stock-8099?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2626,20 +2640,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 10:00 ET",
         "pub_ts": 1795791600.0
-      },
-      {
-        "title": "Stock Market Today: Dow Jumps 500 Points While Nvidia Wavers; Anthropic, Tesla, SpaceX Rally (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow-jumps.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 09:51 ET",
-        "pub_ts": 1795791085.0
-      },
-      {
-        "title": "Analyst Warns of $38,000 Bitcoin Crash as Trump Proposes Tariffs on 14 Trading Partners",
-        "url": "https://www.ccn.com/news/crypto/bitcoin-38k-analyst-downside-trump-14-trading-partners/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 09:07 ET",
-        "pub_ts": 1795788436.0
       }
     ],
     "CRWD": [
@@ -3343,12 +3343,12 @@
     "STX": 1795794237.4348946,
     "MSTR": 1795794237.4348946,
     "SNDK": 1795794237.4348946,
-    "BTC-USD": 1795792780.7975943,
+    "BTC-USD": 1795794340.6840937,
     "CRWD": 1795794237.4348946,
-    "ORCL": 1795792780.7975943,
-    "COIN": 1795792780.7975943,
-    "LLY": 1795792780.7975943,
-    "MRNA": 1795792780.7975943,
+    "ORCL": 1795794340.6840937,
+    "COIN": 1795794340.6840937,
+    "LLY": 1795794340.6840937,
+    "MRNA": 1795794340.6840937,
     "NKE": 1795793821.4336011,
     "MCD": 1795793821.4336011,
     "PEP": 1795793821.4336011,
