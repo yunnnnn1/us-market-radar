@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795792467.729,
-  "updated_at_et": "11-27 10:14 ET",
-  "updated_at_kst": "00:14 KST",
+  "updated_at_ts": 1795792570.968,
+  "updated_at_et": "11-27 10:16 ET",
+  "updated_at_kst": "00:16 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1757,6 +1757,20 @@
     ],
     "SPCX": [
       {
+        "title": "Stocks snap from a $6 trillion washout to a $3 trillion surge as Nvidia, Micron, and SpaceX bounce back",
+        "url": "https://finance.yahoo.com/markets/article/stocks-snap-from-a-6-trillion-washout-to-a-3-trillion-surge-as-nvidia-micron-and-spacex-bounce-back-151218930.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:12 ET",
+        "pub_ts": 1795792338.0
+      },
+      {
+        "title": "SpaceX, Tesla have had a bumpy 2026 thus far: What to know",
+        "url": "https://finance.yahoo.com/video/spacex-tesla-have-had-a-bumpy-2026-thus-far-what-to-know-145849441.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:58 ET",
+        "pub_ts": 1795791529.0
+      },
+      {
         "title": "SpaceX stock rises after Musk pledges annual share giveaway for kids",
         "url": "https://finance.yahoo.com/technology/article/spacex-stock-rises-after-musk-pledges-annual-share-giveaway-for-kids-140708762.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1764,32 +1778,18 @@
         "pub_ts": 1795788295.0
       },
       {
-        "title": "SpaceX Stock Rises. Elon Musk Makes Billion-Dollar Pledge to American Children",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-stock-rises-elon-musk-143029317.html?.tsrc=rss",
+        "title": "Anthropic Gains 4%, Climbs Back Above $83 IPO Price as Cathie Wood Keeps Buying; SpaceX Rises 3%, Nebius Advances 2%",
+        "url": "https://247wallst.com/investing/2026/11/27/anthropic-gains-4-climbs-back-above-83-ipo-price-as-cathie-wood-keeps-buying-spacex-rises-3-nebius-advances-2/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 09:30 ET",
-        "pub_ts": 1795789829.0
+        "time": "11-27 10:02 ET",
+        "pub_ts": 1795791733.0
       },
       {
-        "title": "Stock Market Today: Dow Futures Jump 650 Points As Nvidia Rebounds; Anthropic, SpaceX, Tesla Rally (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow.html?.tsrc=rss",
+        "title": "SpaceX Stock Jumps Thanks to AI Rally. Why It Should Be Rising Even More.",
+        "url": "https://finance.yahoo.com/m/4d380fe9-e29b-3b6c-8f18-28ee89ad558e/spacex-stock-jumps-thanks-to.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 09:00 ET",
-        "pub_ts": 1795788002.0
-      },
-      {
-        "title": "SpaceX Wants AI Data Centers in Space. What Happens if They Go Bankrupt?",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63669138/spacex-orbital-data-center-bankruptcy?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 08:54 ET",
-        "pub_ts": 1795787656.0
-      },
-      {
-        "title": "Elon Musk Says All American Kids Will Get Another SpaceX Share Every Year",
-        "url": "https://247wallst.com/investing/2026/11/27/elon-musk-says-all-american-kids-will-get-another-spacex-share-every-year/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 08:53 ET",
-        "pub_ts": 1795787581.0
+        "time": "11-27 09:52 ET",
+        "pub_ts": 1795791120.0
       }
     ],
     "ASTS": [
@@ -1942,11 +1942,18 @@
     ],
     "TSLA": [
       {
-        "title": "Stock Market Today: Dow Futures Jump 650 Points As Nvidia Rebounds; Anthropic, SpaceX, Tesla Rally (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow.html?.tsrc=rss",
+        "title": "SpaceX, Tesla have had a bumpy 2026 thus far: What to know",
+        "url": "https://finance.yahoo.com/video/spacex-tesla-have-had-a-bumpy-2026-thus-far-what-to-know-145849441.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 09:00 ET",
-        "pub_ts": 1795788002.0
+        "time": "11-27 09:58 ET",
+        "pub_ts": 1795791529.0
+      },
+      {
+        "title": "Stock Market Today: Dow Jumps 500 Points While Nvidia Wavers; Anthropic, Tesla, SpaceX Rally (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow-jumps.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:51 ET",
+        "pub_ts": 1795791085.0
       },
       {
         "title": "What ARK Autonomous Technology & Robotics ETF (ARKQ) Sold: Tesla Leads on Nov. 25",
@@ -1968,13 +1975,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 06:03 ET",
         "pub_ts": 1795777409.0
-      },
-      {
-        "title": "ETFs Are Buying Tesla (TSLA) on Wednesday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-tesla-tsla-wednesday-110102240.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:01 ET",
-        "pub_ts": 1795777262.0
       }
     ],
     "AXP": [
@@ -2201,6 +2201,13 @@
     ],
     "HPE": [
       {
+        "title": "Network Hardware - Global Strategic Business Report 2026: Capitalize on the $33.1 Billion Revenue Surge to 2032 with Benchmarks on Cisco, Huawei, HPE, Nokia, and Ericsson",
+        "url": "https://finance.yahoo.com/technology/articles/network-hardware-global-strategic-business-150100167.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:01 ET",
+        "pub_ts": 1795791660.0
+      },
+      {
         "title": "Is Micron Stock a Buy After HPE Said Memory Will Stay Scarce Into 2028?",
         "url": "https://www.fool.com/investing/2026/11/26/is-micron-stock-a-buy-after-hpe-said-memory-will-stay-scarce-into-2028/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2227,13 +2234,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 19:00 ET",
         "pub_ts": 1795651200.0
-      },
-      {
-        "title": "HPE stock plunges after record quarter as a hidden catch emerges",
-        "url": "https://www.thestreet.com/investing/hpe-stock-plunges-record-quarter-hidden-catch?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 18:17 ET",
-        "pub_ts": 1795648620.0
       }
     ],
     "DELL": [
@@ -3170,6 +3170,13 @@
         "pub_ts": 1795786203.0
       },
       {
+        "title": "Ken Fisher and 11 Other Big Funds Bought Corning Last Quarter, While 14 Sold. Who’s Right?",
+        "url": "https://www.tikr.com/blog/ken-fisher-big-funds-bought-corning-stock-last-quarter-14-sold?ref=yahoofinance&tlnk=yf-261127-hg68m3vh&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 03:15 ET",
+        "pub_ts": 1795767316.0
+      },
+      {
         "title": "Corning’s 80-Million-Mile Fiber Deal Puts Its 2027 Expansion to the Test",
         "url": "https://finance.yahoo.com/technology/articles/corning-80-million-mile-fiber-041319616.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3189,13 +3196,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 12:21 ET",
         "pub_ts": 1795627263.0
-      },
-      {
-        "title": "Corning (GLW) Rides AI Optimism On A Narrative That Still Sees It Undervalued",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/corning-glw-rides-ai-optimism-151209714.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:12 ET",
-        "pub_ts": 1795619529.0
       }
     ],
     "ANT": [
@@ -3214,25 +3214,25 @@
         "pub_ts": 1795786669.0
       },
       {
-        "title": "Stock Market Today: Dow Futures Jump 650 Points As Nvidia Rebounds; Anthropic, SpaceX, Tesla Rally (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow.html?.tsrc=rss",
+        "title": "Anthropic Stock Jumps to Reveal Its True Place in the AI Trade",
+        "url": "https://finance.yahoo.com/m/eac9c281-033c-3c73-8b9a-a27703a8cdc9/anthropic-stock-jumps-to.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 09:00 ET",
-        "pub_ts": 1795788002.0
+        "time": "11-27 10:09 ET",
+        "pub_ts": 1795792140.0
       },
       {
-        "title": "Dow Jones Futures Rise; Look For This Bullish Market Signal On Black Friday",
-        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B-look.html?.tsrc=rss",
+        "title": "Anthropic Gains 4%, Climbs Back Above $83 IPO Price as Cathie Wood Keeps Buying; SpaceX Rises 3%, Nebius Advances 2%",
+        "url": "https://247wallst.com/investing/2026/11/27/anthropic-gains-4-climbs-back-above-83-ipo-price-as-cathie-wood-keeps-buying-spacex-rises-3-nebius-advances-2/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 08:06 ET",
-        "pub_ts": 1795784814.0
+        "time": "11-27 10:02 ET",
+        "pub_ts": 1795791733.0
       },
       {
-        "title": "Prediction: These Will Be Anthropic’s and SpaceX’s Stock Prices by the End of 2027 (Hint: Both Are Buys)",
-        "url": "https://www.fool.com/investing/2026/11/27/prediction-these-will-be-anthropic-s-and-spacex-s-stock-prices-by-the-end-of-2027-hint-both-are-buys/?.tsrc=rss",
+        "title": "Stock Market Today: Dow Jumps 500 Points While Nvidia Wavers; Anthropic, Tesla, SpaceX Rally (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow-jumps.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 06:20 ET",
-        "pub_ts": 1795778402.0
+        "time": "11-27 09:51 ET",
+        "pub_ts": 1795791085.0
       }
     ],
     "XAUUSD": [
@@ -3319,25 +3319,25 @@
     "CRDO": 1795792261.0349567,
     "COHR": 1795792261.0349567,
     "MRVL": 1795792261.0349567,
-    "LITE": 1795791014.7312832,
+    "LITE": 1795792570.9676645,
     "AAOI": 1795792261.0349567,
-    "SPCX": 1795791014.7312832,
-    "ASTS": 1795791014.7312832,
-    "AXTI": 1795791014.7312832,
-    "NASA": 1795791014.7312832,
-    "LUNR": 1795791014.7312832,
-    "TSLA": 1795791014.7312832,
-    "AXP": 1795791014.7312832,
-    "RKLB": 1795791014.7312832,
-    "KO": 1795791014.7312832,
-    "FLY": 1795791014.7312832,
-    "INTC": 1795791014.7312832,
-    "VRT": 1795791014.7312832,
-    "HPE": 1795791014.7312832,
-    "DELL": 1795791014.7312832,
-    "OKLO": 1795791014.7312832,
-    "CEG": 1795791014.7312832,
-    "FPS": 1795791014.7312832,
+    "SPCX": 1795792570.9676645,
+    "ASTS": 1795792570.9676645,
+    "AXTI": 1795792570.9676645,
+    "NASA": 1795792570.9676645,
+    "LUNR": 1795792570.9676645,
+    "TSLA": 1795792570.9676645,
+    "AXP": 1795792570.9676645,
+    "RKLB": 1795792570.9676645,
+    "KO": 1795792570.9676645,
+    "FLY": 1795792570.9676645,
+    "INTC": 1795792570.9676645,
+    "VRT": 1795792570.9676645,
+    "HPE": 1795792570.9676645,
+    "DELL": 1795792570.9676645,
+    "OKLO": 1795792570.9676645,
+    "CEG": 1795792570.9676645,
+    "FPS": 1795792570.9676645,
     "MU": 1795791118.5663345,
     "SKHY": 1795791118.5663345,
     "WDC": 1795791118.5663345,
@@ -3353,15 +3353,15 @@
     "NKE": 1795792261.0349567,
     "MCD": 1795792261.0349567,
     "PEP": 1795792261.0349567,
-    "XOM": 1795791014.7312832,
+    "XOM": 1795792570.9676645,
     "JPM": 1795792261.0349567,
-    "WMT": 1795791014.7312832,
+    "WMT": 1795792570.9676645,
     "V": 1795792261.0349567,
-    "CAT": 1795791014.7312832,
-    "FN": 1795791014.7312832,
-    "GLW": 1795791014.7312832,
-    "ANT": 1795791014.7312832,
-    "XAUUSD": 1795791014.7312832,
+    "CAT": 1795792570.9676645,
+    "FN": 1795792570.9676645,
+    "GLW": 1795792570.9676645,
+    "ANT": 1795792570.9676645,
+    "XAUUSD": 1795792570.9676645,
     "KOSPI": 1795791118.5663345
   },
   "opex_shield": {
