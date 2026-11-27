@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795792570.968,
-  "updated_at_et": "11-27 10:16 ET",
-  "updated_at_kst": "00:16 KST",
+  "updated_at_ts": 1795792675.376,
+  "updated_at_et": "11-27 10:17 ET",
+  "updated_at_kst": "00:17 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -439,13 +439,6 @@
         "pub_ts": 1795734431.0
       },
       {
-        "title": "SPDR S&P 500 ETF (SPY) Sells $400.1 Million of Apple on Nov. 24",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110357521.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:03 ET",
-        "pub_ts": 1795691037.0
-      },
-      {
         "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Technology Stock Rebound",
         "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140653942.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -458,6 +451,13 @@
         "source": "Yahoo Finance",
         "time": "11-27 08:03 ET",
         "pub_ts": 1795784638.0
+      },
+      {
+        "title": "Own Palo Alto Stock? Watch Its Deferred Revenue",
+        "url": "https://www.trefis.com/stock/panw/articles/629187/own-palo-alto-stock-watch-its-deferred-revenue/2026-11-26?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 06:15 ET",
+        "pub_ts": 1795691719.0
       }
     ],
     "DIA": [
@@ -536,6 +536,13 @@
     ],
     "QQQ": [
       {
+        "title": "The Nasdaq Needs Two Huge Days to Dodge Its Worst November Since 2008",
+        "url": "https://247wallst.com/investing/2026/11/27/the-nasdaq-needs-two-huge-days-to-dodge-its-worst-november-since-2008/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:52 ET",
+        "pub_ts": 1795791153.0
+      },
+      {
         "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Technology Stock Rebound",
         "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140653942.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -562,13 +569,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 06:01 ET",
         "pub_ts": 1795777283.0
-      },
-      {
-        "title": "Apple (AAPL) Sees $437.3 Million in Net ETF Buying on Nov. 25",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-sees-437-3-110032009.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:00 ET",
-        "pub_ts": 1795777232.0
       }
     ],
     "SMH": [
@@ -617,6 +617,13 @@
         "pub_ts": 1795683880.0
       },
       {
+        "title": "Stock Market Today: Markets Off to a Strong Black Friday Start",
+        "url": "https://247wallst.com/investing/2026/11/27/stock-market-today-markets-off-to-a-strong-black-friday-start/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:03 ET",
+        "pub_ts": 1795791793.0
+      },
+      {
         "title": "iShares Russell 2000 (IWM) Adds Community Financial and Hope Bancorp on Nov. 25",
         "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-2000-iwm-adds-110405784.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -636,13 +643,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 06:04 ET",
         "pub_ts": 1795691065.0
-      },
-      {
-        "title": "The Average Stock Shrugged Off the Tech Slide. History Is Split",
-        "url": "https://www.trefis.com/stock/spx/articles/628711/the-average-stock-shrugged-off-the-tech-slide-history-is-split/2026-11-25?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 17:18 ET",
-        "pub_ts": 1795645095.0
       }
     ],
     "IGV": [
@@ -795,6 +795,13 @@
     ],
     "TSM": [
       {
+        "title": "Trump’s New Tariffs Hit Taiwan but Spare Its Chips. That’s Good News for TSMC and Apple",
+        "url": "https://www.tikr.com/blog/trumps-new-tariffs-hit-taiwan-but-spare-its-chips-thats-good-news-for-tsmc-and-apple?ref=yahoofinance&tlnk=yf-261127-wff3mmwm&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:40 ET",
+        "pub_ts": 1795786836.0
+      },
+      {
         "title": "Is TSMC (TSM) a Buy as Wall Street Analysts Look Optimistic?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-tsm-buy-wall-street-133004462.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -821,13 +828,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 14:00 ET",
         "pub_ts": 1795719600.0
-      },
-      {
-        "title": "TSMC (TSM) Upgraded to Strong Buy: Here's Why",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-tsm-upgraded-strong-buy-160004326.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 11:00 ET",
-        "pub_ts": 1795708804.0
       }
     ],
     "VIXY": [
@@ -906,6 +906,27 @@
     ],
     "NVDA": [
       {
+        "title": "Stocks snap from a $6 trillion washout to a $3 trillion surge as Nvidia, Micron, and SpaceX bounce back",
+        "url": "https://finance.yahoo.com/markets/article/stocks-snap-from-a-6-trillion-washout-to-a-3-trillion-surge-as-nvidia-micron-and-spacex-bounce-back-151218930.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:12 ET",
+        "pub_ts": 1795792338.0
+      },
+      {
+        "title": "SpaceX, Tesla have had a bumpy 2026 thus far: What to know",
+        "url": "https://finance.yahoo.com/video/spacex-tesla-have-had-a-bumpy-2026-thus-far-what-to-know-145849441.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:58 ET",
+        "pub_ts": 1795791529.0
+      },
+      {
+        "title": "Chip stocks lead a Black Friday rally, but Nvidia misses out: AlphaCheck",
+        "url": "https://finance.yahoo.com/markets/article/chip-stocks-lead-a-black-friday-rally-but-nvidia-misses-out-alphacheck-145727185.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:57 ET",
+        "pub_ts": 1795791447.0
+      },
+      {
         "title": "How Leopold Aschenbrenner made a $225 million bet on AI infrastructure",
         "url": "https://finance.yahoo.com/video/leopold-aschenbrenner-made-225-million-143000764.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -913,35 +934,21 @@
         "pub_ts": 1795789800.0
       },
       {
-        "title": "Nvidia freezing chip orders to four Southeast Asian countries",
-        "url": "https://finance.yahoo.com/video/nvidia-freezing-chip-orders-to-four-southeast-asian-countries-140011925.html?.tsrc=rss",
+        "title": "Stock Market Today: Markets Off to a Strong Black Friday Start",
+        "url": "https://247wallst.com/investing/2026/11/27/stock-market-today-markets-off-to-a-strong-black-friday-start/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 09:00 ET",
-        "pub_ts": 1795788011.0
-      },
-      {
-        "title": "Fire Sale: Here's Why Now May Be the Perfect Time to Buy Nvidia Stock",
-        "url": "https://www.fool.com/investing/2026/11/27/fire-sale-here-s-why-now-may-be-the-perfect-time-to-buy-nvidia-stock/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 09:38 ET",
-        "pub_ts": 1795790282.0
-      },
-      {
-        "title": "Jensen Huang Said Blackwell Racks Wouldn't Fit In A 'Pocket Or Backpack' But One Has Reportedly Turned Up in Shanghai",
-        "url": "https://stocktwits.com/news-articles/markets/equity/jensen-huang-said-blackwell-racks-wouldn-t-fit-in-a-pocket-or-backpack-but-one-has-reportedly-turned-up-in-shanghai/cNbCwmzR9Vb?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 09:29 ET",
-        "pub_ts": 1795789781.0
-      },
-      {
-        "title": "Kioxia Stock Has Soared 21% in Two Days After an Nvidia SSD Test",
-        "url": "https://247wallst.com/investing/2026/11/27/kioxia-stock-has-soared-21-in-two-days-after-an-nvidia-ssd-test/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 09:28 ET",
-        "pub_ts": 1795789708.0
+        "time": "11-27 10:03 ET",
+        "pub_ts": 1795791793.0
       }
     ],
     "AMD": [
+      {
+        "title": "Sandisk, Bloom, Marvell, AMD, Nvidia, HP, and More Stocks That Explain Today’s Market",
+        "url": "https://finance.yahoo.com/m/977de44c-fcf5-3369-bcdd-0c3ddc7cfec9/sandisk%2C-bloom%2C-marvell%2C-amd%2C.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:56 ET",
+        "pub_ts": 1795791360.0
+      },
       {
         "title": "AMD Rises 4% Despite Erste Group Downgrade on Valuation; Marvell Climbs 6%, Intel Gains 5%",
         "url": "https://247wallst.com/investing/2026/11/27/amd-rises-4-despite-erste-group-downgrade-on-valuation-marvell-climbs-6-intel-gains-5/?.tsrc=rss",
@@ -969,13 +976,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 07:15 ET",
         "pub_ts": 1795781706.0
-      },
-      {
-        "title": "Why Is Advanced Micro Devices Stock Rallying Today?",
-        "url": "https://investorshub.advfn.com/market-news/article/40798/why-is-advanced-micro-devices-stock-rallying-today?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:58 ET",
-        "pub_ts": 1795780729.0
       }
     ],
     "ASML": [
@@ -2386,11 +2386,25 @@
     ],
     "MU": [
       {
+        "title": "Stocks snap from a $6 trillion washout to a $3 trillion surge as Nvidia, Micron, and SpaceX bounce back",
+        "url": "https://finance.yahoo.com/markets/article/stocks-snap-from-a-6-trillion-washout-to-a-3-trillion-surge-as-nvidia-micron-and-spacex-bounce-back-151218930.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:12 ET",
+        "pub_ts": 1795792338.0
+      },
+      {
         "title": "He was right about AI and still lost $35 billion",
         "url": "https://finance.yahoo.com/video/ai-still-lost-35-billion-120000023.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-27 07:00 ET",
         "pub_ts": 1795780800.0
+      },
+      {
+        "title": "Micron Stock Is Jumping but There’s Bad News on Memory Prices",
+        "url": "https://finance.yahoo.com/m/ece1bfa4-65fd-3b15-bd9c-6a0f690f08e4/micron-stock-is-jumping-but.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:58 ET",
+        "pub_ts": 1795791480.0
       },
       {
         "title": "SanDisk Jumps 10% as Investors Return to Beaten-Down Memory Stocks; Micron and SK Hynix Rise 6% Despite TrendForce DRAM Warning",
@@ -2405,20 +2419,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 08:19 ET",
         "pub_ts": 1795785561.0
-      },
-      {
-        "title": "David Tepper, George Soros and 2 Other Famous Investors Own Micron. Here’s Who Bought and Sold Recently",
-        "url": "https://www.tikr.com/blog/micron-stock-david-tepper-george-soros-investors?ref=yahoofinance&tlnk=yf-261127-3fj98j3p&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 07:25 ET",
-        "pub_ts": 1795782349.0
-      },
-      {
-        "title": "MARKETS LIVE: US stock futures jump ahead of shortened Black Friday trading session",
-        "url": "https://www.proactiveinvestors.com/companies/news/1102556/markets-live-us-stock-futures-jump-ahead-of-shortened-black-friday-trading-session-1102556.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:57 ET",
-        "pub_ts": 1795780620.0
       }
     ],
     "SKHY": [
@@ -2578,6 +2578,13 @@
         "pub_ts": 1795789800.0
       },
       {
+        "title": "Sandisk, Bloom, Marvell, AMD, Nvidia, HP, and More Stocks That Explain Today’s Market",
+        "url": "https://finance.yahoo.com/m/977de44c-fcf5-3369-bcdd-0c3ddc7cfec9/sandisk%2C-bloom%2C-marvell%2C-amd%2C.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:56 ET",
+        "pub_ts": 1795791360.0
+      },
+      {
         "title": "SanDisk Jumps 10% as Investors Return to Beaten-Down Memory Stocks; Micron and SK Hynix Rise 6% Despite TrendForce DRAM Warning",
         "url": "https://247wallst.com/investing/2026/11/27/sandisk-jumps-10-as-investors-return-to-beaten-down-memory-stocks-micron-and-sk-hynix-rise-6-despite-trendforce-dram-warning/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2597,13 +2604,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 06:18 ET",
         "pub_ts": 1795778295.0
-      },
-      {
-        "title": "Sandisk, Bloom, Marvell, AMD, Nvidia, HP, and More Stocks That Explain Today’s Market",
-        "url": "https://finance.yahoo.com/m/977de44c-fcf5-3369-bcdd-0c3ddc7cfec9/sandisk%2C-bloom%2C-marvell%2C-amd%2C.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 05:22 ET",
-        "pub_ts": 1795774920.0
       }
     ],
     "BTC-USD": [
@@ -3283,23 +3283,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795791118.5663345,
-    "SOXL": 1795791118.5663345,
-    "SPY": 1795791118.5663345,
-    "DIA": 1795791118.5663345,
-    "SOXX": 1795791118.5663345,
-    "QQQ": 1795791118.5663345,
-    "SMH": 1795791118.5663345,
-    "IWM": 1795791118.5663345,
-    "IGV": 1795791118.5663345,
-    "TLT": 1795791118.5663345,
-    "GLD": 1795791118.5663345,
-    "SQQQ": 1795791118.5663345,
-    "TSM": 1795791118.5663345,
-    "VIXY": 1795791118.5663345,
-    "SOXS": 1795791118.5663345,
-    "NVDA": 1795791118.5663345,
-    "AMD": 1795791118.5663345,
+    "KORU": 1795792675.3758607,
+    "SOXL": 1795792675.3758607,
+    "SPY": 1795792675.3758607,
+    "DIA": 1795792675.3758607,
+    "SOXX": 1795792675.3758607,
+    "QQQ": 1795792675.3758607,
+    "SMH": 1795792675.3758607,
+    "IWM": 1795792675.3758607,
+    "IGV": 1795792675.3758607,
+    "TLT": 1795792675.3758607,
+    "GLD": 1795792675.3758607,
+    "SQQQ": 1795792675.3758607,
+    "TSM": 1795792675.3758607,
+    "VIXY": 1795792675.3758607,
+    "SOXS": 1795792675.3758607,
+    "NVDA": 1795792675.3758607,
+    "AMD": 1795792675.3758607,
     "ASML": 1795792261.0349567,
     "QCOM": 1795792261.0349567,
     "AVGO": 1795792261.0349567,
@@ -3338,14 +3338,14 @@
     "OKLO": 1795792570.9676645,
     "CEG": 1795792570.9676645,
     "FPS": 1795792570.9676645,
-    "MU": 1795791118.5663345,
-    "SKHY": 1795791118.5663345,
-    "WDC": 1795791118.5663345,
-    "STX": 1795791118.5663345,
-    "MSTR": 1795791118.5663345,
-    "SNDK": 1795791118.5663345,
+    "MU": 1795792675.3758607,
+    "SKHY": 1795792675.3758607,
+    "WDC": 1795792675.3758607,
+    "STX": 1795792675.3758607,
+    "MSTR": 1795792675.3758607,
+    "SNDK": 1795792675.3758607,
     "BTC-USD": 1795791221.5539992,
-    "CRWD": 1795791118.5663345,
+    "CRWD": 1795792675.3758607,
     "ORCL": 1795791221.5539992,
     "COIN": 1795791221.5539992,
     "LLY": 1795791221.5539992,
@@ -3362,7 +3362,7 @@
     "GLW": 1795792570.9676645,
     "ANT": 1795792570.9676645,
     "XAUUSD": 1795792570.9676645,
-    "KOSPI": 1795791118.5663345
+    "KOSPI": 1795792675.3758607
   },
   "opex_shield": {
     "date": "2026-11-27",
