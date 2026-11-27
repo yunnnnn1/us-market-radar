@@ -7983,9 +7983,17 @@
     "2026-11-27:DEFENSIVE_FLIGHT:-4.8": {
       "device": "PC",
       "ts": 1795798096.599336
+    },
+    "2026-11-27:META/AMZN:5M_ENTRY": {
+      "device": "PC",
+      "ts": 1795798200.134502
+    },
+    "2026-11-27:DEFENSIVE_FLIGHT:-4.6": {
+      "device": "PC",
+      "ts": 1795798200.476581
     }
   },
   "device": "PC",
-  "last_heartbeat_ts": 1795798012.1087139,
-  "updated_at": "2026-11-27T16:48:16.599417+00:00"
+  "last_heartbeat_ts": 1795798115.1147711,
+  "updated_at": "2026-11-27T16:50:00.476632+00:00"
 }
