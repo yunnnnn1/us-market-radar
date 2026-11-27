@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795766280.532,
-  "updated_at_et": "11-27 02:58 ET",
-  "updated_at_kst": "16:58 KST",
+  "updated_at_ts": 1795766378.092,
+  "updated_at_et": "11-27 02:59 ET",
+  "updated_at_kst": "16:59 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2999,6 +2999,13 @@
     ],
     "WMT": [
       {
+        "title": "PhonePe resumes IPO plans with $15bn valuation target- report",
+        "url": "https://www.electronicpaymentsinternational.com/news/phonepe-resumes-ipo-plans-with-15bn-valuation-target-report/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 02:40 ET",
+        "pub_ts": 1795765236.0
+      },
+      {
         "title": "Forget Walmart: Nike Has More to Lose From Vietnam’s Proposed Tariff of Up to 35%",
         "url": "https://www.tikr.com/blog/forget-walmart-nike-has-more-to-lose-from-vietnams-proposed-tariff-of-up-to-35?ref=yahoofinance&tlnk=yf-261126-xh7cp5rc&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3025,13 +3032,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 14:07 ET",
         "pub_ts": 1795720038.0
-      },
-      {
-        "title": "Amazon , Walmart Battle for $124 Billion Holiday Shopping Market",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-walmart-battle-124-billion-175223253.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 12:52 ET",
-        "pub_ts": 1795715543.0
       }
     ],
     "V": [
@@ -3337,15 +3337,15 @@
     "NKE": 1795766280.5323026,
     "MCD": 1795766280.5323026,
     "PEP": 1795766280.5323026,
-    "XOM": 1795764803.1624863,
+    "XOM": 1795766378.0920386,
     "JPM": 1795766280.5323026,
-    "WMT": 1795764803.1624863,
+    "WMT": 1795766378.0920386,
     "V": 1795766280.5323026,
-    "CAT": 1795764803.1624863,
+    "CAT": 1795766378.0920386,
     "FN": 1795765595.0041926,
     "GLW": 1795765595.0041926,
-    "ANT": 1795764803.1624863,
-    "XAUUSD": 1795764803.1624863,
+    "ANT": 1795766378.0920386,
+    "XAUUSD": 1795766378.0920386,
     "KOSPI": 1795765887.7609062
   },
   "opex_shield": {
