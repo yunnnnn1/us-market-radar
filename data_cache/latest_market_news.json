@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795798912.975,
-  "updated_at_et": "11-27 12:01 ET",
-  "updated_at_kst": "02:01 KST",
+  "updated_at_ts": 1795799018.727,
+  "updated_at_et": "11-27 12:03 ET",
+  "updated_at_kst": "02:03 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2607,6 +2607,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "Bitwise’s Matt Hougan Bets Gen Z Will Lift Bitcoin to $1.6M as Galaxy Warns of a $28K Slide",
+        "url": "https://www.ccn.com/news/crypto/bitwises-matt-hougan-bets-gen-z-will-lift-bitcoin-to-1-6m-as-galaxy-warns-of-a-28k-slide/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 11:17 ET",
+        "pub_ts": 1795796235.0
+      },
+      {
         "title": "Why the Strategic Bitcoin Reserve bill might not pass the House floor",
         "url": "https://finance.yahoo.com/video/why-the-strategic-bitcoin-reserve-bill-might-not-pass-the-house-floor-161350411.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2633,13 +2640,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 10:57 ET",
         "pub_ts": 1795795020.0
-      },
-      {
-        "title": "BC-Most Active Stocks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153017329.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 10:30 ET",
-        "pub_ts": 1795793417.0
       }
     ],
     "CRWD": [
@@ -3343,12 +3343,12 @@
     "STX": 1795798912.974724,
     "MSTR": 1795798912.974724,
     "SNDK": 1795798912.974724,
-    "BTC-USD": 1795797460.2513337,
+    "BTC-USD": 1795799018.7267644,
     "CRWD": 1795798912.974724,
-    "ORCL": 1795797460.2513337,
-    "COIN": 1795797460.2513337,
-    "LLY": 1795797460.2513337,
-    "MRNA": 1795797460.2513337,
+    "ORCL": 1795799018.7267644,
+    "COIN": 1795799018.7267644,
+    "LLY": 1795799018.7267644,
+    "MRNA": 1795799018.7267644,
     "NKE": 1795798497.866745,
     "MCD": 1795798497.866745,
     "PEP": 1795798497.866745,
