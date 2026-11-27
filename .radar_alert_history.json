@@ -182,8 +182,8 @@
       "last_notified_at": 1795806182.5369442
     },
     "AVGO": {
-      "state": "WATCHLIST_ENTRY_READY",
-      "last_notified_at": 1795806073.5407276
+      "state": "NORMAL",
+      "last_notified_at": 0.0
     }
   },
   "position_peaks": {
