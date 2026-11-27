@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795810573.26,
-  "updated_at_et": "11-27 15:16 ET",
-  "updated_at_kst": "05:16 KST",
+  "updated_at_ts": 1795810674.91,
+  "updated_at_et": "11-27 15:17 ET",
+  "updated_at_kst": "05:17 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1780,18 +1780,18 @@
         "pub_ts": 1795792201.0
       },
       {
-        "title": "SpaceX, Tesla have had a bumpy 2026 thus far: What to know",
-        "url": "https://finance.yahoo.com/video/spacex-tesla-have-had-a-bumpy-2026-thus-far-what-to-know-145849441.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 09:58 ET",
-        "pub_ts": 1795791529.0
-      },
-      {
         "title": "SpaceX Stocks Climb 2.74% as FCC Clears One Million AI Satellites",
         "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-stocks-climb-2-74-192236570.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-27 14:22 ET",
         "pub_ts": 1795807356.0
+      },
+      {
+        "title": "ATEX Stock Jumps After SpaceX Reportedly Eyes 900 MHz Spectrum For Direct-To-Device Expansion; Alternative Target NN Climbs Double Digits",
+        "url": "https://stocktwits.com/news-articles/markets/equity/atex-stock-jumps-after-space-x-reportedly-eyes-900-m-hz-spectrum-for-direct-to-device-expansion-alternative-target-nn-climbs-double-digits/cNb6G6ER9VO?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 12:52 ET",
+        "pub_ts": 1795801976.0
       }
     ],
     "ASTS": [
@@ -1951,11 +1951,18 @@
         "pub_ts": 1795791529.0
       },
       {
+        "title": "TSLA Stock Clocks Best Week In 18 Months: Tesla Reportedly Eyes Buying German Toolmaker Amid Cybercab, Optimus Scaling Plans",
+        "url": "https://stocktwits.com/news-articles/markets/equity/tsla-stock-clocks-best-week-in-18-months-tesla-reportedly-eyes-buying-german-toolmaker-amid-cybercab-optimus-scaling-plans/cNb6PBlR9VL?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 14:55 ET",
+        "pub_ts": 1795809354.0
+      },
+      {
         "title": "Dow Jones Futures: Stock Market Makes Bullish Move, Tesla Leads 7 New Buys; Nvidia's Jensen Huang Heads To Capitol Hill",
         "url": "https://finance.yahoo.com/m/5b917298-e5b5-3d87-b1fa-f7cad345af64/dow-jones-futures%3A-stock.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 13:48 ET",
-        "pub_ts": 1795805323.0
+        "time": "11-27 14:54 ET",
+        "pub_ts": 1795809269.0
       },
       {
         "title": "Tesla Takes 1.2M SF at Houston’s Cedar Port Industrial Park",
@@ -1970,13 +1977,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 12:12 ET",
         "pub_ts": 1795799532.0
-      },
-      {
-        "title": "Tesla Rallies 5% Amid SpaceX Merger Speculation; Rivian and SpaceX Rise 3%: Is Tesla’s 439x P/E a Warning Sign?",
-        "url": "https://247wallst.com/investing/2026/11/27/tesla-rallies-5-amid-spacex-merger-speculation-rivian-and-spacex-rise-3-is-teslas-439x-p-e-a-warning-sign/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 12:04 ET",
-        "pub_ts": 1795799056.0
       }
     ],
     "AXP": [
@@ -3054,6 +3054,13 @@
     ],
     "V": [
       {
+        "title": "What Is The One Risk Facing Visa Stock Now?",
+        "url": "https://www.trefis.com/stock/v/articles/629359/what-is-the-one-risk-facing-visa-stock-now/2026-11-27?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 14:41 ET",
+        "pub_ts": 1795808506.0
+      },
+      {
         "title": "Can Holiday Bargain Hunting Boost Visa's Cross-Border Business?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/holiday-bargain-hunting-boost-visas-125600178.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3080,13 +3087,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 16:33 ET",
         "pub_ts": 1795728782.0
-      },
-      {
-        "title": "Visa (V) Up 5.9% Since Last Earnings Report: Can It Continue?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/visa-v-5-9-since-153019522.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 10:30 ET",
-        "pub_ts": 1795707019.0
       }
     ],
     "CAT": [
@@ -3321,25 +3321,25 @@
     "CRDO": 1795810573.2596898,
     "COHR": 1795810573.2596898,
     "MRVL": 1795810573.2596898,
-    "LITE": 1795809140.0526388,
+    "LITE": 1795810674.910297,
     "AAOI": 1795810573.2596898,
-    "SPCX": 1795809140.0526388,
-    "ASTS": 1795809140.0526388,
-    "AXTI": 1795809140.0526388,
-    "NASA": 1795809140.0526388,
-    "LUNR": 1795809140.0526388,
-    "TSLA": 1795809140.0526388,
-    "AXP": 1795809140.0526388,
-    "RKLB": 1795809140.0526388,
-    "KO": 1795809140.0526388,
-    "FLY": 1795809140.0526388,
-    "INTC": 1795809140.0526388,
-    "VRT": 1795809140.0526388,
-    "HPE": 1795809140.0526388,
-    "DELL": 1795809140.0526388,
-    "OKLO": 1795809140.0526388,
-    "CEG": 1795809140.0526388,
-    "FPS": 1795809140.0526388,
+    "SPCX": 1795810674.910297,
+    "ASTS": 1795810674.910297,
+    "AXTI": 1795810674.910297,
+    "NASA": 1795810674.910297,
+    "LUNR": 1795810674.910297,
+    "TSLA": 1795810674.910297,
+    "AXP": 1795810674.910297,
+    "RKLB": 1795810674.910297,
+    "KO": 1795810674.910297,
+    "FLY": 1795810674.910297,
+    "INTC": 1795810674.910297,
+    "VRT": 1795810674.910297,
+    "HPE": 1795810674.910297,
+    "DELL": 1795810674.910297,
+    "OKLO": 1795810674.910297,
+    "CEG": 1795810674.910297,
+    "FPS": 1795810674.910297,
     "MU": 1795810266.474394,
     "SKHY": 1795810266.474394,
     "WDC": 1795810266.474394,
@@ -3352,16 +3352,16 @@
     "COIN": 1795810573.2596898,
     "LLY": 1795810573.2596898,
     "MRNA": 1795810573.2596898,
-    "NKE": 1795809140.0526388,
-    "MCD": 1795809140.0526388,
-    "PEP": 1795809140.0526388,
+    "NKE": 1795810674.910297,
+    "MCD": 1795810674.910297,
+    "PEP": 1795810674.910297,
     "XOM": 1795809241.6065793,
-    "JPM": 1795809140.0526388,
+    "JPM": 1795810674.910297,
     "WMT": 1795809241.6065793,
-    "V": 1795809140.0526388,
+    "V": 1795810674.910297,
     "CAT": 1795809241.6065793,
-    "FN": 1795809140.0526388,
-    "GLW": 1795809140.0526388,
+    "FN": 1795810674.910297,
+    "GLW": 1795810674.910297,
     "ANT": 1795809241.6065793,
     "XAUUSD": 1795809241.6065793,
     "KOSPI": 1795810266.474394
