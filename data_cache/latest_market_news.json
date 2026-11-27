@@ -1,9 +1,22 @@
 {
-  "updated_at_ts": 1795757273.528,
-  "updated_at_et": "11-27 00:27 ET",
-  "updated_at_kst": "14:27 KST",
+  "updated_at_ts": 1795757375.575,
+  "updated_at_et": "11-27 00:29 ET",
+  "updated_at_kst": "14:29 KST",
   "macro_calendar": [],
   "macro_flashes": [
+    {
+      "id": "20261127132914544800",
+      "title": "科创50指数涨超12%，半导体板块大涨；成分股中，中科飞测、华虹宏力等多股20cm涨停。",
+      "summary": "科创50指数涨超12%，半导体板块大涨；成分股中，中科飞测、华虹宏力等多股20cm涨停。",
+      "keywords": [
+        "半导体"
+      ],
+      "pub_ts": 1795757354.0,
+      "time_et": "11-27 00:29 ET",
+      "time_bj": "13:29 BJ",
+      "time_kst": "14:29 KST",
+      "time_display": "00:29 ET / 13:29 BJ"
+    },
     {
       "id": "20261127131215433800",
       "title": "【多只科创半导体ETF午后走强】 11月27日讯，半导体板块大幅上涨。科创半导体设备ET…",
@@ -320,19 +333,6 @@
       "time_bj": "10:40 BJ",
       "time_kst": "11:40 KST",
       "time_display": "21:40 ET / 10:40 BJ"
-    },
-    {
-      "id": "20261127103804477800",
-      "title": "恒生科技指数涨超3%，光通信、芯片、PCB板块涨幅居前；成分股中，MINIMAX-W(0…",
-      "summary": "恒生科技指数涨超3%，光通信、芯片、PCB板块涨幅居前；成分股中，MINIMAX-W(00100.HK)涨超8%。",
-      "keywords": [
-        "芯片"
-      ],
-      "pub_ts": 1795747084.0,
-      "time_et": "11-26 21:38 ET",
-      "time_bj": "10:38 BJ",
-      "time_kst": "11:38 KST",
-      "time_display": "21:38 ET / 10:38 BJ"
     }
   ],
   "ticker_news": {
@@ -3368,7 +3368,7 @@
   "calendar_banner": {
     "level": "idle_with_flash",
     "headline": "📡 宏观消息面监控中 · 今日暂无美股五星级经济数据大考",
-    "detail": "⚡ 最新核心快讯 (00:12 ET / 13:12 BJ) [半导体]：【多只科创半导体ETF午后走强】 11月27日讯，半导体板块大幅上涨。科创半导体设备ETF鹏华涨超18%，科创半导体ETF华夏涨超16%，半导体设备ETF广发、半导体设备ETF国泰、半导体设",
+    "detail": "⚡ 最新核心快讯 (00:29 ET / 13:29 BJ) [半导体]：科创50指数涨超12%，半导体板块大涨；成分股中，中科飞测、华虹宏力等多股20cm涨停。",
     "event_name": "",
     "minutes_left": 0,
     "opex_shield": {
