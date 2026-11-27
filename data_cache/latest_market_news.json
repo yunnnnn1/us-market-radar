@@ -1,13 +1,26 @@
 {
-  "updated_at_ts": 1795757891.607,
-  "updated_at_et": "11-27 00:38 ET",
-  "updated_at_kst": "14:38 KST",
+  "updated_at_ts": 1795758094.975,
+  "updated_at_et": "11-27 00:41 ET",
+  "updated_at_kst": "14:41 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
+      "id": "20261127134000002800",
+      "title": "【今日重点关注的财经数据与事件：2026年11月27日 周五】 ① 15:45 法国11…",
+      "summary": "【今日重点关注的财经数据与事件：2026年11月27日 周五】 ① 15:45 法国11月CPI月率初值 ② 15:45 法国第三季度GDP年率终值 ③ 16:55 德国11月季调后失业人数 ④ 16:55 德国11月季调后失业率 ⑤ 18:00 欧元区11月工业景气指数 ⑥ 18:00 欧元区11月经济景气指数 ⑦ 21:30 加拿大第三季度经常帐",
+      "keywords": [
+        "CPI"
+      ],
+      "pub_ts": 1795758000.0,
+      "time_et": "11-27 00:40 ET",
+      "time_bj": "13:40 BJ",
+      "time_kst": "14:40 KST",
+      "time_display": "00:40 ET / 13:40 BJ"
+    },
+    {
       "id": "20261127133633238800",
-      "title": "创业板指大涨10%，科创50指数涨近13%；半导体、CPO、先进封装板块涨幅居前。",
-      "summary": "创业板指大涨10%，科创50指数涨近13%；半导体、CPO、先进封装板块涨幅居前。",
+      "title": "【创业板指大涨10%】 11月27日讯，创业板指大涨10%，科创50指数涨近13%；半导…",
+      "summary": "【创业板指大涨10%】 11月27日讯，创业板指大涨10%，科创50指数涨近13%；半导体、CPO、先进封装板块涨幅居前。监管部门表示，将密切跟踪科技产业发展最新趋势，提高相关制度的包容性、精准性，严防“伪科技”借机上市、无真实业绩公司“注水”上市，切实维护公平有序的新股发行秩序。",
       "keywords": [
         "半导体"
       ],
@@ -318,19 +331,6 @@
       "time_bj": "11:12 BJ",
       "time_kst": "12:12 KST",
       "time_display": "22:12 ET / 11:12 BJ"
-    },
-    {
-      "id": "20261127111126703800",
-      "title": "创业板指涨超3%，半导体、算力、CPO板块涨幅居前；成分股中，润和软件20cm涨停。",
-      "summary": "创业板指涨超3%，半导体、算力、CPO板块涨幅居前；成分股中，润和软件20cm涨停。",
-      "keywords": [
-        "半导体"
-      ],
-      "pub_ts": 1795749086.0,
-      "time_et": "11-26 22:11 ET",
-      "time_bj": "11:11 BJ",
-      "time_kst": "12:11 KST",
-      "time_display": "22:11 ET / 11:11 BJ"
     }
   ],
   "ticker_news": {
@@ -891,6 +891,13 @@
     ],
     "NVDA": [
       {
+        "title": "Learn Why The Bull Case For Nvidia Stock Could Change Following CEO Reinstatement",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-nvidia-051409281.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 00:14 ET",
+        "pub_ts": 1795756449.0
+      },
+      {
         "title": "Nvidia (NVDA) Stock Fair Value Falls After Analysts Reassess Leadership And Regulatory Risks",
         "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-stock-fair-value-042301514.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -905,25 +912,18 @@
         "pub_ts": 1795752859.0
       },
       {
+        "title": "Neoclouds Told To Choose: Nvidia Chips Or Chinese Customers",
+        "url": "https://finance.yahoo.com/technology/articles/neoclouds-told-choose-nvidia-chips-041120920.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 23:11 ET",
+        "pub_ts": 1795752680.0
+      },
+      {
         "title": "Nvidia Is Down 35% From Its All-Time High, Tied for Its Biggest Drop Since the AI Boom Began. Is It a Buy?",
         "url": "https://www.fool.com/investing/2026/11/26/nvidia-is-down-35-from-its-all-time-high-tied-for-its-biggest-drop-since-the-ai-boom-began-is-it-a-buy/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-26 22:20 ET",
         "pub_ts": 1795749602.0
-      },
-      {
-        "title": "Stocks Are Plunging Right Now. Here's What History Says Investors Should Do.",
-        "url": "https://www.fool.com/investing/2026/11/26/stocks-are-plunging-right-now-heres-what-history-s/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 21:20 ET",
-        "pub_ts": 1795746000.0
-      },
-      {
-        "title": "Trump Says Huang Is Excited About His ‘Second Term’ at Nvidia",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/trump-says-huang-excited-second-003925008.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 19:39 ET",
-        "pub_ts": 1795739965.0
       }
     ],
     "AMD": [
@@ -3268,23 +3268,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795756556.277452,
-    "SOXL": 1795756556.277452,
-    "SPY": 1795756556.277452,
-    "DIA": 1795756556.277452,
-    "SOXX": 1795756556.277452,
-    "QQQ": 1795756556.277452,
-    "SMH": 1795756556.277452,
-    "IWM": 1795756556.277452,
-    "IGV": 1795756556.277452,
-    "TLT": 1795756556.277452,
-    "GLD": 1795756556.277452,
-    "SQQQ": 1795756556.277452,
-    "TSM": 1795756556.277452,
-    "VIXY": 1795756556.277452,
-    "SOXS": 1795756556.277452,
-    "NVDA": 1795756556.277452,
-    "AMD": 1795756556.277452,
+    "KORU": 1795758094.975352,
+    "SOXL": 1795758094.975352,
+    "SPY": 1795758094.975352,
+    "DIA": 1795758094.975352,
+    "SOXX": 1795758094.975352,
+    "QQQ": 1795758094.975352,
+    "SMH": 1795758094.975352,
+    "IWM": 1795758094.975352,
+    "IGV": 1795758094.975352,
+    "TLT": 1795758094.975352,
+    "GLD": 1795758094.975352,
+    "SQQQ": 1795758094.975352,
+    "TSM": 1795758094.975352,
+    "VIXY": 1795758094.975352,
+    "SOXS": 1795758094.975352,
+    "NVDA": 1795758094.975352,
+    "AMD": 1795758094.975352,
     "ASML": 1795756862.6599176,
     "QCOM": 1795756862.6599176,
     "AVGO": 1795756862.6599176,
@@ -3327,14 +3327,14 @@
     "SKHY": 1795757786.2701666,
     "WDC": 1795757786.2701666,
     "STX": 1795757786.2701666,
-    "MSTR": 1795756556.277452,
+    "MSTR": 1795758094.975352,
     "SNDK": 1795757786.2701666,
-    "BTC-USD": 1795756556.277452,
-    "CRWD": 1795756556.277452,
-    "ORCL": 1795756556.277452,
-    "COIN": 1795756556.277452,
-    "LLY": 1795756556.277452,
-    "MRNA": 1795756556.277452,
+    "BTC-USD": 1795758094.975352,
+    "CRWD": 1795758094.975352,
+    "ORCL": 1795758094.975352,
+    "COIN": 1795758094.975352,
+    "LLY": 1795758094.975352,
+    "MRNA": 1795758094.975352,
     "NKE": 1795756862.6599176,
     "MCD": 1795756862.6599176,
     "PEP": 1795756862.6599176,
@@ -3347,7 +3347,7 @@
     "GLW": 1795757786.2701666,
     "ANT": 1795756964.78697,
     "XAUUSD": 1795756964.78697,
-    "KOSPI": 1795756556.277452
+    "KOSPI": 1795758094.975352
   },
   "opex_shield": {
     "date": "2026-11-27",
@@ -3366,7 +3366,7 @@
   "calendar_banner": {
     "level": "idle_with_flash",
     "headline": "📡 宏观消息面监控中 · 今日暂无美股五星级经济数据大考",
-    "detail": "⚡ 最新核心快讯 (00:36 ET / 13:36 BJ) [半导体]：创业板指大涨10%，科创50指数涨近13%；半导体、CPO、先进封装板块涨幅居前。",
+    "detail": "⚡ 最新核心快讯 (00:40 ET / 13:40 BJ) [CPI]：【今日重点关注的财经数据与事件：2026年11月27日 周五】 ① 15:45 法国11月CPI月率初值 ② 15:45 法国第三季度GDP年率终值 ③ 16:55 德国11月季调后失业人数",
     "event_name": "",
     "minutes_left": 0,
     "opex_shield": {
