@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795793717.563,
-  "updated_at_et": "11-27 10:35 ET",
-  "updated_at_kst": "00:35 KST",
+  "updated_at_ts": 1795793821.434,
+  "updated_at_et": "11-27 10:37 ET",
+  "updated_at_kst": "00:37 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1178,25 +1178,25 @@
         "pub_ts": 1795780980.0
       },
       {
+        "title": "The Nuclear Stock AI Investors Loved Is Down 33% This Year. Is Constellation Energy a Buy Now?",
+        "url": "https://247wallst.com/investing/2026/11/27/the-nuclear-stock-ai-investors-loved-is-down-33-this-year-is-constellation-energy-a-buy-now/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:28 ET",
+        "pub_ts": 1795793309.0
+      },
+      {
+        "title": "Anthropic Stock Jumps to Reveal Its True Place in the AI Trade",
+        "url": "https://finance.yahoo.com/m/eac9c281-033c-3c73-8b9a-a27703a8cdc9/anthropic-stock-jumps-to.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:09 ET",
+        "pub_ts": 1795792140.0
+      },
+      {
         "title": "Stock Market Today: Dow Jumps 500 Points While Nvidia Wavers; Anthropic, Tesla, SpaceX Rally (Live Coverage)",
         "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow-jumps.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-27 09:51 ET",
         "pub_ts": 1795791085.0
-      },
-      {
-        "title": "Google Faces Growing Backlash Over Major AI Push",
-        "url": "https://finance.yahoo.com/technology/ai/articles/google-faces-growing-backlash-over-144037030.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 09:40 ET",
-        "pub_ts": 1795790437.0
-      },
-      {
-        "title": "Anthropic, Meta and Microsoft Join AI Data Center Talks in Japan",
-        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-meta-microsoft-join-ai-143801446.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 09:38 ET",
-        "pub_ts": 1795790281.0
       }
     ],
     "MSFT": [
@@ -1377,11 +1377,11 @@
         "pub_ts": 1795779182.0
       },
       {
-        "title": "What iShares Russell 1000 Value (IWD) Bought: Apple Leads on Nov. 25",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-1000-value-iwd-110429616.html?.tsrc=rss",
+        "title": "Can Generac's Data Center Push Unlock a Multi-Year Growth Cycle?",
+        "url": "https://finance.yahoo.com/technology/articles/generacs-data-center-push-unlock-134200372.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 06:04 ET",
-        "pub_ts": 1795777469.0
+        "time": "11-27 08:42 ET",
+        "pub_ts": 1795786920.0
       }
     ],
     "CRWV": [
@@ -1423,6 +1423,13 @@
     ],
     "NBIS": [
       {
+        "title": "Anthropic Gains 4%, Climbs Back Above $83 IPO Price as Cathie Wood Keeps Buying; SpaceX Rises 3%, Nebius Advances 2%",
+        "url": "https://247wallst.com/investing/2026/11/27/anthropic-gains-4-climbs-back-above-83-ipo-price-as-cathie-wood-keeps-buying-spacex-rises-3-nebius-advances-2/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:02 ET",
+        "pub_ts": 1795791733.0
+      },
+      {
         "title": "Nebius (NBIS) Stock Could Be Undervalued As AI Sector Optimism Returns",
         "url": "https://finance.yahoo.com/markets/stocks/articles/nebius-nbis-stock-could-undervalued-200849495.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1449,13 +1456,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 13:48 ET",
         "pub_ts": 1795632501.0
-      },
-      {
-        "title": "Cloud Cover: How Nebius Group Is Filling the Gaps Left by Hyperscalers",
-        "url": "https://www.marketbeat.com/articles/cloud-cover-how-nebius-group-is-filling-the-gaps-left-by-hyperscalers/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:45 ET",
-        "pub_ts": 1795628700.0
       }
     ],
     "APLD": [
@@ -1534,18 +1534,18 @@
     ],
     "BE": [
       {
+        "title": "Sandisk, Bloom, Marvell, AMD, Nvidia, HP, and More Stocks That Explain Today’s Market",
+        "url": "https://finance.yahoo.com/m/977de44c-fcf5-3369-bcdd-0c3ddc7cfec9/sandisk%2C-bloom%2C-marvell%2C-amd%2C.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:56 ET",
+        "pub_ts": 1795791360.0
+      },
+      {
         "title": "Constellation Energy Sinks 10% in a Week, NuScale 17%, as “the Jensen Huang Stock Put Is Fading”",
         "url": "https://www.tikr.com/blog/constellation-energy-sinks-10-in-a-week-nuscale-17-as-the-jensen-huang-stock-put-is-fading?ref=yahoofinance&tlnk=yf-261127-7ffc6jh2&.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-27 07:33 ET",
         "pub_ts": 1795782820.0
-      },
-      {
-        "title": "Sandisk, Bloom, Marvell, AMD, Nvidia, HP, and More Stocks That Explain Today’s Market",
-        "url": "https://finance.yahoo.com/m/977de44c-fcf5-3369-bcdd-0c3ddc7cfec9/sandisk%2C-bloom%2C-marvell%2C-amd%2C.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 05:22 ET",
-        "pub_ts": 1795774920.0
       },
       {
         "title": "Bloom Energy Issued Oracle 2.15 Million Shares. Now Oracle’s Credit Is Cracking",
@@ -1645,6 +1645,20 @@
     ],
     "MRVL": [
       {
+        "title": "Sandisk, Bloom, Marvell, AMD, Nvidia, HP, and More Stocks That Explain Today’s Market",
+        "url": "https://finance.yahoo.com/m/977de44c-fcf5-3369-bcdd-0c3ddc7cfec9/sandisk%2C-bloom%2C-marvell%2C-amd%2C.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:56 ET",
+        "pub_ts": 1795791360.0
+      },
+      {
+        "title": "MRVL to Post Q3 Earnings: Time to Buy, Sell or Hold the Stock?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mrvl-post-q3-earnings-time-142700413.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:27 ET",
+        "pub_ts": 1795789620.0
+      },
+      {
         "title": "AMD Rises 4% Despite Erste Group Downgrade on Valuation; Marvell Climbs 6%, Intel Gains 5%",
         "url": "https://247wallst.com/investing/2026/11/27/amd-rises-4-despite-erste-group-downgrade-on-valuation-marvell-climbs-6-intel-gains-5/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1664,20 +1678,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 06:52 ET",
         "pub_ts": 1795780335.0
-      },
-      {
-        "title": "Marvell Faces Critical Earnings Test Amid AI Chip Market Turmoil",
-        "url": "https://finance.yahoo.com/technology/ai/articles/marvell-faces-critical-earnings-test-112308097.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:23 ET",
-        "pub_ts": 1795778588.0
-      },
-      {
-        "title": "Sandisk, Bloom, Marvell, AMD, Nvidia, HP, and More Stocks That Explain Today’s Market",
-        "url": "https://finance.yahoo.com/m/977de44c-fcf5-3369-bcdd-0c3ddc7cfec9/sandisk%2C-bloom%2C-marvell%2C-amd%2C.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 05:22 ET",
-        "pub_ts": 1795774920.0
       }
     ],
     "LITE": [
@@ -2977,6 +2977,13 @@
     ],
     "JPM": [
       {
+        "title": "JPMorgan Says Bitcoin ‘Capitulation’ Has Been Reached",
+        "url": "https://www.cryptoprowl.com/releases/jpmorgan-says-bitcoin-capitulation-has-been-reached-8098?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:01 ET",
+        "pub_ts": 1795791660.0
+      },
+      {
         "title": "JPMorgan Flags Major Turning Point for AI Stocks",
         "url": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-flags-major-turning-point-143359163.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3003,13 +3010,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 07:30 ET",
         "pub_ts": 1795782600.0
-      },
-      {
-        "title": "AI Risk Is 'Moving Somewhere Harder to See': Citigroup, JPMorgan Reportedly Look to Offload AI Debt as Investors Grow Wary of Buildout",
-        "url": "https://finance.yahoo.com/technology/ai/articles/ai-risk-moving-somewhere-harder-033352825.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 22:33 ET",
-        "pub_ts": 1795750432.0
       }
     ],
     "WMT": [
@@ -3299,27 +3299,27 @@
     "SOXS": 1795792675.3758607,
     "NVDA": 1795792675.3758607,
     "AMD": 1795792675.3758607,
-    "ASML": 1795792261.0349567,
-    "QCOM": 1795792261.0349567,
-    "AVGO": 1795792261.0349567,
-    "AMAT": 1795792261.0349567,
-    "META": 1795792261.0349567,
-    "GOOGL": 1795792261.0349567,
-    "MSFT": 1795792261.0349567,
-    "AAPL": 1795792261.0349567,
-    "PLTR": 1795792261.0349567,
-    "NOW": 1795792261.0349567,
-    "AMZN": 1795792261.0349567,
-    "CRWV": 1795792261.0349567,
-    "NBIS": 1795792261.0349567,
-    "APLD": 1795792261.0349567,
-    "VST": 1795792261.0349567,
-    "BE": 1795792261.0349567,
-    "CRDO": 1795792261.0349567,
-    "COHR": 1795792261.0349567,
-    "MRVL": 1795792261.0349567,
+    "ASML": 1795793821.4336011,
+    "QCOM": 1795793821.4336011,
+    "AVGO": 1795793821.4336011,
+    "AMAT": 1795793821.4336011,
+    "META": 1795793821.4336011,
+    "GOOGL": 1795793821.4336011,
+    "MSFT": 1795793821.4336011,
+    "AAPL": 1795793821.4336011,
+    "PLTR": 1795793821.4336011,
+    "NOW": 1795793821.4336011,
+    "AMZN": 1795793821.4336011,
+    "CRWV": 1795793821.4336011,
+    "NBIS": 1795793821.4336011,
+    "APLD": 1795793821.4336011,
+    "VST": 1795793821.4336011,
+    "BE": 1795793821.4336011,
+    "CRDO": 1795793821.4336011,
+    "COHR": 1795793821.4336011,
+    "MRVL": 1795793821.4336011,
     "LITE": 1795792570.9676645,
-    "AAOI": 1795792261.0349567,
+    "AAOI": 1795793821.4336011,
     "SPCX": 1795792570.9676645,
     "ASTS": 1795792570.9676645,
     "AXTI": 1795792570.9676645,
@@ -3349,13 +3349,13 @@
     "COIN": 1795792780.7975943,
     "LLY": 1795792780.7975943,
     "MRNA": 1795792780.7975943,
-    "NKE": 1795792261.0349567,
-    "MCD": 1795792261.0349567,
-    "PEP": 1795792261.0349567,
+    "NKE": 1795793821.4336011,
+    "MCD": 1795793821.4336011,
+    "PEP": 1795793821.4336011,
     "XOM": 1795792570.9676645,
-    "JPM": 1795792261.0349567,
+    "JPM": 1795793821.4336011,
     "WMT": 1795792570.9676645,
-    "V": 1795792261.0349567,
+    "V": 1795793821.4336011,
     "CAT": 1795792570.9676645,
     "FN": 1795792570.9676645,
     "GLW": 1795792570.9676645,

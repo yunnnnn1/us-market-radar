@@ -50,8 +50,8 @@
       "last_notified_at": 0.0
     },
     "FLY": {
-      "state": "WATCHLIST_ENTRY_READY",
-      "last_notified_at": 1795793731.6742241
+      "state": "NORMAL",
+      "last_notified_at": 0.0
     },
     "LLY": {
       "state": "NORMAL",
@@ -86,8 +86,8 @@
       "last_notified_at": 1795793731.6742241
     },
     "IWM": {
-      "state": "NORMAL",
-      "last_notified_at": 0.0
+      "state": "WATCHLIST_ENTRY_READY",
+      "last_notified_at": 1795793835.9020944
     },
     "IGV": {
       "state": "NORMAL",
@@ -162,8 +162,8 @@
       "last_notified_at": 1795482111.35759
     },
     "AMZN": {
-      "state": "NORMAL",
-      "last_notified_at": 0.0
+      "state": "WATCHLIST_ENTRY_READY",
+      "last_notified_at": 1795793835.9020944
     },
     "MSFT": {
       "state": "NORMAL",
