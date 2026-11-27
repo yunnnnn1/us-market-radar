@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795789418.012,
-  "updated_at_et": "11-27 09:23 ET",
-  "updated_at_kst": "23:23 KST",
+  "updated_at_ts": 1795789520.551,
+  "updated_at_et": "11-27 09:25 ET",
+  "updated_at_kst": "23:25 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -443,18 +443,18 @@
         "pub_ts": 1795691037.0
       },
       {
+        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Technology Stock Rebound",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140653942.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:06 ET",
+        "pub_ts": 1795788413.0
+      },
+      {
         "title": "JEPI Gets the Attention. JPMorgan’s 0.12% Quality ETF Has Quietly Grown Past $9 Billion",
         "url": "https://247wallst.com/investing/etf/2026/11/27/jepi-gets-the-attention-jpmorgans-0-12-quality-etf-has-quietly-grown-past-9-billion/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-27 08:03 ET",
         "pub_ts": 1795784638.0
-      },
-      {
-        "title": "Own Palo Alto Stock? Watch Its Deferred Revenue",
-        "url": "https://www.trefis.com/stock/panw/articles/629187/own-palo-alto-stock-watch-its-deferred-revenue/2026-11-26?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:15 ET",
-        "pub_ts": 1795691719.0
       }
     ],
     "DIA": [
@@ -533,6 +533,13 @@
     ],
     "QQQ": [
       {
+        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Technology Stock Rebound",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140653942.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:06 ET",
+        "pub_ts": 1795788413.0
+      },
+      {
         "title": "What INVESCO QQQ Trust (QQQ) Bought: Apple Leads on Wednesday",
         "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-qqq-trust-qqq-bought-110329959.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -559,13 +566,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 06:00 ET",
         "pub_ts": 1795777232.0
-      },
-      {
-        "title": "ETF Activity: QQQ Leads With $2.88 Billion Inflow on Nov. 25",
-        "url": "https://finance.yahoo.com/markets/options/articles/etf-activity-qqq-leads-2-110009300.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:00 ET",
-        "pub_ts": 1795777209.0
       }
     ],
     "SMH": [
@@ -903,11 +903,25 @@
     ],
     "NVDA": [
       {
+        "title": "Nvidia freezing chip orders to four Southeast Asian countries",
+        "url": "https://finance.yahoo.com/video/nvidia-freezing-chip-orders-to-four-southeast-asian-countries-140011925.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:00 ET",
+        "pub_ts": 1795788011.0
+      },
+      {
         "title": "Nvidia stock is still paying the price for the Jensen Huang CEO drama",
         "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-is-still-paying-the-price-for-the-jensen-huang-ceo-drama-124902053.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-27 07:49 ET",
         "pub_ts": 1795783742.0
+      },
+      {
+        "title": "Stock Market Today: Dow Futures Jump 650 Points As Nvidia Rebounds; Anthropic, SpaceX, Tesla Rally (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:00 ET",
+        "pub_ts": 1795788002.0
       },
       {
         "title": "AI Needs More Than Nvidia Chips. This Stock Could Benefit",
@@ -922,23 +936,16 @@
         "source": "Yahoo Finance",
         "time": "11-27 08:25 ET",
         "pub_ts": 1795785902.0
-      },
-      {
-        "title": "Stock Market Today: Dow Jumps 715 Points As Nvidia Rebounds; Anthropic, SpaceX, Tesla Rally (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow-jumps.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 08:07 ET",
-        "pub_ts": 1795784837.0
-      },
-      {
-        "title": "Nvidia Blackwell Chips Turn Up at China Site Tied to Alice Huang",
-        "url": "https://finance.yahoo.com/video/nvidia-blackwell-chips-turn-china-124506631.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 07:45 ET",
-        "pub_ts": 1795783506.0
       }
     ],
     "AMD": [
+      {
+        "title": "AMD Rises 4% Despite Erste Group Downgrade on Valuation; Marvell Climbs 6%, Intel Gains 5%",
+        "url": "https://247wallst.com/investing/2026/11/27/amd-rises-4-despite-erste-group-downgrade-on-valuation-marvell-climbs-6-intel-gains-5/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:02 ET",
+        "pub_ts": 1795788175.0
+      },
       {
         "title": "Advanced Micro Devices (AMD) After AI Data Center Wins Looks Cheap Or Already Priced In",
         "url": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-amd-ai-130859777.html?.tsrc=rss",
@@ -966,13 +973,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 06:58 ET",
         "pub_ts": 1795780729.0
-      },
-      {
-        "title": "AMD Stock Gets A Downgrade From Erste Group – Analyst Flags Valuation Concerns, Low Potential For Share Gains",
-        "url": "https://stocktwits.com/news-articles/markets/equity/amd-stock-gets-a-downgrade-from-erste-group-analyst-flags-valuation-concerns-low-potential-for-share-gains/cNbCACCR9Nr?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:37 ET",
-        "pub_ts": 1795779460.0
       }
     ],
     "ASML": [
@@ -2390,6 +2390,13 @@
         "pub_ts": 1795780800.0
       },
       {
+        "title": "SanDisk Jumps 10% as Investors Return to Beaten-Down Memory Stocks; Micron and SK Hynix Rise 6% Despite TrendForce DRAM Warning",
+        "url": "https://247wallst.com/investing/2026/11/27/sandisk-jumps-10-as-investors-return-to-beaten-down-memory-stocks-micron-and-sk-hynix-rise-6-despite-trendforce-dram-warning/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:58 ET",
+        "pub_ts": 1795787920.0
+      },
+      {
         "title": "SNDK, MU, WDC, Other Memory Stocks Rally As Investors Return To Beaten-Down AI Names",
         "url": "https://stocktwits.com/news-articles/markets/equity/sndk-mu-wdc-other-memory-stocks-rally-as-investors-return-to-beaten-down-ai-names/cNbCupeR9ND?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2397,28 +2404,28 @@
         "pub_ts": 1795785561.0
       },
       {
+        "title": "David Tepper, George Soros and 2 Other Famous Investors Own Micron. Here’s Who Bought and Sold Recently",
+        "url": "https://www.tikr.com/blog/micron-stock-david-tepper-george-soros-investors?ref=yahoofinance&tlnk=yf-261127-3fj98j3p&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 07:25 ET",
+        "pub_ts": 1795782349.0
+      },
+      {
         "title": "MARKETS LIVE: US stock futures jump ahead of shortened Black Friday trading session",
         "url": "https://www.proactiveinvestors.com/companies/news/1102556/markets-live-us-stock-futures-jump-ahead-of-shortened-black-friday-trading-session-1102556.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-27 06:57 ET",
         "pub_ts": 1795780620.0
-      },
-      {
-        "title": "Why Is Micron Technology Stock Surging Today?",
-        "url": "https://investorshub.advfn.com/market-news/article/40794/why-is-micron-technology-stock-surging-today?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:55 ET",
-        "pub_ts": 1795780542.0
-      },
-      {
-        "title": "What's Happening With Micron Stock?",
-        "url": "https://www.trefis.com/stock/mu/articles/629322/what-s-happening-with-micron-stock/2026-11-26?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:52 ET",
-        "pub_ts": 1795780372.0
       }
     ],
     "SKHY": [
+      {
+        "title": "SanDisk Jumps 10% as Investors Return to Beaten-Down Memory Stocks; Micron and SK Hynix Rise 6% Despite TrendForce DRAM Warning",
+        "url": "https://247wallst.com/investing/2026/11/27/sandisk-jumps-10-as-investors-return-to-beaten-down-memory-stocks-micron-and-sk-hynix-rise-6-despite-trendforce-dram-warning/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:58 ET",
+        "pub_ts": 1795787920.0
+      },
       {
         "title": "Micron Technology Has a New Threat -- Huawei Is Coming for the AI Memory Market",
         "url": "https://finance.yahoo.com/technology/ai/articles/micron-technology-threat-huawei-coming-111412741.html?.tsrc=rss",
@@ -2446,13 +2453,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 11:44 ET",
         "pub_ts": 1795711465.0
-      },
-      {
-        "title": "SK hynix Just Hit a New 52-Week Low After Sinking 9% in a Week. Is the Selling Overdone?",
-        "url": "https://www.tikr.com/blog/sk-hynix-just-hit-a-new-52-week-low-after-sinking-9-in-a-week-is-the-selling-overdone?ref=yahoofinance&tlnk=yf-261126-ww3x89g9&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 04:14 ET",
-        "pub_ts": 1795684451.0
       }
     ],
     "WDC": [
@@ -2485,11 +2485,11 @@
         "pub_ts": 1795677227.0
       },
       {
-        "title": "Western Digital Stocks Sink 7.42%, Trading 139% Above GF Value",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/western-digital-stocks-sink-7-172258485.html?.tsrc=rss",
+        "title": "SanDisk Jumps 10% as Investors Return to Beaten-Down Memory Stocks; Micron and SK Hynix Rise 6% Despite TrendForce DRAM Warning",
+        "url": "https://247wallst.com/investing/2026/11/27/sandisk-jumps-10-as-investors-return-to-beaten-down-memory-stocks-micron-and-sk-hynix-rise-6-despite-trendforce-dram-warning/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-25 12:22 ET",
-        "pub_ts": 1795627378.0
+        "time": "11-27 08:58 ET",
+        "pub_ts": 1795787920.0
       }
     ],
     "STX": [
@@ -2531,6 +2531,13 @@
     ],
     "MSTR": [
       {
+        "title": "Strategy Just Bought Bitcoin for the 4th Straight Week. So Why Aren't Crypto Investors Bullish on MSTR Stock?",
+        "url": "https://www.fool.com/investing/2026/11/27/strategy-just-bought-bitcoin-for-the-4th-straight-week-so-why-aren-t-crypto-investors-bullish-on-mstr-stock/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:03 ET",
+        "pub_ts": 1795788192.0
+      },
+      {
         "title": "Why Strategy Can Rebound to $175 in 2027 Even If Bitcoin Stays Below Peak",
         "url": "https://247wallst.com/investing/2026/11/26/why-strategy-can-rebound-to-175-in-2027-even-if-bitcoin-stays-below-peak/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2557,16 +2564,16 @@
         "source": "Yahoo Finance",
         "time": "11-25 15:28 ET",
         "pub_ts": 1795638489.0
-      },
-      {
-        "title": "Strategy Is Worth $4 Billion Less Than Its Bitcoin Amid Liquidity Squeeze",
-        "url": "https://finance.yahoo.com/m/02ba3534-33d6-31a7-8856-8ec31c96c8e5/strategy-is-worth-%244-billion.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:36 ET",
-        "pub_ts": 1795628186.0
       }
     ],
     "SNDK": [
+      {
+        "title": "SanDisk Jumps 10% as Investors Return to Beaten-Down Memory Stocks; Micron and SK Hynix Rise 6% Despite TrendForce DRAM Warning",
+        "url": "https://247wallst.com/investing/2026/11/27/sandisk-jumps-10-as-investors-return-to-beaten-down-memory-stocks-micron-and-sk-hynix-rise-6-despite-trendforce-dram-warning/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:58 ET",
+        "pub_ts": 1795787920.0
+      },
       {
         "title": "Why SanDisk’s Path to $170 in 2027 Hinges on One Test of Its Multi-Year Contracts",
         "url": "https://247wallst.com/investing/2026/11/27/why-sandisks-path-to-170-in-2027-hinges-on-one-test-of-its-multi-year-contracts/?.tsrc=rss",
@@ -2594,13 +2601,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 16:20 ET",
         "pub_ts": 1795728002.0
-      },
-      {
-        "title": "Sandisk Trades at Under 3x Earnings After an 8-for-1 Split and a 70% Crash. Why SNDK Stock Isn’t Doomed Despite NAND Price Warnings.",
-        "url": "https://www.barchart.com/story/news/9022920/sandisk-trades-at-under-3x-earnings-after-an-8-for-1-split-and-a-70-crash-why-sndk-stock-isnt-doomed-despite-nand-price-warnings?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 14:30 ET",
-        "pub_ts": 1795721403.0
       }
     ],
     "BTC-USD": [
@@ -2642,6 +2642,20 @@
     ],
     "CRWD": [
       {
+        "title": "Zscaler (ZS) Could Be 2% Undervalued As CrowdStrike Deal Sets The Valuation Frame",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/zscaler-zs-could-2-undervalued-140901683.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:09 ET",
+        "pub_ts": 1795788541.0
+      },
+      {
+        "title": "Exploits Arrive in “10 to 15 Minutes,” Patches in 45 Days, per Cisco’s Jeetu Patel. Cue CrowdStrike",
+        "url": "https://www.tikr.com/blog/exploits-arrive-in-10-to-15-minutes-patches-in-45-days-per-ciscos-jeetu-patel-cue-crowdstrike?ref=yahoofinance&tlnk=yf-261127-27866rp2&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:35 ET",
+        "pub_ts": 1795786536.0
+      },
+      {
         "title": "What Does Zscaler (ZS) Joining A $43.9 Billion Deal Mean For Investors?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/does-zscaler-zs-joining-43-130941963.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2649,32 +2663,18 @@
         "pub_ts": 1795784981.0
       },
       {
+        "title": "CrowdStrike (CRWD) Is a Trending Stock: Facts to Know Before Betting on It",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-crwd-trending-stock-facts-130004351.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:00 ET",
+        "pub_ts": 1795784404.0
+      },
+      {
         "title": "The Zacks Analyst Blog Highlights CrowdStrike, Lockheed Martin, S&P Global, The Eastern and AmeriServ Financial",
         "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-crowdstrike-064800574.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-27 01:48 ET",
         "pub_ts": 1795762080.0
-      },
-      {
-        "title": "CrowdStrike CEO Predicts “More Agents Than Humans on the Internet.” That’s His Case for a $43.9 Billion Zscaler Deal",
-        "url": "https://www.tikr.com/blog/crowdstrike-ceo-predicts-more-agents-than-humans-on-the-internet-thats-his-case-for-a-43-9-billion-zscaler-deal?ref=yahoofinance&tlnk=yf-261127-6g3qqpgg&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 01:40 ET",
-        "pub_ts": 1795761633.0
-      },
-      {
-        "title": "Was CrowdStrike’s $43.9 Billion Bid for Zscaler the Right Move at the Wrong Time?",
-        "url": "https://247wallst.com/investing/2026/11/26/was-crowdstrikes-43-9-billion-bid-for-zscaler-the-right-move-at-the-wrong-time/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 12:00 ET",
-        "pub_ts": 1795712431.0
-      },
-      {
-        "title": "BT launches nationwide cyber resilience drive as AI helps fuel 500% surge in malicious activity",
-        "url": "https://finance.yahoo.com/small-business/articles/bt-launches-nationwide-cyber-resilience-104600266.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 05:46 ET",
-        "pub_ts": 1795689960.0
       }
     ],
     "ORCL": [
@@ -3280,23 +3280,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795787976.477584,
-    "SOXL": 1795787976.477584,
-    "SPY": 1795787976.477584,
-    "DIA": 1795787976.477584,
-    "SOXX": 1795787976.477584,
-    "QQQ": 1795787976.477584,
-    "SMH": 1795787976.477584,
-    "IWM": 1795787976.477584,
-    "IGV": 1795787976.477584,
-    "TLT": 1795787976.477584,
-    "GLD": 1795787976.477584,
-    "SQQQ": 1795787976.477584,
-    "TSM": 1795787976.477584,
-    "VIXY": 1795787976.477584,
-    "SOXS": 1795787976.477584,
-    "NVDA": 1795787976.477584,
-    "AMD": 1795787976.477584,
+    "KORU": 1795789520.5510197,
+    "SOXL": 1795789520.5510197,
+    "SPY": 1795789520.5510197,
+    "DIA": 1795789520.5510197,
+    "SOXX": 1795789520.5510197,
+    "QQQ": 1795789520.5510197,
+    "SMH": 1795789520.5510197,
+    "IWM": 1795789520.5510197,
+    "IGV": 1795789520.5510197,
+    "TLT": 1795789520.5510197,
+    "GLD": 1795789520.5510197,
+    "SQQQ": 1795789520.5510197,
+    "TSM": 1795789520.5510197,
+    "VIXY": 1795789520.5510197,
+    "SOXS": 1795789520.5510197,
+    "NVDA": 1795789520.5510197,
+    "AMD": 1795789520.5510197,
     "ASML": 1795789108.510426,
     "QCOM": 1795789108.510426,
     "AVGO": 1795789108.510426,
@@ -3335,14 +3335,14 @@
     "OKLO": 1795789418.0122743,
     "CEG": 1795789418.0122743,
     "FPS": 1795789418.0122743,
-    "MU": 1795787976.477584,
-    "SKHY": 1795787976.477584,
-    "WDC": 1795787976.477584,
-    "STX": 1795787976.477584,
-    "MSTR": 1795787976.477584,
-    "SNDK": 1795787976.477584,
+    "MU": 1795789520.5510197,
+    "SKHY": 1795789520.5510197,
+    "WDC": 1795789520.5510197,
+    "STX": 1795789520.5510197,
+    "MSTR": 1795789520.5510197,
+    "SNDK": 1795789520.5510197,
     "BTC-USD": 1795788078.920592,
-    "CRWD": 1795787976.477584,
+    "CRWD": 1795789520.5510197,
     "ORCL": 1795788078.920592,
     "COIN": 1795788078.920592,
     "LLY": 1795788078.920592,
@@ -3359,7 +3359,7 @@
     "GLW": 1795789418.0122743,
     "ANT": 1795789418.0122743,
     "XAUUSD": 1795789418.0122743,
-    "KOSPI": 1795787976.477584
+    "KOSPI": 1795789520.5510197
   },
   "opex_shield": {
     "date": "2026-11-27",
