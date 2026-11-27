@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795810165.327,
-  "updated_at_et": "11-27 15:09 ET",
-  "updated_at_kst": "05:09 KST",
+  "updated_at_ts": 1795810266.474,
+  "updated_at_et": "11-27 15:11 ET",
+  "updated_at_kst": "05:11 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -908,11 +908,32 @@
     ],
     "NVDA": [
       {
+        "title": "Dow Jones Futures: Stock Market Makes Bullish Move, Tesla Leads 7 New Buys; Nvidia's Jensen Huang Heads To Capitol Hill",
+        "url": "https://finance.yahoo.com/m/5b917298-e5b5-3d87-b1fa-f7cad345af64/dow-jones-futures%3A-stock.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 14:54 ET",
+        "pub_ts": 1795809269.0
+      },
+      {
+        "title": "Should You Buy Nvidia Stock Before CEO Jensen Huang Testifies in Front of Congress on Dec. 1 and Dec. 3?",
+        "url": "https://www.fool.com/investing/2026/11/27/should-you-buy-nvidia-stock-before-ceo-jensen-huang-testifies-in-front-of-congress-on-dec-1-and-dec-3/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 14:48 ET",
+        "pub_ts": 1795808889.0
+      },
+      {
+        "title": "Sports Betting and the Way We Make Money",
+        "url": "https://www.fool.com/investing/2026/11/27/sports-betting-and-the-way-we-make-money/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 14:44 ET",
+        "pub_ts": 1795808663.0
+      },
+      {
         "title": "Stock Market Today: Indexes Log Best Thanksgiving Week In 18 Years",
         "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-indexes.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 14:19 ET",
-        "pub_ts": 1795807162.0
+        "time": "11-27 14:10 ET",
+        "pub_ts": 1795806643.0
       },
       {
         "title": "'Big Short' Investor Michael Burry Thinks This Chinese Stock Is Worth About 60% More Than Its Price. Should You Buy?",
@@ -920,27 +941,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 13:53 ET",
         "pub_ts": 1795805583.0
-      },
-      {
-        "title": "Dow Jones Futures: Stock Market Makes Bullish Move, Tesla Leads 7 New Buys; Nvidia's Jensen Huang Heads To Capitol Hill",
-        "url": "https://finance.yahoo.com/m/5b917298-e5b5-3d87-b1fa-f7cad345af64/dow-jones-futures%3A-stock.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 13:48 ET",
-        "pub_ts": 1795805323.0
-      },
-      {
-        "title": "US Equity Indexes Rise as Jensen Huang's Return to Nvidia Guardrails AI Trade While Investors Slice Growth Exposure This Week",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-jensen-183902792.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 13:39 ET",
-        "pub_ts": 1795804742.0
-      },
-      {
-        "title": "For a Little While, Nvidia Faced a Future Without Jensen Huang",
-        "url": "https://www.fool.com/investing/2026/11/27/for-a-little-while-nvidia-faced-a-future-without-jensen-huang/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 13:31 ET",
-        "pub_ts": 1795804262.0
       }
     ],
     "AMD": [
@@ -2583,8 +2583,8 @@
         "title": "Stock Market Today: Indexes Log Best Thanksgiving Week In 18 Years",
         "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-indexes.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 14:19 ET",
-        "pub_ts": 1795807162.0
+        "time": "11-27 14:10 ET",
+        "pub_ts": 1795806643.0
       },
       {
         "title": "SanDisk Stocks Jump 12.85% After Kioxia and Nvidia Stretch GPU Memory With SSDs",
@@ -3285,23 +3285,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795808732.223897,
-    "SOXL": 1795808732.223897,
-    "SPY": 1795808732.223897,
-    "DIA": 1795808732.223897,
-    "SOXX": 1795808732.223897,
-    "QQQ": 1795808732.223897,
-    "SMH": 1795808732.223897,
-    "IWM": 1795808732.223897,
-    "IGV": 1795808732.223897,
-    "TLT": 1795808732.223897,
-    "GLD": 1795808732.223897,
-    "SQQQ": 1795808732.223897,
-    "TSM": 1795808732.223897,
-    "VIXY": 1795808732.223897,
-    "SOXS": 1795808732.223897,
-    "NVDA": 1795808732.223897,
-    "AMD": 1795808732.223897,
+    "KORU": 1795810266.474394,
+    "SOXL": 1795810266.474394,
+    "SPY": 1795810266.474394,
+    "DIA": 1795810266.474394,
+    "SOXX": 1795810266.474394,
+    "QQQ": 1795810266.474394,
+    "SMH": 1795810266.474394,
+    "IWM": 1795810266.474394,
+    "IGV": 1795810266.474394,
+    "TLT": 1795810266.474394,
+    "GLD": 1795810266.474394,
+    "SQQQ": 1795810266.474394,
+    "TSM": 1795810266.474394,
+    "VIXY": 1795810266.474394,
+    "SOXS": 1795810266.474394,
+    "NVDA": 1795810266.474394,
+    "AMD": 1795810266.474394,
     "ASML": 1795809035.821164,
     "QCOM": 1795809035.821164,
     "AVGO": 1795809035.821164,
@@ -3340,14 +3340,14 @@
     "OKLO": 1795809140.0526388,
     "CEG": 1795809140.0526388,
     "FPS": 1795809140.0526388,
-    "MU": 1795808732.223897,
-    "SKHY": 1795808732.223897,
-    "WDC": 1795808732.223897,
-    "STX": 1795808732.223897,
-    "MSTR": 1795808732.223897,
-    "SNDK": 1795808732.223897,
+    "MU": 1795810266.474394,
+    "SKHY": 1795810266.474394,
+    "WDC": 1795810266.474394,
+    "STX": 1795810266.474394,
+    "MSTR": 1795810266.474394,
+    "SNDK": 1795810266.474394,
     "BTC-USD": 1795809035.821164,
-    "CRWD": 1795808732.223897,
+    "CRWD": 1795810266.474394,
     "ORCL": 1795809035.821164,
     "COIN": 1795809035.821164,
     "LLY": 1795809035.821164,
@@ -3364,7 +3364,7 @@
     "GLW": 1795809140.0526388,
     "ANT": 1795809241.6065793,
     "XAUUSD": 1795809241.6065793,
-    "KOSPI": 1795808732.223897
+    "KOSPI": 1795810266.474394
   },
   "opex_shield": {
     "date": "2026-11-27",

@@ -1,7 +1,7 @@
 [
   {
     "id": "STOP_AAOI_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -15,7 +15,7 @@
   },
   {
     "id": "STOP_SNDK_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -29,7 +29,7 @@
   },
   {
     "id": "STOP_NBIS_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -43,7 +43,7 @@
   },
   {
     "id": "STOP_ASTS_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -57,7 +57,7 @@
   },
   {
     "id": "STOP_CRWV_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -71,7 +71,7 @@
   },
   {
     "id": "STOP_AXTI_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -85,7 +85,7 @@
   },
   {
     "id": "STOP_INTC_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -99,7 +99,7 @@
   },
   {
     "id": "STOP_APLD_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -113,7 +113,7 @@
   },
   {
     "id": "STOP_LITE_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -127,21 +127,21 @@
   },
   {
     "id": "STOP_FPS_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
     "ticker": "FPS",
     "name": "Forgent Power",
     "cat": "能源电力",
-    "price": 19.66,
-    "pct_change": 4.463338569589849,
+    "price": 19.64,
+    "pct_change": 4.357068642255579,
     "title": "🔴 FPS (Forgent Power) 跌破波段斐波那契下沿",
-    "desc": "偏离 MA50 -33.4%，放量跌破坑底 $26.33，空头宣泄期严禁左侧接刀！"
+    "desc": "偏离 MA50 -33.5%，放量跌破坑底 $26.33，空头宣泄期严禁左侧接刀！"
   },
   {
     "id": "STOP_MRVL_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -155,7 +155,7 @@
   },
   {
     "id": "STOP_MSTR_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -169,7 +169,7 @@
   },
   {
     "id": "STOP_OKLO_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -183,7 +183,7 @@
   },
   {
     "id": "STOP_COIN_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -197,7 +197,7 @@
   },
   {
     "id": "STOP_CRDO_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -211,7 +211,7 @@
   },
   {
     "id": "STOP_NOW_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -225,7 +225,7 @@
   },
   {
     "id": "STOP_DELL_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -239,7 +239,7 @@
   },
   {
     "id": "STOP_STX_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -253,7 +253,7 @@
   },
   {
     "id": "STOP_BE_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -267,7 +267,7 @@
   },
   {
     "id": "STOP_HPE_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -281,7 +281,7 @@
   },
   {
     "id": "STOP_AMAT_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -295,7 +295,7 @@
   },
   {
     "id": "STOP_VRT_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -309,7 +309,7 @@
   },
   {
     "id": "STOP_ORCL_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -323,7 +323,7 @@
   },
   {
     "id": "STOP_MU_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -337,21 +337,21 @@
   },
   {
     "id": "STOP_GLW_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
     "ticker": "GLW",
     "name": "康宁",
     "cat": "光通信",
-    "price": 104.5719,
-    "pct_change": 4.321530555215803,
+    "price": 104.55,
+    "pct_change": 4.299682988908224,
     "title": "🔴 GLW (康宁) 跌破波段斐波那契下沿",
     "desc": "偏离 MA50 -20.8%，放量跌破坑底 $122.62，空头宣泄期严禁左侧接刀！"
   },
   {
     "id": "STOP_FN_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -365,7 +365,7 @@
   },
   {
     "id": "STOP_SKHY_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -379,7 +379,7 @@
   },
   {
     "id": "STOP_WDC_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -393,7 +393,7 @@
   },
   {
     "id": "STOP_AMD_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -407,7 +407,7 @@
   },
   {
     "id": "STOP_NVDA_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -421,21 +421,21 @@
   },
   {
     "id": "STOP_BTC-USD_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
     "ticker": "BTC-USD",
     "name": "比特币现货",
     "cat": "数字资产",
-    "price": 59771.0703125,
-    "pct_change": -1.1962047818488264,
+    "price": 59743.8203125,
+    "pct_change": -1.2412500421330739,
     "title": "🔴 BTC-USD (比特币现货) 跌破波段斐波那契下沿",
     "desc": "偏离 MA50 -19.5%，放量跌破坑底 $67372.34，空头宣泄期严禁左侧接刀！"
   },
   {
     "id": "STOP_ASML_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -449,7 +449,7 @@
   },
   {
     "id": "STOP_LUNR_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -463,7 +463,7 @@
   },
   {
     "id": "STOP_RKLB_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -477,7 +477,7 @@
   },
   {
     "id": "STOP_GOOGL_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -491,7 +491,7 @@
   },
   {
     "id": "STOP_CEG_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -505,7 +505,7 @@
   },
   {
     "id": "STOP_VST_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -519,7 +519,7 @@
   },
   {
     "id": "STOP_TSM_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -533,7 +533,7 @@
   },
   {
     "id": "STOP_XAUUSD_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -547,7 +547,7 @@
   },
   {
     "id": "5M_AVGO_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "5m_entry",
     "cat_label": "🎯 5m买点",
     "level": "success",
@@ -566,8 +566,28 @@
     "options_summary": "🟢 资金偏多看涨 (张数PCR 0.52 / 资金 0.45) | 主力Call $310 Call (1,998张 · $2.40M)"
   },
   {
+    "id": "5M_AMZN_2026-11-27",
+    "time": "11-27 15:09",
+    "category": "5m_entry",
+    "cat_label": "🎯 5m买点",
+    "level": "success",
+    "ticker": "AMZN",
+    "name": "亚马逊",
+    "cat": "云与电商",
+    "price": 254.16,
+    "pct_change": 3.9807,
+    "title": "🎯 AMZN (亚马逊) 触发 5分钟级买点共振",
+    "desc": "日内回踩黄金坑($248.45)后放量收阳(5m量比1.00x)，右侧重新站稳日内VWAP均价线($252.98) ｜ ⚡期权多头共振(🟢 资金偏多看涨, 主力Call $255 Call (5,790张 · $3.04M))",
+    "optimal_limit": 252.35,
+    "limit_note": "黄金坑上沿埋伏单 (-0.7%)",
+    "stop_loss": 248.31,
+    "batch1_shares": 2.6,
+    "batch1_val": 656.1,
+    "options_summary": "🟢 资金偏多看涨 (张数PCR 0.55 / 资金 0.32) | 主力Call $255 Call (5,790张 · $3.04M)"
+  },
+  {
     "id": "STOP_SMH_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -581,7 +601,7 @@
   },
   {
     "id": "STOP_SOXX_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -595,7 +615,7 @@
   },
   {
     "id": "STOP_SOXL_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -609,7 +629,7 @@
   },
   {
     "id": "STOP_KORU_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -623,7 +643,7 @@
   },
   {
     "id": "STOP_KOSPI_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -637,7 +657,7 @@
   },
   {
     "id": "STOP_GLD_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "stop_loss",
     "cat_label": "🔴 破位止损",
     "level": "danger",
@@ -651,7 +671,7 @@
   },
   {
     "id": "TP_VIXY_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "take_profit",
     "cat_label": "🟣 冲顶减仓",
     "level": "purple",
@@ -665,7 +685,7 @@
   },
   {
     "id": "TP_SQQQ_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "take_profit",
     "cat_label": "🟣 冲顶减仓",
     "level": "purple",
@@ -679,7 +699,7 @@
   },
   {
     "id": "TP_SOXS_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "take_profit",
     "cat_label": "🟣 冲顶减仓",
     "level": "purple",
@@ -693,7 +713,7 @@
   },
   {
     "id": "WEATHER_暴雨空仓_2026-11-27",
-    "time": "11-27 15:08",
+    "time": "11-27 15:09",
     "category": "macro_weather",
     "cat_label": "⛅ 宏观气象",
     "level": "info",
@@ -724,26 +744,6 @@
     "batch1_shares": 3.84,
     "batch1_val": 653.4,
     "options_summary": "🟢 资金偏多看涨 (张数PCR 0.53 / 资金 0.13) | 主力Call $170 Call (9,917张 · $6.71M)"
-  },
-  {
-    "id": "5M_AMZN_2026-11-27",
-    "time": "11-27 14:56",
-    "category": "5m_entry",
-    "cat_label": "🎯 5m买点",
-    "level": "success",
-    "ticker": "AMZN",
-    "name": "亚马逊",
-    "cat": "云与电商",
-    "price": 254.16,
-    "pct_change": 3.9807,
-    "title": "🎯 AMZN (亚马逊) 触发 5分钟级买点共振",
-    "desc": "日内回踩黄金坑($248.45)后放量收阳(5m量比1.00x)，右侧重新站稳日内VWAP均价线($252.98) ｜ ⚡期权多头共振(🟢 资金偏多看涨, 主力Call $255 Call (5,790张 · $3.04M))",
-    "optimal_limit": 252.35,
-    "limit_note": "黄金坑上沿埋伏单 (-0.7%)",
-    "stop_loss": 248.31,
-    "batch1_shares": 2.6,
-    "batch1_val": 656.1,
-    "options_summary": "🟢 资金偏多看涨 (张数PCR 0.55 / 资金 0.32) | 主力Call $255 Call (5,790张 · $3.04M)"
   },
   {
     "id": "5M_DIA_2026-11-27",
