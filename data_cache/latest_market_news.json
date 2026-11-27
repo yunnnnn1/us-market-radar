@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795798703.214,
-  "updated_at_et": "11-27 11:58 ET",
-  "updated_at_kst": "01:58 KST",
+  "updated_at_ts": 1795798806.777,
+  "updated_at_et": "11-27 12:00 ET",
+  "updated_at_kst": "02:00 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1784,11 +1784,11 @@
         "pub_ts": 1795788295.0
       },
       {
-        "title": "Stock Market Today: Dow Rises, Nasdaq Up As Anthropic, SpaceX Gain; Biotech Name Plummets (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow.html?.tsrc=rss",
+        "title": "Anthropic vs. SpaceX: Which Is the Better Giant IPO Buy?",
+        "url": "https://www.fool.com/investing/2026/11/27/anthropic-vs-spacex-which-is-the-better-giant-ipo-buy/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 10:31 ET",
-        "pub_ts": 1795793470.0
+        "time": "11-27 10:25 ET",
+        "pub_ts": 1795793101.0
       }
     ],
     "ASTS": [
@@ -1904,6 +1904,13 @@
     ],
     "LUNR": [
       {
+        "title": "Will Space Nuclear Power Milestone Change Intuitive Machines Stock Narrative",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/space-nuclear-power-milestone-change-161338450.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 11:13 ET",
+        "pub_ts": 1795796018.0
+      },
+      {
         "title": "RKLB vs. LUNR: Which Space Stock Has the Stronger Growth Outlook?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/rklb-vs-lunr-space-stock-125000446.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1930,13 +1937,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 17:48 ET",
         "pub_ts": 1795474080.0
-      },
-      {
-        "title": "Intuitive Machines vs. Redwire: Which Space Infrastructure Stock Is a Better Buy for 2027?",
-        "url": "https://www.fool.com/coverage/better-buy/2026/11/23/intuitive-machines-vs-redwire-which-space-infrastructure-stock-is-a-better-buy-for-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 12:01 ET",
-        "pub_ts": 1795453262.0
       }
     ],
     "TSLA": [
@@ -2163,6 +2163,13 @@
     ],
     "VRT": [
       {
+        "title": "Vertiv (VRT) Down 29.5% Since Last Earnings Report: Can It Rebound?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/vertiv-vrt-down-29-5-153020649.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:30 ET",
+        "pub_ts": 1795793420.0
+      },
+      {
         "title": "Here is What to Know Beyond Why Vertiv Holdings Co. (VRT) is a Trending Stock",
         "url": "https://finance.yahoo.com/markets/stocks/articles/know-beyond-why-vertiv-holdings-130004655.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2189,16 +2196,16 @@
         "source": "Yahoo Finance",
         "time": "11-25 07:47 ET",
         "pub_ts": 1795610821.0
-      },
-      {
-        "title": "Vertiv Holdings Co (VRT) Looks Repriced Following AI Data Center Wins And Higher Guidance",
-        "url": "https://finance.yahoo.com/technology/ai/articles/vertiv-holdings-co-vrt-looks-110832574.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:08 ET",
-        "pub_ts": 1795604912.0
       }
     ],
     "HPE": [
+      {
+        "title": "HPE vs. AMD: Which Stock Should Value Investors Buy Now?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/hpe-vs-amd-stock-value-154003186.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:40 ET",
+        "pub_ts": 1795794003.0
+      },
       {
         "title": "Network Hardware - Global Strategic Business Report 2026: Capitalize on the $33.1 Billion Revenue Surge to 2032 with Benchmarks on Cisco, Huawei, HPE, Nokia, and Ericsson",
         "url": "https://finance.yahoo.com/technology/articles/network-hardware-global-strategic-business-150100167.html?.tsrc=rss",
@@ -2226,13 +2233,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 06:13 ET",
         "pub_ts": 1795691593.0
-      },
-      {
-        "title": "Ensign InfoSecurity partners with HPE to help enterprises deploy AI with greater control and security",
-        "url": "https://finance.yahoo.com/technology/ai/articles/ensign-infosecurity-partners-hpe-help-000000295.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 19:00 ET",
-        "pub_ts": 1795651200.0
       }
     ],
     "DELL": [
@@ -2274,6 +2274,13 @@
     ],
     "OKLO": [
       {
+        "title": "Should You Invest $2,000 in Oklo Right Now?",
+        "url": "https://www.fool.com/investing/2026/11/27/should-you-invest-2000-in-stock-right-now/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 11:35 ET",
+        "pub_ts": 1795797302.0
+      },
+      {
         "title": "Prediction: Oklo Stock Could Have a Huge Year as Nuclear Energy Demand Accelerates",
         "url": "https://247wallst.com/investing/2026/11/25/prediction-oklo-stock-could-have-a-huge-year-as-nuclear-energy-demand-accelerates/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2300,13 +2307,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 03:11 ET",
         "pub_ts": 1795594260.0
-      },
-      {
-        "title": "1 Reason I Haven’t Bought Oklo Stock -- and Probably Never Will",
-        "url": "https://www.fool.com/investing/2026/11/24/1-reason-i-haven-t-bought-oklo-stock-and-probably-never-will/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 21:20 ET",
-        "pub_ts": 1795573202.0
       }
     ],
     "CEG": [
@@ -3213,6 +3213,13 @@
         "pub_ts": 1795786669.0
       },
       {
+        "title": "Frank Talk: Jensen Huang’s return and Anthropic’s shaky debut prove AI is now a national security trade",
+        "url": "https://www.proactiveinvestors.com/companies/news/1102593/frank-talk-jensen-huang-s-return-and-anthropic-s-shaky-debut-prove-ai-is-now-a-national-security-trade-1102593.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 11:24 ET",
+        "pub_ts": 1795796640.0
+      },
+      {
         "title": "Anthropic Just Hit an $81 Billion Run Rate—Why Wall Street’s Post-IPO Jitters Are a Gift",
         "url": "https://247wallst.com/investing/2026/11/27/anthropic-just-hit-an-81-billion-run-rate-why-wall-streets-post-ipo-jitters-are-a-gift/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3220,18 +3227,11 @@
         "pub_ts": 1795794329.0
       },
       {
-        "title": "Stock Market Today: Dow Rises, Nasdaq Up As Anthropic, SpaceX Gain; Biotech Name Plummets (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow.html?.tsrc=rss",
+        "title": "Anthropic Stock Jumps to Reveal Its True Place in the AI Trade",
+        "url": "https://finance.yahoo.com/m/eac9c281-033c-3c73-8b9a-a27703a8cdc9/anthropic-stock-jumps-to.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 10:31 ET",
-        "pub_ts": 1795793470.0
-      },
-      {
-        "title": "Anthropic vs. SpaceX: Which Is the Better Giant IPO Buy?",
-        "url": "https://www.fool.com/investing/2026/11/27/anthropic-vs-spacex-which-is-the-better-giant-ipo-buy/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 10:25 ET",
-        "pub_ts": 1795793101.0
+        "time": "11-27 10:32 ET",
+        "pub_ts": 1795793520.0
       }
     ],
     "XAUUSD": [
@@ -3318,25 +3318,25 @@
     "CRDO": 1795798497.866745,
     "COHR": 1795798497.866745,
     "MRVL": 1795798497.866745,
-    "LITE": 1795797252.1306512,
+    "LITE": 1795798806.776704,
     "AAOI": 1795798497.866745,
-    "SPCX": 1795797252.1306512,
-    "ASTS": 1795797252.1306512,
-    "AXTI": 1795797252.1306512,
-    "NASA": 1795797252.1306512,
-    "LUNR": 1795797252.1306512,
-    "TSLA": 1795797252.1306512,
-    "AXP": 1795797252.1306512,
-    "RKLB": 1795797252.1306512,
-    "KO": 1795797252.1306512,
-    "FLY": 1795797252.1306512,
-    "INTC": 1795797252.1306512,
-    "VRT": 1795797252.1306512,
-    "HPE": 1795797252.1306512,
-    "DELL": 1795797252.1306512,
-    "OKLO": 1795797252.1306512,
-    "CEG": 1795797252.1306512,
-    "FPS": 1795797252.1306512,
+    "SPCX": 1795798806.776704,
+    "ASTS": 1795798806.776704,
+    "AXTI": 1795798806.776704,
+    "NASA": 1795798806.776704,
+    "LUNR": 1795798806.776704,
+    "TSLA": 1795798806.776704,
+    "AXP": 1795798806.776704,
+    "RKLB": 1795798806.776704,
+    "KO": 1795798806.776704,
+    "FLY": 1795798806.776704,
+    "INTC": 1795798806.776704,
+    "VRT": 1795798806.776704,
+    "HPE": 1795798806.776704,
+    "DELL": 1795798806.776704,
+    "OKLO": 1795798806.776704,
+    "CEG": 1795798806.776704,
+    "FPS": 1795798806.776704,
     "MU": 1795797356.2308214,
     "SKHY": 1795797356.2308214,
     "WDC": 1795797356.2308214,
@@ -3352,15 +3352,15 @@
     "NKE": 1795798497.866745,
     "MCD": 1795798497.866745,
     "PEP": 1795798497.866745,
-    "XOM": 1795797252.1306512,
+    "XOM": 1795798806.776704,
     "JPM": 1795798497.866745,
-    "WMT": 1795797252.1306512,
+    "WMT": 1795798806.776704,
     "V": 1795798497.866745,
-    "CAT": 1795797252.1306512,
-    "FN": 1795797252.1306512,
-    "GLW": 1795797252.1306512,
-    "ANT": 1795797252.1306512,
-    "XAUUSD": 1795797252.1306512,
+    "CAT": 1795798806.776704,
+    "FN": 1795798806.776704,
+    "GLW": 1795798806.776704,
+    "ANT": 1795798806.776704,
+    "XAUUSD": 1795798806.776704,
     "KOSPI": 1795797356.2308214
   },
   "opex_shield": {
