@@ -1,9 +1,24 @@
 {
-  "updated_at_ts": 1795767361.257,
-  "updated_at_et": "11-27 03:16 ET",
-  "updated_at_kst": "17:16 KST",
+  "updated_at_ts": 1795767458.925,
+  "updated_at_et": "11-27 03:17 ET",
+  "updated_at_kst": "17:17 KST",
   "macro_calendar": [],
   "macro_flashes": [
+    {
+      "id": "20261127161625450800",
+      "title": "整理：每日投行/机构观点梳理（2026-11-27）",
+      "summary": "国外 1. 施罗德投资：美联储降息救不了美股。 2. 澳新银行：受强劲AI支出预期支撑，铜价上涨。 3. 巴克莱：预计日本11月核心通胀升至2.6%，油价上涨带来压力。 4. 华侨银行：日元兑美元走弱风险似乎有限。 5. 荷兰国际：德科斯若成为欧洲央行行长，影响力将超越拉加德。 6. 荷兰国际：韩元2027年有望进一步走强，经常账户盈余扩大提供支撑。 7. 摩根大通：印度股市有望在2027年进一步上涨。 8. 三井住友日兴证券：日本核心通胀预计至2027年9月维持在央行目标附近。 9. 三菱日联摩根士丹利证券将日本央行终端利率预期上调至2%。 国内 1. 中信建投：国产算力供需共振，AI安全需求持续升级。 2. 中信证券：美妆赛道继续坚定看好高端赛道的本土替代。 3. 中信证券：坚定看好物理AI板块，建议关注国产硬件供应链相关标的。 4. 中信建投：船舶行业正处于十年维度的上行景气周期。 5. 中信证券：钢铁供需持续磨底，关注板块龙头红利属性。 6. 德邦证券：预计2027年A股结构机会主导，建议“红利打底、科技搏弹性”。 7. 国金证券：晶圆制造2.0时代，台积电竞争优势有望延续。 8. 银河证券：光通信行业成长逻辑迈向由前沿互连架构驱动的单端口价值跃升新周期。 9. 华泰证券：建议关注油气开采和具备产业链完整性的高分红龙头企业。 10. 国联民生证券：国常会稳市定调出现三个“第一次”，后续增量政策工具的量级值得期待。",
+      "keywords": [
+        "美联储",
+        "降息",
+        "台积电"
+      ],
+      "pub_ts": 1795767385.0,
+      "time_et": "11-27 03:16 ET",
+      "time_bj": "16:16 BJ",
+      "time_kst": "17:16 KST",
+      "time_display": "03:16 ET / 16:16 BJ"
+    },
     {
       "id": "20261127161435328800",
       "title": "【感恩节翌日 美国金融市场将提前收市】 11月27日讯，美国感恩节翌日（11月27日），…",
@@ -318,19 +333,6 @@
       "time_bj": "13:10 BJ",
       "time_kst": "14:10 KST",
       "time_display": "00:10 ET / 13:10 BJ"
-    },
-    {
-      "id": "20261127130923629800",
-      "title": "上证指数涨超2%，半导体、CPO、证券、光刻机等板块涨幅居前；沪深京三市近5200股上涨…",
-      "summary": "上证指数涨超2%，半导体、CPO、证券、光刻机等板块涨幅居前；沪深京三市近5200股上涨。",
-      "keywords": [
-        "半导体"
-      ],
-      "pub_ts": 1795756163.0,
-      "time_et": "11-27 00:09 ET",
-      "time_bj": "13:09 BJ",
-      "time_kst": "14:09 KST",
-      "time_display": "00:09 ET / 13:09 BJ"
     }
   ],
   "ticker_news": {
@@ -2593,6 +2595,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "LIVE – Crypto News Today: Why Is Bitcoin Up? Gold and Wall Street Rally Fuel BTC Bounce",
+        "url": "https://cryptonews.com/news/bitcoin-rises-from-grave-black-friday-crypto-news/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 02:18 ET",
+        "pub_ts": 1795763914.0
+      },
+      {
         "title": "Bitcoin recovers to $61.5k; set for first positive week in 8",
         "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-recovers-61-5k-set-062257549.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2619,16 +2628,16 @@
         "source": "Yahoo Finance",
         "time": "11-26 16:00 ET",
         "pub_ts": 1795726800.0
-      },
-      {
-        "title": "Is Bitcoin a Good Investment for Building Wealth After a 50% Drop?",
-        "url": "https://247wallst.com/investing/cryptocurrency/2026/11/26/is-bitcoin-a-good-investment-for-building-wealth-after-a-50-drop/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 15:50 ET",
-        "pub_ts": 1795726217.0
       }
     ],
     "CRWD": [
+      {
+        "title": "The Zacks Analyst Blog Highlights CrowdStrike, Lockheed Martin, S&P Global, The Eastern and AmeriServ Financial",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-crowdstrike-064800574.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 01:48 ET",
+        "pub_ts": 1795762080.0
+      },
       {
         "title": "Was CrowdStrike’s $43.9 Billion Bid for Zscaler the Right Move at the Wrong Time?",
         "url": "https://247wallst.com/investing/2026/11/26/was-crowdstrikes-43-9-billion-bid-for-zscaler-the-right-move-at-the-wrong-time/?.tsrc=rss",
@@ -2656,13 +2665,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 03:29 ET",
         "pub_ts": 1795681782.0
-      },
-      {
-        "title": "Bridgewater Sees 1-in-3 Odds of a Destabilizing Cyberattack. CrowdStrike’s Workload Is Already “Up 50%”",
-        "url": "https://www.tikr.com/blog/bridgewater-sees-1-in-3-odds-of-a-destabilizing-cyberattack-crowdstrikes-workload-is-already-up-50?ref=yahoofinance&tlnk=yf-261125-gjg8qh7p&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 18:40 ET",
-        "pub_ts": 1795650020.0
       }
     ],
     "ORCL": [
@@ -3268,23 +3270,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795765887.7609062,
-    "SOXL": 1795765887.7609062,
-    "SPY": 1795765887.7609062,
-    "DIA": 1795765887.7609062,
-    "SOXX": 1795765887.7609062,
-    "QQQ": 1795765887.7609062,
-    "SMH": 1795765887.7609062,
-    "IWM": 1795765887.7609062,
-    "IGV": 1795765887.7609062,
-    "TLT": 1795765887.7609062,
-    "GLD": 1795765887.7609062,
-    "SQQQ": 1795765887.7609062,
-    "TSM": 1795765887.7609062,
-    "VIXY": 1795765887.7609062,
-    "SOXS": 1795765887.7609062,
-    "NVDA": 1795765887.7609062,
-    "AMD": 1795765887.7609062,
+    "KORU": 1795767458.9247115,
+    "SOXL": 1795767458.9247115,
+    "SPY": 1795767458.9247115,
+    "DIA": 1795767458.9247115,
+    "SOXX": 1795767458.9247115,
+    "QQQ": 1795767458.9247115,
+    "SMH": 1795767458.9247115,
+    "IWM": 1795767458.9247115,
+    "IGV": 1795767458.9247115,
+    "TLT": 1795767458.9247115,
+    "GLD": 1795767458.9247115,
+    "SQQQ": 1795767458.9247115,
+    "TSM": 1795767458.9247115,
+    "VIXY": 1795767458.9247115,
+    "SOXS": 1795767458.9247115,
+    "NVDA": 1795767458.9247115,
+    "AMD": 1795767458.9247115,
     "ASML": 1795766280.5323026,
     "QCOM": 1795766280.5323026,
     "AVGO": 1795766280.5323026,
@@ -3327,14 +3329,14 @@
     "SKHY": 1795767160.400745,
     "WDC": 1795767160.400745,
     "STX": 1795767160.400745,
-    "MSTR": 1795765887.7609062,
+    "MSTR": 1795767458.9247115,
     "SNDK": 1795767160.400745,
-    "BTC-USD": 1795765887.7609062,
-    "CRWD": 1795765887.7609062,
-    "ORCL": 1795765887.7609062,
-    "COIN": 1795765887.7609062,
-    "LLY": 1795765887.7609062,
-    "MRNA": 1795765887.7609062,
+    "BTC-USD": 1795767458.9247115,
+    "CRWD": 1795767458.9247115,
+    "ORCL": 1795767458.9247115,
+    "COIN": 1795767458.9247115,
+    "LLY": 1795767458.9247115,
+    "MRNA": 1795767458.9247115,
     "NKE": 1795766280.5323026,
     "MCD": 1795766280.5323026,
     "PEP": 1795766280.5323026,
@@ -3347,7 +3349,7 @@
     "GLW": 1795767160.400745,
     "ANT": 1795766378.0920386,
     "XAUUSD": 1795766378.0920386,
-    "KOSPI": 1795765887.7609062
+    "KOSPI": 1795767458.9247115
   },
   "opex_shield": {
     "date": "2026-11-27",
@@ -3366,7 +3368,7 @@
   "calendar_banner": {
     "level": "idle_with_flash",
     "headline": "📡 宏观消息面监控中 · 今日暂无美股五星级经济数据大考",
-    "detail": "⚡ 最新核心快讯 (03:14 ET / 16:14 BJ) [原油] [美债]：【感恩节翌日 美国金融市场将提前收市】 11月27日讯，美国感恩节翌日（11月27日），美国股市将提前于北京时间28日02:00休市，美国债市提前于北京时间28日03:00休市；芝商所（CM",
+    "detail": "⚡ 最新核心快讯 (03:16 ET / 16:16 BJ) [美联储] [降息] [台积电]：国外 1. 施罗德投资：美联储降息救不了美股。 2. 澳新银行：受强劲AI支出预期支撑，铜价上涨。 3. 巴克莱：预计日本11月核心通胀升至2.6%，油价上涨带来压力。 4. 华侨银行：日元",
     "event_name": "",
     "minutes_left": 0,
     "opex_shield": {
