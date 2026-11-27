@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795787764.433,
-  "updated_at_et": "11-27 08:56 ET",
-  "updated_at_kst": "22:56 KST",
+  "updated_at_ts": 1795787872.071,
+  "updated_at_et": "11-27 08:57 ET",
+  "updated_at_kst": "22:57 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1791,6 +1791,13 @@
     ],
     "ASTS": [
       {
+        "title": "ASTS Stock’s New Target By Berenberg Shows A 67% Cut – Analyst Says Satellite Launch Delays Hurt Revenue Ramp",
+        "url": "https://stocktwits.com/news-articles/markets/equity/asts-stock-new-target-by-berenberg-shows-a-67-cut-analyst-says-satellite-launch-delays-hurt-revenue-ramp/cNbCHQXR9N6?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:43 ET",
+        "pub_ts": 1795787028.0
+      },
+      {
         "title": "Berenberg Just Cut Its AST SpaceMobile Target From $92 to $30",
         "url": "https://www.tikr.com/blog/berenberg-just-cut-its-ast-spacemobile-target-from-92-to-30?ref=yahoofinance&tlnk=yf-261127-gqgjmqwj&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1805,25 +1812,18 @@
         "pub_ts": 1795782899.0
       },
       {
+        "title": "Starlink Mobile Reached 3M+ Kazakh Users in “Cellular Dead Zones” in Under Two Months. Bad News for AST SpaceMobile",
+        "url": "https://www.tikr.com/blog/starlink-mobile-reached-3m-kazakh-users-in-cellular-dead-zones-in-under-two-months-bad-news-for-ast-spacemobile?ref=yahoofinance&tlnk=yf-261127-hqwmchmc&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 01:46 ET",
+        "pub_ts": 1795761965.0
+      },
+      {
         "title": "AST SpaceMobile Is Still Down 64% in 2026. Can Insider Buying and a B. Riley Upgrade Get ASTS Stock Back to $40?",
         "url": "https://247wallst.com/investing/2026/11/26/ast-spacemobile-is-still-down-64-in-2026-can-insider-buying-and-a-b-riley-upgrade-get-asts-stock-back-to-40/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-26 10:04 ET",
         "pub_ts": 1795705486.0
-      },
-      {
-        "title": "AST SpaceMobile Is Down 80% From Its May High. Jim Cramer Calls It “A Very Hard Stock to Own”",
-        "url": "https://www.tikr.com/blog/ast-spacemobile-is-down-80-from-its-may-high-jim-cramer-calls-it-a-very-hard-stock-to-own?ref=yahoofinance&tlnk=yf-261126-26mpx8wg&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 09:05 ET",
-        "pub_ts": 1795701937.0
-      },
-      {
-        "title": "SPCX Wins Million-Satellite Nod And Retail Attention — But ASTS Leads Space Stocks Into Thanksgiving",
-        "url": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-million-satellite-nod-asts-leads-rklb-lunr-bksy-thanksgiving/cNbxLqbR9ZV?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 03:25 ET",
-        "pub_ts": 1795681559.0
       }
     ],
     "AXTI": [
@@ -2087,6 +2087,13 @@
     ],
     "FLY": [
       {
+        "title": "ASTS Stock’s New Target By Berenberg Shows A 67% Cut – Analyst Says Satellite Launch Delays Hurt Revenue Ramp",
+        "url": "https://stocktwits.com/news-articles/markets/equity/asts-stock-new-target-by-berenberg-shows-a-67-cut-analyst-says-satellite-launch-delays-hurt-revenue-ramp/cNbCHQXR9N6?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:43 ET",
+        "pub_ts": 1795787028.0
+      },
+      {
         "title": "Firefly Aerospace Stock Just Scored a New 'Buy' Rating. Here's Why.",
         "url": "https://www.barchart.com/story/news/9008537/firefly-aerospace-stock-just-scored-a-new-buy-rating-here-s-why?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2113,13 +2120,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 22:47 ET",
         "pub_ts": 1795492022.0
-      },
-      {
-        "title": "Why Firefly Aerospace Stock Dropped on Friday",
-        "url": "https://www.fool.com/investing/2026/11/20/why-firefly-aerospace-stock-dropped-on-friday/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-20 13:25 ET",
-        "pub_ts": 1795199111.0
       }
     ],
     "INTC": [
@@ -3197,6 +3197,13 @@
     ],
     "ANT": [
       {
+        "title": "Was investor Leopold Aschenbrenner right about AI, but wrong on risk?",
+        "url": "https://finance.yahoo.com/video/was-investor-leopold-aschenbrenner-right-about-ai-but-wrong-on-risk-133749438.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:37 ET",
+        "pub_ts": 1795786669.0
+      },
+      {
         "title": "Stock Market Today: Dow Jumps 715 Points As Nvidia Rebounds; Anthropic, SpaceX, Tesla Rally (Live Coverage)",
         "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow-jumps.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3223,13 +3230,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 06:01 ET",
         "pub_ts": 1795777260.0
-      },
-      {
-        "title": "Anthropic and OpenAI Race to Embed Engineers as Faith in AI Buildout Wobbles",
-        "url": "https://finance.yahoo.com/m/de03ba4c-b160-33f0-a172-cfde9f4eb51f/anthropic-and-openai-race-to.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:00 ET",
-        "pub_ts": 1795777200.0
       }
     ],
     "XAUUSD": [
@@ -3316,25 +3316,25 @@
     "CRDO": 1795787560.5999227,
     "COHR": 1795787560.5999227,
     "MRVL": 1795787560.5999227,
-    "LITE": 1795786328.921001,
+    "LITE": 1795787872.0706527,
     "AAOI": 1795787560.5999227,
-    "SPCX": 1795786328.921001,
-    "ASTS": 1795786328.921001,
-    "AXTI": 1795786328.921001,
-    "NASA": 1795786328.921001,
-    "LUNR": 1795786328.921001,
-    "TSLA": 1795786328.921001,
-    "AXP": 1795786328.921001,
-    "RKLB": 1795786328.921001,
-    "KO": 1795786328.921001,
-    "FLY": 1795786328.921001,
-    "INTC": 1795786328.921001,
-    "VRT": 1795786328.921001,
-    "HPE": 1795786328.921001,
-    "DELL": 1795786328.921001,
-    "OKLO": 1795786328.921001,
-    "CEG": 1795786328.921001,
-    "FPS": 1795786328.921001,
+    "SPCX": 1795787872.0706527,
+    "ASTS": 1795787872.0706527,
+    "AXTI": 1795787872.0706527,
+    "NASA": 1795787872.0706527,
+    "LUNR": 1795787872.0706527,
+    "TSLA": 1795787872.0706527,
+    "AXP": 1795787872.0706527,
+    "RKLB": 1795787872.0706527,
+    "KO": 1795787872.0706527,
+    "FLY": 1795787872.0706527,
+    "INTC": 1795787872.0706527,
+    "VRT": 1795787872.0706527,
+    "HPE": 1795787872.0706527,
+    "DELL": 1795787872.0706527,
+    "OKLO": 1795787872.0706527,
+    "CEG": 1795787872.0706527,
+    "FPS": 1795787872.0706527,
     "MU": 1795786430.697521,
     "SKHY": 1795786430.697521,
     "WDC": 1795786430.697521,
@@ -3350,15 +3350,15 @@
     "NKE": 1795787560.5999227,
     "MCD": 1795787560.5999227,
     "PEP": 1795787560.5999227,
-    "XOM": 1795786328.921001,
+    "XOM": 1795787872.0706527,
     "JPM": 1795787560.5999227,
-    "WMT": 1795786328.921001,
+    "WMT": 1795787872.0706527,
     "V": 1795787560.5999227,
-    "CAT": 1795786328.921001,
-    "FN": 1795786328.921001,
-    "GLW": 1795786328.921001,
-    "ANT": 1795786328.921001,
-    "XAUUSD": 1795786328.921001,
+    "CAT": 1795787872.0706527,
+    "FN": 1795787872.0706527,
+    "GLW": 1795787872.0706527,
+    "ANT": 1795787872.0706527,
+    "XAUUSD": 1795787872.0706527,
     "KOSPI": 1795786430.697521
   },
   "opex_shield": {
