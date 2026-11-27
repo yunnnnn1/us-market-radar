@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795792675.376,
-  "updated_at_et": "11-27 10:17 ET",
-  "updated_at_kst": "00:17 KST",
+  "updated_at_ts": 1795792780.798,
+  "updated_at_et": "11-27 10:19 ET",
+  "updated_at_kst": "00:19 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2608,39 +2608,39 @@
     ],
     "BTC-USD": [
       {
+        "title": "Tether Buys $10 Million Worth of Bitdeer Stock",
+        "url": "https://www.cryptoprowl.com/releases/tether-buys-10-million-worth-of-bitdeer-stock-8099?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:06 ET",
+        "pub_ts": 1795791960.0
+      },
+      {
+        "title": "JPMorgan Says Bitcoin ‘Capitulation’ Has Been Reached",
+        "url": "https://www.cryptoprowl.com/releases/jpmorgan-says-bitcoin-capitulation-has-been-reached-8098?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:01 ET",
+        "pub_ts": 1795791660.0
+      },
+      {
+        "title": "Signal House Publishes Record-Based Explainer on Bitcoin Latinum Lawsuit",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/signal-house-publishes-record-based-150000418.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:00 ET",
+        "pub_ts": 1795791600.0
+      },
+      {
+        "title": "Stock Market Today: Dow Jumps 500 Points While Nvidia Wavers; Anthropic, Tesla, SpaceX Rally (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow-jumps.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:51 ET",
+        "pub_ts": 1795791085.0
+      },
+      {
         "title": "Analyst Warns of $38,000 Bitcoin Crash as Trump Proposes Tariffs on 14 Trading Partners",
         "url": "https://www.ccn.com/news/crypto/bitcoin-38k-analyst-downside-trump-14-trading-partners/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-27 09:07 ET",
         "pub_ts": 1795788436.0
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Technology Stock Rebound",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140653942.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 09:06 ET",
-        "pub_ts": 1795788413.0
-      },
-      {
-        "title": "Strategy Just Bought Bitcoin for the 4th Straight Week. So Why Aren't Crypto Investors Bullish on MSTR Stock?",
-        "url": "https://www.fool.com/investing/2026/11/27/strategy-just-bought-bitcoin-for-the-4th-straight-week-so-why-aren-t-crypto-investors-bullish-on-mstr-stock/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 09:03 ET",
-        "pub_ts": 1795788192.0
-      },
-      {
-        "title": "Stock Market Today: Dow Futures Jump 650 Points As Nvidia Rebounds; Anthropic, SpaceX, Tesla Rally (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 09:00 ET",
-        "pub_ts": 1795788002.0
-      },
-      {
-        "title": "IREN vs. Core Scientific: Which AI Stock Is the Better Investment Now?",
-        "url": "https://finance.yahoo.com/technology/ai/articles/iren-vs-core-scientific-ai-121400735.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 07:14 ET",
-        "pub_ts": 1795781640.0
       }
     ],
     "CRWD": [
@@ -3344,12 +3344,12 @@
     "STX": 1795792675.3758607,
     "MSTR": 1795792675.3758607,
     "SNDK": 1795792675.3758607,
-    "BTC-USD": 1795791221.5539992,
+    "BTC-USD": 1795792780.7975943,
     "CRWD": 1795792675.3758607,
-    "ORCL": 1795791221.5539992,
-    "COIN": 1795791221.5539992,
-    "LLY": 1795791221.5539992,
-    "MRNA": 1795791221.5539992,
+    "ORCL": 1795792780.7975943,
+    "COIN": 1795792780.7975943,
+    "LLY": 1795792780.7975943,
+    "MRNA": 1795792780.7975943,
     "NKE": 1795792261.0349567,
     "MCD": 1795792261.0349567,
     "PEP": 1795792261.0349567,
