@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795792154.695,
-  "updated_at_et": "11-27 10:09 ET",
-  "updated_at_kst": "00:09 KST",
+  "updated_at_ts": 1795792261.035,
+  "updated_at_et": "11-27 10:11 ET",
+  "updated_at_kst": "00:11 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1017,6 +1017,13 @@
     ],
     "QCOM": [
       {
+        "title": "Trump’s New Tariffs Hit Taiwan but Spare Its Chips. That’s Good News for TSMC and Apple",
+        "url": "https://www.tikr.com/blog/trumps-new-tariffs-hit-taiwan-but-spare-its-chips-thats-good-news-for-tsmc-and-apple?ref=yahoofinance&tlnk=yf-261127-wff3mmwm&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:40 ET",
+        "pub_ts": 1795786836.0
+      },
+      {
         "title": "Does Qualcomm Stock Have A Future?",
         "url": "https://www.trefis.com/stock/qcom/articles/629363/does-qualcomm-stock-have-a-future/2026-11-27?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1043,13 +1050,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 16:20 ET",
         "pub_ts": 1795641602.0
-      },
-      {
-        "title": "What Sent Qualcomm Stock Higher?",
-        "url": "https://www.trefis.com/stock/qcom/articles/628621/what-sent-qualcomm-stock-higher/2026-11-25?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 15:23 ET",
-        "pub_ts": 1795638210.0
       }
     ],
     "AVGO": [
@@ -1128,6 +1128,20 @@
     ],
     "META": [
       {
+        "title": "Meta Disrupts AI-Driven Commerce",
+        "url": "https://www.mediapost.com/publications/article/419717/meta-disrupts-ai-driven-commerce.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:49 ET",
+        "pub_ts": 1795790958.0
+      },
+      {
+        "title": "Anthropic, Meta and Microsoft Join AI Data Center Talks in Japan",
+        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-meta-microsoft-join-ai-143801446.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:38 ET",
+        "pub_ts": 1795790281.0
+      },
+      {
         "title": "Meta Platform Faces Fresh Threat to Zuckerberg's Next Big Bet",
         "url": "https://finance.yahoo.com/technology/articles/meta-platform-faces-fresh-threat-143150955.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1147,20 +1161,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 06:49 ET",
         "pub_ts": 1795780172.0
-      },
-      {
-        "title": "Is Meta Stock a Buy as Amazon Reportedly Weighs Letting Its AI Shopping Agent Back In?",
-        "url": "https://www.fool.com/investing/2026/11/27/is-meta-stock-a-buy-as-amazon-reportedly-weighs-letting-its-ai-shopping-agent-back-in/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:33 ET",
-        "pub_ts": 1795779182.0
-      },
-      {
-        "title": "New Study Shows AI Agent Traffic to Soar During Cyber Week: NYSE Content Update",
-        "url": "https://finance.yahoo.com/technology/ai/articles/study-shows-ai-agent-traffic-135500519.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 08:55 ET",
-        "pub_ts": 1795787700.0
       }
     ],
     "GOOGL": [
@@ -1179,28 +1179,35 @@
         "pub_ts": 1795780980.0
       },
       {
-        "title": "JPMorgan Flags Major Turning Point for AI Stocks",
-        "url": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-flags-major-turning-point-143359163.html?.tsrc=rss",
+        "title": "Stock Market Today: Dow Jumps 500 Points While Nvidia Wavers; Anthropic, Tesla, SpaceX Rally (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow-jumps.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 09:33 ET",
-        "pub_ts": 1795790039.0
+        "time": "11-27 09:51 ET",
+        "pub_ts": 1795791085.0
       },
       {
-        "title": "Content Filtering Market Report 2026: Global Forecast to 2030 | Capitalize on AI and Zero Trust as Cisco, Palo Alto Networks, Fortinet, and Zscaler Drive 12.2% CAGR",
-        "url": "https://finance.yahoo.com/technology/ai/articles/content-filtering-market-report-2026-143300378.html?.tsrc=rss",
+        "title": "Google Faces Growing Backlash Over Major AI Push",
+        "url": "https://finance.yahoo.com/technology/ai/articles/google-faces-growing-backlash-over-144037030.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 09:33 ET",
-        "pub_ts": 1795789980.0
+        "time": "11-27 09:40 ET",
+        "pub_ts": 1795790437.0
       },
       {
-        "title": "5 Strong Buy Stocks to Buy and Hold For the Next 5 Years",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/5-strong-buy-stocks-buy-142357618.html?.tsrc=rss",
+        "title": "Anthropic, Meta and Microsoft Join AI Data Center Talks in Japan",
+        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-meta-microsoft-join-ai-143801446.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 09:23 ET",
-        "pub_ts": 1795789437.0
+        "time": "11-27 09:38 ET",
+        "pub_ts": 1795790281.0
       }
     ],
     "MSFT": [
+      {
+        "title": "Anthropic, Meta and Microsoft Join AI Data Center Talks in Japan",
+        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-meta-microsoft-join-ai-143801446.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:38 ET",
+        "pub_ts": 1795790281.0
+      },
       {
         "title": "Privacy-Enhancing Computation Market to Reach $16.49 Billion by 2030 as Data Protection Demand Accelerates - Microsoft, IBM, Cisco, and Oracle Accelerate AI, FHE, and Cloud Security",
         "url": "https://finance.yahoo.com/technology/ai/articles/privacy-enhancing-computation-market-reach-143600579.html?.tsrc=rss",
@@ -1228,13 +1235,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 08:35 ET",
         "pub_ts": 1795786536.0
-      },
-      {
-        "title": "Tech Sell-Off: 1 Unstoppable Stock-Split Stock to Buy Before It Joins Nvidia, Alphabet, Microsoft, and Apple in the $3 Trillion Club",
-        "url": "https://www.fool.com/investing/2026/11/27/tech-sell-off-1-unstoppable-stock-split-stock-buy-before-joins-nvidia-alphabet-microsoft-apple-usd3-trillion-club/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 07:37 ET",
-        "pub_ts": 1795783022.0
       }
     ],
     "AAPL": [
@@ -1253,6 +1253,13 @@
         "pub_ts": 1795786980.0
       },
       {
+        "title": "Trump’s New Tariffs Hit Taiwan but Spare Its Chips. That’s Good News for TSMC and Apple",
+        "url": "https://www.tikr.com/blog/trumps-new-tariffs-hit-taiwan-but-spare-its-chips-thats-good-news-for-tsmc-and-apple?ref=yahoofinance&tlnk=yf-261127-wff3mmwm&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:40 ET",
+        "pub_ts": 1795786836.0
+      },
+      {
         "title": "Apple Now Ships 57% of U.S. Smartphones as Memory Costs Crush Cheap Android Phones",
         "url": "https://247wallst.com/investing/2026/11/27/apple-now-ships-57-of-u-s-smartphones-as-memory-costs-crush-cheap-android-phones/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1265,16 +1272,16 @@
         "source": "Yahoo Finance",
         "time": "11-27 07:58 ET",
         "pub_ts": 1795784287.0
-      },
-      {
-        "title": "Tech Sell-Off: 1 Unstoppable Stock-Split Stock to Buy Before It Joins Nvidia, Alphabet, Microsoft, and Apple in the $3 Trillion Club",
-        "url": "https://www.fool.com/investing/2026/11/27/tech-sell-off-1-unstoppable-stock-split-stock-buy-before-joins-nvidia-alphabet-microsoft-apple-usd3-trillion-club/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 07:37 ET",
-        "pub_ts": 1795783022.0
       }
     ],
     "PLTR": [
+      {
+        "title": "Palantir Stock Jumps. It Could Land a Major Poland Defense Deal",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-jumps-could-land-143921179.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:39 ET",
+        "pub_ts": 1795790361.0
+      },
       {
         "title": "Palantir’s 17% Month Long Downturn: An Entry Opportunity According to This Wall Street Desk That Sees 67% Gains Ahead",
         "url": "https://247wallst.com/investing/2026/11/27/palantirs-17-month-long-downturn-an-entry-opportunity-according-to-this-wall-street-desk-that-sees-67-gains-ahead/?.tsrc=rss",
@@ -1302,13 +1309,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 04:07 ET",
         "pub_ts": 1795770422.0
-      },
-      {
-        "title": "Palantir Stocks Rise 1.5% After Peter Thiel Discloses a $122 Million Share Purchase",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stocks-rise-1-5-183642789.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 13:36 ET",
-        "pub_ts": 1795718202.0
       }
     ],
     "NOW": [
@@ -1350,6 +1350,13 @@
     ],
     "AMZN": [
       {
+        "title": "Anthropic, Meta and Microsoft Join AI Data Center Talks in Japan",
+        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-meta-microsoft-join-ai-143801446.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:38 ET",
+        "pub_ts": 1795790281.0
+      },
+      {
         "title": "Market Chatter: Hackers Breach US Air Force Cloud Platform Powered by Microsoft, Amazon, Oracle, Alphabet",
         "url": "https://finance.yahoo.com/technology/articles/market-chatter-hackers-breach-us-122132707.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1376,13 +1383,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 06:04 ET",
         "pub_ts": 1795777469.0
-      },
-      {
-        "title": "What JPMorgan Active Growth ETF (JGRO) Bought: Amazon Leads on Nov. 25",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-active-growth-etf-jgro-110415983.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:04 ET",
-        "pub_ts": 1795777455.0
       }
     ],
     "CRWV": [
@@ -3300,27 +3300,27 @@
     "SOXS": 1795791118.5663345,
     "NVDA": 1795791118.5663345,
     "AMD": 1795791118.5663345,
-    "ASML": 1795790698.963265,
-    "QCOM": 1795790698.963265,
-    "AVGO": 1795790698.963265,
-    "AMAT": 1795790698.963265,
-    "META": 1795790698.963265,
-    "GOOGL": 1795790698.963265,
-    "MSFT": 1795790698.963265,
-    "AAPL": 1795790698.963265,
-    "PLTR": 1795790698.963265,
-    "NOW": 1795790698.963265,
-    "AMZN": 1795790698.963265,
-    "CRWV": 1795790698.963265,
-    "NBIS": 1795790698.963265,
-    "APLD": 1795790698.963265,
-    "VST": 1795790698.963265,
-    "BE": 1795790698.963265,
-    "CRDO": 1795790698.963265,
-    "COHR": 1795790698.963265,
-    "MRVL": 1795790698.963265,
+    "ASML": 1795792261.0349567,
+    "QCOM": 1795792261.0349567,
+    "AVGO": 1795792261.0349567,
+    "AMAT": 1795792261.0349567,
+    "META": 1795792261.0349567,
+    "GOOGL": 1795792261.0349567,
+    "MSFT": 1795792261.0349567,
+    "AAPL": 1795792261.0349567,
+    "PLTR": 1795792261.0349567,
+    "NOW": 1795792261.0349567,
+    "AMZN": 1795792261.0349567,
+    "CRWV": 1795792261.0349567,
+    "NBIS": 1795792261.0349567,
+    "APLD": 1795792261.0349567,
+    "VST": 1795792261.0349567,
+    "BE": 1795792261.0349567,
+    "CRDO": 1795792261.0349567,
+    "COHR": 1795792261.0349567,
+    "MRVL": 1795792261.0349567,
     "LITE": 1795791014.7312832,
-    "AAOI": 1795790698.963265,
+    "AAOI": 1795792261.0349567,
     "SPCX": 1795791014.7312832,
     "ASTS": 1795791014.7312832,
     "AXTI": 1795791014.7312832,
@@ -3350,13 +3350,13 @@
     "COIN": 1795791221.5539992,
     "LLY": 1795791221.5539992,
     "MRNA": 1795791221.5539992,
-    "NKE": 1795790698.963265,
-    "MCD": 1795790698.963265,
-    "PEP": 1795790698.963265,
+    "NKE": 1795792261.0349567,
+    "MCD": 1795792261.0349567,
+    "PEP": 1795792261.0349567,
     "XOM": 1795791014.7312832,
-    "JPM": 1795790698.963265,
+    "JPM": 1795792261.0349567,
     "WMT": 1795791014.7312832,
-    "V": 1795790698.963265,
+    "V": 1795792261.0349567,
     "CAT": 1795791014.7312832,
     "FN": 1795791014.7312832,
     "GLW": 1795791014.7312832,
