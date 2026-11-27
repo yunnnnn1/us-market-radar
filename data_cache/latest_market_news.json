@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795809140.053,
-  "updated_at_et": "11-27 14:52 ET",
-  "updated_at_kst": "04:52 KST",
+  "updated_at_ts": 1795809241.607,
+  "updated_at_et": "11-27 14:54 ET",
+  "updated_at_kst": "04:54 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -3202,6 +3202,13 @@
     ],
     "ANT": [
       {
+        "title": "TSMC: Starting To Look Like A Buy Again (Rating Upgrade)",
+        "url": "https://finnhub.io/api/news?id=b274ad1eb0b710d8b52b1536fa11c393bdb3afc90081fef72d408e88c611fddd",
+        "source": "SeekingAlpha",
+        "time": "11-27 09:20 ET",
+        "pub_ts": 1795789259.0
+      },
+      {
         "title": "Nvidia: Valuing The Jensen-Sized Void",
         "url": "https://finnhub.io/api/news?id=7ea157a9dea40754dc4186eeda7c857a1bfcf09b76274a400a1eebd54116717d",
         "source": "SeekingAlpha",
@@ -3228,13 +3235,6 @@
         "source": "Benzinga",
         "time": "11-27 04:04 ET",
         "pub_ts": 1795770291.0
-      },
-      {
-        "title": "Could AI Threaten Bitcoin, Ethereum, XRP? Inside Crypto’s ‘Wall of Worry’",
-        "url": "https://finnhub.io/api/news?id=eb6f5707a1f46f3419c0c614ec0ec9dd664b7764a8defb3086abb58efad9dbc6",
-        "source": "Benzinga",
-        "time": "11-27 03:49 ET",
-        "pub_ts": 1795769390.0
       }
     ],
     "XAUUSD": [
@@ -3355,15 +3355,15 @@
     "NKE": 1795809140.0526388,
     "MCD": 1795809140.0526388,
     "PEP": 1795809140.0526388,
-    "XOM": 1795807708.261044,
+    "XOM": 1795809241.6065793,
     "JPM": 1795809140.0526388,
-    "WMT": 1795807708.261044,
+    "WMT": 1795809241.6065793,
     "V": 1795809140.0526388,
-    "CAT": 1795807708.261044,
+    "CAT": 1795809241.6065793,
     "FN": 1795809140.0526388,
     "GLW": 1795809140.0526388,
-    "ANT": 1795807708.261044,
-    "XAUUSD": 1795807708.261044,
+    "ANT": 1795809241.6065793,
+    "XAUUSD": 1795809241.6065793,
     "KOSPI": 1795808732.223897
   },
   "opex_shield": {
