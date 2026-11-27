@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795791014.731,
-  "updated_at_et": "11-27 09:50 ET",
-  "updated_at_kst": "23:50 KST",
+  "updated_at_ts": 1795791118.566,
+  "updated_at_et": "11-27 09:51 ET",
+  "updated_at_kst": "23:51 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -794,6 +794,13 @@
     ],
     "TSM": [
       {
+        "title": "Is TSMC (TSM) a Buy as Wall Street Analysts Look Optimistic?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-tsm-buy-wall-street-133004462.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:30 ET",
+        "pub_ts": 1795786204.0
+      },
+      {
         "title": "ETFs Sold $34.5 Million of Taiwan Semiconductor (TSM) on Nov. 25",
         "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-sold-34-5-million-110229859.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -820,13 +827,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 11:00 ET",
         "pub_ts": 1795708804.0
-      },
-      {
-        "title": "Taiwan Semiconductor Manufacturing (TSM) May Make Its $22.6 Billion Texas Plant Conditional",
-        "url": "https://finance.yahoo.com/technology/articles/taiwan-semiconductor-manufacturing-tsm-may-111054914.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:10 ET",
-        "pub_ts": 1795691454.0
       }
     ],
     "VIXY": [
@@ -905,6 +905,13 @@
     ],
     "NVDA": [
       {
+        "title": "How Leopold Aschenbrenner made a $225 million bet on AI infrastructure",
+        "url": "https://finance.yahoo.com/video/leopold-aschenbrenner-made-225-million-143000764.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:30 ET",
+        "pub_ts": 1795789800.0
+      },
+      {
         "title": "Nvidia freezing chip orders to four Southeast Asian countries",
         "url": "https://finance.yahoo.com/video/nvidia-freezing-chip-orders-to-four-southeast-asian-countries-140011925.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -912,32 +919,25 @@
         "pub_ts": 1795788011.0
       },
       {
-        "title": "Nvidia stock is still paying the price for the Jensen Huang CEO drama",
-        "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-is-still-paying-the-price-for-the-jensen-huang-ceo-drama-124902053.html?.tsrc=rss",
+        "title": "Fire Sale: Here's Why Now May Be the Perfect Time to Buy Nvidia Stock",
+        "url": "https://www.fool.com/investing/2026/11/27/fire-sale-here-s-why-now-may-be-the-perfect-time-to-buy-nvidia-stock/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 07:49 ET",
-        "pub_ts": 1795783742.0
+        "time": "11-27 09:38 ET",
+        "pub_ts": 1795790282.0
       },
       {
-        "title": "Stock Market Today: Dow Futures Jump 650 Points As Nvidia Rebounds; Anthropic, SpaceX, Tesla Rally (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow.html?.tsrc=rss",
+        "title": "Jensen Huang Said Blackwell Racks Wouldn't Fit In A 'Pocket Or Backpack' But One Has Reportedly Turned Up in Shanghai",
+        "url": "https://stocktwits.com/news-articles/markets/equity/jensen-huang-said-blackwell-racks-wouldn-t-fit-in-a-pocket-or-backpack-but-one-has-reportedly-turned-up-in-shanghai/cNbCwmzR9Vb?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 09:00 ET",
-        "pub_ts": 1795788002.0
+        "time": "11-27 09:29 ET",
+        "pub_ts": 1795789781.0
       },
       {
-        "title": "AI Needs More Than Nvidia Chips. This Stock Could Benefit",
-        "url": "https://247wallst.com/investing/2026/11/27/ai-needs-more-than-nvidia-chips-this-stock-could-benefit/?.tsrc=rss",
+        "title": "Kioxia Stock Has Soared 21% in Two Days After an Nvidia SSD Test",
+        "url": "https://247wallst.com/investing/2026/11/27/kioxia-stock-has-soared-21-in-two-days-after-an-nvidia-ssd-test/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 08:47 ET",
-        "pub_ts": 1795787250.0
-      },
-      {
-        "title": "Is Nvidia a Screaming Buy or a Value Trap?",
-        "url": "https://www.fool.com/investing/2026/11/27/is-nvidia-a-screaming-buy-or-a-value-trap/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 08:25 ET",
-        "pub_ts": 1795785902.0
+        "time": "11-27 09:28 ET",
+        "pub_ts": 1795789708.0
       }
     ],
     "AMD": [
@@ -2570,6 +2570,13 @@
     ],
     "SNDK": [
       {
+        "title": "How Leopold Aschenbrenner made a $225 million bet on AI infrastructure",
+        "url": "https://finance.yahoo.com/video/leopold-aschenbrenner-made-225-million-143000764.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:30 ET",
+        "pub_ts": 1795789800.0
+      },
+      {
         "title": "SanDisk Jumps 10% as Investors Return to Beaten-Down Memory Stocks; Micron and SK Hynix Rise 6% Despite TrendForce DRAM Warning",
         "url": "https://247wallst.com/investing/2026/11/27/sandisk-jumps-10-as-investors-return-to-beaten-down-memory-stocks-micron-and-sk-hynix-rise-6-despite-trendforce-dram-warning/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2596,13 +2603,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 05:22 ET",
         "pub_ts": 1795774920.0
-      },
-      {
-        "title": "Sandisk’s 8-for-1 Split Is Done. Here’s What Investors Should Do Next.",
-        "url": "https://www.fool.com/investing/2026/11/26/sandisks-8-for-1-split-is-done-heres-what-investors-should-do-next/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 16:20 ET",
-        "pub_ts": 1795728002.0
       }
     ],
     "BTC-USD": [
@@ -2651,6 +2651,13 @@
         "pub_ts": 1795788541.0
       },
       {
+        "title": "2 More Firms Downgraded Zscaler in One Day. Its Upside Now Depends on CrowdStrike Stock",
+        "url": "https://www.tikr.com/blog/2-more-firms-downgraded-zscaler-in-one-day-its-upside-now-depends-on-crowdstrike-stock?ref=yahoofinance&tlnk=yf-261127-7v487q8f&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:05 ET",
+        "pub_ts": 1795788324.0
+      },
+      {
         "title": "Exploits Arrive in “10 to 15 Minutes,” Patches in 45 Days, per Cisco’s Jeetu Patel. Cue CrowdStrike",
         "url": "https://www.tikr.com/blog/exploits-arrive-in-10-to-15-minutes-patches-in-45-days-per-ciscos-jeetu-patel-cue-crowdstrike?ref=yahoofinance&tlnk=yf-261127-27866rp2&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2670,13 +2677,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 08:00 ET",
         "pub_ts": 1795784404.0
-      },
-      {
-        "title": "The Zacks Analyst Blog Highlights CrowdStrike, Lockheed Martin, S&P Global, The Eastern and AmeriServ Financial",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-crowdstrike-064800574.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 01:48 ET",
-        "pub_ts": 1795762080.0
       }
     ],
     "ORCL": [
@@ -3282,23 +3282,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795789520.5510197,
-    "SOXL": 1795789520.5510197,
-    "SPY": 1795789520.5510197,
-    "DIA": 1795789520.5510197,
-    "SOXX": 1795789520.5510197,
-    "QQQ": 1795789520.5510197,
-    "SMH": 1795789520.5510197,
-    "IWM": 1795789520.5510197,
-    "IGV": 1795789520.5510197,
-    "TLT": 1795789520.5510197,
-    "GLD": 1795789520.5510197,
-    "SQQQ": 1795789520.5510197,
-    "TSM": 1795789520.5510197,
-    "VIXY": 1795789520.5510197,
-    "SOXS": 1795789520.5510197,
-    "NVDA": 1795789520.5510197,
-    "AMD": 1795789520.5510197,
+    "KORU": 1795791118.5663345,
+    "SOXL": 1795791118.5663345,
+    "SPY": 1795791118.5663345,
+    "DIA": 1795791118.5663345,
+    "SOXX": 1795791118.5663345,
+    "QQQ": 1795791118.5663345,
+    "SMH": 1795791118.5663345,
+    "IWM": 1795791118.5663345,
+    "IGV": 1795791118.5663345,
+    "TLT": 1795791118.5663345,
+    "GLD": 1795791118.5663345,
+    "SQQQ": 1795791118.5663345,
+    "TSM": 1795791118.5663345,
+    "VIXY": 1795791118.5663345,
+    "SOXS": 1795791118.5663345,
+    "NVDA": 1795791118.5663345,
+    "AMD": 1795791118.5663345,
     "ASML": 1795790698.963265,
     "QCOM": 1795790698.963265,
     "AVGO": 1795790698.963265,
@@ -3337,14 +3337,14 @@
     "OKLO": 1795791014.7312832,
     "CEG": 1795791014.7312832,
     "FPS": 1795791014.7312832,
-    "MU": 1795789520.5510197,
-    "SKHY": 1795789520.5510197,
-    "WDC": 1795789520.5510197,
-    "STX": 1795789520.5510197,
-    "MSTR": 1795789520.5510197,
-    "SNDK": 1795789520.5510197,
+    "MU": 1795791118.5663345,
+    "SKHY": 1795791118.5663345,
+    "WDC": 1795791118.5663345,
+    "STX": 1795791118.5663345,
+    "MSTR": 1795791118.5663345,
+    "SNDK": 1795791118.5663345,
     "BTC-USD": 1795789623.073774,
-    "CRWD": 1795789520.5510197,
+    "CRWD": 1795791118.5663345,
     "ORCL": 1795789623.073774,
     "COIN": 1795789623.073774,
     "LLY": 1795789623.073774,
@@ -3361,7 +3361,7 @@
     "GLW": 1795791014.7312832,
     "ANT": 1795791014.7312832,
     "XAUUSD": 1795791014.7312832,
-    "KOSPI": 1795789520.5510197
+    "KOSPI": 1795791118.5663345
   },
   "opex_shield": {
     "date": "2026-11-27",
