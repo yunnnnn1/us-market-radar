@@ -1261,13 +1261,16 @@ def _fetch_single_ticker(ticker: str, start_date: str = '2021-11-01', max_retrie
     return None
 
 
-def _get_latest_expected_trading_day(ref_dt: Optional[datetime] = None) -> datetime.date:
+def _get_latest_expected_trading_day(
+    ref_dt: Optional[datetime] = None,
+    buffer_minutes: int = 0,
+) -> datetime.date:
     """
-    计算最近一个应该已经收盘的美股交易日 (周一至周五)。
-    以美东时间 (America/New_York) 为基准，美股常规交易时段于 16:00 ET 收盘：
-    - 若当前美东时间处于周一至周五且 >= 16:00 ET，则今日常规交易已收盘，最新应收盘交易日即为今日。
-    - 若当前美东时间处于周一至周五但 < 16:00 ET，则今日未收盘，最新应收盘交易日为上一交易日 (周一盘中退回上周五)。
-    - 若当前美东时间处于周六或周日，退回本周五。
+    计算最近一个应该已经收盘的美股交易日 (周一至周五，兼容半日市 13:00 ET 收盘)。
+    以美东时间 (America/New_York) 为基准：
+    - 常规交易日于 16:00 ET 收盘，半日市于 13:00 ET 收盘；
+    - 若当前美东时间处于工作日且 >= close_min + buffer_minutes，则今日已收盘，最新应收盘交易日即为今日；
+    - 否则退回上一工作日 (跳过周六与周日)。
     """
     try:
         import zoneinfo
@@ -1284,11 +1287,16 @@ def _get_latest_expected_trading_day(ref_dt: Optional[datetime] = None) -> datet
         ref_dt = ref_dt.replace(tzinfo=et_tz)
 
     cur_d = ref_dt.date()
-    # 周一至周五 16:00 ET 之后常规交易已收盘，最新已收盘交易日即为今日
-    if cur_d.weekday() < 5 and ref_dt.hour >= 16:
+    try:
+        import us_market_calendar as _umc
+        close_min = _umc.get_us_market_close_minutes(cur_d)
+    except Exception:
+        close_min = 16 * 60
+    hm = ref_dt.hour * 60 + ref_dt.minute
+    if cur_d.weekday() < 5 and hm >= (close_min + int(buffer_minutes)):
         return cur_d
 
-    # 16:00 ET 之前或周末，退回上一交易日 (跳过周六与周日)
+    # 收盘前或周末，退回上一交易日 (跳过周六与周日)
     check_d = cur_d - timedelta(days=1)
     while check_d.weekday() >= 5:  # 5=Sat, 6=Sun
         check_d -= timedelta(days=1)
@@ -1321,19 +1329,26 @@ def _get_chart_session(ref_dt: Optional[datetime] = None):
     hm = et.hour * 60 + et.minute
     last_closed = _get_latest_expected_trading_day(et)
 
+    try:
+        import us_market_calendar as _umc
+        _close_min = _umc.get_us_market_close_minutes(day)
+        _ah_end_min = _umc.get_us_after_hours_end_minutes(day)
+    except Exception:
+        _close_min = 16 * 60
+        _ah_end_min = 20 * 60
     if wd == 6 and hm >= 20 * 60:
         return day + timedelta(days=1), last_closed, "今日", True
     if wd >= 5:
         return last_closed, last_closed, f"最新收盘 ({last_closed.strftime('%m-%d')})", False
-    if hm >= 20 * 60 and wd < 4:
+    if hm >= _ah_end_min and wd < 4:
         return day + timedelta(days=1), last_closed, "今日", True
-    if hm >= 20 * 60 and wd == 4:
+    if hm >= _ah_end_min and wd == 4:
         return last_closed, last_closed, f"最新收盘 ({last_closed.strftime('%m-%d')})", False
     if hm < 4 * 60:
         return day, last_closed, "今日", True
     if hm < 9 * 60 + 30:
         return day, last_closed, f"盘前实时 ({day.strftime('%m-%d')})", True
-    if hm < 16 * 60:
+    if hm < _close_min:
         return day, last_closed, f"盘中实时 ({day.strftime('%m-%d')})", True
     return day, last_closed, f"最新收盘 ({day.strftime('%m-%d')})", False
 
@@ -3270,18 +3285,41 @@ def compute_multi_level_scenario_map(
     if r1 <= close:
         r1 = round(close + min_step, 2)
         r1_source = "ATR_ESTIMATE"
-    if r2 <= r1 or ((r2 - r1) / max(r1, 0.01)) < _min_step_eff_sc:
+    try:
+        import sr_anchor_engine as _sr_r2_mod
+        _max_r2_step_sc = _sr_r2_mod.compute_sr_max_r2_step_pct(_atr_dec_sc)
+    except Exception:
+        _max_r2_step_sc = float(min(0.22, max(0.10, 1.5 * _atr_dec_sc)))
+        _sr_r2_mod = None
+    _r2_upper_ref = max(close, r1)
+    _r2_min_b = r1 * (1.0 + _min_step_eff_sc)
+    _r2_max_b = _r2_upper_ref * (1.0 + _max_r2_step_sc)
+    _r2_out_of_band = (r2 <= _r2_upper_ref) or (r2 < _r2_min_b) or (knn_upper is None and r2 > _r2_max_b)
+    if _r2_out_of_band:
         _higher_r_pool = sorted(
-            {round(float(x), 2) for x in real_r2_pool if float(x) > r1 and ((float(x) - r1) / max(r1, 0.01)) >= _min_step_eff_sc}
+            {
+                round(float(x), 2)
+                for x in real_r2_pool
+                if max(_r2_min_b, close * 1.005) <= float(x) <= (_r2_max_b if knn_upper is None else float("inf"))
+            }
         )
         if _higher_r_pool:
             r2 = _higher_r_pool[0]
             r2_source = "REAL_CHIPS"
         else:
-            _synth_r2_step = max(_min_step_eff_sc, min(0.08, 0.80 * _atr_dec_sc))
-            r2 = round(r1 * (1.0 + _synth_r2_step), 2)
-            if r2 <= r1:
-                r2 = round(r1 + max(min_step, 0.01), 2)
+            if _sr_r2_mod is not None and knn_upper is None:
+                r2 = _sr_r2_mod._synthesize_bounded_r2(
+                    r1=_r2_upper_ref,
+                    atr_dec=_atr_dec_sc,
+                    min_step_pct=_min_step_eff_sc,
+                    max_r2_step_pct=_max_r2_step_sc,
+                    min_abs_step=min_step,
+                )
+            else:
+                _synth_r2_step = max(_min_step_eff_sc, min(0.12, 1.0 * _atr_dec_sc))
+                r2 = round(_r2_upper_ref * (1.0 + _synth_r2_step), 2)
+            if r2 <= _r2_upper_ref:
+                r2 = round(_r2_upper_ref + max(min_step, 0.01), 2)
             r2_source = "ATR_ESTIMATE"
 
     # 生成盘前盘中结构化实战剧本 (包含防守点位、目标阻力与失效止损，严禁与 action 产生逻辑冲突；KOSPI 点数格式去 $)
@@ -3368,8 +3406,20 @@ def sync_scenario_script_levels(item: Dict[str, Any]) -> str:
 
     _raw_sl_v = float(item.get("sl") or 0.0) if item.get("sl") is not None else 0.0
     _sw_sl_v = float(item.get("stop_loss_price") or 0.0) if item.get("stop_loss_price") is not None else 0.0
-    _cur_px_v = float(item.get("current_price") or item.get("latest_price") or 0.0)
-    _use_sl_v = max(_raw_sl_v, _sw_sl_v) if (_sw_sl_v > 0 and (_cur_px_v <= 0 or _sw_sl_v < _cur_px_v)) else _raw_sl_v
+    _sc_sl_v = float(item.get("script_stop_loss") or 0.0) if item.get("script_stop_loss") is not None else 0.0
+    _cur_px_v = float(item.get("active_price") or item.get("current_price") or item.get("latest_price") or 0.0)
+    _sr_st_v = str(item.get("sr_breach_state") or "").upper()
+    if _cur_px_v > 0 and (_sr_st_v == "ALL_SUPPORT_BREACHED" or _raw_sl_v >= _cur_px_v):
+        if 0 < _sw_sl_v < _cur_px_v:
+            _use_sl_v = _sw_sl_v
+        elif 0 < _sc_sl_v < _cur_px_v:
+            _use_sl_v = _sc_sl_v
+        else:
+            _use_sl_v = round(_cur_px_v * 0.947, 2)
+    else:
+        _use_sl_v = max(_raw_sl_v, _sw_sl_v) if (_sw_sl_v > 0 and (_cur_px_v <= 0 or _sw_sl_v < _cur_px_v)) else _raw_sl_v
+        if _cur_px_v > 0 and _use_sl_v >= _cur_px_v:
+            _use_sl_v = _sw_sl_v if (0 < _sw_sl_v < _cur_px_v) else round(_cur_px_v * 0.947, 2)
     sl_fv = _fmt(_use_sl_v)
     if sl_fv is not None:
         script = re.sub(
@@ -3754,18 +3804,22 @@ def align_time_cycle_projections_with_live(
 
     sc = str(session_code or "").upper().strip()
     if not sc:
-        wd_n = et_now.weekday()
-        hm_n = et_now.hour * 60 + et_now.minute
-        if wd_n >= 5 or (wd_n == 4 and hm_n >= 20 * 60):
-            sc = "WEEKEND"
-        elif hm_n >= 20 * 60 or hm_n < 4 * 60:
-            sc = "OVERNIGHT"
-        elif hm_n < 9 * 60 + 30:
-            sc = "PRE_MARKET"
-        elif hm_n < 16 * 60:
-            sc = "REGULAR"
-        else:
-            sc = "POST_MARKET"
+        try:
+            import us_market_calendar as _umc
+            sc, _ = _umc.classify_us_market_session(et_now, post_market_code="POST_MARKET")
+        except Exception:
+            wd_n = et_now.weekday()
+            hm_n = et_now.hour * 60 + et_now.minute
+            if wd_n >= 5 or (wd_n == 4 and hm_n >= 20 * 60):
+                sc = "WEEKEND"
+            elif hm_n >= 20 * 60 or hm_n < 4 * 60:
+                sc = "OVERNIGHT"
+            elif hm_n < 9 * 60 + 30:
+                sc = "PRE_MARKET"
+            elif hm_n < 16 * 60:
+                sc = "REGULAR"
+            else:
+                sc = "POST_MARKET"
 
     if sc == "PRE_MARKET":
         eq_day = et_now.date() if et_now.weekday() < 5 else sess_day
@@ -5707,6 +5761,8 @@ def generate_report_tables(
     top_short_stocks = []
     all_live_rows = []
     latest_df = latest_features_df.copy()
+    if 'Ticker' in latest_df.columns and not latest_df.empty:
+        latest_df = latest_df.drop_duplicates(subset=['Ticker'], keep='first').reset_index(drop=True)
 
     # 建立多头与空头赛道历史 OOS 高置信胜率、期望盈亏比与星级映射表
     sector_oos_wr_map = {r['sector_key']: r['high_conviction_win_rate_pct'] for r in table2_rows}
@@ -6315,6 +6371,16 @@ def generate_report_tables(
                 _mr['trend_temperature_tone'] = _tt
         except Exception:
             pass
+
+        # 严格按 ticker 去重（防同一标的在双向 Top 5 或全景截面中出现重复行）
+        _seen_live_tks = set()
+        _deduped_live_rows = []
+        for _r_dup in all_live_rows:
+            _tk_k = str(_r_dup.get('ticker') or '').strip().upper()
+            if _tk_k and _tk_k not in _seen_live_tks:
+                _seen_live_tks.add(_tk_k)
+                _deduped_live_rows.append(_r_dup)
+        all_live_rows = _deduped_live_rows
 
         # 多头精选榜 Top 10 (正股优先，严格按 calibrated_win_rate_pct 降序，与空头榜排序口径一致)
         long_candidates = [r.copy() for r in all_live_rows if not r.get('is_etf', False)]
@@ -7179,6 +7245,8 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
     }
     tc_enriched: Dict[str, Any] = {}
     for tk_c, item_c in raw_tc.items():
+        if live_by_tk and str(tk_c) not in live_by_tk:
+            continue
         if not isinstance(item_c, dict):
             tc_enriched[tk_c] = item_c
             continue
@@ -7245,7 +7313,16 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
     t2 = tables_data.get('table2', [])
     t3 = tables_data.get('table3', [])
     t4 = tables_data.get('table4', [])
-    all_live = tables_data.get('all_live_predictions', t4) or t4
+    _raw_all_live = tables_data.get('all_live_predictions', t4) or t4
+    _seen_html_tks = set()
+    all_live = []
+    for _row_l in _raw_all_live:
+        if not isinstance(_row_l, dict):
+            continue
+        _tk_h = str(_row_l.get('ticker') or '').strip().upper()
+        if _tk_h and _tk_h not in _seen_html_tks:
+            _seen_html_tks.add(_tk_h)
+            all_live.append(_row_l)
 
     _regime_code = str(weather.get('market_regime', 'NEUTRAL_CHOP'))
     _is_bear_defense = (_regime_code == 'BEAR_DEFENSE')
@@ -7264,6 +7341,24 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
         vix_css, vix_pill_html, vix_js = _vre_html.render_vix_pill_widget_parts(_vix_regime, popover_align='left')
     except Exception:
         vix_css, vix_pill_html, vix_js = "", "", ""
+
+    try:
+        import copy_trade_kol_engine as _ct_dual_mod
+        copy_drawer_css = _ct_dual_mod.DUAL_COPY_DRAWER_CSS
+        copy_drawer_html = _ct_dual_mod.render_dual_track_copy_drawer_html(
+            compact=False,
+            drawer_id="copyTradeLedgerDrawer",
+        )
+    except Exception:
+        try:
+            import copy_trade_engine as _ct_html_mod
+            copy_drawer_css = _ct_html_mod.COPY_TRADE_DRAWER_CSS
+            copy_drawer_html = _ct_html_mod.render_copy_trade_drawer_html(
+                compact=False,
+                drawer_id="copyTradeLedgerDrawer",
+            )
+        except Exception:
+            copy_drawer_css, copy_drawer_html = "", ""
     _vr_spot = _vix_regime.get('vix_spot') if isinstance(_vix_regime, dict) else None
     _vr_vxn = _vix_regime.get('vxn_spot') if isinstance(_vix_regime, dict) else None
     _vr_spread = _vix_regime.get('vxn_vix_spread') if isinstance(_vix_regime, dict) else None
@@ -7584,12 +7679,30 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
         )
     )
     for idx_s, item in enumerate(short_sorted, 1):
-        if 'short_rank' not in item or not item['short_rank']:
-            item['short_rank'] = idx_s
+        item['short_rank'] = idx_s
 
-    top_short = tables_data.get('top_short', [])
-    if not top_short:
-        top_short = [r for r in short_sorted if not (r.get('is_crash_halt') or r.get('is_cooling_halt'))][:5] or short_sorted[:5]
+    _raw_top_short = tables_data.get('top_short', []) or []
+    _seen_ts = set()
+    top_short = []
+    for _rs in _raw_top_short:
+        if not isinstance(_rs, dict):
+            continue
+        _tk_s = str(_rs.get('ticker') or '').strip().upper()
+        if _tk_s and _tk_s not in _seen_ts:
+            _seen_ts.add(_tk_s)
+            top_short.append(_rs)
+    if len(top_short) < 5:
+        for _rs in short_sorted:
+            if _rs.get('is_crash_halt') or _rs.get('is_cooling_halt'):
+                continue
+            _tk_s = str(_rs.get('ticker') or '').strip().upper()
+            if _tk_s and _tk_s not in _seen_ts:
+                _seen_ts.add(_tk_s)
+                top_short.append(_rs)
+            if len(top_short) >= 5:
+                break
+    for _rk_i, _rs in enumerate(top_short, 1):
+        _rs['short_rank'] = _rk_i
 
     # 生成 Table 4-B 空头排行榜 HTML (9 列: 排名/代码/赛道/现价ATR/做空胜率/空头止盈/空头止损/期权PCR/做空指令)
     t4_short_rows_html = ""
@@ -7675,7 +7788,7 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
 
     # 生成 Table 4-A 做多排行榜与全域 70 标的 HTML (默认展示 Top 5，支持展开全池与按赛道/ETF筛选)
     t4_rows_html = ""
-    pure_etf_set = {'QQQ', 'SPY', 'DIA', 'IWM', 'SMH', 'SOXX', 'SOXL', 'KORU', 'KOSPI', 'IGV', 'TLT', 'GLD', 'VIXY', 'SQQQ', 'SOXS'}
+    pure_etf_set = {'QQQ', 'SPY', 'DIA', 'IWM', 'SMH', 'SOXX', 'SOXL', 'KORU', 'KOSPI', 'KSTR', 'IGV', 'TLT', 'GLD', 'VIXY', 'SQQQ', 'SOXS'}
     etf_count = 0
     for r in all_live:
         rk = int(r['rank'])
@@ -8874,6 +8987,7 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
             .section-card {{ padding: 12px; }}
         }}
         {vix_css}
+        {copy_drawer_css}
     </style>
 </head>
 <body>
@@ -9321,6 +9435,9 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
                 </table>
             </div>
         </div>
+
+        <!-- V5.4 可折叠 $1,000 多空模拟跟单账本抽屉 -->
+        {copy_drawer_html}
 
         <!-- Footer -->
         <footer class="footer">
@@ -10011,7 +10128,7 @@ def render_html_dashboard(tables_data: Dict, output_path: str = 'predict_radar_5
                     'SMH': 'VanEck半导体', 'TSM': '台积电', 'NVDA': '英伟达算力',
                     'MU': '美光存储', 'AMD': '超威半导体', 'AVGO': '博通通信',
                     'MRVL': '迈威尔芯片', 'INTC': '英特尔芯片', 'SNDK': '闪迪数据存储',
-                    'QQQ': '纳指100微型', 'SQQQ': '3倍做空纳指', 'KORU': '3倍做多韩股', 'KOSPI': '韩国综合指数',
+                    'QQQ': '纳指100微型', 'SQQQ': '3倍做空纳指', 'KORU': '3倍做多韩股', 'KOSPI': '韩国综合指数', 'KSTR': '中国科技半导体ETF',
                     'BTC-USD': '比特币现货', 'XAUUSD': '伦敦金现货', 'ANT': 'Anthropic (IPO)',
                     'TSLA': '特斯拉物理AI', 'PLTR': 'Palantir企业AI'
                 }};
@@ -10732,6 +10849,7 @@ EXTENDED_RADAR_SECTOR_MAP: Dict[str, Tuple[str, str]] = {
     'SOXL': ('Semiconductors', '半导体3倍做多'),
     'SMH':  ('Semiconductors', '半导体ETF'),
     'KORU': ('Memory', '韩股存储3倍做多'),
+    'KSTR': ('Semiconductors', '中国科技半导体ETF'),
     # 存储与闪存生态
     'SKHY': ('Memory', '存储芯片'),
     'SNDK': ('Memory', '存储芯片'),
@@ -10988,11 +11106,27 @@ def export_latest_ai_predictions_json(tables_data: Dict, json_path: str = 'data_
     full_json_path = _resolve_cache_path(json_path) if not os.path.isabs(json_path) else json_path
     os.makedirs(os.path.dirname(full_json_path), exist_ok=True)
 
-    all_preds = tables_data.get('all_live_predictions') or tables_data.get('table4', [])
+    def _dedupe_rows(rows_in):
+        seen = set()
+        out = []
+        for it in (rows_in or []):
+            if not isinstance(it, dict):
+                continue
+            tk_u = str(it.get('ticker') or '').strip().upper()
+            if tk_u and tk_u not in seen:
+                seen.add(tk_u)
+                out.append(it)
+        return out
+
+    all_preds = _dedupe_rows(tables_data.get('all_live_predictions') or tables_data.get('table4', []))
     by_ticker = {item['ticker']: item for item in all_preds}
 
-    top_long = tables_data.get('top_long') or tables_data.get('table4', [])
-    top_short = tables_data.get('top_short', [])
+    top_long = _dedupe_rows(tables_data.get('top_long') or tables_data.get('table4', []))
+    top_short = _dedupe_rows(tables_data.get('top_short', []))
+    for _i_l, _it_l in enumerate(top_long, 1):
+        _it_l['rank'] = _i_l
+    for _i_s, _it_s in enumerate(top_short, 1):
+        _it_s['short_rank'] = _i_s
 
     # 规范化宏观气象键别名对齐
     mw = dict(tables_data.get('macro_weather', {}))
@@ -11031,7 +11165,10 @@ def export_latest_ai_predictions_json(tables_data: Dict, json_path: str = 'data_
         'by_ticker': by_ticker,
         'defensive_flight': tables_data.get('defensive_flight') or mw.get('defensive_flight', {}),
         'cross_industry_breadth': tables_data.get('cross_industry_breadth') or mw.get('cross_industry_breadth', {}),
-        'time_cycle_projections': tables_data.get('time_cycle_projections', {})
+        'time_cycle_projections': (
+            {k: v for k, v in (tables_data.get('time_cycle_projections') or {}).items() if k in by_ticker}
+            if by_ticker else (tables_data.get('time_cycle_projections') or {})
+        )
     }
     with open(full_json_path, 'w', encoding='utf-8') as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)

@@ -102,6 +102,7 @@ jobs:
           DISCORD_DEFENSIVE_FLIGHT_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           DISCORD_DEFENSIVE_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           DISCORD_JIN10_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_COPY_TRADE_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           # Fresh runners have no slot lock. Skip the 12-hour backlog; open windows still send.
           RADAR_SENTINEL_NO_CATCHUP: "1"
         run: |

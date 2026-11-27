@@ -327,6 +327,188 @@ class TestV53KrxCorridorSrSpacingAndMirror(unittest.TestCase):
             self.assertIn("SOXS", cft.LEVERAGED_MIRROR_PARENT_MAP)
             self.assertIn("SQQQ", cft.LEVERAGED_MIRROR_PARENT_MAP)
 
+    def test_06_v531_all_support_breached_script_sl_never_above_price(self):
+        """V5.3.1: SOXL 暴跌全线跌穿 ($33.31 < S2=$36.80) 时，4H 剧本防守止损位强制对齐 swing_sl ($31.56) 且严格 < 现价。"""
+        anchor_soxl = {
+            "anchor_s1": 40.00,
+            "anchor_s2": 36.80,
+            "anchor_sl": 36.25,
+            "anchor_r1": 45.00,
+            "anchor_r2": 50.00,
+            "s1_source": "REAL_CHIPS",
+            "s2_source": "ATR_ESTIMATE",
+            "r1_source": "REAL_CHIPS",
+            "r2_source": "ATR_ESTIMATE",
+        }
+        ev = sre.evaluate_sr_breach_state(
+            price=33.31,
+            anchor=anchor_soxl,
+            is_halt=True,
+            vwap=33.79,
+            swing_sl=31.56,
+            atr_pct=0.12,
+            ticker="SOXL",
+        )
+        self.assertEqual(ev["sr_breach_state"], sre.STATE_ALL_SUPPORT_BREACHED)
+        self.assertEqual(ev["script_stop_loss"], 31.56)
+        self.assertLess(ev["script_stop_loss"], 33.31)
+        self.assertIn("防守止损位 $31.56", ev["scenario_script"])
+        self.assertNotIn("防守止损位 $36.25", ev["scenario_script"])
+
+        # 无 swing_sl 时也不得输出 >= 现价的静态止损
+        ev_no_sw = sre.evaluate_sr_breach_state(
+            price=33.31,
+            anchor=anchor_soxl,
+            is_halt=True,
+            vwap=33.79,
+            swing_sl=None,
+            atr_pct=0.12,
+            ticker="SOXL",
+        )
+        self.assertLess(ev_no_sw["script_stop_loss"], 33.31)
+        self.assertNotIn("防守止损位 $36.25", ev_no_sw["scenario_script"])
+
+        # 验证 sync_scenario_script_levels 绝不把 $31.56 倒写回 >= 现价的静态 sl ($36.25)
+        sync_item = {
+            "latest_price": 33.31,
+            "s1": 40.00, "s2": 36.80, "sl": 36.25, "r1": 45.00, "r2": 50.00,
+            "stop_loss_price": 31.56,
+            "sr_breach_state": sre.STATE_ALL_SUPPORT_BREACHED,
+            "scenario_script": ev["scenario_script"],
+        }
+        synced = mlp.sync_scenario_script_levels(sync_item)
+        self.assertIn("防守止损位 $31.56", synced)
+        self.assertNotIn("防守止损位 $36.25", synced)
+
+    def test_07_v531_pit_bottom_breakdown_denominator_never_below_minus_100(self):
+        """V5.3.1: 现价 $33.31 相对坑底线 $83.30 偏离度必须以坑底线为分母，计算为 -60.0%（绝不出现 -150.1%）。"""
+        res = imr.evaluate_stock_signal(
+            ticker="SOXL",
+            last=33.31,
+            ma50=80.0,
+            bias=-58.4,
+            rsi=28.0,
+            vol_ratio=1.2,
+            fib_low=83.30,
+            fib_high=99.83,
+            meta={"name": "3倍做多半导体", "cat": "正向杠杆"},
+            atr=4.0,
+        )
+        self.assertAlmostEqual(res["dist_to_pit"], -60.01, delta=0.1)
+        self.assertGreater(res["dist_to_pit"], -100.0)
+        self.assertIn("-60.0", res["pit_status"])
+        self.assertNotIn("-150", res["pit_status"])
+
+    def test_08_v531_outlier_r2_capped_relative_to_r1(self):
+        """V5.3.1: R1=$45.00, atr_pct=0.12，候选 [46.89, 62.05] 时，$46.89 被防扎堆跳过、$62.05 被离群上限拦截，R2 落入 [$47.50, $53.10]。"""
+        max_r2_step = sre.compute_sr_max_r2_step_pct(0.12)
+        self.assertAlmostEqual(max_r2_step, 0.18, places=4)
+        self.assertAlmostEqual(sre.compute_sr_max_r2_step_pct(0.02), 0.10, places=4)
+        self.assertAlmostEqual(sre.compute_sr_max_r2_step_pct(0.20), 0.22, places=4)
+
+        res = sre.compute_static_sr_levels_with_sources(
+            ticker="SOXL",
+            ref_price=43.21,
+            atr_pct=12.0,
+            df_history=None,
+            ema20=40.59,
+            put_wall=40.00,
+            call_wall=45.00,
+            extra_resist_cands=[46.89, 62.05],
+        )
+        r1 = res["anchor_r1"]
+        r2 = res["anchor_r2"]
+        min_step = sre.compute_sr_min_step_pct(0.12)
+        self.assertEqual(r1, 45.00)
+        self.assertNotEqual(r2, 46.89)
+        self.assertNotEqual(r2, 62.05)
+        self.assertTrue(47.50 <= r2 <= 53.10, f"Expected R2 in [47.50, 53.10], got {r2}")
+        self.assertGreaterEqual((r2 - r1) / r1, min_step - 1e-4)
+        self.assertLessEqual((r2 - r1) / r1, max_r2_step + 1e-4)
+        self.assertEqual(res["r2_source"], sre.SOURCE_ATR_ESTIMATE)
+
+        # 验证 ml_predictor_5y.compute_multi_level_scenario_map 同样拦截远期离群 R2
+        sc_ml = mlp.compute_multi_level_scenario_map(
+            ticker="SOXL",
+            current_price=43.21,
+            atr_pct=12.0,
+            high_60d=62.05,
+            low_60d=30.00,
+            call_wall=62.05,
+        )
+        self.assertLessEqual((sc_ml["r2"] - sc_ml["r1"]) / sc_ml["r1"], max_r2_step + 0.002)
+        self.assertGreaterEqual((sc_ml["r2"] - sc_ml["r1"]) / sc_ml["r1"], min_step - 0.002)
+
+    def test_09_v532_topbar_scorecard_pill_sample_count_and_fallback(self):
+        """V5.3.2: 顶栏胜率胶囊带笔数，7日 n<10 (如 n=5 100%) 回退 30 日口径，30 日亦 <10 显示样本积累中。"""
+        # 1) 7 日小样本 n=5 100% -> 自动回退 30 日口径
+        p_fb = cft.format_topbar_scorecard_pill({
+            "sample_count_7d": 5,
+            "win_rate_7d_pct": 100.0,
+            "sample_count_30d": 134,
+            "win_rate_30d_pct": 47.8,
+            "is_degraded": False,
+        })
+        self.assertEqual(p_fb["text"], "近30日胜率 47.8% (134笔)")
+        self.assertNotIn("100.0%", p_fb["text"])
+        self.assertIn("近7日 100.0% (5笔) · 样本偏少已回退30日口径", p_fb["title"])
+        self.assertNotEqual(p_fb["tone"], "up")
+
+        # 2) 7 日样本充足 n=27 63.0% -> 正常展示 7 日 + 笔数
+        p_ok = cft.format_topbar_scorecard_pill({
+            "sample_count_7d": 27,
+            "win_rate_7d_pct": 63.0,
+            "sample_count_30d": 140,
+            "win_rate_30d_pct": 58.2,
+            "is_degraded": False,
+        })
+        self.assertEqual(p_ok["text"], "近7日胜率 63.0% (27笔)")
+        self.assertEqual(p_ok["tone"], "up")
+
+        # 3) 7 日与 30 日均 < 10 笔 -> 灰/琥珀色样本积累中，绝不亮绿牌 100.0%
+        p_low = cft.format_topbar_scorecard_pill({
+            "sample_count_7d": 3,
+            "win_rate_7d_pct": 100.0,
+            "sample_count_30d": 6,
+            "win_rate_30d_pct": 100.0,
+            "is_degraded": False,
+        })
+        self.assertEqual(p_low["text"], "样本积累中 (6笔)")
+        self.assertEqual(p_low["tone"], "muted")
+        self.assertNotIn("100.0%", p_low["text"])
+
+    def test_10_v532_soxs_surging_r2_not_truncated_below_active_price(self):
+        """V5.3.2: SOXS 现价 $60.42、静态 R1=$50.00、真实 R2=$63.32 时，$63.32 绝不被误截断到现价下方。"""
+        res = sre.compute_static_sr_levels_with_sources(
+            ticker="SOXS",
+            ref_price=49.11,
+            active_price=60.42,
+            atr_pct=15.0,
+            df_history=None,
+            put_wall=45.94,
+            call_wall=50.00,
+            extra_resist_cands=[60.00, 63.32],
+        )
+        self.assertEqual(res["anchor_r1"], 50.00)
+        self.assertEqual(res["anchor_r2"], 63.32)
+        self.assertGreater(res["anchor_r2"], 60.42)
+        self.assertEqual(res["r2_source"], sre.SOURCE_REAL_CHIPS)
+
+        # 即便没有高于现价的真实候选，截断重算后的 R2 也必须严格 > active_price ($60.42)
+        res_synth = sre.compute_static_sr_levels_with_sources(
+            ticker="SOXS",
+            ref_price=49.11,
+            active_price=60.42,
+            atr_pct=15.0,
+            df_history=None,
+            put_wall=45.94,
+            call_wall=50.00,
+            extra_resist_cands=[60.00, 95.00],
+        )
+        self.assertGreater(res_synth["anchor_r2"], 60.42)
+        self.assertLessEqual(res_synth["anchor_r2"], round(60.42 * 1.22, 2) + 0.05)
+        self.assertEqual(res_synth["r2_source"], sre.SOURCE_ATR_ESTIMATE)
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
