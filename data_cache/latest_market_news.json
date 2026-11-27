@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795795688.777,
-  "updated_at_et": "11-27 11:08 ET",
-  "updated_at_kst": "01:08 KST",
+  "updated_at_ts": 1795795793.97,
+  "updated_at_et": "11-27 11:09 ET",
+  "updated_at_kst": "01:09 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -424,6 +424,13 @@
     ],
     "SPY": [
       {
+        "title": "SoFi’s 500-Stock ETF Doesn’t Weight Strictly by Size. SFY Tilts America’s Biggest Companies Toward Growth",
+        "url": "https://247wallst.com/investing/etf/2026/11/27/sofis-500-stock-etf-doesnt-weight-strictly-by-size-sfy-tilts-americas-biggest-companies-toward-growth/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:32 ET",
+        "pub_ts": 1795793560.0
+      },
+      {
         "title": "Should State Street SPDR S&P 500 ETF Trust (SPY) Be on Your Investing Radar?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-spdr-p-500-102002352.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -450,13 +457,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 08:03 ET",
         "pub_ts": 1795784638.0
-      },
-      {
-        "title": "Stock Market Today: Markets Off to a Strong Black Friday Start",
-        "url": "https://247wallst.com/investing/2026/11/27/stock-market-today-markets-off-to-a-strong-black-friday-start/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 10:03 ET",
-        "pub_ts": 1795791793.0
       }
     ],
     "DIA": [
@@ -794,6 +794,20 @@
     ],
     "TSM": [
       {
+        "title": "Trump Is Heading to Arizona to Break Ground on TSMC’s Newest Chip Plant",
+        "url": "https://247wallst.com/investing/2026/11/27/trump-is-heading-to-arizona-to-break-ground-on-tsmcs-newest-chip-plant/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:48 ET",
+        "pub_ts": 1795794515.0
+      },
+      {
+        "title": "No Threat to TSMC Before 2028: Intel’s Foundry Gap Is Still Huge",
+        "url": "https://247wallst.com/investing/2026/11/27/no-threat-to-tsmc-before-2028-intels-foundry-gap-is-still-huge/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:45 ET",
+        "pub_ts": 1795794312.0
+      },
+      {
         "title": "Trump’s New Tariffs Hit Taiwan but Spare Its Chips. That’s Good News for TSMC and Apple",
         "url": "https://www.tikr.com/blog/trumps-new-tariffs-hit-taiwan-but-spare-its-chips-thats-good-news-for-tsmc-and-apple?ref=yahoofinance&tlnk=yf-261127-wff3mmwm&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -813,20 +827,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 06:02 ET",
         "pub_ts": 1795777349.0
-      },
-      {
-        "title": "Taiwan Semiconductor Stocks Slip 1.96% as Taiwan's Market Sinks 4.8% in Chip Rout",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-stocks-slip-1-190319001.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 14:03 ET",
-        "pub_ts": 1795719799.0
-      },
-      {
-        "title": "3 Top Stocks to Buy Before 2027 as Quantum Enters AI Data Centers",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-top-stocks-buy-2027-190000024.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 14:00 ET",
-        "pub_ts": 1795719600.0
       }
     ],
     "VIXY": [
@@ -905,6 +905,20 @@
     ],
     "NVDA": [
       {
+        "title": "Why this portfolio manager says investors should 'avoid the neoclouds'",
+        "url": "https://finance.yahoo.com/video/why-this-portfolio-manager-says-investors-should-avoid-the-neoclouds-160003179.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 11:00 ET",
+        "pub_ts": 1795795203.0
+      },
+      {
+        "title": "PacSun CEO talks brand resurgence, holiday shopping season boom",
+        "url": "https://finance.yahoo.com/video/pacsun-ceo-talks-brand-resurgence-holiday-shopping-season-boom-154316985.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:43 ET",
+        "pub_ts": 1795794196.0
+      },
+      {
         "title": "Can AI earn a spot in the creative world? Ja Rule think so.",
         "url": "https://finance.yahoo.com/video/can-ai-earn-a-spot-in-the-creative-world-ja-rule-think-so-152828382.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -924,23 +938,16 @@
         "source": "Yahoo Finance",
         "time": "11-27 10:12 ET",
         "pub_ts": 1795792338.0
-      },
-      {
-        "title": "Nvidia halts sales to SE Asia, SpaceX surges on Musk's share promise",
-        "url": "https://finance.yahoo.com/video/nvidia-halts-sales-to-se-asia-spacex-surges-on-musks-share-promise-151001061.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 10:10 ET",
-        "pub_ts": 1795792201.0
-      },
-      {
-        "title": "SpaceX, Tesla have had a bumpy 2026 thus far: What to know",
-        "url": "https://finance.yahoo.com/video/spacex-tesla-have-had-a-bumpy-2026-thus-far-what-to-know-145849441.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 09:58 ET",
-        "pub_ts": 1795791529.0
       }
     ],
     "AMD": [
+      {
+        "title": "AMD's Earnings & Why Stocks Surged",
+        "url": "https://www.fool.com/investing/2026/11/27/amd-s-earnings-and-why-stocks-surged/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:54 ET",
+        "pub_ts": 1795794841.0
+      },
       {
         "title": "Sandisk, Bloom, Marvell, AMD, Nvidia, HP, and More Stocks That Explain Today’s Market",
         "url": "https://finance.yahoo.com/m/977de44c-fcf5-3369-bcdd-0c3ddc7cfec9/sandisk%2C-bloom%2C-marvell%2C-amd%2C.html?.tsrc=rss",
@@ -968,13 +975,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 08:02 ET",
         "pub_ts": 1795784539.0
-      },
-      {
-        "title": "Broadcom Makes More AI Money Than AMD—So Why Is AMD’s Stock Crushing It?",
-        "url": "https://247wallst.com/investing/2026/11/27/broadcom-makes-more-ai-money-than-amd-so-why-is-amds-stock-crushing-it/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 07:15 ET",
-        "pub_ts": 1795781706.0
       }
     ],
     "ASML": [
@@ -2459,6 +2459,13 @@
     ],
     "WDC": [
       {
+        "title": "SNDK, MU, WDC, Other Memory Stocks Rally As Investors Return To Beaten-Down AI Names",
+        "url": "https://stocktwits.com/news-articles/markets/equity/sndk-mu-wdc-other-memory-stocks-rally-as-investors-return-to-beaten-down-ai-names/cNbCupeR9ND?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:19 ET",
+        "pub_ts": 1795785561.0
+      },
+      {
         "title": "Western Digital vs. IBM: Which Data Storage Stock is the Smarter Bet?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/western-digital-vs-ibm-data-121200982.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2478,13 +2485,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 02:13 ET",
         "pub_ts": 1795677227.0
-      },
-      {
-        "title": "Western Digital Stocks Sink 7.42%, Trading 139% Above GF Value",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/western-digital-stocks-sink-7-172258485.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:22 ET",
-        "pub_ts": 1795627378.0
       },
       {
         "title": "SanDisk Jumps 10% as Investors Return to Beaten-Down Memory Stocks; Micron and SK Hynix Rise 6% Despite TrendForce DRAM Warning",
@@ -3282,23 +3282,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795794237.4348946,
-    "SOXL": 1795794237.4348946,
-    "SPY": 1795794237.4348946,
-    "DIA": 1795794237.4348946,
-    "SOXX": 1795794237.4348946,
-    "QQQ": 1795794237.4348946,
-    "SMH": 1795794237.4348946,
-    "IWM": 1795794237.4348946,
-    "IGV": 1795794237.4348946,
-    "TLT": 1795794237.4348946,
-    "GLD": 1795794237.4348946,
-    "SQQQ": 1795794237.4348946,
-    "TSM": 1795794237.4348946,
-    "VIXY": 1795794237.4348946,
-    "SOXS": 1795794237.4348946,
-    "NVDA": 1795794237.4348946,
-    "AMD": 1795794237.4348946,
+    "KORU": 1795795793.9698794,
+    "SOXL": 1795795793.9698794,
+    "SPY": 1795795793.9698794,
+    "DIA": 1795795793.9698794,
+    "SOXX": 1795795793.9698794,
+    "QQQ": 1795795793.9698794,
+    "SMH": 1795795793.9698794,
+    "IWM": 1795795793.9698794,
+    "IGV": 1795795793.9698794,
+    "TLT": 1795795793.9698794,
+    "GLD": 1795795793.9698794,
+    "SQQQ": 1795795793.9698794,
+    "TSM": 1795795793.9698794,
+    "VIXY": 1795795793.9698794,
+    "SOXS": 1795795793.9698794,
+    "NVDA": 1795795793.9698794,
+    "AMD": 1795795793.9698794,
     "ASML": 1795795380.8073232,
     "QCOM": 1795795380.8073232,
     "AVGO": 1795795380.8073232,
@@ -3337,14 +3337,14 @@
     "OKLO": 1795795688.7769146,
     "CEG": 1795795688.7769146,
     "FPS": 1795795688.7769146,
-    "MU": 1795794237.4348946,
-    "SKHY": 1795794237.4348946,
-    "WDC": 1795794237.4348946,
-    "STX": 1795794237.4348946,
-    "MSTR": 1795794237.4348946,
-    "SNDK": 1795794237.4348946,
+    "MU": 1795795793.9698794,
+    "SKHY": 1795795793.9698794,
+    "WDC": 1795795793.9698794,
+    "STX": 1795795793.9698794,
+    "MSTR": 1795795793.9698794,
+    "SNDK": 1795795793.9698794,
     "BTC-USD": 1795794340.6840937,
-    "CRWD": 1795794237.4348946,
+    "CRWD": 1795795793.9698794,
     "ORCL": 1795794340.6840937,
     "COIN": 1795794340.6840937,
     "LLY": 1795794340.6840937,
@@ -3361,7 +3361,7 @@
     "GLW": 1795795688.7769146,
     "ANT": 1795795688.7769146,
     "XAUUSD": 1795795688.7769146,
-    "KOSPI": 1795794237.4348946
+    "KOSPI": 1795795793.9698794
   },
   "opex_shield": {
     "date": "2026-11-27",
