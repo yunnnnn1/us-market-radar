@@ -1,9 +1,22 @@
 {
-  "updated_at_ts": 1795744832.683,
-  "updated_at_et": "11-26 21:00 ET",
-  "updated_at_kst": "11:00 KST",
+  "updated_at_ts": 1795744935.78,
+  "updated_at_et": "11-26 21:02 ET",
+  "updated_at_kst": "11:02 KST",
   "macro_calendar": [],
   "macro_flashes": [
+    {
+      "id": "20261127095950444800",
+      "title": "恒生科技指数涨超2%，光通信、物理AI、芯片等板块涨幅居前。",
+      "summary": "恒生科技指数涨超2%，光通信、物理AI、芯片等板块涨幅居前。",
+      "keywords": [
+        "芯片"
+      ],
+      "pub_ts": 1795744790.0,
+      "time_et": "11-26 20:59 ET",
+      "time_bj": "09:59 BJ",
+      "time_kst": "10:59 KST",
+      "time_display": "20:59 ET / 09:59 BJ"
+    },
     {
       "id": "20261127094702524800",
       "title": "科创50指数涨超2%，算力、光刻机、半导体等板块涨幅居前。",
@@ -325,19 +338,6 @@
       "time_bj": "17:25 BJ",
       "time_kst": "18:25 KST",
       "time_display": "04:25 ET / 17:25 BJ"
-    },
-    {
-      "id": "20261126170220969800",
-      "title": "布伦特原油日内下跌1.00%，现报93.83美元/桶。WTI原油现跌0.9%。",
-      "summary": "布伦特原油日内下跌1.00%，现报93.83美元/桶。WTI原油现跌0.9%。",
-      "keywords": [
-        "原油"
-      ],
-      "pub_ts": 1795683740.0,
-      "time_et": "11-26 04:02 ET",
-      "time_bj": "17:02 BJ",
-      "time_kst": "18:02 KST",
-      "time_display": "04:02 ET / 17:02 BJ"
     }
   ],
   "ticker_news": {
@@ -3373,7 +3373,7 @@
   "calendar_banner": {
     "level": "idle_with_flash",
     "headline": "📡 宏观消息面监控中 · 今日暂无美股五星级经济数据大考",
-    "detail": "⚡ 最新核心快讯 (20:47 ET / 09:47 BJ) [半导体]：科创50指数涨超2%，算力、光刻机、半导体等板块涨幅居前。",
+    "detail": "⚡ 最新核心快讯 (20:59 ET / 09:59 BJ) [芯片]：恒生科技指数涨超2%，光通信、物理AI、芯片等板块涨幅居前。",
     "event_name": "",
     "minutes_left": 0,
     "opex_shield": {
