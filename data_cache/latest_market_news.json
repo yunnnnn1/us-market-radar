@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795753769.373,
-  "updated_at_et": "11-26 23:29 ET",
-  "updated_at_kst": "13:29 KST",
+  "updated_at_ts": 1795753872.574,
+  "updated_at_et": "11-26 23:31 ET",
+  "updated_at_kst": "13:31 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -3191,8 +3191,8 @@
         "title": "Dow Jones Futures Rise; Look For This Bullish Market Signal On Black Friday",
         "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B-look.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 22:56 ET",
-        "pub_ts": 1795751783.0
+        "time": "11-26 23:19 ET",
+        "pub_ts": 1795753169.0
       },
       {
         "title": "Is DXC Technology (DXC) Fully Valued On Its New AI Security Push?",
@@ -3341,15 +3341,15 @@
     "NKE": 1795753769.3730354,
     "MCD": 1795753769.3730354,
     "PEP": 1795753769.3730354,
-    "XOM": 1795752324.6225436,
+    "XOM": 1795753872.5735333,
     "JPM": 1795753769.3730354,
-    "WMT": 1795752324.6225436,
+    "WMT": 1795753872.5735333,
     "V": 1795753769.3730354,
-    "CAT": 1795752324.6225436,
+    "CAT": 1795753872.5735333,
     "FN": 1795753149.900603,
     "GLW": 1795753149.900603,
-    "ANT": 1795752324.6225436,
-    "XAUUSD": 1795752324.6225436,
+    "ANT": 1795753872.5735333,
+    "XAUUSD": 1795753872.5735333,
     "KOSPI": 1795753460.5766752
   },
   "opex_shield": {
