@@ -1,9 +1,22 @@
 {
-  "updated_at_ts": 1795770997.422,
-  "updated_at_et": "11-27 04:16 ET",
-  "updated_at_kst": "18:16 KST",
+  "updated_at_ts": 1795771099.153,
+  "updated_at_et": "11-27 04:18 ET",
+  "updated_at_kst": "18:18 KST",
   "macro_calendar": [],
   "macro_flashes": [
+    {
+      "id": "20261127171543001800",
+      "title": "【欧元区消费者大幅上调通胀预期 为欧洲央行加息提供了依据】 11月27日讯，欧洲央行周五…",
+      "summary": "【欧元区消费者大幅上调通胀预期 为欧洲央行加息提供了依据】 11月27日讯，欧洲央行周五公布的一项调查显示，上个月欧元区消费者对未来一年通胀的预期大幅上升，他们对当前通胀水平的感知也显著增强。这一结果为进一步加息提供了依据。在考虑进一步收紧政策之际，欧洲央行一直在密切关注消费者的预期。央行担心，如果家庭因能源价格飙升而要求提高工资，可能会引发难以遏制的“第二轮效应”。尽管数据中尚未明显显现出这种“第二轮效应”，但决策者们一直在主张采取预防性加息措施；欧洲央行实际上已预告将在12月17日再次加息——这将是该行今年以来的第三次加息。",
+      "keywords": [
+        "加息"
+      ],
+      "pub_ts": 1795770943.0,
+      "time_et": "11-27 04:15 ET",
+      "time_bj": "17:15 BJ",
+      "time_kst": "18:15 KST",
+      "time_display": "04:15 ET / 17:15 BJ"
+    },
     {
       "id": "20261127170823932800",
       "title": "黄金抛售接近尾声？汇丰警告：若股市继续走弱，牛市里程碑或遭逆转",
@@ -326,19 +339,6 @@
       "time_bj": "13:40 BJ",
       "time_kst": "14:40 KST",
       "time_display": "00:40 ET / 13:40 BJ"
-    },
-    {
-      "id": "20261127133633238800",
-      "title": "【创业板指大涨10%】 11月27日讯，创业板指大涨10%，科创50指数涨近13%；半导…",
-      "summary": "【创业板指大涨10%】 11月27日讯，创业板指大涨10%，科创50指数涨近13%；半导体、CPO、先进封装板块涨幅居前。监管部门表示，将密切跟踪科技产业发展最新趋势，提高相关制度的包容性、精准性，严防“伪科技”借机上市、无真实业绩公司“注水”上市，切实维护公平有序的新股发行秩序。",
-      "keywords": [
-        "半导体"
-      ],
-      "pub_ts": 1795757793.0,
-      "time_et": "11-27 00:36 ET",
-      "time_bj": "13:36 BJ",
-      "time_kst": "14:36 KST",
-      "time_display": "00:36 ET / 13:36 BJ"
     }
   ],
   "ticker_news": {
@@ -3193,39 +3193,39 @@
     ],
     "ANT": [
       {
-        "title": "Prediction: This Will Be Anthropic’s Stock Price by the End of 2026",
-        "url": "https://www.fool.com/investing/2026/11/27/prediction-this-will-be-anthropic-s-stock-price-by-the-end-of-2026/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 02:23 ET",
-        "pub_ts": 1795764182.0
+        "title": "Anthropic: 3 Reasons Why I Am Not Investing",
+        "url": "https://finnhub.io/api/news?id=d0c2f6ebb1e7896faa504c0c793ed58e88ba3ca215b54b4fc9d0176aa7cd063d",
+        "source": "SeekingAlpha",
+        "time": "11-26 22:55 ET",
+        "pub_ts": 1795751740.0
       },
       {
         "title": "Dow Jones Futures Rise; Look For This Bullish Market Signal On Black Friday",
-        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B-look.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 23:23 ET",
-        "pub_ts": 1795753438.0
-      },
-      {
-        "title": "Is DXC Technology (DXC) Fully Valued On Its New AI Security Push?",
-        "url": "https://finance.yahoo.com/technology/ai/articles/dxc-technology-dxc-fully-valued-021346564.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 21:13 ET",
-        "pub_ts": 1795745626.0
-      },
-      {
-        "title": "Thinking About Investing in Anthropic? Make This 1 Portfolio Move First",
-        "url": "https://www.fool.com/investing/2026/11/26/thinking-about-investing-in-anthropic-make-this-1-portfolio-move-first/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 20:35 ET",
-        "pub_ts": 1795743302.0
+        "url": "https://finnhub.io/api/news?id=ad1499815de9fcb015c4d8f9a5870e9036fff5d0b19bac37e6ac3602b1115bc7",
+        "source": "Yahoo",
+        "time": "11-26 19:44 ET",
+        "pub_ts": 1795740266.0
       },
       {
         "title": "Anthropic Stock (ANT) Forecast – Analysts See 60%+ Upside Despite Ongoing AI Trade Concerns",
-        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-stock-ant-forecast-analysts-222745210.html?.tsrc=rss",
-        "source": "Yahoo Finance",
+        "url": "https://finnhub.io/api/news?id=b6c930629e7ea794bc18185c9e5b46f9e267370097b770a0b72e08155b978fc3",
+        "source": "Yahoo",
         "time": "11-26 17:27 ET",
         "pub_ts": 1795732065.0
+      },
+      {
+        "title": "O’Reilly’s Sales to Professional Mechanics Jumped 12.7% Last Quarter. Here’s Why That’s the Clearest Sign of Its Moat.",
+        "url": "https://finnhub.io/api/news?id=e1e28a7e94953860ba7ad6b2e22acbca725f81f327fba9bbd7f3c16b3f40a198",
+        "source": "Yahoo",
+        "time": "11-26 16:50 ET",
+        "pub_ts": 1795729802.0
+      },
+      {
+        "title": "Cathie Wood Just Bought $26 Million of Anthropic Across 6 ARK Funds",
+        "url": "https://finnhub.io/api/news?id=007dac00e1d080fcca64fc3002a0fd35b7d5e89468190fab0a5a4a414c34734f",
+        "source": "Yahoo",
+        "time": "11-26 16:06 ET",
+        "pub_ts": 1795727161.0
       }
     ],
     "XAUUSD": [
@@ -3346,15 +3346,15 @@
     "NKE": 1795770997.421523,
     "MCD": 1795770997.421523,
     "PEP": 1795770997.421523,
-    "XOM": 1795769520.8022883,
+    "XOM": 1795771099.1533773,
     "JPM": 1795770997.421523,
-    "WMT": 1795769520.8022883,
+    "WMT": 1795771099.1533773,
     "V": 1795770997.421523,
-    "CAT": 1795769520.8022883,
+    "CAT": 1795771099.1533773,
     "FN": 1795770304.8646665,
     "GLW": 1795770304.8646665,
-    "ANT": 1795769520.8022883,
-    "XAUUSD": 1795769520.8022883,
+    "ANT": 1795771099.1533773,
+    "XAUUSD": 1795771099.1533773,
     "KOSPI": 1795770608.6254616
   },
   "opex_shield": {
@@ -3374,7 +3374,7 @@
   "calendar_banner": {
     "level": "idle_with_flash",
     "headline": "📡 宏观消息面监控中 · 今日暂无美股五星级经济数据大考",
-    "detail": "⚡ 最新核心快讯 (04:08 ET / 17:08 BJ) [美联储] [加息]：随着黄金大幅回落，市场开始寻找反弹信号。盛宝认为极端超卖可能意味着调整接近尾声，但汇丰指出，股市波动、美元走强和美联储加息预期仍可能继续压制金价。点击查看...",
+    "detail": "⚡ 最新核心快讯 (04:15 ET / 17:15 BJ) [加息]：【欧元区消费者大幅上调通胀预期 为欧洲央行加息提供了依据】 11月27日讯，欧洲央行周五公布的一项调查显示，上个月欧元区消费者对未来一年通胀的预期大幅上升，他们对当前通胀水平的感知也显著增强",
     "event_name": "",
     "minutes_left": 0,
     "opex_shield": {
