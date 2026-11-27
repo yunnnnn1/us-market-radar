@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795739725.879,
-  "updated_at_et": "11-26 19:35 ET",
-  "updated_at_kst": "09:35 KST",
+  "updated_at_ts": 1795739829.281,
+  "updated_at_et": "11-26 19:37 ET",
+  "updated_at_kst": "09:37 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -3197,39 +3197,39 @@
     ],
     "ANT": [
       {
-        "title": "Dow Jones Futures Rise; Look For This Bullish Market Signal On Black Friday",
-        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B-look.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 18:51 ET",
-        "pub_ts": 1795737104.0
+        "title": "AI Bubble Bursts: Welcome To The Bear Market",
+        "url": "https://finnhub.io/api/news?id=d1cbddad08de0f9be9d39d9b92f4aab0f9f5ac4bfb849686a359db2d7db4a47b",
+        "source": "SeekingAlpha",
+        "time": "11-26 06:44 ET",
+        "pub_ts": 1795693448.0
       },
       {
-        "title": "Anthropic Stock (ANT) Forecast – Analysts See 60%+ Upside Despite Ongoing AI Trade Concerns",
-        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-stock-ant-forecast-analysts-222745210.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 17:27 ET",
-        "pub_ts": 1795732065.0
+        "title": "Situational Awareness Lost 65% in Q3, Investor Leopold Aschenbrenner Warns Nvidia, Microsoft, Tesla Could Lose Their Edge: Report",
+        "url": "https://finnhub.io/api/news?id=b1a5fac72d45f8da504a5e2a10ea7440f86161b6d0a3c55608707f11ba15348b",
+        "source": "Benzinga",
+        "time": "11-26 04:37 ET",
+        "pub_ts": 1795685821.0
       },
       {
-        "title": "O’Reilly’s Sales to Professional Mechanics Jumped 12.7% Last Quarter. Here’s Why That’s the Clearest Sign of Its Moat.",
-        "url": "https://www.fool.com/investing/2026/11/26/oreilly-sales-professional-mechanics-jumped-last-quarter-why-that-s-the-clearest-sign-of-its-moat/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 16:50 ET",
-        "pub_ts": 1795729802.0
+        "title": "Stock Market Today: Nasdaq (QQQ) Plunges 4.5%, Then Claws Back Most of It as Hot PCE Data Meets an AI Scare",
+        "url": "https://finnhub.io/api/news?id=4a578c7ae1c96f5e9fa759786c2763f8c090772ee280803389f1c81f88177d5b",
+        "source": "ChartMill",
+        "time": "11-26 04:31 ET",
+        "pub_ts": 1795685493.0
       },
       {
-        "title": "Cathie Wood Just Bought $26 Million of Anthropic Across 6 ARK Funds",
-        "url": "https://www.tikr.com/blog/cathie-wood-just-bought-26-million-of-anthropic-across-6-ark-funds?ref=yahoofinance&tlnk=yf-261126-p2m2c5g4&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 16:06 ET",
-        "pub_ts": 1795727161.0
+        "title": "Cathie Wood Says OpenAI and Anthropic Have 'Stolen the Show,' but Criticizes Dario Amodei's 'Negative Headlines' on Human Extinction Odds and Job Losses",
+        "url": "https://finnhub.io/api/news?id=93ec3eda5b5767f52f3616777acbe09bfdc2e28b560e3589b6a2dc172239f48e",
+        "source": "Benzinga",
+        "time": "11-26 04:07 ET",
+        "pub_ts": 1795684036.0
       },
       {
-        "title": "Anthropic Stock Is Now Trading as ANT. Should You Buy Today or Wait?",
-        "url": "https://www.fool.com/investing/2026/11/26/anthropic-stock-is-now-trading-as-ant-should-you-buy-today-or-wait/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 14:50 ET",
-        "pub_ts": 1795722602.0
+        "title": "Docusign Earnings Preview: Cash-Rich Buybacks Vs. Cloud Migration Headwinds",
+        "url": "https://finnhub.io/api/news?id=730085a7dd2494866c173725fa00cb1728a5848315eb6ac3828f35acbdce1430",
+        "source": "SeekingAlpha",
+        "time": "11-26 04:00 ET",
+        "pub_ts": 1795683600.0
       }
     ],
     "XAUUSD": [
@@ -3350,15 +3350,15 @@
     "NKE": 1795739725.8793015,
     "MCD": 1795739725.8793015,
     "PEP": 1795739725.8793015,
-    "XOM": 1795738287.905739,
+    "XOM": 1795739829.2806647,
     "JPM": 1795739725.8793015,
-    "WMT": 1795738287.905739,
+    "WMT": 1795739829.2806647,
     "V": 1795739725.8793015,
-    "CAT": 1795738287.905739,
+    "CAT": 1795739829.2806647,
     "FN": 1795739104.7589931,
     "GLW": 1795739104.7589931,
-    "ANT": 1795738287.905739,
-    "XAUUSD": 1795738287.905739,
+    "ANT": 1795739829.2806647,
+    "XAUUSD": 1795739829.2806647,
     "KOSPI": 1795739309.0801468
   },
   "opex_shield": {
