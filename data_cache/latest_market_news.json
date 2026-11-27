@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795796834.029,
-  "updated_at_et": "11-27 11:27 ET",
-  "updated_at_kst": "01:27 KST",
+  "updated_at_ts": 1795796936.83,
+  "updated_at_et": "11-27 11:28 ET",
+  "updated_at_kst": "01:28 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1178,6 +1178,13 @@
         "pub_ts": 1795780980.0
       },
       {
+        "title": "This Semiconductor Stock Could Have Its Biggest Year Yet in 2027",
+        "url": "https://247wallst.com/investing/2026/11/27/this-semiconductor-stock-could-have-its-biggest-year-yet-in-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 11:04 ET",
+        "pub_ts": 1795795492.0
+      },
+      {
         "title": "Anthropic Just Hit an $81 Billion Run Rate—Why Wall Street’s Post-IPO Jitters Are a Gift",
         "url": "https://247wallst.com/investing/2026/11/27/anthropic-just-hit-an-81-billion-run-rate-why-wall-streets-post-ipo-jitters-are-a-gift/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1190,13 +1197,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 10:36 ET",
         "pub_ts": 1795793761.0
-      },
-      {
-        "title": "The Nuclear Stock AI Investors Loved Is Down 33% This Year. Is Constellation Energy a Buy Now?",
-        "url": "https://247wallst.com/investing/2026/11/27/the-nuclear-stock-ai-investors-loved-is-down-33-this-year-is-constellation-energy-a-buy-now/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 10:28 ET",
-        "pub_ts": 1795793309.0
       }
     ],
     "MSFT": [
@@ -1312,6 +1312,13 @@
     ],
     "NOW": [
       {
+        "title": "ServiceNow vs. Synopsys: Which Technology Stock Is a Better Buy for 2027?",
+        "url": "https://www.fool.com/coverage/better-buy/2026/11/27/servicenow-vs-synopsys-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:56 ET",
+        "pub_ts": 1795794964.0
+      },
+      {
         "title": "ServiceNow (NOW) Stock May Be Fully Priced As AI Risks Hit Software",
         "url": "https://finance.yahoo.com/technology/ai/articles/servicenow-now-stock-may-fully-090902140.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1338,16 +1345,16 @@
         "source": "Yahoo Finance",
         "time": "11-24 09:34 ET",
         "pub_ts": 1795530840.0
-      },
-      {
-        "title": "Leading CHROs and Business Executives to Convene at i4cp's 2027 Next Practices Now Conference",
-        "url": "https://finance.yahoo.com/small-business/articles/leading-chros-business-executives-convene-212500658.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 16:25 ET",
-        "pub_ts": 1795469100.0
       }
     ],
     "AMZN": [
+      {
+        "title": "Amazon Stock Gets Black Friday Boost As Analysts Size Up Holiday Spending",
+        "url": "https://finance.yahoo.com/m/e21f6a78-2cc9-3d0c-be07-589f5bf6f3f0/amazon-stock-gets-black.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 11:09 ET",
+        "pub_ts": 1795795788.0
+      },
       {
         "title": "Amazon technical outlook amid Black Friday shopping",
         "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-technical-outlook-amid-black-155428563.html?.tsrc=rss",
@@ -1375,13 +1382,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 06:52 ET",
         "pub_ts": 1795780363.0
-      },
-      {
-        "title": "Is Meta Stock a Buy as Amazon Reportedly Weighs Letting Its AI Shopping Agent Back In?",
-        "url": "https://www.fool.com/investing/2026/11/27/is-meta-stock-a-buy-as-amazon-reportedly-weighs-letting-its-ai-shopping-agent-back-in/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:33 ET",
-        "pub_ts": 1795779182.0
       }
     ],
     "CRWV": [
@@ -1645,6 +1645,13 @@
     ],
     "MRVL": [
       {
+        "title": "This Semiconductor Stock Could Have Its Biggest Year Yet in 2027",
+        "url": "https://247wallst.com/investing/2026/11/27/this-semiconductor-stock-could-have-its-biggest-year-yet-in-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 11:04 ET",
+        "pub_ts": 1795795492.0
+      },
+      {
         "title": "Sandisk, Bloom, Marvell, AMD, Nvidia, HP, and More Stocks That Explain Today’s Market",
         "url": "https://finance.yahoo.com/m/977de44c-fcf5-3369-bcdd-0c3ddc7cfec9/sandisk%2C-bloom%2C-marvell%2C-amd%2C.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1671,13 +1678,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 07:17 ET",
         "pub_ts": 1795781869.0
-      },
-      {
-        "title": "Why Is Marvell Technology Stock Surging Today?",
-        "url": "https://investorshub.advfn.com/market-news/article/40790/why-is-marvell-technology-stock-surging-today?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:52 ET",
-        "pub_ts": 1795780335.0
       }
     ],
     "LITE": [
@@ -2866,6 +2866,13 @@
     ],
     "MCD": [
       {
+        "title": "McDonald's new deals take aim at Chili's and convenience stores",
+        "url": "https://www.thestreet.com/restaurants/mcdonalds-adds-a-new-value-deal-and-gives-customers-something-for-free?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 11:07 ET",
+        "pub_ts": 1795795620.0
+      },
+      {
         "title": "Can McDonald's (MCD) Command A Premium Despite Its Costly Makeover Plan?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-mcd-command-premium-despite-140936937.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2892,13 +2899,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 11:00 ET",
         "pub_ts": 1795708802.0
-      },
-      {
-        "title": "MCD's Entry-Level Value Push: A Key Catalyst for Its 2027 Outlook?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/mcds-entry-level-value-push-143800328.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 09:38 ET",
-        "pub_ts": 1795703880.0
       }
     ],
     "PEP": [
@@ -3299,27 +3299,27 @@
     "SOXS": 1795795793.9698794,
     "NVDA": 1795795793.9698794,
     "AMD": 1795795793.9698794,
-    "ASML": 1795795380.8073232,
-    "QCOM": 1795795380.8073232,
-    "AVGO": 1795795380.8073232,
-    "AMAT": 1795795380.8073232,
-    "META": 1795795380.8073232,
-    "GOOGL": 1795795380.8073232,
-    "MSFT": 1795795380.8073232,
-    "AAPL": 1795795380.8073232,
-    "PLTR": 1795795380.8073232,
-    "NOW": 1795795380.8073232,
-    "AMZN": 1795795380.8073232,
-    "CRWV": 1795795380.8073232,
-    "NBIS": 1795795380.8073232,
-    "APLD": 1795795380.8073232,
-    "VST": 1795795380.8073232,
-    "BE": 1795795380.8073232,
-    "CRDO": 1795795380.8073232,
-    "COHR": 1795795380.8073232,
-    "MRVL": 1795795380.8073232,
+    "ASML": 1795796936.830029,
+    "QCOM": 1795796936.830029,
+    "AVGO": 1795796936.830029,
+    "AMAT": 1795796936.830029,
+    "META": 1795796936.830029,
+    "GOOGL": 1795796936.830029,
+    "MSFT": 1795796936.830029,
+    "AAPL": 1795796936.830029,
+    "PLTR": 1795796936.830029,
+    "NOW": 1795796936.830029,
+    "AMZN": 1795796936.830029,
+    "CRWV": 1795796936.830029,
+    "NBIS": 1795796936.830029,
+    "APLD": 1795796936.830029,
+    "VST": 1795796936.830029,
+    "BE": 1795796936.830029,
+    "CRDO": 1795796936.830029,
+    "COHR": 1795796936.830029,
+    "MRVL": 1795796936.830029,
     "LITE": 1795795688.7769146,
-    "AAOI": 1795795380.8073232,
+    "AAOI": 1795796936.830029,
     "SPCX": 1795795688.7769146,
     "ASTS": 1795795688.7769146,
     "AXTI": 1795795688.7769146,
@@ -3349,13 +3349,13 @@
     "COIN": 1795795897.4782183,
     "LLY": 1795795897.4782183,
     "MRNA": 1795795897.4782183,
-    "NKE": 1795795380.8073232,
-    "MCD": 1795795380.8073232,
-    "PEP": 1795795380.8073232,
+    "NKE": 1795796936.830029,
+    "MCD": 1795796936.830029,
+    "PEP": 1795796936.830029,
     "XOM": 1795795688.7769146,
-    "JPM": 1795795380.8073232,
+    "JPM": 1795796936.830029,
     "WMT": 1795795688.7769146,
-    "V": 1795795380.8073232,
+    "V": 1795796936.830029,
     "CAT": 1795795688.7769146,
     "FN": 1795795688.7769146,
     "GLW": 1795795688.7769146,
