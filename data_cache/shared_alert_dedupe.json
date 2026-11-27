@@ -7867,9 +7867,13 @@
     "2026-11-27:AMZN/SPY/DIA/IGV:5M_ENTRY": {
       "device": "PC",
       "ts": 1795793105.5664182
+    },
+    "2026-11-27:DEFENSIVE_FLIGHT:-2.1": {
+      "device": "PC",
+      "ts": 1795793209.0104551
     }
   },
   "device": "PC",
-  "last_heartbeat_ts": 1795793021.8679388,
-  "updated_at": "2026-11-27T15:25:05.566468+00:00"
+  "last_heartbeat_ts": 1795793124.0161777,
+  "updated_at": "2026-11-27T15:26:49.010507+00:00"
 }
