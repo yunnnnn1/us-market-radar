@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795798391.884,
-  "updated_at_et": "11-27 11:53 ET",
-  "updated_at_kst": "01:53 KST",
+  "updated_at_ts": 1795798497.867,
+  "updated_at_et": "11-27 11:54 ET",
+  "updated_at_kst": "01:54 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -979,6 +979,13 @@
     ],
     "ASML": [
       {
+        "title": "AMD vs. ASML: As Wall Street Questions the AI Boom, Which Chip Stock Wins in 2027?",
+        "url": "https://www.fool.com/coverage/better-buy/2026/11/27/amd-vs-asml-as-wall-street-questions-the-ai-boom-which-chip-stock-wins-in-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 11:46 ET",
+        "pub_ts": 1795798019.0
+      },
+      {
         "title": "The tiny Dutch town getting so rich on AI it can’t keep up",
         "url": "https://www.telegraph.co.uk/business/2026/11/27/the-tiny-dutch-town-being-overwhelmed-by-an-ai-boom/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1005,16 +1012,16 @@
         "source": "Yahoo Finance",
         "time": "11-25 19:49 ET",
         "pub_ts": 1795654164.0
-      },
-      {
-        "title": "ASML Holding (ENXTAM:ASML) Faces Dutch Pushback On New US China Chip Curbs",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/asml-holding-enxtam-asml-faces-201500190.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 15:15 ET",
-        "pub_ts": 1795637700.0
       }
     ],
     "QCOM": [
+      {
+        "title": "Qualcomm Is Betting Big on a $5 Billion Opportunity. Here’s What It Could Mean for the Stock",
+        "url": "https://247wallst.com/investing/2026/11/27/qualcomm-is-betting-big-on-a-5-billion-opportunity-heres-what-it-could-mean-for-the-stock/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 11:33 ET",
+        "pub_ts": 1795797199.0
+      },
       {
         "title": "Trump’s New Tariffs Hit Taiwan but Spare Its Chips. That’s Good News for TSMC and Apple",
         "url": "https://www.tikr.com/blog/trumps-new-tariffs-hit-taiwan-but-spare-its-chips-thats-good-news-for-tsmc-and-apple?ref=yahoofinance&tlnk=yf-261127-wff3mmwm&.tsrc=rss",
@@ -1042,13 +1049,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 12:10 ET",
         "pub_ts": 1795713007.0
-      },
-      {
-        "title": "Qualcomm vs. Sandisk: Which Technology Stock Is a Better Buy for 2027?",
-        "url": "https://www.fool.com/coverage/better-buy/2026/11/25/qualcomm-vs-sandisk-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 16:20 ET",
-        "pub_ts": 1795641602.0
       }
     ],
     "AVGO": [
@@ -1127,6 +1127,20 @@
     ],
     "META": [
       {
+        "title": "Tech Stock Sell-Off: Down 23%, Is Meta a Buy Now?",
+        "url": "https://www.fool.com/investing/2026/11/27/tech-stock-sell-off-down-23-is-meta-a-buy-now/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 11:43 ET",
+        "pub_ts": 1795797781.0
+      },
+      {
+        "title": "Amazon.com (AMZN) Is Negotiating Muse AI Access To Its Shopping Platform",
+        "url": "https://finance.yahoo.com/technology/ai/articles/amazon-com-amzn-negotiating-muse-161256193.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 11:12 ET",
+        "pub_ts": 1795795976.0
+      },
+      {
         "title": "Meta Disrupts AI-Driven Commerce",
         "url": "https://www.mediapost.com/publications/article/419717/meta-disrupts-ai-driven-commerce.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1146,20 +1160,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 09:31 ET",
         "pub_ts": 1795789910.0
-      },
-      {
-        "title": "Amazon Blocked Meta’s Muse Two Months Ago. Now It’s in Talks to Let It Shop, and Walmart Already Did",
-        "url": "https://www.tikr.com/blog/amazon-blocked-metas-muse-two-months-ago-now-its-in-talks-to-let-it-shop-and-walmart-already-did?ref=yahoofinance&tlnk=yf-261127-c9m256qx&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:52 ET",
-        "pub_ts": 1795780363.0
-      },
-      {
-        "title": "Meta launches AI shopping agent Muse in UK",
-        "url": "https://www.just-style.com/news/meta-muse-ai-agent/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:49 ET",
-        "pub_ts": 1795780172.0
       }
     ],
     "GOOGL": [
@@ -1201,6 +1201,13 @@
     ],
     "MSFT": [
       {
+        "title": "Why Is Microsoft (MSFT) Down 7.6% Since Last Earnings Report?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-microsoft-msft-down-7-153027471.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:30 ET",
+        "pub_ts": 1795793427.0
+      },
+      {
         "title": "Anthropic, Meta and Microsoft Join AI Data Center Talks in Japan",
         "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-meta-microsoft-join-ai-143801446.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1227,13 +1234,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 08:45 ET",
         "pub_ts": 1795787137.0
-      },
-      {
-        "title": "Exploits Arrive in “10 to 15 Minutes,” Patches in 45 Days, per Cisco’s Jeetu Patel. Cue CrowdStrike",
-        "url": "https://www.tikr.com/blog/exploits-arrive-in-10-to-15-minutes-patches-in-45-days-per-ciscos-jeetu-patel-cue-crowdstrike?ref=yahoofinance&tlnk=yf-261127-27866rp2&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 08:35 ET",
-        "pub_ts": 1795786536.0
       }
     ],
     "AAPL": [
@@ -1243,6 +1243,13 @@
         "source": "Yahoo Finance",
         "time": "11-27 08:41 ET",
         "pub_ts": 1795786884.0
+      },
+      {
+        "title": "Apple Stock Isn’t Just an Anti-AI Haven. It’s an All-Purpose Winner.",
+        "url": "https://finance.yahoo.com/m/253b5457-75bb-3a4e-9004-f3214100cc8d/apple-stock-isn%E2%80%99t-just-an.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:18 ET",
+        "pub_ts": 1795792680.0
       },
       {
         "title": "PROPEL Center Names University of Arkansas at Pine Bluff Winner of the Future of XYZ HBCU Innovation Challenge at AfroTech",
@@ -1264,16 +1271,16 @@
         "source": "Yahoo Finance",
         "time": "11-27 08:37 ET",
         "pub_ts": 1795786679.0
-      },
-      {
-        "title": "Why Should Apple Stock Holders Watch The December Quarter?",
-        "url": "https://www.trefis.com/stock/aapl/articles/629378/why-should-apple-stock-holders-watch-the-december-quarter/2026-11-27?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 07:58 ET",
-        "pub_ts": 1795784287.0
       }
     ],
     "PLTR": [
+      {
+        "title": "Why Palantir Popped on Friday",
+        "url": "https://www.fool.com/investing/2026/11/27/why-palantir-popped-on-friday/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 11:31 ET",
+        "pub_ts": 1795797091.0
+      },
       {
         "title": "Palantir Stock Jumps. It Could Land a Major Poland Defense Deal",
         "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-jumps-could-land-143921179.html?.tsrc=rss",
@@ -1301,22 +1308,29 @@
         "source": "Yahoo Finance",
         "time": "11-27 06:01 ET",
         "pub_ts": 1795777299.0
-      },
-      {
-        "title": "A Palantir Co-Founder Bought $122 Million of the Stock on Nov. 20. Here's What I Think of Palantir Stock Now.",
-        "url": "https://www.fool.com/investing/2026/11/27/a-palantir-co-founder-bought-usd122-million-of-the-stock-on-nov-20-here-s-what-i-think-of-palantir-stock-now/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 04:07 ET",
-        "pub_ts": 1795770422.0
       }
     ],
     "NOW": [
+      {
+        "title": "Baron Fund Reestablishes Position in ServiceNow (NOW) Following Attractive Valuation Pullback",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/baron-fund-reestablishes-position-servicenow-164101736.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 11:41 ET",
+        "pub_ts": 1795797661.0
+      },
       {
         "title": "ServiceNow vs. Synopsys: Which Technology Stock Is a Better Buy for 2027?",
         "url": "https://www.fool.com/coverage/better-buy/2026/11/27/servicenow-vs-synopsys-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-27 10:56 ET",
         "pub_ts": 1795794964.0
+      },
+      {
+        "title": "ServiceNow (NOW) Down 16% Since Last Earnings Report: Can It Rebound?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/servicenow-now-down-16-since-153017193.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:30 ET",
+        "pub_ts": 1795793417.0
       },
       {
         "title": "ServiceNow (NOW) Stock May Be Fully Priced As AI Risks Hit Software",
@@ -1331,23 +1345,16 @@
         "source": "Yahoo Finance",
         "time": "11-25 09:27 ET",
         "pub_ts": 1795616820.0
-      },
-      {
-        "title": "Anthropic falls below IPO price as Nvidia gives back gains",
-        "url": "https://finance.yahoo.com/video/anthropic-falls-below-ipo-price-as-nvidia-gives-back-gains-214558309.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 16:45 ET",
-        "pub_ts": 1795556758.0
-      },
-      {
-        "title": "Global Workflow Market Size, Trends, and Forecast Report 2026 | Capitalize on 22.5% CAGR as IBM, Oracle, SAP, ServiceNow, and Appian Accelerate AI and Cloud Automation Through 2030",
-        "url": "https://finance.yahoo.com/technology/articles/global-workflow-market-size-trends-143400424.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:34 ET",
-        "pub_ts": 1795530840.0
       }
     ],
     "AMZN": [
+      {
+        "title": "Amazon.com (AMZN) Is Negotiating Muse AI Access To Its Shopping Platform",
+        "url": "https://finance.yahoo.com/technology/ai/articles/amazon-com-amzn-negotiating-muse-161256193.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 11:12 ET",
+        "pub_ts": 1795795976.0
+      },
       {
         "title": "Amazon Stock Gets Black Friday Boost As Analysts Size Up Holiday Spending",
         "url": "https://finance.yahoo.com/m/e21f6a78-2cc9-3d0c-be07-589f5bf6f3f0/amazon-stock-gets-black.html?.tsrc=rss",
@@ -1375,13 +1382,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 07:21 ET",
         "pub_ts": 1795782092.0
-      },
-      {
-        "title": "Amazon Blocked Meta’s Muse Two Months Ago. Now It’s in Talks to Let It Shop, and Walmart Already Did",
-        "url": "https://www.tikr.com/blog/amazon-blocked-metas-muse-two-months-ago-now-its-in-talks-to-let-it-shop-and-walmart-already-did?ref=yahoofinance&tlnk=yf-261127-c9m256qx&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:52 ET",
-        "pub_ts": 1795780363.0
       }
     ],
     "CRWV": [
@@ -1534,6 +1534,13 @@
     ],
     "BE": [
       {
+        "title": "Bloom Energy Corporation (BE) is Positioned for Margin Expansion",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-corporation-positioned-margin-163255806.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 11:32 ET",
+        "pub_ts": 1795797175.0
+      },
+      {
         "title": "Sandisk, Bloom, Marvell, AMD, Nvidia, HP, and More Stocks That Explain Today’s Market",
         "url": "https://finance.yahoo.com/m/977de44c-fcf5-3369-bcdd-0c3ddc7cfec9/sandisk%2C-bloom%2C-marvell%2C-amd%2C.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1560,13 +1567,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 06:20 ET",
         "pub_ts": 1795692023.0
-      },
-      {
-        "title": "Bloom Energy Stocks Slide 7.93% as AI Power Names Lose Momentum",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-stocks-slide-7-172002014.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:20 ET",
-        "pub_ts": 1795627202.0
       }
     ],
     "CRDO": [
@@ -2903,6 +2903,13 @@
     ],
     "PEP": [
       {
+        "title": "Own SCHD? These 6 Dividend Aristocrats Are Protecting Your Income for 2027",
+        "url": "https://247wallst.com/investing/etf/2026/11/27/own-schd-these-6-dividend-aristocrats-are-protecting-your-income-for-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 11:34 ET",
+        "pub_ts": 1795797249.0
+      },
+      {
         "title": "Has PepsiCo Become A Different Stock To Own?",
         "url": "https://www.trefis.com/stock/pep/articles/629392/has-pepsico-become-a-different-stock-to-own/2026-11-27?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2929,13 +2936,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 09:20 ET",
         "pub_ts": 1795702840.0
-      },
-      {
-        "title": "Forget the Market's Hottest Stocks. This Boring Dividend Stock Is Where I'd Put $1,000 Before 2027.",
-        "url": "https://www.fool.com/investing/2026/11/26/forget-the-markets-hottest-stocks-this-boring-dividend-stock-is-where-id-put-1000-before-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 08:52 ET",
-        "pub_ts": 1795701122.0
       }
     ],
     "XOM": [
@@ -3299,27 +3299,27 @@
     "SOXS": 1795797356.2308214,
     "NVDA": 1795797356.2308214,
     "AMD": 1795797356.2308214,
-    "ASML": 1795796936.830029,
-    "QCOM": 1795796936.830029,
-    "AVGO": 1795796936.830029,
-    "AMAT": 1795796936.830029,
-    "META": 1795796936.830029,
-    "GOOGL": 1795796936.830029,
-    "MSFT": 1795796936.830029,
-    "AAPL": 1795796936.830029,
-    "PLTR": 1795796936.830029,
-    "NOW": 1795796936.830029,
-    "AMZN": 1795796936.830029,
-    "CRWV": 1795796936.830029,
-    "NBIS": 1795796936.830029,
-    "APLD": 1795796936.830029,
-    "VST": 1795796936.830029,
-    "BE": 1795796936.830029,
-    "CRDO": 1795796936.830029,
-    "COHR": 1795796936.830029,
-    "MRVL": 1795796936.830029,
+    "ASML": 1795798497.866745,
+    "QCOM": 1795798497.866745,
+    "AVGO": 1795798497.866745,
+    "AMAT": 1795798497.866745,
+    "META": 1795798497.866745,
+    "GOOGL": 1795798497.866745,
+    "MSFT": 1795798497.866745,
+    "AAPL": 1795798497.866745,
+    "PLTR": 1795798497.866745,
+    "NOW": 1795798497.866745,
+    "AMZN": 1795798497.866745,
+    "CRWV": 1795798497.866745,
+    "NBIS": 1795798497.866745,
+    "APLD": 1795798497.866745,
+    "VST": 1795798497.866745,
+    "BE": 1795798497.866745,
+    "CRDO": 1795798497.866745,
+    "COHR": 1795798497.866745,
+    "MRVL": 1795798497.866745,
     "LITE": 1795797252.1306512,
-    "AAOI": 1795796936.830029,
+    "AAOI": 1795798497.866745,
     "SPCX": 1795797252.1306512,
     "ASTS": 1795797252.1306512,
     "AXTI": 1795797252.1306512,
@@ -3349,13 +3349,13 @@
     "COIN": 1795797460.2513337,
     "LLY": 1795797460.2513337,
     "MRNA": 1795797460.2513337,
-    "NKE": 1795796936.830029,
-    "MCD": 1795796936.830029,
-    "PEP": 1795796936.830029,
+    "NKE": 1795798497.866745,
+    "MCD": 1795798497.866745,
+    "PEP": 1795798497.866745,
     "XOM": 1795797252.1306512,
-    "JPM": 1795796936.830029,
+    "JPM": 1795798497.866745,
     "WMT": 1795797252.1306512,
-    "V": 1795796936.830029,
+    "V": 1795798497.866745,
     "CAT": 1795797252.1306512,
     "FN": 1795797252.1306512,
     "GLW": 1795797252.1306512,
