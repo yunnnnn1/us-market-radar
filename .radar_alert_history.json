@@ -74,8 +74,8 @@
       "last_notified_at": 0.0
     },
     "AXP": {
-      "state": "WATCHLIST_ENTRY_READY",
-      "last_notified_at": 1795800068.3142586
+      "state": "NORMAL",
+      "last_notified_at": 0.0
     },
     "SPY": {
       "state": "NORMAL",
@@ -182,8 +182,8 @@
       "last_notified_at": 0.0
     },
     "AVGO": {
-      "state": "NORMAL",
-      "last_notified_at": 0.0
+      "state": "WATCHLIST_ENTRY_READY",
+      "last_notified_at": 1795802546.7845082
     }
   },
   "position_peaks": {

@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795800366.426,
-  "updated_at_et": "11-27 12:26 ET",
-  "updated_at_kst": "02:26 KST",
+  "updated_at_ts": 1795802530.559,
+  "updated_at_et": "11-27 13:02 ET",
+  "updated_at_kst": "03:02 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -535,6 +535,13 @@
     ],
     "QQQ": [
       {
+        "title": "Exchange-Traded Funds Higher as US Equities Advance in Friday Trading",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-172712881.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 12:27 ET",
+        "pub_ts": 1795800432.0
+      },
+      {
         "title": "The Nasdaq Needs Two Huge Days to Dodge Its Worst November Since 2008",
         "url": "https://247wallst.com/investing/2026/11/27/the-nasdaq-needs-two-huge-days-to-dodge-its-worst-november-since-2008/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -561,13 +568,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 06:01 ET",
         "pub_ts": 1795777299.0
-      },
-      {
-        "title": "50 ETFs Add to Cisco (CSCO) Holdings on Nov. 25",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/50-etfs-add-cisco-csco-110123778.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:01 ET",
-        "pub_ts": 1795777283.0
       }
     ],
     "SMH": [
@@ -905,39 +905,39 @@
     ],
     "NVDA": [
       {
-        "title": "Why this portfolio manager says investors should 'avoid the neoclouds'",
-        "url": "https://finance.yahoo.com/video/why-this-portfolio-manager-says-investors-should-avoid-the-neoclouds-160003179.html?.tsrc=rss",
+        "title": "Stock Market Today: Dow, Nasdaq Pop In Post-Holiday Trade; Nvidia Falls, Sandisk Vaults Higher (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow%2C.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 11:00 ET",
-        "pub_ts": 1795795203.0
+        "time": "11-27 12:47 ET",
+        "pub_ts": 1795801677.0
       },
       {
-        "title": "PacSun CEO talks brand resurgence, holiday shopping season boom",
-        "url": "https://finance.yahoo.com/video/pacsun-ceo-talks-brand-resurgence-holiday-shopping-season-boom-154316985.html?.tsrc=rss",
+        "title": "Not AMD. This Is the 1 Company Nvidia Should Worry About Most.",
+        "url": "https://www.fool.com/investing/2026/11/27/not-amd-this-is-the-1-company-nvidia-should-worry-about-most/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 10:43 ET",
-        "pub_ts": 1795794196.0
+        "time": "11-27 12:35 ET",
+        "pub_ts": 1795800902.0
       },
       {
-        "title": "Top Midday Stories: US October Advance Trade Gap Widens; Nvidia Chips Found Installed at Chinese Data Center Tied to Megaspeed",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-us-october-164220958.html?.tsrc=rss",
+        "title": "Stock Market Midday, Nov. 27: Tech Stocks Recover and Amazon Posts Black Friday Gains",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-midday-nov-27-tech-stocks-recover-and-amazon-posts-black-friday-gains/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 11:42 ET",
-        "pub_ts": 1795797740.0
+        "time": "11-27 12:31 ET",
+        "pub_ts": 1795800677.0
       },
       {
-        "title": "Stock Market Today: Nasdaq Leads Charge; Nvidia Falls On China Data-Center Chip News (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-nasdaq.html?.tsrc=rss",
+        "title": "Gold mining stocks hit oversold levels as fear grips markets",
+        "url": "https://investorshub.advfn.com/market-news/article/40827/gold-mining-stocks-oversold-market-fear?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 11:38 ET",
-        "pub_ts": 1795797502.0
+        "time": "11-27 12:30 ET",
+        "pub_ts": 1795800640.0
       },
       {
-        "title": "Jensen Huang’s Troubles Cost Him $30 Billion",
-        "url": "https://247wallst.com/investing/2026/11/27/jensen-huangs-troubles-cost-him-30-billion/?.tsrc=rss",
+        "title": "Nvidia, CoreWeave Face New U.S. Restrictions on China AI Chip Access",
+        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-coreweave-face-u-restrictions-172327378.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 11:34 ET",
-        "pub_ts": 1795797248.0
+        "time": "11-27 12:23 ET",
+        "pub_ts": 1795800207.0
       }
     ],
     "AMD": [
@@ -2392,11 +2392,25 @@
         "pub_ts": 1795792338.0
       },
       {
-        "title": "He was right about AI and still lost $35 billion",
-        "url": "https://finance.yahoo.com/video/ai-still-lost-35-billion-120000023.html?.tsrc=rss",
+        "title": "Micron Faces New AI Memory Threat as Huawei Develops HBM Chip",
+        "url": "https://finance.yahoo.com/technology/ai/articles/micron-faces-ai-memory-threat-171328560.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 07:00 ET",
-        "pub_ts": 1795780800.0
+        "time": "11-27 12:13 ET",
+        "pub_ts": 1795799608.0
+      },
+      {
+        "title": "Why Micron Investors Are Giving Thanks After Thanksgiving",
+        "url": "https://www.fool.com/investing/2026/11/27/why-micron-investors-are-giving-thanks-after-thanksgiving/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 12:05 ET",
+        "pub_ts": 1795799135.0
+      },
+      {
+        "title": "Micron Stock Jumps Despite GF Securities Slashes DRAM Price Estimates",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/micron-stock-jumps-despite-gf-170306292.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 12:03 ET",
+        "pub_ts": 1795798986.0
       },
       {
         "title": "Down 50%, is Micron stock a bargain buy or a value trap?",
@@ -2404,20 +2418,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 10:37 ET",
         "pub_ts": 1795793820.0
-      },
-      {
-        "title": "Micron Stock Is Jumping but There’s Bad News on Memory Prices",
-        "url": "https://finance.yahoo.com/m/ece1bfa4-65fd-3b15-bd9c-6a0f690f08e4/micron-stock-is-jumping-but.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 09:58 ET",
-        "pub_ts": 1795791480.0
-      },
-      {
-        "title": "SanDisk Jumps 10% as Investors Return to Beaten-Down Memory Stocks; Micron and SK Hynix Rise 6% Despite TrendForce DRAM Warning",
-        "url": "https://247wallst.com/investing/2026/11/27/sandisk-jumps-10-as-investors-return-to-beaten-down-memory-stocks-micron-and-sk-hynix-rise-6-despite-trendforce-dram-warning/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 08:58 ET",
-        "pub_ts": 1795787920.0
       }
     ],
     "SKHY": [
@@ -2577,32 +2577,32 @@
         "pub_ts": 1795789800.0
       },
       {
-        "title": "Sandisk, Bloom, Marvell, AMD, Nvidia, HP, and More Stocks That Explain Today’s Market",
-        "url": "https://finance.yahoo.com/m/977de44c-fcf5-3369-bcdd-0c3ddc7cfec9/sandisk%2C-bloom%2C-marvell%2C-amd%2C.html?.tsrc=rss",
+        "title": "Stock Market Today: Dow, Nasdaq Pop In Post-Holiday Trade; Nvidia Falls, Sandisk Vaults Higher (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow%2C.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 09:56 ET",
-        "pub_ts": 1795791360.0
+        "time": "11-27 12:47 ET",
+        "pub_ts": 1795801677.0
       },
       {
-        "title": "SanDisk Jumps 10% as Investors Return to Beaten-Down Memory Stocks; Micron and SK Hynix Rise 6% Despite TrendForce DRAM Warning",
-        "url": "https://247wallst.com/investing/2026/11/27/sandisk-jumps-10-as-investors-return-to-beaten-down-memory-stocks-micron-and-sk-hynix-rise-6-despite-trendforce-dram-warning/?.tsrc=rss",
+        "title": "Stock Market Midday, Nov. 27: Tech Stocks Recover and Amazon Posts Black Friday Gains",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-midday-nov-27-tech-stocks-recover-and-amazon-posts-black-friday-gains/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 08:58 ET",
-        "pub_ts": 1795787920.0
+        "time": "11-27 12:31 ET",
+        "pub_ts": 1795800677.0
       },
       {
-        "title": "Why SanDisk’s Path to $170 in 2027 Hinges on One Test of Its Multi-Year Contracts",
-        "url": "https://247wallst.com/investing/2026/11/27/why-sandisks-path-to-170-in-2027-hinges-on-one-test-of-its-multi-year-contracts/?.tsrc=rss",
+        "title": "Why Sandisk Investors Are Giving Thanks After Thanksgiving",
+        "url": "https://www.fool.com/investing/2026/11/27/why-sandisk-investors-are-giving-thanks-after-thanksgiving/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 08:45 ET",
-        "pub_ts": 1795787122.0
+        "time": "11-27 11:48 ET",
+        "pub_ts": 1795798119.0
       },
       {
-        "title": "Micron vs. SanDisk: Which Is the Better AI Stock to Buy for 2027?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/micron-vs-sandisk-better-ai-111815853.html?.tsrc=rss",
+        "title": "BC-Most Active Stocks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153017329.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 06:18 ET",
-        "pub_ts": 1795778295.0
+        "time": "11-27 10:30 ET",
+        "pub_ts": 1795793417.0
       }
     ],
     "BTC-USD": [
@@ -3245,13 +3245,6 @@
     ],
     "KOSPI": [
       {
-        "title": "Stocks advance as tech firms stage recovery",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-mostly-rise-markets-025702679.html",
-        "source": "AFP",
-        "time": "11-27 07:08 ET",
-        "pub_ts": 1795781318.0
-      },
-      {
         "title": "The AI Trade Is Back On as Tech Stocks Surge",
         "url": "https://finance.yahoo.com/m/ddb8323f-d469-376b-abad-98b6c10ceabb/the-ai-trade-is-back-on-as.html",
         "source": "Barrons.com",
@@ -3278,27 +3271,34 @@
         "source": "BeInCrypto",
         "time": "11-25 20:55 ET",
         "pub_ts": 1795658100.0
+      },
+      {
+        "title": "Samsung and SK Hynix Drag KOSPI Down 6%, and Foreign Investors Are Running",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/samsung-sk-hynix-drag-kospi-005458159.html",
+        "source": "BeInCrypto",
+        "time": "11-25 19:54 ET",
+        "pub_ts": 1795654498.0
       }
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795798912.974724,
-    "SOXL": 1795798912.974724,
-    "SPY": 1795798912.974724,
-    "DIA": 1795798912.974724,
-    "SOXX": 1795798912.974724,
-    "QQQ": 1795798912.974724,
-    "SMH": 1795798912.974724,
-    "IWM": 1795798912.974724,
-    "IGV": 1795798912.974724,
-    "TLT": 1795798912.974724,
-    "GLD": 1795798912.974724,
-    "SQQQ": 1795798912.974724,
-    "TSM": 1795798912.974724,
-    "VIXY": 1795798912.974724,
-    "SOXS": 1795798912.974724,
-    "NVDA": 1795798912.974724,
-    "AMD": 1795798912.974724,
+    "KORU": 1795802530.5589027,
+    "SOXL": 1795802530.5589027,
+    "SPY": 1795802530.5589027,
+    "DIA": 1795802530.5589027,
+    "SOXX": 1795802530.5589027,
+    "QQQ": 1795802530.5589027,
+    "SMH": 1795802530.5589027,
+    "IWM": 1795802530.5589027,
+    "IGV": 1795802530.5589027,
+    "TLT": 1795802530.5589027,
+    "GLD": 1795802530.5589027,
+    "SQQQ": 1795802530.5589027,
+    "TSM": 1795802530.5589027,
+    "VIXY": 1795802530.5589027,
+    "SOXS": 1795802530.5589027,
+    "NVDA": 1795802530.5589027,
+    "AMD": 1795802530.5589027,
     "ASML": 1795800054.0423427,
     "QCOM": 1795800054.0423427,
     "AVGO": 1795800054.0423427,
@@ -3337,14 +3337,14 @@
     "OKLO": 1795800366.4256585,
     "CEG": 1795800366.4256585,
     "FPS": 1795800366.4256585,
-    "MU": 1795798912.974724,
-    "SKHY": 1795798912.974724,
-    "WDC": 1795798912.974724,
-    "STX": 1795798912.974724,
-    "MSTR": 1795798912.974724,
-    "SNDK": 1795798912.974724,
+    "MU": 1795802530.5589027,
+    "SKHY": 1795802530.5589027,
+    "WDC": 1795802530.5589027,
+    "STX": 1795802530.5589027,
+    "MSTR": 1795802530.5589027,
+    "SNDK": 1795802530.5589027,
     "BTC-USD": 1795799018.7267644,
-    "CRWD": 1795798912.974724,
+    "CRWD": 1795802530.5589027,
     "ORCL": 1795799018.7267644,
     "COIN": 1795799018.7267644,
     "LLY": 1795799018.7267644,
@@ -3361,7 +3361,7 @@
     "GLW": 1795800366.4256585,
     "ANT": 1795800366.4256585,
     "XAUUSD": 1795800366.4256585,
-    "KOSPI": 1795798912.974724
+    "KOSPI": 1795802530.5589027
   },
   "opex_shield": {
     "date": "2026-11-27",
