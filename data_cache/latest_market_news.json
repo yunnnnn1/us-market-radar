@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795787456.818,
-  "updated_at_et": "11-27 08:50 ET",
-  "updated_at_kst": "22:50 KST",
+  "updated_at_ts": 1795787560.6,
+  "updated_at_et": "11-27 08:52 ET",
+  "updated_at_kst": "22:52 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1146,21 +1146,28 @@
         "pub_ts": 1795779182.0
       },
       {
+        "title": "Meta’s Credit Swaps Cost About Twice Microsoft’s and Alphabet’s, per JPMorgan Data. That’s a Problem for Its Capex",
+        "url": "https://www.tikr.com/blog/metas-credit-swaps-cost-about-twice-microsofts-and-alphabets-per-jpmorgan-data-thats-a-problem-for-its-capex?ref=yahoofinance&tlnk=yf-261127-wcccxjqv&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 01:47 ET",
+        "pub_ts": 1795762053.0
+      },
+      {
         "title": "Michael Burry Shares Stark Warning About AI Boom, as Nvidia, Oracle and Meta Face Surging Debt Insurance Costs",
         "url": "https://finance.yahoo.com/technology/ai/articles/michael-burry-shares-stark-warning-063128312.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-27 01:31 ET",
         "pub_ts": 1795761088.0
-      },
-      {
-        "title": "Broadcom’s 2027 Bull Case: AI Revenue Doubles to $115B and $230B—Here’s What Finally Unlocks the Stock",
-        "url": "https://247wallst.com/investing/2026/11/27/broadcoms-2027-bull-case-ai-revenue-doubles-to-115b-and-230b-heres-what-finally-unlocks-the-stock/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 07:15 ET",
-        "pub_ts": 1795781725.0
       }
     ],
     "GOOGL": [
+      {
+        "title": "Man accused of ‘trapping’ Waymos and pelting them with eggs",
+        "url": "https://www.independent.co.uk/tech/waymo-trap-denver-protest-egg-robotaxi-b3092659.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:18 ET",
+        "pub_ts": 1795785491.0
+      },
       {
         "title": "Can Microsoft Stock Sustain Margins as AI Data Center Spending Climbs?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-sustain-margins-ai-120300650.html?.tsrc=rss",
@@ -1188,13 +1195,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 07:21 ET",
         "pub_ts": 1795782092.0
-      },
-      {
-        "title": "The Next Phase of AI Spending Could Put This Overlooked Stock in the Spotlight",
-        "url": "https://247wallst.com/investing/2026/11/27/the-next-phase-of-ai-spending-could-put-this-overlooked-stock-in-the-spotlight/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 07:17 ET",
-        "pub_ts": 1795781869.0
       }
     ],
     "MSFT": [
@@ -1236,6 +1236,27 @@
     ],
     "AAPL": [
       {
+        "title": "Apple gains smartphone share as memory crunch squeezes budget Android phones",
+        "url": "https://finance.yahoo.com/technology/article/apple-gains-smartphone-share-as-memory-crunch-squeezes-budget-android-phones-134124966.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:41 ET",
+        "pub_ts": 1795786884.0
+      },
+      {
+        "title": "PROPEL Center Names University of Arkansas at Pine Bluff Winner of the Future of XYZ HBCU Innovation Challenge at AfroTech",
+        "url": "https://finance.yahoo.com/small-business/articles/propel-center-names-university-arkansas-134300118.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:43 ET",
+        "pub_ts": 1795786980.0
+      },
+      {
+        "title": "Apple Now Ships 57% of U.S. Smartphones as Memory Costs Crush Cheap Android Phones",
+        "url": "https://247wallst.com/investing/2026/11/27/apple-now-ships-57-of-u-s-smartphones-as-memory-costs-crush-cheap-android-phones/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:37 ET",
+        "pub_ts": 1795786679.0
+      },
+      {
         "title": "Why Should Apple Stock Holders Watch The December Quarter?",
         "url": "https://www.trefis.com/stock/aapl/articles/629378/why-should-apple-stock-holders-watch-the-december-quarter/2026-11-27?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1248,27 +1269,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 07:37 ET",
         "pub_ts": 1795783022.0
-      },
-      {
-        "title": "Railtown AI Introduces Model Evaluation Technology to Help Reduce Inference Costs and Expand Model Choice",
-        "url": "https://finance.yahoo.com/technology/ai/articles/railtown-ai-introduces-model-evaluation-120000938.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 07:00 ET",
-        "pub_ts": 1795780800.0
-      },
-      {
-        "title": "iShares Russell 3000 ETF (IWV) Adds Apple and Microsoft on Nov. 25",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-3000-etf-iwv-110513086.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:05 ET",
-        "pub_ts": 1795777513.0
-      },
-      {
-        "title": "iShares Paris-Aligned Climate (PABU) Buys $9.4 Million More Apple on Wednesday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-paris-aligned-climate-pabu-110455750.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:04 ET",
-        "pub_ts": 1795777495.0
       }
     ],
     "PLTR": [
@@ -3297,27 +3297,27 @@
     "SOXS": 1795786430.697521,
     "NVDA": 1795786430.697521,
     "AMD": 1795786430.697521,
-    "ASML": 1795785984.0365186,
-    "QCOM": 1795785984.0365186,
-    "AVGO": 1795785984.0365186,
-    "AMAT": 1795785984.0365186,
-    "META": 1795785984.0365186,
-    "GOOGL": 1795785984.0365186,
-    "MSFT": 1795785984.0365186,
-    "AAPL": 1795785984.0365186,
-    "PLTR": 1795785984.0365186,
-    "NOW": 1795785984.0365186,
-    "AMZN": 1795785984.0365186,
-    "CRWV": 1795785984.0365186,
-    "NBIS": 1795785984.0365186,
-    "APLD": 1795785984.0365186,
-    "VST": 1795785984.0365186,
-    "BE": 1795785984.0365186,
-    "CRDO": 1795785984.0365186,
-    "COHR": 1795785984.0365186,
-    "MRVL": 1795785984.0365186,
+    "ASML": 1795787560.5999227,
+    "QCOM": 1795787560.5999227,
+    "AVGO": 1795787560.5999227,
+    "AMAT": 1795787560.5999227,
+    "META": 1795787560.5999227,
+    "GOOGL": 1795787560.5999227,
+    "MSFT": 1795787560.5999227,
+    "AAPL": 1795787560.5999227,
+    "PLTR": 1795787560.5999227,
+    "NOW": 1795787560.5999227,
+    "AMZN": 1795787560.5999227,
+    "CRWV": 1795787560.5999227,
+    "NBIS": 1795787560.5999227,
+    "APLD": 1795787560.5999227,
+    "VST": 1795787560.5999227,
+    "BE": 1795787560.5999227,
+    "CRDO": 1795787560.5999227,
+    "COHR": 1795787560.5999227,
+    "MRVL": 1795787560.5999227,
     "LITE": 1795786328.921001,
-    "AAOI": 1795785984.0365186,
+    "AAOI": 1795787560.5999227,
     "SPCX": 1795786328.921001,
     "ASTS": 1795786328.921001,
     "AXTI": 1795786328.921001,
@@ -3347,13 +3347,13 @@
     "COIN": 1795786533.1216323,
     "LLY": 1795786533.1216323,
     "MRNA": 1795786533.1216323,
-    "NKE": 1795785984.0365186,
-    "MCD": 1795785984.0365186,
-    "PEP": 1795785984.0365186,
+    "NKE": 1795787560.5999227,
+    "MCD": 1795787560.5999227,
+    "PEP": 1795787560.5999227,
     "XOM": 1795786328.921001,
-    "JPM": 1795785984.0365186,
+    "JPM": 1795787560.5999227,
     "WMT": 1795786328.921001,
-    "V": 1795785984.0365186,
+    "V": 1795787560.5999227,
     "CAT": 1795786328.921001,
     "FN": 1795786328.921001,
     "GLW": 1795786328.921001,
