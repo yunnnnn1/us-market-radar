@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795809035.821,
-  "updated_at_et": "11-27 14:50 ET",
-  "updated_at_kst": "04:50 KST",
+  "updated_at_ts": 1795809140.053,
+  "updated_at_et": "11-27 14:52 ET",
+  "updated_at_kst": "04:52 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1706,18 +1706,18 @@
         "pub_ts": 1795681663.0
       },
       {
+        "title": "Marvell Technology (MRVL) Could Be 58% Undervalued Following Its Penguin Solutions Tie Up",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-mrvl-could-58-190952326.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 14:09 ET",
+        "pub_ts": 1795806592.0
+      },
+      {
         "title": "Why Is Marvell Technology Stock Surging Today?",
         "url": "https://investorshub.advfn.com/market-news/article/40790/why-is-marvell-technology-stock-surging-today?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-27 06:52 ET",
         "pub_ts": 1795780335.0
-      },
-      {
-        "title": "Coherent’s Director Bought $15 Million of Stock as It Plunged 13%",
-        "url": "https://247wallst.com/investing/2026/11/25/coherents-director-bought-15-million-of-stock-as-it-plunged-13/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:28 ET",
-        "pub_ts": 1795620532.0
       }
     ],
     "AAOI": [
@@ -1787,11 +1787,11 @@
         "pub_ts": 1795791529.0
       },
       {
-        "title": "ATEX Stock Jumps After SpaceX Reportedly Eyes 900 MHz Spectrum For Direct-To-Device Expansion; Alternative Target NN Climbs Double Digits",
-        "url": "https://stocktwits.com/news-articles/markets/equity/atex-stock-jumps-after-space-x-reportedly-eyes-900-m-hz-spectrum-for-direct-to-device-expansion-alternative-target-nn-climbs-double-digits/cNb6G6ER9VO?.tsrc=rss",
+        "title": "SpaceX Stocks Climb 2.74% as FCC Clears One Million AI Satellites",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-stocks-climb-2-74-192236570.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 12:52 ET",
-        "pub_ts": 1795801976.0
+        "time": "11-27 14:22 ET",
+        "pub_ts": 1795807356.0
       }
     ],
     "ASTS": [
@@ -1907,6 +1907,13 @@
     ],
     "LUNR": [
       {
+        "title": "Intuitive Machines (LUNR) Stock Looks Fully Priced After Fresh NASA Contract News",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/intuitive-machines-lunr-stock-looks-191400710.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 14:14 ET",
+        "pub_ts": 1795806840.0
+      },
+      {
         "title": "Intuitive Machines (LUNR) Could Be 8% Undervalued As START Review Clears",
         "url": "https://finance.yahoo.com/markets/stocks/articles/intuitive-machines-lunr-could-8-180856389.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1933,13 +1940,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 07:50 ET",
         "pub_ts": 1795697400.0
-      },
-      {
-        "title": "SPCX Wins Million-Satellite Nod And Retail Attention — But ASTS Leads Space Stocks Into Thanksgiving",
-        "url": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-million-satellite-nod-asts-leads-rklb-lunr-bksy-thanksgiving/cNbxLqbR9ZV?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 03:25 ET",
-        "pub_ts": 1795681559.0
       }
     ],
     "TSLA": [
@@ -2129,11 +2129,25 @@
     ],
     "INTC": [
       {
+        "title": "Intel Stocks Climb 2.86% as Court Filings Detail Washington's 10% Stake Push",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/intel-stocks-climb-2-86-192124489.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 14:21 ET",
+        "pub_ts": 1795807284.0
+      },
+      {
         "title": "No Threat to TSMC Before 2028: Intel’s Foundry Gap Is Still Huge",
         "url": "https://247wallst.com/investing/2026/11/27/no-threat-to-tsmc-before-2028-intels-foundry-gap-is-still-huge/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-27 10:45 ET",
         "pub_ts": 1795794312.0
+      },
+      {
+        "title": "BC-Most Active Stocks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153017329.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:30 ET",
+        "pub_ts": 1795793417.0
       },
       {
         "title": "How Much More Could You Lose In Intel Stock?",
@@ -2148,20 +2162,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 06:54 ET",
         "pub_ts": 1795780448.0
-      },
-      {
-        "title": "Intel’s (INTC) AI Opportunity Is Growing, But There’s One Big Problem Holding It Back",
-        "url": "https://finance.yahoo.com/technology/ai/articles/intel-intc-ai-opportunity-growing-031416634.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 22:14 ET",
-        "pub_ts": 1795749256.0
-      },
-      {
-        "title": "AMD Rises 4% Despite Erste Group Downgrade on Valuation; Marvell Climbs 6%, Intel Gains 5%",
-        "url": "https://247wallst.com/investing/2026/11/27/amd-rises-4-despite-erste-group-downgrade-on-valuation-marvell-climbs-6-intel-gains-5/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 09:02 ET",
-        "pub_ts": 1795788175.0
       }
     ],
     "VRT": [
@@ -3321,25 +3321,25 @@
     "CRDO": 1795809035.821164,
     "COHR": 1795809035.821164,
     "MRVL": 1795809035.821164,
-    "LITE": 1795807605.0391068,
+    "LITE": 1795809140.0526388,
     "AAOI": 1795809035.821164,
-    "SPCX": 1795807605.0391068,
-    "ASTS": 1795807605.0391068,
-    "AXTI": 1795807605.0391068,
-    "NASA": 1795807605.0391068,
-    "LUNR": 1795807605.0391068,
-    "TSLA": 1795807605.0391068,
-    "AXP": 1795807605.0391068,
-    "RKLB": 1795807605.0391068,
-    "KO": 1795807605.0391068,
-    "FLY": 1795807605.0391068,
-    "INTC": 1795807605.0391068,
-    "VRT": 1795807605.0391068,
-    "HPE": 1795807605.0391068,
-    "DELL": 1795807605.0391068,
-    "OKLO": 1795807605.0391068,
-    "CEG": 1795807605.0391068,
-    "FPS": 1795807605.0391068,
+    "SPCX": 1795809140.0526388,
+    "ASTS": 1795809140.0526388,
+    "AXTI": 1795809140.0526388,
+    "NASA": 1795809140.0526388,
+    "LUNR": 1795809140.0526388,
+    "TSLA": 1795809140.0526388,
+    "AXP": 1795809140.0526388,
+    "RKLB": 1795809140.0526388,
+    "KO": 1795809140.0526388,
+    "FLY": 1795809140.0526388,
+    "INTC": 1795809140.0526388,
+    "VRT": 1795809140.0526388,
+    "HPE": 1795809140.0526388,
+    "DELL": 1795809140.0526388,
+    "OKLO": 1795809140.0526388,
+    "CEG": 1795809140.0526388,
+    "FPS": 1795809140.0526388,
     "MU": 1795808732.223897,
     "SKHY": 1795808732.223897,
     "WDC": 1795808732.223897,
@@ -3352,16 +3352,16 @@
     "COIN": 1795809035.821164,
     "LLY": 1795809035.821164,
     "MRNA": 1795809035.821164,
-    "NKE": 1795807605.0391068,
-    "MCD": 1795807605.0391068,
-    "PEP": 1795807605.0391068,
+    "NKE": 1795809140.0526388,
+    "MCD": 1795809140.0526388,
+    "PEP": 1795809140.0526388,
     "XOM": 1795807708.261044,
-    "JPM": 1795807605.0391068,
+    "JPM": 1795809140.0526388,
     "WMT": 1795807708.261044,
-    "V": 1795807605.0391068,
+    "V": 1795809140.0526388,
     "CAT": 1795807708.261044,
-    "FN": 1795807605.0391068,
-    "GLW": 1795807605.0391068,
+    "FN": 1795809140.0526388,
+    "GLW": 1795809140.0526388,
     "ANT": 1795807708.261044,
     "XAUUSD": 1795807708.261044,
     "KOSPI": 1795808732.223897
