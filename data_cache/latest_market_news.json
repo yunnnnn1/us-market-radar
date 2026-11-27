@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795797356.231,
-  "updated_at_et": "11-27 11:35 ET",
-  "updated_at_kst": "01:35 KST",
+  "updated_at_ts": 1795797460.251,
+  "updated_at_et": "11-27 11:37 ET",
+  "updated_at_kst": "01:37 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2607,6 +2607,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "Why the Strategic Bitcoin Reserve bill might not pass the House floor",
+        "url": "https://finance.yahoo.com/video/why-the-strategic-bitcoin-reserve-bill-might-not-pass-the-house-floor-161350411.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 11:13 ET",
+        "pub_ts": 1795796030.0
+      },
+      {
         "title": "Another $453 million exits bitcoin ETFs as November outflows stack up",
         "url": "https://finance.yahoo.com/video/another-453-million-exits-bitcoin-161000343.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2633,13 +2640,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 10:30 ET",
         "pub_ts": 1795793417.0
-      },
-      {
-        "title": "Bitcoin Reserve bill advances; ETF outflows top $5.3B",
-        "url": "https://finance.yahoo.com/video/bitcoin-reserve-bill-advances-etf-outflows-top-53b-151524584.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 10:15 ET",
-        "pub_ts": 1795792524.0
       }
     ],
     "CRWD": [
@@ -3343,12 +3343,12 @@
     "STX": 1795797356.2308214,
     "MSTR": 1795797356.2308214,
     "SNDK": 1795797356.2308214,
-    "BTC-USD": 1795795897.4782183,
+    "BTC-USD": 1795797460.2513337,
     "CRWD": 1795797356.2308214,
-    "ORCL": 1795795897.4782183,
-    "COIN": 1795795897.4782183,
-    "LLY": 1795795897.4782183,
-    "MRNA": 1795795897.4782183,
+    "ORCL": 1795797460.2513337,
+    "COIN": 1795797460.2513337,
+    "LLY": 1795797460.2513337,
+    "MRNA": 1795797460.2513337,
     "NKE": 1795796936.830029,
     "MCD": 1795796936.830029,
     "PEP": 1795796936.830029,
