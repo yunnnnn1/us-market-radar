@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795743894.964,
-  "updated_at_et": "11-26 20:44 ET",
-  "updated_at_kst": "10:44 KST",
+  "updated_at_ts": 1795743997.649,
+  "updated_at_et": "11-26 20:46 ET",
+  "updated_at_kst": "10:46 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2678,6 +2678,13 @@
     ],
     "ORCL": [
       {
+        "title": "Wondering Why Oracle Fell? Here's What The Bears Saw",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/wondering-why-oracle-fell-heres-012625677.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 20:26 ET",
+        "pub_ts": 1795742785.0
+      },
+      {
         "title": "‘Room to Spare,’ Says Investor About Oracle Stock",
         "url": "https://finance.yahoo.com/markets/stocks/articles/room-spare-says-investor-oracle-215243159.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2704,16 +2711,16 @@
         "source": "Yahoo Finance",
         "time": "11-26 09:04 ET",
         "pub_ts": 1795701840.0
-      },
-      {
-        "title": "Oracle Is Down 47% in 2026. Is There Really a “Reasonable Chance Oracle Goes Bankrupt”?",
-        "url": "https://www.tikr.com/blog/oracle-is-down-47-in-2026-is-there-really-a-reasonable-chance-oracle-goes-bankrupt?ref=yahoofinance&tlnk=yf-261126-97j6xfvm&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 08:50 ET",
-        "pub_ts": 1795701019.0
       }
     ],
     "COIN": [
+      {
+        "title": "Coinbase (COIN) Stock Sees Modest Fair Value Cut As Analyst Views Stay Split",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/coinbase-coin-stock-sees-modest-012524546.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 20:25 ET",
+        "pub_ts": 1795742724.0
+      },
       {
         "title": "Polygon Brings Its Cross-Border Payments Stack to Coinbase’s Base",
         "url": "https://decrypt.co/384023/polygon-cross-border-payments-stack-coinbase-base?.tsrc=rss",
@@ -2741,13 +2748,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 15:31 ET",
         "pub_ts": 1795638668.0
-      },
-      {
-        "title": "Coinbase Is Buying Back COIN Again as Shares Slide",
-        "url": "https://www.bankless.com/read/news/coinbase-is-buying-back-coin-again-as-shares-slide?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 15:07 ET",
-        "pub_ts": 1795637258.0
       }
     ],
     "LLY": [
@@ -3279,23 +3279,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795742431.911774,
-    "SOXL": 1795742431.911774,
-    "SPY": 1795742431.911774,
-    "DIA": 1795742431.911774,
-    "SOXX": 1795742431.911774,
-    "QQQ": 1795742431.911774,
-    "SMH": 1795742431.911774,
-    "IWM": 1795742431.911774,
-    "IGV": 1795742431.911774,
-    "TLT": 1795742431.911774,
-    "GLD": 1795742431.911774,
-    "SQQQ": 1795742431.911774,
-    "TSM": 1795742431.911774,
-    "VIXY": 1795742431.911774,
-    "SOXS": 1795742431.911774,
-    "NVDA": 1795742431.911774,
-    "AMD": 1795742431.911774,
+    "KORU": 1795743997.6488526,
+    "SOXL": 1795743997.6488526,
+    "SPY": 1795743997.6488526,
+    "DIA": 1795743997.6488526,
+    "SOXX": 1795743997.6488526,
+    "QQQ": 1795743997.6488526,
+    "SMH": 1795743997.6488526,
+    "IWM": 1795743997.6488526,
+    "IGV": 1795743997.6488526,
+    "TLT": 1795743997.6488526,
+    "GLD": 1795743997.6488526,
+    "SQQQ": 1795743997.6488526,
+    "TSM": 1795743997.6488526,
+    "VIXY": 1795743997.6488526,
+    "SOXS": 1795743997.6488526,
+    "NVDA": 1795743997.6488526,
+    "AMD": 1795743997.6488526,
     "ASML": 1795742849.3743043,
     "QCOM": 1795742849.3743043,
     "AVGO": 1795742849.3743043,
@@ -3338,14 +3338,14 @@
     "SKHY": 1795743790.9986353,
     "WDC": 1795743790.9986353,
     "STX": 1795743790.9986353,
-    "MSTR": 1795742431.911774,
+    "MSTR": 1795743997.6488526,
     "SNDK": 1795743790.9986353,
-    "BTC-USD": 1795742431.911774,
-    "CRWD": 1795742431.911774,
-    "ORCL": 1795742431.911774,
-    "COIN": 1795742431.911774,
-    "LLY": 1795742431.911774,
-    "MRNA": 1795742431.911774,
+    "BTC-USD": 1795743997.6488526,
+    "CRWD": 1795743997.6488526,
+    "ORCL": 1795743997.6488526,
+    "COIN": 1795743997.6488526,
+    "LLY": 1795743997.6488526,
+    "MRNA": 1795743997.6488526,
     "NKE": 1795742849.3743043,
     "MCD": 1795742849.3743043,
     "PEP": 1795742849.3743043,
@@ -3358,7 +3358,7 @@
     "GLW": 1795743790.9986353,
     "ANT": 1795742955.2285857,
     "XAUUSD": 1795742955.2285857,
-    "KOSPI": 1795742431.911774
+    "KOSPI": 1795743997.6488526
   },
   "opex_shield": {
     "date": "2026-11-26",
