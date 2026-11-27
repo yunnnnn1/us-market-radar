@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795754913.054,
-  "updated_at_et": "11-26 23:48 ET",
-  "updated_at_kst": "13:48 KST",
+  "updated_at_ts": 1795755014.893,
+  "updated_at_et": "11-26 23:50 ET",
+  "updated_at_kst": "13:50 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -894,6 +894,20 @@
     ],
     "NVDA": [
       {
+        "title": "Nvidia (NVDA) Stock Fair Value Falls After Analysts Reassess Leadership And Regulatory Risks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-stock-fair-value-042301514.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 23:23 ET",
+        "pub_ts": 1795753381.0
+      },
+      {
+        "title": "Singapore yet to confirm if Nvidia has halted advanced chip shipments- deputy PM",
+        "url": "https://finance.yahoo.com/technology/articles/singapore-yet-confirm-nvidia-halted-041419330.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 23:14 ET",
+        "pub_ts": 1795752859.0
+      },
+      {
         "title": "Nvidia Is Down 35% From Its All-Time High, Tied for Its Biggest Drop Since the AI Boom Began. Is It a Buy?",
         "url": "https://www.fool.com/investing/2026/11/26/nvidia-is-down-35-from-its-all-time-high-tied-for-its-biggest-drop-since-the-ai-boom-began-is-it-a-buy/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -913,20 +927,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 19:39 ET",
         "pub_ts": 1795739965.0
-      },
-      {
-        "title": "These 2 AI Chip Stocks Are Down 36% to 39% From Their Highs. Here’s What History Says Happens Next.",
-        "url": "https://www.fool.com/investing/2026/11/26/these-2-ai-chip-stocks-are-down-36-to-39-from-their-highs-here-s-what-history-says-happens-next/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 19:20 ET",
-        "pub_ts": 1795738802.0
-      },
-      {
-        "title": "Not Nvidia. Not Micron. If I Could Buy and Hold Only 1 Artificial Intelligence (AI) Semiconductor Stock Through 2030, This Would Be It.",
-        "url": "https://www.fool.com/investing/2026/11/26/not-nvidia-not-micron-if-i-could-buy-and-hold-only-1-artificial-intelligence-ai-semiconductor-stock-through-2030-this-would-be-it/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 18:14 ET",
-        "pub_ts": 1795734884.0
       }
     ],
     "AMD": [
@@ -2596,7 +2596,7 @@
     ],
     "BTC-USD": [
       {
-        "title": "How a 35-Cent Attack Could Expose Bitcoin Wallet IP Addresses",
+        "title": "How a 35-cent attack could expose Bitcoin wallet IP addresses",
         "url": "http://videos.coindesk.com/previews/lUGLwF4n?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-26 23:17 ET",
@@ -3271,23 +3271,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795753460.5766752,
-    "SOXL": 1795753460.5766752,
-    "SPY": 1795753460.5766752,
-    "DIA": 1795753460.5766752,
-    "SOXX": 1795753460.5766752,
-    "QQQ": 1795753460.5766752,
-    "SMH": 1795753460.5766752,
-    "IWM": 1795753460.5766752,
-    "IGV": 1795753460.5766752,
-    "TLT": 1795753460.5766752,
-    "GLD": 1795753460.5766752,
-    "SQQQ": 1795753460.5766752,
-    "TSM": 1795753460.5766752,
-    "VIXY": 1795753460.5766752,
-    "SOXS": 1795753460.5766752,
-    "NVDA": 1795753460.5766752,
-    "AMD": 1795753460.5766752,
+    "KORU": 1795755014.8927295,
+    "SOXL": 1795755014.8927295,
+    "SPY": 1795755014.8927295,
+    "DIA": 1795755014.8927295,
+    "SOXX": 1795755014.8927295,
+    "QQQ": 1795755014.8927295,
+    "SMH": 1795755014.8927295,
+    "IWM": 1795755014.8927295,
+    "IGV": 1795755014.8927295,
+    "TLT": 1795755014.8927295,
+    "GLD": 1795755014.8927295,
+    "SQQQ": 1795755014.8927295,
+    "TSM": 1795755014.8927295,
+    "VIXY": 1795755014.8927295,
+    "SOXS": 1795755014.8927295,
+    "NVDA": 1795755014.8927295,
+    "AMD": 1795755014.8927295,
     "ASML": 1795753769.3730354,
     "QCOM": 1795753769.3730354,
     "AVGO": 1795753769.3730354,
@@ -3330,14 +3330,14 @@
     "SKHY": 1795754706.3068008,
     "WDC": 1795754706.3068008,
     "STX": 1795754706.3068008,
-    "MSTR": 1795753460.5766752,
+    "MSTR": 1795755014.8927295,
     "SNDK": 1795754706.3068008,
-    "BTC-USD": 1795753460.5766752,
-    "CRWD": 1795753460.5766752,
-    "ORCL": 1795753460.5766752,
-    "COIN": 1795753460.5766752,
-    "LLY": 1795753460.5766752,
-    "MRNA": 1795753460.5766752,
+    "BTC-USD": 1795755014.8927295,
+    "CRWD": 1795755014.8927295,
+    "ORCL": 1795755014.8927295,
+    "COIN": 1795755014.8927295,
+    "LLY": 1795755014.8927295,
+    "MRNA": 1795755014.8927295,
     "NKE": 1795753769.3730354,
     "MCD": 1795753769.3730354,
     "PEP": 1795753769.3730354,
@@ -3350,7 +3350,7 @@
     "GLW": 1795754706.3068008,
     "ANT": 1795753872.5735333,
     "XAUUSD": 1795753872.5735333,
-    "KOSPI": 1795753460.5766752
+    "KOSPI": 1795755014.8927295
   },
   "opex_shield": {
     "date": "2026-11-26",
