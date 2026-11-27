@@ -1,13 +1,13 @@
 {
-  "updated_at_ts": 1795763044.333,
-  "updated_at_et": "11-27 02:04 ET",
-  "updated_at_kst": "16:04 KST",
+  "updated_at_ts": 1795763142.255,
+  "updated_at_et": "11-27 02:05 ET",
+  "updated_at_kst": "16:05 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
       "id": "20261127150034484800",
       "title": "创业板指收涨11.61%，创2024.10.08以来最大单日涨幅",
-      "summary": "A股收盘，创业板指收涨11.61%，创2024年10月8日以来最大单日涨幅，上证指数收涨3.73%；半导体、CPO、光刻机、算力等科技板块全线爆发；沪深京三市近5400股上涨，超400股涨停。",
+      "summary": "A股收盘，创业板指收涨11.61%，创2024年10月8日以来最大单日涨幅，科创50指数收涨15.07%，北证50指数收涨13.20%，上证指数收涨3.73%；半导体、CPO、光刻机、算力等科技板块全线爆发；沪深京三市近5400股上涨，超400股涨停。",
       "keywords": [
         "半导体"
       ],
@@ -1185,6 +1185,13 @@
     ],
     "MSFT": [
       {
+        "title": "Miles Masterclass Launches the World's First AI Labs for Accountants at the World Congress of Accountants in Seoul",
+        "url": "https://finance.yahoo.com/technology/ai/articles/miles-masterclass-launches-worlds-first-063400104.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 01:34 ET",
+        "pub_ts": 1795761240.0
+      },
+      {
         "title": "Tech Stock Sell-Off: Down 13%, Is Microsoft a Buy Now?",
         "url": "https://www.fool.com/investing/2026/11/26/tech-stock-sell-off-down-13-is-microsoft-a-buy-now/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1204,13 +1211,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 13:14 ET",
         "pub_ts": 1795716860.0
-      },
-      {
-        "title": "Data Engineering Workflow Orchestration Market Global Report 2026 | Capture $14.43B AI and Multi-Cloud Demand with Databricks, Microsoft, Snowflake and Astronomer",
-        "url": "https://finance.yahoo.com/technology/articles/data-engineering-workflow-orchestration-market-142400107.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 09:24 ET",
-        "pub_ts": 1795703040.0
       },
       {
         "title": "LUNR Aerospace Appoints Draganfly CEO Cameron Chell to Board of Directors",
@@ -3035,6 +3035,13 @@
     ],
     "V": [
       {
+        "title": "Visa and NBX plan stablecoin-linked payment card",
+        "url": "https://www.electronicpaymentsinternational.com/news/visa-and-nbx-plan-stablecoin-linked-payment-card/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 01:45 ET",
+        "pub_ts": 1795761957.0
+      },
+      {
         "title": "The Nasdaq Composite Is in a Correction, but These 3 Dividend Stocks Are Near 52-Week Highs. Here's Why They're Still Worth Buying Right Now.",
         "url": "https://www.fool.com/investing/2026/11/26/the-nasdaq-composite-is-in-a-correction-but-these-3-dividend-stocks-are-near-52-week-highs-here-s-why-they-re-still-worth-buying-right-now/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3061,13 +3068,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 16:00 ET",
         "pub_ts": 1795640400.0
-      },
-      {
-        "title": "The challenge banks face in drawing consumers to AI payments",
-        "url": "https://www.americanbanker.com/payments/news/the-challenge-banks-face-in-drawing-consumers-to-ai-payments?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:38 ET",
-        "pub_ts": 1795628290.0
       }
     ],
     "CAT": [
@@ -3283,27 +3283,27 @@
     "SOXS": 1795762748.9528728,
     "NVDA": 1795762748.9528728,
     "AMD": 1795762748.9528728,
-    "ASML": 1795761577.446774,
-    "QCOM": 1795761577.446774,
-    "AVGO": 1795761577.446774,
-    "AMAT": 1795761577.446774,
-    "META": 1795761577.446774,
-    "GOOGL": 1795761577.446774,
-    "MSFT": 1795761577.446774,
-    "AAPL": 1795761577.446774,
-    "PLTR": 1795761577.446774,
-    "NOW": 1795761577.446774,
-    "AMZN": 1795761577.446774,
-    "CRWV": 1795761577.446774,
-    "NBIS": 1795761577.446774,
-    "APLD": 1795761577.446774,
-    "VST": 1795761577.446774,
-    "BE": 1795761577.446774,
-    "CRDO": 1795761577.446774,
-    "COHR": 1795761577.446774,
-    "MRVL": 1795761577.446774,
+    "ASML": 1795763142.2548645,
+    "QCOM": 1795763142.2548645,
+    "AVGO": 1795763142.2548645,
+    "AMAT": 1795763142.2548645,
+    "META": 1795763142.2548645,
+    "GOOGL": 1795763142.2548645,
+    "MSFT": 1795763142.2548645,
+    "AAPL": 1795763142.2548645,
+    "PLTR": 1795763142.2548645,
+    "NOW": 1795763142.2548645,
+    "AMZN": 1795763142.2548645,
+    "CRWV": 1795763142.2548645,
+    "NBIS": 1795763142.2548645,
+    "APLD": 1795763142.2548645,
+    "VST": 1795763142.2548645,
+    "BE": 1795763142.2548645,
+    "CRDO": 1795763142.2548645,
+    "COHR": 1795763142.2548645,
+    "MRVL": 1795763142.2548645,
     "LITE": 1795762457.089796,
-    "AAOI": 1795761577.446774,
+    "AAOI": 1795763142.2548645,
     "SPCX": 1795762457.089796,
     "ASTS": 1795762457.089796,
     "AXTI": 1795762457.089796,
@@ -3333,13 +3333,13 @@
     "COIN": 1795762748.9528728,
     "LLY": 1795762748.9528728,
     "MRNA": 1795762748.9528728,
-    "NKE": 1795761577.446774,
-    "MCD": 1795761577.446774,
-    "PEP": 1795761577.446774,
+    "NKE": 1795763142.2548645,
+    "MCD": 1795763142.2548645,
+    "PEP": 1795763142.2548645,
     "XOM": 1795761676.088925,
-    "JPM": 1795761577.446774,
+    "JPM": 1795763142.2548645,
     "WMT": 1795761676.088925,
-    "V": 1795761577.446774,
+    "V": 1795763142.2548645,
     "CAT": 1795761676.088925,
     "FN": 1795762457.089796,
     "GLW": 1795762457.089796,
@@ -3364,7 +3364,7 @@
   "calendar_banner": {
     "level": "idle_with_flash",
     "headline": "📡 宏观消息面监控中 · 今日暂无美股五星级经济数据大考",
-    "detail": "⚡ 最新核心快讯 (02:00 ET / 15:00 BJ) [半导体]：A股收盘，创业板指收涨11.61%，创2024年10月8日以来最大单日涨幅，上证指数收涨3.73%；半导体、CPO、光刻机、算力等科技板块全线爆发；沪深京三市近5400股上涨，超400股涨停",
+    "detail": "⚡ 最新核心快讯 (02:00 ET / 15:00 BJ) [半导体]：A股收盘，创业板指收涨11.61%，创2024年10月8日以来最大单日涨幅，科创50指数收涨15.07%，北证50指数收涨13.20%，上证指数收涨3.73%；半导体、CPO、光刻机、算力等",
     "event_name": "",
     "minutes_left": 0,
     "opex_shield": {
