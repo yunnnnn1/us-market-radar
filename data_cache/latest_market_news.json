@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795786430.698,
-  "updated_at_et": "11-27 08:33 ET",
-  "updated_at_kst": "22:33 KST",
+  "updated_at_ts": 1795786533.122,
+  "updated_at_et": "11-27 08:35 ET",
+  "updated_at_kst": "22:35 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2603,39 +2603,39 @@
     ],
     "BTC-USD": [
       {
-        "title": "LIVE – Crypto News Today: Why Is Bitcoin Up? Gold and Wall Street Rally Fuel BTC Bounce",
-        "url": "https://cryptonews.com/news/bitcoin-rises-from-grave-black-friday-crypto-news/?.tsrc=rss",
+        "title": "Stock Market Today: Dow Jumps 715 Points As Nvidia Rebounds; Anthropic, SpaceX, Tesla Rally (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow-jumps.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 02:18 ET",
-        "pub_ts": 1795763914.0
+        "time": "11-27 08:07 ET",
+        "pub_ts": 1795784837.0
       },
       {
-        "title": "Bitcoin recovers to $61.5k; set for first positive week in 8",
-        "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-recovers-61-5k-set-062257549.html?.tsrc=rss",
+        "title": "IREN vs. Core Scientific: Which AI Stock Is the Better Investment Now?",
+        "url": "https://finance.yahoo.com/technology/ai/articles/iren-vs-core-scientific-ai-121400735.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 01:22 ET",
-        "pub_ts": 1795760577.0
+        "time": "11-27 07:14 ET",
+        "pub_ts": 1795781640.0
       },
       {
-        "title": "How a 35-cent attack could expose Bitcoin wallet IP addresses",
-        "url": "http://videos.coindesk.com/previews/lUGLwF4n?.tsrc=rss",
+        "title": "Crypto Stocks Gain After Bitcoin Tops $61K In Tech Rebound, But Analysts Want A Move Above $62K",
+        "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/crypto-stocks-gain-after-bitcoin-tops-61-k-in-tech-rebound-but-analysts-want-a-move-above-62-k/cNbCsYgR9Ns?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 23:17 ET",
-        "pub_ts": 1795753038.0
+        "time": "11-27 07:03 ET",
+        "pub_ts": 1795781017.0
       },
       {
-        "title": "A 30% Bitcoin crash hasn't shaken this asset manager's $1.6 million call",
-        "url": "https://www.thestreet.com/crypto/markets/a-30-bitcoin-crash-hasnt-shaken-this-asset-managers-1-6-million-call-?.tsrc=rss",
+        "title": "USDT Supply Shrinks With Its Steepest Drop Since Bitcoin’s 2022 Bear Market",
+        "url": "https://www.ccn.com/news/crypto/usdt-supply-contraction-bitcoin-bear-market/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 17:00 ET",
-        "pub_ts": 1795730400.0
+        "time": "11-27 06:37 ET",
+        "pub_ts": 1795779433.0
       },
       {
-        "title": "Bitcoin, XRP, Ethereum face brutal crash risk as key levels crack",
-        "url": "https://www.thestreet.com/crypto/markets/bitcoin-xrp-ethereum-face-brutal-crash-risk-as-key-levels-crack?.tsrc=rss",
+        "title": "Cipher Shifts Toward HPC Leasing: Can It Achieve Stable Earnings?",
+        "url": "https://finance.yahoo.com/technology/ai/articles/cipher-shifts-toward-hpc-leasing-111700716.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 16:00 ET",
-        "pub_ts": 1795726800.0
+        "time": "11-27 06:17 ET",
+        "pub_ts": 1795778220.0
       }
     ],
     "CRWD": [
@@ -2677,6 +2677,27 @@
     ],
     "ORCL": [
       {
+        "title": "Advanced Micro Devices (AMD) After AI Data Center Wins Looks Cheap Or Already Priced In",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-amd-ai-130859777.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:08 ET",
+        "pub_ts": 1795784939.0
+      },
+      {
+        "title": "Market Chatter: Hackers Breach US Air Force Cloud Platform Powered by Microsoft, Amazon, Oracle, Alphabet",
+        "url": "https://finance.yahoo.com/technology/articles/market-chatter-hackers-breach-us-122132707.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 07:21 ET",
+        "pub_ts": 1795782092.0
+      },
+      {
+        "title": "Banks Are Dumping AI Debt: HSBC Sold Stargate Loans at a Roughly 15% Discount. Bad News for Oracle",
+        "url": "https://www.tikr.com/blog/banks-are-dumping-ai-debt-hsbc-sold-stargate-loans-at-a-roughly-15-discount-bad-news-for-oracle?ref=yahoofinance&tlnk=yf-261127-hc8wcvpf&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 07:19 ET",
+        "pub_ts": 1795781978.0
+      },
+      {
         "title": "Michael Burry Shares Stark Warning About AI Boom, as Nvidia, Oracle and Meta Face Surging Debt Insurance Costs",
         "url": "https://finance.yahoo.com/technology/ai/articles/michael-burry-shares-stark-warning-063128312.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2689,30 +2710,16 @@
         "source": "Yahoo Finance",
         "time": "11-26 20:26 ET",
         "pub_ts": 1795742785.0
-      },
-      {
-        "title": "‘Room to Spare,’ Says Investor About Oracle Stock",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/room-spare-says-investor-oracle-215243159.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 16:52 ET",
-        "pub_ts": 1795729963.0
-      },
-      {
-        "title": "Oracle Stocks Sink 5.13% to 52-Week Low as Default Swaps Hit Record",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-stocks-sink-5-13-171842760.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 12:18 ET",
-        "pub_ts": 1795713522.0
-      },
-      {
-        "title": "Oracle Stock Dipped Under $100 as Banks Try to Unload Its Data-Center Loans",
-        "url": "https://247wallst.com/investing/2026/11/26/oracle-stock-dipped-under-100-as-banks-try-to-unload-its-data-center-loans/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 11:27 ET",
-        "pub_ts": 1795710442.0
       }
     ],
     "COIN": [
+      {
+        "title": "Brian Armstrong Says Coinbase Uses AI to Scan Every Line of Code Amid Rising Cyber Threats: ‘Trust Matters More Now Than Ever’",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/brian-armstrong-says-coinbase-uses-114505264.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 06:45 ET",
+        "pub_ts": 1795779905.0
+      },
       {
         "title": "Coinbase (COIN) Stock Sees Modest Fair Value Cut As Analyst Views Stay Split",
         "url": "https://finance.yahoo.com/markets/stocks/articles/coinbase-coin-stock-sees-modest-012524546.html?.tsrc=rss",
@@ -2740,16 +2747,23 @@
         "source": "Yahoo Finance",
         "time": "11-25 18:13 ET",
         "pub_ts": 1795648397.0
-      },
-      {
-        "title": "How to Play Coinbase Stock Ahead of Its Prediction Markets Launch",
-        "url": "https://www.barchart.com/story/news/9009607/how-to-play-coinbase-stock-ahead-of-its-prediction-markets-launch?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 15:31 ET",
-        "pub_ts": 1795638668.0
       }
     ],
     "LLY": [
+      {
+        "title": "Prediction: Eli Lilly’s $92 Billion Revenue Outlook Could Be Just the Beginning",
+        "url": "https://247wallst.com/investing/2026/11/27/prediction-eli-lillys-92-billion-revenue-outlook-could-be-just-the-beginning/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:03 ET",
+        "pub_ts": 1795784622.0
+      },
+      {
+        "title": "How GLP 1 Coverage Could Send You Beyond XLV",
+        "url": "https://finance.yahoo.com/healthcare/articles/glp-1-coverage-could-send-120946100.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 07:09 ET",
+        "pub_ts": 1795781386.0
+      },
       {
         "title": "Eli Lilly Stock Is Up 64% Since April. Is It Time to Take Profits?",
         "url": "https://247wallst.com/investing/2026/11/26/eli-lilly-stock-is-up-64-since-april-is-it-time-to-take-profits/?.tsrc=rss",
@@ -2770,57 +2784,43 @@
         "source": "Yahoo Finance",
         "time": "11-26 10:10 ET",
         "pub_ts": 1795705836.0
-      },
-      {
-        "title": "Can Oncology Emerge as Eli Lilly's Next Major Growth Driver?",
-        "url": "https://finance.yahoo.com/healthcare/articles/oncology-emerge-eli-lillys-next-115600192.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:56 ET",
-        "pub_ts": 1795694160.0
-      },
-      {
-        "title": "State Street Health Care Select Sector SPDR (XLV) Sells LLY and JNJ on Nov. 24",
-        "url": "https://finance.yahoo.com/healthcare/articles/state-street-health-care-select-110418846.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:04 ET",
-        "pub_ts": 1795691058.0
       }
     ],
     "MRNA": [
+      {
+        "title": "Why Moderna’s Biggest New Questions May Make Sense Through ETFs",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-moderna-biggest-questions-may-130849051.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:08 ET",
+        "pub_ts": 1795784929.0
+      },
+      {
+        "title": "Direxion NASDAQ-100 Equal Weighted (QQQE) Adds IDEXX and Walmart on Nov. 25",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/direxion-nasdaq-100-equal-weighted-110509309.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 06:05 ET",
+        "pub_ts": 1795777509.0
+      },
+      {
+        "title": "Invesco S&P 500 Equal Weight (RSP) Buys $2.7 Million More Moderna on Nov. 25",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-p-500-equal-weight-110341275.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 06:03 ET",
+        "pub_ts": 1795777421.0
+      },
+      {
+        "title": "Nvidia Lost $1.7 Trillion This Fall. Who Won?",
+        "url": "https://www.trefis.com/stock/mrna/articles/629143/nvidia-lost-1-7-trillion-this-fall-moderna-and-walmart-won-why/2026-11-27?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 06:00 ET",
+        "pub_ts": 1795777213.0
+      },
       {
         "title": "$1,000 in Moderna Stock on Jan. 1 Is Worth About $7,500 Today",
         "url": "https://247wallst.com/investing/2026/11/26/1000-in-moderna-stock-on-jan-1-is-worth-about-7500-today/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-26 11:12 ET",
         "pub_ts": 1795709556.0
-      },
-      {
-        "title": "Moderna vs. Pfizer: Which Vaccine Stock Offers More Upside?",
-        "url": "https://finance.yahoo.com/healthcare/articles/moderna-vs-pfizer-vaccine-stock-154600852.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 10:46 ET",
-        "pub_ts": 1795707960.0
-      },
-      {
-        "title": "Invesco S&P 500 Equal Weight (RSP) Sells Moderna and PTC on Nov. 24",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-p-500-equal-weight-110438813.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:04 ET",
-        "pub_ts": 1795691078.0
-      },
-      {
-        "title": "What Sent Moderna Stock Higher?",
-        "url": "https://www.trefis.com/stock/mrna/articles/628629/what-sent-moderna-stock-higher/2026-11-25?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 18:36 ET",
-        "pub_ts": 1795649781.0
-      },
-      {
-        "title": "What Invesco S&P 500 Equal Weight ETF (RSP) Sold: Moderna Leads on Nov. 23",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-p-500-equal-weight-110443601.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 06:04 ET",
-        "pub_ts": 1795604683.0
       }
     ],
     "NKE": [
@@ -3339,12 +3339,12 @@
     "STX": 1795786430.697521,
     "MSTR": 1795786430.697521,
     "SNDK": 1795786430.697521,
-    "BTC-USD": 1795772167.6822307,
+    "BTC-USD": 1795786533.1216323,
     "CRWD": 1795786430.697521,
-    "ORCL": 1795772167.6822307,
-    "COIN": 1795772167.6822307,
-    "LLY": 1795772167.6822307,
-    "MRNA": 1795772167.6822307,
+    "ORCL": 1795786533.1216323,
+    "COIN": 1795786533.1216323,
+    "LLY": 1795786533.1216323,
+    "MRNA": 1795786533.1216323,
     "NKE": 1795785984.0365186,
     "MCD": 1795785984.0365186,
     "PEP": 1795785984.0365186,
