@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795745251.304,
-  "updated_at_et": "11-26 21:07 ET",
-  "updated_at_kst": "11:07 KST",
+  "updated_at_ts": 1795745353.944,
+  "updated_at_et": "11-26 21:09 ET",
+  "updated_at_kst": "11:09 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1749,6 +1749,13 @@
     ],
     "SPCX": [
       {
+        "title": "What Could Tesla (TSLA) Merger Talks Mean For Its Stock?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/could-tesla-tsla-merger-talks-013007632.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 20:30 ET",
+        "pub_ts": 1795743007.0
+      },
+      {
         "title": "Mexico wants a say in where SpaceX flies — says harmful rocket debris keeps washing up on its shores",
         "url": "https://finance.yahoo.com/economy/policy/articles/mexico-wants-where-spacex-flies-003000153.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1775,13 +1782,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 16:30 ET",
         "pub_ts": 1795728604.0
-      },
-      {
-        "title": "SpaceX Is a Great Company. Is It a Great Stock at This Price?",
-        "url": "https://www.fool.com/investing/2026/11/26/spacex-is-a-great-company-is-it-a-great-stock-at-this-price/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 15:56 ET",
-        "pub_ts": 1795726562.0
       }
     ],
     "ASTS": [
@@ -1934,6 +1934,13 @@
     ],
     "TSLA": [
       {
+        "title": "What Could Tesla (TSLA) Merger Talks Mean For Its Stock?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/could-tesla-tsla-merger-talks-013007632.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 20:30 ET",
+        "pub_ts": 1795743007.0
+      },
+      {
         "title": "Should You Buy Tesla Stock Before December?",
         "url": "https://www.fool.com/investing/2026/11/26/should-you-buy-tesla-stock-before-december/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1960,13 +1967,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 12:46 ET",
         "pub_ts": 1795715166.0
-      },
-      {
-        "title": "XPeng Raises Stakes for Tesla Stock Investors' Big Growth Bet",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/xpeng-raises-stakes-tesla-stock-163240808.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 11:32 ET",
-        "pub_ts": 1795710760.0
       }
     ],
     "AXP": [
@@ -2008,6 +2008,13 @@
     ],
     "RKLB": [
       {
+        "title": "MISSION SUCCESS: Rocket Lab Launches 101st Electron Mission",
+        "url": "https://finance.yahoo.com/technology/articles/mission-success-rocket-lab-launches-013800463.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 20:38 ET",
+        "pub_ts": 1795743480.0
+      },
+      {
         "title": "Rocket Lab Stock Just Fell to Its Lowest Price in About a Year. Is It a Buy Now?",
         "url": "https://www.fool.com/investing/2026/11/26/rocket-lab-stock-just-fell-to-its-lowest-price-in-about-a-year-is-it-a-buy-now/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2034,13 +2041,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 07:50 ET",
         "pub_ts": 1795697400.0
-      },
-      {
-        "title": "Rocket Lab (RKLB) Stock Sees Fair Value Cut As Analysts Weigh Backlog And Neutron Risk",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-rklb-stock-sees-121113577.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 07:11 ET",
-        "pub_ts": 1795695073.0
       }
     ],
     "KO": [
@@ -2133,6 +2133,13 @@
         "pub_ts": 1795718736.0
       },
       {
+        "title": "Nvidia Now Has 41% of Its Stock Portfolio in SpaceX. Here’s What That Means for Nvidia Shareholders",
+        "url": "https://www.tikr.com/blog/nvidia-now-has-41-of-its-stock-portfolio-in-spacex-heres-what-that-means-for-nvidia-shareholders?ref=yahoofinance&tlnk=yf-261126-gr78h4qh&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 13:12 ET",
+        "pub_ts": 1795716730.0
+      },
+      {
         "title": "Nvidia Just Revealed a Major $19 Billion Vote of Confidence in Intel Stock",
         "url": "https://www.barchart.com/story/news/9021482/nvidia-just-revealed-a-major-19-billion-vote-of-confidence-in-intel-stock?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2145,13 +2152,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 07:15 ET",
         "pub_ts": 1795695326.0
-      },
-      {
-        "title": "Bad News for Intel: Dell Says Companies Are “Deferring Their PC Purchases” for AI Servers",
-        "url": "https://www.tikr.com/blog/bad-news-for-intel-dell-says-companies-are-deferring-their-pc-purchases-for-ai-servers?ref=yahoofinance&tlnk=yf-261126-x92x938h&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 03:50 ET",
-        "pub_ts": 1795683021.0
       }
     ],
     "VRT": [
@@ -2570,6 +2570,13 @@
         "pub_ts": 1795728002.0
       },
       {
+        "title": "Sandisk Trades at Under 3x Earnings After an 8-for-1 Split and a 70% Crash. Why SNDK Stock Isn’t Doomed Despite NAND Price Warnings.",
+        "url": "https://www.barchart.com/story/news/9022920/sandisk-trades-at-under-3x-earnings-after-an-8-for-1-split-and-a-70-crash-why-sndk-stock-isnt-doomed-despite-nand-price-warnings?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 14:30 ET",
+        "pub_ts": 1795721403.0
+      },
+      {
         "title": "Micron and Sandisk Are Two of the Cheapest AI Chip Stocks to Own",
         "url": "https://finance.yahoo.com/technology/ai/articles/micron-sandisk-two-cheapest-ai-112351523.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2589,13 +2596,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 05:01 ET",
         "pub_ts": 1795687262.0
-      },
-      {
-        "title": "MU, SNDK, SKHY Jump As Nvidia Tests Kioxia Memory Fix — Analyst Presses Memory Giants For ‘Massive’ Buybacks",
-        "url": "https://stocktwits.com/news-articles/markets/equity/mu-sndk-skhy-nvidia-kioxia-memory-fix-analyst-memory-giants-buybacks/cNbxQFgR9ZK?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 01:30 ET",
-        "pub_ts": 1795674651.0
       }
     ],
     "BTC-USD": [
@@ -3311,31 +3311,31 @@
     "CRDO": 1795744414.447948,
     "COHR": 1795744414.447948,
     "MRVL": 1795744414.447948,
-    "LITE": 1795743790.9986353,
+    "LITE": 1795745353.9436586,
     "AAOI": 1795744414.447948,
-    "SPCX": 1795743790.9986353,
-    "ASTS": 1795743790.9986353,
-    "AXTI": 1795743790.9986353,
-    "NASA": 1795743790.9986353,
-    "LUNR": 1795743790.9986353,
-    "TSLA": 1795743790.9986353,
-    "AXP": 1795743790.9986353,
-    "RKLB": 1795743790.9986353,
-    "KO": 1795743790.9986353,
-    "FLY": 1795743790.9986353,
-    "INTC": 1795743790.9986353,
-    "VRT": 1795743790.9986353,
-    "HPE": 1795743790.9986353,
-    "DELL": 1795743790.9986353,
-    "OKLO": 1795743790.9986353,
-    "CEG": 1795743790.9986353,
-    "FPS": 1795743790.9986353,
-    "MU": 1795743790.9986353,
-    "SKHY": 1795743790.9986353,
-    "WDC": 1795743790.9986353,
-    "STX": 1795743790.9986353,
+    "SPCX": 1795745353.9436586,
+    "ASTS": 1795745353.9436586,
+    "AXTI": 1795745353.9436586,
+    "NASA": 1795745353.9436586,
+    "LUNR": 1795745353.9436586,
+    "TSLA": 1795745353.9436586,
+    "AXP": 1795745353.9436586,
+    "RKLB": 1795745353.9436586,
+    "KO": 1795745353.9436586,
+    "FLY": 1795745353.9436586,
+    "INTC": 1795745353.9436586,
+    "VRT": 1795745353.9436586,
+    "HPE": 1795745353.9436586,
+    "DELL": 1795745353.9436586,
+    "OKLO": 1795745353.9436586,
+    "CEG": 1795745353.9436586,
+    "FPS": 1795745353.9436586,
+    "MU": 1795745353.9436586,
+    "SKHY": 1795745353.9436586,
+    "WDC": 1795745353.9436586,
+    "STX": 1795745353.9436586,
     "MSTR": 1795743997.6488526,
-    "SNDK": 1795743790.9986353,
+    "SNDK": 1795745353.9436586,
     "BTC-USD": 1795743997.6488526,
     "CRWD": 1795743997.6488526,
     "ORCL": 1795743997.6488526,
@@ -3350,8 +3350,8 @@
     "WMT": 1795744520.4720528,
     "V": 1795744414.447948,
     "CAT": 1795744520.4720528,
-    "FN": 1795743790.9986353,
-    "GLW": 1795743790.9986353,
+    "FN": 1795745353.9436586,
+    "GLW": 1795745353.9436586,
     "ANT": 1795744520.4720528,
     "XAUUSD": 1795744520.4720528,
     "KOSPI": 1795743997.6488526
