@@ -110,8 +110,8 @@
       "last_notified_at": 1795482111.35759
     },
     "CRWD": {
-      "state": "STOP_LOSS",
-      "last_notified_at": 1795614578.742408
+      "state": "NORMAL",
+      "last_notified_at": 0.0
     },
     "TSLA": {
       "state": "NORMAL",
