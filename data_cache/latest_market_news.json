@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795787976.478,
-  "updated_at_et": "11-27 08:59 ET",
-  "updated_at_kst": "22:59 KST",
+  "updated_at_ts": 1795788078.921,
+  "updated_at_et": "11-27 09:01 ET",
+  "updated_at_kst": "23:01 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2679,6 +2679,13 @@
     ],
     "ORCL": [
       {
+        "title": "Near-Equal ~$664B–$678B Backlogs: Why Oracle’s AI Concentration Risk Differs From Microsoft’s",
+        "url": "https://247wallst.com/investing/2026/11/27/near-equal-664b-678b-backlogs-why-oracles-ai-concentration-risk-differs-from-microsofts/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:45 ET",
+        "pub_ts": 1795787137.0
+      },
+      {
         "title": "Advanced Micro Devices (AMD) After AI Data Center Wins Looks Cheap Or Already Priced In",
         "url": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-amd-ai-130859777.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2705,13 +2712,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 01:31 ET",
         "pub_ts": 1795761088.0
-      },
-      {
-        "title": "Wondering Why Oracle Fell? Here's What The Bears Saw",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/wondering-why-oracle-fell-heres-012625677.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 20:26 ET",
-        "pub_ts": 1795742785.0
       }
     ],
     "COIN": [
@@ -3341,12 +3341,12 @@
     "STX": 1795787976.477584,
     "MSTR": 1795787976.477584,
     "SNDK": 1795787976.477584,
-    "BTC-USD": 1795786533.1216323,
+    "BTC-USD": 1795788078.920592,
     "CRWD": 1795787976.477584,
-    "ORCL": 1795786533.1216323,
-    "COIN": 1795786533.1216323,
-    "LLY": 1795786533.1216323,
-    "MRNA": 1795786533.1216323,
+    "ORCL": 1795788078.920592,
+    "COIN": 1795788078.920592,
+    "LLY": 1795788078.920592,
+    "MRNA": 1795788078.920592,
     "NKE": 1795787560.5999227,
     "MCD": 1795787560.5999227,
     "PEP": 1795787560.5999227,
