@@ -50,8 +50,8 @@
       "last_notified_at": 0.0
     },
     "FLY": {
-      "state": "WATCHLIST_ENTRY_READY",
-      "last_notified_at": 1795796222.3481762
+      "state": "NORMAL",
+      "last_notified_at": 0.0
     },
     "LLY": {
       "state": "NORMAL",
@@ -74,20 +74,20 @@
       "last_notified_at": 0.0
     },
     "AXP": {
-      "state": "NORMAL",
-      "last_notified_at": 0.0
+      "state": "WATCHLIST_ENTRY_READY",
+      "last_notified_at": 1795796326.0216115
     },
     "SPY": {
-      "state": "NORMAL",
-      "last_notified_at": 0.0
+      "state": "WATCHLIST_ENTRY_READY",
+      "last_notified_at": 1795796326.0216115
     },
     "DIA": {
       "state": "WATCHLIST_ENTRY_READY",
       "last_notified_at": 1795796016.7788815
     },
     "IWM": {
-      "state": "WATCHLIST_ENTRY_READY",
-      "last_notified_at": 1795796016.7788815
+      "state": "NORMAL",
+      "last_notified_at": 0.0
     },
     "IGV": {
       "state": "NORMAL",
