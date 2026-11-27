@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795798806.777,
-  "updated_at_et": "11-27 12:00 ET",
-  "updated_at_kst": "02:00 KST",
+  "updated_at_ts": 1795798912.975,
+  "updated_at_et": "11-27 12:01 ET",
+  "updated_at_kst": "02:01 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -919,28 +919,42 @@
         "pub_ts": 1795794196.0
       },
       {
-        "title": "Can AI earn a spot in the creative world? Ja Rule think so.",
-        "url": "https://finance.yahoo.com/video/can-ai-earn-a-spot-in-the-creative-world-ja-rule-think-so-152828382.html?.tsrc=rss",
+        "title": "Top Midday Stories: US October Advance Trade Gap Widens; Nvidia Chips Found Installed at Chinese Data Center Tied to Megaspeed",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-us-october-164220958.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 10:28 ET",
-        "pub_ts": 1795793308.0
+        "time": "11-27 11:42 ET",
+        "pub_ts": 1795797740.0
       },
       {
-        "title": "All these Nvidia headlines are just noise: Why you should keep watching AI spending",
-        "url": "https://finance.yahoo.com/video/all-these-nvidia-headlines-are-just-noise-why-you-should-keep-watching-ai-spending-152236102.html?.tsrc=rss",
+        "title": "Stock Market Today: Nasdaq Leads Charge; Nvidia Falls On China Data-Center Chip News (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-nasdaq.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 10:22 ET",
-        "pub_ts": 1795792956.0
+        "time": "11-27 11:38 ET",
+        "pub_ts": 1795797502.0
       },
       {
-        "title": "Stocks snap from a $6 trillion washout to a $3 trillion surge as Nvidia, Micron, and SpaceX bounce back",
-        "url": "https://finance.yahoo.com/markets/article/stocks-snap-from-a-6-trillion-washout-to-a-3-trillion-surge-as-nvidia-micron-and-spacex-bounce-back-151218930.html?.tsrc=rss",
+        "title": "Jensen Huang’s Troubles Cost Him $30 Billion",
+        "url": "https://247wallst.com/investing/2026/11/27/jensen-huangs-troubles-cost-him-30-billion/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 10:12 ET",
-        "pub_ts": 1795792338.0
+        "time": "11-27 11:34 ET",
+        "pub_ts": 1795797248.0
       }
     ],
     "AMD": [
+      {
+        "title": "Dual AI Growth Catalysts Position Advanced Micro Devices (AMD) for Revenue Acceleration",
+        "url": "https://finance.yahoo.com/technology/ai/articles/dual-ai-growth-catalysts-position-164930131.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 11:49 ET",
+        "pub_ts": 1795798170.0
+      },
+      {
+        "title": "AMD vs. ASML: As Wall Street Questions the AI Boom, Which Chip Stock Wins in 2027?",
+        "url": "https://www.fool.com/coverage/better-buy/2026/11/27/amd-vs-asml-as-wall-street-questions-the-ai-boom-which-chip-stock-wins-in-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 11:46 ET",
+        "pub_ts": 1795798019.0
+      },
       {
         "title": "Here’s Why I’d Still Buy Nvidia Over AMD With or Without Jensen Huang at CEO.",
         "url": "https://www.fool.com/investing/2026/11/27/here-s-why-i-d-still-buy-nvidia-over-amd-with-or-without-jensen-huang-at-ceo/?.tsrc=rss",
@@ -956,25 +970,11 @@
         "pub_ts": 1795794841.0
       },
       {
-        "title": "Sandisk, Bloom, Marvell, AMD, Nvidia, HP, and More Stocks That Explain Today’s Market",
-        "url": "https://finance.yahoo.com/m/977de44c-fcf5-3369-bcdd-0c3ddc7cfec9/sandisk%2C-bloom%2C-marvell%2C-amd%2C.html?.tsrc=rss",
+        "title": "HPE vs. AMD: Which Stock Should Value Investors Buy Now?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/hpe-vs-amd-stock-value-154003186.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 09:56 ET",
-        "pub_ts": 1795791360.0
-      },
-      {
-        "title": "AMD Rises 4% Despite Erste Group Downgrade on Valuation; Marvell Climbs 6%, Intel Gains 5%",
-        "url": "https://247wallst.com/investing/2026/11/27/amd-rises-4-despite-erste-group-downgrade-on-valuation-marvell-climbs-6-intel-gains-5/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 09:02 ET",
-        "pub_ts": 1795788175.0
-      },
-      {
-        "title": "Advanced Micro Devices (AMD) After AI Data Center Wins Looks Cheap Or Already Priced In",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-amd-ai-130859777.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 08:08 ET",
-        "pub_ts": 1795784939.0
+        "time": "11-27 10:40 ET",
+        "pub_ts": 1795794003.0
       }
     ],
     "ASML": [
@@ -3282,23 +3282,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795797356.2308214,
-    "SOXL": 1795797356.2308214,
-    "SPY": 1795797356.2308214,
-    "DIA": 1795797356.2308214,
-    "SOXX": 1795797356.2308214,
-    "QQQ": 1795797356.2308214,
-    "SMH": 1795797356.2308214,
-    "IWM": 1795797356.2308214,
-    "IGV": 1795797356.2308214,
-    "TLT": 1795797356.2308214,
-    "GLD": 1795797356.2308214,
-    "SQQQ": 1795797356.2308214,
-    "TSM": 1795797356.2308214,
-    "VIXY": 1795797356.2308214,
-    "SOXS": 1795797356.2308214,
-    "NVDA": 1795797356.2308214,
-    "AMD": 1795797356.2308214,
+    "KORU": 1795798912.974724,
+    "SOXL": 1795798912.974724,
+    "SPY": 1795798912.974724,
+    "DIA": 1795798912.974724,
+    "SOXX": 1795798912.974724,
+    "QQQ": 1795798912.974724,
+    "SMH": 1795798912.974724,
+    "IWM": 1795798912.974724,
+    "IGV": 1795798912.974724,
+    "TLT": 1795798912.974724,
+    "GLD": 1795798912.974724,
+    "SQQQ": 1795798912.974724,
+    "TSM": 1795798912.974724,
+    "VIXY": 1795798912.974724,
+    "SOXS": 1795798912.974724,
+    "NVDA": 1795798912.974724,
+    "AMD": 1795798912.974724,
     "ASML": 1795798497.866745,
     "QCOM": 1795798497.866745,
     "AVGO": 1795798497.866745,
@@ -3337,14 +3337,14 @@
     "OKLO": 1795798806.776704,
     "CEG": 1795798806.776704,
     "FPS": 1795798806.776704,
-    "MU": 1795797356.2308214,
-    "SKHY": 1795797356.2308214,
-    "WDC": 1795797356.2308214,
-    "STX": 1795797356.2308214,
-    "MSTR": 1795797356.2308214,
-    "SNDK": 1795797356.2308214,
+    "MU": 1795798912.974724,
+    "SKHY": 1795798912.974724,
+    "WDC": 1795798912.974724,
+    "STX": 1795798912.974724,
+    "MSTR": 1795798912.974724,
+    "SNDK": 1795798912.974724,
     "BTC-USD": 1795797460.2513337,
-    "CRWD": 1795797356.2308214,
+    "CRWD": 1795798912.974724,
     "ORCL": 1795797460.2513337,
     "COIN": 1795797460.2513337,
     "LLY": 1795797460.2513337,
@@ -3361,7 +3361,7 @@
     "GLW": 1795798806.776704,
     "ANT": 1795798806.776704,
     "XAUUSD": 1795798806.776704,
-    "KOSPI": 1795797356.2308214
+    "KOSPI": 1795798912.974724
   },
   "opex_shield": {
     "date": "2026-11-27",
