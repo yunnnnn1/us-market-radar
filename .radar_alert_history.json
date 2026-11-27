@@ -86,8 +86,8 @@
       "last_notified_at": 1795804022.6390688
     },
     "IWM": {
-      "state": "NORMAL",
-      "last_notified_at": 0.0
+      "state": "WATCHLIST_ENTRY_READY",
+      "last_notified_at": 1795805356.7470415
     },
     "IGV": {
       "state": "NORMAL",
@@ -182,8 +182,8 @@
       "last_notified_at": 1795805255.1232247
     },
     "AVGO": {
-      "state": "NORMAL",
-      "last_notified_at": 0.0
+      "state": "WATCHLIST_ENTRY_READY",
+      "last_notified_at": 1795805356.7470415
     }
   },
   "position_peaks": {
