@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795805546.965,
-  "updated_at_et": "11-27 13:52 ET",
-  "updated_at_kst": "03:52 KST",
+  "updated_at_ts": 1795805653.099,
+  "updated_at_et": "11-27 13:54 ET",
+  "updated_at_kst": "03:54 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -797,6 +797,13 @@
     ],
     "TSM": [
       {
+        "title": "Stanley Druckenmiller, David Tepper and 5 Other Famous Investors Own Taiwan Semiconductor. Here’s Who Sold Recently",
+        "url": "https://www.tikr.com/blog/stanley-druckenmiller-david-tepper-and-5-other-famous-investors-own-taiwan-semiconductor-heres-who-sold-recently?ref=yahoofinance&tlnk=yf-261127-678h6x89&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:28 ET",
+        "pub_ts": 1795804099.0
+      },
+      {
         "title": "Trump Is Heading to Arizona to Break Ground on TSMC’s Newest Chip Plant",
         "url": "https://247wallst.com/investing/2026/11/27/trump-is-heading-to-arizona-to-break-ground-on-tsmcs-newest-chip-plant/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -823,13 +830,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 08:30 ET",
         "pub_ts": 1795786204.0
-      },
-      {
-        "title": "ETFs Sold $34.5 Million of Taiwan Semiconductor (TSM) on Nov. 25",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-sold-34-5-million-110229859.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:02 ET",
-        "pub_ts": 1795777349.0
       }
     ],
     "VIXY": [
@@ -908,39 +908,39 @@
     ],
     "NVDA": [
       {
-        "title": "Nvidia’s Key Man Problem",
-        "url": "https://www.fool.com/investing/2026/11/27/nvidias-key-man-problem/?.tsrc=rss",
+        "title": "US Equity Indexes Rise as Jensen Huang's Return to Nvidia Guardrails AI Trade While Investors Slice Growth Exposure This Week",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-jensen-183902792.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 13:01 ET",
-        "pub_ts": 1795802462.0
+        "time": "11-27 13:39 ET",
+        "pub_ts": 1795804742.0
       },
       {
-        "title": "Stock Market Today: Dow, Nasdaq Pop In Post-Holiday Trade; Nvidia Falls, Sandisk Vaults Higher (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow%2C.html?.tsrc=rss",
+        "title": "For a Little While, Nvidia Faced a Future Without Jensen Huang",
+        "url": "https://www.fool.com/investing/2026/11/27/for-a-little-while-nvidia-faced-a-future-without-jensen-huang/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 12:47 ET",
-        "pub_ts": 1795801677.0
+        "time": "11-27 13:31 ET",
+        "pub_ts": 1795804262.0
       },
       {
-        "title": "Not AMD. This Is the 1 Company Nvidia Should Worry About Most.",
-        "url": "https://www.fool.com/investing/2026/11/27/not-amd-this-is-the-1-company-nvidia-should-worry-about-most/?.tsrc=rss",
+        "title": "Investing.com’s stocks of the week",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/investing-com-stocks-week-182910314.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 12:35 ET",
-        "pub_ts": 1795800902.0
+        "time": "11-27 13:29 ET",
+        "pub_ts": 1795804150.0
       },
       {
-        "title": "Stock Market Midday, Nov. 27: Tech Stocks Recover and Amazon Posts Black Friday Gains",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-midday-nov-27-tech-stocks-recover-and-amazon-posts-black-friday-gains/?.tsrc=rss",
+        "title": "SanDisk Stocks Jump 12.85% After Kioxia and Nvidia Stretch GPU Memory With SSDs",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-stocks-jump-12-85-181316890.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 12:31 ET",
-        "pub_ts": 1795800677.0
+        "time": "11-27 13:13 ET",
+        "pub_ts": 1795803196.0
       },
       {
-        "title": "Gold mining stocks hit oversold levels as fear grips markets",
-        "url": "https://investorshub.advfn.com/market-news/article/40827/gold-mining-stocks-oversold-market-fear?.tsrc=rss",
+        "title": "Kioxia Stocks Jump 8.86% as Nvidia SSD Test and Index Buying Lift Shares",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/kioxia-stocks-jump-8-86-181157042.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 12:30 ET",
-        "pub_ts": 1795800640.0
+        "time": "11-27 13:11 ET",
+        "pub_ts": 1795803117.0
       }
     ],
     "AMD": [
@@ -2388,7 +2388,7 @@
     ],
     "MU": [
       {
-        "title": "Stocks snap from a $6 trillion washout to a $3 trillion surge as Nvidia, Micron, and SpaceX bounce back",
+        "title": "Stocks snap from a $6 trillion washout to a $3.5 trillion surge as Nvidia, Micron, and SpaceX bounce back",
         "url": "https://finance.yahoo.com/markets/article/stocks-snap-from-a-6-trillion-washout-to-a-3-trillion-surge-as-nvidia-micron-and-spacex-bounce-back-151218930.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-27 10:12 ET",
@@ -2580,6 +2580,13 @@
         "pub_ts": 1795789800.0
       },
       {
+        "title": "SanDisk Stocks Jump 12.85% After Kioxia and Nvidia Stretch GPU Memory With SSDs",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-stocks-jump-12-85-181316890.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:13 ET",
+        "pub_ts": 1795803196.0
+      },
+      {
         "title": "SanDisk Surges 16% as Memory Stocks Extend Their Rebound: Can SNDK Stock Blast Through $100 Before 2026 Ends?",
         "url": "https://247wallst.com/investing/2026/11/27/sandisk-surges-16-as-memory-stocks-extend-their-rebound-can-sndk-stock-blast-through-100-before-2026-ends/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2599,13 +2606,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 12:47 ET",
         "pub_ts": 1795801677.0
-      },
-      {
-        "title": "Stock Market Midday, Nov. 27: Tech Stocks Recover and Amazon Posts Black Friday Gains",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-midday-nov-27-tech-stocks-recover-and-amazon-posts-black-friday-gains/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 12:31 ET",
-        "pub_ts": 1795800677.0
       }
     ],
     "BTC-USD": [
@@ -3285,23 +3285,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795804112.8596241,
-    "SOXL": 1795804112.8596241,
-    "SPY": 1795804112.8596241,
-    "DIA": 1795804112.8596241,
-    "SOXX": 1795804112.8596241,
-    "QQQ": 1795804112.8596241,
-    "SMH": 1795804112.8596241,
-    "IWM": 1795804112.8596241,
-    "IGV": 1795804112.8596241,
-    "TLT": 1795804112.8596241,
-    "GLD": 1795804112.8596241,
-    "SQQQ": 1795804112.8596241,
-    "TSM": 1795804112.8596241,
-    "VIXY": 1795804112.8596241,
-    "SOXS": 1795804112.8596241,
-    "NVDA": 1795804112.8596241,
-    "AMD": 1795804112.8596241,
+    "KORU": 1795805653.0994964,
+    "SOXL": 1795805653.0994964,
+    "SPY": 1795805653.0994964,
+    "DIA": 1795805653.0994964,
+    "SOXX": 1795805653.0994964,
+    "QQQ": 1795805653.0994964,
+    "SMH": 1795805653.0994964,
+    "IWM": 1795805653.0994964,
+    "IGV": 1795805653.0994964,
+    "TLT": 1795805653.0994964,
+    "GLD": 1795805653.0994964,
+    "SQQQ": 1795805653.0994964,
+    "TSM": 1795805653.0994964,
+    "VIXY": 1795805653.0994964,
+    "SOXS": 1795805653.0994964,
+    "NVDA": 1795805653.0994964,
+    "AMD": 1795805653.0994964,
     "ASML": 1795804423.4267256,
     "QCOM": 1795804423.4267256,
     "AVGO": 1795804423.4267256,
@@ -3340,14 +3340,14 @@
     "OKLO": 1795804526.326668,
     "CEG": 1795804526.326668,
     "FPS": 1795804526.326668,
-    "MU": 1795804112.8596241,
-    "SKHY": 1795804112.8596241,
-    "WDC": 1795804112.8596241,
-    "STX": 1795804112.8596241,
-    "MSTR": 1795804112.8596241,
-    "SNDK": 1795804112.8596241,
+    "MU": 1795805653.0994964,
+    "SKHY": 1795805653.0994964,
+    "WDC": 1795805653.0994964,
+    "STX": 1795805653.0994964,
+    "MSTR": 1795805653.0994964,
+    "SNDK": 1795805653.0994964,
     "BTC-USD": 1795804423.4267256,
-    "CRWD": 1795804112.8596241,
+    "CRWD": 1795805653.0994964,
     "ORCL": 1795804423.4267256,
     "COIN": 1795804423.4267256,
     "LLY": 1795804423.4267256,
@@ -3364,7 +3364,7 @@
     "GLW": 1795804526.326668,
     "ANT": 1795804629.88339,
     "XAUUSD": 1795804629.88339,
-    "KOSPI": 1795804112.8596241
+    "KOSPI": 1795805653.0994964
   },
   "opex_shield": {
     "date": "2026-11-27",
