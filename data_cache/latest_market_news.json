@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795787872.071,
-  "updated_at_et": "11-27 08:57 ET",
-  "updated_at_kst": "22:57 KST",
+  "updated_at_ts": 1795787976.478,
+  "updated_at_et": "11-27 08:59 ET",
+  "updated_at_kst": "22:59 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -910,6 +910,13 @@
         "pub_ts": 1795783742.0
       },
       {
+        "title": "AI Needs More Than Nvidia Chips. This Stock Could Benefit",
+        "url": "https://247wallst.com/investing/2026/11/27/ai-needs-more-than-nvidia-chips-this-stock-could-benefit/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:47 ET",
+        "pub_ts": 1795787250.0
+      },
+      {
         "title": "Is Nvidia a Screaming Buy or a Value Trap?",
         "url": "https://www.fool.com/investing/2026/11/27/is-nvidia-a-screaming-buy-or-a-value-trap/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -929,13 +936,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 07:45 ET",
         "pub_ts": 1795783506.0
-      },
-      {
-        "title": "Nvidia Chips Turn Up at China Site Linked to Alice Huang",
-        "url": "https://finance.yahoo.com/video/nvidia-chips-turn-china-linked-124500841.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 07:45 ET",
-        "pub_ts": 1795783500.0
       }
     ],
     "AMD": [
@@ -2397,6 +2397,13 @@
         "pub_ts": 1795785561.0
       },
       {
+        "title": "MARKETS LIVE: US stock futures jump ahead of shortened Black Friday trading session",
+        "url": "https://www.proactiveinvestors.com/companies/news/1102556/markets-live-us-stock-futures-jump-ahead-of-shortened-black-friday-trading-session-1102556.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 06:57 ET",
+        "pub_ts": 1795780620.0
+      },
+      {
         "title": "Why Is Micron Technology Stock Surging Today?",
         "url": "https://investorshub.advfn.com/market-news/article/40794/why-is-micron-technology-stock-surging-today?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2409,13 +2416,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 06:52 ET",
         "pub_ts": 1795780372.0
-      },
-      {
-        "title": "Micron vs. SanDisk: Which Is the Better AI Stock to Buy for 2027?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/micron-vs-sandisk-better-ai-111815853.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:18 ET",
-        "pub_ts": 1795778295.0
       }
     ],
     "SKHY": [
@@ -2568,6 +2568,13 @@
     ],
     "SNDK": [
       {
+        "title": "Why SanDisk’s Path to $170 in 2027 Hinges on One Test of Its Multi-Year Contracts",
+        "url": "https://247wallst.com/investing/2026/11/27/why-sandisks-path-to-170-in-2027-hinges-on-one-test-of-its-multi-year-contracts/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:45 ET",
+        "pub_ts": 1795787122.0
+      },
+      {
         "title": "Micron vs. SanDisk: Which Is the Better AI Stock to Buy for 2027?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/micron-vs-sandisk-better-ai-111815853.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2594,13 +2601,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 14:30 ET",
         "pub_ts": 1795721403.0
-      },
-      {
-        "title": "Micron and Sandisk Are Two of the Cheapest AI Chip Stocks to Own",
-        "url": "https://finance.yahoo.com/technology/ai/articles/micron-sandisk-two-cheapest-ai-112351523.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 06:23 ET",
-        "pub_ts": 1795692231.0
       }
     ],
     "BTC-USD": [
@@ -3280,23 +3280,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795786430.697521,
-    "SOXL": 1795786430.697521,
-    "SPY": 1795786430.697521,
-    "DIA": 1795786430.697521,
-    "SOXX": 1795786430.697521,
-    "QQQ": 1795786430.697521,
-    "SMH": 1795786430.697521,
-    "IWM": 1795786430.697521,
-    "IGV": 1795786430.697521,
-    "TLT": 1795786430.697521,
-    "GLD": 1795786430.697521,
-    "SQQQ": 1795786430.697521,
-    "TSM": 1795786430.697521,
-    "VIXY": 1795786430.697521,
-    "SOXS": 1795786430.697521,
-    "NVDA": 1795786430.697521,
-    "AMD": 1795786430.697521,
+    "KORU": 1795787976.477584,
+    "SOXL": 1795787976.477584,
+    "SPY": 1795787976.477584,
+    "DIA": 1795787976.477584,
+    "SOXX": 1795787976.477584,
+    "QQQ": 1795787976.477584,
+    "SMH": 1795787976.477584,
+    "IWM": 1795787976.477584,
+    "IGV": 1795787976.477584,
+    "TLT": 1795787976.477584,
+    "GLD": 1795787976.477584,
+    "SQQQ": 1795787976.477584,
+    "TSM": 1795787976.477584,
+    "VIXY": 1795787976.477584,
+    "SOXS": 1795787976.477584,
+    "NVDA": 1795787976.477584,
+    "AMD": 1795787976.477584,
     "ASML": 1795787560.5999227,
     "QCOM": 1795787560.5999227,
     "AVGO": 1795787560.5999227,
@@ -3335,14 +3335,14 @@
     "OKLO": 1795787872.0706527,
     "CEG": 1795787872.0706527,
     "FPS": 1795787872.0706527,
-    "MU": 1795786430.697521,
-    "SKHY": 1795786430.697521,
-    "WDC": 1795786430.697521,
-    "STX": 1795786430.697521,
-    "MSTR": 1795786430.697521,
-    "SNDK": 1795786430.697521,
+    "MU": 1795787976.477584,
+    "SKHY": 1795787976.477584,
+    "WDC": 1795787976.477584,
+    "STX": 1795787976.477584,
+    "MSTR": 1795787976.477584,
+    "SNDK": 1795787976.477584,
     "BTC-USD": 1795786533.1216323,
-    "CRWD": 1795786430.697521,
+    "CRWD": 1795787976.477584,
     "ORCL": 1795786533.1216323,
     "COIN": 1795786533.1216323,
     "LLY": 1795786533.1216323,
@@ -3359,7 +3359,7 @@
     "GLW": 1795787872.0706527,
     "ANT": 1795787872.0706527,
     "XAUUSD": 1795787872.0706527,
-    "KOSPI": 1795786430.697521
+    "KOSPI": 1795787976.477584
   },
   "opex_shield": {
     "date": "2026-11-27",
