@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795799951.357,
-  "updated_at_et": "11-27 12:19 ET",
-  "updated_at_kst": "02:19 KST",
+  "updated_at_ts": 1795800054.042,
+  "updated_at_et": "11-27 12:20 ET",
+  "updated_at_kst": "02:20 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1178,6 +1178,13 @@
         "pub_ts": 1795780980.0
       },
       {
+        "title": "How much GOOGL stock does Alphabet CEO Sundar Pichai own?",
+        "url": "https://www.thestreet.com/personalities/how-much-alphabet-googl-stock-does-sundar-pichai-own?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 11:57 ET",
+        "pub_ts": 1795798620.0
+      },
+      {
         "title": "This Semiconductor Stock Could Have Its Biggest Year Yet in 2027",
         "url": "https://247wallst.com/investing/2026/11/27/this-semiconductor-stock-could-have-its-biggest-year-yet-in-2027/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1190,13 +1197,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 10:45 ET",
         "pub_ts": 1795794329.0
-      },
-      {
-        "title": "Is Alphabet No Longer Telling You Something?",
-        "url": "https://www.trefis.com/stock/googl/articles/629385/is-alphabet-no-longer-telling-you-something/2026-11-27?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 10:36 ET",
-        "pub_ts": 1795793761.0
       }
     ],
     "MSFT": [
@@ -1349,6 +1349,13 @@
     ],
     "AMZN": [
       {
+        "title": "Sector Update: Consumer Stocks Advance Friday Afternoon",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-friday-171212418.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 12:12 ET",
+        "pub_ts": 1795799532.0
+      },
+      {
         "title": "Amazon.com (AMZN) Is Negotiating Muse AI Access To Its Shopping Platform",
         "url": "https://finance.yahoo.com/technology/ai/articles/amazon-com-amzn-negotiating-muse-161256193.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1375,13 +1382,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 09:38 ET",
         "pub_ts": 1795790281.0
-      },
-      {
-        "title": "Market Chatter: Hackers Breach US Air Force Cloud Platform Powered by Microsoft, Amazon, Oracle, Alphabet",
-        "url": "https://finance.yahoo.com/technology/articles/market-chatter-hackers-breach-us-122132707.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 07:21 ET",
-        "pub_ts": 1795782092.0
       }
     ],
     "CRWV": [
@@ -1608,6 +1608,13 @@
     ],
     "COHR": [
       {
+        "title": "Coherent Jumps 12% as Optical Stocks Rebound From Wednesday’s AI Selloff; Applied Optoelectronics and Lumentum Rise 7%",
+        "url": "https://247wallst.com/investing/2026/11/27/coherent-jumps-12-as-optical-stocks-rebound-from-wednesdays-ai-selloff-applied-optoelectronics-and-lumentum-rise-7/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 12:06 ET",
+        "pub_ts": 1795799198.0
+      },
+      {
         "title": "Coherent Targets $250 Million in Quarterly PhotonLink Sales. Can Capacity Keep Up?",
         "url": "https://finance.yahoo.com/technology/articles/coherent-targets-250-million-quarterly-040735182.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1634,13 +1641,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:28 ET",
         "pub_ts": 1795620532.0
-      },
-      {
-        "title": "Coherent Director Stephen Pagliuca Just Bought $15.2 Million of Stock at Less Than Half Its June High",
-        "url": "https://www.tikr.com/blog/coherent-director-stephen-pagliuca-just-bought-15-2-million-of-stock-at-less-than-half-its-june-high?ref=yahoofinance&tlnk=yf-261125-3vm638gr&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 04:03 ET",
-        "pub_ts": 1795597389.0
       }
     ],
     "MRVL": [
@@ -1719,6 +1719,13 @@
     ],
     "AAOI": [
       {
+        "title": "Coherent Jumps 12% as Optical Stocks Rebound From Wednesday’s AI Selloff; Applied Optoelectronics and Lumentum Rise 7%",
+        "url": "https://247wallst.com/investing/2026/11/27/coherent-jumps-12-as-optical-stocks-rebound-from-wednesdays-ai-selloff-applied-optoelectronics-and-lumentum-rise-7/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 12:06 ET",
+        "pub_ts": 1795799198.0
+      },
+      {
         "title": "Applied Optoelectronics (AAOI) Has the Orders. Does It Have the Parts?",
         "url": "https://finance.yahoo.com/technology/ai/articles/applied-optoelectronics-aaoi-orders-does-144805709.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1745,13 +1752,6 @@
         "source": "Yahoo Finance",
         "time": "11-24 11:36 ET",
         "pub_ts": 1795538160.0
-      },
-      {
-        "title": "Applied Optoelectronics Climbs 5% on $2.2 Billion Hyperscaler Supply Deal; Lumentum and Coherent Drop 6%",
-        "url": "https://247wallst.com/investing/2026/11/24/applied-optoelectronics-climbs-5-on-2-2-billion-hyperscaler-supply-deal-lumentum-and-coherent-drop-6/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 09:58 ET",
-        "pub_ts": 1795532304.0
       }
     ],
     "SPCX": [
@@ -3299,27 +3299,27 @@
     "SOXS": 1795798912.974724,
     "NVDA": 1795798912.974724,
     "AMD": 1795798912.974724,
-    "ASML": 1795798497.866745,
-    "QCOM": 1795798497.866745,
-    "AVGO": 1795798497.866745,
-    "AMAT": 1795798497.866745,
-    "META": 1795798497.866745,
-    "GOOGL": 1795798497.866745,
-    "MSFT": 1795798497.866745,
-    "AAPL": 1795798497.866745,
-    "PLTR": 1795798497.866745,
-    "NOW": 1795798497.866745,
-    "AMZN": 1795798497.866745,
-    "CRWV": 1795798497.866745,
-    "NBIS": 1795798497.866745,
-    "APLD": 1795798497.866745,
-    "VST": 1795798497.866745,
-    "BE": 1795798497.866745,
-    "CRDO": 1795798497.866745,
-    "COHR": 1795798497.866745,
-    "MRVL": 1795798497.866745,
+    "ASML": 1795800054.0423427,
+    "QCOM": 1795800054.0423427,
+    "AVGO": 1795800054.0423427,
+    "AMAT": 1795800054.0423427,
+    "META": 1795800054.0423427,
+    "GOOGL": 1795800054.0423427,
+    "MSFT": 1795800054.0423427,
+    "AAPL": 1795800054.0423427,
+    "PLTR": 1795800054.0423427,
+    "NOW": 1795800054.0423427,
+    "AMZN": 1795800054.0423427,
+    "CRWV": 1795800054.0423427,
+    "NBIS": 1795800054.0423427,
+    "APLD": 1795800054.0423427,
+    "VST": 1795800054.0423427,
+    "BE": 1795800054.0423427,
+    "CRDO": 1795800054.0423427,
+    "COHR": 1795800054.0423427,
+    "MRVL": 1795800054.0423427,
     "LITE": 1795798806.776704,
-    "AAOI": 1795798497.866745,
+    "AAOI": 1795800054.0423427,
     "SPCX": 1795798806.776704,
     "ASTS": 1795798806.776704,
     "AXTI": 1795798806.776704,
@@ -3349,13 +3349,13 @@
     "COIN": 1795799018.7267644,
     "LLY": 1795799018.7267644,
     "MRNA": 1795799018.7267644,
-    "NKE": 1795798497.866745,
-    "MCD": 1795798497.866745,
-    "PEP": 1795798497.866745,
+    "NKE": 1795800054.0423427,
+    "MCD": 1795800054.0423427,
+    "PEP": 1795800054.0423427,
     "XOM": 1795798806.776704,
-    "JPM": 1795798497.866745,
+    "JPM": 1795800054.0423427,
     "WMT": 1795798806.776704,
-    "V": 1795798497.866745,
+    "V": 1795800054.0423427,
     "CAT": 1795798806.776704,
     "FN": 1795798806.776704,
     "GLW": 1795798806.776704,
