@@ -8023,9 +8023,13 @@
     "2026-11-27:FLY/SPY/DIA/IWM:5M_ENTRY": {
       "device": "PC",
       "ts": 1795799760.25375
+    },
+    "2026-11-27:AVGO/PLTR:5M_ENTRY": {
+      "device": "PC",
+      "ts": 1795800171.2911823
     }
   },
   "device": "PC",
-  "last_heartbeat_ts": 1795799983.6211321,
-  "updated_at": "2026-11-27T17:21:08.562362+00:00"
+  "last_heartbeat_ts": 1795800087.653232,
+  "updated_at": "2026-11-27T17:22:51.291229+00:00"
 }
