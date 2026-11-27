@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795767063.222,
-  "updated_at_et": "11-27 03:11 ET",
-  "updated_at_kst": "17:11 KST",
+  "updated_at_ts": 1795767160.401,
+  "updated_at_et": "11-27 03:12 ET",
+  "updated_at_kst": "17:12 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1926,6 +1926,13 @@
     ],
     "TSLA": [
       {
+        "title": "Elon Musk Offers Samsung Long-Term Chip Deals and Factory Funding, Gets Brushed Off: 'Everyone Else Was Offering That'",
+        "url": "https://finance.yahoo.com/technology/articles/elon-musk-offers-samsung-long-064455133.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 01:44 ET",
+        "pub_ts": 1795761895.0
+      },
+      {
         "title": "‘How Can TSLA Compete With Waymo?’ Gary Black Questions Tesla’s Robotaxi Strategy, Predicts Waymo Will Lead in Miles and Trips",
         "url": "https://finance.yahoo.com/technology/articles/tsla-compete-waymo-gary-black-013007370.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1952,13 +1959,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 14:03 ET",
         "pub_ts": 1795719837.0
-      },
-      {
-        "title": "Charlie Munger Said BYD Was ‘So Much Ahead Of Tesla, It’s Almost Ridiculous’ in 2023. BYD Then Outsold Tesla, But Berkshire Sold Every Share.",
-        "url": "https://www.barchart.com/story/news/9022591/charlie-munger-said-byd-was-so-much-ahead-of-tesla-its-almost-ridiculous-in-2023-byd-then-outsold-tesla-but-berkshire-sold-every-share?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 13:30 ET",
-        "pub_ts": 1795717803.0
       }
     ],
     "AXP": [
@@ -2037,6 +2037,13 @@
     ],
     "KO": [
       {
+        "title": "The Coca-Cola Company and Gutsche Family Investments Close on Sale of Controlling Interest in Coca-Cola Beverages Africa to Coca-Cola HBC AG",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-company-gutsche-family-075100177.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 02:51 ET",
+        "pub_ts": 1795765860.0
+      },
+      {
         "title": "Coca-Cola (KO) Up 6.4% Since Last Earnings Report: Can It Continue?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-6-4-153014132.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2063,13 +2070,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 08:32 ET",
         "pub_ts": 1795699976.0
-      },
-      {
-        "title": "Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises, I'll Never Sell.",
-        "url": "https://www.fool.com/investing/2026/11/26/coca-cola-is-the-most-boring-stock-i-own-after-64-years-of-dividend-raises-ill-never-sell/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 07:59 ET",
-        "pub_ts": 1795697942.0
       }
     ],
     "FLY": [
@@ -3303,31 +3303,31 @@
     "CRDO": 1795766280.5323026,
     "COHR": 1795766280.5323026,
     "MRVL": 1795766280.5323026,
-    "LITE": 1795765595.0041926,
+    "LITE": 1795767160.400745,
     "AAOI": 1795766280.5323026,
-    "SPCX": 1795765595.0041926,
-    "ASTS": 1795765595.0041926,
-    "AXTI": 1795765595.0041926,
-    "NASA": 1795765595.0041926,
-    "LUNR": 1795765595.0041926,
-    "TSLA": 1795765595.0041926,
-    "AXP": 1795765595.0041926,
-    "RKLB": 1795765595.0041926,
-    "KO": 1795765595.0041926,
-    "FLY": 1795765595.0041926,
-    "INTC": 1795765595.0041926,
-    "VRT": 1795765595.0041926,
-    "HPE": 1795765595.0041926,
-    "DELL": 1795765595.0041926,
-    "OKLO": 1795765595.0041926,
-    "CEG": 1795765595.0041926,
-    "FPS": 1795765595.0041926,
-    "MU": 1795765595.0041926,
-    "SKHY": 1795765595.0041926,
-    "WDC": 1795765595.0041926,
-    "STX": 1795765595.0041926,
+    "SPCX": 1795767160.400745,
+    "ASTS": 1795767160.400745,
+    "AXTI": 1795767160.400745,
+    "NASA": 1795767160.400745,
+    "LUNR": 1795767160.400745,
+    "TSLA": 1795767160.400745,
+    "AXP": 1795767160.400745,
+    "RKLB": 1795767160.400745,
+    "KO": 1795767160.400745,
+    "FLY": 1795767160.400745,
+    "INTC": 1795767160.400745,
+    "VRT": 1795767160.400745,
+    "HPE": 1795767160.400745,
+    "DELL": 1795767160.400745,
+    "OKLO": 1795767160.400745,
+    "CEG": 1795767160.400745,
+    "FPS": 1795767160.400745,
+    "MU": 1795767160.400745,
+    "SKHY": 1795767160.400745,
+    "WDC": 1795767160.400745,
+    "STX": 1795767160.400745,
     "MSTR": 1795765887.7609062,
-    "SNDK": 1795765595.0041926,
+    "SNDK": 1795767160.400745,
     "BTC-USD": 1795765887.7609062,
     "CRWD": 1795765887.7609062,
     "ORCL": 1795765887.7609062,
@@ -3342,8 +3342,8 @@
     "WMT": 1795766378.0920386,
     "V": 1795766280.5323026,
     "CAT": 1795766378.0920386,
-    "FN": 1795765595.0041926,
-    "GLW": 1795765595.0041926,
+    "FN": 1795767160.400745,
+    "GLW": 1795767160.400745,
     "ANT": 1795766378.0920386,
     "XAUUSD": 1795766378.0920386,
     "KOSPI": 1795765887.7609062
