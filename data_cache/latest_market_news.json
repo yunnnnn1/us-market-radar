@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795808934.38,
-  "updated_at_et": "11-27 14:48 ET",
-  "updated_at_kst": "04:48 KST",
+  "updated_at_ts": 1795809035.821,
+  "updated_at_et": "11-27 14:50 ET",
+  "updated_at_kst": "04:50 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1130,6 +1130,13 @@
     ],
     "META": [
       {
+        "title": "Top Stock Reports for Alphabet, Meta & Bank of America",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/top-stock-reports-alphabet-meta-184100991.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:41 ET",
+        "pub_ts": 1795804860.0
+      },
+      {
         "title": "What Is Meta Platforms (META) Up Against With Australia And EU AI Rules?",
         "url": "https://finance.yahoo.com/technology/ai/articles/meta-platforms-meta-against-australia-171148667.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1156,13 +1163,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 11:12 ET",
         "pub_ts": 1795795976.0
-      },
-      {
-        "title": "Meta Disrupts AI-Driven Commerce",
-        "url": "https://www.mediapost.com/publications/article/419717/meta-disrupts-ai-driven-commerce.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 09:49 ET",
-        "pub_ts": 1795790958.0
       }
     ],
     "GOOGL": [
@@ -1174,6 +1174,13 @@
         "pub_ts": 1795798320.0
       },
       {
+        "title": "Alphabet Stocks Move Lower as Record Credit Spreads Shadow AI Spending",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-move-lower-record-191839414.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 14:18 ET",
+        "pub_ts": 1795807119.0
+      },
+      {
         "title": "Jim Cramer Is Still Bullish On These 5 Tech Stocks Despite AI Bear Market",
         "url": "https://finance.yahoo.com/technology/articles/jim-cramer-still-bullish-5-184921596.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1181,25 +1188,18 @@
         "pub_ts": 1795805361.0
       },
       {
+        "title": "Top Stock Reports for Alphabet, Meta & Bank of America",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/top-stock-reports-alphabet-meta-184100991.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:41 ET",
+        "pub_ts": 1795804860.0
+      },
+      {
         "title": "AppLovin vs. Magnite: Which Technology Stock Is a Better Buy for 2027?",
         "url": "https://www.fool.com/coverage/better-buy/2026/11/27/applovin-vs-magnite-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-27 13:16 ET",
         "pub_ts": 1795803374.0
-      },
-      {
-        "title": "What Does Alphabet (GOOGL) Need To Prove After The Air Force Cloud Breach?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/does-alphabet-googl-prove-air-181025421.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 13:10 ET",
-        "pub_ts": 1795803025.0
-      },
-      {
-        "title": "Franklin Templeton Flags Hidden Risk in S&P 500 Investing",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/franklin-templeton-flags-hidden-risk-180023148.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 13:00 ET",
-        "pub_ts": 1795802423.0
       }
     ],
     "MSFT": [
@@ -1278,6 +1278,13 @@
     ],
     "PLTR": [
       {
+        "title": "Palantir Stocks Climb 3.72% on $300 Million Poland Defense AI Deal",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stocks-climb-3-72-192323429.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 14:23 ET",
+        "pub_ts": 1795807403.0
+      },
+      {
         "title": "PLTR Stock Sees Best Week In 4 Months: Palantir Bags Reported $300M Defense Deal With Poland",
         "url": "https://stocktwits.com/news-articles/markets/equity/pltr-stock-sees-best-week-in-4-months-palantir-bags-reported-300-m-defense-deal-with-poland/cNb6TaWR9Vg?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1304,13 +1311,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 12:57 ET",
         "pub_ts": 1795802222.0
-      },
-      {
-        "title": "Palantir Raised Its 2026 Growth Outlook to 91%. Could the Stock Have More Room to Run?",
-        "url": "https://247wallst.com/investing/2026/11/27/palantir-raised-its-2026-growth-outlook-to-91-could-the-stock-have-more-room-to-run/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 12:33 ET",
-        "pub_ts": 1795800816.0
       }
     ],
     "NOW": [
@@ -1352,6 +1352,20 @@
     ],
     "AMZN": [
       {
+        "title": "Amazon’s AWS Profit Rose 55%. Can It Absorb a $220 Billion Capex Bill?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-aws-profit-rose-55-191859418.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 14:18 ET",
+        "pub_ts": 1795807139.0
+      },
+      {
+        "title": "Amazon Stocks Climb 2.96% as Thanksgiving Online Spending Hits $7.1 Billion",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-stocks-climb-2-96-190908869.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 14:09 ET",
+        "pub_ts": 1795806548.0
+      },
+      {
         "title": "Jeff Bezos makes a $200 million move involving Amazon stock",
         "url": "https://www.thestreet.com/investing/jeff-bezos-amazon-stock-charitable-donation?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1371,20 +1385,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 12:31 ET",
         "pub_ts": 1795800677.0
-      },
-      {
-        "title": "Does Amazon's Profit Hang On One Business?",
-        "url": "https://www.trefis.com/stock/amzn/articles/629380/does-amazon-s-profit-hang-on-one-business/2026-11-27?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 12:31 ET",
-        "pub_ts": 1795800674.0
-      },
-      {
-        "title": "Sector Update: Tech Stocks Gain Friday Afternoon",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-gain-friday-172702126.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 12:27 ET",
-        "pub_ts": 1795800422.0
       }
     ],
     "CRWV": [
@@ -1648,6 +1648,13 @@
     ],
     "MRVL": [
       {
+        "title": "Marvell Technology (MRVL) Could Be 58% Undervalued Following Its Penguin Solutions Tie Up",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-mrvl-could-58-190952326.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 14:09 ET",
+        "pub_ts": 1795806592.0
+      },
+      {
         "title": "This Semiconductor Stock Could Have Its Biggest Year Yet in 2027",
         "url": "https://247wallst.com/investing/2026/11/27/this-semiconductor-stock-could-have-its-biggest-year-yet-in-2027/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1674,13 +1681,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 09:02 ET",
         "pub_ts": 1795788175.0
-      },
-      {
-        "title": "The Next Phase of AI Spending Could Put This Overlooked Stock in the Spotlight",
-        "url": "https://247wallst.com/investing/2026/11/27/the-next-phase-of-ai-spending-could-put-this-overlooked-stock-in-the-spotlight/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 07:17 ET",
-        "pub_ts": 1795781869.0
       }
     ],
     "LITE": [
@@ -2758,6 +2758,13 @@
     ],
     "LLY": [
       {
+        "title": "What Is The Biggest Threat To Eli Lilly Stock?",
+        "url": "https://www.trefis.com/stock/lly/articles/629360/what-is-the-biggest-threat-to-eli-lilly-stock/2026-11-27?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 14:26 ET",
+        "pub_ts": 1795807563.0
+      },
+      {
         "title": "Mental Health Clinical Trials - Global Strategic Business Report 2026: Capitalize on the $5.2 Billion Market with IQVIA, ICON, Eli Lilly, and COMPASS Pathways",
         "url": "https://finance.yahoo.com/healthcare/articles/mental-health-clinical-trials-global-144200503.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2784,13 +2791,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 07:09 ET",
         "pub_ts": 1795781386.0
-      },
-      {
-        "title": "Eli Lilly Stock Is Up 64% Since April. Is It Time to Take Profits?",
-        "url": "https://247wallst.com/investing/2026/11/26/eli-lilly-stock-is-up-64-since-april-is-it-time-to-take-profits/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 11:43 ET",
-        "pub_ts": 1795711384.0
       }
     ],
     "MRNA": [
@@ -3302,27 +3302,27 @@
     "SOXS": 1795808732.223897,
     "NVDA": 1795808732.223897,
     "AMD": 1795808732.223897,
-    "ASML": 1795807503.3117647,
-    "QCOM": 1795807503.3117647,
-    "AVGO": 1795807503.3117647,
-    "AMAT": 1795807503.3117647,
-    "META": 1795807503.3117647,
-    "GOOGL": 1795807503.3117647,
-    "MSFT": 1795807503.3117647,
-    "AAPL": 1795807503.3117647,
-    "PLTR": 1795807503.3117647,
-    "NOW": 1795807503.3117647,
-    "AMZN": 1795807503.3117647,
-    "CRWV": 1795807503.3117647,
-    "NBIS": 1795807503.3117647,
-    "APLD": 1795807503.3117647,
-    "VST": 1795807503.3117647,
-    "BE": 1795807503.3117647,
-    "CRDO": 1795807503.3117647,
-    "COHR": 1795807503.3117647,
-    "MRVL": 1795807503.3117647,
+    "ASML": 1795809035.821164,
+    "QCOM": 1795809035.821164,
+    "AVGO": 1795809035.821164,
+    "AMAT": 1795809035.821164,
+    "META": 1795809035.821164,
+    "GOOGL": 1795809035.821164,
+    "MSFT": 1795809035.821164,
+    "AAPL": 1795809035.821164,
+    "PLTR": 1795809035.821164,
+    "NOW": 1795809035.821164,
+    "AMZN": 1795809035.821164,
+    "CRWV": 1795809035.821164,
+    "NBIS": 1795809035.821164,
+    "APLD": 1795809035.821164,
+    "VST": 1795809035.821164,
+    "BE": 1795809035.821164,
+    "CRDO": 1795809035.821164,
+    "COHR": 1795809035.821164,
+    "MRVL": 1795809035.821164,
     "LITE": 1795807605.0391068,
-    "AAOI": 1795807503.3117647,
+    "AAOI": 1795809035.821164,
     "SPCX": 1795807605.0391068,
     "ASTS": 1795807605.0391068,
     "AXTI": 1795807605.0391068,
@@ -3346,12 +3346,12 @@
     "STX": 1795808732.223897,
     "MSTR": 1795808732.223897,
     "SNDK": 1795808732.223897,
-    "BTC-USD": 1795807503.3117647,
+    "BTC-USD": 1795809035.821164,
     "CRWD": 1795808732.223897,
-    "ORCL": 1795807503.3117647,
-    "COIN": 1795807503.3117647,
-    "LLY": 1795807503.3117647,
-    "MRNA": 1795807503.3117647,
+    "ORCL": 1795809035.821164,
+    "COIN": 1795809035.821164,
+    "LLY": 1795809035.821164,
+    "MRNA": 1795809035.821164,
     "NKE": 1795807605.0391068,
     "MCD": 1795807605.0391068,
     "PEP": 1795807605.0391068,
