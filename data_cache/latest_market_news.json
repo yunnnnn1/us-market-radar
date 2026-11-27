@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795810468.901,
-  "updated_at_et": "11-27 15:14 ET",
-  "updated_at_kst": "05:14 KST",
+  "updated_at_ts": 1795810573.26,
+  "updated_at_et": "11-27 15:16 ET",
+  "updated_at_kst": "05:16 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1352,6 +1352,13 @@
     ],
     "AMZN": [
       {
+        "title": "Amazon, Target and Walmart Chase Holiday Toy Spending",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-target-walmart-chase-holiday-195308961.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 14:53 ET",
+        "pub_ts": 1795809188.0
+      },
+      {
         "title": "Amazon’s AWS Profit Rose 55%. Can It Absorb a $220 Billion Capex Bill?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-aws-profit-rose-55-191859418.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1378,13 +1385,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 12:57 ET",
         "pub_ts": 1795802222.0
-      },
-      {
-        "title": "Stock Market Midday, Nov. 27: Tech Stocks Recover and Amazon Posts Black Friday Gains",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-midday-nov-27-tech-stocks-recover-and-amazon-posts-black-friday-gains/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 12:31 ET",
-        "pub_ts": 1795800677.0
       }
     ],
     "CRWV": [
@@ -2610,6 +2610,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "4 Scary Bitcoin Charts That Suggest This Bear Market Is Different",
+        "url": "https://decrypt.co/384177/bitcoin-4-scary-charts-crypto-winter-bear-market?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 14:46 ET",
+        "pub_ts": 1795808762.0
+      },
+      {
         "title": "$7 Billion in Bitcoin Options Just Expired: Here’s What It Means",
         "url": "https://decrypt.co/384154/7-billion-bitcoin-options-just-expired-what-it-means?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2636,13 +2643,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 12:30 ET",
         "pub_ts": 1795800600.0
-      },
-      {
-        "title": "Is Cipher Digital (CIFR) Undervalued After Its Texas Policy Scare?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/cipher-digital-cifr-undervalued-texas-171259989.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 12:12 ET",
-        "pub_ts": 1795799579.0
       }
     ],
     "CRWD": [
@@ -3302,27 +3302,27 @@
     "SOXS": 1795810266.474394,
     "NVDA": 1795810266.474394,
     "AMD": 1795810266.474394,
-    "ASML": 1795809035.821164,
-    "QCOM": 1795809035.821164,
-    "AVGO": 1795809035.821164,
-    "AMAT": 1795809035.821164,
-    "META": 1795809035.821164,
-    "GOOGL": 1795809035.821164,
-    "MSFT": 1795809035.821164,
-    "AAPL": 1795809035.821164,
-    "PLTR": 1795809035.821164,
-    "NOW": 1795809035.821164,
-    "AMZN": 1795809035.821164,
-    "CRWV": 1795809035.821164,
-    "NBIS": 1795809035.821164,
-    "APLD": 1795809035.821164,
-    "VST": 1795809035.821164,
-    "BE": 1795809035.821164,
-    "CRDO": 1795809035.821164,
-    "COHR": 1795809035.821164,
-    "MRVL": 1795809035.821164,
+    "ASML": 1795810573.2596898,
+    "QCOM": 1795810573.2596898,
+    "AVGO": 1795810573.2596898,
+    "AMAT": 1795810573.2596898,
+    "META": 1795810573.2596898,
+    "GOOGL": 1795810573.2596898,
+    "MSFT": 1795810573.2596898,
+    "AAPL": 1795810573.2596898,
+    "PLTR": 1795810573.2596898,
+    "NOW": 1795810573.2596898,
+    "AMZN": 1795810573.2596898,
+    "CRWV": 1795810573.2596898,
+    "NBIS": 1795810573.2596898,
+    "APLD": 1795810573.2596898,
+    "VST": 1795810573.2596898,
+    "BE": 1795810573.2596898,
+    "CRDO": 1795810573.2596898,
+    "COHR": 1795810573.2596898,
+    "MRVL": 1795810573.2596898,
     "LITE": 1795809140.0526388,
-    "AAOI": 1795809035.821164,
+    "AAOI": 1795810573.2596898,
     "SPCX": 1795809140.0526388,
     "ASTS": 1795809140.0526388,
     "AXTI": 1795809140.0526388,
@@ -3346,12 +3346,12 @@
     "STX": 1795810266.474394,
     "MSTR": 1795810266.474394,
     "SNDK": 1795810266.474394,
-    "BTC-USD": 1795809035.821164,
+    "BTC-USD": 1795810573.2596898,
     "CRWD": 1795810266.474394,
-    "ORCL": 1795809035.821164,
-    "COIN": 1795809035.821164,
-    "LLY": 1795809035.821164,
-    "MRNA": 1795809035.821164,
+    "ORCL": 1795810573.2596898,
+    "COIN": 1795810573.2596898,
+    "LLY": 1795810573.2596898,
+    "MRNA": 1795810573.2596898,
     "NKE": 1795809140.0526388,
     "MCD": 1795809140.0526388,
     "PEP": 1795809140.0526388,
