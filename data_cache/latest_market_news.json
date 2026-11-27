@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795789520.551,
-  "updated_at_et": "11-27 09:25 ET",
-  "updated_at_kst": "23:25 KST",
+  "updated_at_ts": 1795789623.074,
+  "updated_at_et": "11-27 09:27 ET",
+  "updated_at_kst": "23:27 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2605,11 +2605,32 @@
     ],
     "BTC-USD": [
       {
-        "title": "Stock Market Today: Dow Jumps 715 Points As Nvidia Rebounds; Anthropic, SpaceX, Tesla Rally (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow-jumps.html?.tsrc=rss",
+        "title": "Analyst Warns of $38,000 Bitcoin Crash as Trump Proposes Tariffs on 14 Trading Partners",
+        "url": "https://www.ccn.com/news/crypto/bitcoin-38k-analyst-downside-trump-14-trading-partners/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 08:07 ET",
-        "pub_ts": 1795784837.0
+        "time": "11-27 09:07 ET",
+        "pub_ts": 1795788436.0
+      },
+      {
+        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Technology Stock Rebound",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140653942.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:06 ET",
+        "pub_ts": 1795788413.0
+      },
+      {
+        "title": "Strategy Just Bought Bitcoin for the 4th Straight Week. So Why Aren't Crypto Investors Bullish on MSTR Stock?",
+        "url": "https://www.fool.com/investing/2026/11/27/strategy-just-bought-bitcoin-for-the-4th-straight-week-so-why-aren-t-crypto-investors-bullish-on-mstr-stock/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:03 ET",
+        "pub_ts": 1795788192.0
+      },
+      {
+        "title": "Stock Market Today: Dow Futures Jump 650 Points As Nvidia Rebounds; Anthropic, SpaceX, Tesla Rally (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:00 ET",
+        "pub_ts": 1795788002.0
       },
       {
         "title": "IREN vs. Core Scientific: Which AI Stock Is the Better Investment Now?",
@@ -2617,27 +2638,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 07:14 ET",
         "pub_ts": 1795781640.0
-      },
-      {
-        "title": "Crypto Stocks Gain After Bitcoin Tops $61K In Tech Rebound, But Analysts Want A Move Above $62K",
-        "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/crypto-stocks-gain-after-bitcoin-tops-61-k-in-tech-rebound-but-analysts-want-a-move-above-62-k/cNbCsYgR9Ns?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 07:03 ET",
-        "pub_ts": 1795781017.0
-      },
-      {
-        "title": "USDT Supply Shrinks With Its Steepest Drop Since Bitcoin’s 2022 Bear Market",
-        "url": "https://www.ccn.com/news/crypto/usdt-supply-contraction-bitcoin-bear-market/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:37 ET",
-        "pub_ts": 1795779433.0
-      },
-      {
-        "title": "Cipher Shifts Toward HPC Leasing: Can It Achieve Stable Earnings?",
-        "url": "https://finance.yahoo.com/technology/ai/articles/cipher-shifts-toward-hpc-leasing-111700716.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:17 ET",
-        "pub_ts": 1795778220.0
       }
     ],
     "CRWD": [
@@ -2760,6 +2760,13 @@
         "pub_ts": 1795784622.0
       },
       {
+        "title": "Is Most-Watched Stock Eli Lilly and Company (LLY) Worth Betting on Now?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/most-watched-stock-eli-lilly-130005156.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 08:00 ET",
+        "pub_ts": 1795784405.0
+      },
+      {
         "title": "How GLP 1 Coverage Could Send You Beyond XLV",
         "url": "https://finance.yahoo.com/healthcare/articles/glp-1-coverage-could-send-120946100.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2779,13 +2786,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 11:40 ET",
         "pub_ts": 1795711202.0
-      },
-      {
-        "title": "Eli Lilly (LLY) Adds FDA Vision Warning To GLP 1 Drug Labels",
-        "url": "https://finance.yahoo.com/healthcare/articles/eli-lilly-lly-adds-fda-151036334.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 10:10 ET",
-        "pub_ts": 1795705836.0
       }
     ],
     "MRNA": [
@@ -3341,12 +3341,12 @@
     "STX": 1795789520.5510197,
     "MSTR": 1795789520.5510197,
     "SNDK": 1795789520.5510197,
-    "BTC-USD": 1795788078.920592,
+    "BTC-USD": 1795789623.073774,
     "CRWD": 1795789520.5510197,
-    "ORCL": 1795788078.920592,
-    "COIN": 1795788078.920592,
-    "LLY": 1795788078.920592,
-    "MRNA": 1795788078.920592,
+    "ORCL": 1795789623.073774,
+    "COIN": 1795789623.073774,
+    "LLY": 1795789623.073774,
+    "MRNA": 1795789623.073774,
     "NKE": 1795789108.510426,
     "MCD": 1795789108.510426,
     "PEP": 1795789108.510426,
