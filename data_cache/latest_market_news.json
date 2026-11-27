@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795764608.053,
-  "updated_at_et": "11-27 02:30 ET",
-  "updated_at_kst": "16:30 KST",
+  "updated_at_ts": 1795764706.062,
+  "updated_at_et": "11-27 02:31 ET",
+  "updated_at_kst": "16:31 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -964,6 +964,13 @@
     ],
     "ASML": [
       {
+        "title": "The tiny Dutch town being overwhelmed by an AI boom",
+        "url": "https://www.telegraph.co.uk/business/2026/11/27/the-tiny-dutch-town-being-overwhelmed-by-an-ai-boom/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 01:00 ET",
+        "pub_ts": 1795759200.0
+      },
+      {
         "title": "ASML Can’t Build Enough Machines for 2028. Is a 20% China Risk a Reason to Sell, or Buy More?",
         "url": "https://www.tikr.com/blog/asml-cant-build-enough-machines-for-2028-is-a-20-china-risk-a-reason-to-sell-or-buy-more?ref=yahoofinance&tlnk=yf-261126-c9rcg432&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -990,13 +997,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 15:15 ET",
         "pub_ts": 1795637700.0
-      },
-      {
-        "title": "Forget ASML: Tokyo Electron Has More China Sales at Stake in the MATCH Act",
-        "url": "https://www.tikr.com/blog/forget-asml-tokyo-electron-has-more-china-sales-at-stake-in-the-match-act?ref=yahoofinance&tlnk=yf-261125-h7wjhc27&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 13:26 ET",
-        "pub_ts": 1795631202.0
       }
     ],
     "QCOM": [
@@ -1630,6 +1630,13 @@
     ],
     "MRVL": [
       {
+        "title": "Top 3 Undervalued Tech Stocks To Watch In November 2026",
+        "url": "https://finance.yahoo.com/technology/articles/top-3-undervalued-tech-stocks-071100555.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 02:11 ET",
+        "pub_ts": 1795763460.0
+      },
+      {
         "title": "Credo Technology Group Holding (CRDO) Could Be 50% Below Fair Value After Marvell Settlement",
         "url": "https://finance.yahoo.com/markets/stocks/articles/credo-technology-group-holding-crdo-012531407.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1656,13 +1663,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 10:15 ET",
         "pub_ts": 1795706126.0
-      },
-      {
-        "title": "Marvell Technology, Inc. (MRVL) is Attracting Investor Attention: Here is What You Should Know",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-inc-mrvl-attracting-130006516.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 08:00 ET",
-        "pub_ts": 1795698006.0
       }
     ],
     "LITE": [
@@ -3284,27 +3284,27 @@
     "SOXS": 1795764316.5271223,
     "NVDA": 1795764316.5271223,
     "AMD": 1795764316.5271223,
-    "ASML": 1795763142.2548645,
-    "QCOM": 1795763142.2548645,
-    "AVGO": 1795763142.2548645,
-    "AMAT": 1795763142.2548645,
-    "META": 1795763142.2548645,
-    "GOOGL": 1795763142.2548645,
-    "MSFT": 1795763142.2548645,
-    "AAPL": 1795763142.2548645,
-    "PLTR": 1795763142.2548645,
-    "NOW": 1795763142.2548645,
-    "AMZN": 1795763142.2548645,
-    "CRWV": 1795763142.2548645,
-    "NBIS": 1795763142.2548645,
-    "APLD": 1795763142.2548645,
-    "VST": 1795763142.2548645,
-    "BE": 1795763142.2548645,
-    "CRDO": 1795763142.2548645,
-    "COHR": 1795763142.2548645,
-    "MRVL": 1795763142.2548645,
+    "ASML": 1795764706.0620148,
+    "QCOM": 1795764706.0620148,
+    "AVGO": 1795764706.0620148,
+    "AMAT": 1795764706.0620148,
+    "META": 1795764706.0620148,
+    "GOOGL": 1795764706.0620148,
+    "MSFT": 1795764706.0620148,
+    "AAPL": 1795764706.0620148,
+    "PLTR": 1795764706.0620148,
+    "NOW": 1795764706.0620148,
+    "AMZN": 1795764706.0620148,
+    "CRWV": 1795764706.0620148,
+    "NBIS": 1795764706.0620148,
+    "APLD": 1795764706.0620148,
+    "VST": 1795764706.0620148,
+    "BE": 1795764706.0620148,
+    "CRDO": 1795764706.0620148,
+    "COHR": 1795764706.0620148,
+    "MRVL": 1795764706.0620148,
     "LITE": 1795764023.8856528,
-    "AAOI": 1795763142.2548645,
+    "AAOI": 1795764706.0620148,
     "SPCX": 1795764023.8856528,
     "ASTS": 1795764023.8856528,
     "AXTI": 1795764023.8856528,
@@ -3334,13 +3334,13 @@
     "COIN": 1795764316.5271223,
     "LLY": 1795764316.5271223,
     "MRNA": 1795764316.5271223,
-    "NKE": 1795763142.2548645,
-    "MCD": 1795763142.2548645,
-    "PEP": 1795763142.2548645,
+    "NKE": 1795764706.0620148,
+    "MCD": 1795764706.0620148,
+    "PEP": 1795764706.0620148,
     "XOM": 1795763240.3020022,
-    "JPM": 1795763142.2548645,
+    "JPM": 1795764706.0620148,
     "WMT": 1795763240.3020022,
-    "V": 1795763142.2548645,
+    "V": 1795764706.0620148,
     "CAT": 1795763240.3020022,
     "FN": 1795764023.8856528,
     "GLW": 1795764023.8856528,
