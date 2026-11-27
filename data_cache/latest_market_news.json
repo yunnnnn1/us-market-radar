@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795766181.061,
-  "updated_at_et": "11-27 02:56 ET",
-  "updated_at_kst": "16:56 KST",
+  "updated_at_ts": 1795766280.532,
+  "updated_at_et": "11-27 02:58 ET",
+  "updated_at_kst": "16:58 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1112,6 +1112,13 @@
     ],
     "META": [
       {
+        "title": "Michael Burry Shares Stark Warning About AI Boom, as Nvidia, Oracle and Meta Face Surging Debt Insurance Costs",
+        "url": "https://finance.yahoo.com/technology/ai/articles/michael-burry-shares-stark-warning-063128312.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 01:31 ET",
+        "pub_ts": 1795761088.0
+      },
+      {
         "title": "George Soros and 64 Other Big Funds Bought Meta Last Quarter. David Tepper and 33 Others Sold. Who’s Right?",
         "url": "https://www.tikr.com/blog/george-soros-and-64-other-big-funds-bought-meta-last-quarter-david-tepper-and-33-others-sold-whos-right?ref=yahoofinance&tlnk=yf-261126-jj5cfjgh&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1138,13 +1145,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 11:59 ET",
         "pub_ts": 1795712367.0
-      },
-      {
-        "title": "Is Meta Stock Outperforming the Nasdaq?",
-        "url": "https://www.barchart.com/story/news/9021697/is-meta-stock-outperforming-the-nasdaq?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 11:50 ET",
-        "pub_ts": 1795711855.0
       }
     ],
     "GOOGL": [
@@ -1214,11 +1214,11 @@
         "pub_ts": 1795716860.0
       },
       {
-        "title": "LUNR Aerospace Appoints Draganfly CEO Cameron Chell to Board of Directors",
-        "url": "https://finance.yahoo.com/technology/articles/lunr-aerospace-appoints-draganfly-ceo-230000859.html?.tsrc=rss",
+        "title": "PhonePe resumes IPO plans with $15bn valuation target- report",
+        "url": "https://www.electronicpaymentsinternational.com/news/phonepe-resumes-ipo-plans-with-15bn-valuation-target-report/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 18:00 ET",
-        "pub_ts": 1795734000.0
+        "time": "11-27 02:40 ET",
+        "pub_ts": 1795765236.0
       }
     ],
     "AAPL": [
@@ -2962,6 +2962,13 @@
     ],
     "JPM": [
       {
+        "title": "J.P. Morgan sees luxury sales stagnating in 2027, but which category stands out?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/j-p-morgan-sees-luxury-072816536.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 02:28 ET",
+        "pub_ts": 1795764496.0
+      },
+      {
         "title": "AI Risk Is 'Moving Somewhere Harder to See': Citigroup, JPMorgan Reportedly Look to Offload AI Debt as Investors Grow Wary of Buildout",
         "url": "https://finance.yahoo.com/technology/ai/articles/ai-risk-moving-somewhere-harder-033352825.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2988,13 +2995,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 06:00 ET",
         "pub_ts": 1795690808.0
-      },
-      {
-        "title": "What Is JPMorgan Chase (JPM) Saying With Its $450 Billion AI Debt Call?",
-        "url": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-chase-jpm-saying-450-080838063.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 03:08 ET",
-        "pub_ts": 1795680518.0
       }
     ],
     "WMT": [
@@ -3284,27 +3284,27 @@
     "SOXS": 1795765887.7609062,
     "NVDA": 1795765887.7609062,
     "AMD": 1795765887.7609062,
-    "ASML": 1795764706.0620148,
-    "QCOM": 1795764706.0620148,
-    "AVGO": 1795764706.0620148,
-    "AMAT": 1795764706.0620148,
-    "META": 1795764706.0620148,
-    "GOOGL": 1795764706.0620148,
-    "MSFT": 1795764706.0620148,
-    "AAPL": 1795764706.0620148,
-    "PLTR": 1795764706.0620148,
-    "NOW": 1795764706.0620148,
-    "AMZN": 1795764706.0620148,
-    "CRWV": 1795764706.0620148,
-    "NBIS": 1795764706.0620148,
-    "APLD": 1795764706.0620148,
-    "VST": 1795764706.0620148,
-    "BE": 1795764706.0620148,
-    "CRDO": 1795764706.0620148,
-    "COHR": 1795764706.0620148,
-    "MRVL": 1795764706.0620148,
+    "ASML": 1795766280.5323026,
+    "QCOM": 1795766280.5323026,
+    "AVGO": 1795766280.5323026,
+    "AMAT": 1795766280.5323026,
+    "META": 1795766280.5323026,
+    "GOOGL": 1795766280.5323026,
+    "MSFT": 1795766280.5323026,
+    "AAPL": 1795766280.5323026,
+    "PLTR": 1795766280.5323026,
+    "NOW": 1795766280.5323026,
+    "AMZN": 1795766280.5323026,
+    "CRWV": 1795766280.5323026,
+    "NBIS": 1795766280.5323026,
+    "APLD": 1795766280.5323026,
+    "VST": 1795766280.5323026,
+    "BE": 1795766280.5323026,
+    "CRDO": 1795766280.5323026,
+    "COHR": 1795766280.5323026,
+    "MRVL": 1795766280.5323026,
     "LITE": 1795765595.0041926,
-    "AAOI": 1795764706.0620148,
+    "AAOI": 1795766280.5323026,
     "SPCX": 1795765595.0041926,
     "ASTS": 1795765595.0041926,
     "AXTI": 1795765595.0041926,
@@ -3334,13 +3334,13 @@
     "COIN": 1795765887.7609062,
     "LLY": 1795765887.7609062,
     "MRNA": 1795765887.7609062,
-    "NKE": 1795764706.0620148,
-    "MCD": 1795764706.0620148,
-    "PEP": 1795764706.0620148,
+    "NKE": 1795766280.5323026,
+    "MCD": 1795766280.5323026,
+    "PEP": 1795766280.5323026,
     "XOM": 1795764803.1624863,
-    "JPM": 1795764706.0620148,
+    "JPM": 1795766280.5323026,
     "WMT": 1795764803.1624863,
-    "V": 1795764706.0620148,
+    "V": 1795766280.5323026,
     "CAT": 1795764803.1624863,
     "FN": 1795765595.0041926,
     "GLW": 1795765595.0041926,
