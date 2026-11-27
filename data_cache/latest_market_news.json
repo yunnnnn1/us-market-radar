@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795744414.448,
-  "updated_at_et": "11-26 20:53 ET",
-  "updated_at_kst": "10:53 KST",
+  "updated_at_ts": 1795744520.472,
+  "updated_at_et": "11-26 20:55 ET",
+  "updated_at_kst": "10:55 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -3192,39 +3192,39 @@
     ],
     "ANT": [
       {
+        "title": "Thinking About Investing in Anthropic? Make This 1 Portfolio Move First",
+        "url": "https://www.fool.com/investing/2026/11/26/thinking-about-investing-in-anthropic-make-this-1-portfolio-move-first/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 20:35 ET",
+        "pub_ts": 1795743302.0
+      },
+      {
+        "title": "Dow Jones Futures Rise; Look For This Bullish Market Signal On Black Friday",
+        "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B-look.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 20:34 ET",
+        "pub_ts": 1795743275.0
+      },
+      {
         "title": "Anthropic Stock (ANT) Forecast – Analysts See 60%+ Upside Despite Ongoing AI Trade Concerns",
-        "url": "https://finnhub.io/api/news?id=b6c930629e7ea794bc18185c9e5b46f9e267370097b770a0b72e08155b978fc3",
-        "source": "Yahoo",
+        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-stock-ant-forecast-analysts-222745210.html?.tsrc=rss",
+        "source": "Yahoo Finance",
         "time": "11-26 17:27 ET",
         "pub_ts": 1795732065.0
       },
       {
         "title": "O’Reilly’s Sales to Professional Mechanics Jumped 12.7% Last Quarter. Here’s Why That’s the Clearest Sign of Its Moat.",
-        "url": "https://finnhub.io/api/news?id=e1e28a7e94953860ba7ad6b2e22acbca725f81f327fba9bbd7f3c16b3f40a198",
-        "source": "Yahoo",
+        "url": "https://www.fool.com/investing/2026/11/26/oreilly-sales-professional-mechanics-jumped-last-quarter-why-that-s-the-clearest-sign-of-its-moat/?.tsrc=rss",
+        "source": "Yahoo Finance",
         "time": "11-26 16:50 ET",
         "pub_ts": 1795729802.0
       },
       {
         "title": "Cathie Wood Just Bought $26 Million of Anthropic Across 6 ARK Funds",
-        "url": "https://finnhub.io/api/news?id=007dac00e1d080fcca64fc3002a0fd35b7d5e89468190fab0a5a4a414c34734f",
-        "source": "Yahoo",
+        "url": "https://www.tikr.com/blog/cathie-wood-just-bought-26-million-of-anthropic-across-6-ark-funds?ref=yahoofinance&tlnk=yf-261126-p2m2c5g4&.tsrc=rss",
+        "source": "Yahoo Finance",
         "time": "11-26 16:06 ET",
         "pub_ts": 1795727161.0
-      },
-      {
-        "title": "Bitcoin, XRP, Ethereum face brutal crash risk as key levels crack",
-        "url": "https://finnhub.io/api/news?id=ce7f1bfa9852a069a7d758d0435580203e4b217dc9213079661034f3d2f914e7",
-        "source": "Yahoo",
-        "time": "11-26 16:00 ET",
-        "pub_ts": 1795726800.0
-      },
-      {
-        "title": "Anthropic Stock Is Now Trading as ANT. Should You Buy Today or Wait?",
-        "url": "https://finnhub.io/api/news?id=1098107b07ee3b9ad5978da79ab3705ac1ef0330cc80518bdd81bc592acf7f32",
-        "source": "Yahoo",
-        "time": "11-26 14:50 ET",
-        "pub_ts": 1795722602.0
       }
     ],
     "XAUUSD": [
@@ -3345,15 +3345,15 @@
     "NKE": 1795744414.447948,
     "MCD": 1795744414.447948,
     "PEP": 1795744414.447948,
-    "XOM": 1795742955.2285857,
+    "XOM": 1795744520.4720528,
     "JPM": 1795744414.447948,
-    "WMT": 1795742955.2285857,
+    "WMT": 1795744520.4720528,
     "V": 1795744414.447948,
-    "CAT": 1795742955.2285857,
+    "CAT": 1795744520.4720528,
     "FN": 1795743790.9986353,
     "GLW": 1795743790.9986353,
-    "ANT": 1795742955.2285857,
-    "XAUUSD": 1795742955.2285857,
+    "ANT": 1795744520.4720528,
+    "XAUUSD": 1795744520.4720528,
     "KOSPI": 1795743997.6488526
   },
   "opex_shield": {
