@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795805957.675,
-  "updated_at_et": "11-27 13:59 ET",
-  "updated_at_kst": "03:59 KST",
+  "updated_at_ts": 1795806059.311,
+  "updated_at_et": "11-27 14:00 ET",
+  "updated_at_kst": "04:00 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1951,6 +1951,13 @@
         "pub_ts": 1795791529.0
       },
       {
+        "title": "Dow Jones Futures: Stock Market Makes Bullish Move, Tesla Leads 7 New Buys; Nvidia's Jensen Huang Heads To Capitol Hill",
+        "url": "https://finance.yahoo.com/m/5b917298-e5b5-3d87-b1fa-f7cad345af64/dow-jones-futures%3A-stock.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:48 ET",
+        "pub_ts": 1795805323.0
+      },
+      {
         "title": "Tesla Takes 1.2M SF at Houston’s Cedar Port Industrial Park",
         "url": "https://www.credaily.com/briefs/tesla-takes-1-2m-sf-at-houstons-cedar-port-industrial-park/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1970,13 +1977,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 12:04 ET",
         "pub_ts": 1795799056.0
-      },
-      {
-        "title": "What ARK Autonomous Technology & Robotics ETF (ARKQ) Sold: Tesla Leads on Nov. 25",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ark-autonomous-technology-robotics-etf-110448164.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:04 ET",
-        "pub_ts": 1795777488.0
       }
     ],
     "AXP": [
@@ -2136,13 +2136,6 @@
         "pub_ts": 1795794312.0
       },
       {
-        "title": "BC-Most Active Stocks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153017329.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 10:30 ET",
-        "pub_ts": 1795793417.0
-      },
-      {
         "title": "How Much More Could You Lose In Intel Stock?",
         "url": "https://www.trefis.com/stock/intc/articles/629327/how-much-more-could-you-lose-in-intel-stock/2026-11-27?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2162,6 +2155,13 @@
         "source": "Yahoo Finance",
         "time": "11-26 22:14 ET",
         "pub_ts": 1795749256.0
+      },
+      {
+        "title": "AMD Rises 4% Despite Erste Group Downgrade on Valuation; Marvell Climbs 6%, Intel Gains 5%",
+        "url": "https://247wallst.com/investing/2026/11/27/amd-rises-4-despite-erste-group-downgrade-on-valuation-marvell-climbs-6-intel-gains-5/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:02 ET",
+        "pub_ts": 1795788175.0
       }
     ],
     "VRT": [
@@ -2240,6 +2240,20 @@
     ],
     "DELL": [
       {
+        "title": "Dell's Strong Results Fail to Ease Concerns About AI Spending Durability, UBS Says",
+        "url": "https://finance.yahoo.com/technology/ai/articles/dell-apos-strong-results-fail-185100918.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:51 ET",
+        "pub_ts": 1795805460.0
+      },
+      {
+        "title": "Jim Cramer Named His Buy-the-Dip Price for Dell Stock",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-named-buy-dip-185032145.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:50 ET",
+        "pub_ts": 1795805432.0
+      },
+      {
         "title": "High Implied Volatility Sets Up Iron Condor For Dell Stock",
         "url": "https://finance.yahoo.com/m/239a90e3-8d86-3090-9b13-08baad8636d1/high-implied-volatility-sets.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2259,20 +2273,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 12:12 ET",
         "pub_ts": 1795799549.0
-      },
-      {
-        "title": "Dell delivers record results, but Wall Street sees a catch",
-        "url": "https://www.thestreet.com/investing/dell-delivers-record-results-but-wall-street-sees-a-catch?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 12:03 ET",
-        "pub_ts": 1795798980.0
-      },
-      {
-        "title": "Dell price target cut by UBS as AI spending concerns mount",
-        "url": "https://www.proactiveinvestors.com/companies/news/1102596/dell-price-target-cut-by-ubs-as-ai-spending-concerns-mount-1102596.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 11:44 ET",
-        "pub_ts": 1795797840.0
       }
     ],
     "OKLO": [
@@ -3165,6 +3165,13 @@
     ],
     "GLW": [
       {
+        "title": "Why Jim Cramer Favors Corning Over Amphenol for Fiber",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-jim-cramer-favors-corning-185006111.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:50 ET",
+        "pub_ts": 1795805406.0
+      },
+      {
         "title": "Wall Street Analysts See Corning (GLW) as a Buy: Should You Invest?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-see-corning-133003621.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3191,13 +3198,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 10:30 ET",
         "pub_ts": 1795707011.0
-      },
-      {
-        "title": "Corning Stocks Tumble 7.58% as AI Fiber Trade Unwinds",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/corning-stocks-tumble-7-58-172103702.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:21 ET",
-        "pub_ts": 1795627263.0
       }
     ],
     "ANT": [
@@ -3321,25 +3321,25 @@
     "CRDO": 1795805957.6747034,
     "COHR": 1795805957.6747034,
     "MRVL": 1795805957.6747034,
-    "LITE": 1795804526.326668,
+    "LITE": 1795806059.3108487,
     "AAOI": 1795805957.6747034,
-    "SPCX": 1795804526.326668,
-    "ASTS": 1795804526.326668,
-    "AXTI": 1795804526.326668,
-    "NASA": 1795804526.326668,
-    "LUNR": 1795804526.326668,
-    "TSLA": 1795804526.326668,
-    "AXP": 1795804526.326668,
-    "RKLB": 1795804526.326668,
-    "KO": 1795804526.326668,
-    "FLY": 1795804526.326668,
-    "INTC": 1795804526.326668,
-    "VRT": 1795804526.326668,
-    "HPE": 1795804526.326668,
-    "DELL": 1795804526.326668,
-    "OKLO": 1795804526.326668,
-    "CEG": 1795804526.326668,
-    "FPS": 1795804526.326668,
+    "SPCX": 1795806059.3108487,
+    "ASTS": 1795806059.3108487,
+    "AXTI": 1795806059.3108487,
+    "NASA": 1795806059.3108487,
+    "LUNR": 1795806059.3108487,
+    "TSLA": 1795806059.3108487,
+    "AXP": 1795806059.3108487,
+    "RKLB": 1795806059.3108487,
+    "KO": 1795806059.3108487,
+    "FLY": 1795806059.3108487,
+    "INTC": 1795806059.3108487,
+    "VRT": 1795806059.3108487,
+    "HPE": 1795806059.3108487,
+    "DELL": 1795806059.3108487,
+    "OKLO": 1795806059.3108487,
+    "CEG": 1795806059.3108487,
+    "FPS": 1795806059.3108487,
     "MU": 1795805653.0994964,
     "SKHY": 1795805653.0994964,
     "WDC": 1795805653.0994964,
@@ -3352,16 +3352,16 @@
     "COIN": 1795805957.6747034,
     "LLY": 1795805957.6747034,
     "MRNA": 1795805957.6747034,
-    "NKE": 1795804526.326668,
-    "MCD": 1795804526.326668,
-    "PEP": 1795804526.326668,
+    "NKE": 1795806059.3108487,
+    "MCD": 1795806059.3108487,
+    "PEP": 1795806059.3108487,
     "XOM": 1795804629.88339,
-    "JPM": 1795804526.326668,
+    "JPM": 1795806059.3108487,
     "WMT": 1795804629.88339,
-    "V": 1795804526.326668,
+    "V": 1795806059.3108487,
     "CAT": 1795804629.88339,
-    "FN": 1795804526.326668,
-    "GLW": 1795804526.326668,
+    "FN": 1795806059.3108487,
+    "GLW": 1795806059.3108487,
     "ANT": 1795804629.88339,
     "XAUUSD": 1795804629.88339,
     "KOSPI": 1795805653.0994964
