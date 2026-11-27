@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795804315.891,
-  "updated_at_et": "11-27 13:31 ET",
-  "updated_at_kst": "03:31 KST",
+  "updated_at_ts": 1795804423.427,
+  "updated_at_et": "11-27 13:33 ET",
+  "updated_at_kst": "03:33 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1019,6 +1019,13 @@
     ],
     "QCOM": [
       {
+        "title": "Qualcomm, Cava, and Dutch Bros Earnings and a Robotics IPO",
+        "url": "https://www.fool.com/investing/2026/11/27/qualcomm-cava-and-dutch-bros-earnings-and-a-robotics-ipo/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:06 ET",
+        "pub_ts": 1795802762.0
+      },
+      {
         "title": "Qualcomm Is Betting Big on a $5 Billion Opportunity. Here’s What It Could Mean for the Stock",
         "url": "https://247wallst.com/investing/2026/11/27/qualcomm-is-betting-big-on-a-5-billion-opportunity-heres-what-it-could-mean-for-the-stock/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1045,13 +1052,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 06:50 ET",
         "pub_ts": 1795780239.0
-      },
-      {
-        "title": "What Is Qualcomm (QCOM) Worth Watching In Automotive AI Right Now?",
-        "url": "https://finance.yahoo.com/technology/ai/articles/qualcomm-qcom-worth-watching-automotive-171007378.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 12:10 ET",
-        "pub_ts": 1795713007.0
       }
     ],
     "AVGO": [
@@ -1174,32 +1174,32 @@
         "pub_ts": 1795798320.0
       },
       {
+        "title": "AppLovin vs. Magnite: Which Technology Stock Is a Better Buy for 2027?",
+        "url": "https://www.fool.com/coverage/better-buy/2026/11/27/applovin-vs-magnite-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:16 ET",
+        "pub_ts": 1795803374.0
+      },
+      {
+        "title": "What Does Alphabet (GOOGL) Need To Prove After The Air Force Cloud Breach?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/does-alphabet-googl-prove-air-181025421.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:10 ET",
+        "pub_ts": 1795803025.0
+      },
+      {
+        "title": "Franklin Templeton Flags Hidden Risk in S&P 500 Investing",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/franklin-templeton-flags-hidden-risk-180023148.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:00 ET",
+        "pub_ts": 1795802423.0
+      },
+      {
         "title": "Snap vs. The Trade Desk: Which Stock Is a Better Buy for 2027?",
         "url": "https://www.fool.com/coverage/better-buy/2026/11/27/snap-vs-the-trade-desk-which-stock-is-a-better-buy-for-2027/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-27 12:52 ET",
         "pub_ts": 1795801955.0
-      },
-      {
-        "title": "Tech Stock Sell-Off: Down 32%, Is Alphabet a Buy Now?",
-        "url": "https://www.fool.com/investing/2026/11/27/tech-stock-sell-off-down-32-is-alphabet-a-buy-now/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 12:51 ET",
-        "pub_ts": 1795801862.0
-      },
-      {
-        "title": "Target $140 Entries, $240 Exits After Ken Griffin and Citadel’s Distressed Bloom Energy Buy",
-        "url": "https://247wallst.com/investing/2026/11/27/target-140-entries-240-exits-after-ken-griffin-and-citadels-distressed-bloom-energy-buy/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 12:45 ET",
-        "pub_ts": 1795801502.0
-      },
-      {
-        "title": "Sector Update: Energy Stocks Rise Friday Afternoon",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-friday-174441830.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 12:44 ET",
-        "pub_ts": 1795801481.0
       }
     ],
     "MSFT": [
@@ -1278,6 +1278,20 @@
     ],
     "PLTR": [
       {
+        "title": "Palantir Lands Major Defense Deal as European Demand Grows",
+        "url": "https://finance.yahoo.com/technology/articles/palantir-lands-major-defense-deal-175756769.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 12:57 ET",
+        "pub_ts": 1795802276.0
+      },
+      {
+        "title": "The Best 3 Stocks to Buy in December to Hold Into 2027",
+        "url": "https://www.fool.com/investing/2026/11/27/the-best-3-stocks-to-buy-in-december-to-hold-into-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 12:57 ET",
+        "pub_ts": 1795802222.0
+      },
+      {
         "title": "Palantir Raised Its 2026 Growth Outlook to 91%. Could the Stock Have More Room to Run?",
         "url": "https://247wallst.com/investing/2026/11/27/palantir-raised-its-2026-growth-outlook-to-91-could-the-stock-have-more-room-to-run/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1297,20 +1311,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 09:39 ET",
         "pub_ts": 1795790361.0
-      },
-      {
-        "title": "Palantir’s 17% Month Long Downturn: An Entry Opportunity According to This Wall Street Desk That Sees 67% Gains Ahead",
-        "url": "https://247wallst.com/investing/2026/11/27/palantirs-17-month-long-downturn-an-entry-opportunity-according-to-this-wall-street-desk-that-sees-67-gains-ahead/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 08:45 ET",
-        "pub_ts": 1795787131.0
-      },
-      {
-        "title": "Palantir Nears AI Defense Deal With Poland's Defense Ministry",
-        "url": "https://finance.yahoo.com/technology/ai/articles/palantir-nears-ai-defense-deal-113217461.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:32 ET",
-        "pub_ts": 1795779137.0
       }
     ],
     "NOW": [
@@ -1352,6 +1352,13 @@
     ],
     "AMZN": [
       {
+        "title": "The Best 3 Stocks to Buy in December to Hold Into 2027",
+        "url": "https://www.fool.com/investing/2026/11/27/the-best-3-stocks-to-buy-in-december-to-hold-into-2027/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 12:57 ET",
+        "pub_ts": 1795802222.0
+      },
+      {
         "title": "Stock Market Midday, Nov. 27: Tech Stocks Recover and Amazon Posts Black Friday Gains",
         "url": "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-midday-nov-27-tech-stocks-recover-and-amazon-posts-black-friday-gains/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1378,13 +1385,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 12:12 ET",
         "pub_ts": 1795799532.0
-      },
-      {
-        "title": "Amazon.com (AMZN) Is Negotiating Muse AI Access To Its Shopping Platform",
-        "url": "https://finance.yahoo.com/technology/ai/articles/amazon-com-amzn-negotiating-muse-161256193.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 11:12 ET",
-        "pub_ts": 1795795976.0
       }
     ],
     "CRWV": [
@@ -1394,6 +1394,13 @@
         "source": "Yahoo Finance",
         "time": "11-27 07:00 ET",
         "pub_ts": 1795780800.0
+      },
+      {
+        "title": "CoreWeave Eyes $4.5B Loan, but Bankruptcy Odds Rise to 21% on Prediction Markets",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63685963/coreweave-wall-street-loan-bankruptcy?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:30 ET",
+        "pub_ts": 1795804208.0
       },
       {
         "title": "Nvidia, CoreWeave Face New U.S. Restrictions on China AI Chip Access",
@@ -1415,13 +1422,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 12:38 ET",
         "pub_ts": 1795714686.0
-      },
-      {
-        "title": "CoreWeave Seeks $4.5 Billion Meta-Backed Loan as Bond Yields Hit 18%",
-        "url": "https://finance.yahoo.com/technology/ai/articles/coreweave-seeks-4-5-billion-163142061.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 11:31 ET",
-        "pub_ts": 1795710702.0
       }
     ],
     "NBIS": [
@@ -1463,39 +1463,39 @@
     ],
     "APLD": [
       {
+        "title": "Applied Digital Stock Rises After Steep Monthly Drop Near 52-Week Low",
+        "url": "https://finnhub.io/api/news?id=d3506b353c59109b0fa0e30261bd486a2881e24b1fd68874ddfc6d26edf1fec6",
+        "source": "Benzinga",
+        "time": "11-27 05:37 ET",
+        "pub_ts": 1795775869.0
+      },
+      {
         "title": "Applied Digital Just Tumbled 33% in a Month. Can APLD Stock Get Back to $20 in 2027?",
-        "url": "https://247wallst.com/investing/2026/11/26/applied-digital-just-tumbled-33-in-a-month-can-apld-stock-get-back-to-20-in-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
+        "url": "https://finnhub.io/api/news?id=5d2b2a169074a187ef5565fe5e2b0d292919b6e0ee62f3863e87115081007424",
+        "source": "Yahoo",
         "time": "11-26 12:08 ET",
         "pub_ts": 1795712888.0
       },
       {
         "title": "“It’s Dead”: Applied Digital Has $11 Billion Riding on CoreWeave’s Record Credit Stress",
-        "url": "https://www.tikr.com/blog/its-dead-applied-digital-has-11-billion-riding-on-coreweaves-record-credit-stress?ref=yahoofinance&tlnk=yf-261126-j6cxr9m2&.tsrc=rss",
-        "source": "Yahoo Finance",
+        "url": "https://finnhub.io/api/news?id=2464c94959f4f1def1279e4febeb03d423a76fd8303d2761c9d40b6b71f55d4e",
+        "source": "Yahoo",
         "time": "11-26 10:15 ET",
         "pub_ts": 1795706110.0
       },
       {
+        "title": "5 Best Small Cap AI Stocks to Buy for 2027",
+        "url": "https://finnhub.io/api/news?id=a4ef77b4796e10bbbee79cda95be8cc4f552a77cb902cb2bd655f086e2bea727",
+        "source": "Yahoo",
+        "time": "11-26 09:40 ET",
+        "pub_ts": 1795704008.0
+      },
+      {
         "title": "Lucid Capital Cut Its Applied Digital Target to $40 From $83. It Still Sees 227% Upside",
-        "url": "https://www.tikr.com/blog/lucid-capital-cut-its-applied-digital-target-to-40-from-83-it-still-sees-227-upside?ref=yahoofinance&tlnk=yf-261126-hxqmqqw8&.tsrc=rss",
-        "source": "Yahoo Finance",
+        "url": "https://finnhub.io/api/news?id=ef9648da9a6eeddf0e1e035f089c37212ba3c42bb017565f129b72b9f5c8b957",
+        "source": "Yahoo",
         "time": "11-26 06:20 ET",
         "pub_ts": 1795692020.0
-      },
-      {
-        "title": "Applied Digital Dropped 14% in a Week Despite a $5.4 Billion Lease. Lucid Still Sees 227% Upside",
-        "url": "https://www.tikr.com/blog/applied-digital-dropped-14-in-a-week-despite-a-5-4-billion-lease-lucid-still-sees-227-upside?ref=yahoofinance&tlnk=yf-261125-mhcw2483&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 18:37 ET",
-        "pub_ts": 1795649864.0
-      },
-      {
-        "title": "Data Center Americas 2027 Announces Industry Leaders from AWS, Google, Microsoft, Oracle, CoreWeave and Applied Digital as Featured Speakers",
-        "url": "https://finance.yahoo.com/technology/ai/articles/data-center-americas-2027-announces-140000391.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:00 ET",
-        "pub_ts": 1795615200.0
       }
     ],
     "VST": [
@@ -2610,6 +2610,20 @@
     ],
     "BTC-USD": [
       {
+        "title": "$7 Billion in Bitcoin Options Just Expired: Here’s What It Means",
+        "url": "https://decrypt.co/384154/7-billion-bitcoin-options-just-expired-what-it-means?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:16 ET",
+        "pub_ts": 1795803363.0
+      },
+      {
+        "title": "Coinbase CEO issues bullish Bitcoin prediction as inflation fears grow",
+        "url": "https://www.thestreet.com/crypto/markets/coinbase-ceo-issues-bullish-bitcoin-warning-as-inflation-fears-grow?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:14 ET",
+        "pub_ts": 1795803286.0
+      },
+      {
         "title": "Sector Update: Financial Stocks Higher Friday Afternoon",
         "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-friday-175851334.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2629,20 +2643,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 12:12 ET",
         "pub_ts": 1795799579.0
-      },
-      {
-        "title": "How Much Will 1 Bitcoin Be Worth in 2035?",
-        "url": "https://247wallst.com/investing/cryptocurrency/2026/11/27/how-much-will-1-bitcoin-be-worth-in-2035/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 12:12 ET",
-        "pub_ts": 1795799542.0
-      },
-      {
-        "title": "Gold Suffers Worst 60-Day Loss Since the 1980s. Bitcoin’s Collapse Exposes an Even Bigger Problem.",
-        "url": "https://247wallst.com/investing/2026/11/27/gold-suffers-worst-60-day-loss-since-the-1980s-bitcoins-collapse-exposes-an-even-bigger-problem/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 12:05 ET",
-        "pub_ts": 1795799125.0
       }
     ],
     "CRWD": [
@@ -2721,6 +2721,13 @@
     ],
     "COIN": [
       {
+        "title": "Coinbase CEO issues bullish Bitcoin prediction as inflation fears grow",
+        "url": "https://www.thestreet.com/crypto/markets/coinbase-ceo-issues-bullish-bitcoin-warning-as-inflation-fears-grow?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:14 ET",
+        "pub_ts": 1795803286.0
+      },
+      {
         "title": "Coinbase Global vs. Upstart: Which Financial Stock Is a Better Buy for 2027?",
         "url": "https://www.fool.com/coverage/better-buy/2026/11/27/coinbase-global-vs-upstart-which-financial-stock-is-a-better-buy-for-2027/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2747,13 +2754,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 06:45 ET",
         "pub_ts": 1795779905.0
-      },
-      {
-        "title": "Coinbase (COIN) Stock Sees Modest Fair Value Cut As Analyst Views Stay Split",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/coinbase-coin-stock-sees-modest-012524546.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 20:25 ET",
-        "pub_ts": 1795742724.0
       }
     ],
     "LLY": [
@@ -2795,6 +2795,13 @@
     ],
     "MRNA": [
       {
+        "title": "Moderna’s Experimental Ebola Vaccine Begins Landmark Trial In Uganda – MRNA Stock Eyes Fourth Straight Monthly Gain",
+        "url": "https://stocktwits.com/news-articles/markets/equity/moderna-ebola-vaccine-begins-landmark-trial-in-uganda-mrna-stock/cNb6R98R9Vf?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:02 ET",
+        "pub_ts": 1795802567.0
+      },
+      {
         "title": "Why Moderna’s Biggest New Questions May Make Sense Through ETFs",
         "url": "https://finance.yahoo.com/markets/stocks/articles/why-moderna-biggest-questions-may-130849051.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2821,13 +2828,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 06:00 ET",
         "pub_ts": 1795777213.0
-      },
-      {
-        "title": "$1,000 in Moderna Stock on Jan. 1 Is Worth About $7,500 Today",
-        "url": "https://247wallst.com/investing/2026/11/26/1000-in-moderna-stock-on-jan-1-is-worth-about-7500-today/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 11:12 ET",
-        "pub_ts": 1795709556.0
       }
     ],
     "NKE": [
@@ -3302,27 +3302,27 @@
     "SOXS": 1795804112.8596241,
     "NVDA": 1795804112.8596241,
     "AMD": 1795804112.8596241,
-    "ASML": 1795802883.193928,
-    "QCOM": 1795802883.193928,
-    "AVGO": 1795802883.193928,
-    "AMAT": 1795802883.193928,
-    "META": 1795802883.193928,
-    "GOOGL": 1795802883.193928,
-    "MSFT": 1795802883.193928,
-    "AAPL": 1795802883.193928,
-    "PLTR": 1795802883.193928,
-    "NOW": 1795802883.193928,
-    "AMZN": 1795802883.193928,
-    "CRWV": 1795802883.193928,
-    "NBIS": 1795802883.193928,
-    "APLD": 1795802883.193928,
-    "VST": 1795802883.193928,
-    "BE": 1795802883.193928,
-    "CRDO": 1795802883.193928,
-    "COHR": 1795802883.193928,
-    "MRVL": 1795802883.193928,
+    "ASML": 1795804423.4267256,
+    "QCOM": 1795804423.4267256,
+    "AVGO": 1795804423.4267256,
+    "AMAT": 1795804423.4267256,
+    "META": 1795804423.4267256,
+    "GOOGL": 1795804423.4267256,
+    "MSFT": 1795804423.4267256,
+    "AAPL": 1795804423.4267256,
+    "PLTR": 1795804423.4267256,
+    "NOW": 1795804423.4267256,
+    "AMZN": 1795804423.4267256,
+    "CRWV": 1795804423.4267256,
+    "NBIS": 1795804423.4267256,
+    "APLD": 1795804423.4267256,
+    "VST": 1795804423.4267256,
+    "BE": 1795804423.4267256,
+    "CRDO": 1795804423.4267256,
+    "COHR": 1795804423.4267256,
+    "MRVL": 1795804423.4267256,
     "LITE": 1795802986.7616377,
-    "AAOI": 1795802883.193928,
+    "AAOI": 1795804423.4267256,
     "SPCX": 1795802986.7616377,
     "ASTS": 1795802986.7616377,
     "AXTI": 1795802986.7616377,
@@ -3346,12 +3346,12 @@
     "STX": 1795804112.8596241,
     "MSTR": 1795804112.8596241,
     "SNDK": 1795804112.8596241,
-    "BTC-USD": 1795802883.193928,
+    "BTC-USD": 1795804423.4267256,
     "CRWD": 1795804112.8596241,
-    "ORCL": 1795802883.193928,
-    "COIN": 1795802883.193928,
-    "LLY": 1795802883.193928,
-    "MRNA": 1795802883.193928,
+    "ORCL": 1795804423.4267256,
+    "COIN": 1795804423.4267256,
+    "LLY": 1795804423.4267256,
+    "MRNA": 1795804423.4267256,
     "NKE": 1795802986.7616377,
     "MCD": 1795802986.7616377,
     "PEP": 1795802986.7616377,
