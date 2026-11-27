@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795797252.131,
-  "updated_at_et": "11-27 11:34 ET",
-  "updated_at_kst": "01:34 KST",
+  "updated_at_ts": 1795797356.231,
+  "updated_at_et": "11-27 11:35 ET",
+  "updated_at_kst": "01:35 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -942,6 +942,13 @@
     ],
     "AMD": [
       {
+        "title": "Here’s Why I’d Still Buy Nvidia Over AMD With or Without Jensen Huang at CEO.",
+        "url": "https://www.fool.com/investing/2026/11/27/here-s-why-i-d-still-buy-nvidia-over-amd-with-or-without-jensen-huang-at-ceo/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 11:05 ET",
+        "pub_ts": 1795795502.0
+      },
+      {
         "title": "AMD's Earnings & Why Stocks Surged",
         "url": "https://www.fool.com/investing/2026/11/27/amd-s-earnings-and-why-stocks-surged/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -968,13 +975,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 08:08 ET",
         "pub_ts": 1795784939.0
-      },
-      {
-        "title": "Is Buying AMD Stock Now Too Early?",
-        "url": "https://www.trefis.com/stock/amd/articles/629402/is-buying-amd-stock-now-too-early/2026-11-27?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 08:02 ET",
-        "pub_ts": 1795784539.0
       }
     ],
     "ASML": [
@@ -2533,6 +2533,13 @@
     ],
     "MSTR": [
       {
+        "title": "Before the bell: Wall Street goes Black Friday shopping. Is Bitcoin on the list?",
+        "url": "https://www.thestreet.com/crypto/markets/before-the-bell-wall-street-goes-black-friday-shopping-is-bitcoin-on-the-list?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 11:00 ET",
+        "pub_ts": 1795795200.0
+      },
+      {
         "title": "Strategy Just Bought Bitcoin for the 4th Straight Week. So Why Aren't Crypto Investors Bullish on MSTR Stock?",
         "url": "https://www.fool.com/investing/2026/11/27/strategy-just-bought-bitcoin-for-the-4th-straight-week-so-why-aren-t-crypto-investors-bullish-on-mstr-stock/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2559,13 +2566,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 17:10 ET",
         "pub_ts": 1795644642.0
-      },
-      {
-        "title": "With bitcoin crashing, is Strategy (MSTR) in trouble?",
-        "url": "https://blockspace.media/short/with-bitcoin-crashing-is-strategy-mstr-in-trouble/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 15:28 ET",
-        "pub_ts": 1795638489.0
       }
     ],
     "SNDK": [
@@ -3282,23 +3282,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795795793.9698794,
-    "SOXL": 1795795793.9698794,
-    "SPY": 1795795793.9698794,
-    "DIA": 1795795793.9698794,
-    "SOXX": 1795795793.9698794,
-    "QQQ": 1795795793.9698794,
-    "SMH": 1795795793.9698794,
-    "IWM": 1795795793.9698794,
-    "IGV": 1795795793.9698794,
-    "TLT": 1795795793.9698794,
-    "GLD": 1795795793.9698794,
-    "SQQQ": 1795795793.9698794,
-    "TSM": 1795795793.9698794,
-    "VIXY": 1795795793.9698794,
-    "SOXS": 1795795793.9698794,
-    "NVDA": 1795795793.9698794,
-    "AMD": 1795795793.9698794,
+    "KORU": 1795797356.2308214,
+    "SOXL": 1795797356.2308214,
+    "SPY": 1795797356.2308214,
+    "DIA": 1795797356.2308214,
+    "SOXX": 1795797356.2308214,
+    "QQQ": 1795797356.2308214,
+    "SMH": 1795797356.2308214,
+    "IWM": 1795797356.2308214,
+    "IGV": 1795797356.2308214,
+    "TLT": 1795797356.2308214,
+    "GLD": 1795797356.2308214,
+    "SQQQ": 1795797356.2308214,
+    "TSM": 1795797356.2308214,
+    "VIXY": 1795797356.2308214,
+    "SOXS": 1795797356.2308214,
+    "NVDA": 1795797356.2308214,
+    "AMD": 1795797356.2308214,
     "ASML": 1795796936.830029,
     "QCOM": 1795796936.830029,
     "AVGO": 1795796936.830029,
@@ -3337,14 +3337,14 @@
     "OKLO": 1795797252.1306512,
     "CEG": 1795797252.1306512,
     "FPS": 1795797252.1306512,
-    "MU": 1795795793.9698794,
-    "SKHY": 1795795793.9698794,
-    "WDC": 1795795793.9698794,
-    "STX": 1795795793.9698794,
-    "MSTR": 1795795793.9698794,
-    "SNDK": 1795795793.9698794,
+    "MU": 1795797356.2308214,
+    "SKHY": 1795797356.2308214,
+    "WDC": 1795797356.2308214,
+    "STX": 1795797356.2308214,
+    "MSTR": 1795797356.2308214,
+    "SNDK": 1795797356.2308214,
     "BTC-USD": 1795795897.4782183,
-    "CRWD": 1795795793.9698794,
+    "CRWD": 1795797356.2308214,
     "ORCL": 1795795897.4782183,
     "COIN": 1795795897.4782183,
     "LLY": 1795795897.4782183,
@@ -3361,7 +3361,7 @@
     "GLW": 1795797252.1306512,
     "ANT": 1795797252.1306512,
     "XAUUSD": 1795797252.1306512,
-    "KOSPI": 1795795793.9698794
+    "KOSPI": 1795797356.2308214
   },
   "opex_shield": {
     "date": "2026-11-27",
