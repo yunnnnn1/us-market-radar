@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795795585.749,
-  "updated_at_et": "11-27 11:06 ET",
-  "updated_at_kst": "01:06 KST",
+  "updated_at_ts": 1795795688.777,
+  "updated_at_et": "11-27 11:08 ET",
+  "updated_at_kst": "01:08 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1948,13 +1948,6 @@
         "pub_ts": 1795791529.0
       },
       {
-        "title": "Stock Market Today: Dow Rises, Nasdaq Up As Anthropic, SpaceX Gain; Biotech Name Plummets (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 10:31 ET",
-        "pub_ts": 1795793470.0
-      },
-      {
         "title": "What ARK Autonomous Technology & Robotics ETF (ARKQ) Sold: Tesla Leads on Nov. 25",
         "url": "https://finance.yahoo.com/markets/stocks/articles/ark-autonomous-technology-robotics-etf-110448164.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1974,6 +1967,13 @@
         "source": "Yahoo Finance",
         "time": "11-27 06:03 ET",
         "pub_ts": 1795777409.0
+      },
+      {
+        "title": "ETFs Are Buying Tesla (TSLA) on Wednesday",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-tesla-tsla-wednesday-110102240.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 06:01 ET",
+        "pub_ts": 1795777262.0
       }
     ],
     "AXP": [
@@ -2126,6 +2126,13 @@
     ],
     "INTC": [
       {
+        "title": "No Threat to TSMC Before 2028: Intel’s Foundry Gap Is Still Huge",
+        "url": "https://247wallst.com/investing/2026/11/27/no-threat-to-tsmc-before-2028-intels-foundry-gap-is-still-huge/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:45 ET",
+        "pub_ts": 1795794312.0
+      },
+      {
         "title": "How Much More Could You Lose In Intel Stock?",
         "url": "https://www.trefis.com/stock/intc/articles/629327/how-much-more-could-you-lose-in-intel-stock/2026-11-27?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2152,13 +2159,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 14:30 ET",
         "pub_ts": 1795721403.0
-      },
-      {
-        "title": "Intel Stocks Slip After Erasing a 10.3% Plunge Below $50",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/intel-stocks-slip-erasing-10-184536612.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 13:45 ET",
-        "pub_ts": 1795718736.0
       }
     ],
     "VRT": [
@@ -3014,6 +3014,27 @@
     ],
     "WMT": [
       {
+        "title": "How AI is driving record holiday spending",
+        "url": "https://finance.yahoo.com/video/how-ai-is-driving-record-holiday-spending-154808415.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:48 ET",
+        "pub_ts": 1795794488.0
+      },
+      {
+        "title": "Walmart technical outlook amid Black Friday",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-technical-outlook-amid-black-155256189.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:52 ET",
+        "pub_ts": 1795794776.0
+      },
+      {
+        "title": "Is Walmart Stock Priced Like 1999 Again?",
+        "url": "https://www.trefis.com/stock/wmt/articles/629160/walmart-is-priced-almost-like-1999-holders-then-waited-12-years/2026-11-27?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:42 ET",
+        "pub_ts": 1795794140.0
+      },
+      {
         "title": "Walmart (WMT) Could Be 15% Undervalued Following Defensive Rotation And Holiday Momentum",
         "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-wmt-could-15-undervalued-151004257.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3026,27 +3047,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 09:34 ET",
         "pub_ts": 1795790040.0
-      },
-      {
-        "title": "S&P 500 Investors Make Surprising Shift as Tech Stocks Sink",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-investors-surprising-shift-142353935.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 09:23 ET",
-        "pub_ts": 1795789433.0
-      },
-      {
-        "title": "Amazon Blocked Meta’s Muse Two Months Ago. Now It’s in Talks to Let It Shop, and Walmart Already Did",
-        "url": "https://www.tikr.com/blog/amazon-blocked-metas-muse-two-months-ago-now-its-in-talks-to-let-it-shop-and-walmart-already-did?ref=yahoofinance&tlnk=yf-261127-c9m256qx&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:52 ET",
-        "pub_ts": 1795780363.0
-      },
-      {
-        "title": "Direxion NASDAQ-100 Equal Weighted (QQQE) Adds IDEXX and Walmart on Nov. 25",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/direxion-nasdaq-100-equal-weighted-110509309.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:05 ET",
-        "pub_ts": 1795777509.0
       }
     ],
     "V": [
@@ -3213,6 +3213,13 @@
         "pub_ts": 1795786669.0
       },
       {
+        "title": "Anthropic Just Hit an $81 Billion Run Rate—Why Wall Street’s Post-IPO Jitters Are a Gift",
+        "url": "https://247wallst.com/investing/2026/11/27/anthropic-just-hit-an-81-billion-run-rate-why-wall-streets-post-ipo-jitters-are-a-gift/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:45 ET",
+        "pub_ts": 1795794329.0
+      },
+      {
         "title": "Stock Market Today: Dow Rises, Nasdaq Up As Anthropic, SpaceX Gain; Biotech Name Plummets (Live Coverage)",
         "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3225,13 +3232,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 10:25 ET",
         "pub_ts": 1795793101.0
-      },
-      {
-        "title": "Anthropic Stock Jumps to Reveal Its True Place in the AI Trade",
-        "url": "https://finance.yahoo.com/m/eac9c281-033c-3c73-8b9a-a27703a8cdc9/anthropic-stock-jumps-to.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 10:09 ET",
-        "pub_ts": 1795792140.0
       }
     ],
     "XAUUSD": [
@@ -3318,25 +3318,25 @@
     "CRDO": 1795795380.8073232,
     "COHR": 1795795380.8073232,
     "MRVL": 1795795380.8073232,
-    "LITE": 1795794133.7407513,
+    "LITE": 1795795688.7769146,
     "AAOI": 1795795380.8073232,
-    "SPCX": 1795794133.7407513,
-    "ASTS": 1795794133.7407513,
-    "AXTI": 1795794133.7407513,
-    "NASA": 1795794133.7407513,
-    "LUNR": 1795794133.7407513,
-    "TSLA": 1795794133.7407513,
-    "AXP": 1795794133.7407513,
-    "RKLB": 1795794133.7407513,
-    "KO": 1795794133.7407513,
-    "FLY": 1795794133.7407513,
-    "INTC": 1795794133.7407513,
-    "VRT": 1795794133.7407513,
-    "HPE": 1795794133.7407513,
-    "DELL": 1795794133.7407513,
-    "OKLO": 1795794133.7407513,
-    "CEG": 1795794133.7407513,
-    "FPS": 1795794133.7407513,
+    "SPCX": 1795795688.7769146,
+    "ASTS": 1795795688.7769146,
+    "AXTI": 1795795688.7769146,
+    "NASA": 1795795688.7769146,
+    "LUNR": 1795795688.7769146,
+    "TSLA": 1795795688.7769146,
+    "AXP": 1795795688.7769146,
+    "RKLB": 1795795688.7769146,
+    "KO": 1795795688.7769146,
+    "FLY": 1795795688.7769146,
+    "INTC": 1795795688.7769146,
+    "VRT": 1795795688.7769146,
+    "HPE": 1795795688.7769146,
+    "DELL": 1795795688.7769146,
+    "OKLO": 1795795688.7769146,
+    "CEG": 1795795688.7769146,
+    "FPS": 1795795688.7769146,
     "MU": 1795794237.4348946,
     "SKHY": 1795794237.4348946,
     "WDC": 1795794237.4348946,
@@ -3352,15 +3352,15 @@
     "NKE": 1795795380.8073232,
     "MCD": 1795795380.8073232,
     "PEP": 1795795380.8073232,
-    "XOM": 1795794133.7407513,
+    "XOM": 1795795688.7769146,
     "JPM": 1795795380.8073232,
-    "WMT": 1795794133.7407513,
+    "WMT": 1795795688.7769146,
     "V": 1795795380.8073232,
-    "CAT": 1795794133.7407513,
-    "FN": 1795794133.7407513,
-    "GLW": 1795794133.7407513,
-    "ANT": 1795794133.7407513,
-    "XAUUSD": 1795794133.7407513,
+    "CAT": 1795795688.7769146,
+    "FN": 1795795688.7769146,
+    "GLW": 1795795688.7769146,
+    "ANT": 1795795688.7769146,
+    "XAUUSD": 1795795688.7769146,
     "KOSPI": 1795794237.4348946
   },
   "opex_shield": {
