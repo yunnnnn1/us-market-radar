@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795756862.66,
-  "updated_at_et": "11-27 00:21 ET",
-  "updated_at_kst": "14:21 KST",
+  "updated_at_ts": 1795756964.787,
+  "updated_at_et": "11-27 00:22 ET",
+  "updated_at_kst": "14:22 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -3002,13 +3002,6 @@
     ],
     "WMT": [
       {
-        "title": "3 big reasons why Black Friday will probably exceed retailer expectations",
-        "url": "https://finance.yahoo.com/video/3-big-reasons-why-black-130000004.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 08:00 ET",
-        "pub_ts": 1795698000.0
-      },
-      {
         "title": "Forget Walmart: Nike Has More to Lose From Vietnam’s Proposed Tariff of Up to 35%",
         "url": "https://www.tikr.com/blog/forget-walmart-nike-has-more-to-lose-from-vietnams-proposed-tariff-of-up-to-35?ref=yahoofinance&tlnk=yf-261126-xh7cp5rc&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3035,6 +3028,13 @@
         "source": "Yahoo Finance",
         "time": "11-26 14:07 ET",
         "pub_ts": 1795720038.0
+      },
+      {
+        "title": "Amazon , Walmart Battle for $124 Billion Holiday Shopping Market",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-walmart-battle-124-billion-175223253.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 12:52 ET",
+        "pub_ts": 1795715543.0
       }
     ],
     "V": [
@@ -3340,15 +3340,15 @@
     "NKE": 1795756862.6599176,
     "MCD": 1795756862.6599176,
     "PEP": 1795756862.6599176,
-    "XOM": 1795755426.1841817,
+    "XOM": 1795756964.78697,
     "JPM": 1795756862.6599176,
-    "WMT": 1795755426.1841817,
+    "WMT": 1795756964.78697,
     "V": 1795756862.6599176,
-    "CAT": 1795755426.1841817,
+    "CAT": 1795756964.78697,
     "FN": 1795756247.3019266,
     "GLW": 1795756247.3019266,
-    "ANT": 1795755426.1841817,
-    "XAUUSD": 1795755426.1841817,
+    "ANT": 1795756964.78697,
+    "XAUUSD": 1795756964.78697,
     "KOSPI": 1795756556.277452
   },
   "opex_shield": {
