@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795753355.722,
-  "updated_at_et": "11-26 23:22 ET",
-  "updated_at_kst": "13:22 KST",
+  "updated_at_ts": 1795753460.577,
+  "updated_at_et": "11-26 23:24 ET",
+  "updated_at_kst": "13:24 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2596,6 +2596,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "How a 35-Cent Attack Could Expose Bitcoin Wallet IP Addresses",
+        "url": "http://videos.coindesk.com/previews/lUGLwF4n?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 23:17 ET",
+        "pub_ts": 1795753038.0
+      },
+      {
         "title": "A 30% Bitcoin crash hasn't shaken this asset manager's $1.6 million call",
         "url": "https://www.thestreet.com/crypto/markets/a-30-bitcoin-crash-hasnt-shaken-this-asset-managers-1-6-million-call-?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2622,13 +2629,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 14:44 ET",
         "pub_ts": 1795722296.0
-      },
-      {
-        "title": "Bitcoin Holds Above $60K as Death Cross Clouds Thanksgiving Recovery",
-        "url": "https://decrypt.co/384079/bitcoin-holds-above-60k-as-death-cross-clouds-thanksgiving-recovery?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 13:15 ET",
-        "pub_ts": 1795716929.0
       }
     ],
     "CRWD": [
@@ -3271,23 +3271,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795751907.4946942,
-    "SOXL": 1795751907.4946942,
-    "SPY": 1795751907.4946942,
-    "DIA": 1795751907.4946942,
-    "SOXX": 1795751907.4946942,
-    "QQQ": 1795751907.4946942,
-    "SMH": 1795751907.4946942,
-    "IWM": 1795751907.4946942,
-    "IGV": 1795751907.4946942,
-    "TLT": 1795751907.4946942,
-    "GLD": 1795751907.4946942,
-    "SQQQ": 1795751907.4946942,
-    "TSM": 1795751907.4946942,
-    "VIXY": 1795751907.4946942,
-    "SOXS": 1795751907.4946942,
-    "NVDA": 1795751907.4946942,
-    "AMD": 1795751907.4946942,
+    "KORU": 1795753460.5766752,
+    "SOXL": 1795753460.5766752,
+    "SPY": 1795753460.5766752,
+    "DIA": 1795753460.5766752,
+    "SOXX": 1795753460.5766752,
+    "QQQ": 1795753460.5766752,
+    "SMH": 1795753460.5766752,
+    "IWM": 1795753460.5766752,
+    "IGV": 1795753460.5766752,
+    "TLT": 1795753460.5766752,
+    "GLD": 1795753460.5766752,
+    "SQQQ": 1795753460.5766752,
+    "TSM": 1795753460.5766752,
+    "VIXY": 1795753460.5766752,
+    "SOXS": 1795753460.5766752,
+    "NVDA": 1795753460.5766752,
+    "AMD": 1795753460.5766752,
     "ASML": 1795752220.7853909,
     "QCOM": 1795752220.7853909,
     "AVGO": 1795752220.7853909,
@@ -3330,14 +3330,14 @@
     "SKHY": 1795753149.900603,
     "WDC": 1795753149.900603,
     "STX": 1795753149.900603,
-    "MSTR": 1795751907.4946942,
+    "MSTR": 1795753460.5766752,
     "SNDK": 1795753149.900603,
-    "BTC-USD": 1795751907.4946942,
-    "CRWD": 1795751907.4946942,
-    "ORCL": 1795751907.4946942,
-    "COIN": 1795751907.4946942,
-    "LLY": 1795751907.4946942,
-    "MRNA": 1795751907.4946942,
+    "BTC-USD": 1795753460.5766752,
+    "CRWD": 1795753460.5766752,
+    "ORCL": 1795753460.5766752,
+    "COIN": 1795753460.5766752,
+    "LLY": 1795753460.5766752,
+    "MRNA": 1795753460.5766752,
     "NKE": 1795752220.7853909,
     "MCD": 1795752220.7853909,
     "PEP": 1795752220.7853909,
@@ -3350,7 +3350,7 @@
     "GLW": 1795753149.900603,
     "ANT": 1795752324.6225436,
     "XAUUSD": 1795752324.6225436,
-    "KOSPI": 1795751907.4946942
+    "KOSPI": 1795753460.5766752
   },
   "opex_shield": {
     "date": "2026-11-26",
