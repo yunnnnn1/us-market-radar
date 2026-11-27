@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795800260.493,
-  "updated_at_et": "11-27 12:24 ET",
-  "updated_at_kst": "02:24 KST",
+  "updated_at_ts": 1795800366.426,
+  "updated_at_et": "11-27 12:26 ET",
+  "updated_at_kst": "02:26 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1682,6 +1682,13 @@
     ],
     "LITE": [
       {
+        "title": "Coherent Jumps 12% as Optical Stocks Rebound From Wednesday’s AI Selloff; Applied Optoelectronics and Lumentum Rise 7%",
+        "url": "https://247wallst.com/investing/2026/11/27/coherent-jumps-12-as-optical-stocks-rebound-from-wednesdays-ai-selloff-applied-optoelectronics-and-lumentum-rise-7/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 12:06 ET",
+        "pub_ts": 1795799198.0
+      },
+      {
         "title": "Lumentum Surges 55% in a Year: Should You Buy, Sell, or Hold the Stock?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/lumentum-surges-55-buy-sell-162000564.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1708,13 +1715,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:28 ET",
         "pub_ts": 1795620532.0
-      },
-      {
-        "title": "Oppenheimer Cut Its Marvell Target by $100. It Still Sees 147% Upside",
-        "url": "https://www.tikr.com/blog/oppenheimer-cut-its-marvell-target-by-100-it-still-sees-147-upside?ref=yahoofinance&tlnk=yf-261125-h25pvm3g&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 05:49 ET",
-        "pub_ts": 1795603771.0
       }
     ],
     "AAOI": [
@@ -1784,11 +1784,11 @@
         "pub_ts": 1795788295.0
       },
       {
-        "title": "Anthropic vs. SpaceX: Which Is the Better Giant IPO Buy?",
-        "url": "https://www.fool.com/investing/2026/11/27/anthropic-vs-spacex-which-is-the-better-giant-ipo-buy/?.tsrc=rss",
+        "title": "Tesla Rallies 5% Amid SpaceX Merger Speculation; Rivian and SpaceX Rise 3%: Is Tesla’s 439x P/E a Warning Sign?",
+        "url": "https://247wallst.com/investing/2026/11/27/tesla-rallies-5-amid-spacex-merger-speculation-rivian-and-spacex-rise-3-is-teslas-439x-p-e-a-warning-sign/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 10:25 ET",
-        "pub_ts": 1795793101.0
+        "time": "11-27 12:04 ET",
+        "pub_ts": 1795799056.0
       }
     ],
     "ASTS": [
@@ -1948,6 +1948,20 @@
         "pub_ts": 1795791529.0
       },
       {
+        "title": "Sector Update: Consumer Stocks Advance Friday Afternoon",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-friday-171212418.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 12:12 ET",
+        "pub_ts": 1795799532.0
+      },
+      {
+        "title": "Tesla Rallies 5% Amid SpaceX Merger Speculation; Rivian and SpaceX Rise 3%: Is Tesla’s 439x P/E a Warning Sign?",
+        "url": "https://247wallst.com/investing/2026/11/27/tesla-rallies-5-amid-spacex-merger-speculation-rivian-and-spacex-rise-3-is-teslas-439x-p-e-a-warning-sign/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 12:04 ET",
+        "pub_ts": 1795799056.0
+      },
+      {
         "title": "What ARK Autonomous Technology & Robotics ETF (ARKQ) Sold: Tesla Leads on Nov. 25",
         "url": "https://finance.yahoo.com/markets/stocks/articles/ark-autonomous-technology-robotics-etf-110448164.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1960,23 +1974,16 @@
         "source": "Yahoo Finance",
         "time": "11-27 06:04 ET",
         "pub_ts": 1795777460.0
-      },
-      {
-        "title": "What INVESCO QQQ Trust (QQQ) Bought: Apple Leads on Wednesday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-qqq-trust-qqq-bought-110329959.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:03 ET",
-        "pub_ts": 1795777409.0
-      },
-      {
-        "title": "ETFs Are Buying Tesla (TSLA) on Wednesday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-tesla-tsla-wednesday-110102240.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:01 ET",
-        "pub_ts": 1795777262.0
       }
     ],
     "AXP": [
+      {
+        "title": "American Express Expects Another Year of 10% Revenue Growth. Prediction: The Stock Hits $400 in 2028.",
+        "url": "https://www.fool.com/investing/2026/11/27/american-express-expects-another-year-of-10-revenue-growth-prediction-the-stock-hits-usd400-in-2028/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 12:05 ET",
+        "pub_ts": 1795799102.0
+      },
       {
         "title": "Can American Express Deliver Mid-Teens EPS Growth in 2027?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/american-express-deliver-mid-teens-125400353.html?.tsrc=rss",
@@ -2004,13 +2011,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 06:15 ET",
         "pub_ts": 1795691700.0
-      },
-      {
-        "title": "Tariffs are back as Anthropic sinks further below its IPO price",
-        "url": "https://finance.yahoo.com/video/tariffs-are-back-as-anthropic-sinks-further-below-its-ipo-price-160524926.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 11:05 ET",
-        "pub_ts": 1795622724.0
       }
     ],
     "RKLB": [
@@ -2163,6 +2163,13 @@
     ],
     "VRT": [
       {
+        "title": "Vertiv Stock Has Fallen Hard. Buy Now Or Wait?",
+        "url": "https://www.trefis.com/stock/vrt/articles/629407/vertiv-stock-has-fallen-hard-buy-now-or-wait/2026-11-27?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 11:45 ET",
+        "pub_ts": 1795797920.0
+      },
+      {
         "title": "Vertiv (VRT) Down 29.5% Since Last Earnings Report: Can It Rebound?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/vertiv-vrt-down-29-5-153020649.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2189,13 +2196,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 12:18 ET",
         "pub_ts": 1795627133.0
-      },
-      {
-        "title": "Vertiv Just Raised Its Dividend 60%, but the AI Stock Still Yields Only 0.23%",
-        "url": "https://247wallst.com/investing/2026/11/25/vertiv-just-raised-its-dividend-60-but-the-ai-stock-still-yields-only-0-23/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 07:47 ET",
-        "pub_ts": 1795610821.0
       }
     ],
     "HPE": [
@@ -2237,6 +2237,27 @@
     ],
     "DELL": [
       {
+        "title": "Dell Faces AI Server Shipment Halt as Nvidia Tightens Asia Restrictions",
+        "url": "https://finance.yahoo.com/technology/ai/articles/dell-faces-ai-server-shipment-171229537.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 12:12 ET",
+        "pub_ts": 1795799549.0
+      },
+      {
+        "title": "Dell delivers record results, but Wall Street sees a catch",
+        "url": "https://www.thestreet.com/investing/dell-delivers-record-results-but-wall-street-sees-a-catch?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 12:03 ET",
+        "pub_ts": 1795798980.0
+      },
+      {
+        "title": "Dell price target cut by UBS as AI spending concerns mount",
+        "url": "https://www.proactiveinvestors.com/companies/news/1102596/dell-price-target-cut-by-ubs-as-ai-spending-concerns-mount-1102596.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 11:44 ET",
+        "pub_ts": 1795797840.0
+      },
+      {
         "title": "Jensen Huang Said Blackwell Racks Wouldn't Fit In A 'Pocket Or Backpack' But One Has Reportedly Turned Up in Shanghai",
         "url": "https://stocktwits.com/news-articles/markets/equity/jensen-huang-said-blackwell-racks-wouldn-t-fit-in-a-pocket-or-backpack-but-one-has-reportedly-turned-up-in-shanghai/cNbCwmzR9Vb?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2249,27 +2270,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 07:22 ET",
         "pub_ts": 1795782123.0
-      },
-      {
-        "title": "Dell’s Operating Costs Fell to “the Lowest in Our Company’s 42-Year History.” The Stock Fell Anyway",
-        "url": "https://www.tikr.com/blog/dells-operating-costs-fell-to-the-lowest-in-our-companys-42-year-history-the-stock-fell-anyway?ref=yahoofinance&tlnk=yf-261127-vmg337f6&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 01:59 ET",
-        "pub_ts": 1795762783.0
-      },
-      {
-        "title": "1 Incredibly Cheap Artificial Intelligence (AI) Stock to Buy Before It Doubles in 2027",
-        "url": "https://www.fool.com/investing/2026/11/26/1-incredibly-cheap-artificial-intelligence-ai-stock-to-buy-before-it-doubles-in-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 19:28 ET",
-        "pub_ts": 1795739282.0
-      },
-      {
-        "title": "BofA resets Dell stock price target by $100 after record earnings",
-        "url": "https://www.thestreet.com/investing/stocks/dell-dell-technologies-bank-of-america-resets-dell-stock-price-target-by-100-after-record-q3-earnings?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 14:03 ET",
-        "pub_ts": 1795719780.0
       }
     ],
     "OKLO": [
@@ -3021,6 +3021,13 @@
         "pub_ts": 1795794488.0
       },
       {
+        "title": "7 Highest Paying Retail Jobs for 2027",
+        "url": "https://moneylion.com/trending/money/highest-paying-retail-jobs-2027?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 12:00 ET",
+        "pub_ts": 1795798841.0
+      },
+      {
         "title": "Walmart technical outlook amid Black Friday",
         "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-technical-outlook-amid-black-155256189.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3040,13 +3047,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 10:10 ET",
         "pub_ts": 1795792204.0
-      },
-      {
-        "title": "Blockchain in Retail Global Market Report 2026 | Capitalize on 26.1% CAGR to $2.39 Billion by 2030 as IBM, SAP, Oracle, AWS and Walmart Scale BaaS, Traceability and Web3 Loyalty",
-        "url": "https://finance.yahoo.com/markets/crypto/articles/blockchain-retail-global-market-report-143400087.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 09:34 ET",
-        "pub_ts": 1795790040.0
       }
     ],
     "V": [
@@ -3318,25 +3318,25 @@
     "CRDO": 1795800054.0423427,
     "COHR": 1795800054.0423427,
     "MRVL": 1795800054.0423427,
-    "LITE": 1795798806.776704,
+    "LITE": 1795800366.4256585,
     "AAOI": 1795800054.0423427,
-    "SPCX": 1795798806.776704,
-    "ASTS": 1795798806.776704,
-    "AXTI": 1795798806.776704,
-    "NASA": 1795798806.776704,
-    "LUNR": 1795798806.776704,
-    "TSLA": 1795798806.776704,
-    "AXP": 1795798806.776704,
-    "RKLB": 1795798806.776704,
-    "KO": 1795798806.776704,
-    "FLY": 1795798806.776704,
-    "INTC": 1795798806.776704,
-    "VRT": 1795798806.776704,
-    "HPE": 1795798806.776704,
-    "DELL": 1795798806.776704,
-    "OKLO": 1795798806.776704,
-    "CEG": 1795798806.776704,
-    "FPS": 1795798806.776704,
+    "SPCX": 1795800366.4256585,
+    "ASTS": 1795800366.4256585,
+    "AXTI": 1795800366.4256585,
+    "NASA": 1795800366.4256585,
+    "LUNR": 1795800366.4256585,
+    "TSLA": 1795800366.4256585,
+    "AXP": 1795800366.4256585,
+    "RKLB": 1795800366.4256585,
+    "KO": 1795800366.4256585,
+    "FLY": 1795800366.4256585,
+    "INTC": 1795800366.4256585,
+    "VRT": 1795800366.4256585,
+    "HPE": 1795800366.4256585,
+    "DELL": 1795800366.4256585,
+    "OKLO": 1795800366.4256585,
+    "CEG": 1795800366.4256585,
+    "FPS": 1795800366.4256585,
     "MU": 1795798912.974724,
     "SKHY": 1795798912.974724,
     "WDC": 1795798912.974724,
@@ -3352,15 +3352,15 @@
     "NKE": 1795800054.0423427,
     "MCD": 1795800054.0423427,
     "PEP": 1795800054.0423427,
-    "XOM": 1795798806.776704,
+    "XOM": 1795800366.4256585,
     "JPM": 1795800054.0423427,
-    "WMT": 1795798806.776704,
+    "WMT": 1795800366.4256585,
     "V": 1795800054.0423427,
-    "CAT": 1795798806.776704,
-    "FN": 1795798806.776704,
-    "GLW": 1795798806.776704,
-    "ANT": 1795798806.776704,
-    "XAUUSD": 1795798806.776704,
+    "CAT": 1795800366.4256585,
+    "FN": 1795800366.4256585,
+    "GLW": 1795800366.4256585,
+    "ANT": 1795800366.4256585,
+    "XAUUSD": 1795800366.4256585,
     "KOSPI": 1795798912.974724
   },
   "opex_shield": {

@@ -178,12 +178,12 @@
       "last_notified_at": 1795654948.2577598
     },
     "PLTR": {
-      "state": "WATCHLIST_ENTRY_READY",
-      "last_notified_at": 1795800170.9886365
+      "state": "NORMAL",
+      "last_notified_at": 0.0
     },
     "AVGO": {
-      "state": "WATCHLIST_ENTRY_READY",
-      "last_notified_at": 1795800170.9886365
+      "state": "NORMAL",
+      "last_notified_at": 0.0
     }
   },
   "position_peaks": {
