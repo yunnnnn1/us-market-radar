@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795753047.441,
-  "updated_at_et": "11-26 23:17 ET",
-  "updated_at_kst": "13:17 KST",
+  "updated_at_ts": 1795753149.901,
+  "updated_at_et": "11-26 23:19 ET",
+  "updated_at_kst": "13:19 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1745,6 +1745,20 @@
     ],
     "SPCX": [
       {
+        "title": "SpaceX (SPCX) Balances Starlink Growth With Its AI Funding Needs",
+        "url": "https://finance.yahoo.com/technology/ai/articles/spacex-spcx-balances-starlink-growth-035503007.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 22:55 ET",
+        "pub_ts": 1795751703.0
+      },
+      {
+        "title": "Amazon Lost 40 Satellites on a Boeing-Lockheed Rocket in November. SpaceX Is the Only Company That Can Fix Amazon’s Problem. Is the Stock a Buy Near $130?",
+        "url": "https://www.fool.com/investing/2026/11/26/amazon-lost-40-satellites-on-a-boeing-lockheed-rocket-in-november-spacex-is-the-only-company-that-can-fix-amazon-s-problem-is-the-stock-a-buy-near-usd130/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 22:53 ET",
+        "pub_ts": 1795751582.0
+      },
+      {
         "title": "What Could Tesla (TSLA) Merger Talks Mean For Its Stock?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/could-tesla-tsla-merger-talks-013007632.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1764,20 +1778,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 19:01 ET",
         "pub_ts": 1795737707.0
-      },
-      {
-        "title": "Amazon tried to kill Musk’s plan for 1 million AI satellites. The FCC chair scolded it and gave SpaceX the green light",
-        "url": "https://finance.yahoo.com/technology/ai/articles/amazon-tried-kill-musk-plan-233000718.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 18:30 ET",
-        "pub_ts": 1795735800.0
-      },
-      {
-        "title": "Stanley Druckenmiller Sees 70% Chance of Data Centers in Space Within 10 Years — Duquesne Adds $30 Million to SpaceX Stake in Q3",
-        "url": "https://finance.yahoo.com/technology/ai/articles/stanley-druckenmiller-sees-70-chance-213004535.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 16:30 ET",
-        "pub_ts": 1795728604.0
       }
     ],
     "ASTS": [
@@ -3151,6 +3151,13 @@
     ],
     "GLW": [
       {
+        "title": "Corning’s 80-Million-Mile Fiber Deal Puts Its 2027 Expansion to the Test",
+        "url": "https://finance.yahoo.com/technology/articles/corning-80-million-mile-fiber-041319616.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 23:13 ET",
+        "pub_ts": 1795752799.0
+      },
+      {
         "title": "Corning (GLW) Down 23.6% Since Last Earnings Report: Can It Rebound?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/corning-glw-down-23-6-153011443.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3177,13 +3184,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 08:00 ET",
         "pub_ts": 1795611604.0
-      },
-      {
-        "title": "Corning Jumped $10. Jim Cramer Had a Lower Price in Mind",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/corning-jumped-10-jim-cramer-180300762.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-24 13:03 ET",
-        "pub_ts": 1795543380.0
       }
     ],
     "ANT": [
@@ -3307,31 +3307,31 @@
     "CRDO": 1795752220.7853909,
     "COHR": 1795752220.7853909,
     "MRVL": 1795752220.7853909,
-    "LITE": 1795751600.6089237,
+    "LITE": 1795753149.900603,
     "AAOI": 1795752220.7853909,
-    "SPCX": 1795751600.6089237,
-    "ASTS": 1795751600.6089237,
-    "AXTI": 1795751600.6089237,
-    "NASA": 1795751600.6089237,
-    "LUNR": 1795751600.6089237,
-    "TSLA": 1795751600.6089237,
-    "AXP": 1795751600.6089237,
-    "RKLB": 1795751600.6089237,
-    "KO": 1795751600.6089237,
-    "FLY": 1795751600.6089237,
-    "INTC": 1795751600.6089237,
-    "VRT": 1795751600.6089237,
-    "HPE": 1795751600.6089237,
-    "DELL": 1795751600.6089237,
-    "OKLO": 1795751600.6089237,
-    "CEG": 1795751600.6089237,
-    "FPS": 1795751600.6089237,
-    "MU": 1795751600.6089237,
-    "SKHY": 1795751600.6089237,
-    "WDC": 1795751600.6089237,
-    "STX": 1795751600.6089237,
+    "SPCX": 1795753149.900603,
+    "ASTS": 1795753149.900603,
+    "AXTI": 1795753149.900603,
+    "NASA": 1795753149.900603,
+    "LUNR": 1795753149.900603,
+    "TSLA": 1795753149.900603,
+    "AXP": 1795753149.900603,
+    "RKLB": 1795753149.900603,
+    "KO": 1795753149.900603,
+    "FLY": 1795753149.900603,
+    "INTC": 1795753149.900603,
+    "VRT": 1795753149.900603,
+    "HPE": 1795753149.900603,
+    "DELL": 1795753149.900603,
+    "OKLO": 1795753149.900603,
+    "CEG": 1795753149.900603,
+    "FPS": 1795753149.900603,
+    "MU": 1795753149.900603,
+    "SKHY": 1795753149.900603,
+    "WDC": 1795753149.900603,
+    "STX": 1795753149.900603,
     "MSTR": 1795751907.4946942,
-    "SNDK": 1795751600.6089237,
+    "SNDK": 1795753149.900603,
     "BTC-USD": 1795751907.4946942,
     "CRWD": 1795751907.4946942,
     "ORCL": 1795751907.4946942,
@@ -3346,8 +3346,8 @@
     "WMT": 1795752324.6225436,
     "V": 1795752220.7853909,
     "CAT": 1795752324.6225436,
-    "FN": 1795751600.6089237,
-    "GLW": 1795751600.6089237,
+    "FN": 1795753149.900603,
+    "GLW": 1795753149.900603,
     "ANT": 1795752324.6225436,
     "XAUUSD": 1795752324.6225436,
     "KOSPI": 1795751907.4946942
