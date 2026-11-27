@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795794133.741,
-  "updated_at_et": "11-27 10:42 ET",
-  "updated_at_kst": "00:42 KST",
+  "updated_at_ts": 1795794237.435,
+  "updated_at_et": "11-27 10:43 ET",
+  "updated_at_kst": "00:43 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -452,11 +452,11 @@
         "pub_ts": 1795784638.0
       },
       {
-        "title": "Own Palo Alto Stock? Watch Its Deferred Revenue",
-        "url": "https://www.trefis.com/stock/panw/articles/629187/own-palo-alto-stock-watch-its-deferred-revenue/2026-11-26?.tsrc=rss",
+        "title": "Stock Market Today: Markets Off to a Strong Black Friday Start",
+        "url": "https://247wallst.com/investing/2026/11/27/stock-market-today-markets-off-to-a-strong-black-friday-start/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 06:15 ET",
-        "pub_ts": 1795691719.0
+        "time": "11-27 10:03 ET",
+        "pub_ts": 1795791793.0
       }
     ],
     "DIA": [
@@ -489,11 +489,11 @@
         "pub_ts": 1795187510.0
       },
       {
-        "title": "ETFs Are Net Sellers of American Express (AXP) on Monday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-american-express-110338144.html?.tsrc=rss",
+        "title": "Pre-Markets Up Ahead of Shortened Trading Session",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/pre-markets-ahead-shortened-trading-141400040.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-18 06:03 ET",
-        "pub_ts": 1794999818.0
+        "time": "11-27 09:14 ET",
+        "pub_ts": 1795788840.0
       }
     ],
     "SOXX": [
@@ -905,6 +905,20 @@
     ],
     "NVDA": [
       {
+        "title": "Can AI earn a spot in the creative world? Ja Rule think so.",
+        "url": "https://finance.yahoo.com/video/can-ai-earn-a-spot-in-the-creative-world-ja-rule-think-so-152828382.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:28 ET",
+        "pub_ts": 1795793308.0
+      },
+      {
+        "title": "All these Nvidia headlines are just noise: Why you should keep watching AI spending",
+        "url": "https://finance.yahoo.com/video/all-these-nvidia-headlines-are-just-noise-why-you-should-keep-watching-ai-spending-152236102.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:22 ET",
+        "pub_ts": 1795792956.0
+      },
+      {
         "title": "Stocks snap from a $6 trillion washout to a $3 trillion surge as Nvidia, Micron, and SpaceX bounce back",
         "url": "https://finance.yahoo.com/markets/article/stocks-snap-from-a-6-trillion-washout-to-a-3-trillion-surge-as-nvidia-micron-and-spacex-bounce-back-151218930.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -912,32 +926,18 @@
         "pub_ts": 1795792338.0
       },
       {
+        "title": "Nvidia halts sales to SE Asia, SpaceX surges on Musk's share promise",
+        "url": "https://finance.yahoo.com/video/nvidia-halts-sales-to-se-asia-spacex-surges-on-musks-share-promise-151001061.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:10 ET",
+        "pub_ts": 1795792201.0
+      },
+      {
         "title": "SpaceX, Tesla have had a bumpy 2026 thus far: What to know",
         "url": "https://finance.yahoo.com/video/spacex-tesla-have-had-a-bumpy-2026-thus-far-what-to-know-145849441.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-27 09:58 ET",
         "pub_ts": 1795791529.0
-      },
-      {
-        "title": "Chip stocks lead a Black Friday rally, but Nvidia misses out: AlphaCheck",
-        "url": "https://finance.yahoo.com/markets/article/chip-stocks-lead-a-black-friday-rally-but-nvidia-misses-out-alphacheck-145727185.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 09:57 ET",
-        "pub_ts": 1795791447.0
-      },
-      {
-        "title": "How Leopold Aschenbrenner made a $225 million bet on AI infrastructure",
-        "url": "https://finance.yahoo.com/video/leopold-aschenbrenner-made-225-million-143000764.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 09:30 ET",
-        "pub_ts": 1795789800.0
-      },
-      {
-        "title": "Stock Market Today: Markets Off to a Strong Black Friday Start",
-        "url": "https://247wallst.com/investing/2026/11/27/stock-market-today-markets-off-to-a-strong-black-friday-start/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 10:03 ET",
-        "pub_ts": 1795791793.0
       }
     ],
     "AMD": [
@@ -2399,6 +2399,13 @@
         "pub_ts": 1795780800.0
       },
       {
+        "title": "Down 50%, is Micron stock a bargain buy or a value trap?",
+        "url": "https://www.thestreet.com/investing/stocks/micron-stock-down-50-bargain-or-value-trap?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:37 ET",
+        "pub_ts": 1795793820.0
+      },
+      {
         "title": "Micron Stock Is Jumping but There’s Bad News on Memory Prices",
         "url": "https://finance.yahoo.com/m/ece1bfa4-65fd-3b15-bd9c-6a0f690f08e4/micron-stock-is-jumping-but.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2411,13 +2418,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 08:58 ET",
         "pub_ts": 1795787920.0
-      },
-      {
-        "title": "SNDK, MU, WDC, Other Memory Stocks Rally As Investors Return To Beaten-Down AI Names",
-        "url": "https://stocktwits.com/news-articles/markets/equity/sndk-mu-wdc-other-memory-stocks-rally-as-investors-return-to-beaten-down-ai-names/cNbCupeR9ND?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 08:19 ET",
-        "pub_ts": 1795785561.0
       }
     ],
     "SKHY": [
@@ -2459,13 +2459,6 @@
     ],
     "WDC": [
       {
-        "title": "SNDK, MU, WDC, Other Memory Stocks Rally As Investors Return To Beaten-Down AI Names",
-        "url": "https://stocktwits.com/news-articles/markets/equity/sndk-mu-wdc-other-memory-stocks-rally-as-investors-return-to-beaten-down-ai-names/cNbCupeR9ND?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 08:19 ET",
-        "pub_ts": 1795785561.0
-      },
-      {
         "title": "Western Digital vs. IBM: Which Data Storage Stock is the Smarter Bet?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/western-digital-vs-ibm-data-121200982.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2485,6 +2478,13 @@
         "source": "Yahoo Finance",
         "time": "11-26 02:13 ET",
         "pub_ts": 1795677227.0
+      },
+      {
+        "title": "Western Digital Stocks Sink 7.42%, Trading 139% Above GF Value",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/western-digital-stocks-sink-7-172258485.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-25 12:22 ET",
+        "pub_ts": 1795627378.0
       },
       {
         "title": "SanDisk Jumps 10% as Investors Return to Beaten-Down Memory Stocks; Micron and SK Hynix Rise 6% Despite TrendForce DRAM Warning",
@@ -3282,23 +3282,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795792675.3758607,
-    "SOXL": 1795792675.3758607,
-    "SPY": 1795792675.3758607,
-    "DIA": 1795792675.3758607,
-    "SOXX": 1795792675.3758607,
-    "QQQ": 1795792675.3758607,
-    "SMH": 1795792675.3758607,
-    "IWM": 1795792675.3758607,
-    "IGV": 1795792675.3758607,
-    "TLT": 1795792675.3758607,
-    "GLD": 1795792675.3758607,
-    "SQQQ": 1795792675.3758607,
-    "TSM": 1795792675.3758607,
-    "VIXY": 1795792675.3758607,
-    "SOXS": 1795792675.3758607,
-    "NVDA": 1795792675.3758607,
-    "AMD": 1795792675.3758607,
+    "KORU": 1795794237.4348946,
+    "SOXL": 1795794237.4348946,
+    "SPY": 1795794237.4348946,
+    "DIA": 1795794237.4348946,
+    "SOXX": 1795794237.4348946,
+    "QQQ": 1795794237.4348946,
+    "SMH": 1795794237.4348946,
+    "IWM": 1795794237.4348946,
+    "IGV": 1795794237.4348946,
+    "TLT": 1795794237.4348946,
+    "GLD": 1795794237.4348946,
+    "SQQQ": 1795794237.4348946,
+    "TSM": 1795794237.4348946,
+    "VIXY": 1795794237.4348946,
+    "SOXS": 1795794237.4348946,
+    "NVDA": 1795794237.4348946,
+    "AMD": 1795794237.4348946,
     "ASML": 1795793821.4336011,
     "QCOM": 1795793821.4336011,
     "AVGO": 1795793821.4336011,
@@ -3337,14 +3337,14 @@
     "OKLO": 1795794133.7407513,
     "CEG": 1795794133.7407513,
     "FPS": 1795794133.7407513,
-    "MU": 1795792675.3758607,
-    "SKHY": 1795792675.3758607,
-    "WDC": 1795792675.3758607,
-    "STX": 1795792675.3758607,
-    "MSTR": 1795792675.3758607,
-    "SNDK": 1795792675.3758607,
+    "MU": 1795794237.4348946,
+    "SKHY": 1795794237.4348946,
+    "WDC": 1795794237.4348946,
+    "STX": 1795794237.4348946,
+    "MSTR": 1795794237.4348946,
+    "SNDK": 1795794237.4348946,
     "BTC-USD": 1795792780.7975943,
-    "CRWD": 1795792675.3758607,
+    "CRWD": 1795794237.4348946,
     "ORCL": 1795792780.7975943,
     "COIN": 1795792780.7975943,
     "LLY": 1795792780.7975943,
@@ -3361,7 +3361,7 @@
     "GLW": 1795794133.7407513,
     "ANT": 1795794133.7407513,
     "XAUUSD": 1795794133.7407513,
-    "KOSPI": 1795792675.3758607
+    "KOSPI": 1795794237.4348946
   },
   "opex_shield": {
     "date": "2026-11-27",
