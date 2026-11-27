@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795812007.829,
-  "updated_at_et": "11-27 15:40 ET",
-  "updated_at_kst": "05:40 KST",
+  "updated_at_ts": 1795812109.635,
+  "updated_at_et": "11-27 15:41 ET",
+  "updated_at_kst": "05:41 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1174,6 +1174,13 @@
         "pub_ts": 1795798320.0
       },
       {
+        "title": "Alphabet Down Nearly 20%: What Would Its CEO Say?",
+        "url": "https://www.trefis.com/stock/googl/articles/629198/alphabet-down-nearly-20-what-would-its-ceo-say/2026-11-27?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 15:25 ET",
+        "pub_ts": 1795811113.0
+      },
+      {
         "title": "Alphabet Stocks Move Lower as Record Credit Spreads Shadow AI Spending",
         "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-move-lower-record-191839414.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1193,13 +1200,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 13:41 ET",
         "pub_ts": 1795804860.0
-      },
-      {
-        "title": "AppLovin vs. Magnite: Which Technology Stock Is a Better Buy for 2027?",
-        "url": "https://www.fool.com/coverage/better-buy/2026/11/27/applovin-vs-magnite-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 13:16 ET",
-        "pub_ts": 1795803374.0
       }
     ],
     "MSFT": [
@@ -1232,11 +1232,11 @@
         "pub_ts": 1795790281.0
       },
       {
-        "title": "Privacy-Enhancing Computation Market to Reach $16.49 Billion by 2030 as Data Protection Demand Accelerates - Microsoft, IBM, Cisco, and Oracle Accelerate AI, FHE, and Cloud Security",
-        "url": "https://finance.yahoo.com/technology/ai/articles/privacy-enhancing-computation-market-reach-143600579.html?.tsrc=rss",
+        "title": "IREN (NasdaqGS:IREN) Stock Sees Modest Fair Value Cut After AI Cloud Sentiment Swings",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/iren-nasdaqgs-iren-stock-sees-190922720.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 09:36 ET",
-        "pub_ts": 1795790160.0
+        "time": "11-27 14:09 ET",
+        "pub_ts": 1795806562.0
       }
     ],
     "AAPL": [
@@ -3302,27 +3302,27 @@
     "SOXS": 1795811802.5876465,
     "NVDA": 1795811802.5876465,
     "AMD": 1795811802.5876465,
-    "ASML": 1795810573.2596898,
-    "QCOM": 1795810573.2596898,
-    "AVGO": 1795810573.2596898,
-    "AMAT": 1795810573.2596898,
-    "META": 1795810573.2596898,
-    "GOOGL": 1795810573.2596898,
-    "MSFT": 1795810573.2596898,
-    "AAPL": 1795810573.2596898,
-    "PLTR": 1795810573.2596898,
-    "NOW": 1795810573.2596898,
-    "AMZN": 1795810573.2596898,
-    "CRWV": 1795810573.2596898,
-    "NBIS": 1795810573.2596898,
-    "APLD": 1795810573.2596898,
-    "VST": 1795810573.2596898,
-    "BE": 1795810573.2596898,
-    "CRDO": 1795810573.2596898,
-    "COHR": 1795810573.2596898,
-    "MRVL": 1795810573.2596898,
+    "ASML": 1795812109.6347601,
+    "QCOM": 1795812109.6347601,
+    "AVGO": 1795812109.6347601,
+    "AMAT": 1795812109.6347601,
+    "META": 1795812109.6347601,
+    "GOOGL": 1795812109.6347601,
+    "MSFT": 1795812109.6347601,
+    "AAPL": 1795812109.6347601,
+    "PLTR": 1795812109.6347601,
+    "NOW": 1795812109.6347601,
+    "AMZN": 1795812109.6347601,
+    "CRWV": 1795812109.6347601,
+    "NBIS": 1795812109.6347601,
+    "APLD": 1795812109.6347601,
+    "VST": 1795812109.6347601,
+    "BE": 1795812109.6347601,
+    "CRDO": 1795812109.6347601,
+    "COHR": 1795812109.6347601,
+    "MRVL": 1795812109.6347601,
     "LITE": 1795810674.910297,
-    "AAOI": 1795810573.2596898,
+    "AAOI": 1795812109.6347601,
     "SPCX": 1795810674.910297,
     "ASTS": 1795810674.910297,
     "AXTI": 1795810674.910297,
@@ -3346,12 +3346,12 @@
     "STX": 1795811802.5876465,
     "MSTR": 1795811802.5876465,
     "SNDK": 1795811802.5876465,
-    "BTC-USD": 1795810573.2596898,
+    "BTC-USD": 1795812109.6347601,
     "CRWD": 1795811802.5876465,
-    "ORCL": 1795810573.2596898,
-    "COIN": 1795810573.2596898,
-    "LLY": 1795810573.2596898,
-    "MRNA": 1795810573.2596898,
+    "ORCL": 1795812109.6347601,
+    "COIN": 1795812109.6347601,
+    "LLY": 1795812109.6347601,
+    "MRNA": 1795812109.6347601,
     "NKE": 1795810674.910297,
     "MCD": 1795810674.910297,
     "PEP": 1795810674.910297,

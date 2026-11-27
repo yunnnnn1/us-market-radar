@@ -50,8 +50,8 @@
       "last_notified_at": 0.0
     },
     "FLY": {
-      "state": "NORMAL",
-      "last_notified_at": 0.0
+      "state": "WATCHLIST_ENTRY_READY",
+      "last_notified_at": 1795812124.4645333
     },
     "LLY": {
       "state": "NORMAL",
@@ -86,8 +86,8 @@
       "last_notified_at": 1795811920.639551
     },
     "IWM": {
-      "state": "WATCHLIST_ENTRY_READY",
-      "last_notified_at": 1795811816.7920117
+      "state": "NORMAL",
+      "last_notified_at": 0.0
     },
     "IGV": {
       "state": "NORMAL",
@@ -178,8 +178,8 @@
       "last_notified_at": 1795654948.2577598
     },
     "PLTR": {
-      "state": "WATCHLIST_ENTRY_READY",
-      "last_notified_at": 1795811099.678493
+      "state": "NORMAL",
+      "last_notified_at": 0.0
     },
     "AVGO": {
       "state": "NORMAL",
