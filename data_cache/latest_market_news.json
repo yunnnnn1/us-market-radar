@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795804526.327,
-  "updated_at_et": "11-27 13:35 ET",
-  "updated_at_kst": "03:35 KST",
+  "updated_at_ts": 1795804629.883,
+  "updated_at_et": "11-27 13:37 ET",
+  "updated_at_kst": "03:37 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2943,6 +2943,13 @@
     ],
     "XOM": [
       {
+        "title": "XOM Boosts Angola Prospects With Kizomba Redevelopment & New Discovery",
+        "url": "https://finance.yahoo.com/energy/articles/xom-boosts-angola-prospects-kizomba-171600732.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 12:16 ET",
+        "pub_ts": 1795799760.0
+      },
+      {
         "title": "ExxonMobil Holdings Corporation (XOM) is Attracting Investor Attention: Here is What You Should Know",
         "url": "https://finance.yahoo.com/markets/stocks/articles/exxonmobil-holdings-corporation-xom-attracting-130003011.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2969,13 +2976,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:02 ET",
         "pub_ts": 1795618961.0
-      },
-      {
-        "title": "Global Ethyl Derivatives Market Report 2026: Executive Strategy and Forecast to 2030 | Capitalize on Bio-Based and Pharma Demand with BASF, Dow, Arkema, Clariant, and Exxon Mobil",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/global-ethyl-derivatives-market-report-143100666.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 09:31 ET",
-        "pub_ts": 1795617060.0
       }
     ],
     "JPM": [
@@ -3091,6 +3091,13 @@
     ],
     "CAT": [
       {
+        "title": "Caterpillar (CAT) Stock May Be 44% Below Fair Value Despite AI Sell Off",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-cat-stock-may-44-181003127.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:10 ET",
+        "pub_ts": 1795803003.0
+      },
+      {
         "title": "How Record Backlog Will Impact Caterpillar Stock Investors",
         "url": "https://finance.yahoo.com/markets/stocks/articles/record-backlog-impact-caterpillar-stock-171151286.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3117,13 +3124,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 13:57 ET",
         "pub_ts": 1795719422.0
-      },
-      {
-        "title": "2027 Industrial Divide: Caterpillar Monetizes AI Power While Deere Chases an Ag Bottom",
-        "url": "https://247wallst.com/investing/2026/11/25/2027-industrial-divide-caterpillar-monetizes-ai-power-while-deere-chases-an-ag-bottom/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:45 ET",
-        "pub_ts": 1795621524.0
       }
     ],
     "FN": [
@@ -3355,15 +3355,15 @@
     "NKE": 1795804526.326668,
     "MCD": 1795804526.326668,
     "PEP": 1795804526.326668,
-    "XOM": 1795803087.929716,
+    "XOM": 1795804629.88339,
     "JPM": 1795804526.326668,
-    "WMT": 1795803087.929716,
+    "WMT": 1795804629.88339,
     "V": 1795804526.326668,
-    "CAT": 1795803087.929716,
+    "CAT": 1795804629.88339,
     "FN": 1795804526.326668,
     "GLW": 1795804526.326668,
-    "ANT": 1795803087.929716,
-    "XAUUSD": 1795803087.929716,
+    "ANT": 1795804629.88339,
+    "XAUUSD": 1795804629.88339,
     "KOSPI": 1795804112.8596241
   },
   "opex_shield": {
