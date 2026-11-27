@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795808627.002,
-  "updated_at_et": "11-27 14:43 ET",
-  "updated_at_kst": "04:43 KST",
+  "updated_at_ts": 1795808732.224,
+  "updated_at_et": "11-27 14:45 ET",
+  "updated_at_kst": "04:45 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -908,6 +908,13 @@
     ],
     "NVDA": [
       {
+        "title": "Stock Market Today: Indexes Log Best Thanksgiving Week In 18 Years",
+        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-indexes.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 14:19 ET",
+        "pub_ts": 1795807162.0
+      },
+      {
         "title": "'Big Short' Investor Michael Burry Thinks This Chinese Stock Is Worth About 60% More Than Its Price. Should You Buy?",
         "url": "https://www.fool.com/investing/2026/11/27/big-short-investor-michael-burry-thinks-this-chinese-stock-is-worth-about-60-more-than-its-price-should-you-buy/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -934,16 +941,16 @@
         "source": "Yahoo Finance",
         "time": "11-27 13:31 ET",
         "pub_ts": 1795804262.0
-      },
-      {
-        "title": "Investing.com’s stocks of the week",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/investing-com-stocks-week-182910314.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 13:29 ET",
-        "pub_ts": 1795804150.0
       }
     ],
     "AMD": [
+      {
+        "title": "AMD Stocks Rise Despite Erste Group Downgrade on Valuation",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amd-stocks-rise-despite-erste-191808508.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 14:18 ET",
+        "pub_ts": 1795807088.0
+      },
       {
         "title": "Dual AI Growth Catalysts Position Advanced Micro Devices (AMD) for Revenue Acceleration",
         "url": "https://finance.yahoo.com/technology/ai/articles/dual-ai-growth-catalysts-position-164930131.html?.tsrc=rss",
@@ -971,13 +978,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 10:54 ET",
         "pub_ts": 1795794841.0
-      },
-      {
-        "title": "HPE vs. AMD: Which Stock Should Value Investors Buy Now?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/hpe-vs-amd-stock-value-154003186.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 10:40 ET",
-        "pub_ts": 1795794003.0
       }
     ],
     "ASML": [
@@ -2580,6 +2580,13 @@
         "pub_ts": 1795789800.0
       },
       {
+        "title": "Stock Market Today: Indexes Log Best Thanksgiving Week In 18 Years",
+        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-indexes.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 14:19 ET",
+        "pub_ts": 1795807162.0
+      },
+      {
         "title": "SanDisk Stocks Jump 12.85% After Kioxia and Nvidia Stretch GPU Memory With SSDs",
         "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-stocks-jump-12-85-181316890.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2599,13 +2606,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 13:03 ET",
         "pub_ts": 1795802584.0
-      },
-      {
-        "title": "Stock Market Today: Indexes Log Best Thanksgiving Week In 18 Years",
-        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-indexes.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 14:19 ET",
-        "pub_ts": 1795807162.0
       }
     ],
     "BTC-USD": [
@@ -3285,23 +3285,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795807196.649296,
-    "SOXL": 1795807196.649296,
-    "SPY": 1795807196.649296,
-    "DIA": 1795807196.649296,
-    "SOXX": 1795807196.649296,
-    "QQQ": 1795807196.649296,
-    "SMH": 1795807196.649296,
-    "IWM": 1795807196.649296,
-    "IGV": 1795807196.649296,
-    "TLT": 1795807196.649296,
-    "GLD": 1795807196.649296,
-    "SQQQ": 1795807196.649296,
-    "TSM": 1795807196.649296,
-    "VIXY": 1795807196.649296,
-    "SOXS": 1795807196.649296,
-    "NVDA": 1795807196.649296,
-    "AMD": 1795807196.649296,
+    "KORU": 1795808732.223897,
+    "SOXL": 1795808732.223897,
+    "SPY": 1795808732.223897,
+    "DIA": 1795808732.223897,
+    "SOXX": 1795808732.223897,
+    "QQQ": 1795808732.223897,
+    "SMH": 1795808732.223897,
+    "IWM": 1795808732.223897,
+    "IGV": 1795808732.223897,
+    "TLT": 1795808732.223897,
+    "GLD": 1795808732.223897,
+    "SQQQ": 1795808732.223897,
+    "TSM": 1795808732.223897,
+    "VIXY": 1795808732.223897,
+    "SOXS": 1795808732.223897,
+    "NVDA": 1795808732.223897,
+    "AMD": 1795808732.223897,
     "ASML": 1795807503.3117647,
     "QCOM": 1795807503.3117647,
     "AVGO": 1795807503.3117647,
@@ -3340,14 +3340,14 @@
     "OKLO": 1795807605.0391068,
     "CEG": 1795807605.0391068,
     "FPS": 1795807605.0391068,
-    "MU": 1795807196.649296,
-    "SKHY": 1795807196.649296,
-    "WDC": 1795807196.649296,
-    "STX": 1795807196.649296,
-    "MSTR": 1795807196.649296,
-    "SNDK": 1795807196.649296,
+    "MU": 1795808732.223897,
+    "SKHY": 1795808732.223897,
+    "WDC": 1795808732.223897,
+    "STX": 1795808732.223897,
+    "MSTR": 1795808732.223897,
+    "SNDK": 1795808732.223897,
     "BTC-USD": 1795807503.3117647,
-    "CRWD": 1795807196.649296,
+    "CRWD": 1795808732.223897,
     "ORCL": 1795807503.3117647,
     "COIN": 1795807503.3117647,
     "LLY": 1795807503.3117647,
@@ -3364,7 +3364,7 @@
     "GLW": 1795807605.0391068,
     "ANT": 1795807708.261044,
     "XAUUSD": 1795807708.261044,
-    "KOSPI": 1795807196.649296
+    "KOSPI": 1795808732.223897
   },
   "opex_shield": {
     "date": "2026-11-27",
