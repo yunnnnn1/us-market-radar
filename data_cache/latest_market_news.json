@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795804008.974,
-  "updated_at_et": "11-27 13:26 ET",
-  "updated_at_kst": "03:26 KST",
+  "updated_at_ts": 1795804112.86,
+  "updated_at_et": "11-27 13:28 ET",
+  "updated_at_kst": "03:28 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -908,6 +908,13 @@
     ],
     "NVDA": [
       {
+        "title": "Nvidia’s Key Man Problem",
+        "url": "https://www.fool.com/investing/2026/11/27/nvidias-key-man-problem/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:01 ET",
+        "pub_ts": 1795802462.0
+      },
+      {
         "title": "Stock Market Today: Dow, Nasdaq Pop In Post-Holiday Trade; Nvidia Falls, Sandisk Vaults Higher (Live Coverage)",
         "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow%2C.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -934,13 +941,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 12:30 ET",
         "pub_ts": 1795800640.0
-      },
-      {
-        "title": "Nvidia, CoreWeave Face New U.S. Restrictions on China AI Chip Access",
-        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-coreweave-face-u-restrictions-172327378.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 12:23 ET",
-        "pub_ts": 1795800207.0
       }
     ],
     "AMD": [
@@ -2395,6 +2395,20 @@
         "pub_ts": 1795792338.0
       },
       {
+        "title": "Micron CEO Expects Memory Shortages to Worsen in 2028, but TrendForce Sees Prices Falling",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63685667/micron-trendforce-memory-price-outlook?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:15 ET",
+        "pub_ts": 1795803306.0
+      },
+      {
+        "title": "AI Chip Stocks Roar Back -- Sandisk and Micron Lead the Rally",
+        "url": "https://finance.yahoo.com/technology/ai/articles/ai-chip-stocks-roar-back-180304210.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:03 ET",
+        "pub_ts": 1795802584.0
+      },
+      {
         "title": "Micron Faces New AI Memory Threat as Huawei Develops HBM Chip",
         "url": "https://finance.yahoo.com/technology/ai/articles/micron-faces-ai-memory-threat-171328560.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2407,20 +2421,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 12:05 ET",
         "pub_ts": 1795799135.0
-      },
-      {
-        "title": "Micron Stock Jumps Despite GF Securities Slashes DRAM Price Estimates",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/micron-stock-jumps-despite-gf-170306292.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 12:03 ET",
-        "pub_ts": 1795798986.0
-      },
-      {
-        "title": "Down 50%, is Micron stock a bargain buy or a value trap?",
-        "url": "https://www.thestreet.com/investing/stocks/micron-stock-down-50-bargain-or-value-trap?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 10:37 ET",
-        "pub_ts": 1795793820.0
       }
     ],
     "SKHY": [
@@ -2580,6 +2580,20 @@
         "pub_ts": 1795789800.0
       },
       {
+        "title": "SanDisk Surges 16% as Memory Stocks Extend Their Rebound: Can SNDK Stock Blast Through $100 Before 2026 Ends?",
+        "url": "https://247wallst.com/investing/2026/11/27/sandisk-surges-16-as-memory-stocks-extend-their-rebound-can-sndk-stock-blast-through-100-before-2026-ends/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:03 ET",
+        "pub_ts": 1795802585.0
+      },
+      {
+        "title": "AI Chip Stocks Roar Back -- Sandisk and Micron Lead the Rally",
+        "url": "https://finance.yahoo.com/technology/ai/articles/ai-chip-stocks-roar-back-180304210.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:03 ET",
+        "pub_ts": 1795802584.0
+      },
+      {
         "title": "Stock Market Today: Dow, Nasdaq Pop In Post-Holiday Trade; Nvidia Falls, Sandisk Vaults Higher (Live Coverage)",
         "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow%2C.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2592,20 +2606,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 12:31 ET",
         "pub_ts": 1795800677.0
-      },
-      {
-        "title": "Why Sandisk Investors Are Giving Thanks After Thanksgiving",
-        "url": "https://www.fool.com/investing/2026/11/27/why-sandisk-investors-are-giving-thanks-after-thanksgiving/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 11:48 ET",
-        "pub_ts": 1795798119.0
-      },
-      {
-        "title": "BC-Most Active Stocks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153017329.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 10:30 ET",
-        "pub_ts": 1795793417.0
       }
     ],
     "BTC-USD": [
@@ -2647,6 +2647,13 @@
     ],
     "CRWD": [
       {
+        "title": "CrowdStrike Stocks Climb 1.86% as $43.9 Billion Zscaler Deal Value Slips",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-stocks-climb-1-86-180326160.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:03 ET",
+        "pub_ts": 1795802606.0
+      },
+      {
         "title": "Zscaler (ZS) Could Be 2% Undervalued As CrowdStrike Deal Sets The Valuation Frame",
         "url": "https://finance.yahoo.com/markets/stocks/articles/zscaler-zs-could-2-undervalued-140901683.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2673,13 +2680,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 08:09 ET",
         "pub_ts": 1795784981.0
-      },
-      {
-        "title": "CrowdStrike (CRWD) Is a Trending Stock: Facts to Know Before Betting on It",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-crwd-trending-stock-facts-130004351.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 08:00 ET",
-        "pub_ts": 1795784404.0
       }
     ],
     "ORCL": [
@@ -3285,23 +3285,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795802530.5589027,
-    "SOXL": 1795802530.5589027,
-    "SPY": 1795802530.5589027,
-    "DIA": 1795802530.5589027,
-    "SOXX": 1795802530.5589027,
-    "QQQ": 1795802530.5589027,
-    "SMH": 1795802530.5589027,
-    "IWM": 1795802530.5589027,
-    "IGV": 1795802530.5589027,
-    "TLT": 1795802530.5589027,
-    "GLD": 1795802530.5589027,
-    "SQQQ": 1795802530.5589027,
-    "TSM": 1795802530.5589027,
-    "VIXY": 1795802530.5589027,
-    "SOXS": 1795802530.5589027,
-    "NVDA": 1795802530.5589027,
-    "AMD": 1795802530.5589027,
+    "KORU": 1795804112.8596241,
+    "SOXL": 1795804112.8596241,
+    "SPY": 1795804112.8596241,
+    "DIA": 1795804112.8596241,
+    "SOXX": 1795804112.8596241,
+    "QQQ": 1795804112.8596241,
+    "SMH": 1795804112.8596241,
+    "IWM": 1795804112.8596241,
+    "IGV": 1795804112.8596241,
+    "TLT": 1795804112.8596241,
+    "GLD": 1795804112.8596241,
+    "SQQQ": 1795804112.8596241,
+    "TSM": 1795804112.8596241,
+    "VIXY": 1795804112.8596241,
+    "SOXS": 1795804112.8596241,
+    "NVDA": 1795804112.8596241,
+    "AMD": 1795804112.8596241,
     "ASML": 1795802883.193928,
     "QCOM": 1795802883.193928,
     "AVGO": 1795802883.193928,
@@ -3340,14 +3340,14 @@
     "OKLO": 1795802986.7616377,
     "CEG": 1795802986.7616377,
     "FPS": 1795802986.7616377,
-    "MU": 1795802530.5589027,
-    "SKHY": 1795802530.5589027,
-    "WDC": 1795802530.5589027,
-    "STX": 1795802530.5589027,
-    "MSTR": 1795802530.5589027,
-    "SNDK": 1795802530.5589027,
+    "MU": 1795804112.8596241,
+    "SKHY": 1795804112.8596241,
+    "WDC": 1795804112.8596241,
+    "STX": 1795804112.8596241,
+    "MSTR": 1795804112.8596241,
+    "SNDK": 1795804112.8596241,
     "BTC-USD": 1795802883.193928,
-    "CRWD": 1795802530.5589027,
+    "CRWD": 1795804112.8596241,
     "ORCL": 1795802883.193928,
     "COIN": 1795802883.193928,
     "LLY": 1795802883.193928,
@@ -3364,7 +3364,7 @@
     "GLW": 1795802986.7616377,
     "ANT": 1795803087.929716,
     "XAUUSD": 1795803087.929716,
-    "KOSPI": 1795802530.5589027
+    "KOSPI": 1795804112.8596241
   },
   "opex_shield": {
     "date": "2026-11-27",
