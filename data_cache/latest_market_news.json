@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795802883.194,
-  "updated_at_et": "11-27 13:08 ET",
-  "updated_at_kst": "03:08 KST",
+  "updated_at_ts": 1795802986.762,
+  "updated_at_et": "11-27 13:09 ET",
+  "updated_at_kst": "03:09 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1780,18 +1780,18 @@
         "pub_ts": 1795791529.0
       },
       {
-        "title": "SpaceX stock rises after Musk pledges annual share giveaway for kids",
-        "url": "https://finance.yahoo.com/technology/article/spacex-stock-rises-after-musk-pledges-annual-share-giveaway-for-kids-140708762.html?.tsrc=rss",
+        "title": "ATEX Stock Jumps After SpaceX Reportedly Eyes 900 MHz Spectrum For Direct-To-Device Expansion; Alternative Target NN Climbs Double Digits",
+        "url": "https://stocktwits.com/news-articles/markets/equity/atex-stock-jumps-after-space-x-reportedly-eyes-900-m-hz-spectrum-for-direct-to-device-expansion-alternative-target-nn-climbs-double-digits/cNb6G6ER9VO?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 09:04 ET",
-        "pub_ts": 1795788295.0
+        "time": "11-27 12:52 ET",
+        "pub_ts": 1795801976.0
       },
       {
-        "title": "Tesla Rallies 5% Amid SpaceX Merger Speculation; Rivian and SpaceX Rise 3%: Is Tesla’s 439x P/E a Warning Sign?",
-        "url": "https://247wallst.com/investing/2026/11/27/tesla-rallies-5-amid-spacex-merger-speculation-rivian-and-spacex-rise-3-is-teslas-439x-p-e-a-warning-sign/?.tsrc=rss",
+        "title": "Here's Why SpaceX’s Starship Could Lift Linde’s Space Revenue up to 700%",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63684152/spacex-starship-linde-fueling-infrastructure?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 12:04 ET",
-        "pub_ts": 1795799056.0
+        "time": "11-27 12:46 ET",
+        "pub_ts": 1795801563.0
       }
     ],
     "ASTS": [
@@ -1907,6 +1907,13 @@
     ],
     "LUNR": [
       {
+        "title": "Intuitive Machines (LUNR) Joined NASA’s New Lunar Infrastructure Contractor Group",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/intuitive-machines-lunr-joined-nasa-171637431.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 12:16 ET",
+        "pub_ts": 1795799797.0
+      },
+      {
         "title": "Will Space Nuclear Power Milestone Change Intuitive Machines Stock Narrative",
         "url": "https://finance.yahoo.com/markets/stocks/articles/space-nuclear-power-milestone-change-161338450.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1933,13 +1940,6 @@
         "source": "Yahoo Finance",
         "time": "11-23 22:47 ET",
         "pub_ts": 1795492022.0
-      },
-      {
-        "title": "Intuitive Machines Advances Space Nuclear Systems to Enable Lunar Night Survival",
-        "url": "https://finance.yahoo.com/technology/articles/intuitive-machines-advances-space-nuclear-224800596.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-23 17:48 ET",
-        "pub_ts": 1795474080.0
       }
     ],
     "TSLA": [
@@ -2136,6 +2136,13 @@
         "pub_ts": 1795794312.0
       },
       {
+        "title": "BC-Most Active Stocks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153017329.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 10:30 ET",
+        "pub_ts": 1795793417.0
+      },
+      {
         "title": "How Much More Could You Lose In Intel Stock?",
         "url": "https://www.trefis.com/stock/intc/articles/629327/how-much-more-could-you-lose-in-intel-stock/2026-11-27?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2155,13 +2162,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 22:14 ET",
         "pub_ts": 1795749256.0
-      },
-      {
-        "title": "Nvidia Cut Its Intel Stake and Bought More SpaceX. Cathie Wood Is Buying Too. Why SPCX Stock Faces a Big Test on December 8.",
-        "url": "https://www.barchart.com/story/news/9022928/nvidia-cut-its-intel-stake-and-bought-more-spacex-cathie-wood-is-buying-too-why-spcx-stock-faces-a-big-test-on-december-8?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 14:30 ET",
-        "pub_ts": 1795721403.0
       }
     ],
     "VRT": [
@@ -2240,6 +2240,13 @@
     ],
     "DELL": [
       {
+        "title": "Stock Market Midday, Nov. 27: Tech Stocks Recover and Amazon Posts Black Friday Gains",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-midday-nov-27-tech-stocks-recover-and-amazon-posts-black-friday-gains/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 12:31 ET",
+        "pub_ts": 1795800677.0
+      },
+      {
         "title": "Dell Faces AI Server Shipment Halt as Nvidia Tightens Asia Restrictions",
         "url": "https://finance.yahoo.com/technology/ai/articles/dell-faces-ai-server-shipment-171229537.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2266,13 +2273,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 09:29 ET",
         "pub_ts": 1795789781.0
-      },
-      {
-        "title": "Dell, Super Micro Under Pressure as Nvidia Halts Shipments to 4 Asian Countries",
-        "url": "https://247wallst.com/investing/2026/11/27/dell-super-micro-under-pressure-as-nvidia-halts-shipments-to-4-asian-countries/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 07:22 ET",
-        "pub_ts": 1795782123.0
       }
     ],
     "OKLO": [
@@ -3321,25 +3321,25 @@
     "CRDO": 1795802883.193928,
     "COHR": 1795802883.193928,
     "MRVL": 1795802883.193928,
-    "LITE": 1795800366.4256585,
+    "LITE": 1795802986.7616377,
     "AAOI": 1795802883.193928,
-    "SPCX": 1795800366.4256585,
-    "ASTS": 1795800366.4256585,
-    "AXTI": 1795800366.4256585,
-    "NASA": 1795800366.4256585,
-    "LUNR": 1795800366.4256585,
-    "TSLA": 1795800366.4256585,
-    "AXP": 1795800366.4256585,
-    "RKLB": 1795800366.4256585,
-    "KO": 1795800366.4256585,
-    "FLY": 1795800366.4256585,
-    "INTC": 1795800366.4256585,
-    "VRT": 1795800366.4256585,
-    "HPE": 1795800366.4256585,
-    "DELL": 1795800366.4256585,
-    "OKLO": 1795800366.4256585,
-    "CEG": 1795800366.4256585,
-    "FPS": 1795800366.4256585,
+    "SPCX": 1795802986.7616377,
+    "ASTS": 1795802986.7616377,
+    "AXTI": 1795802986.7616377,
+    "NASA": 1795802986.7616377,
+    "LUNR": 1795802986.7616377,
+    "TSLA": 1795802986.7616377,
+    "AXP": 1795802986.7616377,
+    "RKLB": 1795802986.7616377,
+    "KO": 1795802986.7616377,
+    "FLY": 1795802986.7616377,
+    "INTC": 1795802986.7616377,
+    "VRT": 1795802986.7616377,
+    "HPE": 1795802986.7616377,
+    "DELL": 1795802986.7616377,
+    "OKLO": 1795802986.7616377,
+    "CEG": 1795802986.7616377,
+    "FPS": 1795802986.7616377,
     "MU": 1795802530.5589027,
     "SKHY": 1795802530.5589027,
     "WDC": 1795802530.5589027,
@@ -3352,16 +3352,16 @@
     "COIN": 1795802883.193928,
     "LLY": 1795802883.193928,
     "MRNA": 1795802883.193928,
-    "NKE": 1795800054.0423427,
-    "MCD": 1795800054.0423427,
-    "PEP": 1795800054.0423427,
+    "NKE": 1795802986.7616377,
+    "MCD": 1795802986.7616377,
+    "PEP": 1795802986.7616377,
     "XOM": 1795800366.4256585,
-    "JPM": 1795800054.0423427,
+    "JPM": 1795802986.7616377,
     "WMT": 1795800366.4256585,
-    "V": 1795800054.0423427,
+    "V": 1795802986.7616377,
     "CAT": 1795800366.4256585,
-    "FN": 1795800366.4256585,
-    "GLW": 1795800366.4256585,
+    "FN": 1795802986.7616377,
+    "GLW": 1795802986.7616377,
     "ANT": 1795800366.4256585,
     "XAUUSD": 1795800366.4256585,
     "KOSPI": 1795802530.5589027
