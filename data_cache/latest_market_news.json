@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795738190.562,
-  "updated_at_et": "11-26 19:09 ET",
-  "updated_at_kst": "09:09 KST",
+  "updated_at_ts": 1795738287.906,
+  "updated_at_et": "11-26 19:11 ET",
+  "updated_at_kst": "09:11 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -3200,8 +3200,8 @@
         "title": "Dow Jones Futures Rise; Look For This Bullish Market Signal On Black Friday",
         "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B-look.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 18:34 ET",
-        "pub_ts": 1795736045.0
+        "time": "11-26 18:51 ET",
+        "pub_ts": 1795737104.0
       },
       {
         "title": "Anthropic Stock (ANT) Forecast – Analysts See 60%+ Upside Despite Ongoing AI Trade Concerns",
@@ -3350,15 +3350,15 @@
     "NKE": 1795738190.5616636,
     "MCD": 1795738190.5616636,
     "PEP": 1795738190.5616636,
-    "XOM": 1795736709.3591413,
+    "XOM": 1795738287.905739,
     "JPM": 1795738190.5616636,
-    "WMT": 1795736709.3591413,
+    "WMT": 1795738287.905739,
     "V": 1795738190.5616636,
-    "CAT": 1795736709.3591413,
+    "CAT": 1795738287.905739,
     "FN": 1795737489.7372243,
     "GLW": 1795737489.7372243,
-    "ANT": 1795736709.3591413,
-    "XAUUSD": 1795736709.3591413,
+    "ANT": 1795738287.905739,
+    "XAUUSD": 1795738287.905739,
     "KOSPI": 1795737799.6258526
   },
   "opex_shield": {
