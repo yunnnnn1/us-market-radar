@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795791118.566,
-  "updated_at_et": "11-27 09:51 ET",
-  "updated_at_kst": "23:51 KST",
+  "updated_at_ts": 1795791221.554,
+  "updated_at_et": "11-27 09:53 ET",
+  "updated_at_kst": "23:53 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2681,39 +2681,39 @@
     ],
     "ORCL": [
       {
+        "title": "Privacy-Enhancing Computation Market to Reach $16.49 Billion by 2030 as Data Protection Demand Accelerates - Microsoft, IBM, Cisco, and Oracle Accelerate AI, FHE, and Cloud Security",
+        "url": "https://finance.yahoo.com/technology/ai/articles/privacy-enhancing-computation-market-reach-143600579.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:36 ET",
+        "pub_ts": 1795790160.0
+      },
+      {
+        "title": "Blockchain in Retail Global Market Report 2026 | Capitalize on 26.1% CAGR to $2.39 Billion by 2030 as IBM, SAP, Oracle, AWS and Walmart Scale BaaS, Traceability and Web3 Loyalty",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/blockchain-retail-global-market-report-143400087.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:34 ET",
+        "pub_ts": 1795790040.0
+      },
+      {
+        "title": "AI Powered Supply Chain Planning Software Market Report 2026 | Capitalize on 24.8% CAGR and $26.72B in Revenue by 2030 with Microsoft, Oracle, SAP and IBM",
+        "url": "https://finance.yahoo.com/technology/ai/articles/ai-powered-supply-chain-planning-143200996.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:32 ET",
+        "pub_ts": 1795789920.0
+      },
+      {
+        "title": "AI-Augmented MedTech Quality Management Systems Market to Reach $1.98 Billion by 2030 | Industry Analysis with Profiles of Oracle, Honeywell, IQVIA, Dassault Systemes, PTC and More",
+        "url": "https://finance.yahoo.com/healthcare/articles/ai-augmented-medtech-quality-management-142900128.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:29 ET",
+        "pub_ts": 1795789740.0
+      },
+      {
         "title": "Near-Equal ~$664B–$678B Backlogs: Why Oracle’s AI Concentration Risk Differs From Microsoft’s",
         "url": "https://247wallst.com/investing/2026/11/27/near-equal-664b-678b-backlogs-why-oracles-ai-concentration-risk-differs-from-microsofts/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-27 08:45 ET",
         "pub_ts": 1795787137.0
-      },
-      {
-        "title": "Advanced Micro Devices (AMD) After AI Data Center Wins Looks Cheap Or Already Priced In",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-amd-ai-130859777.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 08:08 ET",
-        "pub_ts": 1795784939.0
-      },
-      {
-        "title": "Market Chatter: Hackers Breach US Air Force Cloud Platform Powered by Microsoft, Amazon, Oracle, Alphabet",
-        "url": "https://finance.yahoo.com/technology/articles/market-chatter-hackers-breach-us-122132707.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 07:21 ET",
-        "pub_ts": 1795782092.0
-      },
-      {
-        "title": "Banks Are Dumping AI Debt: HSBC Sold Stargate Loans at a Roughly 15% Discount. Bad News for Oracle",
-        "url": "https://www.tikr.com/blog/banks-are-dumping-ai-debt-hsbc-sold-stargate-loans-at-a-roughly-15-discount-bad-news-for-oracle?ref=yahoofinance&tlnk=yf-261127-hc8wcvpf&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 07:19 ET",
-        "pub_ts": 1795781978.0
-      },
-      {
-        "title": "Michael Burry Shares Stark Warning About AI Boom, as Nvidia, Oracle and Meta Face Surging Debt Insurance Costs",
-        "url": "https://finance.yahoo.com/technology/ai/articles/michael-burry-shares-stark-warning-063128312.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 01:31 ET",
-        "pub_ts": 1795761088.0
       }
     ],
     "COIN": [
@@ -2755,6 +2755,13 @@
     ],
     "LLY": [
       {
+        "title": "Mental Health Clinical Trials - Global Strategic Business Report 2026: Capitalize on the $5.2 Billion Market with IQVIA, ICON, Eli Lilly, and COMPASS Pathways",
+        "url": "https://finance.yahoo.com/healthcare/articles/mental-health-clinical-trials-global-144200503.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 09:42 ET",
+        "pub_ts": 1795790520.0
+      },
+      {
         "title": "Prediction: Eli Lilly’s $92 Billion Revenue Outlook Could Be Just the Beginning",
         "url": "https://247wallst.com/investing/2026/11/27/prediction-eli-lillys-92-billion-revenue-outlook-could-be-just-the-beginning/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2781,13 +2788,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 11:43 ET",
         "pub_ts": 1795711384.0
-      },
-      {
-        "title": "Eli Lilly Is Now Worth 7 Novo Nordisks. Here’s How the Gap Got So Wide.",
-        "url": "https://www.fool.com/investing/2026/11/26/eli-lilly-is-now-worth-nearly-9-novo-nordisks-heres-how-the-gap-got-so-wide/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 11:40 ET",
-        "pub_ts": 1795711202.0
       }
     ],
     "MRNA": [
@@ -3343,12 +3343,12 @@
     "STX": 1795791118.5663345,
     "MSTR": 1795791118.5663345,
     "SNDK": 1795791118.5663345,
-    "BTC-USD": 1795789623.073774,
+    "BTC-USD": 1795791221.5539992,
     "CRWD": 1795791118.5663345,
-    "ORCL": 1795789623.073774,
-    "COIN": 1795789623.073774,
-    "LLY": 1795789623.073774,
-    "MRNA": 1795789623.073774,
+    "ORCL": 1795791221.5539992,
+    "COIN": 1795791221.5539992,
+    "LLY": 1795791221.5539992,
+    "MRNA": 1795791221.5539992,
     "NKE": 1795790698.963265,
     "MCD": 1795790698.963265,
     "PEP": 1795790698.963265,
