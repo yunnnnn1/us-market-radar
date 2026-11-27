@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795772070.557,
-  "updated_at_et": "11-27 04:34 ET",
-  "updated_at_kst": "18:34 KST",
+  "updated_at_ts": 1795772167.682,
+  "updated_at_et": "11-27 04:36 ET",
+  "updated_at_kst": "18:36 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -899,6 +899,13 @@
     ],
     "NVDA": [
       {
+        "title": "Nvidia, AI Fears Jolt Markets: Market Snapshot",
+        "url": "https://finance.yahoo.com/video/nvidia-ai-fears-jolt-markets-082748065.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 03:27 ET",
+        "pub_ts": 1795768068.0
+      },
+      {
         "title": "Michael Burry Shares Stark Warning About AI Boom, as Nvidia, Oracle and Meta Face Surging Debt Insurance Costs",
         "url": "https://finance.yahoo.com/technology/ai/articles/michael-burry-shares-stark-warning-063128312.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -913,25 +920,18 @@
         "pub_ts": 1795756449.0
       },
       {
-        "title": "Nvidia (NVDA) Stock Fair Value Falls After Analysts Reassess Leadership And Regulatory Risks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-stock-fair-value-042301514.html?.tsrc=rss",
+        "title": "A Palantir Co-Founder Bought $122 Million of the Stock on Nov. 20. Here's What I Think of Palantir Stock Now.",
+        "url": "https://www.fool.com/investing/2026/11/27/a-palantir-co-founder-bought-usd122-million-of-the-stock-on-nov-20-here-s-what-i-think-of-palantir-stock-now/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 23:23 ET",
-        "pub_ts": 1795753381.0
+        "time": "11-27 04:07 ET",
+        "pub_ts": 1795770422.0
       },
       {
-        "title": "Singapore yet to confirm if Nvidia has halted advanced chip shipments- deputy PM",
-        "url": "https://finance.yahoo.com/technology/articles/singapore-yet-confirm-nvidia-halted-041419330.html?.tsrc=rss",
+        "title": "Berkshire Cut Chevron By About a Third This Year and Kept Occidental. What Does That Say About Oil Prices?",
+        "url": "https://www.fool.com/investing/2026/11/27/berkshire-cut-chevron-by-about-a-third-this-year-a/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-26 23:14 ET",
-        "pub_ts": 1795752859.0
-      },
-      {
-        "title": "Neoclouds Told To Choose: Nvidia Chips Or Chinese Customers",
-        "url": "https://finance.yahoo.com/technology/articles/neoclouds-told-choose-nvidia-chips-041120920.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 23:11 ET",
-        "pub_ts": 1795752680.0
+        "time": "11-27 03:50 ET",
+        "pub_ts": 1795769400.0
       }
     ],
     "AMD": [
@@ -3276,23 +3276,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795770608.6254616,
-    "SOXL": 1795770608.6254616,
-    "SPY": 1795770608.6254616,
-    "DIA": 1795770608.6254616,
-    "SOXX": 1795770608.6254616,
-    "QQQ": 1795770608.6254616,
-    "SMH": 1795770608.6254616,
-    "IWM": 1795770608.6254616,
-    "IGV": 1795770608.6254616,
-    "TLT": 1795770608.6254616,
-    "GLD": 1795770608.6254616,
-    "SQQQ": 1795770608.6254616,
-    "TSM": 1795770608.6254616,
-    "VIXY": 1795770608.6254616,
-    "SOXS": 1795770608.6254616,
-    "NVDA": 1795770608.6254616,
-    "AMD": 1795770608.6254616,
+    "KORU": 1795772167.6822307,
+    "SOXL": 1795772167.6822307,
+    "SPY": 1795772167.6822307,
+    "DIA": 1795772167.6822307,
+    "SOXX": 1795772167.6822307,
+    "QQQ": 1795772167.6822307,
+    "SMH": 1795772167.6822307,
+    "IWM": 1795772167.6822307,
+    "IGV": 1795772167.6822307,
+    "TLT": 1795772167.6822307,
+    "GLD": 1795772167.6822307,
+    "SQQQ": 1795772167.6822307,
+    "TSM": 1795772167.6822307,
+    "VIXY": 1795772167.6822307,
+    "SOXS": 1795772167.6822307,
+    "NVDA": 1795772167.6822307,
+    "AMD": 1795772167.6822307,
     "ASML": 1795770997.421523,
     "QCOM": 1795770997.421523,
     "AVGO": 1795770997.421523,
@@ -3335,14 +3335,14 @@
     "SKHY": 1795771875.4402685,
     "WDC": 1795771875.4402685,
     "STX": 1795771875.4402685,
-    "MSTR": 1795770608.6254616,
+    "MSTR": 1795772167.6822307,
     "SNDK": 1795771875.4402685,
-    "BTC-USD": 1795770608.6254616,
-    "CRWD": 1795770608.6254616,
-    "ORCL": 1795770608.6254616,
-    "COIN": 1795770608.6254616,
-    "LLY": 1795770608.6254616,
-    "MRNA": 1795770608.6254616,
+    "BTC-USD": 1795772167.6822307,
+    "CRWD": 1795772167.6822307,
+    "ORCL": 1795772167.6822307,
+    "COIN": 1795772167.6822307,
+    "LLY": 1795772167.6822307,
+    "MRNA": 1795772167.6822307,
     "NKE": 1795770997.421523,
     "MCD": 1795770997.421523,
     "PEP": 1795770997.421523,
@@ -3355,7 +3355,7 @@
     "GLW": 1795771875.4402685,
     "ANT": 1795771099.1533773,
     "XAUUSD": 1795771099.1533773,
-    "KOSPI": 1795770608.6254616
+    "KOSPI": 1795772167.6822307
   },
   "opex_shield": {
     "date": "2026-11-27",
