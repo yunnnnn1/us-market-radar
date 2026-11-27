@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795752115.113,
-  "updated_at_et": "11-26 23:01 ET",
-  "updated_at_kst": "13:01 KST",
+  "updated_at_ts": 1795752220.785,
+  "updated_at_et": "11-26 23:03 ET",
+  "updated_at_kst": "13:03 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1042,6 +1042,13 @@
     ],
     "AVGO": [
       {
+        "title": "Why Redburn Downgraded Broadcom (AVGO) Despite Surging AI Revenue",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-redburn-downgraded-broadcom-avgo-035057918.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 22:50 ET",
+        "pub_ts": 1795751457.0
+      },
+      {
         "title": "Broadcom (AVGO) Could Be the Biggest Winner From the Shift to Custom AI Chips",
         "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-could-biggest-winner-031533044.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1068,16 +1075,16 @@
         "source": "Yahoo Finance",
         "time": "11-26 09:03 ET",
         "pub_ts": 1795701821.0
-      },
-      {
-        "title": "Heading Into FY27: How to Trade Broadcom’s ~$115B AI Target Against Nvidia’s Multiple Reset",
-        "url": "https://247wallst.com/investing/2026/11/26/heading-into-fy27-how-to-trade-broadcoms-115b-ai-target-against-nvidias-multiple-reset/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 08:45 ET",
-        "pub_ts": 1795700733.0
       }
     ],
     "AMAT": [
+      {
+        "title": "Why Summit Insights Downgraded Applied Materials (AMAT) After Record Results",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-summit-insights-downgraded-applied-034833923.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 22:48 ET",
+        "pub_ts": 1795751313.0
+      },
       {
         "title": "Applied Materials Stocks Fall 3.89% as UBS Trims Target and China Curbs Loom",
         "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-stocks-fall-3-183452125.html?.tsrc=rss",
@@ -1105,13 +1112,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 19:53 ET",
         "pub_ts": 1795654402.0
-      },
-      {
-        "title": "Applied Materials (AMAT) Falls In Chip Selloff, Is It 44% Undervalued?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-falls-chip-003412379.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 19:34 ET",
-        "pub_ts": 1795653252.0
       }
     ],
     "META": [
@@ -1338,6 +1338,13 @@
     ],
     "AMZN": [
       {
+        "title": "Can Amazon (AMZN) Turn Its AWS Growth Outlook Into Cash?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-amzn-turn-aws-growth-035240906.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 22:52 ET",
+        "pub_ts": 1795751560.0
+      },
+      {
         "title": "Amazon tried to kill Musk’s plan for 1 million AI satellites. The FCC chair scolded it and gave SpaceX the green light",
         "url": "https://finance.yahoo.com/technology/ai/articles/amazon-tried-kill-musk-plan-233000718.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1364,13 +1371,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 12:42 ET",
         "pub_ts": 1795714948.0
-      },
-      {
-        "title": "Meta Platforms Stocks Jump 3.4% on Reported Amazon Talks Over Muse AI Agent",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-stocks-jump-3-172338883.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 12:23 ET",
-        "pub_ts": 1795713818.0
       }
     ],
     "CRWV": [
@@ -3288,27 +3288,27 @@
     "SOXS": 1795751907.4946942,
     "NVDA": 1795751907.4946942,
     "AMD": 1795751907.4946942,
-    "ASML": 1795750668.562241,
-    "QCOM": 1795750668.562241,
-    "AVGO": 1795750668.562241,
-    "AMAT": 1795750668.562241,
-    "META": 1795750668.562241,
-    "GOOGL": 1795750668.562241,
-    "MSFT": 1795750668.562241,
-    "AAPL": 1795750668.562241,
-    "PLTR": 1795750668.562241,
-    "NOW": 1795750668.562241,
-    "AMZN": 1795750668.562241,
-    "CRWV": 1795750668.562241,
-    "NBIS": 1795750668.562241,
-    "APLD": 1795750668.562241,
-    "VST": 1795750668.562241,
-    "BE": 1795750668.562241,
-    "CRDO": 1795750668.562241,
-    "COHR": 1795750668.562241,
-    "MRVL": 1795750668.562241,
+    "ASML": 1795752220.7853909,
+    "QCOM": 1795752220.7853909,
+    "AVGO": 1795752220.7853909,
+    "AMAT": 1795752220.7853909,
+    "META": 1795752220.7853909,
+    "GOOGL": 1795752220.7853909,
+    "MSFT": 1795752220.7853909,
+    "AAPL": 1795752220.7853909,
+    "PLTR": 1795752220.7853909,
+    "NOW": 1795752220.7853909,
+    "AMZN": 1795752220.7853909,
+    "CRWV": 1795752220.7853909,
+    "NBIS": 1795752220.7853909,
+    "APLD": 1795752220.7853909,
+    "VST": 1795752220.7853909,
+    "BE": 1795752220.7853909,
+    "CRDO": 1795752220.7853909,
+    "COHR": 1795752220.7853909,
+    "MRVL": 1795752220.7853909,
     "LITE": 1795751600.6089237,
-    "AAOI": 1795750668.562241,
+    "AAOI": 1795752220.7853909,
     "SPCX": 1795751600.6089237,
     "ASTS": 1795751600.6089237,
     "AXTI": 1795751600.6089237,
@@ -3338,13 +3338,13 @@
     "COIN": 1795751907.4946942,
     "LLY": 1795751907.4946942,
     "MRNA": 1795751907.4946942,
-    "NKE": 1795750668.562241,
-    "MCD": 1795750668.562241,
-    "PEP": 1795750668.562241,
+    "NKE": 1795752220.7853909,
+    "MCD": 1795752220.7853909,
+    "PEP": 1795752220.7853909,
     "XOM": 1795750770.8592343,
-    "JPM": 1795750668.562241,
+    "JPM": 1795752220.7853909,
     "WMT": 1795750770.8592343,
-    "V": 1795750668.562241,
+    "V": 1795752220.7853909,
     "CAT": 1795750770.8592343,
     "FN": 1795751600.6089237,
     "GLW": 1795751600.6089237,
