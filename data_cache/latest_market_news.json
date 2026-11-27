@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795765790.16,
-  "updated_at_et": "11-27 02:49 ET",
-  "updated_at_kst": "16:49 KST",
+  "updated_at_ts": 1795765887.761,
+  "updated_at_et": "11-27 02:51 ET",
+  "updated_at_kst": "16:51 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -890,6 +890,13 @@
     ],
     "NVDA": [
       {
+        "title": "Michael Burry Shares Stark Warning About AI Boom, as Nvidia, Oracle and Meta Face Surging Debt Insurance Costs",
+        "url": "https://finance.yahoo.com/technology/ai/articles/michael-burry-shares-stark-warning-063128312.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 01:31 ET",
+        "pub_ts": 1795761088.0
+      },
+      {
         "title": "Learn Why The Bull Case For Nvidia Stock Could Change Following CEO Reinstatement",
         "url": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-nvidia-051409281.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -916,13 +923,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 23:11 ET",
         "pub_ts": 1795752680.0
-      },
-      {
-        "title": "Nvidia Is Down 35% From Its All-Time High, Tied for Its Biggest Drop Since the AI Boom Began. Is It a Buy?",
-        "url": "https://www.fool.com/investing/2026/11/26/nvidia-is-down-35-from-its-all-time-high-tied-for-its-biggest-drop-since-the-ai-boom-began-is-it-a-buy/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 22:20 ET",
-        "pub_ts": 1795749602.0
       }
     ],
     "AMD": [
@@ -2666,6 +2666,13 @@
     ],
     "ORCL": [
       {
+        "title": "Michael Burry Shares Stark Warning About AI Boom, as Nvidia, Oracle and Meta Face Surging Debt Insurance Costs",
+        "url": "https://finance.yahoo.com/technology/ai/articles/michael-burry-shares-stark-warning-063128312.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 01:31 ET",
+        "pub_ts": 1795761088.0
+      },
+      {
         "title": "Wondering Why Oracle Fell? Here's What The Bears Saw",
         "url": "https://finance.yahoo.com/markets/stocks/articles/wondering-why-oracle-fell-heres-012625677.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2692,13 +2699,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 11:27 ET",
         "pub_ts": 1795710442.0
-      },
-      {
-        "title": "Brazil's Data Center Market: Strategic Investment Analysis and Growth Opportunities (2026-2031) with Profiles of Prominent Operators and Infrastructure Providers",
-        "url": "https://finance.yahoo.com/technology/articles/brazils-data-center-market-strategic-140400060.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 09:04 ET",
-        "pub_ts": 1795701840.0
       }
     ],
     "COIN": [
@@ -3267,23 +3267,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795764316.5271223,
-    "SOXL": 1795764316.5271223,
-    "SPY": 1795764316.5271223,
-    "DIA": 1795764316.5271223,
-    "SOXX": 1795764316.5271223,
-    "QQQ": 1795764316.5271223,
-    "SMH": 1795764316.5271223,
-    "IWM": 1795764316.5271223,
-    "IGV": 1795764316.5271223,
-    "TLT": 1795764316.5271223,
-    "GLD": 1795764316.5271223,
-    "SQQQ": 1795764316.5271223,
-    "TSM": 1795764316.5271223,
-    "VIXY": 1795764316.5271223,
-    "SOXS": 1795764316.5271223,
-    "NVDA": 1795764316.5271223,
-    "AMD": 1795764316.5271223,
+    "KORU": 1795765887.7609062,
+    "SOXL": 1795765887.7609062,
+    "SPY": 1795765887.7609062,
+    "DIA": 1795765887.7609062,
+    "SOXX": 1795765887.7609062,
+    "QQQ": 1795765887.7609062,
+    "SMH": 1795765887.7609062,
+    "IWM": 1795765887.7609062,
+    "IGV": 1795765887.7609062,
+    "TLT": 1795765887.7609062,
+    "GLD": 1795765887.7609062,
+    "SQQQ": 1795765887.7609062,
+    "TSM": 1795765887.7609062,
+    "VIXY": 1795765887.7609062,
+    "SOXS": 1795765887.7609062,
+    "NVDA": 1795765887.7609062,
+    "AMD": 1795765887.7609062,
     "ASML": 1795764706.0620148,
     "QCOM": 1795764706.0620148,
     "AVGO": 1795764706.0620148,
@@ -3326,14 +3326,14 @@
     "SKHY": 1795765595.0041926,
     "WDC": 1795765595.0041926,
     "STX": 1795765595.0041926,
-    "MSTR": 1795764316.5271223,
+    "MSTR": 1795765887.7609062,
     "SNDK": 1795765595.0041926,
-    "BTC-USD": 1795764316.5271223,
-    "CRWD": 1795764316.5271223,
-    "ORCL": 1795764316.5271223,
-    "COIN": 1795764316.5271223,
-    "LLY": 1795764316.5271223,
-    "MRNA": 1795764316.5271223,
+    "BTC-USD": 1795765887.7609062,
+    "CRWD": 1795765887.7609062,
+    "ORCL": 1795765887.7609062,
+    "COIN": 1795765887.7609062,
+    "LLY": 1795765887.7609062,
+    "MRNA": 1795765887.7609062,
     "NKE": 1795764706.0620148,
     "MCD": 1795764706.0620148,
     "PEP": 1795764706.0620148,
@@ -3346,7 +3346,7 @@
     "GLW": 1795765595.0041926,
     "ANT": 1795764803.1624863,
     "XAUUSD": 1795764803.1624863,
-    "KOSPI": 1795764316.5271223
+    "KOSPI": 1795765887.7609062
   },
   "opex_shield": {
     "date": "2026-11-27",
