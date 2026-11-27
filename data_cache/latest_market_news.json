@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795744308.22,
-  "updated_at_et": "11-26 20:51 ET",
-  "updated_at_kst": "10:51 KST",
+  "updated_at_ts": 1795744414.448,
+  "updated_at_et": "11-26 20:53 ET",
+  "updated_at_kst": "10:53 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1231,6 +1231,13 @@
     ],
     "AAPL": [
       {
+        "title": "Apple Enters the AI Agent Race as It Takes on OpenAI, Anthropic, and Meta. What That Means for AAPL Stock.",
+        "url": "https://www.barchart.com/story/news/9022924/apple-enters-the-ai-agent-race-as-it-takes-on-openai-anthropic-and-meta-what-that-means-for-aapl-stock?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 14:30 ET",
+        "pub_ts": 1795721403.0
+      },
+      {
         "title": "Apple Stocks Rise as AI Selloff Spares the iPhone Maker",
         "url": "https://finance.yahoo.com/markets/stocks/articles/apple-stocks-rise-ai-selloff-190038273.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1257,13 +1264,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 10:03 ET",
         "pub_ts": 1795705418.0
-      },
-      {
-        "title": "Is Apple Stock Outperforming the Nasdaq?",
-        "url": "https://www.barchart.com/story/news/9020084/is-apple-stock-outperforming-the-nasdaq?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 09:50 ET",
-        "pub_ts": 1795704607.0
       }
     ],
     "PLTR": [
@@ -1564,6 +1564,13 @@
     ],
     "CRDO": [
       {
+        "title": "Credo Technology Group Holding (CRDO) Could Be 50% Below Fair Value After Marvell Settlement",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/credo-technology-group-holding-crdo-012531407.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 20:25 ET",
+        "pub_ts": 1795742731.0
+      },
+      {
         "title": "Before Credo Reports, Watch Cash, Not Sales",
         "url": "https://www.trefis.com/stock/crdo/articles/629189/before-credo-reports-watch-cash-not-sales/2026-11-26?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1590,13 +1597,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 16:13 ET",
         "pub_ts": 1795641212.0
-      },
-      {
-        "title": "Credo Technology Crashed 27% Over a Month: This Wall Street Desk Now Expects 190% Returns",
-        "url": "https://247wallst.com/investing/2026/11/25/credo-technology-crashed-27-over-a-month-this-wall-street-desk-now-expects-190-returns/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 12:45 ET",
-        "pub_ts": 1795628759.0
       }
     ],
     "COHR": [
@@ -1638,6 +1638,13 @@
     ],
     "MRVL": [
       {
+        "title": "Credo Technology Group Holding (CRDO) Could Be 50% Below Fair Value After Marvell Settlement",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/credo-technology-group-holding-crdo-012531407.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-26 20:25 ET",
+        "pub_ts": 1795742731.0
+      },
+      {
         "title": "Is Marvell Technology, Inc. (MRVL) a Hidden AI Infrastructure Winner for 2027?",
         "url": "https://finance.yahoo.com/technology/ai/articles/marvell-technology-inc-mrvl-hidden-194807832.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1664,13 +1671,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 08:00 ET",
         "pub_ts": 1795698006.0
-      },
-      {
-        "title": "Lumentum Sinks 14% in a Week as AI Stocks Slide, but Its CEO Says “We Haven’t Seen Any Slowdown”",
-        "url": "https://www.tikr.com/blog/lumentum-sinks-14-in-a-week-as-ai-stocks-slide-but-its-ceo-says-we-havent-seen-any-slowdown?ref=yahoofinance&tlnk=yf-261126-mcfhw988&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 03:27 ET",
-        "pub_ts": 1795681663.0
       }
     ],
     "LITE": [
@@ -3292,27 +3292,27 @@
     "SOXS": 1795743997.6488526,
     "NVDA": 1795743997.6488526,
     "AMD": 1795743997.6488526,
-    "ASML": 1795742849.3743043,
-    "QCOM": 1795742849.3743043,
-    "AVGO": 1795742849.3743043,
-    "AMAT": 1795742849.3743043,
-    "META": 1795742849.3743043,
-    "GOOGL": 1795742849.3743043,
-    "MSFT": 1795742849.3743043,
-    "AAPL": 1795742849.3743043,
-    "PLTR": 1795742849.3743043,
-    "NOW": 1795742849.3743043,
-    "AMZN": 1795742849.3743043,
-    "CRWV": 1795742849.3743043,
-    "NBIS": 1795742849.3743043,
-    "APLD": 1795742849.3743043,
-    "VST": 1795742849.3743043,
-    "BE": 1795742849.3743043,
-    "CRDO": 1795742849.3743043,
-    "COHR": 1795742849.3743043,
-    "MRVL": 1795742849.3743043,
+    "ASML": 1795744414.447948,
+    "QCOM": 1795744414.447948,
+    "AVGO": 1795744414.447948,
+    "AMAT": 1795744414.447948,
+    "META": 1795744414.447948,
+    "GOOGL": 1795744414.447948,
+    "MSFT": 1795744414.447948,
+    "AAPL": 1795744414.447948,
+    "PLTR": 1795744414.447948,
+    "NOW": 1795744414.447948,
+    "AMZN": 1795744414.447948,
+    "CRWV": 1795744414.447948,
+    "NBIS": 1795744414.447948,
+    "APLD": 1795744414.447948,
+    "VST": 1795744414.447948,
+    "BE": 1795744414.447948,
+    "CRDO": 1795744414.447948,
+    "COHR": 1795744414.447948,
+    "MRVL": 1795744414.447948,
     "LITE": 1795743790.9986353,
-    "AAOI": 1795742849.3743043,
+    "AAOI": 1795744414.447948,
     "SPCX": 1795743790.9986353,
     "ASTS": 1795743790.9986353,
     "AXTI": 1795743790.9986353,
@@ -3342,13 +3342,13 @@
     "COIN": 1795743997.6488526,
     "LLY": 1795743997.6488526,
     "MRNA": 1795743997.6488526,
-    "NKE": 1795742849.3743043,
-    "MCD": 1795742849.3743043,
-    "PEP": 1795742849.3743043,
+    "NKE": 1795744414.447948,
+    "MCD": 1795744414.447948,
+    "PEP": 1795744414.447948,
     "XOM": 1795742955.2285857,
-    "JPM": 1795742849.3743043,
+    "JPM": 1795744414.447948,
     "WMT": 1795742955.2285857,
-    "V": 1795742849.3743043,
+    "V": 1795744414.447948,
     "CAT": 1795742955.2285857,
     "FN": 1795743790.9986353,
     "GLW": 1795743790.9986353,
