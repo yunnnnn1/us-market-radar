@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795827324.239,
-  "updated_at_et": "11-27 19:55 ET",
-  "updated_at_kst": "09:55 KST",
+  "updated_at_ts": 1795827426.577,
+  "updated_at_et": "11-27 19:57 ET",
+  "updated_at_kst": "09:57 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1251,6 +1251,20 @@
         "pub_ts": 1795786884.0
       },
       {
+        "title": "2027 smartphone market outlook: Apple to outperform as shipments fall 5%",
+        "url": "https://finance.yahoo.com/technology/articles/2027-smartphone-market-outlook-apple-003322633.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 19:33 ET",
+        "pub_ts": 1795826002.0
+      },
+      {
+        "title": "AI Chip Stocks Swung Wildly—While Warren Buffett’s Apple Climbed 26%",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ai-chip-stocks-swung-wildly-204129003.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 15:41 ET",
+        "pub_ts": 1795812089.0
+      },
+      {
         "title": "OpenAI Reportedly Fires Back At Apple Over Trade Secrets And Hardware Suppliers",
         "url": "https://stocktwits.com/news-articles/markets/equity/open-ai-reportedly-fires-back-at-apple-over-trade-secrets-and-hardware-suppliers/cNb65s2R9Vi?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1263,20 +1277,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 12:17 ET",
         "pub_ts": 1795799820.0
-      },
-      {
-        "title": "Apple Stock Isn’t Just an Anti-AI Haven. It’s an All-Purpose Winner.",
-        "url": "https://finance.yahoo.com/m/253b5457-75bb-3a4e-9004-f3214100cc8d/apple-stock-isn%E2%80%99t-just-an.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 10:18 ET",
-        "pub_ts": 1795792680.0
-      },
-      {
-        "title": "PROPEL Center Names University of Arkansas at Pine Bluff Winner of the Future of XYZ HBCU Innovation Challenge at AfroTech",
-        "url": "https://finance.yahoo.com/small-business/articles/propel-center-names-university-arkansas-134300118.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 08:43 ET",
-        "pub_ts": 1795786980.0
       }
     ],
     "PLTR": [
@@ -2613,6 +2613,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "Veteran economist says Bitcoin holders have little to brag about this Thanksgiving",
+        "url": "https://www.thestreet.com/crypto/markets/veteran-economist-says-bitcoin-holders-have-little-to-brag-about-this-thanksgiving?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 19:30 ET",
+        "pub_ts": 1795825800.0
+      },
+      {
         "title": "Analyst flags December correction before January breakout",
         "url": "https://www.thestreet.com/crypto/markets/analyst-flags-december-correction-before-january-breakout?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2639,13 +2646,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 13:16 ET",
         "pub_ts": 1795803363.0
-      },
-      {
-        "title": "Coinbase CEO issues bullish Bitcoin prediction as inflation fears grow",
-        "url": "https://www.thestreet.com/crypto/markets/coinbase-ceo-issues-bullish-bitcoin-warning-as-inflation-fears-grow?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 13:14 ET",
-        "pub_ts": 1795803286.0
       }
     ],
     "CRWD": [
@@ -3305,27 +3305,27 @@
     "SOXS": 1795827123.9936748,
     "NVDA": 1795827123.9936748,
     "AMD": 1795827123.9936748,
-    "ASML": 1795825920.5667484,
-    "QCOM": 1795825920.5667484,
-    "AVGO": 1795825920.5667484,
-    "AMAT": 1795825920.5667484,
-    "META": 1795825920.5667484,
-    "GOOGL": 1795825920.5667484,
-    "MSFT": 1795825920.5667484,
-    "AAPL": 1795825920.5667484,
-    "PLTR": 1795825920.5667484,
-    "NOW": 1795825920.5667484,
-    "AMZN": 1795825920.5667484,
-    "CRWV": 1795825920.5667484,
-    "NBIS": 1795825920.5667484,
-    "APLD": 1795825920.5667484,
-    "VST": 1795825920.5667484,
-    "BE": 1795825920.5667484,
-    "CRDO": 1795825920.5667484,
-    "COHR": 1795825920.5667484,
-    "MRVL": 1795825920.5667484,
+    "ASML": 1795827426.577413,
+    "QCOM": 1795827426.577413,
+    "AVGO": 1795827426.577413,
+    "AMAT": 1795827426.577413,
+    "META": 1795827426.577413,
+    "GOOGL": 1795827426.577413,
+    "MSFT": 1795827426.577413,
+    "AAPL": 1795827426.577413,
+    "PLTR": 1795827426.577413,
+    "NOW": 1795827426.577413,
+    "AMZN": 1795827426.577413,
+    "CRWV": 1795827426.577413,
+    "NBIS": 1795827426.577413,
+    "APLD": 1795827426.577413,
+    "VST": 1795827426.577413,
+    "BE": 1795827426.577413,
+    "CRDO": 1795827426.577413,
+    "COHR": 1795827426.577413,
+    "MRVL": 1795827426.577413,
     "LITE": 1795826020.2069724,
-    "AAOI": 1795825920.5667484,
+    "AAOI": 1795827426.577413,
     "SPCX": 1795826020.2069724,
     "ASTS": 1795826020.2069724,
     "AXTI": 1795826020.2069724,
@@ -3349,12 +3349,12 @@
     "STX": 1795827123.9936748,
     "MSTR": 1795827123.9936748,
     "SNDK": 1795827123.9936748,
-    "BTC-USD": 1795825920.5667484,
+    "BTC-USD": 1795827426.577413,
     "CRWD": 1795827123.9936748,
-    "ORCL": 1795825920.5667484,
-    "COIN": 1795825920.5667484,
-    "LLY": 1795825920.5667484,
-    "MRNA": 1795825920.5667484,
+    "ORCL": 1795827426.577413,
+    "COIN": 1795827426.577413,
+    "LLY": 1795827426.577413,
+    "MRNA": 1795827426.577413,
     "NKE": 1795826020.2069724,
     "MCD": 1795826020.2069724,
     "PEP": 1795826020.2069724,
