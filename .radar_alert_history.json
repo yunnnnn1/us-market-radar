@@ -78,12 +78,12 @@
       "last_notified_at": 1795827036.3535094
     },
     "SPY": {
-      "state": "NORMAL",
-      "last_notified_at": 0.0
+      "state": "WATCHLIST_ENTRY_READY",
+      "last_notified_at": 1795827738.7190533
     },
     "DIA": {
       "state": "WATCHLIST_ENTRY_READY",
-      "last_notified_at": 1795826032.6273012
+      "last_notified_at": 1795827738.7190533
     },
     "IWM": {
       "state": "NORMAL",
@@ -151,7 +151,7 @@
     },
     "DELL": {
       "state": "STOP_LOSS",
-      "last_notified_at": 1795785999.093942
+      "last_notified_at": 1795827738.7190533
     },
     "BE": {
       "state": "STOP_LOSS",

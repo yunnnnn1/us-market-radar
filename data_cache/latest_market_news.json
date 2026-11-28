@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795827526.68,
-  "updated_at_et": "11-27 19:58 ET",
-  "updated_at_kst": "09:58 KST",
+  "updated_at_ts": 1795829397.198,
+  "updated_at_et": "11-27 20:29 ET",
+  "updated_at_kst": "10:29 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -911,6 +911,20 @@
     ],
     "NVDA": [
       {
+        "title": "3 Reasons I Might Buy More Nvidia in December",
+        "url": "https://www.fool.com/investing/2026/11/27/3-reasons-i-might-buy-more-nvidia-in-december/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 19:58 ET",
+        "pub_ts": 1795827530.0
+      },
+      {
+        "title": "Plot Twist: Nvidia’s Vera Rubin Gets 2-6.5x GB300’s Tokens per Dollar. Amazon’s Trainium Edge Was Against the Old Chip",
+        "url": "https://www.tikr.com/blog/plot-twist-nvidias-vera-rubin-gets-2-6-5x-gb300s-tokens-per-dollar-amazons-trainium-edge-was-against-the-old-chip?ref=yahoofinance&tlnk=yf-261127-2mxwqf36&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 18:23 ET",
+        "pub_ts": 1795821835.0
+      },
+      {
         "title": "Billionaire Chase Coleman’s Tiger Global Raised Its Cerebras Stake 48% to $790 Million",
         "url": "https://247wallst.com/investing/2026/11/27/billionaire-chase-colemans-tiger-global-raised-its-cerebras-stake-48-to-790-million/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -930,20 +944,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 15:41 ET",
         "pub_ts": 1795812089.0
-      },
-      {
-        "title": "Dow Jones Futures: Stock Market Makes Bullish Move, Tesla Leads 7 New Buys; Nvidia's Jensen Huang Heads To Capitol Hill",
-        "url": "https://finance.yahoo.com/m/5b917298-e5b5-3d87-b1fa-f7cad345af64/dow-jones-futures%3A-stock.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 14:54 ET",
-        "pub_ts": 1795809269.0
-      },
-      {
-        "title": "Should You Buy Nvidia Stock Before CEO Jensen Huang Testifies in Front of Congress on Dec. 1 and Dec. 3?",
-        "url": "https://www.fool.com/investing/2026/11/27/should-you-buy-nvidia-stock-before-ceo-jensen-huang-testifies-in-front-of-congress-on-dec-1-and-dec-3/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 14:48 ET",
-        "pub_ts": 1795808889.0
       }
     ],
     "AMD": [
@@ -985,6 +985,13 @@
     ],
     "ASML": [
       {
+        "title": "Dutch Trade Minister: “The US Is Not the Boss of Veldhoven.” That’s Good News for ASML’s China Sales",
+        "url": "https://www.tikr.com/blog/dutch-trade-minister-the-us-is-not-the-boss-of-veldhoven-thats-good-news-for-asmls-china-sales?ref=yahoofinance&tlnk=yf-261127-j78q9rgp&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 18:24 ET",
+        "pub_ts": 1795821898.0
+      },
+      {
         "title": "ASML Stocks Edge Higher 0.07% as Dutch Government Pushes Back on U.S. Export Curbs",
         "url": "https://finance.yahoo.com/markets/stocks/articles/asml-stocks-edge-higher-0-181452154.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1011,16 +1018,16 @@
         "source": "Yahoo Finance",
         "time": "11-26 04:54 ET",
         "pub_ts": 1795686860.0
-      },
-      {
-        "title": "ASML Sinks 7% in a Week: Dutch Lawmaker Warns the MATCH Act Is “Disastrous for ASML.” Time to Buy?",
-        "url": "https://www.tikr.com/blog/asml-sinks-7-in-a-week-dutch-lawmaker-warns-the-match-act-is-disastrous-for-asml-time-to-buy?ref=yahoofinance&tlnk=yf-261126-5mg6h437&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 03:28 ET",
-        "pub_ts": 1795681730.0
       }
     ],
     "QCOM": [
+      {
+        "title": "How Many Shares of Microchip or Qualcomm Pay $1,000 a Month in Dividends?",
+        "url": "https://www.tikr.com/blog/how-many-shares-of-microchip-or-qualcomm-pay-1000-a-month-in-dividends?ref=yahoofinancedividend&tlnk=yf-261127-84mggvf4&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 17:35 ET",
+        "pub_ts": 1795818920.0
+      },
       {
         "title": "Qualcomm Stocks Climb 4.18% After Tying CEO Award to $500 Share Price",
         "url": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-stocks-climb-4-18-181911724.html?.tsrc=rss",
@@ -1048,13 +1055,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 08:40 ET",
         "pub_ts": 1795786836.0
-      },
-      {
-        "title": "Does Qualcomm Stock Have A Future?",
-        "url": "https://www.trefis.com/stock/qcom/articles/629363/does-qualcomm-stock-have-a-future/2026-11-27?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 07:45 ET",
-        "pub_ts": 1795783529.0
       }
     ],
     "AVGO": [
@@ -1170,6 +1170,27 @@
     ],
     "GOOGL": [
       {
+        "title": "Plot Twist: Nvidia’s Vera Rubin Gets 2-6.5x GB300’s Tokens per Dollar. Amazon’s Trainium Edge Was Against the Old Chip",
+        "url": "https://www.tikr.com/blog/plot-twist-nvidias-vera-rubin-gets-2-6-5x-gb300s-tokens-per-dollar-amazons-trainium-edge-was-against-the-old-chip?ref=yahoofinance&tlnk=yf-261127-2mxwqf36&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 18:23 ET",
+        "pub_ts": 1795821835.0
+      },
+      {
+        "title": "Amazon Hits Its Lowest P/E Ever. Jim Cramer Predicts It Will “Prove to Be the Winner”",
+        "url": "https://www.tikr.com/blog/amazon-hits-its-lowest-p-e-ever-jim-cramer-predicts-it-will-prove-to-be-the-winner?ref=yahoofinance&tlnk=yf-261127-6f785p32&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 18:22 ET",
+        "pub_ts": 1795821761.0
+      },
+      {
+        "title": "Warning for Alphabet Investors: MScience Data Show Q4 Search Revenue Tracking Below Consensus",
+        "url": "https://www.tikr.com/blog/warning-for-alphabet-investors-mscience-data-show-q4-search-revenue-tracking-below-consensus?ref=yahoofinance&tlnk=yf-261127-64qqmx2j&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 18:21 ET",
+        "pub_ts": 1795821683.0
+      },
+      {
         "title": "5 Best Tech Stocks to Buy for 2027 According to Hedge Funds",
         "url": "https://finance.yahoo.com/markets/stocks/articles/5-best-tech-stocks-buy-030856400.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1182,30 +1203,16 @@
         "source": "Yahoo Finance",
         "time": "11-27 16:06 ET",
         "pub_ts": 1795813560.0
-      },
-      {
-        "title": "Alphabet Down Nearly 20%: What Would Its CEO Say?",
-        "url": "https://www.trefis.com/stock/googl/articles/629198/alphabet-down-nearly-20-what-would-its-ceo-say/2026-11-27?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 15:25 ET",
-        "pub_ts": 1795811113.0
-      },
-      {
-        "title": "Alphabet Stocks Move Lower as Record Credit Spreads Shadow AI Spending",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-move-lower-record-191839414.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 14:18 ET",
-        "pub_ts": 1795807119.0
-      },
-      {
-        "title": "Jim Cramer Is Still Bullish On These 5 Tech Stocks Despite AI Bear Market",
-        "url": "https://finance.yahoo.com/technology/articles/jim-cramer-still-bullish-5-184921596.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 13:49 ET",
-        "pub_ts": 1795805361.0
       }
     ],
     "MSFT": [
+      {
+        "title": "Vanguard's Growth ETF Has 3 Stocks Making Up More Than a Third of It. Only 1 Has Held Up in the Tech Sell-Off.",
+        "url": "https://www.fool.com/investing/2026/11/27/vanguard-s-growth-etf-has-3-stocks-making-up-more-than-a-third-of-it-only-1-has-held-up-in-the-tech-sell-off/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 20:09 ET",
+        "pub_ts": 1795828142.0
+      },
       {
         "title": "Microsoft Stocks Rise 0.26% as Code Red Targets One-Hour Outage Recovery",
         "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stocks-rise-0-26-182320294.html?.tsrc=rss",
@@ -1219,13 +1226,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 12:20 ET",
         "pub_ts": 1795800002.0
-      },
-      {
-        "title": "Why Is Microsoft (MSFT) Down 7.6% Since Last Earnings Report?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-microsoft-msft-down-7-153027471.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 10:30 ET",
-        "pub_ts": 1795793427.0
       },
       {
         "title": "IREN (NasdaqGS:IREN) Stock Sees Modest Fair Value Cut After AI Cloud Sentiment Swings",
@@ -1251,6 +1251,20 @@
         "pub_ts": 1795786884.0
       },
       {
+        "title": "Vanguard's Growth ETF Has 3 Stocks Making Up More Than a Third of It. Only 1 Has Held Up in the Tech Sell-Off.",
+        "url": "https://www.fool.com/investing/2026/11/27/vanguard-s-growth-etf-has-3-stocks-making-up-more-than-a-third-of-it-only-1-has-held-up-in-the-tech-sell-off/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 20:09 ET",
+        "pub_ts": 1795828142.0
+      },
+      {
+        "title": "OpenAI says a spy handed Apple secret plans for AI devices that could 'outcompete' the iPhone maker on its 'own turf'",
+        "url": "https://finance.yahoo.com/technology/ai/articles/openai-says-spy-handed-apple-010000370.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 20:00 ET",
+        "pub_ts": 1795827600.0
+      },
+      {
         "title": "2027 smartphone market outlook: Apple to outperform as shipments fall 5%",
         "url": "https://finance.yahoo.com/technology/articles/2027-smartphone-market-outlook-apple-003322633.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1263,20 +1277,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 15:41 ET",
         "pub_ts": 1795812089.0
-      },
-      {
-        "title": "OpenAI Reportedly Fires Back At Apple Over Trade Secrets And Hardware Suppliers",
-        "url": "https://stocktwits.com/news-articles/markets/equity/open-ai-reportedly-fires-back-at-apple-over-trade-secrets-and-hardware-suppliers/cNb65s2R9Vi?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 15:13 ET",
-        "pub_ts": 1795810433.0
-      },
-      {
-        "title": "New $799 smart glasses challenge Apple, but with a major catch",
-        "url": "https://www.thestreet.com/technology/new-orrorin-799-smart-glasses-challenge-apple-but-dont-offer-all-features?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 12:17 ET",
-        "pub_ts": 1795799820.0
       }
     ],
     "PLTR": [
@@ -1355,6 +1355,20 @@
     ],
     "AMZN": [
       {
+        "title": "Plot Twist: Nvidia’s Vera Rubin Gets 2-6.5x GB300’s Tokens per Dollar. Amazon’s Trainium Edge Was Against the Old Chip",
+        "url": "https://www.tikr.com/blog/plot-twist-nvidias-vera-rubin-gets-2-6-5x-gb300s-tokens-per-dollar-amazons-trainium-edge-was-against-the-old-chip?ref=yahoofinance&tlnk=yf-261127-2mxwqf36&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 18:23 ET",
+        "pub_ts": 1795821835.0
+      },
+      {
+        "title": "Amazon Hits Its Lowest P/E Ever. Jim Cramer Predicts It Will “Prove to Be the Winner”",
+        "url": "https://www.tikr.com/blog/amazon-hits-its-lowest-p-e-ever-jim-cramer-predicts-it-will-prove-to-be-the-winner?ref=yahoofinance&tlnk=yf-261127-6f785p32&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 18:22 ET",
+        "pub_ts": 1795821761.0
+      },
+      {
         "title": "Amazon, Target and Walmart Chase Holiday Toy Spending",
         "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-target-walmart-chase-holiday-195308961.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1374,20 +1388,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 14:09 ET",
         "pub_ts": 1795806548.0
-      },
-      {
-        "title": "Jeff Bezos makes a $200 million move involving Amazon stock",
-        "url": "https://www.thestreet.com/investing/jeff-bezos-amazon-stock-charitable-donation?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 14:03 ET",
-        "pub_ts": 1795806180.0
-      },
-      {
-        "title": "The Best 3 Stocks to Buy in December to Hold Into 2027",
-        "url": "https://www.fool.com/investing/2026/11/27/the-best-3-stocks-to-buy-in-december-to-hold-into-2027/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 12:57 ET",
-        "pub_ts": 1795802222.0
       }
     ],
     "CRWV": [
@@ -1776,11 +1776,11 @@
         "pub_ts": 1795803259.0
       },
       {
-        "title": "Nvidia halts sales to SE Asia, SpaceX surges on Musk's share promise",
-        "url": "https://finance.yahoo.com/video/nvidia-halts-sales-to-se-asia-spacex-surges-on-musks-share-promise-151001061.html?.tsrc=rss",
+        "title": "Texas Is Racing to Approve SpaceX’s $24 Billion Starbase Data Center Before Its New Governor Can Halt It",
+        "url": "https://www.tikr.com/blog/texas-is-racing-to-approve-spacexs-24-billion-starbase-data-center-before-its-new-governor-can-halt-it?ref=yahoofinance&tlnk=yf-261127-5cjgmqwx&.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 10:10 ET",
-        "pub_ts": 1795792201.0
+        "time": "11-27 18:20 ET",
+        "pub_ts": 1795821602.0
       },
       {
         "title": "SpaceX Stocks Climb 2.74% as FCC Clears One Million AI Satellites",
@@ -3288,86 +3288,86 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795827123.9936748,
-    "SOXL": 1795827123.9936748,
-    "SPY": 1795827123.9936748,
-    "DIA": 1795827123.9936748,
-    "SOXX": 1795827123.9936748,
-    "QQQ": 1795827123.9936748,
-    "SMH": 1795827123.9936748,
-    "IWM": 1795827123.9936748,
-    "IGV": 1795827123.9936748,
-    "TLT": 1795827123.9936748,
-    "GLD": 1795827123.9936748,
-    "SQQQ": 1795827123.9936748,
-    "TSM": 1795827123.9936748,
-    "VIXY": 1795827123.9936748,
-    "SOXS": 1795827123.9936748,
-    "NVDA": 1795827123.9936748,
-    "AMD": 1795827123.9936748,
-    "ASML": 1795827426.577413,
-    "QCOM": 1795827426.577413,
-    "AVGO": 1795827426.577413,
-    "AMAT": 1795827426.577413,
-    "META": 1795827426.577413,
-    "GOOGL": 1795827426.577413,
-    "MSFT": 1795827426.577413,
-    "AAPL": 1795827426.577413,
-    "PLTR": 1795827426.577413,
-    "NOW": 1795827426.577413,
-    "AMZN": 1795827426.577413,
-    "CRWV": 1795827426.577413,
-    "NBIS": 1795827426.577413,
-    "APLD": 1795827426.577413,
-    "VST": 1795827426.577413,
-    "BE": 1795827426.577413,
-    "CRDO": 1795827426.577413,
-    "COHR": 1795827426.577413,
-    "MRVL": 1795827426.577413,
-    "LITE": 1795827526.679842,
-    "AAOI": 1795827426.577413,
-    "SPCX": 1795827526.679842,
-    "ASTS": 1795827526.679842,
-    "AXTI": 1795827526.679842,
-    "NASA": 1795827526.679842,
-    "LUNR": 1795827526.679842,
-    "TSLA": 1795827526.679842,
-    "AXP": 1795827526.679842,
-    "RKLB": 1795827526.679842,
-    "KO": 1795827526.679842,
-    "FLY": 1795827526.679842,
-    "INTC": 1795827526.679842,
-    "VRT": 1795827526.679842,
-    "HPE": 1795827526.679842,
-    "DELL": 1795827526.679842,
-    "OKLO": 1795827526.679842,
-    "CEG": 1795827526.679842,
-    "FPS": 1795827526.679842,
-    "MU": 1795827123.9936748,
-    "SKHY": 1795827123.9936748,
-    "WDC": 1795827123.9936748,
-    "STX": 1795827123.9936748,
-    "MSTR": 1795827123.9936748,
-    "SNDK": 1795827123.9936748,
-    "BTC-USD": 1795827426.577413,
-    "CRWD": 1795827123.9936748,
-    "ORCL": 1795827426.577413,
-    "COIN": 1795827426.577413,
-    "LLY": 1795827426.577413,
-    "MRNA": 1795827426.577413,
-    "NKE": 1795827526.679842,
-    "MCD": 1795827526.679842,
-    "PEP": 1795827526.679842,
-    "XOM": 1795826321.81325,
-    "JPM": 1795827526.679842,
-    "WMT": 1795826321.81325,
-    "V": 1795827526.679842,
-    "CAT": 1795826321.81325,
-    "FN": 1795827526.679842,
-    "GLW": 1795827526.679842,
-    "ANT": 1795826321.81325,
-    "XAUUSD": 1795826321.81325,
-    "KOSPI": 1795827123.9936748
+    "KORU": 1795828713.0467691,
+    "SOXL": 1795828713.0467691,
+    "SPY": 1795828713.0467691,
+    "DIA": 1795828713.0467691,
+    "SOXX": 1795828713.0467691,
+    "QQQ": 1795828713.0467691,
+    "SMH": 1795828713.0467691,
+    "IWM": 1795828713.0467691,
+    "IGV": 1795828713.0467691,
+    "TLT": 1795828713.0467691,
+    "GLD": 1795828713.0467691,
+    "SQQQ": 1795828713.0467691,
+    "TSM": 1795828713.0467691,
+    "VIXY": 1795828713.0467691,
+    "SOXS": 1795828713.0467691,
+    "NVDA": 1795828713.0467691,
+    "AMD": 1795828713.0467691,
+    "ASML": 1795829007.5666313,
+    "QCOM": 1795829007.5666313,
+    "AVGO": 1795829007.5666313,
+    "AMAT": 1795829007.5666313,
+    "META": 1795829007.5666313,
+    "GOOGL": 1795829007.5666313,
+    "MSFT": 1795829007.5666313,
+    "AAPL": 1795829007.5666313,
+    "PLTR": 1795829007.5666313,
+    "NOW": 1795829007.5666313,
+    "AMZN": 1795829007.5666313,
+    "CRWV": 1795829007.5666313,
+    "NBIS": 1795829007.5666313,
+    "APLD": 1795829007.5666313,
+    "VST": 1795829007.5666313,
+    "BE": 1795829007.5666313,
+    "CRDO": 1795829007.5666313,
+    "COHR": 1795829007.5666313,
+    "MRVL": 1795829007.5666313,
+    "LITE": 1795829105.863578,
+    "AAOI": 1795829007.5666313,
+    "SPCX": 1795829105.863578,
+    "ASTS": 1795829105.863578,
+    "AXTI": 1795829105.863578,
+    "NASA": 1795829105.863578,
+    "LUNR": 1795829105.863578,
+    "TSLA": 1795829105.863578,
+    "AXP": 1795829105.863578,
+    "RKLB": 1795829105.863578,
+    "KO": 1795829105.863578,
+    "FLY": 1795829105.863578,
+    "INTC": 1795829105.863578,
+    "VRT": 1795829105.863578,
+    "HPE": 1795829105.863578,
+    "DELL": 1795829105.863578,
+    "OKLO": 1795829105.863578,
+    "CEG": 1795829105.863578,
+    "FPS": 1795829105.863578,
+    "MU": 1795828713.0467691,
+    "SKHY": 1795828713.0467691,
+    "WDC": 1795828713.0467691,
+    "STX": 1795828713.0467691,
+    "MSTR": 1795828713.0467691,
+    "SNDK": 1795828713.0467691,
+    "BTC-USD": 1795829007.5666313,
+    "CRWD": 1795828713.0467691,
+    "ORCL": 1795829007.5666313,
+    "COIN": 1795829007.5666313,
+    "LLY": 1795829007.5666313,
+    "MRNA": 1795829007.5666313,
+    "NKE": 1795829105.863578,
+    "MCD": 1795829105.863578,
+    "PEP": 1795829105.863578,
+    "XOM": 1795829397.1979666,
+    "JPM": 1795829105.863578,
+    "WMT": 1795829397.1979666,
+    "V": 1795829105.863578,
+    "CAT": 1795829397.1979666,
+    "FN": 1795829105.863578,
+    "GLW": 1795829105.863578,
+    "ANT": 1795829397.1979666,
+    "XAUUSD": 1795829397.1979666,
+    "KOSPI": 1795828713.0467691
   },
   "opex_shield": {
     "date": "2026-11-27",
