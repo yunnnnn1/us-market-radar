@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795826222.269,
-  "updated_at_et": "11-27 19:37 ET",
-  "updated_at_kst": "09:37 KST",
+  "updated_at_ts": 1795826321.813,
+  "updated_at_et": "11-27 19:38 ET",
+  "updated_at_kst": "09:38 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -2943,6 +2943,13 @@
     ],
     "XOM": [
       {
+        "title": "How Is ExxonMobil’s Stock Performance Compared to Other Oil & Gas Stocks",
+        "url": "https://www.barchart.com/story/news/9035874/how-is-exxonmobils-stock-performance-compared-to-other-oil-gas-stocks?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 13:09 ET",
+        "pub_ts": 1795802990.0
+      },
+      {
         "title": "XOM Boosts Angola Prospects With Kizomba Redevelopment & New Discovery",
         "url": "https://finance.yahoo.com/energy/articles/xom-boosts-angola-prospects-kizomba-171600732.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2969,13 +2976,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 10:41 ET",
         "pub_ts": 1795621316.0
-      },
-      {
-        "title": "Turn $100,000 Into Lifetime Paychecks With These “Forever” Passive Income Dividend Stocks",
-        "url": "https://247wallst.com/investing/2026/11/25/turn-100000-into-lifetime-paychecks-with-these-forever-passive-income-dividend-stocks/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 10:02 ET",
-        "pub_ts": 1795618961.0
       }
     ],
     "JPM": [
@@ -3024,6 +3024,13 @@
         "pub_ts": 1795794488.0
       },
       {
+        "title": "Walmart bets shoppers won't notice its holiday price increases",
+        "url": "https://www.thestreet.com/retail/walmart-quietly-cancels-thousands-of-discounts-as-the-holidays-approach?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 19:17 ET",
+        "pub_ts": 1795825020.0
+      },
+      {
         "title": "Amazon, Target and Walmart Chase Holiday Toy Spending",
         "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-target-walmart-chase-holiday-195308961.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3031,25 +3038,18 @@
         "pub_ts": 1795809188.0
       },
       {
+        "title": "Is Walmart Stock Outperforming the Dow?",
+        "url": "https://www.barchart.com/story/news/9035581/is-walmart-stock-outperforming-the-dow?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 12:42 ET",
+        "pub_ts": 1795801364.0
+      },
+      {
         "title": "Stock Market Midday, Nov. 27: Tech Stocks Recover and Amazon Posts Black Friday Gains",
         "url": "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-midday-nov-27-tech-stocks-recover-and-amazon-posts-black-friday-gains/?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-27 12:31 ET",
         "pub_ts": 1795800677.0
-      },
-      {
-        "title": "7 Highest Paying Retail Jobs for 2027",
-        "url": "https://moneylion.com/trending/money/highest-paying-retail-jobs-2027?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 12:00 ET",
-        "pub_ts": 1795798841.0
-      },
-      {
-        "title": "Walmart technical outlook amid Black Friday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-technical-outlook-amid-black-155256189.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 10:52 ET",
-        "pub_ts": 1795794776.0
       }
     ],
     "V": [
@@ -3202,6 +3202,13 @@
     ],
     "ANT": [
       {
+        "title": "Anthropic's Best Customers Spend 20 Times More Than the Rest. That's Why I'm Buying the Stock.",
+        "url": "https://www.fool.com/investing/2026/11/27/anthropic-s-best-customers-spend-20-times-more-than-the-rest-that-s-why-i-m-buying-the-stock/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 19:29 ET",
+        "pub_ts": 1795825742.0
+      },
+      {
         "title": "Anthropic Stocks Jump 8.49% Back Above IPO Price as ARK Keeps Buying",
         "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-stocks-jump-8-49-195111243.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -3228,13 +3235,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 13:39 ET",
         "pub_ts": 1795804742.0
-      },
-      {
-        "title": "The technology that keeps the whole internet safe might secretly have been broken",
-        "url": "https://www.independent.co.uk/tech/encryption-ai-safety-security-privacy-artificial-intelligence-b3092983.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 13:01 ET",
-        "pub_ts": 1795802466.0
       }
     ],
     "XAUUSD": [
@@ -3355,15 +3355,15 @@
     "NKE": 1795826020.2069724,
     "MCD": 1795826020.2069724,
     "PEP": 1795826020.2069724,
-    "XOM": 1795824817.4245508,
+    "XOM": 1795826321.81325,
     "JPM": 1795826020.2069724,
-    "WMT": 1795824817.4245508,
+    "WMT": 1795826321.81325,
     "V": 1795826020.2069724,
-    "CAT": 1795824817.4245508,
+    "CAT": 1795826321.81325,
     "FN": 1795826020.2069724,
     "GLW": 1795826020.2069724,
-    "ANT": 1795824817.4245508,
-    "XAUUSD": 1795824817.4245508,
+    "ANT": 1795826321.81325,
+    "XAUUSD": 1795826321.81325,
     "KOSPI": 1795825620.669801
   },
   "opex_shield": {
