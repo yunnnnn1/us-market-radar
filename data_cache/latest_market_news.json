@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795825518.345,
-  "updated_at_et": "11-27 19:25 ET",
-  "updated_at_kst": "09:25 KST",
+  "updated_at_ts": 1795825620.67,
+  "updated_at_et": "11-27 19:27 ET",
+  "updated_at_kst": "09:27 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -478,18 +478,18 @@
         "pub_ts": 1795086273.0
       },
       {
-        "title": "Spdr Dow Jones (DIA) Sells Goldman Sachs and Caterpillar on Nov. 16",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-dow-jones-dia-sells-110421013.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-18 06:04 ET",
-        "pub_ts": 1794999861.0
-      },
-      {
         "title": "American Express (AXP) Could Be 30% Undervalued As Trust Questions Meet ETF Outflows",
         "url": "https://finance.yahoo.com/markets/stocks/articles/american-express-axp-could-30-151150319.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-20 10:11 ET",
         "pub_ts": 1795187510.0
+      },
+      {
+        "title": "S&P 500, Nasdaq End Best Week In Over A Year As AI Optimism Makes Comeback — VZ, ANT, ADBE, TSLA In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-best-week-in-over-a-year-as-ai-optimism-makes-comeback/cNb6EtcR9VK?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 16:29 ET",
+        "pub_ts": 1795814986.0
       },
       {
         "title": "Pre-Markets Up Ahead of Shortened Trading Session",
@@ -908,6 +908,13 @@
     ],
     "NVDA": [
       {
+        "title": "Billionaire Chase Coleman’s Tiger Global Raised Its Cerebras Stake 48% to $790 Million",
+        "url": "https://247wallst.com/investing/2026/11/27/billionaire-chase-colemans-tiger-global-raised-its-cerebras-stake-48-to-790-million/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 16:37 ET",
+        "pub_ts": 1795815477.0
+      },
+      {
         "title": "Dow Jones Futures: Stock Market Makes Bullish Move, Tesla Leads 7 New Buys; Nvidia's Jensen Huang Heads To Capitol Hill",
         "url": "https://finance.yahoo.com/m/5b917298-e5b5-3d87-b1fa-f7cad345af64/dow-jones-futures%3A-stock.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -934,13 +941,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 14:10 ET",
         "pub_ts": 1795806643.0
-      },
-      {
-        "title": "'Big Short' Investor Michael Burry Thinks This Chinese Stock Is Worth About 60% More Than Its Price. Should You Buy?",
-        "url": "https://www.fool.com/investing/2026/11/27/big-short-investor-michael-burry-thinks-this-chinese-stock-is-worth-about-60-more-than-its-price-should-you-buy/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 13:53 ET",
-        "pub_ts": 1795805583.0
       }
     ],
     "AMD": [
@@ -2425,6 +2425,13 @@
     ],
     "SKHY": [
       {
+        "title": "This Beaten-Down AI Stock Looks Dirt Cheap at 4 Times Earnings With 130% Upside",
+        "url": "https://www.barchart.com/story/news/9034648/this-beaten-down-ai-stock-looks-dirt-cheap-at-4-times-earnings-with-130-upside?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 11:30 ET",
+        "pub_ts": 1795797004.0
+      },
+      {
         "title": "SanDisk Jumps 10% as Investors Return to Beaten-Down Memory Stocks; Micron and SK Hynix Rise 6% Despite TrendForce DRAM Warning",
         "url": "https://247wallst.com/investing/2026/11/27/sandisk-jumps-10-as-investors-return-to-beaten-down-memory-stocks-micron-and-sk-hynix-rise-6-despite-trendforce-dram-warning/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2451,13 +2458,6 @@
         "source": "Yahoo Finance",
         "time": "11-26 14:11 ET",
         "pub_ts": 1795720280.0
-      },
-      {
-        "title": "SK Hynix Just Revealed the Next Generation of DRAM. Can It Beat Micron in the Next Memory Supercycle?",
-        "url": "https://247wallst.com/investing/2026/11/26/sk-hynix-just-revealed-the-next-generation-of-dram-can-it-beat-micron-in-the-next-memory-supercycle/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 11:44 ET",
-        "pub_ts": 1795711465.0
       }
     ],
     "WDC": [
@@ -3285,23 +3285,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795824112.8339942,
-    "SOXL": 1795824112.8339942,
-    "SPY": 1795824112.8339942,
-    "DIA": 1795824112.8339942,
-    "SOXX": 1795824112.8339942,
-    "QQQ": 1795824112.8339942,
-    "SMH": 1795824112.8339942,
-    "IWM": 1795824112.8339942,
-    "IGV": 1795824112.8339942,
-    "TLT": 1795824112.8339942,
-    "GLD": 1795824112.8339942,
-    "SQQQ": 1795824112.8339942,
-    "TSM": 1795824112.8339942,
-    "VIXY": 1795824112.8339942,
-    "SOXS": 1795824112.8339942,
-    "NVDA": 1795824112.8339942,
-    "AMD": 1795824112.8339942,
+    "KORU": 1795825620.669801,
+    "SOXL": 1795825620.669801,
+    "SPY": 1795825620.669801,
+    "DIA": 1795825620.669801,
+    "SOXX": 1795825620.669801,
+    "QQQ": 1795825620.669801,
+    "SMH": 1795825620.669801,
+    "IWM": 1795825620.669801,
+    "IGV": 1795825620.669801,
+    "TLT": 1795825620.669801,
+    "GLD": 1795825620.669801,
+    "SQQQ": 1795825620.669801,
+    "TSM": 1795825620.669801,
+    "VIXY": 1795825620.669801,
+    "SOXS": 1795825620.669801,
+    "NVDA": 1795825620.669801,
+    "AMD": 1795825620.669801,
     "ASML": 1795824415.3827739,
     "QCOM": 1795824415.3827739,
     "AVGO": 1795824415.3827739,
@@ -3340,14 +3340,14 @@
     "OKLO": 1795824515.9637775,
     "CEG": 1795824515.9637775,
     "FPS": 1795824515.9637775,
-    "MU": 1795824112.8339942,
-    "SKHY": 1795824112.8339942,
-    "WDC": 1795824112.8339942,
-    "STX": 1795824112.8339942,
-    "MSTR": 1795824112.8339942,
-    "SNDK": 1795824112.8339942,
+    "MU": 1795825620.669801,
+    "SKHY": 1795825620.669801,
+    "WDC": 1795825620.669801,
+    "STX": 1795825620.669801,
+    "MSTR": 1795825620.669801,
+    "SNDK": 1795825620.669801,
     "BTC-USD": 1795824415.3827739,
-    "CRWD": 1795824112.8339942,
+    "CRWD": 1795825620.669801,
     "ORCL": 1795824415.3827739,
     "COIN": 1795824415.3827739,
     "LLY": 1795824415.3827739,
@@ -3364,7 +3364,7 @@
     "GLW": 1795824515.9637775,
     "ANT": 1795824817.4245508,
     "XAUUSD": 1795824817.4245508,
-    "KOSPI": 1795824112.8339942
+    "KOSPI": 1795825620.669801
   },
   "opex_shield": {
     "date": "2026-11-27",
