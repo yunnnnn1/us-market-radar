@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>设计预览 A · 大图看盘</title>
+<style>
+__SHARED_CSS__
+</style>
+</head>
+<body data-layout="a">
+  <div class="banner">设计预览 A · 大图看盘 · 未连接行情 · 不能下单 · 数值来自仓库快照</div>
+  <header class="topbar">
+    <div class="brand">
+      <span class="pill">A</span>
+      <div>
+        <strong>大图看盘</strong>
+        <div class="brand-sub">宽图优先，细节放进右侧标签</div>
+      </div>
+    </div>
+    <nav id="stepper" aria-label="看盘路径"></nav>
+    <div class="top-side">
+      <div id="topMeta"></div>
+      <button id="btnCollapse" type="button">收起列表</button>
+    </div>
+  </header>
+  <div id="quoteHost" class="quote-strip"></div>
+  <div class="workspace">
+    <aside class="watch" id="watch">
+      <div class="watch-tools">
+        <input id="search" type="search" placeholder="搜索代码或名称" aria-label="搜索标的">
+        <div id="filters" class="segbar"></div>
+      </div>
+      <div id="watchList" class="watch-list"></div>
+    </aside>
+    <section class="stage">
+      <div class="chart-toolbar">
+        <div id="periods" class="segbar"></div>
+        <div id="indis" class="segbar"></div>
+        <div id="ohlcReadout" class="ohlc"></div>
+      </div>
+      <div class="chart-frame">
+        <canvas id="chart" aria-label="离线K线"></canvas>
+        <div id="chartEmpty" class="chart-empty" hidden></div>
+      </div>
+      <div id="chartNote" class="chart-note"></div>
+      <div id="keyline" class="keyline"></div>
+    </section>
+    <aside class="drawer" id="drawer">
+      <div id="tabs" class="tabs" role="tablist" aria-label="详情"></div>
+      <div class="drawer-body">
+        <section data-panel="essentials" id="essentialsHost"></section>
+        <section data-panel="market" id="marketHost"></section>
+        <section data-panel="sector" id="sectorHost"></section>
+        <section data-panel="ai" id="aiHost"></section>
+        <section data-panel="options" id="optionsHost"></section>
+        <section data-panel="tactics" id="tacticsHost"></section>
+      </div>
+    </aside>
+  </div>
+  <footer id="footnote" class="footnote"></footer>
+<script>
+__SHARED_JS__
+</script>
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>模型：分数与适用范围</title>
+<style>
+:root { color-scheme: dark; --bg:#0e1116; --card:#161b22; --line:#2c3442; --text:#e8eaed; --muted:#c5ced8; --accent:#9bb8e8; --up:#8fceaa; --down:#e09a9a; }
+* { box-sizing: border-box; }
+body { margin:0; font-family:"WenQuanYi Micro Hei","PingFang SC","Microsoft YaHei",sans-serif; font-size:16px; line-height:1.55; color:var(--text); background:var(--bg); }
+a { color: var(--accent); }
+.banner { background:#1a1814; color:#e6d7b8; padding:10px 20px; font-size:15px; }
+.sitenav { display:flex; flex-wrap:wrap; gap:8px; padding:10px 16px; background:#10141b; border-bottom:1px solid var(--line); }
+.sitenav a { color:var(--muted); text-decoration:none; border:1px solid var(--line); border-radius:999px; padding:6px 12px; }
+.sitenav a[aria-current="page"] { color:var(--text); background:#243044; border-color:#6e8ebc; }
+main { width:min(1100px, calc(100% - 32px)); margin:0 auto; padding:22px 0 48px; }
+h1 { font-size:28px; line-height:1.3; margin:0 0 8px; }
+.purpose { font-size:16px; color:var(--text); margin:0 0 14px; }
+.steps { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 18px; padding:0; list-style:none; }
+.steps li { background:#161b22; border:1px solid var(--line); border-radius:10px; padding:8px 12px; font-size:15px; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(240px,1fr)); gap:12px; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 16px; }
+.card h2 { font-size:18px; margin:0 0 8px; }
+.k { color:var(--muted); font-size:15px; }
+.num { font-variant-numeric: tabular-nums; }
+.up { color:var(--up); } .down { color:var(--down); }
+.wrap { overflow-x:auto; border:1px solid var(--line); border-radius:12px; }
+table { width:100%; border-collapse:collapse; font-size:15px; min-width:720px; }
+th, td { padding:10px 12px; text-align:left; border-bottom:1px solid var(--line); vertical-align:top; }
+th { position:sticky; top:0; background:#1c2430; font-weight:650; }
+tr:hover td { background:rgba(255,255,255,0.03); }
+.tools { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 12px; }
+input, button, select { font:inherit; color:inherit; background:#12161c; border:1px solid var(--line); border-radius:8px; padding:8px 10px; min-height:40px; }
+button.on { background:#243044; border-color:#6e8ebc; }
+.note { color:var(--muted); font-size:15px; }
+details { margin-top:14px; }
+summary { cursor:pointer; font-size:16px; }
+.page-links { display:grid; gap:12px; }
+.page-links a { display:block; text-decoration:none; color:inherit; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 16px; }
+.page-links strong { display:block; font-size:18px; margin-bottom:4px; }
+.hidden-col { display:none; }
+@media (max-width: 800px) { h1 { font-size:24px; } main { width:calc(100% - 20px); } }
+</style>
+</head>
+<body>
+<div class="banner">设计预览 · 未接入生产 · 不能下单 · 数字来自仓库快照，本页不连接行情</div>
+<nav class="sitenav" aria-label="预览页面"><a href="terminal.html">看盘：价格、走势、期权</a><a href="macro.html">宏观：大盘和板块</a><a href="stocks.html">个股：候选比较</a><a href="predict.html" aria-current="page">模型：分数与适用范围</a><a href="backtest.html">回测：历史表现与风险</a></nav>
+<main>
+
+<h1>模型分数与适用范围</h1>
+<p class="purpose">这页回答：分数说的是未来最多 5 个交易日的正股价格路径，不是期权会不会赚钱。下面不解释某一只股票今天为什么是这个分。</p>
+<ol class="steps">
+  <li>1. 先看分数适用什么、不适用什么。</li>
+  <li>2. 再看历史上过线之后，标签记为命中的比例和平均收益。</li>
+  <li>3. 最后看个别股票的原始分和规则调整后的分。点代码回到看盘页。</li>
+</ol>
+<div class="grid">
+  <section class="card"><h2>适用</h2><p>比较模型对正股路径的规则分。标签定义是：下一交易日开盘进场，最多看 5 个交易日。先碰到止盈轨记为命中；先碰到止损、同一天两边都碰到，或 5 日都没碰到，记为未命中。</p></section>
+  <section class="card"><h2>不适用</h2><p>不能当成 Call 或 Put 的已实现盈亏，也不能当成当日到期合约的胜率。分数没有按期权权利金校准。</p></section>
+  <section class="card"><h2>止盈和止损轨</h2><p>止盈至少是进场价的 3%，或 1.35 倍有效波动。止损至少是 2.2%，或 1 倍有效波动。最后 5 个交易日没有标签。</p></section>
+</div>
+<h2>历史样本里，过线之后发生了什么</h2>
+<p class="note">命中比例高、平均收益仍可能为负。快照 KPI 写的高信念数字是 22.2，和表里「≥ 60%」那一行的命中比例相同。这不是本页新算的。</p>
+<div class="wrap"><table>
+  <thead><tr><th>规则分阈值</th><th>触发次数</th><th>标签记为命中</th><th>平均实现收益</th><th>盈亏比</th></tr></thead>
+  <tbody><tr>
+          <td>&gt;= 55%</td>
+          <td class="num">18</td>
+          <td class="num">27.8%</td>
+          <td class="num down">-2.24%</td>
+          <td class="num">0.54</td>
+        </tr><tr>
+          <td>&gt;= 60%</td>
+          <td class="num">9</td>
+          <td class="num">22.2%</td>
+          <td class="num down">-3.22%</td>
+          <td class="num">0.40</td>
+        </tr><tr>
+          <td>&gt;= 65%</td>
+          <td class="num">5</td>
+          <td class="num">40.0%</td>
+          <td class="num down">-0.42%</td>
+          <td class="num">0.90</td>
+        </tr><tr>
+          <td>&gt;= 70%</td>
+          <td class="num">2</td>
+          <td class="num">0.0%</td>
+          <td class="num down">-7.00%</td>
+          <td class="num">0.00</td>
+        </tr><tr>
+          <td>全样本基准</td>
+          <td class="num">19978</td>
+          <td class="num">46.9%</td>
+          <td class="num up">0.25%</td>
+          <td class="num">1.11</td>
+        </tr></tbody>
+</table></div>
+<h2>规则调整后的做多分，从高到低看 12 只</h2>
+<p class="note">做多分 = 模型原始输出，加上结构加减，再乘赛道盈亏比，并加上 4 小时启发式调整。做空分还有期权比和宏观加减，并截断在 10 到 95。都不是实证校准过的期权胜率。</p>
+<div class="wrap"><table>
+  <thead><tr><th>代码</th><th>规则调整后的做多分</th><th>模型原始输出</th><th>结构加减后</th><th>规则调整后的做空分</th><th>快照动作原文</th></tr></thead>
+  <tbody><tr>
+            <td><a href="terminal.html?ticker=AVGO">AVGO</a> 博通</td>
+            <td class="num">51.0</td>
+            <td class="num">47.5</td>
+            <td class="num">55.8</td>
+            <td class="num">19.9</td>
+            <td>🚨 暴跌熔断·严禁左侧接刀</td>
+            </tr><tr>
+            <td><a href="terminal.html?ticker=CRWD">CRWD</a> CrowdStrike</td>
+            <td class="num">46.7</td>
+            <td class="num">46.6</td>
+            <td class="num">54.8</td>
+            <td class="num">24.7</td>
+            <td>🛡️ 暴雨空仓·严禁左侧接刀</td>
+            </tr><tr>
+            <td><a href="terminal.html?ticker=SNDK">SNDK</a> 闪迪</td>
+            <td class="num">46.6</td>
+            <td class="num">48.8</td>
+            <td class="num">50.0</td>
+            <td class="num">27.7</td>
+            <td>🚨 暴跌熔断·严禁左侧接刀</td>
+            </tr><tr>
+            <td><a href="terminal.html?ticker=QCOM">QCOM</a> 高通</td>
+            <td class="num">45.8</td>
+            <td class="num">45.4</td>
+            <td class="num">51.3</td>
+            <td class="num">27.8</td>
+            <td>🛡️ 暴雨空仓·严禁左侧接刀</td>
+            </tr><tr>
+            <td><a href="terminal.html?ticker=MRNA">MRNA</a> Moderna</td>
+            <td class="num">45.4</td>
+            <td class="num">46.1</td>
+            <td class="num">54.7</td>
+            <td class="num">24.4</td>
+            <td>🛡️ 暴雨空仓·严禁左侧接刀</td>
+            </tr><tr>
+            <td><a href="terminal.html?ticker=TLT">TLT</a> 20年+美债</td>
+            <td class="num">44.6</td>
+            <td class="num">43.8</td>
+            <td class="num">52.3</td>
+            <td class="num">22.4</td>
+            <td>🛡️ 暴雨空仓·严禁左侧接刀</td>
+            </tr><tr>
+            <td><a href="terminal.html?ticker=CEG">CEG</a> 星座能源</td>
+            <td class="num">43.8</td>
+            <td class="num">46.8</td>
+            <td class="num">52.7</td>
+            <td class="num">27.0</td>
+            <td>🚨 暴跌熔断·严禁左侧接刀</td>
+            </tr><tr>
+            <td><a href="terminal.html?ticker=QQQ">QQQ</a> 纳指100ETF</td>
+            <td class="num">43.8</td>
+            <td class="num">43.2</td>
+            <td class="num">49.1</td>
+            <td class="num">29.7</td>
+            <td>🛡️ 暴雨空仓·严禁左侧接刀</td>
+            </tr><tr>
+            <td><a href="terminal.html?ticker=MSFT">MSFT</a> 微软</td>
+            <td class="num">43.6</td>
+            <td class="num">42.7</td>
+            <td class="num">51.1</td>
+            <td class="num">22.9</td>
+            <td>🚨 暴跌熔断·严禁左侧接刀</td>
+            </tr><tr>
+            <td><a href="terminal.html?ticker=FLY">FLY</a> Firefly Aerospace</td>
+            <td class="num">43.5</td>
+            <td class="num">52.2</td>
+            <td class="num">58.0</td>
+            <td class="num">26.6</td>
+            <td>🚨 暴跌熔断·严禁左侧接刀</td>
+            </tr><tr>
+            <td><a href="terminal.html?ticker=IGV">IGV</a> 软件科技ETF</td>
+            <td class="num">42.6</td>
+            <td class="num">44.1</td>
+            <td class="num">49.9</td>
+            <td class="num">29.7</td>
+            <td>🛡️ 暴雨空仓·严禁左侧接刀</td>
+            </tr><tr>
+            <td><a href="terminal.html?ticker=AXP">AXP</a> 美国运通</td>
+            <td class="num">42.5</td>
+            <td class="num">42.6</td>
+            <td class="num">51.1</td>
+            <td class="num">23.0</td>
+            <td>🛡️ 暴雨空仓·严禁左侧接刀</td>
+            </tr></tbody>
+</table></div>
+<details>
+  <summary>这些价位和标签在源码里是怎么来的</summary>
+  <p>支撑和阻力把回撤、均线、20 日成交量分箱的估算峰值和期权行权价拼在一起。4 小时标签在没有 4 小时 K 线时，会退回日线规则，甚至用日线 RSI 乘 0.95 再加 2.5。所以它不是已核对的背离。</p>
+</details>
+
+</main>
+</body>
+</html>

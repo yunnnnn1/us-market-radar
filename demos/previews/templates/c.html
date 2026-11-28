@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>设计预览 C · 分区阅读</title>
+<style>
+__SHARED_CSS__
+</style>
+</head>
+<body data-layout="c">
+  <div class="banner">设计预览 C · 分区阅读 · 未连接行情 · 不能下单 · 数值来自仓库快照</div>
+  <header class="topbar">
+    <div class="brand">
+      <span class="pill">C</span>
+      <div>
+        <strong>分区阅读</strong>
+        <div class="brand-sub">先看市场，再读个股、AI 与期权</div>
+      </div>
+    </div>
+    <nav id="stepper" aria-label="看盘路径"></nav>
+    <div class="top-side">
+      <div id="topMeta"></div>
+      <select id="jump" aria-label="切换标的"></select>
+    </div>
+  </header>
+  <main class="sheet">
+    <section class="block" id="sec-market">
+      <h2><span class="idx">01</span>市场与标的</h2>
+      <div id="marketHost"></div>
+      <div class="watch-tools">
+        <input id="search" type="search" placeholder="搜索代码、名称或板块" aria-label="搜索标的">
+        <div id="filters" class="segbar"></div>
+      </div>
+      <div id="watchList" class="watch-list"></div>
+    </section>
+    <section class="block" id="sec-stock">
+      <h2><span class="idx">02</span>报价与离线 K 线</h2>
+      <div class="split">
+        <div>
+          <div class="chart-toolbar">
+            <div id="periods" class="segbar"></div>
+            <div id="indis" class="segbar"></div>
+            <div id="ohlcReadout" class="ohlc"></div>
+          </div>
+          <div class="chart-frame">
+            <canvas id="chart" aria-label="离线K线"></canvas>
+            <div id="chartEmpty" class="chart-empty" hidden></div>
+          </div>
+          <div id="chartNote" class="chart-note"></div>
+        </div>
+        <aside class="side-card" id="quoteHost"></aside>
+      </div>
+    </section>
+    <section class="block" id="sec-sector">
+      <h2><span class="idx">03</span>板块统计</h2>
+      <div id="sectorHost"></div>
+    </section>
+    <section class="block" id="sec-context">
+      <h2><span class="idx">04</span>市场原文</h2>
+      <div id="marketDetail"></div>
+    </section>
+    <section class="block" id="sec-ai">
+      <h2><span class="idx">05</span>AI 波段快照</h2>
+      <div id="aiHost"></div>
+    </section>
+    <section class="block" id="sec-options">
+      <h2><span class="idx">06</span>期权快照</h2>
+      <div id="optionsHost"></div>
+    </section>
+    <section class="block" id="sec-tactics">
+      <h2><span class="idx">07</span>参考价位</h2>
+      <div id="tacticsHost"></div>
+    </section>
+    <footer id="footnote" class="footnote"></footer>
+  </main>
+<script>
+__SHARED_JS__
+</script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>五页预览</title>
+<style>
+:root { color-scheme: dark; --bg:#0e1116; --card:#161b22; --line:#2c3442; --text:#e8eaed; --muted:#c5ced8; --accent:#9bb8e8; --up:#8fceaa; --down:#e09a9a; }
+* { box-sizing: border-box; }
+body { margin:0; font-family:"WenQuanYi Micro Hei","PingFang SC","Microsoft YaHei",sans-serif; font-size:16px; line-height:1.55; color:var(--text); background:var(--bg); }
+a { color: var(--accent); }
+.banner { background:#1a1814; color:#e6d7b8; padding:10px 20px; font-size:15px; }
+.sitenav { display:flex; flex-wrap:wrap; gap:8px; padding:10px 16px; background:#10141b; border-bottom:1px solid var(--line); }
+.sitenav a { color:var(--muted); text-decoration:none; border:1px solid var(--line); border-radius:999px; padding:6px 12px; }
+.sitenav a[aria-current="page"] { color:var(--text); background:#243044; border-color:#6e8ebc; }
+main { width:min(1100px, calc(100% - 32px)); margin:0 auto; padding:22px 0 48px; }
+h1 { font-size:28px; line-height:1.3; margin:0 0 8px; }
+.purpose { font-size:16px; color:var(--text); margin:0 0 14px; }
+.steps { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 18px; padding:0; list-style:none; }
+.steps li { background:#161b22; border:1px solid var(--line); border-radius:10px; padding:8px 12px; font-size:15px; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(240px,1fr)); gap:12px; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 16px; }
+.card h2 { font-size:18px; margin:0 0 8px; }
+.k { color:var(--muted); font-size:15px; }
+.num { font-variant-numeric: tabular-nums; }
+.up { color:var(--up); } .down { color:var(--down); }
+.wrap { overflow-x:auto; border:1px solid var(--line); border-radius:12px; }
+table { width:100%; border-collapse:collapse; font-size:15px; min-width:720px; }
+th, td { padding:10px 12px; text-align:left; border-bottom:1px solid var(--line); vertical-align:top; }
+th { position:sticky; top:0; background:#1c2430; font-weight:650; }
+tr:hover td { background:rgba(255,255,255,0.03); }
+.tools { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 12px; }
+input, button, select { font:inherit; color:inherit; background:#12161c; border:1px solid var(--line); border-radius:8px; padding:8px 10px; min-height:40px; }
+button.on { background:#243044; border-color:#6e8ebc; }
+.note { color:var(--muted); font-size:15px; }
+details { margin-top:14px; }
+summary { cursor:pointer; font-size:16px; }
+.page-links { display:grid; gap:12px; }
+.page-links a { display:block; text-decoration:none; color:inherit; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 16px; }
+.page-links strong { display:block; font-size:18px; margin-bottom:4px; }
+.hidden-col { display:none; }
+@media (max-width: 800px) { h1 { font-size:24px; } main { width:calc(100% - 20px); } }
+</style>
+</head>
+<body>
+<div class="banner">设计预览 · 未接入生产 · 不能下单 · 数字来自仓库快照，本页不连接行情</div>
+<nav class="sitenav" aria-label="预览页面"><a href="terminal.html">看盘：价格、走势、期权</a><a href="macro.html">宏观：大盘和板块</a><a href="stocks.html">个股：候选比较</a><a href="predict.html">模型：分数与适用范围</a><a href="backtest.html">回测：历史表现与风险</a></nav>
+<main>
+
+<h1>五页分别回答一个问题</h1>
+<p class="purpose">看盘页暂用三栏底稿，这个布局还没有选定。其余四页只负责把同一份快照读清楚。数据截至 2026-11-20 12:57:33 北京时间。</p>
+<div class="page-links"><a href="terminal.html"><strong>看盘</strong>这只股票的正股价格、日 K 和期权链各是什么？</a><a href="macro.html"><strong>宏观</strong>大盘和板块环境偏防守，还是还能往下看个股？</a><a href="stocks.html"><strong>个股</strong>哪些股票离生产页说的回撤带更近，价格和信号怎么比？</a><a href="predict.html"><strong>模型</strong>这个分数预测的是哪一段价格路径，不能当成什么？</a><a href="backtest.html"><strong>回测</strong>历史模拟的收益和回撤有多大，和买期权有什么关系？</a></div>
+
+</main>
+</body>
+</html>

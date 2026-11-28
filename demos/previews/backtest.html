@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>回测：历史表现与风险</title>
+<style>
+:root { color-scheme: dark; --bg:#0e1116; --card:#161b22; --line:#2c3442; --text:#e8eaed; --muted:#c5ced8; --accent:#9bb8e8; --up:#8fceaa; --down:#e09a9a; }
+* { box-sizing: border-box; }
+body { margin:0; font-family:"WenQuanYi Micro Hei","PingFang SC","Microsoft YaHei",sans-serif; font-size:16px; line-height:1.55; color:var(--text); background:var(--bg); }
+a { color: var(--accent); }
+.banner { background:#1a1814; color:#e6d7b8; padding:10px 20px; font-size:15px; }
+.sitenav { display:flex; flex-wrap:wrap; gap:8px; padding:10px 16px; background:#10141b; border-bottom:1px solid var(--line); }
+.sitenav a { color:var(--muted); text-decoration:none; border:1px solid var(--line); border-radius:999px; padding:6px 12px; }
+.sitenav a[aria-current="page"] { color:var(--text); background:#243044; border-color:#6e8ebc; }
+main { width:min(1100px, calc(100% - 32px)); margin:0 auto; padding:22px 0 48px; }
+h1 { font-size:28px; line-height:1.3; margin:0 0 8px; }
+.purpose { font-size:16px; color:var(--text); margin:0 0 14px; }
+.steps { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 18px; padding:0; list-style:none; }
+.steps li { background:#161b22; border:1px solid var(--line); border-radius:10px; padding:8px 12px; font-size:15px; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(240px,1fr)); gap:12px; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 16px; }
+.card h2 { font-size:18px; margin:0 0 8px; }
+.k { color:var(--muted); font-size:15px; }
+.num { font-variant-numeric: tabular-nums; }
+.up { color:var(--up); } .down { color:var(--down); }
+.wrap { overflow-x:auto; border:1px solid var(--line); border-radius:12px; }
+table { width:100%; border-collapse:collapse; font-size:15px; min-width:720px; }
+th, td { padding:10px 12px; text-align:left; border-bottom:1px solid var(--line); vertical-align:top; }
+th { position:sticky; top:0; background:#1c2430; font-weight:650; }
+tr:hover td { background:rgba(255,255,255,0.03); }
+.tools { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 12px; }
+input, button, select { font:inherit; color:inherit; background:#12161c; border:1px solid var(--line); border-radius:8px; padding:8px 10px; min-height:40px; }
+button.on { background:#243044; border-color:#6e8ebc; }
+.note { color:var(--muted); font-size:15px; }
+details { margin-top:14px; }
+summary { cursor:pointer; font-size:16px; }
+.page-links { display:grid; gap:12px; }
+.page-links a { display:block; text-decoration:none; color:inherit; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 16px; }
+.page-links strong { display:block; font-size:18px; margin-bottom:4px; }
+.hidden-col { display:none; }
+@media (max-width: 800px) { h1 { font-size:24px; } main { width:calc(100% - 20px); } }
+</style>
+</head>
+<body>
+<div class="banner">设计预览 · 未接入生产 · 不能下单 · 数字来自仓库快照，本页不连接行情</div>
+<nav class="sitenav" aria-label="预览页面"><a href="terminal.html">看盘：价格、走势、期权</a><a href="macro.html">宏观：大盘和板块</a><a href="stocks.html">个股：候选比较</a><a href="predict.html">模型：分数与适用范围</a><a href="backtest.html" aria-current="page">回测：历史表现与风险</a></nav>
+<main>
+
+<h1>历史表现与风险</h1>
+<p class="purpose">这页回答：已提交战报里，股票账户的历史模拟赚过多少、回撤多大。它不是期权买方的成绩，也不能保证以后。</p>
+<ol class="steps">
+  <li>1. 先看限制：区间、笔数、成本和它不是什么。</li>
+  <li>2. 再看三列对照。买入持有纳指的期末资产更高，回撤也更深。</li>
+  <li>3. 战报和引擎源码的滑点、仓位不一致，两边都照原样列出。</li>
+</ol>
+<div class="grid">
+  <section class="card"><h2>区间和样本</h2><p>战报区间 2021-10-29 至 2026-10-28，1,194 个交易日，本金 $100,000。纯股一列 84 笔，纳指增强一列 74 笔。</p></section>
+  <section class="card"><h2>成本按哪份文字</h2><p>战报写佣金 $0、滑点 1.5 个基点。引擎源码 <code>SLIPPAGE_RATE = 0.001</code>，按成交价的 0.1% 计。本页不把两套数字合成一个。</p></section>
+  <section class="card"><h2>和期权无关的仓位</h2><p>看盘程序写单股上限 25%，参考账户 $10,000。回测引擎写单笔 20% 资金、初始资金 $100,000。战报另写 25% 上限和 1.5% 账户风险。这些都是股票仓位，不是期权张数。</p></section>
+</div>
+<h2>战报对照表</h2>
+<p class="note">来源 <code>backtest_report_5y.md</code>。盈利笔数比例是模拟交易里赚钱的笔数占比，和模型页的规则分不是同一个数。</p>
+<div class="wrap"><table>
+  <thead><tr><th>项目</th><th>纯股模拟</th><th>纳指增强模拟</th><th>买入持有纳指</th></tr></thead>
+  <tbody><tr><td class='num'>期末资产</td><td class='num'>$130,441.41</td><td class='num'>$187,910.80</td><td class='num'>$216,696.43</td></tr><tr><td class='num'>净利润</td><td class='num'>+$30,441.41</td><td class='num'>+$87,910.80</td><td class='num'>+$116,696.43</td></tr><tr><td class='num'>年化收益</td><td class='num'>+5.77%</td><td class='num'>+14.24%</td><td class='num'>+17.73%</td></tr><tr><td class='num'>最大回撤</td><td class='num'>-11.31%</td><td class='num'>-19.03%</td><td class='num'>-29.56%</td></tr><tr><td class='num'>盈亏比</td><td class='num'>1.68</td><td class='num'>1.38</td><td class='num'>战报没有</td></tr><tr><td class='num'>盈利笔数比例</td><td class='num'>58.33%（84 笔）</td><td class='num'>55.41%（74 笔）</td><td class='num'>战报没有</td></tr><tr><td class='num'>夏普</td><td class='num'>0.36</td><td class='num'>0.73</td><td class='num'>0.68</td></tr><tr><td class='num'>卡尔玛</td><td class='num'>0.51</td><td class='num'>0.75</td><td class='num'>0.60</td></tr><tr><td class='num'>战报写的摩擦成本</td><td class='num'>$658.22</td><td class='num'>$2,190.24</td><td class='num'>$0.00</td></tr></tbody>
+</table></div>
+<details>
+  <summary>战报里的几笔股票交易摘录</summary>
+  <p>ASML 2025-12-22 至 2026-02-04，+30.90%。NVDA 2023-01-10 至 2023-02-15，+44.28%。这些是战报列出的股票价差，不是期权权利金收益。</p>
+</details>
+
+</main>
+</body>
+</html>
