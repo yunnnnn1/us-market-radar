@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795827023.874,
-  "updated_at_et": "11-27 19:50 ET",
-  "updated_at_kst": "09:50 KST",
+  "updated_at_ts": 1795827123.994,
+  "updated_at_et": "11-27 19:52 ET",
+  "updated_at_kst": "09:52 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -919,6 +919,20 @@
         "pub_ts": 1795815477.0
       },
       {
+        "title": "Nvidia chips on sale for $3M in China — as Jensen Huang scandal and US crackdown chokes supply",
+        "url": "https://nypost.com/2026/11/27/tech/chinese-ads-selling-banned-nvidia-servers-for-3m-as-jensen-huang-scandal-chokes-supply-market-is-crazy/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 16:18 ET",
+        "pub_ts": 1795814320.0
+      },
+      {
+        "title": "AI Chip Stocks Swung Wildly—While Warren Buffett’s Apple Climbed 26%",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ai-chip-stocks-swung-wildly-204129003.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 15:41 ET",
+        "pub_ts": 1795812089.0
+      },
+      {
         "title": "Dow Jones Futures: Stock Market Makes Bullish Move, Tesla Leads 7 New Buys; Nvidia's Jensen Huang Heads To Capitol Hill",
         "url": "https://finance.yahoo.com/m/5b917298-e5b5-3d87-b1fa-f7cad345af64/dow-jones-futures%3A-stock.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -931,20 +945,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 14:48 ET",
         "pub_ts": 1795808889.0
-      },
-      {
-        "title": "Sports Betting and the Way We Make Money",
-        "url": "https://www.fool.com/investing/2026/11/27/sports-betting-and-the-way-we-make-money/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 14:44 ET",
-        "pub_ts": 1795808663.0
-      },
-      {
-        "title": "Stock Market Today: Indexes Log Best Thanksgiving Week In 18 Years",
-        "url": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-indexes.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 14:10 ET",
-        "pub_ts": 1795806643.0
       }
     ],
     "AMD": [
@@ -2399,6 +2399,13 @@
         "pub_ts": 1795792338.0
       },
       {
+        "title": "A 60-Year-Old Who Bought 1,000 Micron Shares at $192 Just Watched Jim Cramer’s Investing Club Call It ‘Comically Cheap.’ Here’s What’s Left of His $1 Million Gain",
+        "url": "https://247wallst.com/investing/2026/11/27/a-60-year-old-who-bought-1000-micron-shares-at-192-just-watched-jim-cramers-investing-club-call-it-comically-cheap-heres-whats-left-of-his-1-million-gain/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 19:41 ET",
+        "pub_ts": 1795826460.0
+      },
+      {
         "title": "Micron CEO Expects Memory Shortages to Worsen in 2028, but TrendForce Sees Prices Falling",
         "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63685667/micron-trendforce-memory-price-outlook?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2418,13 +2425,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 12:13 ET",
         "pub_ts": 1795799608.0
-      },
-      {
-        "title": "Why Micron Investors Are Giving Thanks After Thanksgiving",
-        "url": "https://www.fool.com/investing/2026/11/27/why-micron-investors-are-giving-thanks-after-thanksgiving/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 12:05 ET",
-        "pub_ts": 1795799135.0
       }
     ],
     "SKHY": [
@@ -2540,6 +2540,13 @@
     ],
     "MSTR": [
       {
+        "title": "Market Swings Spooked Retail Traders—And Lifted CME Group Up 18%",
+        "url": "https://finance.yahoo.com/markets/options/articles/market-swings-spooked-retail-traders-204136574.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 15:41 ET",
+        "pub_ts": 1795812096.0
+      },
+      {
         "title": "Before the bell: Wall Street goes Black Friday shopping. Is Bitcoin on the list?",
         "url": "https://www.thestreet.com/crypto/markets/before-the-bell-wall-street-goes-black-friday-shopping-is-bitcoin-on-the-list?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2566,13 +2573,6 @@
         "source": "Yahoo Finance",
         "time": "11-25 18:34 ET",
         "pub_ts": 1795649689.0
-      },
-      {
-        "title": "Why Has Strategy Stock Trailed Dropbox?",
-        "url": "https://www.trefis.com/stock/mstr/articles/628944/why-has-strategy-stock-trailed-dropbox/2026-11-25?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-25 17:10 ET",
-        "pub_ts": 1795644642.0
       }
     ],
     "SNDK": [
@@ -3289,23 +3289,23 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795825620.669801,
-    "SOXL": 1795825620.669801,
-    "SPY": 1795825620.669801,
-    "DIA": 1795825620.669801,
-    "SOXX": 1795825620.669801,
-    "QQQ": 1795825620.669801,
-    "SMH": 1795825620.669801,
-    "IWM": 1795825620.669801,
-    "IGV": 1795825620.669801,
-    "TLT": 1795825620.669801,
-    "GLD": 1795825620.669801,
-    "SQQQ": 1795825620.669801,
-    "TSM": 1795825620.669801,
-    "VIXY": 1795825620.669801,
-    "SOXS": 1795825620.669801,
-    "NVDA": 1795825620.669801,
-    "AMD": 1795825620.669801,
+    "KORU": 1795827123.9936748,
+    "SOXL": 1795827123.9936748,
+    "SPY": 1795827123.9936748,
+    "DIA": 1795827123.9936748,
+    "SOXX": 1795827123.9936748,
+    "QQQ": 1795827123.9936748,
+    "SMH": 1795827123.9936748,
+    "IWM": 1795827123.9936748,
+    "IGV": 1795827123.9936748,
+    "TLT": 1795827123.9936748,
+    "GLD": 1795827123.9936748,
+    "SQQQ": 1795827123.9936748,
+    "TSM": 1795827123.9936748,
+    "VIXY": 1795827123.9936748,
+    "SOXS": 1795827123.9936748,
+    "NVDA": 1795827123.9936748,
+    "AMD": 1795827123.9936748,
     "ASML": 1795825920.5667484,
     "QCOM": 1795825920.5667484,
     "AVGO": 1795825920.5667484,
@@ -3344,14 +3344,14 @@
     "OKLO": 1795826020.2069724,
     "CEG": 1795826020.2069724,
     "FPS": 1795826020.2069724,
-    "MU": 1795825620.669801,
-    "SKHY": 1795825620.669801,
-    "WDC": 1795825620.669801,
-    "STX": 1795825620.669801,
-    "MSTR": 1795825620.669801,
-    "SNDK": 1795825620.669801,
+    "MU": 1795827123.9936748,
+    "SKHY": 1795827123.9936748,
+    "WDC": 1795827123.9936748,
+    "STX": 1795827123.9936748,
+    "MSTR": 1795827123.9936748,
+    "SNDK": 1795827123.9936748,
     "BTC-USD": 1795825920.5667484,
-    "CRWD": 1795825620.669801,
+    "CRWD": 1795827123.9936748,
     "ORCL": 1795825920.5667484,
     "COIN": 1795825920.5667484,
     "LLY": 1795825920.5667484,
@@ -3368,7 +3368,7 @@
     "GLW": 1795826020.2069724,
     "ANT": 1795826321.81325,
     "XAUUSD": 1795826321.81325,
-    "KOSPI": 1795825620.669801
+    "KOSPI": 1795827123.9936748
   },
   "opex_shield": {
     "date": "2026-11-27",
