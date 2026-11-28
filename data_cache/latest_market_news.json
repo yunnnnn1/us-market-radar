@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795824415.383,
-  "updated_at_et": "11-27 19:06 ET",
-  "updated_at_kst": "09:06 KST",
+  "updated_at_ts": 1795824515.964,
+  "updated_at_et": "11-27 19:08 ET",
+  "updated_at_kst": "09:08 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -1951,6 +1951,13 @@
         "pub_ts": 1795791529.0
       },
       {
+        "title": "S&P 500, Nasdaq End Best Week In Over A Year As AI Optimism Makes Comeback — VZ, ANT, ADBE, TSLA In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-best-week-in-over-a-year-as-ai-optimism-makes-comeback/cNb6EtcR9VK?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 16:29 ET",
+        "pub_ts": 1795814986.0
+      },
+      {
         "title": "TSLA Stock Clocks Best Week In 18 Months: Tesla Reportedly Eyes Buying German Toolmaker Amid Cybercab, Optimus Scaling Plans",
         "url": "https://stocktwits.com/news-articles/markets/equity/tsla-stock-clocks-best-week-in-18-months-tesla-reportedly-eyes-buying-german-toolmaker-amid-cybercab-optimus-scaling-plans/cNb6PBlR9VL?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1970,13 +1977,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 13:11 ET",
         "pub_ts": 1795803114.0
-      },
-      {
-        "title": "Sector Update: Consumer Stocks Advance Friday Afternoon",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-friday-171212418.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 12:12 ET",
-        "pub_ts": 1795799532.0
       }
     ],
     "AXP": [
@@ -2869,7 +2869,7 @@
     ],
     "MCD": [
       {
-        "title": "McDonald's new deals take aim at Chili's and convenience stores",
+        "title": "McDonald's makes key menu pricing changes",
         "url": "https://www.thestreet.com/restaurants/mcdonalds-adds-a-new-value-deal-and-gives-customers-something-for-free?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-27 11:07 ET",
@@ -3054,11 +3054,25 @@
     ],
     "V": [
       {
+        "title": "Billionaire Andreas Halvorsen’s Viking Opened an $818 Million Mastercard Stake While Cutting Its Visa Shares 32.6%",
+        "url": "https://247wallst.com/investing/2026/11/27/billionaire-andreas-halvorsens-viking-opened-an-818-million-mastercard-stake-while-cutting-its-visa-shares-32-6/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 16:59 ET",
+        "pub_ts": 1795816770.0
+      },
+      {
         "title": "What Is The One Risk Facing Visa Stock Now?",
         "url": "https://www.trefis.com/stock/v/articles/629359/what-is-the-one-risk-facing-visa-stock-now/2026-11-27?.tsrc=rss",
         "source": "Yahoo Finance",
         "time": "11-27 14:41 ET",
         "pub_ts": 1795808506.0
+      },
+      {
+        "title": "Visa Stock: Is V Outperforming the Financial Sector?",
+        "url": "https://www.barchart.com/story/news/9035667/visa-stock-is-v-outperforming-the-financial-sector?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 12:51 ET",
+        "pub_ts": 1795801865.0
       },
       {
         "title": "Can Holiday Bargain Hunting Boost Visa's Cross-Border Business?",
@@ -3073,20 +3087,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 07:09 ET",
         "pub_ts": 1795781379.0
-      },
-      {
-        "title": "Visa and NBX plan stablecoin-linked payment card",
-        "url": "https://www.electronicpaymentsinternational.com/news/visa-and-nbx-plan-stablecoin-linked-payment-card/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 01:45 ET",
-        "pub_ts": 1795761957.0
-      },
-      {
-        "title": "The Nasdaq Composite Is in a Correction, but These 3 Dividend Stocks Are Near 52-Week Highs. Here's Why They're Still Worth Buying Right Now.",
-        "url": "https://www.fool.com/investing/2026/11/26/the-nasdaq-composite-is-in-a-correction-but-these-3-dividend-stocks-are-near-52-week-highs-here-s-why-they-re-still-worth-buying-right-now/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-26 16:33 ET",
-        "pub_ts": 1795728782.0
       }
     ],
     "CAT": [
@@ -3321,25 +3321,25 @@
     "CRDO": 1795824415.3827739,
     "COHR": 1795824415.3827739,
     "MRVL": 1795824415.3827739,
-    "LITE": 1795822990.7638361,
+    "LITE": 1795824515.9637775,
     "AAOI": 1795824415.3827739,
-    "SPCX": 1795822990.7638361,
-    "ASTS": 1795822990.7638361,
-    "AXTI": 1795822990.7638361,
-    "NASA": 1795822990.7638361,
-    "LUNR": 1795822990.7638361,
-    "TSLA": 1795822990.7638361,
-    "AXP": 1795822990.7638361,
-    "RKLB": 1795822990.7638361,
-    "KO": 1795822990.7638361,
-    "FLY": 1795822990.7638361,
-    "INTC": 1795822990.7638361,
-    "VRT": 1795822990.7638361,
-    "HPE": 1795822990.7638361,
-    "DELL": 1795822990.7638361,
-    "OKLO": 1795822990.7638361,
-    "CEG": 1795822990.7638361,
-    "FPS": 1795822990.7638361,
+    "SPCX": 1795824515.9637775,
+    "ASTS": 1795824515.9637775,
+    "AXTI": 1795824515.9637775,
+    "NASA": 1795824515.9637775,
+    "LUNR": 1795824515.9637775,
+    "TSLA": 1795824515.9637775,
+    "AXP": 1795824515.9637775,
+    "RKLB": 1795824515.9637775,
+    "KO": 1795824515.9637775,
+    "FLY": 1795824515.9637775,
+    "INTC": 1795824515.9637775,
+    "VRT": 1795824515.9637775,
+    "HPE": 1795824515.9637775,
+    "DELL": 1795824515.9637775,
+    "OKLO": 1795824515.9637775,
+    "CEG": 1795824515.9637775,
+    "FPS": 1795824515.9637775,
     "MU": 1795824112.8339942,
     "SKHY": 1795824112.8339942,
     "WDC": 1795824112.8339942,
@@ -3352,16 +3352,16 @@
     "COIN": 1795824415.3827739,
     "LLY": 1795824415.3827739,
     "MRNA": 1795824415.3827739,
-    "NKE": 1795822990.7638361,
-    "MCD": 1795822990.7638361,
-    "PEP": 1795822990.7638361,
+    "NKE": 1795824515.9637775,
+    "MCD": 1795824515.9637775,
+    "PEP": 1795824515.9637775,
     "XOM": 1795823281.3526769,
-    "JPM": 1795822990.7638361,
+    "JPM": 1795824515.9637775,
     "WMT": 1795823281.3526769,
-    "V": 1795822990.7638361,
+    "V": 1795824515.9637775,
     "CAT": 1795823281.3526769,
-    "FN": 1795822990.7638361,
-    "GLW": 1795822990.7638361,
+    "FN": 1795824515.9637775,
+    "GLW": 1795824515.9637775,
     "ANT": 1795823281.3526769,
     "XAUUSD": 1795823281.3526769,
     "KOSPI": 1795824112.8339942
