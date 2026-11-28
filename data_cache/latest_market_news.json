@@ -1,7 +1,7 @@
 {
-  "updated_at_ts": 1795843776.04,
-  "updated_at_et": "11-28 00:29 ET",
-  "updated_at_kst": "14:29 KST",
+  "updated_at_ts": 1795845630.781,
+  "updated_at_et": "11-28 01:00 ET",
+  "updated_at_kst": "15:00 KST",
   "macro_calendar": [],
   "macro_flashes": [
     {
@@ -911,6 +911,13 @@
     ],
     "NVDA": [
       {
+        "title": "NVDA Stock Could Hit A Bottom Next Week As Jensen Huang Faces Congress, Says Analyst — 'I Would Buy It With Both Hands'",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nvda-stock-hit-bottom-jensen-haung-congress/cNRRYXMR9Vp?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-28 00:31 ET",
+        "pub_ts": 1795843914.0
+      },
+      {
         "title": "Michael Burry still sees 2 stocks worth betting against",
         "url": "https://www.thestreet.com/investing/michael-burry-palantir-metlife-puts?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -937,13 +944,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 20:09 ET",
         "pub_ts": 1795828142.0
-      },
-      {
-        "title": "3 Reasons I Might Buy More Nvidia in December",
-        "url": "https://www.fool.com/investing/2026/11/27/3-reasons-i-might-buy-more-nvidia-in-december/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 19:58 ET",
-        "pub_ts": 1795827530.0
       }
     ],
     "AMD": [
@@ -1244,13 +1244,6 @@
     ],
     "AAPL": [
       {
-        "title": "Apple gains smartphone share as memory crunch squeezes budget Android phones",
-        "url": "https://finance.yahoo.com/technology/article/apple-gains-smartphone-share-as-memory-crunch-squeezes-budget-android-phones-134124966.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 08:41 ET",
-        "pub_ts": 1795786884.0
-      },
-      {
         "title": "Apple Is Beating the Rest of the \"Magnificent Seven\" in 2026. Can It Do It Again in 2027?",
         "url": "https://www.fool.com/investing/2026/11/27/apple-is-beating-the-rest-of-the-magnificent-seven-in-2026-can-it-do-it-again-in-2027/?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1277,6 +1270,13 @@
         "source": "Yahoo Finance",
         "time": "11-27 19:33 ET",
         "pub_ts": 1795826002.0
+      },
+      {
+        "title": "AI Chip Stocks Swung Wildly—While Warren Buffett’s Apple Climbed 26%",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ai-chip-stocks-swung-wildly-204129003.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-27 15:41 ET",
+        "pub_ts": 1795812089.0
       }
     ],
     "PLTR": [
@@ -1954,6 +1954,13 @@
         "pub_ts": 1795791529.0
       },
       {
+        "title": "Tesla Stock And Other Tariff Protected Manufacturers Investors Are Watching",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-other-tariff-protected-051504941.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-28 00:15 ET",
+        "pub_ts": 1795842904.0
+      },
+      {
         "title": "Zero To Sixty: Tesla Cybercab Fleet Tops 1,000 In Texas, Lucid Starts Fully Driverless Tests And Chinese EV Maker Posts Stronger Margins",
         "url": "https://stocktwits.com/news-articles/markets/equity/zero-to-sixty-tesla-cybercab-fleet-tops-1-000-in-texas-lucid-starts-fully-driverless-tests-and-chinese-ev-maker-posts-stronger-margins/cNRRKv9R9Vl?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -1973,13 +1980,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 14:55 ET",
         "pub_ts": 1795809354.0
-      },
-      {
-        "title": "Dow Jones Futures: Stock Market Makes Bullish Move, Tesla Leads 7 New Buys; Nvidia's Jensen Huang Heads To Capitol Hill",
-        "url": "https://finance.yahoo.com/m/5b917298-e5b5-3d87-b1fa-f7cad345af64/dow-jones-futures%3A-stock.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 14:54 ET",
-        "pub_ts": 1795809269.0
       }
     ],
     "AXP": [
@@ -2613,6 +2613,13 @@
     ],
     "BTC-USD": [
       {
+        "title": "Coinbase CEO Brian Armstrong Scales Back Bitcoin Prediction, Still Sees Nearly 7x Upside By 2030",
+        "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/coinbase-ceo-brian-armstrong-scales-back-bitcoin-prediction-still-sees-nearly-7x-upside-by-2030/cNRRYbqR9Vo?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-28 00:18 ET",
+        "pub_ts": 1795843127.0
+      },
+      {
         "title": "Chamath Palihapitiya Warns AI’s ‘Alien Mathematics’ Could Break Bitcoin As AI Tackles 167-Year-Old Riemann Hypothesis",
         "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/chamath-palihapitiya-ai-alien-mathematics-bitcoin-riemann-hypothesis/cNRRnyYR9VN?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2627,13 +2634,6 @@
         "pub_ts": 1795825800.0
       },
       {
-        "title": "Bitcoin took Thanksgiving off, going 98 minutes without a block",
-        "url": "https://www.thestreet.com/crypto/markets/bitcoin-took-thanksgiving-off-going-98-minutes-without-a-block?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 19:00 ET",
-        "pub_ts": 1795824000.0
-      },
-      {
         "title": "Analyst flags December correction before January breakout",
         "url": "https://www.thestreet.com/crypto/markets/analyst-flags-december-correction-before-january-breakout?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2641,11 +2641,11 @@
         "pub_ts": 1795824000.0
       },
       {
-        "title": "4 Scary Bitcoin Charts That Suggest This Bear Market Is Different",
-        "url": "https://decrypt.co/384177/bitcoin-4-scary-charts-crypto-winter-bear-market?.tsrc=rss",
+        "title": "Bitcoin took Thanksgiving off, going 98 minutes without a block",
+        "url": "https://www.thestreet.com/crypto/markets/bitcoin-took-thanksgiving-off-going-98-minutes-without-a-block?.tsrc=rss",
         "source": "Yahoo Finance",
-        "time": "11-27 14:46 ET",
-        "pub_ts": 1795808762.0
+        "time": "11-27 19:00 ET",
+        "pub_ts": 1795824000.0
       }
     ],
     "CRWD": [
@@ -2724,6 +2724,13 @@
     ],
     "COIN": [
       {
+        "title": "Coinbase CEO Brian Armstrong Scales Back Bitcoin Prediction, Still Sees Nearly 7x Upside By 2030",
+        "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/coinbase-ceo-brian-armstrong-scales-back-bitcoin-prediction-still-sees-nearly-7x-upside-by-2030/cNRRYbqR9Vo?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "time": "11-28 00:18 ET",
+        "pub_ts": 1795843127.0
+      },
+      {
         "title": "Coinbase CEO issues bullish Bitcoin prediction as inflation fears grow",
         "url": "https://www.thestreet.com/crypto/markets/coinbase-ceo-issues-bullish-bitcoin-warning-as-inflation-fears-grow?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -2750,13 +2757,6 @@
         "source": "Yahoo Finance",
         "time": "11-27 10:57 ET",
         "pub_ts": 1795795020.0
-      },
-      {
-        "title": "Brian Armstrong Says Coinbase Uses AI to Scan Every Line of Code Amid Rising Cyber Threats: ‘Trust Matters More Now Than Ever’",
-        "url": "https://finance.yahoo.com/markets/crypto/articles/brian-armstrong-says-coinbase-uses-114505264.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "time": "11-27 06:45 ET",
-        "pub_ts": 1795779905.0
       }
     ],
     "LLY": [
@@ -3288,86 +3288,86 @@
     ]
   },
   "ticker_news_ts": {
-    "KORU": 1795843573.0586977,
-    "SOXL": 1795843573.0586977,
-    "SPY": 1795843573.0586977,
-    "DIA": 1795843573.0586977,
-    "SOXX": 1795843573.0586977,
-    "QQQ": 1795843573.0586977,
-    "SMH": 1795843573.0586977,
-    "IWM": 1795843573.0586977,
-    "IGV": 1795843573.0586977,
-    "TLT": 1795843573.0586977,
-    "GLD": 1795843573.0586977,
-    "SQQQ": 1795843573.0586977,
-    "TSM": 1795843573.0586977,
-    "VIXY": 1795843573.0586977,
-    "SOXS": 1795843573.0586977,
-    "NVDA": 1795843573.0586977,
-    "AMD": 1795843573.0586977,
-    "ASML": 1795842337.8315814,
-    "QCOM": 1795842337.8315814,
-    "AVGO": 1795842337.8315814,
-    "AMAT": 1795842337.8315814,
-    "META": 1795842337.8315814,
-    "GOOGL": 1795842337.8315814,
-    "MSFT": 1795842337.8315814,
-    "AAPL": 1795842337.8315814,
-    "PLTR": 1795842337.8315814,
-    "NOW": 1795842337.8315814,
-    "AMZN": 1795842337.8315814,
-    "CRWV": 1795842337.8315814,
-    "NBIS": 1795842337.8315814,
-    "APLD": 1795842337.8315814,
-    "VST": 1795842337.8315814,
-    "BE": 1795842337.8315814,
-    "CRDO": 1795842337.8315814,
-    "COHR": 1795842337.8315814,
-    "MRVL": 1795842337.8315814,
-    "LITE": 1795842439.903273,
-    "AAOI": 1795842337.8315814,
-    "SPCX": 1795842439.903273,
-    "ASTS": 1795842439.903273,
-    "AXTI": 1795842439.903273,
-    "NASA": 1795842439.903273,
-    "LUNR": 1795842439.903273,
-    "TSLA": 1795842439.903273,
-    "AXP": 1795842439.903273,
-    "RKLB": 1795842439.903273,
-    "KO": 1795842439.903273,
-    "FLY": 1795842439.903273,
-    "INTC": 1795842439.903273,
-    "VRT": 1795842439.903273,
-    "HPE": 1795842439.903273,
-    "DELL": 1795842439.903273,
-    "OKLO": 1795842439.903273,
-    "CEG": 1795842439.903273,
-    "FPS": 1795842439.903273,
-    "MU": 1795843573.0586977,
-    "SKHY": 1795843573.0586977,
-    "WDC": 1795843573.0586977,
-    "STX": 1795843573.0586977,
-    "MSTR": 1795843573.0586977,
-    "SNDK": 1795843573.0586977,
-    "BTC-USD": 1795842337.8315814,
-    "CRWD": 1795843573.0586977,
-    "ORCL": 1795842337.8315814,
-    "COIN": 1795842337.8315814,
-    "LLY": 1795842337.8315814,
-    "MRNA": 1795842337.8315814,
-    "NKE": 1795842439.903273,
-    "MCD": 1795842439.903273,
-    "PEP": 1795842439.903273,
-    "XOM": 1795842543.6874955,
-    "JPM": 1795842439.903273,
-    "WMT": 1795842543.6874955,
-    "V": 1795842439.903273,
-    "CAT": 1795842543.6874955,
-    "FN": 1795842439.903273,
-    "GLW": 1795842439.903273,
-    "ANT": 1795842543.6874955,
-    "XAUUSD": 1795842543.6874955,
-    "KOSPI": 1795843573.0586977
+    "KORU": 1795845113.869502,
+    "SOXL": 1795845113.869502,
+    "SPY": 1795845113.869502,
+    "DIA": 1795845113.869502,
+    "SOXX": 1795845113.869502,
+    "QQQ": 1795845113.869502,
+    "SMH": 1795845113.869502,
+    "IWM": 1795845113.869502,
+    "IGV": 1795845113.869502,
+    "TLT": 1795845113.869502,
+    "GLD": 1795845113.869502,
+    "SQQQ": 1795845113.869502,
+    "TSM": 1795845113.869502,
+    "VIXY": 1795845113.869502,
+    "SOXS": 1795845113.869502,
+    "NVDA": 1795845113.869502,
+    "AMD": 1795845113.869502,
+    "ASML": 1795845428.0078914,
+    "QCOM": 1795845428.0078914,
+    "AVGO": 1795845428.0078914,
+    "AMAT": 1795845428.0078914,
+    "META": 1795845428.0078914,
+    "GOOGL": 1795845428.0078914,
+    "MSFT": 1795845428.0078914,
+    "AAPL": 1795845428.0078914,
+    "PLTR": 1795845428.0078914,
+    "NOW": 1795845428.0078914,
+    "AMZN": 1795845428.0078914,
+    "CRWV": 1795845428.0078914,
+    "NBIS": 1795845428.0078914,
+    "APLD": 1795845428.0078914,
+    "VST": 1795845428.0078914,
+    "BE": 1795845428.0078914,
+    "CRDO": 1795845428.0078914,
+    "COHR": 1795845428.0078914,
+    "MRVL": 1795845428.0078914,
+    "LITE": 1795845529.4428515,
+    "AAOI": 1795845428.0078914,
+    "SPCX": 1795845529.4428515,
+    "ASTS": 1795845529.4428515,
+    "AXTI": 1795845529.4428515,
+    "NASA": 1795845529.4428515,
+    "LUNR": 1795845529.4428515,
+    "TSLA": 1795845529.4428515,
+    "AXP": 1795845529.4428515,
+    "RKLB": 1795845529.4428515,
+    "KO": 1795845529.4428515,
+    "FLY": 1795845529.4428515,
+    "INTC": 1795845529.4428515,
+    "VRT": 1795845529.4428515,
+    "HPE": 1795845529.4428515,
+    "DELL": 1795845529.4428515,
+    "OKLO": 1795845529.4428515,
+    "CEG": 1795845529.4428515,
+    "FPS": 1795845529.4428515,
+    "MU": 1795845113.869502,
+    "SKHY": 1795845113.869502,
+    "WDC": 1795845113.869502,
+    "STX": 1795845113.869502,
+    "MSTR": 1795845113.869502,
+    "SNDK": 1795845113.869502,
+    "BTC-USD": 1795845428.0078914,
+    "CRWD": 1795845113.869502,
+    "ORCL": 1795845428.0078914,
+    "COIN": 1795845428.0078914,
+    "LLY": 1795845428.0078914,
+    "MRNA": 1795845428.0078914,
+    "NKE": 1795845529.4428515,
+    "MCD": 1795845529.4428515,
+    "PEP": 1795845529.4428515,
+    "XOM": 1795845630.7810934,
+    "JPM": 1795845529.4428515,
+    "WMT": 1795845630.7810934,
+    "V": 1795845529.4428515,
+    "CAT": 1795845630.7810934,
+    "FN": 1795845529.4428515,
+    "GLW": 1795845529.4428515,
+    "ANT": 1795845630.7810934,
+    "XAUUSD": 1795845630.7810934,
+    "KOSPI": 1795845113.869502
   },
   "opex_shield": {
     "date": "2026-11-28",
